@@ -16,7 +16,7 @@ Jede Kategorie liegt in einem eigenen Ordner und hat eigene Produkte und einen R
   index.html          Produktübersicht
   ratgeber.html       Ratgeber
   products.js         Themen und Produktdaten der Kategorie
-/CNAME                eigene Domain für GitHub Pages (toptop.shop)
+/.github/workflows/    Deploy-Now-Workflows (automatisch angelegt)
 ```
 
 ## Amazon-Partner-Tag
@@ -48,13 +48,14 @@ python3 -m http.server 8000
 
 Dann http://localhost:8000 öffnen.
 
-## Veröffentlichen mit GitHub Pages unter toptop.shop
+## Veröffentlichung (IONOS Deploy Now)
 
-1. Repository → Settings → Pages → Branch auswählen → Ordner `/ (root)`.
-2. Unter „Custom domain“ `toptop.shop` eintragen (die Datei `CNAME` ist bereits vorhanden).
-3. Beim Domain-Anbieter die DNS-Einträge für GitHub Pages setzen
-   (A-Records für `toptop.shop` auf die GitHub-Pages-IPs, CNAME für `www` auf `guybrush1985.github.io`).
-4. „Enforce HTTPS“ aktivieren, sobald das Zertifikat bereit ist.
+Die Seite wird über **IONOS Deploy Now** veröffentlicht. Jeder Push auf `main` startet automatisch
+die Workflows in `.github/workflows/` (von Deploy Now angelegt – bitte nicht bearbeiten):
+Build-Schritt `echo …` (kein Build nötig), Output path `./`.
+Die Domain `toptop.shop` ist im Deploy-Now-Projekt verbunden.
+
+Die Datei `CNAME` wird nur von GitHub Pages genutzt und ist für Deploy Now ohne Bedeutung.
 
 ## Vor dem Livegang
 
