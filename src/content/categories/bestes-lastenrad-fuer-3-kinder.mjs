@@ -14,6 +14,7 @@ export default {
   metaDescription:
     "Die 3 besten E-Lastenräder für drei Kinder 2026: große Frontlader und Dreirad im Vergleich – plus Herstellerfreigaben, Sicherheit, Babboe-Rückruf und FAQ.",
 
+  riders: { adults: 1, kids: 3, label: "1 Erwachsener + 3 Kinder" },
   eyebrow: "Lastenräder · 3 Kinder",
   h1: "Die 3 besten Lastenräder für 3 Kinder 2026",
   lead:

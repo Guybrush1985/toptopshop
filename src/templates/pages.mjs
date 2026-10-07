@@ -1,11 +1,13 @@
 import { site, areas } from "../site.mjs";
 import { page, crumbs } from "./layout.mjs";
 import { esc, md, absUrl, dateDe } from "./util.mjs";
+import { ridersBadge } from "./icons.mjs";
 
 const pad = (n) => String(n).padStart(2, "0");
 
 function guideCard(cat) {
   return `<a class="guide" href="/${cat.slug}/">
+  ${cat.riders ? ridersBadge(cat.riders, { tone: "light", height: 30 }) : ""}
   <small>Top 3 · aktualisiert ${dateDe(cat.updated)}</small>
   <h3>${esc(cat.h1)}</h3>
   <ol>${cat.products.map((p) => `<li><span>${pad(p.rank)}</span><div><b>${esc(p.name)}</b><br><small>${esc(p.label)}</small></div></li>`).join("")}</ol>

@@ -2,6 +2,7 @@ import { site, areas } from "../site.mjs";
 import { page, crumbs } from "./layout.mjs";
 import { esc, md, productUrl, shopName, dateDe, scoreDe, absUrl, PRICE_TIERS } from "./util.mjs";
 import { productVisual } from "./visuals.mjs";
+import { ridersBadge } from "./icons.mjs";
 
 const pad = (n) => String(n).padStart(2, "0");
 
@@ -280,6 +281,7 @@ export function categoryPage(cat, all, readingMinutes) {
   <div class="wrap">
     ${crumbs(trail)}
     <span class="eyebrow">${esc(cat.eyebrow)}</span>
+    ${cat.riders ? `<div class="hero-riders">${ridersBadge(cat.riders, { tone: "dark", height: 40 })}</div>` : ""}
     <h1 id="h1">${esc(cat.h1)}</h1>
     <p class="lead">${md(cat.lead)}</p>
     <div class="meta">

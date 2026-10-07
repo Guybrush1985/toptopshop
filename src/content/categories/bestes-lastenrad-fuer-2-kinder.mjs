@@ -14,6 +14,7 @@ export default {
   metaDescription:
     "Die 3 besten E-Lastenräder für zwei Kinder 2026: Frontlader und Longtail im Vergleich – plus Zuladung berechnen, Bauformen, Wetterschutz und FAQ.",
 
+  riders: { adults: 1, kids: 2, label: "1 Erwachsener + 2 Kinder" },
   eyebrow: "Lastenräder · 2 Kinder",
   h1: "Die 3 besten Lastenräder für 2 Kinder 2026",
   lead:

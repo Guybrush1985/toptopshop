@@ -25,6 +25,7 @@ export default {
   metaDescription:
     "Die 3 besten E-Lastenräder für ein Kind 2026: kompakte Longtails im Vergleich – plus Tipps zu Alter, Babyschale, Rechtslage und Modellen, die mitwachsen.",
 
+  riders: { adults: 1, kids: 1, label: "1 Erwachsener + 1 Kind" },
   eyebrow: "Lastenräder · 1 Kind",
   h1: "Die 3 besten Lastenräder für 1 Kind 2026",
   lead:
