@@ -18,7 +18,7 @@ export const site = {
   // Awin-Partnerprogramme. publisherId = eigene Awin-Publisher-ID (awinaffid).
   // Ohne publisherId verlinken Produkte direkt auf den Shop (ohne Provision).
   awin: {
-    publisherId: "",
+    publisherId: "3117711",
     merchants: {
       radwelt: { name: "RADWELT-Shop", mid: 15088, domain: "radwelt-shop.de" },
       fahrradlagerverkauf: { name: "Fahrradlagerverkauf", mid: 39644, domain: "fahrradlagerverkauf.com" },
