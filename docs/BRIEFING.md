@@ -88,6 +88,9 @@ Mindestumfang je Kategorie: **≥ 1.000 Wörter** (nicht künstlich auffüllen),
 
 - **Bezugsquellen: ausschließlich Amazon (Partner-Tag `toptopshop-21`) oder Händler im Awin-Netzwerk
   (Publisher-ID `3117711`).**
+- **Priorität (Nutzer-Anweisung):** 1. Amazon, wann immer das Produkt dort eindeutig erhältlich ist –
+  2. sonst Awin-Händler, bei denen bereits eine Freischaltung besteht – 3. neue Awin-Händler nur nach
+  Rückfrage beim Nutzer (mit Bewerbungstext) oder ein gleichwertiges Produkt aus 1./2. wählen.
 - Für jedes Amazon-Produkt die exakte amazon.de-ASIN recherchieren (Regeln in `CLAUDE.md`).
 - Awin-Händler stehen in `src/site.mjs`; neue Händler nur mit aktivem Awin-Programm.
 - Affiliate-Links überall dort, wo Produkte genannt werden: Produktkarte, „Kurz gesagt“,
@@ -122,6 +125,8 @@ Mindestumfang je Kategorie: **≥ 1.000 Wörter** (nicht künstlich auffüllen),
 - 2026-10-07: Kinderhelme nicht als Top 5 genutzt – im Stiftung-Warentest-Test 04/2026 kein Helm „gut“.
 - 2026-10-07: Freie Fotos der konkreten Modelle gibt es nicht; geplant sind Bilder aus dem Awin-Produktfeed
   (Programmbedingungen prüfen), selbst gehostet.
+- 2026-10-07: Bezugsquellen-Priorität festgelegt: Amazon vor bestehenden Awin-Händlern vor neuen Awin-Händlern
+  (neue nur nach Rückfrage).
 - 2026-10-07: Awin-API-Token als Network Secret für `api.awin.com` hinterlegt (nur lesend nutzen).
   Vor neuen Awin-Produkten Freischaltungsstatus prüfen; Programme ohne Freischaltung dem Nutzer melden
   und Bewerbungstext vorschlagen. Bewerbungen schickt der Nutzer selbst ab.
