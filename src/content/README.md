@@ -78,6 +78,7 @@ In Texten funktionieren `**fett**` und `[Link](/pfad/)`.
 
 - **Keine erfundenen Fakten.** Herstellerangaben als solche kennzeichnen, Testergebnisse mit Quelle und Ausgabe nennen.
 - **Keine festen Preise** von Amazon im Text (Amazon-Richtlinien); Preisklassen sind erlaubt.
+- **Immer ASINs recherchieren:** Für jedes Produkt (Top 3 und Top 5) die passende amazon.de-ASIN eintragen. Nur eindeutige, aktive Listings übernehmen; sonst `query` mit exaktem Produktnamen belassen.
 - **Bewertungen sind redaktionelle Einschätzungen** – keine Labortests behaupten.
 - **Platz 1 muss die höchste Gesamtnote haben** (prüft der Build).
 - Gesundheitsthemen: zurückhaltend formulieren, auf ärztlichen Rat verweisen.
