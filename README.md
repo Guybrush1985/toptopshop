@@ -60,7 +60,7 @@ Die Datei `CNAME` wird nur von GitHub Pages genutzt und ist für Deploy Now ohne
 ## Vor dem Livegang
 
 - [x] Partner-Tag in `js/config.js` eintragen (`toptopshop-21`)
-- [ ] Impressum: Geschäftsführung, Registergericht, HRB-Nr., USt-IdNr. und V.i.S.d. § 18 MStV ergänzen
+- [x] Impressum und Datenschutzerklärung (TanMeOn GmbH)
 - [ ] Bei Amazon PartnerNet die Website `https://toptop.shop` hinterlegen
 - [ ] Optional: ASINs für konkrete Produkte ergänzen
 
