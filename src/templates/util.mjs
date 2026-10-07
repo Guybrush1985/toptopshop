@@ -19,10 +19,18 @@ export function md(text) {
   out = out.replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>");
   out = out.replace(/\[([^\]]+)\]\(([^)\s]+)\)/g, (_, label, href) => {
     const external = /^https?:\/\//.test(href);
+    // Affiliate-Links (Amazon, Awin) werden gekennzeichnet und als sponsored markiert.
+    if (isAffiliate(href)) {
+      return `<a href="${href}" target="_blank" rel="sponsored nofollow noopener">${label}</a>*`;
+    }
     const attrs = external ? ' target="_blank" rel="noopener"' : "";
     return `<a href="${href}"${attrs}>${label}</a>`;
   });
   return out;
+}
+
+export function isAffiliate(href) {
+  return /^https:\/\/(www\.amazon\.de|www\.awin1\.com)\//.test(href);
 }
 
 /** Amazon-Link mit Partner-Tag: Produktseite per ASIN oder Suche. */

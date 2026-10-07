@@ -5,7 +5,6 @@ ErrorDocument 404 /404.html
 Redirect 301 /impressum.html /impressum/
 Redirect 301 /datenschutz.html /datenschutz/
 Redirect 301 /braeunung/ratgeber.html /braeunung/
-Redirect 301 /braeunung/index.html /braeunung/
 
 <IfModule mod_expires.c>
   ExpiresActive On

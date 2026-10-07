@@ -17,7 +17,7 @@ export default {
   lead:
     "Schöne Bräune und echter Sonnenschutz schließen sich nicht aus. Wir zeigen die drei Sonnenöle, die beides am besten verbinden – und warum Öl ohne LSF keine gute Idee ist.",
   answer:
-    "Unsere beste Gesamtwahl ist das **PIZ BUIN Tan & Protect Sonnenöl-Spray LSF 30**, weil es soliden UVA- und UVB-Schutz mit einem bräunungsfördernden Wirkstoff und angenehmer Textur verbindet. Am günstigsten ist das **NIVEA SUN Sonnenölspray Schutz & Bräune LSF 30**; die Premium-Wahl mit dem höchsten Schutz ist das **Lancaster Sun Beauty Fast Tan Optimizer LSF 50**.",
+    "Unsere beste Gesamtwahl ist das [**PIZ BUIN Tan & Protect Sonnenöl-Spray LSF 30**](produkt:1), weil es soliden UVA- und UVB-Schutz mit einem bräunungsfördernden Wirkstoff und angenehmer Textur verbindet. Am günstigsten ist das [**NIVEA SUN Sonnenölspray Schutz & Bräune LSF 30**](produkt:2); die Premium-Wahl mit dem höchsten Schutz ist das [**Lancaster Sun Beauty Fast Tan Optimizer LSF 50**](produkt:3).",
 
   top3Title: "Unsere Top 3 Bräunungsöle mit LSF",
   top3Intro:
