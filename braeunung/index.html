@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bräunung & Tanning – Alles rund ums Braunwerden | toptop.shop</title>
+  <meta name="description" content="Bräunungsöle, Selbstbräuner, durchbräunende Bademode, Heimsolarien und Pflege – die besten Produkte rund ums Braunwerden im Überblick.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>☀️</text></svg>">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <div class="disclosure-bar">*Werbung: Diese Seite enthält Affiliate-Links. Als Amazon-Partner verdiene ich an qualifizierten Verkäufen.</div>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="../">toptop<span>.shop</span></a>
+      <button class="nav-toggle" aria-controls="site-nav" aria-expanded="false" aria-label="Menü öffnen">☰</button>
+      <nav class="site-nav" id="site-nav">
+        <a href="../">Alle Kategorien</a>
+        <a href="./" aria-current="page">Bräunung</a>
+        <a href="./#produkte">Produkte</a>
+        <a href="ratgeber.html">Ratgeber</a>
+      </nav>
+    </div>
+  </header>
+
+  <nav class="breadcrumb container" aria-label="Brotkrümelnavigation"><a href="../">toptop.shop</a> › Bräunung</nav>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h1>Bräunung: Alles rund ums Braunwerden ☀️</h1>
+        <p>Von Bräunungsöl über Selbstbräuner und durchbräunende Bademode bis zum Heimsolarium: Wir stellen dir die beliebtesten Produkte vor und zeigen, wie du sicher zu einer schönen Bräune kommst.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#produkte">Produkte entdecken</a>
+          <a class="btn btn-ghost" href="ratgeber.html">Zum Bräunungs-Ratgeber</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="themen">
+      <div class="container">
+        <div class="section-head">
+          <h2>Themen</h2>
+          <p>Wähle ein Thema, um die passenden Produkte zu sehen.</p>
+        </div>
+        <div class="category-grid" id="category-grid"></div>
+      </div>
+    </section>
+
+    <section id="produkte" class="alt">
+      <div class="container">
+        <div class="section-head">
+          <h2>Produkte</h2>
+          <p>Unsere Auswahl rund um Bräune, Schutz und Pflege. Aktuelle Preise und Bewertungen findest du direkt bei Amazon.</p>
+        </div>
+        <div class="toolbar">
+          <input class="search" id="product-search" type="search" placeholder="Produkte durchsuchen, z. B. „Bikini“ oder „Spray“" aria-label="Produkte durchsuchen">
+          <div class="filter-bar" id="filter-bar" role="group" aria-label="Nach Thema filtern"></div>
+        </div>
+        <div class="product-grid" id="product-grid"></div>
+        <p class="empty-state" id="empty-state" hidden>Keine Produkte gefunden. Versuche einen anderen Suchbegriff.</p>
+      </div>
+    </section>
+
+    <section id="ratgeber">
+      <div class="container">
+        <div class="section-head">
+          <h2>Ratgeber</h2>
+          <p>Wissen für eine schöne und gesunde Bräune.</p>
+        </div>
+        <div class="guide-grid">
+          <article class="guide-card">
+            <h3>🌞 Sicher bräunen in der Sonne</h3>
+            <p>Hauttyp, Eigenschutzzeit und Lichtschutzfaktor: So vermeidest du Sonnenbrand.</p>
+            <a href="ratgeber.html#sonne">Weiterlesen →</a>
+          </article>
+          <article class="guide-card">
+            <h3>✨ Selbstbräuner richtig auftragen</h3>
+            <p>Peeling, Handschuh, Einwirkzeit – so wird die Bräune streifenfrei.</p>
+            <a href="ratgeber.html#selbstbraeuner">Weiterlesen →</a>
+          </article>
+          <article class="guide-card">
+            <h3>👙 Durchbräunende Bademode</h3>
+            <p>Wie funktioniert Tan-Through-Stoff und worauf solltest du achten?</p>
+            <a href="ratgeber.html#kleidung">Weiterlesen →</a>
+          </article>
+          <article class="guide-card">
+            <h3>☀️ Solarium & Heimsolarium</h3>
+            <p>Regeln, Schutzbrille und passende Solariumkosmetik.</p>
+            <a href="ratgeber.html#solarium">Weiterlesen →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <nav class="footer-links">
+        <a href="ratgeber.html">Ratgeber</a>
+        <a href="../impressum.html">Impressum</a>
+        <a href="../datenschutz.html">Datenschutz</a>
+      </nav>
+      <p class="legal-note">*Die mit Sternchen gekennzeichneten Links sind Affiliate-Links. Als Amazon-Partner verdiene ich an qualifizierten Verkäufen. Für dich entstehen keine zusätzlichen Kosten. Amazon und das Amazon-Logo sind Warenzeichen von Amazon.com, Inc. oder eines seiner verbundenen Unternehmen.</p>
+      <p class="legal-note">Hinweis: Die Inhalte dieser Seite ersetzen keine ärztliche oder dermatologische Beratung.</p>
+      <p>© <span id="year"></span> <span data-site-name>toptop.shop</span></p>
+    </div>
+  </footer>
+
+  <script src="../js/config.js"></script>
+  <script src="products.js"></script>
+  <script src="../js/main.js"></script>
+</body>
+</html>

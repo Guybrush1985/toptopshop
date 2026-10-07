@@ -157,3 +157,9 @@ th { background: var(--surface-alt); }
 .footer-links { display: flex; flex-wrap: wrap; gap: 20px; }
 .footer-links a { color: var(--muted); }
 .legal-note { font-size: 0.82rem; }
+
+/* ---------- Brotkrümel & Startseite ---------- */
+.breadcrumb { padding-top: 14px; font-size: 0.88rem; color: var(--muted); }
+.breadcrumb a { color: var(--muted); }
+.category-tile--soon { opacity: 0.65; box-shadow: none; border-style: dashed; }
+.category-tile--soon:hover { transform: none; }

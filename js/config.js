@@ -7,5 +7,5 @@
 window.SITE_CONFIG = {
   AMAZON_PARTNER_TAG: "toptopshop-21",
   AMAZON_DOMAIN: "www.amazon.de",
-  SITE_NAME: "BronzeGuide",
+  SITE_NAME: "toptop.shop",
 };
