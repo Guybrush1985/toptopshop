@@ -25,7 +25,13 @@ und `src/content/README.md` (Content-Modell). Beides zuerst lesen.
 
 ## 3. Bezugsquelle je Produkt
 
-Nur **Amazon** oder **Awin-Händler** (siehe `CLAUDE.md`).
+Nur **Amazon** oder **Awin-Händler** (siehe `CLAUDE.md`). **Feste Reihenfolge je Produkt:**
+
+1. **Amazon zuerst prüfen.** Eindeutige, aktive ASIN gefunden → Amazon-Link, auch wenn es Awin-Angebote gibt.
+2. **Sonst Awin-Händler mit bestehender Freischaltung** (`joined` laut Awin-API bzw. schon in
+   `site.awin.merchants` genutzt).
+3. **Sonst nicht eigenmächtig neue Händler einbauen:** entweder ein gleichwertiges Produkt aus 1./2. wählen
+   (transparent begründen) oder dem Nutzer den neuen Awin-Händler mit Bewerbungstext vorschlagen und fragen.
 
 - **Amazon:** exakte amazon.de-ASIN suchen (WebSearch mit `allowed_domains: ["amazon.de"]`), nur eindeutige,
   aktive Listings. Kein Treffer → `query` mit exaktem Namen und dem Nutzer melden.

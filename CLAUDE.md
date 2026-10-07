@@ -8,6 +8,14 @@
 - Statische Seite, gebaut mit `node build.mjs` (Ausgabe `dist/`). Inhalte: `src/content/categories/*.mjs`,
   Content-Modell in `src/content/README.md`. Vor jedem Commit `node build.mjs` ausführen – der Build prüft
   Mindestinhalte, interne Links und Anker.
+- **Reihenfolge der Bezugsquellen (Anweisung des Nutzers, immer einhalten):**
+  1. **Amazon bevorzugt.** Ist das Produkt auf amazon.de mit eindeutiger, aktiver ASIN erhältlich, wird der
+     Amazon-Link verwendet – auch wenn es das Produkt zusätzlich bei Awin-Händlern gibt.
+  2. **Sonst ein Awin-Händler, bei dem der Nutzer bereits freigeschaltet ist** (Status `joined` laut Awin-API
+     bzw. bereits in `src/site.mjs` unter `awin.merchants` genutzt).
+  3. **Erst wenn beides nicht geht:** einen neuen Awin-Händler vorschlagen – nicht selbst einbauen, sondern
+     den Nutzer fragen und einen Bewerbungstext liefern. Alternativ ein gleichwertiges Produkt wählen, das
+     über 1. oder 2. erhältlich ist, und das transparent begründen.
 - **Amazon-Links: Für jedes Produkt (Top 3 und Top 5) immer die passende ASIN auf amazon.de recherchieren**
   und als `asin` eintragen. Dabei:
   - nur ASINs aus amazon.de-Produktseiten (`/dp/…`) übernehmen, deren Titel genau zum Produkt passt
