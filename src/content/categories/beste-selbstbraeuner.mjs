@@ -60,6 +60,7 @@ export default {
         farbtiefen: "Light/Medium bis Dark, plus Express",
         besonderheit: "Express-Variante für schnelle Ergebnisse",
       },
+      asin: "B013WVAHJ2",
       query: "Bondi Sands Self Tanning Foam",
     },
     {
@@ -87,6 +88,7 @@ export default {
         farbtiefen: "Medium, Dark",
         besonderheit: "Sehr niedriger Preis pro Anwendung",
       },
+      asin: "B0B34XB786",
       query: "St. Moriz Professional Mousse Selbstbräuner",
     },
     {
@@ -114,6 +116,7 @@ export default {
         farbtiefen: "Classic, weitere Varianten im Sortiment",
         besonderheit: "Besonders gleichmäßiges Ergebnis",
       },
+      asin: "B0027UY3IG",
       query: "St. Tropez Self Tan Classic Bronzing Mousse",
     },
   ],
@@ -222,11 +225,11 @@ export default {
     intro:
       "Die Gesichtshaut ist dünner, empfindlicher und oft zu Unreinheiten geneigt. Diese fünf Produkte sind speziell für das Gesicht gemacht oder lassen sich dort besonders fein dosieren.",
     items: [
-      { name: "Tan-Luxe The Face Illuminating Self-Tan Drops", for: "Fein dosierbar", text: "Tropfen zum Mischen mit der eigenen Pflege. Laut Hersteller mit Himbeersamenöl, Vitamin E und Aloe Vera; die Farbe entwickelt sich innerhalb weniger Stunden. Enthält Alkohol und Parfüm – bei sehr empfindlicher Haut vorher testen.", query: "Tan-Luxe The Face Self-Tan Drops" },
-      { name: "Isle of Paradise Self-Tanning Drops", for: "Gegen Rötungen & Fahlheit", text: "Die Farbtöne sind farbkorrigierend aufgebaut: Grün-, Violett- und Pfirsichbasen sollen Rötungen, fahle oder orange Töne ausgleichen. Die Intensität steuerst du über die Anzahl der Tropfen.", query: "Isle of Paradise Self Tanning Drops" },
-      { name: "Bondi Sands Gradual Tan Face Lotion", for: "Sanft & täglich", text: "Feuchtigkeitscreme mit leichtem Bräunungseffekt, die sich über mehrere Anwendungen aufbaut. Ideal für helle Haut und alle, die eine kaum merkliche Veränderung wollen.", query: "Bondi Sands Gradual Tan Face Lotion" },
-      { name: "Clarins Self Tanning Booster fürs Gesicht", for: "Premium-Pflege", text: "Konzentrat aus der Pflegeserie von Clarins, das in die gewohnte Gesichtspflege gegeben wird – für alle, die ihre Routine nicht umstellen möchten.", query: "Clarins Selbstbräuner Booster Gesicht" },
-      { name: "Bondi Sands Gradual Tanning Lotion Tinted Skin Perfector", for: "Gesicht & Körper", text: "Getönte, graduelle Lotion mit Sofort-Effekt für einen gleichmäßigen Glow – gut geeignet, wenn Gesicht und Körper denselben Ton bekommen sollen.", query: "Bondi Sands Gradual Tanning Lotion Tinted Skin Perfector" },
+      { name: "Tan-Luxe The Face Illuminating Self-Tan Drops", for: "Fein dosierbar", text: "Tropfen zum Mischen mit der eigenen Pflege. Laut Hersteller mit Himbeersamenöl, Vitamin E und Aloe Vera; die Farbe entwickelt sich innerhalb weniger Stunden. Enthält Alkohol und Parfüm – bei sehr empfindlicher Haut vorher testen.", query: "Tan-Luxe The Face Self-Tan Drops", asin: "B01F487V5Y" },
+      { name: "Isle of Paradise Self-Tanning Drops", for: "Gegen Rötungen & Fahlheit", text: "Die Farbtöne sind farbkorrigierend aufgebaut: Grün-, Violett- und Pfirsichbasen sollen Rötungen, fahle oder orange Töne ausgleichen. Die Intensität steuerst du über die Anzahl der Tropfen.", query: "Isle of Paradise Self Tanning Drops", asin: "B07D7XDHWD" },
+      { name: "Bondi Sands Gradual Tan Face Lotion", for: "Sanft & täglich", text: "Feuchtigkeitscreme mit leichtem Bräunungseffekt, die sich über mehrere Anwendungen aufbaut. Ideal für helle Haut und alle, die eine kaum merkliche Veränderung wollen.", query: "Bondi Sands Gradual Tan Face Lotion", asin: "B0BN426GYQ" },
+      { name: "Clarins Self Tanning Addition Concentré Éclat", for: "Premium-Pflege", text: "Selbstbräunungskonzentrat, das tropfenweise in die gewohnte Gesichtspflege gegeben wird – für alle, die ihre Routine nicht umstellen möchten. Käufer loben vor allem, dass der typische Selbstbräuner-Geruch kaum auffällt.", query: "Clarins Addition Concentré Eclat Selbstbräuner", asin: "B00J9UR64U" },
+      { name: "Bondi Sands Gradual Tanning Lotion Tinted Skin Perfector", for: "Gesicht & Körper", text: "Getönte, graduelle Lotion mit Sofort-Effekt für einen gleichmäßigen Glow – gut geeignet, wenn Gesicht und Körper denselben Ton bekommen sollen.", query: "Bondi Sands Gradual Tanning Lotion Tinted Skin Perfector", asin: "B0BGMRJRTQ" },
     ],
   },
 

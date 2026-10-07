@@ -17,11 +17,11 @@ export default {
   lead:
     "Nach dem Sonnenbad braucht die Haut Feuchtigkeit und Ruhe – keine Wundermittel. Wir zeigen die drei Produkte, die das am besten leisten, und was After-Sun wirklich kann.",
   answer:
-    "Unsere beste Gesamtwahl ist die **Lavera After Sun Lotion**, weil sie im aktuellen Öko-Test (Heft 07/2026) mit „sehr gut“ abgeschnitten hat, vegan ist und gut pflegt. Am günstigsten pflegt die **Speick Sun After Sun Lotion**; für empfindliche, zu Sonnenallergie neigende Haut empfehlen wir die **Eucerin After Sun Sensitive Relief Gel-Creme**.",
+    "Unsere beste Gesamtwahl ist die **Lavera After Sun Lotion**, weil sie im aktuellen Öko-Test (Heft 07/2026) mit „sehr gut“ abgeschnitten hat, vegan ist und gut pflegt. Für empfindliche, zu Sonnenallergie neigende Haut empfehlen wir die **Eucerin After Sun Sensitive Relief Gel-Creme**, als Premium-Wahl das **Dr. Hauschka After Sun**.",
 
   top3Title: "Unsere Top 3 After-Sun-Produkte",
   top3Intro:
-    "Zwei Lotionen mit sehr guten Testergebnissen und eine kühlende Gel-Creme für empfindliche Haut.",
+    "Eine sehr gut getestete Lotion für alle, eine kühlende Gel-Creme für empfindliche Haut und eine Premium-Naturkosmetik.",
   comparisonTitle: "Die 3 besten After-Sun-Produkte im Vergleich",
 
   criteria: [
@@ -43,44 +43,23 @@ export default {
       variant: "200 ml",
       visual: { kind: "gel", tone: "forest" },
       priceTier: 1,
-      ratings: { beruhigung: 8.5, pflege: 9.0, inhalt: 9.5, preis: 8.5 },
+      ratings: { beruhigung: 8.5, pflege: 9.0, inhalt: 9.5, preis: 9.0 },
       bestFor: "die meisten Hauttypen",
       verdict:
-        "Die beste Wahl für die meisten: zertifizierte Naturkosmetik, vegan und im aktuellen After-Sun-Test von Öko-Test mit „sehr gut“ bewertet.",
+        "Die beste Wahl für die meisten: zertifizierte Naturkosmetik, vegan, im aktuellen After-Sun-Test von Öko-Test mit „sehr gut“ bewertet – und dabei günstig.",
       features: [
         "Testurteil „sehr gut“ im After-Sun-Test von Öko-Test, Heft 07/2026 (laut Berichterstattung)",
         "Zertifizierte Naturkosmetik, vegan zertifiziert",
-        "Leichte Lotion für Gesicht und Körper",
+        "Leichte, kühlende Lotion mit 24-Stunden-Feuchtigkeit (Herstellerangabe)",
       ],
-      pros: ["Sehr gutes Testergebnis bei den Inhaltsstoffen", "Fairer Preis für Naturkosmetik", "Angenehm leichte Textur"],
+      pros: ["Sehr gutes Testergebnis bei den Inhaltsstoffen", "Günstiger Preis pro Milliliter", "Angenehm leichte Textur"],
       cons: ["Als Lotion weniger kühlend als ein reines Gel", "Keine Spezialpflege für Sonnenallergie-Neigung"],
-      specs: { textur: "Lotion", test: "Öko-Test „sehr gut“ (07/2026)", naturkosmetik: "Ja, vegan zertifiziert", besonderheit: "Testsieger zum fairen Preis" },
+      specs: { textur: "Lotion", test: "Öko-Test „sehr gut“ (07/2026)", naturkosmetik: "Ja, vegan zertifiziert", besonderheit: "Testsieger zum kleinen Preis" },
+      asin: "B0DTJ98QGD",
       query: "Lavera After Sun Lotion",
     },
     {
       rank: 2,
-      label: "Bestes Preis-Leistungs-Verhältnis",
-      name: "Speick Sun After Sun Lotion",
-      brand: "Speick",
-      variant: "200 ml",
-      visual: { kind: "gel", tone: "mint" },
-      priceTier: 1,
-      ratings: { beruhigung: 7.5, pflege: 8.5, inhalt: 9.0, preis: 9.5 },
-      bestFor: "Preisbewusste & Naturkosmetik-Fans",
-      verdict:
-        "Das beste Preis-Leistungs-Verhältnis: günstige Naturkosmetik-Lotion, die in mehreren Öko-Tests mit „sehr gut“ bewertet wurde.",
-      features: [
-        "In den After-Sun-Tests von Öko-Test 2019 und 2021 jeweils mit „sehr gut“ bewertet (laut Hersteller)",
-        "Zertifizierte Naturkosmetik ohne Parfüm",
-        "Großes Gebinde zu niedrigem Preis",
-      ],
-      pros: ["Ohne Parfüm – gut bei empfindlicher Nase und Haut", "Sehr günstig", "Mehrfach sehr gut getestet"],
-      cons: ["Kühlt weniger stark als Gele", "Testergebnisse stammen aus 2019 und 2021"],
-      specs: { textur: "Lotion", test: "Öko-Test „sehr gut“ (2019, 2021)", naturkosmetik: "Ja, ohne Parfüm", besonderheit: "Sehr günstig" },
-      query: "Speick Sun After Sun Lotion",
-    },
-    {
-      rank: 3,
       label: "Beste Wahl für empfindliche Haut",
       name: "Eucerin After Sun Sensitive Relief Gel-Creme",
       brand: "Eucerin",
@@ -93,13 +72,37 @@ export default {
         "Für empfindliche Haut: kühlende Gel-Creme aus der Apotheke, die laut Hersteller speziell für sensible und zu Sonnenallergie neigende Haut entwickelt wurde.",
       features: [
         "Mit Licochalcone A und Glycyrrhetinsäure zur Beruhigung (Herstellerangabe)",
-        "Für Gesicht und Körper",
+        "Für Gesicht und Körper, laut Hersteller auch für Kinder ab 3 Jahren",
         "Kühlende, nicht fettende Gel-Creme-Textur",
       ],
       pros: ["Spürbar kühlend", "Zieht schnell ein, klebt nicht", "Speziell für empfindliche Haut"],
       cons: ["Teurer als Drogerie-Lotionen", "Angaben zum Duft unterscheiden sich je nach Händler – Packung prüfen"],
       specs: { textur: "Gel-Creme", test: "Uns liegt kein aktuelles Testurteil vor", naturkosmetik: "Nein (Apothekenkosmetik)", besonderheit: "Für sensible Haut & Sonnenallergie" },
+      asin: "B08Z3CV1Y1",
       query: "Eucerin After Sun Sensitive Relief Gel-Creme",
+    },
+    {
+      rank: 3,
+      label: "Premium-Wahl",
+      name: "Dr. Hauschka After Sun",
+      brand: "Dr. Hauschka",
+      variant: "150 ml",
+      visual: { kind: "gel", tone: "mint" },
+      priceTier: 3,
+      ratings: { beruhigung: 8.0, pflege: 9.0, inhalt: 9.0, preis: 6.0 },
+      bestFor: "Naturkosmetik-Fans mit Anspruch",
+      verdict:
+        "Für alle, die zu einer Premium-Naturkosmetik greifen möchten: reichhaltige Pflegelotion, die in einer früheren Öko-Test-Untersuchung mit „sehr gut“ bewertet wurde.",
+      features: [
+        "Laut Hersteller mit Extrakten aus Mittagsblume, Quittensamen, Karotte und Hagebutte",
+        "Unterstützt laut Hersteller die hauteigene Feuchtigkeit",
+        "In einer früheren After-Sun-Untersuchung von Öko-Test mit „sehr gut“ bewertet",
+      ],
+      pros: ["Sehr pflegend", "Etablierte Naturkosmetik-Marke", "Gut für trockene Haut nach dem Urlaub"],
+      cons: ["Deutlich teurer pro Milliliter", "Kleineres Gebinde", "Bisher wenige Bewertungen auf Amazon"],
+      specs: { textur: "Lotion", test: "Öko-Test „sehr gut“ (frühere Untersuchung)", naturkosmetik: "Ja", besonderheit: "Reichhaltige Premium-Pflege" },
+      asin: "B0B2WLPW3S",
+      query: "Dr. Hauschka After Sun Lotion",
     },
   ],
 
@@ -116,7 +119,7 @@ export default {
       file: "beste-after-sun-produkte-2026-bewertung-vergleich.svg",
       title: "Die 3 besten After-Sun-Produkte 2026",
       alt: "Balkendiagramm: Bewertung der drei besten After-Sun-Produkte 2026 in den Kriterien Beruhigung, Pflege, Inhaltsstoffe und Preis-Leistung",
-      caption: "Unsere Bewertung je Kriterium. Lavera führt bei den Inhaltsstoffen, Speick beim Preis, Eucerin bei der Kühlung.",
+      caption: "Unsere Bewertung je Kriterium. Lavera führt bei Inhaltsstoffen und Preis, Eucerin bei der Kühlung, Dr. Hauschka bei der Pflege.",
     },
     steps: {
       kind: "steps",
@@ -144,7 +147,7 @@ export default {
         id: "beste-after-sun",
         h2: "Welche After-Sun-Produkte sind aktuell die besten?",
         blocks: [
-          { quick: "Das beste After-Sun-Produkt für die meisten ist die **Lavera After Sun Lotion**: vegan, mit sehr gutem Öko-Test-Ergebnis und fairem Preis. Am günstigsten ist die **Speick Sun After Sun Lotion**, für empfindliche Haut die **Eucerin After Sun Sensitive Relief Gel-Creme**." },
+          { quick: "Das beste After-Sun-Produkt für die meisten ist die **Lavera After Sun Lotion**: vegan, mit sehr gutem Öko-Test-Ergebnis und fairem Preis. Für empfindliche Haut empfehlen wir die **Eucerin After Sun Sensitive Relief Gel-Creme**, als Premium-Wahl das **Dr. Hauschka After Sun**." },
           { first: "After-Sun-Produkte sind im Kern Feuchtigkeitspflege mit kühlender oder beruhigender Wirkung. Sonne, Wind, Salz- und Chlorwasser trocknen die Haut aus; eine gute Lotion gleicht diesen Verlust aus, macht die Haut geschmeidig und sorgt dafür, dass sie sich weniger schält. Das ist auch der Grund, warum gepflegte Bräune länger hält: Sie verschwindet nicht mit der abschuppenden Hornschicht." },
           { p: "Was After-Sun nicht kann: Sonnenschäden rückgängig machen. Hat die Haut zu viel UV-Strahlung abbekommen, ist der Schaden in den Zellen entstanden – kein Produkt kann ihn nachträglich reparieren. Öko-Test weist seit Jahren darauf hin, dass After-Sun vor allem einen kosmetischen Effekt hat und eine gewöhnliche Feuchtigkeitslotion oft ähnlich gut pflegt." },
           { p: "Warum dann überhaupt ein spezielles Produkt? Weil gute After-Sun-Lotionen leicht sind, schnell einziehen, oft kühlend wirken und auf Zusätze verzichten, die gereizte Haut zusätzlich belasten. Genau dort trennt sich die Spreu vom Weizen: Im aktuellen Test von Öko-Test (Heft 07/2026) fielen zwei bekannte Markenprodukte wegen polyzyklischer Moschus-Duftstoffe durch, während mehrere günstige Lotionen mit „sehr gut“ abschnitten." },
@@ -159,7 +162,7 @@ export default {
         blocks: [
           { quick: "Achte auf gute Testergebnisse bei den Inhaltsstoffen, eine leichte, schnell einziehende Textur und – bei empfindlicher Haut – auf möglichst wenig Duftstoffe." },
           { h3: "Inhaltsstoffe: weniger ist mehr" },
-          { p: "Gereizte Haut reagiert empfindlicher als sonst. Problematisch sind vor allem bestimmte synthetische Duftstoffe wie polyzyklische Moschusverbindungen, die sich im Körper anreichern können und in Tests regelmäßig zu Abwertungen führen. Wer ganz sichergehen will, wählt ein parfümfreies Produkt wie die Speick Sun After Sun Lotion." },
+          { p: "Gereizte Haut reagiert empfindlicher als sonst. Problematisch sind vor allem bestimmte synthetische Duftstoffe wie polyzyklische Moschusverbindungen, die sich im Körper anreichern können und in Tests regelmäßig zu Abwertungen führen. Wer ganz sichergehen will, wählt ein parfümfreies Produkt wie das Ladival Après Pflege-Gel für allergische Haut." },
           { h3: "Lotion, Gel oder Gel-Creme?" },
           {
             table: {
@@ -187,8 +190,8 @@ export default {
           {
             cards: [
               { title: "Alltag & Urlaub", text: "Eine leichte, sehr gut getestete Lotion für jeden Tag. Unsere Wahl: Lavera After Sun Lotion.", link: { href: "#platz-1", label: "Zur Empfehlung" } },
-              { title: "Kleines Budget", text: "Parfümfrei, mehrfach sehr gut getestet und sehr günstig: Speick Sun After Sun Lotion.", link: { href: "#platz-2", label: "Zur Empfehlung" } },
-              { title: "Empfindliche Haut", text: "Kühlende Gel-Creme für sensible, zu Sonnenallergie neigende Haut: Eucerin Sensitive Relief.", link: { href: "#platz-3", label: "Zur Empfehlung" } },
+              { title: "Kleines Budget", text: "Unsere Gesamtwahl ist zugleich eine der günstigsten: Lavera After Sun Lotion.", link: { href: "#platz-1", label: "Zur Empfehlung" } },
+              { title: "Empfindliche Haut", text: "Kühlende Gel-Creme für sensible, zu Sonnenallergie neigende Haut: Eucerin Sensitive Relief.", link: { href: "#platz-2", label: "Zur Empfehlung" } },
               { title: "Drogerie-Testsieger", text: "Die günstigsten sehr gut getesteten Lotionen gibt es als Eigenmarken bei dm, Rossmann und Rewe.", link: { href: "#top5-alternativen", label: "Zur Top 5" } },
               { title: "Vor dem Sonnenbad", text: "Der beste Schutz vor gestresster Haut ist ein Sonnenöl oder eine Creme mit ausreichendem LSF.", link: { href: "/beste-braeunungsoele/", label: "Bräunungsöle mit LSF" } },
               { title: "Bräune ohne Sonne", text: "Wer die Haut schonen möchte, baut Bräune mit Selbstbräuner auf.", link: { href: "/beste-selbstbraeuner/", label: "Die besten Selbstbräuner" } },
@@ -208,8 +211,8 @@ export default {
       { name: "Sundance After Sun Lotion", for: "Günstigster Testsieger", text: "Laut Berichterstattung zum Öko-Test (Heft 07/2026) mit „sehr gut“ bewertet – für rund 1,25 Euro pro 200 ml (Preis zum Testzeitpunkt).", where: "Nur bei dm" },
       { name: "Today Sun Intensivpflege Lotion After Sun", for: "Supermarkt-Tipp", text: "Ebenfalls mit „sehr gut“ bewertet (Öko-Test 07/2026) und mit rund 1,33 Euro pro 200 ml zum Testzeitpunkt sehr günstig.", where: "Nur bei Rewe" },
       { name: "Alterra Après Sun Lotion", for: "Vegane Naturkosmetik", text: "Vegan zertifizierte Naturkosmetik, laut Berichterstattung im Öko-Test 07/2026 mit „sehr gut“ bewertet; rund 3,49 Euro pro 200 ml zum Testzeitpunkt.", where: "Nur bei Rossmann" },
-      { name: "Ladival Après Pflege-Gel für allergische Haut", for: "Neigung zu Sonnenallergie", text: "Kühlendes Gel speziell für zu Sonnenallergie neigende Haut; in einem früheren Öko-Test mit „gut“ bewertet.", query: "Ladival Apres Pflege Gel allergische Haut" },
-      { name: "Dr. Hauschka After Sun", for: "Premium-Naturkosmetik", text: "Pflegende Naturkosmetik-Lotion, die in einer früheren Öko-Test-Untersuchung mit „sehr gut“ bewertet wurde – für alle, die zu einer Premium-Marke greifen möchten.", query: "Dr. Hauschka After Sun Lotion" },
+      { name: "Ladival Après Pflege-Gel für allergische Haut", for: "Neigung zu Sonnenallergie", text: "Kühlendes Gel speziell für zu Sonnenallergie neigende Haut, laut Hersteller ohne Parfüm, Farb- und Konservierungsstoffe; in einem früheren Öko-Test mit „gut“ bewertet.", query: "Ladival Apres Pflege Gel allergische Haut", asin: "B0DVXJD2D1" },
+      { name: "Speick Sun After Sun Lotion", for: "Mit Ectoin & Bio-Aloe", text: "Naturkosmetik-Lotion mit Bio-Aloe-Vera und Ectoin, laut Hersteller in den Öko-Tests 2019 und 2021 mit „sehr gut“ bewertet. Frei von synthetischen Duftstoffen – der Duft stammt aus natürlichen Extrakten.", query: "Speick Sun After Sun Lotion", asin: "B07NRXPWVC" },
     ],
   },
 
@@ -247,7 +250,7 @@ export default {
   },
 
   faqs: [
-    { q: "Welches After-Sun-Produkt ist aktuell das beste?", a: "Unsere beste Gesamtwahl ist die Lavera After Sun Lotion: Sie wurde im After-Sun-Test von Öko-Test (Heft 07/2026) laut Berichterstattung mit „sehr gut“ bewertet, ist vegan und hat einen fairen Preis. Am günstigsten ist die Speick Sun After Sun Lotion, für empfindliche Haut die Eucerin After Sun Sensitive Relief Gel-Creme." },
+    { q: "Welches After-Sun-Produkt ist aktuell das beste?", a: "Unsere beste Gesamtwahl ist die Lavera After Sun Lotion: Sie wurde im After-Sun-Test von Öko-Test (Heft 07/2026) laut Berichterstattung mit „sehr gut“ bewertet, ist vegan und hat einen fairen Preis. Für empfindliche Haut empfehlen wir die Eucerin After Sun Sensitive Relief Gel-Creme, als Premium-Wahl das Dr. Hauschka After Sun." },
     { q: "Braucht man überhaupt ein spezielles After-Sun-Produkt?", a: "Nicht zwingend. After-Sun-Produkte sind vor allem Feuchtigkeitspflege; eine leichte, gut verträgliche Bodylotion pflegt oft ähnlich gut. Der Vorteil spezieller Produkte liegt in der leichten, oft kühlenden Textur und im Verzicht auf Stoffe, die gereizte Haut belasten." },
     { q: "Hilft After-Sun gegen Sonnenbrand?", a: "After-Sun kann gerötete Haut kühlen und beruhigen, die Schäden durch UV-Strahlung aber nicht rückgängig machen. Bei starkem Sonnenbrand mit Blasen, Fieber oder Übelkeit solltest du ärztlichen Rat einholen." },
     { q: "Hält die Bräune mit After-Sun länger?", a: "Ja, indirekt. Gut gepflegte Haut schält sich weniger. Da die Bräune in den oberen Hautschichten sitzt, verschwindet sie langsamer, wenn diese Schichten nicht abschuppen." },
