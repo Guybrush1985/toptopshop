@@ -137,7 +137,9 @@ section { padding: 56px 0; scroll-margin-top: 64px; }
 .guide-card h3 { margin-top: 0; }
 .guide-card p { color: var(--muted); }
 
-.article { max-width: 760px; }
+.article { max-width: 760px; overflow-wrap: break-word; hyphens: auto; }
+.article a { overflow-wrap: anywhere; }
+.article h1 { font-size: clamp(1.8rem, 7vw, 2.4rem); line-height: 1.2; }
 .article h2 { margin-top: 48px; scroll-margin-top: 80px; }
 .article ul, .article ol { padding-left: 1.2em; }
 .article li { margin-bottom: 6px; }
