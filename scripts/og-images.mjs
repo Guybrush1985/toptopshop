@@ -8,6 +8,7 @@ import { join, dirname } from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
 import { chromium } from "playwright";
 import { site } from "../src/site.mjs";
+import { logoSvg } from "../src/templates/logo.mjs";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 const OUT = join(ROOT, "src", "static", "og");
@@ -19,16 +20,17 @@ function html({ kicker, title, sub }) {
   return `<!doctype html><html><head><style>
 @font-face{font-family:F;src:url(${SERIF});font-weight:300 900}
 @font-face{font-family:I;src:url(${SANS});font-weight:300 800}
+@font-face{font-family:Inter;src:url(${SANS});font-weight:300 800}
 *{margin:0;box-sizing:border-box}
 body{width:1200px;height:630px;background:#253D2C;color:#fff;font-family:I;padding:72px 80px;position:relative;overflow:hidden}
 body::after{content:"";position:absolute;right:-180px;top:-220px;width:640px;height:640px;border-radius:50%;background:radial-gradient(circle,rgba(104,186,127,.45),transparent 65%)}
-.logo{font:600 40px/1 F;letter-spacing:-.02em}.logo b{color:#68BA7F;font-weight:600}
-.k{margin-top:96px;font-weight:700;font-size:22px;letter-spacing:.16em;text-transform:uppercase;color:#68BA7F}
+.logo{margin-left:-10px}.logo svg{display:block}
+.k{margin-top:72px;font-weight:700;font-size:22px;letter-spacing:.16em;text-transform:uppercase;color:#68BA7F}
 h1{margin-top:18px;font:500 76px/1.02 F;letter-spacing:-.035em;max-width:900px}
 p{position:absolute;left:80px;bottom:64px;font-size:26px;color:#CFFFDC}
 .dots{position:absolute;right:80px;bottom:64px;display:flex;gap:14px}
 .dots span{width:64px;height:64px;border-radius:50%;display:grid;place-items:center;font:500 30px F;background:#CFFFDC;color:#253D2C}
-</style></head><body><div class="logo">toptop<b>.shop</b></div><div class="k">${kicker}</div><h1>${title}</h1><p>${sub}</p>
+</style></head><body><div class="logo">${logoSvg({ height: 60 })}</div><div class="k">${kicker}</div><h1>${title}</h1><p>${sub}</p>
 <div class="dots"><span>1</span><span>2</span><span>3</span></div></body></html>`;
 }
 

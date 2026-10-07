@@ -1,5 +1,6 @@
 import { site, areas } from "../site.mjs";
 import { esc, absUrl } from "./util.mjs";
+import { logoSvg } from "./logo.mjs";
 
 let CSS = "";
 export function setCss(css) {
@@ -45,6 +46,7 @@ export function organizationLd() {
       addressLocality: o.city,
       addressCountry: o.country,
     },
+    logo: absUrl("/logo.svg"),
     brand: { "@type": "Brand", name: site.name },
   };
 }
@@ -68,7 +70,7 @@ function header(current) {
   return `<a class="skip" href="#inhalt">Zum Inhalt springen</a>
 <div class="ad-note">Werbung: Links mit * sind Affiliate-Links (Amazon und Partnershops). Als Amazon-Partner verdiene ich an qualifizierten Verkäufen.</div>
 <header class="top"><div class="wrap">
-  <a class="logo" href="/" aria-label="toptop.shop – Startseite">toptop<b>.shop</b></a>
+  <a class="logo" href="/" aria-label="toptop.shop – Startseite">${logoSvg({ height: 46 })}</a>
   <nav class="nav" aria-label="Hauptnavigation">${links
     .map(
       (l) =>
@@ -83,7 +85,7 @@ function footer(categories) {
   return `<footer class="foot"><div class="wrap">
   <div class="cols">
     <div>
-      <a class="logo" href="/">toptop<b>.shop</b></a>
+      <a class="logo" href="/" aria-label="toptop.shop – Startseite">${logoSvg({ height: 54 })}</a>
       <p>${esc(site.claim)} Wir reduzieren jede Kategorie auf drei Empfehlungen – und erklären ausführlich, warum.</p>
     </div>
     <div>
