@@ -30,7 +30,37 @@ export function md(text) {
 }
 
 export function isAffiliate(href) {
-  return /^https:\/\/(www\.amazon\.de|www\.awin1\.com)\//.test(href);
+  let host;
+  try {
+    host = new URL(href).hostname.replace(/^www\./, "");
+  } catch {
+    return false;
+  }
+  const shops = Object.values(site.awin.merchants).map((m) => m.domain);
+  return ["amazon.de", "awin1.com", ...shops].includes(host);
+}
+
+/** Ziel-URL eines Produkts: Awin-Deeplink für Partnershops, sonst Amazon. */
+export function productUrl(p) {
+  if (p.shop) {
+    const m = site.awin.merchants[p.shop];
+    if (!m) throw new Error(`Unbekannter Shop "${p.shop}" bei ${p.name}`);
+    if (!p.url || new URL(p.url).hostname.replace(/^www\./, "") !== m.domain) {
+      throw new Error(`Produkt-URL von ${p.name} passt nicht zu ${m.name}`);
+    }
+    if (!site.awin.publisherId) return p.url;
+    const u = new URL("https://www.awin1.com/cread.php");
+    u.searchParams.set("awinmid", m.mid);
+    u.searchParams.set("awinaffid", site.awin.publisherId);
+    u.searchParams.set("ued", p.url);
+    return u.toString();
+  }
+  return amazonUrl(p);
+}
+
+/** Anzeigename des Shops für Buttons. */
+export function shopName(p) {
+  return p.shop ? site.awin.merchants[p.shop].name : "Amazon";
 }
 
 /** Amazon-Link mit Partner-Tag: Produktseite per ASIN oder Suche. */

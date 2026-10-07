@@ -60,8 +60,51 @@ function shapes(kind, t) {
   }
 }
 
+// Fahrräder: Rückgabe { svg, label: [x, y, w, h] } für das Markenschild.
+function wheel(cx, cy, r, t) {
+  return `<circle cx="${cx}" cy="${cy}" r="${r}" fill="none" stroke="${C.forest}" stroke-width="7"/><circle cx="${cx}" cy="${cy}" r="5" fill="${t.cap}"/>`;
+}
+
+function bike(kind, t) {
+  const frame = t.body === C.white ? C.green : t.body;
+  const line = (pts) => `<polyline points="${pts}" fill="none" stroke="${frame}" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>`;
+  const seat = (x, y) => `<rect x="${x - 18}" y="${y - 6}" width="36" height="10" rx="5" fill="${C.forest}"/>`;
+  const bars = (x, y) => `<path d="M${x - 14} ${y} H${x + 14}" stroke="${C.forest}" stroke-width="7" stroke-linecap="round"/>`;
+  if (kind === "longtail") {
+    return {
+      svg: `${wheel(84, 270, 36, t)}${wheel(246, 270, 36, t)}
+        ${line("84,270 130,214 214,214 246,270")}${line("214,214 226,160")}${line("130,214 124,176")}
+        ${seat(124, 172)}${bars(226, 158)}
+        <rect x="44" y="200" width="104" height="10" rx="5" fill="${frame}"/>
+        <rect x="58" y="146" width="56" height="54" rx="14" fill="${t.cap}"/>
+        <rect x="60" y="214" width="40" height="34" rx="6" fill="${t.body}" opacity=".5"/>`,
+      label: [140, 226, 70, 0],
+    };
+  }
+  if (kind === "trike") {
+    return {
+      svg: `${wheel(72, 284, 26, t)}${wheel(100, 288, 26, t)}${wheel(258, 272, 34, t)}
+        <rect x="28" y="172" width="138" height="88" rx="16" fill="${t.body}" stroke="${frame}" stroke-width="${t.body === C.white ? 3 : 0}"/>
+        ${line("166,240 258,272")}${line("166,240 222,186")}${line("200,206 180,150")}
+        ${seat(222, 182)}${bars(180, 148)}`,
+      label: [56, 198, 82, 40],
+    };
+  }
+  // Frontlader (Long John)
+  return {
+    svg: `${wheel(70, 282, 26, t)}${wheel(258, 272, 34, t)}
+      <rect x="36" y="186" width="122" height="74" rx="16" fill="${t.body}" stroke="${frame}" stroke-width="${t.body === C.white ? 3 : 0}"/>
+      ${line("70,282 70,262")}${line("158,244 258,272")}${line("158,244 222,190")}${line("192,214 176,154")}
+      ${seat(222, 186)}${bars(176, 152)}`,
+    label: [56, 204, 82, 40],
+  };
+}
+
+const BIKES = new Set(["longtail", "box", "trike"]);
+
 /** Gibt ein inline-SVG zurück (dekorativ, aria-hidden). */
 export function productVisual(product, uid) {
+  if (BIKES.has(product.visual?.kind)) return bikeVisual(product, uid);
   const t = TONES[product.visual?.tone || "forest"];
   const kind = product.visual?.kind || "gel";
   const brand = esc(product.brand).toUpperCase();
@@ -81,6 +124,30 @@ export function productVisual(product, uid) {
   <text x="160" y="${labelY + 27}" text-anchor="middle" font-family="${FONT}" font-size="${Math.min(11, 108 / brand.length).toFixed(1)}" font-weight="700" letter-spacing=".4" fill="${t.text}">${brand}</text>
   <rect x="140" y="${labelY + 38}" width="40" height="3" rx="1.5" fill="${t.text}" opacity=".5"/>
   <rect x="146" y="${labelY + 46}" width="28" height="3" rx="1.5" fill="${t.text}" opacity=".35"/>
+</svg>`;
+}
+
+function bikeVisual(product, uid) {
+  const t = TONES[product.visual?.tone || "forest"];
+  const { svg, label } = bike(product.visual.kind, t);
+  const brand = esc(product.brand).toUpperCase();
+  const [x, y, w, h] = label;
+  const plate = h
+    ? `<rect x="${x}" y="${y}" width="${w}" height="${h}" rx="8" fill="${t.label}"/>
+  <text x="${x + w / 2}" y="${y + h / 2 + 4}" text-anchor="middle" font-family="${FONT}" font-size="${Math.min(11, (w + 10) / brand.length).toFixed(1)}" font-weight="700" letter-spacing=".4" fill="${t.text}">${brand}</text>`
+    : `<text x="${x + w / 2}" y="${y}" text-anchor="middle" font-family="${FONT}" font-size="${Math.min(11, (w + 20) / brand.length).toFixed(1)}" font-weight="700" letter-spacing=".4" fill="${C.forest}">${brand}</text>`;
+  return `<svg class="pv" viewBox="0 0 320 360" aria-hidden="true" focusable="false">
+  <defs>
+    <radialGradient id="g${uid}" cx="50%" cy="40%" r="65%">
+      <stop offset="0" stop-color="${C.white}"/>
+      <stop offset="1" stop-color="${C.mint}"/>
+    </radialGradient>
+  </defs>
+  <rect width="320" height="360" rx="28" fill="url(#g${uid})"/>
+  <circle cx="262" cy="92" r="30" fill="${C.leaf}" opacity=".16"/>
+  <ellipse cx="160" cy="318" rx="128" ry="10" fill="${C.forest}" opacity=".12"/>
+  ${svg}
+  ${plate}
 </svg>`;
 }
 

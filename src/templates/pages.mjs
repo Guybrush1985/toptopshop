@@ -109,11 +109,7 @@ export function areaPage(area, cats, all) {
   </div>
 </section>
 <div class="mag"><div class="wrap"><div class="prose">
-  <h2>Schön braun – mit Verstand</h2>
-  <p class="quick">Bräune entsteht entweder durch UV-Strahlung oder durch Selbstbräuner. Wer in die Sonne geht, braucht ausreichenden Lichtschutz und gute Pflege danach; wer UV-Strahlung meiden will, setzt auf Selbstbräuner.</p>
-  <p>Die Haut bildet unter UV-Strahlung den Farbstoff Melanin, um sich zu schützen. Diese natürliche Bräune braucht Zeit – und ein Sonnenbrand bringt sie nicht schneller, sondern schadet der Haut dauerhaft. Deshalb empfehlen wir für das Sonnenbad ausschließlich Produkte mit Lichtschutzfaktor und raten zu einer langsamen Steigerung.</p>
-  <p>Selbstbräuner funktionieren völlig anders: Der Wirkstoff DHA färbt die oberste Hautschicht, ganz ohne UV-Strahlung. Das Ergebnis hält einige Tage und lässt sich gezielt steuern – schützt aber nicht vor der Sonne.</p>
-  <aside class="callout warn"><p class="ct">Hinweis</p><p>UV-Strahlung – durch die Sonne wie durch Solarien – kann die Haut schädigen und das Hautkrebsrisiko erhöhen. In Deutschland ist die Nutzung von Solarien für Minderjährige gesetzlich verboten. Bei Fragen zu deiner Haut hilft eine Hautärztin oder ein Hautarzt.</p></aside>
+${area.article}
 </div></div></div>`;
 
   return page({
@@ -162,7 +158,7 @@ export function methodPage(all) {
   <p>Die Platzierung folgt der Rolle, nicht nur der Note: Die Preis-Leistungs-Wahl kann eine etwas niedrigere Gesamtnote haben als die Premium-Wahl – sie ist trotzdem für viele die bessere Entscheidung.</p>
 
   <h2>Unabhängigkeit und Finanzierung</h2>
-  <p>toptop.shop finanziert sich über Affiliate-Provisionen: Kaufst du über einen mit * gekennzeichneten Link, erhalten wir von Amazon eine Provision. Für dich ändert sich der Preis nicht. Hersteller können sich keine Platzierung kaufen, und die Reihenfolge der Empfehlungen hängt nicht von der Höhe einer Provision ab. Preise zeigen wir bewusst nicht fest an, weil sie sich laufend ändern – maßgeblich ist der aktuelle Preis bei Amazon.</p>
+  <p>toptop.shop finanziert sich über Affiliate-Provisionen: Kaufst du über einen mit * gekennzeichneten Link, erhalten wir von Amazon oder dem jeweiligen Partnershop (vermittelt über das Awin-Netzwerk) eine Provision. Für dich ändert sich der Preis nicht. Hersteller können sich keine Platzierung kaufen, und die Reihenfolge der Empfehlungen hängt nicht von der Höhe einer Provision ab. Preise zeigen wir bewusst nicht fest an, weil sie sich laufend ändern – maßgeblich ist der aktuelle Preis beim jeweiligen Händler.</p>
 
   <h2>Aktualität</h2>
   <p>Jede Ratgeberseite zeigt, wann sie zuletzt aktualisiert wurde. Wir überprüfen unsere Empfehlungen regelmäßig und passen sie an, wenn neue Testergebnisse erscheinen, Produkte vom Markt verschwinden oder sich Rezepturen ändern.</p>

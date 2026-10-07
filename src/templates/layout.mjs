@@ -66,7 +66,7 @@ function header(current) {
     { href: "/methodik/", label: "So wählen wir aus", cls: "opt" },
   ];
   return `<a class="skip" href="#inhalt">Zum Inhalt springen</a>
-<div class="ad-note">Werbung: Links mit * sind Affiliate-Links. Als Amazon-Partner verdiene ich an qualifizierten Verkäufen.</div>
+<div class="ad-note">Werbung: Links mit * sind Affiliate-Links (Amazon und Partnershops). Als Amazon-Partner verdiene ich an qualifizierten Verkäufen.</div>
 <header class="top"><div class="wrap">
   <a class="logo" href="/" aria-label="toptop.shop – Startseite">toptop<b>.shop</b></a>
   <nav class="nav" aria-label="Hauptnavigation">${links
@@ -102,7 +102,7 @@ function footer(categories) {
     </div>
   </div>
   <div class="legalnote">
-    <span>* Affiliate-Link: Als Amazon-Partner verdiene ich an qualifizierten Verkäufen. Für dich ändert sich der Preis nicht. Amazon und das Amazon-Logo sind Warenzeichen von Amazon.com, Inc. oder eines seiner verbundenen Unternehmen.</span>
+    <span>* Affiliate-Link: Als Amazon-Partner verdiene ich an qualifizierten Verkäufen. Bei Links zu weiteren Partnershops (über das Awin-Netzwerk) erhalten wir ebenfalls eine Provision. Für dich ändert sich der Preis nicht. Amazon und das Amazon-Logo sind Warenzeichen von Amazon.com, Inc. oder eines seiner verbundenen Unternehmen.</span>
     <span>Die Inhalte dieser Website dienen der allgemeinen Information und ersetzen keine ärztliche oder dermatologische Beratung.</span>
     <span>© ${new Date().getFullYear()} ${esc(o.name)} · ${esc(site.name)}</span>
   </div>
