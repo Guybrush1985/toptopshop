@@ -34,7 +34,8 @@ KATEGORIE
 | `published`, `updated` | ISO-Datum; `updated` erscheint sichtbar als „Zuletzt aktualisiert“ |
 | `metaTitle` (≤ 65 Zeichen), `metaDescription` (≤ 165) | Suchergebnis-Snippet |
 | `h1`, `eyebrow`, `lead` | Hero-Bereich |
-| `answer` | Direkte Antwort in 1–3 Sätzen, nennt die drei Produkte (für AI-Suche/Featured Snippets) |
+| `answer` | Direkte Antwort in 1–3 Sätzen; die drei Produkte als `[**Name**](produkt:1)` usw. verlinken (Pflicht, prüft der Build) |
+| `priceTiers` | optional: eigene Preisklassen-Beschriftung (z. B. für Fahrräder) |
 | `criteria` | 4 Bewertungskriterien mit `weight` (Summe = 1) und Beschreibung |
 | `products` | Genau 3 Produkte (siehe unten) |
 | `comparison` | Zeilen der Vergleichstabelle: `{ key, label }` → Werte aus `product.specs[key]` |
@@ -62,6 +63,9 @@ KATEGORIE
   specs: { <key>: "…" },                // Werte für die Vergleichstabelle
   asin: "B0…",                          // optional: Direktlink; sonst Amazon-Suche über `query`
   query: "…",
+  // ODER Awin-Partnershop statt Amazon:
+  shop: "radwelt" | "fahrradlagerverkauf" | "fahrrad24",  // Schlüssel aus site.awin.merchants
+  url: "https://www.radwelt-shop.de/…",                    // Produktseite beim Händler
 }
 ```
 
@@ -72,7 +76,7 @@ KATEGORIE
 `{ table: { caption, head, rows } }` · `{ facts: [{ value, label }] }` Kennzahlen ·
 `{ cards: [{ title, text, link? }] }` Zielgruppen-Karten · `{ figure: "scores" | "steps" }` Bild
 
-In Texten funktionieren `**fett**` und `[Link](/pfad/)`.
+In Texten funktionieren `**fett**`, `[Link](/pfad/)` und `[Produktname](produkt:N)` für den Affiliate-Link des Top-3-Produkts N.
 
 ## Qualitätsregeln
 

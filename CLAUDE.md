@@ -12,6 +12,11 @@
   - wenn kein eindeutiges Listing auffindbar ist: keine ASIN raten, sondern `query` mit dem exakten
     Produktnamen belassen (führt zur Amazon-Suche) und das dem Nutzer melden.
   - Den Produktnamen im Text an die tatsächliche Amazon-Bezeichnung anpassen, wenn sie abweicht.
+- **Bezugsquellen: nur Amazon oder Händler aus dem Awin-Netzwerk.** Awin-Händler stehen in `src/site.mjs`
+  unter `awin.merchants` (Name, Awin-ID `mid`, Domain). Produkte bei Awin-Händlern bekommen `shop` (Schlüssel aus
+  `awin.merchants`) und `url` (konkrete Produktseite beim Händler, ohne Tracking-Parameter). Der Awin-Deeplink wird
+  automatisch erzeugt, sobald `awin.publisherId` gesetzt ist. Neue Händler nur aufnehmen, wenn ihr Programm auf
+  Awin aktiv ist; die Awin-ID im Awin-Verzeichnis prüfen.
 - Keine festen Amazon-Preise und keine Amazon-Produktbilder auf der Seite (Partnerprogramm-Richtlinien).
 - Produktaussagen nur mit Quelle: Herstellerangaben als solche kennzeichnen, Testergebnisse mit Institut und Heft.
 - Partner-Tag: `toptopshop-21` (in `src/site.mjs`).

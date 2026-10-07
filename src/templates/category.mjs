@@ -1,13 +1,13 @@
 import { site, areas } from "../site.mjs";
 import { page, crumbs } from "./layout.mjs";
-import { esc, md, amazonUrl, dateDe, scoreDe, absUrl, PRICE_TIERS } from "./util.mjs";
+import { esc, md, productUrl, shopName, dateDe, scoreDe, absUrl, PRICE_TIERS } from "./util.mjs";
 import { productVisual } from "./visuals.mjs";
 
 const pad = (n) => String(n).padStart(2, "0");
 
 /** Kleiner Kauf-Button für Tabellen, Grafiken usw. */
 function buy(p, label = "Jetzt kaufen") {
-  return `<a class="buy" href="${amazonUrl(p)}" target="_blank" rel="sponsored nofollow noopener">${esc(label)}*</a>`;
+  return `<a class="buy" href="${productUrl(p)}" target="_blank" rel="sponsored nofollow noopener">${esc(label)}*</a>`;
 }
 
 /** Ersetzt Platzhalter (produkt:N) in Texten durch den Affiliate-Link des Produkts. */
@@ -15,7 +15,7 @@ function productLinks(cat, text) {
   return text.replace(/\(produkt:(\d)\)/g, (_, n) => {
     const p = cat.products.find((x) => x.rank === Number(n));
     if (!p) throw new Error(`${cat.slug}: produkt:${n} existiert nicht`);
-    return `(${amazonUrl(p)})`;
+    return `(${productUrl(p)})`;
   });
 }
 const strip = (s) => String(s).replace(/\*\*(.+?)\*\*/g, "$1").replace(/\[([^\]]+)\]\([^)]+\)/g, "$1");
@@ -33,7 +33,7 @@ function glance(cat) {
 }
 
 function pick(cat, p) {
-  const tier = PRICE_TIERS[p.priceTier];
+  const tier = (cat.priceTiers || PRICE_TIERS)[p.priceTier];
   const media = p.image
     ? `<img src="${p.image.src}" alt="${esc(p.image.alt)}" width="${p.image.width}" height="${p.image.height}" ${p.rank === 1 ? 'fetchpriority="high"' : 'loading="lazy"'} decoding="async">`
     : `${productVisual(p, `${cat.slug}-${p.rank}`)}<figcaption>Symbolbild – ${esc(p.name)}</figcaption>`;
@@ -54,8 +54,8 @@ function pick(cat, p) {
       <div class="pro"><h4>Vorteile</h4><ul>${p.pros.map((x) => `<li>${md(x)}</li>`).join("")}</ul></div>
       <div class="con"><h4>Nachteile</h4><ul>${p.cons.map((x) => `<li>${md(x)}</li>`).join("")}</ul></div>
     </div>
-    <a class="cta" href="${amazonUrl(p)}" target="_blank" rel="sponsored nofollow noopener">Aktuellen Preis bei Amazon ansehen*</a>
-    <p class="fine">Preis und Verfügbarkeit ändern sich laufend – maßgeblich ist die Angabe bei Amazon.</p>
+    <a class="cta" href="${productUrl(p)}" target="_blank" rel="sponsored nofollow noopener">Aktuellen Preis bei ${esc(shopName(p))} ansehen*</a>
+    <p class="fine">Preis und Verfügbarkeit ändern sich laufend – maßgeblich ist die Angabe bei ${esc(shopName(p))}.</p>
   </div>
 </article>`;
 }
@@ -67,7 +67,7 @@ function comparison(cat) {
   const rows = [
     ["Bewertung", cat.products.map((p) => `<b>${scoreDe(p.score)}</b> / 10`)],
     ...cat.comparison.map((r) => [r.label, cat.products.map((p) => md(p.specs[r.key] ?? "–"))]),
-    ["Preisklasse", cat.products.map((p) => `${PRICE_TIERS[p.priceTier].symbol} (${PRICE_TIERS[p.priceTier].label})`)],
+    ["Preisklasse", cat.products.map((p) => { const t = (cat.priceTiers || PRICE_TIERS)[p.priceTier]; return `${t.symbol} (${t.label})`; })],
     ["Ideal für", cat.products.map((p) => esc(p.bestFor))],
     ["Kaufen", cat.products.map((p) => buy(p))],
   ];
@@ -95,29 +95,32 @@ function figure(cat, key) {
   return `<figure class="fig"><img src="/${cat.slug}/${f.file}" alt="${esc(f.alt)}" width="${f.width}" height="${f.height}" loading="lazy" decoding="async"><figcaption>${md(f.caption)}</figcaption>${links}</figure>`;
 }
 
+/** Markdown mit aufgelösten Produktlinks (produkt:N). */
+const mdp = (cat, text) => md(productLinks(cat, text));
+
 function block(cat, b) {
-  if (b.p) return `<p>${md(b.p)}</p>`;
-  if (b.first) return `<p class="first">${md(b.first)}</p>`;
-  if (b.quick) return `<p class="quick">${md(b.quick)}</p>`;
+  if (b.p) return `<p>${mdp(cat, b.p)}</p>`;
+  if (b.first) return `<p class="first">${mdp(cat, b.first)}</p>`;
+  if (b.quick) return `<p class="quick">${mdp(cat, b.quick)}</p>`;
   if (b.h3) return `<h3${b.id ? ` id="${b.id}"` : ""}>${esc(b.h3)}</h3>`;
   if (b.list) {
     const tag = b.ordered ? "ol" : "ul";
-    return `<${tag}>${b.list.map((li) => `<li>${md(li)}</li>`).join("")}</${tag}>`;
+    return `<${tag}>${b.list.map((li) => `<li>${mdp(cat, li)}</li>`).join("")}</${tag}>`;
   }
-  if (b.quote) return `<blockquote class="quote"><p>${md(b.quote)}</p></blockquote>`;
+  if (b.quote) return `<blockquote class="quote"><p>${mdp(cat, b.quote)}</p></blockquote>`;
   if (b.callout)
-    return `<aside class="callout${b.callout.warn ? " warn" : ""}"><p class="ct">${esc(b.callout.title)}</p><p>${md(b.callout.text)}</p></aside>`;
+    return `<aside class="callout${b.callout.warn ? " warn" : ""}"><p class="ct">${esc(b.callout.title)}</p><p>${mdp(cat, b.callout.text)}</p></aside>`;
   if (b.facts)
-    return `<div class="facts-grid">${b.facts.map((f) => `<div><b>${esc(f.value)}</b><span>${md(f.label)}</span></div>`).join("")}</div>`;
+    return `<div class="facts-grid">${b.facts.map((f) => `<div><b>${esc(f.value)}</b><span>${mdp(cat, f.label)}</span></div>`).join("")}</div>`;
   if (b.table)
     return `<div class="tablewrap" role="region" aria-label="${esc(b.table.caption)}" tabindex="0"><table><caption class="sr">${esc(b.table.caption)}</caption><thead><tr>${b.table.head
       .map((h) => `<th scope="col">${esc(h)}</th>`)
       .join("")}</tr></thead><tbody>${b.table.rows
-      .map((r) => `<tr>${r.map((c, i) => (i === 0 ? `<th scope="row">${md(c)}</th>` : `<td>${md(c)}</td>`)).join("")}</tr>`)
+      .map((r) => `<tr>${r.map((c, i) => (i === 0 ? `<th scope="row">${mdp(cat, c)}</th>` : `<td>${mdp(cat, c)}</td>`)).join("")}</tr>`)
       .join("")}</tbody></table></div>`;
   if (b.cards)
     return `<div class="cards">${b.cards
-      .map((c) => `<div><h3>${esc(c.title)}</h3><p>${md(c.text)}</p>${c.link ? `<a href="${c.link.href}">${esc(c.link.label)} →</a>` : ""}</div>`)
+      .map((c) => `<div><h3>${esc(c.title)}</h3><p>${mdp(cat, c.text)}</p>${c.link ? `<a href="${c.link.href}">${esc(c.link.label)} →</a>` : ""}</div>`)
       .join("")}</div>`;
   if (b.figure) return figure(cat, b.figure);
   throw new Error(`Unbekannter Block in ${cat.slug}: ${JSON.stringify(b).slice(0, 80)}`);
@@ -141,8 +144,8 @@ function top5(cat) {
       <span class="n">${i + 1}</span>
       <div><span class="for">${esc(it.for)}</span><h3>${esc(it.name)}</h3><p>${md(it.text)}</p></div>
       ${
-        it.query || it.asin
-          ? `<a class="go" href="${amazonUrl(it)}" target="_blank" rel="sponsored nofollow noopener">Bei Amazon*</a>`
+        it.query || it.asin || it.shop
+          ? `<a class="go" href="${productUrl(it)}" target="_blank" rel="sponsored nofollow noopener">Bei ${esc(shopName(it))}*</a>`
           : `<span class="where">${esc(it.where)}</span>`
       }
     </li>`

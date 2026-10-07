@@ -75,8 +75,14 @@ async function loadCategories() {
     for (const p of cat.products) {
       p.score = overallScore(p.ratings, cat.criteria);
       for (const key of ["name", "brand", "label", "verdict", "bestFor"]) if (!p[key]) fail(`${id}: Produkt ${p.rank} ohne "${key}"`);
-      if (!p.query && !p.asin) fail(`${id}: Produkt ${p.rank} ohne Amazon-Ziel (query oder asin)`);
+      if (!p.query && !p.asin && !(p.shop && p.url)) fail(`${id}: Produkt ${p.rank} ohne Ziel (asin/query oder shop+url)`);
       if (!(p.pros?.length >= 2 && p.cons?.length >= 1)) fail(`${id}: Produkt ${p.rank} braucht Vor- und Nachteile`);
+    }
+    for (const it of cat.top5?.items || []) {
+      if (!it.query && !it.asin && !(it.shop && it.url) && !it.where) fail(`${id}: Top-5-Eintrag "${it.name}" ohne Ziel`);
+    }
+    if ([...cat.products, ...(cat.top5?.items || [])].some((x) => x.shop) && !site.awin.publisherId) {
+      console.warn(`Hinweis: ${id} enthält Awin-Shoplinks, aber site.awin.publisherId ist leer – Links gehen ohne Tracking direkt zum Shop.`);
     }
     // Die Gesamtwahl soll auch die höchste Gesamtnote haben.
     const best = Math.max(...cat.products.map((p) => p.score));
