@@ -1,5 +1,10 @@
 # toptop.shop – Arbeitsregeln
 
+- **Briefing lesen:** `docs/BRIEFING.md` ist die verbindliche Grundlage (Positionierung, Seitenaufbau,
+  SEO/GEO, Content-Qualität, Monetarisierung, Design, Recht, bisherige Entscheidungen).
+- **Neue Kategorie oder neuer Bereich:** Skill `neue-kategorie` verwenden (`.claude/skills/neue-kategorie/`).
+- Antworten an den Nutzer auf Deutsch.
+
 - Statische Seite, gebaut mit `node build.mjs` (Ausgabe `dist/`). Inhalte: `src/content/categories/*.mjs`,
   Content-Modell in `src/content/README.md`. Vor jedem Commit `node build.mjs` ausführen – der Build prüft
   Mindestinhalte, interne Links und Anker.
