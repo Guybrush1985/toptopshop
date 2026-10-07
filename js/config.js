@@ -5,7 +5,7 @@
  * (z. B. "meinname-21"). Er wird automatisch an alle Produktlinks angehängt.
  */
 window.SITE_CONFIG = {
-  AMAZON_PARTNER_TAG: "DEIN-PARTNERTAG-21",
+  AMAZON_PARTNER_TAG: "toptopshop-21",
   AMAZON_DOMAIN: "www.amazon.de",
-  SITE_NAME: "BronzeGuide",
+  SITE_NAME: "toptop.shop",
 };

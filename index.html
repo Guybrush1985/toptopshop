@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>BronzeGuide – Alles rund ums Braunwerden</title>
-  <meta name="description" content="Bräunungsöle, Selbstbräuner, durchbräunende Bademode, Heimsolarien und Pflege – die besten Produkte rund ums Braunwerden im Überblick.">
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>☀️</text></svg>">
+  <title>toptop.shop – Produktempfehlungen &amp; Ratgeber</title>
+  <meta name="description" content="toptop.shop: ausgewählte Produktempfehlungen und Ratgeber in verschiedenen Kategorien – von Bräunung und Tanning bis mehr.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🛍️</text></svg>">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -13,12 +13,11 @@
 
   <header class="site-header">
     <div class="container header-inner">
-      <a class="logo" href="index.html">Bronze<span>Guide</span></a>
+      <a class="logo" href="./">toptop<span>.shop</span></a>
       <button class="nav-toggle" aria-controls="site-nav" aria-expanded="false" aria-label="Menü öffnen">☰</button>
       <nav class="site-nav" id="site-nav">
-        <a href="index.html#kategorien">Kategorien</a>
-        <a href="index.html#produkte">Produkte</a>
-        <a href="ratgeber.html">Ratgeber</a>
+        <a href="#kategorien">Kategorien</a>
+        <a href="braeunung/">Bräunung</a>
       </nav>
     </div>
   </header>
@@ -26,11 +25,10 @@
   <main>
     <section class="hero">
       <div class="container">
-        <h1>Alles rund ums Braunwerden ☀️</h1>
-        <p>Von Bräunungsöl über Selbstbräuner und durchbräunende Bademode bis zum Heimsolarium: Wir stellen dir die beliebtesten Produkte vor und zeigen, wie du sicher zu einer schönen Bräune kommst.</p>
+        <h1>Die besten Produkte. Ehrlich ausgewählt.</h1>
+        <p>Auf toptop.shop findest du Produktempfehlungen und Ratgeber zu ausgewählten Themen. Wähle eine Kategorie und entdecke, was wir für dich zusammengestellt haben.</p>
         <div class="hero-actions">
-          <a class="btn btn-primary" href="#produkte">Produkte entdecken</a>
-          <a class="btn btn-ghost" href="ratgeber.html">Zum Bräunungs-Ratgeber</a>
+          <a class="btn btn-primary" href="#kategorien">Kategorien ansehen</a>
         </div>
       </div>
     </section>
@@ -39,54 +37,24 @@
       <div class="container">
         <div class="section-head">
           <h2>Kategorien</h2>
-          <p>Wähle eine Kategorie, um die passenden Produkte zu sehen.</p>
+          <p>Jede Kategorie hat eigene Produktempfehlungen und einen Ratgeber.</p>
         </div>
-        <div class="category-grid" id="category-grid"></div>
-      </div>
-    </section>
-
-    <section id="produkte" class="alt">
-      <div class="container">
-        <div class="section-head">
-          <h2>Produkte</h2>
-          <p>Unsere Auswahl rund um Bräune, Schutz und Pflege. Aktuelle Preise und Bewertungen findest du direkt bei Amazon.</p>
-        </div>
-        <div class="toolbar">
-          <input class="search" id="product-search" type="search" placeholder="Produkte durchsuchen, z. B. „Bikini“ oder „Spray“" aria-label="Produkte durchsuchen">
-          <div class="filter-bar" id="filter-bar" role="group" aria-label="Nach Kategorie filtern"></div>
-        </div>
-        <div class="product-grid" id="product-grid"></div>
-        <p class="empty-state" id="empty-state" hidden>Keine Produkte gefunden. Versuche einen anderen Suchbegriff.</p>
-      </div>
-    </section>
-
-    <section id="ratgeber">
-      <div class="container">
-        <div class="section-head">
-          <h2>Ratgeber</h2>
-          <p>Wissen für eine schöne und gesunde Bräune.</p>
-        </div>
-        <div class="guide-grid">
-          <article class="guide-card">
-            <h3>🌞 Sicher bräunen in der Sonne</h3>
-            <p>Hauttyp, Eigenschutzzeit und Lichtschutzfaktor: So vermeidest du Sonnenbrand.</p>
-            <a href="ratgeber.html#sonne">Weiterlesen →</a>
-          </article>
-          <article class="guide-card">
-            <h3>✨ Selbstbräuner richtig auftragen</h3>
-            <p>Peeling, Handschuh, Einwirkzeit – so wird die Bräune streifenfrei.</p>
-            <a href="ratgeber.html#selbstbraeuner">Weiterlesen →</a>
-          </article>
-          <article class="guide-card">
-            <h3>👙 Durchbräunende Bademode</h3>
-            <p>Wie funktioniert Tan-Through-Stoff und worauf solltest du achten?</p>
-            <a href="ratgeber.html#kleidung">Weiterlesen →</a>
-          </article>
-          <article class="guide-card">
-            <h3>☀️ Solarium & Heimsolarium</h3>
-            <p>Regeln, Schutzbrille und passende Solariumkosmetik.</p>
-            <a href="ratgeber.html#solarium">Weiterlesen →</a>
-          </article>
+        <div class="category-grid shop-categories">
+          <!--
+            Neue Kategorie: Ordner anlegen (z. B. /fitness/) und hier eine Kachel ergänzen.
+          -->
+          <a class="category-tile" href="braeunung/">
+            <span class="category-icon" aria-hidden="true">☀️</span>
+            <h3>Bräunung &amp; Tanning</h3>
+            <p>Bräunungsöle, Selbstbräuner, durchbräunende Bademode, Heimsolarien, Pflege und Zubehör.</p>
+            <span class="category-count">Zur Kategorie →</span>
+          </a>
+          <div class="category-tile category-tile--soon" aria-disabled="true">
+            <span class="category-icon" aria-hidden="true">🛍️</span>
+            <h3>Weitere Kategorien</h3>
+            <p>Neue Themen sind in Vorbereitung – schau bald wieder vorbei.</p>
+            <span class="category-count">Demnächst</span>
+          </div>
         </div>
       </div>
     </section>
@@ -95,18 +63,16 @@
   <footer class="site-footer">
     <div class="container footer-inner">
       <nav class="footer-links">
-        <a href="ratgeber.html">Ratgeber</a>
+        <a href="braeunung/">Bräunung</a>
         <a href="impressum.html">Impressum</a>
         <a href="datenschutz.html">Datenschutz</a>
       </nav>
       <p class="legal-note">*Die mit Sternchen gekennzeichneten Links sind Affiliate-Links. Als Amazon-Partner verdiene ich an qualifizierten Verkäufen. Für dich entstehen keine zusätzlichen Kosten. Amazon und das Amazon-Logo sind Warenzeichen von Amazon.com, Inc. oder eines seiner verbundenen Unternehmen.</p>
-      <p class="legal-note">Hinweis: Die Inhalte dieser Seite ersetzen keine ärztliche oder dermatologische Beratung.</p>
-      <p>© <span id="year"></span> <span data-site-name>BronzeGuide</span></p>
+      <p>© <span id="year"></span> <span data-site-name>toptop.shop</span></p>
     </div>
   </footer>
 
   <script src="js/config.js"></script>
-  <script src="js/products.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>
