@@ -1,5 +1,5 @@
 import { site, areas } from "../site.mjs";
-import { esc, absUrl } from "./util.mjs";
+import { esc, absUrl, catPath, groupPath } from "./util.mjs";
 import { logoSvg } from "./logo.mjs";
 
 let CSS = "";
@@ -90,8 +90,11 @@ function footer(categories) {
     </div>
     <div>
       <h2>Ratgeber</h2>
-      <ul>${categories
-        .map((c) => `<li><a href="/${c.slug}/">${esc(c.navLabel)}</a></li>`)
+      <ul>${[
+        ...categories.filter((c) => !c.group).map((c) => ({ href: catPath(c), label: c.navLabel })),
+        ...areas.flatMap((a) => (a.groups || []).map((g) => ({ href: groupPath(a, g), label: g.navLabel || g.name }))),
+      ]
+        .map((l) => `<li><a href="${l.href}">${esc(l.label)}</a></li>`)
         .join("")}</ul>
     </div>
     <div>
