@@ -1,69 +1,50 @@
 # toptop.shop
 
-Zentrale Affiliate-Website unter **https://toptop.shop** – statisches HTML/CSS/JavaScript ohne Build-Schritt.
-Jede Kategorie liegt in einem eigenen Ordner und hat eigene Produkte und einen Ratgeber.
+**Die Abkürzung zu den besten Produkten.** Kuratierte Empfehlungsplattform: In jeder Kategorie
+werden die Top 3 Produkte vorgestellt – mit ausführlicher, SEO- und GEO-optimierter Kaufberatung.
+
+## Technik
+
+- **Static-Site-Generator ohne Abhängigkeiten** (`build.mjs`, Node ≥ 18). Alle Seiten werden
+  vorgerendert – kein JavaScript im Browser, kein Tracking, keine Cookies.
+- **Content-Modell:** Jede Kategorie ist eine Datei in `src/content/categories/`. Anleitung:
+  [`src/content/README.md`](src/content/README.md).
+- **Design:** Markenpalette `#253D2C` · `#2E6F40` · `#68BA7F` · `#CFFFDC`, Schriften Fraunces + Inter
+  (selbst gehostet, OFL-Lizenz). CSS wird pro Seite eingebettet (Critical CSS).
+- **SEO/GEO:** Canonicals, Open Graph, XML-Sitemap, robots.txt, Breadcrumbs, JSON-LD
+  (`Organization`, `WebSite`, `Article`, `ItemList` mit `Product`/`Review`, `FAQPage`, `BreadcrumbList`),
+  „Kurz gesagt“-Antworten, direkte Antworten unter jeder Zwischenüberschrift, sichtbares Aktualisierungsdatum.
+- **Qualitätsprüfung im Build:** ≥ 1.000 Wörter, ≥ 5 FAQs, Top 5, 2 Bilder, gültige interne Links und
+  Anker, Länge von Title/Description, Gewichtung der Kriterien.
 
 ## Struktur
 
 ```
-/                     Startseite toptop.shop (Kategorie-Übersicht)
-/impressum.html       Impressum (für die ganze Seite)
-/datenschutz.html     Datenschutz (für die ganze Seite)
-/css/style.css        gemeinsames Design
-/js/config.js         Amazon-Partner-Tag & Seitenname (gilt für alle Kategorien)
-/js/main.js           gemeinsame Logik (Produktkarten, Filter, Suche, Amazon-Links)
-/braeunung/           Kategorie „Bräunung & Tanning“
-  index.html          Produktübersicht
-  ratgeber.html       Ratgeber
-  products.js         Themen und Produktdaten der Kategorie
-/.github/workflows/    Deploy-Now-Workflows (automatisch angelegt)
+build.mjs                     Generator → dist/
+src/site.mjs                  Domain, Partner-Tag, Firma, Bereiche
+src/content/categories/       eine Datei pro Kategorie (Top 3, Ratgeber, FAQ …)
+src/content/legal/            Impressum, Datenschutz (HTML-Fragmente)
+src/templates/                Layout, Kategorie-Seite, Startseite, Grafiken
+src/styles.css                Design-System
+src/static/                   Schriften, Favicon, OG-Bilder, .htaccess
+scripts/og-images.mjs         erzeugt Social-Media-Vorschaubilder (lokal, optional)
 ```
 
-## Amazon-Partner-Tag
-
-Steht zentral in `js/config.js` (`toptopshop-21`) und wird automatisch an alle Amazon-Links angehängt.
-
-## Produkte pflegen
-
-Die Produkte einer Kategorie stehen in `<kategorie>/products.js`. Jedes Produkt verlinkt standardmäßig
-auf eine Amazon-Suche (`query`). Für einen Direktlink die ASIN ergänzen (steht in der Amazon-URL nach `/dp/`):
-
-```js
-{ category: "oele", name: "Hawaiian Tropic Bräunungsöl",
-  text: "…", query: "Hawaiian Tropic Bräunungsöl", asin: "B0XXXXXXXX" },
-```
-
-## Neue Kategorie anlegen
-
-1. Ordner `braeunung/` kopieren, z. B. nach `fitness/`.
-2. In `fitness/products.js` Themen (`CATEGORIES`) und Produkte (`PRODUCTS`) anpassen.
-3. Texte in `fitness/index.html` und `fitness/ratgeber.html` anpassen.
-4. Auf der Startseite `index.html` eine Kachel für die neue Kategorie ergänzen.
-
-## Lokal ansehen
+## Lokal
 
 ```sh
-python3 -m http.server 8000
+node build.mjs
+cd dist && python3 -m http.server 8000
 ```
-
-Dann http://localhost:8000 öffnen.
 
 ## Veröffentlichung (IONOS Deploy Now)
 
-Die Seite wird über **IONOS Deploy Now** veröffentlicht. Jeder Push auf `main` startet automatisch
-die Workflows in `.github/workflows/` (von Deploy Now angelegt – bitte nicht bearbeiten):
-Build-Schritt `echo …` (kein Build nötig), Output path `./`.
-Die Domain `toptop.shop` ist im Deploy-Now-Projekt verbunden.
+Jeder Push auf `main` startet den Workflow `.github/workflows/toptopshop-build.yaml`:
+`node build.mjs`, veröffentlicht wird der Ordner `dist/`.
 
-Die Datei `CNAME` wird nur von GitHub Pages genutzt und ist für Deploy Now ohne Bedeutung.
+## Amazon-Partnerprogramm
 
-## Vor dem Livegang
-
-- [x] Partner-Tag in `js/config.js` eintragen (`toptopshop-21`)
-- [x] Impressum und Datenschutzerklärung (TanMeOn GmbH)
-- [ ] Bei Amazon PartnerNet die Website `https://toptop.shop` hinterlegen
-- [ ] Optional: ASINs für konkrete Produkte ergänzen
-
-Hinweis zu den Amazon-Richtlinien: Preise und Produktbilder von Amazon dürfen nur über die
-offiziellen Tools (SiteStripe/Product Advertising API) eingebunden werden. Deshalb zeigt die
-Seite keine fest eingetragenen Preise, sondern verweist für aktuelle Preise auf Amazon.
+Partner-Tag `toptopshop-21` in `src/site.mjs`. Links verweisen auf eine Amazon-Suche oder – wenn eine
+`asin` hinterlegt ist – direkt auf das Produkt. Feste Preise und Amazon-Produktbilder werden gemäß den
+Programmrichtlinien nicht angezeigt; bis eigene Produktfotos vorliegen, zeigen die Seiten gekennzeichnete
+Symbolbilder.

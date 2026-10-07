@@ -1,0 +1,19 @@
+# Wird nur ausgewertet, wenn der Webserver .htaccess unterstützt (Apache).
+ErrorDocument 404 /404.html
+
+# Alte Adressen der ersten Version weiterleiten
+Redirect 301 /impressum.html /impressum/
+Redirect 301 /datenschutz.html /datenschutz/
+Redirect 301 /braeunung/ratgeber.html /braeunung/
+Redirect 301 /braeunung/index.html /braeunung/
+
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType font/woff2 "access plus 1 year"
+  ExpiresByType image/svg+xml "access plus 1 month"
+  ExpiresByType image/png "access plus 1 month"
+  ExpiresByType text/html "access plus 0 seconds"
+</IfModule>
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css image/svg+xml application/xml text/plain
+</IfModule>
