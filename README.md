@@ -59,7 +59,7 @@ Dann http://localhost:8000 öffnen.
 ## Vor dem Livegang
 
 - [x] Partner-Tag in `js/config.js` eintragen (`toptopshop-21`)
-- [ ] Platzhalter in `impressum.html` und `datenschutz.html` ausfüllen
+- [ ] Impressum: Geschäftsführung, Registergericht, HRB-Nr., USt-IdNr. und V.i.S.d. § 18 MStV ergänzen
 - [ ] Bei Amazon PartnerNet die Website `https://toptop.shop` hinterlegen
 - [ ] Optional: ASINs für konkrete Produkte ergänzen
 
