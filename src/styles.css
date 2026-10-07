@@ -33,8 +33,8 @@ a:hover{color:var(--forest)}
 /* ---------- Header ---------- */
 .top{position:sticky;top:0;z-index:10;background:rgba(37,61,44,.94);backdrop-filter:saturate(1.4) blur(12px);-webkit-backdrop-filter:saturate(1.4) blur(12px);border-bottom:1px solid rgba(207,255,220,.08)}
 .top .wrap{display:flex;align-items:center;justify-content:space-between;gap:20px;min-height:64px}
-.logo{font:600 1.35rem/1 var(--serif);letter-spacing:-.02em;color:var(--white);text-decoration:none}
-.logo b{color:var(--leaf);font-weight:600}
+.logo{display:inline-flex;align-items:center;text-decoration:none;margin-left:-6px}
+.logo svg{display:block;width:auto}
 .nav{display:flex;gap:6px;flex-wrap:wrap;justify-content:flex-end}
 .nav a{color:rgba(255,255,255,.78);text-decoration:none;font-size:.92rem;font-weight:500;padding:8px 12px;border-radius:999px}
 .nav a:hover,.nav a[aria-current]{color:var(--white);background:rgba(207,255,220,.1)}
@@ -242,7 +242,6 @@ tbody tr:last-child>*{border-bottom:0}
 /* ---------- Footer ---------- */
 .foot{background:var(--forest);color:rgba(255,255,255,.7);padding:64px 0 40px;font-size:.92rem}
 .foot .cols{display:grid;grid-template-columns:2fr 1fr 1fr;gap:32px;margin-bottom:40px}
-.foot .logo{font-size:1.6rem}
 .foot p{margin:12px 0 0;max-width:42ch}
 .foot h2{font:700 .74rem/1 var(--sans);letter-spacing:.14em;text-transform:uppercase;color:var(--leaf);margin:6px 0 14px}
 .foot ul{list-style:none;padding:0;margin:0;display:grid;gap:8px}
