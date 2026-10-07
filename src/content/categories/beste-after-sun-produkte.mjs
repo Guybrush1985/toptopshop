@@ -17,7 +17,7 @@ export default {
   lead:
     "Nach dem Sonnenbad braucht die Haut Feuchtigkeit und Ruhe – keine Wundermittel. Wir zeigen die drei Produkte, die das am besten leisten, und was After-Sun wirklich kann.",
   answer:
-    "Unsere beste Gesamtwahl ist die **Lavera After Sun Lotion**, weil sie im aktuellen Öko-Test (Heft 07/2026) mit „sehr gut“ abgeschnitten hat, vegan ist und gut pflegt. Für empfindliche, zu Sonnenallergie neigende Haut empfehlen wir die **Eucerin After Sun Sensitive Relief Gel-Creme**, als Premium-Wahl das **Dr. Hauschka After Sun**.",
+    "Unsere beste Gesamtwahl ist die [**Lavera After Sun Lotion**](produkt:1), weil sie im aktuellen Öko-Test (Heft 07/2026) mit „sehr gut“ abgeschnitten hat, vegan ist und gut pflegt. Für empfindliche, zu Sonnenallergie neigende Haut empfehlen wir die [**Eucerin After Sun Sensitive Relief Gel-Creme**](produkt:2), als Premium-Wahl das [**Dr. Hauschka After Sun**](produkt:3).",
 
   top3Title: "Unsere Top 3 After-Sun-Produkte",
   top3Intro:

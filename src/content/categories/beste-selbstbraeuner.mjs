@@ -17,7 +17,7 @@ export default {
   lead:
     "Bräune ohne UV-Strahlung – aber ohne Streifen und Orangestich. Wir haben die bekanntesten Selbstbräuner verglichen und auf drei Empfehlungen reduziert.",
   answer:
-    "Unsere beste Gesamtwahl ist der **Bondi Sands Self Tanning Foam**, weil er natürlich wirkende Farbe, einfache Anwendung und einen fairen Preis verbindet. Wer sparen möchte, greift zur **St. Moriz Professional Mousse**; wer das bestmögliche Ergebnis will, zur **St. Tropez Classic Bronzing Mousse**.",
+    "Unsere beste Gesamtwahl ist der [**Bondi Sands Self Tanning Foam**](produkt:1), weil er natürlich wirkende Farbe, einfache Anwendung und einen fairen Preis verbindet. Wer sparen möchte, greift zur [**St. Moriz Professional Mousse**](produkt:2); wer das bestmögliche Ergebnis will, zur [**St. Tropez Classic Bronzing Mousse**](produkt:3).",
 
   top3Title: "Unsere Top 3 Selbstbräuner",
   top3Intro:

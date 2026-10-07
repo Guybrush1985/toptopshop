@@ -4,6 +4,20 @@ import { esc, md, amazonUrl, dateDe, scoreDe, absUrl, PRICE_TIERS } from "./util
 import { productVisual } from "./visuals.mjs";
 
 const pad = (n) => String(n).padStart(2, "0");
+
+/** Kleiner Kauf-Button für Tabellen, Grafiken usw. */
+function buy(p, label = "Jetzt kaufen") {
+  return `<a class="buy" href="${amazonUrl(p)}" target="_blank" rel="sponsored nofollow noopener">${esc(label)}*</a>`;
+}
+
+/** Ersetzt Platzhalter (produkt:N) in Texten durch den Affiliate-Link des Produkts. */
+function productLinks(cat, text) {
+  return text.replace(/\(produkt:(\d)\)/g, (_, n) => {
+    const p = cat.products.find((x) => x.rank === Number(n));
+    if (!p) throw new Error(`${cat.slug}: produkt:${n} existiert nicht`);
+    return `(${amazonUrl(p)})`;
+  });
+}
 const strip = (s) => String(s).replace(/\*\*(.+?)\*\*/g, "$1").replace(/\[([^\]]+)\]\([^)]+\)/g, "$1");
 
 // ---------------------------------------------------------------------------
@@ -55,6 +69,7 @@ function comparison(cat) {
     ...cat.comparison.map((r) => [r.label, cat.products.map((p) => md(p.specs[r.key] ?? "–"))]),
     ["Preisklasse", cat.products.map((p) => `${PRICE_TIERS[p.priceTier].symbol} (${PRICE_TIERS[p.priceTier].label})`)],
     ["Ideal für", cat.products.map((p) => esc(p.bestFor))],
+    ["Kaufen", cat.products.map((p) => buy(p))],
   ];
   return `<section class="section cmp" id="vergleich" aria-labelledby="vergleich-h">
   <div class="wrap">
@@ -71,7 +86,13 @@ function comparison(cat) {
 
 function figure(cat, key) {
   const f = cat.figures[key];
-  return `<figure class="fig"><img src="/${cat.slug}/${f.file}" alt="${esc(f.alt)}" width="${f.width}" height="${f.height}" loading="lazy" decoding="async"><figcaption>${md(f.caption)}</figcaption></figure>`;
+  const links =
+    f.kind === "scores"
+      ? `<ul class="figbuy" aria-label="Produkte aus der Grafik">${cat.products
+          .map((p) => `<li><span><small>${pad(p.rank)} · ${scoreDe(p.score)}</small>${esc(p.name)}</span>${buy(p)}</li>`)
+          .join("")}</ul>`
+      : "";
+  return `<figure class="fig"><img src="/${cat.slug}/${f.file}" alt="${esc(f.alt)}" width="${f.width}" height="${f.height}" loading="lazy" decoding="async"><figcaption>${md(f.caption)}</figcaption>${links}</figure>`;
 }
 
 function block(cat, b) {
@@ -263,7 +284,7 @@ export function categoryPage(cat, all, readingMinutes) {
       <span>${cat.products.length} Empfehlungen</span>
       <span>${readingMinutes} Min. Lesezeit für die ganze Beratung</span>
     </div>
-    <div class="answer"><span class="k">Kurz gesagt</span><p>${md(cat.answer)}</p></div>
+    <div class="answer"><span class="k">Kurz gesagt</span><p>${md(productLinks(cat, cat.answer))}</p></div>
   </div>
 </section>
 ${glance(cat)}

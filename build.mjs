@@ -67,6 +67,8 @@ async function loadCategories() {
     if (cat.metaTitle.length > 65) fail(`${id}: metaTitle ist länger als 65 Zeichen`);
     if (cat.metaDescription.length > 165) fail(`${id}: metaDescription ist länger als 165 Zeichen`);
 
+    for (const r of [1, 2, 3]) if (!cat.answer.includes(`(produkt:${r})`)) fail(`${id}: „Kurz gesagt“ verlinkt Produkt ${r} nicht (produkt:${r})`);
+
     const weightSum = cat.criteria.reduce((s, c) => s + c.weight, 0);
     if (Math.abs(weightSum - 1) > 0.001) fail(`${id}: Gewichte der Kriterien ergeben ${weightSum}, nicht 1`);
 
