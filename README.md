@@ -47,7 +47,7 @@ Repository → Settings → Pages → Branch auswählen → Ordner `/ (root)`.
 
 ## Vor dem Livegang
 
-- [ ] Partner-Tag in `js/config.js` eintragen
+- [x] Partner-Tag in `js/config.js` eintragen (`toptopshop-21`)
 - [ ] Platzhalter in `impressum.html` und `datenschutz.html` ausfüllen
 - [ ] Optional: ASINs für konkrete Produkte ergänzen
 - [ ] Bei Amazon PartnerNet die Website-URL hinterlegen
