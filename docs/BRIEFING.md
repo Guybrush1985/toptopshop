@@ -169,3 +169,6 @@ Mindestumfang je Kategorie: **≥ 1.000 Wörter** (nicht künstlich auffüllen),
 - 2026-10-08: Neuer Bereich Garten & Grundstück (gemeinsam mit Laubbläsern). Kategorie `/elektrische-schneefraese/`:
   Top 3 nur Akku-Geräte (einstufig, für Pflaster/Asphalt), Top 5 deckt Kabel, Benzin (zweistufig) und Schneewanne ab.
   Unabhängige Labortests für Schneefräsen gibt es nicht; Einordnung nach Herstellerangaben, Hinweis in der Methodik.
+- 2026-10-08: Neuer Bereich Garten & Grundstück (`/garten-grundstueck/`, flache URLs) für Laubbläser und Schneeräumgeräte.
+  Laubbläser nur Akku-Modelle in den Top 3; Laubsauger mit Häcksler in der Top 5 mit Hinweis auf Kleintiere (NABU).
+  Ruhezeiten nach § 7 der 32. BImSchV im Text. Kein bestätigter aktueller Stiftung-Warentest-Test → keine Testnoten.

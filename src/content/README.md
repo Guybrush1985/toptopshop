@@ -59,7 +59,7 @@ KATEGORIE
                 | "mask" | "radio" | "handheld" | "pack" | "roll" | "lamp" | "stove" | "cylinder"
                 | "triangle" | "slide" | "climbwall" | "ladder" | "swing" | "tent" | "mat" | "tower" | "sandbox" | "zipline"
                 | "bouncy" | "waterslide" | "shelf" | "wardrobe" | "kidtable" | "rug" | "sideboard" | "cloth"
-                | "vitrine" | "frame" | "minifig" | "ledkit" | "snowblower", tone: "forest" | "green" | "mint" },
+                | "vitrine" | "frame" | "minifig" | "ledkit" | "snowblower" | "blower", tone: "forest" | "green" | "mint" },
   image: { src, alt, width, height },   // optional: echtes Produktfoto statt Symbolbild
   priceTier: 1 | 2 | 3,                 // €, €€, €€€ – keine festen Preise (Amazon-Richtlinien)
   ratings: { <kriterium>: 0–10, … },    // Gesamtnote wird automatisch gewichtet berechnet
