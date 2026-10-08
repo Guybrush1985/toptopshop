@@ -1,0 +1,490 @@
+{
+  "slug": "fallschutzmatten",
+  "stand": "2026-10-08",
+  "hinweisRecherche": "amazon.de- und oekotest.de-Seiten waren per Direktabruf (WebFetch/curl) nicht erreichbar (Proxy-Sperre); alle ASINs und Produktangaben stammen aus WebSearch-Treffern auf die jeweiligen amazon.de-/dp/-Seiten (Titel und Snippets). Preise und Verfügbarkeit vor Veröffentlichung stichprobenartig prüfen.",
+  "criteria": [
+    {
+      "key": "daempfung",
+      "label": "Dämpfung & Fallschutz",
+      "weight": 0.35,
+      "description": "Dicke, Kern (PU/EPE/PE, Raumgewicht), angegebene Fallhöhe bzw. Prüfung (EN 1177, HIC), Eignung für die Fallhöhe von Pikler-Dreieck, Sprossen- oder Kletterwand."
+    },
+    {
+      "key": "sicherheit",
+      "label": "Rutschfestigkeit & Sicherheit",
+      "weight": 0.2,
+      "description": "Rutschfeste Unterseite, verbindbare Matten ohne Spalten, Warnhinweise und Altersangaben des Herstellers."
+    },
+    {
+      "key": "material",
+      "label": "Material & Schadstoffe",
+      "weight": 0.25,
+      "description": "Bezug (PVC-Plane, Polyester), Herstellerangaben zu Phthalaten/Formamid, Siegel (EN 71, GS, Oeko-Tex), Verarbeitung laut Erfahrungsberichten."
+    },
+    {
+      "key": "handling",
+      "label": "Handling & Platz",
+      "weight": 0.2,
+      "description": "Faltbarkeit, Gewicht, Maße im Kinderzimmer, abwischbarer bzw. abnehmbarer Bezug."
+    }
+  ],
+  "priceTiers": [
+    {
+      "tier": 1,
+      "label": "bis ca. 100 €"
+    },
+    {
+      "tier": 2,
+      "label": "ca. 100–200 €"
+    },
+    {
+      "tier": 3,
+      "label": "über ca. 200 €"
+    }
+  ],
+  "products": [
+    {
+      "rank": 1,
+      "label": "Beste Gesamtwahl (Klappmatte)",
+      "name": "Gartenpirat Universal-Bodenmatte 200 x 100 x 10 cm, blau, 4-teilig klappbar",
+      "brand": "Gartenpirat",
+      "variant": "Blau, 200 x 100 x 10 cm",
+      "priceTier": 2,
+      "ratings": {
+        "daempfung": 8.5,
+        "sicherheit": 6.0,
+        "material": 7.0,
+        "handling": 9.0
+      },
+      "gesamt": 7.73,
+      "bestFor": "Familien, die eine dicke, klappbare Matte unter Kletterdreieck, Sprossen- oder kleiner Kletterwand suchen und sie nach dem Spielen wegräumen wollen (Kinder ab 3 Jahren laut Warnhinweis).",
+      "fakten": [
+        {
+          "text": "Laut Hersteller nach EN 1177:2008 und nach UIAA-Standard für Crashpads geprüft; geeignet für Fallhöhen bis 1,90 m.",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B07RHNWYF2",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Bei 1,90 m Fallhöhe soll rund um die Fallzone ein Bereich von ca. 1,8 m abgedeckt sein.",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B07RHNWYF2",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Eine weichere und eine härtere Seite, die Matte lässt sich je nach gewünschter Härte wenden.",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B07RHNWYF2",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Faltmaße 100 x 100 x 20 cm (als Sitz-/Liegematte) bzw. 50 x 100 x 40 cm (Transport); Gewicht ca. 7 kg; Bezug PVC-beschichtetes Polyestergewebe, wasserfest und abwaschbar.",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B07RHNWYF2",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Warnhinweis: nicht für Kinder unter 36 Monaten geeignet; nur für den Hausgebrauch; nicht für die dauerhafte Installation im Freien gedacht. Die Klettlaschen dienen nur dem Transport, nicht zum Verbinden mehrerer Matten.",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B07RHNWYF2",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Kundenbewertungen loben die Eignung als Bouldermatte; einzelne berichten von leichtem Geruch beim Auspacken und Farbabweichungen zwischen zwei Matten.",
+          "art": "Bericht",
+          "quelle": "https://www.amazon.de/dp/B07RHNWYF2",
+          "datum": "2026-10-08"
+        }
+      ],
+      "pros": [
+        "10 cm dick mit angegebener Prüfung nach EN 1177 (bis 1,90 m)",
+        "Viermal klappbar, ca. 7 kg – im Kinderzimmer gut verstaubar",
+        "Wendbar: weiche und härtere Seite",
+        "Bezug abwischbar"
+      ],
+      "cons": [
+        "Warnhinweis: nicht unter 36 Monaten – für Pikler-Dreieck-Kinder unter 3 Jahren formal nicht freigegeben",
+        "Klettlaschen nicht zum Verbinden mehrerer Matten",
+        "Keine Angabe zu rutschfester Unterseite",
+        "Einzelberichte über Geruch beim Auspacken"
+      ],
+      "specs": {
+        "Maße offen": "200 x 100 x 10 cm",
+        "Maße gefaltet": "100 x 100 x 20 cm bzw. 50 x 100 x 40 cm",
+        "Gewicht": "ca. 7 kg",
+        "Bezug": "PVC-beschichtetes Polyester",
+        "Prüfung": "EN 1177:2008, UIAA Crashpad (Herstellerangabe)",
+        "Fallhöhe": "bis 1,90 m (Herstellerangabe)",
+        "Alter": "nicht unter 36 Monaten (Warnhinweis)"
+      },
+      "asin": "B07RHNWYF2",
+      "query": "Gartenpirat Universal Bodenmatte 200x100x10 cm blau 4-teilig klappbar",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "Gartenpirat Universal Floor Mat Blue 200 x 100 x 10 cm Sports Mat Children Soft Floor Mat 4-Piece Foldable : Amazon.de: Sports & Outdoors (dt. Listing: Gartenpirat Universal-Bodenmatte blau 200x100x10 Sportmatte Kinder Weichbodenmatte 4-teilig klappbar; 104 Bewertungen, 4,1 Sterne laut Treffer)"
+    },
+    {
+      "rank": 2,
+      "label": "Beste Wahl fürs Pikler-Dreieck",
+      "name": "EYEPOWER Klappbare Turnmatte für Zuhause 200 x 100 x 5 cm",
+      "brand": "eyepower",
+      "variant": "200 x 100 x 5 cm, Blau/Schwarz",
+      "priceTier": 2,
+      "ratings": {
+        "daempfung": 6.0,
+        "sicherheit": 6.0,
+        "material": 6.5,
+        "handling": 9.0
+      },
+      "gesamt": 6.73,
+      "bestFor": "Günstige, leichte Klappmatte unter Pikler-Dreieck, Kletterbogen oder Indoor-Rutsche mit geringer Fallhöhe – zum Turnen gleich mit.",
+      "fakten": [
+        {
+          "text": "Füllung aus EPE-Schaum mit Raumgewicht RG 20 (20 kg/m³), Bezug aus PVC, schweiß- und speichelfest, wasserabweisend.",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B07BBSF81N",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Wird ausdrücklich als Turnmatte fürs Kinderzimmer und als Fallschutzmatte am Klettergerüst beworben; Tragegriff mit Klettverschluss.",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B07BBSF81N",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Gefaltet ca. 50 x 100 x 20 cm; Gewichtsangaben im Listing widersprüchlich (3,25 kg bzw. 6 kg).",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B07BBSF81N",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Keine Prüfnorm (EN 1177) und keine Fallhöhe angegeben; keine Altersangabe des Herstellers gefunden.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B07BBSF81N",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Kunden loben geringes Gewicht und einfaches Falten; einzelne empfinden den Schaum als eher fest.",
+          "art": "Bericht",
+          "quelle": "https://www.amazon.de/dp/B07BBSF81N",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Preis der Variante 200 x 100 x 5 cm laut Suchtreffern ca. 130–150 € (eBay-Angebot 129,99 €, Amazon-Übersicht 149,99 €) – daher Preisklasse 2 statt 1.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B07BBSF81N",
+          "datum": "2026-10-08"
+        }
+      ],
+      "pros": [
+        "Mit ca. 3,25 kg sehr leicht (Händlerangabe)",
+        "Leicht und schnell zusammengeklappt",
+        "Abwischbarer PVC-Bezug",
+        "Viele Größen derselben Serie (u. a. 240 x 120 und 300 x 100 cm)"
+      ],
+      "cons": [
+        "Nur 5 cm – nur für geringe Fallhöhen (Pikler-Dreieck, Rutsche)",
+        "Keine Normprüfung oder Fallhöhe angegeben",
+        "Bezug nicht abnehmbar, Rutschfestigkeit nicht angegeben",
+        "Widersprüchliche Gewichtsangaben im Listing"
+      ],
+      "specs": {
+        "Maße offen": "200 x 100 x 5 cm",
+        "Maße gefaltet": "ca. 50 x 100 x 20 cm",
+        "Kern": "EPE-Schaum RG 20",
+        "Bezug": "PVC",
+        "Prüfung": "keine angegeben"
+      },
+      "asin": "B07BBSF81N",
+      "query": "EYEPOWER Klappbare Turnmatte für Zuhause 200x100x5 cm",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "Korrektur Runde 1 (2026-10-08): Kind-ASIN der Variante 200 x 100 x 5 cm – amazon.de/EYEPOWER-200x100-Klappbare-Turnmatte-Zuhause/dp/B07BBSF81N, Produktdaten 200 x 100 x 5 cm, 3,25 kg, EPE RG 20, PVC-Bezug. Vorher B07BBSNP4X (Variantenfamilie, Standardauswahl 180 x 115 x 5 cm)."
+    },
+    {
+      "rank": 3,
+      "label": "Beste Wahl unter Kletterwand/Sprossenwand (dicke Weichbodenmatte)",
+      "name": "ALPIDEX Weichbodenmatte 200 x 150 x 20 cm mit Tragegriffen und Anti-Rutschboden, grün",
+      "brand": "ALPIDEX",
+      "variant": "200 x 150 x 20 cm, Grün",
+      "priceTier": 3,
+      "ratings": {
+        "daempfung": 9.0,
+        "sicherheit": 8.0,
+        "material": 7.0,
+        "handling": 4.5
+      },
+      "gesamt": 7.4,
+      "bestFor": "Feste Fläche unter Kletterwand oder Sprossenwand, an der Kinder höher klettern – wenn der Platz für eine dauerhaft liegende Matte da ist.",
+      "fakten": [
+        {
+          "text": "Kern aus Polyurethanschaum RG 20 (20 kg/m³); Kern über durchgehenden Reißverschluss herausnehmbar.",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B0793Q4WKQ",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Unterseite mit Anti-Rutsch-Boden, fest angebrachte Tragegriffe; Reinigung mit feuchtem Tuch.",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B0793Q4WKQ",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Vom Anbieter für kleine Kletterwände, Sportunterricht und Leichtathletik beworben; Gewicht ca. 19 kg.",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B0793Q4WKQ",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Keine Prüfnorm und keine geprüfte Fallhöhe angegeben; Listing mit Unstimmigkeiten (Bezugfarbe blau/grün, zweite ASIN B081PD5ND6 im Text).",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B0793Q4WKQ",
+          "datum": "2026-10-08"
+        }
+      ],
+      "pros": [
+        "20 cm PU-Kern – mit Abstand die dickste Dämpfung im Vergleich",
+        "Rutschfeste Unterseite",
+        "Bezug abnehmbar, Kern austauschbar",
+        "Große Fläche (3 m²)"
+      ],
+      "cons": [
+        "Nicht faltbar, ca. 19 kg – braucht dauerhaft Platz",
+        "Hohe Kante (20 cm) kann für Kleinkinder selbst Stolperstelle sein",
+        "Keine Prüfnorm/Fallhöhe angegeben",
+        "Teurer; Verfügbarkeit schwankt (Schwestermodell 200 x 100 x 20 cm derzeit nicht verfügbar)"
+      ],
+      "specs": {
+        "Maße": "200 x 150 x 20 cm",
+        "Kern": "PU-Schaum RG 20",
+        "Gewicht": "ca. 19 kg",
+        "Unterseite": "Anti-Rutsch-Boden",
+        "Prüfung": "keine angegeben"
+      },
+      "asin": "B0793Q4WKQ",
+      "query": "ALPIDEX Weichbodenmatte 200 x 150 x 20 cm grün Tragegriffe Anti-Rutschboden",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "ALPIDEX Soft Floor Mat 200 x 150 x 20 cm with Carry Handles and Non-Slip Base, Colour: Green : Amazon.de: Sports & Outdoors (dt. Slug: ALPIDEX-Weichbodenmatte-200-Tragegriffen-Anti-Rutschboden)",
+      "asinPruefung": "Runde 1: B0793Q4WKQ per Suche nicht erneut auffindbar; Treffer zeigen 200 x 100 x 20 cm (B0787VK999/B073TJSMJW) und 200 x 150 x 30 cm. B081PD5ND6 ebenfalls nicht auffindbar. ASIN gemäß Prüfbericht-Stichprobe (Titel 200 x 150 x 20 cm, grün) beibehalten – vor Livegang manuell prüfen."
+    }
+  ],
+  "top5": [
+    {
+      "name": "Sport-Thieme Fallschutzmatte „SL“ 200 x 100 x 6 cm",
+      "warum": "Weichbodenmatte in Kita-Qualität unter Kletterwand/Sprossenwand: stark verpresster PE-Schaum mit Reisstrohprägung, Bezug fest mit dem Kern verklebt; kritische Fallhöhe (HIC) laut Sport-Thieme 2,25 m (Amazon-Listing: 2,09 m). Nicht faltbar, teuer (ca. 300 €), laut Listing nicht für Kinder unter 18 Monaten.",
+      "fakten": [
+        {
+          "text": "PE-Schaum mit Reisstrohprägung, 100 x 100 x 6 cm oder 200 x 100 x 6 cm, kritische Fallhöhe (HIC) 2,25 m.",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.sport-thieme.de/Turnger%C3%A4te/Matten/Fallschutzmatten/art=3746804",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Amazon-Listing nennt HIC 2,09 m, ideal für Kitas und Bewegungsräume, nicht geeignet für Kinder unter 18 Monaten; Titelmaß (100 x 200 x 4 cm) widerspricht der Beschreibung.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B0DDBS43ZG",
+          "datum": "2026-10-08"
+        }
+      ],
+      "asin": "B0DDBS43ZG",
+      "query": "Sport-Thieme Fallschutzmatte SL 200x100x6 cm",
+      "where": null,
+      "asinPruefung": "Runde 1: B0DDBS43ZG ist die kanonische /dp/-Seite „Sport-Thieme Fallschutzmatte SL“; B0CQ7D4PFZ wird in der Detailtabelle derselben Seite genannt (Titel 100 x 200 x 4 cm, Details 100 x 100 x 6 oder 200 x 100 x 6 cm, 3,8/7,5 kg, HIC 2,09 m, ca. 309 €). B0DDBS43ZG beibehalten; Hinweis auf Dickenwiderspruch im Text ergänzt."
+    },
+    {
+      "name": "EYEPOWER Klappbare Turnmatte 240 x 120 x 5 cm",
+      "warum": "Große Klappmatte für das Pikler-Dreieck mit eingehängter Rutsche: gleiche Serie wie Platz 2 (EPE-Kern, PVC-Bezug), aber 2,9 m² Fläche für den Auslauf der Rutsche. Nur für geringe Fallhöhen.",
+      "fakten": [
+        {
+          "text": "Faltbare Turnmatte 240 x 120 x 5 cm, als Turnmatte im Kinderzimmer und Fallschutz beworben.",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B07BBVC8NL",
+          "datum": "2026-10-08"
+        }
+      ],
+      "asin": "B07BBVC8NL",
+      "query": "EYEPOWER Klappbare Turnmatte 240x120x5 cm",
+      "where": null
+    },
+    {
+      "name": "Hakuna Matte Stylische Puzzlematte Baby 180 x 180 cm (Afrika, 9 Platten 60 x 60 cm)",
+      "warum": "EVA-Puzzlematte als rutschhemmende Spielfläche für Krabbel- und Kleinkindalter: laut Hersteller formamid-, BPA- und phthalatfrei, 1,2 cm dick, Serie laut Listings von TÜV SÜD nach EN 71 geprüft bzw. GS-zertifiziert. Mit 1,2 cm nur Polster, kein Fallschutz für Klettergeräte.",
+      "fakten": [
+        {
+          "text": "9 Platten à 60 x 60 cm, 1,2 cm dick, EVA-Schaum formamid-, BPA- und phthalatfrei.",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B0DWFN7FRD",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Öko-Test fand 2016 in einer von acht Puzzlematten so viel Formamid, dass um zwei Noten abgewertet wurde, und in einer weiteren erhöhte PAK; keine Matte war „sehr gut“ (Hakuna Matte war nicht Teil des Tests).",
+          "art": "Test",
+          "quelle": "https://www.oekotest.de/kinder-familie/Puzzlematten-Puzzleteppiche-im-Test-Keine-ist-sehr-gut_107285_1.html",
+          "datum": "2016-01"
+        }
+      ],
+      "asin": "B0DWFN7FRD",
+      "query": "Hakuna Matte Puzzlematte Baby 180x180 Afrika 9 XXL Platten 60x60",
+      "where": null
+    },
+    {
+      "name": "Hakuna Matte Wolkenweiche Spielmatte Baby 200 x 150 x 2,5 cm, beige",
+      "warum": "Weiche, große Krabbel- und Spielmatte unter einer Baby- oder Indoor-Schaukel mit sehr geringer Höhe: PU-Schaumkern, Samtoberfläche, rutschfeste Unterseite, Oeko-Tex Standard 100 (Herstellerangabe). Mit 2,5 cm nur für Krabbel-/Sitzhöhe, nicht als Fallschutz unter Klettergeräten.",
+      "fakten": [
+        {
+          "text": "Polyester-Samtoberfläche, Polyurethan-Schaumkern, rutschfeste Unterseite; Oeko-Tex Standard 100 (Zertifikatsnummern in Listings uneinheitlich).",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B0C9X7DSVS",
+          "datum": "2026-10-08"
+        }
+      ],
+      "asin": "B0C9X7DSVS",
+      "query": "Hakuna Matte Wolkenweiche Spielmatte Baby 200x150x2,5 cm beige",
+      "where": null
+    },
+    {
+      "name": "Gartenpirat Fallschutzmatte 50 x 50 cm, Stärke 43 mm, rot (Gummigranulat)",
+      "warum": "Für Spielgeräte im Garten statt im Kinderzimmer: Gummigranulat-Platte, laut Anbieter nach EN 1177:2008 geprüft, bis 1,4 m Fallhöhe. Ausführlicher Vergleich von Gummi-Fallschutzplatten auf der Seite sportboden-gummi (dorthin verlinken).",
+      "fakten": [
+        {
+          "text": "50 x 50 x 4,3 cm, Gummigranulat (hergestellt von Granuflex), ca. 6 kg pro Platte, laut Listing EN 1177:2008, Fallhöhe bis 1,4 m; Zertifikatsnummer im Listing nicht angegeben.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B00B5SDILY",
+          "datum": "2026-10-08"
+        }
+      ],
+      "asin": "B00B5SDILY",
+      "query": "Gartenpirat Fallschutzmatte 50x50 cm 43 mm rot Gummi",
+      "where": null
+    }
+  ],
+  "tests": [
+    {
+      "institut": "ÖKO-TEST",
+      "heft": "Jahrbuch Kleinkinder 2016 (Online-Artikel vom 31.01.2016)",
+      "ergebnis": "Puzzlematten: keine „sehr gut“, fünf von acht „gut“; Grandi-Giochi-Matte wegen Formamid um zwei Noten abgewertet, erhöhte PAK in Bruin-Puzzlematten „Wir verreisen“; EVA-Matten der Mitbewerber ohne nachweisbares Formamid; alle Matten laden sich elektrostatisch auf. Kein aktuelleres Öko-Test-Ergebnis gefunden.",
+      "quelle": "https://www.oekotest.de/kinder-familie/Puzzlematten-Puzzleteppiche-im-Test-Keine-ist-sehr-gut_107285_1.html"
+    },
+    {
+      "institut": "Stiftung Warentest / ÖKO-TEST",
+      "heft": "–",
+      "ergebnis": "Kein Test zu Weichboden-, Klapp- oder Fallschutzmatten für den Heimgebrauch gefunden (Stand 08.10.2026).",
+      "quelle": "https://www.oekotest.de/kinder-familie"
+    },
+    {
+      "institut": "AGES (Österreich)",
+      "heft": "Schwerpunktaktion Formamid in Puzzlematten",
+      "ergebnis": "25 Proben untersucht, 23 beanstandet (meist Kennzeichnung/Konformitätserklärung); bei sechs Proben Formamid-Gehaltsgrenzwert überschritten, bei einer lösten sich Kleinteile. Behördliche Marktkontrolle, kein Produkttest mit Noten.",
+      "quelle": "https://www.ages.at/mensch/schwerpunkte/schwerpunktaktionen/detail/formamid-in-puzzlematten"
+    }
+  ],
+  "warnungen": [
+    "Keine Rückrufe oder Safety-Gate-Meldungen zu den empfohlenen Matten gefunden (Suche 08.10.2026; Safety Gate/produktwarnung.eu waren nur per Websuche, nicht direkt abrufbar).",
+    "Formamid in EVA-Schaum (Puzzlematten): Für Schaumstoffspielzeug gilt nach Spielzeugrichtlinie 2009/48/EG ein Emissionsgrenzwert von 20 µg/m³ (nach höchstens 28 Tagen), sobald der Gehalt 200 mg/kg übersteigt; Prüfmethode EN 71-15. Quelle: https://www.ages.at/mensch/schwerpunkte/schwerpunktaktionen/detail/formamid-in-puzzlematten – Puzzlematten mit Angabe „formamidfrei“/EN 71 bevorzugen.",
+    "EN 1176/EN 1177 sind Normen für öffentliche Spielplätze; Herstellerangaben dazu bei Heimmatten sind nicht unabhängig geprüft (Zertifikat ggf. beim Anbieter anfragen). Stoßdämpfender Boden ist auf Spielplätzen ab 60 cm freier Fallhöhe vorgeschrieben (laut Anbieterangabe im Listing https://www.amazon.de/dp/B08YZ7WPH9) – als Orientierung auch daheim nutzbar.",
+    "Gartenpirat-Bodenmatte (Platz 1) trägt den Warnhinweis „nicht für Kinder unter 36 Monaten“; Sport-Thieme SL laut Listing „nicht unter 18 Monaten“ – im Text als Herstellerangabe kennzeichnen und für Pikler-Dreieck-Alter (ab ca. 1 Jahr) die Klappmatte von Platz 2 als Alternative nennen.",
+    "Matte muss den gesamten Fallbereich abdecken und darf nicht verrutschen; Gartenpirat nennt bei 1,90 m Fallhöhe ca. 1,8 m Auslaufzone rund um die Fallzone.",
+    "Keine Matte ersetzt die Aufsicht; Sport-Thieme weist bei Weichbodenmatten auf Nutzung unter direkter Aufsicht Erwachsener hin (https://www.amazon.de/dp/B0793N1R96)."
+  ],
+  "verworfen": [
+    {
+      "name": "Sport-Thieme Starke Faltmatte 240 x 120 x 5 cm",
+      "grund": "Hochwertige Klappmatte (laut Hersteller Fallschutz für geringe Höhen, Planenbezug speichel-/urinfest), aber auf amazon.de „derzeit nicht verfügbar“ (B000NOC3IA); Sport-Thieme auf Awin nicht freigeschaltet. Wäre Kandidat für Platz 1, falls Sport-Thieme-Awin-Programm freigeschaltet wird."
+    },
+    {
+      "name": "ALPIDEX Klappbare Gymnastikmatte 240 x 120 x 5 cm (B07BWJWMMJ)",
+      "grund": "Viele gute Bewertungen (4,7/905), aber Listing mit widersprüchlichen Maßangaben (240 x 120 x 5 vs. 185 x 78 x 3,2 cm) und uneinheitlicher Aussage zur Rutschfestigkeit – Variante nicht eindeutig."
+    },
+    {
+      "name": "ALPIDEX Weichbodenmatte 200 x 100 x 20 cm (B0787VK999) und Mini 100 x 100 x 20 cm (B07877X4CZ)",
+      "grund": "Auf amazon.de derzeit nicht verfügbar."
+    },
+    {
+      "name": "Sport-Thieme Weichbodenmatte klappbar / Typ 7 (300 x 200 cm)",
+      "grund": "Für Turnhallen dimensioniert (22–42 kg, 3 x 2 m) – nicht fürs Kinderzimmer."
+    },
+    {
+      "name": "MAMOI Spielmatte/Turnmatte 120 x 66 x 6 cm",
+      "grund": "Keine Angaben zu Kern, Normen oder Schadstoffen; Kundenkritik: Bezug nicht abnehmbar, Matte rutscht."
+    },
+    {
+      "name": "IKEA PLUFSIG Gymnastikmatte",
+      "grund": "Auf amazon.de nur über Drittanbieter gelistet, kein offizieller Vertrieb."
+    },
+    {
+      "name": "No-Name-Klappmatten 185 x 76 x 3,2 cm (z. B. B0D6C45BWK)",
+      "grund": "Nur 3,2 cm PE-Schaum, Altersangabe ab 8 Jahren – kein Fallschutz für Kleinkinder."
+    }
+  ],
+  "offen": [
+    "Awin: Laut Auftrag keine freigeschalteten Programme – alle Top-3/Top-5 über Amazon. Sport-Thieme (sport-thieme.de) wäre als Awin-Händler sinnvoll (Fallschutzmatten in Kita-Qualität, Starke Faltmatte); Awin-ID (mid) konnte ich nicht verifizieren (awin.com nicht abrufbar). Bewerbungstext-Entwurf: „toptop.shop ist ein redaktionelles Vergleichsportal für Kinder-, Spiel- und Sportausstattung mit unabhängigen Top-3-Empfehlungen. Wir möchten Sport-Thieme-Fallschutz- und Turnmatten in unseren Ratgebern zu Fallschutzmatten, Sprossenwänden und Kletterwänden für Familien und Kitas verlinken. Inhalte sind quellenbasiert (Herstellerangaben, Testinstitute), Partnerlinks sind gekennzeichnet.“",
+    "Verfügbarkeit/Preis vor Veröffentlichung prüfen: ALPIDEX 200 x 150 x 20 cm (B0793Q4WKQ; Listing nennt im Text zusätzlich ASIN B081PD5ND6) und Sport-Thieme SL (B0DDBS43ZG; Listing nennt zusätzlich B0CQ7D4PFZ, Variante 200 x 100 x 6 cm auswählen).",
+    "Gartenpirat-Bodenmatte existiert unter zwei ASINs mit gleichem Titel (B07RHNWYF2 mit 104 Bewertungen, B0D9WG3QJ3); B07RHNWYF2 gewählt – aktive Variante stichprobenartig prüfen.",
+    "eyepower 200 x 100 x 5 cm: widersprüchliche Gewichtsangabe (3,25 vs. 6 kg) und keine Altersangabe des Herstellers.",
+    "Kein aktueller unabhängiger Test (Stiftung Warentest/Öko-Test) zu Fallschutz- oder Klappmatten; einziger relevanter Test ist Öko-Test Puzzlematten 2016 – im Text als „älterer Test“ einordnen.",
+    "Direkter Seitenabruf von amazon.de, oekotest.de, Safety Gate war wegen Proxy-Sperre nicht möglich; ASIN-Titel nur aus Suchtreffern (deutsch/englisch) verifiziert."
+  ],
+  "quellen": [
+    {
+      "titel": "Gartenpirat Universal-Bodenmatte 200x100x10 (amazon.de)",
+      "url": "https://www.amazon.de/dp/B07RHNWYF2"
+    },
+    {
+      "titel": "EYEPOWER Klappbare Turnmatte 200x100x5 (amazon.de)",
+      "url": "https://www.amazon.de/dp/B07BBSF81N"
+    },
+    {
+      "titel": "EYEPOWER Klappbare Turnmatte 240x120x5 (amazon.de)",
+      "url": "https://www.amazon.de/dp/B07BBVC8NL"
+    },
+    {
+      "titel": "ALPIDEX Weichbodenmatte 200x150x20 (amazon.de)",
+      "url": "https://www.amazon.de/dp/B0793Q4WKQ"
+    },
+    {
+      "titel": "Sport-Thieme Fallschutzmatte SL (amazon.de)",
+      "url": "https://www.amazon.de/dp/B0DDBS43ZG"
+    },
+    {
+      "titel": "Sport-Thieme Fallschutzmatte „SL“ (Hersteller)",
+      "url": "https://www.sport-thieme.de/Turnger%C3%A4te/Matten/Fallschutzmatten/art=3746804"
+    },
+    {
+      "titel": "Sport-Thieme Starke Faltmatte (Hersteller)",
+      "url": "https://www.sport-thieme.de/Therapie/Psychomotorische_%C3%9Cbungsger%C3%A4te/Spielmatten/art=1213065"
+    },
+    {
+      "titel": "Hakuna Matte Puzzlematte 180x180 Afrika (amazon.de)",
+      "url": "https://www.amazon.de/dp/B0DWFN7FRD"
+    },
+    {
+      "titel": "Hakuna Matte Wolkenweiche Spielmatte 200x150x2,5 (amazon.de)",
+      "url": "https://www.amazon.de/dp/B0C9X7DSVS"
+    },
+    {
+      "titel": "Gartenpirat Fallschutzmatte 50x50 43 mm (amazon.de)",
+      "url": "https://www.amazon.de/dp/B00B5SDILY"
+    },
+    {
+      "titel": "ÖKO-TEST: Puzzlematten & Puzzleteppiche im Test – Keine ist „sehr gut“",
+      "url": "https://www.oekotest.de/kinder-familie/Puzzlematten-Puzzleteppiche-im-Test-Keine-ist-sehr-gut_107285_1.html"
+    },
+    {
+      "titel": "AGES: Formamid in Puzzlematten",
+      "url": "https://www.ages.at/mensch/schwerpunkte/schwerpunktaktionen/detail/formamid-in-puzzlematten"
+    },
+    {
+      "titel": "ANSES: Formamide and puzzle mats",
+      "url": "https://www.anses.fr/en/content/formamide-and-puzzle-mats-minimising-exposure-young-children"
+    },
+    {
+      "titel": "TÜV SÜD: Prüfzeichen für Fallschutzböden – stoßdämpfende Böden ab mehr als 60 cm freier Fallhöhe verbindlich",
+      "url": "https://www.tuvsud.com/de-de/dienstleistungen/produktpruefung-und-produktzertifizierung/zertifikatsdatenbank/z2-240-fallschutzboeden"
+    },
+    {
+      "titel": "Sport-Thieme Weichbodenmatte klappbar (amazon.de) – Hinweis Nutzung unter Aufsicht",
+      "url": "https://www.amazon.de/dp/B0793N1R96"
+    }
+  ]
+}

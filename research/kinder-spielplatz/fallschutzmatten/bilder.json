@@ -1,0 +1,50 @@
+{
+  "visuals": {
+    "1": {
+      "kind": "mat",
+      "tone": "forest"
+    },
+    "2": {
+      "kind": "mat",
+      "tone": "green"
+    },
+    "3": {
+      "kind": "mat",
+      "tone": "mint"
+    }
+  },
+  "steps": {
+    "title": "Fallschutzmatte richtig auslegen",
+    "subtitle": "Unter Kletterdreieck, Kletterwand und Schaukel",
+    "alt": "Infografik: Fallschutzmatte richtig auslegen – Fallbereich bestimmen, Ausreichend groß wählen, Rutschfest auslegen, Lücken schließen, Sauber halten",
+    "caption": "Die Matte muss den ganzen Fallbereich abdecken und darf nicht verrutschen.",
+    "steps": [
+      {
+        "title": "Fallbereich bestimmen",
+        "text": "Fläche rund um Klettergerät oder Schaukel abschätzen, in die ein Kind fallen kann."
+      },
+      {
+        "title": "Ausreichend groß wählen",
+        "text": "Die Matte sollte den ganzen Fallbereich abdecken, nicht nur die Mitte."
+      },
+      {
+        "title": "Rutschfest auslegen",
+        "text": "Auf glatten Böden eine rutschhemmende Unterlage nutzen, Ränder flach halten."
+      },
+      {
+        "title": "Lücken schließen",
+        "text": "Puzzle- und Klappmatten lückenlos aneinanderlegen."
+      },
+      {
+        "title": "Sauber halten",
+        "text": "Bezug oder Oberfläche nach Herstellerangabe abwischen oder waschen."
+      }
+    ]
+  },
+  "scoresAlt": "Balkendiagramm: Bewertung der drei besten Fallschutzmatten in den Kriterien Dämpfung, Größe, Rutschfestigkeit, Pflege und Preis",
+  "scoresCaption": "Unsere Bewertung je Kriterium für die drei empfohlenen Modelle.",
+  "neueFormen": [],
+  "offen": [
+    "Kriterien in scoresAlt sind ein Entwurf – an die finalen Bewertungskriterien anpassen; Produktnamen nach Recherche ergänzen."
+  ]
+}

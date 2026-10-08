@@ -1,0 +1,51 @@
+{
+  "visuals": {
+    "1": {
+      "kind": "swing",
+      "tone": "forest"
+    },
+    "2": {
+      "kind": "swing",
+      "tone": "green"
+    },
+    "3": {
+      "kind": "swing",
+      "tone": "mint"
+    }
+  },
+  "steps": {
+    "title": "Gartenschaukel sicher aufstellen",
+    "subtitle": "Vom Standort bis zur Saisonpflege",
+    "alt": "Infografik: Gartenschaukel sicher aufstellen – Platz vor und hinter, Gestell verankern, Sitze einhängen, Weicher Boden, Regelmäßig prüfen",
+    "caption": "Verankern, Platz in Schwingrichtung, weicher Boden.",
+    "steps": [
+      {
+        "title": "Platz vor und hinter",
+        "text": "Genug freie Fläche in Schwingrichtung lassen, fern von Zäunen und Wegen."
+      },
+      {
+        "title": "Gestell verankern",
+        "text": "Bodenanker oder Fundament nach Herstellerangabe setzen, damit nichts kippt."
+      },
+      {
+        "title": "Sitze einhängen",
+        "text": "Sitzhöhe passend zum Kind einstellen, Karabiner schließen."
+      },
+      {
+        "title": "Weicher Boden",
+        "text": "Rasen oder Fallschutzmatten statt Pflaster unter der Schaukel."
+      },
+      {
+        "title": "Regelmäßig prüfen",
+        "text": "Seile, Ketten und Aufhängung auf Verschleiß kontrollieren, Sitze im Winter einlagern."
+      }
+    ]
+  },
+  "scoresAlt": "Balkendiagramm: Bewertung der drei besten Gartenschaukeln in den Kriterien Stabilität, Sitze, Material, Aufbau und Preis",
+  "scoresCaption": "Unsere Bewertung je Kriterium für die drei empfohlenen Modelle.",
+  "neueFormen": [],
+  "offen": [
+    "Kriterien in scoresAlt sind ein Entwurf – an die finalen Bewertungskriterien anpassen; Produktnamen nach Recherche ergänzen.",
+    "Sicherheits-/Montageschritte allgemein gehalten; Tragfähigkeits- und Altersangaben nur aus Herstellerquellen ergänzen."
+  ]
+}

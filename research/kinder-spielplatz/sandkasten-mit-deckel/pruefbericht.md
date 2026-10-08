@@ -1,0 +1,38 @@
+# Prüfbericht: sandkasten-mit-deckel
+
+Prüfer, Stand 2026-10-08. Ergebnis: **Korrektur nötig**
+
+## Geprüft
+- Build `node build.mjs` läuft fehlerfrei. Die Seite in `dist/` wurde bei 1440 und 390 px geprüft: keine Konsolenfehler, keine 404, kein horizontales Scrollen (die Vergleichstabelle scrollt in ihrem eigenen Container), genau eine H1, JSON-LD parsebar, kein `aggregateRating`. Beide SVGs sind vorhanden und lazy geladen.
+- Gewichte: 0,3 + 0,25 + 0,2 + 0,25 = 1. Gesamtnoten: WICKEY 8,23 > AXI 8,05 > HABAU 7,03, Platz 1 hat also die höchste Note. 7 FAQs, `quick` in jeder H2, Meta-Längen ok.
+- Fakten der Top 3 und Top 5 decken sich mit `produkte.json`. Herstellerangaben sind gekennzeichnet, ein Test wird nicht behauptet (korrekt).
+- ASINs per WebSearch (amazon.de):
+  - B004SKU1L6 (HABAU 3022): bestätigt, passender Titel, aktiv.
+  - B0F7LTZ4KS (AXI Ella): bestätigt, aber als **Sammel-Listing „in verschiedenen Farben und Größen“** (120 × 120 und 150 × 150 cm). Gezeigte Preise liegen bei ca. 110–160 €.
+  - B0BSV47B8H (WICKEY Flippey 110 × 165): **nicht live bestätigbar**. Die Suche findet nur Flippey-Listings mit 150 × 165 cm und 120 × 125 cm (B00O0VD8OA). Der Titel in `produkte.json` stammt aus einem früheren Suchtreffer.
+
+## Spielsand-Rückrufe (HEMA, Hobbycraft): Bewertung
+Der Satz „Anfang 2026 wurden laut produktwarnung.eu Spiel- bzw. Bastelsande von HEMA und Hobbycraft wegen Asbest zurückgerufen …“ ist **inhaltlich im Kern richtig, aber schlecht belegt und irreführend eingeordnet**:
+- Der Rückruf bei HEMA ist real. Laut Presseberichten (u. a. schwaebische.de, Stuttgarter Zeitung) ging es um bunten Spiel- und Bastelsand, Artikelnummern 15.90.0101 usw., veröffentlicht über lebensmittelwarnung.de. Die Rückrufe bei Hobbycraft betreffen den **britischen** Markt (Giant Box of Craft, GALT/My Living World, PSD 2602-0036) und sind für deutsche Leser nicht relevant.
+- Als Quelle dient eine Stichwortseite `produktwarnung.eu/stichwort/knabberwaren`, von der nur Überschriften gesehen wurden. Die URL passt nicht einmal zum Label. Das ist nicht belastbar.
+- Wichtiger fehlt: Laut Stiftung Warentest (test.de, „Weitere Funde: Asbest in buntem Spielsand“) enthielten 10 von 22 **bunten** Spiel-, Deko- und Bastelsanden Asbest. Alle stammten aus kalkhaltigem Sand. **Normaler Sandkasten-Spielsand (Quarzsand) ist ausdrücklich nicht betroffen**, was auch die Verbraucherzentrale NRW so sagt. Der jetzige Text legt nahe, Sandkastensand sei ein Rückrufthema.
+- Die Empfehlung „Spielsand nach DIN EN 71-3“ ist als Schutz vor Asbest ungeeignet. EN 71-3 regelt die Migration bestimmter Elemente (Schwermetalle), nicht Asbest. Außerdem fehlt ein Beleg in `produkte.json`.
+
+## Korrekturaufträge
+1. **[hoch] guide › spielsand, 1. Absatz (Rückrufsatz), Quelle in `sources` „produktwarnung.eu …knabberwaren“**: Satz umschreiben, etwa so: „2026 haben Stiftung Warentest und Verbraucherzentralen in buntem Spiel-, Deko- und Bastelsand Asbest gefunden (test.de: 10 von 22 Produkten). Händler wie HEMA, Woolworth und TK Maxx haben Produkte zurückgerufen. Gewöhnlicher Sandkasten-Spielsand aus Quarzsand ist laut Stiftung Warentest nicht betroffen. Bunten oder Deko-Sand deshalb nicht in den Sandkasten geben.“ Hobbycraft streichen. Quelle durch die test.de-Meldung ersetzen (https://www.test.de/Verbraucherschuetzer-warnen-Asbest-in-buntem-Spielsand-gefunden-6281991-0/), optional ergänzt um die BfR-Mitteilung. Den produktwarnung.eu-Link entfernen. Fakten in `produkte.json` › `warnungen` nachtragen. – zuständig: redakteur (Quelle: produkt-rechercheur)
+2. **[mittel] guide › spielsand `quick` und FAQ „Welcher Sand ist geeignet?“**: „Spielsand nach DIN EN 71-3 bzw. mit Prüfnachweis“ entweder mit Quelle belegen (z. B. Öko-Test-Rat „auf Auslobung Spielsand achten“) oder entschärfen: „ausdrücklich als Spielsand ausgelobter, gewaschener Quarzsand mit Prüfnachweis des Anbieters“. EN 71-3 nicht als Asbest-Schutz darstellen. – redakteur
+3. **[mittel] Produkt 1 WICKEY, `asin` B0BSV47B8H**: Listing mit genau 110 × 165 cm erneut bestätigen. Gelingt das nicht, Variante bzw. Maße an das auffindbare Listing anpassen (Flippey 150 × 165 cm) oder `asin` entfernen und nur `query` belassen. Bei geänderten Maßen auch Sandmenge, Tabelle und Texte nachziehen. – produkt-rechercheur
+4. **[mittel] Produkt 3 AXI Ella XXL, `asin` B0F7LTZ4KS und `priceTier: 3`**: Das Listing ist ein Sammel-Listing mit 120er- und 150er-Variante. Entweder die ASIN der 150-cm-Variante ermitteln oder im Text wie beim Ella XL ergänzen: „auf Amazon die Größe 150 × 150 cm wählen“. Die Preisklasse „über 200 €“ prüfen, denn die Suchtreffer zeigen 110–160 € (gegebenenfalls Klasse 2). Ist die Premium-Rolle dann nur noch über die Größe begründet, das Label „Premium-Wahl“ gegebenenfalls durch „Beste Wahl für große Gärten“ ersetzen. – produkt-rechercheur, redakteur
+5. **[niedrig] editorial › 1. Abschnitt, Absatz zu HABAU: „viele Hundert Bewertungen“** streichen, weil Bewertungsanzahlen nicht im Text stehen sollen. Ersatz zum Beispiel: „seit Jahren am Markt“. – redakteur
+6. **[niedrig] FAQ „Wie oft sollte man den Sand wechseln?“**: Öko-Test wird ohne Heft bzw. Datum zitiert. Entweder die Ausgabe ergänzen oder die Formulierung neutral halten („Verbraucherratgeber empfehlen …“) und die Quelle verlinkt lassen. – redakteur
+7. **[niedrig] Produkt 1 `pros` „Etablierte Spielgeräte-Marke“**: Ohne Beleg. Streichen oder belegen. – redakteur
+
+## Korrekturen (Runde 1)
+Stand 2026-10-08, `node build.mjs` fehlerfrei.
+1. **Erledigt.** Rückrufsatz neu geschrieben: Stiftung Warentest fand 2026 Asbest in 10 von 22 bunten Spiel-, Deko- und Bastelsanden (überwiegend Kalkstein, in Quarzsand nichts); Rückrufe u. a. bei HEMA und Woolworth; Sandkasten-Spielsand laut test.de nicht betroffen; bunten Sand nicht in den Sandkasten. Per WebSearch bestätigt: test.de „Verbraucherschützer warnen: Asbest in buntem Spielsand gefunden“ (laufend aktualisiert, Fassung vom 16.09.2026) und test.de „Asbest in Spielsand: 10 von 22 Produkten belastet“. Hobbycraft und TK Maxx nicht übernommen (UK bzw. nicht bestätigt). produktwarnung.eu-Quelle entfernt, beide test.de-Links in `sources`, `warnungen` in `produkte.json` aktualisiert.
+2. **Erledigt.** `quick` und FAQ „Welcher Sand …“ ohne DIN EN 71-3; jetzt „ausdrücklich als Spielsand ausgelobter, gewaschener Quarzsand mit Prüfnachweis des Anbieters“, kein bunter Deko-/Bastelsand. Hinweis zu EN 71-3 ≠ Asbest in `warnungen` vermerkt.
+3. **Erledigt (ASIN entfernt).** B0BSV47B8H ließ sich erneut nicht bestätigen; amazon.de-Treffer nur Flippey 150 × 165 cm (ohne /dp/-URL) und 120 × 125 cm (B00O0VD8OA, nicht verfügbar). Das Produkt 110 × 165 cm existiert (Kaufland-Listing, Verkäufer WICKEY, ca. 30 cm hoch). Daher `asin` entfernt, `query` bleibt (Amazon-Suche); Maße unverändert. amazon.de-Link aus `sources` entfernt.
+4. **Erledigt.** B0F7LTZ4KS bleibt (Sammel-Listing; keine eigene /dp/-ASIN der 150er-Variante gefunden). In den Features ergänzt: „auf Amazon die Größe 150 × 150 cm wählen“. Preisklasse 3 bleibt: Ein amazon.de-Treffer nennt für die XXL-Variante 150 × 150 × 20 cm ca. 290 €; die 110–160 € betreffen die 120er-Variante. Label „Premium-Wahl“ bleibt.
+5. **Erledigt.** „viele Hundert Bewertungen“ → „seit Jahren am Markt“.
+6. **Erledigt.** FAQ neutral: „Verbraucherratgeber empfehlen diesen Rhythmus“ (Öko-Test-Link bleibt in den Quellen). Heftausgabe des Öko-Test-Spielsandtests ließ sich nicht sicher ermitteln (Hinweise auf Mai 2026, unbestätigt).
+7. **Erledigt.** Pro „Etablierte Spielgeräte-Marke“ ersetzt durch „Rechteckformat: zwei Kinder spielen nebeneinander“ (auch in `produkte.json`).

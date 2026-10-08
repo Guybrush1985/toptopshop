@@ -1,0 +1,479 @@
+{
+  "slug": "kinderschreibtisch-hoehenverstellbar",
+  "stand": "2026-10-08",
+  "criteria": [
+    {
+      "key": "ergonomie",
+      "label": "Höhenbereich & Neigung",
+      "weight": 0.35,
+      "description": "Niedrigste/höchste Tischhöhe (passt es für Erstklässler ab ca. 120 cm bis Jugendliche?), Art der Verstellung (Stufen, stufenlos, Kurbel/Seilzug, elektrisch), Neigungswinkel der Platte und geteilte Platte"
+    },
+    {
+      "key": "sicherheit",
+      "label": "Sicherheit & Qualität",
+      "weight": 0.3,
+      "description": "Herstellerangaben zu GS/TÜV, DIN EN 1729, Klemmschutz, Kindersicherung, Garantie und Ersatzteilen; Rückrufe; Verarbeitung laut Kundenberichten"
+    },
+    {
+      "key": "ausstattung",
+      "label": "Ausstattung & Erweiterbarkeit",
+      "weight": 0.15,
+      "description": "Schublade, Kabelkanal, Buchstütze, Taschenhaken, Aufsätze/Erweiterungen derselben Marke"
+    },
+    {
+      "key": "preisLeistung",
+      "label": "Preis-Leistung",
+      "weight": 0.2,
+      "description": "Preisklasse im Verhältnis zu Ausstattung und Nutzungsdauer (Grundschule bis Jugend)"
+    }
+  ],
+  "priceTiers": [
+    {
+      "tier": 1,
+      "label": "bis ca. 300 €"
+    },
+    {
+      "tier": 2,
+      "label": "ca. 300–700 €"
+    },
+    {
+      "tier": 3,
+      "label": "über 700 €"
+    }
+  ],
+  "products": [
+    {
+      "rank": 1,
+      "label": "Beste Gesamtwahl",
+      "name": "moll Winner Classic Kinderschreibtisch, höhenverstellbar und neigbar (Weiß)",
+      "brand": "moll",
+      "variant": "Winner Classic (10-stufige Höhenverstellung), Platte ca. 121 × 71 cm, Weiß",
+      "priceTier": 2,
+      "ratings": {
+        "ergonomie": 8.3,
+        "sicherheit": 9.0,
+        "ausstattung": 7.5,
+        "preisLeistung": 8.0
+      },
+      "bestFor": "Familien, die einen mitwachsenden Markenschreibtisch für die gesamte Schulzeit wollen, ohne Premiumpreis",
+      "fakten": [
+        {
+          "text": "Höhe 53–82 cm, bei der Classic-Variante in 10 Stufen (Comfort-Variante stufenlos); Tischplatte stufenlos bis 18° neigbar, federunterstützt nach oben, mit einstellbarer Absenkbremse nach unten und Sicherheitsspalt gegen Einklemmen",
+          "art": "Herstellerangabe",
+          "quelle": "https://mollworld.ch/produkt/moll-winner/",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Alle moll-Tische laut Hersteller GS-geprüft und TÜV-zertifiziert; Winner zusätzlich mit Blauem Engel und AGR-Gütesiegel; Made in Germany (Gruibingen)",
+          "art": "Herstellerangabe",
+          "quelle": "https://mollworld.ch/produkt/moll-winner/",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Melaminharzbeschichtete, abrieb- und kratzfeste Tischplatte; Buchstütze, Abrutschleiste, Taschenhaken, Magnetlineal und 6 Akzentfarben im Lieferumfang",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B08BTR7FLP",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Händler nennen 5 Jahre Qualitätsgarantie und 5 Jahre Nachkaufgarantie (auf moll-eigener Seite nicht eindeutig bestätigt)",
+          "art": "Händlerangabe",
+          "quelle": "https://shop.scharrbuero.de/moll-winner-comfort-kinderschreibtisch-hoehenverstellbarer-schreibtisch-von-53cm-82cm-weiss-eiche-ahorn-weiss/sw10160.3",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Vorgängergeneration moll Runner war Testsieger („gut“) im Öko-Test Schülerschreibtische, Heft 2/2011 – Winner selbst nicht getestet",
+          "art": "Bericht",
+          "quelle": "http://www.einrichtung-und-moebel.de/2011/02/15/kinderschreibtisch-moll-schreibtisch_runner_oeko-test_klassenprimus/",
+          "datum": "2011-02-15"
+        }
+      ],
+      "pros": [
+        "Niedrigste Höhe 53 cm passt schon für Erstklässler",
+        "Stufenlose Neigung bis 18° mit Absenkbremse",
+        "GS/TÜV laut Hersteller, Made in Germany",
+        "Großes Erweiterungsprogramm (Side Top, Flex Deck, Schublade)"
+      ],
+      "cons": [
+        "Classic-Verstellung in 10 Stufen, nicht stufenlos (Comfort-Variante teurer)",
+        "Schublade nur als Zubehör",
+        "Keine eigene unabhängige Prüfung des Modells"
+      ],
+      "specs": {
+        "Höhe": "53–82 cm, 10 Stufen (Herstellerangabe)",
+        "Neigung": "stufenlos bis 18° (Herstellerangabe)",
+        "Plattenmaß": "ca. 121 × 71 cm (Händlerangabe)",
+        "Körpergröße": "ca. 119–191 cm (Herstellerangabe für moll-Classic-Tische)",
+        "Prüfzeichen": "GS, TÜV, Blauer Engel (Herstellerangabe)"
+      },
+      "asin": "B08BTR7FLP",
+      "query": "moll Winner Classic Kinderschreibtisch Weiß",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "Moll Winner Classic Children's Desk Height Adjustable Grows with Your Child and Ergonomic with Tilting Table Top and Rounded Corners Desk Ideal for School Children Made in Germany (amazon.de/dp/B08BTR7FLP); Lagerstatus im Suchtreffer nicht eindeutig",
+      "gesamt": 8.33
+    },
+    {
+      "rank": 2,
+      "label": "Bestes Preis-Leistungs-Verhältnis",
+      "name": "FLEXISPOT Kinderschreibtisch elektrisch höhenverstellbar mit neigbarer Tischplatte, LED-Höhenanzeige, 3 Speicherplätze, Kindersicherung, 110 x 52 cm",
+      "brand": "FLEXISPOT",
+      "variant": "SK2 (mit Neigung), 110 × 52 cm, ohne Stuhl",
+      "priceTier": 1,
+      "ratings": {
+        "ergonomie": 7.5,
+        "sicherheit": 7.0,
+        "ausstattung": 6.5,
+        "preisLeistung": 9.0
+      },
+      "bestFor": "Eltern mit kleinerem Budget, die elektrische Verstellung per Knopfdruck und eine stark neigbare Platte wollen",
+      "fakten": [
+        {
+          "text": "Höhe 58,5–90,5 cm elektrisch, Tischplatte 0–40° neigbar mit Schutzleiste/Lineal, LED-Display mit 3 Speicherplätzen, Kindersicherung; für Kinder ab 6 Jahren; Gewicht ca. 30 kg",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B0FT6XF5TY",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "5 Jahre Garantie auf das Gestell, 3 Jahre auf den Motor",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B0FT6XF5TY",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Kundenstimmen loben stabile Höhenverstellung und einfachen Aufbau; Netzkabel lässt sich abziehen, damit jüngere Kinder nicht damit spielen",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B0FT6XF5TY",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Angabe zu GS-Zeichen oder DIN EN 1729 im Listing nicht gefunden",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B0FT6XF5TY",
+          "datum": "2026-10-08"
+        }
+      ],
+      "pros": [
+        "Elektrisch mit Memory und Kindersicherung",
+        "Neigung bis 40°",
+        "Auch als Stehtisch für Jugendliche nutzbar",
+        "Deutlich günstiger als Markenschreibtische mit Kurbel"
+      ],
+      "cons": [
+        "Niedrigste Höhe 58,5 cm – für kleine Erstklässler evtl. zu hoch (Fußstütze/höherer Stuhl nötig)",
+        "Kleine Platte (110 × 52 cm), keine Schublade",
+        "Keine Angabe zu GS/EN 1729 gefunden",
+        "Motor und Kabel im Kinderzimmer"
+      ],
+      "specs": {
+        "Höhe": "58,5–90,5 cm, elektrisch (Herstellerangabe)",
+        "Neigung": "0–40° (Herstellerangabe)",
+        "Plattenmaß": "110 × 52 cm",
+        "Alter": "ab 6 Jahren (Herstellerangabe)",
+        "Garantie": "5 J. Gestell / 3 J. Motor (Herstellerangabe)"
+      },
+      "asin": "B0FT6XF5TY",
+      "query": "FLEXISPOT Kinderschreibtisch elektrisch neigbare Tischplatte 110 x 52",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "FLEXISPOT Children's Desk, Electric Height-Adjustable Desk with Tilting Table Top, for Children from 6 Years, with LED Height Display, 3 Memory Slots, Child Lock, 110 x 52 cm (amazon.de/dp/B0FT6XF5TY)",
+      "gesamt": 7.5
+    },
+    {
+      "rank": 3,
+      "label": "Premium-Wahl",
+      "name": "moll Champion Right Up, höhenverstellbarer Kinderschreibtisch, Korpus Weiß – Seiten Weiß, 121 x 72 x 53 cm",
+      "brand": "moll",
+      "variant": "Champion Right Up (Comfort-Verstellung), Weiß/Weiß",
+      "priceTier": 3,
+      "ratings": {
+        "ergonomie": 9.2,
+        "sicherheit": 9.2,
+        "ausstattung": 9.0,
+        "preisLeistung": 4.5
+      },
+      "bestFor": "Familien, die den Schreibtisch von der Einschulung bis zum Abitur nutzen wollen und Wert auf geteilte Platte und stufenlose Verstellung legen",
+      "fakten": [
+        {
+          "text": "Höhe 53–82 cm stufenlos über patentierte Comfort-Verstellung (integriertes „Jojo“, auch von kleinen Kindern bedienbar); nur der rechte Plattenteil ist neigbar, stufenlos per Seilzug – der linke bleibt waagerecht als Ablage; für Linkshänder gibt es Left Up",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/moll-Champion-Right-Kinderschreibtisch-Korpus/dp/B07S5DMNK5",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Neigung bis 20° mit patentierter Sicherheitskupplung gegen Einklemmen (Angabe bei Champion-Schwestermodell), integrierter Kabelkanal, 8 austauschbare Akzentfarben",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B07S5V78GZ",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "GS-zertifiziert und kindersicher (Händlerangabe zum Champion Right Up); alle moll-Tische laut Hersteller GS/TÜV",
+          "art": "Händlerangabe",
+          "quelle": "https://www.pfister.ch/de/produkt/35002/moll-schreibtisch-champion-right-up",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Hersteller empfiehlt optionale Wandbefestigung gegen Kippen",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/moll-Champion-Right-Kinderschreibtisch-Korpus/dp/B07S5DMNK5",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Variante Korpus Weiß – Seiten Weiß: Höhe 53–82 cm, rechter Plattenteil neigbar, 8 austauschbare Farbvarianten im Lieferumfang, laut Hersteller für 6–12 Jahre, belastbar bis 100 kg, Montage zu zweit",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/moll-Champion-Right-Kinderschreibtisch-Korpus/dp/B07S6V8YTX",
+          "datum": "2026-10-08"
+        }
+      ],
+      "pros": [
+        "Stufenlose Höhen- und Neigungsverstellung, kindgerecht bedienbar",
+        "Geteilte Platte: schräg schreiben, gerade ablegen",
+        "Kabelkanal und großes Zubehörprogramm",
+        "Made in Germany, GS/TÜV laut Hersteller"
+      ],
+      "cons": [
+        "Sehr teuer (Preisklasse 3)",
+        "Schublade, Aufsatz und Container nur gegen Aufpreis",
+        "Varianten teils „derzeit nicht verfügbar“ – Farbe vor Kauf prüfen"
+      ],
+      "specs": {
+        "Höhe": "53–82 cm stufenlos (Herstellerangabe)",
+        "Neigung": "rechter Plattenteil stufenlos, bis ca. 20° (Herstellerangabe Champion)",
+        "Plattenmaß": "121 × 72 cm",
+        "Gewicht": "ca. 20 kg (Händlerangabe)",
+        "Prüfzeichen": "GS/TÜV (Hersteller-/Händlerangabe)"
+      },
+      "asin": "B07S6V8YTX",
+      "query": "moll Champion Right Up Kinderschreibtisch Korpus Weiß Seiten Weiß",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "Korrektur Runde 1: B07S5V78GZ (Weiß/Eiche) per WebSearch (amazon.de) nicht auffindbar; gewechselt auf B07S6V8YTX: ‚moll Champion Right Up … White Body - White Sides, 121 x 72 x 53 cm‘ (amazon.de/dp/B07S6V8YTX), 53–82 cm, rechter Plattenteil neigbar, 8 Akzentfarben im Lieferumfang, laut Hersteller 6–12 Jahre, bis 100 kg",
+      "gesamt": 8.23
+    }
+  ],
+  "top5": [
+    {
+      "name": "FlexiSpot Kinderschreibtisch elektrisch mit neigbarer Tischplatte, 110 x 52 cm (SK2 Kindertisch und Stuhl Set)",
+      "warum": "Set mit Stuhl: derselbe elektrische Tisch wie Platz 2 inklusive passendem Kinderstuhl – günstiger Einstieg in einen kompletten Arbeitsplatz",
+      "fakten": [
+        {
+          "text": "Höhe 58,5–90,5 cm, Neigung 0–40°, LED-Display, 3 Speicherplätze, Kindersicherung; Stuhl in Grau oder Rosa; Lieferung teils in zwei Paketen; 5 J. Garantie Gestell / 3 J. Motor",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B0FWK5X87S",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Bisher nur 3 Kundenbewertungen (5,0/5); Details zur Stuhlverstellung im Listing kaum angegeben",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B0FWK5X87S",
+          "datum": "2026-10-08"
+        }
+      ],
+      "asin": "B0FWK5X87S",
+      "query": "FlexiSpot SK2 Kindertisch und Stuhl Set",
+      "where": null,
+      "asinGeprueft": "FlexiSpot Children's Desk, Electric Height-Adjustable Desk with Tilting Table Top with LED Height Display, 3 Memory Slots, Child Lock, 110 x 52 cm (SK2 Children's Table and Chair Set) (amazon.de/dp/B0FWK5X87S)"
+    },
+    {
+      "name": "Moll e-Champion Kinderschreibtisch elektrisch höhenverstellbar mit geteilter, neigbarer Tischplatte",
+      "warum": "Elektrischer Premium-Kinderschreibtisch: 63–128 cm, also auch Stehtisch für Jugendliche, mit Kollisionsschutz und kindersicherem Seilzug für die Neigung",
+      "fakten": [
+        {
+          "text": "1-motorige Höhenverstellung 63–128 cm, Memoryfunktion, Kollisionserkennung mit Auto-Stopp; mittleres Plattenteil 0–20° neigbar per kindersicherem Seilzug mit Klemmschutz; GS- und TÜV-zertifiziert",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.kindermaxx.de/in-te-ri-eur/arbeitsplatz-fuer-kinder/kinderbueros/moll-e-champion-center-up-schreibtisch-2025",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Niedrigste Höhe 63 cm – für Grundschulkinder nur mit hohem Stuhl und Fußstütze ergonomisch",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B0F83WMNGL",
+          "datum": "2026-10-08"
+        }
+      ],
+      "asin": "B0F83WMNGL",
+      "query": "Moll e-Champion Kinderschreibtisch elektrisch",
+      "where": null,
+      "asinGeprueft": "Moll e-Champion Children's Desk, Electric, Height-Adjustable, Grows with Your Child and Ergonomic with Divided, Tilting Table Top and Rounded Corners, Desk for School Children, Made in Germany (amazon.de/dp/B0F83WMNGL)"
+    },
+    {
+      "name": "moll Bandit Kinderschreibtisch höhenverstellbar, 90 cm x 70,5 cm, mit Schublade",
+      "warum": "Kompakt für kleine Zimmer: nur 90 cm breit, gleiche Höhenverstellung 53–82 cm wie die großen moll-Tische",
+      "fakten": [
+        {
+          "text": "Höhe 53–82 cm in 10 Stufen (Körpergröße ca. 120–190 cm), Platte in 6 Stufen federunterstützt neigbar, melaminharzbeschichtet, abgerundete Ecken, gefertigt in Gruibingen",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B08CY5NPH5",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Wenige Kundenbewertungen (ca. 4,6/5 bei 3 Bewertungen laut Kategorieseite)",
+          "art": "Händlerangabe",
+          "quelle": "https://amazon.de/Kinderschreibtische-Moll-Kinderzimmerm%C3%B6bel/s?c=ts&keywords=Kinderschreibtische&rh=n%3A343507011%2Cp_89%3AMoll&ts_id=343507011",
+          "datum": "2026-10-08"
+        }
+      ],
+      "asin": "B08CY5NPH5",
+      "query": "moll Bandit Kinderschreibtisch 90 cm mit Schublade",
+      "where": null,
+      "asinGeprueft": "Moll Bandit Children's Desk Height Adjustable, Grows with Your Child, Ergonomic & Tilts for Upright Sitting, Ideal for School Children, White Desk (with Drawer, Blue, 90 cm x 70.5 cm) (amazon.de/dp/B08CY5NPH5)"
+    },
+    {
+      "name": "moll Joker Classic Kinderschreibtisch, höhenverstellbar (117 cm) – optional mit moll Joker Flex Deck",
+      "warum": "Mit Aufsatz/Regal: moll-Einstiegsmodell, das sich mit der Rückwand-Erweiterung Flex Deck (Ablage, Multifunktionswand) zum Arbeitsplatz mit Aufsatz ausbauen lässt",
+      "fakten": [
+        {
+          "text": "Höhe 53–82 cm in 10 Stufen, Platte in 6 Stufen bis 16° neigbar (federunterstützt), Stiftablage, Buchstütze, Taschenhaken, Abrutschsperre; passend ab ca. 119 bis 191 cm Körpergröße",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B08BTM1DTZ",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Aufsatz als Zubehör: moll Joker Flex Deck Erweiterung (Multifunktionswand)",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B0CDH8NTT1",
+          "datum": "2026-10-08"
+        }
+      ],
+      "asin": "B08BTM1DTZ",
+      "query": "moll Joker Classic Kinderschreibtisch 117 cm",
+      "where": null,
+      "asinGeprueft": "moll Joker Children's Desk, Height Adjustable, Grows with Your Child, Ergonomic and Tilts for Upright Sitting, Ideal for School Children, White Desk Optional with Drawer, Made in Germany (amazon.de/dp/B08BTM1DTZ); Zubehör: Moll Joker Flex Deck Erweiterung für Kinderschreibtisch (amazon.de/dp/B0CDH8NTT1)"
+    },
+    {
+      "name": "Paidi Diego Schreibtisch",
+      "warum": "Fachhandels-Alternative mit Kurbel: deutscher Kindermöbelhersteller, Kurbel-Höhenverstellung 53–79 cm, Neigung bis 19°, Varianten mit Seitenplatte; nicht auf Amazon gefunden",
+      "fakten": [
+        {
+          "text": "Höhe per Kurbel 53–79 cm, Platte bis 19° neigbar über Rasterscheren, Lineal und Stifteablage, max. Belastung ca. 100 kg; Varianten 120 × 70 cm oder 130 cm mit Seitenteil; GS-Zeichen nur bei einem Teil der Listings ausgewiesen",
+          "art": "Händlerangabe",
+          "quelle": "https://www.hoeffner.de/artikel/40350809",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Öko-Test lobte Paidi (und orgoo) bei Schülerschreibtischen für fehlende Quetsch-/Scherstellen – älterer Test, Modell nicht eindeutig",
+          "art": "Bericht",
+          "quelle": "https://www.oekotest.de/kinder-familie/Schuelerschreibtische-im-Test-Knapp-die-Haelfte-faellt-durch_101520_1.html",
+          "datum": "2013-01-11"
+        }
+      ],
+      "asin": null,
+      "query": "Paidi Diego Schreibtisch",
+      "where": "Möbelhandel (z. B. Höffner) und Paidi-Fachhändler"
+    }
+  ],
+  "tests": [
+    {
+      "institut": "Stiftung Warentest",
+      "heft": "„Schülerschreibtische: Der teuerste ist mangelhaft“ – laut Vergleichsportal test 06/2006 (Datum nicht direkt bestätigt, test.de nicht abrufbar)",
+      "ergebnis": "14 höhenverstellbare Schülerschreibtische; beste Noten 1,7–1,8 für Hülsta (Xpert C1) und Moll; Kettler Kid's Comfort günstigster „guter“ (2,3); Paidi Marco/Paulo nicht stabil genug (Schubladenführungen brachen); Interlink Plato gab Formaldehyd ab. Getestete Modelle heute nicht mehr erhältlich – nur als Markenhinweis nutzbar.",
+      "quelle": "https://www.test.de/Schuelerschreibtische-Der-teuerste-ist-mangelhaft-1379842-0/"
+    },
+    {
+      "institut": "Öko-Test",
+      "heft": "Öko-Test 2/2011 (Schülerschreibtische); Artikel auch im Jahrbuch Kleinkinder 2013",
+      "ergebnis": "9 höhen- und neigungsverstellbare Modelle, 2× „gut“ (u. a. Testsieger moll Runner Classic laut Bericht), 3× „befriedigend“, 4 fielen durch (u. a. Idimex Carina, Dolphin – ergonomisch ungeeignet); moll, orgoo, Kettler, Moizi, Paidi lassen sich niedrig genug für Fünfjährige einstellen; orgoo und Paidi ohne Quetsch-/Scherstellen. Veraltet, Modelle nicht mehr identisch.",
+      "quelle": "https://www.oekotest.de/kinder-familie/Schuelerschreibtische-im-Test-Knapp-die-Haelfte-faellt-durch_101520_1.html"
+    }
+  ],
+  "warnungen": [
+    "Keine Rückrufe/Safety-Gate-Meldungen zu moll-, FlexiSpot-, Kettler- oder Paidi-Kinderschreibtischen gefunden (Websuche 2026-10-08; Safety-Gate-Datenbank selbst war nicht direkt abrufbar).",
+    "Rückruf Zara Home (laut test.de): Kinderschreibtischstuhl (Kippgefahr) und runder Kinderholztisch (kann zusammenklappen, Quetschgefahr) – betrifft keine empfohlenen Produkte. Quelle: https://www.test.de/Sicherheitsrisiko-Zara-ruft-Kinderprodukte-zurueck-6279442-0/",
+    "Kinderschreibtische fallen nicht unter EN 71 (Spielzeug); relevante Norm ist DIN EN 1729 (Schulmöbel), dazu GS-Zeichen. Bei Billig-Kurbeltischen (HOKO, Dreamade, Style home u. a.) Normangaben meist unklar.",
+    "Elektrische Tische: Kindersicherung/Kollisionsstopp nutzen und Netzstecker bei kleinen Geschwistern ziehen (Quetschgefahr beim Absenken). moll empfiehlt beim Champion optionale Wandbefestigung.",
+    "Altersangaben (z. B. FlexiSpot „ab 6 Jahren“) sind Herstellerangaben; entscheidend ist die Körpergröße: Bei Mindesthöhe 58,5 cm (FlexiSpot) bzw. 63 cm (e-Champion) brauchen kleine Erstklässler Stuhl mit Fußstütze."
+  ],
+  "verworfen": [
+    {
+      "name": "K KETTLER Schülerschreibtisch/Kinderschreibtisch höhenverstellbar und neigbar mit Schublade und Rollen (B0CCDGGY1C, B0CCDFRGNK)",
+      "grund": "Gutes Preis-Leistungs-Kandidat (53–82 cm stufenlos per Kurbel, geteilte Platte, geprüft nach DIN EN 1729-1/-2), aber alle gefundenen amazon.de-Varianten „derzeit nicht verfügbar“"
+    },
+    {
+      "name": "Kettler Kids College Box (B07NFKDNXT)",
+      "grund": "Verfügbarkeit unklar, nur 6-stufige Höhenverstellung; ältere Modellreihe"
+    },
+    {
+      "name": "HOKO, Dreamade, Style home, Tutto/CARO-Möbel, MAMIZO, ZONEKIZ (Kurbel-Kinderschreibtische 80–150 €)",
+      "grund": "Austauschbare Marktplatzware ohne belastbare Normangabe (GS/EN 1729), teils geringe Maximalhöhe (z. B. 74–76 cm) – nicht für Top 3/Top 5"
+    },
+    {
+      "name": "FLEXISPOT SK1 (B0F9NH79PG)",
+      "grund": "Ohne neigbare Platte; SK2 (Platz 2) bevorzugt"
+    },
+    {
+      "name": "moll Champion Left Up Walnuss (B07S6VGFKR)",
+      "grund": "Laut Amazon derzeit nicht verfügbar; Right Up gewählt"
+    },
+    {
+      "name": "IKEA PÅHL",
+      "grund": "Nur bei IKEA (nicht Amazon/Awin), nur 3 Höhenstufen und keine neigbare Platte"
+    },
+    {
+      "name": "Ergotopia Desktopia Pro, Desktronic, FlexiSpot E-Gestelle",
+      "grund": "Erwachsenen-Sitz-Steh-Tische – gehören laut Abgrenzung zu hoehenverstellbare-schreibtische"
+    }
+  ],
+  "offen": [
+    "Awin: API meldet keine freigeschalteten Programme (relationship=joined → []); alle Top-3/Top-5-Produkte außer Paidi Diego über Amazon-ASIN.",
+    "Verfügbarkeit nicht direkt prüfbar (amazon.de per WebFetch/curl gesperrt): Lagerstatus von B08BTR7FLP (Winner Classic) und B07S5V78GZ (Champion Right Up Weiß/Eiche) war im Suchtreffer nicht eindeutig – vor Veröffentlichung kurz prüfen; Ersatz-ASINs: Winner Comfort B08BTJKT1H, Champion Right Up Weiß/Rosa B07S5DMNK5.",
+    "Testlage dünn und veraltet (Stiftung Warentest ca. 2006, Öko-Test 2/2011) – auf der Seite nur als Hintergrund/Markenhinweis nutzen, nicht als Testurteil zu den empfohlenen Modellen. Genaues Heft der Stiftung-Warentest-Untersuchung unbestätigt.",
+    "FlexiSpot SK2: keine Angabe zu GS/DIN EN 1729 gefunden; widersprüchliche Altlisting-Daten (B07651ZFFC nennt 62–94 cm/70°) – nicht verwendet.",
+    "Neigungswinkel Champion Right Up (bis 20°) stammt von Champion-Schwestermodell; Winner-Garantie (5 Jahre) nur aus Händlerangaben.",
+    "Paidi Diego nur bei Höffner/Fachhandel gefunden – Top 5 mit `where` ohne Link; keine Amazon-ASIN.",
+    "Passender mitwachsender Stuhl (z. B. moll Maximo, B0D8W7P933) evtl. als Hinweis im Text – nicht in Top 5 aufgenommen."
+  ],
+  "quellen": [
+    {
+      "titel": "Stiftung Warentest: Schülerschreibtische – Der teuerste ist mangelhaft",
+      "url": "https://www.test.de/Schuelerschreibtische-Der-teuerste-ist-mangelhaft-1379842-0/"
+    },
+    {
+      "titel": "Öko-Test: Schülerschreibtische im Test – Knapp die Hälfte fällt durch",
+      "url": "https://www.oekotest.de/kinder-familie/Schuelerschreibtische-im-Test-Knapp-die-Haelfte-faellt-durch_101520_1.html"
+    },
+    {
+      "titel": "einrichtung-und-moebel.de: Moll Runner Klassenprimus im Öko-Test 2/11",
+      "url": "http://www.einrichtung-und-moebel.de/2011/02/15/kinderschreibtisch-moll-schreibtisch_runner_oeko-test_klassenprimus/"
+    },
+    {
+      "titel": "moll World Schweiz: moll Winner",
+      "url": "https://mollworld.ch/produkt/moll-winner/"
+    },
+    {
+      "titel": "Scharr Büromarkt: moll Winner Comfort",
+      "url": "https://shop.scharrbuero.de/moll-winner-comfort-kinderschreibtisch-hoehenverstellbarer-schreibtisch-von-53cm-82cm-weiss-eiche-ahorn-weiss/sw10160.3"
+    },
+    {
+      "titel": "Pfister: moll Champion Right Up",
+      "url": "https://www.pfister.ch/de/produkt/35002/moll-schreibtisch-champion-right-up"
+    },
+    {
+      "titel": "Kindermaxx: moll e-Champion",
+      "url": "https://www.kindermaxx.de/in-te-ri-eur/arbeitsplatz-fuer-kinder/kinderbueros/moll-e-champion-center-up-schreibtisch-2025"
+    },
+    {
+      "titel": "Höffner: Paidi Diego Schreibtisch",
+      "url": "https://www.hoeffner.de/artikel/40350809"
+    },
+    {
+      "titel": "test.de: Zara Home ruft Kinderprodukte zurück",
+      "url": "https://www.test.de/Sicherheitsrisiko-Zara-ruft-Kinderprodukte-zurueck-6279442-0/"
+    },
+    {
+      "titel": "amazon.de: moll Winner Classic",
+      "url": "https://www.amazon.de/dp/B08BTR7FLP"
+    },
+    {
+      "titel": "amazon.de: FLEXISPOT Kinderschreibtisch SK2",
+      "url": "https://www.amazon.de/dp/B0FT6XF5TY"
+    },
+    {
+      "titel": "amazon.de: moll Champion Right Up Weiß/Weiß",
+      "url": "https://www.amazon.de/dp/B07S6V8YTX"
+    },
+    {
+      "titel": "amazon.de: K KETTLER Schülerschreibtisch (nicht verfügbar)",
+      "url": "https://www.amazon.de/dp/B0CCDGGY1C"
+    }
+  ]
+}

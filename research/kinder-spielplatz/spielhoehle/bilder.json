@@ -1,0 +1,50 @@
+{
+  "visuals": {
+    "1": {
+      "kind": "tent",
+      "tone": "forest"
+    },
+    "2": {
+      "kind": "tent",
+      "tone": "green"
+    },
+    "3": {
+      "kind": "tent",
+      "tone": "mint"
+    }
+  },
+  "steps": {
+    "title": "Spielhöhle gemütlich einrichten",
+    "subtitle": "Aufbau, Standort und Pflege",
+    "alt": "Infografik: Spielhöhle gemütlich einrichten – Standort wählen, Stabil aufbauen, Weich auslegen, Licht nur kühl, Stoff pflegen",
+    "caption": "Ruhiger Platz, stabiler Aufbau und eine weiche Unterlage reichen.",
+    "steps": [
+      {
+        "title": "Standort wählen",
+        "text": "Eine ruhige Ecke ohne Heizkörper, Lampen oder Kabel in Reichweite."
+      },
+      {
+        "title": "Stabil aufbauen",
+        "text": "Stangen nach Anleitung stecken und die Verbindungen prüfen."
+      },
+      {
+        "title": "Weich auslegen",
+        "text": "Eine Decke oder Bodenmatte macht die Höhle gemütlich."
+      },
+      {
+        "title": "Licht nur kühl",
+        "text": "Wenn Licht, dann batteriebetriebene LED-Lichter statt heißer Lampen."
+      },
+      {
+        "title": "Stoff pflegen",
+        "text": "Bezug nach Herstellerangabe waschen, Nähte gelegentlich prüfen."
+      }
+    ]
+  },
+  "scoresAlt": "Balkendiagramm: Bewertung der drei besten Spielhöhlen in den Kriterien Größe, Stoffqualität, Stabilität, Aufbau und Preis",
+  "scoresCaption": "Unsere Bewertung je Kriterium für die drei empfohlenen Modelle.",
+  "neueFormen": [],
+  "offen": [
+    "Kriterien in scoresAlt sind ein Entwurf – an die finalen Bewertungskriterien anpassen; Produktnamen nach Recherche ergänzen."
+  ]
+}

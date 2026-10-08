@@ -1,0 +1,50 @@
+{
+  "visuals": {
+    "1": {
+      "kind": "sideboard",
+      "tone": "forest"
+    },
+    "2": {
+      "kind": "sideboard",
+      "tone": "green"
+    },
+    "3": {
+      "kind": "sideboard",
+      "tone": "mint"
+    }
+  },
+  "steps": {
+    "title": "Sideboard im Kinderzimmer einrichten",
+    "subtitle": "Stauraum auf Kinderhöhe",
+    "alt": "Infografik: Sideboard im Kinderzimmer einrichten – Aufbauen, Kippschutz anbringen, Boxen beschriften, Schweres nach unten, Nachziehen",
+    "caption": "Kippschutz anbringen und Spielzeug so ordnen, dass Kinder selbst aufräumen können.",
+    "steps": [
+      {
+        "title": "Aufbauen",
+        "text": "Nach Anleitung montieren, Türen und Schubladen zum Schluss justieren."
+      },
+      {
+        "title": "Kippschutz anbringen",
+        "text": "Auch niedrige Möbel mit dem Wandbefestigungsset sichern."
+      },
+      {
+        "title": "Boxen beschriften",
+        "text": "Spielzeug nach Art in Boxen sortieren, mit Bildern für Kinder, die noch nicht lesen."
+      },
+      {
+        "title": "Schweres nach unten",
+        "text": "Schwere Kisten in die unteren Fächer, Deko nicht auf Kinderreichweite."
+      },
+      {
+        "title": "Nachziehen",
+        "text": "Scharniere und Griffe gelegentlich kontrollieren."
+      }
+    ]
+  },
+  "scoresAlt": "Balkendiagramm: Bewertung der drei besten Sideboards fürs Kinderzimmer in den Kriterien Stauraum, Erreichbarkeit, Kippsicherheit, Verarbeitung und Preis",
+  "scoresCaption": "Unsere Bewertung je Kriterium für die drei empfohlenen Modelle.",
+  "neueFormen": [],
+  "offen": [
+    "Kriterien in scoresAlt sind ein Entwurf – an die finalen Bewertungskriterien anpassen; Produktnamen nach Recherche ergänzen."
+  ]
+}

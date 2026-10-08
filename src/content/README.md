@@ -56,7 +56,9 @@ KATEGORIE
   rank: 1, label: "Beste Gesamtwahl",
   name: "…", brand: "…", variant: "…",
   visual: { kind: "foam" | "drops" | "oilspray" | "lotion" | "gel" | "device" | "station" | "panel" | "canister"
-                | "mask" | "radio" | "handheld" | "pack" | "roll" | "lamp" | "stove" | "cylinder", tone: "forest" | "green" | "mint" },
+                | "mask" | "radio" | "handheld" | "pack" | "roll" | "lamp" | "stove" | "cylinder"
+                | "triangle" | "slide" | "climbwall" | "ladder" | "swing" | "tent" | "mat" | "tower" | "sandbox" | "zipline"
+                | "bouncy" | "waterslide" | "shelf" | "wardrobe" | "kidtable" | "rug" | "sideboard" | "cloth", tone: "forest" | "green" | "mint" },
   image: { src, alt, width, height },   // optional: echtes Produktfoto statt Symbolbild
   priceTier: 1 | 2 | 3,                 // €, €€, €€€ – keine festen Preise (Amazon-Richtlinien)
   ratings: { <kriterium>: 0–10, … },    // Gesamtnote wird automatisch gewichtet berechnet

@@ -1,0 +1,459 @@
+{
+  "slug": "sideboard-kinderzimmer",
+  "stand": "2026-10-08",
+  "hinweisAlter": "Altersgruppe 'bis 10 Jahre' aus der CSV ist unbelegt und wird nicht übernommen. Altersangaben nur, wo ein Hersteller sie nennt (z. B. roba Woody ab ca. 18 Monaten).",
+  "criteria": [
+    {
+      "key": "erreichbarkeit",
+      "label": "Höhe & Aufteilung",
+      "weight": 0.3,
+      "description": "Höhe (Kinder sollen selbst an Türen, Schubladen, Boxen kommen – Richtwert unter ca. 75 cm), Breite, Mischung aus Türen, Schubladen und offenen Fächern; Abgrenzung: hohe Schränke = kinderschrank, offene Bücherfächer = kinder-buecherregal"
+    },
+    {
+      "key": "sicherheit",
+      "label": "Kippschutz & Fingerschutz",
+      "weight": 0.3,
+      "description": "Wandbefestigung im Lieferumfang (laut Händler-/Herstellerangabe), Schubladen mit Auszugsstopp statt Vollauszug, Soft-Close/Deckelbremse, abgerundete Kanten, keine Glasfronten"
+    },
+    {
+      "key": "material",
+      "label": "Material & Oberflächen",
+      "weight": 0.25,
+      "description": "Massivholz vs. MDF/Spanplatte, Oberflächenbehandlung (Öl/Lasur/Lack), Verarbeitung laut Kundenberichten"
+    },
+    {
+      "key": "alltag",
+      "label": "Montage & Flexibilität",
+      "weight": 0.15,
+      "description": "Aufbauaufwand, Pflege, Nutzbarkeit über mehrere Jahre (Wickelaufsatz, Erweiterbarkeit, spätere Nutzung im Jugendzimmer)"
+    }
+  ],
+  "priceTiers": [
+    {
+      "tier": 1,
+      "label": "bis ca. 100 €"
+    },
+    {
+      "tier": 2,
+      "label": "ca. 100–300 €"
+    },
+    {
+      "tier": 3,
+      "label": "über 300 €"
+    }
+  ],
+  "products": [
+    {
+      "rank": 1,
+      "label": "Beste Gesamtwahl",
+      "name": "COSTWAY Kinderschrank mit 2 Schubladen & 2 Türen, Spielzeug-Organizer, 106 × 30 × 62 cm (Weiß)",
+      "brand": "COSTWAY",
+      "variant": "Weiß, Modell VL32404DE",
+      "priceTier": 1,
+      "ratings": {
+        "erreichbarkeit": 8.5,
+        "sicherheit": 8.0,
+        "material": 5.5,
+        "alltag": 7.5
+      },
+      "gesamt": 7.3,
+      "bestFor": "Eltern, die günstig ein niedriges Spielzeug-Sideboard mit Türen, Schubladen und offenem Fach suchen",
+      "fakten": [
+        {
+          "text": "Maße 106 × 30 × 62 cm; offenes Fach, 2 Türen, 2 Schubladen, 3 Ablagen; Nettogewicht 25 kg",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B0DK8XV26K",
+          "datum": "2026-10-08 (Suchtreffer)"
+        },
+        {
+          "text": "Abgerundete Ecken, Kippschutz im Lieferumfang, leise Scharniere",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B0DK8XV26K",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Belastbarkeit laut Händler: Oberseite 70 kg, offenes Fach 50 kg, je Türfach 20 kg, je Schublade 10 kg",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B0DK8XV26K",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "kita.de führt einen ähnlichen COSTWAY-Spielzeugschrank (3 Schubladen) als Vergleichssieger 'Aufbewahrungsschrank Kinder' – redaktioneller, affiliate-finanzierter Vergleich ohne Laborprüfung, Seite älter",
+          "art": "Bericht",
+          "quelle": "https://www.kita.de/ratgeber/haushalt/kinderzimmer/aufbewahrungsschrank-kinder/",
+          "datum": "abgerufen über Suchergebnis 2026-10-08"
+        },
+        {
+          "text": "Ein Rezensent nennt die Aufbauanleitung unklar",
+          "art": "Bericht",
+          "quelle": "https://www.amazon.de/dp/B0DK8XV26K",
+          "datum": "2026-10-08"
+        }
+      ],
+      "pros": [
+        "62 cm hoch – auf Kinderhöhe",
+        "Mischung aus Türen, Schubladen und offenem Fach",
+        "Kippschutz beiliegend (Händlerangabe)",
+        "Günstig"
+      ],
+      "cons": [
+        "Holzwerkstoff statt Massivholz",
+        "Nur 30 cm tief",
+        "Aufbauanleitung laut Rezension unklar",
+        "Wenige Bewertungen"
+      ],
+      "specs": {
+        "Maße": "106 × 30 × 62 cm (B × T × H)",
+        "Material": "Holzwerkstoff (MDF/Spanplatte)",
+        "Fronten": "2 Türen, 2 Schubladen, 1 offenes Fach",
+        "Kippschutz": "beiliegend (Händlerangabe)"
+      },
+      "asin": "B0DK8XV26K",
+      "query": "COSTWAY Kinderschrank 2 Schubladen 2 Türen Spielzeug-Organizer 106 x 30 x 62 cm weiß",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "COSTWAY Children's Toy Cabinet, Wooden Shelf, Children's Cabinet with 2 Drawers & 2 Doors, Toy Organiser, Storage Cabinet for Children's Room, Bedroom, 106 x 30 x 62 cm (White) : Amazon.de: Home & Kitchen"
+    },
+    {
+      "rank": 2,
+      "label": "Bestes Preis-Leistungs-Verhältnis",
+      "name": "SONGMICS Kinderregal mit 3 Fächern und Aufbewahrungsbox auf Rollen GKR041W10",
+      "brand": "SONGMICS",
+      "variant": "Wolkenweiß, 62,5 × 29,5 × 70 cm",
+      "priceTier": 1,
+      "ratings": {
+        "erreichbarkeit": 8.5,
+        "sicherheit": 7.0,
+        "material": 5.0,
+        "alltag": 7.0
+      },
+      "bestFor": "Kleines Budget, großes Spielzeug schnell in eine Rollbox",
+      "fakten": [
+        {
+          "text": "62,5 × 29,5 × 70 cm (B×T×H), Rollbox 59,5 × 28 × 37 cm, 13,5 kg; MDF und Spanplatte; abgerundete Ecken, Kippschutz-Set im Lieferumfang; statische Last gesamt 25 kg, Sicherheitshinweis: nicht über 15 kg beladen",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B0CFQRXL7K",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Rezensionen: abgebrochene Ecken, abplatzende Farbe, teils wackelig; teils zusätzliche Schrauben nötig",
+          "art": "Bericht",
+          "quelle": "https://www.amazon.de/dp/B0CFQRXL7K",
+          "datum": "2026-10-08"
+        }
+      ],
+      "asin": "B0CFQRXL7K",
+      "query": "SONGMICS GKR041W10 Kinderregal Aufbewahrungsbox auf Rollen",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "SONGMICS GKR041W10 Children's Bookcase, Toy Shelf, with 3 Shelves, Storage Box on Wheels ... Cloud White : Amazon.de (Suchtreffer, Preisangaben ca. 44–57 € → Preisklasse 1)"
+    },
+    {
+      "rank": 3,
+      "label": "Premium-Wahl",
+      "name": "PINOLINO Wickelkommode Enno extrabreit, Buche massiv geölt (Modell 132101X)",
+      "brand": "PINOLINO",
+      "variant": "1 Tür, 3 Schubkästen, abnehmbarer Wickelaufsatz",
+      "priceTier": 3,
+      "ratings": {
+        "erreichbarkeit": 5.0,
+        "sicherheit": 7.5,
+        "material": 9.5,
+        "alltag": 8.5
+      },
+      "bestFor": "Massivholzmöbel vom Wickeltisch bis zum Jugendzimmer",
+      "fakten": [
+        {
+          "text": "B 141 × T 52 (mit Aufsatz 76) × H 100 cm, Wickelhöhe 92 cm, ca. 87 kg; Buche massiv, Hartöl auf Leinölbasis, FSC; 1 Tür, 3 Schubkästen, höhenverstellbarer Einlegeboden; Self-Soft-Close/Soft-Close; Aufsatz links/mittig/rechts, abnehmbar",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B0C37SG645",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Listing laut Suchtreffer lieferbar, verkauft und versandt von Amazon, ca. 610 € → Preisklasse 3",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B0C37SG645",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "10-Jahre-Pinolino-Plus-Garantie auf das gesamte Sortiment",
+          "art": "Händlerangabe",
+          "quelle": "https://www.lidl.de/q/brand/pinolino/b5970",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Kippschutz-Set im Listing nicht genannt; Pinolino schreibt in Montageanleitungen (z. B. Viktoria, Tami) die Wandbefestigung vor",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.babyartikel.de/prod/pinolino-wickelkommode-tami-extrabreit-mit-abnehmbarem-wickelaufsatz-inkl-3-schubkasten-1tur",
+          "datum": "2026-10-08"
+        }
+      ],
+      "asin": "B0C37SG645",
+      "query": "Pinolino Wickelkommode Enno extrabreit Buche",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "Pinolino Wickelkommode 'Enno' extrabreit : Amazon.de: Baby (Suchtreffer /dp/B0C37SG645)"
+    }
+  ],
+  "top5": [
+    {
+      "name": "SONGMICS Kinderregal mit 9 Vlies-Aufbewahrungsboxen, 62,5 × 29,5 × 60 cm, GKR033G10 (Taubengrau)",
+      "warum": "Regal mit Stoffboxen (Kubus-Prinzip): günstig, 60 cm hoch, Boxen gerade oder schräg einhängbar – die einfachste Spielzeugsortierung",
+      "fakten": [
+        {
+          "text": "9 herausnehmbare Vliesboxen, MDF-Korpus, 29,5 × 62,5 × 60 cm; Wandbefestigung mit beiliegendem Kippschutz empfohlen",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B0CFQSF48P",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Vorgängermodell (9 Fleece-Boxen) bei kita.de als Testsieger 'Spielzeug aufbewahren' geführt – redaktioneller Vergleich, keine Laborprüfung; Kritikpunkt dort: Vliesboxen weniger formstabil",
+          "art": "Bericht",
+          "quelle": "https://www.kita.de/ratgeber/haushalt/kinderzimmer/kindermoebel/spielzeug-aufbewahrung/",
+          "datum": "abgerufen über Suchergebnis 2026-10-08"
+        }
+      ],
+      "asin": "B0CFQSF48P",
+      "query": "SONGMICS GKR033G10 Kinderregal 9 Aufbewahrungsboxen",
+      "where": null,
+      "asinGeprueft": "SONGMICS GKR033G10 Children's Shelf, Toy Shelf, Bookcase, with 9 Non-Woven Fabric Storage Boxes, Spacious, 29.5 x 62.5 x 60 cm, Dove Grey : Amazon.de: Home & Kitchen"
+    },
+    {
+      "name": "roba Kindertruhenbank Woody (Natur/Taupe)",
+      "warum": "Sitzbank mit Stauraum statt Sideboard mit Sitzauflage: Truhe mit Deckelbremse, niedrige Sitzhöhe – Aufräumen und Sitzen in einem Möbel",
+      "fakten": [
+        {
+          "text": "Ab ca. 18 Monaten, Sitzhöhe 25,5 cm, 53 × 56 × 29 cm (H × B × T), Deckelbremse gegen Fingerquetschen, melaminharzbeschichtete Oberfläche",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B0CBS18PJ3",
+          "datum": "2026-10-08"
+        }
+      ],
+      "asin": "B0CBS18PJ3",
+      "query": "roba Kindertruhenbank Woody",
+      "where": null,
+      "asinGeprueft": "roba Woody Children's Chest Bench Natural Wood and Taupe Varnished (amazon.de/roba-Kindertruhenbank-Woody/dp/B0CBS18PJ3)"
+    },
+    {
+      "name": "roba Wickelkommode Hamburg mit Wickelansatz, 2 Canvas Boxen und Wandbefestigung (Weiß, 2 Türen)",
+      "warum": "Wickelkommode, die später Sideboard wird: Aufsatz abnehmbar, dann 40 cm tiefe Kommode mit 2 Türen und Boxenfach; Wandbefestigung liegt bei",
+      "fakten": [
+        {
+          "text": "Wickelhöhe 92 cm, Wickelaufsatz abnehmbar – danach als Kommode nutzbar; 2 Canvas-Boxen und Wandbefestigung im Lieferumfang",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B084BFTFN7",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Serienmaße H 100 × B 87 cm, Tiefe mit/ohne Wickelansatz 75/40 cm; Möbel laut Hinweis unbedingt an der Wand befestigen",
+          "art": "Händlerangabe",
+          "quelle": "https://www.babyartikel.de/prod/roba-wickelkommode-hamburg-mit-wickelaufsatz-2-canvas-boxen-weiss",
+          "datum": "2026-10-08"
+        }
+      ],
+      "asin": "B084BFTFN7",
+      "query": "roba Wickelkommode Hamburg mit Wickelansatz 2 Canvas Boxen Wandbefestigung",
+      "where": null,
+      "asinGeprueft": "roba Wickelkommode Hamburg mit Wickelansatz, 2 Canvas Boxen und Wandbefestigung, Wickeltisch mit Wickelaufsatz, als Kommode verwendbar, Wickelhöhe 92 cm : Amazon.de: Baby"
+    },
+    {
+      "name": "BioKinder Laura Mini-Kommode aus Regalwürfeln, Massivholz Kiefer naturweiß, 80 × 40 × 46 cm",
+      "warum": "Niedrige Massivholz-Kommode aus Modulen",
+      "fakten": [
+        {
+          "text": "7-teiliges Set: Regalboden 80 × 40, 2 Regalwürfel 40 × 40 × 40, 3 Laura- und 4 Office-Schubladen; Bio-Kiefer, bioola-Lasur; Schubladen beidseitig nutzbar; ca. 909,50 € laut Suchtreffer",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B08L5QM1WJ",
+          "datum": "2026-10-08"
+        }
+      ],
+      "asin": "B08L5QM1WJ",
+      "query": "BioKinder Laura Mini-Kommode Regalwürfel Massivholz 80 x 40 x 46",
+      "where": null
+    },
+    {
+      "name": "Vipack Pino Kommode 2 Türen MDF weiß 85,5 × 43 × 72 cm (PIHSKD14)",
+      "warum": "Klassisches zweitüriges Kinder-Sideboard auf 72 cm Höhe, passt unter Vipack-Pino-Hochbetten – für Familien mit Hochbett",
+      "fakten": [
+        {
+          "text": "2 Türen, MDF E1, 85,5 × 43 × 72 cm, gedacht für den Platz unter Pino-Hochbetten; Selbstmontage",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B00RE34O6W",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Im französischen Handel für 276,99 € gelistet, 1 Jahr Garantie",
+          "art": "Händlerangabe",
+          "quelle": "https://www.natureetdecouvertes.com/deco-maison/chambre-enfant/mobilier-enfant/vipack-pino-commode-2-portes-mdf-bla-91422590",
+          "datum": "2026-10-08"
+        }
+      ],
+      "asin": "B00RE34O6W",
+      "query": "Vipack Pino Kommode 2 Türen MDF weiß PIHSKD14",
+      "where": null,
+      "asinGeprueft": "Vipack Bunk pihskd14 Pino Dresser 2 Doors MDF White 85.5 x 43 x 72 cm : Amazon.de: Home & Kitchen (Verfügbarkeit nicht bestätigt)"
+    }
+  ],
+  "tests": [
+    {
+      "institut": "Stiftung Warentest / Öko-Test",
+      "heft": "–",
+      "ergebnis": "Kein aktueller Test zu Kinder-Sideboards oder Spielzeugkommoden gefunden. kita.de schreibt selbst, ein Stiftung-Warentest-Testsieger sei für diese Produkte nicht bekannt.",
+      "quelle": "https://www.kita.de/ratgeber/haushalt/kinderzimmer/kindermoebel/kinderzimmer-spielzeugschrank/"
+    },
+    {
+      "institut": "Öko-Test",
+      "heft": "ÖKO-TEST Magazin 8/2009 (Wickelkommoden, veraltet)",
+      "ergebnis": "Eine Wickelkommode (Life Time) kippte im Praxistest schon bei geringer Belastung nach hinten; drei Modelle mit unzureichend gerundeten Kanten. Nur als Hintergrund zur Kippgefahr, Modelle nicht mehr aktuell.",
+      "quelle": "https://www.oekotest.de/kinder-familie/10-Wickelkommoden-im-Test_94257_1.html"
+    },
+    {
+      "institut": "kita.de (redaktioneller Vergleich, affiliate-finanziert)",
+      "heft": "Spielzeugschrank Kinderzimmer, aktualisiert 06.09.2026; Aufbewahrungsschrank Kinder (älter)",
+      "ergebnis": "Vergleichssieger: SONGMICS Spielzeugregal mit 2 Boxen bzw. COSTWAY Spielzeugschrank mit 3 Schubladen – keine Laborprüfung",
+      "quelle": "https://www.kita.de/ratgeber/haushalt/kinderzimmer/kindermoebel/kinderzimmer-spielzeugschrank/"
+    }
+  ],
+  "warnungen": [
+    "Kippgefahr: Auch niedrige Kommoden und Sideboards an der Wand befestigen, besonders bei Vollauszug-Schubladen (Kinder klettern hinein). Relevante Norm für Behältnismöbel ist DIN EN 14749 (Standsicherheit, Schubladen); EN 71 gilt für Spielzeug, nicht für Möbel. Quelle: https://bau.de/text/250314-kinderzimmer-einrichten-tipps-sicherheit-komfort-sicherheit.php",
+    "Keines der Top-3-Listings nennt ausdrücklich eine Prüfung nach EN 14749 oder ein GS-Zeichen – im Text nicht behaupten.",
+    "Rückrufe: Für die ausgewählten Produkte keine Rückrufe gefunden (Suche nach Costway/Kinderkommode). Bekannte Fälle betreffen andere Hersteller: IKEA-Kommoden 2016 (USA/Kanada, rund 36 Mio. Stück, nach tödlichen Unfällen), Wayfair/17 Stories (CPSC, März 2026, ca. 3.000 Kommoden), Mainstays-Stoffkommoden bei Walmart. Quellen (Primär, CPSC): https://www.cpsc.gov/Recalls/2016/following-an-additional-child-fatality-ikea-recalls-29-million-malm-and-other-models-of ; https://www.cpsc.gov/Recalls/2026/17-Stories-Furniture-14-Drawer-Dressers-Recalled-Due-to-Risk-of-Serious-Injury-or-Death-from-Tip-Over-and-Entrapment-Hazards-Violates-Mandatory-Standard-for-Clothing-Storage-Units-Imported-by-Hong-Kong-Baojia-International (Rückruf 26-323, 12.03.2026, ca. 3.000 Stück)",
+    "Costway-Rückruf in Kanada 2025 betrifft einen Kinder-Lernturm (Einklemmgefahr), nicht die empfohlene Kommode: https://recalls-rappels.canada.ca/en/alert-recall/costway-kids-kitchen-step-stool-recalled-due-entrapment-hazard",
+    "Safety Gate (EU) und produktwarnung.eu waren nicht direkt abrufbar; Rückrufprüfung erfolgte nur über Websuche.",
+    "Keine Glasfronten im Kinderzimmer empfehlen (Grund für Ausschluss Rauch Flipp)."
+  ],
+  "verworfen": [
+    {
+      "name": "Rauch Möbel Flipp Kommode 2 Türen 3 Schubladen 160 × 72 × 42 cm",
+      "grund": "Glasfronten, 60–68 kg, nicht kinderspezifisch; Höhe wäre passend, aber für Kinderzimmer mit Kleinkindern ungeeignet"
+    },
+    {
+      "name": "BioKinder Robin Regal mit Ordnungsboxen 86 × 64 × 37 cm (B07DJV4S4K)",
+      "grund": "Offenes Regal ohne Türen, ca. 645 € – eher kinder-buecherregal"
+    },
+    {
+      "name": "Pinolino Wickelkommode Lumi extra breit (B09Z6H7NWC)",
+      "grund": "Gute Alternative 'Wickelkommode wird Sideboard' (136 cm, Tür, Self-Soft-Close), aber 101 cm hoch und Dekorplatte; roba Hamburg bietet Türen + Boxen + Wandbefestigung günstiger"
+    },
+    {
+      "name": "Melko Kommode Patchwork Apfel (B00HW2N8N0)",
+      "grund": "Laut Listing derzeit nicht verfügbar"
+    },
+    {
+      "name": "TiCAA Wickelkommode Lara II (B00MILEWE4)",
+      "grund": "Laut Listing derzeit nicht verfügbar"
+    },
+    {
+      "name": "Furniture24 Sideboard GULIVER 06",
+      "grund": "Hochglanz-Jugendzimmermöbel, 85 cm hoch, 120 cm breit – No-Name-Ware ohne Kinderbezug"
+    },
+    {
+      "name": "Idimex Rondo Kommode",
+      "grund": "Nur Schubladen mit Vollauszug, laut Rezension weiches, empfindliches Holz und für kleine Kinder ungeeignet"
+    },
+    {
+      "name": "vidaXL Sideboard Kiefer 110 × 34 × 75 cm",
+      "grund": "Rezensionen bemängeln schlechte Verarbeitung; austauschbare Ware"
+    },
+    {
+      "name": "IKEA Trofast / Sundvik",
+      "grund": "Nicht bei Amazon oder Awin erhältlich"
+    },
+    {
+      "name": "roba Spielregal mit 5 Stoffboxen (Krone/Peppa Pig)",
+      "grund": "Lizenzmotive, Rezension zu stark riechenden Stoffboxen; SONGMICS neutraler"
+    },
+    {
+      "name": "BioKinder Stufenkommode Laura (B0854B83R5)",
+      "grund": "Korrektur Runde 1 (2026-10-08): ASIN per WebSearch (amazon.de, auch direkte ASIN-Suche) nicht auffindbar, amazon.de direkt nicht abrufbar; Preis unbelegt. Platz 1 neu besetzt (COSTWAY)."
+    },
+    {
+      "name": "BioKinder Lina Kommode 110 × 90 × 55 (B00JLXTZ9O)",
+      "grund": "Korrektur Runde 1 (2026-10-08): laut Prüfer 'Derzeit nicht verfügbar', Variante B076M45B6B ebenfalls. Ersetzt durch PINOLINO Enno extrabreit (B0C37SG645)."
+    },
+    {
+      "name": "PINOLINO Lumi extra breit (B09Z6H7NWC)",
+      "grund": "Korrektur Runde 1 (2026-10-08): laut Suchtreffer 'derzeit nicht verfügbar' – nicht als Lina-Ersatz geeignet."
+    },
+    {
+      "name": "Pinolino Wickelkommode Natura extrabreit (B01AMXJVQ8)",
+      "grund": "6 Schubladen, keine Tür; Enno bietet Tür + Schubkästen in derselben Massivholz-Qualität."
+    }
+  ],
+  "offen": [
+    "Awin-API (relationship=joined) liefert eine leere Liste – keine Freischaltung, daher ausschließlich Amazon-ASINs.",
+    "amazon.de war per WebFetch nicht abrufbar (DNS); alle ASINs nur über Suchtreffer-Titel der /dp/-Seiten geprüft, Verfügbarkeit nicht live bestätigt (besonders Vipack B00RE34O6W und BioKinder B0854B83R5/B00JLXTZ9O).",
+    "Preise von BioKinder Laura Stufenkommode und Lina 110 cm nicht verifiziert – priceTier 3 aus Serienpreisen abgeleitet (Lina 80 cm 504,95 €, Lara-Element 279,95 €).",
+    "Ob bei BioKinder-Möbeln ein Kippschutz-Set beiliegt, ist nicht belegt – vor Veröffentlichung prüfen oder im Text nur allgemein auf Wandbefestigung hinweisen.",
+    "Zwei Top-3-Produkte von BioKinder (Laura, Lina). Falls eine zweite Marke gewünscht ist: Pinolino Lumi extra breit (B09Z6H7NWC) als Premium-Alternative.",
+    "Top-5-Intent 'Sideboard mit Sitzauflage' bei Amazon ohne passendes Markenprodukt gefunden – ersetzt durch roba Kindertruhenbank Woody (Sitzbank mit Stauraum).",
+    "kita.de nicht direkt abrufbar – Angaben aus Suchergebnis-Zusammenfassungen ('laut Berichten').",
+    "Mögliche Awin-Händler für Kindermöbel (nicht beworben, Awin-ID nicht geprüft): babyartikel.de (führt roba Hamburg), BioKinder-Herstellershop – nur bei Bedarf prüfen."
+  ],
+  "quellen": [
+    {
+      "titel": "amazon.de – BioKinder Stufenkommode Laura",
+      "url": "https://www.amazon.de/dp/B0854B83R5"
+    },
+    {
+      "titel": "amazon.de – COSTWAY Kinderschrank 2 Türen 2 Schubladen",
+      "url": "https://www.amazon.de/dp/B0DK8XV26K"
+    },
+    {
+      "titel": "amazon.de – BioKinder Lina Kommode 110x90x55",
+      "url": "https://www.amazon.de/dp/B00JLXTZ9O"
+    },
+    {
+      "titel": "amazon.de – SONGMICS GKR033G10",
+      "url": "https://www.amazon.de/dp/B0CFQSF48P"
+    },
+    {
+      "titel": "amazon.de – roba Kindertruhenbank Woody",
+      "url": "https://www.amazon.de/dp/B0CBS18PJ3"
+    },
+    {
+      "titel": "amazon.de – roba Wickelkommode Hamburg",
+      "url": "https://www.amazon.de/dp/B084BFTFN7"
+    },
+    {
+      "titel": "amazon.de – SONGMICS GKR041W10",
+      "url": "https://www.amazon.de/dp/B0CFQRXL7K"
+    },
+    {
+      "titel": "amazon.de – Vipack Pino Kommode 2 Türen",
+      "url": "https://www.amazon.de/dp/B00RE34O6W"
+    },
+    {
+      "titel": "babyartikel.de – roba Wickelkommode Hamburg",
+      "url": "https://www.babyartikel.de/prod/roba-wickelkommode-hamburg-mit-wickelaufsatz-2-canvas-boxen-weiss"
+    },
+    {
+      "titel": "kita.de – Kinderzimmer Spielzeugschrank",
+      "url": "https://www.kita.de/ratgeber/haushalt/kinderzimmer/kindermoebel/kinderzimmer-spielzeugschrank/"
+    },
+    {
+      "titel": "kita.de – Aufbewahrungsschrank Kinder",
+      "url": "https://www.kita.de/ratgeber/haushalt/kinderzimmer/aufbewahrungsschrank-kinder/"
+    },
+    {
+      "titel": "Öko-Test – 10 Wickelkommoden im Test",
+      "url": "https://www.oekotest.de/kinder-familie/10-Wickelkommoden-im-Test_94257_1.html"
+    },
+    {
+      "titel": "bau.de – Kinderzimmer einrichten: Sicherheit",
+      "url": "https://bau.de/text/250314-kinderzimmer-einrichten-tipps-sicherheit-komfort-sicherheit.php"
+    },
+    {
+      "titel": "HealthDay – Wayfair-Kommoden-Rückruf",
+      "url": "https://www.healthday.com/health-news/public-health/about-3000-wayfair-dressers-recalled-over-child-tip-over-risk"
+    },
+    {
+      "titel": "Salzburg24 – IKEA-Kommoden-Rückruf",
+      "url": "https://www.salzburg24.at/news/welt/nach-tod-von-kindern-rueckruf-von-kommoden-bei-ikea-art-130631"
+    },
+    {
+      "titel": "Health Canada – Costway Kids Kitchen Step Stool Recall",
+      "url": "https://recalls-rappels.canada.ca/en/alert-recall/costway-kids-kitchen-step-stool-recalled-due-entrapment-hazard"
+    }
+  ]
+}

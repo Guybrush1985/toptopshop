@@ -1,0 +1,55 @@
+{
+  "visuals": {
+    "1": {
+      "kind": "swing",
+      "tone": "forest"
+    },
+    "2": {
+      "kind": "swing",
+      "tone": "green"
+    },
+    "3": {
+      "kind": "swing",
+      "tone": "mint"
+    }
+  },
+  "steps": {
+    "title": "Schaukel an der Decke befestigen",
+    "subtitle": "Vom Deckenhaken bis zur richtigen Höhe",
+    "alt": "Infografik: Schaukel an der Decke befestigen – Decke prüfen, Passenden Haken wählen, Seitlichen Abstand planen, Höhe einstellen, Matte darunter, Regelmäßig kontrollieren",
+    "caption": "Entscheidend ist die Deckenbefestigung – im Zweifel Fachleute fragen.",
+    "steps": [
+      {
+        "title": "Decke prüfen",
+        "text": "Deckenaufbau klären (Beton, Holzbalken, abgehängte Decke) – Rigips allein ist kein Halt."
+      },
+      {
+        "title": "Passenden Haken wählen",
+        "text": "Deckenhaken und Dübel für den Untergrund und die Last laut Hersteller verwenden."
+      },
+      {
+        "title": "Seitlichen Abstand planen",
+        "text": "Rundum Platz zu Wänden, Möbeln und Türen lassen, auch beim weitesten Ausschwingen."
+      },
+      {
+        "title": "Höhe einstellen",
+        "text": "Sitzhöhe so wählen, dass das Kind sicher auf- und absteigen kann."
+      },
+      {
+        "title": "Matte darunter",
+        "text": "Eine weiche Unterlage im Schwingbereich auslegen."
+      },
+      {
+        "title": "Regelmäßig kontrollieren",
+        "text": "Haken, Karabiner und Seile auf Verschleiß prüfen."
+      }
+    ]
+  },
+  "scoresAlt": "Balkendiagramm: Bewertung der drei besten Deckenschaukeln in den Kriterien Sicherheit, Befestigung, Sitzkomfort, Vielseitigkeit und Preis",
+  "scoresCaption": "Unsere Bewertung je Kriterium für die drei empfohlenen Modelle.",
+  "neueFormen": [],
+  "offen": [
+    "Kriterien in scoresAlt sind ein Entwurf – an die finalen Bewertungskriterien anpassen; Produktnamen nach Recherche ergänzen.",
+    "Sicherheits-/Montageschritte allgemein gehalten; Tragfähigkeits- und Altersangaben nur aus Herstellerquellen ergänzen."
+  ]
+}

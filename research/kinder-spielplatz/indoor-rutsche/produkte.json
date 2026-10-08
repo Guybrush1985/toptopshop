@@ -1,0 +1,410 @@
+{
+  "slug": "indoor-rutsche",
+  "stand": "2026-10-08",
+  "criteria": [
+    {
+      "key": "sicherheit",
+      "label": "Sicherheit & Standfestigkeit",
+      "weight": 0.35,
+      "description": "Seitenrand/Sicherheitsrand, Kippstabilität, Einhängesicherung, Herstellerangaben zu Alter und Belastbarkeit, Warnhinweise (EN 71)."
+    },
+    {
+      "key": "vielseitigkeit",
+      "label": "Kompatibilität & Vielseitigkeit",
+      "weight": 0.25,
+      "description": "Passt das Rutschbrett an gängige Kletterdreiecke/-bögen bzw. ist die Rutsche frei aufstellbar; Zusatzfunktionen (Kletterseite, Brücke)."
+    },
+    {
+      "key": "material",
+      "label": "Material & Verarbeitung",
+      "weight": 0.25,
+      "description": "Holz vs. Kunststoff, Oberflächenbehandlung (Wasserbasis/Ökowachs), FSC, Erfahrungsberichte zur Haltbarkeit."
+    },
+    {
+      "key": "platz",
+      "label": "Platzbedarf & Handling",
+      "weight": 0.15,
+      "description": "Rutschlänge und Einstiegshöhe fürs Kinderzimmer, Aufbau, Verstaubarkeit."
+    }
+  ],
+  "priceTiers": null,
+  "products": [
+    {
+      "rank": 1,
+      "label": "Beste Gesamtwahl",
+      "name": "joy of nature Holz-Rampe Rutsche 2in1 – Kletterrampe & Rutschbrett für Kletterdreieck/Pikler-Dreieck (49607)",
+      "brand": "joy of nature",
+      "variant": "Bunt, Art.-Nr. 49607, ca. 120 x 40 cm",
+      "priceTier": 2,
+      "ratings": {
+        "sicherheit": 8.0,
+        "vielseitigkeit": 9.0,
+        "material": 8.0,
+        "platz": 8.0
+      },
+      "gesamt": 8.25,
+      "bestFor": "Familien mit Kletterdreieck oder -bogen, die eine Rutsche mit zusätzlicher Kletterseite suchen.",
+      "fakten": [
+        {
+          "text": "2-in-1: eine Seite Sprossen zum Klettern, gedreht Rutschfläche; nutzbar als Treppe, Leiter, Rutsche, Brücke oder Rampe.",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B0D796MHKN",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Brett 15 mm stark, maximale Belastung 50 kg.",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B0D796MHKN",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Altersempfehlung 12 Monate bis 6 Jahre; Kinder nicht unbeaufsichtigt klettern lassen.",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B0D796MHKN",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Holz mit Ökowachs bzw. Farben auf Wasserbasis behandelt, Sprossen aus FSC-zertifiziertem Holz.",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B0D796MHKN",
+          "datum": "2026-10-08"
+        }
+      ],
+      "pros": [
+        "Rutsch- und Kletterseite in einem Brett",
+        "Passt laut Hersteller an Kletterdreieck, -bogen und -würfel",
+        "50 kg Belastbarkeit, 15 mm Brettstärke"
+      ],
+      "cons": [
+        "Nur in Kombination mit Kletterdreieck/-bogen nutzbar",
+        "Maßangaben in Listings uneinheitlich (120 x 40 vs. 114 x 40 cm)",
+        "Wenige Bewertungen"
+      ],
+      "specs": {
+        "Bauform": "Rutschbrett zum Einhängen",
+        "Maße": "ca. 120 x 40 cm (Herstellerangabe)",
+        "Belastbarkeit": "50 kg",
+        "Alter": "12 Monate – 6 Jahre (Herstellerangabe)",
+        "Material": "Holz, FSC-Sprossen"
+      },
+      "asin": "B0D796MHKN",
+      "query": "joy of nature Holz Rampe Rutsche 2in1 Kletterrampe Rutschbrett 49607",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "joy of nature Wooden Ramp Slide 2-in-1 Climbing Ramp Slide Board for Climbing Triangle Pikler Triangle, Indoor Slide Children from 1 Years, Colourful 49607 : Amazon.de: Toys"
+    },
+    {
+      "rank": 2,
+      "label": "Bestes Preis-Leistungs-Verhältnis",
+      "name": "Smoby Life Kinderrutsche XS (7600820629), Rutschfläche 90 cm",
+      "brand": "Smoby",
+      "variant": "Beige/Grün, 7600820629",
+      "priceTier": 1,
+      "ratings": {
+        "sicherheit": 7.5,
+        "vielseitigkeit": 6.0,
+        "material": 7.0,
+        "platz": 9.0
+      },
+      "gesamt": 7.23,
+      "bestFor": "Kleines Budget und wenig Platz: freistehende Kunststoffrutsche für drinnen und draußen.",
+      "fakten": [
+        {
+          "text": "Rutschfläche 90 cm, Stufen mit Antirutschbelag, empfohlen ab 2 Jahren.",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B0DV5M9CG5",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Maximallast 50 kg; Leiter abnehmbar und unter der Rutsche verstaubar.",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B0DV5M9CG5",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Mindestens 38 % recycelter Kunststoff, UV-geschützt; Wasseranschluss für Gartenschlauch (outdoor).",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B0DV5M9CG5",
+          "datum": "2026-10-08"
+        }
+      ],
+      "pros": [
+        "Günstig",
+        "Kompakt und verstaubar",
+        "Drinnen und draußen nutzbar"
+      ],
+      "cons": [
+        "Erst ab 2 Jahren (Herstellerangabe)",
+        "Kunststoff statt Holz",
+        "Wasserfunktion drinnen ohne Nutzen"
+      ],
+      "specs": {
+        "Bauform": "freistehende Kunststoffrutsche mit Treppe",
+        "Rutschlänge": "90 cm",
+        "Belastbarkeit": "50 kg",
+        "Alter": "ab 2 Jahren (Herstellerangabe)",
+        "Material": "Kunststoff (≥ 38 % recycelt)"
+      },
+      "asin": "B0DV5M9CG5",
+      "query": "Smoby Life Kinderrutsche XS 7600820629",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "Smoby Life 7600820629 Children's Slide XS, Beige and Green, Running Surface 90 cm, Non-Slip Steps, Waterfall, Compact and Easy to Store, Suitable from 2 Years: Amazon.de: Toys"
+    },
+    {
+      "rank": 3,
+      "label": "Beste Wahl ab 1 Jahr (kurze freistehende Rutsche)",
+      "name": "Little Tikes Erste Rutsche (First Slide) 172403E3, Blau/Grün",
+      "brand": "Little Tikes",
+      "variant": "Blau/Grün, 172403E3",
+      "priceTier": 1,
+      "ratings": {
+        "sicherheit": 7.5,
+        "vielseitigkeit": 6.5,
+        "material": 7.0,
+        "platz": 8.5
+      },
+      "gesamt": 7.28,
+      "bestFor": "Erste Rutscherfahrungen ab etwa 1,5 Jahren im Kinderzimmer.",
+      "fakten": [
+        {
+          "text": "Altersangabe 18 Monate bis 5 Jahre; für drinnen und draußen, auf weichem Untergrund aufstellen.",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B006YMOCOS",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Maße ca. 121,9 x 49,5 x 69,9 cm; Maximalgewicht im Listing uneinheitlich (25 kg bzw. 27,2 kg).",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B006YMOCOS",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Handläufe werden eingeklickt, Stufen ohne Werkzeug abnehmbar; nur unter Aufsicht Erwachsener benutzen.",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B006YMOCOS",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Einzelne Käufer berichten, dass die Rutsche beim Hochklettern nach hinten kippen kann.",
+          "art": "Bericht",
+          "quelle": "https://www.amazon.de/dp/B006YMOCOS",
+          "datum": "2026-10-08"
+        }
+      ],
+      "pros": [
+        "Niedrige Einstiegshöhe (ca. 70 cm)",
+        "Ohne Werkzeug zerlegbar",
+        "Bewährtes Modell einer bekannten Marke"
+      ],
+      "cons": [
+        "Geringe Belastbarkeit (ca. 25 kg)",
+        "Kein Sicherheitsrand oben laut Erfahrungsberichten",
+        "Herstellerangabe erst ab 18 Monaten – nicht ab 12"
+      ],
+      "specs": {
+        "Bauform": "freistehende Kunststoffrutsche mit Stufen",
+        "Maße": "ca. 122 x 50 x 70 cm",
+        "Belastbarkeit": "ca. 25 kg (Listing uneinheitlich)",
+        "Alter": "18 Monate – 5 Jahre (Herstellerangabe)",
+        "Material": "Kunststoff"
+      },
+      "asin": "B006YMOCOS",
+      "query": "Little Tikes Erste Rutsche 172403E3",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "Little Tikes First Slide - Playset for Indoor or Outdoor Use - Durable, Stable, Kid-Safe - Blue & Green: Amazon.de: Toys (URL-Slug: Little-Tikes-172403E3-Rutsche-Basic)"
+    }
+  ],
+  "top5": [
+    {
+      "name": "TP 683U Active-Tots Kletterbrücke & Rutsche aus Holz",
+      "warum": "Rutschbrett zum Einhängen im TP-System: Rutsche, Brücke oder (gedreht) Leiter. Nur mit TP Active-Tots Kletterdreieck (TP682) oder Kletterwürfel (TP684) nutzbar – klar kennzeichnen.",
+      "fakten": [
+        {
+          "text": "Zubehör, nur mit Active-Tots Kletterdreieck TP682 oder Kletterwürfel TP684 nutzbar; Maße 100 x 45 x 5,5 cm; Altersangabe 12 Monate – 4 Jahre bzw. ab 18 Monaten (uneinheitlich).",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B0CKQKQCDB",
+          "datum": "2026-10-08"
+        }
+      ],
+      "asin": "B0CKQKQCDB",
+      "query": "TP 683U Active-Tots Kletterbrücke Rutsche Holz",
+      "where": null,
+      "asinGeprueft": "TP 683U Active-Tots Wooden Indoor Climbing Bridge & Slide for Toddlers 18 Months + Wooden: Amazon.de: Toys"
+    },
+    {
+      "name": "TP 687 Active-Tots Holzrutsche für den Innenbereich",
+      "warum": "Freistehende, klappbare Holzrutsche einer etablierten Marke für drinnen – Alternative zu Kunststoff.",
+      "fakten": [
+        {
+          "text": "Für Kleinkinder ab 18 Monaten; Gewichtslimit 20 kg.",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B09SDHSRP2",
+          "datum": "2026-10-08"
+        }
+      ],
+      "asin": "B09SDHSRP2",
+      "query": "TP 687 Active-Tots Holzrutsche Innenbereich",
+      "where": null,
+      "asinGeprueft": "TP 687 Active-Tots Holzrutsche für den Innenbereich für Kleinkinder ab 18 Monaten, Holz : Amazon.de: Spielzeug"
+    },
+    {
+      "name": "KiddyMoon Kinder Rutsche aus Holz, Kleinkinderrutsche 2in1 Montessori, Natur",
+      "warum": "Freistehende Holzrutsche mit Treppe, umbaubar zu einem kleinen Stuhl; im Blogtest dadslife.de robust, mit vereinzelten Verarbeitungsmängeln.",
+      "fakten": [
+        {
+          "text": "Gesamthöhe 52 cm, Breite 35 cm, Rutschlänge 101 cm, max. 50 kg, 24 Monate – 4 Jahre.",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B0B8CJZYRT",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Robust und gutes Design, aber vereinzelte Mängel in der Verarbeitung.",
+          "art": "Bericht",
+          "quelle": "https://dadslife.de/indoor-rutschen/",
+          "datum": "2026-10-08"
+        }
+      ],
+      "asin": "B0B8CJZYRT",
+      "query": "KiddyMoon Kinder Rutsche Holz Kleinkinderrutsche 2in1 Montessori Natur",
+      "where": null,
+      "asinGeprueft": "KiddyMoon Montessori Children's Wooden Slide Sturdy Toddler Slide Multifunctional Natural : Amazon.de: Toys"
+    },
+    {
+      "name": "BioKinder Noah Rutsche zum Spielturm (180 cm, Massivholz Kiefer)",
+      "warum": "Systemrutsche für den Indoor-Spielturm/das Spielbett Noah – ausschließlich mit Noah-Spielturm bzw. Noah-Bett nutzbar, ohne diese nicht verwendbar.",
+      "fakten": [
+        {
+          "text": "Passende Rutsche zum Noah-Spielturm: 36 x 180 cm; Abstand Spielturm–Rutschende 155 cm; Spielturm wird ohne Bett, Rutsche und Zubehör geliefert.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B01GWEK6SS",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Komplett-Set Noah Kinderbett + Spielturm + Rutsche (Kiefer naturweiß lasiert, 90 x 200 cm) ist als eigener Artikel auf amazon.de gelistet.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B01LIPUGYU",
+          "datum": "2026-10-08"
+        }
+      ],
+      "asin": null,
+      "query": "BioKinder Noah Rutsche Spielturm",
+      "where": "Zubehör zum BioKinder-Noah-Spielturm (auf amazon.de nicht einzeln gelistet; bio-kinder.de nicht abrufbar, Verfügbarkeit dort unbelegt)"
+    },
+    {
+      "name": "MAMOI Montessori Rutschbrett für Kletterdreieck und Kletterbogen",
+      "warum": "Zweites Rutschbrett zum Einhängen für Kletterdreieck/-bogen, Altersangabe ab 1 Jahr.",
+      "fakten": [
+        {
+          "text": "Rutschbrett für Kletterdreieck und Kletterbogen, für Babys ab 1 Jahr sowie 2/3 Jahre.",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B09DKXZLXW",
+          "datum": "2026-10-08"
+        }
+      ],
+      "asin": "B09DKXZLXW",
+      "query": "MAMOI Rutschbrett Rutsche Kletterdreieck",
+      "where": null,
+      "asinGeprueft": "MAMOI Montessori Indoor Slide, Slide Board for Climbing Frame, Children's Wooden Slide for Climbing Triangle and Climbing Arch … : Amazon.de: Toys"
+    }
+  ],
+  "tests": [
+    {
+      "institut": "Stiftung Warentest / Öko-Test",
+      "heft": "–",
+      "ergebnis": "Kein Test zu Indoor-/Kleinkindrutschen oder Rutschbrettern gefunden (Stand 2026-10-08).",
+      "quelle": "https://www.test.de"
+    },
+    {
+      "institut": "dadslife.de (Blog, kein Institut)",
+      "heft": "online, ohne Datum",
+      "ergebnis": "KiddyMoon-Holzrutsche robust, vereinzelte Verarbeitungsmängel; Pinolino Lotta bis 60 kg belastbar. Nur als Erfahrungsbericht verwendbar.",
+      "quelle": "https://dadslife.de/indoor-rutschen/"
+    }
+  ],
+  "warnungen": [
+    "Keine Rückrufe/Safety-Gate-Meldungen zu den ausgewählten Rutschen (joy of nature, Smoby XS, Little Tikes First Slide, TP Active-Tots, KiddyMoon, MAMOI, BioKinder Noah) gefunden (Websuche 2026-10-08; Safety-Gate-Datenbank und produktwarnung.eu nicht direkt abrufbar, da WebFetch hier keine Seiten lädt – vor Veröffentlichung manuell gegenprüfen).",
+    "Little Tikes hatte Rückrufe anderer Produkte (u. a. 540.000 Kleinkindschaukeln 2017, USA) – betrifft nicht die First Slide. Quelle: https://www.kgun9.com/news/national/little-tikes-recalling-more-than-half-a-million-swings-due-to-fall-hazard",
+    "test-stiftung.de und testsieger.de sind keine Angebote der Stiftung Warentest, sondern Vergleichs-/Affiliate-Seiten – nicht als Testquelle zitieren.",
+    "Alle Altersangaben sind Herstellerangaben; Rutschen nur unter Aufsicht und auf weichem Untergrund (Fallschutzmatte) nutzen – Hersteller weisen ausdrücklich darauf hin.",
+    "Little Tikes First Slide: Erfahrungsberichte über Kippen nach hinten beim Hochklettern; Belastbarkeit nur ca. 25 kg."
+  ],
+  "verworfen": [
+    {
+      "name": "Pinolino Indoor-Rutsche Lotta (B01N5HVL1A)",
+      "grund": "3,5/5 Sterne bei 64 Bewertungen, Berichte über lose Schrauben und gebrochenen Boden; Material laut Beschreibung MDF; Altersangabe uneinheitlich (2–5 bzw. ab 3 Jahren)."
+    },
+    {
+      "name": "RINAGYM Rutschbrett/Hühnerleiter (B0BDLJ4B69)",
+      "grund": "Generic-Listing, Marke/Normen unklar."
+    },
+    {
+      "name": "Komplettsets Kletterdreieck + Rutsche (GOODEX, AIYAPLAY, KiddyMoon Klettergerüst)",
+      "grund": "Gehören laut Abgrenzung zu pikler-dreieck."
+    },
+    {
+      "name": "Smoby/Little Tikes Gartenrutschen ab 1,50 m",
+      "grund": "Zu groß fürs Kinderzimmer; gehört eher zu Outdoor."
+    },
+    {
+      "name": "Little Tikes First Slide Pink/Lila (B097NR7H6C, B006YMOCMA)",
+      "grund": "Farbvariante; ein Listing zeitweise nicht verfügbar – Blau/Grün bevorzugt."
+    }
+  ],
+  "offen": [
+    "BioKinder Noah Rutsche (180 cm): auf amazon.de KEIN Einzel-Listing mit ASIN gefunden. Gefunden: Noah-Spielturm ohne Rutsche (B01GWEK6SS) und Komplett-Set Bett + Spielturm + Rutsche (B01LIPUGYU). Daher Top 5 nur mit `where` (Hersteller) ohne Link; Alternative: Set-ASIN B01LIPUGYU verlinken, wenn das Set statt der Einzelrutsche empfohlen werden soll. Herstellerseite bio-kinder.de konnte nicht abgerufen werden (WebFetch ohne DNS) – Preis/Artikelnummer dort manuell prüfen.",
+    "joy of nature 49607: zwei ASINs mit gleichem Titel gefunden (B0D796MHKN und B0D795XP3Z); B0D796MHKN gewählt (in mehreren Suchen konsistent). Ob B0D795XP3Z eine Farbvariante (natur/bunt) ist, konnte nicht geprüft werden. Maße 120 x 40 vs. 114 x 40 cm uneinheitlich.",
+    "Amazon-Seiten konnten nicht direkt geladen werden (WebFetch: DNS-Fehler); ASINs stammen aus amazon.de-/dp/-Suchtreffern mit passendem Titel. Verfügbarkeit (aktiv/nicht verfügbar) daher nicht live geprüft.",
+    "EN-71-Konformität: in den Suchergebnissen für keine der Top-3 explizit belegt (KiddyMoon nennt „europäische Sicherheitsnormen“) – vor Veröffentlichung auf Produktseiten/Verpackung prüfen oder Formulierung offen lassen.",
+    "Little Tikes First Slide: Herstellerangabe ab 18 Monaten – Rolle „ab 1 Jahr“ im Text als „für die Kleinsten ab ca. 1,5 Jahren“ formulieren; ab 12 Monaten passt laut Hersteller nur ein Rutschbrett (joy of nature / MAMOI).",
+    "Awin: laut Vorgabe keine freigeschalteten Programme – nicht geprüft/benötigt, alle Produkte über Amazon.",
+    "Korrektur Runde 1: BioKinder-Noah-Rutsche weiter ohne Link; Text auf „laut Händlerangaben als Zubehör zum Noah-Spielturm angeboten“ geändert. Option für den Nutzer: stattdessen das Set Bett + Spielturm + Rutsche (B01LIPUGYU) verlinken."
+  ],
+  "quellen": [
+    {
+      "titel": "amazon.de – joy of nature Rutschbrett 49607",
+      "url": "https://www.amazon.de/dp/B0D796MHKN"
+    },
+    {
+      "titel": "amazon.de – Smoby Life Kinderrutsche XS",
+      "url": "https://www.amazon.de/dp/B0DV5M9CG5"
+    },
+    {
+      "titel": "amazon.de – Little Tikes First Slide 172403E3",
+      "url": "https://www.amazon.de/dp/B006YMOCOS"
+    },
+    {
+      "titel": "amazon.de – TP 683U Active-Tots Kletterbrücke & Rutsche",
+      "url": "https://www.amazon.de/dp/B0CKQKQCDB"
+    },
+    {
+      "titel": "amazon.de – TP 687 Active-Tots Holzrutsche",
+      "url": "https://www.amazon.de/dp/B09SDHSRP2"
+    },
+    {
+      "titel": "amazon.de – KiddyMoon Holzrutsche 2in1",
+      "url": "https://www.amazon.de/dp/B0B8CJZYRT"
+    },
+    {
+      "titel": "amazon.de – MAMOI Rutschbrett",
+      "url": "https://www.amazon.de/dp/B09DKXZLXW"
+    },
+    {
+      "titel": "amazon.de – BioKinder Spielturm Noah (ohne Rutsche)",
+      "url": "https://www.amazon.de/dp/B01GWEK6SS"
+    },
+    {
+      "titel": "amazon.de – BioKinder Spar-Set Noah Bett + Spielturm + Rutsche",
+      "url": "https://www.amazon.de/dp/B01LIPUGYU"
+    },
+    {
+      "titel": "amazon.de – Pinolino Indoor-Rutsche Lotta",
+      "url": "https://www.amazon.de/dp/B01N5HVL1A"
+    },
+    {
+      "titel": "dadslife.de – Die besten Indoor-Rutschen für Kleinkinder",
+      "url": "https://dadslife.de/indoor-rutschen/"
+    }
+  ]
+}
