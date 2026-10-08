@@ -77,7 +77,8 @@ function header(current) {
         `<a href="${l.href}"${l.cls ? ` class="${l.cls}"` : ""}${current && current.startsWith(l.href) ? ' aria-current="page"' : ""}>${esc(l.label)}</a>`
     )
     .join("")}</nav>
-</div></header>`;
+</div></header>
+<script>(function(){var n=document.querySelector(".nav"),a=n&&n.querySelector("[aria-current]");if(a&&n.scrollWidth>n.clientWidth)n.scrollLeft=a.offsetLeft-n.offsetLeft-16})()</script>`;
 }
 
 function footer(categories) {
@@ -89,12 +90,9 @@ function footer(categories) {
       <p>${esc(site.claim)} Wir reduzieren jede Kategorie auf drei Empfehlungen – und erklären ausführlich, warum.</p>
     </div>
     <div>
-      <h2>Ratgeber</h2>
-      <ul>${[
-        ...categories.filter((c) => !c.group).map((c) => ({ href: catPath(c), label: c.navLabel })),
-        ...areas.flatMap((a) => (a.groups || []).map((g) => ({ href: groupPath(a, g), label: g.navLabel || g.name }))),
-      ]
-        .map((l) => `<li><a href="${l.href}">${esc(l.label)}</a></li>`)
+      <h2>Bereiche</h2>
+      <ul>${areas
+        .map((a) => `<li><a href="/${a.slug}/">${esc(a.name)}</a> <small>(${categories.filter((c) => c.area === a.slug).length})</small></li>`)
         .join("")}</ul>
     </div>
     <div>

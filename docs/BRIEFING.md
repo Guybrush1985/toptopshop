@@ -142,3 +142,12 @@ Mindestumfang je Kategorie: **≥ 1.000 Wörter** (nicht künstlich auffüllen),
   (Feld `where`, kein Link, keine Provision); Top 3 sind Ausrüstung für jeden Schutzraum.
 - 2026-10-07: test.de, bbk.bund.de und Herstellerseiten sind aus der Arbeitsumgebung nicht abrufbar; Testergebnisse
   stammen teils aus Sekundärquellen und sind im Text als „laut Berichten“ gekennzeichnet.
+- 2026-10-08: Vier neue Bereiche mit 43 Kategorien: Tennis-Ballwand (6), Home-Office (10), Private Sportanlagen
+  (11, vor allem Premium mit 1–2 günstigen Einstiegsvarianten je Seite) und Gaming-Room (16). URLs flach (`/slug/`).
+- 2026-10-08: Nutzer hat für diese Bereiche keine Awin-Freischaltung → ausschließlich Amazon-ASINs. Produkte,
+  die es nur beim Hersteller oder Fachhandel gibt (Sportkunstrasen, Court-Systeme, Padel-Courts, echte Flipper),
+  stehen in der Top 5 mit `where` ohne Link. Passende Awin-Programme hat der Nutzer zur Bewerbung erhalten.
+- 2026-10-08: Retro-/Arcade-Geräte nur mit offiziell lizenzierten Spielen (Arcade1Up, AtGames, Evercade, Atari);
+  keine Geräte mit vorinstallierten ROM-Sammlungen.
+- 2026-10-08: Footer listet Bereiche statt aller Kategorien; Startseite zeigt je Bereich zwei Ratgeber. Mobile
+  Hauptnavigation ist eine einzeilige, scrollbare Leiste (aktiver Bereich wird per Mini-Skript sichtbar gescrollt).

@@ -71,8 +71,8 @@ export function homePage(cats) {
 </div>
 <section class="section" id="ratgeber" aria-labelledby="ratgeber-h">
   <div class="wrap">
-    <div class="shead"><span class="kicker">Aktuelle Ratgeber</span><h2 id="ratgeber-h">Die Top 3 – auf einen Blick</h2><p>In wenigen Sekunden sehen, was sich lohnt. Die ausführliche Beratung folgt auf jeder Seite.</p></div>
-    <div class="guides">${overviewCards(cats)}</div>
+    <div class="shead"><span class="kicker">Aktuelle Ratgeber</span><h2 id="ratgeber-h">Die Top 3 – auf einen Blick</h2><p>In wenigen Sekunden sehen, was sich lohnt. Alle weiteren Ratgeber findest du in den Bereichen.</p></div>
+    <div class="guides">${areas.flatMap((a) => (a.groups ? a.groups.slice(0, 2).map((g) => groupCard(a, g, cats)) : cats.filter((c) => c.area === a.slug).slice(0, 2).map(guideCard))).join("")}</div>
   </div>
 </section>
 <section class="section cmp" aria-labelledby="bereiche-h">
@@ -139,7 +139,7 @@ ${
     : `<section class="section" aria-labelledby="g-h">
   <div class="wrap">
     <div class="shead"><span class="kicker">${cats.length} Ratgeber</span><h2 id="g-h">Unsere Empfehlungen</h2></div>
-    <div class="guides">${cats.map(guideCard).join("")}</div>
+    <div class="guides">${areas.flatMap((a) => cats.filter((c) => c.area === a.slug).slice(0, 2)).map(guideCard).join("")}</div>
   </div>
 </section>`
 }
