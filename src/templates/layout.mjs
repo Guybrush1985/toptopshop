@@ -1,5 +1,5 @@
 import { site, areas } from "../site.mjs";
-import { esc, absUrl } from "./util.mjs";
+import { esc, absUrl, catPath, groupPath } from "./util.mjs";
 import { logoSvg } from "./logo.mjs";
 
 let CSS = "";

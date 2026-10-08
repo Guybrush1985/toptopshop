@@ -1,12 +1,12 @@
 import { site, areas } from "../site.mjs";
 import { page, crumbs } from "./layout.mjs";
-import { esc, md, absUrl, dateDe } from "./util.mjs";
+import { esc, md, absUrl, dateDe, catPath, groupPath } from "./util.mjs";
 import { ridersBadge } from "./icons.mjs";
 
 const pad = (n) => String(n).padStart(2, "0");
 
 function guideCard(cat) {
-  return `<a class="guide" href="/${cat.slug}/">
+  return `<a class="guide" href="${catPath(cat)}">
   ${cat.riders ? ridersBadge(cat.riders, { tone: "light", height: 30 }) : ""}
   <small>Top 3 · aktualisiert ${dateDe(cat.updated)}</small>
   <h3>${esc(cat.h1)}</h3>
@@ -15,7 +15,26 @@ function guideCard(cat) {
 </a>`;
 }
 
-function collectionLd(path, name, cats) {
+/** Kachel für einen Unterbereich: listet seine Ratgeber statt eines Top 3. */
+function groupCard(area, group, cats) {
+  const list = cats.filter((c) => c.area === area.slug && c.group === group.slug);
+  return `<a class="guide" href="${groupPath(area, group)}">
+  <small>${esc(area.short)} · ${list.length} Ratgeber</small>
+  <h3>${esc(group.name)}</h3>
+  <ol>${list.map((c, i) => `<li><span>${pad(i + 1)}</span><div><b>${esc(c.navLabel)}</b><br><small>${esc(c.products[0].name)}</small></div></li>`).join("")}</ol>
+  <span class="more">Zum Themenbereich →</span>
+</a>`;
+}
+
+/** Kacheln für Übersichten: flache Kategorien direkt, Bereiche mit Unterbereichen als Themenkacheln. */
+function overviewCards(cats) {
+  return [
+    ...cats.filter((c) => !c.group).map(guideCard),
+    ...areas.flatMap((a) => (a.groups || []).map((g) => groupCard(a, g, cats))),
+  ].join("");
+}
+
+function collectionLd(path, name, items) {
   return [
     {
       "@type": "CollectionPage",
@@ -28,7 +47,7 @@ function collectionLd(path, name, cats) {
     {
       "@type": "ItemList",
       name,
-      itemListElement: cats.map((c, i) => ({ "@type": "ListItem", position: i + 1, url: absUrl(`/${c.slug}/`), name: c.h1 })),
+      itemListElement: items.map((c, i) => ({ "@type": "ListItem", position: i + 1, url: absUrl(c.path || catPath(c)), name: c.h1 || c.name })),
     },
   ];
 }
@@ -53,7 +72,7 @@ export function homePage(cats) {
 <section class="section" id="ratgeber" aria-labelledby="ratgeber-h">
   <div class="wrap">
     <div class="shead"><span class="kicker">Aktuelle Ratgeber</span><h2 id="ratgeber-h">Die Top 3 – auf einen Blick</h2><p>In wenigen Sekunden sehen, was sich lohnt. Alle weiteren Ratgeber findest du in den Bereichen.</p></div>
-    <div class="guides">${areas.flatMap((a) => cats.filter((c) => c.area === a.slug).slice(0, 2)).map(guideCard).join("")}</div>
+    <div class="guides">${areas.flatMap((a) => (a.groups ? a.groups.slice(0, 2).map((g) => groupCard(a, g, cats)) : cats.filter((c) => c.area === a.slug).slice(0, 2).map(guideCard))).join("")}</div>
   </div>
 </section>
 <section class="section cmp" aria-labelledby="bereiche-h">
@@ -104,12 +123,26 @@ export function areaPage(area, cats, all) {
     <p class="lead">${esc(area.intro)}</p>
   </div>
 </section>
-<section class="section" aria-labelledby="g-h">
+${
+  area.groups
+    ? area.groups
+        .map((g, i) => {
+          const list = cats.filter((c) => c.group === g.slug);
+          return `<section class="section${i % 2 ? " cmp" : ""}" id="${g.slug}" aria-labelledby="${g.slug}-h">
+  <div class="wrap">
+    <div class="shead"><span class="kicker">${pad(i + 1)} · ${list.length} Ratgeber</span><h2 id="${g.slug}-h"><a href="${groupPath(area, g)}">${esc(g.name)}</a></h2><p>${esc(g.intro)}</p></div>
+    <div class="guides">${list.map(guideCard).join("")}</div>
+  </div>
+</section>`;
+        })
+        .join("\n")
+    : `<section class="section" aria-labelledby="g-h">
   <div class="wrap">
     <div class="shead"><span class="kicker">${cats.length} Ratgeber</span><h2 id="g-h">Unsere Empfehlungen</h2></div>
     <div class="guides">${areas.flatMap((a) => cats.filter((c) => c.area === a.slug).slice(0, 2)).map(guideCard).join("")}</div>
   </div>
-</section>
+</section>`
+}
 <div class="mag"><div class="wrap"><div class="prose">
 ${area.article}
 </div></div></div>`;
@@ -120,7 +153,57 @@ ${area.article}
     description: area.metaDescription,
     body,
     breadcrumbs: trail,
-    jsonld: collectionLd(`/${area.slug}/`, area.name, cats),
+    jsonld: collectionLd(
+      `/${area.slug}/`,
+      area.name,
+      area.groups ? area.groups.map((g) => ({ path: groupPath(area, g), name: g.name })) : cats
+    ),
+    categories: all,
+  });
+}
+
+// ---------------------------------------------------------------------------
+
+export function groupPage(area, group, cats, all) {
+  const path = groupPath(area, group);
+  const trail = [
+    { name: "Startseite", path: "/" },
+    { name: area.short, path: `/${area.slug}/` },
+    { name: group.short, path },
+  ];
+  const siblings = area.groups.filter((g) => g.slug !== group.slug);
+  const body = `
+<section class="hero" aria-labelledby="h1">
+  <div class="wrap">
+    ${crumbs(trail)}
+    <span class="eyebrow">${esc(area.name)}</span>
+    <h1 id="h1">${esc(group.name)}</h1>
+    <p class="lead">${esc(group.intro)}</p>
+  </div>
+</section>
+<section class="section" aria-labelledby="g-h">
+  <div class="wrap">
+    <div class="shead"><span class="kicker">${cats.length} Ratgeber</span><h2 id="g-h">Unsere Empfehlungen</h2></div>
+    <div class="guides">${cats.map(guideCard).join("")}</div>
+  </div>
+</section>
+<div class="mag"><div class="wrap"><div class="prose">
+${group.article}
+</div></div></div>
+<section class="related" aria-labelledby="rel-h"><div class="wrap">
+  <div class="shead"><span class="kicker">Weitere Themen</span><h2 id="rel-h">${esc(area.name)}</h2></div>
+  <div class="rel">${siblings
+    .map((g) => `<a href="${groupPath(area, g)}"><small>Themenbereich</small><b>${esc(g.name)}</b><span>${esc(g.intro)}</span></a>`)
+    .join("")}</div>
+</div></section>`;
+
+  return page({
+    path,
+    title: group.metaTitle,
+    description: group.metaDescription,
+    body,
+    breadcrumbs: trail,
+    jsonld: collectionLd(path, group.name, cats),
     categories: all,
   });
 }
@@ -204,6 +287,6 @@ export function notFoundPage(all) {
     <a class="cta" href="/">Zur Startseite</a>
   </div>
 </section>
-<section class="section" aria-labelledby="r-h"><div class="wrap"><div class="shead"><h2 id="r-h">Unsere Ratgeber</h2></div><div class="guides">${all.map(guideCard).join("")}</div></div></section>`;
+<section class="section" aria-labelledby="r-h"><div class="wrap"><div class="shead"><h2 id="r-h">Unsere Ratgeber</h2></div><div class="guides">${overviewCards(all)}</div></div></section>`;
   return page({ path: "/404.html", title: "Seite nicht gefunden | toptop.shop", description: "Diese Seite existiert nicht.", body, noindex: true, categories: all });
 }

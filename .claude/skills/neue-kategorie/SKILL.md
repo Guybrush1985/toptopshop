@@ -12,7 +12,7 @@ und `src/content/README.md` (Content-Modell). Beides zuerst lesen.
 
 - Passt die Kategorie in einen bestehenden Bereich (`areas` in `src/site.mjs`) oder braucht es einen neuen?
   Neuer Bereich: Eintrag mit `slug`, `name`, `short`, `intro`, `metaTitle`, `metaDescription`, `article`.
-- URL-Slug nach Suchintent: `beste-…` / `bestes-…-fuer-…`. Unterteilungen (z. B. nach Personenzahl,
+- URL-Slug nach Suchintent: `beste-…` / `bestes-…-fuer-…`. Bereiche mit Unterbereichen (`areas[].groups`) nutzen `group` und verschachtelte URLs (`/bereich/gruppe/slug/`). Unterteilungen (z. B. nach Personenzahl,
   Größe, Budget) als eigene Kategorien anlegen, wenn sie eigene Suchanfragen haben.
 - Nur nachfragen, wenn der Zuschnitt wirklich unklar ist.
 
@@ -60,7 +60,7 @@ Datei `src/content/categories/<slug>.mjs` nach Content-Modell (bestehende Katego
 - Mind. 5 FAQs aus echten Suchfragen, Quellenliste, kontextuelle `related`-Links.
 - Kein Duplicate Content zwischen ähnlichen Kategorien – eigene Schwerpunkte setzen.
 - Optional: `riders` (Personen-Piktogramm), `visual.kind` passend wählen
-  (`foam`, `drops`, `oilspray`, `lotion`, `gel`, `longtail`, `box`, `trike`) – neue Produktarten bei Bedarf
+  (`foam`, `drops`, `oilspray`, `lotion`, `gel`, `longtail`, `box`, `trike`, `device`, `station`, `panel`, `canister`, `mask`, `radio`, `handheld`, `pack`, `roll`, `lamp`, `stove`, `cylinder`) – neue Produktarten bei Bedarf
   in `src/templates/visuals.mjs` ergänzen.
 
 ## 6. Bauen & prüfen

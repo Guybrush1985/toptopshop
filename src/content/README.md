@@ -31,6 +31,7 @@ KATEGORIE
 | Feld | Bedeutung |
 |---|---|
 | `slug`, `area`, `navLabel` | URL, Bereich aus `site.mjs`, Kurzname für Navigation/Footer |
+| `group` | nur bei Bereichen mit Unterbereichen (`areas[].groups`, z. B. Krisenvorsorge): URL wird `/bereich/group/slug/` |
 | `published`, `updated` | ISO-Datum; `updated` erscheint sichtbar als „Zuletzt aktualisiert“ |
 | `metaTitle` (≤ 65 Zeichen), `metaDescription` (≤ 165) | Suchergebnis-Snippet |
 | `h1`, `eyebrow`, `lead` | Hero-Bereich |
@@ -46,7 +47,7 @@ KATEGORIE
 | `guide` | `sections` – Kaufberatung/Anleitung nach der Top 5 |
 | `faqs` | Mind. 5 Fragen `{ q, a }` – Antwort beginnt mit der direkten Antwort |
 | `method`, `sources` | Herkunft der Empfehlung, Quellenlinks |
-| `related` | `{ slug, text }` für Kategorien oder `{ area, text }` für Bereiche |
+| `related` | `{ slug, text }` für Kategorien, `{ group, text }` für Unterbereiche desselben Bereichs oder `{ area, text }` für Bereiche |
 
 ### Produkt
 
@@ -54,7 +55,8 @@ KATEGORIE
 {
   rank: 1, label: "Beste Gesamtwahl",
   name: "…", brand: "…", variant: "…",
-  visual: { kind: "foam" | "drops" | "oilspray" | "lotion" | "gel", tone: "forest" | "green" | "mint" },
+  visual: { kind: "foam" | "drops" | "oilspray" | "lotion" | "gel" | "device" | "station" | "panel" | "canister"
+                | "mask" | "radio" | "handheld" | "pack" | "roll" | "lamp" | "stove" | "cylinder", tone: "forest" | "green" | "mint" },
   image: { src, alt, width, height },   // optional: echtes Produktfoto statt Symbolbild
   priceTier: 1 | 2 | 3,                 // €, €€, €€€ – keine festen Preise (Amazon-Richtlinien)
   ratings: { <kriterium>: 0–10, … },    // Gesamtnote wird automatisch gewichtet berechnet
@@ -66,6 +68,7 @@ KATEGORIE
   // ODER Awin-Partnershop statt Amazon:
   shop: "radwelt" | "fahrradlagerverkauf" | "fahrrad24",  // Schlüssel aus site.awin.merchants
   url: "https://www.radwelt-shop.de/…",                    // Produktseite beim Händler
+  // Nur Top 5: `where: "anbieter.de"` statt Link, wenn es keine Amazon-/Awin-Quelle gibt
 }
 ```
 
