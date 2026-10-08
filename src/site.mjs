@@ -334,4 +334,20 @@ export const areas = [
   <p>Unsere Empfehlungen stammen vom britischen Spezialshop BrickZoneHub, der Vitrinen, Rahmen und Lichtsets passgenau für einzelne Sets anbietet. Die Produkte sind Zubehör von Drittanbietern; LEGO-Sets sind nicht enthalten. Die Preise stehen im Shop in Pfund, die Lieferung nach Deutschland dauert laut Shop länger als innerhalb Großbritanniens.</p>
   <aside class="callout"><p class="ct">Hinweis</p><p>LEGO® ist eine Marke der LEGO Gruppe, die diese Seite weder sponsert noch autorisiert. Die vorgestellten Vitrinen, Rahmen und Lichtsets sind keine offiziellen LEGO-Produkte.</p></aside>`,
   },
+  {
+    slug: "garten-grundstueck",
+    name: "Garten & Grundstück",
+    short: "Garten",
+    intro:
+      "Wege, Einfahrt und Rasen sauber halten, im Herbst wie im Winter: Laubbläser und Laubsauger für das Laub, Schneefräsen und Schneeschieber für Einfahrt und Gehweg.",
+    metaTitle: "Garten & Grundstück: Laubbläser, Schneefräse & Co. im Überblick",
+    metaDescription:
+      "Laubbläser, Laubsauger, Schneefräsen und Schneeschieber für Garten, Einfahrt und Gehweg – je Kategorie drei Empfehlungen mit Kaufberatung und Rechtstipps.",
+    article: `
+  <h2>Ein gepflegtes Grundstück, das ganze Jahr</h2>
+  <p class="quick">Im Herbst geht es um Laub auf Wegen, Terrasse und Rasen, im Winter um Schnee und Eis auf Einfahrt und Gehweg. Für beides gibt es Geräte, die die Arbeit deutlich verkürzen – wenn sie zur Fläche passen.</p>
+  <p>Wer ein Haus mit Garten hat, kennt die Pflichten: Gehwege müssen bei Schnee und Glätte geräumt sein, nasses Laub auf Wegen wird schnell zur Rutschfalle. Wir zeigen je Gerätetyp drei Empfehlungen und erklären, worauf es bei Leistung, Akku oder Kabel, Gewicht und Lautstärke ankommt.</p>
+  <p>Unsere Empfehlungen sind bei Amazon erhältlich. Technische Daten kennzeichnen wir als Herstellerangaben; unabhängige Tests nennen wir nur mit Institut und Ausgabe.</p>
+  <aside class="callout"><p class="ct">Gut zu wissen</p><p>Für laute Gartengeräte gelten in Wohngebieten Ruhezeiten nach der Geräte- und Maschinenlärmschutzverordnung (32. BImSchV). Viele Gemeinden haben zusätzliche Regeln – ein Blick in die örtliche Satzung lohnt sich.</p></aside>`,
+  },
 ];
