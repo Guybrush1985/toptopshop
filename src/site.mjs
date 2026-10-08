@@ -306,15 +306,15 @@ export const areas = [
     name: "Garten & Grundstück",
     short: "Garten",
     intro:
-      "Einfahrt, Gehweg und Garten sauber halten, ohne den Rücken zu ruinieren: Geräte für Schnee, Laub und die Pflege rund ums Haus – je Kategorie drei Empfehlungen mit Kaufberatung.",
-    metaTitle: "Garten & Grundstück: Die besten Geräte im Überblick",
+      "Wege, Einfahrt und Rasen sauber halten, im Herbst wie im Winter: Laubbläser und Laubsauger für das Laub, Schneefräsen und Schneeschieber für Einfahrt und Gehweg.",
+    metaTitle: "Garten & Grundstück: Laubbläser, Schneefräse & Co. im Überblick",
     metaDescription:
-      "Schneefräsen, Akku-Schneeschieber, Laubbläser und mehr für Einfahrt, Gehweg und Garten – je Kategorie drei Empfehlungen mit ehrlicher Kaufberatung.",
+      "Laubbläser, Laubsauger, Schneefräsen und Schneeschieber für Garten, Einfahrt und Gehweg – je Kategorie drei Empfehlungen mit Kaufberatung und Rechtstipps.",
     article: `
-  <h2>Weniger Schufterei rund ums Haus</h2>
-  <p class="quick">Für die meisten Grundstücke reichen heute Akku-Geräte: Sie sind leise genug für frühe Morgenstunden, brauchen kein Benzin und teilen sich oft die Akkus mit anderen Gartengeräten. Benziner lohnen sich erst bei großen Flächen und viel schwerem Schnee oder Laub.</p>
-  <p>Wer ein Haus mit Einfahrt hat, kennt die Pflichten: Im Winter muss der Gehweg vor dem Grundstück morgens geräumt sein, im Herbst liegt das Laub auf Wegen und Rasen. Mit dem richtigen Gerät ist beides in wenigen Minuten erledigt – mit dem falschen wird es zur Plackerei oder zum Ärger mit den Nachbarn.</p>
-  <p>Wir empfehlen Geräte, die bei Amazon erhältlich sind, kennzeichnen Herstellerangaben als solche und erklären, welche Größe und welcher Antrieb zu welchem Grundstück passen.</p>
-  <aside class="callout"><p class="ct">Gut zu wissen</p><p>Wann geräumt und wann nicht laut gearbeitet werden darf, regeln Gemeindesatzungen und Lärmschutzvorschriften. Ein Blick in die Satzung deiner Gemeinde lohnt sich vor dem ersten Einsatz.</p></aside>`,
+  <h2>Ein gepflegtes Grundstück, das ganze Jahr</h2>
+  <p class="quick">Im Herbst geht es um Laub auf Wegen, Terrasse und Rasen, im Winter um Schnee und Eis auf Einfahrt und Gehweg. Für beides gibt es Geräte, die die Arbeit deutlich verkürzen – wenn sie zur Fläche passen.</p>
+  <p>Wer ein Haus mit Garten hat, kennt die Pflichten: Gehwege müssen bei Schnee und Glätte geräumt sein, nasses Laub auf Wegen wird schnell zur Rutschfalle. Wir zeigen je Gerätetyp drei Empfehlungen und erklären, worauf es bei Leistung, Akku oder Kabel, Gewicht und Lautstärke ankommt.</p>
+  <p>Unsere Empfehlungen sind bei Amazon erhältlich. Technische Daten kennzeichnen wir als Herstellerangaben; unabhängige Tests nennen wir nur mit Institut und Ausgabe.</p>
+  <aside class="callout"><p class="ct">Gut zu wissen</p><p>Für laute Gartengeräte gelten in Wohngebieten Ruhezeiten nach der Geräte- und Maschinenlärmschutzverordnung (32. BImSchV). Viele Gemeinden haben zusätzliche Regeln – ein Blick in die örtliche Satzung lohnt sich.</p></aside>`,
   },
 ];
