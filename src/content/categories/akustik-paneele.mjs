@@ -51,13 +51,13 @@ export default {
       ratings: { wirkung: 9.5, design: 7.0, montage: 8.5, preis: 8.0 },
       bestFor: "Streamer, Sprachchat, Heimkino",
       verdict:
-        "Die wirksamste Lösung pro Euro: Melaminharzschaum mit 5 cm Dicke schluckt Nachhall deutlich, ist leicht und laut Hersteller schwer entflammbar – optisch schlicht.",
+        "Aus unserer Sicht viel Wirkung pro Euro: Melaminharzschaum mit 5 cm Dicke schluckt Nachhall deutlich, ist leicht und laut Hersteller schwer entflammbar – optisch schlicht.",
       features: [
         "Melaminharzschaum Basotect, 5 cm dick (Herstellerangabe)",
         "Schwer entflammbar laut Hersteller",
         "Leicht, einfach zu kleben oder zu hängen",
       ],
-      pros: ["Sehr wirksam", "Leicht", "Brandschutz"],
+      pros: ["Sehr wirksam", "Leicht", "Laut Hersteller schwer entflammbar"],
       cons: ["Schlichte Optik", "Empfindliche Oberfläche"],
       specs: { material: "Melaminharzschaum", dicke: "5 cm", masse: "50 × 50 cm, 4 Stück", brandschutz: "schwer entflammbar (Herstellerangabe)", montage: "Kleben oder Hängen" },
       asin: "B07TSDVS85",
@@ -77,7 +77,7 @@ export default {
         "Sechsecke für die Wand: günstig, in vielen Farben und als Muster kombinierbar – die Wirkung ist geringer als bei dickem Schaum, gegen hohe Frequenzen und Flatterechos helfen sie aber.",
       features: [
         "Hexagon-Form, als Muster kombinierbar (Herstellerangabe)",
-        "Polyesterfaser, verschiedene Farben",
+        "Polyesterfaser, verschiedene Farben (Herstellerangabe)",
         "Einfache Klebemontage",
       ],
       pros: ["Günstig", "Gaming-Optik", "Leicht zu montieren"],
@@ -100,7 +100,7 @@ export default {
         "Holzlamellen auf Filz: sieht edel aus, dämpft Nachhall spürbar und macht sich als Streaming-Hintergrund gut – schwerer und teurer pro Fläche als Schaum.",
       features: [
         "Holzlamellen auf Akustikfilz, 120 × 60 cm (Herstellerangabe)",
-        "Dekor Eiche dunkel",
+        "Dekor Eiche dunkel (Herstellerangabe)",
         "Schrauben- oder Klebemontage",
       ],
       pros: ["Sehr wohnlich", "Robust", "Guter Hintergrund"],
@@ -203,9 +203,10 @@ export default {
         blocks: [
           { quick: "Erst mit dem Klatschtest prüfen, dann Paneele an den Seitenwänden auf Kopfhöhe, hinter dem Mikrofon und gegebenenfalls an der Decke anbringen." },
           { figure: "steps" },
-          { p: "Für Streamer gilt: Das Mikrofon nimmt vor allem die Wand vor dir und hinter dir auf. Ein guter Startpunkt sind zwei bis vier Absorber hinter dem Bildschirm und an der Wand gegenüber. Ein [Tischmikrofon](/tischmikrofone/) mit Nierencharakteristik und ein geringer Abstand zum Mund helfen zusätzlich mehr als jedes Paneel." },
-          { callout: { title: "Brandschutz", warn: true, text: "Viele günstige Schaumstoffe sind leicht entflammbar. Achte auf Brandschutzangaben des Herstellers und halte Paneele von Heizstrahlern, Lampen und Steckdosenleisten fern." } },
-          { facts: [{ value: "5 cm", label: "Mindestdicke für Sprache" }, { value: "15–25 %", label: "der Wandfläche (Faustregel)" }, { value: "50 × 50 cm", label: "Basotect G+ Format" }] },
+          { p: "Für Streamer gilt: Das Mikrofon nimmt vor allem die Wand vor dir und hinter dir auf. Ein guter Startpunkt sind zwei bis vier Absorber hinter dem Bildschirm und an der Wand gegenüber. Ein [Tischmikrofon](/tischmikrofone/) mit Nierencharakteristik und ein geringer Abstand zum Mund helfen zusätzlich – oft mehr als ein weiteres Paneel." },
+          { callout: { title: "Brandschutz", warn: true, text: "Nicht jeder Schaumstoff oder Filz ist schwer entflammbar. Brandschutzklassen (z. B. nach DIN 4102 oder EN 13501-1) geben wir nur als Herstellerangabe wieder – prüfe sie vor dem Kauf beim Hersteller und halte Paneele von Heizstrahlern, Lampen, Kerzen und Steckdosenleisten fern. In Mietwohnungen, Vereinsräumen oder gewerblich genutzten Räumen können zusätzliche Brandschutzvorgaben gelten; im Zweifel vorab mit Vermieter oder Betreiber klären." } },
+          { callout: { title: "Montage", warn: true, text: "Schwere Holzpaneele und Deckensegel nur mit für Wand und Decke geeignetem Befestigungsmaterial und nach Anleitung des Herstellers montieren, vorher auf Strom- und Wasserleitungen prüfen. Klebemontage kann Tapete und Putz beschädigen – in Mietwohnungen vorher mit dem Vermieter abstimmen." } },
+          { facts: [{ value: "5 cm", label: "Dicke für Sprache (Faustregel)" }, { value: "15–25 %", label: "der Wandfläche (Faustregel)" }, { value: "50 × 50 cm", label: "Basotect G+ Format" }] },
         ],
       },
     ],
@@ -213,7 +214,7 @@ export default {
 
   faqs: [
     { q: "Welche Akustik-Paneele sind die besten?", a: "Für die beste Wirkung die Basotect G+ Absorber. Günstig und mit Gaming-Optik sind die FENNEXT Hexagon-Paneele, für wohnliche Räume das Proviston 3D Akustikpaneel." },
-    { q: "Helfen Akustik-Paneele gegen Lärm von Nachbarn?", a: "Nein, Akustik-Paneele verbessern die Raumakustik, also den Hall im Raum. Gegen Lärm von außen hilft nur bauliche Schalldämmung." },
+    { q: "Helfen Akustik-Paneele gegen Lärm von Nachbarn?", a: "Nein, Akustik-Paneele verbessern die Raumakustik, also den Hall im Raum. Gegen Lärm von außen hilft in der Regel nur bauliche Schalldämmung." },
     { q: "Wie viele Akustik-Paneele brauche ich?", a: "Als Faustregel 15 bis 25 Prozent der Wandfläche. Die Position ist wichtiger als die Menge." },
     { q: "Sind Holzlamellen-Paneele wirksam?", a: "Ja, der Filz zwischen den Lamellen schluckt Schall. Die Wirkung ist aber meist geringer als bei dickem Absorberschaum." },
     { q: "Wo bringt man Akustik-Paneele an?", a: "An den Seitenwänden auf Kopfhöhe, hinter dem Mikrofon und gegebenenfalls an der Decke über dem Sitzplatz." },

@@ -26,7 +26,7 @@ export default {
   },
 
   top3Title: "Unsere Top 3 Flipper für zu Hause",
-  top3Intro: "Alle drei sind virtuelle Flipper: Das Spielfeld ist ein Bildschirm, die Tische sind offiziell lizenziert. Echte Flipperautomaten kosten ein Vielfaches – mehr dazu unten.",
+  top3Intro: "Alle drei sind virtuelle Flipper: Das Spielfeld ist ein Bildschirm, die Tische sind laut Hersteller offiziell lizenziert. Echte Flipperautomaten kosten ein Vielfaches – mehr dazu unten.",
   comparisonTitle: "Die 3 besten Flipper im Vergleich",
 
   criteria: [
@@ -51,7 +51,7 @@ export default {
       ratings: { spielgefuehl: 9.0, tische: 9.0, bau: 8.0, preis: 8.0 },
       bestFor: "Fast echtes Flipper-Gefühl",
       verdict:
-        "Der beste virtuelle Flipper für zu Hause: großes Spielfeld-Display, Rückwand-Bildschirm, Kick-Rückmeldung und lizenzierte Tische von Williams, Bally und Gottlieb.",
+        "Aus unserer Sicht der beste virtuelle Flipper im Vergleich: großes Spielfeld-Display, Rückwand-Bildschirm, Kick-Rückmeldung und lizenzierte Tische von Williams, Bally und Gottlieb.",
       features: [
         "Spielfeld-Bildschirm mit 32 Zoll, dazu Backglass-Display (Herstellerangabe)",
         "22 vorinstallierte lizenzierte Tische, weitere per WLAN (Herstellerangabe)",
@@ -77,8 +77,8 @@ export default {
         "Flipper für den Schreibtisch: kompakt, günstig und mit lizenzierten Tischen – das Spielfeld ist klein, aber für zwischendurch erstaunlich unterhaltsam.",
       features: [
         "Kompaktes Tischgerät (Herstellerangabe)",
-        "Lizenzierte Flippertische vorinstalliert",
-        "Passt auf jeden Tisch",
+        "Lizenzierte Flippertische vorinstalliert (Herstellerangabe)",
+        "Passt auf viele Schreib- und Couchtische",
       ],
       pros: ["Günstig", "Kaum Platzbedarf", "Lizenzierte Tische"],
       cons: ["Kleines Spielfeld", "Weniger Flipper-Gefühl"],
@@ -100,7 +100,7 @@ export default {
         "Virtueller Flipper mit Spielfeld-Bildschirm und Backglass im Retro-Gehäuse, bestückt mit Klassikern von Williams und Bally – etwas kleiner als der AtGames.",
       features: [
         "Lizenzierte Williams- und Bally-Tische (Herstellerangabe)",
-        "Spielfeld- und Backglass-Bildschirm",
+        "Spielfeld- und Backglass-Bildschirm (Herstellerangabe)",
         "Gehäuse im Flipper-Design",
       ],
       pros: ["Klassische Tische", "Retro-Optik", "Günstiger als AtGames"],
@@ -133,7 +133,7 @@ export default {
       title: "Echten Flipper kaufen",
       subtitle: "Was du vor dem Kauf wissen solltest",
       alt: "Infografik: echten Flipper kaufen – Budget, Fachhändler, Probespielen, Transport, Wartung",
-      caption: "Ein echter Flipper ist eine Anschaffung für Jahrzehnte.",
+      caption: "Ein echter Flipper ist eine Anschaffung für viele Jahre.",
       steps: [
         { title: "Budget klären", text: "Neue Geräte kosten meist deutlich über 7.000 €." },
         { title: "Fachhändler wählen", text: "Mit Werkstatt, Garantie und Ersatzteilen." },
@@ -154,7 +154,7 @@ export default {
         blocks: [
           { quick: "Für die meisten ist der [AtGames Legends Pinball](produkt:1) die beste Wahl, weil er Spielgefühl und Preis am besten verbindet. Für kleine Räume ist der [Legends Pinball Micro](produkt:2) ideal, für Williams-Klassiker der [Arcade1Up Williams Bally](produkt:3)." },
           { first: "Echte Flipperautomaten mit Stahlkugel, Spulen und mechanischen Zielen sind faszinierend – und teuer. Neue Geräte von Herstellern wie Stern Pinball kosten bei deutschen Fachhändlern meist deutlich über 7.000 Euro, Limited Editions noch mehr. Dazu kommen Gewicht von weit über 100 kg und regelmäßige Wartung." },
-          { p: "**Virtuelle Flipper** simulieren das Spiel auf einem großen Bildschirm, der wie ein Spielfeld im Gehäuse liegt. Ein zweiter Bildschirm ersetzt das Backglass, Vibrationen imitieren die Kugel. Das Gefühl ist nicht identisch, aber erstaunlich nah – und du hast Dutzende Tische statt einem. Für Familien und Einsteiger ist das die vernünftigere Wahl." },
+          { p: "**Virtuelle Flipper** simulieren das Spiel auf einem großen Bildschirm, der wie ein Spielfeld im Gehäuse liegt. Ein zweiter Bildschirm ersetzt das Backglass, Vibrationen imitieren die Kugel. Das Gefühl ist nicht identisch, aber erstaunlich nah – und du hast Dutzende Tische statt einem. Für Familien und Einsteiger ist das aus unserer Sicht die vernünftigere Wahl." },
           { figure: "scores" },
         ],
       },
@@ -176,7 +176,7 @@ export default {
               ],
             },
           },
-          { p: "Echte Flipper gibt es nicht als normale Amazon-Ware mit Lieferung bis in den Keller. Spezialisierte Fachhändler verkaufen neue und gebrauchte Geräte, liefern, stellen auf und bieten Service. Gebrauchte, überholte Automaten aus den 80er und 90er Jahren sind ein günstigerer Einstieg, brauchen aber mehr Pflege." },
+          { p: "Echte Flipper werden in der Regel über spezialisierte Fachhändler verkauft. Sie verkaufen neue und gebrauchte Geräte, liefern, stellen auf und bieten Service. Gebrauchte, überholte Automaten aus den 80er und 90er Jahren sind ein günstigerer Einstieg, brauchen aber mehr Pflege." },
           { list: ["Neu: Fachhändler mit Ausstellung und Werkstatt", "Gebraucht: überholte Geräte mit Gewährleistung bevorzugen", "Transportweg prüfen: Türbreiten, Treppen", "Stromanschluss und Platz für das geöffnete Spielfeld einplanen"] },
         ],
       },
@@ -205,8 +205,9 @@ export default {
           { quick: "Flipper waagerecht ausrichten (mit leichter Neigung zum Spieler bei echten Geräten), zu zweit transportieren und bei Kindern gegen Kippen sichern." },
           { figure: "steps" },
           { p: "Virtuelle Flipper brauchen kaum Pflege: Bildschirm trocken abwischen, Software-Updates einspielen. Echte Flipper brauchen regelmäßig neue Gummis, das Spielfeld wird gereinigt und gewachst, und Spulen sowie Schalter müssen ab und zu justiert werden – das übernimmt der Fachhändler oder ein Flipper-Techniker." },
-          { callout: { title: "Gewicht", warn: true, text: "Echte Flipper wiegen weit über 100 kg. Für Transport und Aufbau Profis oder genug Helfer einplanen und Beine fest verschrauben." } },
-          { facts: [{ value: "32 Zoll", label: "Spielfeld AtGames Legends Pinball" }, { value: "22", label: "vorinstallierte Tische" }, { value: "> 7.000 €", label: "typischer Neupreis echter Flipper" }] },
+          { callout: { title: "Gewicht und Kippgefahr", warn: true, text: "Echte Flipper wiegen weit über 100 kg und sind mit aufgestelltem Kopfteil kopflastig. Für Transport und Aufbau Profis oder genug Helfer einplanen, Beine fest verschrauben und das Kopfteil nach Anleitung sichern. Auch virtuelle Standgeräte können kippen – Kinder nicht daran hochklettern oder sich daran hochziehen lassen. Im Inneren echter Flipper liegen teils hohe Spannungen an: Gehäuse und Elektronik nur von Fachleuten öffnen lassen." } },
+          { callout: { title: "Gesundheitshinweis", warn: true, text: "Blinkende Licht- und Bildschirmeffekte können bei Menschen mit fotosensibler Epilepsie Anfälle auslösen. Warnhinweise in der Bedienungsanleitung beachten und bei Beschwerden sofort aufhören." } },
+          { facts: [{ value: "32 Zoll", label: "Spielfeld AtGames Legends Pinball (Herstellerangabe)" }, { value: "22", label: "vorinstallierte Tische (Herstellerangabe)" }, { value: "> 7.000 €", label: "grobe Orientierung Neupreis echter Flipper" }] },
         ],
       },
     ],

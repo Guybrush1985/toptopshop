@@ -17,7 +17,7 @@ export default {
   lead:
     "Kalte Getränke in Griffweite, ohne in die Küche zu laufen: Ein Getränkekühlschrank mit Glastür und LED ist der Klassiker im Gaming-Room. Wir zeigen die drei besten Modelle und in der Top 5 Alternativen.",
   answer:
-    "Unsere beste Gesamtwahl ist der [**Bomann KSG 7287**](produkt:1) mit 63 Litern, Glastür und Temperaturbereich von 3 bis 10 °C. Das beste Preis-Leistungs-Verhältnis bietet der kompakte [**Bomann KSG 7291**](produkt:2) mit 46 Litern, die Design-Wahl ist der [**Klarstein Beersafe 60 L**](produkt:3).",
+    "Unsere beste Gesamtwahl ist der [**Bomann KSG 7287**](produkt:1) mit laut Hersteller 63 Litern, Glastür und Temperaturbereich von 3 bis 10 °C. Das beste Preis-Leistungs-Verhältnis bietet der kompakte [**Bomann KSG 7291**](produkt:2) mit 46 Litern, die Design-Wahl ist der [**Klarstein Beersafe 60 L**](produkt:3).",
 
   priceTiers: {
     1: { symbol: "€", label: "bis 200 €" },
@@ -26,7 +26,7 @@ export default {
   },
 
   top3Title: "Unsere Top 3 Getränkekühlschränke",
-  top3Intro: "Alle drei haben eine Glastür und Innenbeleuchtung und arbeiten mit Kompressor. Entscheidend sind Volumen, Lautstärke und Energieverbrauch – das Gerät läuft schließlich rund um die Uhr.",
+  top3Intro: "Alle drei haben laut Herstellerangaben eine Glastür und Innenbeleuchtung und arbeiten mit Kompressor. Entscheidend sind Volumen, Lautstärke und Energieverbrauch – das Gerät läuft schließlich rund um die Uhr.",
   comparisonTitle: "Die 3 besten Getränkekühlschränke im Vergleich",
 
   criteria: [
@@ -51,11 +51,11 @@ export default {
       ratings: { kuehlung: 9.0, alltag: 8.5, effizienz: 8.0, preis: 8.5 },
       bestFor: "Gaming-Room und Partykeller",
       verdict:
-        "Der beste Allrounder: 63 Liter Platz, Temperaturbereich von 3 bis 10 °C, Glastür mit Innenlicht und eine Höhe von rund 74 cm – passt neben den Schreibtisch.",
+        "Unser Allrounder-Favorit: laut Hersteller 63 Liter Platz, Temperaturbereich von 3 bis 10 °C, Glastür mit Innenlicht und eine Höhe von rund 74 cm – passt neben den Schreibtisch.",
       features: [
         "63 Liter Volumen (Herstellerangabe)",
         "Temperaturbereich 3 bis 10 °C (Herstellerangabe)",
-        "Glastür, Innenbeleuchtung, rund 74 cm hoch",
+        "Glastür, Innenbeleuchtung, rund 74 cm hoch (Herstellerangabe)",
       ],
       pros: ["Viel Platz", "Kalte Temperaturen möglich", "Kompakte Höhe"],
       cons: ["Glastür isoliert schlechter", "Kompressor hörbar"],
@@ -77,7 +77,7 @@ export default {
         "Kompakt und günstig: 46 Liter reichen für Dosen und kleine Flaschen, das Gerät passt unter oder neben den Schreibtisch.",
       features: [
         "46 Liter Volumen (Herstellerangabe)",
-        "Glastür mit Innenbeleuchtung",
+        "Glastür mit Innenbeleuchtung (Herstellerangabe)",
         "Kompakte Bauform",
       ],
       pros: ["Günstig", "Kompakt", "Glastür"],
@@ -100,11 +100,11 @@ export default {
         "Bar-Kühlschrank mit Glastür und LED-Beleuchtung: 60 Liter Platz und ein Look wie hinter der Theke – ideal für den Partykeller.",
       features: [
         "60 Liter Volumen (Herstellerangabe)",
-        "Glastür mit LED-Beleuchtung",
-        "Verstellbare Einlegeböden",
+        "Glastür mit LED-Beleuchtung (Herstellerangabe)",
+        "Verstellbare Einlegeböden (Herstellerangabe)",
       ],
       pros: ["Bar-Optik", "Viel Platz", "LED-Licht"],
-      cons: ["Etwas lauter", "Größer"],
+      cons: ["Lautstärke im Datenblatt prüfen", "Größer"],
       specs: { volumen: "60 L", temperatur: "laut Hersteller", hoehe: "laut Hersteller", tuer: "Glastür", licht: "LED" },
       asin: "B089VVN4J6",
       query: "Klarstein Beersafe 60 L",
@@ -153,8 +153,8 @@ export default {
         h2: "Welcher Getränkekühlschrank ist der beste?",
         blocks: [
           { quick: "Für die meisten ist der [Bomann KSG 7287](produkt:1) die beste Wahl, weil er viel Platz und kalte Temperaturen bietet. Kompakter und günstiger ist der [Bomann KSG 7291](produkt:2), mit Bar-Optik der [Klarstein Beersafe](produkt:3)." },
-          { first: "Getränkekühlschränke unterscheiden sich von normalen Kühlschränken vor allem durch die **Glastür** und die Innenbeleuchtung: Man sieht sofort, was drin ist. Dafür isoliert Glas schlechter als eine massive Tür, und der Energieverbrauch ist etwas höher. Für den Gaming-Room ist außerdem die **Lautstärke** wichtig – das Gerät steht schließlich in dem Raum, in dem du mit Headset spielst oder streamst." },
-          { p: "Es gibt zwei Kühltechniken: **Kompressor-Kühlschränke** kühlen kräftig und auch bei warmer Umgebung zuverlässig, brummen aber hörbar, wenn der Kompressor anspringt. **Thermoelektrische** Mini-Kühlschränke sind leiser und günstiger, kühlen aber meist nur um eine bestimmte Differenz unter die Raumtemperatur – im warmen Dachzimmer reicht das oft nicht für wirklich kalte Getränke." },
+          { first: "Getränkekühlschränke unterscheiden sich von normalen Kühlschränken vor allem durch die **Glastür** und die Innenbeleuchtung: Man sieht sofort, was drin ist. Dafür isoliert Glas in der Regel schlechter als eine massive Tür, und der Energieverbrauch kann etwas höher sein. Für den Gaming-Room ist außerdem die **Lautstärke** wichtig – das Gerät steht schließlich in dem Raum, in dem du mit Headset spielst oder streamst." },
+          { p: "Es gibt zwei Kühltechniken: **Kompressor-Kühlschränke** kühlen in der Regel kräftig und auch bei warmer Umgebung zuverlässig, brummen aber hörbar, wenn der Kompressor anspringt. **Thermoelektrische** Mini-Kühlschränke sind leiser und günstiger, kühlen aber meist nur um eine bestimmte Differenz unter die Raumtemperatur – im warmen Dachzimmer reicht das oft nicht für wirklich kalte Getränke." },
           { figure: "scores" },
         ],
       },
@@ -175,7 +175,7 @@ export default {
               ],
             },
           },
-          { p: "Die Angaben in der Tabelle sind grobe Richtwerte – je nach Einlegeböden passt mehr oder weniger hinein. Die meisten Getränkekühlschränke dürfen nicht in Schränke eingebaut werden, weil sie Luft zur Wärmeabgabe brauchen. Prüfe die Herstellerangabe zum Wandabstand." },
+          { p: "Die Angaben in der Tabelle sind grobe Richtwerte – je nach Einlegeböden passt mehr oder weniger hinein. Viele freistehende Getränkekühlschränke sind laut Hersteller nicht für den Einbau in Schränke vorgesehen, weil sie Luft zur Wärmeabgabe brauchen. Prüfe die Herstellerangabe zum Wandabstand." },
           { list: ["Kompressor für zuverlässige Kühlung", "Lautstärke in dB laut Hersteller vergleichen", "Energieeffizienzklasse beachten", "Glastür und Licht für den Überblick", "Wandabstand und Stellplatz prüfen"] },
         ],
       },
@@ -203,18 +203,19 @@ export default {
         blocks: [
           { quick: "Mit Abstand zur Wand aufstellen, nach dem Transport einige Stunden warten, auf 5 bis 8 °C einstellen und bei Eisbildung abtauen." },
           { figure: "steps" },
-          { p: "Ein Getränkekühlschrank läuft rund um die Uhr. Ein Modell mit besserer Energieeffizienzklasse spart über die Jahre spürbar Strom. Wer den Kühlschrank nur am Wochenende braucht, kann ihn unter der Woche ausschalten – dann aber die Tür einen Spalt offen lassen, damit sich kein Schimmel bildet. Neben dem Kühlschrank machen sich ein [Dartautomat](/dartautomaten/) und ein [Kickertisch](/kickertische/) gut." },
+          { p: "Ein Getränkekühlschrank läuft rund um die Uhr. Ein Modell mit besserer Energieeffizienzklasse kann über die Jahre spürbar Strom sparen. Den jährlichen Verbrauch in kWh findest du auf dem EU-Energielabel bzw. im Produktdatenblatt der EPREL-Datenbank – so lassen sich Geräte vergleichen. Der tatsächliche Verbrauch hängt von Raumtemperatur, Standort und Nutzung ab. Wer den Kühlschrank nur am Wochenende braucht, kann ihn unter der Woche ausschalten – dann aber nach Herstellerangabe leeren, reinigen und die Tür einen Spalt offen lassen, um Gerüchen und Schimmel vorzubeugen. Neben dem Kühlschrank machen sich ein [Dartautomat](/dartautomaten/) und ein [Kickertisch](/kickertische/) gut." },
           { callout: { title: "Hinweis", text: "Glastüren lassen Licht hinein. Direkte Sonne auf dem Kühlschrank erhöht den Stromverbrauch – Standort im Schatten wählen." } },
-          { facts: [{ value: "63 L", label: "Bomann KSG 7287" }, { value: "3–10 °C", label: "Temperaturbereich KSG 7287" }, { value: "5–8 °C", label: "ideal für Getränke" }] },
+          { callout: { title: "Sicherheit", warn: true, text: "Den Kühlschrank nach Bedienungsanleitung anschließen – viele Hersteller raten von Verlängerungskabeln und Mehrfachsteckdosen ab. Lüftungsöffnungen frei halten und das Gerät nicht in feuchten Räumen ohne entsprechende Freigabe des Herstellers betreiben. Ein Getränkekühlschrank ist für Getränke gedacht; leicht verderbliche Lebensmittel gehören in einen normalen Kühlschrank mit passender Temperatur. Wer Alkohol lagert und Kinder oder Jugendliche im Haus hat, sollte ein abschließbares Modell wählen." } },
+          { facts: [{ value: "63 L", label: "Bomann KSG 7287 (Herstellerangabe)" }, { value: "3–10 °C", label: "Temperaturbereich KSG 7287 (Herstellerangabe)" }, { value: "5–8 °C", label: "für Getränke (Faustregel)" }] },
         ],
       },
     ],
   },
 
   faqs: [
-    { q: "Welcher Getränkekühlschrank ist der beste?", a: "Unsere beste Gesamtwahl ist der Bomann KSG 7287 mit 63 Litern. Kompakter ist der Bomann KSG 7291, mit Bar-Optik der Klarstein Beersafe 60 L." },
+    { q: "Welcher Getränkekühlschrank ist der beste?", a: "Unsere beste Gesamtwahl ist der Bomann KSG 7287 mit laut Hersteller 63 Litern. Kompakter ist der Bomann KSG 7291, mit Bar-Optik der Klarstein Beersafe 60 L." },
     { q: "Wie laut ist ein Getränkekühlschrank?", a: "Kompressorgeräte brummen hörbar, wenn der Kompressor läuft. Die Hersteller geben die Lautstärke in Dezibel an – zum Vergleich lohnt der Blick ins Datenblatt." },
-    { q: "Kompressor oder Thermoelektrik?", a: "Kompressor-Kühlschränke kühlen kräftiger und zuverlässiger. Thermoelektrische Geräte sind leiser, kühlen aber nur begrenzt unter die Raumtemperatur." },
+    { q: "Kompressor oder Thermoelektrik?", a: "Kompressor-Kühlschränke kühlen in der Regel kräftiger und zuverlässiger. Thermoelektrische Geräte sind leiser, kühlen aber nur begrenzt unter die Raumtemperatur." },
     { q: "Wie viele Dosen passen in 50 Liter?", a: "Als grober Richtwert rund 40 bis 60 Dosen, je nach Einlegeböden." },
     { q: "Kann ich einen Getränkekühlschrank einbauen?", a: "Meist nicht. Freistehende Geräte brauchen Luft zur Wärmeabgabe. Herstellerangaben zum Wandabstand beachten." },
   ],

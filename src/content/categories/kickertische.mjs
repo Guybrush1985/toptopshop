@@ -17,7 +17,7 @@ export default {
   lead:
     "Ein guter Kicker steht bombenfest, die Stangen laufen leicht und der Ball rollt sauber. Wir zeigen die drei besten Tische – vom Turnierkicker bis zum günstigen Einstieg – und in der Top 5 weitere Alternativen.",
   answer:
-    "Unsere beste Gesamtwahl ist der [**Ullrich-Sport P4P DTFB Turnierkicker**](produkt:1) – ein schwerer Turniertisch aus deutscher Fertigung. Das beste Preis-Leistungs-Verhältnis bietet der [**Pegasi Elite**](produkt:2), die Wahl für Fans italienischer Kicker ist der [**Garlando Master Cup**](produkt:3).",
+    "Unsere beste Gesamtwahl ist der [**Ullrich-Sport P4P DTFB Turnierkicker**](produkt:1) – ein schwerer Turniertisch, laut Hersteller aus deutscher Fertigung. Das beste Preis-Leistungs-Verhältnis bietet der [**Pegasi Elite**](produkt:2), die Wahl für Fans italienischer Kicker ist der [**Garlando Master Cup**](produkt:3).",
 
   priceTiers: {
     1: { symbol: "€", label: "bis 500 €" },
@@ -51,13 +51,13 @@ export default {
       ratings: { spiel: 9.5, stabil: 9.5, ausstattung: 8.5, preis: 7.5 },
       bestFor: "Ambitionierte Spieler, Vereine, Büros",
       verdict:
-        "Ein echter Turniertisch für zu Hause: sehr schwer, kein Wackeln, präziser Stangenlauf und ein Spielfeld nach Turniermaß – gebaut, um Jahrzehnte zu halten.",
+        "Ein echter Turniertisch für zu Hause: sehr schwer, kaum Wackeln, präziser Stangenlauf und laut Hersteller ein Spielfeld nach Turniermaß – auf Langlebigkeit ausgelegt.",
       features: [
         "Spielfeld rund 120 × 68 cm (Herstellerangabe)",
         "Turnierkicker nach DTFB-Vorgaben (Herstellerangabe)",
         "Rund 130 kg schwer, dadurch sehr standfest (Herstellerangabe)",
       ],
-      pros: ["Turnierqualität", "Extrem stabil", "Langlebig"],
+      pros: ["Turnierqualität", "Sehr stabil", "Langlebige Bauweise"],
       cons: ["Teuer", "Sehr schwer zu transportieren"],
       specs: { spielfeld: "ca. 120 × 68 cm", gewicht: "ca. 130 kg", stangen: "durchgehend", figuren: "laut Hersteller", turnier: "DTFB" },
       asin: "B06W5675WQ",
@@ -74,9 +74,9 @@ export default {
       ratings: { spiel: 8.0, stabil: 8.0, ausstattung: 8.0, preis: 9.5 },
       bestFor: "Familien, Partykeller",
       verdict:
-        "Solider Kicker zum fairen Preis: stabiler Korpus, durchgehende Stangen und Torzähler – kein Turniertisch, aber deutlich besser als Baumarkt-Kicker.",
+        "Solider Kicker zum fairen Preis: stabiler Korpus, durchgehende Stangen und Torzähler – kein Turniertisch, aber aus unserer Sicht ein deutlicher Schritt über einfache Freizeitkicker.",
       features: [
-        "Durchgehende Stangen, Torzähler",
+        "Durchgehende Stangen, Torzähler (Herstellerangabe)",
         "Stabiler Korpus mit verstellbaren Füßen (Herstellerangabe)",
         "Für Familie und Freizeit",
       ],
@@ -100,7 +100,7 @@ export default {
         "Der Garlando Master Cup ist ein bewährter Kicker aus Italien mit schnellem Spielfeld, stabilem Korpus und guter Verarbeitung – ein Klassiker für Partykeller und Büro.",
       features: [
         "Kicker aus italienischer Produktion (Herstellerangabe)",
-        "Durchgehende Stangen, Torzähler",
+        "Durchgehende Stangen, Torzähler (Herstellerangabe)",
         "Stabiler Korpus",
       ],
       pros: ["Bewährte Marke", "Gute Verarbeitung", "Schnelles Spiel"],
@@ -153,8 +153,8 @@ export default {
         h2: "Welcher Kickertisch ist der beste?",
         blocks: [
           { quick: "Für ambitionierte Spieler ist der [Ullrich P4P](produkt:1) die beste Wahl. Günstiger und für Familien ideal ist der [Pegasi Elite](produkt:2), der [Garlando Master Cup](produkt:3) ist der italienische Klassiker." },
-          { first: "Tischfußball ist in Deutschland ein Vereinssport mit eigenem Verband, dem Deutschen Tischfußballbund (DTFB). Im Partykeller zählt vor allem: Der Tisch darf nicht wackeln, die Stangen müssen leicht laufen und der Ball sollte sich kontrollieren lassen. Genau hier unterscheiden sich günstige Kicker aus dem Baumarkt und echte Turniertische." },
-          { p: "Das wichtigste Qualitätsmerkmal ist das **Gewicht**: Turniertische wiegen weit über 100 kg und bewegen sich auch bei harten Schüssen nicht. Leichte Kicker unter 40 kg rutschen dagegen weg und kippeln. Wichtig sind außerdem **durchgehende Stangen** – sie sind stabiler als teleskopierende, ragen aber an der Gegenseite heraus. Für Kinder gibt es deshalb auch Modelle mit Teleskopstangen." },
+          { first: "Tischfußball ist in Deutschland ein Vereinssport mit eigenem Verband, dem Deutschen Tischfußballbund (DTFB). Im Partykeller zählt vor allem: Der Tisch darf nicht wackeln, die Stangen müssen leicht laufen und der Ball sollte sich kontrollieren lassen. Genau hier unterscheiden sich einfache Freizeitkicker und echte Turniertische." },
+          { p: "Das wichtigste Qualitätsmerkmal ist das **Gewicht**: Turniertische wiegen laut Herstellerangaben oft weit über 100 kg und bewegen sich auch bei harten Schüssen kaum. Leichte Kicker unter 40 kg können dagegen eher rutschen und kippeln. Wichtig sind außerdem **durchgehende Stangen** – sie sind stabiler als teleskopierende, ragen aber an der Gegenseite heraus. Für Kinder gibt es deshalb auch Modelle mit Teleskopstangen." },
           { figure: "scores" },
         ],
       },
@@ -177,7 +177,7 @@ export default {
           },
           { h3: "Durchgehende oder Teleskopstangen?" },
           { p: "Durchgehende Stangen sind Standard bei Turniertischen und laufen präziser. Sie ragen aber auf der anderen Seite heraus – Vorsicht bei kleinen Kindern auf Kopfhöhe. Teleskopstangen sind sicherer für Kinder, aber meist weniger stabil." },
-          { list: ["Gewicht: je schwerer, desto besser", "Durchgehende Stangen mit Lagern", "Ebene, glatte Spielfläche", "Verstellbare Füße", "Bei Kindern: Teleskopstangen oder Stangenschutz"] },
+          { list: ["Gewicht: schwerere Tische stehen in der Regel stabiler", "Durchgehende Stangen mit Lagern", "Ebene, glatte Spielfläche", "Verstellbare Füße", "Bei Kindern: Teleskopstangen oder Stangenschutz"] },
         ],
       },
     ],
@@ -205,8 +205,8 @@ export default {
           { quick: "Kicker waagerecht ausrichten, Stangen regelmäßig mit Silikonspray nach Herstellerangabe pflegen und die Spielfläche nur feucht abwischen." },
           { figure: "steps" },
           { p: "Für einen Kicker brauchst du mehr Platz, als die Tischmaße vermuten lassen: Die Stangen ragen seitlich heraus, und die Spieler stehen davor. Als Faustregel gilt rund ein Meter an jeder Längsseite. Daneben passen ein [Dartautomat](/dartautomaten/) oder ein [Getränkekühlschrank](/getraenke-kuehlschrank/) gut in den Partykeller." },
-          { callout: { title: "Sicherheit", warn: true, text: "Durchgehende Stangen ragen auf der Gegenseite heraus. Kleine Kinder nicht auf Kopfhöhe neben dem Tisch stehen lassen oder Modelle mit Teleskopstangen wählen." } },
-          { facts: [{ value: "120 × 68 cm", label: "Spielfeld Ullrich P4P" }, { value: "ca. 130 kg", label: "Gewicht Turnierkicker" }, { value: "1 m", label: "Platz an jeder Längsseite" }] },
+          { callout: { title: "Sicherheit", warn: true, text: "Durchgehende Stangen ragen auf der Gegenseite heraus. Kleine Kinder nicht auf Kopfhöhe neben dem Tisch stehen lassen oder Modelle mit Teleskopstangen wählen. Schwere Kicker zu zweit nach Anleitung des Herstellers aufbauen und transportieren, Kinder nicht auf den Tisch klettern lassen und beim Drehen der Stangen auf die Finger achten." } },
+          { facts: [{ value: "120 × 68 cm", label: "Spielfeld Ullrich P4P (Herstellerangabe)" }, { value: "ca. 130 kg", label: "Gewicht Ullrich P4P (Herstellerangabe)" }, { value: "1 m", label: "Platz an jeder Längsseite (Faustregel)" }] },
         ],
       },
     ],
@@ -214,7 +214,7 @@ export default {
 
   faqs: [
     { q: "Welcher Kickertisch ist der beste?", a: "Unsere beste Gesamtwahl ist der Ullrich-Sport P4P DTFB Turnierkicker. Günstiger ist der Pegasi Elite, der Garlando Master Cup ist der italienische Klassiker." },
-    { q: "Wie schwer sollte ein Kickertisch sein?", a: "Je schwerer, desto stabiler. Gute Freizeitkicker wiegen über 50 kg, Turniertische weit über 100 kg." },
+    { q: "Wie schwer sollte ein Kickertisch sein?", a: "In der Regel gilt: je schwerer, desto stabiler. Gute Freizeitkicker wiegen laut Herstellerangaben oft über 50 kg, Turniertische weit über 100 kg." },
     { q: "Wie viel Platz braucht ein Kicker?", a: "Neben den Tischmaßen rund einen Meter an jeder Längsseite für Stangen und Spieler." },
     { q: "Was ist besser: durchgehende oder Teleskopstangen?", a: "Durchgehende Stangen sind stabiler und präziser. Teleskopstangen sind sicherer für kleine Kinder." },
     { q: "Wie pflegt man einen Kicker?", a: "Stangen mit Silikonspray nach Herstellerangabe pflegen, Spielfläche feucht abwischen und den Tisch waagerecht halten." },

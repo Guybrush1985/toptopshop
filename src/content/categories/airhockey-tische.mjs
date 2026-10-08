@@ -54,7 +54,7 @@ export default {
         "Schwer, stabil und mit kräftigem Gebläse: Der Blizzard bietet echtes Spielhallen-Gefühl, elektronische Punktezählung und eine Größe, die noch in viele Keller passt.",
       features: [
         "Gebläse mit 108 Watt (Herstellerangabe)",
-        "Elektronischer Punktezähler",
+        "Elektronischer Punktezähler (Herstellerangabe)",
         "Rund 116 kg schwer, dadurch sehr standfest (Herstellerangabe)",
       ],
       pros: ["Kräftiges Gebläse", "Sehr stabil", "Elektronischer Zähler"],
@@ -77,11 +77,11 @@ export default {
         "Großer Tisch zum kleinen Preis: rund 2,14 m Länge, Gebläse und elektronischer Zähler – leichter gebaut als der Sportime, für den Familienkeller aber völlig ausreichend.",
       features: [
         "Rund 214 cm lang (Herstellerangabe)",
-        "Gebläse und elektronischer Punktezähler",
+        "Gebläse und elektronischer Punktezähler (Herstellerangabe)",
         "Pucks und Schläger im Lieferumfang",
       ],
       pros: ["Günstig für die Größe", "Elektronischer Zähler", "Komplettes Zubehör"],
-      cons: ["Leichter, weniger stabil", "Gebläse lauter"],
+      cons: ["Leichter, weniger stabil", "Einfachere Bauweise als der Sportime"],
       specs: { groesse: "ca. 214 cm", geblaese: "laut Hersteller", zaehler: "elektronisch", gewicht: "laut Hersteller", extras: "Pucks und Schläger" },
       asin: "B0DZMKFXBD",
       query: "VEVOR Airhockey Tisch 214 cm",
@@ -97,11 +97,11 @@ export default {
       ratings: { spiel: 9.5, bau: 9.0, ausstattung: 9.0, preis: 6.5 },
       bestFor: "Ambitionierte Spieler mit viel Platz",
       verdict:
-        "Der große Turniertisch: 8 Fuß Spielfläche, zwei Lüfter für gleichmäßigen Luftstrom und Torerkennung per Infrarot – teuer und riesig, aber das beste Spielgefühl.",
+        "Der große Turniertisch: 8 Fuß Spielfläche, zwei Lüfter für gleichmäßigen Luftstrom und Torerkennung per Infrarot – teuer und riesig, aber aus unserer Sicht das beste Spielgefühl im Vergleich.",
       features: [
         "8 Fuß Spielfläche (Herstellerangabe)",
-        "Zwei Lüfter für gleichmäßigen Luftstrom",
-        "Infrarot-Torerkennung, elektronischer Zähler",
+        "Zwei Lüfter für gleichmäßigen Luftstrom (Herstellerangabe)",
+        "Infrarot-Torerkennung, elektronischer Zähler (Herstellerangabe)",
       ],
       pros: ["Bestes Spielgefühl", "Präzise Torerkennung", "Turniergröße"],
       cons: ["Teuer", "Sehr großer Platzbedarf"],
@@ -202,16 +202,16 @@ export default {
         blocks: [
           { quick: "Tisch waagerecht ausrichten, Spielfläche regelmäßig abwischen, damit die Luftlöcher frei bleiben, und abgenutzte Pucks ersetzen." },
           { figure: "steps" },
-          { p: "Verstopfte Luftlöcher sind die häufigste Ursache für ein zähes Spiel. Ein weiches Tuch und gelegentlich ein Zahnstocher für einzelne Löcher helfen. Silikon- oder Polierspray solltest du nur verwenden, wenn der Hersteller es ausdrücklich erlaubt. Wer den Spielkeller weiter ausbauen will, findet Ideen bei [Kickertischen](/kickertische/) und [Dartautomaten](/dartautomaten/)." },
-          { callout: { title: "Sicherheit", warn: true, text: "Pucks können bei schnellen Schlägen vom Tisch springen. Kleine Kinder nicht in Augenhöhe an der Stirnseite stehen lassen und Getränke vom Tisch fernhalten." } },
-          { facts: [{ value: "108 W", label: "Gebläse Sportime Blizzard" }, { value: "116 kg", label: "Gewicht Blizzard 7 ft" }, { value: "7 Fuß", label: "beliebteste Tischgröße" }] },
+          { p: "Verstopfte Luftlöcher sind eine häufige Ursache für ein zähes Spiel. Ein weiches Tuch und gelegentlich ein Zahnstocher für einzelne Löcher helfen. Silikon- oder Polierspray solltest du nur verwenden, wenn der Hersteller es ausdrücklich erlaubt. Wer den Spielkeller weiter ausbauen will, findet Ideen bei [Kickertischen](/kickertische/) und [Dartautomaten](/dartautomaten/)." },
+          { callout: { title: "Sicherheit", warn: true, text: "Pucks können bei schnellen Schlägen vom Tisch springen. Kleine Kinder nicht in Augenhöhe an der Stirnseite stehen lassen und Getränke vom Tisch fernhalten. Die Tische wiegen teils über 100 kg: Aufbau und Transport zu zweit nach Anleitung des Herstellers, Kabel des Gebläses nicht als Stolperfalle verlegen und nur an einer intakten Steckdose betreiben." } },
+          { facts: [{ value: "108 W", label: "Gebläse Sportime Blizzard (Herstellerangabe)" }, { value: "116 kg", label: "Gewicht Blizzard 7 ft (Herstellerangabe)" }, { value: "7 Fuß", label: "beliebteste Tischgröße" }] },
         ],
       },
     ],
   },
 
   faqs: [
-    { q: "Welcher Airhockey-Tisch ist der beste?", a: "Unsere beste Gesamtwahl ist der Sportime Blizzard 7 ft mit 108-Watt-Gebläse und elektronischem Zähler. Günstiger ist der VEVOR 214 cm, die Premium-Wahl der Sportime Turnier 2.0 mit 8 Fuß." },
+    { q: "Welcher Airhockey-Tisch ist der beste?", a: "Unsere beste Gesamtwahl ist der Sportime Blizzard 7 ft mit laut Hersteller 108-Watt-Gebläse und elektronischem Zähler. Günstiger ist der VEVOR 214 cm, die Premium-Wahl der Sportime Turnier 2.0 mit 8 Fuß." },
     { q: "Wie viel Platz braucht ein Airhockey-Tisch?", a: "Als Faustregel Tischlänge plus rund einen Meter an jeder Stirnseite. Für einen 7-Fuß-Tisch sind das etwa 4 × 3 m." },
     { q: "Welche Größe ist für zu Hause ideal?", a: "7 Fuß ist der beliebteste Kompromiss aus Spielgefühl und Platzbedarf. Für Kinder und kleine Räume reichen 5 bis 6 Fuß." },
     { q: "Lohnen sich Multigame-Tische?", a: "Für Gelegenheitsspieler ja. Das Airhockey-Spielgefühl ist bei Kombitischen aber meist schwächer als bei reinen Airhockey-Tischen." },

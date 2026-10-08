@@ -17,7 +17,7 @@ export default {
   lead:
     "Ein Gaming-Tisch braucht Platz für zwei Monitore, eine große Mausfläche und ordentliches Kabelmanagement. Wir zeigen die drei besten Modelle – fest, elektrisch und günstig – und in der Top 5 Eck- und RGB-Varianten.",
   answer:
-    "Unsere beste Gesamtwahl ist der [**Desktopia GG**](produkt:1) – elektrisch höhenverstellbar, mit Memory-Funktion und 180 × 80 cm Fläche. Das beste Preis-Leistungs-Verhältnis bietet der [**Arozzi Arena**](produkt:2) mit Mauspad über die ganze Tischfläche; die Wahl für kleine Zimmer ist der [**Eureka Ergonomic 148 cm RGB**](produkt:3).",
+    "Unsere beste Gesamtwahl ist der [**Desktopia GG**](produkt:1) – laut Hersteller elektrisch höhenverstellbar, mit Memory-Funktion und 180 × 80 cm Fläche. Das beste Preis-Leistungs-Verhältnis bietet der [**Arozzi Arena**](produkt:2) mit Mauspad über die ganze Tischfläche; die Wahl für kleine Zimmer ist der [**Eureka Ergonomic 148 cm RGB**](produkt:3).",
 
   priceTiers: {
     1: { symbol: "€", label: "bis 250 €" },
@@ -51,7 +51,7 @@ export default {
       ratings: { flaeche: 9.0, ergonomie: 9.5, ausstattung: 8.5, preis: 7.5 },
       bestFor: "Lange Sessions, Sitzen und Stehen",
       verdict:
-        "Der beste Allrounder: große, tiefe Fläche, elektrische Höhenverstellung mit Memory-Tasten und eine lange Garantie – damit spielst und arbeitest du auch mal im Stehen.",
+        "Unser Allrounder-Favorit: große, tiefe Fläche, elektrische Höhenverstellung mit Memory-Tasten und laut Hersteller eine lange Garantie – damit spielst und arbeitest du auch mal im Stehen.",
       features: [
         "Elektrisch höhenverstellbar, rund 63–128 cm (Herstellerangabe)",
         "Tischplatte 180 × 80 cm, belastbar bis 125 kg (Herstellerangabe)",
@@ -74,10 +74,10 @@ export default {
       ratings: { flaeche: 8.5, ergonomie: 7.0, ausstattung: 9.0, preis: 8.5 },
       bestFor: "Low-Sens-Spieler mit großer Mausfläche",
       verdict:
-        "Der Klassiker: Die ganze Tischplatte ist mit einer wasserabweisenden Mauspad-Oberfläche bezogen, Kabel verschwinden durch drei Durchlässe in einem Netz unter dem Tisch.",
+        "Ein bekanntes Modell: Die ganze Tischplatte ist laut Hersteller mit einer wasserabweisenden Mauspad-Oberfläche bezogen, Kabel verschwinden durch drei Durchlässe in einem Netz unter dem Tisch.",
       features: [
         "Tischplatte rund 160 × 82 cm mit Mauspad-Bezug (Herstellerangabe)",
-        "Drei Kabeldurchlässe mit Kabelnetz",
+        "Drei Kabeldurchlässe mit Kabelnetz (Herstellerangabe)",
         "Höhe in Stufen einstellbar (Herstellerangabe)",
       ],
       pros: ["Riesige Mausfläche", "Gutes Kabelmanagement", "Abgerundete Front"],
@@ -100,8 +100,8 @@ export default {
         "Kompakt und günstig: 148 cm Breite reichen für zwei Monitore, die RGB-Beleuchtung und Halterungen für Becher und Kopfhörer machen ihn zum typischen Gamer-Tisch.",
       features: [
         "Rund 148 × 60 cm (Herstellerangabe)",
-        "RGB-Beleuchtung, Becher- und Kopfhörerhalter",
-        "Kabelmanagement integriert",
+        "RGB-Beleuchtung, Becher- und Kopfhörerhalter (Herstellerangabe)",
+        "Kabelmanagement integriert (Herstellerangabe)",
       ],
       pros: ["Günstig", "Passt in kleine Räume", "Viele Extras"],
       cons: ["Geringe Tiefe", "Feste Höhe"],
@@ -154,7 +154,7 @@ export default {
         blocks: [
           { quick: "Für die meisten ist der [Desktopia GG](produkt:1) die beste Wahl, weil er groß und elektrisch höhenverstellbar ist. Günstiger mit riesiger Mausfläche ist der [Arozzi Arena](produkt:2), für kleine Zimmer der [Eureka 148 cm](produkt:3)." },
           { first: "Ein Gaming-Tisch unterscheidet sich von einem normalen Schreibtisch vor allem in drei Punkten: Er ist breiter und tiefer, damit zwei Monitore und eine große Mausbewegung Platz haben. Er hat ein Kabelmanagement für PC, Lautsprecher und Beleuchtung. Und er ist stabil genug, dass der Monitor nicht wackelt, wenn du die Maus schnell bewegst." },
-          { p: "Die **Tiefe** wird oft unterschätzt: Bei nur 60 cm sitzt du sehr nah am Monitor. Ab 70 bis 80 cm Tiefe kannst du einen großen [Gaming-Monitor](/monitore/) in angenehmem Abstand aufstellen. Wer lange spielt, profitiert zudem von einer **elektrischen Höhenverstellung** – zwischendurch im Stehen zu spielen entlastet den Rücken. Mehr dazu in unserem Ratgeber zu [höhenverstellbaren Schreibtischen](/hoehenverstellbare-schreibtische/)." },
+          { p: "Die **Tiefe** wird oft unterschätzt: Bei nur 60 cm sitzt du sehr nah am Monitor. Ab 70 bis 80 cm Tiefe kannst du einen großen [Gaming-Monitor](/monitore/) in angenehmem Abstand aufstellen. Wer lange spielt, profitiert zudem von einer **elektrischen Höhenverstellung** – zwischendurch im Stehen zu spielen bringt Abwechslung in die Haltung, die die DGUV bei Bildschirmarbeit empfiehlt. Mehr dazu in unserem Ratgeber zu [höhenverstellbaren Schreibtischen](/hoehenverstellbare-schreibtische/)." },
           { figure: "scores" },
         ],
       },
@@ -204,8 +204,9 @@ export default {
           { quick: "Tischhöhe so einstellen, dass die Unterarme waagerecht aufliegen, Monitore eine Armlänge entfernt aufstellen und Kabel unter der Platte bündeln." },
           { figure: "steps" },
           { p: "Für die richtige Tischhöhe gibt es eine einfache Faustregel: Setz dich auf deinen [Gaming-Stuhl](/gaming-stuehle/), stell die Sitzhöhe ein und lass die Arme locker hängen. Die Tischoberfläche sollte dann etwa auf Höhe deiner Ellenbogen liegen. Bei festen Tischen mit rund 72–75 cm Höhe gleichst du kleine Unterschiede über den Stuhl und eine Fußstütze aus." },
-          { callout: { title: "Tipp", text: "Eine Steckdosenleiste mit Schalter, an der Unterseite der Tischplatte montiert, sorgt für Ordnung und schaltet das ganze Setup auf einmal aus." } },
-          { facts: [{ value: "140 × 70 cm", label: "Mindestmaß für zwei Monitore" }, { value: "72–75 cm", label: "übliche feste Tischhöhe" }, { value: "125 kg", label: "Belastbarkeit Desktopia GG" }] },
+          { callout: { title: "Tipp", text: "Eine Steckdosenleiste mit Schalter, an der Unterseite der Tischplatte montiert, sorgt für Ordnung und schaltet das ganze Setup auf einmal aus. Mehrere Steckdosenleisten nicht hintereinanderstecken und die zulässige Gesamtleistung der Leiste beachten." } },
+          { callout: { title: "Sicherheit", warn: true, text: "Bei elektrisch höhenverstellbaren Tischen besteht beim Verfahren Quetschgefahr – Kinder und Haustiere fernhalten, Kabel mit genügend Spiel verlegen und die angegebene Belastbarkeit nicht überschreiten. Monitorarme nur an ausreichend stabilen Tischplatten nach Anleitung des Herstellers montieren, damit nichts kippt." } },
+          { facts: [{ value: "140 × 70 cm", label: "Mindestmaß für zwei Monitore (Faustregel)" }, { value: "72–75 cm", label: "übliche feste Tischhöhe" }, { value: "125 kg", label: "Belastbarkeit Desktopia GG (Herstellerangabe)" }] },
         ],
       },
     ],
@@ -214,7 +215,7 @@ export default {
   faqs: [
     { q: "Welcher Gaming-Tisch ist der beste?", a: "Unsere beste Gesamtwahl ist der elektrisch höhenverstellbare Desktopia GG. Günstiger mit Mauspad-Oberfläche ist der Arozzi Arena, für kleine Zimmer der Eureka 148 cm RGB." },
     { q: "Wie groß sollte ein Gaming-Tisch sein?", a: "Für zwei Monitore mindestens 140 cm breit und 70 cm tief. Für Ultrawide-Monitore oder viel Mausbewegung eher 160 cm und mehr." },
-    { q: "Lohnt sich ein höhenverstellbarer Gaming-Tisch?", a: "Ja, wenn du viele Stunden am Tisch verbringst. Zwischendurch im Stehen zu spielen oder zu arbeiten entlastet den Rücken." },
+    { q: "Lohnt sich ein höhenverstellbarer Gaming-Tisch?", a: "Aus unserer Sicht ja, wenn du viele Stunden am Tisch verbringst. Zwischendurch im Stehen zu spielen oder zu arbeiten sorgt für Haltungswechsel. Bei Rückenbeschwerden ersetzt ein Tisch aber keine ärztliche Beratung." },
     { q: "Wie hoch sollte ein Gaming-Tisch sein?", a: "Die Tischoberfläche sollte etwa auf Ellenbogenhöhe liegen, wenn du aufrecht sitzt. Feste Tische sind meist 72 bis 75 cm hoch." },
     { q: "Was bringt eine Mauspad-Oberfläche?", a: "Viel Platz für große Mausbewegungen ohne Kante. Der Stoff nutzt sich aber ab und ist schwerer zu reinigen als ein separates Mauspad." },
   ],

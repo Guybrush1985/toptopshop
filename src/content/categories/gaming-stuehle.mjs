@@ -15,9 +15,9 @@ export default {
   eyebrow: "Gaming-Room · Gaming-Stühle",
   h1: "Die 3 besten Gaming-Stühle 2026",
   lead:
-    "Ein guter Gaming-Stuhl stützt den Rücken auch nach Stunden. Wir zeigen die drei besten Modelle – vom Preis-Leistungs-Tipp bis zum Premium-Stuhl in drei Größen – und in der Top 5 weitere Alternativen.",
+    "Ein guter Gaming-Stuhl lässt sich so einstellen, dass du auch bei langen Sessions bequem und gut gestützt sitzt. Wir zeigen die drei besten Modelle – vom Preis-Leistungs-Tipp bis zum Premium-Stuhl in drei Größen – und in der Top 5 weitere Alternativen.",
   answer:
-    "Unsere beste Gesamtwahl ist der [**Secretlab Titan Evo**](produkt:1) mit verstellbarer Lordosenstütze, 4D-Armlehnen und drei Größen. Das beste Preis-Leistungs-Verhältnis bietet der [**Corsair TC100 Relaxed**](produkt:2), die Wahl für schwere und große Spieler ist der [**noblechairs HERO**](produkt:3) mit bis zu 150 kg Belastbarkeit.",
+    "Unsere beste Gesamtwahl ist der [**Secretlab Titan Evo**](produkt:1) mit verstellbarer Lordosenstütze, 4D-Armlehnen und drei Größen. Das beste Preis-Leistungs-Verhältnis bietet der [**Corsair TC100 Relaxed**](produkt:2), die Wahl für schwere und große Spieler ist der [**noblechairs HERO**](produkt:3) mit laut Hersteller bis zu 150 kg Belastbarkeit.",
 
   priceTiers: {
     1: { symbol: "€", label: "bis 250 €" },
@@ -51,15 +51,15 @@ export default {
       ratings: { ergonomie: 9.5, qualitaet: 9.0, komfort: 9.0, preis: 7.5 },
       bestFor: "Vielspieler, die lange sitzen",
       verdict:
-        "Der am besten einstellbare Gaming-Stuhl: Die integrierte Lordosenstütze lässt sich in Höhe und Tiefe verstellen, die Armlehnen in vier Richtungen – und es gibt ihn in drei Größen.",
+        "Aus unserer Sicht der am besten einstellbare Gaming-Stuhl im Vergleich: Die integrierte Lordosenstütze lässt sich laut Hersteller in Höhe und Tiefe verstellen, die Armlehnen in vier Richtungen – und es gibt ihn in drei Größen.",
       features: [
         "Integrierte, 4-fach verstellbare Lordosenstütze (Herstellerangabe)",
-        "4D-Armlehnen mit magnetischen Auflagen",
+        "4D-Armlehnen mit magnetischen Auflagen (Herstellerangabe)",
         "Drei Größen (S, R, XL), XL bis 180 kg (Herstellerangabe)",
       ],
       pros: ["Sehr gute Einstellbarkeit", "Passende Größe wählbar", "Hochwertige Verarbeitung"],
       cons: ["Teuer", "Sitzfläche eher fest gepolstert"],
-      specs: { lordose: "integriert, verstellbar", armlehnen: "4D", neigung: "bis 165°", belastbar: "je nach Größe, XL bis 180 kg", groessen: "S, R, XL" },
+      specs: { lordose: "integriert, verstellbar", armlehnen: "4D", neigung: "bis 165° (laut Hersteller)", belastbar: "je nach Größe, XL bis 180 kg", groessen: "S, R, XL" },
       asin: "B0B3RL6YFG",
       query: "Secretlab Titan Evo Gaming Stuhl",
     },
@@ -77,8 +77,8 @@ export default {
         "Solider Einstieg: breite Sitzfläche, atmungsaktiver Stoffbezug, Lendenkissen und Wippmechanik zu einem günstigen Preis – die Armlehnen lassen sich aber nur in zwei Richtungen verstellen.",
       features: [
         "Breite Sitzfläche für entspanntes Sitzen (Herstellerangabe)",
-        "Stoffbezug, Nacken- und Lendenkissen",
-        "2D-Armlehnen, Rückenlehne neigbar",
+        "Stoffbezug, Nacken- und Lendenkissen (Herstellerangabe)",
+        "2D-Armlehnen, Rückenlehne neigbar (Herstellerangabe)",
       ],
       pros: ["Günstig", "Atmungsaktiver Stoff", "Breite Sitzfläche"],
       cons: ["Nur 2D-Armlehnen", "Lendenstütze nur als Kissen"],
@@ -97,11 +97,11 @@ export default {
       ratings: { ergonomie: 8.5, qualitaet: 9.0, komfort: 8.5, preis: 7.5 },
       bestFor: "Große und schwere Spieler",
       verdict:
-        "Der Stuhl für Kräftige: breite Sitzfläche, integrierte verstellbare Lendenstütze und eine Belastbarkeit bis 150 kg – dafür fest gepolstert und recht teuer.",
+        "Der Stuhl für Kräftige: breite Sitzfläche, integrierte verstellbare Lendenstütze und laut Hersteller eine Belastbarkeit bis 150 kg – dafür fest gepolstert und recht teuer.",
       features: [
         "Integrierte, verstellbare Lendenstütze (Herstellerangabe)",
         "Belastbar bis 150 kg (Herstellerangabe)",
-        "4D-Armlehnen, Kaltschaumpolsterung",
+        "4D-Armlehnen, Kaltschaumpolsterung (Herstellerangabe)",
       ],
       pros: ["Hohe Belastbarkeit", "Sehr stabil", "Integrierte Lendenstütze"],
       cons: ["Sehr feste Polsterung", "Schwer"],
@@ -131,7 +131,7 @@ export default {
       kind: "steps",
       file: "gaming-stuhl-richtig-einstellen.svg",
       title: "Gaming-Stuhl richtig einstellen",
-      subtitle: "In fünf Schritten zur gesunden Sitzhaltung",
+      subtitle: "In fünf Schritten zur passenden Sitzhaltung",
       alt: "Infografik: Gaming-Stuhl einstellen – Sitzhöhe, Sitztiefe, Lendenstütze, Armlehnen, Neigung",
       caption: "Die Reihenfolge ist wichtig: erst Höhe, dann Rücken und Arme.",
       steps: [
@@ -153,7 +153,7 @@ export default {
         h2: "Welcher Gaming-Stuhl ist der beste?",
         blocks: [
           { quick: "Für die meisten ist der [Secretlab Titan Evo](produkt:1) die beste Wahl, weil er sich am feinsten einstellen lässt. Günstiger ist der [Corsair TC100](produkt:2), für große und schwere Spieler der [noblechairs HERO](produkt:3)." },
-          { first: "Gaming-Stühle sehen aus wie Rennsitze, doch entscheidend ist, was man nicht sieht: eine Lendenstütze, die das Hohlkreuz hält, Armlehnen in der richtigen Höhe und eine Sitzfläche, die zur Körpergröße passt. Wer täglich mehrere Stunden spielt, merkt den Unterschied schnell im Rücken und in den Schultern." },
+          { first: "Gaming-Stühle sehen aus wie Rennsitze, doch entscheidend ist, was man nicht sieht: eine Lendenstütze, die den unteren Rücken stützt, Armlehnen in der richtigen Höhe und eine Sitzfläche, die zur Körpergröße passt. Wer täglich mehrere Stunden spielt, merkt den Unterschied oft beim Sitzkomfort." },
           { p: "Die Schalensitz-Optik hat einen Nachteil: Die hochgezogenen Seitenwangen schränken Sitzhaltung und Beinfreiheit ein. Moderne Modelle wie der Secretlab Titan Evo oder der noblechairs HERO haben deshalb flachere Sitzflächen. Wer vor allem arbeitet und nur nebenbei spielt, ist mit einem ergonomischen Bürostuhl oft besser beraten – passend zum [Gaming-Tisch](/gaming-tische/) oder [höhenverstellbaren Schreibtisch](/hoehenverstellbare-schreibtische/)." },
           { figure: "scores" },
         ],
@@ -168,7 +168,7 @@ export default {
               caption: "Ausstattung und was sie bringt",
               head: ["Merkmal", "Wozu", "Worauf achten"],
               rows: [
-                ["**Lendenstütze**", "Hält das Hohlkreuz", "Integriert und verstellbar besser als Kissen"],
+                ["**Lendenstütze**", "Stützt den unteren Rücken", "Integriert und verstellbar besser als Kissen"],
                 ["**4D-Armlehnen**", "Arme auf Tischhöhe", "Höhe, Tiefe, Breite, Winkel"],
                 ["**Wippmechanik**", "Bewegung beim Sitzen", "Arretierbar, Gegendruck einstellbar"],
                 ["**Größen**", "Passform", "Körpergröße und Gewicht beachten"],
@@ -176,7 +176,7 @@ export default {
             },
           },
           { h3: "Kunstleder oder Stoff?" },
-          { p: "**Kunstleder** ist leicht zu reinigen, wird im Sommer aber schnell warm. **Stoff** atmet besser, nimmt jedoch Flecken an. Secretlab bietet zusätzlich ein eigenes Hybrid-Leder und Stoff an. Für warme Dachzimmer ist Stoff die angenehmere Wahl." },
+          { p: "**Kunstleder** ist leicht zu reinigen, wird im Sommer aber schnell warm. **Stoff** atmet besser, nimmt jedoch Flecken an. Secretlab bietet zusätzlich ein eigenes Hybrid-Leder und Stoff an. Für warme Dachzimmer ist Stoff aus unserer Sicht die angenehmere Wahl." },
           { h3: "Welche Größe passt?" },
           { p: "Die Hersteller geben Größen- und Gewichtsbereiche an – diese solltest du ernst nehmen. Ist die Sitzfläche zu tief, drückt die Kante in die Kniekehlen; ist die Lehne zu kurz, fehlt die Nackenstütze. Bei Secretlab gibt es den Titan Evo in S, R und XL; die XL-Version ist laut Hersteller bis 180 kg belastbar." },
           { list: ["Größe und Belastbarkeit passend zum Körper", "Verstellbare, möglichst integrierte Lendenstütze", "Armlehnen in mindestens drei Richtungen verstellbar", "Gasdruckfeder der Klasse 4 (Angabe beim Hersteller prüfen)", "Rollen passend zum Boden: weich für Parkett, hart für Teppich"] },
@@ -190,7 +190,7 @@ export default {
     h2: "Die 5 besten Alternativen",
     intro: "Weitere bewährte Gaming-Stühle für unterschiedliche Budgets und Körpergrößen.",
     items: [
-      { name: "Secretlab Titan Evo Stealth", for: "Dezent im Büro", text: "Gleicher Stuhl wie unser Testsieger, aber komplett schwarz ohne auffälliges Logo – passt auch ins Home-Office.", asin: "B0B3RDWTDD", query: "Secretlab Titan Evo Stealth" },
+      { name: "Secretlab Titan Evo Stealth", for: "Dezent im Büro", text: "Gleicher Stuhl wie unsere beste Gesamtwahl, aber komplett schwarz ohne auffälliges Logo – passt auch ins Home-Office.", asin: "B0B3RDWTDD", query: "Secretlab Titan Evo Stealth" },
       { name: "DXRacer King K99", for: "Für Große", text: "Breiter Rennsitz mit 4D-Armlehnen, laut Hersteller für große Spieler ausgelegt.", asin: "B095WRTD18", query: "DXRacer King K99" },
       { name: "AKRacing Master Premium", for: "Breite Sitzfläche", text: "Gaming-Stuhl mit 4D-Armlehnen und breiter, flacher Sitzfläche.", asin: "B07B42GM7H", query: "AKRacing Master Premium" },
       { name: "AKRacing Core EX", for: "Solider Einstieg", text: "Günstiger Rennsitz mit 3D-Armlehnen, Nacken- und Lendenkissen.", asin: "B07B3XNHQ8", query: "AKRacing Core EX" },
@@ -204,11 +204,12 @@ export default {
         id: "einstellen",
         h2: "Gaming-Stuhl richtig einstellen",
         blocks: [
-          { quick: "Erst die Sitzhöhe, dann Sitztiefe, Lendenstütze und Armlehnen einstellen. Die Wippe nicht dauerhaft blockieren – Bewegung entlastet den Rücken." },
+          { quick: "Erst die Sitzhöhe, dann Sitztiefe, Lendenstütze und Armlehnen einstellen. Die Wippe nicht dauerhaft blockieren – Bewegung beim Sitzen ist erwünscht." },
           { figure: "steps" },
           { p: "Auch der beste Stuhl ersetzt keine Pausen. Die DGUV empfiehlt, die Sitzhaltung regelmäßig zu wechseln und zwischendurch aufzustehen. Ein [höhenverstellbarer Tisch](/hoehenverstellbare-schreibtische/) hilft, zwischendurch im Stehen zu arbeiten oder zu spielen." },
-          { callout: { title: "Achtung bei Billigmodellen", warn: true, text: "Achte auf geprüfte Gasdruckfedern (Klasse 4) und eine angegebene Belastbarkeit. Bei sehr günstigen Stühlen sind Gasfedern und Fußkreuze die häufigsten Schwachstellen." } },
-          { facts: [{ value: "3", label: "Größen beim Titan Evo" }, { value: "4D", label: "Armlehnen beim Testsieger" }, { value: "150 kg", label: "Belastbarkeit noblechairs HERO" }] },
+          { callout: { title: "Achtung bei Billigmodellen", warn: true, text: "Achte auf Gasdruckfedern, die laut Hersteller nach Norm geprüft sind (z. B. Klasse 4), und eine angegebene Belastbarkeit, die zu deinem Gewicht passt. Bei sehr günstigen Stühlen gelten Gasfedern und Fußkreuze als typische Schwachstellen. Nicht auf den Stuhl stellen und Kinder nicht darauf schaukeln lassen – Drehstühle können kippen." } },
+          { callout: { title: "Gesundheitshinweis", warn: true, text: "Ein Stuhl kann Rückenbeschwerden nicht verhindern oder heilen. Bei anhaltenden Beschwerden ärztlichen Rat einholen – die Angaben hier ersetzen keine ärztliche Beratung." } },
+          { facts: [{ value: "3", label: "Größen beim Titan Evo (Herstellerangabe)" }, { value: "4D", label: "Armlehnen bei unserer besten Gesamtwahl" }, { value: "150 kg", label: "Belastbarkeit noblechairs HERO (Herstellerangabe)" }] },
         ],
       },
     ],
@@ -223,7 +224,7 @@ export default {
   ],
 
   sources: [
-    { label: "Secretlab: Titan Evo", url: "https://secretlab.eu/de/products/titan-evo" },
+    { label: "Secretlab: Titan Evo", url: "https://secretlab.eu/" },
     { label: "noblechairs: HERO", url: "https://www.noblechairs.de/" },
     { label: "DGUV: Büro- und Bildschirmarbeit", url: "https://www.dguv.de/" },
   ],

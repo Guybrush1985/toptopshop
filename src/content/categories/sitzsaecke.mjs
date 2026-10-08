@@ -17,7 +17,7 @@ export default {
   lead:
     "Ein Sitzsack ist der lässigste Platz vor Konsole und Beamer. Wir zeigen die drei besten Modelle – vom formbaren Riesensitzsack bis zum Design-Klassiker – und in der Top 5 Alternativen mit Rückenlehne.",
   answer:
-    "Unsere beste Gesamtwahl ist der [**Lumaland Gaming Sitzsack XXL Cord**](produkt:1) mit fester Rückenlehnen-Form für aufrechtes Spielen. Das beste Preis-Leistungs-Verhältnis bietet der [**Lumaland Riesensitzsack 380 L**](produkt:2), die Premium-Wahl ist der [**Fatboy Original Nylon**](produkt:3) – das wasserabweisende Design-Original.",
+    "Unsere beste Gesamtwahl ist der [**Lumaland Gaming Sitzsack XXL Cord**](produkt:1) mit fester Rückenlehnen-Form für aufrechtes Spielen. Das beste Preis-Leistungs-Verhältnis bietet der [**Lumaland Riesensitzsack 380 L**](produkt:2), die Premium-Wahl ist der [**Fatboy Original Nylon**](produkt:3) – der Design-Klassiker mit laut Hersteller wasserabweisendem Bezug.",
 
   priceTiers: {
     1: { symbol: "€", label: "bis 80 €" },
@@ -51,11 +51,11 @@ export default {
       ratings: { komfort: 9.0, material: 8.5, alltag: 8.0, preis: 8.5 },
       bestFor: "Konsole und Couch-Coop",
       verdict:
-        "Die beste Mischung aus Sessel und Sitzsack: Die vorgeformte Rückenlehne hält dich aufrecht genug für den Controller, der Cordbezug ist weich und abnehmbar.",
+        "Aus unserer Sicht die beste Mischung aus Sessel und Sitzsack: Die vorgeformte Rückenlehne hält dich aufrecht genug für den Controller, der Cordbezug ist weich und abnehmbar.",
       features: [
         "Sesselform mit hoher Rückenlehne, rund 135 × 100 cm (Herstellerangabe)",
         "Cordbezug, abnehmbar und waschbar (Herstellerangabe)",
-        "EPS-Perlen-Füllung, nachfüllbar",
+        "EPS-Perlen-Füllung, nachfüllbar (Herstellerangabe)",
       ],
       pros: ["Aufrechte Sitzhaltung", "Weicher, abnehmbarer Bezug", "Für Erwachsene groß genug"],
       cons: ["Cord zieht Tierhaare an", "Perlen sacken mit der Zeit ab"],
@@ -74,11 +74,11 @@ export default {
       ratings: { komfort: 8.0, material: 8.0, alltag: 8.5, preis: 9.5 },
       bestFor: "Liegen, Filmabende, zu zweit",
       verdict:
-        "Viel Sitzsack fürs Geld: 380 Liter Volumen, formbar zum Sessel oder Liegekissen und mit robustem, abwaschbarem Bezug in vielen Farben.",
+        "Viel Sitzsack fürs Geld: laut Hersteller 380 Liter Volumen, formbar zum Sessel oder Liegekissen und mit robustem, abwaschbarem Bezug in vielen Farben.",
       features: [
         "Rund 140 × 180 cm, 380 Liter Füllvolumen (Herstellerangabe)",
-        "Formbar als Sessel oder Liegekissen",
-        "Innen- und Außenbezug, Füllung nachfüllbar",
+        "Formbar als Sessel oder Liegekissen (Herstellerangabe)",
+        "Innen- und Außenbezug, Füllung nachfüllbar (Herstellerangabe)",
       ],
       pros: ["Sehr günstig für die Größe", "Vielseitig formbar", "Viele Farben"],
       cons: ["Ohne feste Rückenlehne", "Braucht viel Platz"],
@@ -97,10 +97,10 @@ export default {
       ratings: { komfort: 8.5, material: 9.5, alltag: 7.5, preis: 7.0 },
       bestFor: "Design-Fans, die lange liegen",
       verdict:
-        "Der Klassiker unter den Sitzsäcken: robuster, wasserabweisender Nylonbezug und eine Größe, in der man sich auch zu zweit ausstrecken kann – teuer, aber langlebig.",
+        "Ein Klassiker unter den Sitzsäcken: robuster, laut Hersteller wasserabweisender Nylonbezug und eine Größe, in der man sich auch zu zweit ausstrecken kann – teuer, aber auf Langlebigkeit ausgelegt.",
       features: [
         "Rund 180 × 140 cm (Herstellerangabe)",
-        "Wasserabweisendes Nylon, schmutzabweisend",
+        "Wasserabweisendes Nylon, schmutzabweisend (Herstellerangabe)",
         "Design-Original seit 1998 (Herstellerangabe)",
       ],
       pros: ["Sehr robuster Bezug", "Leicht zu reinigen", "Zeitloses Design"],
@@ -152,10 +152,10 @@ export default {
         id: "bester-sitzsack",
         h2: "Welcher Gaming-Sitzsack ist der beste?",
         blocks: [
-          { quick: "Für die meisten ist der [Lumaland Gaming Sitzsack XXL Cord](produkt:1) die beste Wahl, weil er mit Lehne aufrecht hält. Günstig und vielseitig ist der [Lumaland Riesensitzsack](produkt:2), der langlebigste der [Fatboy Original](produkt:3)." },
-          { first: "Sitzsäcke sind im Gaming-Room beliebt, weil sie wenig kosten, sich verschieben lassen und auch Gäste schnell einen Platz haben. Zum Spielen mit Controller ist aber nicht jeder Sitzsack gleich gut: In einem flachen Liegekissen rutscht man nach hinten, der Kopf kippt nach vorn und nach einer Stunde schmerzt der Nacken." },
+          { quick: "Für die meisten ist der [Lumaland Gaming Sitzsack XXL Cord](produkt:1) die beste Wahl, weil er mit Lehne aufrecht hält. Günstig und vielseitig ist der [Lumaland Riesensitzsack](produkt:2), besonders robust aus unserer Sicht der [Fatboy Original](produkt:3)." },
+          { first: "Sitzsäcke sind im Gaming-Room beliebt, weil sie wenig kosten, sich verschieben lassen und auch Gäste schnell einen Platz haben. Zum Spielen mit Controller ist aber nicht jeder Sitzsack gleich gut: In einem flachen Liegekissen rutscht man nach hinten, der Kopf kippt nach vorn – auf Dauer wird das für viele im Nacken unbequem." },
           { p: "Deshalb unterscheiden wir drei Formen. **Sessel-Sitzsäcke** haben eine vorgeformte Rückenlehne und halten den Oberkörper aufrecht – ideal für Konsole und Couch-Coop. **Formbare Riesensitzsäcke** mit viel Volumen lassen sich zum Sessel aufschütteln oder flach als Liegefläche nutzen. **Liegekissen** wie der Fatboy sind perfekt für Filmabende, aber weniger für konzentriertes Spielen." },
-          { p: "Für einen Schreibtisch mit Maus und Tastatur ist ein Sitzsack keine Lösung – dafür brauchst du einen [Gaming-Stuhl](/gaming-stuehle/). Vor dem Fernseher oder unter der [Beamer-Leinwand](/beamer-leinwand/) ist er dagegen unschlagbar gemütlich." },
+          { p: "Für einen Schreibtisch mit Maus und Tastatur ist ein Sitzsack keine Lösung – dafür brauchst du einen [Gaming-Stuhl](/gaming-stuehle/). Vor dem Fernseher oder unter der [Beamer-Leinwand](/beamer-leinwand/) ist er dagegen besonders gemütlich." },
           { figure: "scores" },
         ],
       },
@@ -178,7 +178,7 @@ export default {
           { h3: "Bezug: Cord, Nylon oder Polyester?" },
           { p: "**Cord** und weiche Stoffe fühlen sich wohnlich an, ziehen aber Haare und Krümel an. **Nylon** und beschichtetes Polyester sind abwischbar und robust – gut, wenn Snacks und Getränke im Spiel sind. Ein **Innenbezug** ist wichtig: Er hält die Füllung, wenn der Außenbezug in der Waschmaschine ist." },
           { h3: "Wie viel Füllung braucht ein Sitzsack?" },
-          { p: "Für Kinder reichen rund 100 bis 200 Liter, Erwachsene sitzen ab rund 250 bis 300 Liter bequem. Riesensitzsäcke mit 380 Litern und mehr bieten Platz zum Liegen oder für zwei Personen. Die EPS-Perlen werden mit der Zeit zusammengedrückt – Nachfüllpacks gibt es von allen großen Marken." },
+          { p: "Für Kinder reichen rund 100 bis 200 Liter, Erwachsene sitzen ab rund 250 bis 300 Liter bequem. Riesensitzsäcke mit 380 Litern und mehr bieten Platz zum Liegen oder für zwei Personen. Die EPS-Perlen werden mit der Zeit zusammengedrückt – Nachfüllpacks bieten viele große Marken an." },
           { list: ["Rückenlehne oder formbare Füllung für aufrechtes Sitzen", "Abnehmbarer, waschbarer Außenbezug", "Kindersicherer Reißverschluss (verdeckt oder ohne Zipper-Griff)", "Füllvolumen passend zur Körpergröße", "Bei Snacks und Getränken: abwischbarer Stoff"] },
         ],
       },
@@ -207,8 +207,8 @@ export default {
           { quick: "Regelmäßig aufschütteln, Außenbezug nach Pflegeetikett waschen, alle ein bis zwei Jahre Perlen nachfüllen und den Reißverschluss kindersicher halten." },
           { figure: "steps" },
           { p: "Beim Nachfüllen hilft ein Trick: Den Innensack in eine große Mülltüte stellen und die Perlen über einen Trichter aus Karton einfüllen. EPS-Perlen laden sich statisch auf und kleben überall – ein leicht feuchtes Tuch und ein Staubsauger mit Strumpf vor der Düse helfen beim Aufräumen." },
-          { callout: { title: "Sicherheit", warn: true, text: "Die kleinen Füllperlen können eingeatmet oder verschluckt werden. Reißverschlüsse bei Kindern sichern oder Modelle mit Kindersicherung wählen und beschädigte Innensäcke sofort ersetzen." } },
-          { facts: [{ value: "250–300 L", label: "Füllung für Erwachsene" }, { value: "380 L", label: "Riesensack für zwei" }, { value: "1–2 Jahre", label: "bis zum Nachfüllen" }] },
+          { callout: { title: "Sicherheit", warn: true, text: "Die kleinen Füllperlen können eingeatmet oder verschluckt werden – Erstickungsgefahr. Reißverschlüsse bei Kindern sichern oder Modelle mit Kindersicherung wählen und beschädigte Innensäcke sofort ersetzen. Säuglinge und Kleinkinder nicht unbeaufsichtigt auf Sitzsäcken liegen oder schlafen lassen. EPS-Füllung und Bezüge sind brennbar: Abstand zu Heizstrahlern, Kaminen und Kerzen halten. Warnhinweise und Pflegeetikett des Herstellers beachten." } },
+          { facts: [{ value: "250–300 L", label: "Füllung für Erwachsene (Faustregel)" }, { value: "380 L", label: "Riesensack für zwei" }, { value: "1–2 Jahre", label: "bis zum Nachfüllen (Faustregel)" }] },
         ],
       },
     ],
@@ -216,10 +216,10 @@ export default {
 
   faqs: [
     { q: "Welcher Gaming-Sitzsack ist der beste?", a: "Unsere beste Gesamtwahl ist der Lumaland Gaming Sitzsack XXL Cord mit Rückenlehne. Günstig und vielseitig ist der Lumaland Riesensitzsack 380 L, die Premium-Wahl der Fatboy Original." },
-    { q: "Ist ein Sitzsack gut für den Rücken?", a: "Für kurze Sessions ja. Zum langen Spielen sind Modelle mit Rückenlehne besser, weil sie den Oberkörper aufrecht halten. Für Schreibtisch-Gaming ist ein Gaming-Stuhl die bessere Wahl." },
+    { q: "Ist ein Sitzsack gut für den Rücken?", a: "Für kurze Sessions ist ein Sitzsack für viele bequem. Zum langen Spielen sind aus unserer Sicht Modelle mit Rückenlehne besser, weil sie den Oberkörper aufrechter halten. Für Schreibtisch-Gaming ist ein Gaming-Stuhl die bessere Wahl. Bei Rückenbeschwerden ersetzt kein Sitzmöbel ärztlichen Rat." },
     { q: "Wie viel Füllung braucht ein Sitzsack?", a: "Erwachsene sitzen ab rund 250 bis 300 Litern bequem, Riesensitzsäcke für zwei Personen haben 380 Liter und mehr." },
     { q: "Kann man Sitzsäcke waschen?", a: "Die meisten Modelle haben einen abnehmbaren Außenbezug, der nach Pflegeetikett gewaschen werden kann. Nylon- und Kunstlederbezüge werden abgewischt." },
-    { q: "Wie oft muss man einen Sitzsack nachfüllen?", a: "Je nach Nutzung etwa alle ein bis zwei Jahre, weil die EPS-Perlen zusammengedrückt werden. Nachfüllpacks gibt es von den Herstellern." },
+    { q: "Wie oft muss man einen Sitzsack nachfüllen?", a: "Je nach Nutzung als Faustregel etwa alle ein bis zwei Jahre, weil die EPS-Perlen zusammengedrückt werden. Nachfüllpacks gibt es von vielen Herstellern." },
   ],
 
   sources: [
