@@ -1,0 +1,200 @@
+{
+  "slug": "pikler-dreieck",
+  "stand": "2026-10-08",
+  "criteria": [
+    { "key": "sicherheit", "label": "Stabilität & Sicherheit", "weight": 0.35, "description": "Herstellerangaben zu Maximalbelastung, Klappsicherung/Kindersicherung, rutschfeste Füße, Angabe zu EN 71; Altersangabe des Herstellers" },
+    { "key": "material", "label": "Holz & Verarbeitung", "weight": 0.25, "description": "Holzart (Buche/Birke massiv vs. Kiefer/Sperrholz), Oberfläche, Herkunft, Verarbeitung laut Kundenberichten" },
+    { "key": "spielwert", "label": "Spielwert & Erweiterbarkeit", "weight": 0.2, "description": "Rutsche/Kletterbrett im Lieferumfang oder als passendes Zubehör derselben Marke, Kombinierbarkeit mit Bogen/Würfel" },
+    { "key": "platz", "label": "Klappbarkeit & Stellmaß", "weight": 0.2, "description": "Stellfläche aufgebaut, Klappmaß, werkzeuglose Verstellung" }
+  ],
+  "priceTiers": [
+    { "tier": 1, "label": "bis ca. 80 €" },
+    { "tier": 2, "label": "ca. 80–160 €" },
+    { "tier": 3, "label": "über 160 €" }
+  ],
+  "products": [
+    {
+      "rank": 1,
+      "label": "Beste Gesamtwahl (Dreieck mit Rutsche)",
+      "name": "Kids Woody Star Kletterdreieck mit Rutsche/Sprossenleiter 2-in-1 Set",
+      "brand": "Kids Woody Star",
+      "variant": "2-in-1-Set, Modell KRL29HW22",
+      "priceTier": 2,
+      "ratings": { "sicherheit": 8.0, "material": 7.5, "spielwert": 8.5, "platz": 8.0 },
+      "gesamt": 7.98,
+      "bestFor": "Familien, die ab etwa 1 Jahr Klettern und Rutschen in einem klappbaren Gerät fürs Kinderzimmer wollen",
+      "fakten": [
+        { "text": "Hauptempfehlung im Pikler-Dreieck-Vergleich von kita.de (redaktioneller Vergleich, keine Laborprüfung; Seite affiliate-finanziert)", "art": "Bericht", "quelle": "https://www.kita.de/ratgeber/spielzeug/bewegungs-koordinationsspiele/pikler-dreieck/", "datum": "2026 (abgerufen über Suchergebnis 2026-10-08)" },
+        { "text": "Material Buchenholz, Alter 12 bis 72 Monate, Maximalbelastung 50 kg, klappbar, Rutsche wird an der Sprossenleiter eingehängt", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B0BQ7MVG3D", "datum": "2026-10-08" },
+        { "text": "Laut Hersteller nach europäischen Sicherheitsnormen getestet (konkrete Norm EN 71 im Listing nicht eindeutig benannt)", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B0BQ7MVG3D", "datum": "2026-10-08" },
+        { "text": "Kundenbewertung ca. 4,2/5 bei 36 Bewertungen; Lob für Stabilität und Aufbau, Kritik an abblätternder Farbe und schlecht haftenden Antirutschstreifen", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B0BQ7MVG3D", "datum": "2026-10-08" }
+      ],
+      "pros": ["Rutsche/Sprossenleiter im Lieferumfang", "Buchenholz", "ab 12 Monaten laut Hersteller", "klappbar"],
+      "cons": ["Maximalbelastung nur 50 kg", "Maßangaben im Listing widersprüchlich (136 × 64 × 59 cm vs. 77 × 64 × 59 cm)", "Einzelne Berichte über abblätternde Farbe"],
+      "specs": { "Holz": "Buche (Herstellerangabe)", "Alter": "12–72 Monate (Herstellerangabe)", "Max. Belastung": "50 kg (Herstellerangabe)", "Rutsche": "ja, einhängbar, Rückseite Sprossenleiter", "Klappbar": "ja" },
+      "asin": "B0BQ7MVG3D",
+      "query": "Kids Woody Star Kletterdreieck mit Rutsche Sprossenleiter 2-in-1",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "Kids Woody Star Climbing Triangle with Slide/Rung Ladder 2-in-1 Set [Extra Safe] Indoor Climbing Frame from 1 Year (amazon.de/dp/B0BQ7MVG3D)"
+    },
+    {
+      "rank": 2,
+      "label": "Bestes Preis-Leistungs-Verhältnis",
+      "name": "TP Toys TP 682U Active-Tots Kletterdreieck aus Holz für den Innenbereich",
+      "brand": "TP Toys",
+      "variant": "TP 682U, Natur",
+      "priceTier": 1,
+      "ratings": { "sicherheit": 7.0, "material": 7.0, "spielwert": 7.0, "platz": 8.0 },
+      "gesamt": 7.2,
+      "bestFor": "Einstieg ab 1 Jahr zum kleinen Preis von einer etablierten Spielgerätemarke; später mit Rutsche/Brücke TP 683U erweiterbar",
+      "fakten": [
+        { "text": "FSC-zertifiziertes Holz (Kiefer), rutschfeste Gummifüße, flach zusammenklappbar", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B09SDKFPD2", "datum": "2026-10-08" },
+        { "text": "Maße aufgebaut L 90,6 × B 78,1 × H 58,3 cm; geeignet ab 12 Monaten (technische Details: 12 Monate bis 4 Jahre)", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B09SDKFPD2", "datum": "2026-10-08" },
+        { "text": "Passendes Zubehör TP 683U Kletterbrücke & Rutsche, nur zusammen mit Dreieck TP682 oder Würfel TP684 nutzbar", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B0CKQKQCDB", "datum": "2026-10-08" },
+        { "text": "Bei kita.de auf Platz 4 als einfaches, klappbares Dreieck für kleine Räume; ohne Rampe im Grundumfang", "art": "Bericht", "quelle": "https://www.kita.de/ratgeber/spielzeug/bewegungs-koordinationsspiele/pikler-dreieck/", "datum": "2026" },
+        { "text": "Kundenbewertung ca. 3,7/5 bei nur 9 Bewertungen", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B09SDKFPD2", "datum": "2026-10-08" }
+      ],
+      "pros": ["günstigste Markenoption", "FSC-Holz", "Marke bietet Rutsche, Würfel, Balance-Board als System", "rutschfeste Füße"],
+      "cons": ["ohne Rutsche im Lieferumfang", "Kiefer statt Buche", "wenige und gemischte Kundenbewertungen", "Maximalbelastung im Listing nicht gefunden"],
+      "specs": { "Holz": "Kiefer, FSC (Herstellerangabe)", "Maße": "90,6 × 78,1 × 58,3 cm", "Alter": "ab 12 Monaten (Herstellerangabe)", "Rutsche": "optional TP 683U", "Klappbar": "ja" },
+      "asin": "B09SDKFPD2",
+      "query": "TP Toys TP 682U Active-Tots Kletterdreieck",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "TP Toys TP 682U Active-Tots Klettergerüst Innenbereich Kleinkinder (amazon.de/dp/B09SDKFPD2)"
+    },
+    {
+      "rank": 3,
+      "label": "Beste Wahl ab 1 Jahr (ohne Rutsche, platzsparend)",
+      "name": "GOODEX Kletterdreieck verstellbar ohne Rutsche, Massivholz Buche",
+      "brand": "GOODEX",
+      "variant": "2101 Buche, natur",
+      "priceTier": 2,
+      "ratings": { "sicherheit": 7.5, "material": 8.5, "spielwert": 6.0, "platz": 8.5 },
+      "gesamt": 7.65,
+      "bestFor": "Kleine Kinderzimmer und Babys ab ca. 10 Monaten (Herstellerangabe), die erst ans Hochziehen und Klettern herangeführt werden",
+      "fakten": [
+        { "text": "Massive Buche, fein geschliffen und naturbelassen; FSC-zertifiziertes Holz", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B0B4BB5D2Q", "datum": "2026-10-08" },
+        { "text": "Entwickelt und hergestellt in Deutschland nach Spielzeugrichtlinie DIN EN 71", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B0B4BB5D2Q", "datum": "2026-10-08" },
+        { "text": "4 Positionen werkzeuglos verstellbar, Kindersicherung gegen Zusammenklappen; Position 1: H 57 × B 72 × T 73 cm, Position 3: H 30 × B 72 × T 122 cm; Gewicht 6,4 kg", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B0B4BB5D2Q", "datum": "2026-10-08" },
+        { "text": "Alter 10 Monate bis 6 Jahre; Lieferung ohne Rutsche, mit Rutschrampe erweiterbar", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B0B4BB5D2Q", "datum": "2026-10-08" }
+      ],
+      "pros": ["massive Buche, Made in Germany", "EN 71 laut Hersteller", "sehr kompakt, niedrig einstellbar", "werkzeuglos verstellbar mit Kindersicherung"],
+      "cons": ["keine Rutsche im Lieferumfang", "Maximalbelastung im Listing nicht angegeben", "keine unabhängigen Tests"],
+      "specs": { "Holz": "Buche massiv, FSC (Herstellerangabe)", "Maße": "72 × 73 × 57 cm (Pos. 1)", "Alter": "10 Monate–6 Jahre (Herstellerangabe)", "Norm": "DIN EN 71 (Herstellerangabe)", "Rutsche": "nein, erweiterbar" },
+      "asin": "B0B4BB5D2Q",
+      "query": "GOODEX Kletterdreieck verstellbar ohne Rutsche Buche",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "GOODEX Kletterdreieck verstellbar ohne Rutsche Klettergerüst Indoor Pikler Dreieck Sprossendreieck … Massivholz … ab 10 Monaten (amazon.de/dp/B0B4BB5D2Q)"
+    }
+  ],
+  "top5": [
+    {
+      "name": "Goodevas 4-in-1 Montessori Indoor Klettergerüst-Set (Dreieck, Bogen, Rampe/Rutsche, Netz)",
+      "warum": "Set mit Kletterbogen: vier kombinierbare Teile, Dreieck mit 5 Arretierpositionen, Bogen auch als Wippe; mit Abstand die meisten Kundenbewertungen der Kategorie",
+      "fakten": [
+        { "text": "Kundenbewertung 4,7/5 bei 303 Bewertungen; massives Hartholz mit Leinöl und Bienenwachs; Belastung ca. 40,8 kg; Hersteller rät von Nutzung im Freien ab", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B0933D1L29", "datum": "2026-10-08" },
+        { "text": "Bei kita.de im Ratgeber „Kletterdreieck Pikler“ Vergleichssieger; im Pikler-Dreieck-Vergleich Platz 5 als vielseitigstes Set", "art": "Bericht", "quelle": "https://www.kita.de/ratgeber/spielzeug/bewegungs-koordinationsspiele/kletterdreieck-pikler/", "datum": "2026" }
+      ],
+      "asin": "B0933D1L29",
+      "query": "Goodevas 4-in-1 Montessori Indoor Klettergerüst Set",
+      "where": null,
+      "asinGeprueft": "Goodevas 4-in-1 Montessori Indoor Climbing Frame Set for Children (amazon.de/dp/B0933D1L29); Variante B09RPCQVLM ist nicht verfügbar"
+    },
+    {
+      "name": "Marida Pikler Dreieck Indoor Klettergerüst, Buche",
+      "warum": "Dreieck ohne Rutsche für kleine Räume: Buche, laut Anbieter auf ca. 30 cm zusammenklappbar, 10 Monate bis 5 Jahre",
+      "fakten": [
+        { "text": "Buchenholz, geeignet 10 Monate bis 5 Jahre, faltbar auf ca. 30 cm", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B09HP72ZBV", "datum": "2026-10-08" }
+      ],
+      "asin": "B09HP72ZBV",
+      "query": "Marida Pikler Dreieck Indoor Klettergerüst",
+      "where": null,
+      "asinGeprueft": "Marida Pikler Triangle Indoor Climbing Frame Climbing Triangle … Montessori Sustainable Wood (amazon.de/dp/B09HP72ZBV)"
+    },
+    {
+      "name": "Giant Bean 5-in-1 Pikler-Dreieck-Set mit Rutsche und Kletterbogenrampe (Pastell)",
+      "warum": "Für gelegentliche Nutzung draußen (CSV-Wunsch): Dreieck, umkehrbare Kletterwand/Rutsche und Bogen; Testsieger im Outdoor-Ratgeber von kita.de – aber nicht dauerhaft wetterfest",
+      "fakten": [
+        { "text": "Hauptempfehlung im kita.de-Ratgeber „Pikler Dreieck Outdoor“; laut Ratgeber ist keines der Modelle dauerhaft wetterfest, Giant Bean nur für trockene Tage im Freien, danach wieder hereinholen", "art": "Bericht", "quelle": "https://www.kita.de/ratgeber/spielzeug/bewegungs-koordinationsspiele/pikler-dreieck-outdoor/", "datum": "2026" },
+        { "text": "Birkenholz/Hartholz, Alter 1–3 Jahre; deutsches Listing nennt EN 71, ASTM, CPSC (englisches Listing nur ASTM/CPSC); Maximalbelastung nicht angegeben", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B0D2RD5K8X", "datum": "2026-10-08" }
+      ],
+      "asin": "B0D2RD5K8X",
+      "query": "Giant Bean 5-in-1 Pikler-Dreieck-Set mit Rutsche und Kletterbogenrampe",
+      "where": null,
+      "asinGeprueft": "Giant Bean Pastellfarbenes 5-in-1 Pikler-Dreieck-Set mit Rutsche und Kletterbogenrampe, Faltbare hölzerne Kletterspielzeuge für Kleinkinder … 1-3 Jahren (amazon.de/dp/B0D2RD5K8X)"
+    },
+    {
+      "name": "GOODEX Kletterwürfel aus Holz",
+      "warum": "Montessori-Ergänzung mit Würfel: passt zum GOODEX-Dreieck aus den Top 3 und lässt sich laut Hersteller mit Dreieck, Bogen und Rampe kombinieren",
+      "fakten": [
+        { "text": "Kletterwürfel im Pikler-Stil ab 1 Jahr, erweiterbar mit Pikler-Dreieck, Kletterbogen, Rutsche/Rampe", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B0BHCJTHX7", "datum": "2026-10-08" }
+      ],
+      "asin": "B0BHCJTHX7",
+      "query": "GOODEX Kletterwürfel Holz",
+      "where": null,
+      "asinGeprueft": "GOODEX Wooden Climbing Cube / GOODEX Kletterwürfel Klettergerüst Kletterspielzeug Kletterdreieck (amazon.de/dp/B0BHCJTHX7)"
+    },
+    {
+      "name": "JOWE Kletterdreieck mit Rutsche, klappbares Indoor-Klettergerüst aus Massivholz (Made in Austria)",
+      "warum": "Premium-Alternative: Buche massiv, kein Sperrholz, in Österreich gefertigt, Rutsche und Ausfallschutzleisten im Lieferumfang, 60 kg",
+      "fakten": [
+        { "text": "Buchenholz (kein Sperrholz/Nadelholz), unbehandelt, in Österreich entworfen und produziert, CE; Alter 10 Monate bis 7 Jahre; Höchstgewicht 60 kg; Lieferumfang Klettergerüst, Rutsche, Ausfallschutzleisten", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B0C781WCWW", "datum": "2026-10-08" },
+        { "text": "Nur 3 Kundenbewertungen (5,0/5); Maßangaben im Listing widersprüchlich (99 × 72 × 75 cm vs. 64 × 76 × 59 cm)", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B0C781WCWW", "datum": "2026-10-08" }
+      ],
+      "asin": "B0C781WCWW",
+      "query": "JOWE Kletterdreieck mit Rutsche Made in Austria",
+      "where": null,
+      "asinGeprueft": "JOWE Kletterdreieck mit Rutsche | Klappbares Indoor Klettergerüst aus Massivholz | Pikler Dreieck Made in Austria (amazon.de/dp/B0C781WCWW)"
+    }
+  ],
+  "tests": [
+    { "institut": "Stiftung Warentest", "heft": "–", "ergebnis": "Kein Test von Pikler-/Kletterdreiecken gefunden (test.de aus der Arbeitsumgebung nicht abrufbar)", "quelle": "https://www.test.de" },
+    { "institut": "Öko-Test", "heft": "–", "ergebnis": "Kein Test von Pikler-/Kletterdreiecken gefunden", "quelle": "https://www.oekotest.de" },
+    { "institut": "kita.de (redaktioneller Vergleich, affiliate-finanziert, keine Laborprüfung)", "heft": "Ratgeber „Pikler-Dreieck“, 2026", "ergebnis": "Hauptempfehlung Kids Woody Star 2-in-1; TP Toys Active-Tots Platz 4 (kleine Räume); GOODEVAS 4-in-1 Platz 5 (vielseitigstes Set). kita.de selbst schreibt in einem anderen Ratgeber, dass es keinen unabhängigen Vergleichstest der Kategorie gibt. Laut Berichten (Seite nicht direkt abrufbar).", "quelle": "https://www.kita.de/ratgeber/spielzeug/bewegungs-koordinationsspiele/pikler-dreieck/" },
+    { "institut": "kita.de (redaktioneller Vergleich)", "heft": "Ratgeber „Pikler Dreieck Outdoor“, 2026", "ergebnis": "Hauptempfehlung Giant Bean 5-in-1; kein Modell dauerhaft wetterfest. Laut Berichten (Seite nicht direkt abrufbar).", "quelle": "https://www.kita.de/ratgeber/spielzeug/bewegungs-koordinationsspiele/pikler-dreieck-outdoor/" }
+  ],
+  "warnungen": [
+    "Keine Rückrufe oder Safety-Gate-/produktwarnung.eu-Meldungen zu Pikler-/Kletterdreiecken gefunden (Stand 2026-10-08; Datenbanken nur per Websuche geprüft, nicht direkt abrufbar).",
+    "Normhinweis: Laut V&A gab es 2017 noch keine Holz-Kletterdreiecke auf dem EU-Markt, die die Spielzeugsicherheitsnormen erfüllten – EN-71-Angaben im Listing prüfen (https://collections.vam.ac.uk/item/O1741415). Bei mehreren Amazon-Angeboten wird EN 71 nicht ausdrücklich genannt (nur ‚europäische Normen‘/CE).",
+    "Hersteller verlangen Nutzung nur unter direkter Aufsicht Erwachsener und Prüfung von Klappmechanik/Verbindungen vor jeder Nutzung (z. B. Ehrenkind-Gebrauchsanweisung: https://www.ehrenkind.de/cdn/shop/files/Gebrauchsanweisung_Kletterdreieck.pdf; kita.de).",
+    "Pikler-Dreiecke sind Innenraumgeräte: Hersteller (z. B. Goodevas) raten von Nutzung im Freien ab bzw. nur bei Trockenheit; keine Spielplatzgeräte nach EN 1176.",
+    "Altersangaben schwanken stark (10 Monate bis 3 Jahre) und sind nur Herstellerangaben; Maximalbelastungen meist 40–60 kg – nicht für Erwachsene/größere Geschwister."
+  ],
+  "verworfen": [
+    { "name": "Pinolino Kari Kletterdreieck", "grund": "Seriöse deutsche Marke (Birke/Buche, 50 kg, 5-fach verstellbar laut babyartikel.de), aber auf amazon.de nur als Bundle 'Kari with Triangle, Board' (B0C6F5CZHM, ca. 347 €) gefunden; kein eindeutiges Einzel-Listing des Dreiecks." },
+    { "name": "Ehrenkind Kletterdreieck", "grund": "Deutsche Marke, aber kein eindeutiges amazon.de-/dp-Listing des Dreiecks gefunden; Gebrauchsanweisungen nennen widersprüchliche Maximalbelastung (40 kg vs. 100 kg)." },
+    { "name": "MAMOI Pikler Triangle V.2 (B08DJ8Y8GR)", "grund": "Altersangabe ab 36 Monaten passt nicht zur Zielgruppe; nur 'EN- und CE-Normen' ohne EN-71-Nennung; einige MAMOI-Varianten nicht verfügbar." },
+    { "name": "COSTWAY / DREAMADE / GOPLUS / khlerox / CUPCHID / CCLIFE / Aomdom / AIYAPLAY", "grund": "Austauschbare Marktplatzware ohne belastbare Herkunfts-/Normangaben; z. T. Altersangabe ab 3 Jahren – nicht als Top 3 geeignet." },
+    { "name": "Montessori Kid Pikler-Dreieck XL mit 110-cm-Rutsche (B09YMXPDK9)", "grund": "Nennt CE/DIN EN 71, aber wenig weitere Belege; als Reserve für ein größeres Set mit Rutsche." },
+    { "name": "Alles Knüt Kletterdreieck mit Rutsche (B0D4RDHK13), step crumbs (B0CV4M89VS)", "grund": "Kleine Anbieter mit wenigen Daten; step crumbs ab 3 Jahren." }
+  ],
+  "offen": [
+    "Awin: keine freigeschalteten Programme (API meldet joined = []), daher alle Produkte über Amazon. Kein neuer Awin-Händler nötig.",
+    "amazon.de-Seiten waren nicht direkt abrufbar (Proxy 403); ASINs stammen aus amazon.de-/dp-Suchtreffern mit passendem Titel. Verfügbarkeit vor Veröffentlichung kurz prüfen.",
+    "Kids Woody Star: Maßangaben im Listing widersprüchlich (136 vs. 77 cm Länge) – im Text keine Länge nennen oder Herstellerangabe prüfen; EN 71 nicht ausdrücklich belegt.",
+    "GOODEX und TP 682U: Maximalbelastung im Listing nicht gefunden; Preis von GOODEX nicht ermittelt (Preisklasse 2 geschätzt).",
+    "kita.de-Rankings nur über Suchauszüge bekannt (Seite nicht abrufbar) → im Text als „laut Berichten“ kennzeichnen.",
+    "Giant Bean: EN-71-Angabe nur im deutschen Listing, Maximalbelastung unbekannt; 'outdoor' nur gelegentlich bei Trockenheit."
+  ],
+  "quellen": [
+    { "titel": "kita.de – Pikler-Dreieck Vergleich", "url": "https://www.kita.de/ratgeber/spielzeug/bewegungs-koordinationsspiele/pikler-dreieck/" },
+    { "titel": "kita.de – Pikler Dreieck Outdoor", "url": "https://www.kita.de/ratgeber/spielzeug/bewegungs-koordinationsspiele/pikler-dreieck-outdoor/" },
+    { "titel": "kita.de – Kletterdreieck Pikler", "url": "https://www.kita.de/ratgeber/spielzeug/bewegungs-koordinationsspiele/kletterdreieck-pikler/" },
+    { "titel": "Amazon.de – Kids Woody Star 2-in-1", "url": "https://www.amazon.de/dp/B0BQ7MVG3D" },
+    { "titel": "Amazon.de – TP 682U Active-Tots", "url": "https://www.amazon.de/dp/B09SDKFPD2" },
+    { "titel": "Amazon.de – TP 683U Brücke & Rutsche", "url": "https://www.amazon.de/dp/B0CKQKQCDB" },
+    { "titel": "Amazon.de – GOODEX Kletterdreieck", "url": "https://www.amazon.de/dp/B0B4BB5D2Q" },
+    { "titel": "Amazon.de – GOODEX Kletterwürfel", "url": "https://www.amazon.de/dp/B0BHCJTHX7" },
+    { "titel": "Amazon.de – Goodevas 4-in-1", "url": "https://www.amazon.de/dp/B0933D1L29" },
+    { "titel": "Amazon.de – Marida Pikler Dreieck", "url": "https://www.amazon.de/dp/B09HP72ZBV" },
+    { "titel": "Amazon.de – Giant Bean 5-in-1", "url": "https://www.amazon.de/dp/B0D2RD5K8X" },
+    { "titel": "Amazon.de – JOWE Kletterdreieck mit Rutsche", "url": "https://www.amazon.de/dp/B0C781WCWW" },
+    { "titel": "babyartikel.de – Pinolino Kletterdreieck Kari", "url": "https://www.babyartikel.de/prod/pinolino-kletterdreieck-kari-bis-50-kg-belastbar-winkel-5-fach-verstellbar-natur" },
+    { "titel": "Ehrenkind – Gebrauchsanweisung Kletterdreieck", "url": "https://www.ehrenkind.de/cdn/shop/files/Gebrauchsanweisung_Kletterdreieck.pdf" },
+    { "titel": "V&A – Pikler Triangle", "url": "https://collections.vam.ac.uk/item/O1741415" },
+    { "titel": "test-stiftung.de – Klettergerüst (kein StiWa-Test)", "url": "https://test-stiftung.de/?p=39138" }
+  ]
+}

@@ -1,0 +1,180 @@
+{
+  "slug": "kinder-buecherregal",
+  "stand": "2026-10-08",
+  "hinweisRecherche": "WebFetch auf amazon.de und Händlerseiten war in dieser Umgebung nicht erreichbar (DNS/Proxy). ASINs und Titel stammen ausschließlich aus WebSearch-Treffern (allowed_domains amazon.de) mit /dp/-URL und passendem Titel; Verfügbarkeit konnte nicht live geprüft werden. Preisangaben nur zur Einordnung in Preisklassen, nicht für die Seite. Awin: keine freigeschalteten Programme (alle pending) – daher nur Amazon.",
+  "criteria": [
+    { "key": "hoehe_faecher", "label": "Höhe & Fachaufteilung", "weight": 0.30, "description": "Erreichbarkeit für Kinder (niedrige Fächer), Anteil Frontfächer mit sichtbaren Covern gegenüber Buchrücken-Fächern." },
+    { "key": "kippschutz", "label": "Kippschutz & Standsicherheit", "weight": 0.30, "description": "Wandbefestigung laut Hersteller, Verhältnis Höhe zu Standfläche, Gewicht; keine bekannten Rückrufe." },
+    { "key": "material", "label": "Material & Kanten", "weight": 0.25, "description": "Holz/Sperrholz statt dünner Spanplatte, Oberflächen (wasserbasierter Lack), abgerundete Kanten, Verarbeitung laut Kundenberichten." },
+    { "key": "kapazitaet_montage", "label": "Kapazität & Montage", "weight": 0.15, "description": "Wie viele Bilderbücher passen hinein, Montageaufwand laut Hersteller/Händler." }
+  ],
+  "priceTiers": [
+    { "tier": 1, "label": "bis ca. 60 €" },
+    { "tier": 2, "label": "ca. 60–120 €" },
+    { "tier": 3, "label": "über ca. 120 €" }
+  ],
+  "products": [
+    {
+      "rank": 1,
+      "label": "Beste Gesamtwahl (Frontfächer)",
+      "name": "Tidy Books Montessori Kinder-Bücherregal, Hellgrau, 115 x 77 x 7 cm",
+      "brand": "Tidy Books",
+      "variant": "Hellgrau (Modell BC-PGNL); auch in Natur, Weiß und mit ABC-Buchstaben erhältlich",
+      "priceTier": 3,
+      "ratings": { "hoehe_faecher": 9.0, "kippschutz": 8.5, "material": 9.0, "kapazitaet_montage": 8.0 },
+      "gesamt": 8.7,
+      "bestFor": "Bilderbuch-Sammlungen ab dem Kleinkindalter, wenig Stellfläche: nur 7 cm tief, alle Cover zeigen nach vorn.",
+      "fakten": [
+        { "text": "Maße 115 cm hoch, 77 cm breit, 7 cm tief, vier Frontfächer; wird an der Wand befestigt.", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/Tidy-Books-Kinder-B%C3%BCcherregal-Kinderzimmer-Kinderb%C3%BCcher/dp/B01N1RW8RK", "datum": "2026-10" },
+        { "text": "Platz für bis zu 85 Kinderbücher; maximale Belastung 30 kg (andere Listing-Angabe ca. 38,6 kg – widersprüchlich).", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/Tidy-Books-Kinderzimmer-Holzbuchstaben-Handgefertigt/dp/B07DRQB1V7", "datum": "2026-10" },
+        { "text": "Aus nachhaltigem Linden-Sperrholz mit wasserbasiertem Lack, kein MDF, handgefertigt; Marke seit 2004.", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/Tidy-Books-Kinder-B%C3%BCcherregal-Kinderzimmer-Kinderb%C3%BCcher/dp/B01N1RW8RK", "datum": "2026-10" },
+        { "text": "Händler nennen eine Prüfung nach BS EN 1727 und schreiben, dass das Regal an der Wand befestigt werden muss und dann nicht kippen kann.", "art": "Händlerangabe", "quelle": "https://www.johnlewis.com/tidy-books-bookcases/p333284", "datum": "2026-10" }
+      ],
+      "pros": ["Alle Bücher mit Cover nach vorn – Kinder wählen selbst", "Nur 7 cm tief, passt auch in kleine Zimmer", "Sperrholz statt MDF, wasserbasierter Lack", "Durch Wandbefestigung kippsicher"],
+      "cons": ["Muss zwingend an die Wand geschraubt werden (Dübel passend zur Wand wählen)", "Oberes Fach ist für Kleinkinder zu hoch", "Teuerste Lösung im Vergleich", "Dicke Sachbücher/Romane mit Buchrücken passen schlecht"],
+      "specs": { "Maße (H x B x T)": "115 x 77 x 7 cm", "Fächer": "4 Frontfächer", "Material": "Linden-Sperrholz, wasserbasierter Lack", "Kapazität": "bis ca. 85 Bilderbücher (Herstellerangabe)", "Befestigung": "Wandmontage" },
+      "asin": "B01N1RW8RK",
+      "query": "Tidy Books Kinder Bücherregal 115 x 77 x 7 cm",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "Tidy Books Montessori Children's Bookcase, Light Grey, Children's Bookcase, 115 x 77 x 7 cm, Sustainable and Environmentally Friendly, Handmade, The Original since 2004"
+    },
+    {
+      "rank": 2,
+      "label": "Bestes Preis-Leistungs-Verhältnis",
+      "name": "KidKraft Primary Sling Bücherregal 14226, mehrfarbig",
+      "brand": "KidKraft",
+      "variant": "Primary (mehrfarbige Stoffablagen), Art.-Nr. 14226; Variante Natur = 14221",
+      "priceTier": 1,
+      "ratings": { "hoehe_faecher": 8.0, "kippschutz": 6.5, "material": 6.5, "kapazitaet_montage": 7.5 },
+      "gesamt": 7.1,
+      "bestFor": "Günstiges Frontregal fürs Kinderzimmer ab 3 Jahren – Stoffschlaufen zeigen die Cover, schonen die Bücher.",
+      "fakten": [
+        { "text": "Bücher werden über die Stoffablagen mit dem Cover nach vorn präsentiert; Maße ca. 71 x 61 x 30 cm, MDF und Baumwollstoff; ab 3 Jahren.", "art": "Händlerangabe", "quelle": "https://www.amazon.de/-/en/Kidkraft-Bookshelf-14226-Furniture-Multi-colour/dp/B0018LUNJI", "datum": "2026-10" },
+        { "text": "Schwesternmodell 14221 (Natur): vier Fächer, Montage ca. eine Stunde; nicht für Kinder unter 36 Monaten.", "art": "Händlerangabe", "quelle": "https://www.amazon.de/KidKraft-14221-Regal-Kinder-naturfarben/dp/B0018MCVH4", "datum": "2026-10" },
+        { "text": "Kundenberichte loben die Stabilität, bemängeln aber zu kleine Vorbohrungen und eine eher einfache Lackierung; sehr große Bilderbücher ragen heraus, kleine verschwinden in den Taschen.", "art": "Bericht", "quelle": "https://www.amazon.de/-/en/Kidkraft-Bookshelf-14226-Furniture-Multi-colour/dp/B0018LUNJI", "datum": "2026-10" }
+      ],
+      "pros": ["Frontpräsentation zu kleinem Preis", "Stoffablagen schonen Buchecken und -rücken", "Vier gut erreichbare Ebenen"],
+      "cons": ["MDF-Gestell, Verarbeitung einfacher", "Leichtes, freistehendes Regal – Wandbefestigung trotzdem empfehlenswert", "Herstellerangabe erst ab 3 Jahren", "Stoff kann ausleiern"],
+      "specs": { "Maße (H x B x T)": "ca. 71 x 61 x 30 cm", "Fächer": "4 Stoff-Frontfächer", "Material": "MDF, Baumwollstoff", "Alter (Herstellerangabe)": "ab 3 Jahren" },
+      "asin": "B0018LUNJI",
+      "query": "KidKraft Primary Sling Bücherregal 14226",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "Kidkraft Primary Sling Bookshelf 14226 Furniture (Multi-colour)"
+    },
+    {
+      "rank": 3,
+      "label": "Beste Wahl für die Kleinsten (niedrig, kippsicher)",
+      "name": "PINOLINO Regal Lasse Kinderbücherregal mit Rollen, 3 Fächer, weiß",
+      "brand": "Pinolino",
+      "variant": "weiß lackiert (Art.-Nr. 183405); auch in Grau (B07ZVT95Z6)",
+      "priceTier": 2,
+      "ratings": { "hoehe_faecher": 7.5, "kippschutz": 8.5, "material": 7.0, "kapazitaet_montage": 6.5 },
+      "gesamt": 7.6,
+      "bestFor": "Kleinkinder, die selbst an ihre Bücher sollen: nur 57 cm hoch, breite Standfläche, rollbar zwischen Zimmern.",
+      "fakten": [
+        { "text": "B 65 x T 42 x H 57 cm, ca. 10 kg, MDF lackiert, drei stufenförmige Fächer, Geheimfach auf der Rückseite, vier gummierte Holzräder; ab 3 Jahren; CE-Kennzeichnung.", "art": "Händlerangabe", "quelle": "https://www.babyartikel.de/prod/pinolino-kinderbucherregal-lasse-mit-rollen-3-facher", "datum": "2026-10" },
+        { "text": "Amazon-Titel: Kinderbücherregal mit 3 Fächern, Geheimfach, gummierte Holzräder, ab 3 Jahren.", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/Pinolino-183405-Kinder-B%C3%BCcherregal-Rollen-Lasse/dp/B07NS27JDW", "datum": "2026-10" },
+        { "text": "Pinolino Kinderträume GmbH, Münster – deutscher Kindermöbelhersteller.", "art": "Herstellerangabe", "quelle": "https://www.ebay.de/p/4030397461", "datum": "2026-10" }
+      ],
+      "pros": ["Niedrig und tief – geringe Kippgefahr auch ohne Wandbefestigung", "Stufenfächer zeigen die Bücher schräg nach oben", "Rollen: als Lesewagen verschiebbar", "Bekannter deutscher Hersteller"],
+      "cons": ["Herstellerangabe ab 3 Jahren – für Ein- bis Zweijährige keine Freigabe", "Geringe Kapazität (drei Fächer)", "MDF statt Massivholz", "Rollen nicht feststellbar (keine Angabe zu Bremsen gefunden)"],
+      "specs": { "Maße (B x T x H)": "65 x 42 x 57 cm", "Gewicht": "ca. 10 kg", "Fächer": "3 Stufenfächer + Geheimfach", "Material": "MDF, weiß lackiert", "Alter (Herstellerangabe)": "ab 3 Jahren" },
+      "asin": "B07NS27JDW",
+      "query": "Pinolino Kinder-Bücherregal mit Rollen Lasse weiß",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "PINOLINO Regal Lasse Children's Bookcase, 3 Compartments, White Children's Bookcase for Children's Room, Children's Shelf with Secret Compartment, Toy Shelf with Rubberised Wooden Wheels, from 3 Years"
+    }
+  ],
+  "top5": [
+    {
+      "name": "Tidy Books Tragbares Bücherregal Kinder (Bücherbox), Natur, 34 x 54 x 28 cm",
+      "warum": "Frontregal/Bücherdisplay in Bodenhöhe: Bücherkiste mit Frontansicht für bis zu 40 Bilderbücher, abgerundete Ecken – kann praktisch nicht kippen.",
+      "fakten": [
+        { "text": "34 x 54 x 28 cm, bis zu 40 Bücher, abgerundete Ecken; Sperrholz, handgefertigt.", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/Tidy-B%C3%BCcherregal-Personalisiert-Kinderzimmer-Handgefertigt/dp/B08F2NJ95T", "datum": "2026-10" }
+      ],
+      "asin": "B08F2NJ95T",
+      "query": "Tidy Books Tragbares Bücherregal Kinder Natur",
+      "where": null
+    },
+    {
+      "name": "Relaxdays Kinderregal mit 9 Aufbewahrungsboxen, 67 x 65 x 31,5 cm",
+      "warum": "Montessori-Prinzip mit Boxen: niedriges Regal, in dem Bücher und Spielzeug in offenen Boxen liegen, die Kinder selbst herausnehmen.",
+      "fakten": [
+        { "text": "9 Boxen in drei Farben, ca. 67 x 65 x 31,5 cm; MDF-Korpus, Kunststoffboxen.", "art": "Händlerangabe", "quelle": "https://www.amazon.de/Relaxdays-Kinderregal-Aufbewahrungsboxen-Lagerfeuer-Spielzeugregal/dp/B08FDPKB1Y", "datum": "2026-10" }
+      ],
+      "asin": "B08FDPKB1Y",
+      "query": "Relaxdays Kinderregal 9 Aufbewahrungsboxen",
+      "where": null
+    },
+    {
+      "name": "Giantex Bücherregal mit Sitzbank und Sitzkissen, 6 Fächer",
+      "warum": "Bücherregal mit Sitzbank für eine Leseecke: Bank bis 80 kg belastbar, Sitzkissen inklusive.",
+      "fakten": [
+        { "text": "6 Fächer auf 2 Ebenen, integrierte Bank mit Sitzkissen, max. 80 kg, Spanplatte.", "art": "Händlerangabe", "quelle": "https://www.amazon.de/Giantex-B%C3%BCcherschrank-Aufbewahrungsregal-Schlafzimmer-Kinderzimmer/dp/B08LH4HBGW", "datum": "2026-10" }
+      ],
+      "asin": "B08LH4HBGW",
+      "query": "Giantex Bücherregal mit Sitzkissen Bank 6 Fächer",
+      "where": null
+    },
+    {
+      "name": "Pinolino Jori Kinderbücherregal Wandregal, 2 Ablagen, weiß",
+      "warum": "Wandregal nach dem Gewürzregal-Prinzip: schmale Leisten, Cover nach vorn, auf Kinderhöhe montierbar, kein Platzbedarf am Boden.",
+      "fakten": [
+        { "text": "Wandregal aus MDF mit 2 Ablagen, belastbar bis 15 kg, FSC-zertifiziert (FSC-C120795).", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/Pinolino-B%C3%BCcherregal-B%C3%BCcher-Organizer-Buchaufbewahrung-Kinderzimmer/dp/B0BRVBPD1Y", "datum": "2026-10" }
+      ],
+      "asin": "B0BRVBPD1Y",
+      "query": "Pinolino Jori Bücherregal Wandregal",
+      "where": null
+    },
+    {
+      "name": "Pinolino Standregal Natura breit (Massivbuche)",
+      "warum": "Mitwachsendes klassisches Regal für Schulkinder: Massivholz, Buchrücken-Fächer plus Schublade; bleibt auch im Jugendzimmer. Wandbefestigung einplanen.",
+      "fakten": [
+        { "text": "Standregal aus Massivbuche mit einer Schublade und drei offenen Fächern.", "art": "Händlerangabe", "quelle": "https://www.amazon.de/Pinolino-182174B-Standregal-Natura-breit/dp/B006MOR3FI", "datum": "2026-10" }
+      ],
+      "asin": "B006MOR3FI",
+      "query": "Pinolino Standregal Natura breit 182174B",
+      "where": null
+    }
+  ],
+  "tests": [
+    { "institut": "Stiftung Warentest / Öko-Test", "heft": "–", "ergebnis": "Kein Test von Kinderbücherregalen gefunden (Stand 2026-10).", "quelle": "https://www.test.de" },
+    { "institut": "TopRatgeber24 (Vergleichsportal, kein Labortest)", "heft": "Montessori Bücherregal Vergleich 2026", "ergebnis": "Laut Bericht: Tidy Books Bücherregal Note 1,5, Tidy Books tragbares Regal 1,6, Pinolino Lasse 1,8 – Affiliate-Vergleich ohne eigene Prüfung, nicht als Test zitieren.", "quelle": "https://www.topratgeber24.de/amp/montessori-buecherregal/pinolino-kinder-buecherregal-mit-rollen-lasse" }
+  ],
+  "warnungen": [
+    "Keine Rückrufe zu Tidy Books, KidKraft oder Pinolino-Regalen gefunden (WebSearch; Safety Gate/produktwarnung.eu direkt nicht abrufbar – vor Veröffentlichung manuell gegenprüfen).",
+    "Kippgefahr: Regale über Kinderhöhe immer an der Wand befestigen. EN 14749 (Standsicherheit Wohnmöbel) umfasst ausdrücklich nicht die Wand und die wandseitigen Befestigungsmittel – Dübel passend zur Wand wählen. Quelle: https://iteh.es/catalog/standards/cen/b42a9e8c-05d9-4e56-8d24-d8fce51c2a05/en-14749-2016a1-2022",
+    "Altersangaben nur als Herstellerangabe: KidKraft und Pinolino Lasse ab 3 Jahren; für Tidy Books keine Altersangabe gefunden.",
+    "Kinderbücherregale sind Möbel, keine Spielzeuge – EN 71 greift in der Regel nicht; keine EN-71- oder GS-Angabe bei den Top 3 gefunden."
+  ],
+  "verworfen": [
+    { "name": "FUNLIO Montessori Bücherregal 1–5 Jahre (B0CH9WB6XF)", "grund": "Einzige Herstellerangabe ab 1 Jahr, aber wenig bekannte Marke, nur US-CPC-Zertifikat, Kundenkritik an Verarbeitung im Verhältnis zum Preis." },
+    { "name": "3 Sprouts Montessoriana Frontal-Bücherregal (B0BV6S5V1P)", "grund": "Sehr gute Bewertungen, aber nur ca. 2,25 kg leicht bei 61 cm Höhe (Kipprisiko) und erst ab 36 Monaten; als Alternative zu KidKraft möglich." },
+    { "name": "Kidodido Montessori Bücherregal klein (B08Z3KM4L2)", "grund": "Birke massiv, aber keine Angaben zu Alter/Kippschutz auffindbar; Preis ca. 149 €." },
+    { "name": "Pinolino Hus / Ando", "grund": "Hus (6 Fächer, Rollen) und Ando (26 cm hoch) sind Alternativen, aber Lasse hat die bessere Stufen-Präsentation; Ando nur 2 Fächer." },
+    { "name": "roba Spielregal Krone", "grund": "Eher Spielzeugregal mit Stoffboxen und Motivdesign – fällt unter sideboard-kinderzimmer/kinderschrank." },
+    { "name": "IKEA Flisat/Bekväm-Gewürzregal", "grund": "Nicht über Amazon oder Awin erhältlich." }
+  ],
+  "offen": [
+    "Rolle 3 laut Struktur 'ab 1 Jahr': Kein Markenprodukt mit Herstellerangabe ab 1 Jahr gefunden. Pinolino Lasse ist laut Hersteller ab 3 Jahren – Label wurde auf 'Beste Wahl für die Kleinsten (niedrig, kippsicher)' angepasst; der Text darf kein 'ab 1 Jahr' behaupten.",
+    "Gesamtnoten: Platz 2 (Preis-Leistung, 7,1) liegt unter Platz 3 (7,6) – Reihenfolge folgt den Rollen; ggf. Platz 2 und 3 tauschen.",
+    "Tidy Books: Belastbarkeit widersprüchlich (30 kg vs. 38,6 kg); BS EN 1727 nur über Händler belegt. Mehrere Varianten-ASINs (Natur B004M3M978/B002ASPY7O, ABC B07DRQB1V7) – Hellgrau gewählt, weil der Titel eindeutig ist.",
+    "Verfügbarkeit aller ASINs nicht live geprüft (WebFetch blockiert); KidKraft 14226 ist ein älteres Listing – vor Veröffentlichung prüfen, sonst Natur-Variante B0018MCVH4.",
+    "Top 5 Relaxdays und Giantex sind Händler-/Eigenmarken ohne Prüfzeichen-Angaben – nur als Bauform-Beispiele.",
+    "Awin: keine freigeschalteten Programme – keine Awin-Alternative vorgeschlagen, da alle Produkte über Amazon erhältlich."
+  ],
+  "quellen": [
+    { "titel": "Amazon.de – Tidy Books Kinder-Bücherregal Hellgrau", "url": "https://www.amazon.de/Tidy-Books-Kinder-B%C3%BCcherregal-Kinderzimmer-Kinderb%C3%BCcher/dp/B01N1RW8RK" },
+    { "titel": "Amazon.de – Tidy Books Bücherregal ABC", "url": "https://www.amazon.de/Tidy-Books-Kinderzimmer-Holzbuchstaben-Handgefertigt/dp/B07DRQB1V7" },
+    { "titel": "John Lewis – Tidy Books Bookcase", "url": "https://www.johnlewis.com/tidy-books-bookcases/p333284" },
+    { "titel": "Amazon.de – KidKraft Primary Sling Bookshelf 14226", "url": "https://www.amazon.de/-/en/Kidkraft-Bookshelf-14226-Furniture-Multi-colour/dp/B0018LUNJI" },
+    { "titel": "Amazon.de – KidKraft 14221 Natur", "url": "https://www.amazon.de/KidKraft-14221-Regal-Kinder-naturfarben/dp/B0018MCVH4" },
+    { "titel": "Amazon.de – Pinolino Lasse weiß", "url": "https://www.amazon.de/Pinolino-183405-Kinder-B%C3%BCcherregal-Rollen-Lasse/dp/B07NS27JDW" },
+    { "titel": "babyartikel.de – Pinolino Lasse", "url": "https://www.babyartikel.de/prod/pinolino-kinderbucherregal-lasse-mit-rollen-3-facher" },
+    { "titel": "TopRatgeber24 – Montessori Bücherregal Vergleich", "url": "https://www.topratgeber24.de/amp/montessori-buecherregal/pinolino-kinder-buecherregal-mit-rollen-lasse" },
+    { "titel": "EN 14749:2016+A1:2022 (Normzusammenfassung)", "url": "https://iteh.es/catalog/standards/cen/b42a9e8c-05d9-4e56-8d24-d8fce51c2a05/en-14749-2016a1-2022" }
+  ]
+}

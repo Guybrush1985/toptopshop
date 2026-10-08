@@ -1,0 +1,50 @@
+{
+  "visuals": {
+    "1": {
+      "kind": "kidtable",
+      "tone": "forest"
+    },
+    "2": {
+      "kind": "kidtable",
+      "tone": "green"
+    },
+    "3": {
+      "kind": "kidtable",
+      "tone": "mint"
+    }
+  },
+  "steps": {
+    "title": "Kindersitzgruppe richtig wählen und nutzen",
+    "subtitle": "Passende Höhe, Platz und Pflege",
+    "alt": "Infografik: Kindersitzgruppe richtig wählen und nutzen – Höhe abstimmen, Kippstabil stellen, Platz zum Aufstehen, Abwischbar halten, Schrauben prüfen",
+    "caption": "Die richtige Sitzhöhe entscheidet über bequemes Malen und Essen.",
+    "steps": [
+      {
+        "title": "Höhe abstimmen",
+        "text": "Füße stehen flach auf dem Boden, Tischkante etwa auf Höhe der Ellbogen."
+      },
+      {
+        "title": "Kippstabil stellen",
+        "text": "Auf ebenem Boden aufstellen, Stuhlbeine nicht kippeln lassen."
+      },
+      {
+        "title": "Platz zum Aufstehen",
+        "text": "Genug Raum hinter den Stühlen lassen."
+      },
+      {
+        "title": "Abwischbar halten",
+        "text": "Oberfläche nach dem Malen und Essen feucht abwischen."
+      },
+      {
+        "title": "Schrauben prüfen",
+        "text": "Verbindungen gelegentlich kontrollieren und nachziehen."
+      }
+    ]
+  },
+  "scoresAlt": "Balkendiagramm: Bewertung der drei besten Kindertische mit Stühlen in den Kriterien Stabilität, Sitzhöhe, Oberfläche, Verarbeitung und Preis",
+  "scoresCaption": "Unsere Bewertung je Kriterium für die drei empfohlenen Modelle.",
+  "neueFormen": [],
+  "offen": [
+    "Kriterien in scoresAlt sind ein Entwurf – an die finalen Bewertungskriterien anpassen; Produktnamen nach Recherche ergänzen."
+  ]
+}

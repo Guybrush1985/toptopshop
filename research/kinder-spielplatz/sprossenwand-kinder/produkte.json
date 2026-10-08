@@ -1,0 +1,192 @@
+{
+  "slug": "sprossenwand-kinder",
+  "recherchiertAm": "2026-10-08",
+  "criteria": [
+    { "key": "sicherheit", "label": "Sicherheit & Prüfzeichen", "weight": 0.3, "description": "TÜV-/GS-Prüfung bzw. Norm laut Hersteller/Händler, Verarbeitung (Sprossen verleimt/verschraubt, splitterfreie Oberflächen), Rückrufe." },
+    { "key": "stabilitaet", "label": "Stabilität & Belastbarkeit", "weight": 0.25, "description": "Maximalbelastung laut Hersteller (Gerüst und Hängezubehör getrennt), Holzart/Material, Sprossendurchmesser, Eignung auch für Erwachsene." },
+    { "key": "ausstattung", "label": "Ausstattung & Spielwert", "weight": 0.25, "description": "Mitgeliefertes Zubehör (Turnringe, Strickleiter, Klimmzugstange, Trapez, Rutsche, Kletterstange) und Erweiterbarkeit." },
+    { "key": "montage", "label": "Montage & Platzbedarf", "weight": 0.2, "description": "Wandmontage (tragfähige Wand nötig) vs. Klemmen zwischen Boden und Decke ohne Bohren, Raumhöhe, Grundfläche, Aufbauaufwand." }
+  ],
+  "priceTiers": [
+    { "tier": 1, "label": "bis ca. 250 €" },
+    { "tier": 2, "label": "ca. 250–450 €" },
+    { "tier": 3, "label": "über ca. 450 €" }
+  ],
+  "products": [
+    {
+      "rank": 1,
+      "label": "Beste Gesamtwahl",
+      "name": "NiroSport FitTop M1 Indoor Klettergerüst für Kinder",
+      "brand": "Niro Sportgeräte (NiroSport)",
+      "variant": "M1 mit Metallsprossen, Raumhöhe je nach Variante 200–290 cm (Farbe/Raumhöhe beim Kauf wählen)",
+      "priceTier": 2,
+      "ratings": { "sicherheit": 8.5, "stabilitaet": 8, "ausstattung": 9, "montage": 9 },
+      "gesamtnote": 8.6,
+      "bestFor": "Familien, die eine komplette Turnwand mit Zubehör ohne Bohren wollen – auch für Mietwohnungen.",
+      "fakten": [
+        { "text": "Wird zwischen Boden und Decke geklemmt, ohne Bohren, Hammer oder Nägel; Raumhöhe 200–290 cm, Grundfläche ca. 100 x 55 cm", "art": "Herstellerangabe", "quelle": "https://www.topratgeber24.de/sprossenwand/nirosport-fittop-m1-indoor-klettergeruest", "datum": "2026" },
+        { "text": "Maximalbelastung Gerüst 130 kg, Hängegeräte 80 kg", "art": "Herstellerangabe", "quelle": "https://www.topratgeber24.de/sprossenwand/nirosport-fittop-m1-indoor-klettergeruest", "datum": "2026" },
+        { "text": "Lieferumfang: Metallrahmen, Sprossenleiter, Strickleiter, Turnringe, Klimmzugstange, Kletterseil, Trapezstange", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B0CPD8GRMY", "datum": "2026-10" },
+        { "text": "Sicherheitsprüfung durch TÜV Nord; Fertigung in Hannover", "art": "Herstellerangabe", "quelle": "https://www.topratgeber24.de/sprossenwand/nirosport-fittop-m1-indoor-klettergeruest", "datum": "2026" },
+        { "text": "Sprossenabstand 23 cm; Metallsprossen 25 mm (doppelt pulverbeschichtet), alternativ Birkenholzsprossen 32 mm", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B0CPD8GRMY", "datum": "2026-10" }
+      ],
+      "pros": ["Kein Bohren nötig (Klemmsystem)", "Komplettes Zubehör im Lieferumfang", "TÜV-Nord-Prüfung laut Hersteller, Fertigung in Deutschland", "Auch von Erwachsenen nutzbar (Gerüst bis 130 kg)"],
+      "cons": ["Metallsprossen fühlen sich kühler an als Holz (Holzsprossen-Variante separat)", "Decke muss Klemmdruck aufnehmen; Raumhöhe muss zur Variante passen", "Hängezubehör nur bis 80 kg"],
+      "specs": { "Bauform": "freistehend, Boden-Decke geklemmt", "Raumhöhe": "200–290 cm (variantenabhängig)", "Grundfläche": "ca. 100 x 55 cm", "Belastbarkeit": "130 kg Gerüst / 80 kg Hängegeräte (Herstellerangabe)", "Sprossenabstand": "23 cm", "Gewicht": "ca. 26–31 kg (Angaben schwanken)" },
+      "asin": "B07JQ72V83",
+      "query": "NiroSport FitTop M1 Indoor Klettergerüst",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "NiroSport FitTop M1 Indoor Klettergerüst für Kinder Wand für Kinderzimmer Turnwand Kletterwand TÜV geprüft kinderleichte Montage max. Belastung ca.: 130 kg (amazon.de, Titel im Suchtreffer)"
+    },
+    {
+      "rank": 2,
+      "label": "Bestes Preis-Leistungs-Verhältnis",
+      "name": "Sport-Thieme Sprossenwand Original",
+      "brand": "Sport-Thieme",
+      "variant": "Einzelfeld 230 x 80 cm, 9 Sprossen, Bausatz (unmontiert)",
+      "priceTier": 2,
+      "ratings": { "sicherheit": 8, "stabilitaet": 7.5, "ausstattung": 5.5, "montage": 6.5 },
+      "gesamtnote": 7.0,
+      "bestFor": "Eltern, die eine solide, klassische Holz-Sprossenwand in Kita-Qualität an eine tragfähige Wand schrauben wollen und Zubehör nach Bedarf ergänzen.",
+      "fakten": [
+        { "text": "Holme aus Nadelholz, Sprossen aus Esche mit 35 mm Durchmesser, Sprossen mit den Holmen verleimt, wasserbasierter Lack", "art": "Händlerangabe", "quelle": "https://www.shop-apotheke.com/baby/upm2LXPUC/sport-thieme-sprossenwand-original.htm", "datum": "2026" },
+        { "text": "Max. Belastbarkeit ca. 100 kg; für Kindergärten, Grundschulen und zu Hause gedacht", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B076D4B6ZK", "datum": "2026-10" },
+        { "text": "Größen 210 x 80 cm (8 Sprossen) und 230 x 80 cm (9 Sprossen), jeweils montiert oder als Bausatz; die demontierte Ausführung ist nicht TÜV-geprüft", "art": "Händlerangabe", "quelle": "https://www.shop-apotheke.com/baby/upm2LXPUC/sport-thieme-sprossenwand-original.htm", "datum": "2026" },
+        { "text": "Befestigungsmaterial im Lieferumfang", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B076D4B6ZK", "datum": "2026-10" }
+      ],
+      "pros": ["Markenhersteller für Schul- und Vereinssport", "Dicke Esche-Sprossen (35 mm), verleimt", "Schlank (80 cm breit), mit Sport-Thieme-Zubehör erweiterbar (z. B. Prallschutzmatte, Kletterwand-Aufsatz)"],
+      "cons": ["Kein Zubehör im Lieferumfang", "Wandmontage nur an tragfähiger Wand (Bohren nötig)", "Bausatz-Version nicht TÜV-geprüft (nur montierte Ausführung)", "Belastbarkeit ca. 100 kg – für schwere Erwachsene knapp"],
+      "specs": { "Bauform": "Wandmontage", "Maße": "230 x 80 cm", "Sprossen": "9, Esche, Ø 35 mm", "Belastbarkeit": "ca. 100 kg (Herstellerangabe)", "Gewicht": "ca. 20 kg" },
+      "asin": "B076D4B6ZK",
+      "query": "Sport-Thieme Sprossenwand Original 230 x 80 cm",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "Sport-Thieme Original Wall Bars / Sport-Thieme® Einzelfeld-Sprossenwand (amazon.de /dp/B076D4B6ZK; 230 x 80 cm, 9 Sprossen, nicht vormontiert laut Suchtreffer)"
+    },
+    {
+      "rank": 3,
+      "label": "Premium-Wahl",
+      "name": "KletterDschungel Holz-Turnwandset (KDH-HK140)",
+      "brand": "KletterDschungel",
+      "variant": "Holz, ca. 140 cm breit, mit Kletterstange und Reck, auf Raumhöhe 2,00–3,50 m zugeschnitten",
+      "priceTier": 3,
+      "ratings": { "sicherheit": 8.5, "stabilitaet": 9, "ausstattung": 7.5, "montage": 8.5 },
+      "gesamtnote": 8.4,
+      "bestFor": "Wer eine wertige Holz-Turnwand ohne Bohren sucht, die exakt auf die Raumhöhe angepasst wird und auch Erwachsene trägt.",
+      "fakten": [
+        { "text": "Wird zwischen Boden und Decke verspannt, keine Bohrungen und keine baulichen Eingriffe; Lieferung für Raumhöhen 2,00–3,50 m, Holz wird individuell auf die Raumhöhe angepasst", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B003LYG178", "datum": "2026-10" },
+        { "text": "Belastbar bis 130 kg; verleimte Fichtenholzwangen, Rundhölzer aus Buche", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B003LYG178", "datum": "2026-10" },
+        { "text": "KletterDschungel-Turnsets werden als TÜV-geprüft und GS-gekennzeichnet beschrieben (bis 130 kg, ohne Altersbeschränkung)", "art": "Bericht", "quelle": "https://www.topratgeber24.de/sprossenwand/kletterdschungel-turnset-blau-gelb", "datum": "2026" },
+        { "text": "Aufbau zu zweit, ca. 2 Stunden", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B003LYG178", "datum": "2026-10" }
+      ],
+      "pros": ["Ohne Bohren, maßgefertigt für die Raumhöhe", "Massive Holzkonstruktion bis 130 kg", "Breite Turnwand mit Kletterstange und Reck"],
+      "cons": ["Hochpreisig", "Raumhöhe muss bei Bestellung exakt angegeben werden", "Bei weicher/Gipskarton-Decke Lastverteilung (Brett) nötig", "TÜV/GS nur aus Zweitquelle für das Turnset belegt – für das Holz-Turnwandset beim Hersteller bestätigen lassen"],
+      "specs": { "Bauform": "freistehend, Boden-Decke verspannt", "Breite": "ca. 140 cm", "Raumhöhe": "2,00–3,50 m (Maßanfertigung)", "Belastbarkeit": "130 kg (Herstellerangabe)", "Material": "Fichte (Wangen, verleimt), Buche (Sprossen)", "Sprossen": "Ø 28 mm (laut Listing)" },
+      "asin": "B003LYG178",
+      "query": "KletterDschungel Holz-Turnwandset",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "KletterDschungel KDH-HK140 Holz-Turnwandset (amazon.de /dp/B003LYG178; engl. Titel im Treffer: „KletterDschungel Wooden Wall Bars Indoor Sports Equipment Gym Wall Set“)"
+    }
+  ],
+  "top5": [
+    {
+      "name": "Physionics Sprossenwand-Set mit Turnringen, Schaukel, Rutsche und Klimmzugstange",
+      "warum": "Kinder-Turnwand komplett mit Zubehör zum günstigen Preis (Preisklasse 1): Holz-Sprossenwand mit Klimmzugstange, Turnringen, Brettschaukel, Hangelleiter, Trapez, Kletter-/Rutschbrett und Strickleiter.",
+      "fakten": [
+        { "text": "Wand bis 150 kg; Brettschaukel, Kletter-/Rutschbrett und Klimmzugstange je bis 100 kg; Maße 60 x 80 x 220 cm, lackiertes Kiefernholz, ca. 25 kg", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B0B1F48784", "datum": "2026-10" },
+        { "text": "Kundenbewertungen gemischt: teils Kritik an wackelnden Sprossen und minderwertigen Dübeln/Schrauben", "art": "Bericht", "quelle": "https://www.amazon.de/dp/B0B1F48784", "datum": "2026-10" }
+      ],
+      "asin": "B0B1F48784",
+      "query": "Physionics Sprossenwand Set Turnringe Schaukel Rutsche",
+      "where": null
+    },
+    {
+      "name": "KletterDschungel Turnset (Metall)",
+      "warum": "Freistehende Sprossenwand ohne Bohren: Metall-Turnset zwischen Boden und Decke verspannt, Sprossenleiter ca. 55 cm breit, Sprossen Ø 26 mm.",
+      "fakten": [
+        { "text": "Verspannung zwischen Boden und Decke, pulverbeschichtetes Metall, bis 130 kg zugelassen, ohne Altersbeschränkung", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B00C4YMI32", "datum": "2026-10" },
+        { "text": "Als TÜV-geprüft und GS-gekennzeichnet beschrieben", "art": "Bericht", "quelle": "https://www.topratgeber24.de/sprossenwand/kletterdschungel-turnset-blau-gelb", "datum": "2026" }
+      ],
+      "asin": "B00C4YMI32",
+      "query": "KletterDschungel Turnset Indoor Klettergerüst",
+      "where": null
+    },
+    {
+      "name": "Sport-Thieme Hangelsprossenwand Roof",
+      "warum": "Platzsparende Alternative zur Eck-Sprossenwand: hängt an der Decke oder steht frei und ist von beiden Seiten bekletterbar (eine echte Eck-Sprossenwand mit eindeutigem amazon.de-Listing wurde nicht gefunden).",
+      "fakten": [
+        { "text": "Buche, 8 Sprossen, 200 x 70 x 31 cm, max. 120 kg; deckenhängend oder freistehend, von beiden Seiten bekletterbar", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B0F5353KL2", "datum": "2026-10" }
+      ],
+      "asin": "B0F5353KL2",
+      "query": "Sport-Thieme Hangelsprossenwand Roof",
+      "where": null
+    },
+    {
+      "name": "Sport-Thieme Sprossenwand mit Klimmzugbügel Standard",
+      "warum": "Sprossenwand mit Klimmzugstange auch für Erwachsene: klassische Holz-Sprossenwand (210 x 80 oder 230 x 80 cm) mit Klimmzugbügel; laut Händler TÜV-Austria-zertifiziert.",
+      "fakten": [
+        { "text": "Wand ca. 100 kg, Holme Nadelholz, Sprossen Esche Ø 35 mm; Klimmzugbügel Metallrahmen mit Holzsprosse ca. 80 kg; TÜV-Austria-Zertifizierung laut Händler", "art": "Händlerangabe", "quelle": "https://www.shop-apotheke.com/fitness/upmAE274A/sport-thieme-sprossenwand-mit-klimmzugbuegel-standard.htm", "datum": "2026" }
+      ],
+      "asin": "B003AKCGZ4",
+      "query": "Sport-Thieme Sprossenwand mit Klimmzugbügel Standard",
+      "where": null
+    },
+    {
+      "name": "Vira Sprossenwand Holz, vormontiert, Made in Germany",
+      "warum": "Handgefertigte Sprossenwand aus massiver Esche für alle, die Wert auf deutsche Schreinerfertigung legen; 15 Sprossen mit 9 cm Abstand (eher Fitness/Familie als reines Kinderturngerät).",
+      "fakten": [
+        { "text": "218 x 85,5 cm, massive Esche aus Deutschland, geölt, 15 Sprossen im Abstand von 9 cm, bis 130 kg (Titel), Wandmontage", "art": "Händlerangabe", "quelle": "https://www.decathlon.de/p/mp/sprossenwand-holz-vira-vormontiert-made-in-germany-bis-130-kg/75c1b59b-a27f-43e6-a462-ae0d9cc49cac/c27", "datum": "2026" }
+      ],
+      "asin": null,
+      "query": null,
+      "where": "Decathlon-Marktplatz (Verkäufer Max Trader GmbH) – kein Amazon-Listing gefunden, kein Link"
+    }
+  ],
+  "tests": [
+    { "institut": "Stiftung Warentest / Öko-Test", "heft": "–", "ergebnis": "Kein Test von Sprossenwänden/Kinder-Turnwänden gefunden (Stand 2026-10-08).", "quelle": "https://www.test.de" },
+    { "institut": "Vergleichsportale (beste-testsieger.de, topratgeber24.de, test-vergleiche.com)", "heft": "2026", "ergebnis": "Nur Vergleiche ohne eigene Prüfung (z. B. KletterDschungel als Top-Empfehlung, NiroSport FitTop M1 gelistet) – nicht als Testergebnis verwendbar.", "quelle": "https://www.beste-testsieger.de/sprossenwand-kinder/" }
+  ],
+  "warnungen": [
+    "Keine Rückrufe oder Safety-Gate-Meldungen zu Kinder-Sprossenwänden der ausgewählten Marken gefunden (Websuche, Stand 2026-10-08) – Safety Gate/produktwarnung.eu vor Veröffentlichung noch einmal direkt prüfen (Seiten waren aus der Arbeitsumgebung nicht abrufbar).",
+    "Belastungsangaben gelten oft getrennt für Gerüst und Hängezubehör (z. B. NiroSport 130 kg/80 kg; Physionics 150 kg Wand, 100 kg Schaukel/Rutsche/Klimmzugstange). Ein Ratgeber weist darauf hin, dass sich die zulässige Last mit Hängezubehör reduzieren kann (heimwerker.de).",
+    "Wandmontage nur an tragfähigen Wänden mit passendem Befestigungsmaterial; Klemmsysteme benötigen eine tragfähige Decke (bei Gipskarton Lastverteilungsbrett).",
+    "Fallschutz: Unter Sprossenwänden Turn-/Fallschutzmatte einplanen (Verweis auf Kategorie fallschutzmatten). Hersteller-Altersangaben schwanken (z. B. MAMOI-Listings „ab 14“, KletterDschungel „ohne Altersbeschränkung“) – nur als Herstellerangabe nennen.",
+    "Eine EN-71-Kennzeichnung ist bei Sprossenwänden in den Listings meist nicht angegeben; Sprossenwände für Schulen/Vereine fallen unter DIN EN 12346, Prüfzeichen (TÜV/GS) beim Hersteller bestätigen lassen."
+  ],
+  "verworfen": [
+    { "name": "MAMOI Indoor Klettergerüst/Sprossenwand (B09QQP8RWF u. a.)", "grund": "Listing nennt nur bis 50 kg Belastbarkeit und Altersangabe „ab 14“; für Kinder-Turnwand widersprüchlich, keine EN-71-Angabe gefunden." },
+    { "name": "6-in-1 Holz-Klettergerüst (B0D95TCYJX)", "grund": "No-Name, max. 50 kg, eher Klettergerüst als Sprossenwand." },
+    { "name": "Juskys Sprossenwand mit Klimmzugstange (B0DKFQPHTC)", "grund": "Austauschbare Handelsware, Teile nur bis 50–70 kg laut Angebot." },
+    { "name": "LARS360 / YARDIN / COSYLAND Sprossenwände", "grund": "Handelsmarken ohne belastbare Prüfnachweise; keine Top-3-Qualität." },
+    { "name": "KletterDschungel Bridge Maxi (B00C59Z2JS)", "grund": "Spielturm-/Brückenkombination (ca. 1.300 €), eher Indoor-Spielhaus als Sprossenwand." },
+    { "name": "RevFit Sprossenwand Buche 220 cm mit Dip-Barren (B0G2CGH85M)", "grund": "Auf Erwachsenen-Krafttraining ausgelegt, für Kinder-Seite zu weit vom Suchintent." }
+  ],
+  "offen": [
+    "Awin: laut Auftrag aktuell keine freigeschalteten Programme – alle Top-3/Top-5-Produkte (außer Vira) über Amazon abgedeckt; Vira nur bei Decathlon-Marktplatz (kein Link).",
+    "amazon.de-Produktseiten waren aus der Umgebung nicht direkt abrufbar (Proxy blockiert); ASINs nur über Suchtreffer mit /dp/-URL und Titel geprüft – Verfügbarkeit (aktiv/nicht verfügbar) vor Veröffentlichung kurz prüfen.",
+    "NiroSport FitTop M1: mehrere ASINs für Farben/Raumhöhen/Sprossenmaterial (B07JQ72V83, B079Y3BLR3 Holzsprossen rosa, B0CPD8GRMY RoniKids, B00KD6LDIE, B00J8K6PAM, B00JDE2XS6) – B07JQ72V83 gewählt; Farbvariante im Listing nicht bestätigt.",
+    "KletterDschungel Holz-Turnwandset: aktueller Preis nicht ermittelt (Preisklasse 3 angenommen); TÜV/GS nur für das Turnset aus Zweitquelle – beim Hersteller (kletterdschungel.de) bestätigen.",
+    "Sport-Thieme Original: B076D4B6ZK ist laut Treffer die 230-cm-Bausatzversion (nicht TÜV-geprüft); montierte TÜV-geprüfte Ausführung auf Amazon nicht eindeutig gefunden.",
+    "Eck-Sprossenwand (Top-5-Intent): kein Produkt mit eindeutigem amazon.de-Listing gefunden – durch Sport-Thieme Roof ersetzt.",
+    "Sport-Thieme Roof hat zwei ASINs (B0F5353KL2, B0CKH9VWQP) – B0F5353KL2 gewählt."
+  ],
+  "quellen": [
+    { "titel": "amazon.de – NiroSport FitTop M1", "url": "https://www.amazon.de/dp/B07JQ72V83" },
+    { "titel": "amazon.de – NIRO RoniKids M1 (Datenblatt Sprossen/Zubehör)", "url": "https://www.amazon.de/dp/B0CPD8GRMY" },
+    { "titel": "topratgeber24 – Datenblatt NiroSport FitTop M1", "url": "https://www.topratgeber24.de/sprossenwand/nirosport-fittop-m1-indoor-klettergeruest" },
+    { "titel": "amazon.de – Sport-Thieme Sprossenwand Original", "url": "https://www.amazon.de/dp/B076D4B6ZK" },
+    { "titel": "shop-apotheke – Sport-Thieme Sprossenwand Original", "url": "https://www.shop-apotheke.com/baby/upm2LXPUC/sport-thieme-sprossenwand-original.htm" },
+    { "titel": "amazon.de – KletterDschungel Holz-Turnwandset KDH-HK140", "url": "https://www.amazon.de/dp/B003LYG178" },
+    { "titel": "topratgeber24 – KletterDschungel Turnset", "url": "https://www.topratgeber24.de/sprossenwand/kletterdschungel-turnset-blau-gelb" },
+    { "titel": "amazon.de – KletterDschungel Turnset Metall", "url": "https://www.amazon.de/dp/B00C4YMI32" },
+    { "titel": "amazon.de – Physionics Sprossenwand-Set", "url": "https://www.amazon.de/dp/B0B1F48784" },
+    { "titel": "amazon.de – Sport-Thieme Hangelsprossenwand Roof", "url": "https://www.amazon.de/dp/B0F5353KL2" },
+    { "titel": "amazon.de – Sport-Thieme Sprossenwand mit Klimmzugbügel Standard", "url": "https://www.amazon.de/dp/B003AKCGZ4" },
+    { "titel": "shop-apotheke – Sport-Thieme Sprossenwand mit Klimmzugbügel Standard", "url": "https://www.shop-apotheke.com/fitness/upmAE274A/sport-thieme-sprossenwand-mit-klimmzugbuegel-standard.htm" },
+    { "titel": "Decathlon – Vira Sprossenwand Holz Made in Germany", "url": "https://www.decathlon.de/p/mp/sprossenwand-holz-vira-vormontiert-made-in-germany-bis-130-kg/75c1b59b-a27f-43e6-a462-ae0d9cc49cac/c27" },
+    { "titel": "heimwerker.de – Sprossenwand-Ratgeber", "url": "https://www.heimwerker.de/sprossenwand-test/" },
+    { "titel": "beste-testsieger.de – Sprossenwand Kinder Vergleich", "url": "https://www.beste-testsieger.de/sprossenwand-kinder/" }
+  ]
+}

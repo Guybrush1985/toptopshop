@@ -1,0 +1,206 @@
+{
+  "slug": "schaukeltuch",
+  "hinweisFuerRedaktion": "WICHTIG: Der klassische elastische 'Schaukeltuch'-/Therapieschaukel-Typ (Lycra-/Nylon-Tuch, das als Schlaufe an einem Punkt hängt, 150 x 280 cm) wird NICHT empfohlen: Die niederländische Behörde NVWA hat diesen Produkttyp im April 2023 nach dem Erstickungstod eines Kindes vom Verkauf ausgeschlossen und Rückrufe verlangt; weitere Rückrufe (TheKiddoSpace 2025/2026 in UK/IE/US/CA, Milo & Moon NL 11/2025) und eine Safety-Gate-Meldung (YONGIAGA, nicht konform mit EN 71-1/EN 71-8) betreffen denselben Typ. Auf amazon.de wird dieser Typ fast nur als No-Name-Ware angeboten. Top 3 deshalb: textile Kinder-Hängesitze/-höhle mit Traverse bzw. formstabilem Korpus von Markenherstellern (AMAZONAS, LA SIESTA). Seitentext sollte das offen erklären (Abschnitt 'Warum wir kein elastisches Therapietuch empfehlen').",
+  "criteria": [
+    { "key": "sicherheit", "label": "Sicherheit", "weight": 0.35, "description": "Bauform ohne Schlaufenbildung (Strangulationsrisiko), Prüfzeichen (GS/TÜV, EN 71), klare Herstellerangaben zu Alter und Maximalbelastung, Warnhinweise." },
+    { "key": "aufhaengung", "label": "Aufhängung & Montage", "weight": 0.25, "description": "Befestigung im Lieferumfang, Drehwirbel/kugelgelagerter Haken, Höhenverstellung, Tragkraft der Aufhängung, Eignung für Beton/Holzbalken." },
+    { "key": "material", "label": "Stoff & Verarbeitung", "weight": 0.2, "description": "Stoffart (Baumwolle/Polyester), Reißfestigkeit, Waschbarkeit, Polster, Edelstahl-/verzinkte Metallteile." },
+    { "key": "nutzung", "label": "Einsatz & Altersspanne", "weight": 0.2, "description": "Schaukeln, Kuscheln, Verstecken; Altersspanne und Maximalgewicht laut Hersteller; Platzbedarf im Kinderzimmer." }
+  ],
+  "priceTiers": [
+    { "tier": 1, "label": "bis ca. 60 €" },
+    { "tier": 2, "label": "ca. 60–120 €" },
+    { "tier": 3, "label": "über 120 €" }
+  ],
+  "products": [
+    {
+      "rank": 1,
+      "label": "Beste Gesamtwahl",
+      "name": "AMAZONAS Kinder-Hängesessel Kid's Relax Rainbow (EllTex, 155 x 120 cm, bis 80 kg)",
+      "brand": "AMAZONAS",
+      "variant": "Rainbow, Traverse 70 cm",
+      "priceTier": 2,
+      "ratings": { "sicherheit": 8.0, "aufhaengung": 7.0, "material": 8.0, "nutzung": 9.0 },
+      "gesamt": 7.95,
+      "bestFor": "Kinder von 3 bis 10 Jahren, die ein großes Stofftuch zum Schaukeln, Liegen und Einkuscheln an der Decke möchten – ohne elastische Schlaufe.",
+      "fakten": [
+        { "text": "Belastbarkeit bis 80 kg; für Kinder von 3 bis 10 Jahren; von Kindern unter 3 Jahren fernhalten.", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B00FDS9JQU", "datum": "2026-10-08" },
+        { "text": "Sitzfläche ca. 155 x 120 cm, Traverse ca. 70 cm, Gewicht ca. 1,5 kg.", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B00FDS9JQU", "datum": "2026-10-08" },
+        { "text": "Stoff EllTex: 55 % recycelte Baumwolle, 45 % Polyester, laut Hersteller wetter- und UV-beständig.", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B00FDS9JQU", "datum": "2026-10-08" },
+        { "text": "Mit Spreizstab und Ring zum Aufhängen; kindersichere Aufhängevorrichtung; empfohlene Aufhängehöhe ca. 160 cm (Sitzhöhe ca. 40–50 cm). Deckenhaken/Drehwirbel (z. B. AMAZONAS Power Hook, Swivel) separat.", "art": "Herstellerangabe", "quelle": "https://www.amazonas-online.com/en/hanging-chairs/amazonas-kid-s-relax-hanging-chair", "datum": "2026-10-08" },
+        { "text": "Montage nur durch Erwachsene nach Anleitung; im Umkreis von 1 m keine harten, spitzen Gegenstände.", "art": "Herstellerangabe", "quelle": "https://www.amazonas-online.com/en/hanging-chairs/amazonas-kid-s-relax-hanging-chair", "datum": "2026-10-08" }
+      ],
+      "pros": ["Größte Altersspanne (3–10 Jahre) und 80 kg Belastbarkeit", "Großes, nicht elastisches Tuch mit Traverse – bildet keine enge Schlaufe", "Etablierter Hängematten-Hersteller, Ersatz-/Zubehörsystem (Power Hook, Swivel)"],
+      "cons": ["Deckenhaken und Drehwirbel nicht im Lieferumfang", "Kein GS-Zeichen belegt", "Offener Sitz – keine Höhle zum Verstecken"],
+      "specs": { "Bauform": "Kinder-Hängesessel mit Traverse", "Maße": "ca. 155 x 120 cm, Traverse 70 cm", "Belastbarkeit": "80 kg", "Alter": "3–10 Jahre (Herstellerangabe)", "Material": "EllTex (55 % recycelte Baumwolle, 45 % Polyester)", "Aufhängehöhe": "ca. 160 cm" },
+      "asin": "B00FDS9JQU",
+      "query": "AMAZONAS Kid's Relax Rainbow Kinder Hängesessel",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "AMAZONAS Hängesessel EllTex Kid's Relax Rainbow 155 ... (amazon.de/AMAZONAS-Kinder-Hängesessel-rainbow-Regenbogenfarben/dp/B00FDS9JQU)"
+    },
+    {
+      "rank": 2,
+      "label": "Bestes Preis-Leistungs-Verhältnis",
+      "name": "AMAZONAS Kid's Swinger Green Kinder-Hängesessel (3–6 Jahre, bis 60 kg)",
+      "brand": "AMAZONAS",
+      "variant": "Grün (AZ-2030487); auch Pink (B00TPOJHRO) und Gelb",
+      "priceTier": 1,
+      "ratings": { "sicherheit": 7.5, "aufhaengung": 6.5, "material": 7.5, "nutzung": 6.5 },
+      "gesamt": 7.05,
+      "bestFor": "Kindergartenkinder (3–6 Jahre), die einen günstigen Stoff-Hängesitz für Kinderzimmer, Hochbett oder Baum suchen.",
+      "fakten": [
+        { "text": "Maximale Belastung 60 kg; nur für Kinder von 3 bis 6 Jahren; nicht unbeaufsichtigt benutzen.", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B00FDS3MPO", "datum": "2026-10-08" },
+        { "text": "Maße ca. 35 x 60 x 160 cm, Gewicht ca. 1,9 kg; Aufhängehöhe mindestens 180 cm.", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B00FDS3MPO", "datum": "2026-10-08" },
+        { "text": "100 % Polyester (600 DEN), Metallteile aus rostfreiem Edelstahl; für innen und außen; Transporttasche dabei.", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B00TPOJHRO", "datum": "2026-10-08" },
+        { "text": "Kombinierbar mit AMAZONAS Power Hook, Jumbo, Swivel, Smartrope, Microrope, Liana (separat).", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B00TPOJHRO", "datum": "2026-10-08" }
+      ],
+      "pros": ["Günstigster Markenartikel der Auswahl", "Robuster Rucksackstoff, Edelstahlteile, auch draußen nutzbar", "Leicht abzunehmen und mitzunehmen"],
+      "cons": ["Nur 3–6 Jahre und 60 kg", "Befestigung separat", "Kein Prüfzeichen belegt"],
+      "specs": { "Bauform": "Kinder-Hängesitz aus Stoff", "Maße": "ca. 35 x 60 x 160 cm", "Belastbarkeit": "60 kg", "Alter": "3–6 Jahre (Herstellerangabe)", "Material": "Polyester 600 DEN, Edelstahl", "Aufhängehöhe": "mind. 180 cm" },
+      "asin": "B00FDS3MPO",
+      "query": "AMAZONAS Kid's Swinger Kinder Hängesessel",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "AMAZONAS Kid's Swinger Green Children's Hanging Chair for 3 to 6 Years - Maximum Load 60 kg - Dimensions Approx. 35 x 60 x 160 cm - For Indoor or Outdoor Use : Amazon.de: Garden"
+    },
+    {
+      "rank": 3,
+      "label": "Beste Wahl für Rückzug (Hängehöhle)",
+      "name": "LA SIESTA Joki Kinder-Hängehöhle (Baumwolle, bis 80 kg)",
+      "brand": "LA SIESTA",
+      "variant": "ca. 150 x 70 cm; Farben u. a. Kirsche, Lilly, Dolphy, Froggy, Teddy",
+      "priceTier": 3,
+      "ratings": { "sicherheit": 9.0, "aufhaengung": 6.0, "material": 8.5, "nutzung": 7.5 },
+      "gesamt": 7.85,
+      "bestFor": "Kinder, die sich zurückziehen und verstecken wollen – eine geschlossene Stoffhöhle statt eines elastischen Tuchs, mit GS-Zeichen.",
+      "fakten": [
+        { "text": "Hängenest für Kinder ab 3 Jahren, Tragkraft 79,4 kg; laut Hersteller 3–9 Jahre.", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B07BKY3XF9", "datum": "2026-10-08" },
+        { "text": "Vom TÜV zertifiziert, GS-Siegel 'Geprüfte Sicherheit'.", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B07BKY3XF9", "datum": "2026-10-08" },
+        { "text": "Sitzbreite 70 cm, Gesamthöhe 150 cm; Mindest-Aufhängehöhe 200 cm; Kissen abnehmbar und maschinenwaschbar.", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B07BKY3XF9", "datum": "2026-10-08" },
+        { "text": "Aufhängung vom TÜV Rheinland geprüft (ID 1111218202); Befestigung an Decke/Dachschräge (Mauerwerk oder Trockenbau mit Holzunterkonstruktion) oder Balken.", "art": "Händlerangabe", "quelle": "https://www.hans-natur.de/kinder-haengehoehle-joki-bio-baumwolle-mit-befestigungsset-blau-la-siesta_p22598.html", "datum": "2026-10-08" },
+        { "text": "Wird auch vom Therapiebedarf-Händler Sport-Thieme in der Rubrik Sensorische Integration/Therapieschaukeln geführt.", "art": "Händlerangabe", "quelle": "https://www.sport-thieme.de/Therapie/Sensorische-Integration/Therapieschaukeln/art=2532022", "datum": "2026-10-08" },
+        { "text": "Amazon-Rezensionen (3,8/5, 50 Bewertungen): stabile Form, waschbar; Kritik: Befestigung teils nicht enthalten, für 6-Jährige eng.", "art": "Bericht", "quelle": "https://www.amazon.de/SIESTA-Joki-Lilly-Kinder-H%C3%A4ngeh%C3%B6hle-Baumwolle/product-reviews/B005ZB0OU0", "datum": "2026-10-08" }
+      ],
+      "pros": ["Einziges Produkt mit belegtem GS-Zeichen", "Geschlossene Höhle zum Verstecken und Zur-Ruhe-Kommen", "Kissen waschbar, Marken-Aufhängesystem TÜV-geprüft"],
+      "cons": ["Auf amazon.de derzeit kein aktives Listing gefunden (Kirsche: 'derzeit nicht verfügbar')", "Für ältere Kinder (ab ca. 6) eng", "Teuerste Lösung; Lieferumfang der Befestigung uneinheitlich angegeben"],
+      "specs": { "Bauform": "Hängehöhle/Hängenest", "Maße": "ca. 150 x 70 cm", "Belastbarkeit": "80 kg (79,4 kg)", "Alter": "3–9 Jahre (Herstellerangabe)", "Material": "Baumwolle (teils Bio-Baumwolle), Sitzkissen", "Prüfzeichen": "GS, TÜV", "Aufhängehöhe": "mind. 200 cm" },
+      "asin": null,
+      "query": "LA SIESTA Joki Kinder Hängehöhle",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "Kein aktives Listing: B07BKY3XF9 'La Siesta - Hängenest JOKI Kirsche : Amazon.de: Garden' ist laut Suchtreffer 'derzeit nicht verfügbar'; B005ZB0OU0 nur als Rezensionsseite gefunden."
+    }
+  ],
+  "top5": [
+    {
+      "name": "LA SIESTA Moki Lilly – Kinder-Hängematte aus Bio-Baumwolle mit integrierter Befestigung",
+      "warum": "Form 'Kuschel-Hängematte': gepolsterte Kinderhängematte statt elastischem Therapietuch, Befestigung (TÜV-geprüfter MultiSpot) inklusive. Achtung: hängt zwischen zwei Punkten (Mindestabstand beachten), nicht an einem Deckenpunkt.",
+      "fakten": [
+        { "text": "100 % Bio-Baumwolle, gepolsterte Kanten; Tragkraft 80 kg; 3–12 Jahre; TÜV-geprüfter MultiSpot inklusive; Modell MOK11-77.", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B07M6GHW44", "datum": "2026-10-08" }
+      ],
+      "asin": "B07M6GHW44",
+      "query": "LA SIESTA Moki Lilly Kinder Hängematte Bio-Baumwolle",
+      "where": null,
+      "asinGeprueft": "LA SIESTA - Moki Lilly - Children's Hammock Made of Organic Cotton + Integrated Attachment : Amazon.de: Baby Products"
+    },
+    {
+      "name": "LA SIESTA Moki Max (Maxi Dolphy) – große Kinder-/Familien-Hängematte aus Bio-Baumwolle",
+      "warum": "Form 'Therapie-/Familienhängematte': La Siesta führt die Moki Max auch als 'Family and Kids Therapy Hammock' – große, nicht elastische Alternative für Kinder mit Bewegungs-/Rückzugsbedürfnis, auch mit Elternteil.",
+      "fakten": [
+        { "text": "Ca. 350 x 160 cm, Mindestabstand 310 cm, ab 3 Jahren, MultiSpot-Aufhängung TÜV-geprüft; Tragkraft 160 kg laut Datenblatt (Listing nennt an anderer Stelle 80 kg – widersprüchlich).", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B07M6GHXTY", "datum": "2026-10-08" }
+      ],
+      "asin": "B07M6GHXTY",
+      "query": "LA SIESTA Moki Max Kinder Hängematte Bio-Baumwolle",
+      "where": null,
+      "asinGeprueft": "Moki Max - Large Organic Cotton Children's Hammock + Hanging Hanger for Nursery : Amazon.de: Baby Products"
+    },
+    {
+      "name": "Diabolo Freizeitsport Vertikaltuch-Set 6 m mit Dreieckhalterung (blau)",
+      "warum": "Form 'Luftakrobatik-Tuch für ältere Kinder': deutscher Anbieter, dehnungsarmes Tuch mit geprüfter Halterung für 2–3 m Raumhöhe. Nur für Schulkinder mit Anleitung/Kurs und unter Aufsicht – Tuch kann Schlaufen bilden.",
+      "fakten": [
+        { "text": "Tuch 6 m x ca. 160 cm, 100 % Polyester, max. 95 kg, Bruchlast 1350 kg; für 2–3 m Deckenhöhe; Halterung bis 2.000 kg getestet; Karabiner nicht enthalten; Nutzungsdauer ca. 3 Jahre/300 Stunden.", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B0BHDHM6BD", "datum": "2026-10-08" }
+      ],
+      "asin": "B0BHDHM6BD",
+      "query": "Diabolo Freizeitsport Vertikaltuch Set 6 m Dreieckhalterung blau",
+      "where": null,
+      "asinGeprueft": "Diabolo Freizeitsport Vertical Cloth Set with Triangle Holder 6 m (Blue) - Tips & Tricks Instructions ..., Aerial Yoga Towel in Cotton Bag - Tested : Amazon.de: Sports & Outdoors"
+    },
+    {
+      "name": "AMAZONAS Power Hook – 360° drehbarer, kugelgelagerter Deckenhaken mit Kette",
+      "warum": "Form 'Set inkl. Deckenmontage': passende Deckenbefestigung mit Drehlager und höhenverstellbarer Kette für die AMAZONAS-Kindersitze (Platz 1 und 2), die ohne Haken geliefert werden.",
+      "fakten": [
+        { "text": "Kugelgelagerter Haken mit Karabiner und ca. 78 cm Kette, bis 200 kg; 4 Schrauben + 4 Metalldübel nur für Betondecken; verzinkter Stahl.", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B000OY3DVU", "datum": "2026-10-08" }
+      ],
+      "asin": "B000OY3DVU",
+      "query": "AMAZONAS Power Hook Deckenhaken drehbar",
+      "where": null,
+      "asinGeprueft": "AMAZONAS Power Hook 360° drehbarer Deckenhaken ... (amazon.de/AMAZONAS-Deckenhaken-kugelgelagert-Hängesessel-Verlängerungskette/dp/B000OY3DVU)"
+    },
+    {
+      "name": "LA SIESTA Joki Kinder-Hängehöhle im Therapiefachhandel (Sport-Thieme)",
+      "warum": "Form 'Hängehöhle (Pod)': Falls auf amazon.de nicht lieferbar, ist die Joki im Fachhandel für Therapiebedarf erhältlich. Kein Partnerlink.",
+      "fakten": [
+        { "text": "Sport-Thieme führt die La Siesta Hängehöhle 'Joki' in der Kategorie Sensorische Integration/Therapieschaukeln.", "art": "Händlerangabe", "quelle": "https://www.sport-thieme.de/Therapie/Sensorische-Integration/Therapieschaukeln/art=2532022", "datum": "2026-10-08" }
+      ],
+      "asin": null,
+      "query": null,
+      "where": "Sport-Thieme (Fachhandel Therapiebedarf) bzw. Kinderfachhandel"
+    }
+  ],
+  "tests": [
+    { "institut": "Keine unabhängigen Tests gefunden", "heft": "–", "ergebnis": "Weder Stiftung Warentest noch Öko-Test haben Schaukeltücher, Therapieschaukeln oder Kinder-Hängehöhlen getestet (Recherche 2026-10-08). Vorhandene 'Tests' (vergleich.org, test-vergleiche.com, schaukeltuch.de, babysicherheit24, haengesessel-abc) sind Affiliate-/Shop-Vergleiche ohne eigene Prüfung – nicht als Test zitieren.", "quelle": "https://www.vergleich.org/therapieschaukel/" },
+    { "institut": "NVWA (Niederländische Lebensmittel- und Warenbehörde)", "heft": "Untersuchung/Verkaufsverbot April 2023", "ergebnis": "Unfallmodell plus drei weitere damals in NL verkaufte Therapieschaukeln geprüft – keines sicher genug für den Verkauf; Verkaufsverbot für Webshops, Rückruf verlangt.", "quelle": "https://www.dutchnews.nl/2023/04/therapy-swings-pose-a-serious-risk-to-children-dutch-safety-board/" }
+  ],
+  "warnungen": [
+    "Elastische Therapie-/Sensorikschaukeln (Tuch als Schlaufe an einem Punkt): NVWA (NL) hat sie im April 2023 nach dem Tod eines Kindes, dessen Hals sich im Tuch verdreht hatte, vom Verkauf ausgeschlossen und Rückrufe verlangt; weitere Fälle: Australien 2020 (12-Jähriger bewusstlos), USA 2021 (12-Jähriger gestorben). Quellen: https://www.dutchnews.nl/2023/04/therapy-swings-pose-a-serious-risk-to-children-dutch-safety-board/ ; https://www.consumentenbond.nl/test/baby-kind/waarschuwing-voor-onveilige-therapeutische-schommels",
+    "Rückruf TheKiddoSpace Sensory Swing (dehnbare Kokon-Hängematte, Stoff bildet Schlaufen → Strangulationsgefahr): UK OPSS 31.08.2025 (ernstes Risiko), Irland CCPC 22.07.2025, US CPSC 26.02.2026 (Recall 26-301), Health Canada 2026; Rumänien InfoCons 03.10.2025. Quellen: https://www.gov.uk/product-safety-alerts-reports-recalls/product-recall-thekiddospace-sensory-swing-2508-0179 ; https://www.cpsc.gov/Recalls/2026/TheKiddoSpace-Recalls-Childrens-Sensory-Swing-Due-to-Risk-of-Serious-Injury-or-Death-from-Strangulation",
+    "Safety Gate: Sensorikschaukel YONGIAGA (über Amazon verkauft), gemeldet von den Niederlanden, nicht konform mit Spielzeugrichtlinie, EN 71-1 und EN 71-8; flexibles Tuch kann leicht eine Schlaufe bilden (Referenz A12/00955/23). Quelle: https://www.cm-borba.pt/wp-content/uploads/2023/11/Brinquedos-–-Baloico-sensorial-comercializado-online-via-Amazon-Aviso-DGC-46-2023.pdf",
+    "Rückruf Milo & Moon 'Therapeutische/Sensorische Schommel' (NL, 11/2025) nach NVWA-Warnung; 4Little-Rückruf (NL, 05/2025). Quelle: https://radar.avrotros.nl/artikel/waarschuwing-therapeutische-schommel-van-milo-moon-blijkt-wurggevaar-voor-kinderen-62071",
+    "Für die Top-3/Top-5-Marken (AMAZONAS, LA SIESTA, Diabolo) wurden keine Rückrufe gefunden (Suche Safety Gate/produktwarnung.eu über Websuche; Safety-Gate-Portal selbst nicht direkt abrufbar).",
+    "Allgemein: Montage nur an tragfähiger Decke (Beton/Balken), Drehwirbel verwenden, Kinder nur unter Aufsicht, Altersangaben der Hersteller einhalten; bei therapeutischem Einsatz Ergotherapeutin/Ergotherapeuten fragen – Wirkversprechen (ADHS, Autismus) der Händler sind Werbeaussagen."
+  ],
+  "verworfen": [
+    { "name": "Elastische Therapieschaukeln/Schaukeltücher 150 x 280 cm (z. B. Mingfuxin B09NN767XV/B09LRZ23Q2, tylxayoxa B0DPWX94GQ/B0DK5L359L/B0DWVDCGZX, DTREEL B0DQBRRX7T, 'swivy', LICHUXIN)", "grund": "Produkttyp mit Verkaufsverbot in NL, mehreren Rückrufen und Safety-Gate-Meldung wegen Strangulationsgefahr; zudem No-Name-Ware ohne belegte EN-71-Prüfung, teils 'derzeit nicht verfügbar' (B0DPWX94GQ)." },
+    { "name": "Erlebnistuch (Höller Spiel, AT; 78 % Polyamid recycelt, 22 % Elasthan, Made in Germany, Oeko-Tex, 120 kg)", "grund": "Hochwertig, aber elastisches Tuch desselben Risikotyps; nicht auf amazon.de/Awin; Herstellerseite nicht abrufbar." },
+    { "name": "Sport-Thieme/Southpaw Therapieschaukel, Sport-Thieme Bungeeschaukel XTENSi", "grund": "Therapie-/Institutionsgeräte (ca. 460–620 €), nicht bei Amazon/Awin; elastischer Tuchtyp bzw. Praxisgerät." },
+    { "name": "Hängehöhlen von FLIXi (B01MXCQZ59), MAMIZO (B0DM1LN3GF) und generische Pod-Schaukeln", "grund": "Kleine bzw. No-Name-Anbieter ohne belegtes Prüfzeichen." },
+    { "name": "LA SIESTA Moki Froggy (B07MKZFVRS)", "grund": "Laut amazon.de derzeit nicht verfügbar – Moki Lilly (aktiv) gewählt." },
+    { "name": "HUDORA Nestschaukel 90", "grund": "Feste Nestschaukel – gehört zur Kategorie deckenschaukel/gartenschaukel." },
+    { "name": "AMAZONAS Chico Rainbow Kinderhängematte (B009BVT5LE)", "grund": "Klassische Zwei-Punkt-Hängematte (2–8 J., 80 kg); Moki deckt die Form besser ab (Befestigung inklusive)." }
+  ],
+  "offen": [
+    "Kategorie-Zuschnitt: Der Suchintent 'Schaukeltuch/Therapieschaukel' zielt auf genau den Produkttyp, vor dem NVWA, Consumentenbond und mehrere Rückrufe warnen. Empfehlung: Seite als 'Schaukeltuch & Hängehöhle' mit klarem Warnabschnitt führen; Orchestrator/Nutzerin sollte entscheiden, ob die Kategorie so bleiben, umbenannt (z. B. 'Hängehöhle für Kinder') oder in deckenschaukel/spielhoehle aufgehen soll. In Deutschland wurde keine eigene Behördenwarnung gefunden.",
+    "LA SIESTA Joki (Platz 3): kein aktives amazon.de-Listing gefunden. B07BKY3XF9 (Kirsche) laut Suchtreffer 'derzeit nicht verfügbar'; B005ZB0OU0 ('LA SIESTA Joki inkl. Befestigungsset', Lilly) nur als Rezensionsseite gefunden, /dp/-Seite nicht bestätigt. Daher `query` statt ASIN. Vor Veröffentlichung manuell prüfen; falls weiter nicht lieferbar: Platz 3 durch Moki Lilly (B07M6GHW44) ersetzen und Joki nur in Top 5 mit `where` führen.",
+    "AMAZONAS Kid's Relax (Platz 1): Preis nicht ermittelt (Preisklasse 2 geschätzt); Verfügbarkeit nicht live geprüft. Altersangabe uneinheitlich formuliert (3–10 Jahre bzw. 'unter 3 Jahren fernhalten'). Artikelnummern im Netz uneinheitlich (AZ-1012300 laut Hersteller).",
+    "AMAZONAS Kid's Swinger: mehrere ASINs (Grün B00FDS3MPO, Pink B00TPOJHRO und B00FDS4YVK); Grün gewählt, weil Titel eindeutig ist. Verfügbarkeit nicht live geprüft.",
+    "LA SIESTA Moki Max: Tragkraft widersprüchlich (160 kg Datenblatt vs. 80 kg Kurzinfo) – im Text nur '160 kg laut Datenblatt, Angaben widersprüchlich' oder weglassen.",
+    "Diabolo Vertikaltuch: Hersteller nennt keine Altersgrenze; im Text auf Schulkinder mit Anleitung/Aufsicht begrenzen und auf Schlaufen-/Strangulationsrisiko hinweisen – oder weglassen, wenn die Redaktion Tücher grundsätzlich meiden will.",
+    "EN 71 / EN 71-8: für keines der Produkte explizit belegt; GS nur für LA SIESTA Joki (Herstellerangabe). Formulierungen entsprechend vorsichtig.",
+    "Amazon-Seiten und Hersteller-/Händlerseiten (amazonas-online.com, sport-thieme.de, hans-natur.de) konnten nicht direkt geladen werden (WebFetch: DNS-Fehler); alle Angaben aus Suchtreffern/Snippets der jeweiligen Seiten.",
+    "Awin: laut Vorgabe keine freigeschalteten Programme – alle Links über Amazon. Mögliches Awin-Programm nicht geprüft (Sport-Thieme für Joki) – nur bei Bedarf beim Nutzer anfragen."
+  ],
+  "quellen": [
+    { "titel": "DutchNews: Therapy swings pose a serious risk to children (04/2023)", "url": "https://www.dutchnews.nl/2023/04/therapy-swings-pose-a-serious-risk-to-children-dutch-safety-board/" },
+    { "titel": "Consumentenbond: Waarschuwing voor onveilige therapeutische schommels", "url": "https://www.consumentenbond.nl/test/baby-kind/waarschuwing-voor-onveilige-therapeutische-schommels" },
+    { "titel": "AVROTROS Radar: Milo & Moon Therapeutische Schommel – Wurggevaar", "url": "https://radar.avrotros.nl/artikel/waarschuwing-therapeutische-schommel-van-milo-moon-blijkt-wurggevaar-voor-kinderen-62071" },
+    { "titel": "GOV.UK Product Recall: TheKiddoSpace Sensory Swing (2508-0179)", "url": "https://www.gov.uk/product-safety-alerts-reports-recalls/product-recall-thekiddospace-sensory-swing-2508-0179" },
+    { "titel": "CPSC: TheKiddoSpace Recalls Children's Sensory Swing (26-301)", "url": "https://www.cpsc.gov/Recalls/2026/TheKiddoSpace-Recalls-Childrens-Sensory-Swing-Due-to-Risk-of-Serious-Injury-or-Death-from-Strangulation" },
+    { "titel": "CCPC Irland: TheKiddoSpace Sensory Swing", "url": "https://www.ccpc.ie/consumer-advice/product-safety/product-safety-notifications/details/sn-commerce-llc-recalls-thekiddospace-sensory-swing-for-kids" },
+    { "titel": "DGC Portugal Aviso 46/2023 (Safety Gate, Sensorikschaukel via Amazon)", "url": "https://www.cm-borba.pt/wp-content/uploads/2023/11/Brinquedos-–-Baloico-sensorial-comercializado-online-via-Amazon-Aviso-DGC-46-2023.pdf" },
+    { "titel": "amazon.de: AMAZONAS Kid's Relax Rainbow", "url": "https://www.amazon.de/dp/B00FDS9JQU" },
+    { "titel": "AMAZONAS: Kid's Relax Hanging Chair", "url": "https://www.amazonas-online.com/en/hanging-chairs/amazonas-kid-s-relax-hanging-chair" },
+    { "titel": "amazon.de: AMAZONAS Kid's Swinger Green", "url": "https://www.amazon.de/dp/B00FDS3MPO" },
+    { "titel": "amazon.de: AMAZONAS Kid's Swinger Pink", "url": "https://www.amazon.de/dp/B00TPOJHRO" },
+    { "titel": "amazon.de: La Siesta Hängenest JOKI Kirsche", "url": "https://www.amazon.de/dp/B07BKY3XF9" },
+    { "titel": "amazon.de Rezensionen: LA SIESTA Joki inkl. Befestigungsset", "url": "https://www.amazon.de/SIESTA-Joki-Lilly-Kinder-H%C3%A4ngeh%C3%B6hle-Baumwolle/product-reviews/B005ZB0OU0" },
+    { "titel": "Hans Natur: La Siesta Kinder-Hängehöhle Joki", "url": "https://www.hans-natur.de/kinder-haengehoehle-joki-bio-baumwolle-mit-befestigungsset-blau-la-siesta_p22598.html" },
+    { "titel": "Sport-Thieme: La Siesta Hängehöhle Joki", "url": "https://www.sport-thieme.de/Therapie/Sensorische-Integration/Therapieschaukeln/art=2532022" },
+    { "titel": "amazon.de: LA SIESTA Moki Lilly", "url": "https://www.amazon.de/dp/B07M6GHW44" },
+    { "titel": "amazon.de: LA SIESTA Moki Max", "url": "https://www.amazon.de/dp/B07M6GHXTY" },
+    { "titel": "LA SIESTA: Moki Dolphy Family and Kids Therapy Hammock (MOK16-33)", "url": "https://media.lasiesta.com/en/media/product/MOK16-33" },
+    { "titel": "amazon.de: Diabolo Freizeitsport Vertikaltuch-Set 6 m", "url": "https://www.amazon.de/dp/B0BHDHM6BD" },
+    { "titel": "amazon.de: AMAZONAS Power Hook", "url": "https://www.amazon.de/dp/B000OY3DVU" },
+    { "titel": "vergleich.org: Therapieschaukel (Affiliate-Vergleich, kein Test)", "url": "https://www.vergleich.org/therapieschaukel/" }
+  ]
+}

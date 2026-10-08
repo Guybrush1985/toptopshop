@@ -1,0 +1,199 @@
+{
+  "slug": "kinderschrank",
+  "stand": "2026-10-08",
+  "hinweisRecherche": "amazon.de-Produktseiten waren per WebFetch/curl nicht direkt abrufbar (DNS/Proxy). ASINs und Titel stammen aus WebSearch-Treffern (allowed_domains amazon.de) mit /dp/-URL und passendem Titel; Lagerstatus konnte nur aus Suchsnippets abgeleitet werden.",
+  "criteria": [
+    { "key": "sicherheit", "label": "Kippschutz & Türen", "weight": 0.3, "description": "Wandbefestigung im Lieferumfang/vorgeschrieben, Soft-Close bzw. Fingerklemmschutz an Türen und Schubladen, Garantie des Herstellers" },
+    { "key": "stauraum", "label": "Innenaufteilung", "weight": 0.25, "description": "Kleiderstange(n), verstellbare Böden, Schubladen/offene Fächer laut Herstellerangabe" },
+    { "key": "material", "label": "Material & Emissionen", "weight": 0.25, "description": "Massivholz vs. Holzwerkstoff, Oberflächen (Öl/Lack), Angaben zu E1/FSC/Schadstoffprüfung; Verarbeitung laut Kundenberichten" },
+    { "key": "kindgerecht", "label": "Maße & Kinderhöhe", "weight": 0.2, "description": "Breite/Höhe/Tiefe fürs Kinderzimmer, erreichbare Stange, Eignung zum Mitwachsen" }
+  ],
+  "priceTiers": [
+    { "tier": 1, "label": "bis ca. 300 €" },
+    { "tier": 2, "label": "ca. 300–700 €" },
+    { "tier": 3, "label": "über 700 €" }
+  ],
+  "products": [
+    {
+      "rank": 1,
+      "label": "Beste Gesamtwahl",
+      "name": "PINOLINO Kleiderschrank Linje",
+      "brand": "PINOLINO",
+      "variant": "groß, 3 Türen, 1 offenes Fach, Modell 140009",
+      "priceTier": 2,
+      "ratings": { "sicherheit": 8.5, "stauraum": 8.0, "material": 7.0, "kindgerecht": 7.5 },
+      "gesamt": 7.8,
+      "bestFor": "Familien, die einen mitwachsenden Markenschrank mit Soft-Close-Türen für Baby- bis Schulkindzimmer suchen",
+      "fakten": [
+        { "text": "Maße B 110 × T 52 × H 188 cm; 3 Türen, 1 offenes Fach, 4 höhenverstellbare Einlegeböden, 1 Kleiderstange; Gewicht 83,5 kg", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B0DXVYPSGR", "datum": "2026-10-08" },
+        { "text": "Türen mit Soft-Close-Beschlägen für leises, sicheres Schließen; soll das Einklemmen kleiner Finger verhindern", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B0DXVYPSGR", "datum": "2026-10-08" },
+        { "text": "Ausführungen: uni weiß bzw. Eiche mit Echtholzstruktur (Holzwerkstoff)", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B0DXVYPSGR", "datum": "2026-10-08" },
+        { "text": "Pinolino gibt laut Händlerangaben auf Linje-Möbel 10 Jahre Garantie auf Material- und Verarbeitungsfehler (Linje-spezifisch nur für das Set belegt)", "art": "Händlerangabe", "quelle": "https://www.babyartikel.de/prod/pinolino-kleiderschrank-hope-3-tuerig", "datum": "2026-10-08" },
+        { "text": "Pinolino-Montageanleitungen schreiben die Befestigung des Schranks an der Wand mit dem mitgelieferten Winkel gegen Umkippen vor (Beispiel Modell Viktoria)", "art": "Herstellerangabe", "quelle": "https://manuall.de/pinolino-viktoria-kleiderschrank/?page=2", "datum": "2026-10-08" }
+      ],
+      "pros": ["Soft-Close-Türen mit Fingerklemmschutz", "offenes Fach für Lieblingssachen auf Kinderhöhe", "4 verstellbare Böden + Stange", "lange Herstellergarantie (laut Händler 10 Jahre)"],
+      "cons": ["Holzwerkstoff, keine veröffentlichten Emissionswerte", "sehr schwer (83,5 kg) – Aufbau zu zweit", "neues Modell, kaum Kundenbewertungen; Berichte zu anderen Pinolino-Schränken nennen aufwendigen Aufbau"],
+      "specs": { "Maße": "110 × 52 × 188 cm (B × T × H)", "Türen": "3, Soft-Close", "Innen": "4 Böden, 1 Kleiderstange, 1 offenes Fach", "Material": "Holzwerkstoff, weiß bzw. Eiche-Struktur", "Gewicht": "83,5 kg" },
+      "asin": "B0DXVYPSGR",
+      "query": "PINOLINO Kleiderschrank Linje",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "PINOLINO Kleiderschrank Linje Kinderkleiderschrank … (amazon.de/dp/B0DXVYPSGR)"
+    },
+    {
+      "rank": 2,
+      "label": "Bestes Preis-Leistungs-Verhältnis",
+      "name": "Forte WINNIE Kleiderschrank 80",
+      "brand": "Forte",
+      "variant": "80 cm, 2 Türen, Sonoma Eiche/Weiß, Modell WNS92-Q45",
+      "priceTier": 1,
+      "ratings": { "sicherheit": 6.5, "stauraum": 7.0, "material": 6.0, "kindgerecht": 7.5 },
+      "gesamt": 6.7,
+      "bestFor": "kleine Kinderzimmer und knappes Budget – schmaler, klassischer Zweitürer, der bis ins Jugendalter passt",
+      "fakten": [
+        { "text": "Maße ca. 80 × 189 × 53 cm (B × H × T), 2 Türen, 6 Fächer, 2 Kleiderstangen; Modellnummer WNS92-Q45", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B0085HMUPS", "datum": "2026-10-08" },
+        { "text": "2 Jahre Herstellergarantie", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B0085HMUPS", "datum": "2026-10-08" },
+        { "text": "Kundenbewertung ca. 4,1/5 bei rund 190 Bewertungen", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B0085HMUPS", "datum": "2026-10-08" },
+        { "text": "Bei der WINNIE-Serie (170er-Variante) schreibt Forte die Wandmontage inkl. Beschlägen vor; Tragkraft Böden 5 kg, Stangen 15 kg", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B0DT1BFR8D", "datum": "2026-10-08" }
+      ],
+      "pros": ["nur 80 cm breit", "zwei Kleiderstangen + Fächer", "viele Kundenbewertungen", "günstig"],
+      "cons": ["Holzwerkstoff, keine Emissionsangaben", "kein Soft-Close angegeben", "Angaben zur Bodenzahl im Listing uneinheitlich (5 bzw. 6)", "kein speziell für Kinder entwickeltes Möbel"],
+      "specs": { "Maße": "ca. 80 × 189 × 53 cm (B × H × T)", "Türen": "2 Drehtüren", "Innen": "6 Fächer, 2 Kleiderstangen", "Material": "Holzwerkstoff, Sonoma-Eiche-Dekor/Weiß", "Garantie": "2 Jahre (Hersteller)" },
+      "asin": "B0085HMUPS",
+      "query": "Forte WINNIE Kleiderschrank 80",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "Forte WINNIE Wardrobe 80, Modern Wardrobe, Children's Room Cabinet … 80 cm Wide x 189 cm High x 53 cm Deep (amazon.de/dp/B0085HMUPS; URL-Slug noch „ROLLER-Kleiderschrank-Winnie“)"
+    },
+    {
+      "rank": 3,
+      "label": "Premium-Wahl",
+      "name": "PINOLINO Kleiderschrank für Kinderzimmer Natura",
+      "brand": "PINOLINO",
+      "variant": "2-türig, Buche massiv geölt, Art.-Nr. 142174",
+      "priceTier": 3,
+      "ratings": { "sicherheit": 8.0, "stauraum": 7.5, "material": 9.0, "kindgerecht": 6.0 },
+      "gesamt": 7.73,
+      "bestFor": "Eltern, die Wert auf Massivholz mit Ölfinish statt Spanplatte legen und einen Schrank für viele Jahre suchen",
+      "fakten": [
+        { "text": "Massive Buche, geölt mit Hartöl auf Leinölbasis; Maße B 94 × T 63 × H 182 cm; 5 teils höhenverstellbare Einlegeböden, 2 Kleiderstangen, Soft-Close-Türen", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B004CR5AFC", "datum": "2026-10-08" },
+        { "text": "10 Jahre Pinolino-Plus-Garantie", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B004CR5AFC", "datum": "2026-10-08" },
+        { "text": "Kundenbewertung ca. 4,2/5 bei nur 3 Bewertungen; Lob für Massivholz und Haltbarkeit, Kritik an schwierigem Aufbau (Rückwand passte nicht)", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B004CR5AFC", "datum": "2026-10-08" },
+        { "text": "Gleiche Maße und Ausstattung (94 × 63 × 182 cm, Soft-Close, Buche massiv) auch bei Galaxus gelistet", "art": "Händlerangabe", "quelle": "https://www.galaxus.at/en/s10/product/pinolino-nature-childrens-wardrobes-2444311", "datum": "2026-10-08" }
+      ],
+      "pros": ["Buche massiv mit Ölfinish", "Soft-Close-Türen", "2 Kleiderstangen + 5 Böden", "10 Jahre Garantie"],
+      "cons": ["teuer (vergleichbares Pinolino-Massivholzmodell Fagus laut Kundenbericht knapp 1.000 €)", "63 cm tief – braucht Stellfläche", "Aufbau laut Berichten anspruchsvoll", "Lagerstatus auf amazon.de nicht verifizierbar"],
+      "specs": { "Maße": "94 × 63 × 182 cm (B × T × H)", "Türen": "2, Soft-Close", "Innen": "5 Böden, 2 Kleiderstangen", "Material": "Buche massiv, Hartöl auf Leinölbasis", "Garantie": "10 Jahre (Pinolino Plus)" },
+      "asin": "B004CR5AFC",
+      "query": "PINOLINO Kleiderschrank Natura",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "PINOLINO Kleiderschrank für Kinderzimmer Natura, besonders stabil, Massivholz (amazon.de/dp/B004CR5AFC)"
+    }
+  ],
+  "top5": [
+    {
+      "name": "HOCSOK Kinderregal mit Rollen und Spielzeugkiste mit Klappdeckel",
+      "warum": "Spielzeugschrank mit Klappe/Fächern: offene Fächer für Bücher und Spiele plus Spielzeugkiste mit gedämpftem Klappdeckel – für Bausteine, Puzzles und Brettspiele",
+      "fakten": [
+        { "text": "Klappdeckel in jedem Winkel zwischen 0° und 75° arretierbar, hydraulische Dämpfer für sanftes Schließen (verringert Quetschgefahr); 4 Schwenkrollen", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B09ZNXRLD5", "datum": "2026-10-08" }
+      ],
+      "asin": "B09ZNXRLD5",
+      "query": "HOCSOK Kinderregal mit Rollen Spielzeugkiste Holz",
+      "where": null
+    },
+    {
+      "name": "en.casa Sandnes Kinderkleiderschrank mit 2 Türen und 1 Schublade",
+      "warum": "Kinderkleiderschrank mit niedriger Stange: nur 123 cm hoch, Kinder erreichen Stange und Schublade selbst",
+      "fakten": [
+        { "text": "Maße 123 × 60 × 40 cm, Kleiderstange 57 cm lang, Hängeraum 104,5 cm hoch, MDF/Spanplatte, max. Belastung 10 kg", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B0FMF3ZT9S", "datum": "2026-10-08" },
+        { "text": "Kundenbewertung ca. 4,1/5 bei rund 51 Bewertungen", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B0FMF3ZT9S", "datum": "2026-10-08" }
+      ],
+      "asin": "B0FMF3ZT9S",
+      "query": "en.casa Sandnes Kinderkleiderschrank 2 Türen Schublade rosa weiß",
+      "where": null
+    },
+    {
+      "name": "SoBuy KMB40-W Kindergarderobe mit 3 Haken und Boxen",
+      "warum": "Montessori-Kleiderschrank offen: Stange auf ca. 108 cm, offene Fächer und Stoffbox – Kinder wählen und hängen Kleidung selbst auf",
+      "fakten": [
+        { "text": "BHT ca. 97 × 108 × 35 cm, MDF (E1)/Vliesstoff, belastbar bis 50 kg, 3 Fächer, 1 Stoffbox, 3 Haken", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B0BCG6HS2W", "datum": "2026-10-08" },
+        { "text": "Kundenbewertung ca. 4,6–4,7/5 bei gut 100–150 Bewertungen (je nach Abruf)", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B0BCG6HS2W", "datum": "2026-10-08" }
+      ],
+      "asin": "B0BCG6HS2W",
+      "query": "SoBuy KMB40-W Kindergarderobe",
+      "where": null
+    },
+    {
+      "name": "Hoppekids GAIA Kleiderschrank",
+      "warum": "Schmaler Schrank für kleine Zimmer: nur 80 cm breit und 160 cm hoch, damit auch fürs Kind gut erreichbar",
+      "fakten": [
+        { "text": "80 × 160 × 50 cm (B × H × T), MDF, 2 Türen, 1 Schublade auf Metallschiene, Füße aus massiver Eiche, FSC-zertifiziert, hergestellt in Dänemark", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B0859XZ4FD", "datum": "2026-10-08" }
+      ],
+      "asin": "B0859XZ4FD",
+      "query": "Hoppekids GAIA Kleiderschrank",
+      "where": null
+    },
+    {
+      "name": "BioKinder Lina Kleiderschrank 2-türig, Erle massiv",
+      "warum": "Ökologische Massivholz-Alternative: Bio-Massivholz Erle, Soft-Close an Türen und Schubladen, mit Aufsatz erweiterbar",
+      "fakten": [
+        { "text": "H 190 × B 110 × T 55 cm, Erle natur geölt, 1 verstellbare Kleiderstange, 5 flexible Böden, Soft-Close-Scharniere, Schubladen mit Vollauszug und Soft-Close", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B073QT1NRV", "datum": "2026-10-08" },
+        { "text": "Mit Schrankaufsatz Lina Gesamthöhe 228 cm", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B09RT5V1VQ", "datum": "2026-10-08" }
+      ],
+      "asin": "B073QT1NRV",
+      "query": "BioKinder Lina Kleiderschrank 2-türig Erle",
+      "where": null
+    }
+  ],
+  "tests": [
+    { "institut": "Stiftung Warentest / Öko-Test", "heft": "–", "ergebnis": "Kein aktueller Test von Kinderkleider- oder Spielzeugschränken gefunden. Seiten wie testsieger.de, testbedarf.de, test-stiftung.de sind Vergleichs-/Affiliateportale ohne Labortest – nicht als Test zitieren.", "quelle": "https://www.testsieger.de/kinderschraenke/" },
+    { "institut": "Öko-Test", "heft": "Ikea-Kinderzimmer im Test (Online, aktualisiert 12.12.2019; Einkauf 10/2018)", "ergebnis": "Raumluftbelastung eines kompletten Ikea-Kinderzimmers „gut“; Kleiderschrank und Kinderstuhl gasten in den ersten Tagen einige problematische Verbindungen aus. Nur als Hintergrund zu Emissionen nutzbar (Ikea nicht über Amazon/Awin).", "quelle": "https://www.oekotest.de/bauen-wohnen/Ikea-Kinderzimmer-im-Test-Wie-stark-Kinderbett-Co-die-Raumluft-belasten_111621_1.html" },
+    { "institut": "Öko-Test", "heft": "Wickelkommoden-Test (2010)", "ergebnis": "Die meisten Wickelkommoden gasten deutlich Formaldehyd aus; nur Ikea und Paidi „gut“ – alter Test, Hintergrund für Materialhinweis (Holzwerkstoff/Formaldehyd).", "quelle": "http://www.oekotest.de/cgi/index.cgi?artnr=94257&bernr=07" }
+  ],
+  "warnungen": [
+    "Kippgefahr: Hohe Schränke immer an der Wand befestigen; Pinolino schreibt die Wandbefestigung mit mitgeliefertem Winkel vor, Forte ebenso (WINNIE-Serie). Quelle: https://manuall.de/pinolino-viktoria-kleiderschrank/?page=2, https://www.amazon.de/dp/B0DT1BFR8D",
+    "Relevante Norm für Stabilität von Aufbewahrungsmöbeln: EN 14749 (Wand und Dübel sind nicht Teil der Prüfung – Befestigung muss zur Wand passen). Quelle: https://knowledge.bsigroup.com/products/furniture-domestic-and-kitchen-storage-units-and-kitchen-worktops-safety-requirements-and-test-methods",
+    "Rückrufe: Für die gewählten Produkte keine Rückrufe/Safety-Gate-Meldungen gefunden. Aktuelle Kipp-Rückrufe betreffen US-Kommoden (z. B. EnHomee bei Walmart, 07/2026; SOOWERY über Amazon US) – keine der empfohlenen Marken. Quelle: https://www.fox5dc.com/news/walmart-recall-dressers-unstable",
+    "Pinolino: einziger gefundener Fall ist eine Wickelauflage (Öko-Test 10/2010, Verkaufsstopp) – keine Möbel betroffen. Quelle: https://www.oekotest.de/kinder-familie/Reaktionen-Pinolino-Komfort-Stoff-Glueckspilz-rosa_98813_1.html",
+    "Spielzeugkisten mit Deckel: auf gedämpften Deckel/Klappenhalter achten (Quetsch- und Einschlussgefahr); HOCSOK nennt hydraulische Dämpfer, eine EN-71-Angabe fand sich nicht.",
+    "Altersangaben: Für keinen der Schränke liegt eine Altersangabe des Herstellers vor; die Altersgruppen aus der CSV (bis 7 / bis 10 Jahre) sind unbelegt und sollten nicht als Herstellerangabe erscheinen."
+  ],
+  "verworfen": [
+    { "name": "Pinolino Kleiderschrank Laura 2-türig (B000VPGFJO)", "grund": "nur 2,5/5 bei 3 Bewertungen, Holzwerkstoff ohne Soft-Close-Angabe" },
+    { "name": "Pinolino Kleiderschrank Emilia 2-türig (B00SMFKV9A)", "grund": "bei babyartikel.de ausverkauft, sehr teuer (UVP 1.179 €), 208 cm hoch – Linje/Natura passen besser" },
+    { "name": "Pinolino Kleiderschrank Fagus (B00HVC3TLW)", "grund": "auf amazon.de als derzeit nicht verfügbar gemeldet, 3,3/5 bei 3 Bewertungen" },
+    { "name": "Pinolino Edge (B085LRNYW8)", "grund": "Schiebetüren mit Safe Slide interessant, aber keine Bewertungen und Ausstattungsangaben widersprüchlich" },
+    { "name": "Polini kids Kleiderschrank Simple 2-türig (B08X75D72S)", "grund": "Varianten auf amazon.de als derzeit nicht verfügbar gemeldet" },
+    { "name": "TiCAA Kleiderschrank Adam / Moritz Kiefer massiv", "grund": "beide auf amazon.de derzeit nicht verfügbar" },
+    { "name": "roba Kleiderschrank (Jonas/Natural Harmony)", "grund": "nur im Set erhältlich bzw. derzeit nicht verfügbar" },
+    { "name": "Paidi / Bellybutton Frida & Anton", "grund": "auf Amazon nur 3-türig und derzeit nicht verfügbar" },
+    { "name": "Flexa / IKEA-Kinderschränke", "grund": "nicht über Amazon oder freigeschaltete Awin-Händler erhältlich" },
+    { "name": "COSTWAY/HOMASIS/VEVOR Spielzeugregale", "grund": "offene Regale ohne Klappe; gehören eher zu kinder-buecherregal/sideboard-kinderzimmer" }
+  ],
+  "offen": [
+    "Lagerstatus aller ASINs konnte nicht direkt geprüft werden (amazon.de per WebFetch/curl nicht erreichbar) – vor Veröffentlichung im Browser verifizieren, besonders Pinolino Natura (B004CR5AFC), Hoppekids GAIA (B0859XZ4FD) und BioKinder Lina (B073QT1NRV, verwandte Varianten als nicht verfügbar gemeldet).",
+    "Kein Marken-„Spielzeugschrank mit Klappe“ auf amazon.de gefunden; Top-5-Slot mit HOCSOK (Regal + gedämpfte Klappkiste, eher No-Name) besetzt. Alternative: roba Truhenbank mit Dämpfungsbeschlag (Truhe, keine Fächer).",
+    "Pinolino-Garantie (10 Jahre) für Linje nur aus Händlerangaben zu anderen Linje-/Pinolino-Artikeln belegt – auf pinolino.de bestätigen.",
+    "Pinolino Linje ist 3-türig (110 cm); falls die Seite strikt „zweitürig“ zeigen soll (produktart/Visual), Bildbeschreibung anpassen.",
+    "Preisklasse von Pinolino Natura (Tier 3) nur aus Kundenbericht zum Schwestermodell Fagus abgeleitet.",
+    "Awin: keine freigeschalteten Programme – kein Awin-Händler nötig, alle Produkte über Amazon."
+  ],
+  "quellen": [
+    { "titel": "amazon.de – PINOLINO Kleiderschrank Linje", "url": "https://www.amazon.de/dp/B0DXVYPSGR" },
+    { "titel": "amazon.de – Forte WINNIE Kleiderschrank 80", "url": "https://www.amazon.de/dp/B0085HMUPS" },
+    { "titel": "amazon.de – Forte WINNIE 170 (Wandmontage-Hinweis)", "url": "https://www.amazon.de/dp/B0DT1BFR8D" },
+    { "titel": "amazon.de – PINOLINO Kleiderschrank Natura", "url": "https://www.amazon.de/dp/B004CR5AFC" },
+    { "titel": "Galaxus – Pinolino Natura Kinderkleiderschrank", "url": "https://www.galaxus.at/en/s10/product/pinolino-nature-childrens-wardrobes-2444311" },
+    { "titel": "amazon.de – HOCSOK Kinderregal mit Spielzeugkiste", "url": "https://www.amazon.de/dp/B09ZNXRLD5" },
+    { "titel": "amazon.de – en.casa Sandnes Kinderkleiderschrank", "url": "https://www.amazon.de/dp/B0FMF3ZT9S" },
+    { "titel": "amazon.de – SoBuy KMB40-W", "url": "https://www.amazon.de/dp/B0BCG6HS2W" },
+    { "titel": "amazon.de – Hoppekids GAIA Kleiderschrank", "url": "https://www.amazon.de/dp/B0859XZ4FD" },
+    { "titel": "amazon.de – BioKinder Lina Kleiderschrank Erle", "url": "https://www.amazon.de/dp/B073QT1NRV" },
+    { "titel": "babyartikel.de – Pinolino Kleiderschrank Emilia 2-türig", "url": "https://www.babyartikel.de/prod/pinolino-kleiderschrank-emilia-2-tuerig-weiss" },
+    { "titel": "Pinolino Viktoria Montageanleitung (Wandbefestigung)", "url": "https://manuall.de/pinolino-viktoria-kleiderschrank/?page=2" },
+    { "titel": "BSI – EN 14749 Aufbewahrungsmöbel", "url": "https://knowledge.bsigroup.com/products/furniture-domestic-and-kitchen-storage-units-and-kitchen-worktops-safety-requirements-and-test-methods" },
+    { "titel": "Öko-Test – Ikea-Kinderzimmer im Test", "url": "https://www.oekotest.de/bauen-wohnen/Ikea-Kinderzimmer-im-Test-Wie-stark-Kinderbett-Co-die-Raumluft-belasten_111621_1.html" },
+    { "titel": "Öko-Test – Pinolino Wickelauflage (Reaktionen)", "url": "https://www.oekotest.de/kinder-familie/Reaktionen-Pinolino-Komfort-Stoff-Glueckspilz-rosa_98813_1.html" }
+  ]
+}

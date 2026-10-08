@@ -175,6 +175,7 @@ function object(kind, t) {
   const F = C.forest;
   const b = t.body === C.white ? C.green : t.body;
   const a = t.cap;
+  const k = a === b ? C.leaf : a; // Akzent mit Kontrast zum Körper (Ton mint: cap = body)
   const r = (x, y, w, h, rx = 6, fill = b, extra = "") => `<rect x="${x}" y="${y}" width="${w}" height="${h}" rx="${rx}" fill="${fill}"${extra}/>`;
   const l = (x1, y1, x2, y2, w = 7, col = F) => `<line x1="${x1}" y1="${y1}" x2="${x2}" y2="${y2}" stroke="${col}" stroke-width="${w}" stroke-linecap="round"/>`;
   const c = (cx, cy, rr, fill = a, extra = "") => `<circle cx="${cx}" cy="${cy}" r="${rr}" fill="${fill}"${extra}/>`;
@@ -222,11 +223,29 @@ function object(kind, t) {
     case "panel": { const hex = (cx, cy, f) => `<path d="M${cx - 36} ${cy} L${cx - 18} ${cy - 31} H${cx + 18} L${cx + 36} ${cy} L${cx + 18} ${cy + 31} H${cx - 18} Z" fill="${f}"/>`; return `${hex(110, 120, b)}${hex(166, 152, a)}${hex(222, 120, b)}${hex(110, 184, C.leaf)}${hex(222, 184, b)}${hex(166, 216, b)}${hex(166, 88, C.leaf)}`; }
     case "console": return `<path d="M70 150 C40 150 30 230 50 270 C66 296 96 280 114 248 H206 C224 280 254 296 270 270 C290 230 280 150 250 150 Z" fill="${b}"/>${l(96, 196, 96, 228, 9, C.white)}${l(80, 212, 112, 212, 9, C.white)}${c(222, 200, 9, a)}${c(244, 220, 9, C.leaf)}${c(200, 220, 9, C.leaf)}${c(222, 240, 9, a)}`;
     case "fridge": return `${r(86, 50, 148, 248, 14, b)}${r(100, 66, 120, 216, 8, C.mint, ' opacity=".55"')}${[0, 1, 2].map((i) => l(104, 120 + i * 56, 216, 120 + i * 56, 4, F)).join("")}${[0, 1, 2].map((i) => r(112 + i * 34, 86 + 0, 18, 32, 4, a)).join("")}${r(206, 140, 8, 60, 4, F)}`;
+    case "triangle": return `<path d="M60 290 L160 70 L260 290" fill="none" stroke="${b}" stroke-width="14" stroke-linejoin="round"/>${[0, 1, 2, 3, 4].map((i) => l(84 + i * 10, 250 - i * 40, 236 - i * 10, 250 - i * 40, 6, a)).join("")}${l(40, 296, 280, 296, 6)}`;
+    case "slide": return `${l(70, 120, 70, 296, 10)}${l(110, 120, 110, 296, 10)}${[0, 1, 2, 3].map((i) => l(70, 150 + i * 38, 110, 150 + i * 38, 6, a)).join("")}<path d="M104 120 C170 130 200 260 286 284" stroke="${b}" stroke-width="22" fill="none" stroke-linecap="round"/>${r(56, 112, 70, 14, 6, F)}`;
+    case "climbwall": { const holds = [[110, 100], [190, 120], [140, 160], [210, 190], [100, 210], [170, 240], [130, 270], [220, 260]]; return `${r(60, 50, 200, 250, 12, b)}${holds.map(([x, y], i) => c(x, y, 11, i % 2 ? C.leaf : k)).join("")}${l(40, 300, 280, 300, 6)}`; }
+    case "ladder": return `${l(90, 50, 90, 300, 12)}${l(230, 50, 230, 300, 12)}${[0, 1, 2, 3, 4, 5, 6, 7].map((i) => l(90, 70 + i * 30, 230, 70 + i * 30, 7, i % 3 ? b : a)).join("")}`;
+    case "swing": return `${l(60, 40, 260, 40, 10)}${l(110, 40, 110, 220, 4, a)}${l(210, 40, 210, 220, 4, a)}<path d="M96 220 Q160 290 224 220 Z" fill="${b}"/>${c(160, 236, 10, C.leaf)}`;
+    case "tent": return `<path d="M160 60 L40 290 H280 Z" fill="${b}"/><path d="M160 150 L118 290 H202 Z" fill="${k}"/>${l(160, 60, 160, 40, 6)}<path d="M160 40 l26 10 l-26 10 Z" fill="${C.leaf}"/>`;
+    case "mat": { let g = ""; for (let i = 0; i < 4; i++) g += r(40 + i * 62, 210, 56, 56, 6, i % 2 ? b : k); return `${g}${r(40, 266, 242, 14, 4, F)}${c(100, 180, 14, C.leaf)}`; }
+    case "tower": return `${l(80, 120, 80, 296, 10)}${l(170, 120, 170, 296, 10)}<path d="M66 124 L125 60 L184 124 Z" fill="${a}"/>${r(76, 196, 98, 14, 4, b)}<path d="M170 200 C220 210 240 270 290 288" stroke="${b}" stroke-width="18" fill="none" stroke-linecap="round"/>${l(30, 140, 80, 140, 8)}${l(42, 140, 42, 250, 3, a)}${r(30, 250, 26, 8, 3, C.leaf)}`;
+    case "sandbox": return `<path d="M40 220 L80 180 H240 L280 220 Z" fill="${C.leaf}" opacity=".5"/>${r(36, 216, 248, 60, 8, b)}${r(36, 216, 248, 12, 4, k)}${c(120, 200, 14, a)}${l(200, 150, 220, 204, 6)}${r(190, 140, 24, 16, 4, C.leaf)}`;
+    case "zipline": return `${l(40, 80, 40, 296, 10)}${l(280, 150, 280, 296, 10)}${l(40, 90, 280, 160, 4)}${l(150, 122, 150, 200, 4, a)}${r(118, 196, 64, 16, 8, b)}${c(150, 124, 9, C.leaf)}`;
+    case "bouncy": return `${r(40, 200, 240, 90, 20, b)}${r(52, 110, 40, 110, 20, k)}${r(228, 110, 40, 110, 20, k)}${r(140, 90, 40, 120, 20, C.leaf)}${r(80, 220, 160, 50, 14, k, ' opacity=".6"')}`;
+    case "waterslide": return `${r(40, 120, 90, 170, 24, k)}<path d="M120 130 C200 140 230 250 290 270 V296 H120 Z" fill="${b}"/>${[0, 1, 2].map((i) => `<path d="M${150 + i * 40} ${200 + i * 20} q10 -12 20 0" stroke="${C.white}" stroke-width="4" fill="none"/>`).join("")}`;
+    case "shelf": return `${r(70, 60, 180, 236, 8, b)}${[0, 1, 2].map((i) => r(84, 76 + i * 72, 152, 58, 4, C.white, ' opacity=".9"')).join("")}${[0, 1, 2, 3].map((i) => r(92 + i * 18, 92, 12, 42, 2, i % 2 ? a : C.leaf)).join("")}${r(170, 168, 40, 50, 3, a)}`;
+    case "wardrobe": return `${r(70, 46, 180, 250, 10, b)}${l(160, 56, 160, 286, 3, C.white)}${c(146, 170, 6, k)}${c(174, 170, 6, k)}${r(76, 296, 16, 8, 2, F)}${r(228, 296, 16, 8, 2, F)}${r(84, 60, 66, 40, 6, C.leaf, ' opacity=".5"')}`;
+    case "kidtable": return `${r(90, 170, 140, 16, 6, b)}${l(104, 186, 104, 270, 8)}${l(216, 186, 216, 270, 8)}${r(30, 200, 50, 10, 4, a)}${r(30, 140, 10, 70, 4, a)}${l(36, 210, 36, 270, 6)}${l(74, 210, 74, 270, 6)}${r(240, 200, 50, 10, 4, a)}${r(280, 140, 10, 70, 4, a)}${l(246, 210, 246, 270, 6)}${l(284, 210, 284, 270, 6)}`;
+    case "rug": return `<path d="M40 240 L100 150 H280 L220 240 Z" fill="${b}"/><path d="M80 220 L118 166 H250 L212 220 Z" fill="none" stroke="${C.white}" stroke-width="4" stroke-dasharray="10 8"/>${r(150, 180, 30, 16, 6, k)}${c(156, 198, 5, F)}${c(176, 198, 5, F)}`;
+    case "sideboard": return `${r(40, 150, 240, 110, 10, b)}${l(120, 160, 120, 250, 3, C.white)}${l(200, 160, 200, 250, 3, C.white)}${c(108, 205, 5, k)}${c(132, 205, 5, k)}${r(210, 170, 60, 70, 4, C.leaf, ' opacity=".5"')}${l(60, 260, 60, 290)}${l(260, 260, 260, 290)}${r(70, 120, 40, 30, 4, a)}`;
+    case "cloth": return `${l(90, 40, 230, 40, 8)}${c(160, 52, 8, a)}<path d="M160 58 C118 112 72 186 82 252 Q160 304 238 252 C248 186 202 112 160 58 Z" fill="${b}"/><path d="M114 236 C118 188 202 188 206 236 Q160 258 114 236 Z" fill="${C.mint}" opacity=".85"/><path d="M160 70 C140 120 124 160 118 200 M160 70 C180 120 196 160 202 200" stroke="${C.white}" stroke-width="3" fill="none" opacity=".6"/>${c(160, 286, 6, C.leaf)}`; // Schaukeltuch/Hängehöhle an einem Deckenpunkt
     default: return `${r(80, 90, 160, 200, 18, b)}`;
   }
 }
 
-const OBJECTS = new Set(["net", "wall", "trainer", "machine", "balls", "desk", "monitor", "dock", "keyboard", "mouse", "lamp", "webcam", "screen", "mic", "mug", "turf", "tiles", "cage", "hoop", "goal", "fence", "flood", "pingpong", "shuffle", "paddle", "beanbag", "chair", "arcade", "pinball", "gametable", "dart", "wheel", "vr", "projector", "neon", "panel", "console", "fridge"]);
+const OBJECTS = new Set(["net", "wall", "trainer", "machine", "balls", "desk", "monitor", "dock", "keyboard", "mouse", "lamp", "webcam", "screen", "mic", "mug", "turf", "tiles", "cage", "hoop", "goal", "fence", "flood", "pingpong", "shuffle", "paddle", "beanbag", "chair", "arcade", "pinball", "gametable", "dart", "wheel", "vr", "projector", "neon", "panel", "console", "fridge", "triangle", "slide", "climbwall", "ladder", "swing", "tent", "mat", "tower", "sandbox", "zipline", "bouncy", "waterslide", "shelf", "wardrobe", "kidtable", "rug", "sideboard", "cloth"]);
 
 function objectVisual(product, uid) {
   const t = TONES[product.visual?.tone || "forest"];

@@ -1,0 +1,55 @@
+{
+  "visuals": {
+    "1": {
+      "kind": "zipline",
+      "tone": "forest"
+    },
+    "2": {
+      "kind": "zipline",
+      "tone": "green"
+    },
+    "3": {
+      "kind": "zipline",
+      "tone": "mint"
+    }
+  },
+  "steps": {
+    "title": "Seilbahn im Garten spannen",
+    "subtitle": "Befestigung, Gefälle und Kontrolle",
+    "alt": "Infografik: Seilbahn im Garten spannen – Strecke prüfen, Feste Ankerpunkte, Gefälle einstellen, Endbremse montieren, Probefahrt mit Gewicht, Regelmäßig prüfen",
+    "caption": "Feste Ankerpunkte und eine Endbremse sind Pflicht.",
+    "steps": [
+      {
+        "title": "Strecke prüfen",
+        "text": "Freie Bahn ohne Äste, Zäune oder Wege, die gekreuzt werden."
+      },
+      {
+        "title": "Feste Ankerpunkte",
+        "text": "Nur gesunde Bäume oder stabile Pfosten verwenden, Baumschutz nutzen."
+      },
+      {
+        "title": "Gefälle einstellen",
+        "text": "Seil laut Anleitung spannen, sodass die Fahrt am Ende sanft ausläuft."
+      },
+      {
+        "title": "Endbremse montieren",
+        "text": "Puffer oder Bremse vor dem Endpunkt anbringen."
+      },
+      {
+        "title": "Probefahrt mit Gewicht",
+        "text": "Erst mit einem Sandsack oder Erwachsenen testen, dann Kinder fahren lassen."
+      },
+      {
+        "title": "Regelmäßig prüfen",
+        "text": "Seil, Laufkatze und Befestigungen auf Verschleiß kontrollieren."
+      }
+    ]
+  },
+  "scoresAlt": "Balkendiagramm: Bewertung der drei besten Seilbahnen für den Garten in den Kriterien Länge, Belastbarkeit, Bremse, Montage und Preis",
+  "scoresCaption": "Unsere Bewertung je Kriterium für die drei empfohlenen Modelle.",
+  "neueFormen": [],
+  "offen": [
+    "Kriterien in scoresAlt sind ein Entwurf – an die finalen Bewertungskriterien anpassen; Produktnamen nach Recherche ergänzen.",
+    "Sicherheits-/Montageschritte allgemein gehalten; Tragfähigkeits- und Altersangaben nur aus Herstellerquellen ergänzen."
+  ]
+}

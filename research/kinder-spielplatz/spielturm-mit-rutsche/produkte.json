@@ -1,0 +1,190 @@
+{
+  "slug": "spielturm-mit-rutsche",
+  "criteria": [
+    { "key": "holz", "label": "Holz & Verarbeitung", "weight": 0.3, "description": "Holzart (Zeder, Kiefer/Fichte kesseldruckimprägniert), Pfostenstärke, Garantie auf Holzteile laut Hersteller." },
+    { "key": "sicherheit", "label": "Sicherheit & Verankerung", "weight": 0.25, "description": "Herstellerangabe zu EN 71, Bodenanker im Lieferumfang, Podesthöhe, Belastungsangaben, keine bekannten Warnungen." },
+    { "key": "ausstattung", "label": "Ausstattung", "weight": 0.25, "description": "Rutschenlänge, Zahl der Schaukeln, Kletterwand, Sandkasten, Dach." },
+    { "key": "platz", "label": "Platzbedarf & Aufbau", "weight": 0.2, "description": "Grundfläche (ohne Sicherheitsabstand), Aufbauaufwand, Eignung für normale Reihenhausgärten." }
+  ],
+  "priceTiers": [
+    { "tier": 1, "label": "bis ca. 500 €" },
+    { "tier": 2, "label": "ca. 500–800 €" },
+    { "tier": 3, "label": "über ca. 800 €" }
+  ],
+  "products": [
+    {
+      "rank": 1,
+      "label": "Beste Gesamtwahl",
+      "name": "AXI Malik Spielturm aus Holz mit 2 Schaukeln und grüner Rutsche",
+      "brand": "AXI",
+      "variant": "grüne Rutsche (auch blau, lila, grau erhältlich)",
+      "priceTier": 2,
+      "ratings": { "holz": 9, "sicherheit": 8.5, "ausstattung": 8, "platz": 7.5 },
+      "bestFor": "Familien, die einen langlebigen Zedernholz-Turm mit Doppelschaukel und mitgelieferten Bodenankern wollen, ohne in die Premiumklasse zu gehen.",
+      "fakten": [
+        { "text": "Podesthöhe 119 cm, Rutsche 220 cm, zwei Schaukeln, Sandkasten neben dem Turm mit überdachter Spielwand", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B0CZ5FP88L", "datum": "2026-10-08" },
+        { "text": "Aufstellmaß 345 x 336 x 269,5 cm; Altersempfehlung 3–10 Jahre; max. 50 kg je Kind", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B0CZ5D9T2C", "datum": "2026-10-08" },
+        { "text": "100 % FSC-zertifiziertes Zedernholz", "art": "Herstellerangabe", "quelle": "https://www.decathlon.de/p/mp/malik-spielturm-aus-holz-mit-2-schaukeln-rutsche-grun/8f5ac05e-c2b8-4ea1-b47a-bd0e4132e866/c9", "datum": "2026-10-08" },
+        { "text": "6 Bodenanker im Lieferumfang; 10 Jahre Herstellergarantie", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B0CZ5CYFFK", "datum": "2026-10-08" },
+        { "text": "AXI-Spieltürme mit CE-Zeichen, nach EN 71 geprüft und hergestellt", "art": "Herstellerangabe", "quelle": "https://www.decathlon.de/p/mp/malik-spielturm-aus-holz-mit-2-schaukeln-rutsche-grun/8f5ac05e-c2b8-4ea1-b47a-bd0e4132e866/c9", "datum": "2026-10-08" }
+      ],
+      "pros": ["Zedernholz (FSC) statt imprägnierter Kiefer", "Doppelschaukel und 220-cm-Rutsche", "Bodenanker schon dabei", "10 Jahre Garantie laut Hersteller"],
+      "cons": ["Keine echte Kletterwand (nur Leiter und Spielwand)", "Kein unabhängiger Test", "Listings teils fehlerhaft (falscher Modellname, Sitzanzahl) – Variante prüfen"],
+      "specs": { "Podesthöhe": "119 cm", "Rutsche": "220 cm", "Schaukeln": "2", "Maße": "345 x 336 x 269,5 cm", "Holz": "FSC-Zeder", "Alter (Hersteller)": "3–10 Jahre" },
+      "asin": "B0CZ5FP88L",
+      "query": "AXI Malik Spielturm grüne Rutsche 2 Schaukeln",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "AXI Malik Wooden Play Tower with Green Slide and 2 Swings (amazon.de/dp/B0CZ5FP88L)"
+    },
+    {
+      "rank": 2,
+      "label": "Bestes Preis-Leistungs-Verhältnis",
+      "name": "WICKEY Spielturm Klettergerüst FreeFlyer mit Schaukel & anthraziter Rutsche",
+      "brand": "WICKEY",
+      "variant": "anthrazite Rutsche (Modell 503080 auch mit blauer/roter Rutsche)",
+      "priceTier": 1,
+      "ratings": { "holz": 7, "sicherheit": 7.5, "ausstattung": 8, "platz": 8 },
+      "bestFor": "Klassischer Kletterturm mit Kletterwand, Rutsche, Schaukel und Sandkasten zum moderaten Preis für mittelgroße Gärten.",
+      "fakten": [
+        { "text": "Podesthöhe 120 cm, Wellenrutsche 220 cm mit Wasseranschluss, gerade Kletterwand plus schräge Kletterleiter, Sandkasten (ca. 70 kg Sand), Planendach", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B09296X6XQ", "datum": "2026-10-08" },
+        { "text": "Maße 295 x 340 x 260 cm, Altersempfehlung ab 3 Jahren", "art": "Händlerangabe", "quelle": "https://www.kaufland.de/product/301101160/", "datum": "2026-10-08" },
+        { "text": "Entwickelt gemäß DIN EN 71; Holz kesseldruckimprägniert, kein Anstrich nötig; Verankerung mit einbetonierten Bodenankern vorgeschrieben (separat erhältlich)", "art": "Herstellerangabe", "quelle": "https://wickey.ie/climbing-frame-freeflyer", "datum": "2026-10-08" },
+        { "text": "Zweite Schaukel nicht nachrüstbar", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B00BPRD2CA", "datum": "2026-10-08" },
+        { "text": "Bei Decathlon (Verkäufer WICKEY) 439 € bei UVP 469 € – Preisklasse unter 500 €", "art": "Händlerangabe", "quelle": "https://www.decathlon.de/brands/wickey?from=120", "datum": "2026-10-08" }
+      ],
+      "pros": ["Kletterwand, Rutsche, Schaukel und Sandkasten in einem", "Rutsche mit Wasseranschluss", "Kompakter als die Konkurrenz mit Doppelschaukel"],
+      "cons": ["Nur eine Schaukel, keine zweite nachrüstbar", "Bodenanker kosten extra (Garantie laut Hersteller an Anker gebunden)", "Löcher teils nicht vorgebohrt, Aufbau ca. 5 Std. zu zweit (Kundenberichte)"],
+      "specs": { "Podesthöhe": "120 cm", "Rutsche": "220 cm", "Schaukeln": "1", "Maße": "295 x 340 x 260 cm", "Holz": "Fichte/Kiefer, kesseldruckimprägniert", "Alter (Hersteller)": "ab 3 Jahren" },
+      "asin": "B09296X6XQ",
+      "query": "WICKEY FreeFlyer Spielturm",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "WICKEY FreeFlyer Play Tower Climbing Frame with Swing & Anthracite Slide, Outdoor Children's Climbing Tower with Sandpit, Ladder & Play Accessories for the Garden (amazon.de/dp/B09296X6XQ)"
+    },
+    {
+      "rank": 3,
+      "label": "Premium-Wahl (mit Doppelschaukel und Kletterwand)",
+      "name": "Backyard Discovery Northbrook Spielturm aus Holz",
+      "brand": "Backyard Discovery",
+      "variant": "Northbrook (Zedernholz)",
+      "priceTier": 3,
+      "ratings": { "holz": 9, "sicherheit": 7.5, "ausstattung": 9.5, "platz": 5.5 },
+      "bestFor": "Große Gärten und mehrere Kinder: Zedernholz-Spielplatz mit Kletterwand, Hangelleiter, zwei Schaukeln, Sandkasten und Picknicktisch.",
+      "fakten": [
+        { "text": "100 % Zedernholz; Podesthöhe 122 cm; Rutsche 244 cm; Sandkasten (ca. 380 kg Sand); zwei Schaukeln, Hangelleiter, Kletterwand-Aufstieg", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B0761SBQ8Q", "datum": "2026-10-08" },
+        { "text": "Maße 439 x 430 x 300 cm; für Kinder von 3 bis 10 Jahren; bis zu 9 Kinder gleichzeitig; 68 kg je Kind bei Einzelnutzung", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B0761SBQ8Q", "datum": "2026-10-08" },
+        { "text": "Herstellergarantie 2 Jahre", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B0761SBQ8Q", "datum": "2026-10-08" },
+        { "text": "Wird bei OBI als „Spielturm Northbrook“ (Zedernholz, mit Kletterwand) verkauft", "art": "Händlerangabe", "quelle": "https://www.obi.de/p/2948743/spielturm-northbrook", "datum": "2026-10-08" }
+      ],
+      "pros": ["Witterungsbeständiges Zedernholz", "Sehr umfangreiche Ausstattung inkl. Kletterwand und Hangelleiter", "Hohe Belastbarkeit für mehrere Kinder"],
+      "cons": ["Großer Platzbedarf (über 4 x 4 m plus Sicherheitsabstand)", "Nur 2 Jahre Garantie", "Wenige Amazon-Bewertungen (ca. 12)"],
+      "specs": { "Podesthöhe": "122 cm", "Rutsche": "244 cm", "Schaukeln": "2", "Maße": "439 x 430 x 300 cm", "Holz": "Zeder", "Alter (Hersteller)": "3–10 Jahre" },
+      "asin": "B0761SBQ8Q",
+      "query": "Backyard Discovery Northbrook Spielturm",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "Backyard Discovery Northbrook Wooden Play Tower, Playground for Children with Slide, Sandpit, Swing and Picnic Table, Swing Set for the Garden (amazon.de/dp/B0761SBQ8Q)"
+    }
+  ],
+  "top5": [
+    {
+      "name": "PolarPlay Spielturm Frida aus Holz in Grün, Kinderschaukel",
+      "warum": "Spielturm mit Doppelschaukel und Kletterwand: Spielhaus, Doppelschaukel, Rutsche und Kletterwand in einem.",
+      "fakten": [
+        { "text": "Spielhaus, Doppelschaukel, Rutsche 220 cm, Kletterwand; Plattform 120 cm; Maße 468 x 414 x 260 cm; Schaukel max. 50 kg", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B0D4F6XC32", "datum": "2026-10-08" }
+      ],
+      "asin": "B0D4F6XC32",
+      "query": "PolarPlay Spielturm Frida",
+      "where": null
+    },
+    {
+      "name": "Backyard Discovery Spielturm Belmont aus Holz",
+      "warum": "Spielturm aus Zedernholz, günstiger als der Northbrook: überdachtes Podest, 244-cm-Wellenrutsche, zwei Schaukeln, Trapezstange, Sandkasten, Picknicktisch.",
+      "fakten": [
+        { "text": "Rahmen aus Zedernholz; 244 cm Wellenrutsche, zwei Schaukeln, Trapezstange", "art": "Händlerangabe", "quelle": "https://www.decathlon.de/p/mp/belmont-spielturm-mit-doppelschaukel-und-rutsche-holz/ee31344b-55ec-4e96-9e5a-f85a0ccbed0f/c27", "datum": "2026-10-08" }
+      ],
+      "asin": "B07ZTVP2W2",
+      "query": "Backyard Discovery Belmont Spielturm",
+      "where": null
+    },
+    {
+      "name": "WICKEY TinyCabin Spielturm mit Schaukel & blauer Rutsche",
+      "warum": "Kompakter Spielturm für kleine Gärten: 90-cm-Podest, rund 7,1 m² Aufbaufläche, Schaukel und Sandkasten.",
+      "fakten": [
+        { "text": "260 x 273 x 220 cm, Aufbaufläche 7,10 m², Podesthöhe 90 cm, Sandkasten ca. 30 kg Sand; Altersempfehlung 3–5 Jahre", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B079ZYNFBS", "datum": "2026-10-08" }
+      ],
+      "asin": "B079ZYNFBS",
+      "query": "WICKEY TinyCabin Spielturm",
+      "where": null
+    },
+    {
+      "name": "FATMOOSE Spielturm Ritterburg TreasureTower Top XXL mit Schaukel & apfelgrüner Rutsche",
+      "warum": "Spielturm mit Sandkasten unter dem Podest (schattig im Sommer), 120-cm-Plattform und 220-cm-Rutsche.",
+      "fakten": [
+        { "text": "Plattform 120 cm, Wellenrutsche MaxiGlider 220 cm mit Wasseranschluss, Sandkasten, kesseldruckimprägniertes Massivholz", "art": "Händlerangabe", "quelle": "https://amazon.de/dp/B07MVFLMXW", "datum": "2026-10-08" },
+        { "text": "Bei FATMOOSE liegt der Sandkasten in der Regel unter dem Stelzenhaus", "art": "Bericht", "quelle": "https://www.vergleich.org/fatmoose-spielturm/", "datum": "2026-10-08" }
+      ],
+      "asin": "B07MVFLMXW",
+      "query": "FATMOOSE TreasureTower Top XXL",
+      "where": null
+    },
+    {
+      "name": "Wickey My First Playground 1 Kleinkind Spielturm mit grüner Rutsche",
+      "warum": "Niedriges Podest für die Kleinsten: zwei Podeste auf 60 cm, 120-cm-Rutsche, Krabbeltunnel mit Kletterwänden.",
+      "fakten": [
+        { "text": "Zwei Podeste in 60 cm Höhe, Rutsche 120 cm, Tunnel mit Kletterwänden, Picknicktisch; 403 x 138 x 189 cm; entwickelt nach DIN EN 71; kesseldruckimprägniertes Holz", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B0D5D7J71H", "datum": "2026-10-08" }
+      ],
+      "asin": "B0D5D7J71H",
+      "query": "Wickey My First Playground 1",
+      "where": null
+    }
+  ],
+  "tests": [],
+  "warnungen": [
+    "Kein unabhängiger Test (Stiftung Warentest, Öko-Test) zu Holz-Spieltürmen mit Rutsche gefunden; „Testsieger“-Seiten wie test-stiftung.de sind Affiliate-Vergleiche ohne eigene Tests (https://test-stiftung.de/?p=4015).",
+    "Safety Gate/RAPEX A12/01216/24: WICKEY „Smart Dash“ (Modell 614476), Schaukelgerüst mit Rutsche – ernstes Risiko (Verletzung, Einklemmen), gemeldet über Slowenien (https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/lesena-gugalnica-s-toboganom/). Betrifft nicht die empfohlenen Wickey-Modelle; Smart Dash nicht empfehlen.",
+    "Backyard Discovery: Rückruf 2021 (USA/Kanada) nur für Metall-A-Rahmen-Schaukeln Big/Little/Mini Brutus, nicht für Holz-Spieltürme (https://cpsc.gov/Recalls/2021/Leisure-Time-Products-Recalls-Brutus-Swing-Sets-Due-to-Injury-Hazard-Recall-Alert).",
+    "Für private Spieltürme gilt EN 71 (Spielzeug, Teil 8 für Schaukeln/Rutschen im Heimbereich); EN 1176 betrifft öffentliche Spielplätze. Alle EN-71-Angaben hier sind Herstellerangaben, keine geprüften Zertifikate.",
+    "Wickey/Fatmoose: Garantie (bis 10 Jahre auf Holz) laut Hersteller an Verankerung mit Bodenankern gebunden; Anker meist separat. Spieltürme müssen fest verankert werden.",
+    "Altersangaben: Fast alle Türme mit Rutsche ≥ 175 cm sind laut Hersteller erst ab 3 Jahren; Wickey SeaFlyer/MultiFlyer/Smart Cave ausdrücklich „nicht für Kinder unter 3 Jahren“."
+  ],
+  "verworfen": [
+    { "name": "Swing King Kinderspielturm Noa (CSV-Beispiel)", "grund": "Nur bei Bauhaus gefunden, nicht auf amazon.de; Bauhaus nicht als Awin-Händler freigeschaltet. Daten: 175-cm-Rutsche, 280 x 265 x 235 cm, 3–10 Jahre (https://www.bauhaus.info/spielhaeuser-spieltuerme/swing-king-kinderspielturm-noa/p/31656476). Gleichwertiger Ersatz: WICKEY FreeFlyer." },
+    { "name": "PolarPlay Spielturm Björn (CSV-Beispiel)", "grund": "Auf amazon.de vorhanden (z. B. B0D4F3Y1MJ, grün, Kinderschaukel), aber Kletterwand je nach Listing widersprüchlich angegeben, Holz unbehandelte Fichte, nicht vorgebohrt. Für „Doppelschaukel + Kletterwand“ stattdessen PolarPlay Frida gewählt, deren Listing alle drei Elemente nennt." },
+    { "name": "Spielturm Northbrook bei OBI (CSV-Beispiel)", "grund": "Nicht verworfen, sondern als Backyard Discovery Northbrook über Amazon (B0761SBQ8Q) in die Top 3 übernommen." },
+    { "name": "vidaXL Spielturm (B0BZJD9GP6)", "grund": "Austauschbare No-Name-Ware, Kundenberichte über schlechte Passgenauigkeit." },
+    { "name": "Douglasie-Spieltürme FWIKDUN/RCODSSK (B0GWHWHP7R, B0GXT6GR9V)", "grund": "Unbekannte Marke ohne Garantie-/Normangaben." },
+    { "name": "REBO Spielturm (B084YR4CXH)", "grund": "Derzeit nicht verfügbar." },
+    { "name": "AXI Timo Mini-Spielturm (Podest 58 cm, laut Händler ab 2 Jahren)", "grund": "Nicht auf amazon.de gefunden, nur Decathlon-Marktplatz; stattdessen Wickey My First Playground 1." },
+    { "name": "Gartenpirat Spielturm mit 60-cm-Podest (B08597HKS1)", "grund": "Kundenberichte über splitterndes Holz mittlerer Qualität." },
+    { "name": "WICKEY Smart Dash", "grund": "Safety-Gate-Meldung A12/01216/24." }
+  ],
+  "offen": [
+    "Keine unabhängigen Testergebnisse – Bewertungen sind rein redaktionell anhand von Hersteller-/Händlerangaben.",
+    "amazon.de-Seiten konnten nicht direkt abgerufen werden; ASINs und Titel stammen aus Suchtreffern der /dp/-Seiten. Verfügbarkeit vor Veröffentlichung kurz prüfen (v. a. Northbrook: nur 1 Angebot, ca. 909 €; Belmont).",
+    "AXI Malik: mehrere Farb-ASINs (grün B0CZ5FP88L, grau B0CZ5CYFFK, lila B0CZ56H24B, hellgrün B0CZ5CV1F2, B0CZ5D9T2C). Gewählt: grün. Angabe „6 Bodenanker inkl.“ stammt aus dem grauen Listing – für grün bestätigen.",
+    "Wickey My First Playground 1: keine Altersangabe des Herstellers gefunden – „ab 2 Jahren“ nicht belegbar; im Text nur „niedriges Podest (60 cm)“ nennen.",
+    "Northbrook: Podesthöhe 122 cm nur im Amazon-Listing, international ohne Angabe; Garantie 2 Jahre (Bunnings AU nennt 5 Jahre).",
+    "Safety-Gate-Datenbank direkt nicht abrufbar; Recherche nur über Websuche (Safety Gate, BAuA, Hersteller); produktwarnung.eu nicht gezielt geprüft – vor Veröffentlichung nachholen.",
+    "Awin: keine freigeschalteten Programme (API joined = leer) – alles über Amazon."
+  ],
+  "quellen": [
+    { "titel": "Amazon.de – AXI Malik grün", "url": "https://www.amazon.de/dp/B0CZ5FP88L" },
+    { "titel": "Amazon.de – AXI Malik grau", "url": "https://www.amazon.de/dp/B0CZ5CYFFK" },
+    { "titel": "Decathlon – AXI Malik", "url": "https://www.decathlon.de/p/mp/malik-spielturm-aus-holz-mit-2-schaukeln-rutsche-grun/8f5ac05e-c2b8-4ea1-b47a-bd0e4132e866/c9" },
+    { "titel": "Amazon.de – WICKEY FreeFlyer anthrazit", "url": "https://www.amazon.de/dp/B09296X6XQ" },
+    { "titel": "WICKEY – FreeFlyer (Hersteller)", "url": "https://wickey.ie/climbing-frame-freeflyer" },
+    { "titel": "Kaufland – WICKEY FreeFlyer", "url": "https://www.kaufland.de/product/301101160/" },
+    { "titel": "Amazon.de – Backyard Discovery Northbrook", "url": "https://www.amazon.de/dp/B0761SBQ8Q" },
+    { "titel": "OBI – Spielturm Northbrook", "url": "https://www.obi.de/p/2948743/spielturm-northbrook" },
+    { "titel": "Amazon.de – PolarPlay Frida", "url": "https://www.amazon.de/dp/B0D4F6XC32" },
+    { "titel": "Amazon.de – Backyard Discovery Belmont", "url": "https://www.amazon.de/dp/B07ZTVP2W2" },
+    { "titel": "Amazon.de – WICKEY TinyCabin", "url": "https://www.amazon.de/dp/B079ZYNFBS" },
+    { "titel": "Amazon.de – FATMOOSE TreasureTower Top XXL", "url": "https://amazon.de/dp/B07MVFLMXW" },
+    { "titel": "Amazon.de – Wickey My First Playground 1", "url": "https://www.amazon.de/dp/B0D5D7J71H" },
+    { "titel": "Bauhaus – Swing King Kinderspielturm Noa", "url": "https://www.bauhaus.info/spielhaeuser-spieltuerme/swing-king-kinderspielturm-noa/p/31656476" },
+    { "titel": "gov.si – Safety-Gate-Meldung Wickey Smart Dash", "url": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/lesena-gugalnica-s-toboganom/" },
+    { "titel": "CPSC – Rückruf Brutus-Schaukeln", "url": "https://cpsc.gov/Recalls/2021/Leisure-Time-Products-Recalls-Brutus-Swing-Sets-Due-to-Injury-Hazard-Recall-Alert" }
+  ]
+}

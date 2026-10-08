@@ -1,0 +1,198 @@
+{
+  "slug": "deckenschaukel",
+  "stand": "2026-10-08",
+  "hinweisRecherche": "WebFetch/curl auf amazon.de und Händlerseiten waren in dieser Umgebung nicht erreichbar (DNS/Proxy 403). ASINs und Titel stammen ausschließlich aus WebSearch-Treffern (allowed_domains amazon.de) mit /dp/-URL und passendem Titel; Verfügbarkeit (aktiv/nicht verfügbar) konnte nicht live geprüft werden. Spezifikationen aus Händler-/Herstellertexten, als solche gekennzeichnet.",
+  "criteria": [
+    { "key": "sicherheit", "label": "Sicherheit & Prüfzeichen", "weight": 0.30, "description": "Sitzform (umschlossen, Gurt, Rückenlehne), Altersangabe des Herstellers, Prüfzeichen (GS/TÜV, EN 71-8), keine bekannten Rückrufe." },
+    { "key": "befestigung", "label": "Befestigung & Montagehinweise", "weight": 0.25, "description": "Wie die Schaukel an Decke oder Türrahmen kommt: mitgelieferte Aufhängung, Karabiner/Drehwirbel, klare Herstellerangaben zur Innenmontage." },
+    { "key": "verstellbarkeit", "label": "Seillänge & Platzbedarf", "weight": 0.25, "description": "Höhenverstellbare Seile (passt zu 2,40–2,60 m Raumhöhe), Größe des Sitzes bzw. Schwingbereichs im Zimmer." },
+    { "key": "belastbarkeit", "label": "Maximalbelastung", "weight": 0.20, "description": "Maximale Nutzlast laut Hersteller – Reserve für wachsende Kinder bzw. zwei Kinder." }
+  ],
+  "priceTiers": [
+    { "tier": 1, "label": "bis ca. 35 €" },
+    { "tier": 2, "label": "ca. 35–70 €" },
+    { "tier": 3, "label": "über ca. 70 €" }
+  ],
+  "products": [
+    {
+      "rank": 1,
+      "label": "Beste Gesamtwahl",
+      "name": "HUDORA Nestschaukel 90 cm, blau (72126)",
+      "brand": "HUDORA",
+      "variant": "Ø 90 cm, blau, Art.-Nr. 72126",
+      "priceTier": 2,
+      "ratings": { "sicherheit": 8.0, "befestigung": 7.5, "verstellbarkeit": 8.5, "belastbarkeit": 9.5 },
+      "gesamt": 8.3,
+      "bestFor": "Kinder ab 3 Jahren, Geschwister und alle, die im Kinderzimmer auch liegen und kuscheln wollen – kompakter als 110-cm-Nester.",
+      "fakten": [
+        { "text": "Durchmesser 90 cm, Seil zwischen 150 und 200 cm höhenverstellbar, belastbar bis 100 kg, geschlossene Sitzfläche für Kinder ab 3 Jahren.", "art": "Händlerangabe", "quelle": "https://www.amazon.de/HUDORA-Nestschaukel-blau-Garten-Schaukel-belastbar/dp/B0851M7FGC", "datum": "2026-10" },
+        { "text": "Eine Hudora-Nestschaukel-Variante (90 cm) wird bei Amazon ausdrücklich als für Outdoor- und Indoor-Nutzung geeignet bezeichnet.", "art": "Händlerangabe", "quelle": "https://www.amazon.de/HUDORA-Nestschaukel-90-Garten-Schaukel-belastbar/dp/B07SV86TS9", "datum": "2026-10" },
+        { "text": "Familie.de empfiehlt die Hudora-Nestschaukel für Familien mit mehreren Kindern (bis 100 kg, höhenverstellbare Seile); Nachteil laut Redaktion: Karabiner müssen separat gekauft werden.", "art": "Bericht", "quelle": "https://www.familie.de/testberichte/schaukel-fuer-kinder-so-findet-ihr-die-richtige-schaukel-fuer-jedes-alter/", "datum": "ca. 2024" },
+        { "text": "Hersteller-Warnhinweis: nur unter direkter Aufsicht Erwachsener benutzen.", "art": "Herstellerangabe", "quelle": "https://www.ebay.de/p/25080692200", "datum": "2026-10" }
+      ],
+      "pros": ["100 kg Traglast – auch für zwei Kinder oder Eltern", "Seile 150–200 cm verstellbar, passt zu normaler Raumhöhe", "Geschlossene Sitzfläche, Kind kann sitzen oder liegen", "Deutsche Marke (Remscheid), Ersatzteile verfügbar"],
+      "cons": ["Braucht Platz: 90 cm Nest plus Schwingbereich", "Deckenhaken und Karabiner nicht dabei (laut familie.de)", "Kein Prüfzeichen (GS/TÜV) in den gefundenen Angaben"],
+      "specs": { "Durchmesser": "90 cm", "Seilhöhe": "150–200 cm (Händlerangabe)", "Max. Belastung": "100 kg (Herstellerangabe)", "Alter": "ab 3 Jahren (Herstellerangabe)", "Material": "Kunststoff-Nest, Stahlrahmen, PP-Seile" },
+      "asin": "B0851M7FGC",
+      "query": "HUDORA Nestschaukel 90 blau 72126",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "Hudora 72126 Nest Swing, 90 cm, Blue Garden Swing, Maximum Load 100 kg (amazon.de/dp/B0851M7FGC, per WebSearch; Verfügbarkeit nicht live geprüft)"
+    },
+    {
+      "rank": 2,
+      "label": "Bestes Preis-Leistungs-Verhältnis",
+      "name": "HUDORA Brettschaukel Gummi, schwarz (72175)",
+      "brand": "HUDORA",
+      "variant": "Gummi-Sitzbrett schwarz, Art.-Nr. 72175",
+      "priceTier": 1,
+      "ratings": { "sicherheit": 7.0, "befestigung": 7.5, "verstellbarkeit": 8.0, "belastbarkeit": 9.5 },
+      "gesamt": 7.9,
+      "bestFor": "Kinder ab 3 Jahren, die schon sicher frei sitzen – kleinste Schaukel für enge Kinderzimmer, wächst bis ins Erwachsenenalter mit.",
+      "fakten": [
+        { "text": "Amazon-Titel: „TÜV Rheinland/GS geprüft“, Schaukelbrett aus Gummi mit höhenverstellbaren Seilen, für Kinder und Erwachsene bis 100 kg.", "art": "Händlerangabe", "quelle": "https://www.amazon.de/72175-00-Schaukelsitz-Kinderschaukel-Gummischaukel/dp/B086ZFLFNX", "datum": "2026-10" },
+        { "text": "Sitzfläche ca. 38 × 17,5 cm, Seilhöhe 137–197 cm verstellbar, max. 100 kg, ab 3 Jahren; Seilverbindungen aus Polypropylen; nur für den Hausgebrauch.", "art": "Händlerangabe", "quelle": "https://www.galaxus.nl/en/s5/product/hudora-rubber-swing-black-swings-15855658", "datum": "2026-10" },
+        { "text": "Bauhaus nennt dieselben Maße und Seillängen sowie den Hinweis „nur für den häuslichen Gebrauch“.", "art": "Händlerangabe", "quelle": "https://www.bauhaus.info/schaukelsitze/hudora-brettschaukel/p/28535081", "datum": "2026-10" }
+      ],
+      "pros": ["Günstigste Lösung einer Marke mit GS-Hinweis", "Weicher Gummisitz – weniger Verletzungsrisiko als Holzbrett", "Sehr kompakt, wenig Platzbedarf", "Bis 100 kg, nutzbar bis ins Schulalter"],
+      "cons": ["Kein Halt für Kleinkinder (kein Gurt, keine Lehne)", "Deckenhaken/Karabiner separat nötig", "Ursprünglich als Outdoor-Schaukel vermarktet"],
+      "specs": { "Sitz": "ca. 38 × 17,5 cm, Gummi", "Seilhöhe": "137–197 cm (Händlerangabe)", "Max. Belastung": "100 kg (Herstellerangabe)", "Alter": "ab 3 Jahren (Herstellerangabe)", "Prüfzeichen": "TÜV Rheinland/GS laut Amazon-Titel" },
+      "asin": "B086ZFLFNX",
+      "query": "HUDORA Brettschaukel Gummi schwarz 72175",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "HUDORA Board Swing in Black – Outdoor Children's Swing Seat Made of Rubber – TÜV Rheinland/GS Tested … up to 100 kg (amazon.de/dp/B086ZFLFNX, per WebSearch)"
+    },
+    {
+      "rank": 3,
+      "label": "Beste Wahl ab 1 Jahr (Babyschaukel mit Rückenlehne)",
+      "name": "small foot Baby- und Kleinkindschaukel, beige (12800)",
+      "brand": "small foot",
+      "variant": "beige, Art.-Nr. 12800, EAN 4020972128003",
+      "priceTier": 2,
+      "ratings": { "sicherheit": 8.5, "befestigung": 6.5, "verstellbarkeit": 8.0, "belastbarkeit": 8.0 },
+      "gesamt": 7.8,
+      "bestFor": "Kleinkinder ab 12 Monaten, die frei sitzen können – ausdrücklich für den Innenbereich gemacht, wächst dank Wendekissen und Gurt mit.",
+      "fakten": [
+        { "text": "Empfohlen ab 12 Monaten, maximale Belastung 60 kg, 24 Monate Herstellergarantie.", "art": "Händlerangabe", "quelle": "https://alltron.ch/de/product/1850203", "datum": "2026-10" },
+        { "text": "Buchenholz und Stoff, abnehmbares Wendekissen, vier Querstreben, längenverstellbarer Gurt, höhenverstellbare Seile.", "art": "Herstellerangabe", "quelle": "https://www.babyartikel.de/prod/small-foot-baby-und-kleinkindschaukel", "datum": "2026-10" },
+        { "text": "Hersteller-Warnhinweise: nur für den Hausgebrauch und nur für den Innenbereich; Strangulationsgefahr durch lange Schnüre; nur unter Aufsicht Erwachsener.", "art": "Herstellerangabe", "quelle": "https://www.babyartikel.de/prod/small-foot-baby-und-kleinkindschaukel", "datum": "2026-10" }
+      ],
+      "pros": ["Ausdrücklich für drinnen ausgelegt", "Umschlossener Sitz mit Gurt und Rückenlehne", "60 kg Traglast – nutzbar bis ins Vorschulalter", "Deutscher Spielwarenanbieter, 24 Monate Garantie"],
+      "cons": ["Deckenhaken nicht im Lieferumfang", "Einzelne Kundenberichte über sich lösende Seile – regelmäßig prüfen", "EN-71-Angabe in den gefundenen Quellen nicht ausgewiesen"],
+      "specs": { "Material": "Buchenholz, Stoff", "Max. Belastung": "60 kg (Herstellerangabe)", "Alter": "ab 12 Monaten (Herstellerangabe)", "Nutzung": "nur innen (Herstellerangabe)", "Gurt": "längenverstellbar" },
+      "asin": "B09KNVS943",
+      "query": "small foot Babyschaukel beige 12800",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "small Foot 12800 Baby Swing Beige with Removable Reversible Cushion and Adjustable Strap for Babies and Toddlers from 12 Months (amazon.de/dp/B09KNVS943, per WebSearch; URL-Slug nennt 11940 – Titel passt aber zu 12800)"
+    }
+  ],
+  "top5": [
+    {
+      "name": "Gartenwelt Riegelsberger Türreck-Schaukelhalterung inkl. 2 Schaukelschellen (bis 25 kg)",
+      "warum": "Türrahmen statt Decke: Halterung für eine Baby-/Kleinkindschaukel im Türrahmen, laut Titel für innen und bis 25 kg – für Mietwohnungen, in denen nicht in die Decke gebohrt werden darf. Nur für leichte Babyschaukeln, nicht für Brett- oder Nestschaukeln.",
+      "fakten": [
+        { "text": "Amazon-Titel: „Türreck Klimmzugstange Schaukelhalterung inkl. 2 Schaukelschellen, Kinderschaukel-Halterung für innen, belastbar bis 25 kg für Babys & Kleinkinder“.", "art": "Händlerangabe", "quelle": "https://www.amazon.de/Gartenwelt-Riegelsberger-Schaukelhalterung-Schaukelschellen-Kinderschaukel-Halterung/dp/B084VTZ7DQ", "datum": "2026-10" },
+        { "text": "Riegelsberger-Schaukelschellen für Türreck-Stangen (ca. 25 mm) werden als nach EN 71-1/3/8 zertifiziert angeboten.", "art": "Händlerangabe", "quelle": "https://www.guenstiger.de/Preissuche/Schaukelhaken.html?mehr=11", "datum": "2026-10" }
+      ],
+      "asin": "B084VTZ7DQ",
+      "query": "Gartenwelt Riegelsberger Türreck Schaukelhalterung Schaukelschellen 25 kg",
+      "where": null
+    },
+    {
+      "name": "small foot Nestschaukel XL 110 (12002)",
+      "warum": "Nestschaukel für innen, größer und mit Stoffbezug: laut Händler für Innen- und Außenbereich, ab 3 Jahren – wenn im Spielzimmer Platz für 110 cm ist.",
+      "fakten": [
+        { "text": "Ab 3 Jahren, Ø 110 cm, max. Gewichtsbelastung 150 kg (Händlerdaten), für Innen- und Außenbereich beschrieben.", "art": "Händlerangabe", "quelle": "https://www.guenstiger.de/Produkt/Small_Foot/Nestschaukel_XL_12002.html", "datum": "2026-10" }
+      ],
+      "asin": "B0B42W2NTP",
+      "query": "small foot Nestschaukel XL 110 12002",
+      "where": null
+    },
+    {
+      "name": "MEGAVERSAL 16-teiliges Befestigungs-Set bis 250 kg (Edelstahl-Deckenhalterung mit Drehwirbel)",
+      "warum": "Deckenhaken-Set mit Drehwirbel, für Betondecke und Holzbalken: verschweißte Edelstahlplatte, 4 fischer Bolzenanker FAZ II für Vollbeton, 4 fischer Power-Fast-Holzschrauben, Drehwirbel und Sicherheitskarabiner.",
+      "fakten": [
+        { "text": "Inhalt laut Angebot: Edelstahl-Deckenhalterung, 4 × fischer Bolzenanker FAZ II (für Vollbetondecken), 4 × fischer Power-Fast-Holzschrauben, Edelstahl-Drehwirbel; belastbar bis 250 kg, innen und außen.", "art": "Händlerangabe", "quelle": "https://www.amazon.de/Premium-Edelstahl-Halterung-Befestigung-H%C3%A4ngesessel/dp/B0767NH1RW", "datum": "2026-10" }
+      ],
+      "asin": "B0767NH1RW",
+      "query": "MEGAVERSAL 16 teiliges Befestigungs-Set Hängesessel 250 kg",
+      "where": null
+    },
+    {
+      "name": "Gartenwelt Riegelsberger Premium Schaukelhaken Edelstahl, 60–140 mm, zum Durchschrauben (2 Stück)",
+      "warum": "Deckenhaken für sichtbare Holzbalken: wird durch den Balken geschraubt und mit Mutter gekontert – sicherer als ein eingedrehter Haken. Für Betondecken stattdessen das Set mit Bolzenankern (oben).",
+      "fakten": [
+        { "text": "Edelstahl-Schaukelhaken für Rund- und Vierkantholz 60–140 mm zum Durchschrauben, laut Titel für den öffentlichen Bereich; Angebot nennt eine TÜV-Prüfung nach EN 1176-1/-2.", "art": "Händlerangabe", "quelle": "https://www.amazon.de/Schaukelhaken-Edelstahl-%C3%B6ffentlich-Gartenwelt-Riegelsberger/dp/B01C8USO9S", "datum": "2026-10" }
+      ],
+      "asin": "B01C8USO9S",
+      "query": "Gartenwelt Riegelsberger Premium Schaukelhaken Edelstahl 60-140 mm",
+      "where": null
+    },
+    {
+      "name": "small foot Trapezschaukel mit Turnringen „Black Line“ (12409)",
+      "warum": "Für den Kletterhaken an der Decke: Holztrapez mit Turnringen – als Sitzschaukel oder Turnstange, ab 3 Jahren, bis 100 kg. Hängt an denselben Deckenhaken wie die Schaukel.",
+      "fakten": [
+        { "text": "Robuste Holzschaukel für Kinder und Erwachsene, ab 3 Jahren (Titel); bis 100 kg belastbar; Warnhinweise zu Strangulationsgefahr durch lange Schnüre, nur Hausgebrauch.", "art": "Händlerangabe", "quelle": "https://www.amazon.de/Trapezschaukel-Turnringen-Holzschaukel-Erwachsene-12409/dp/B0CQK4JWNZ", "datum": "2026-10" }
+      ],
+      "asin": "B0CQK4JWNZ",
+      "query": "small foot Trapezschaukel Turnringen Black Line 12409",
+      "where": null
+    }
+  ],
+  "tests": [
+    { "institut": "Stiftung Warentest / ÖKO-TEST", "heft": "–", "ergebnis": "Kein Test zu Kinder-, Baby- oder Indoor-Schaukeln gefunden (Stand 08.10.2026). Stiftung Warentest hat nur über Rückrufe berichtet (IKEA Gunggung, Mattel Rainforest).", "quelle": "https://www.test.de/Rueckruf-Ikea-Kinderschaukel-Gunggung-Abflug-programmiert-4754741-0/" },
+    { "institut": "familie.de (Redaktion, kein Labortest)", "heft": "Ratgeber „Schaukel für Kinder“, Datum unklar (ca. 2024)", "ergebnis": "Empfiehlt u. a. MAMOI-Babyschaukel (auch für die Wohnung) und Hudora-Nestschaukel (bis 100 kg, Karabiner separat).", "quelle": "https://www.familie.de/testberichte/schaukel-fuer-kinder-so-findet-ihr-die-richtige-schaukel-fuer-jedes-alter/" }
+  ],
+  "warnungen": [
+    "Rückrufe (alle älter, keine Top-3/Top-5-Produkte betroffen): IKEA Kleinkinderschaukel GUNGGUNG – Kunststoffschnalle der Längenverstellung brach (https://www.test.de/Rueckruf-Ikea-Kinderschaukel-Gunggung-Abflug-programmiert-4754741-0/); Lidl/Kaufland 3-in-1-Schaukel Playtive/Kidland – Sitz kann kippen, 07/2023 (https://www.infranken.de/deutschland/lidl-und-kaufland-rufen-3-in-1-kinder-schaukel-zurueck-verletzungsgefahr-art-5733359); Globus Baumarkt Kinderschaukel Adriatic Srl, EAN 8002936125316 – Einklemmgefahr (https://www.wochenblatt-reporter.de/c-ratgeber/globus-baumarkt-ruft-kinderschaukel-zurueck-einklemmrisiko_a873742); Aldi Süd Nestschaukel Flexxtrade Art. 51562 – Metallringe konnten sich lösen (https://www.leinetal24.de/verbraucher/rueckruf-aldi-sued-ruft-produkt-zurueck-wegen-verletzungsgefahr-zr-10318006.html); Fisher-Price Rainforest Babyschaukel – Einklemmgefahr (https://www.test.de/Mattel-warnt-vor-Babyschaukel-Verletzungsgefahr-bei-Drehungen-1544653-0/).",
+    "Safety Gate und produktwarnung.eu waren nicht direkt abrufbar; Prüfung nur über Suchtreffer/Presseberichte – vor Veröffentlichung einmal manuell gegenprüfen.",
+    "Norm: EN 71-8 regelt Aktivitätsspielzeug für den häuslichen Gebrauch (u. a. Schaukeln) für Kinder unter 14 Jahren; öffentliche Spielplätze/Kitas fallen unter EN 1176 (https://www.dinmedia.de/de/norm/din-en-71-8/115853818). Für keines der Top-3-Produkte wurde eine EN-71-8-Angabe in den Quellen gefunden – nur bei HUDORA Brettschaukel ein GS/TÜV-Hinweis im Amazon-Titel.",
+    "Statik: Rigips-/Gipskartondecken tragen nur leichte Lasten, Spanndecken gar keine – Haken müssen in Beton oder direkt in den Holzbalken (Bauhaus-Ratgeber Deckenhaken: https://www.bauhaus.info/deckenhaken/c/10004744). Schwingende Last erzeugt ein Mehrfaches des Körpergewichts; Dübel für die Decke und dynamische Last geeignet wählen (Forumsquelle, nur als Hinweis: https://www.bauexpertenforum.de/threads/kinderschaukel-an-trockenbaudecke-unmoeglich.100940/).",
+    "Klemm-Türrecks (Klimmzugstangen ohne Schrauben): Amazon-Rezensionen berichten von abgerutschten/heruntergefallenen Stangen mit Kind (z. B. Ultrasport https://www.amazon.de/Ultrasport-2-Wege-Klimmzugstange-individuell-einstellbar-Klimmzugstange/dp/B009VH0MA6). Nicht als Schaukelhalterung empfehlen; in der Beratung zu Verschraubung raten.",
+    "Alle Altersangaben sind Herstellerangaben; Schaukeln nur unter Aufsicht, lange Seile = Strangulationsgefahr (Warnhinweise small foot/HUDORA)."
+  ],
+  "verworfen": [
+    { "name": "HUDORA Babyschaukel höhenverstellbar 72112 (B08CBSYZJK)", "grund": "Laut Anleitung (Stand 05/17) für Gerüste ausgelegt; keine Herstelleraussage zur Deckenmontage innen; nur bis 25 kg und bis 36 Monate." },
+    { "name": "MAMOI Babyschaukel Holz (z. B. B085QFYP4G, B08KGH64WQ)", "grund": "Viele Varianten/ASINs mit abweichenden Angaben (20 vs. 25 kg, 6–36 vs. 8–36 Monate), keine EN-71-Bescheinigung auffindbar; solide Alternative, aber small foot mit klareren Herstellerangaben und 60 kg vorgezogen." },
+    { "name": "Love Gifts Babyschaukel Holz (B0CHT2HSJK u. a.)", "grund": "Traglast, Montageanleitung und Herkunft nicht verifizierbar." },
+    { "name": "Kidwood Cliff Babyschaukel (B0BMRZ65ZZ)", "grund": "Keine belastbaren Herstellerangaben (Traglast, Norm) gefunden." },
+    { "name": "HUDORA Nestschaukel Lounge 90 (B0BVM37XDL)", "grund": "Widersprüchliche Händlerangaben zu innen/außen; HUDORA bereits mit Nestschaukel 90 auf Platz 1 – für Top 5 small foot XL gewählt." },
+    { "name": "No-Name-Deckenhaken (BELLE VOUS, Relota, Newaner, efuturetime u. a.)", "grund": "Austauschbare Ware mit unplausiblen Traglastangaben (400–1270 kg), teils ohne Betondübel; MEGAVERSAL-Set mit fischer FAZ II bevorzugt." },
+    { "name": "GAH-Alberts Schaukelhaken 204525 (Einschraubhaken)", "grund": "Keine Traglastangabe; Rezension berichtet über ausgerissenes Gewinde im Balken." },
+    { "name": "Ultrasport/andere Klemm-Türrecks", "grund": "Nicht zum Schaukeln ausgelegt, Berichte über abrutschende Stangen." }
+  ],
+  "offen": [
+    "Keine Live-Prüfung der Amazon-Seiten möglich (WebFetch/curl blockiert): Verfügbarkeit aller ASINs vor Veröffentlichung kurz im Browser prüfen.",
+    "HUDORA Nestschaukel 90 hat mehrere ASINs (B0851M7FGC blau, B01E8PD1ZS, B07SV86TS9 pink, B0FJTTDJ7L). Gewählt: B0851M7FGC (Titel nennt 72126, 90 cm, blau, 100 kg). Falls nicht verfügbar: B01E8PD1ZS („Hudora 72126 Nestschaukel 90 cm“).",
+    "small foot 12800: URL-Slug von B09KNVS943 enthält „11940“, Titel aber „small Foot 12800 Baby Swing Beige“ – Variante im Browser bestätigen.",
+    "Gartenwelt Riegelsberger Türreck-Schaukelhalterung (B084VTZ7DQ): ob Klemm- oder Schraubmontage und welche Türbreiten, war nicht abrufbar – vor Text „ohne Bohren“ prüfen. Redaktionelle Empfehlung: Türrahmenlösung nur für leichte Babyschaukeln bis 25 kg.",
+    "Kein unabhängiger Test (Stiftung Warentest/ÖKO-TEST) vorhanden – Seite sollte das transparent sagen.",
+    "Kein Prüfzeichen/EN-71-8-Nachweis für HUDORA Nestschaukel 90 und small foot 12800 gefunden – ggf. Hersteller anfragen (small foot: kundenservice@small-foot.de).",
+    "Awin: keine freigeschalteten Programme – alle Produkte über Amazon; kein neuer Awin-Händler nötig."
+  ],
+  "quellen": [
+    { "titel": "familie.de – Schaukel für Kinder: So wählt ihr das perfekte Modell", "url": "https://www.familie.de/testberichte/schaukel-fuer-kinder-so-findet-ihr-die-richtige-schaukel-fuer-jedes-alter/" },
+    { "titel": "Amazon.de – Hudora 72126 Nestschaukel 90 cm blau", "url": "https://www.amazon.de/HUDORA-Nestschaukel-blau-Garten-Schaukel-belastbar/dp/B0851M7FGC" },
+    { "titel": "Amazon.de – HUDORA Brettschaukel Gummi schwarz (TÜV/GS)", "url": "https://www.amazon.de/72175-00-Schaukelsitz-Kinderschaukel-Gummischaukel/dp/B086ZFLFNX" },
+    { "titel": "Galaxus – HUDORA Gummischaukel 72175 Datenblatt", "url": "https://www.galaxus.nl/en/s5/product/hudora-rubber-swing-black-swings-15855658" },
+    { "titel": "Bauhaus – HUDORA Brettschaukel", "url": "https://www.bauhaus.info/schaukelsitze/hudora-brettschaukel/p/28535081" },
+    { "titel": "Amazon.de – small foot 12800 Babyschaukel beige", "url": "https://www.amazon.de/small-foot-11940-Kleinkindschaukel/dp/B09KNVS943" },
+    { "titel": "babyartikel.de – small foot Baby- und Kleinkindschaukel", "url": "https://www.babyartikel.de/prod/small-foot-baby-und-kleinkindschaukel" },
+    { "titel": "alltron.ch – small foot Babyschaukel 12800", "url": "https://alltron.ch/de/product/1850203" },
+    { "titel": "guenstiger.de – small foot Nestschaukel XL 12002", "url": "https://www.guenstiger.de/Produkt/Small_Foot/Nestschaukel_XL_12002.html" },
+    { "titel": "Amazon.de – MEGAVERSAL 16-teiliges Befestigungs-Set", "url": "https://www.amazon.de/Premium-Edelstahl-Halterung-Befestigung-H%C3%A4ngesessel/dp/B0767NH1RW" },
+    { "titel": "Amazon.de – Gartenwelt Riegelsberger Schaukelhaken Edelstahl", "url": "https://www.amazon.de/Schaukelhaken-Edelstahl-%C3%B6ffentlich-Gartenwelt-Riegelsberger/dp/B01C8USO9S" },
+    { "titel": "Amazon.de – Gartenwelt Riegelsberger Türreck-Schaukelhalterung", "url": "https://www.amazon.de/Gartenwelt-Riegelsberger-Schaukelhalterung-Schaukelschellen-Kinderschaukel-Halterung/dp/B084VTZ7DQ" },
+    { "titel": "Amazon.de – small foot Trapezschaukel Black Line 12409", "url": "https://www.amazon.de/Trapezschaukel-Turnringen-Holzschaukel-Erwachsene-12409/dp/B0CQK4JWNZ" },
+    { "titel": "Bauhaus – Deckenhaken (Ratgeber Deckenarten)", "url": "https://www.bauhaus.info/deckenhaken/c/10004744" },
+    { "titel": "DIN Media – DIN EN 71-8", "url": "https://www.dinmedia.de/de/norm/din-en-71-8/115853818" },
+    { "titel": "test.de – Rückruf IKEA Gunggung", "url": "https://www.test.de/Rueckruf-Ikea-Kinderschaukel-Gunggung-Abflug-programmiert-4754741-0/" },
+    { "titel": "test.de – Mattel warnt vor Babyschaukel", "url": "https://www.test.de/Mattel-warnt-vor-Babyschaukel-Verletzungsgefahr-bei-Drehungen-1544653-0/" },
+    { "titel": "infranken.de – Rückruf Lidl/Kaufland 3-in-1-Schaukel", "url": "https://www.infranken.de/deutschland/lidl-und-kaufland-rufen-3-in-1-kinder-schaukel-zurueck-verletzungsgefahr-art-5733359" },
+    { "titel": "wochenblatt-reporter.de – Globus ruft Kinderschaukel zurück", "url": "https://www.wochenblatt-reporter.de/c-ratgeber/globus-baumarkt-ruft-kinderschaukel-zurueck-einklemmrisiko_a873742" },
+    { "titel": "leinetal24.de – Aldi Süd Rückruf Nestschaukel", "url": "https://www.leinetal24.de/verbraucher/rueckruf-aldi-sued-ruft-produkt-zurueck-wegen-verletzungsgefahr-zr-10318006.html" },
+    { "titel": "Bauexpertenforum – Kinderschaukel an Trockenbaudecke", "url": "https://www.bauexpertenforum.de/threads/kinderschaukel-an-trockenbaudecke-unmoeglich.100940/" }
+  ]
+}
