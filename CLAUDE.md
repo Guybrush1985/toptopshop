@@ -2,7 +2,10 @@
 
 - **Briefing lesen:** `docs/BRIEFING.md` ist die verbindliche Grundlage (Positionierung, Seitenaufbau,
   SEO/GEO, Content-Qualität, Monetarisierung, Design, Recht, bisherige Entscheidungen).
-- **Neue Kategorie oder neuer Bereich:** Skill `neue-kategorie` verwenden (`.claude/skills/neue-kategorie/`).
+- **Neue Kategorie, neuer Bereich oder Nischen-/Trendsuche:** Skill `/kategorie-pipeline` verwenden – er ist der
+  Orchestrator des Agententeams (`.claude/agents/`: trend-scout, strukturierer, produkt-rechercheur, illustrator,
+  redakteur, pruefer). Der Nutzer spricht nur mit dem Orchestrator; Arbeitsdateien liegen in `research/`.
+  `neue-kategorie` leitet für Einzelkategorien dorthin weiter.
 - Antworten an den Nutzer auf Deutsch.
 
 - Statische Seite, gebaut mit `node build.mjs` (Ausgabe `dist/`). Inhalte: `src/content/categories/*.mjs`,

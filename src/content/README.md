@@ -55,8 +55,7 @@ KATEGORIE
 {
   rank: 1, label: "Beste Gesamtwahl",
   name: "…", brand: "…", variant: "…",
-  visual: { kind: "foam" | "drops" | "oilspray" | "lotion" | "gel" | "device" | "station" | "panel" | "canister"
-                | "mask" | "radio" | "handheld" | "pack" | "roll" | "lamp" | "stove" | "cylinder", tone: "forest" | "green" | "mint" },
+  visual: { kind: "…", tone: "forest" | "green" | "mint" },  // Symbolbild, Formen siehe unten
   image: { src, alt, width, height },   // optional: echtes Produktfoto statt Symbolbild
   priceTier: 1 | 2 | 3,                 // €, €€, €€€ – keine festen Preise (Amazon-Richtlinien)
   ratings: { <kriterium>: 0–10, … },    // Gesamtnote wird automatisch gewichtet berechnet
@@ -71,6 +70,18 @@ KATEGORIE
   // Nur Top 5: `where: "anbieter.de"` statt Link, wenn es keine Amazon-/Awin-Quelle gibt
 }
 ```
+
+### Symbolbilder (`visual.kind`)
+
+Definiert in `src/templates/visuals.mjs`; neue Formen ergänzt der Illustrator-Agent.
+
+- Flaschen & Geräte: `foam`, `drops`, `oilspray`, `lotion`, `gel`, `device`, `station`, `canister`, `mask`, `radio`,
+  `handheld`, `pack`, `roll`, `stove`, `cylinder`
+- Fahrräder: `longtail`, `box`, `trike`
+- Gegenstände (Set `OBJECTS`): `net`, `wall`, `trainer`, `machine`, `balls`, `desk`, `monitor`, `dock`, `keyboard`,
+  `mouse`, `lamp`, `webcam`, `screen`, `mic`, `mug`, `turf`, `tiles`, `cage`, `hoop`, `goal`, `fence`, `flood`,
+  `pingpong`, `shuffle`, `paddle`, `beanbag`, `chair`, `arcade`, `pinball`, `gametable`, `dart`, `wheel`, `vr`,
+  `projector`, `neon`, `panel`, `console`, `fridge`
 
 ### Textbausteine in `sections[].blocks`
 
