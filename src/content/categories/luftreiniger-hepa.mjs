@@ -11,7 +11,7 @@ export default {
 
   metaTitle: "Die 3 besten HEPA-Luftreiniger 2026 – H13-Filter im Vergleich",
   metaDescription:
-    "Die 3 besten Luftreiniger mit H13-HEPA-Filter 2026: Testergebnisse, Raumgröße, CADR, Lautstärke und Filterkosten – plus richtig einsetzen bei Rauch und Feinstaub.",
+    "Die 3 besten Luftreiniger mit H13-HEPA-Filter 2026: Raumgröße, CADR, Lautstärke, Sensoren und Filterwechsel – plus richtig einsetzen bei Rauch und Feinstaub.",
 
   eyebrow: "Krisenvorsorge · Luftfiltration",
   h1: "Die 3 besten HEPA-Luftreiniger 2026",
@@ -33,7 +33,7 @@ export default {
   ],
 
   method:
-    "Grundlage sind die Luftreiniger-Tests der Stiftung Warentest (Heft 3/2024; Aktualisierung Heft 5/2026, uns aus Berichten und Herstellerangaben bekannt), Herstellerangaben zu Filterklasse, CADR und Lautstärke sowie die Hinweise des Umweltbundesamts und des BBK zum Verhalten bei Rauch und Schadstoffen. Wir haben die Geräte nicht selbst getestet. Wir empfehlen ausschließlich Geräte, die bei Amazon erhältlich sind. Jedes Gerät wird in vier Kriterien von 0 bis 10 eingeordnet; die Gesamtnote ist der gewichtete Mittelwert.",
+    "Grundlage sind Herstellerangaben zu Filterklasse, CADR und Lautstärke sowie die Hinweise des Umweltbundesamts und des BBK zum Verhalten bei Rauch und Schadstoffen. Das Ergebnis der Stiftung Warentest für den Bosch Air 4000 (Heft 3/2024) geben wir so wieder, wie Bosch es in seinen Pressemitteilungen veröffentlicht hat. Wir haben die Geräte nicht selbst getestet. Wir empfehlen ausschließlich Geräte, die bei Amazon erhältlich sind. Jedes Gerät wird in vier Kriterien von 0 bis 10 eingeordnet; die Gesamtnote ist der gewichtete Mittelwert.",
 
   products: [
     {
@@ -70,7 +70,7 @@ export default {
       ratings: { filter: 8.5, raum: 8.0, betrieb: 8.5, preis: 8.0 },
       bestFor: "Allergiker & Schlafzimmer",
       verdict:
-        "Nach unserer Einschätzung fast gleichauf mit dem Bosch: laut Hersteller H13-Filter mit Aktivkohle, Lasersensor und ein leiser Nachtbetrieb. Laut Berichten über den Luftreiniger-Test der Stiftung Warentest (Heft 3/2024) ebenfalls mit „gut“ bewertet.",
+        "Nach unserer Einschätzung fast gleichauf mit dem Bosch: laut Hersteller H13-Filter mit Aktivkohle, Lasersensor und ein leiser Nachtbetrieb. Aus unserer Sicht vor allem für Schlafzimmer und Allergiker interessant, die ein übersichtliches Display schätzen.",
       features: [
         "HEPA-13-Filter mit antibakterieller Aktivkohleschicht, laut Kärcher über 99,95 % der Partikel ab 0,3 µm",
         "Luftdurchsatz 320 m³/h, laut Hersteller für Räume bis 60 m² (Herstellerangabe)",
@@ -78,7 +78,7 @@ export default {
       ],
       pros: ["Leiser Nachtmodus (Herstellerangabe)", "Übersichtliches Display mit Filteranzeige", "Kompakt (rund 26 × 26 × 48 cm)"],
       cons: ["Kärcher nennt den Luftdurchsatz, keinen CADR-Wert – schwerer vergleichbar", "Ersatzfilter vergleichsweise teuer"],
-      specs: { filter: "HEPA 13 + Aktivkohle", cadr: "320 m³/h Luftdurchsatz", raum: "bis 60 m²", leise: "29–53 dB", sensor: "Lasersensor, Automatik", test: "„gut“ (laut Berichten, Stiftung Warentest 3/2024)" },
+      specs: { filter: "HEPA 13 + Aktivkohle", cadr: "320 m³/h Luftdurchsatz", raum: "bis 60 m²", leise: "29–53 dB", sensor: "Lasersensor, Automatik", test: "keine Angabe" },
       asin: "B0BJ66LVXD",
       query: "Kärcher Luftreiniger AF 30",
     },
@@ -153,7 +153,7 @@ export default {
           { quick: "Für die meisten Haushalte ist der [Bosch Air 4000](produkt:1) die beste Wahl: H13-Filter, CADR 300 m³/h laut Hersteller und Testsieger der Stiftung Warentest (Heft 3/2024). Der [Kärcher AF 30](produkt:2) ist eine leise Alternative, der [Bosch Air 6000](produkt:3) schafft große Räume bis 125 m²." },
           { first: "Ein Luftreiniger saugt Raumluft an, drückt sie durch mehrere Filterschichten und gibt sie gereinigt wieder ab. Entscheidend ist die HEPA-Stufe: Ein Filter der Klasse H13 hält nach der Norm EN 1822 mindestens 99,95 Prozent der Partikel in der am schwersten zu filternden Größe zurück, H14 sogar 99,995 Prozent. Damit kann ein intakter, dicht sitzender Filter einen großen Teil von Feinstaub, Rußpartikeln aus Rauch, Pollen sowie Aerosolen, an denen Viren und Bakterien haften können, aus der Luft holen – wie viel im Raum ankommt, hängt von Gerät, Luftleistung und Raum ab." },
           { p: "Für die Krisenvorsorge ist vor allem ein Szenario wichtig: Rauch von einem Großbrand, einem Wald- oder Industriebrand. Behörden raten dann, im Haus zu bleiben und Fenster und Türen zu schließen. Trotzdem dringt Rauch über Ritzen und Lüftungen ein – ein Luftreiniger kann diese Partikel wieder aus der Luft holen. Gegen Gase wie Kohlenmonoxid hilft er dagegen nicht, gegen Gerüche und manche Schadstoffe nur so weit, wie die Aktivkohle reicht." },
-          { p: "Unsere Gesamtwahl ist der Bosch Air 4000, weil er Filterleistung, Luftleistung und Preis am besten ausbalanciert. In Heft 3/2024 der Stiftung Warentest war er Testsieger mit dem Gesamturteil „gut“ (2,3). Laut Bosch hat er diesen Platz auch nach der Aktualisierung des Tests in Heft 5/2026 behalten, in der er selbst nicht erneut geprüft wurde. Der Kärcher AF 30 wurde laut Berichten in Heft 3/2024 ebenfalls mit „gut“ bewertet." },
+          { p: "Unsere Gesamtwahl ist der Bosch Air 4000, weil er Filterleistung, Luftleistung und Preis am besten ausbalanciert. Laut Stiftung Warentest (Heft 3/2024) war er Testsieger mit dem Gesamturteil „gut“ (2,3), wie Bosch in einer Pressemitteilung berichtet. Laut Bosch hat er diesen Platz auch nach der Aktualisierung des Tests in Heft 5/2026 behalten, in der er selbst nicht erneut geprüft wurde. Den Kärcher AF 30 sehen wir als leise Alternative mit Lasersensor und Display; seine Einordnung beruht auf Herstellerangaben und unserer redaktionellen Einschätzung." },
           { figure: "scores" },
           { callout: { title: "Wichtig", warn: true, text: "Ein Luftreiniger ersetzt keine Evakuierung und keinen Rauchwarnmelder. Bei Brandrauch in der eigenen Wohnung gilt: raus, Tür schließen, 112 rufen. Kohlenmonoxid filtert kein Luftreiniger – dafür braucht es einen CO-Melder. Bei Asthma, Allergien oder Atemwegserkrankungen ersetzt ein Luftreiniger keine ärztliche Beratung oder Behandlung." } },
           { callout: { title: "Sicher aufstellen", text: "Gerät standsicher und außer Reichweite spielender Kinder aufstellen, Kabel nicht als Stolperfalle verlegen, Lufteinlass und -auslass frei halten. Gebrauchsanweisung des Herstellers beachten." } },
@@ -180,7 +180,7 @@ export default {
             },
           },
           { h3: "Lautstärke, Sensor und Folgekosten" },
-          { p: "Luftreiniger laufen am besten dauerhaft. Ein Schlafmodus unter 30 dB(A) und eine Automatik mit Partikelsensor sind deshalb wichtiger als App-Funktionen. Rechne die Ersatzfilter mit ein: Laut Berichten über den Test der Stiftung Warentest (Heft 3/2024) liegen die jährlichen Betriebskosten aus Strom und Filtern je nach Gerät grob zwischen rund 65 und 175 Euro. Nach starkem Rauch kann ein Filter schneller verbraucht sein – ein Ersatzfilter gehört deshalb in den Vorrat." },
+          { p: "Luftreiniger laufen am besten dauerhaft. Ein Schlafmodus unter 30 dB(A) und eine Automatik mit Partikelsensor sind deshalb wichtiger als App-Funktionen. Rechne die Ersatzfilter mit ein: Je nach Gerät, Filterpreis und Wechselintervall können die laufenden Kosten aus Strom und Filtern spürbar ausfallen. Prüfe vor dem Kauf, was ein Ersatzfilter kostet und wie oft der Hersteller einen Wechsel empfiehlt. Nach starkem Rauch kann ein Filter schneller verbraucht sein – ein Ersatzfilter gehört deshalb in den Vorrat." },
         ],
       },
       {
@@ -211,7 +211,7 @@ export default {
     items: [
       { name: "Bosch Air 1000", for: "Kleine Räume bis ca. 23 m²", text: "CADR 100 m³/h laut Hersteller – genug für ein Kinderzimmer oder einen kleinen, innenliegenden Schutzraum.", asin: "B0F9FFGZR8", query: "Bosch Air 1000 Luftreiniger" },
       { name: "Levoit Core 300S", for: "Schlafzimmer mit App", text: "Kompaktes Gerät, laut Hersteller mit H13-Filter (Ersatzfilter Core 300-RF), Laser-Sensor und App-Steuerung – günstig, aber mit weniger Luftleistung als die Top 3.", asin: "B08L73QL1V", query: "Levoit Core 300S Luftreiniger" },
-      { name: "Bosch Air 4000i", for: "Wohnzimmer mit Smart Home", text: "Technik des Air 4000 (Testsieger der Stiftung Warentest, Heft 3/2024), laut Hersteller zusätzlich mit App- und Sprachsteuerung – sinnvoll, wenn du die Luftqualität aus der Ferne sehen willst.", asin: "B0DLKXZRQH", query: "Bosch Air 4000i Luftreiniger" },
+      { name: "Bosch Air 4000i", for: "Wohnzimmer mit Smart Home", text: "Schwestermodell des Air 4000, laut Hersteller zusätzlich mit App- und Sprachsteuerung – sinnvoll, wenn du die Luftqualität aus der Ferne sehen willst.", asin: "B0DLKXZRQH", query: "Bosch Air 4000i Luftreiniger" },
       { name: "Kärcher Luftreiniger AF 50", for: "Große Räume bis ca. 100 m²", text: "Größerer Bruder des AF 30, laut Hersteller mit 520 m³/h Luftdurchsatz und H13-Filter – eine Alternative zum Bosch Air 6000.", asin: "B0BJ67PGJX", query: "Kärcher Luftreiniger AF 50" },
       { name: "Bosch Ersatzfilter Air 4000(i)", for: "Vorrat für den Ernstfall", text: "Nach starkem Rauch ist der Filter schnell verbraucht. Ein originaler Ersatzfilter im Schrank hält den Luftreiniger einsatzbereit.", asin: "B0B7BV1YDS", query: "Bosch Air 4000 Ersatzfilter original" },
     ],
@@ -239,7 +239,7 @@ export default {
             facts: [
               { value: "99,95 %", label: "Mindestabscheidung eines H13-Filters nach EN 1822" },
               { value: "300 m³/h", label: "CADR des Bosch Air 4000 (Herstellerangabe)" },
-              { value: "65–175 €", label: "jährliche Betriebskosten laut Berichten über den Test der Stiftung Warentest (3/2024)" },
+              { value: "8–12 Monate", label: "Filterwechsel-Intervall beim Kärcher AF 30 je nach Nutzung (Herstellerangabe)" },
             ],
           },
           { h3: "Pflege und Filterwechsel" },
@@ -250,7 +250,7 @@ export default {
   },
 
   faqs: [
-    { q: "Welcher Luftreiniger ist der beste?", a: "Unsere beste Gesamtwahl ist der Bosch Air 4000 mit H13-Filter und 300 m³/h CADR; er war Testsieger der Stiftung Warentest in Heft 3/2024 (Gesamturteil „gut“). Als Alternative empfehlen wir den Kärcher AF 30, für große Räume den Bosch Air 6000." },
+    { q: "Welcher Luftreiniger ist der beste?", a: "Unsere beste Gesamtwahl ist der Bosch Air 4000 mit H13-Filter und 300 m³/h CADR; laut Stiftung Warentest (Heft 3/2024) war er Testsieger mit dem Gesamturteil „gut“, wie Bosch mitteilt. Als Alternative empfehlen wir den Kärcher AF 30, für große Räume den Bosch Air 6000." },
     { q: "Was ist der Unterschied zwischen H13 und H14?", a: "Beide sind HEPA-Klassen nach EN 1822. Ein H13-Filter hält mindestens 99,95 Prozent der am schwersten filterbaren Partikel zurück, ein H14-Filter mindestens 99,995 Prozent. Für Wohnräume reicht H13; wichtiger ist, dass die Luftleistung zur Raumgröße passt." },
     { q: "Hilft ein Luftreiniger gegen Rauch?", a: "Gegen Rauchpartikel und Ruß kann ein passend dimensionierter HEPA-Luftreiniger die Belastung deutlich senken, gegen Gerüche teilweise über die Aktivkohle. Gegen Kohlenmonoxid und andere Gase schützt er nicht. Bei einem Brand in der eigenen Wohnung gilt immer: Wohnung verlassen und 112 rufen." },
     { q: "Filtert ein Luftreiniger Viren?", a: "Ein H13-Filter hält auch sehr kleine Aerosolpartikel zurück, an denen Viren haften, und kann ihre Konzentration in der Raumluft senken. Einen Schutz vor Ansteckung garantiert er nicht; er ersetzt kein Lüften, keine anderen Schutzmaßnahmen und keine ärztliche Beratung." },

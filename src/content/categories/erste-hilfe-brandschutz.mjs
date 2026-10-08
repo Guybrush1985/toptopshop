@@ -26,7 +26,7 @@ export default {
   comparisonTitle: "Erste-Hilfe-Koffer, Schaumlöscher und Löschspray im Vergleich",
 
   criteria: [
-    { key: "wirkung", label: "Wirkung im Ernstfall", weight: 0.35, description: "Inhalt nach Norm bzw. Löschleistung und Brandklassen, Testergebnisse." },
+    { key: "wirkung", label: "Wirkung im Ernstfall", weight: 0.35, description: "Inhalt nach Norm bzw. Löschleistung und Brandklassen, Normen." },
     { key: "bedienung", label: "Bedienung für Laien", weight: 0.25, description: "Wie einfach das Produkt unter Stress richtig benutzt wird." },
     { key: "ausstattung", label: "Ausstattung & Norm", weight: 0.15, description: "DIN-Norm, Prüfplakette, Halterung, Haltbarkeit." },
     { key: "preis", label: "Preis-Leistung", weight: 0.25, description: "Anschaffung und Folgekosten (Wartung, Nachfüllen)." },
@@ -93,7 +93,7 @@ export default {
       ratings: { wirkung: 7.0, bedienung: 9.5, ausstattung: 8.0, preis: 8.5 },
       bestFor: "Küche, Grill, Wohnmobil, Auto",
       verdict:
-        "Klein, leicht, sofort einsatzbereit: Das Löschspray ist laut ABUS für Brände der Klassen A und F zugelassen – also auch für kleine Fettbrände. Im Ratgeber der Stiftung Warentest gehörten 0,6-l-Sprays von Abus und Prymos zu den empfehlenswerten Geräten; ob das aktuelle Modell AFS625 geprüft wurde, geht daraus nicht hervor.",
+        "Klein, leicht, sofort einsatzbereit: Das Löschspray ist laut ABUS für Brände der Klassen A und F zugelassen – also auch für kleine Fettbrände. Aus unserer Sicht eine sinnvolle Ergänzung zum großen Löscher für Küche und Auto; eine unabhängige Bewertung genau dieses Modells können wir nicht nennen.",
       features: [
         "Brandklassen 5A und 5F (Herstellerangabe), laut Anbieter bis 1.000 V mit 1 m Abstand",
         "Reichweite rund 3 m, Sprühzeit etwa 25 Sekunden, PFAS- und fluorfrei (Herstellerangabe)",

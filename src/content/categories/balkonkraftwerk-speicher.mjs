@@ -34,12 +34,12 @@ export default {
   criteria: [
     { key: "notstrom", label: "Notstromfunktion", weight: 0.3, description: "Leistung der Off-Grid-Steckdose, Laden per Solar während des Ausfalls, Bedienung im Notfall." },
     { key: "speicher", label: "Speicher", weight: 0.25, description: "Nutzbare Kapazität, Erweiterbarkeit, Zyklen und Garantie." },
-    { key: "alltag", label: "Alltag & Ersparnis", weight: 0.25, description: "Solareingang, MPPT-Tracker, Steuerung nach Verbrauch (Smart Meter), App, Testergebnisse." },
+    { key: "alltag", label: "Alltag & Ersparnis", weight: 0.25, description: "Solareingang, MPPT-Tracker, Steuerung nach Verbrauch (Smart Meter), App." },
     { key: "preis", label: "Preis-Leistung", weight: 0.2, description: "Preis pro Kilowattstunde Speicher und Ausstattung." },
   ],
 
   method:
-    "Grundlage sind Herstellerangaben zu Kapazität, Solareingang und Off-Grid-Leistung, Berichte über den Speichertest der Stiftung Warentest (Heft 4/2026; uns nur aus Sekundärquellen bekannt), Ratgeber zum Notstrombetrieb von Balkonkraftwerken sowie die seit 2024 geltenden Regeln aus dem Solarpaket I. Wir haben die Geräte nicht selbst getestet; technische Daten sind Herstellerangaben. Wir empfehlen ausschließlich Geräte, die bei Amazon erhältlich sind. Jedes Gerät wird in vier Kriterien von 0 bis 10 eingeordnet; die Gesamtnote ist der gewichtete Mittelwert.",
+    "Grundlage sind Herstellerangaben zu Kapazität, Solareingang und Off-Grid-Leistung, Herstellervergleiche und Ratgeber zum Notstrombetrieb von Balkonkraftwerken sowie die seit 2024 geltenden Regeln aus dem Solarpaket I. Wir haben die Geräte nicht selbst getestet; technische Daten sind Herstellerangaben. Wir empfehlen ausschließlich Geräte, die bei Amazon erhältlich sind. Jedes Gerät wird in vier Kriterien von 0 bis 10 eingeordnet; die Gesamtnote ist der gewichtete Mittelwert.",
 
   products: [
     {
@@ -53,7 +53,7 @@ export default {
       ratings: { notstrom: 8.5, speicher: 9.5, alltag: 9.0, preis: 7.0 },
       bestFor: "Großer Speicher mit Notstrom-Reserve",
       verdict:
-        "Nach unserer Einschätzung der vielseitigste Speicher: laut Hersteller 2,7 kWh, erweiterbar auf über 16 kWh, vier MPPT-Eingänge und eine 1.200-W-Off-Grid-Steckdose. Laut Berichten über den Speichertest der Stiftung Warentest (Heft 4/2026) schnitt er unter den geprüften Geräten am besten ab.",
+        "Nach unserer Einschätzung der vielseitigste Speicher: laut Hersteller 2,7 kWh, erweiterbar auf über 16 kWh, vier MPPT-Eingänge und eine 1.200-W-Off-Grid-Steckdose. Aus unserer Sicht bietet er die größte Reserve für längere Stromausfälle, kostet dafür aber am meisten.",
       features: [
         "2,688 kWh LiFePO4, mit bis zu fünf Erweiterungsakkus BP2700 auf 16,128 kWh ausbaubar (Herstellerangabe)",
         "Bidirektionaler Wechselrichter mit 1.200 W, vier MPPT-Eingänge (eine Einheit bis 1.800 W PV, Herstellerangabe); die Einspeisung ins Hausnetz muss auf das zulässige Maß begrenzt sein",
@@ -61,7 +61,7 @@ export default {
       ],
       pros: ["Größte Kapazität und Erweiterbarkeit im Vergleich", "Notstromsteckdose integriert", "Laut Anker 10 Jahre Garantie"],
       cons: ["Teuerster Speicher im Vergleich", "Kühlschrank an der Off-Grid-Steckdose laut Anker nicht unterstützt", "Solarmodul-Verlängerungskabel separat"],
-      specs: { kapazitaet: "2,688 kWh (bis 16,1 kWh)", notstrom: "1.200 W Off-Grid-Steckdose", pv: "4 MPPT, bis 1.800 W je Einheit", erweiterbar: "bis 5 × BP2700", test: "laut Berichten bestes Gerät bei Stiftung Warentest 4/2026" },
+      specs: { kapazitaet: "2,688 kWh (bis 16,1 kWh)", notstrom: "1.200 W Off-Grid-Steckdose", pv: "4 MPPT, bis 1.800 W je Einheit", erweiterbar: "bis 5 × BP2700", test: "–" },
       asin: "B0FF4SLXHN",
       query: "Anker SOLIX Solarbank 3 E2700 Pro",
     },
@@ -118,7 +118,6 @@ export default {
     { key: "notstrom", label: "Notstrom" },
     { key: "pv", label: "Solareingang" },
     { key: "erweiterbar", label: "Erweiterbar" },
-    { key: "test", label: "Unabhängiger Test" },
   ],
 
   figures: {
@@ -158,7 +157,7 @@ export default {
           { quick: "Die [Anker SOLIX Solarbank 3 E2700 Pro](produkt:1) ist nach unserer Einschätzung die beste Wahl: großer, erweiterbarer Speicher und 1.200-W-Notstromsteckdose. Günstiger ist der [EcoFlow STREAM Ultra](produkt:2), eine Alternative mit 1.000 W Off-Grid-Ausgang ist der [Zendure SolarFlow 800 Pro](produkt:3)." },
           { first: "Laut Marktstammdatenregister sind in Deutschland inzwischen weit über eine Million Balkonkraftwerke gemeldet. Mit einem Speicher nutzen sie den Solarstrom auch abends und nachts, statt ihn tagsüber ins Netz zu verschenken. Für die Krisenvorsorge kommt ein zweiter Nutzen hinzu: Viele neue Speicher haben eine eigene Steckdose, die auch ohne Netz Strom liefert." },
           { p: "Das ist wichtig, weil ein normales Balkonkraftwerk bei einem Stromausfall nichts bringt. Der Wechselrichter muss sich nach den Netzanschlussregeln sofort vom Hausnetz trennen, sobald das Netz ausfällt – sonst könnten Monteure an vermeintlich spannungsfreien Leitungen einen Schlag bekommen. Die Steckdosen in der Wohnung bleiben also dunkel. Nur Speicher mit Off-Grid-Steckdose versorgen dann direkt angeschlossene Geräte." },
-          { p: "Wie relevant das ist, zeigte Anfang Januar 2026 ein mehrtägiger Stromausfall in Teilen Berlins, über den Utopia berichtete. Unsere Gesamtwahl ist die Anker Solarbank 3 E2700 Pro: Sie hat den größten Speicher, lässt sich auf über 16 kWh erweitern und schnitt laut Berichten über den Speichertest der Stiftung Warentest (Heft 4/2026), etwa bei elektronik-zeit.de, als bestes von fünf Geräten ab – allerdings nur mit „befriedigend“ (3,3). Den Originaltest haben wir nicht eingesehen." },
+          { p: "Wie relevant das ist, zeigte Anfang Januar 2026 ein mehrtägiger Stromausfall in Teilen Berlins, über den Utopia berichtete. Unsere Gesamtwahl ist die Anker Solarbank 3 E2700 Pro: Sie hat den größten Speicher, lässt sich auf über 16 kWh erweitern und bringt laut Hersteller vier MPPT-Eingänge sowie eine 1.200-W-Off-Grid-Steckdose mit. Aus unserer Sicht ist das die beste Kombination aus Alltagsnutzen und Notstrom-Reserve – allerdings auch die teuerste. Wer weniger ausgeben will, bekommt beim EcoFlow STREAM Ultra laut Anbieter ebenfalls bis zu 1.200 W an der Notstromsteckdose, aber weniger Erweiterungsspielraum. Alle Angaben in diesem Vergleich beruhen auf Herstellerangaben und unserer redaktionellen Einschätzung; eigene Messungen haben wir nicht durchgeführt." },
           { figure: "scores" },
           { callout: { title: "Kein Ersatz für eine Hausnotstromanlage", warn: true, text: "Die Off-Grid-Steckdose versorgt nur Geräte, die direkt angeschlossen sind. Laut Anker eignet sie sich bei der Solarbank 3 Pro für Router, Laptops, Fernseher und Lampen, nicht für Kühlschränke wegen des hohen Anlaufstroms. Eine Versorgung des ganzen Hauses braucht eine fest installierte Anlage mit Umschalteinrichtung durch eine Elektrofachkraft. Niemals einen Speicher oder eine Powerstation über einen „Stecker-zu-Stecker“-Adapter in die Hausinstallation einspeisen – Lebensgefahr." } },
         ],
@@ -266,7 +265,6 @@ export default {
   ],
 
   sources: [
-    { label: "Stiftung Warentest (test.de): Speichertest Balkonkraftwerke, Heft 4/2026", url: "https://www.test.de/" },
     { label: "Utopia: Stromausfall – taugt ein Balkonkraftwerk als Notstromlösung?", url: "https://utopia.de/ratgeber/stromausfall-taugt-ein-balkonkraftwerk-als-notstromloesung-v3_893950/" },
     { label: "elektronik-zeit.de: Balkonkraftwerk-Speicher im Herstellervergleich", url: "https://elektronik-zeit.de/balkonkraftwerk/mit-speicher/hersteller-vergleich/" },
     { label: "Strom-Report: Balkonkraftwerk-Vergleich", url: "https://strom-report.com/balkonkraftwerk-vergleich/" },

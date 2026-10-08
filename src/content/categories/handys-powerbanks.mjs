@@ -33,7 +33,7 @@ export default {
   ],
 
   method:
-    "Grundlage sind Herstellerangaben zu Akku, Ladeleistung und Ausstattung, Berichte über den Powerbank-Test der Stiftung Warentest (Heft 2/2026; Originaltest von uns nicht eingesehen), Kundenerfahrungen sowie die Hinweise des BBK zu Warnkanälen. Wir haben die Geräte nicht selbst getestet. Wir empfehlen ausschließlich Geräte, die bei Amazon erhältlich sind. Jedes Gerät wird in vier Kriterien von 0 bis 10 eingeordnet; die Gesamtnote ist der gewichtete Mittelwert.",
+    "Grundlage sind Herstellerangaben zu Akku, Ladeleistung und Ausstattung, Kundenerfahrungen sowie die Hinweise des BBK zu Warnkanälen. Wir haben die Geräte nicht selbst getestet. Wir empfehlen ausschließlich Geräte, die bei Amazon erhältlich sind. Jedes Gerät wird in vier Kriterien von 0 bis 10 eingeordnet; die Gesamtnote ist der gewichtete Mittelwert.",
 
   products: [
     {
@@ -151,7 +151,7 @@ export default {
         blocks: [
           { quick: "Die [Anker Laptop-Powerbank 25.000 mAh](produkt:1) ist nach unserer Einschätzung die beste Wahl, weil sie Handys mehrfach und auch viele Laptops laden kann. Als Zweithandy empfehlen wir das [Nokia 105 4G](produkt:2), als robustes Smartphone mit Riesenakku das [Ulefone Armor 24](produkt:3)." },
           { first: "Bei einem großflächigen Stromausfall funktionieren Mobilfunkmasten zunächst weiter – viele Standorte haben Batterien oder Notstrom für einige Zeit. In dieser Phase ist das Handy die wichtigste Verbindung: Anrufe, SMS, Warnungen per Cell Broadcast und die Warn-App NINA. Die eigentliche Schwachstelle ist dann der Akku des Geräts, denn die Steckdose zum Laden fehlt." },
-          { p: "Eine große Powerbank kann die Erreichbarkeit um Tage verlängern. Laut Berichten über den Powerbank-Test der Stiftung Warentest (Heft 2/2026) wurden 24 Powerbanks geprüft, die meisten mit „gut“; als beste wurden dort die Aqiila B20+, die Belkin BoostCharge Pro und die EcoFlow Rapid genannt. Unsere Gesamtwahl war nach diesen Berichten nicht Teil des Tests. Für die Krisenvorsorge zählt vor allem die Kapazität – und dass die Kabel passen. Unsere Gesamtwahl bietet laut Hersteller beides." },
+          { p: "Eine große Powerbank kann die Erreichbarkeit um Tage verlängern. Für die Krisenvorsorge zählen aus unserer Sicht vor allem zwei Dinge: genug Kapazität für mehrere Handyladungen und Kabel, die zu den eigenen Geräten passen. Unsere Gesamtwahl bietet laut Hersteller beides – 25.000 mAh, bis zu 165 W Ladeleistung und zwei fest eingebaute USB-C-Kabel. Eine unabhängige Prüfung dieses Modells können wir nicht nennen; unsere Bewertung beruht auf Herstellerangaben und unserer redaktionellen Einschätzung." },
           { p: "Ein einfaches Tastenhandy ergänzt das Smartphone sinnvoll: Es hält mit einer Ladung tagelang durch, kostet wenig und kann eine zweite SIM-Karte eines anderen Netzbetreibers aufnehmen. Fällt ein Netz aus, ist das andere vielleicht noch da. Das Nokia 105 4G hat dazu ein UKW-Radio – ein kleines Notfallradio in der Hosentasche." },
           { figure: "scores" },
           { callout: { title: "Notruf ohne Netz", warn: true, text: "Fällt das Mobilfunknetz komplett aus, funktioniert auch die 112 übers Handy nicht mehr. Gemeinden richten dann oft Notfall-Anlaufstellen ein, etwa an Feuerwehrhäusern. Informiere dich vorab, wo in deinem Ort solche Stellen geplant sind. Solange irgendein Netz verfügbar ist, immer zuerst 112 wählen." } },
@@ -175,7 +175,7 @@ export default {
             },
           },
           { h3: "Nutzbare Energie" },
-          { p: "Die mAh-Angabe bezieht sich auf die Zellspannung. Beim Laden über USB gehen durch Spannungswandlung und Wärme spürbar Prozent verloren. Stiftung Warentest prüft deshalb, wie viel Energie tatsächlich ankommt; nicht jede Powerbank erreicht dabei laut deren Tests die aufgedruckten Werte." },
+          { p: "Die mAh-Angabe bezieht sich auf die Zellspannung. Beim Laden über USB gehen durch Spannungswandlung und Wärme spürbar Prozent verloren. Wie viel Energie tatsächlich am Handy ankommt, ist deshalb meist deutlich weniger als die aufgedruckte mAh-Zahl vermuten lässt. Aussagekräftiger ist die Angabe in Wattstunden (Wh), die viele Hersteller zusätzlich nennen. Plane deshalb aus unserer Sicht lieber großzügig und rechne nicht mit der vollen Nennkapazität." },
           { h3: "4G statt 2G" },
           { p: "3G ist in Deutschland abgeschaltet, und auch 2G wird nach und nach zurückgebaut. Ein Zweithandy sollte deshalb 4G mit VoLTE unterstützen, damit es auch künftig telefonieren kann. Das Nokia 105 4G unterstützt das laut Hersteller." },
           { h3: "Laden ohne Steckdose" },
@@ -237,7 +237,7 @@ export default {
           },
           {
             facts: [
-              { value: "24", label: "Powerbanks im Test der Stiftung Warentest (Heft 2/2026, laut Berichten)" },
+              { value: "3–4", label: "Handyladungen aus einer 20.000-mAh-Powerbank (grobe Faustregel, je nach Smartphone)" },
               { value: "≈ 90 Wh", label: "Energie der Anker-Powerbank – unter der üblichen 100-Wh-Grenze fürs Handgepäck" },
               { value: "22.000 mAh", label: "Akku des Ulefone Armor 24 (Herstellerangabe)" },
             ],
@@ -250,7 +250,7 @@ export default {
   },
 
   faqs: [
-    { q: "Welche Powerbank ist für den Notfall am besten?", a: "Unsere Empfehlung ist die Anker Laptop-Powerbank mit 25.000 mAh und 165 W, weil sie laut Hersteller mehrere Handys und auch viele Laptops lädt und zwei Kabel fest eingebaut hat. Laut Berichten über den Test der Stiftung Warentest (Heft 2/2026) schnitten dort die Aqiila B20+, die Belkin BoostCharge Pro und die EcoFlow Rapid am besten ab." },
+    { q: "Welche Powerbank ist für den Notfall am besten?", a: "Unsere Empfehlung ist die Anker Laptop-Powerbank mit 25.000 mAh und 165 W, weil sie laut Hersteller mehrere Handys und auch viele Laptops lädt und zwei Kabel fest eingebaut hat. Entscheidend sind aus unserer Sicht Kapazität, passende Anschlüsse und eine sichere Lagerung bei Raumtemperatur." },
     { q: "Wie lange funktioniert das Handynetz bei Stromausfall?", a: "Viele Mobilfunkstandorte haben Batterien oder Notstrom für eine begrenzte Zeit. Danach fallen sie nach und nach aus. Wie lange das dauert, ist von Standort zu Standort verschieden." },
     { q: "Warum ein Tastenhandy als Zweithandy?", a: "Tastenhandys halten mit einer Ladung oft mehrere Tage, sind günstig und unempfindlich. Mit einer SIM-Karte eines anderen Netzbetreibers erhöhst du die Chance, erreichbar zu bleiben. Das Nokia 105 4G hat zudem ein UKW-Radio." },
     { q: "Bekomme ich Warnungen ohne Internet?", a: "Ja, Cell Broadcast schickt Warnungen direkt über das Mobilfunknetz an alle Handys in einer Funkzelle – ohne App und ohne mobile Daten. Voraussetzung ist, dass das Netz noch funktioniert." },
@@ -259,8 +259,6 @@ export default {
   ],
 
   sources: [
-    { label: "Stiftung Warentest: Powerbanks im Test (Heft 2/2026)", url: "https://www.test.de/Powerbanks-im-Test-5019032-0/" },
-    { label: "produkte-im-test.de: Powerbank-Testsieger der Stiftung Warentest", url: "https://produkte-im-test.de/powerbank-testsieger-stiftung-warentest/" },
     { label: "BBK: Ratgeber „Vorsorgen für Krisen und Katastrophen“ (PDF)", url: "https://www.dortmund.de/dortmund/projekte/rathaus/verwaltung/feuerwehr-rettungsdienst-und-bevoelkerungsschutz/downloads/bbk-vorsorgen-fuer-krisen-und-katastrophen.pdf" },
   ],
 

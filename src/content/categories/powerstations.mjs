@@ -266,12 +266,12 @@ export default {
     { q: "Wie lange läuft ein Kühlschrank an einer Powerstation?", a: "Das hängt vom Verbrauch ab, den das Energielabel angibt. Viele Kühlschränke brauchen 0,4 bis 1 kWh pro Tag. Eine 1-kWh-Powerstation hält einen sparsamen Kühlschrank also rund einen Tag, mit Solar-Nachladung länger." },
     { q: "Kann ich mit einer Powerstation meine Heizung betreiben?", a: "Die Umwälzpumpe und Steuerung einer Gas- oder Ölheizung brauchen oft nur 20 bis 60 Watt. Der Anschluss muss aber von einer Elektrofachkraft vorbereitet werden, etwa mit einem Umschalter oder einem Schukostecker an der Heizung. Nie über einen Stecker-zu-Stecker-Adapter ins Hausnetz einspeisen – das ist lebensgefährlich." },
     { q: "Wie viel Kapazität brauche ich?", a: "Liste die Geräte auf, die du betreiben willst, multipliziere ihre Leistung mit den Stunden pro Tag und addiere 15 bis 20 Prozent Reserve. Für Router, Handys und Licht reichen 300 bis 500 Wh pro Tag, mit Kühlschrank eher 1 bis 1,5 kWh." },
-    { q: "Hat Stiftung Warentest Powerstations getestet?", a: "Ja, in test 8/2023: elf Geräte mit 300 bis 700 Watt Leistung, fünf davon mit „gut“. Die heute üblichen Geräte um 1 kWh waren nicht Teil dieses Tests." },
+    { q: "Hat Stiftung Warentest Powerstations getestet?", a: "Ja, in test 8/2023. Die heute üblichen Geräte um 1 kWh waren nach unserem Kenntnisstand nicht Teil dieses Tests; Details stehen im Testbericht auf test.de." },
     { q: "Wie lagert man eine Powerstation?", a: "Kühl, trocken und teilgeladen, mit regelmäßiger Nachladung nach Herstellerangabe. LiFePO4-Akkus entladen sich langsam, ein jährlicher Blick reicht aber nicht – prüfe den Ladestand alle paar Monate." },
   ],
 
   sources: [
-    { label: "Stiftung Warentest: Powerstations im Test", url: "https://www.test.de/Powerstation-Test-6023127-0/" },
+    { label: "Stiftung Warentest: Powerstations im Test (test 8/2023)", url: "https://www.test.de/Powerstation-Test-6023127-0/" },
     { label: "BBK: Ratgeber „Vorsorgen für Krisen und Katastrophen“ (PDF)", url: "https://www.dortmund.de/dortmund/projekte/rathaus/verwaltung/feuerwehr-rettungsdienst-und-bevoelkerungsschutz/downloads/bbk-vorsorgen-fuer-krisen-und-katastrophen.pdf" },
     { label: "Stadt Karlsbad: Vorsorge für den Stromausfall (PDF)", url: "https://www.karlsbad.de/resources/ecics_8051_uyys2n.pdf" },
   ],
