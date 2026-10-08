@@ -158,3 +158,5 @@ Mindestumfang je Kategorie: **≥ 1.000 Wörter** (nicht künstlich auffüllen),
   Rückrufe); die Seite `/kinder-spielplatz/indoor/schaukeltuch/` empfiehlt Hängesitze und Hängehöhlen mit Warnabschnitt.
 - 2026-10-08: Kippschutz ausführlich nur auf `/kinderschrank/#aufstellen-sichern`; Bücherregal und Sideboard verlinken
   dorthin. ASINs, die sich per Suche nicht eindeutig bestätigen lassen, bleiben weg (nur `query`).
+- 2026-10-08: Neuer Bereich Pickleball (flache URLs): Schläger, Bälle, Netze – ausschließlich Amazon-ASINs. Die bestehende
+  Seite `/padel-pickleball/` bleibt bei der Court-Planung im Garten (Netz + Linien, Padel-Court) und verlinkt auf den Bereich.

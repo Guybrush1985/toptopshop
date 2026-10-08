@@ -227,6 +227,22 @@ export const areas = [
   <aside class="callout warn"><p class="ct">Sicherheit</p><p>Tore und Basketballanlagen müssen gegen Umkippen gesichert sein. Nicht verankerte Tore haben schon zu schweren Unfällen geführt. Feste Bauten, Zäune und Flutlicht können außerdem genehmigungspflichtig sein – frag vorab bei deiner Gemeinde nach.</p></aside>`,
   },
   {
+    slug: "pickleball",
+    name: "Pickleball",
+    short: "Pickleball",
+    intro:
+      "Die Trendsportart für Einfahrt, Garten, Tennisplatz und Halle: Pickleball-Schläger für jedes Niveau, Bälle für drinnen und draußen und mobile Netze in Regelgröße.",
+    metaTitle: "Pickleball-Ausrüstung: Schläger, Bälle und Netze im Überblick",
+    metaDescription:
+      "Pickleball-Schläger, Bälle und mobile Netze: je Kategorie die 3 besten Produkte mit Kaufberatung zu Paddel, Ballart, Netzhöhe und Spielfeld.",
+    article: `
+  <h2>Pickleball: schnell gelernt, überall gespielt</h2>
+  <p class="quick">Für den Start brauchst du zwei bis vier Paddel, ein paar Bälle für deinen Spielort und – wenn kein Platz mit Netz in der Nähe ist – ein mobiles Netz mit Linienmarkern. Ein günstiges Set reicht für die ersten Wochen; ein besseres Paddel lohnt sich, wenn du regelmäßig spielst.</p>
+  <p>Pickleball verbindet Elemente aus Tennis, Badminton und Tischtennis. Gespielt wird mit festen Paddeln und einem gelochten Kunststoffball auf einem Feld von 6,10 × 13,41 m – so groß wie ein Doppel-Badmintonfeld. Die Regeln sind schnell erklärt, die Bälle langsamer als beim Tennis, und Doppel lassen sich auch generationenübergreifend spielen. In Deutschland wächst die Szene: Der Deutsche Pickleball Bund nennt auf seiner Website über 150 Vereine.</p>
+  <p>Wir empfehlen ausschließlich Produkte, die bei Amazon erhältlich sind, und kennzeichnen Herstellerangaben als solche. Unabhängige Tests von Stiftung Warentest oder ähnlichen Instituten gibt es für Pickleball-Ausrüstung bislang nicht – umso wichtiger sind nachvollziehbare Kriterien und die Ausrüstungsregeln von USA Pickleball.</p>
+  <aside class="callout"><p class="ct">Tipp</p><p>Viele Vereine bieten Schnupperstunden mit Leihschlägern an. So findest du heraus, welches Paddel dir liegt, bevor du Geld ausgibst.</p></aside>`,
+  },
+  {
     slug: "kinder-spielplatz",
     name: "Kinder-Spielplatz",
     short: "Spielplatz",
