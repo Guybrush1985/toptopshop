@@ -301,4 +301,20 @@ export const areas = [
   <p>Für jede Kategorie zeigen wir drei Empfehlungen und erklären, worauf es ankommt: Maße und Gewicht, Lautstärke, Strombedarf und was im Alltag wirklich Spaß macht.</p>
   <aside class="callout"><p class="ct">Planungstipp</p><p>Miss den Raum, bevor du kaufst: Billardtische, Kicker und Airhockey brauchen rundherum Platz zum Spielen – oft mehr als doppelt so viel wie das Gerät selbst.</p></aside>`,
   },
+  {
+    slug: "garten-grundstueck",
+    name: "Garten & Grundstück",
+    short: "Garten",
+    intro:
+      "Einfahrt, Gehweg und Garten sauber halten, ohne den Rücken zu ruinieren: Geräte für Schnee, Laub und die Pflege rund ums Haus – je Kategorie drei Empfehlungen mit Kaufberatung.",
+    metaTitle: "Garten & Grundstück: Die besten Geräte im Überblick",
+    metaDescription:
+      "Schneefräsen, Akku-Schneeschieber, Laubbläser und mehr für Einfahrt, Gehweg und Garten – je Kategorie drei Empfehlungen mit ehrlicher Kaufberatung.",
+    article: `
+  <h2>Weniger Schufterei rund ums Haus</h2>
+  <p class="quick">Für die meisten Grundstücke reichen heute Akku-Geräte: Sie sind leise genug für frühe Morgenstunden, brauchen kein Benzin und teilen sich oft die Akkus mit anderen Gartengeräten. Benziner lohnen sich erst bei großen Flächen und viel schwerem Schnee oder Laub.</p>
+  <p>Wer ein Haus mit Einfahrt hat, kennt die Pflichten: Im Winter muss der Gehweg vor dem Grundstück morgens geräumt sein, im Herbst liegt das Laub auf Wegen und Rasen. Mit dem richtigen Gerät ist beides in wenigen Minuten erledigt – mit dem falschen wird es zur Plackerei oder zum Ärger mit den Nachbarn.</p>
+  <p>Wir empfehlen Geräte, die bei Amazon erhältlich sind, kennzeichnen Herstellerangaben als solche und erklären, welche Größe und welcher Antrieb zu welchem Grundstück passen.</p>
+  <aside class="callout"><p class="ct">Gut zu wissen</p><p>Wann geräumt und wann nicht laut gearbeitet werden darf, regeln Gemeindesatzungen und Lärmschutzvorschriften. Ein Blick in die Satzung deiner Gemeinde lohnt sich vor dem ersten Einsatz.</p></aside>`,
+  },
 ];
