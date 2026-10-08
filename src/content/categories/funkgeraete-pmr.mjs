@@ -11,7 +11,7 @@ export default {
 
   metaTitle: "Die 3 besten PMR-Funkgeräte 2026 – lizenzfrei für Familie",
   metaDescription:
-    "Die 3 besten lizenzfreien PMR446-Funkgeräte 2026: Motorola T82 Extreme, Motorola T42 und Midland G7 Pro im Vergleich – plus Reichweite, Regeln und Funkplan für den Notfall.",
+    "Die 3 besten lizenzfreien PMR446-Funkgeräte 2026: Motorola T82 Extreme, T42 und Midland G7 Pro im Vergleich – plus Reichweite, Regeln und Funkplan für den Notfall.",
 
   eyebrow: "Krisenvorsorge · Kommunikation & Technik",
   h1: "Die 3 besten PMR-Funkgeräte 2026",

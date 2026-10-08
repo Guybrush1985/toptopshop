@@ -185,7 +185,7 @@ function faq(cat) {
 }
 
 function related(cat, all) {
-  const items = cat.related.filter((r) => !process.env.DRAFT || !r.slug || all.some((c) => c.slug === r.slug)).map((r) => { // DRAFT-HACK
+  const items = cat.related.map((r) => {
     if (r.slug) {
       const target = all.find((c) => c.slug === r.slug);
       if (!target) throw new Error(`${cat.slug}: verwandte Kategorie "${r.slug}" existiert nicht`);

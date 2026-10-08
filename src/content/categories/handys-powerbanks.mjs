@@ -11,7 +11,7 @@ export default {
 
   metaTitle: "Notfall-Handy & Powerbank: Die 3 besten für den Blackout 2026",
   metaDescription:
-    "Die 3 besten Geräte für Erreichbarkeit im Blackout 2026: Anker-Powerbank mit 25.000 mAh, Nokia 105 4G und Outdoor-Handy Ulefone Armor 24 – plus Akku-Tipps und Warnkanäle.",
+    "Erreichbar im Blackout 2026: Anker-Powerbank mit 25.000 mAh, Nokia 105 4G und Outdoor-Handy Ulefone Armor 24 im Vergleich – plus Akku-Tipps und Warnkanäle.",
 
   eyebrow: "Krisenvorsorge · Kommunikation & Technik",
   h1: "Notfall-Handy und Powerbank: Die 3 besten Geräte 2026",

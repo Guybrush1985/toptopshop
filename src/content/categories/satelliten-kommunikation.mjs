@@ -11,7 +11,7 @@ export default {
 
   metaTitle: "Die 3 besten Satelliten-Messenger mit SOS 2026",
   metaDescription:
-    "Die 3 besten Satelliten-Messenger und SOS-Geräte 2026: Garmin inReach Messenger Plus, ZOLEO und inReach Mini 3 Plus – plus Abokosten, Iridium-Netz und Notruf ohne Mobilfunk.",
+    "Die 3 besten Satelliten-Messenger mit SOS 2026: Garmin inReach Messenger Plus, ZOLEO und inReach Mini 3 Plus – plus Abokosten und Notruf ohne Mobilfunk.",
 
   eyebrow: "Krisenvorsorge · Kommunikation & Technik",
   h1: "Die 3 besten Satelliten-Messenger mit SOS 2026",

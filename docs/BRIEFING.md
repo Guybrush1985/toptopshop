@@ -130,3 +130,15 @@ Mindestumfang je Kategorie: **≥ 1.000 Wörter** (nicht künstlich auffüllen),
 - 2026-10-07: Awin-API-Token als Network Secret für `api.awin.com` hinterlegt (nur lesend nutzen).
   Vor neuen Awin-Produkten Freischaltungsstatus prüfen; Programme ohne Freischaltung dem Nutzer melden
   und Bewerbungstext vorschlagen. Bewerbungen schickt der Nutzer selbst ab.
+- 2026-10-07: Bereich Krisenvorsorge mit 6 Unterbereichen und 23 Kategorien. Auf Wunsch des Nutzers erstmals
+  verschachtelte URLs: `/krisenvorsorge/<unterbereich>/<kategorie>/` (Feld `group` in der Kategorie, Unterbereiche
+  unter `areas[].groups` in `src/site.mjs`, eigene Unterbereichsseiten). Flache URLs der übrigen Bereiche bleiben.
+- 2026-10-07: Awin-API meldet keine aktive Freischaltung (alle 4 Programme `pending`), daher Krisenvorsorge
+  vollständig über Amazon. Passende Awin-Programme (nicht beworben): EcoFlow 51793, Anker Solix 32623,
+  Anker 30691, BLUETTI 32267, Jackery 30415, Levoit 112902, NordVPN 9399, Bergfreunde 14102, Conrad 11354.
+- 2026-10-07: Kategorien mit gemischten Produktarten (z. B. Wärme/Kochen/CO-Melder, Erste Hilfe/Brandschutz)
+  zeigen in den Top 3 je Aufgabe ein Produkt mit Rollen-Label statt drei gleichartiger Produkte.
+- 2026-10-07: Schutzraum-Anbieter sind weder bei Amazon noch bei Awin – Top 5 als neutrale Anbieterübersicht
+  (Feld `where`, kein Link, keine Provision); Top 3 sind Ausrüstung für jeden Schutzraum.
+- 2026-10-07: test.de, bbk.bund.de und Herstellerseiten sind aus der Arbeitsumgebung nicht abrufbar; Testergebnisse
+  stammen teils aus Sekundärquellen und sind im Text als „laut Berichten“ gekennzeichnet.
