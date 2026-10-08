@@ -182,9 +182,9 @@
     {
       "rank": 3,
       "label": "Premium-Wahl",
-      "name": "moll Champion Right Up, höhenverstellbarer Kinderschreibtisch, Korpus Weiß – Seiten Eiche, 121 x 72 x 53 cm",
+      "name": "moll Champion Right Up, höhenverstellbarer Kinderschreibtisch, Korpus Weiß – Seiten Weiß, 121 x 72 x 53 cm",
       "brand": "moll",
-      "variant": "Champion Right Up (Comfort-Verstellung), Weiß/Eiche",
+      "variant": "Champion Right Up (Comfort-Verstellung), Weiß/Weiß",
       "priceTier": 3,
       "ratings": {
         "ergonomie": 9.2,
@@ -217,6 +217,12 @@
           "art": "Herstellerangabe",
           "quelle": "https://www.amazon.de/moll-Champion-Right-Kinderschreibtisch-Korpus/dp/B07S5DMNK5",
           "datum": "2026-10-08"
+        },
+        {
+          "text": "Variante Korpus Weiß – Seiten Weiß: Höhe 53–82 cm, rechter Plattenteil neigbar, 8 austauschbare Farbvarianten im Lieferumfang, laut Hersteller für 6–12 Jahre, belastbar bis 100 kg, Montage zu zweit",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/moll-Champion-Right-Kinderschreibtisch-Korpus/dp/B07S6V8YTX",
+          "datum": "2026-10-08"
         }
       ],
       "pros": [
@@ -237,11 +243,11 @@
         "Gewicht": "ca. 20 kg (Händlerangabe)",
         "Prüfzeichen": "GS/TÜV (Hersteller-/Händlerangabe)"
       },
-      "asin": "B07S5V78GZ",
-      "query": "moll Champion Right Up Kinderschreibtisch Weiß Eiche",
+      "asin": "B07S6V8YTX",
+      "query": "moll Champion Right Up Kinderschreibtisch Korpus Weiß Seiten Weiß",
       "shop": null,
       "url": null,
-      "asinGeprueft": "moll Champion Right Up, höhenverstellbarer Kinderschreibtisch für Jungen und Mädchen, ergonomisch und mitwachsend, zeitloses Design, Korpus Weiß - Seiten Eiche, 121 x 72 x 53cm (amazon.de/dp/B07S5V78GZ); Lagerstatus nicht bestätigt, Alternativfarbe Weiß/Rosa B07S5DMNK5",
+      "asinGeprueft": "Korrektur Runde 1: B07S5V78GZ (Weiß/Eiche) per WebSearch (amazon.de) nicht auffindbar; gewechselt auf B07S6V8YTX: ‚moll Champion Right Up … White Body - White Sides, 121 x 72 x 53 cm‘ (amazon.de/dp/B07S6V8YTX), 53–82 cm, rechter Plattenteil neigbar, 8 Akzentfarben im Lieferumfang, laut Hersteller 6–12 Jahre, bis 100 kg",
       "gesamt": 8.23
     }
   ],
@@ -462,8 +468,8 @@
       "url": "https://www.amazon.de/dp/B0FT6XF5TY"
     },
     {
-      "titel": "amazon.de: moll Champion Right Up Weiß/Eiche",
-      "url": "https://www.amazon.de/dp/B07S5V78GZ"
+      "titel": "amazon.de: moll Champion Right Up Weiß/Weiß",
+      "url": "https://www.amazon.de/dp/B07S6V8YTX"
     },
     {
       "titel": "amazon.de: K KETTLER Schülerschreibtisch (nicht verfügbar)",

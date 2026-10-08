@@ -2,44 +2,105 @@
   "slug": "huepfburg",
   "stand": "2026-10-08",
   "criteria": [
-    { "key": "sicherheit", "label": "Sicherheit & Verankerung", "weight": 0.35, "description": "Netzwände/Seitenwände, Anzahl Heringe bzw. Ankerpunkte, klare Herstellerangaben zu Alter, Kinderzahl und Maximalbelastung, Warnhinweise (Aufsicht, Wind)." },
-    { "key": "kapazitaet", "label": "Größe & Spielwert", "weight": 0.25, "description": "Hüpffläche und Stellfläche im Garten, Anzahl Kinder gleichzeitig, Spielelemente (Rutsche, Bällebad, Kletterwand)." },
-    { "key": "material", "label": "Material, Nähte & Garantie", "weight": 0.25, "description": "Gewebe (Oxford/Nylon vs. reines PVC), Nähte, Reparaturset, Garantie, Erfahrungsberichte zur Haltbarkeit." },
-    { "key": "geblaese", "label": "Gebläse & Aufbau", "weight": 0.15, "description": "Dauergebläse im Lieferumfang, Leistungsangabe, Aufbauzeit, Abbau und Verstauen (Tragetasche)." }
+    {
+      "key": "sicherheit",
+      "label": "Sicherheit & Verankerung",
+      "weight": 0.35,
+      "description": "Netzwände/Seitenwände, Anzahl Heringe bzw. Ankerpunkte, klare Herstellerangaben zu Alter, Kinderzahl und Maximalbelastung, Warnhinweise (Aufsicht, Wind)."
+    },
+    {
+      "key": "kapazitaet",
+      "label": "Größe & Spielwert",
+      "weight": 0.25,
+      "description": "Hüpffläche und Stellfläche im Garten, Anzahl Kinder gleichzeitig, Spielelemente (Rutsche, Bällebad, Kletterwand)."
+    },
+    {
+      "key": "material",
+      "label": "Material, Nähte & Garantie",
+      "weight": 0.25,
+      "description": "Gewebe (Oxford/Nylon vs. reines PVC), Nähte, Reparaturset, Garantie, Erfahrungsberichte zur Haltbarkeit."
+    },
+    {
+      "key": "geblaese",
+      "label": "Gebläse & Aufbau",
+      "weight": 0.15,
+      "description": "Dauergebläse im Lieferumfang, Leistungsangabe, Aufbauzeit, Abbau und Verstauen (Tragetasche)."
+    }
   ],
   "priceTiers": [
-    { "tier": 1, "label": "bis ca. 200 €" },
-    { "tier": 2, "label": "ca. 200–300 €" },
-    { "tier": 3, "label": "über 300 €" }
+    {
+      "tier": 1,
+      "label": "bis ca. 200 €"
+    },
+    {
+      "tier": 2,
+      "label": "ca. 200–300 €"
+    },
+    {
+      "tier": 3,
+      "label": "über 300 €"
+    }
   ],
   "products": [
     {
       "rank": 1,
       "label": "Beste Gesamtwahl",
-      "name": "Little Tikes Jump 'n Slide Bouncer – Hüpfburg mit Sicherheitsnetz für den Außenbereich, inkl. Tragetasche, Hochdruckgebläse und Flickmaterial",
-      "brand": "Little Tikes",
-      "variant": "Art.-Nr. 173370 (UPC 050743173370), ca. 366 x 274 x 183 cm, trocken mit Rutsche",
+      "name": "Bestway Up, In & Over Hüpfburg Spring n' Slide mit Dauergebläse, 245 x 200 x 145 cm",
+      "brand": "Bestway",
+      "variant": "Modell 53310 (Herstellerteilenr. 53310-19), trocken mit Rutsche",
       "priceTier": 2,
-      "ratings": { "sicherheit": 8.0, "kapazitaet": 7.5, "material": 7.0, "geblaese": 7.5 },
-      "gesamt": 7.55,
-      "bestFor": "Familien mit normal großem Garten, die eine trockene Hüpfburg mit Rutsche von einer bekannten Spielzeugmarke für bis zu drei Kinder suchen.",
+      "ratings": {
+        "sicherheit": 8.0,
+        "kapazitaet": 7.0,
+        "material": 7.5,
+        "geblaese": 8.0
+      },
+      "gesamt": 7.63,
+      "bestFor": "Familien mit normal großem Garten und bis zu drei Kindern von 3 bis 8 Jahren, die eine trockene Burg mit Rutsche suchen.",
       "fakten": [
-        { "text": "Aufgeblasen ca. 365,76 x 274,32 x 182,88 cm, Gewicht ca. 17–18 kg.", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B01GIL6SQY", "datum": "2026-10-08" },
-        { "text": "Maximal 3 Kinder gleichzeitig, Gesamtgewicht max. 113,4 kg.", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B01GIL6SQY", "datum": "2026-10-08" },
-        { "text": "Altersempfehlung des Herstellers 36 Monate bis 10 Jahre (an anderer Stelle im Listing: 3 bis 8 Jahre); nicht für Kinder unter 3 Jahren; nur unter Aufsicht Erwachsener.", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B01GIL6SQY", "datum": "2026-10-08" },
-        { "text": "Lieferumfang: Hochdruckgebläse mit FI-Stecker (GFCI), Heringe für Gebläse und Hüpfburg, 4 Reparaturflicken, Tragetasche; hohe Netzwände und Schuhtaschen.", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B01GIL6SQY", "datum": "2026-10-08" },
-        { "text": "12 Monate Herstellergarantie.", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B01GIL6SQY", "datum": "2026-10-08" },
-        { "text": "Das Gebläse muss während des Spielens durchgehend laufen; Bedienung des Gebläses nicht durch Kinder unter 14 Jahren (Little-Tikes-Anleitungen für Bouncer).", "art": "Herstellerangabe", "quelle": "https://parts.littletikes.com/cdn/shop/files/620133-JumpNDoubleSlideBouncer.pdf", "datum": "2026-10-08" },
-        { "text": "Amazon-Bewertung ca. 4,2 von 5 Sternen bei rund 130 Bewertungen; einzelne Rezensionen bemängeln zu weich nachgebende Seitenwände und Nähte, andere berichten von mehrjähriger Nutzung mit kleinen Reparaturen.", "art": "Bericht", "quelle": "https://www.amazon.de/dp/B01GIL6SQY", "datum": "2026-10-08" }
+        {
+          "text": "Maße 245 x 200 x 145 cm, 3 Kinder, 3–8 Jahre, max. 45 kg und 140 cm Körpergröße je Kind, 91 kg gesamt; Polyester mit PVC-Beschichtung, Netzwände, verstärkte Rutsche, Reparaturflicken; Aufbau in rund 2 Minuten; für draußen.",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B07FXXPBL9",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Bestway-Service: 250 x 210 x 152 cm; inklusive Dauergebläse 220–240 V / 50 Hz / 370 W, Aufbewahrungstasche, 10 Heringe (8 für die Hüpfburg, 2 für das Gebläse), Reparaturset.",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.bestwayservice.de/produkt/1053310XXA19",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Listing aktiv mit Neuangebot (Suchtreffer amazon.de, 2026-10-08); Preis schwankt je nach Anbieter.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B07FXXPBL9",
+          "datum": "2026-10-08"
+        }
       ],
-      "pros": ["Bekannte Marke mit Ersatzteil-/Anleitungsportal", "Rutsche plus große Hüpffläche, Netzwände rundum", "Gebläse mit FI-Stecker, Heringe und Reparaturset dabei", "Verhältnismäßig hohe Gesamtbelastung (113 kg)"],
-      "cons": ["Keine Wattangabe zum Gebläse auf amazon.de", "Widersprüchliche Altersangaben im Listing (3–8 bzw. 3–10 Jahre)", "Einzelberichte über nachgiebige Seitenwände"],
-      "specs": { "Maße aufgeblasen": "ca. 366 x 274 x 183 cm", "Kinder gleichzeitig": "max. 3", "Max. Gesamtgewicht": "113,4 kg", "Alter (Hersteller)": "ab 3 Jahren", "Gebläse": "Dauergebläse mit FI-Stecker, inklusive", "Garantie": "12 Monate" },
-      "asin": "B01GIL6SQY",
-      "query": "Little Tikes Jump 'n Slide Bouncer Hüpfburg",
+      "pros": [
+        "Rutsche plus Hüpffläche, Netzwände rundum",
+        "Dauergebläse mit Leistungsangabe (370 W)",
+        "10 Heringe, davon 2 für das Gebläse",
+        "Klare Grenzen je Kind (45 kg, 140 cm)"
+      ],
+      "cons": [
+        "Nur bis 8 Jahre und 91 kg gesamt",
+        "Maße amazon.de vs. Hersteller leicht abweichend",
+        "Keine Garantieangabe im Listing"
+      ],
+      "specs": {
+        "Maße aufgeblasen": "ca. 245 x 200 x 145 cm (Hersteller-Service: 250 x 210 x 152 cm)",
+        "Kinder gleichzeitig": "max. 3",
+        "Max. Gesamtgewicht": "91 kg (45 kg je Kind, max. 140 cm)",
+        "Alter (Hersteller)": "3–8 Jahre",
+        "Gebläse": "Dauergebläse 370 W, inklusive",
+        "Extras": "Rutsche, Tasche, 10 Heringe"
+      },
+      "asin": "B07FXXPBL9",
+      "query": "Bestway Up In and Over Hüpfburg Spring n' Slide 245 x 200 x 145 cm",
       "shop": null,
       "url": null,
-      "asinGeprueft": "little tikes Tikes Jump 'n Slide Bouncer - Hüpfburg mit Sicherheitsnetz für den Außenbereich - Inklusive Tragetasche, Hochdruckgebläse und Flickmaterial - Für aktives Spielen - Für Kinder ab 3 Jahren (Suchtreffer amazon.de/dp/B01GIL6SQY)"
+      "asinGeprueft": "Bestway Constant Air Up, In and Over Bouncy Castle Spring n' Slide 245 x 200 x 145 cm, Multi-Colour : Amazon.de: Toys (Suchtreffer amazon.de/dp/B07FXXPBL9, Modell 53310)"
     },
     {
       "rank": 2,
@@ -48,19 +109,65 @@
       "brand": "Bestway",
       "variant": "Modell 53427 (Produktlinie H2OGO!, aber trockene Hüpfburg ohne Wasserfunktion)",
       "priceTier": 1,
-      "ratings": { "sicherheit": 7.5, "kapazitaet": 6.5, "material": 7.0, "geblaese": 7.5 },
+      "ratings": {
+        "sicherheit": 7.5,
+        "kapazitaet": 6.5,
+        "material": 7.0,
+        "geblaese": 7.5
+      },
       "gesamt": 7.13,
       "bestFor": "Eltern, die eine kompakte, günstige Hüpfburg mit Netzwänden für Geburtstag und Sommer suchen – auch für drinnen nutzbar.",
       "fakten": [
-        { "text": "Maße 289 x 213 x 173 cm, Material PVC, Gewicht ca. 8 kg.", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B0B691W278", "datum": "2026-10-08" },
-        { "text": "Bis zu 3 Kinder, maximale Gesamtbelastung 72 kg, max. 36 kg pro Kind.", "art": "Herstellerangabe", "quelle": "https://www.mein-deal.com/bestway-h2ogo-huepfburg/", "datum": "2026-10-08" },
-        { "text": "Lieferumfang: Hüpfburg, Gebläse (mit Heringen), Reparaturset, Aufbewahrungstasche, 9 Heringe, 25 Spielbälle.", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B0B691W278", "datum": "2026-10-08" },
-        { "text": "Aufbau mit dem Gebläse in unter 120 Sekunden; Netzwände erleichtern die Aufsicht; nutzbar drinnen und draußen.", "art": "Herstellerangabe", "quelle": "https://www.mein-deal.com/bestway-h2ogo-huepfburg/", "datum": "2026-10-08" },
-        { "text": "Altersempfehlung 4+ in der Produktübersicht, Sicherheitshinweis: nicht für Kinder unter 3 Jahren; nur unter Aufsicht Erwachsener.", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B0B691W278", "datum": "2026-10-08" }
+        {
+          "text": "Maße 289 x 213 x 173 cm, Material PVC, Gewicht ca. 8 kg.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B0B691W278",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Bis zu 3 Kinder, maximale Gesamtbelastung 72 kg, max. 36 kg pro Kind.",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.mein-deal.com/bestway-h2ogo-huepfburg/",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Lieferumfang: Hüpfburg, Gebläse (mit Heringen), Reparaturset, Aufbewahrungstasche, 9 Heringe, 25 Spielbälle.",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B0B691W278",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Aufbau mit dem Gebläse in unter 120 Sekunden; Netzwände erleichtern die Aufsicht; nutzbar drinnen und draußen.",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.mein-deal.com/bestway-h2ogo-huepfburg/",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Altersempfehlung 4+ in der Produktübersicht, Sicherheitshinweis: nicht für Kinder unter 3 Jahren; nur unter Aufsicht Erwachsener.",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B0B691W278",
+          "datum": "2026-10-08"
+        }
       ],
-      "pros": ["Günstigster Einstieg mit Dauergebläse und Netzwänden", "9 Heringe für die Verankerung", "Leicht (ca. 8 kg), schnell auf- und abgebaut", "Auch für drinnen geeignet (Herstellerangabe)"],
-      "cons": ["Nur 72 kg Gesamtbelastung, max. 36 kg pro Kind – eher für Kindergartenkinder", "Reines PVC statt Oxford-Gewebe", "Wenige Bewertungen auf amazon.de (unter 10), Listing-Titel englisch"],
-      "specs": { "Maße aufgeblasen": "289 x 213 x 173 cm", "Kinder gleichzeitig": "max. 3", "Max. Gesamtgewicht": "72 kg (36 kg je Kind)", "Alter (Hersteller)": "ab 4 Jahren (Übersicht), nicht unter 3 Jahren", "Gebläse": "Dauergebläse, inklusive", "Extras": "25 Bälle" },
+      "pros": [
+        "Günstigster Einstieg mit Dauergebläse und Netzwänden",
+        "9 Heringe für die Verankerung",
+        "Leicht (ca. 8 kg), schnell auf- und abgebaut",
+        "Auch für drinnen geeignet (Herstellerangabe)"
+      ],
+      "cons": [
+        "Nur 72 kg Gesamtbelastung, max. 36 kg pro Kind – eher für Kindergartenkinder",
+        "Reines PVC, kein beschichtetes Gewebe wie bei Platz 1 (Polyester) und Platz 3 (Oxford)",
+        "Keine Garantieangabe, Listing-Titel englisch"
+      ],
+      "specs": {
+        "Maße aufgeblasen": "289 x 213 x 173 cm",
+        "Kinder gleichzeitig": "max. 3",
+        "Max. Gesamtgewicht": "72 kg (36 kg je Kind)",
+        "Alter (Hersteller)": "ab 4 Jahren (Übersicht), nicht unter 3 Jahren",
+        "Gebläse": "Dauergebläse, inklusive",
+        "Extras": "25 Bälle"
+      },
       "asin": "B0B691W278",
       "query": "Bestway LEAP & Play Mega Bouncer Hüpfburg 289 x 213 x 173 cm",
       "shop": null,
@@ -74,19 +181,70 @@
       "brand": "COSTWAY",
       "variant": "330 x 300 x 210 cm, trocken (Version mit Bällebad statt Wasserbecken)",
       "priceTier": 3,
-      "ratings": { "sicherheit": 6.5, "kapazitaet": 9.0, "material": 6.5, "geblaese": 8.5 },
+      "ratings": {
+        "sicherheit": 6.5,
+        "kapazitaet": 9.0,
+        "material": 6.5,
+        "geblaese": 8.5
+      },
       "gesamt": 7.43,
       "bestFor": "Große Gärten und Kindergeburtstage mit mehreren Kindern, die mehr Spielelemente (Kletterwand, zwei Rutschen, Bällebad, Basketballkorb) wollen.",
       "fakten": [
-        { "text": "Aufgeblasen 330 x 300 x 210 cm, Gewicht ca. 19 kg.", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B09CM55CY4", "datum": "2026-10-08" },
-        { "text": "Maximale Belastung 135 kg, kein Kind über 45 kg; Altersempfehlung 3–10 Jahre. Kinderzahl im Listing widersprüchlich (max. 5 im Text, 3 in der Tabelle).", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B09CM55CY4", "datum": "2026-10-08" },
-        { "text": "Sprungbereich mit Netz, Bällebad, Kletterwand, Basketballkorb und zwei Rutschen.", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B09CM55CY4", "datum": "2026-10-08" },
-        { "text": "Lieferumfang: Hüpfburg, 610-W-Gebläse (an anderer Stelle im Listing 780 W), Tragetasche, Reparaturset, Pfähle, 60 Bälle.", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B09CM55CY4", "datum": "2026-10-08" },
-        { "text": "Costway empfiehlt, die Burg vor dem Verstauen vollständig zu trocknen und trocken und belüftet zu lagern; leichter Luftaustritt an Nähten ist laut Hersteller normal.", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/H%C3%BCpfburgen-COSTWAY-Sport-Outdoor/s?keywords=H%C3%BCpfburgen&rh=n%3A5212010031%2Cp_89%3ACOSTWAY&c=ts&ts_id=5212010031", "datum": "2026-10-08" }
+        {
+          "text": "Aufgeblasen 330 x 300 x 210 cm, Gewicht ca. 19 kg.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B09CM55CY4",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Maximale Belastung 135 kg, kein Kind über 45 kg; Altersempfehlung 3–10 Jahre. Kinderzahl im Listing widersprüchlich (max. 5 im Text, 3 in der Tabelle).",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B09CM55CY4",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Sprungbereich mit Netz, Bällebad, Kletterwand, Basketballkorb und zwei Rutschen.",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B09CM55CY4",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Lieferumfang: Hüpfburg, 610-W-Gebläse (an anderer Stelle im Listing 780 W), Tragetasche, Reparaturset, Pfähle, 60 Bälle.",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B09CM55CY4",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Costway empfiehlt, die Burg vor dem Verstauen vollständig zu trocknen und trocken und belüftet zu lagern; leichter Luftaustritt an Nähten ist laut Hersteller normal.",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/H%C3%BCpfburgen-COSTWAY-Sport-Outdoor/s?keywords=H%C3%BCpfburgen&rh=n%3A5212010031%2Cp_89%3ACOSTWAY&c=ts&ts_id=5212010031",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Material: PVC-beschichtetes Oxford-Gewebe.",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B09CM55CY4",
+          "datum": "2026-10-08"
+        }
       ],
-      "pros": ["Größte Spielfläche und meiste Spielelemente der Top 3", "Höchste Belastbarkeit (135 kg)", "Kräftiges Gebläse im Lieferumfang", "Bälle, Pfähle, Tragetasche und Reparaturset dabei"],
-      "cons": ["Widersprüchliche Listing-Angaben (Gebläse 610/780 W, 3 bzw. 5 Kinder)", "Nur wenige Bewertungen auf amazon.de", "Höchste Preisklasse, braucht viel Stellfläche plus Sicherheitsabstand"],
-      "specs": { "Maße aufgeblasen": "330 x 300 x 210 cm", "Max. Gesamtgewicht": "135 kg (max. 45 kg je Kind)", "Alter (Hersteller)": "3–10 Jahre", "Gebläse": "610 W laut Lieferumfang, inklusive", "Extras": "2 Rutschen, Kletterwand, Bällebad, Basketballkorb, 60 Bälle" },
+      "pros": [
+        "Größte Spielfläche und meiste Spielelemente der Top 3",
+        "Höchste Belastbarkeit (135 kg)",
+        "Gebläse im Lieferumfang",
+        "Bälle, Pfähle, Tragetasche und Reparaturset dabei"
+      ],
+      "cons": [
+        "Widersprüchliche Listing-Angaben (Gebläse 610/780 W, 3 bzw. 5 Kinder)",
+        "Noch wenig Erfahrungsberichte zur Haltbarkeit",
+        "Höchste Preisklasse, braucht viel Stellfläche plus Sicherheitsabstand"
+      ],
+      "specs": {
+        "Maße aufgeblasen": "330 x 300 x 210 cm",
+        "Max. Gesamtgewicht": "135 kg (max. 45 kg je Kind)",
+        "Alter (Hersteller)": "3–10 Jahre",
+        "Gebläse": "610 W laut Lieferumfang, inklusive",
+        "Extras": "2 Rutschen, Kletterwand, Bällebad, Basketballkorb, 60 Bälle"
+      },
       "asin": "B09CM55CY4",
       "query": "COSTWAY Aufblasbare Hüpfburg 610W Luftgebläse 2 Rutsche 330x300x210cm",
       "shop": null,
@@ -99,100 +257,248 @@
       "name": "Bestway H2OGO! Jump and Soar Hüpfburg mit Dauergebläse, 194 x 175 x 170 cm",
       "warum": "Kleine Hüpfburg für 2–3 Kinder und kleine Gärten: geringe Stellfläche, Netzwände, Dauergebläse dabei.",
       "fakten": [
-        { "text": "194 x 175 x 170 cm, max. 3 Personen, ab 3 Jahren, empfohlene Maximalbelastung 113 kg; Aufbau in unter 120 Sekunden.", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B095XM5QHS", "datum": "2026-10-08" },
-        { "text": "Einzelne Rezensionen bemängeln das schwache Gebläse (ca. 230 W).", "art": "Bericht", "quelle": "https://www.amazon.de/dp/B095XM5QHS", "datum": "2026-10-08" }
+        {
+          "text": "194 x 175 x 170 cm, max. 3 Personen, ab 3 Jahren, empfohlene Maximalbelastung 113 kg; Aufbau in unter 120 Sekunden.",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B095XM5QHS",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Einzelne Rezensionen bemängeln das schwache Gebläse (ca. 230 W).",
+          "art": "Bericht",
+          "quelle": "https://www.amazon.de/dp/B095XM5QHS",
+          "datum": "2026-10-08"
+        }
       ],
       "asin": "B095XM5QHS",
       "query": "Bestway H2OGO Jump and Soar Hüpfburg 194 x 175 x 170 cm",
       "where": null
     },
     {
-      "name": "COSTWAY Hüpfburg mit 2 Gebläsen, Rutsche, Kletterwand, Tunnel, Hindernissen & Sprungbereich, 940 x 354 x 238 cm",
+      "name": "COSTWAY Hüpfburg XXL mit Rutsche, Kletterwand, Kriechtunneln, Sprungbereich und Ozeanbällen, 940 x 350 x 234 cm",
       "warum": "Große Party-Hüpfburg als Hindernisparcours für viele Kinder und große Gärten.",
       "fakten": [
-        { "text": "Zwei Gebläse, Rutsche, Kletterwand, Tunnel, Hindernisse und Sprungbereich, für drinnen und draußen, inkl. Tragetasche und Reparaturset.", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B0F2F7S326", "datum": "2026-10-08" }
+        {
+          "text": "940 x 350 x 234 cm, Sprungbereich 400 x 350 x 214 cm, Rutsche 540 x 220 x 234 cm, Oxford-Gewebe und PVC, Netzwände, 3–12 Jahre, max. 45 kg je Kind, einzeln oder kombiniert nutzbar. Gebläseanzahl in den Suchtreffern nicht bestätigt.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B0GGXY34L7",
+          "datum": "2026-10-08"
+        }
       ],
-      "asin": "B0F2F7S326",
-      "query": "COSTWAY Hüpfburg mit 2 Gebläsen Rutsche Kletterwand Tunnel 940 x 354 x 238 cm",
+      "asin": "B0GGXY34L7",
+      "query": "COSTWAY Hüpfburg XXL Rutsche Kletterwand Kriechtunnel 940 x 350 x 234 cm",
       "where": null
     },
     {
-      "name": "Happy Hop 9017N Hüpfburg Schloss mit Rutsche",
-      "warum": "Klassische Hüpfburg mit Rutsche vom Hüpfburg-Spezialisten Happy Hop, ähnlich groß wie die Gesamtwahl.",
+      "name": "COSTWAY Hüpfburg mit Rutsche und großem Sprungbereich, 346 x 259 x 220 cm",
+      "warum": "Burg mit Rutsche in Gartengröße für Familien, die schon ein Gebläse haben oder es separat kaufen.",
       "fakten": [
-        { "text": "365 x 265 x 215 cm, ca. 17 kg, PVC und Nylon doppelt laminiert und doppelt genäht, Dauergebläse inklusive, ab 3 Jahren, max. 113 kg (Beschreibung nennt 110 kg), 1 Jahr Garantie.", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B00BYPEHWM", "datum": "2026-10-08" }
+        {
+          "text": "346 x 259 x 220 cm, Sprungbereich 217 x 212 cm, Rutsche 107 x 47 cm, Oxford-Gewebe und PVC, doppelt genäht, Netzwände, 3–12 Jahre, max. 45 kg je Kind / 90 kg gesamt, ca. 13 kg; Lieferumfang Burg, Tasche, 8 Heringe, Reparaturset; Gebläse nicht enthalten (550–650 W empfohlen); Modell ZB34165DE.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B0GKN51WXD",
+          "datum": "2026-10-08"
+        }
       ],
-      "asin": "B00BYPEHWM",
-      "query": "Happy Hop 9017N Hüpfburg Schloss mit Rutsche",
+      "asin": "B0GKN51WXD",
+      "query": "COSTWAY Hüpfburg mit Rutsche großer Sprungbereich 346 x 259 x 220 cm",
       "where": null
     },
     {
       "name": "Intex 48259NP Jump-O-Lene Castle Bouncer, 175 x 175 x 135 cm",
       "warum": "Hüpfburg für drinnen: ohne Gebläse, mit gepolstertem Doppelboden, für bis zu 2 Kinder; luftleer klein zu verstauen.",
       "fakten": [
-        { "text": "175 x 175 x 135 cm, max. 54 kg (max. 2 Kinder), Alter 3–6 Jahre; wird aufgepumpt (kein Dauergebläse).", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B002RXHW6S", "datum": "2026-10-08" },
-        { "text": "Sehr viele Bewertungen (ca. 4,0 von 5 bei über 10.000); Kritikpunkte: Luftverlust, Nahtrisse, Plastikgeruch.", "art": "Bericht", "quelle": "https://www.amazon.de/dp/B002RXHW6S", "datum": "2026-10-08" }
+        {
+          "text": "175 x 175 x 135 cm, max. 54 kg (max. 2 Kinder), Alter 3–6 Jahre; wird aufgepumpt (kein Dauergebläse).",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B002RXHW6S",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Sehr viele Bewertungen (ca. 4,0 von 5 bei über 10.000); Kritikpunkte: Luftverlust, Nahtrisse, Plastikgeruch.",
+          "art": "Bericht",
+          "quelle": "https://www.amazon.de/dp/B002RXHW6S",
+          "datum": "2026-10-08"
+        }
       ],
       "asin": "B002RXHW6S",
       "query": "Intex 48259NP Jump-O-Lene Castle Bouncer",
       "where": null
     },
     {
-      "name": "Bestway Fisher-Price Hüpfburg Bouncetacular, 200 x 170 x 152 cm, mit Dauergebläse",
-      "warum": "Für die Jüngsten ab 3 Jahren: niedrige, kompakte Burg mit Dauergebläse, drinnen und draußen nutzbar.",
+      "name": "Bestway Fisher-Price Hüpfburg Bouncetastic, 175 x 173 x 135 cm",
+      "warum": "Kleine, niedrige Burg für die Jüngsten ab 3 Jahren, drinnen und draußen.",
       "fakten": [
-        { "text": "200 x 170 x 152 cm, max. 113 kg, 36 Monate bis 8 Jahre; Dauergebläse 220–240 V / 300 W, 11 Heringe, Reparaturflicken, Tasche; Modell 93549.", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B07TLHF47S", "datum": "2026-10-08" }
+        {
+          "text": "175 x 173 x 135 cm, ab 3 Jahren, max. 85 kg, Netzwände, ein Eingang; Lieferumfang Burg, 4 Heringe, selbstklebender Reparaturflicken – kein Gebläse genannt; Modell 93553.",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B086TDVX86",
+          "datum": "2026-10-08"
+        }
       ],
-      "asin": "B07TLHF47S",
-      "query": "Bestway Fisher-Price Hüpfburg Bouncetacular 200 x 170 x 152 cm",
+      "asin": "B086TDVX86",
+      "query": "Bestway Fisher-Price Hüpfburg Bouncetastic 175 x 173 x 135 cm",
       "where": null
     }
   ],
   "tests": [
-    { "institut": "Stiftung Warentest", "heft": "–", "ergebnis": "Kein Test von Hüpfburgen für den Heimgebrauch gefunden.", "quelle": "https://www.test.de" },
-    { "institut": "Öko-Test", "heft": "–", "ergebnis": "Kein Hüpfburg-Test auffindbar (nur ein Verweis eines Vergleichsportals, Inhalt nicht bestätigt).", "quelle": "https://www.oekotest.de" },
-    { "institut": "Vergleichsportale (vergleich.org, beste-testsieger.de u. a.)", "heft": "–", "ergebnis": "Nur kommerzielle 'Testsieger' ohne eigene Prüfung – nicht als Testquelle verwendet.", "quelle": "https://www.vergleich.org/huepfburg/" }
+    {
+      "institut": "Stiftung Warentest",
+      "heft": "–",
+      "ergebnis": "Kein Test von Hüpfburgen für den Heimgebrauch gefunden.",
+      "quelle": "https://www.test.de"
+    },
+    {
+      "institut": "Öko-Test",
+      "heft": "–",
+      "ergebnis": "Kein Hüpfburg-Test auffindbar (nur ein Verweis eines Vergleichsportals, Inhalt nicht bestätigt).",
+      "quelle": "https://www.oekotest.de"
+    },
+    {
+      "institut": "Vergleichsportale (vergleich.org, beste-testsieger.de u. a.)",
+      "heft": "–",
+      "ergebnis": "Nur kommerzielle 'Testsieger' ohne eigene Prüfung – nicht als Testquelle verwendet.",
+      "quelle": "https://www.vergleich.org/huepfburg/"
+    }
   ],
   "warnungen": [
     "Keine Safety-Gate-/produktwarnung-Meldung zu den ausgewählten Hüpfburgen gefunden (Stand 2026-10-08, per Websuche; direkte Abfrage von Safety Gate war im Tool nicht möglich).",
     "Gebläse sind Elektrogeräte: Im UK wurden Hüpfburg-Gebläse wegen Stromschlaggefahr zurückgerufen (Vevor YF-690W-S1, Rückruf Jan. 2024; Baralir-Gebläse 2022) – betrifft keine der Empfehlungen, zeigt aber: Gebläse mit Original-Stecker/FI nutzen, Kabel vor Nässe schützen. Quelle: https://www.gov.uk/product-safety-alerts-reports-recalls/product-safety-report-air-blower-yf-690w-s1-2301-0046",
-    "Wind ist das größte Risiko: Hüpfburgen wirken wie Segel; laut einer Studie der University of Georgia mind. 479 Verletzte und 28 Tote weltweit durch windbedingte Unfälle 2000–2021; die US-CPSC rät von der Nutzung ab ca. 24–40 km/h Wind ab. Unfälle mit Todesfolge auch in Österreich gemeldet (tips.at). Quellen: https://informedclearly.com/de/unfall/62091/huepfburg-unfall-australien-kinder-2026, https://www.tips.at/nachrichten/oesterreich/oesterreich-welt/655054-von-wind-erfasst-kind-5-stirbt-nach-huepfburg-unfall",
+    "Wind ist das größte Risiko: Studie der University of Georgia (John Knox u. a., 2022, Bulletin of the American Meteorological Society): 132 windbedingte Hüpfburg-Unfälle weltweit 2000–2021, mind. 479 Verletzte, 28 Tote, vermutlich Untererfassung; ein Drittel bei Wind ≤ 20 mph (ca. 32 km/h); 19 US-Bundesstaaten nutzen den ASTM-Standard mit max. 25 mph (ca. 40 km/h). CPSC-Windgrenze nicht primär belegt – nicht verwendet. Tödlicher Unfall auch in Österreich (tips.at). Quellen: https://news.uga.edu/bounce-houses-caused-479-injuries-28-deaths/ (per Websuche bestätigt; direkter Abruf im Tool nicht möglich), https://www.tips.at/nachrichten/oesterreich/oesterreich-welt/655054-von-wind-erfasst-kind-5-stirbt-nach-huepfburg-unfall",
     "Alle Hersteller: nur unter Aufsicht Erwachsener, nicht für Kinder unter 3 Jahren, Kinderzahl und Gewichtsgrenzen einhalten, Gebläse muss durchgehend laufen.",
     "EN 71 / GS: Für keines der Top-3-Produkte wurde eine Norm- oder GS-Angabe auf amazon.de bestätigt – im Text nicht behaupten."
   ],
   "verworfen": [
-    { "name": "Bestway Planschbecken mit Hüpfburg (B08CBGX36G)", "grund": "Wasser-Kombi ohne Gebläse – gehört zu aufblasbare-wasserrutsche bzw. Planschbecken; Berichte über Luftverlust." },
-    { "name": "Bestway H2OGO!-Wasserparks (Tidal Tower, Mount Splashmore, Hurricane u. a.)", "grund": "Wasserrutschen/Wasserparks – Abgrenzung zu aufblasbare-wasserrutsche." },
-    { "name": "COSTWAY Flamingo-/Elefant-Hüpfburgen mit Wasserrutsche, Outsunny Wasserpark-Modelle", "grund": "Schwerpunkt Wasser – Kategorie aufblasbare-wasserrutsche." },
-    { "name": "Happy Hop 9512 Schloss mit Doppelrutsche (B083P27GT6)", "grund": "Listing per Suche nicht bestätigbar." },
-    { "name": "Happy Hop 9001 Clown, 9517 Krokodil; Little Tikes Sportsfun, 620072, Junior Jump 'n Slide (B00QGSMSO6)", "grund": "Auf amazon.de derzeit nicht verfügbar." },
-    { "name": "Bestway Play Center 52122 (B00FILJRDM)", "grund": "Derzeit nicht verfügbar, 2,5/5 Sterne." },
-    { "name": "Bestway Mini Hüpfburg 165 x 114 cm (B01E14ZLSQ)", "grund": "Nur Restbestand bei Drittanbieter, keine Bewertungen/Angaben – Intex Jump-O-Lene als Indoor-Option bevorzugt." },
-    { "name": "Ballsea, GOPLUS, DREAMADE, Baralir u. ä.", "grund": "Austauschbare Marktplatz-Marken ohne belastbare Herstellerinfos; Baralir-Gebläse 2022 im UK wegen Stromschlaggefahr beanstandet." }
+    {
+      "name": "Little Tikes Jump 'n Slide Bouncer – Hüpfburg mit Sicherheitsnetz für den Außenbereich, inkl. Tragetasche, Hochdruckgebläse und Flickmaterial",
+      "grund": "Platz 1 bis Korrekturrunde 1: B01GIL6SQY und baugleiches B003NSBMUI auf amazon.de „Derzeit nicht verfügbar“ (Stand 2026-10-08)."
+    },
+    {
+      "name": "Bestway Planschbecken mit Hüpfburg (B08CBGX36G)",
+      "grund": "Wasser-Kombi ohne Gebläse – gehört zu aufblasbare-wasserrutsche bzw. Planschbecken; Berichte über Luftverlust."
+    },
+    {
+      "name": "Bestway H2OGO!-Wasserparks (Tidal Tower, Mount Splashmore, Hurricane u. a.)",
+      "grund": "Wasserrutschen/Wasserparks – Abgrenzung zu aufblasbare-wasserrutsche."
+    },
+    {
+      "name": "COSTWAY Flamingo-/Elefant-Hüpfburgen mit Wasserrutsche, Outsunny Wasserpark-Modelle",
+      "grund": "Schwerpunkt Wasser – Kategorie aufblasbare-wasserrutsche."
+    },
+    {
+      "name": "Happy Hop 9512 Schloss mit Doppelrutsche (B083P27GT6)",
+      "grund": "Listing per Suche nicht bestätigbar."
+    },
+    {
+      "name": "Happy Hop 9001 Clown, 9517 Krokodil; Little Tikes Sportsfun, 620072, Junior Jump 'n Slide (B00QGSMSO6)",
+      "grund": "Auf amazon.de derzeit nicht verfügbar."
+    },
+    {
+      "name": "Bestway Play Center 52122 (B00FILJRDM)",
+      "grund": "Derzeit nicht verfügbar, 2,5/5 Sterne."
+    },
+    {
+      "name": "Bestway Mini Hüpfburg 165 x 114 cm (B01E14ZLSQ)",
+      "grund": "Nur Restbestand bei Drittanbieter, keine Bewertungen/Angaben – Intex Jump-O-Lene als Indoor-Option bevorzugt."
+    },
+    {
+      "name": "Ballsea, GOPLUS, DREAMADE, Baralir u. ä.",
+      "grund": "Austauschbare Marktplatz-Marken ohne belastbare Herstellerinfos; Baralir-Gebläse 2022 im UK wegen Stromschlaggefahr beanstandet."
+    },
+    {
+      "name": "Happy Hop 9017N (B00BBEUVEO; B00BYPEHWM nicht auffindbar)",
+      "grund": "Derzeit nicht verfügbar; ASIN in der ersten Recherche nicht bestätigbar. Ebenfalls nicht verfügbar: Happy Hop 9060 (B002GT7WEA), 9315 (B00HSMF97C), 9139 Jungle Fun (B00BEW5A8A)."
+    },
+    {
+      "name": "Bestway Fisher-Price Bouncetacular (B07TLHF47S)",
+      "grund": "ASIN/Produktname per Suche nicht bestätigbar – ersetzt durch Bouncetastic B086TDVX86."
+    },
+    {
+      "name": "COSTWAY Hüpfburg 940 x 354 x 238 cm mit 2 Gebläsen (B0F2F7S326)",
+      "grund": "ASIN per Suche nicht bestätigbar – ersetzt durch COSTWAY XXL 940 x 350 x 234 cm (B0GGXY34L7)."
+    },
+    {
+      "name": "Bestway Fisher-Price Bouncetopia (B08J88ZP2S)",
+      "grund": "Integrierte Pumpe laut Listing 110–140 V (nicht für deutsches Netz plausibel), Altersangaben widersprüchlich, Nahtrisse in Rezension."
+    },
+    {
+      "name": "COSTWAY 380 x 305 x 215 cm (B07TKKPH65), Outsunny 250 x 180 x 175 cm (B09QLV9S3K)",
+      "grund": "Derzeit nicht verfügbar."
+    }
   ],
   "offen": [
     "amazon.de konnte nicht direkt geladen werden (WebFetch/curl blockiert): ASINs wurden über amazon.de-/dp/-Suchtreffer mit passendem Titel geprüft; Verfügbarkeit vor Veröffentlichung kurz im Browser bestätigen, v. a. B00BYPEHWM (Happy Hop, Titel spanisch/englisch, Beschreibung teils von anderem Modell kopiert) und B0B691W278 (englischer Titel, wenige Bewertungen).",
     "COSTWAY B09CM55CY4: Listing widersprüchlich (Gebläse 610 vs. 780 W, 3 vs. 5 Kinder) – im Text nur 610 W laut Lieferumfang und 135 kg nennen, Kinderzahl vorsichtig formulieren.",
-    "Gebläse-Wattzahl Little Tikes nicht ermittelbar; EN-71-/GS-Angaben für alle Top-3 unbestätigt.",
     "Awin: keine freigeschalteten Programme – alle Produkte über Amazon, kein Händlervorschlag nötig.",
     "Kein unabhängiger Test (Stiftung Warentest/Öko-Test) – Bewertung rein redaktionell auf Basis Herstellerangaben und Erfahrungsberichte.",
-    "Little Tikes Jump 'n Slide: Altersangabe im Listing uneinheitlich (3–8 bzw. 3–10 Jahre)."
+    "Bestway Spring n' Slide B07FXXPBL9: Listing aktiv mit (einem) Neuangebot laut Suchtreffer; Maße amazon.de (245 x 200 x 145) vs. Bestway-Service (250 x 210 x 152) abweichend. Verfügbarkeit vor Veröffentlichung im Browser bestätigen.",
+    "Bestway Jump and Soar B095XM5QHS: Feld „Enthaltene Komponenten“ nennt nur Burg + Reparaturflicken, Titel „mit Dauergebläse“ – im Text als Rezensions-/Listinghinweis belassen.",
+    "EN-71-/GS-Angaben für alle Top 3 unbestätigt."
   ],
   "quellen": [
-    { "titel": "Little Tikes Jump 'n Slide Bouncer – amazon.de", "url": "https://www.amazon.de/dp/B01GIL6SQY" },
-    { "titel": "Bestway LEAP & Play Mega Bouncer – amazon.de", "url": "https://www.amazon.de/dp/B0B691W278" },
-    { "titel": "Bestway H2OGO Hüpfburg Leap & Play – mein-deal.com", "url": "https://www.mein-deal.com/bestway-h2ogo-huepfburg/" },
-    { "titel": "COSTWAY Hüpfburg 610W 330x300x210 cm – amazon.de", "url": "https://www.amazon.de/dp/B09CM55CY4" },
-    { "titel": "Bestway H2OGO Jump and Soar – amazon.de", "url": "https://www.amazon.de/dp/B095XM5QHS" },
-    { "titel": "COSTWAY Hüpfburg 940 x 354 x 238 cm – amazon.de", "url": "https://www.amazon.de/dp/B0F2F7S326" },
-    { "titel": "Happy Hop 9017N – amazon.de", "url": "https://www.amazon.de/dp/B00BYPEHWM" },
-    { "titel": "Intex 48259NP Jump-O-Lene Castle Bouncer – amazon.de", "url": "https://www.amazon.de/dp/B002RXHW6S" },
-    { "titel": "Bestway Fisher-Price Bouncetacular – amazon.de", "url": "https://www.amazon.de/dp/B07TLHF47S" },
-    { "titel": "Little Tikes Anleitung Jump 'n Double Slide Bouncer (PDF)", "url": "https://parts.littletikes.com/cdn/shop/files/620133-JumpNDoubleSlideBouncer.pdf" },
-    { "titel": "UK Product Safety Report: Vevor Air Blower YF-690W-S1", "url": "https://www.gov.uk/product-safety-alerts-reports-recalls/product-safety-report-air-blower-yf-690w-s1-2301-0046" },
-    { "titel": "UK Product Safety Report: Air Blower for inflatable castle S4-E", "url": "https://www.gov.uk/product-safety-alerts-reports-recalls/product-safety-report-air-blower-for-inflatable-castle-model-s4-e-2208-0217" },
-    { "titel": "tips.at: Von Wind erfasst – Kind stirbt nach Hüpfburg-Unfall", "url": "https://www.tips.at/nachrichten/oesterreich/oesterreich-welt/655054-von-wind-erfasst-kind-5-stirbt-nach-huepfburg-unfall" },
-    { "titel": "Hüpfburg-Unfall Australien (Wind, Studie University of Georgia)", "url": "https://informedclearly.com/de/unfall/62091/huepfburg-unfall-australien-kinder-2026" },
-    { "titel": "Happy-Fun: Hüpfburg sicher aufbauen (Windstärke-Grenze)", "url": "https://happy-fun.com/en/blogs/page/anleitung-huepfburg-sicher-aufbauen" }
+    {
+      "titel": "Bestway Up, In & Over Spring n' Slide – amazon.de",
+      "url": "https://www.amazon.de/dp/B07FXXPBL9"
+    },
+    {
+      "titel": "Bestway-Service: Hüpfburg mit Dauergebläse Spring n' Slide (53310)",
+      "url": "https://www.bestwayservice.de/produkt/1053310XXA19"
+    },
+    {
+      "titel": "Bestway LEAP & Play Mega Bouncer – amazon.de",
+      "url": "https://www.amazon.de/dp/B0B691W278"
+    },
+    {
+      "titel": "Bestway H2OGO Hüpfburg Leap & Play – mein-deal.com",
+      "url": "https://www.mein-deal.com/bestway-h2ogo-huepfburg/"
+    },
+    {
+      "titel": "COSTWAY Hüpfburg 610W 330x300x210 cm – amazon.de",
+      "url": "https://www.amazon.de/dp/B09CM55CY4"
+    },
+    {
+      "titel": "Bestway H2OGO Jump and Soar – amazon.de",
+      "url": "https://www.amazon.de/dp/B095XM5QHS"
+    },
+    {
+      "titel": "Intex 48259NP Jump-O-Lene Castle Bouncer – amazon.de",
+      "url": "https://www.amazon.de/dp/B002RXHW6S"
+    },
+    {
+      "titel": "Little Tikes Anleitung Jump 'n Double Slide Bouncer (PDF)",
+      "url": "https://parts.littletikes.com/cdn/shop/files/620133-JumpNDoubleSlideBouncer.pdf"
+    },
+    {
+      "titel": "UK Product Safety Report: Vevor Air Blower YF-690W-S1",
+      "url": "https://www.gov.uk/product-safety-alerts-reports-recalls/product-safety-report-air-blower-yf-690w-s1-2301-0046"
+    },
+    {
+      "titel": "UK Product Safety Report: Air Blower for inflatable castle S4-E",
+      "url": "https://www.gov.uk/product-safety-alerts-reports-recalls/product-safety-report-air-blower-for-inflatable-castle-model-s4-e-2208-0217"
+    },
+    {
+      "titel": "tips.at: Von Wind erfasst – Kind stirbt nach Hüpfburg-Unfall",
+      "url": "https://www.tips.at/nachrichten/oesterreich/oesterreich-welt/655054-von-wind-erfasst-kind-5-stirbt-nach-huepfburg-unfall"
+    },
+    {
+      "titel": "Happy-Fun: Hüpfburg sicher aufbauen (Windstärke-Grenze)",
+      "url": "https://happy-fun.com/en/blogs/page/anleitung-huepfburg-sicher-aufbauen"
+    },
+    {
+      "titel": "COSTWAY Hüpfburg XXL 940 x 350 x 234 cm – amazon.de",
+      "url": "https://www.amazon.de/dp/B0GGXY34L7"
+    },
+    {
+      "titel": "COSTWAY Hüpfburg mit Rutsche 346 x 259 x 220 cm – amazon.de",
+      "url": "https://www.amazon.de/dp/B0GKN51WXD"
+    },
+    {
+      "titel": "Bestway Fisher-Price Bouncetastic – amazon.de",
+      "url": "https://www.amazon.de/dp/B086TDVX86"
+    },
+    {
+      "titel": "University of Georgia: Wind has caused 479 injuries, 28 deaths in bounce houses since 2000",
+      "url": "https://news.uga.edu/bounce-houses-caused-479-injuries-28-deaths/"
+    }
   ]
 }

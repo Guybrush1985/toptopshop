@@ -18,7 +18,7 @@ export default {
   lead:
     "Ein Pikler-Dreieck ist das erste Klettergerät, das ins Kinderzimmer passt: Babys ziehen sich daran hoch, Kleinkinder klettern hinüber, mit eingehängtem Brett wird es zur Rutsche. Wir zeigen die drei besten klappbaren Modelle – und worauf es bei Holz, Stellmaß und Sicherheit ankommt.",
   answer:
-    "Unsere beste Gesamtwahl ist das [**Kids Woody Star Kletterdreieck mit Rutsche/Sprossenleiter 2-in-1**](produkt:1) aus Buche mit Rutsche im Lieferumfang. Am günstigsten startest du mit dem [**TP Toys Active-Tots Kletterdreieck TP 682U**](produkt:2), das sich später um eine Rutsche erweitern lässt. Für kleine Zimmer und Babys ab etwa 10 Monaten (Herstellerangabe) passt das niedrig einstellbare [**GOODEX Kletterdreieck aus massiver Buche**](produkt:3).",
+    "Unsere beste Gesamtwahl ist das [**Kids Woody Star Kletterdreieck mit Rutsche/Sprossenleiter 2-in-1**](produkt:1) aus Buche mit Rutsche im Lieferumfang. Am günstigsten startest du mit dem [**TP Toys TP 682U Active-Tots Kletterdreieck**](produkt:2), das sich später um eine Rutsche erweitern lässt. Für kleine Zimmer und Babys ab etwa 10 Monaten (Herstellerangabe) passt das schlichte, auf ca. 30 cm zusammenklappbare [**Marida Pikler Dreieck aus Buche**](produkt:3).",
 
   priceTiers: {
     1: { symbol: "€", label: "bis ca. 80 €" },
@@ -28,7 +28,7 @@ export default {
 
   top3Title: "Unsere Top 3 Pikler-Dreiecke",
   top3Intro:
-    "Alle drei sind klappbare Holzdreiecke für drinnen, die sich nach dem Spielen flach an die Wand stellen lassen. Der Unterschied: Rutsche im Set, günstiger Einstieg mit System-Zubehör oder besonders kompakte, niedrige Bauweise.",
+    "Alle drei sind klappbare Holzdreiecke für drinnen, die sich nach dem Spielen flach an die Wand stellen lassen. Der Unterschied: Rutsche im Set, günstiger Einstieg mit System-Zubehör oder ein schlichtes Buchendreieck, das sich besonders flach verstauen lässt.",
   comparisonTitle: "Die 3 besten Pikler-Dreiecke im Vergleich",
 
   criteria: [
@@ -39,7 +39,7 @@ export default {
   ],
 
   method:
-    "Wir haben die Dreiecke nicht selbst getestet. Grundlage sind Herstellerangaben aus den amazon.de-Listings (Holz, Maße, Alter, Belastbarkeit, Normangaben), Gebrauchsanweisungen von Herstellern und die redaktionellen Vergleiche von kita.de, die wir nur aus Berichten kennen und die keine Laborprüfungen sind. Bei Stiftung Warentest und Öko-Test haben wir keinen Test von Pikler- oder Kletterdreiecken gefunden. Nach Rückrufen und Produktwarnungen haben wir per Websuche gesucht (Stand 8. Oktober 2026) und keine gefunden. Die Bewertung ist eine redaktionelle Einschätzung in vier gewichteten Kriterien von 0 bis 10.",
+    "Wir haben die Dreiecke nicht selbst getestet. Grundlage sind Herstellerangaben aus den amazon.de-Listings (Holz, Maße, Alter, Belastbarkeit, Normangaben), Gebrauchsanweisungen von Herstellern und die redaktionellen Vergleiche von kita.de, die wir nur aus Berichten kennen und die keine Laborprüfungen sind. Bei Stiftung Warentest und Öko-Test haben wir keinen Test von Pikler- oder Kletterdreiecken gefunden. Nach Rückrufen und Produktwarnungen haben wir per Websuche gesucht (Stand 8. Oktober 2026) und zu den empfohlenen Modellen keine gefunden. Dass es solche Fälle in der Produktgruppe gibt, zeigt der FitWood-Kletterbogen LUOTO: Zu ihm hat der Hersteller nach einer Entscheidung der schwedischen Verbraucherbehörde ein Produkt-Update veröffentlicht (Quelle: fitwood.com). Die Bewertung ist eine redaktionelle Einschätzung in vier gewichteten Kriterien von 0 bis 10.",
 
   products: [
     {
@@ -101,39 +101,38 @@ export default {
         norm: "im Listing nicht genannt",
         klappbar: "ja, flach",
       },
-      asin: "B09SDKFPD2",
       query: "TP Toys TP 682U Active-Tots Kletterdreieck",
     },
     {
       rank: 3,
-      label: "Beste Wahl ab 1 Jahr (ohne Rutsche, platzsparend)",
-      name: "GOODEX Kletterdreieck verstellbar ohne Rutsche, Massivholz Buche",
-      brand: "GOODEX",
-      variant: "2101 Buche, natur",
+      label: "Beste Wahl für Babys & kleine Zimmer",
+      name: "Marida Pikler Dreieck Indoor Klettergerüst, Buche",
+      brand: "Marida",
+      variant: "Buche, natur",
       visual: { kind: "triangle", tone: "mint" },
       priceTier: 2,
-      ratings: { sicherheit: 7.5, material: 8.5, spielwert: 6.0, platz: 8.5 },
-      bestFor: "Kleine Zimmer und erste Kletterversuche",
+      ratings: { sicherheit: 6.5, material: 8.0, spielwert: 6.0, platz: 8.5 },
+      bestFor: "Kleine Zimmer und erste Kletterversuche ab etwa 10 Monaten",
       verdict:
-        "Das am besten verarbeitete Dreieck im Vergleich nach den Herstellerangaben: massive Buche, in Deutschland hergestellt, mit Kindersicherung gegen Zusammenklappen. In der flachsten Stellung ist es nur 30 cm hoch – ideal für Babys, die sich gerade erst hochziehen.",
+        "Ein schlichtes Dreieck aus hellem Buchenholz ohne Zubehör: laut Hersteller für 10 Monate bis 5 Jahre und auf rund 30 cm zusammenklappbar. Damit passt es in Wohnungen, in denen das Gerät nach dem Spielen jeden Tag hinter die Tür oder unters Bett wandert. Abzüge gibt es, weil das Listing weder Belastbarkeit noch Norm nennt.",
       features: [
-        "Massive Buche, fein geschliffen und naturbelassen, FSC-zertifiziert (Herstellerangabe)",
-        "Entwickelt und hergestellt in Deutschland nach DIN EN 71 (Herstellerangabe)",
-        "4 Positionen werkzeuglos verstellbar, Kindersicherung gegen Zusammenklappen (Herstellerangabe)",
-        "Position 1: H 57 × B 72 × T 73 cm, Position 3: H 30 × B 72 × T 122 cm, 6,4 kg (Herstellerangabe)",
+        "Helles Buchenholz (Herstellerangabe)",
+        "Alter 10 Monate bis 5 Jahre (Herstellerangabe)",
+        "Auf ca. 30 cm zusammenklappbar (Herstellerangabe)",
+        "Auch als Höhle oder Spielhaus nutzbar (Herstellerangabe)",
       ],
-      pros: ["Massive Buche, Made in Germany", "EN 71 laut Hersteller", "Sehr niedrig einstellbar"],
-      cons: ["Keine Rutsche im Lieferumfang", "Belastbarkeit im Listing nicht angegeben", "Keine unabhängigen Tests"],
+      pros: ["Buche statt Kiefer", "Sehr flach zusammenklappbar", "Schon ab 10 Monaten (Herstellerangabe)"],
+      cons: ["Keine Rutsche im Lieferumfang", "Belastbarkeit und Norm im Listing nicht angegeben", "Ein Käuferbericht über Wackeln auf ebenem Boden – Wackeltest machen"],
       specs: {
-        holz: "Buche massiv, FSC (Herstellerangabe)",
-        alter: "10 Monate–6 Jahre (Herstellerangabe)",
+        holz: "Buche (Herstellerangabe)",
+        alter: "10 Monate–5 Jahre (Herstellerangabe)",
         belastung: "nicht angegeben",
-        rutsche: "nein, mit Rampe erweiterbar",
-        norm: "DIN EN 71 (Herstellerangabe)",
-        klappbar: "ja, 4 Positionen",
+        rutsche: "nein",
+        norm: "im Listing nicht genannt",
+        klappbar: "ja, auf ca. 30 cm",
       },
-      asin: "B0B4BB5D2Q",
-      query: "GOODEX Kletterdreieck verstellbar ohne Rutsche Buche",
+      asin: "B09HP72ZBV",
+      query: "Marida Pikler Dreieck Indoor Klettergerüst Buche",
     },
   ],
 
@@ -151,8 +150,8 @@ export default {
       kind: "scores",
       file: "beste-pikler-dreiecke-2026-bewertung.svg",
       title: "Die 3 besten Pikler-Dreiecke 2026",
-      alt: "Balkendiagramm: Bewertung von Kids Woody Star 2-in-1, TP Toys Active-Tots TP 682U und GOODEX Kletterdreieck in Stabilität & Sicherheit, Holz & Verarbeitung, Spielwert & Erweiterbarkeit sowie Klappbarkeit & Stellmaß",
-      caption: "Unsere Bewertung je Kriterium. Kids Woody Star punktet mit der Rutsche im Set, GOODEX bei Holz und Stellmaß.",
+      alt: "Balkendiagramm: Bewertung von Kids Woody Star 2-in-1, TP Toys TP 682U Active-Tots und Marida Pikler Dreieck in Stabilität & Sicherheit, Holz & Verarbeitung, Spielwert & Erweiterbarkeit sowie Klappbarkeit & Stellmaß",
+      caption: "Unsere Bewertung je Kriterium. Kids Woody Star punktet mit der Rutsche im Set, Marida beim Klappmaß.",
     },
     steps: {
       kind: "steps",
@@ -180,10 +179,10 @@ export default {
         id: "bestes-pikler-dreieck",
         h2: "Welches Pikler-Dreieck ist das beste?",
         blocks: [
-          { quick: "Für die meisten Familien ist das [Kids Woody Star 2-in-1](produkt:1) die beste Wahl, weil Dreieck und Rutsche aus Buche im Set kommen. Wer sparen will, nimmt das [TP Toys TP 682U](produkt:2); für kleine Zimmer und Babys ist das niedrig einstellbare [GOODEX Kletterdreieck](produkt:3) ideal." },
+          { quick: "Für die meisten Familien ist das [Kids Woody Star 2-in-1](produkt:1) die beste Wahl, weil Dreieck und Rutsche aus Buche im Set kommen. Wer sparen will, nimmt das [TP Toys TP 682U](produkt:2); für kleine Zimmer und Babys passt das flach klappbare [Marida Pikler Dreieck](produkt:3)." },
           { first: "Ein Pikler-Dreieck ist ein klappbares Holzgestell mit Sprossen, benannt nach der ungarischen Kinderärztin Emmi Pikler. Die Idee: Kinder erproben Bewegungen selbst und in ihrem eigenen Tempo – sie ziehen sich hoch, steigen ein, zwei Sprossen hinauf, klettern hinüber und wieder herunter. Erwachsene bleiben in der Nähe, setzen das Kind aber nicht auf die Sprossen." },
           { p: "Das [Kids Woody Star 2-in-1](produkt:1) liegt bei uns vorn, weil es die meisten Familienwünsche in einem Kauf erfüllt: Buchenholz, klappbar und ein Brett, das auf der einen Seite Rutsche und auf der anderen Sprossenleiter ist. Laut Berichten ist es auch die Hauptempfehlung im redaktionellen Pikler-Dreieck-Vergleich von kita.de – das ist kein Labortest, sondern eine Auswahl nach Herstellerangaben. Der Hersteller nennt eine Belastbarkeit von 50 kg und ein Alter von 12 bis 72 Monaten." },
-          { p: "Das [TP Toys TP 682U](produkt:2) ist das schlichteste Gerät im Vergleich: kein Brett, keine Rutsche, dafür eine bekannte Marke, FSC-Kiefer und rutschfeste Gummifüße. Wer später rutschen möchte, kauft die Kletterbrücke mit Rutsche TP 683U dazu, die laut Hersteller nur mit dem Dreieck TP682 oder dem Würfel TP684 funktioniert. Das [GOODEX Kletterdreieck](produkt:3) ist dagegen die Wahl für Familien, denen Material wichtiger ist als Zubehör: massive Buche aus deutscher Fertigung, nach Herstellerangabe nach DIN EN 71, mit Kindersicherung gegen Zusammenklappen." },
+          { p: "Das [TP Toys TP 682U](produkt:2) ist das schlichteste Gerät im Vergleich: kein Brett, keine Rutsche, dafür eine bekannte Marke, FSC-Kiefer und rutschfeste Gummifüße. Wer später rutschen möchte, kauft die Kletterbrücke mit Rutsche TP 683U dazu, die laut Hersteller nur mit dem Dreieck TP682 oder dem Würfel TP684 funktioniert. Das [Marida Pikler Dreieck](produkt:3) ist die Wahl für kleine Wohnungen: Buche, laut Hersteller schon ab 10 Monaten und auf ca. 30 cm zusammenklappbar. Belastbarkeit und Norm nennt das Listing allerdings nicht, und ein Käufer berichtet von einem wackelnden Fuß – den Wackeltest vor dem ersten Klettern solltest du hier besonders ernst nehmen." },
           { figure: "scores" },
           { quote: "Das beste Pikler-Dreieck ist das, das stabil steht, zum Zimmer passt und das Kind selbst entdecken lässt." },
         ],
@@ -198,7 +197,7 @@ export default {
           { h3: "Holz und Oberfläche" },
           { p: "Buche und Birke sind harte Hölzer, die Druckstellen und Kanten besser wegstecken als Kiefer. Kiefer ist leichter und günstiger, aber weicher. Naturbelassene oder geölte Oberflächen sind bei Geräten, an denen Kleinkinder auch mal nuckeln, die unkompliziertere Wahl; bei lackierten Teilen berichten Käufer einzelner Modelle von abblätternder Farbe." },
           { h3: "Normangaben richtig lesen" },
-          { p: "Holz-Kletterdreiecke sind eine junge Produktgruppe: Laut dem Londoner Victoria and Albert Museum gab es 2017 noch keine Holz-Kletterdreiecke auf dem EU-Markt, die die Spielzeugsicherheitsnormen erfüllten. Heute nennen manche Hersteller die Spielzeugnorm EN 71 ausdrücklich, wie GOODEX. Andere schreiben nur von „europäischen Normen“ oder CE. Das ist kein Mangel an sich, aber weniger konkret – im Zweifel beim Händler nachfragen. Spielplatzgeräte nach EN 1176 sind Pikler-Dreiecke nicht." },
+          { p: "Holz-Kletterdreiecke sind eine junge Produktgruppe: Laut dem Londoner Victoria and Albert Museum gab es 2017 noch keine Holz-Kletterdreiecke auf dem EU-Markt, die die Spielzeugsicherheitsnormen erfüllten. Heute nennen manche Anbieter die Spielzeugnorm EN 71 ausdrücklich, etwa Giant Bean im deutschen Listing. Andere schreiben nur von „europäischen Normen“ oder CE. Das ist kein Mangel an sich, aber weniger konkret – im Zweifel beim Händler nachfragen. Spielplatzgeräte nach EN 1176 sind Pikler-Dreiecke nicht." },
           { h3: "Alter und Belastbarkeit" },
           { p: "Die Altersangaben schwanken stark – von 10 Monaten bis 3 Jahren als Untergrenze – und sind reine Herstellerangaben. Wo eine Belastbarkeit genannt wird, liegt sie meist zwischen 40 und 60 kg. Das reicht für Kleinkinder und Kindergartenkinder, aber nicht für Erwachsene oder große Geschwister, die mitturnen wollen." },
           {
@@ -208,7 +207,7 @@ export default {
               rows: [
                 ["Kids Woody Star 2-in-1", "Buche", "12–72 Monate", "50 kg", "im Set"],
                 ["TP Toys TP 682U", "Kiefer, FSC", "ab 12 Monaten", "nicht angegeben", "Zubehör TP 683U"],
-                ["GOODEX Kletterdreieck", "Buche massiv, FSC", "10 Monate–6 Jahre", "nicht angegeben", "erweiterbar"],
+                ["Marida Pikler Dreieck", "Buche", "10 Monate–5 Jahre", "nicht angegeben", "nein"],
               ],
             },
           },
@@ -219,12 +218,12 @@ export default {
         h2: "Pikler-Dreieck mit oder ohne Rutsche – was passt zu wem?",
         blocks: [
           { quick: "Ein Set mit Rutsche lohnt sich ab etwa 1 Jahr und bei genug Platz. Für Babys und kleine Zimmer ist ein Dreieck ohne Rutsche besser, weil es kompakter ist und sich niedrig einstellen lässt; die Rutsche kann man später nachkaufen." },
-          { p: "Mit eingehängtem Brett braucht ein Pikler-Dreieck deutlich mehr Stellfläche, denn das Brett verlängert das Gerät nach vorne. Ein Dreieck ohne Rutsche bleibt kompakt: Das GOODEX braucht in Position 1 laut Hersteller 72 × 73 cm, dazu kommt die Matte rundherum. Für Babys, die sich gerade erst hochziehen, ist eine niedrige Stellung wie beim GOODEX in Position 3 mit 30 cm Höhe (Herstellerangabe) oft sinnvoller als ein hohes Dreieck mit Rutsche." },
+          { p: "Mit eingehängtem Brett braucht ein Pikler-Dreieck deutlich mehr Stellfläche, denn das Brett verlängert das Gerät nach vorne. Ein Dreieck ohne Rutsche bleibt kompakt, dazu kommt nur die Matte rundherum. Das Marida lässt sich laut Hersteller auf ca. 30 cm zusammenklappen und ist so schnell verstaut. Für Babys, die sich gerade erst hochziehen, ist ein schlichtes Dreieck ohne Rutsche oft sinnvoller als ein großes Set; die Rutsche kann später dazukommen." },
           {
             cards: [
               { title: "Klettern & Rutschen", text: "Alles in einem Set: Kids Woody Star 2-in-1.", link: { href: "#platz-1", label: "Zur Empfehlung" } },
               { title: "Kleines Budget", text: "Schlichtes Dreieck, später erweiterbar: TP Toys TP 682U.", link: { href: "#platz-2", label: "Zur Empfehlung" } },
-              { title: "Baby & kleines Zimmer", text: "Niedrig einstellbar, massive Buche: GOODEX.", link: { href: "#platz-3", label: "Zur Empfehlung" } },
+              { title: "Baby & kleines Zimmer", text: "Schlicht, Buche, flach klappbar: Marida Pikler Dreieck.", link: { href: "#platz-3", label: "Zur Empfehlung" } },
               { title: "Nur die Rutsche", text: "Einzelne Rutschbretter und Systemrutschen.", link: { href: "/kinder-spielplatz/indoor/indoor-rutsche/", label: "Indoor-Rutschen" } },
             ],
           },
@@ -236,12 +235,12 @@ export default {
   top5: {
     id: "top5-pikler-sets-bauform",
     h2: "Die 5 besten Pikler-Dreiecke und Sets nach Bauform",
-    intro: "Nicht jede Familie sucht das klassische Dreieck. Diese fünf Modelle decken andere Wünsche ab: Set mit Kletterbogen, besonders platzsparend, gelegentlich draußen, Montessori-Würfel und Premium-Holz aus Österreich.",
+    intro: "Nicht jede Familie sucht das klassische Dreieck. Diese fünf Modelle decken andere Wünsche ab: Set mit Kletterbogen, Klettern und Schaukeln, gelegentlich draußen, Montessori-Würfel und Premium-Holz aus Österreich.",
     items: [
       { name: "Goodevas 4-in-1 Montessori Indoor Klettergerüst-Set", for: "Set mit Kletterbogen", text: "Dreieck mit fünf Arretierpositionen, Bogen (auch als Wippe), Rampe/Rutsche und Netz. Laut Händlerangabe massives Hartholz mit Leinöl und Bienenwachs, Belastbarkeit ca. 40,8 kg; der Hersteller rät von der Nutzung im Freien ab. Laut Berichten bei kita.de das vielseitigste Set im redaktionellen Vergleich.", asin: "B0933D1L29", query: "Goodevas 4-in-1 Montessori Indoor Klettergerüst Set" },
-      { name: "Marida Pikler Dreieck Indoor Klettergerüst, Buche", for: "Kleine Räume ohne Rutsche", text: "Schlichtes Buchendreieck, laut Anbieter für 10 Monate bis 5 Jahre und auf ca. 30 cm zusammenklappbar – gut für Wohnungen, in denen das Gerät täglich weggeräumt wird.", asin: "B09HP72ZBV", query: "Marida Pikler Dreieck Indoor Klettergerüst" },
+      { name: "TP Active-Tots Kletter- und Schaukelset TP 685U", for: "Klettern und Schaukeln", text: "Klappbares Gestell aus FSC-zertifiziertem Holz mit Kletterleiter und Klappschaukelsitz derselben Active-Tots-Reihe. Laut Hersteller ist die Schaukel ab 6 Monaten, das Klettern ab 18 Monaten geeignet; aufgebaut misst das Set ca. 101 × 84 × 101 cm. Braucht deutlich mehr Platz als ein einzelnes Dreieck.", asin: "B09SDHMK11", query: "TP 685U Active-Tots Kletter- und Schaukelset" },
       { name: "Giant Bean 5-in-1 Pikler-Dreieck-Set mit Rutsche und Kletterbogenrampe", for: "Gelegentlich draußen", text: "Dreieck, umkehrbare Kletterwand/Rutsche und Bogen aus Birken- bzw. Hartholz für 1–3 Jahre; das deutsche Listing nennt EN 71 (Herstellerangabe). Laut Berichten die Hauptempfehlung im Outdoor-Ratgeber von kita.de – aber nicht dauerhaft wetterfest: nur an trockenen Tagen nach draußen und danach wieder hereinholen.", asin: "B0D2RD5K8X", query: "Giant Bean 5-in-1 Pikler-Dreieck-Set mit Rutsche und Kletterbogenrampe" },
-      { name: "GOODEX Kletterwürfel aus Holz", for: "Montessori-Set mit Würfel", text: "Kletterwürfel im Pikler-Stil ab 1 Jahr, der sich laut Hersteller mit Dreieck, Bogen und Rampe kombinieren lässt – die naheliegende Ergänzung zum GOODEX-Dreieck aus unseren Top 3.", asin: "B0BHCJTHX7", query: "GOODEX Kletterwürfel Holz" },
+      { name: "GOODEX Kletterwürfel aus Holz", for: "Montessori-Set mit Würfel", text: "Kletterwürfel im Pikler-Stil ab 1 Jahr, der sich laut Hersteller mit Dreieck, Bogen und Rampe kombinieren lässt – eine Ergänzung, wenn das Dreieck allein nicht mehr reicht.", asin: "B0BHCJTHX7", query: "GOODEX Kletterwürfel Holz" },
       { name: "JOWE Kletterdreieck mit Rutsche (Made in Austria)", for: "Premium-Holz mit Rutsche", text: "Unbehandelte Buche statt Sperrholz, in Österreich entworfen und gefertigt, mit Rutsche und Ausfallschutzleisten im Lieferumfang; laut Hersteller für 10 Monate bis 7 Jahre und bis 60 kg. Die Maßangaben im Listing sind widersprüchlich – vor dem Kauf den Platz großzügig planen.", asin: "B0C781WCWW", query: "JOWE Kletterdreieck mit Rutsche Made in Austria" },
     ],
   },
@@ -270,12 +269,12 @@ export default {
   },
 
   faqs: [
-    { q: "Ab welchem Alter ist ein Pikler-Dreieck sinnvoll?", a: "Meist ab etwa 10 bis 12 Monaten, wenn sich das Kind selbst hochzieht. Die Angaben sind Herstellerangaben und schwanken: GOODEX nennt 10 Monate, Kids Woody Star und TP Toys 12 Monate, einige Marktplatzmodelle erst 3 Jahre." },
+    { q: "Ab welchem Alter ist ein Pikler-Dreieck sinnvoll?", a: "Meist ab etwa 10 bis 12 Monaten, wenn sich das Kind selbst hochzieht. Die Angaben sind Herstellerangaben und schwanken: Marida nennt 10 Monate, Kids Woody Star und TP Toys 12 Monate, einige Marktplatzmodelle erst 3 Jahre." },
     { q: "Pikler-Dreieck mit oder ohne Rutsche – was ist besser?", a: "Für Kinder ab etwa 1 Jahr und bei genug Platz ist ein Set mit Rutsche vielseitiger. Für Babys und kleine Zimmer ist ein Dreieck ohne Rutsche besser; viele Hersteller bieten die Rutsche als Zubehör an." },
     { q: "Wie lange nutzen Kinder ein Pikler-Dreieck?", a: "Nach den Herstellerangaben etwa bis zum Alter von 3 bis 6 Jahren. Sets mit Bogen, Würfel oder Rutsche bleiben länger spannend als ein einzelnes Dreieck." },
     { q: "Braucht man unter dem Pikler-Dreieck eine Matte?", a: "Ja, eine Fallschutz- oder Turnmatte unter und rund um das Dreieck ist sinnvoll. Sie dämpft Stürze auf hartem Boden und verhindert zusätzlich, dass das Gerät auf glattem Parkett rutscht." },
     { q: "Kann man ein Pikler-Dreieck draußen nutzen?", a: "Nur gelegentlich an trockenen Tagen. Holz-Pikler-Dreiecke sind laut Herstellern und Berichten nicht dauerhaft wetterfest; manche Hersteller wie Goodevas raten ganz von der Nutzung im Freien ab." },
-    { q: "Welche Höhe sollte ein Pikler-Dreieck haben?", a: "Für Babys reicht eine niedrige Stellung um 30 cm, für Kleinkinder sind knapp 60 cm üblich. Verstellbare Modelle wie das GOODEX (30 bis 57 cm laut Hersteller) wachsen mit." },
+    { q: "Welche Höhe sollte ein Pikler-Dreieck haben?", a: "Für Babys, die sich gerade erst hochziehen, ist eine niedrige Stellung sinnvoll; aufgebaut sind gängige Dreiecke knapp 60 cm hoch, das TP Toys TP 682U zum Beispiel 58,3 cm (Herstellerangabe). Modelle mit mehreren Arretierpositionen, etwa das Goodevas-Set, lassen sich in der Neigung anpassen." },
     { q: "Was ist der Unterschied zwischen Pikler-Dreieck und Kletterbogen?", a: "Das Dreieck ist zum Hochklettern und Übersteigen gedacht, der Bogen ist eine gewölbte Leiter, die als Brücke, Tunnel oder umgedreht als Wippe dient. Viele Sets kombinieren beides." },
   ],
 
@@ -286,6 +285,7 @@ export default {
     { label: "Victoria and Albert Museum – Pikler Triangle", url: "https://collections.vam.ac.uk/item/O1741415" },
     { label: "Ehrenkind – Gebrauchsanweisung Kletterdreieck", url: "https://www.ehrenkind.de/cdn/shop/files/Gebrauchsanweisung_Kletterdreieck.pdf" },
     { label: "Amazon.de – TP Toys TP 683U Kletterbrücke & Rutsche", url: "https://www.amazon.de/dp/B0CKQKQCDB" },
+    { label: "FitWood – Produkt-Update-Ankündigung (LUOTO-Kletterbogen)", url: "https://fitwood.com/de/blogs/news/produkt-update-ankundigung" },
   ],
 
   related: [

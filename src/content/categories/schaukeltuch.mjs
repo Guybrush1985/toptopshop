@@ -18,7 +18,7 @@ export default {
   lead:
     "Ein Stofftuch an der Decke zum Schaukeln, Einkuscheln und Verstecken – das wünschen sich viele Familien. Elastische Schaukeltücher, die als Schlaufe an einem Punkt hängen, empfehlen wir wegen Rückrufen und eines Verkaufsverbots in den Niederlanden nicht. Wir zeigen textile Hängesitze von Markenherstellern, die denselben Zweck erfüllen.",
   answer:
-    "Unsere beste Gesamtwahl ist der [**AMAZONAS Kid's Relax Rainbow**](produkt:1): ein großes, nicht elastisches Stofftuch mit Spreizstab, laut Hersteller für 3 bis 10 Jahre und bis 80 kg. Am günstigsten ist der [**AMAZONAS Kid's Swinger**](produkt:2) für Kindergartenkinder, zum Einkuscheln mit mitgelieferter Befestigung passt die gepolsterte Kinderhängematte [**LA SIESTA Moki Lilly**](produkt:3).",
+    "Unsere beste Gesamtwahl ist der [**AMAZONAS Kid's Relax Rainbow**](produkt:1): ein großes, nicht elastisches Stofftuch mit Spreizstab, laut Hersteller für 3 bis 10 Jahre und bis 80 kg – und zugleich der günstigste Sitz unserer Auswahl. Kompakter und auch für draußen gedacht ist der [**AMAZONAS Kid's Swinger**](produkt:2) für Kindergartenkinder, zum Einkuscheln mit mitgelieferter Befestigung passt die gepolsterte Kinderhängematte [**LA SIESTA Moki Lilly**](produkt:3).",
 
   priceTiers: {
     1: { symbol: "€", label: "bis ca. 60 €" },
@@ -49,18 +49,18 @@ export default {
       brand: "AMAZONAS",
       variant: "EllTex, ca. 155 × 120 cm, Traverse 70 cm",
       visual: { kind: "cloth", tone: "forest" },
-      priceTier: 2,
+      priceTier: 1,
       ratings: { sicherheit: 8.0, aufhaengung: 7.0, material: 8.0, nutzung: 9.0 },
       bestFor: "Kinder von 3 bis 10 Jahren (Herstellerangabe), Schaukeln, Liegen und Einkuscheln",
       verdict:
-        "Kommt dem Gefühl eines Schaukeltuchs am nächsten: eine große Stoffbahn, in die sich Kinder hineinlegen oder hineinkuscheln, gehalten von einem Spreizstab statt einer elastischen Schlaufe. Die größte Altersspanne und 80 kg Belastbarkeit machen ihn zum Sitz, der lange mitwächst.",
+        "Kommt dem Gefühl eines Schaukeltuchs am nächsten: eine große Stoffbahn, in die sich Kinder hineinlegen oder hineinkuscheln, gehalten von einem Spreizstab statt einer elastischen Schlaufe. Die größte Altersspanne und 80 kg Belastbarkeit machen ihn zum Sitz, der lange mitwächst – und er ist obendrein das günstigste Modell unserer Auswahl.",
       features: [
         "Belastbar bis 80 kg, für Kinder von 3 bis 10 Jahren; von Kindern unter 3 Jahren fernhalten (Herstellerangabe)",
         "Sitzfläche ca. 155 × 120 cm, Traverse ca. 70 cm, Gewicht ca. 1,5 kg (Herstellerangabe)",
         "Stoff EllTex aus 55 % recycelter Baumwolle und 45 % Polyester, laut Hersteller wetter- und UV-beständig",
         "Mit Spreizstab und Ring; empfohlene Aufhängehöhe ca. 160 cm, Sitzhöhe ca. 40–50 cm (Herstellerangabe)",
       ],
-      pros: ["Größte Altersspanne der Auswahl (3–10 Jahre laut Hersteller)", "Großes, nicht elastisches Tuch mit Traverse – keine enge Schlaufe", "Passendes Zubehörsystem des Herstellers (Haken, Drehwirbel)"],
+      pros: ["Größte Altersspanne der Auswahl (3–10 Jahre laut Hersteller)", "Günstigster Sitz der Top 3", "Großes, nicht elastisches Tuch mit Traverse – keine enge Schlaufe", "Passendes Zubehörsystem des Herstellers (Haken, Drehwirbel)"],
       cons: ["Deckenhaken und Drehwirbel nicht im Lieferumfang", "Kein Prüfzeichen belegt", "Offener Sitz, keine geschlossene Höhle"],
       specs: {
         bauform: "Hängesessel mit Traverse",
@@ -76,23 +76,23 @@ export default {
     },
     {
       rank: 2,
-      label: "Bestes Preis-Leistungs-Verhältnis",
+      label: "Kompakt für Kindergartenkinder",
       name: "AMAZONAS Kid's Swinger Green Kinder-Hängesessel",
       brand: "AMAZONAS",
       variant: "Grün; auch in Pink und Gelb",
       visual: { kind: "cloth", tone: "green" },
       priceTier: 1,
       ratings: { sicherheit: 7.5, aufhaengung: 6.5, material: 7.5, nutzung: 6.5 },
-      bestFor: "Kindergartenkinder von 3 bis 6 Jahren (Herstellerangabe), kleines Budget, drinnen und draußen",
+      bestFor: "Kindergartenkinder von 3 bis 6 Jahren (Herstellerangabe), drinnen und draußen, zum Mitnehmen",
       verdict:
-        "Der günstigste Markenartikel unserer Auswahl: ein kompakter Hängesitz aus robustem Polyester mit Edelstahlteilen, der sich schnell abnehmen und mitnehmen lässt. Für Schulkinder ist er zu klein – die Altersgrenze von 6 Jahren sollte man ernst nehmen.",
+        "Der kompakte Sitz für die Jüngsten: ein Hängesitz aus robustem Polyester mit Edelstahlteilen, der sich schnell abnehmen, mitnehmen und auch draußen aufhängen lässt. Er ist kleiner als der Kid's Relax, aber nicht günstiger. Für Schulkinder ist er zu klein – die Altersgrenze von 6 Jahren sollte man ernst nehmen.",
       features: [
         "Maximale Belastung 60 kg, nur für Kinder von 3 bis 6 Jahren, nicht unbeaufsichtigt benutzen (Herstellerangabe)",
         "Maße ca. 35 × 60 × 160 cm, Gewicht ca. 1,9 kg, Aufhängehöhe mindestens 180 cm (Herstellerangabe)",
         "100 % Polyester (600 DEN), Metallteile aus rostfreiem Edelstahl, für innen und außen, mit Transporttasche (Herstellerangabe)",
       ],
-      pros: ["Günstigster Markensitz der Auswahl", "Robuster Stoff, Edelstahlteile, auch draußen nutzbar", "Leicht abzunehmen und mitzunehmen"],
-      cons: ["Nur 3–6 Jahre und 60 kg", "Befestigung separat", "Kein Prüfzeichen belegt"],
+      pros: ["Kompakt und auf Kindergartenkinder zugeschnitten", "Robuster Stoff, Edelstahlteile, auch draußen nutzbar", "Leicht abzunehmen und mitzunehmen"],
+      cons: ["Nur 3–6 Jahre und 60 kg", "Teurer als der größere Kid's Relax", "Befestigung separat", "Kein Prüfzeichen belegt"],
       specs: {
         bauform: "Hängesitz aus Stoff",
         masse: "ca. 35 × 60 × 160 cm",
@@ -126,7 +126,7 @@ export default {
       cons: ["Braucht zwei Befestigungspunkte und entsprechend Platz", "Weniger Schwung als ein Sitz an einem Punkt", "Kein GS-Zeichen für die Matte selbst belegt"],
       specs: {
         bauform: "Kinderhängematte, 2 Punkte",
-        masse: "keine Angabe gefunden",
+        masse: "ca. 210 × 110 cm (Liegefläche)",
         last: "80 kg",
         alter: "3–12 Jahre",
         material: "Bio-Baumwolle, gepolstert",
@@ -189,10 +189,10 @@ export default {
             callout: {
               title: "Rückrufe und Warnungen zu elastischen Schaukeltüchern",
               warn: true,
-              text: "**TheKiddoSpace Sensory Swing:** Rückruf wegen Strangulationsgefahr, weil der dehnbare Stoff Schlaufen bildet – UK (OPSS, 31.08.2025, ernstes Risiko), Irland (CCPC, 22.07.2025), USA (CPSC, 26.02.2026), Kanada (2026). **Milo & Moon** (Niederlande, 11/2025) und **4Little** (Niederlande, 05/2025): Rückrufe therapeutischer Schaukeln nach NVWA-Warnung. **YONGIAGA Sensorikschaukel** (über Amazon verkauft): Safety-Gate-Meldung der Niederlande, nicht konform mit der Spielzeugrichtlinie sowie EN 71-1 und EN 71-8, das Tuch kann leicht eine Schlaufe bilden. Wer ein solches Tuch zu Hause hat, sollte prüfen, ob sein Modell betroffen ist, und es nur unter ständiger Aufsicht oder gar nicht mehr nutzen.",
+              text: "**TheKiddoSpace Sensory Swing:** Rückruf wegen Strangulationsgefahr, weil der dehnbare Stoff Schlaufen bildet – UK (OPSS, 31.08.2025, ernstes Risiko), Irland (CCPC, 22.07.2025), USA (CPSC, 26.02.2026), Kanada (2026). **Milo & Moon** (Niederlande, 11/2025): Rückruf einer therapeutischen Schaukel nach Eingreifen der NVWA. **4Little** (Niederlande, 05/2025): Der Webshop rief eine Therapieschaukel zurück, die trotz des Verbots von 2023 verkauft worden war. **YONGIAGA Sensorikschaukel** (über Amazon verkauft): Safety-Gate-Meldung der Niederlande, nicht konform mit der Spielzeugrichtlinie sowie EN 71-1 und EN 71-8, das Tuch kann leicht eine Schlaufe bilden. Wer ein solches Tuch zu Hause hat, sollte prüfen, ob sein Modell betroffen ist, und es nur unter ständiger Aufsicht oder gar nicht mehr nutzen.",
             },
           },
-          { p: "Auf amazon.de wird dieser Tuchtyp überwiegend als No-Name-Ware ohne belegte Prüfung nach EN 71 angeboten. Wir haben uns deshalb gegen jede Empfehlung in dieser Bauform entschieden – auch gegen hochwertige elastische Tücher aus dem Fachhandel, weil das Risiko in der Bauform liegt, nicht nur in der Verarbeitung. Für die Hersteller unserer Empfehlungen (AMAZONAS, LA SIESTA, Diabolo) haben wir bei der Recherche keine Rückrufe gefunden." },
+          { p: "Auf amazon.de wird dieser Tuchtyp überwiegend als No-Name-Ware ohne belegte Prüfung nach EN 71 angeboten. Wir haben uns deshalb gegen jede Empfehlung in dieser Bauform entschieden – auch gegen hochwertige elastische Tücher aus dem Fachhandel, weil das Risiko in der Bauform liegt, nicht nur in der Verarbeitung. Für die Hersteller unserer Empfehlungen (AMAZONAS, LA SIESTA, Diabolo, small foot) haben wir bei der Recherche keine Rückrufe gefunden." },
           { quote: "Das Risiko liegt in der Bauform: Ein dehnbares Tuch an einem Punkt kann sich zur Schlaufe verdrehen." },
         ],
       },
@@ -200,7 +200,7 @@ export default {
         id: "bester-haengesitz",
         h2: "Welcher Hängesitz ist die beste Alternative zum Schaukeltuch?",
         blocks: [
-          { quick: "Für die meisten Familien mit Kindern ab drei Jahren ist der [AMAZONAS Kid's Relax Rainbow](produkt:1) nach unserer Einschätzung die beste Wahl. Für Kindergartenkinder und kleines Budget passt der [AMAZONAS Kid's Swinger](produkt:2), als Kuschelecke mit mitgelieferter Befestigung die [LA SIESTA Moki Lilly](produkt:3)." },
+          { quick: "Für die meisten Familien mit Kindern ab drei Jahren ist der [AMAZONAS Kid's Relax Rainbow](produkt:1) nach unserer Einschätzung die beste Wahl – und zugleich die günstigste. Für Kindergartenkinder, die einen kompakten Sitz auch für draußen brauchen, passt der [AMAZONAS Kid's Swinger](produkt:2), als Kuschelecke mit mitgelieferter Befestigung die [LA SIESTA Moki Lilly](produkt:3)." },
           { p: "Was Kinder am Schaukeltuch lieben, ist das Gefühl, eingehüllt zu sein und sanft zu schwingen. Ein Kinder-Hängesessel aus festem Stoff bietet das auch: Der [Kid's Relax](produkt:1) ist mit rund 155 × 120 cm so groß, dass Kinder darin liegen, sich einrollen oder aufrecht sitzen können. Der Spreizstab hält den Stoff oben auseinander, sodass er sich nicht wie ein elastisches Tuch zu einer engen Schlaufe zusammenzieht." },
           { p: "Der [Kid's Swinger](produkt:2) ist kleiner und eher ein Sitz als eine Liegefläche – für Drei- bis Sechsjährige ideal, für größere Kinder zu eng. Die [Moki Lilly](produkt:3) ist eine Kinderhängematte zwischen zwei Punkten: weniger Schwung, dafür eine ruhige, gepolsterte Fläche zum Lesen und Ausruhen. Wer eine geschlossene Hängehöhle zum Verstecken sucht, findet die LA SIESTA Joki in der Top 5." },
           { figure: "scores" },
@@ -242,7 +242,7 @@ export default {
           {
             cards: [
               { title: "Schaukeln & Liegen", text: "Großes Tuch mit Spreizstab: AMAZONAS Kid's Relax.", link: { href: "#platz-1", label: "Zur Empfehlung" } },
-              { title: "Kindergarten & Budget", text: "Kompakter Sitz für 3–6 Jahre: AMAZONAS Kid's Swinger.", link: { href: "#platz-2", label: "Zur Empfehlung" } },
+              { title: "Kindergarten & draußen", text: "Kompakter Sitz für 3–6 Jahre, auch für den Garten: AMAZONAS Kid's Swinger.", link: { href: "#platz-2", label: "Zur Empfehlung" } },
               { title: "Leseecke & Ruhe", text: "Gepolsterte Kinderhängematte: LA SIESTA Moki Lilly.", link: { href: "#platz-3", label: "Zur Empfehlung" } },
               { title: "Höhle am Boden", text: "Tipis und Spielzelte ohne Deckenmontage.", link: { href: "/kinder-spielplatz/indoor/spielhoehle/", label: "Spielhöhlen" } },
             ],
@@ -264,7 +264,7 @@ export default {
       { name: "LA SIESTA Moki Max (Maxi Dolphy) Kinderhängematte aus Bio-Baumwolle", for: "Große Hängematte für Kind und Elternteil", text: "Rund 350 × 160 cm groß, ab 3 Jahren, mit laut Hersteller TÜV-geprüfter MultiSpot-Aufhängung; zwischen den Befestigungspunkten braucht sie mindestens 310 cm. LA SIESTA führt dieses Modell auch als Familien- und Kinder-Therapiehängematte – eine große, nicht elastische Fläche zum Kuscheln, auch gemeinsam mit einem Erwachsenen.", asin: "B07M6GHXTY", query: "LA SIESTA Moki Max Kinder Hängematte Bio-Baumwolle" },
       { name: "AMAZONAS Power Hook – drehbarer Deckenhaken mit Kette", for: "Deckenmontage für Platz 1 und 2", text: "Kugelgelagerter, 360° drehbarer Haken mit Karabiner und rund 78 cm Kette zur Höhenanpassung, bis 200 kg, aus verzinktem Stahl (Herstellerangabe). Die mitgelieferten vier Schrauben und Metalldübel sind laut Hersteller nur für Betondecken gedacht – für Holzbalken eine passende Befestigung wählen.", asin: "B000OY3DVU", query: "AMAZONAS Power Hook Deckenhaken drehbar" },
       { name: "Diabolo Freizeitsport Vertikaltuch-Set 6 m mit Dreieckhalterung", for: "Luftakrobatik für Schulkinder", text: "Dehnungsarmes Polyestertuch, 6 m × ca. 160 cm, max. 95 kg, für 2 bis 3 m Deckenhöhe; Halterung laut Hersteller bis 2.000 kg getestet, Karabiner nicht enthalten. Nur für Schulkinder mit Anleitung oder Kurs und unter Aufsicht – der Hersteller nennt keine Altersgrenze, und auch dieses Tuch kann Schlaufen bilden.", asin: "B0BHDHM6BD", query: "Diabolo Freizeitsport Vertikaltuch Set 6 m Dreieckhalterung blau" },
-      { name: "small foot Nestschaukel XL 110 (12002)", for: "Festes Nest statt Tuch", text: "Wenn eher Schaukeln als Kuscheln im Vordergrund steht: Nest mit Stoffbezug, Ø 110 cm, laut Händlerangaben ab 3 Jahren, bis 150 kg und für innen und außen. Braucht viel Platz und eine Deckenbefestigung, die für diese Last ausgelegt ist.", asin: "B0B42W2NTP", query: "small foot Nestschaukel XL 110 12002" },
+      { name: "small foot Nestschaukel XL 110 (12002)", for: "Festes Nest statt Tuch", text: "Wenn eher Schaukeln als Kuscheln im Vordergrund steht: Nest mit wetterfestem Stoffbezug, Ø 110 cm, laut Herstellerangabe auf amazon.de ab 3 Jahren, bis 120 kg und für draußen gedacht. Braucht viel Platz und eine Deckenbefestigung, die für diese Last ausgelegt ist.", asin: "B0B42W2NTP", query: "small foot Nestschaukel XL 110 12002" },
     ],
   },
 
@@ -288,7 +288,7 @@ export default {
         h2: "Was tun, wenn schon ein elastisches Schaukeltuch hängt?",
         blocks: [
           { quick: "Zuerst prüfen, ob das Modell von einem Rückruf betroffen ist, etwa TheKiddoSpace, Milo & Moon oder 4Little. Unabhängig davon: das Tuch nur unter ständiger Aufsicht nutzen, nach dem Spielen abnehmen oder hochbinden und mittelfristig durch einen Sitz ohne Schlaufenbildung ersetzen." },
-          { p: "Rückrufe werden über die Verkäufer, nationale Behörden und das EU-Schnellwarnsystem Safety Gate veröffentlicht. Die Meldungen in unserer Quellenliste nennen Modell und Verkaufszeitraum. Ist dein Tuch ein No-Name-Produkt ohne Herstellerangaben zu Prüfnormen, lässt sich kaum klären, ob es geprüft wurde." },
+          { p: "Rückrufe werden über die Verkäufer, nationale Behörden und das EU-Schnellwarnsystem Safety Gate veröffentlicht. Die behördlichen Meldungen nennen Modell und Verkaufszeitraum. Ist dein Tuch ein No-Name-Produkt ohne Herstellerangaben zu Prüfnormen, lässt sich kaum klären, ob es geprüft wurde." },
           { p: "Ein Hängesitz mit Spreizstab wie der [Kid's Relax](produkt:1) hängt meist am selben Deckenhaken wie das bisherige Tuch – vorausgesetzt, Haken und Decke sind für die Last ausgelegt. Das Gefühl ist etwas anders: weniger Federn, dafür mehr Platz zum Liegen. Viele Kinder nutzen den Sitz dann vor allem als Kuschel- und Leseplatz." },
         ],
       },
@@ -323,7 +323,10 @@ export default {
     { label: "Sport-Thieme – La Siesta Hängehöhle Joki", url: "https://www.sport-thieme.de/Therapie/Sensorische-Integration/Therapieschaukeln/art=2532022" },
     { label: "amazon.de – AMAZONAS Power Hook", url: "https://www.amazon.de/dp/B000OY3DVU" },
     { label: "amazon.de – Diabolo Freizeitsport Vertikaltuch-Set 6 m", url: "https://www.amazon.de/dp/B0BHDHM6BD" },
-    { label: "guenstiger.de – small foot Nestschaukel XL 12002", url: "https://www.guenstiger.de/Produkt/Small_Foot/Nestschaukel_XL_12002.html" },
+    { label: "amazon.de – small foot Nestschaukel XL 110 (12002)", url: "https://www.amazon.de/dp/B0B42W2NTP" },
+    { label: "Hart van Nederland: Therapieschaukeln trotz Verbot verkauft – Webshop 4Little ruft zurück (05/2025)", url: "https://www.hartvannederland.nl/advies-en-tips/terugroepactie/artikelen/therapieschommels-verbod-verkocht-webshop-4little" },
+    { label: "Health Canada: Rückruf TheKiddoSpace Children's Sensory Swing", url: "https://recalls-rappels.canada.ca/en/alert-recall/thekiddospace-children-s-sensory-swing-recalled-due-strangulation-hazard" },
+    { label: "STC: EU Safety Gate Alerts (May 2023) – u. a. A12/00955/23", url: "https://stc.group/getfile/index/action/images/slug/2023-19-toys-recall-cases-may-2023-02" },
   ],
 
   related: [

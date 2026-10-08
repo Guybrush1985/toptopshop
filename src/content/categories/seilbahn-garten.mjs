@@ -18,7 +18,7 @@ export default {
   lead:
     "Eine Seilbahn zwischen zwei Bäumen ist für viele Kinder das Highlight im Garten. Ob sie Spaß macht oder gefährlich wird, entscheiden weniger Seil und Sitz als die Ankerpunkte, das Gefälle und die Bremse am Ende der Strecke.",
   answer:
-    "Unsere beste Gesamtwahl ist die [**small foot Seilbahn Ropeway Rapid**](produkt:1) mit rund 25 m Stahlseil, längenverstellbarem Tellersitz und – laut Hersteller – Freigabe ab 5 Jahren. Die Premium-Wahl für größere Kinder ist die [**Slackers Eagle Zipline 30 m**](produkt:2) mit 5-mm-Seil und 90 kg Maximallast; am günstigsten ist die [**KBT Seilbahn grün 30 m**](produkt:3), zu der es Bremsfedern und Laufkatzen als Ersatzteile vom selben Hersteller gibt.",
+    "Unsere beste Gesamtwahl ist die [**small foot Seilbahn Ropeway Rapid**](produkt:1) mit rund 25 m Stahlseil, längenverstellbarem Tellersitz und – laut Hersteller – Freigabe ab 5 Jahren. Am günstigsten ist die [**KBT Seilbahn grün 30 m**](produkt:2) – der Sitz muss allerdings separat gekauft werden, dafür gibt es Bremsfedern und Laufkatzen als Ersatzteile vom selben Hersteller. Für größere Kinder ist die [**Slackers Eagle Zipline 30 m**](produkt:3) mit 5-mm-Seil und 90 kg Maximallast die beste Wahl.",
 
   priceTiers: {
     1: { symbol: "€", label: "bis ca. 100 €" },
@@ -28,7 +28,7 @@ export default {
 
   top3Title: "Unsere Top 3 Seilbahnen für den Garten",
   top3Intro:
-    "Alle drei sind klassische Garten-Seilbahnen: ein Stahlseil zwischen zwei Bäumen oder Pfosten, eine Laufkatze mit Griff und ein Tellersitz. Sie unterscheiden sich vor allem bei Länge, Maximallast, Altersfreigabe und der Frage, was am Ende der Strecke bremst.",
+    "Alle drei sind klassische Garten-Seilbahnen: ein Stahlseil zwischen zwei Bäumen oder Pfosten und eine Laufkatze mit Griff. small foot und Slackers liefern einen Tellersitz mit, bei der KBT-Seilbahn wird der Sitz laut Händler separat verkauft. Sie unterscheiden sich vor allem bei Länge, Maximallast, Altersfreigabe und der Frage, was am Ende der Strecke bremst.",
   comparisonTitle: "Die 3 besten Garten-Seilbahnen im Vergleich",
 
   criteria: [
@@ -55,7 +55,7 @@ export default {
       verdict:
         "Die ausgewogenste Seilbahn für Familien mit jüngeren Kindern: Sie hat die niedrigste Altersfreigabe in unserem Vergleich, und der Tellersitz lässt sich in der Länge an die Größe des Kindes anpassen. Mit rund 25 m passt sie auch in Gärten, in denen 30-m-Sets keinen Platz finden.",
       features: [
-        "Stahlseil ca. 25 m, maximale Belastung 70 kg, empfohlen ab 5 Jahren (Herstellerangabe)",
+        "Stahlseil ca. 25 m, maximale Belastung 70 kg, empfohlen ab 5 Jahren (Herstellerangabe; die Altersangaben im Listing sind uneinheitlich, das Datenblatt nennt 3–12 Jahre – wir nennen die vorsichtigere)",
         "Tellerschaukel in der Länge verstellbar, Sitz Ø ca. 28 cm, Schaukellänge ca. 180 cm (Herstellerangabe)",
         "Gummipolster am Seilende sollen die Fahrt abbremsen (Herstellerangabe)",
         "Befestigung zwischen zwei Bäumen oder Pfosten (Herstellerangabe)",
@@ -76,24 +76,57 @@ export default {
     },
     {
       rank: 2,
-      label: "Premium-Wahl",
-      name: "Slackers Eagle Zipline 30 m (980005)",
-      brand: "Slackers (Vertrieb Schildkröt Funsports)",
-      variant: "30 m verzinktes Stahlseil Ø 5 mm, max. 90 kg, ab 8 Jahren",
+      label: "Bestes Preis-Leistungs-Verhältnis",
+      name: "KBT Seilbahn grün 30 m (24302)",
+      brand: "KBT",
+      variant: "30 m Stahlseil Ø 4 mm, max. 70 kg",
       visual: { kind: "zipline", tone: "green" },
-      priceTier: 3,
+      priceTier: 1,
+      ratings: { sicherheit: 7.0, belastbarkeit: 6.5, laenge: 7.5, ausstattung: 5.5 },
+      bestFor: "Kinder von 8 bis 12 Jahren (Herstellerangabe) und Eltern, die günstig eine klassische 30-m-Seilbahn spannen und Sitz und Bremsfeder passend dazukaufen",
+      verdict:
+        "Die günstigste Basis: 30 m Seil für eine Strecke bis 27 m und eine EN-71-Angabe des Herstellers. Wichtig: Der Sitz gehört laut amazon.de-Listing nicht zum Lieferumfang und muss separat gekauft werden. Der Gummistopper am Ende verschleißt laut Kundenberichten schnell – praktisch, dass KBT Edelstahl-Bremsfedern und Laufkatzen als Zubehör anbietet. Auch mit Sitz bleibt sie nach unserer Einschätzung die preiswerteste der drei.",
+      features: [
+        "30 m Stahlseil Ø 4 mm für eine Strecke bis 27 m, max. 70 kg (Herstellerangabe)",
+        "Empfohlen für Kinder von 8 bis 12 Jahren, Befestigung an Bäumen (Herstellerangabe)",
+        "Spielzeugnorm EN 71 angegeben (Herstellerangabe)",
+        "Kunststoff-Schalensitz nicht im Lieferumfang, separat erhältlich (Händlerangabe)",
+        "Spiralbremsfedern (1,5 m und 3 m) und Laufkatzen als Zubehör bei amazon.de (Händlerangabe)",
+      ],
+      pros: ["Niedrigste Preisklasse", "EN-71-Angabe des Herstellers", "Ersatz- und Zubehörteile vom selben Hersteller"],
+      cons: ["Sitz nicht im Lieferumfang – muss extra gekauft werden", "Nur 4-mm-Seil und 70 kg", "Gummistopper verschleißt laut Kundenberichten schnell", "Spannen kostet laut Kundenberichten Kraft, Seil hängt etwas durch"],
+      specs: {
+        laenge: "30 m (Strecke bis 27 m)",
+        seil: "Stahl, Ø 4 mm",
+        last: "70 kg",
+        alter: "8–12 Jahre",
+        bremse: "Gummistopper; Bremsfeder als Zubehör",
+        sitz: "nicht im Lieferumfang (separat)",
+        norm: "EN 71 (Herstellerangabe)",
+      },
+      asin: "B008CPDW9Q",
+      query: "KBT Seilbahn grün 30 m 24302",
+    },
+    {
+      rank: 3,
+      label: "Beste Wahl für größere Kinder",
+      name: "Slackers Eagle Zipline 30 m (980005)",
+      brand: "Slackers",
+      variant: "30 m verzinktes Stahlseil Ø 5 mm, max. 90 kg, ab 8 Jahren",
+      visual: { kind: "zipline", tone: "mint" },
+      priceTier: 2,
       ratings: { sicherheit: 6.5, belastbarkeit: 8.5, laenge: 7.5, ausstattung: 7.5 },
       bestFor: "Kinder ab 8 Jahren (Herstellerangabe) und Gärten mit zwei kräftigen Bäumen bis 30 m Abstand",
       verdict:
-        "Die robusteste Seilbahn unter den dreien: dickeres 5-mm-Seil, 90 kg Maximallast und eine Laufkatze aus Metall mit Kunststoffgehäuse. Abzug gibt es bei der Sicherheit, weil laut einer Kundenrezension keine Bremsfeder beiliegt – vor der ersten Fahrt den Lieferumfang prüfen und eine Endbremse nachrüsten.",
+        "Die robusteste Seilbahn unter den dreien und die beste Wahl für Schulkinder: dickeres 5-mm-Seil, 90 kg Maximallast und eine Laufkatze aus Metall mit Kunststoffgehäuse. Abzug gibt es bei der Sicherheit, weil laut einer Kundenrezension keine Bremsfeder beiliegt – vor der ersten Fahrt den Lieferumfang prüfen und eine Endbremse nachrüsten.",
       features: [
         "Spannweite bis 30 m zwischen zwei Bäumen mit mind. 30 cm Durchmesser, nutzbar ca. 27 m (Händlerangabe)",
         "Verzinktes Stahlseil Ø 5 mm, max. 90 kg, ab 8 Jahren (Händlerangabe)",
         "Lieferumfang laut Händler: Laufwagen mit Griff, 30-m-Seil, Tellersitz, 1,5-m-Seil, 3 Seilklemmen, Spanner",
         "Nutzung laut Warnhinweis nur unter direkter Aufsicht eines Erwachsenen (Herstellerangabe)",
       ],
-      pros: ["5-mm-Seil und 90 kg Maximallast", "Bekannte Outdoor-Marke, Vertrieb über Schildkröt in Deutschland", "Griffe und Tellersitz für größere Kinder"],
-      cons: ["Bremsfeder laut Kundenrezension nicht enthalten – separat kaufen", "Erst ab 8 Jahren", "Höchste Preisklasse im Vergleich"],
+      pros: ["5-mm-Seil und 90 kg Maximallast", "Tellersitz laut Händler im Lieferumfang", "Nutzbare Strecke ca. 27 m"],
+      cons: ["Bremsfeder laut Kundenrezension nicht enthalten – separat kaufen", "Erst ab 8 Jahren", "Braucht kräftige Bäume (mind. 30 cm Stammdurchmesser laut Händler)"],
       specs: {
         laenge: "30 m (nutzbar ca. 27 m)",
         seil: "verzinkter Stahl, Ø 5 mm",
@@ -103,40 +136,7 @@ export default {
         sitz: "Tellersitz",
         norm: "keine Angabe gefunden",
       },
-      asin: "B087SQMG93",
       query: "Slackers Eagle Zipline 30 m 980005",
-    },
-    {
-      rank: 3,
-      label: "Bestes Preis-Leistungs-Verhältnis",
-      name: "KBT Seilbahn grün 30 m (24302)",
-      brand: "KBT",
-      variant: "30 m Stahlseil Ø 4 mm, max. 70 kg",
-      visual: { kind: "zipline", tone: "mint" },
-      priceTier: 1,
-      ratings: { sicherheit: 7.0, belastbarkeit: 6.5, laenge: 7.5, ausstattung: 6.5 },
-      bestFor: "Kinder von 8 bis 12 Jahren (Herstellerangabe) und Eltern, die günstig eine klassische 30-m-Seilbahn spannen wollen",
-      verdict:
-        "Die günstige Klassikerin: 30 m Seil für eine Strecke bis 27 m und eine EN-71-Angabe des Herstellers. Der Gummistopper am Ende verschleißt laut Kundenberichten schnell – praktisch, dass KBT Edelstahl-Bremsfedern und Laufkatzen als Zubehör anbietet.",
-      features: [
-        "30 m Stahlseil Ø 4 mm für eine Strecke bis 27 m, max. 70 kg (Herstellerangabe)",
-        "Empfohlen für Kinder von 8 bis 12 Jahren, Befestigung an Bäumen (Herstellerangabe)",
-        "Spielzeugnorm EN 71 angegeben (Herstellerangabe)",
-        "Spiralbremsfedern (1,5 m und 3 m) und Laufkatzen als Zubehör bei amazon.de (Händlerangabe)",
-      ],
-      pros: ["Niedrigste Preisklasse", "EN-71-Angabe des Herstellers", "Ersatz- und Zubehörteile vom selben Hersteller"],
-      cons: ["Nur 4-mm-Seil und 70 kg", "Gummistopper verschleißt laut Kundenberichten schnell", "Spannen kostet laut Kundenberichten Kraft, Seil hängt etwas durch"],
-      specs: {
-        laenge: "30 m (Strecke bis 27 m)",
-        seil: "Stahl, Ø 4 mm",
-        last: "70 kg",
-        alter: "8–12 Jahre",
-        bremse: "Gummistopper; Bremsfeder als Zubehör",
-        sitz: "Tellersitz",
-        norm: "EN 71 (Herstellerangabe)",
-      },
-      asin: "B008CPDW9Q",
-      query: "KBT Seilbahn grün 30 m 24302",
     },
   ],
 
@@ -155,7 +155,7 @@ export default {
       kind: "scores",
       file: "beste-seilbahn-garten-kinder-2026-bewertung.svg",
       title: "Die 3 besten Seilbahnen für den Garten 2026",
-      alt: "Balkendiagramm: Bewertung von small foot Ropeway Rapid, Slackers Eagle Zipline 30 m und KBT Seilbahn 30 m in Sicherheit und Bremse, Belastbarkeit, Länge und Aufbau sowie Ausstattung",
+      alt: "Balkendiagramm: Bewertung von small foot Ropeway Rapid, KBT Seilbahn 30 m und Slackers Eagle Zipline 30 m in Sicherheit und Bremse, Belastbarkeit, Länge und Aufbau sowie Ausstattung",
       caption: "Unsere Bewertung je Kriterium. Die small-foot-Seilbahn punktet bei Sitz und Altersfreigabe, die Slackers Eagle bei der Belastbarkeit.",
     },
     steps: {
@@ -184,11 +184,11 @@ export default {
         id: "beste-seilbahn-garten",
         h2: "Welche Seilbahn ist die beste für den Garten?",
         blocks: [
-          { quick: "Für die meisten Familien ist die [small foot Ropeway Rapid](produkt:1) nach unserer Einschätzung die beste Wahl: 25 m Seil, verstellbarer Tellersitz und laut Hersteller ab 5 Jahren. Für Kinder ab 8 Jahren und lange Gärten passt die [Slackers Eagle Zipline 30 m](produkt:2), für das kleine Budget die [KBT Seilbahn 30 m](produkt:3)." },
+          { quick: "Für die meisten Familien ist die [small foot Ropeway Rapid](produkt:1) nach unserer Einschätzung die beste Wahl: 25 m Seil, verstellbarer Tellersitz und laut Hersteller ab 5 Jahren. Für das kleine Budget passt die [KBT Seilbahn 30 m](produkt:2) – Sitz separat –, für Kinder ab 8 Jahren und lange Gärten die [Slackers Eagle Zipline 30 m](produkt:3)." },
           { first: "Eine Garten-Seilbahn ist ein einfaches Gerät: Ein Stahlseil wird mit leichtem Gefälle zwischen zwei festen Punkten gespannt, darauf läuft eine Laufkatze mit Griff, darunter hängt ein Tellersitz. Gerade weil die Technik so schlicht ist, entscheiden Details über die Sicherheit. Wie stark ist das Seil? Wie viel Gewicht erlaubt der Hersteller? Und was passiert am Ende der Strecke, wenn ein Kind mit Schwung auf den Baum zufährt?" },
-          { p: "Die [small foot Ropeway Rapid](produkt:1) liegt bei uns vorn, weil sie zu den meisten Familien passt: Sie ist laut Hersteller schon ab 5 Jahren freigegeben, der Sitz lässt sich in der Länge verstellen, und 25 m Seil passen auch in Gärten, die für 30-m-Sets zu kurz sind. Die [Slackers Eagle](produkt:2) ist mit 5-mm-Seil und 90 kg Maximallast laut Händler die belastbarste, richtet sich mit einer Freigabe ab 8 Jahren aber an ältere Kinder. Die [KBT Seilbahn](produkt:3) ist die günstige 30-m-Lösung mit EN-71-Angabe; ihre Schwachstelle ist laut Kundenberichten der Gummistopper am Ende." },
+          { p: "Die [small foot Ropeway Rapid](produkt:1) liegt bei uns vorn, weil sie zu den meisten Familien passt: Sie ist laut Hersteller schon ab 5 Jahren freigegeben, der Sitz lässt sich in der Länge verstellen, und 25 m Seil passen auch in Gärten, die für 30-m-Sets zu kurz sind. Die [Slackers Eagle](produkt:3) ist mit 5-mm-Seil und 90 kg Maximallast laut Händler die belastbarste, richtet sich mit einer Freigabe ab 8 Jahren aber an ältere Kinder. Die [KBT Seilbahn](produkt:2) ist die günstige 30-m-Lösung mit EN-71-Angabe; der Sitz wird laut Händler separat verkauft, und ihre Schwachstelle ist laut Kundenberichten der Gummistopper am Ende." },
           { figure: "scores" },
-          { callout: { title: "Keine Seilbahn ohne Endbremse", warn: true, text: "Ein Gummipuffer fängt die Laufkatze nur auf kurzem Weg ab, eine Spiral-Bremsfeder vor dem Endpunkt verteilt das Abbremsen auf eine längere Strecke. Endbremse und Baumschutz sind sicherheitsrelevant – fehlt eine Bremsfeder, sollte sie nachgerüstet werden. Bei der Slackers Eagle fehlt sie laut einer Kundenrezension im Lieferumfang – vor der ersten Fahrt prüfen und gegebenenfalls nachkaufen." } },
+          { callout: { title: "Keine Seilbahn ohne Endbremse", warn: true, text: "Ein Gummipuffer fängt die Laufkatze nur auf kurzem Weg ab, eine Spiral-Bremsfeder vor dem Endpunkt verteilt das Abbremsen auf eine längere Strecke – nach unserer Einschätzung die bessere Lösung. Endbremse und Baumschutz sind sicherheitsrelevant – fehlt eine Bremsfeder, sollte sie nachgerüstet werden. Bei der Slackers Eagle fehlt sie laut einer Kundenrezension im Lieferumfang – vor der ersten Fahrt prüfen und gegebenenfalls nachkaufen." } },
         ],
       },
       {
@@ -201,11 +201,11 @@ export default {
           { h3: "Maximallast – auch für Eltern?" },
           { p: "Viele Eltern wollen die Seilbahn selbst ausprobieren. Bei 70 kg Maximallast (small foot, KBT) ist das für die meisten Erwachsenen tabu, bei 90 kg (Slackers Eagle) nur für leichte. Wer eine Seilbahn für Jugendliche und Erwachsene sucht, braucht ein Set mit dickerem Seil und deutlich höherer Last – Beispiele stehen in der Top 5. Wichtig: Die Maximallast des Seils sagt nichts über Bäume oder Pfosten aus." },
           { h3: "Bremse und Endpuffer" },
-          { p: "Am Ende der Strecke bremst im einfachsten Fall ein Gummipuffer auf dem Seil. Komfortabler und sicherer ist eine Spiral-Bremsfeder, die die Laufkatze über eine längere Strecke abfängt. small foot setzt laut Hersteller auf Gummipolster, KBT auf einen Gummistopper und bietet passende Bremsfedern (1,5 m und 3 m) als Zubehör an." },
+          { p: "Am Ende der Strecke bremst im einfachsten Fall ein Gummipuffer auf dem Seil. Nach unserer redaktionellen Einschätzung komfortabler und sicherer ist eine Spiral-Bremsfeder, die die Laufkatze über eine längere Strecke abfängt; Hersteller wie KBT und Klingl bieten solche Federn als Zubehör bzw. im Komplettset an. small foot setzt laut Hersteller auf Gummipolster, KBT auf einen Gummistopper und bietet passende Bremsfedern (1,5 m und 3 m) als Zubehör an." },
           { h3: "Sitz und Griff" },
           { p: "Ein Tellersitz lässt Kinder sitzend fahren und sich zugleich an der Laufkatze festhalten. Bei jüngeren Kindern ist ein längenverstellbares Seil wichtig, damit die Füße beim Fahren nicht über den Boden schleifen und der Sitz trotzdem gut erreichbar bleibt – das bietet die [small foot Ropeway Rapid](produkt:1) laut Hersteller." },
           { h3: "EN 71 oder EN 1176-4?" },
-          { p: "Für Seilbahnen auf öffentlichen Spielplätzen gilt die Norm DIN EN 1176-4 (Ausgabe 2019-05); die frühere DIN 7926-4 ist zurückgezogen. Die meisten Garten-Sets sind dagegen nur als Spielzeug nach EN 71 deklariert – so auch die [KBT Seilbahn](produkt:3) laut Hersteller. Zu small foot und Slackers haben wir keine Normangabe gefunden. Seilbahnen nach EN 1176 sind für den öffentlichen Bereich ausgelegt und entsprechend massiver, aber auch teurer; zwei solcher Anlagen stehen in der Top 5." },
+          { p: "Für Seilbahnen auf öffentlichen Spielplätzen gilt die Norm DIN EN 1176-4 (Ausgabe 2019-05); die frühere DIN 7926-4 ist zurückgezogen. Die meisten Garten-Sets sind dagegen nur als Spielzeug nach EN 71 deklariert – so auch die [KBT Seilbahn](produkt:2) laut Hersteller. Zu small foot und Slackers haben wir keine Normangabe gefunden. Seilbahnen nach EN 1176 sind für den öffentlichen Bereich ausgelegt und entsprechend massiver, aber auch teurer; zwei solcher Anlagen stehen in der Top 5." },
           {
             table: {
               caption: "Welche Seilbahn für welchen Garten?",
@@ -225,13 +225,13 @@ export default {
         id: "welche-seilbahn-passt",
         h2: "Welche Seilbahn passt zu wem?",
         blocks: [
-          { quick: "Für Kinder ab 5 Jahren und mittelgroße Gärten die small foot Ropeway Rapid, für Kinder ab 8 Jahren und kräftige Bäume die Slackers Eagle, für das kleine Budget die KBT-Seilbahn mit nachrüstbarer Bremsfeder." },
+          { quick: "Für Kinder ab 5 Jahren und mittelgroße Gärten die small foot Ropeway Rapid, für Kinder ab 8 Jahren und kräftige Bäume die Slackers Eagle, für das kleine Budget die KBT-Seilbahn mit nachrüstbarer Bremsfeder (Sitz separat)." },
           { p: "Eine Seilbahn ist das einzige Fahrgerät unter unseren Spielplatz-Empfehlungen. Sie ergänzt eine [Gartenschaukel](/kinder-spielplatz/outdoor/gartenschaukel/) oder einen [Spielturm mit Rutsche](/kinder-spielplatz/outdoor/spielturm-mit-rutsche/) gut, braucht aber eine lange, freie Strecke – in vielen Reihenhausgärten ist das der begrenzende Faktor." },
           {
             cards: [
               { title: "Kind ab 5 & normaler Garten", text: "25 m Seil, verstellbarer Sitz: small foot Ropeway Rapid.", link: { href: "#platz-1", label: "Zur Empfehlung" } },
-              { title: "Schulkind & kräftige Bäume", text: "5-mm-Seil, 90 kg: Slackers Eagle Zipline 30 m.", link: { href: "#platz-2", label: "Zur Empfehlung" } },
-              { title: "Budget & Ersatzteile", text: "30 m mit EN-71-Angabe: KBT Seilbahn grün.", link: { href: "#platz-3", label: "Zur Empfehlung" } },
+              { title: "Budget & Ersatzteile", text: "30 m mit EN-71-Angabe, Sitz separat: KBT Seilbahn grün.", link: { href: "#platz-2", label: "Zur Empfehlung" } },
+              { title: "Schulkind & kräftige Bäume", text: "5-mm-Seil, 90 kg: Slackers Eagle Zipline 30 m.", link: { href: "#platz-3", label: "Zur Empfehlung" } },
               { title: "Jugendliche & Erwachsene", text: "6-mm-Seil und 120 kg: Sets aus der Top 5.", link: { href: "#top5-seilbahn-nach-laenge", label: "Zur Top 5" } },
             ],
           },
@@ -266,7 +266,7 @@ export default {
           { h3: "Gefälle, Höhe und Abstände" },
           { p: "Das Seil braucht ein leichtes Gefälle, damit das Kind ins Rollen kommt, aber nicht so viel, dass es mit Schwung am Endbaum ankommt. Unter Last hängt jedes Seil durch – laut Kundenberichten auch straff gespannte. Stelle die Sitzhöhe deshalb so ein, dass die Füße an der tiefsten Stelle frei bleiben und das Kind am Start trotzdem sicher aufsteigen kann. Entlang der ganzen Strecke dürfen keine Äste, Zäune, Wäschespinnen, Beete mit Einfassungen oder Wege liegen, auf denen andere Kinder laufen." },
           { h3: "Bremse und Probefahrt" },
-          { p: "Montiere vor dem Endpunkt eine Bremse: Gummipuffer sind das Minimum, eine Spiral-Bremsfeder ist besser. Danach eine Probefahrt mit einem Sandsack, dessen Gewicht unter der Maximallast liegt. Erst wenn Laufkatze, Bremse und Ankerpunkte unauffällig sind, dürfen Kinder fahren. Nach Regen, Sturm und vor jeder Saison Seil, Klemmen, Spanner und Bremse kontrollieren und abgenutzte Teile ersetzen – für die [KBT Seilbahn](produkt:3) gibt es Bremsfedern und Laufkatzen als Ersatzteile." },
+          { p: "Montiere vor dem Endpunkt eine Bremse: Gummipuffer sind das Minimum, eine Spiral-Bremsfeder ist nach unserer Einschätzung besser. Danach eine Probefahrt mit einem Sandsack, dessen Gewicht unter der Maximallast liegt. Erst wenn Laufkatze, Bremse und Ankerpunkte unauffällig sind, dürfen Kinder fahren. Nach Regen, Sturm und vor jeder Saison Seil, Klemmen, Spanner und Bremse kontrollieren und abgenutzte Teile ersetzen – für die [KBT Seilbahn](produkt:2) gibt es Bremsfedern und Laufkatzen als Ersatzteile." },
           { callout: { title: "Aufsicht beim Fahren", warn: true, text: "Kinder nur unter Aufsicht Erwachsener fahren lassen – Slackers verlangt in seinen Warnhinweisen ausdrücklich die direkte Aufsicht eines Erwachsenen. Immer nur ein Kind gleichzeitig auf der Bahn, niemand auf der Strecke oder am Endpunkt, keine Schals oder Kordeln an der Kleidung. Alters- und Gewichtsangaben des Herstellers einhalten und die Bahn nach dem Spielen sichern, damit kleinere Geschwister sie nicht unbeaufsichtigt nutzen." } },
         ],
       },
@@ -297,7 +297,6 @@ export default {
 
   sources: [
     { label: "amazon.de – small foot Ropeway Rapid (11955)", url: "https://www.amazon.de/dp/B09WYZYX48" },
-    { label: "amazon.de – Slackers Eagle Zip Line 30 m (980005)", url: "https://www.amazon.de/dp/B087SQMG93" },
     { label: "Fitshop – Slackers Eagle Zipline 980005, technische Daten", url: "https://secure.fitshop.nl/en/slackers-eagle-zipline-dsk-980005" },
     { label: "amazon.de – KBT Seilbahn grün (24302)", url: "https://www.amazon.de/dp/B008CPDW9Q" },
     { label: "amazon.de – KBT Spiralbremsfeder 1,5 m", url: "https://www.amazon.de/dp/B01LXQD5TU" },

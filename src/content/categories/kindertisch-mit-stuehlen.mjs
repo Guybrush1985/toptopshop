@@ -34,11 +34,11 @@ export default {
     { key: "passform", label: "Tisch- und Sitzhöhe", weight: 0.3, description: "Tisch- und Sitzhöhe passend zur Altersgruppe (Ratgeber-Richtwerte: Sitz ca. 26–30 cm, Tisch ca. 45–54 cm) und Altersangabe des Herstellers." },
     { key: "stabilitaet", label: "Standfestigkeit & Belastbarkeit", weight: 0.3, description: "Kippsicherheit, Material der Gestelle, Belastbarkeitsangabe des Herstellers, Kundenberichte zu Wackeln und sich lockernden Verbindungen." },
     { key: "oberflaeche", label: "Material & Oberfläche", weight: 0.25, description: "Massivholz oder Holzwerkstoff, abwischbare Oberfläche, Herstellerangaben zu EN 71-3 bzw. Schadstoffprüfung, Kratzempfindlichkeit." },
-    { key: "alltag", label: "Alltag & Ausstattung", weight: 0.15, description: "Montageaufwand, Extras wie Stauraum, Zahl und Tenor der Kundenbewertungen." },
+    { key: "alltag", label: "Alltag & Ausstattung", weight: 0.15, description: "Montageaufwand, Lieferzustand, Extras wie Stauraum und der Tenor der Kundenberichte zu Haltbarkeit und Aufbau." },
   ],
 
   method:
-    "Wir testen die Sitzgruppen nicht selbst. Grundlage sind Hersteller- und Händlerangaben (Maße, Sitzhöhe, Material, Belastbarkeit, Altersangabe, genannte Normen), Zahl und Tenor der Kundenbewertungen auf amazon.de (Stand 8. Oktober 2026) sowie die Sitz- und Tischhöhen-Richtwerte aus den Ratgebern von kita.de und testsieger.de. Einen Test von Kindersitzgruppen durch Stiftung Warentest oder Öko-Test haben wir nicht gefunden. Die Bewertung ist eine redaktionelle Einschätzung in vier gewichteten Kriterien von 0 bis 10.",
+    "Wir testen die Sitzgruppen nicht selbst. Grundlage sind Hersteller- und Händlerangaben (Maße, Sitzhöhe, Material, Belastbarkeit, Altersangabe, genannte Normen), der Tenor der Kundenberichte auf amazon.de (Stand 8. Oktober 2026) sowie die Sitz- und Tischhöhen-Richtwerte aus den Ratgebern von kita.de und testsieger.de. Einen Test von Kindersitzgruppen durch Stiftung Warentest oder Öko-Test haben wir nicht gefunden. Die Bewertung ist eine redaktionelle Einschätzung in vier gewichteten Kriterien von 0 bis 10.",
 
   products: [
     {
@@ -49,25 +49,26 @@ export default {
       variant: "Kernbuche massiv, weiß lackiert (auch natur geölt erhältlich)",
       visual: { kind: "kidtable", tone: "forest" },
       priceTier: 3,
-      ratings: { passform: 7.5, stabilitaet: 9.5, oberflaeche: 8.5, alltag: 8.0 },
+      ratings: { passform: 7.5, stabilitaet: 9.5, oberflaeche: 9.0, alltag: 8.0 },
       bestFor: "Kindergartenkinder, langlebige Massivholz-Sitzgruppe",
       verdict:
-        "Die solideste Sitzgruppe im Vergleich: Tisch und Stühle sind laut Hersteller aus massiver Kernbuche, die Stühle kommen fertig montiert. Die Tischhöhe von rund 48 cm liegt im Bereich der Ratgeber-Richtwerte. Eine Sitzhöhe und eine Altersangabe nennt das Listing allerdings nicht – vor dem Kauf an der Körpergröße des Kindes abgleichen.",
+        "Die solideste Sitzgruppe im Vergleich: Tisch und Stühle sind laut Hersteller aus massiver Kernbuche, die Stühle kommen fertig montiert, und der weiße Lack ist laut Anbieter nach EN 71-3 unbedenklich. Die Tischhöhe von rund 48 cm liegt im Bereich der Ratgeber-Richtwerte. Eine Sitzhöhe und eine Altersangabe nennt das Listing allerdings nicht – vor dem Kauf an der Körpergröße des Kindes abgleichen.",
       features: [
         "Tisch und Stühle aus massiver Kernbuche, weiß lackiert oder natur geölt (Herstellerangabe)",
         "Tisch ca. 48 × 50 × 60 cm (H × T × B), Stuhl ca. 50 × 31 × 30 cm (H × T × B) (Herstellerangabe)",
         "Stühle werden fertig montiert geliefert, am Tisch werden nur die vier Füße eingedreht (Herstellerangabe)",
-        "Rund 140 Kundenbewertungen mit sehr gutem Schnitt; gelobt werden Stabilität und Material (amazon.de, Stand 08.10.2026)",
+        "Weißer Lack laut Anbieter nach EN 71-3 als unbedenklich zertifiziert; die geölte Variante ist mit Leinöl und Naturwachsen behandelt (Herstellerangabe)",
+        "Laut Kundenberichten stabil und solide verarbeitet; vereinzelt kritisiert werden nicht sauber verschraubte Querstreben und das hohe Gewicht der Stühle (amazon.de, Stand 08.10.2026)",
       ],
-      pros: ["Massive Kernbuche", "Stühle kommen fertig montiert", "Sehr gute Kundenbewertungen", "Tischhöhe im Bereich der Ratgeber-Richtwerte"],
-      cons: ["Deutlich teurer als die Alternativen", "Keine Sitzhöhe und keine Altersangabe im Listing", "Keine Normangabe zum Lack gefunden", "Kein Stauraum; Stühle vergleichsweise schwer"],
+      pros: ["Massive Kernbuche", "Stühle kommen fertig montiert", "Lack nach EN 71-3 laut Anbieter", "Tischhöhe im Bereich der Ratgeber-Richtwerte"],
+      cons: ["Deutlich teurer als die Alternativen", "Keine Sitzhöhe und keine Altersangabe im Listing", "Keine Prüfung nach DIN EN 17191 genannt", "Kein Stauraum; Stühle vergleichsweise schwer"],
       specs: {
         material: "Kernbuche massiv, weiß lackiert",
         tisch: "ca. 48 cm hoch, 60 × 50 cm",
         sitz: "nicht angegeben",
         alter: "keine Angabe im Listing",
         last: "keine Angabe",
-        norm: "keine Angabe gefunden",
+        norm: "EN 71-3 (Lack, Herstellerangabe)",
       },
       asin: "B08P54SXC8",
       query: "Betten-ABC Bubema Kindertisch und 2 Stühle Kernbuche weiß lackiert",
@@ -80,25 +81,25 @@ export default {
       variant: "Tisch + 2 Stühle, Kiefer massiv; Farbe auf der Produktseite wählbar",
       visual: { kind: "kidtable", tone: "green" },
       priceTier: 1,
-      ratings: { passform: 7.5, stabilitaet: 8.5, oberflaeche: 7.0, alltag: 8.0 },
+      ratings: { passform: 7.5, stabilitaet: 8.5, oberflaeche: 7.0, alltag: 7.5 },
       bestFor: "Massivholz zum Malen und Essen mit kleinem Budget",
       verdict:
-        "Massivholz zum Einstiegspreis: Die Bomi Amy ist laut Hersteller aus FSC-zertifizierter Kiefer, jeder Stuhl ist bis 180 kg belastbar, die Farbe speichelfest nach EN 71-3. Kiefer ist weich und bekommt schneller Kratzer, und die Altersangabe im Listing ist uneinheitlich – hier lohnt ein Blick in die Anleitung.",
+        "Massivholz zum Einstiegspreis: Die Bomi Amy ist laut Hersteller aus FSC-zertifizierter Kiefer, jeder Stuhl ist laut Listing bis 180 kg belastbar, die Farbe speichelfest nach EN 71-3. Kiefer ist weich und bekommt schneller Kratzer, und die Altersangabe im Listing ist uneinheitlich – hier lohnt ein Blick in die Anleitung.",
       features: [
         "Massives Kiefernholz aus FSC-zertifizierter Forstwirtschaft, abgerundete Ecken und Kanten (Herstellerangabe)",
         "Farbe laut Anbieter speichelfest nach DIN EN 71-3 (Herstellerangabe)",
         "Tisch ca. 55 × 55 × 45 cm, Stuhl ca. 27,5 × 27,5 × 50,5 cm; je nach Listing leicht abweichende Maße (Herstellerangabe)",
-        "Jeder Stuhl bis 180 kg belastbar (Herstellerangabe)",
-        "Rund 2.800 Kundenbewertungen; gelobt werden Optik, Aufbau und Stabilität (amazon.de, Stand 08.10.2026)",
+        "Jeder Stuhl bis 180 kg belastbar laut Listing; ein einzelnes Varianten-Listing nennt abweichend 40 kg (Herstellerangabe)",
+        "Laut Kundenberichten einfacher Aufbau und stabile Stühle; kritisiert werden kratzempfindliches Holz und sich lockernde Schrauben (amazon.de, Stand 08.10.2026)",
       ],
-      pros: ["Massivholz zum günstigen Preis", "Hohe Belastbarkeit laut Hersteller", "Farbe speichelfest nach EN 71-3 laut Hersteller", "Sehr große Bewertungsbasis"],
+      pros: ["Massivholz zum günstigen Preis", "Hohe Belastbarkeit laut Hersteller", "Farbe speichelfest nach EN 71-3 laut Hersteller", "Laut Kundenberichten einfach aufzubauen"],
       cons: ["Kiefer ist weich und kratzempfindlich", "Schrauben müssen laut Kundenberichten gelegentlich nachgezogen werden", "Altersangabe uneinheitlich, Anleitung prüfen"],
       specs: {
         material: "Kiefer massiv, FSC",
         tisch: "ca. 45 cm hoch, 55 × 55 cm",
         sitz: "nicht separat angegeben",
         alter: "uneinheitlich – Anleitung prüfen",
-        last: "180 kg je Stuhl",
+        last: "180 kg je Stuhl (laut Listing; Varianten teils abweichend)",
         norm: "EN 71-3 (Farbe, Herstellerangabe)",
       },
       asin: "B078S7MD79",
@@ -115,7 +116,7 @@ export default {
       ratings: { passform: 8.5, stabilitaet: 7.0, oberflaeche: 8.0, alltag: 6.5 },
       bestFor: "Kleinkinder ab 18 Monaten (laut Hersteller), besonders niedrige Sitzhöhe",
       verdict:
-        "Die niedrigste Sitzgruppe im Vergleich: 25,5 cm Sitzhöhe und laut Hersteller auf Kinder ab 18 Monaten zugeschnitten. Tischplatte und Sitzflächen sind melaminharzbeschichtet und lassen sich gut abwischen. Dafür besteht sie aus Holzwerkstoff mit Dekor, trägt nur 50 kg pro Sitzplatz und hat bisher wenige Bewertungen.",
+        "Die niedrigste Sitzgruppe im Vergleich: 25,5 cm Sitzhöhe und laut Hersteller auf Kinder ab 18 Monaten zugeschnitten. Tischplatte und Sitzflächen sind melaminharzbeschichtet und lassen sich gut abwischen. Dafür besteht sie aus Holzwerkstoff mit Dekor, trägt nur 50 kg pro Sitzplatz, und laut Kundenberichten überzeugt die Haltbarkeit nicht alle. roba weist darauf hin, die Sitzgruppe nur unter direkter Aufsicht eines Erwachsenen zu nutzen.",
       features: [
         "Sitzhöhe 25,5 cm; Stuhl H 52 × B 27 × T 27 cm, Tisch H 48,5 × B 56 × T 56 cm (Herstellerangabe)",
         "Laut Hersteller für Kinder ab 18 Monaten",
@@ -123,7 +124,7 @@ export default {
         "Hergestellt nach EN 71-1:2014, Materialien auf Schadstoffe geprüft; 50 kg pro Sitzplatz (Herstellerangabe)",
       ],
       pros: ["Niedrigste Sitzhöhe im Vergleich (25,5 cm)", "Ab 18 Monaten laut Hersteller", "Abwischbare Melaminharz-Oberfläche", "Norm EN 71-1 vom Hersteller genannt"],
-      cons: ["Holzwerkstoff mit Dekor statt Massivholz", "Nicht ab 12 Monaten ausgewiesen", "Nur 50 kg je Sitzplatz", "Wenige Bewertungen, Haltbarkeit teils kritisiert"],
+      cons: ["Holzwerkstoff mit Dekor statt Massivholz", "Nicht ab 12 Monaten ausgewiesen", "Nur 50 kg je Sitzplatz", "Haltbarkeit laut Kundenberichten teils kritisiert"],
       specs: {
         material: "Holzwerkstoff, Melaminharz-Oberfläche",
         tisch: "48,5 cm hoch, 56 × 56 cm",
@@ -181,7 +182,7 @@ export default {
         blocks: [
           { quick: "Für die meisten Familien ist der [Bubema Kindertisch mit 2 Stühlen](produkt:1) aus massiver Kernbuche nach unserer Einschätzung die beste Wahl. Günstiger und ebenfalls aus Massivholz ist die [Bomi Kindersitzgruppe Amy](produkt:2); für Kleinkinder ab 18 Monaten passt die besonders niedrige [roba „Woody“](produkt:3)." },
           { first: "Ein Kindertisch wird mehr genutzt, als viele Eltern erwarten: Morgens wird geknetet, mittags gegessen, abends gepuzzelt. Entscheidend ist deshalb nicht das Design, sondern ob das Kind bequem und sicher sitzt. Passt die Höhe nicht, rutscht es auf dem Stuhl nach vorn, kniet sich hin oder steht auf – und genau dann kippen Stühle." },
-          { p: "Die [Bubema-Sitzgruppe](produkt:1) überzeugt mit massiver Buche, fertig montierten Stühlen und sehr guten Kundenbewertungen. Sie ist die teuerste im Vergleich, und eine Sitzhöhe nennt der Anbieter nicht – das kostet Punkte bei der Passform. Die [Bomi Amy](produkt:2) bietet für deutlich weniger Geld ebenfalls Massivholz und laut Hersteller 180 kg Belastbarkeit je Stuhl; die weiche Kiefer zeigt aber schneller Kratzer. Die [roba „Woody“](produkt:3) ist die einzige Sitzgruppe mit klar angegebener niedriger Sitzhöhe (25,5 cm) und Altersangabe ab 18 Monaten." },
+          { p: "Die [Bubema-Sitzgruppe](produkt:1) überzeugt mit massiver Buche, fertig montierten Stühlen und einem Lack, der laut Anbieter EN 71-3 erfüllt. Sie ist die teuerste im Vergleich, und eine Sitzhöhe nennt der Anbieter nicht – das kostet Punkte bei der Passform. Die [Bomi Amy](produkt:2) bietet für deutlich weniger Geld ebenfalls Massivholz und laut Listing 180 kg Belastbarkeit je Stuhl; die weiche Kiefer zeigt aber schneller Kratzer. Die [roba „Woody“](produkt:3) ist die einzige Sitzgruppe mit klar angegebener niedriger Sitzhöhe (25,5 cm) und Altersangabe ab 18 Monaten." },
           { figure: "scores" },
           { quote: "Bei Kindermöbeln zählt die Sitzhöhe mehr als die Optik: Stehen die Füße flach auf dem Boden, sitzt das Kind ruhig." },
         ],
@@ -192,7 +193,7 @@ export default {
         blocks: [
           { quick: "Wichtig sind eine Sitz- und Tischhöhe passend zur Körpergröße, standfeste Stühle mit breitem Stand, eine abwischbare Oberfläche mit speichelfester Beschichtung und abgerundete Ecken. Stauraum ist ein Extra, kein Muss." },
           { h3: "Sitz- und Tischhöhe" },
-          { p: "Als Faustregel gilt: Die Füße stehen flach auf dem Boden, die Knie sind etwa rechtwinklig gebeugt, die Tischkante liegt ungefähr auf Höhe der Ellbogen. Die Ratgeber von kita.de und testsieger.de nennen als Richtwerte für Kleinkind-Sitzgruppen eine Sitzhöhe von etwa 26 bis 30 cm und eine Tischhöhe von etwa 45 bis 54 cm. Das sind Ratgeber-Richtwerte, keine Norm – entscheidend ist die Körpergröße Ihres Kindes." },
+          { p: "Als Faustregel gilt: Die Füße stehen flach auf dem Boden, die Knie sind etwa rechtwinklig gebeugt, die Tischkante liegt ungefähr auf Höhe der Ellbogen. Die Ratgeber von kita.de und testsieger.de nennen als Richtwerte für Kleinkind-Sitzgruppen eine Sitzhöhe von etwa 26 bis 30 cm und eine Tischhöhe von etwa 45 bis 54 cm. Das sind Ratgeber-Richtwerte, keine Norm – entscheidend ist die Körpergröße deines Kindes." },
           {
             table: {
               caption: "Sitz- und Tischhöhen der Top 3 (Herstellerangaben)",
@@ -207,9 +208,9 @@ export default {
           { h3: "Standfestigkeit" },
           { p: "Kinder setzen sich seitlich auf den Stuhl, ziehen ihn mit einer Hand heran und klettern darauf. Breit stehende Stuhlbeine und ein niedriger Schwerpunkt helfen. Massivholz-Stühle wie bei [Bubema](produkt:1) und [Bomi](produkt:2) sind schwerer und rutschen weniger leicht weg; bei verschraubten Modellen lockern sich Verbindungen mit der Zeit und sollten regelmäßig nachgezogen werden." },
           { h3: "Material und Oberfläche" },
-          { p: "Massivholz ist langlebig und lässt sich abschleifen, Kiefer ist dabei weicher als Buche. Melaminharzbeschichtete Holzwerkstoffe wie bei der [roba „Woody“](produkt:3) sind unempfindlich gegen Filzstift und Joghurt, lassen sich bei Kratzern aber kaum ausbessern. Bei lackierten Oberflächen ist eine Herstellerangabe zur Speichelechtheit nach EN 71-3 ein gutes Zeichen – Bomi nennt sie für die Farbe der Amy." },
+          { p: "Massivholz ist langlebig und lässt sich abschleifen, Kiefer ist dabei weicher als Buche. Melaminharzbeschichtete Holzwerkstoffe wie bei der [roba „Woody“](produkt:3) sind unempfindlich gegen Filzstift und Joghurt, lassen sich bei Kratzern aber kaum ausbessern. Bei lackierten Oberflächen ist eine Herstellerangabe zur Speichelechtheit nach EN 71-3 ein gutes Zeichen – Bomi nennt sie für die Farbe der Amy, Betten-ABC für den weißen Lack der Bubema-Sitzgruppe." },
           { h3: "Welche Norm gilt für Kindersitzmöbel?" },
-          { p: "Einschlägig für Kinderstühle und -sitzgruppen ist die **DIN EN 17191:2021** (Kindermöbel – Kindersitzmöbel – sicherheitstechnische Anforderungen und Prüfverfahren). Sie gilt für Sitzmöbel für Kinder, die selbstständig laufen und sitzen können. Keiner unserer Kandidaten nennt diese Norm im Listing. roba gibt für die Woody die Spielzeugnorm EN 71-1 an, Bomi für die Farbe EN 71-3 (Speichelechtheit) – jeweils laut Hersteller. Wer Wert auf eine Prüfung nach EN 17191 legt, sollte beim Anbieter nachfragen." },
+          { p: "Einschlägig für Kinderstühle und -sitzgruppen ist die **DIN EN 17191:2021** (Kindermöbel – Kindersitzmöbel – sicherheitstechnische Anforderungen und Prüfverfahren). Sie gilt für Sitzmöbel für Kinder, die selbstständig laufen und sitzen können. Keiner unserer Kandidaten nennt diese Norm im Listing. roba gibt für die Woody die Spielzeugnorm EN 71-1 an, Bomi für die Farbe und Betten-ABC für den weißen Lack jeweils EN 71-3 (Speichelechtheit) – alles laut Hersteller. Wenn dir eine Prüfung nach EN 17191 wichtig ist, frag beim Anbieter nach." },
         ],
       },
       {
@@ -252,11 +253,11 @@ export default {
         blocks: [
           { quick: "Auf ebenem Boden mit Platz hinter den Stühlen aufstellen, nicht unter ein Fenster, und die Verschraubungen regelmäßig kontrollieren. Kleinkinder am Tisch nicht unbeaufsichtigt lassen." },
           { figure: "steps" },
-          { p: "Für eine Sitzgruppe mit zwei Stühlen sollten Sie neben der Tischfläche rund einen halben Meter hinter jedem Stuhl einplanen, damit Kinder aufstehen können, ohne an Wand oder Regal zu stoßen. Ein flacher Teppich unter der Gruppe dämpft Geräusche, darf aber nicht so dick sein, dass die Stühle wackeln." },
+          { p: "Für eine Sitzgruppe mit zwei Stühlen solltest du neben Tisch und Stühlen rund einen halben Meter hinter jedem Stuhl einplanen, damit Kinder aufstehen können, ohne an Wand oder Regal zu stoßen. Ein flacher Teppich unter der Gruppe dämpft Geräusche, darf aber nicht so dick sein, dass die Stühle wackeln." },
           {
             list: [
               "**Nicht unters Fenster:** Bomi weist darauf hin, dass Kinder Tisch und Stühle als Steighilfe nutzen – Sitzgruppen daher nicht unter Fenster stellen.",
-              "**Aufsicht:** roba weist darauf hin, Kinder unter 12 Monaten nicht unbeaufsichtigt zu lassen. Altersangaben sind Herstellerangaben.",
+              "**Aufsicht:** Die roba „Woody“ ist laut Hersteller nur unter direkter Aufsicht eines Erwachsenen zu nutzen; für die Outdoor-Garnitur „Picknick for 4“ aus der Top 5 weist roba darauf hin, Kinder unter 12 Monaten nicht unbeaufsichtigt zu lassen. Altersangaben sind Herstellerangaben.",
               "**Schrauben nachziehen:** Gerade bei Kiefernholz lockern sich Verbindungen mit der Zeit; ein kurzer Check alle paar Wochen genügt.",
               "**Nicht auf Stühlen stehen:** Kinderstühle sind zum Sitzen gebaut, nicht als Tritthocker.",
               "**Belastbarkeit beachten:** Die roba „Woody“ ist laut Hersteller für 50 kg pro Sitzplatz ausgelegt – Erwachsene sollten sich nicht daraufsetzen.",
@@ -284,7 +285,7 @@ export default {
     { q: "Wie hoch sollte ein Kinderstuhl sein?", a: "Die Sitzhöhe sollte etwa der Unterschenkellänge des Kindes entsprechen; Ratgeber nennen für Kleinkinder rund 26 bis 30 cm. Die roba „Woody“ hat laut Hersteller 25,5 cm und ist damit die niedrigste Sitzgruppe in unserem Vergleich." },
     { q: "Holz oder Kunststoff beim Kindertisch?", a: "Für drinnen ist Massivholz am langlebigsten, beschichteter Holzwerkstoff am pflegeleichtesten. Kunststoff eignet sich vor allem für draußen, weil er leicht und wetterfest ist." },
     { q: "Kann man Kindertische höhenverstellen?", a: "Ja, es gibt Sitzgruppen mit verstellbaren Beinen, etwa von FUNLIO. Klassische Sitzgruppen haben eine feste Höhe; für Schulkinder ist ein höhenverstellbarer Kinderschreibtisch meist die bessere Lösung." },
-    { q: "Wie viel Platz braucht eine Kindersitzgruppe?", a: "Rechnen Sie mit der Tischfläche von rund 50 bis 60 cm plus etwa einem halben Meter hinter jedem Stuhl. Für eine Gruppe mit zwei gegenüberstehenden Stühlen reicht damit meist eine Fläche von etwa 1,5 × 1 m." },
+    { q: "Wie viel Platz braucht eine Kindersitzgruppe?", a: "Rechne mit der Tischtiefe von rund 50 bis 60 cm, je Stuhl etwa 30 cm Sitztiefe und dahinter je einem halben Meter Platz zum Aufstehen. Bei zwei gegenüberstehenden Stühlen ergibt das in der Länge rund 2 m, in der Breite etwa 1 m – also eine Fläche von ungefähr 2 × 1 m." },
   ],
 
   sources: [

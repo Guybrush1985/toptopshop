@@ -1,120 +1,245 @@
 {
   "slug": "kletterwand-kinderzimmer",
   "criteria": [
-    { "key": "sicherheit", "label": "Belastbarkeit & Sicherheitsangaben", "weight": 0.3, "description": "Herstellerangaben zu Alter (ab 36 Monaten), maximaler Belastung, Plattenstärke, Aufsichts- und Fallschutzhinweisen; seriöse Marke, nachvollziehbare Normangaben (EN 71)." },
-    { "key": "montage", "label": "Montage & Untergrund", "weight": 0.25, "description": "Lieferumfang an Dübeln/Schrauben/Einschlagmuttern, Eignung für Mauerwerk vs. Trockenbau, Aufwand und Klarheit der Montage." },
-    { "key": "griffe", "label": "Griffe & Routenvielfalt", "weight": 0.25, "description": "Anzahl, Größe und Form der Griffe, kindgerechte Griffgröße, Umsetzbarkeit dank Gewindelochraster." },
-    { "key": "flaeche", "label": "Fläche & Erweiterbarkeit", "weight": 0.2, "description": "Kletterfläche im Grundset, Plattengröße, Erweiterbarkeit mit weiteren Modulen derselben Serie." }
+    {
+      "key": "sicherheit",
+      "label": "Belastbarkeit & Sicherheitsangaben",
+      "weight": 0.3,
+      "description": "Herstellerangaben zu Alter (ab 36 Monaten), maximaler Belastung, Plattenstärke, Aufsichts- und Fallschutzhinweisen; seriöse Marke, nachvollziehbare Normangaben (EN 71)."
+    },
+    {
+      "key": "montage",
+      "label": "Montage & Untergrund",
+      "weight": 0.25,
+      "description": "Lieferumfang an Dübeln/Schrauben/Einschlagmuttern, Eignung für Mauerwerk vs. Trockenbau, Aufwand und Klarheit der Montage."
+    },
+    {
+      "key": "griffe",
+      "label": "Griffe & Routenvielfalt",
+      "weight": 0.25,
+      "description": "Anzahl, Größe und Form der Griffe, kindgerechte Griffgröße, Umsetzbarkeit dank Gewindelochraster."
+    },
+    {
+      "key": "flaeche",
+      "label": "Fläche & Erweiterbarkeit",
+      "weight": 0.2,
+      "description": "Kletterfläche im Grundset, Plattengröße, Erweiterbarkeit mit weiteren Modulen derselben Serie."
+    }
   ],
   "priceTiers": [
-    { "tier": 1, "label": "bis ca. 100 €" },
-    { "tier": 2, "label": "ca. 100–250 €" },
-    { "tier": 3, "label": "über 250 € (große Mehrplatten-Sets)" }
+    {
+      "tier": 1,
+      "label": "bis ca. 100 €"
+    },
+    {
+      "tier": 2,
+      "label": "ca. 100–250 €"
+    },
+    {
+      "tier": 3,
+      "label": "über 250 € (große Mehrplatten-Sets)"
+    }
   ],
   "products": [
     {
       "rank": 1,
       "label": "Beste Gesamtwahl",
-      "name": "Gartenpirat Indoor Kletterwand mit Klettersteinen und Montagematerial",
-      "brand": "Gartenpirat",
-      "variant": "Indoor, Birken-Multiplex 18 mm, Platten 114 × 57 cm; Sets mit 2 Platten (ca. 1,30 m², 10 Klettersteine) bis 8 Platten (ca. 5,20 m², 40 Klettersteine) – Variante auf der Amazon-Seite wählen",
-      "priceTier": 2,
-      "ratings": { "sicherheit": 8.5, "montage": 8.0, "griffe": 7.5, "flaeche": 8.0 },
-      "bestFor": "Familien mit Kindern ab ca. 3 Jahren und einer massiven Wand (Ziegel/Beton), die ein komplettes Set inkl. Steinen und Befestigung wollen und später erweitern möchten.",
-      "fakten": [
-        { "text": "Wandplatten aus 18 mm Birken-Multiplex, lackiert und abwischbar; Plattenmaß 114 × 57 cm", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/Gartenpirat-Kletterwand-Klettersteinen-Montagematerial-Erwachsene/dp/B0DD3NCHR1", "datum": "abgerufen 2026-10-08" },
-        { "text": "Belastbar bis 150 kg je Platte", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/Gartenpirat-Kletterwand-Klettersteinen-Montagematerial-Erwachsene/dp/B0DD3NCHR1", "datum": "abgerufen 2026-10-08" },
-        { "text": "Lieferumfang: Platten mit vormontierten Einschlaghülsen, Dübel, Schrauben, Unterlegscheiben, Schutzkappen und Klettersteine (10 Steine bei 2 Platten, 25 bei 6, 40 bei 8 Platten)", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/Gartenpirat-Kletterwand-Klettersteinen-Montagematerial-Erwachsene/dp/B0DD3NCHR1", "datum": "abgerufen 2026-10-08" },
-        { "text": "Montage ausschließlich an tragfähigem Vollmauerwerk – nicht an Gipskarton- oder Ytong-Wänden; beiliegende Dübel für Ziegel und Beton", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/Gartenpirat-Kletterwand-Klettersteinen-Montagematerial-Erwachsene/dp/B0DD3NCHR1", "datum": "abgerufen 2026-10-08" },
-        { "text": "Altersangabe ab 36 Monaten, Nutzung nur unter direkter Aufsicht eines Erwachsenen", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/Gartenpirat-Kletterwand-Klettersteinen-Montagematerial-Erwachsene/dp/B0DD3NCHR1", "datum": "abgerufen 2026-10-08" },
-        { "text": "kita.de nennt die Gartenpirat-Indoorwand IW2 (2 Platten, 10 Klettersteine) im Vergleich „Boulderwand Kinderzimmer: 5 Modelle“ als starke Alternative für besonders robuste Lösungen an Beton oder Mauerwerk (redaktioneller Vergleich, kein Labortest)", "art": "Bericht", "quelle": "https://www.kita.de/ratgeber/spielzeug/bewegungs-koordinationsspiele/boulderwand-kinderzimmer/", "datum": "ca. September 2026" }
-      ],
-      "pros": ["Komplettset: Steine, Dübel und Schrauben dabei", "Einschlaghülsen vormontiert – Routen jederzeit umbaubar", "18 mm Birken-Multiplex, 150 kg je Platte (Herstellerangabe)", "Von 2 auf bis zu 8 Platten erweiterbar"],
-      "cons": ["Nicht für Trockenbau/Rigips oder Porenbeton geeignet", "Kleines Set hat nur 10 Steine", "Große Sets deutlich teurer", "Keine EN-71-Angabe auf der Amazon-Seite gefunden"],
-      "specs": { "Material": "Birken-Multiplex 18 mm, lackiert", "Plattenmaß": "114 × 57 cm", "Belastung": "150 kg je Platte (Herstellerangabe)", "Alter": "ab 36 Monaten (Herstellerangabe)", "Untergrund": "nur tragfähiges Vollmauerwerk", "Griffe": "10–40 Klettersteine je nach Set" },
-      "asin": "B0DD3NCHR1",
-      "query": "Gartenpirat Indoor Kletterwand mit Klettersteinen und Montagematerial",
-      "shop": null,
-      "url": null,
-      "asinGeprueft": "Gartenpirat Indoor Climbing Wall with Climbing Stones and Mounting Material for Children and Adults : Amazon.de: Toys (amazon.de/…/dp/B0DD3NCHR1)"
-    },
-    {
-      "rank": 2,
-      "label": "Bestes Preis-Leistungs-Verhältnis",
-      "name": "GOODEX Kletterwand Kinderzimmer mit Klettergriffen – Indoor Kletterwandplatten aus Holz mit Klettersteinen",
-      "brand": "GOODEX",
-      "variant": "Birkenschichtholz 18 mm, Platten 50 × 75 cm, Gesamtmaß ca. 150 × 100 cm (natur)",
-      "priceTier": 2,
-      "ratings": { "sicherheit": 7.5, "montage": 7.5, "griffe": 7.0, "flaeche": 7.0 },
-      "bestFor": "Kinder von etwa 3 bis 6 Jahren in Familien, die eine kompakte, fertige Holzwand mit Griffen zu einem moderaten Preis suchen.",
-      "fakten": [
-        { "text": "Kletterwandplatten 50 × 75 cm aus 18 mm Birkenschichtholz; Gesamtmaß ca. 150 × 100 cm, ca. 20 kg", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/Klettergriffen-Kletterwandplatten-Klettersteinen-ECO-Kletterwandplatte-Kletterwandpaneele/dp/B0DDJSX7KP", "datum": "abgerufen 2026-10-08" },
-        { "text": "Positionsbohrungen mit Einschlagmuttern bestückt, Griffe lassen sich ohne Demontage der Wand umsetzen", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/Klettergriffen-Kletterwandplatten-Klettersteinen-ECO-Kletterwandplatte-Kletterwandpaneele/dp/B0DDJSX7KP", "datum": "abgerufen 2026-10-08" },
-        { "text": "Altersempfehlung 36 Monate bis 6 Jahre", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/Klettergriffen-Kletterwandplatten-Klettersteinen-ECO-Kletterwandplatte-Kletterwandpaneele/dp/B0DDJSX7KP", "datum": "abgerufen 2026-10-08" },
-        { "text": "kita.de führt eine GOODEX-Wand (3 Platten, 10 Griffe) mit Note 2,0 als passend für Familien mit Kindern ab drei Jahren, die ein mehrteiliges Holzset mit veränderbarer Route suchen (redaktioneller Vergleich)", "art": "Bericht", "quelle": "https://www.kita.de/ratgeber/spielzeug/bewegungs-koordinationsspiele/boulderwand-kinderzimmer/", "datum": "ca. September 2026" }
-      ],
-      "pros": ["Fertiges Set aus Birkenschichtholz mit Griffen", "Einschlagmuttern bereits eingesetzt", "Kompakte Fläche passt in kleinere Kinderzimmer", "Deutsche Marke mit weiteren Pikler-/Kletterprodukten"],
-      "cons": ["Altersempfehlung endet laut Hersteller bei 6 Jahren", "Maximale Belastung und genaue Griffanzahl auf der Amazon-Seite nicht eindeutig", "Nicht erweiterbar wie Modulsysteme", "Wanddübel je nach Untergrund ggf. separat nötig"],
-      "specs": { "Material": "Birkenschichtholz 18 mm", "Plattenmaß": "50 × 75 cm", "Gesamtmaß": "ca. 150 × 100 cm", "Alter": "36 Monate – 6 Jahre (Herstellerangabe)", "Griffe": "laut kita.de 10 Griffe (auf Amazon-Seite prüfen)" },
-      "asin": "B0DDJSX7KP",
-      "query": "GOODEX Kletterwand Kinderzimmer mit Klettergriffen Holz",
-      "shop": null,
-      "url": null,
-      "asinGeprueft": "GOODEX® Kletterwand Kinderzimmer mit Klettergriffen Indoor Kletterwandplatten für Kinder aus Holz mit Klettersteinen 100% ECO-Kletterwandplatte Klettergerüst Indoor Kletterwandpaneele: Amazon.de: Spielzeug (amazon.de/…/dp/B0DDJSX7KP)"
-    },
-    {
-      "rank": 3,
-      "label": "Premium-Wahl",
       "name": "ALPIDEX Kletterwand Komplettset ab 1,44 m² in Natur – Klettergriffe und Befestigungsmaterial inklusive, unbegrenzt erweiterbar",
       "brand": "ALPIDEX",
       "variant": "Natur (auch Weiß/Braun), Module 120 × 60 cm, 1,44 bis 8,64 m² – Größe auf der Amazon-Seite wählen",
       "priceTier": 3,
-      "ratings": { "sicherheit": 6.5, "montage": 8.5, "griffe": 7.5, "flaeche": 9.5 },
-      "bestFor": "Größere Wandflächen und Familien, in denen auch ältere Geschwister oder Eltern mitklettern – mit Systemausbau über Jahre.",
+      "ratings": {
+        "sicherheit": 6.5,
+        "montage": 8.5,
+        "griffe": 7.5,
+        "flaeche": 9.5
+      },
+      "bestFor": "Massive Wand, Kinder ab 3 Jahren bis Eltern, viel Fläche; ersetzt Gartenpirat (nicht verfügbar) auf Platz 1.",
       "fakten": [
-        { "text": "Module aus Multiplex-Birke, 18 mm, je 120 × 60 cm; Belastbarkeit 300 kg je Modul an massiven Wänden", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/ALPIDEX-Kletterwand-Komplettset-Klettergriffe-Befestigungsmaterial/dp/B0BVVGMY3F", "datum": "abgerufen 2026-10-08" },
-        { "text": "Komplettset aus Platten, Griffen und Befestigungsmaterial; beim 10-Platten-Set u. a. 60 Griffe (40 L, 20 M), 40 Dübel mit ETA-Zulassung für Mauerwerk und Beton, 180 Einschlagmuttern M10", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/ALPIDEX-Kletterwand-Komplettset-Klettergriffe-Befestigungsmaterial/dp/B0BVVGMY3F", "datum": "abgerufen 2026-10-08" },
-        { "text": "Fläche von 1,44 bis 8,64 m², jederzeit durch weitere Module erweiterbar; für den Innenbereich", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/ALPIDEX-Kletterwand-Komplettset-Klettergriffe-Befestigungsmaterial/dp/B0BVVGMY3F", "datum": "abgerufen 2026-10-08" },
-        { "text": "Eine Käuferin/ein Käufer eines ALPIDEX-Griffsets merkt an, dass für Kinder nur die kleineren Griffe gut greifbar sind", "art": "Bericht", "quelle": "https://www.amazon.de/ALPIDEX-Starterset-Klettergriffe-Schrauben-Einschlagmuttern/dp/B07H7P5Q1R", "datum": "abgerufen 2026-10-08" }
+        {
+          "text": "Module aus Multiplex-Birke, 18 mm, je 120 × 60 cm; Belastbarkeit 300 kg je Modul an massiven Wänden",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/ALPIDEX-Kletterwand-Komplettset-Klettergriffe-Befestigungsmaterial/dp/B0BVVGMY3F",
+          "datum": "abgerufen 2026-10-08"
+        },
+        {
+          "text": "Komplettset aus Platten, Griffen und Befestigungsmaterial; beim 10-Platten-Set u. a. 60 Griffe (40 L, 20 M), 40 Dübel mit ETA-Zulassung für Mauerwerk und Beton, 180 Einschlagmuttern M10",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/ALPIDEX-Kletterwand-Komplettset-Klettergriffe-Befestigungsmaterial/dp/B0BVVGMY3F",
+          "datum": "abgerufen 2026-10-08"
+        },
+        {
+          "text": "Fläche von 1,44 bis 8,64 m², jederzeit durch weitere Module erweiterbar; für den Innenbereich",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/ALPIDEX-Kletterwand-Komplettset-Klettergriffe-Befestigungsmaterial/dp/B0BVVGMY3F",
+          "datum": "abgerufen 2026-10-08"
+        },
+        {
+          "text": "Eine Käuferin/ein Käufer eines ALPIDEX-Griffsets merkt an, dass für Kinder nur die kleineren Griffe gut greifbar sind",
+          "art": "Bericht",
+          "quelle": "https://www.amazon.de/ALPIDEX-Starterset-Klettergriffe-Schrauben-Einschlagmuttern/dp/B07H7P5Q1R",
+          "datum": "abgerufen 2026-10-08"
+        }
       ],
-      "pros": ["Größte Fläche und echtes Modulsystem", "Dübel mit ETA-Zulassung und reichlich Einschlagmuttern im Set", "Sehr hohe Belastbarkeit (Herstellerangabe) – auch für Erwachsene", "Drei Farbvarianten"],
-      "cons": ["Keine Kinder-Altersangabe oder EN-71-Angabe auf der Set-Seite gefunden", "Griffe L/M für Kleinkinder teils groß", "Große Sets deutlich teurer", "Preise schwanken je Variante stark"],
-      "specs": { "Material": "Multiplex-Birke 18 mm", "Modulmaß": "120 × 60 cm", "Fläche": "1,44–8,64 m²", "Belastung": "300 kg je Modul (Herstellerangabe)", "Befestigung": "ETA-Dübel, Schrauben, Einschlagmuttern M10 inklusive" },
+      "pros": [
+        "Größte Fläche und echtes Modulsystem",
+        "Dübel mit ETA-Zulassung und reichlich Einschlagmuttern im Set",
+        "Sehr hohe Belastbarkeit (Herstellerangabe) – auch für Erwachsene",
+        "Drei Farbvarianten"
+      ],
+      "cons": [
+        "Keine Kinder-Altersangabe oder EN-71-Angabe auf der Set-Seite gefunden",
+        "Griffe L/M für Kleinkinder teils groß",
+        "Große Sets deutlich teurer",
+        "Preise schwanken je Variante stark"
+      ],
+      "specs": {
+        "Material": "Multiplex-Birke 18 mm",
+        "Modulmaß": "120 × 60 cm",
+        "Fläche": "1,44–8,64 m²",
+        "Belastung": "300 kg je Modul (Herstellerangabe)",
+        "Befestigung": "ETA-Dübel, Schrauben, Einschlagmuttern M10 inklusive"
+      },
       "asin": "B0BVVGMY3F",
       "query": "ALPIDEX Kletterwand Komplettset Klettergriffe Befestigungsmaterial",
       "shop": null,
       "url": null,
       "asinGeprueft": "ALPIDEX Climbing Wall Complete Set from 1.44 m² in Natural / White / Brown Climbing Handles and Mounting Material Included, Unlimited Expandable Children Adults … : Amazon.de: Sports & Outdoors (amazon.de/…/dp/B0BVVGMY3F)"
+    },
+    {
+      "rank": 2,
+      "label": "Beste Wahl zum Selberbauen",
+      "name": "ALPIDEX Starterset: 35 Klettergriffe inklusive Schrauben und Einschlagmuttern",
+      "brand": "ALPIDEX",
+      "variant": "12 × L, 12 × M, 11 × S, für ca. 3–5 m²",
+      "priceTier": 1,
+      "ratings": {
+        "sicherheit": 6.5,
+        "montage": 5.0,
+        "griffe": 8.5,
+        "flaeche": 7.0
+      },
+      "bestFor": "Handwerklich geübte Eltern mit eigener Holzplatte.",
+      "fakten": [
+        {
+          "text": "12 L-, 12 M-, 11 S-Griffe, 35 Schrauben M10, 100 Einschlagmuttern M10; für ca. 3–5 m²; max. Belastung 200 kg",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/ALPIDEX-Starterset-Klettergriffe-Schrauben-Einschlagmuttern/dp/B07H7P5Q1R",
+          "datum": "abgerufen 2026-10-08"
+        },
+        {
+          "text": "Laut Verkäuferantwort auf Amazon für die Montage an einer Holzwand/-platte gedacht",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/ALPIDEX-Starterset-Klettergriffe-Schrauben-Einschlagmuttern/dp/B07H7P5Q1R",
+          "datum": "abgerufen 2026-10-08"
+        },
+        {
+          "text": "Hersteller-Website führt eine Kids-Serie dieses Sets für 3 bis 13 Jahre; ob die Amazon-ASIN diese Version ist, ist nicht bestätigt",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.alpidex.com/klettergriffe/klettergriffsets/starterset-fuer-kinder-mit-35-klettergriffe-schrauben-und-100-einschlagmuttern/a-2005",
+          "datum": "abgerufen 2026-10-08"
+        }
+      ],
+      "asin": "B07H7P5Q1R",
+      "query": "ALPIDEX Starterset 35 Klettergriffe Schrauben Einschlagmuttern",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "Alpidex 35 Climbing Grips with Screws Drive Nuts 3-5 m² Complete Set (amazon.de/…/dp/B07H7P5Q1R), Preis im Suchtreffer sichtbar"
+    },
+    {
+      "rank": 3,
+      "label": "Günstiger Einstieg",
+      "name": "MAMOI Kletterwand für Kinderzimmer mit Klettergriffen und Montagesatz",
+      "brand": "MAMOI",
+      "variant": "1 Modul mit 4 Griffen, erweiterbar",
+      "priceTier": 1,
+      "ratings": {
+        "sicherheit": 6.0,
+        "montage": 7.5,
+        "griffe": 5.5,
+        "flaeche": 6.0
+      },
+      "bestFor": "Ausprobieren mit kleinem Budget, Kinder ab 3 Jahren.",
+      "fakten": [
+        {
+          "text": "Set aus einer Platte (18 mm Sperrholz/Holzschichtplatte) mit vier Klettergriffen und Montageschrauben; belastbar bis 120 kg",
+          "art": "Herstellerangabe",
+          "quelle": "https://mamoi.me/de/mamoi-kletterwand-fur-kinderzimmer-1-modul-neutral/",
+          "datum": "abgerufen 2026-10-08 (Suchausschnitt)"
+        },
+        {
+          "text": "Griffe aus glasfaserverstärktem Beton",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/Klettergriffe-Klettersteine-Kletterwand-Inklusive-Befestigungsmaterial/dp/B0B4WVP3Y7",
+          "datum": "abgerufen 2026-10-08"
+        },
+        {
+          "text": "MAMOI-Modul: für Kinder über 36 Monaten unter Aufsicht; MAMOI-Griffset: ab 14 Jahren – widersprüchlich",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/Kletterwand-kinderzimmer-Kletterger%C3%BCst-Klettergriffe-Klettersteine/dp/B0D1KVW2CJ",
+          "datum": "abgerufen 2026-10-08"
+        },
+        {
+          "text": "kita.de empfiehlt ein MAMOI-Set mit 4 Modulen und 16 Griffen (Note 1,4; redaktioneller Vergleich, kein Labortest)",
+          "art": "Bericht",
+          "quelle": "https://www.kita.de/ratgeber/spielzeug/bewegungs-koordinationsspiele/boulderwand-kinderzimmer/",
+          "datum": "ca. September 2026"
+        }
+      ],
+      "asin": "B0G596FRFY",
+      "query": "MAMOI Kletterwand für Kinderzimmer Klettergriffe Montagesatz",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "MAMOI Climbing Wall for Children's Room … Climbing Handles, Mounting Kit (amazon.de/-/en/dp/B0G596FRFY), Suchtreffer: auf Lager"
     }
   ],
   "top5": [
     {
-      "name": "ALPIDEX 35 Klettergriffe Starterset inkl. Schrauben und Einschlagmuttern (Größen L, M, S)",
-      "warum": "Klettergriff-Set zum Selbstbauen: für eine eigene Sperrholz-/Siebdruckplatte; laut Hersteller für ca. 3–5 m² Kletterfläche, inkl. 35 Schrauben M10 und 100 Einschlagmuttern. Wanddübel für die Platte separat besorgen.",
+      "name": "ALPIDEX 35 Klettergriffe im Starterset mit 50 Einschlagdübeln und Setzwerkzeug",
+      "warum": "Griffe direkt an die (ungerissene) Betonwand.",
       "fakten": [
-        { "text": "12 L-, 12 M-, 11 S-Griffe, 35 Schrauben M10, 100 Einschlagmuttern M10; für ca. 3–5 m²; max. Belastung 200 kg", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/ALPIDEX-Starterset-Klettergriffe-Schrauben-Einschlagmuttern/dp/B07H7P5Q1R", "datum": "abgerufen 2026-10-08" }
+        {
+          "text": "12 L, 12 M, 11 S; 24 Zylinder- und 11 Senkkopfschrauben M10; 50 Einschlagdübel M10 mit Zulassung ETA-04/0011 für ungerissenen Beton; Setzwerkzeug; Bohrung 12 mm/44 mm",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/ALPIDEX-Klettergriffe-Starterset-Befestigung-Betonw%C3%A4nde/dp/B01N2RPTJJ",
+          "datum": "abgerufen 2026-10-08"
+        }
       ],
-      "asin": "B07H7P5Q1R",
-      "query": "ALPIDEX 35 Klettergriffe Starterset Schrauben Einschlagmuttern",
+      "asin": "B01N2RPTJJ",
+      "query": "ALPIDEX 35 Klettergriffe Starterset Einschlagdübel Setzwerkzeug Betonwände",
       "where": null
     },
     {
-      "name": "MAMOI Kletterwand für Kinderzimmer (Sperrholz-Module)",
-      "warum": "Fertige Holz-Kletterwand-Paneele zum Kombinieren; von kita.de im Boulderwand-Vergleich als Empfehlung (Set mit 4 Modulen und 16 Griffen, Note 1,4) genannt. Achtung: Lieferumfang je Listing unterschiedlich – teils ohne Griffe.",
+      "name": "ALPIDEX Kletterwand ab 1,44 m² inklusive Befestigungsmaterial und Einschlagmuttern (ohne Griffe)",
+      "warum": "Platten des Modulsystems ohne Griffe, für eigene Griffwahl.",
       "fakten": [
-        { "text": "Module aus Sperrholz mit Bohrungen für Klettergriffe, belastbar bis 150 kg, für Kinder über 36 Monaten unter Aufsicht", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/Kletterwand-kinderzimmer-Kletterger%C3%BCst-Klettergriffe-Klettersteine/dp/B0D1KVW2CJ", "datum": "abgerufen 2026-10-08" },
-        { "text": "kita.de-Empfehlung im Vergleich „Boulderwand Kinderzimmer: 5 Modelle“: MAMOI mit 4 Modulen und 16 Griffen, Note 1,4 (redaktioneller Vergleich)", "art": "Bericht", "quelle": "https://www.kita.de/ratgeber/spielzeug/bewegungs-koordinationsspiele/boulderwand-kinderzimmer/", "datum": "ca. September 2026" }
+        {
+          "text": "Natur/Weiß/Braun, inkl. Befestigungsmaterial und Einschlagmuttern, unbegrenzt erweiterbar; Natur selbst lackierbar",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/ALPIDEX-Kletterwand-Befestigungsmaterial-Einschlagmuttern-erweiterbar/dp/B0BW91JMZP",
+          "datum": "abgerufen 2026-10-08"
+        }
       ],
-      "asin": "B0D1KVW2CJ",
-      "query": "MAMOI Kletterwand für Kinderzimmer Klettergriffe",
+      "asin": "B0BW91JMZP",
+      "query": "ALPIDEX Kletterwand Befestigungsmaterial Einschlagmuttern erweiterbar",
       "where": null
     },
     {
       "name": "small foot Kletterwand „Adventure“ aus Holz (12310)",
       "warum": "Für Kleinkinder ab 3 Jahren: zwei dreieckige Holzmodule mit je 9 vorgebohrten Löchern und großen Kunststoffgriffen, kombinierbar mit den Klettersteinen „Adventure“ (12311). Kleine Fläche (ca. 57 × 114 cm), Wandbefestigung nicht enthalten.",
       "fakten": [
-        { "text": "Ab 3 Jahren, 2 dreieckige Module mit je 9 vorgebohrten Löchern, 6 Kunststoff-Klettergriffe, Abstandshalter; Wandbefestigung nicht enthalten", "art": "Bericht", "quelle": "https://dadslife.de/kinderzimmer-kletterwand/", "datum": "abgerufen 2026-10-08" },
-        { "text": "Maße 57 × 114 cm, 4 Abstandhalter; nur für den Hausgebrauch", "art": "Händlerangabe", "quelle": "https://www.baur.de/p/AKLBB2103959578", "datum": "abgerufen 2026-10-08" }
+        {
+          "text": "Ab 3 Jahren, 2 dreieckige Module mit je 9 vorgebohrten Löchern, 6 Kunststoff-Klettergriffe, Abstandshalter; Wandbefestigung nicht enthalten",
+          "art": "Bericht",
+          "quelle": "https://dadslife.de/kinderzimmer-kletterwand/",
+          "datum": "abgerufen 2026-10-08"
+        },
+        {
+          "text": "Maße 57 × 114 cm, 4 Abstandhalter; nur für den Hausgebrauch",
+          "art": "Händlerangabe",
+          "quelle": "https://www.baur.de/p/AKLBB2103959578",
+          "datum": "abgerufen 2026-10-08"
+        }
       ],
       "asin": null,
       "query": "small foot Kletterwand Adventure 12310",
@@ -124,7 +249,12 @@
       "name": "YARDIN Klettergerüst Indoor, Sprossenwand mit Kletterwand aus Holz, max. 100 kg",
       "warum": "Kletterwand kombiniert mit Sprossenwand/Turnwand: Birkenholz-Set mit Sprossen, schrägem Kletterbrett, Ringen und Seil – für Familien, die Klettern und Turnen an einer Wand wollen.",
       "fakten": [
-        { "text": "Birkenholz, Gesamtbelastung 100 kg, EN-71-Zertifizierung laut Anbieter", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/YARDIN-Kletterger%C3%BCst-Sprossenwand-kinderzimmer-Kletterwand/dp/B0C7C539YX", "datum": "abgerufen 2026-10-08" }
+        {
+          "text": "Birkenholz, Gesamtbelastung 100 kg, EN-71-Zertifizierung laut Anbieter",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/YARDIN-Kletterger%C3%BCst-Sprossenwand-kinderzimmer-Kletterwand/dp/B0C7C539YX",
+          "datum": "abgerufen 2026-10-08"
+        }
       ],
       "asin": "B0C7C539YX",
       "query": "YARDIN Klettergerüst Indoor Sprossenwand Kletterwand Holz",
@@ -134,8 +264,18 @@
       "name": "Ehrenkind Kletterwand Module Indoor (Boulderwand für Kinder)",
       "warum": "Premium-Alternative aus Deutschland: 6 Module à 72 × 50 cm (ca. 226 × 100 cm), Griffe made in Germany nach DIN EN 71, Fischer-Dübel inklusive, bis 150 kg. Auf Amazon derzeit nicht verfügbar – daher ohne Link.",
       "fakten": [
-        { "text": "6 Module à 72 × 50 cm, gesamt ca. 226 × 100 cm; Griffe nach DIN EN 71, mit Trainer der japanischen Kletter-Nationalmannschaft entwickelt; Fischer-Dübel inklusive", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/-/en/dp/B09MWHSSJ5", "datum": "abgerufen 2026-10-08" },
-        { "text": "Ab 36 Monaten, max. 150 kg, nur unter unmittelbarer Aufsicht, maximale Höhe 2,50 m, stoßdämpfende Unterlage empfohlen, mind. 2 m Abstand zu Hindernissen/Fenstern", "art": "Herstellerangabe", "quelle": "https://www.ehrenkind.de/cdn/shop/files/Gebrauchsanweisung_Kletterwand.pdf", "datum": "abgerufen 2026-10-08" }
+        {
+          "text": "6 Module à 72 × 50 cm, gesamt ca. 226 × 100 cm; Griffe nach DIN EN 71, mit Trainer der japanischen Kletter-Nationalmannschaft entwickelt; Fischer-Dübel inklusive",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/-/en/dp/B09MWHSSJ5",
+          "datum": "abgerufen 2026-10-08"
+        },
+        {
+          "text": "Ab 36 Monaten, max. 150 kg, nur unter unmittelbarer Aufsicht, maximale Höhe 2,50 m, stoßdämpfende Unterlage empfohlen, mind. 2 m Abstand zu Hindernissen/Fenstern",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.ehrenkind.de/cdn/shop/files/Gebrauchsanweisung_Kletterwand.pdf",
+          "datum": "abgerufen 2026-10-08"
+        }
       ],
       "asin": null,
       "query": "Ehrenkind Kletterwand Module Indoor",
@@ -143,9 +283,24 @@
     }
   ],
   "tests": [
-    { "institut": "Stiftung Warentest / Öko-Test", "heft": "–", "ergebnis": "Kein Test zu Kinder-Kletterwänden oder Klettergriffen fürs Kinderzimmer gefunden.", "quelle": "Websuche 2026-10-08" },
-    { "institut": "kita.de (Redaktionsvergleich, kein Labortest)", "heft": "„Boulderwand Kinderzimmer: 5 Modelle sicher vergleichen“, ca. September 2026", "ergebnis": "Empfehlung MAMOI (4 Module, 16 Griffe, Note 1,4); Alternativen Gartenpirat IW2 (robust für Beton/Mauerwerk), GOODEX (3 Platten, 10 Griffe, Note 2,0), Create for you (kompakt), small foot Adventure 12310 (6 Griffe, Note 2,6). Laut Berichten – Seite nur über Suchausschnitte einsehbar.", "quelle": "https://www.kita.de/ratgeber/spielzeug/bewegungs-koordinationsspiele/boulderwand-kinderzimmer/" },
-    { "institut": "familie.de / dadslife.de (Ratgeber, kein Labortest)", "heft": "Online-Ratgeber, Datum unklar", "ergebnis": "Stellen MAMOI-Wand (21 mm Sperrholz, 16 Harzgriffe, 150 kg) und small foot „Adventure“ vor. Laut Berichten.", "quelle": "https://dadslife.de/kinderzimmer-kletterwand/" }
+    {
+      "institut": "Stiftung Warentest / Öko-Test",
+      "heft": "–",
+      "ergebnis": "Kein Test zu Kinder-Kletterwänden oder Klettergriffen fürs Kinderzimmer gefunden.",
+      "quelle": "Websuche 2026-10-08"
+    },
+    {
+      "institut": "kita.de (Redaktionsvergleich, kein Labortest)",
+      "heft": "„Boulderwand Kinderzimmer: 5 Modelle sicher vergleichen“, ca. September 2026",
+      "ergebnis": "Empfehlung MAMOI (4 Module, 16 Griffe, Note 1,4); Alternativen Gartenpirat IW2 (robust für Beton/Mauerwerk), GOODEX (3 Platten, 10 Griffe, Note 2,0), Create for you (kompakt), small foot Adventure 12310 (6 Griffe, Note 2,6). Laut Berichten – Seite nur über Suchausschnitte einsehbar.",
+      "quelle": "https://www.kita.de/ratgeber/spielzeug/bewegungs-koordinationsspiele/boulderwand-kinderzimmer/"
+    },
+    {
+      "institut": "familie.de / dadslife.de (Ratgeber, kein Labortest)",
+      "heft": "Online-Ratgeber, Datum unklar",
+      "ergebnis": "Stellen MAMOI-Wand (21 mm Sperrholz, 16 Harzgriffe, 150 kg) und small foot „Adventure“ vor. Laut Berichten.",
+      "quelle": "https://dadslife.de/kinderzimmer-kletterwand/"
+    }
   ],
   "warnungen": [
     "Keine Rückrufe oder Safety-Gate-Meldungen zu Kinder-Kletterwänden oder Klettergriffen gefunden (Suche produktwarnung.eu, Safety Gate, 2026-10-08). Treffer betreffen nur Klettersteigsets/Seile (z. B. EDELRID, Mammut) und den Kletterbogen FitWood LUOTO (Rückruf 03/2024, https://www.produktwarnung.eu/2024/03/14/rueckruf-gefaehrlich-jollyroom-ruft-fitwood-luoto-kletterbogen-zurueck/30976) – andere Kategorie (pikler-dreieck), dort beachten.",
@@ -155,13 +310,46 @@
     "EN-71-Angaben stammen überwiegend aus Händler-/Anbietertexten (YARDIN, Ehrenkind); Zertifikate nicht unabhängig geprüft."
   ],
   "verworfen": [
-    { "name": "HUDORA Klettergriffe Set 12 Stück (B06ZZ39HZP)", "grund": "Seriöse Marke, aber nur Griffe ohne Befestigungsmaterial und max. 50 kg Nutzergewicht – ALPIDEX-Starterset deckt die DIY-Rolle vollständiger ab." },
-    { "name": "Wood And Hearts Klettergriffe/Kletterpaneele (B0FLK6CK31)", "grund": "Nur 60 kg Belastbarkeit, auf Amazon erst 1 Bewertung (1,0 Sterne), sehr hoher Preis." },
-    { "name": "Ehrenkind Kletterwand (B09MWHSSJ5) als Top 3", "grund": "Amazon-Listing derzeit nicht verfügbar; kein Awin-Programm freigeschaltet – daher nur Top 5 mit where." },
-    { "name": "Create for you Kletterwand Hexagon (B0CNTTPS7D)", "grund": "Nur 1 Paneel mit 5 Griffen, Hersteller wenig bekannt; kompakte Rolle reicht über small foot ab." },
-    { "name": "No-Name-Klettergriffsets (Trymaker, KINSPORY, Odoland, CIMOYBAI u. a.)", "grund": "Austauschbare Marktplatzware, Berichte über fehlende Schrauben/Muttern." },
-    { "name": "6-in-1-Klettergerüste ohne Marke (B0D95TCYJX u. ä.)", "grund": "No-Name, Sprossenwand-Schwerpunkt (eigene Kategorie)." },
-    { "name": "GOODEX B0BSRDMC83", "grund": "Listing derzeit nicht verfügbar; aktive Alternative B0DDJSX7KP gewählt." }
+    {
+      "name": "HUDORA Klettergriffe Set 12 Stück (B06ZZ39HZP)",
+      "grund": "Seriöse Marke, aber nur Griffe ohne Befestigungsmaterial und max. 50 kg Nutzergewicht – ALPIDEX-Starterset deckt die DIY-Rolle vollständiger ab."
+    },
+    {
+      "name": "Wood And Hearts Klettergriffe/Kletterpaneele (B0FLK6CK31)",
+      "grund": "Nur 60 kg Belastbarkeit, auf Amazon erst 1 Bewertung (1,0 Sterne), sehr hoher Preis."
+    },
+    {
+      "name": "Ehrenkind Kletterwand (B09MWHSSJ5) als Top 3",
+      "grund": "Amazon-Listing derzeit nicht verfügbar; kein Awin-Programm freigeschaltet – daher nur Top 5 mit where."
+    },
+    {
+      "name": "Create for you Kletterwand Hexagon (B0CNTTPS7D)",
+      "grund": "Nur 1 Paneel mit 5 Griffen, Hersteller wenig bekannt; kompakte Rolle reicht über small foot ab."
+    },
+    {
+      "name": "No-Name-Klettergriffsets (Trymaker, KINSPORY, Odoland, CIMOYBAI u. a.)",
+      "grund": "Austauschbare Marktplatzware, Berichte über fehlende Schrauben/Muttern."
+    },
+    {
+      "name": "6-in-1-Klettergerüste ohne Marke (B0D95TCYJX u. ä.)",
+      "grund": "No-Name, Sprossenwand-Schwerpunkt (eigene Kategorie)."
+    },
+    {
+      "name": "GOODEX B0BSRDMC83",
+      "grund": "Listing derzeit nicht verfügbar; aktive Alternative B0DDJSX7KP gewählt."
+    },
+    {
+      "name": "Gartenpirat Indoor Kletterwand (B0DD3NCHR1), bisher Platz 1",
+      "grund": "Korrekturrunde 1: Suchtreffer (auch ASIN-Suche) zeigen „Derzeit nicht verfügbar“; keine aktive Indoor-Varianten-ASIN gefunden (IW2–IW8 nur in diesem Listing; Outdoor B0DDKJSL7B ebenfalls nicht verfügbar)."
+    },
+    {
+      "name": "GOODEX Kletterwand (B0DDJSX7KP), bisher Platz 2",
+      "grund": "Korrekturrunde 1: ASIN nicht belegbar (weder amazon.de- noch freie Suche finden sie); einziges GOODEX-Listing B0BSRDMC83 ist nicht verfügbar."
+    },
+    {
+      "name": "Kidsmont Indoor-Kletterwand mit Griffen",
+      "grund": "Nur Brand-Store-Treffer, keine /dp/-ASIN gefunden."
+    }
   ],
   "offen": [
     "Awin: keine freigeschalteten Programme (alle pending) – alle Top-3-Produkte über Amazon, kein Awin-Bedarf.",
@@ -170,22 +358,81 @@
     "GOODEX B0DDJSX7KP: Griffanzahl und maximale Belastung auf der Amazon-Seite nicht eindeutig bestätigt (kita.de nennt 3 Platten/10 Griffe).",
     "MAMOI B0D1KVW2CJ: Lieferumfang widersprüchlich (Module teils ohne Griffe, kita.de nennt Set mit 16 Griffen) – im Text auf Lieferumfang-Prüfung hinweisen.",
     "ALPIDEX-Komplettset: keine Kinder-Altersangabe/EN-71-Angabe gefunden.",
-    "WebFetch/Direktabruf von amazon.de, kita.de, familie.de, dadslife.de war aus der Umgebung nicht möglich; alle Angaben aus Suchtreffer-Ausschnitten. Vor Veröffentlichung Titel/Verfügbarkeit stichprobenartig prüfen."
+    "WebFetch/Direktabruf von amazon.de, kita.de, familie.de, dadslife.de war aus der Umgebung nicht möglich; alle Angaben aus Suchtreffer-Ausschnitten. Vor Veröffentlichung Titel/Verfügbarkeit stichprobenartig prüfen.",
+    "Korrekturrunde 1 (2026-10-08): Top 3 neu = ALPIDEX Komplettset (B0BVVGMY3F), ALPIDEX 35er-Starterset (B07H7P5Q1R), MAMOI 1 Modul + 4 Griffe (B0G596FRFY). MAMOI-Daten (120 kg, 18 mm, 4 Griffe) nur aus Hersteller-Shop-Suchausschnitt, Direktabruf nicht möglich. small foot 12310 weiter ohne ASIN (Nutzer informieren)."
   ],
   "quellen": [
-    { "titel": "Gartenpirat Indoor Kletterwand (amazon.de)", "url": "https://www.amazon.de/Gartenpirat-Kletterwand-Klettersteinen-Montagematerial-Erwachsene/dp/B0DD3NCHR1" },
-    { "titel": "GOODEX Kletterwand Kinderzimmer (amazon.de)", "url": "https://www.amazon.de/Klettergriffen-Kletterwandplatten-Klettersteinen-ECO-Kletterwandplatte-Kletterwandpaneele/dp/B0DDJSX7KP" },
-    { "titel": "ALPIDEX Kletterwand Komplettset (amazon.de)", "url": "https://www.amazon.de/ALPIDEX-Kletterwand-Komplettset-Klettergriffe-Befestigungsmaterial/dp/B0BVVGMY3F" },
-    { "titel": "ALPIDEX 35 Klettergriffe Starterset (amazon.de)", "url": "https://www.amazon.de/ALPIDEX-Starterset-Klettergriffe-Schrauben-Einschlagmuttern/dp/B07H7P5Q1R" },
-    { "titel": "MAMOI Kletterwand (amazon.de)", "url": "https://www.amazon.de/Kletterwand-kinderzimmer-Kletterger%C3%BCst-Klettergriffe-Klettersteine/dp/B0D1KVW2CJ" },
-    { "titel": "YARDIN Klettergerüst Sprossenwand (amazon.de)", "url": "https://www.amazon.de/YARDIN-Kletterger%C3%BCst-Sprossenwand-kinderzimmer-Kletterwand/dp/B0C7C539YX" },
-    { "titel": "Ehrenkind Kletterwand Module (amazon.de, nicht verfügbar)", "url": "https://www.amazon.de/-/en/dp/B09MWHSSJ5" },
-    { "titel": "Ehrenkind Gebrauchsanweisung Kletterwand (PDF)", "url": "https://www.ehrenkind.de/cdn/shop/files/Gebrauchsanweisung_Kletterwand.pdf" },
-    { "titel": "HUDORA Klettergriffe 12 Stück (amazon.de)", "url": "https://www.amazon.de/HUDORA-Klettergriffe-Kinder-St%C3%BCck-Klettersteine/dp/B06ZZ39HZP" },
-    { "titel": "kita.de – Boulderwand Kinderzimmer: 5 Modelle sicher vergleichen", "url": "https://www.kita.de/ratgeber/spielzeug/bewegungs-koordinationsspiele/boulderwand-kinderzimmer/" },
-    { "titel": "dadslife.de – Die besten Kletterwände fürs Kinderzimmer", "url": "https://dadslife.de/kinderzimmer-kletterwand/" },
-    { "titel": "familie.de – Kletterwand für Kinder", "url": "https://www.familie.de/testberichte/kletterwand-fuer-kinder/" },
-    { "titel": "BAUR – small foot Kletterwand Adventure", "url": "https://www.baur.de/p/AKLBB2103959578" },
-    { "titel": "produktwarnung.eu – Rückruf FitWood LUOTO Kletterbogen", "url": "https://www.produktwarnung.eu/2024/03/14/rueckruf-gefaehrlich-jollyroom-ruft-fitwood-luoto-kletterbogen-zurueck/30976" }
+    {
+      "titel": "Gartenpirat Indoor Kletterwand (amazon.de)",
+      "url": "https://www.amazon.de/Gartenpirat-Kletterwand-Klettersteinen-Montagematerial-Erwachsene/dp/B0DD3NCHR1"
+    },
+    {
+      "titel": "GOODEX Kletterwand Kinderzimmer (amazon.de)",
+      "url": "https://www.amazon.de/Klettergriffen-Kletterwandplatten-Klettersteinen-ECO-Kletterwandplatte-Kletterwandpaneele/dp/B0DDJSX7KP"
+    },
+    {
+      "titel": "ALPIDEX Kletterwand Komplettset (amazon.de)",
+      "url": "https://www.amazon.de/ALPIDEX-Kletterwand-Komplettset-Klettergriffe-Befestigungsmaterial/dp/B0BVVGMY3F"
+    },
+    {
+      "titel": "ALPIDEX 35 Klettergriffe Starterset (amazon.de)",
+      "url": "https://www.amazon.de/ALPIDEX-Starterset-Klettergriffe-Schrauben-Einschlagmuttern/dp/B07H7P5Q1R"
+    },
+    {
+      "titel": "MAMOI Kletterwand (amazon.de)",
+      "url": "https://www.amazon.de/Kletterwand-kinderzimmer-Kletterger%C3%BCst-Klettergriffe-Klettersteine/dp/B0D1KVW2CJ"
+    },
+    {
+      "titel": "YARDIN Klettergerüst Sprossenwand (amazon.de)",
+      "url": "https://www.amazon.de/YARDIN-Kletterger%C3%BCst-Sprossenwand-kinderzimmer-Kletterwand/dp/B0C7C539YX"
+    },
+    {
+      "titel": "Ehrenkind Kletterwand Module (amazon.de, nicht verfügbar)",
+      "url": "https://www.amazon.de/-/en/dp/B09MWHSSJ5"
+    },
+    {
+      "titel": "Ehrenkind Gebrauchsanweisung Kletterwand (PDF)",
+      "url": "https://www.ehrenkind.de/cdn/shop/files/Gebrauchsanweisung_Kletterwand.pdf"
+    },
+    {
+      "titel": "HUDORA Klettergriffe 12 Stück (amazon.de)",
+      "url": "https://www.amazon.de/HUDORA-Klettergriffe-Kinder-St%C3%BCck-Klettersteine/dp/B06ZZ39HZP"
+    },
+    {
+      "titel": "kita.de – Boulderwand Kinderzimmer: 5 Modelle sicher vergleichen",
+      "url": "https://www.kita.de/ratgeber/spielzeug/bewegungs-koordinationsspiele/boulderwand-kinderzimmer/"
+    },
+    {
+      "titel": "dadslife.de – Die besten Kletterwände fürs Kinderzimmer",
+      "url": "https://dadslife.de/kinderzimmer-kletterwand/"
+    },
+    {
+      "titel": "familie.de – Kletterwand für Kinder",
+      "url": "https://www.familie.de/testberichte/kletterwand-fuer-kinder/"
+    },
+    {
+      "titel": "BAUR – small foot Kletterwand Adventure",
+      "url": "https://www.baur.de/p/AKLBB2103959578"
+    },
+    {
+      "titel": "produktwarnung.eu – Rückruf FitWood LUOTO Kletterbogen",
+      "url": "https://www.produktwarnung.eu/2024/03/14/rueckruf-gefaehrlich-jollyroom-ruft-fitwood-luoto-kletterbogen-zurueck/30976"
+    },
+    {
+      "titel": "MAMOI Kletterwand mit Klettergriffen und Montagesatz (amazon.de)",
+      "url": "https://www.amazon.de/Kletterwand-kinderzimmer-Kletterger%C3%BCst-Klettergriffe-Klettersteine/dp/B0G596FRFY"
+    },
+    {
+      "titel": "MAMOI Hersteller-Shop – 1 Modul",
+      "url": "https://mamoi.me/de/mamoi-kletterwand-fur-kinderzimmer-1-modul-neutral/"
+    },
+    {
+      "titel": "ALPIDEX 35 Griffe Betonwand (amazon.de)",
+      "url": "https://www.amazon.de/ALPIDEX-Klettergriffe-Starterset-Befestigung-Betonw%C3%A4nde/dp/B01N2RPTJJ"
+    },
+    {
+      "titel": "ALPIDEX Kletterwand ohne Griffe (amazon.de)",
+      "url": "https://www.amazon.de/ALPIDEX-Kletterwand-Befestigungsmaterial-Einschlagmuttern-erweiterbar/dp/B0BW91JMZP"
+    }
   ]
 }

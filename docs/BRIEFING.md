@@ -151,3 +151,10 @@ Mindestumfang je Kategorie: **≥ 1.000 Wörter** (nicht künstlich auffüllen),
   keine Geräte mit vorinstallierten ROM-Sammlungen.
 - 2026-10-08: Footer listet Bereiche statt aller Kategorien; Startseite zeigt je Bereich zwei Ratgeber. Mobile
   Hauptnavigation ist eine einzeilige, scrollbare Leiste (aktiver Bereich wird per Mini-Skript sichtbar gescrollt).
+- 2026-10-08: Zwei neue Bereiche mit 20 Kategorien aus der CSV `toptop-kinder-spielplatz-v3.csv`: Kinder-Spielplatz
+  (Gruppen Indoor 8 / Outdoor 6, URLs `/kinder-spielplatz/<gruppe>/<slug>/`) und Spielzimmer (6, flach). Altersgruppen
+  der CSV sind keine eigenen Seiten, sondern Abschnitte; doppelte CSV-Zeilen (Noah-Rutsche) nur einmal.
+- 2026-10-08: Elastische Schaukeltücher (zum Spannen zwischen Wand/Türrahmen) empfehlen wir nicht (NL-Verbot 04/2023,
+  Rückrufe); die Seite `/kinder-spielplatz/indoor/schaukeltuch/` empfiehlt Hängesitze und Hängehöhlen mit Warnabschnitt.
+- 2026-10-08: Kippschutz ausführlich nur auf `/kinderschrank/#aufstellen-sichern`; Bücherregal und Sideboard verlinken
+  dorthin. ASINs, die sich per Suche nicht eindeutig bestätigen lassen, bleiben weg (nur `query`).

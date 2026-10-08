@@ -1,15 +1,47 @@
 {
   "slug": "spielhoehle",
   "criteria": [
-    { "key": "stoff", "label": "Stoff & Schadstoffangaben", "weight": 0.3, "description": "Material (Baumwolle, Polyester), Waschbarkeit, belegte Herstellerangaben zu OEKO-TEX/EN 71, unbehandeltes Holz. Hintergrund: Öko-Test fand in Spielzelten Lösungsmittelreste, Azofarbstoffe und PVC." },
-    { "key": "stabilitaet", "label": "Stabilität & Verarbeitung", "weight": 0.3, "description": "Gestell (massive Holzstangen vs. Federstahl/Pop-up), Nähte, Standfestigkeit, Herstellergarantie." },
-    { "key": "ausstattung", "label": "Platz & Ausstattung", "weight": 0.2, "description": "Grundfläche/Höhe, Bodenmatte, Fenster, Eingänge, Zubehör." },
-    { "key": "handling", "label": "Auf-/Abbau & Pflege", "weight": 0.2, "description": "Aufbauzeit, Verstaubarkeit (Tasche), Waschbarkeit des Bezugs." }
+    {
+      "key": "stoff",
+      "label": "Stoff & Schadstoffangaben",
+      "weight": 0.3,
+      "description": "Material (Baumwolle, Polyester), Waschbarkeit, belegte Herstellerangaben zu OEKO-TEX/EN 71, unbehandeltes Holz. Hintergrund: Öko-Test fand in Spielzelten Lösungsmittelreste, Azofarbstoffe und PVC."
+    },
+    {
+      "key": "stabilitaet",
+      "label": "Stabilität & Verarbeitung",
+      "weight": 0.3,
+      "description": "Gestell (massive Holzstangen vs. Federstahl/Pop-up), Nähte, Standfestigkeit, Herstellergarantie."
+    },
+    {
+      "key": "ausstattung",
+      "label": "Platz & Ausstattung",
+      "weight": 0.2,
+      "description": "Grundfläche/Höhe, Bodenmatte, Fenster, Eingänge, Zubehör."
+    },
+    {
+      "key": "handling",
+      "label": "Auf-/Abbau & Pflege",
+      "weight": 0.2,
+      "description": "Aufbauzeit, Verstaubarkeit (Tasche), Waschbarkeit des Bezugs."
+    }
   ],
   "priceTiers": [
-    { "tier": 1, "label": "Einstieg", "range": "bis ca. 50 €" },
-    { "tier": 2, "label": "Mittelklasse", "range": "ca. 50–100 €" },
-    { "tier": 3, "label": "Premium", "range": "über 100 €" }
+    {
+      "tier": 1,
+      "label": "Einstieg",
+      "range": "bis ca. 50 €"
+    },
+    {
+      "tier": 2,
+      "label": "Mittelklasse",
+      "range": "ca. 50–100 €"
+    },
+    {
+      "tier": 3,
+      "label": "Premium",
+      "range": "über 100 €"
+    }
   ],
   "products": [
     {
@@ -19,18 +51,66 @@
       "brand": "PINOLINO",
       "variant": "Art.-Nr. 358048, Naturweiß/Pastell mit Wimpelkette, 120 x 120 x 155 cm",
       "priceTier": 2,
-      "ratings": { "stoff": 7.5, "stabilitaet": 8.5, "ausstattung": 8.5, "handling": 7.5 },
+      "ratings": {
+        "stoff": 7.5,
+        "stabilitaet": 8.5,
+        "ausstattung": 8.5,
+        "handling": 7.5
+      },
       "bestFor": "Familien, die ein klassisches Holz-Tipi mit Bodenmatte und Fenster von einer deutschen Kinderzimmermarke wollen (ab 3 Jahren).",
       "fakten": [
-        { "text": "Maße 120 x 120 x 155 cm, Gewicht ca. 4 kg; Lieferumfang Tipi, gepolsterte Bodenmatte, Aufbewahrungsbeutel, seitliches Fenster, Wimpelkette (170 cm).", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B0BGC5L1V9", "datum": "2026-10-08" },
-        { "text": "Bezug 60 % Baumwolle / 40 % Polyester, Stangen aus massiver, unbehandelter Kiefer; Füllung der Bodenmatte 100 % Polyester.", "art": "Herstellerangabe", "quelle": "https://www.babyartikel.de/prod/pinolino-zelt-tipi-yuma-mit-fenster-bodenplatte-wimpelkette-aufbewahrungsbeutel", "datum": "2026-10-08" },
-        { "text": "10 Jahre Garantie (pinolino plus) laut Händler-/Herstellerangabe.", "art": "Herstellerangabe", "quelle": "https://www.babyartikel.de/prod/pinolino-zelt-tipi-yuma-mit-fenster-bodenplatte-wimpelkette-aufbewahrungsbeutel", "datum": "2026-10-08" },
-        { "text": "Warnhinweis des Herstellers: nicht geeignet für Kinder unter 3 Jahren; lange Schnur – Strangulationsgefahr; nur unter direkter Aufsicht Erwachsener benutzen.", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B0BGC5L1V9", "datum": "2026-10-08" },
-        { "text": "Amazon-Bewertung 4,3 von 5 Sternen bei nur 13 Bewertungen (Stand Recherche).", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B0BGC5L1V9", "datum": "2026-10-08" }
+        {
+          "text": "Maße 120 x 120 x 155 cm, Gewicht ca. 4 kg; Lieferumfang Tipi, gepolsterte Bodenmatte, Aufbewahrungsbeutel, seitliches Fenster, Wimpelkette (170 cm).",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B0BGC5L1V9",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Bezug 60 % Baumwolle / 40 % Polyester, Stangen aus massiver, unbehandelter Kiefer; Füllung der Bodenmatte 100 % Polyester.",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.babyartikel.de/prod/pinolino-zelt-tipi-yuma-mit-fenster-bodenplatte-wimpelkette-aufbewahrungsbeutel",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "10 Jahre Garantie (pinolino plus) laut Händler-/Herstellerangabe.",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.babyartikel.de/prod/pinolino-zelt-tipi-yuma-mit-fenster-bodenplatte-wimpelkette-aufbewahrungsbeutel",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Warnhinweis des Herstellers: nicht geeignet für Kinder unter 3 Jahren; lange Schnur – Strangulationsgefahr; nur unter direkter Aufsicht Erwachsener benutzen.",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B0BGC5L1V9",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Amazon-Bewertung 4,3 von 5 Sternen bei nur 13 Bewertungen (Stand Recherche).",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B0BGC5L1V9",
+          "datum": "2026-10-08"
+        }
       ],
-      "pros": ["Massive, unbehandelte Kiefernstangen", "Bodenmatte, Fenster und Tasche inklusive", "10 Jahre Herstellergarantie (pinolino plus)", "Etablierte deutsche Kinderzimmermarke (Münster)"],
-      "cons": ["Mischgewebe statt reiner Baumwolle, kein OEKO-TEX-Nachweis gefunden", "Erst ab 3 Jahren (Herstellerangabe)", "Wimpelkette mit langer Schnur – bei Kleinkindern weglassen", "Wenige Amazon-Bewertungen"],
-      "specs": { "Bauform": "Tipi, 4 Stangen", "Maße": "120 x 120 x 155 cm", "Material": "60 % Baumwolle, 40 % Polyester; Kiefer massiv, unbehandelt", "Bodenmatte": "ja, gepolstert", "Alter": "ab 3 Jahren (Herstellerangabe)", "Garantie": "10 Jahre (pinolino plus)", "Herkunft": "China (laut Listing)" },
+      "pros": [
+        "Massive, unbehandelte Kiefernstangen",
+        "Bodenmatte, Fenster und Tasche inklusive",
+        "10 Jahre Herstellergarantie (pinolino plus)",
+        "Etablierte deutsche Kinderzimmermarke (Münster)"
+      ],
+      "cons": [
+        "Mischgewebe statt reiner Baumwolle, kein OEKO-TEX-Nachweis gefunden",
+        "Erst ab 3 Jahren (Herstellerangabe)",
+        "Wimpelkette mit langer Schnur – bei Kleinkindern weglassen",
+        "Wenige Amazon-Bewertungen"
+      ],
+      "specs": {
+        "Bauform": "Tipi, 4 Stangen",
+        "Maße": "120 x 120 x 155 cm",
+        "Material": "60 % Baumwolle, 40 % Polyester; Kiefer massiv, unbehandelt",
+        "Bodenmatte": "ja, gepolstert",
+        "Alter": "ab 3 Jahren (Herstellerangabe)",
+        "Garantie": "10 Jahre (pinolino plus)",
+        "Herkunft": "China (laut Listing)"
+      },
       "asin": "B0BGC5L1V9",
       "query": "PINOLINO Tipi Yuma 358048",
       "shop": null,
@@ -44,15 +124,52 @@
       "brand": "Little Dutch",
       "variant": "Art.-Nr. 2013844, Blau",
       "priceTier": 1,
-      "ratings": { "stoff": 6.5, "stabilitaet": 6.5, "ausstattung": 6.5, "handling": 9.5 },
+      "ratings": {
+        "stoff": 6.5,
+        "stabilitaet": 6.5,
+        "ausstattung": 6.5,
+        "handling": 9.5
+      },
       "bestFor": "Kleinere Kinder ab 2 Jahren und wenig Platz: Höhle in Sekunden aufgestellt und flach verstaut.",
       "fakten": [
-        { "text": "Pop-up-Spielhaus aus 100 % Polyester, empfohlen ab 2 Jahren; Lieferumfang 1 Spielzelt (keine Bodenmatte).", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B0DX1WJ1PM", "datum": "2026-10-08" },
-        { "text": "Maßangaben weichen ab: amazon.de nennt 105 x 125 x 105 cm, Proshop.nl 100 x 100 x 140 cm.", "art": "Händlerangabe", "quelle": "https://www.proshop.nl/Buiten-spelen/Little-Dutch-Forest-Friends-Play-Tent/3384573", "datum": "2026-10-08" }
+        {
+          "text": "Pop-up-Spielhaus aus 100 % Polyester, empfohlen ab 2 Jahren; Lieferumfang 1 Spielzelt (keine Bodenmatte).",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B0DX1WJ1PM",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Maßangaben weichen ab: amazon.de nennt 105 x 125 x 105 cm, Proshop.nl 100 x 100 x 140 cm.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.proshop.nl/Buiten-spelen/Little-Dutch-Forest-Friends-Play-Tent/3384573",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Warnhinweis im Listing: nicht für Kinder unter 18 Monaten.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B0DX1WJ1PM",
+          "datum": "2026-10-08"
+        }
       ],
-      "pros": ["Pop-up: ohne Stangenstecken aufgebaut", "Schon ab 2 Jahren (Herstellerangabe)", "Niederländische Kinderzimmermarke mit stimmigem Design", "Günstigste Variante der Top 3"],
-      "cons": ["Polyester statt Baumwolle", "Pop-up-Gestell gibt nach, wenn Kinder sich anlehnen", "Keine Bodenmatte", "Maßangaben je Händler unterschiedlich"],
-      "specs": { "Bauform": "Pop-up-Spielhaus", "Maße": "ca. 105 x 125 x 105 cm (amazon.de)", "Material": "100 % Polyester", "Bodenmatte": "nein", "Alter": "ab 2 Jahren (Herstellerangabe)" },
+      "pros": [
+        "Pop-up: ohne Stangenstecken aufgebaut",
+        "Schon ab 2 Jahren (Herstellerangabe)",
+        "Niederländische Kinderzimmermarke mit stimmigem Design",
+        "Günstigste Variante der Top 3"
+      ],
+      "cons": [
+        "Polyester statt Baumwolle",
+        "Pop-up-Gestell gibt nach, wenn Kinder sich anlehnen",
+        "Keine Bodenmatte",
+        "Maßangaben je Händler unterschiedlich"
+      ],
+      "specs": {
+        "Bauform": "Pop-up-Spielhaus",
+        "Maße": "ca. 105 x 125 x 105 cm (amazon.de)",
+        "Material": "100 % Polyester",
+        "Bodenmatte": "nein",
+        "Alter": "ab 2 Jahren (Herstellerangabe)"
+      },
       "asin": "B0DX1WJ1PM",
       "query": "Little Dutch Pop-up Spielzelt Forest Friends",
       "shop": null,
@@ -61,26 +178,54 @@
     },
     {
       "rank": 3,
-      "label": "Premium-Wahl",
-      "name": "Moi Mili Classic Tipi Zelt Beige",
-      "brand": "Moi Mili",
-      "variant": "Classic, Beige, ohne Bodenmatte, ca. 120 x 130 x 170 cm",
-      "priceTier": 3,
-      "ratings": { "stoff": 9.5, "stabilitaet": 8.0, "ausstattung": 6.5, "handling": 7.0 },
-      "bestFor": "Eltern, die Wert auf reine, OEKO-TEX-zertifizierte Baumwolle und in der EU genähte Qualität legen.",
+      "label": "Höchstes Tipi für drinnen & draußen",
+      "name": "small foot Wigwam Indianerzelt (Legler)",
+      "brand": "small foot",
+      "variant": "Sechs Holzstangen, zwei Baumwollbezüge",
+      "priceTier": 1,
+      "ratings": {
+        "stoff": 7.0,
+        "stabilitaet": 7.0,
+        "ausstattung": 6.5,
+        "handling": 6.5
+      },
+      "bestFor": "Familien, die ein hohes, einfaches Holzstangen-Zelt für Kinderzimmer und Garten suchen (ab 3 Jahren laut Händler).",
       "fakten": [
-        { "text": "100 % Baumwolle, Stangen aus Kiefer, Grundfläche ca. 120 x 130 cm, Höhe 170 cm, Fenster mit Rollo, waschbar bis 30 °C; Listing ohne Bodenmatte.", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B0DMXB8DLP", "datum": "2026-10-08" },
-        { "text": "Baumwolle OEKO-TEX-zertifiziert, handgefertigt in Polen (Stangen 180 cm).", "art": "Händlerangabe", "quelle": "https://hertwill.com/product/teepee-tent-beige", "datum": "2026-10-08" },
-        { "text": "Moi Mili fertigt laut Händler in Polen mit Nähateliers, Materialien überwiegend aus Europa.", "art": "Händlerangabe", "quelle": "https://hertwill.com/brand/moi-mili", "datum": "2026-10-08" }
+        {
+          "text": "Sechs geschliffene Holzstangen, zwei Baumwollbezüge, ca. 180 cm hoch, Ø ca. 130 cm, ab 3 Jahren.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B000KHRI6C",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Listing nennt Modellnummer 2020068 (auch 3035), ca. 130 x 130 x 180 cm, für drinnen und draußen; Montage erforderlich.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B000KHRI6C",
+          "datum": "2026-10-08"
+        }
       ],
-      "pros": ["Reine Baumwolle mit OEKO-TEX-Angabe", "In Polen genäht", "Hoch (170 cm) mit Fenster und Rollo", "Bezug bei 30 °C waschbar"],
-      "cons": ["Teuerstes Modell", "Bodenmatte separat kaufen", "OEKO-TEX nur als Händlerangabe, Zertifikatsnummer nicht gefunden"],
-      "specs": { "Bauform": "Tipi, 5 Wände", "Maße": "ca. 120 x 130 x 170 cm", "Material": "100 % Baumwolle; Kiefernstangen", "Bodenmatte": "nein (separat erhältlich)", "Pflege": "waschbar bis 30 °C", "Herkunft": "Polen (Händlerangabe)" },
-      "asin": "B0DMXB8DLP",
-      "query": "Moi Mili Classic Tipi Zelt Beige",
+      "pros": [
+        "Mit ca. 180 cm das höchste Zelt der Top 3",
+        "Baumwollbezug auf Holzstangen",
+        "Drinnen und draußen nutzbar (Händlerangabe)"
+      ],
+      "cons": [
+        "Keine Bodenmatte, kein Fenster, keine Tasche",
+        "Kein Schadstoff-Siegel angegeben",
+        "Preisklasse geschätzt (nicht live geprüft)"
+      ],
+      "specs": {
+        "Bauform": "Tipi, 6 Stangen",
+        "Maße": "Ø ca. 130 cm, ca. 180 cm hoch",
+        "Material": "Baumwolle; Holzstangen geschliffen",
+        "Bodenmatte": "nein",
+        "Alter": "ab 3 Jahren (Händlerangabe)"
+      },
+      "asin": "B000KHRI6C",
+      "query": "small foot Legler Wigwam Indianerzelt",
       "shop": null,
       "url": null,
-      "asinGeprueft": "Moi Mili Classic Teepee Tent Zelte und Pavillons für Patio, Beige, einzigartig (amazon.de/Moi-Mili-Bodenmatte-Klassisch-Spielzelt/dp/B0DMXB8DLP)"
+      "asinGeprueft": "Legler Wigwam Sports Activities and Games: Amazon.de: Toys (amazon.de/Small-Foot-Legler-Indianerzelt-Kuschelhöhle/dp/B000KHRI6C) – Korrektur R1, aus Top 5 nach Platz 3 verschoben"
     }
   ],
   "top5": [
@@ -88,8 +233,18 @@
       "name": "PINOLINO Tipi Zelt Jakara",
       "warum": "Tipi mit Bodenkissen: gleiche Bauweise wie das Yuma (Kiefer massiv, Bodenmatte, Fenster, Tasche) im ruhigeren Design und meist etwas günstiger.",
       "fakten": [
-        { "text": "120 x 120 x 155 cm, Bezug 60 % Baumwolle / 40 % Polyester, Stangen Kiefer massiv unbehandelt, gepolsterte Bodenmatte, Fenster, Tasche; 36 Monate bis 8 Jahre.", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B079ZM4PCW", "datum": "2026-10-08" },
-        { "text": "4,0 von 5 Sternen bei 13 Bewertungen (Stand Recherche).", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B079ZM4PCW", "datum": "2026-10-08" }
+        {
+          "text": "120 x 120 x 155 cm, Bezug 60 % Baumwolle / 40 % Polyester, Stangen Kiefer massiv unbehandelt, gepolsterte Bodenmatte, Fenster, Tasche; 36 Monate bis 8 Jahre.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B079ZM4PCW",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "4,0 von 5 Sternen bei 13 Bewertungen (Stand Recherche).",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B079ZM4PCW",
+          "datum": "2026-10-08"
+        }
       ],
       "asin": "B079ZM4PCW",
       "query": "Pinolino 358043 Tipi Jakara",
@@ -99,7 +254,12 @@
       "name": "PINOLINO Spielzelt Yuma mit zwei Eingängen",
       "warum": "Spielhaus statt Tipi: niedrige Hausform mit zwei Eingängen, Fenster, Bodenmatte und Wimpelkette – gut für zwei Kinder gleichzeitig.",
       "fakten": [
-        { "text": "101 x 131 x 106 cm, zwei Eingänge, Fenster, Bodenmatte, Wimpelkette; Farbe Naturweiß/Pastellblau.", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B0BGC43DDF", "datum": "2026-10-08" }
+        {
+          "text": "101 x 131 x 106 cm, zwei Eingänge, Fenster, Bodenmatte, Wimpelkette; Farbe Naturweiß/Pastellblau.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B0BGC43DDF",
+          "datum": "2026-10-08"
+        }
       ],
       "asin": "B0BGC43DDF",
       "query": "PINOLINO Spielzelt Yuma zwei Eingänge",
@@ -109,37 +269,63 @@
       "name": "KNORRTOYS.COM 55852 Spielzelt Funky",
       "warum": "Pop-up-Zelt und Bällebad in einem: Gaze-Seitenwände, ca. 100 x 100 x 90 cm, mit mindestens 100 Bällen (nicht enthalten) als Bällebad nutzbar.",
       "fakten": [
-        { "text": "Ca. 100 x 100 x 90 cm, Gaze-Seitenwände, auch als Bällebad geeignet (Hersteller empfiehlt mind. 100 Bälle, nicht im Lieferumfang).", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B0BDFJ2X3Y", "datum": "2026-10-08" }
+        {
+          "text": "Ca. 100 x 100 x 90 cm, Gaze-Seitenwände, auch als Bällebad geeignet (Hersteller empfiehlt mind. 100 Bälle, nicht im Lieferumfang).",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B0BDFJ2X3Y",
+          "datum": "2026-10-08"
+        }
       ],
       "asin": "B0BDFJ2X3Y",
       "query": "Knorrtoys 55852 Spielzelt Funky",
       "where": null
     },
     {
-      "name": "small foot Wigwam Indianerzelt (Legler)",
-      "warum": "Klassisches, hohes Holzstangen-Zelt (ca. 180 cm) für drinnen und draußen zum kleinen Preis – sechs Holzstangen, Baumwollbezug.",
+      "name": "KNORRTOYS.COM 55102 Spieltunnel Bunt",
+      "warum": "Form 'Krabbeltunnel': verbindet zwei Zelte oder dient allein als Höhle.",
       "fakten": [
-        { "text": "Sechs geschliffene Holzstangen, zwei Baumwollbezüge, ca. 180 cm hoch, Ø ca. 130 cm, ab 3 Jahren.", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B000KHRI6C", "datum": "2026-10-08" },
-        { "text": "3,6 von 5 Sternen bei 21 Bewertungen (Stand Recherche).", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B000KHRI6C", "datum": "2026-10-08" }
+        {
+          "text": "Ca. 180 x 45 cm, wasserabweisendes Polyester, abwischbar, drinnen und draußen; Herstellerangabe Alter 0–10 Jahre; Rezensionen: Netzteil in der Mitte verschleißt teils schnell.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B08VDTDCQR",
+          "datum": "2026-10-08"
+        }
       ],
-      "asin": "B000KHRI6C",
-      "query": "small foot Legler Wigwam Indianerzelt",
-      "where": null
+      "asin": "B08VDTDCQR",
+      "query": "Knorrtoys 55102 Spieltunnel Bunt",
+      "where": null,
+      "asinGeprueft": "Knorrtoys 55102 55102-Spieltunnel Bunt (amazon.de/KNORRTOYS-COM-55102-Knorrtoys-Spieltunnel-Bunt/dp/B08VDTDCQR)"
     },
     {
-      "name": "TikTakToo Spielhaus aus Pappe Ritter",
-      "warum": "Kartonhaus zum Bemalen: kurzlebig, aber günstig und kreativ – Höhle und Bastelprojekt in einem.",
+      "name": "small foot 10016 Spielhaus Traktor aus Bastelkarton",
+      "warum": "Form 'Karton zum Bemalen' (Ersatz für TikTakToo Ritter, B015OOM2LG nicht auffindbar).",
       "fakten": [
-        { "text": "Ca. 78 x 67 x 99 cm, Karton, zum Bemalen; 4,3–4,4 von 5 Sternen bei rund 70 Bewertungen, Stabilität in Rezensionen gemischt.", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B015OOM2LG", "datum": "2026-10-08" }
+        {
+          "text": "Ca. 123 x 69 x 90 cm, Kraftkarton, Montage erforderlich; Sicherheitshinweis: nicht für Kinder unter 36 Monaten (Kleinteile), nur unter direkter Aufsicht (Produktdaten nennen widersprüchlich 'ab 3 Monaten').",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B01B38LLU0",
+          "datum": "2026-10-08"
+        }
       ],
-      "asin": "B015OOM2LG",
-      "query": "TikTakToo Spielhaus aus Pappe Ritter",
-      "where": null
+      "asin": "B01B38LLU0",
+      "query": "small foot 10016 Spielhaus Traktor Bastelkarton",
+      "where": null,
+      "asinGeprueft": "Small Foot 10016 Tractor Cardboard House: Amazon.de: Toys (amazon.de/…/dp/B01B38LLU0)"
     }
   ],
   "tests": [
-    { "institut": "Öko-Test", "heft": "„Spielzelte im Test – Nur 3 von 13 sind empfehlenswert“ (älterer Test, u. a. im Öko-Test Jahrbuch Kleinkinder für 2011 gelistet; genaues Heft nicht abrufbar)", "ergebnis": "Nur 3 von 13 Spielzelten (9–99 €) empfehlenswert; Kritik an Lösungsmittelresten/VOC, zinn- und halogenorganischen Verbindungen, allergisierenden Dispersions- und Azofarbstoffen, Schwermetallen und PVC. Getestete Modelle sind heute nicht mehr im Handel – nur als Hintergrund nutzen, laut Berichten (Seite selbst nicht abrufbar).", "quelle": "https://www.oekotest.de/kinder-familie/Spielzelte-im-Test-Nur-3-von-13-sind-empfehlenswert_96872_1.html" },
-    { "institut": "Dänische Umweltbehörde (Miljøstyrelsen)", "heft": "Survey of chemical substances in play tents and play tunnels (2005)", "ergebnis": "Bei 6 geprüften Zelten/Tunneln erhöhte Formaldehyd-Ausgasung in den ersten Nutzungsstunden; übrige Stoffe relativ gering – Empfehlung: neue Zelte vor Gebrauch auslüften.", "quelle": "https://www2.mst.dk/udgiv/publications/2005/87-7614-761-4/html/default_eng.htm" }
+    {
+      "institut": "Öko-Test",
+      "heft": "„Spielzelte im Test – Nur 3 von 13 sind empfehlenswert“ (älterer Test, u. a. im Öko-Test Jahrbuch Kleinkinder für 2011 gelistet; genaues Heft nicht abrufbar)",
+      "ergebnis": "Nur 3 von 13 Spielzelten (9–99 €) empfehlenswert; Kritik an Lösungsmittelresten/VOC, zinn- und halogenorganischen Verbindungen, allergisierenden Dispersions- und Azofarbstoffen, Schwermetallen und PVC. Getestete Modelle sind heute nicht mehr im Handel – nur als Hintergrund nutzen, laut Berichten (Seite selbst nicht abrufbar).",
+      "quelle": "https://www.oekotest.de/kinder-familie/Spielzelte-im-Test-Nur-3-von-13-sind-empfehlenswert_96872_1.html"
+    },
+    {
+      "institut": "Dänische Umweltbehörde (Miljøstyrelsen)",
+      "heft": "Survey of chemical substances in play tents and play tunnels (2005)",
+      "ergebnis": "Bei 6 geprüften Zelten/Tunneln erhöhte Formaldehyd-Ausgasung in den ersten Nutzungsstunden; übrige Stoffe relativ gering – Empfehlung: neue Zelte vor Gebrauch auslüften.",
+      "quelle": "https://www2.mst.dk/udgiv/publications/2005/87-7614-761-4/html/default_eng.htm"
+    }
   ],
   "warnungen": [
     "Kein aktueller Stiftung-Warentest- oder Öko-Test-Test zu Spielzelten/Tipis gefunden; Bewertungen sind redaktionelle Einschätzungen auf Basis von Hersteller-/Händlerangaben.",
@@ -151,13 +337,54 @@
     "Kein Licht mit Hitzeentwicklung im Zelt; nur batteriebetriebene LED."
   ],
   "verworfen": [
-    { "name": "Tiny Land Tipi Zelt für Kinder (B01HTIET3Y)", "grund": "Sehr viele Bewertungen (ca. 4,6/5 bei >10.000), aber CPSC-Rückruf eines Tiny-Land-Spielzelts 2026 (Glasfaserstangen); Abgrenzung des amazon.de-Modells nicht sicher belegbar – vorsorglich nicht empfohlen." },
-    { "name": "Hakuna Matte Tipi Little Explorers (B083549WRF)", "grund": "Gute Prüfangaben (EN 71, TÜV SÜD GS laut Listing), aber auf amazon.de derzeit nicht verfügbar." },
-    { "name": "Knorrtoys 55300 Spielzelt Bendix XXL inkl. 100 Spielbälle (B008EGSK6S)", "grund": "Passendes Bällebad-Zelt, aber bei Babyartikel.de ausverkauft und Amazon-Verfügbarkeit unklar; Funky (55852) als Ersatz." },
-    { "name": "besrey, Nukido, Pamek, Springos, KIDIZ, BlueWood u. ä.", "grund": "Austauschbare Marktplatz-Marken; EN-71-/Formaldehyd-Angaben nur Verkäuferaussagen ohne nachvollziehbare Prüfung – keine Top-3-Kandidaten." },
-    { "name": "MINICAMP Kinder-Tipi Canvas (B0764J2MYQ)", "grund": "Maße und Lieferumfang aus Listing nicht eindeutig ermittelbar." },
-    { "name": "Garden Games 3025/3042 Tipi", "grund": "Rezension berichtet über stark beißenden chemischen Geruch (3025)." },
-    { "name": "Little Dutch Tipi-Zelt Olive (B09W2KXF4F)", "grund": "Markenfeld im Listing nennt „Tiamo“ statt Little Dutch – Zuordnung unklar." }
+    {
+      "name": "Tiny Land Tipi Zelt für Kinder (B01HTIET3Y)",
+      "grund": "Sehr viele Bewertungen (ca. 4,6/5 bei >10.000), aber CPSC-Rückruf eines Tiny-Land-Spielzelts 2026 (Glasfaserstangen); Abgrenzung des amazon.de-Modells nicht sicher belegbar – vorsorglich nicht empfohlen."
+    },
+    {
+      "name": "Hakuna Matte Tipi Little Explorers (B083549WRF)",
+      "grund": "Gute Prüfangaben (EN 71, TÜV SÜD GS laut Listing), aber auf amazon.de derzeit nicht verfügbar."
+    },
+    {
+      "name": "Knorrtoys 55300 Spielzelt Bendix XXL inkl. 100 Spielbälle (B008EGSK6S)",
+      "grund": "Passendes Bällebad-Zelt, aber bei Babyartikel.de ausverkauft und Amazon-Verfügbarkeit unklar; Funky (55852) als Ersatz."
+    },
+    {
+      "name": "besrey, Nukido, Pamek, Springos, KIDIZ, BlueWood u. ä.",
+      "grund": "Austauschbare Marktplatz-Marken; EN-71-/Formaldehyd-Angaben nur Verkäuferaussagen ohne nachvollziehbare Prüfung – keine Top-3-Kandidaten."
+    },
+    {
+      "name": "MINICAMP Kinder-Tipi Canvas (B0764J2MYQ)",
+      "grund": "Maße und Lieferumfang aus Listing nicht eindeutig ermittelbar."
+    },
+    {
+      "name": "Garden Games 3025/3042 Tipi",
+      "grund": "Rezension berichtet über stark beißenden chemischen Geruch (3025)."
+    },
+    {
+      "name": "Little Dutch Tipi-Zelt Olive (B09W2KXF4F)",
+      "grund": "Markenfeld im Listing nennt „Tiamo“ statt Little Dutch – Zuordnung unklar."
+    },
+    {
+      "name": "Moi Mili Classic Tipi (B0DMXB8DLP)",
+      "grund": "Korrektur R1: Listing laut amazon.de 'derzeit nicht verfügbar, unbekannt ob wieder lieferbar', Farbe Fuchsrot statt Beige; keine aktive Beige-ASIN gefunden."
+    },
+    {
+      "name": "TikTakToo Spielhaus aus Pappe Ritter (B015OOM2LG) / TikTakToo Pappspielhaus 106x84x110 (B0DPL6WHMV)",
+      "grund": "Korrektur R1: B015OOM2LG nicht auffindbar; TikTakToo laut Auftrag ersetzen – small foot 10016 gewählt."
+    },
+    {
+      "name": "small foot Avalon 9970 Ritterburg (B001FR9UAI)",
+      "grund": "Laut amazon.de derzeit nicht verfügbar."
+    },
+    {
+      "name": "small foot 10015 Bauernhof / 10018 Rakete (B01B7QQNQA, B01B3B4B0O)",
+      "grund": "Listing-Titel und Modellnummern widersprüchlich (Tektorado/Legler, Rakete vs. 10015)."
+    },
+    {
+      "name": "JaBaDaBaDo K041 Tipi (B06Y1LD68P)",
+      "grund": "Listing widersprüchlich (Maße 90 x 16 x 30 cm, Material 'Leder')."
+    }
   ],
   "offen": [
     "Awin: laut Vorgabe keine freigeschalteten Programme – alle Top 3/Top 5 über Amazon-ASINs.",
@@ -169,21 +396,69 @@
     "bilder.json: scoresAlt nennt Kriterien „Größe, Stoffqualität, Stabilität, Aufbau und Preis“ – an finale Kriterien anpassen (Stoff & Schadstoffangaben, Stabilität & Verarbeitung, Platz & Ausstattung, Auf-/Abbau & Pflege); P/L-Modell ist ein Pop-up, nicht ein Tipi (visual kind 'tent' passt dennoch)."
   ],
   "quellen": [
-    { "titel": "amazon.de – PINOLINO Tipi Yuma (B0BGC5L1V9)", "url": "https://www.amazon.de/dp/B0BGC5L1V9" },
-    { "titel": "amazon.de – Little Dutch Pop-up Spielzelt Forest Friends (B0DX1WJ1PM)", "url": "https://www.amazon.de/dp/B0DX1WJ1PM" },
-    { "titel": "amazon.de – Moi Mili Classic Tipi (B0DMXB8DLP)", "url": "https://www.amazon.de/dp/B0DMXB8DLP" },
-    { "titel": "amazon.de – PINOLINO Tipi Jakara (B079ZM4PCW)", "url": "https://www.amazon.de/dp/B079ZM4PCW" },
-    { "titel": "amazon.de – PINOLINO Spielzelt Yuma zwei Eingänge (B0BGC43DDF)", "url": "https://www.amazon.de/dp/B0BGC43DDF" },
-    { "titel": "amazon.de – Knorrtoys 55852 Funky (B0BDFJ2X3Y)", "url": "https://www.amazon.de/dp/B0BDFJ2X3Y" },
-    { "titel": "amazon.de – small foot Wigwam (B000KHRI6C)", "url": "https://www.amazon.de/dp/B000KHRI6C" },
-    { "titel": "amazon.de – TikTakToo Spielhaus Ritter (B015OOM2LG)", "url": "https://www.amazon.de/dp/B015OOM2LG" },
-    { "titel": "Babyartikel.de – PINOLINO Tipi Yuma", "url": "https://www.babyartikel.de/prod/pinolino-zelt-tipi-yuma-mit-fenster-bodenplatte-wimpelkette-aufbewahrungsbeutel" },
-    { "titel": "Hertwill – Moi Mili Teepee Tent Beige", "url": "https://hertwill.com/product/teepee-tent-beige" },
-    { "titel": "Hertwill – Marke Moi Mili", "url": "https://hertwill.com/brand/moi-mili" },
-    { "titel": "Proshop.nl – Little Dutch Forest Friends Play Tent", "url": "https://www.proshop.nl/Buiten-spelen/Little-Dutch-Forest-Friends-Play-Tent/3384573" },
-    { "titel": "Öko-Test – Spielzelte im Test: Nur 3 von 13 sind empfehlenswert", "url": "https://www.oekotest.de/kinder-familie/Spielzelte-im-Test-Nur-3-von-13-sind-empfehlenswert_96872_1.html" },
-    { "titel": "Miljøstyrelsen – Chemical substances in play tents and tunnels (2005)", "url": "https://www2.mst.dk/udgiv/publications/2005/87-7614-761-4/html/default_eng.htm" },
-    { "titel": "CPSC – Tiny Land Children's Play Tents Recalled (2026)", "url": "https://www.cpsc.gov/Recalls/2026/Tiny-Land-Childrens-Play-Tents-Recalled-Due-to-Risk-of-Injury-from-Irritation-to-Skin-and-Eyes" },
-    { "titel": "amazon.de – Hakuna Matte Tipi (B083549WRF)", "url": "https://www.amazon.de/dp/B083549WRF" }
+    {
+      "titel": "amazon.de – PINOLINO Tipi Yuma (B0BGC5L1V9)",
+      "url": "https://www.amazon.de/dp/B0BGC5L1V9"
+    },
+    {
+      "titel": "amazon.de – Little Dutch Pop-up Spielzelt Forest Friends (B0DX1WJ1PM)",
+      "url": "https://www.amazon.de/dp/B0DX1WJ1PM"
+    },
+    {
+      "titel": "amazon.de – PINOLINO Tipi Jakara (B079ZM4PCW)",
+      "url": "https://www.amazon.de/dp/B079ZM4PCW"
+    },
+    {
+      "titel": "amazon.de – PINOLINO Spielzelt Yuma zwei Eingänge (B0BGC43DDF)",
+      "url": "https://www.amazon.de/dp/B0BGC43DDF"
+    },
+    {
+      "titel": "amazon.de – Knorrtoys 55852 Funky (B0BDFJ2X3Y)",
+      "url": "https://www.amazon.de/dp/B0BDFJ2X3Y"
+    },
+    {
+      "titel": "amazon.de – small foot Wigwam (B000KHRI6C)",
+      "url": "https://www.amazon.de/dp/B000KHRI6C"
+    },
+    {
+      "titel": "Babyartikel.de – PINOLINO Tipi Yuma",
+      "url": "https://www.babyartikel.de/prod/pinolino-zelt-tipi-yuma-mit-fenster-bodenplatte-wimpelkette-aufbewahrungsbeutel"
+    },
+    {
+      "titel": "Hertwill – Moi Mili Teepee Tent Beige",
+      "url": "https://hertwill.com/product/teepee-tent-beige"
+    },
+    {
+      "titel": "Hertwill – Marke Moi Mili",
+      "url": "https://hertwill.com/brand/moi-mili"
+    },
+    {
+      "titel": "Proshop.nl – Little Dutch Forest Friends Play Tent",
+      "url": "https://www.proshop.nl/Buiten-spelen/Little-Dutch-Forest-Friends-Play-Tent/3384573"
+    },
+    {
+      "titel": "Öko-Test – Spielzelte im Test: Nur 3 von 13 sind empfehlenswert",
+      "url": "https://www.oekotest.de/kinder-familie/Spielzelte-im-Test-Nur-3-von-13-sind-empfehlenswert_96872_1.html"
+    },
+    {
+      "titel": "Miljøstyrelsen – Chemical substances in play tents and tunnels (2005)",
+      "url": "https://www2.mst.dk/udgiv/publications/2005/87-7614-761-4/html/default_eng.htm"
+    },
+    {
+      "titel": "CPSC – Tiny Land Children's Play Tents Recalled (2026)",
+      "url": "https://www.cpsc.gov/Recalls/2026/Tiny-Land-Childrens-Play-Tents-Recalled-Due-to-Risk-of-Injury-from-Irritation-to-Skin-and-Eyes"
+    },
+    {
+      "titel": "amazon.de – Hakuna Matte Tipi (B083549WRF)",
+      "url": "https://www.amazon.de/dp/B083549WRF"
+    },
+    {
+      "titel": "amazon.de – Knorrtoys 55102 Spieltunnel (B08VDTDCQR)",
+      "url": "https://www.amazon.de/dp/B08VDTDCQR"
+    },
+    {
+      "titel": "amazon.de – small foot 10016 Spielhaus Traktor (B01B38LLU0)",
+      "url": "https://www.amazon.de/dp/B01B38LLU0"
+    }
   ]
 }

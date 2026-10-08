@@ -18,7 +18,7 @@ export default {
   lead:
     "Ein Spielturm ist der Spielplatz im eigenen Garten: Podest, Rutsche, Schaukel, oft auch Sandkasten und Kletterwand in einem Gerät. Wir zeigen die drei besten Holz-Spieltürme – und worauf es bei Holz, Platzbedarf, Verankerung und Fallschutz ankommt.",
   answer:
-    "Unsere beste Gesamtwahl ist der [**AXI Malik Spielturm aus Holz mit 2 Schaukeln und grüner Rutsche**](produkt:1) aus FSC-Zedernholz mit Doppelschaukel und 220-cm-Rutsche. Am meisten Ausstattung fürs Geld bietet der [**WICKEY Spielturm FreeFlyer mit Schaukel & anthraziter Rutsche**](produkt:2) mit Kletterwand und Sandkasten. Für große Gärten und mehrere Kinder ist der [**Backyard Discovery Northbrook Spielturm aus Holz**](produkt:3) die Premium-Wahl mit Kletterwand, Hangelleiter und zwei Schaukeln.",
+    "Unsere beste Gesamtwahl ist der [**AXI Malik Spielturm aus Holz mit 2 Schaukeln und grüner Rutsche**](produkt:1) aus FSC-Zedernholz mit Doppelschaukel und 220-cm-Rutsche. Am meisten Ausstattung fürs Geld bietet der [**WICKEY Spielturm FreeFlyer mit Schaukel & anthraziter Rutsche**](produkt:2) mit Kletterwand und Sandkasten. Für große Gärten und mehrere Kinder ist der [**Backyard Discovery Northbrook Spielturm aus Holz**](produkt:3) die Premium-Wahl mit Kletterwand, Hangelleiter, Trapezstange und zwei Schaukeln.",
 
   priceTiers: {
     1: { symbol: "€", label: "bis ca. 500 €" },
@@ -60,8 +60,9 @@ export default {
         "100 % FSC-zertifiziertes Zedernholz (Herstellerangabe)",
         "Aufstellmaß 345 × 336 × 269,5 cm, 3–10 Jahre, max. 50 kg je Kind (Herstellerangabe)",
         "Laut Hersteller CE-gekennzeichnet, nach EN 71 geprüft und hergestellt",
+        "6 Bodenanker im Lieferumfang, 10 Jahre Garantie (Händlerangabe)",
       ],
-      pros: ["Zedernholz (FSC) statt imprägnierter Kiefer", "Doppelschaukel und 220-cm-Rutsche", "Kompakter als andere Türme mit zwei Schaukeln"],
+      pros: ["Zedernholz (FSC) statt imprägnierter Kiefer", "Doppelschaukel und 220-cm-Rutsche", "6 Bodenanker im Lieferumfang (Händlerangabe)", "Kompakter als andere Türme mit zwei Schaukeln"],
       cons: ["Keine echte Kletterwand – nur Leiter und Spielwand", "Kein unabhängiger Test", "Listings teils fehlerhaft (Modellname, Sitzanzahl) – Variante vor dem Kauf prüfen"],
       specs: {
         podest: "119 cm",
@@ -119,10 +120,10 @@ export default {
       ratings: { holz: 9.0, sicherheit: 7.5, ausstattung: 9.5, platz: 5.5 },
       bestFor: "Große Gärten, Geschwister und Besuchskinder",
       verdict:
-        "Ein kleiner Spielplatz statt eines Turms: Zedernholz, 244-cm-Rutsche, zwei Schaukeln, Hangelleiter, Kletterwand-Aufstieg, großer Sandkasten und Picknicktisch. Der Preis dafür ist eine Grundfläche von rund 4,4 × 4,3 m – plus Sicherheitsabstand.",
+        "Ein kleiner Spielplatz statt eines Turms: Zedernholz, 244-cm-Rutsche, zwei Schaukeln, Trapezstange, Hangelleiter, Kletterwand-Aufstieg, Sandkasten und Picknicktisch. Der Preis dafür ist eine Grundfläche von rund 4,4 × 4,3 m – plus Sicherheitsabstand.",
       features: [
         "100 % Zedernholz, Podest 122 cm, Rutsche 244 cm (Händlerangabe)",
-        "Zwei Schaukeln, Hangelleiter, Kletterwand-Aufstieg, Sandkasten für ca. 380 kg Sand (Händlerangabe)",
+        "Zwei Schaukeln, Trapezstange, Hangelleiter (bei OBI „Affenstangen“), Kletterwand-Aufstieg, Sandkasten (Händlerangabe)",
         "Maße 439 × 430 × 300 cm, 3–10 Jahre (Herstellerangabe)",
         "Bis zu 9 Kinder gleichzeitig, 68 kg je Kind bei Einzelnutzung (Herstellerangabe)",
       ],
@@ -132,7 +133,7 @@ export default {
         podest: "122 cm",
         rutsche: "244 cm",
         schaukeln: "2",
-        extras: "Kletterwand, Hangelleiter, Sandkasten, Picknicktisch",
+        extras: "Kletterwand, Hangelleiter, Trapez, Sandkasten, Picknicktisch",
         masse: "439 × 430 × 300 cm",
         holz: "Zeder",
         alter: "3–10 Jahre (Herstellerangabe)",
@@ -201,7 +202,7 @@ export default {
           { h3: "Holz: Zeder oder kesseldruckimprägniert" },
           { p: "Zedernholz ist von Natur aus witterungsbeständig und muss nicht imprägniert werden – AXI Malik und Northbrook setzen darauf. Günstigere Türme wie der WICKEY FreeFlyer bestehen aus Fichte oder Kiefer, die kesseldruckimprägniert (KDI) wird; laut Hersteller ist dann kein Anstrich nötig. Beide Wege funktionieren, wenn das Holz regelmäßig kontrolliert wird. Bei unbehandeltem Holz ohne Imprägnierung musst du je nach Herstelleranleitung selbst nachbehandeln – das gehört dann zur jährlichen Wartung." },
           { h3: "Podesthöhe, Rutschenlänge und Alter" },
-          { p: "Die meisten Familientürme haben ein Podest um 120 cm und eine Rutsche von 220 bis 244 cm. Solche Türme sind laut Hersteller in aller Regel für Kinder ab 3 Jahren gedacht – einige Wickey-Modelle sind ausdrücklich „nicht für Kinder unter 3 Jahren“. Für jüngere Kinder gibt es Geräte mit niedrigem Podest um 60 cm; ein Beispiel steht in unserer Top 5. Altersangaben sind Herstellerangaben und ersetzen nicht den Blick auf das eigene Kind." },
+          { p: "Die meisten Familientürme haben ein Podest um 120 cm und eine Rutsche von 220 bis 244 cm. Solche Türme sind laut Hersteller in aller Regel für Kinder ab 3 Jahren gedacht – einige Wickey-Modelle sind ausdrücklich „nicht für Kinder unter 3 Jahren“. Für Kleinkinder gibt es Modelle mit niedrigem Podest um 60 cm; ein Beispiel steht in unserer Top 5. Prüfe die Altersfreigabe vor dem Kauf beim Hersteller – Altersangaben sind Herstellerangaben und ersetzen nicht den Blick auf das eigene Kind." },
           { h3: "Ausstattung" },
           { p: "Zwei Schaukeln verhindern Streit unter Geschwistern, eine Kletterwand fordert ältere Kinder mehr als eine Leiter, und ein Sandkasten unter dem Podest liegt im Sommer im Schatten. Prüfe vor dem Kauf, ob sich fehlende Teile nachrüsten lassen: Beim FreeFlyer ist eine zweite Schaukel laut Händlerangabe nicht möglich." },
           { h3: "Bodenanker und Normangaben" },
@@ -241,7 +242,7 @@ export default {
   top5: {
     id: "top5-spieltuerme-nach-garten",
     h2: "Die 5 besten Spieltürme nach Ausstattung, Holz und Platz",
-    intro: "Nicht jeder Garten passt zu unseren Top 3. Diese fünf Spieltürme decken andere Wünsche ab: viel Ausstattung, Zedernholz mit Trapez, ein kleiner Garten, Schatten für den Sandkasten und ein niedriges Podest für die Kleinsten.",
+    intro: "Nicht jeder Garten passt zu unseren Top 3. Diese fünf Spieltürme decken andere Wünsche ab: viel Ausstattung, Zedernholz mit Trapez, ein kleiner Garten, Schatten für den Sandkasten und ein niedriges Podest.",
     items: [
       { name: "PolarPlay Spielturm Frida aus Holz in Grün, Kinderschaukel", for: "Doppelschaukel und Kletterwand", text: "Spielhaus, Doppelschaukel, 220-cm-Rutsche und Kletterwand in einem Gerät; Plattform 120 cm, Maße 468 × 414 × 260 cm, Schaukel bis 50 kg (Händlerangabe). Braucht noch mehr Platz als der Northbrook.", asin: "B0D4F6XC32", query: "PolarPlay Spielturm Frida" },
       { name: "Backyard Discovery Spielturm Belmont aus Holz", for: "Zedernholz mit Trapez", text: "Rahmen aus Zedernholz, überdachtes Podest, 244-cm-Wellenrutsche, zwei Schaukeln, Trapezstange, Sandkasten und Picknicktisch (Händlerangabe) – die kleinere Alternative zum Northbrook aus derselben Marke.", asin: "B07ZTVP2W2", query: "Backyard Discovery Belmont Spielturm" },
@@ -282,7 +283,7 @@ export default {
     { q: "Wie viel Platz braucht ein Spielturm im Garten?", a: "Je nach Modell rund 7 bis 20 Quadratmeter Grundfläche plus Sicherheitsabstand. Der kompakte WICKEY TinyCabin braucht laut Hersteller 7,1 m², der AXI Malik 345 × 336 cm, der Northbrook 439 × 430 cm; den Sicherheitsabstand gibt die Aufbauanleitung vor." },
     { q: "Welches Holz ist am besten für einen Spielturm?", a: "Zedernholz gilt als besonders witterungsbeständig und muss nicht imprägniert werden. Kesseldruckimprägnierte Fichte oder Kiefer ist günstiger und laut Herstellern ebenfalls ohne Anstrich für draußen geeignet; in beiden Fällen sollte das Holz jährlich kontrolliert werden." },
     { q: "Muss ein Spielturm einbetoniert werden?", a: "Er muss fest verankert werden, meist mit Bodenankern; Wickey etwa schreibt für den FreeFlyer einbetonierte Bodenanker vor. Bei Wickey und Fatmoose ist die Garantie laut Hersteller an die Verankerung gebunden – die Anker sind oft separat zu kaufen." },
-    { q: "Ab welchem Alter ist ein Spielturm geeignet?", a: "Die meisten Spieltürme mit Podest um 120 cm sind laut Hersteller für Kinder ab 3 Jahren. Für jüngere Kinder gibt es Modelle mit niedrigem Podest um 60 cm, etwa den Wickey My First Playground 1; Altersangaben stammen immer vom Hersteller." },
+    { q: "Ab welchem Alter ist ein Spielturm geeignet?", a: "Die meisten Spieltürme mit Podest um 120 cm sind laut Hersteller für Kinder ab 3 Jahren. Für Kleinkinder gibt es Modelle mit niedrigem Podest um 60 cm, etwa den Wickey My First Playground 1 – für ihn haben wir keine Altersangabe des Herstellers gefunden, prüfe die Altersfreigabe deshalb vor dem Kauf beim Hersteller." },
     { q: "Welcher Untergrund gehört unter einen Spielturm?", a: "Ein weicher Untergrund wie Rasen, Sand oder Fallschutzplatten, vor allem unter der Schaukel und am Rutschenende. Harte Böden wie Beton oder Pflaster sind ungeeignet; Fallschutzplatten sollten eine geprüfte Fallhöhe nach EN 1177 haben." },
     { q: "Welche Norm gilt für einen Spielturm im Garten?", a: "Für private Spieltürme gilt die Spielzeugnorm EN 71, Teil 8 für Schaukeln, Rutschen und ähnliche Geräte im Heimbereich. Die Norm EN 1176 betrifft öffentliche Spielplätze; ob ein Turm nach EN 71 geprüft ist, steht in den Herstellerangaben." },
   ],
@@ -298,6 +299,12 @@ export default {
     { label: "OBI – Spielturm Northbrook", url: "https://www.obi.de/p/2948743/spielturm-northbrook" },
     { label: "gov.si – Safety-Gate-Meldung A12/01216/24 (WICKEY Smart Dash)", url: "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/lesena-gugalnica-s-toboganom/" },
     { label: "vergleich.org – FATMOOSE Spielturm (Bericht)", url: "https://www.vergleich.org/fatmoose-spielturm/" },
+    { label: "Amazon.de – PolarPlay Spielturm Frida", url: "https://www.amazon.de/dp/B0D4F6XC32" },
+    { label: "Decathlon – Backyard Discovery Belmont (Händlerangaben)", url: "https://www.decathlon.de/p/mp/belmont-spielturm-mit-doppelschaukel-und-rutsche-holz/ee31344b-55ec-4e96-9e5a-f85a0ccbed0f/c27" },
+    { label: "Amazon.de – Backyard Discovery Belmont", url: "https://www.amazon.de/dp/B07ZTVP2W2" },
+    { label: "Amazon.de – WICKEY TinyCabin", url: "https://www.amazon.de/dp/B079ZYNFBS" },
+    { label: "Amazon.de – FATMOOSE TreasureTower Top XXL", url: "https://www.amazon.de/dp/B07MVFLMXW" },
+    { label: "Amazon.de – Wickey My First Playground 1", url: "https://www.amazon.de/dp/B0D5D7J71H" },
   ],
 
   related: [

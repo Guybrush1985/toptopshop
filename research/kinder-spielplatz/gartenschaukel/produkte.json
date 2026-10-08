@@ -2,15 +2,44 @@
   "slug": "gartenschaukel",
   "stand": "2026-10-08",
   "criteria": [
-    { "key": "stabilitaet", "label": "Gestell & Verankerung", "weight": 0.35, "description": "Pfosten-/Rohrstärke, Gestellhöhe, Bodenanker im Lieferumfang und Art der Verankerung (Einschrauben vs. Einbetonieren), Herstellerangaben zur Maximalbelastung, Norm-/Prüfhinweise (EN 71, TÜV/GS)" },
-    { "key": "sitze", "label": "Sitze & Altersbereich", "weight": 0.25, "description": "Anzahl und Art der Sitze (Brett, Nest, Babysitz), Altersangabe des Herstellers, Belastung je Sitz, Höhenverstellbarkeit der Seile" },
-    { "key": "material", "label": "Wetterfestigkeit & Verarbeitung", "weight": 0.2, "description": "Holzart und Imprägnierung bzw. verzinkter/pulverbeschichteter Stahl, Garantie, Ersatzteile, Verarbeitung laut Kundenberichten" },
-    { "key": "aufbau", "label": "Aufbau & Platzbedarf", "weight": 0.2, "description": "Stellmaß, Aufbauaufwand laut Hersteller/Kundenberichten, Erweiterbarkeit" }
+    {
+      "key": "stabilitaet",
+      "label": "Gestell & Verankerung",
+      "weight": 0.35,
+      "description": "Pfosten-/Rohrstärke, Gestellhöhe, Bodenanker im Lieferumfang und Art der Verankerung (Einschrauben vs. Einbetonieren), Herstellerangaben zur Maximalbelastung, Norm-/Prüfhinweise (EN 71, TÜV/GS)"
+    },
+    {
+      "key": "sitze",
+      "label": "Sitze & Altersbereich",
+      "weight": 0.25,
+      "description": "Anzahl und Art der Sitze (Brett, Nest, Babysitz), Altersangabe des Herstellers, Belastung je Sitz, Höhenverstellbarkeit der Seile"
+    },
+    {
+      "key": "material",
+      "label": "Wetterfestigkeit & Verarbeitung",
+      "weight": 0.2,
+      "description": "Holzart und Imprägnierung bzw. verzinkter/pulverbeschichteter Stahl, Garantie, Ersatzteile, Verarbeitung laut Kundenberichten"
+    },
+    {
+      "key": "aufbau",
+      "label": "Aufbau & Platzbedarf",
+      "weight": 0.2,
+      "description": "Stellmaß, Aufbauaufwand laut Hersteller/Kundenberichten, Erweiterbarkeit"
+    }
   ],
   "priceTiers": [
-    { "tier": 1, "label": "bis ca. 150 €" },
-    { "tier": 2, "label": "ca. 150–350 €" },
-    { "tier": 3, "label": "über 350 €" }
+    {
+      "tier": 1,
+      "label": "bis ca. 150 €"
+    },
+    {
+      "tier": 2,
+      "label": "ca. 150–350 €"
+    },
+    {
+      "tier": 3,
+      "label": "über 350 €"
+    }
   ],
   "products": [
     {
@@ -20,21 +49,76 @@
       "brand": "Wickey",
       "variant": "Prime-Serie, Doppelschaukel, Sitzfarbe Blau (Amazon-Variante mit 2 elastischen Sitzen)",
       "priceTier": 2,
-      "ratings": { "stabilitaet": 8.5, "sitze": 7.5, "material": 8.5, "aufbau": 6.5 },
+      "ratings": {
+        "stabilitaet": 8.5,
+        "sitze": 7.5,
+        "material": 8.5,
+        "aufbau": 6.5
+      },
       "gesamt": 7.85,
       "bestFor": "Familien mit Kindern ab 3 Jahren, die ein besonders massives Holzgestell für viele Jahre wollen und es einbetonieren können",
       "fakten": [
-        { "text": "Prime-Serie mit 11 x 11 cm Pfosten und 9 x 9 cm Schaukelbalken; Stellmaß ca. 240 x 31 x 240 cm (L x B x H laut Hersteller)", "art": "Herstellerangabe", "quelle": "https://wickey.de/gartenschaukel-aero-star", "datum": "2026-10-08" },
-        { "text": "Kesseldruckimprägniertes Holz (Fichte/Kiefer aus Europa); PROLock-Winkelanker im Lieferumfang, die laut Hersteller einbetoniert werden sollen", "art": "Herstellerangabe", "quelle": "https://wickey.de/gartenschaukel-aero-star", "datum": "2026-10-08" },
-        { "text": "Laut Hersteller entwickelt gemäß DIN EN 71 (welche Teile der Norm, wird nicht genannt)", "art": "Herstellerangabe", "quelle": "https://wickey.ie/garden-swing-aero-star", "datum": "2026-10-08" },
-        { "text": "Belastung je Schaukelsitz: Amazon-Listing nennt 50 kg, Wickey-Shop teils 70 kg – der niedrigere Wert ist maßgeblich", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B07953FF66", "datum": "2026-10-08" },
-        { "text": "Altersangaben uneinheitlich: Wickey-Shop „nicht für Kinder unter 3 Jahren“ bzw. 3–12 Jahre; Amazon-Feld nennt 0–10 Jahre", "art": "Herstellerangabe", "quelle": "https://wickey.de/gartenschaukel-aero-star", "datum": "2026-10-08" },
-        { "text": "10 Jahre Garantie auf alle Holzteile bei gleichzeitiger Bestellung der Wickey-Anker", "art": "Herstellerangabe", "quelle": "https://wickey.de/gartenschaukel-aero-star", "datum": "2026-10-08" },
-        { "text": "Kundenbewertung bei Amazon ca. 3,8/5 (21 Bewertungen); Kritik an Anleitung und Ausrichtung beim Aufbau, Holzteile müssen teils vor Ort gebohrt werden", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B07953FF66", "datum": "2026-10-08" }
+        {
+          "text": "Prime-Serie mit 11 x 11 cm Pfosten und 9 x 9 cm Schaukelbalken; Stellmaß ca. 240 x 31 x 240 cm (L x B x H laut Hersteller)",
+          "art": "Herstellerangabe",
+          "quelle": "https://wickey.de/gartenschaukel-aero-star",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Kesseldruckimprägniertes Holz (Fichte/Kiefer aus Europa); PROLock-Winkelanker im Lieferumfang, die laut Hersteller einbetoniert werden sollen",
+          "art": "Herstellerangabe",
+          "quelle": "https://wickey.de/gartenschaukel-aero-star",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Laut Hersteller entwickelt gemäß DIN EN 71 (welche Teile der Norm, wird nicht genannt)",
+          "art": "Herstellerangabe",
+          "quelle": "https://wickey.ie/garden-swing-aero-star",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Belastung je Schaukelsitz: Amazon-Listing nennt 50 kg, Wickey-Shop teils 70 kg – der niedrigere Wert ist maßgeblich",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B07953FF66",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Altersangaben uneinheitlich: Wickey-Shop „nicht für Kinder unter 3 Jahren“ bzw. 3–12 Jahre; Amazon-Feld nennt 0–10 Jahre",
+          "art": "Herstellerangabe",
+          "quelle": "https://wickey.de/gartenschaukel-aero-star",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "10 Jahre Garantie auf alle Holzteile bei gleichzeitiger Bestellung der Wickey-Anker",
+          "art": "Herstellerangabe",
+          "quelle": "https://wickey.de/gartenschaukel-aero-star",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Kundenbewertung bei Amazon ca. 3,8/5 (21 Bewertungen); Kritik an Anleitung und Ausrichtung beim Aufbau, Holzteile müssen teils vor Ort gebohrt werden",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B07953FF66",
+          "datum": "2026-10-08"
+        }
       ],
-      "pros": ["Sehr massive 11 x 11 cm Pfosten (Prime-Serie)", "Lange Holzgarantie bei Wickey-Ankern", "Deutscher Hersteller mit Ersatzteil- und Zubehörprogramm"],
-      "cons": ["Muss einbetoniert werden", "Aufbau aufwendig, teils Bohren vor Ort nötig", "Uneinheitliche Angaben zu Alter und Belastung je Sitz"],
-      "specs": { "Gestell": "Holz, kesseldruckimprägniert, Pfosten 11 x 11 cm", "Sitze": "2 (Amazon: elastische Sitze)", "Belastung je Sitz": "50 kg (Amazon) / 70 kg (Wickey-Shop)", "Maße": "ca. 240 x 31 x 240 cm (Herstellerangabe, Grundfläche durch A-Füße größer)", "Verankerung": "PROLock-Winkelanker, einbetonieren", "Alter": "ab 3 Jahren (Herstellerhinweis)" },
+      "pros": [
+        "Sehr massive 11 x 11 cm Pfosten (Prime-Serie)",
+        "Lange Holzgarantie bei Wickey-Ankern",
+        "Deutscher Hersteller mit Ersatzteil- und Zubehörprogramm"
+      ],
+      "cons": [
+        "Muss einbetoniert werden",
+        "Aufbau aufwendig, teils Bohren vor Ort nötig",
+        "Uneinheitliche Angaben zu Alter und Belastung je Sitz"
+      ],
+      "specs": {
+        "Gestell": "Holz, kesseldruckimprägniert, Pfosten 11 x 11 cm",
+        "Sitze": "2 elastische Sitze (Amazon-Variante), je max. 50 kg",
+        "Belastung je Sitz": "50 kg (Amazon) / 70 kg (Wickey-Shop)",
+        "Maße": "ca. 240 x 31 x 240 cm (Herstellerangabe, Grundfläche durch A-Füße größer)",
+        "Verankerung": "PROLock-Winkelanker, einbetonieren",
+        "Alter": "ab 3 Jahren (Herstellerhinweis)"
+      },
       "asin": "B07953FF66",
       "query": "Wickey Aero Star Schaukelgestell Doppelschaukel",
       "shop": null,
@@ -43,53 +127,121 @@
     },
     {
       "rank": 2,
-      "label": "Bestes Preis-Leistungs-Verhältnis",
-      "name": "AXI Doppelschaukel in Braun/Weiß aus FSC Holz",
+      "label": "Beste Nestschaukel mit Gestell",
+      "name": "AXI Summer Nestschaukel mit Gestell, 100 cm, Grau & Weiß / Nestschaukel Grün",
       "brand": "AXI",
-      "variant": "Freistehende Doppelschaukel, Braun/Weiß, Modell A030.135.03",
+      "variant": "Freistehendes Holzgestell mit Nestschaukel Ø 100 cm, Modell A030.134.01",
       "priceTier": 2,
-      "ratings": { "stabilitaet": 7.5, "sitze": 7.0, "material": 7.5, "aufbau": 7.5 },
+      "ratings": {
+        "stabilitaet": 7.5,
+        "sitze": 7.0,
+        "material": 7.5,
+        "aufbau": 7.5
+      },
       "gesamt": 7.38,
-      "bestFor": "Familien mit Kindern ab 3 Jahren, die ein solides Holzgestell mit Bodenankern ohne Einbetonieren-Pflicht im mittleren Preisbereich suchen",
+      "bestFor": "Kinder ab 3 Jahren, die zu zweit schaukeln oder im Nest liegen wollen",
       "fakten": [
-        { "text": "Gestell aus FSC-Hemlock-Holz, 2 höhenverstellbare Schaukelsitze aus Holz und 4 Bodenanker im Lieferumfang", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B0845YXDFQ", "datum": "2026-10-08" },
-        { "text": "Maße ca. 160 x 254 x 207 cm, Maximalbelastung 150 kg, geeignet für Kinder ab 3 Jahren", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B0845YXDFQ", "datum": "2026-10-08" },
-        { "text": "Holz mit Beize auf Wasserbasis behandelt, laut Hersteller praktisch wartungsfrei", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B0845YXDFQ", "datum": "2026-10-08" },
-        { "text": "Baugleiche Doppelschaukel (Braun/Weiß, 254 cm Tiefe, 150 kg, 4 Bodenanker, 2 Brettschaukeln) auch im Baumarkt (Hornbach) gelistet", "art": "Händlerangabe", "quelle": "https://www.hornbach.at/p/doppelschaukel-axi-holz-braun-weiss/10405515/", "datum": "2026-10-08" }
+        {
+          "text": "Lieferumfang: Holzgestell, 1 Nestschaukel Summer (Ø 100 cm), 4 Bodenanker; 100 % FSC-Hemlock, Beize auf Wasserbasis",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B08463273X",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Maße 160 x 254 x 207 cm (Datenblatt teils 255 cm), max. 150 kg, max. 2 Sitzplätze, ab 3 Jahren; Modell A030.134.01; Titel nennt Nest Grün, Datenblatt Grau/Weiß",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B08463273X",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Freistehend ca. 160 x 254 x 207 cm, Nest Ø 100 cm, max. 150 kg, 4 Bodenanker, Hemlock-Balken 7 cm; ab 3 Jahren",
+          "art": "Händlerangabe",
+          "quelle": "https://www.decathlon.de/p/mp/summer-schaukel-fsc-holz-nestschaukel-mit-gestell-100-cm-braun-grun/ad1d6ba8-2dc7-4662-a681-ee144376e1f3/c27",
+          "datum": "2026-10-08"
+        }
       ],
-      "pros": ["4 Bodenanker im Lieferumfang", "FSC-zertifiziertes Holz", "Hohe Gesamtbelastung laut Hersteller (150 kg)"],
-      "cons": ["Pfosten schlanker (7 cm Balken) als bei Wickey Prime", "Kein Babysitz im Set", "Keine Norm-/Prüfangabe im Listing gefunden"],
-      "specs": { "Gestell": "FSC-Hemlock-Holz, 7 cm Balken", "Sitze": "2 Holz-Brettschaukeln", "Belastung": "150 kg gesamt", "Maße": "ca. 160 x 254 x 207 cm", "Verankerung": "4 Bodenanker", "Alter": "ab 3 Jahren (Herstellerangabe)" },
-      "asin": "B0845YXDFQ",
-      "query": "AXI Doppelschaukel Braun Weiß FSC Holz",
+      "pros": [
+        "Nest für zwei oder zum Liegen",
+        "4 Bodenanker im Set",
+        "FSC-Holz, 150 kg"
+      ],
+      "cons": [
+        "7 cm Balken",
+        "Nur Nest, kein Brettsitz",
+        "Farbangaben uneinheitlich"
+      ],
+      "specs": {
+        "Gestell": "FSC-Hemlock, 7 cm Balken",
+        "Sitze": "Nest Ø 100 cm",
+        "Belastung": "150 kg",
+        "Maße": "ca. 160 x 254 x 207 cm",
+        "Verankerung": "4 Bodenanker",
+        "Alter": "ab 3 Jahren (Herstellerangabe)"
+      },
+      "asin": "B08463273X",
+      "query": "AXI Summer Nestschaukel mit Gestell 100 cm",
       "shop": null,
       "url": null,
-      "asinGeprueft": "AXI Doppelschaukel in Braun/Weiß aus FSC Holz"
+      "asinGeprueft": "AXI Summer Nest Swing with Frame for Children, Outdoor Nest Swing 100 cm for the Garden, Swing Frame, Grey & White/Nest Swing in Green : Amazon.de: Toys"
     },
     {
       "rank": 3,
-      "label": "Beste Wahl ab 1 Jahr (mit Babysitz)",
-      "name": "K-Sport Schaukelgestell Outdoor, Doppelschaukel Metall mit Nest- und Babyschaukel, bis 150 kg, inkl. Bodenanker",
-      "brand": "K-Sport",
-      "variant": "Metallgestell mit Nestschaukel 90 cm und Babyschaukel (Schalensitz)",
-      "priceTier": 2,
-      "ratings": { "stabilitaet": 7.0, "sitze": 8.0, "material": 7.0, "aufbau": 7.0 },
-      "gesamt": 7.25,
-      "bestFor": "Familien mit Kleinkind und älterem Geschwisterkind: Babyschaukel jetzt, Nestschaukel für später und für zwei",
+      "label": "Beste Wahl für Kleinkinder (9–36 Monate)",
+      "name": "AXI Babyschaukel mit Metallgestell in Grau und Weiß, für Kinder ab 9 Monaten, Schaukelsitz in Anthrazit und Weiß",
+      "brand": "AXI",
+      "variant": "Kompaktes Metallgestell mit Babysitz",
+      "priceTier": 1,
+      "ratings": {
+        "stabilitaet": 6.5,
+        "sitze": 7.5,
+        "material": 7.0,
+        "aufbau": 8.0
+      },
+      "gesamt": 7.15,
+      "bestFor": "Kleinkinder von 9 bis 36 Monaten",
       "fakten": [
-        { "text": "Gestell aus pulverbeschichtetem Stahl, Nestschaukel Ø 90 cm (max. 150 kg) und Babyschaukel 33 x 46 x 37 cm; 4 Bodenanker im Lieferumfang", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B0BTDFL6RG", "datum": "2026-10-08" },
-        { "text": "Gestellhöhe ca. 1,96 m, Breite ca. 2,47 m, Gewicht ca. 30 kg; „Made in EU“ (Land nicht genannt)", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B0BTDFL6RG", "datum": "2026-10-08" },
-        { "text": "Eine Mindestaltersangabe für die Babyschaukel ist im Listing nicht eindeutig angegeben; Schwestervariante mit Nest-/Brettschaukel nennt 36 Monate", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B092KMMMK7", "datum": "2026-10-08" },
-        { "text": "Kundenberichte gemischt: teils sehr stabil, teils Kritik an leicht durchhängendem Querbalken, scharfen Kanten und Bodenankern, die in weichem Boden nachgaben", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B092KMMMK7", "datum": "2026-10-08" }
+        {
+          "text": "Für Kleinkinder von 9 bis 36 Monaten, max. 25 kg; Sicherheitsgurt mit verschließbarer Schnalle, hoher Sitz mit Kopf-/Nackenstütze",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B08Y6148YQ",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Maße 146 x 94 x 118 cm, ca. 7 kg, 2 Jahre Garantie; Listing-Preis ca. 86 € (Stand Suche, Tier 1)",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B08Y6148YQ",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "AXI-Anleitung Baby-Metallschaukel: max. 1 Kind/25 kg, mit mitgeliefertem Verankerungsset verankern, nicht auf hartem Untergrund aufstellen",
+          "art": "Herstellerangabe",
+          "quelle": "https://media.hornbach.ch/hb/installationmanual/as.36679551.pdf",
+          "datum": "2026-10-08"
+        }
       ],
-      "pros": ["Babyschaukel und Nestschaukel im Set", "Bodenanker im Lieferumfang", "Verzinkter/pulverbeschichteter Stahl, wenig Pflege"],
-      "cons": ["Altersangabe für Babysitz unklar – vor Kauf im Listing/Anleitung prüfen", "Keine Norm-/Prüfangabe (EN 71-8) gefunden", "Gemischte Kundenberichte zur Verarbeitung"],
-      "specs": { "Gestell": "Stahl, pulverbeschichtet, Profil ca. 50 x 50 mm", "Sitze": "Babyschaukel + Nestschaukel 90 cm", "Belastung": "Nest 150 kg", "Maße": "ca. 247 cm breit, 196 cm hoch", "Verankerung": "4 Bodenanker", "Alter": "nicht eindeutig angegeben" },
-      "asin": "B0BTDFL6RG",
-      "query": "K-Sport Doppelschaukel Metall Nestschaukel Babyschaukel",
+      "pros": [
+        "Babysitz mit Gurt ab 9 Monaten",
+        "Kompakt",
+        "Tier 1"
+      ],
+      "cons": [
+        "Nur bis 36 Monate/25 kg",
+        "Nur ein Sitz",
+        "Keine Normangabe im Listing"
+      ],
+      "specs": {
+        "Gestell": "Metall, ca. 118 cm hoch",
+        "Sitze": "1 Babysitz mit Gurt",
+        "Belastung": "25 kg",
+        "Maße": "ca. 146 x 94 x 118 cm",
+        "Verankerung": "Verankerungsset (Anleitung)",
+        "Alter": "9–36 Monate (Herstellerangabe)"
+      },
+      "asin": "B08Y6148YQ",
+      "query": "AXI Babyschaukel mit Metallgestell Grau Weiß",
       "shop": null,
       "url": null,
-      "asinGeprueft": "K-Sport: Outdoor Swing Frame, Double Swing Metal with Nest and Baby Swing, Swing Frame up to 150 kg, Outdoor Swing for Children, Garden Swing Frame, Includes Ground Anchor : Amazon.de: Toys"
+      "asinGeprueft": "AXI Baby Swing with Metal Frame in Grey and White for the Garden, Outdoor Swing for Babies and Toddlers, For Children from 9 Months, Swing Seat in Anthracite and White : Amazon.de: Toys"
     }
   ],
   "top5": [
@@ -97,28 +249,54 @@
       "name": "HUDORA Schaukelgestell Vario Doppelschaukel (Basismodul + Ergänzungsmodul Schaukelsitz)",
       "warum": "Doppelschaukel als erweiterbarer Baukasten aus verzinktem, pulverbeschichtetem Stahl – später um Nestschaukel, Gondel, Leiter oder Zelt erweiterbar",
       "fakten": [
-        { "text": "Set aus Basismodul und zweitem Schaukelsitz, 2 Kunststoff-Brettschaukeln, 4 Bodenanker, ca. 210 x 117 x 206 cm, Seilhöhe 100–158 cm, 50 kg je Sitz", "art": "Herstellerangabe", "quelle": "https://www.hudora.de/hudora-schaukelgestell-vario-doppelschaukel/bdl64044", "datum": "2026-10-08" },
-        { "text": "Nicht für Kinder unter 36 Monaten; Bodenanker laut Anleitung einbetonieren; Kunststoffteile nach spätestens 5 Jahren tauschen", "art": "Herstellerangabe", "quelle": "https://www.hudora.de/de-de/hudora-schaukelgestell-vario-basismodul-v/64024", "datum": "2026-10-08" }
+        {
+          "text": "Set aus Basismodul und zweitem Schaukelsitz, 2 Kunststoff-Brettschaukeln, 4 Bodenanker, ca. 210 x 117 x 206 cm, Seilhöhe 100–158 cm, 50 kg je Sitz",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.hudora.de/hudora-schaukelgestell-vario-doppelschaukel/bdl64044",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Nicht für Kinder unter 36 Monaten; Bodenanker laut Anleitung einbetonieren; Kunststoffteile nach spätestens 5 Jahren tauschen",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.hudora.de/de-de/hudora-schaukelgestell-vario-basismodul-v/64024",
+          "datum": "2026-10-08"
+        }
       ],
       "asin": null,
       "query": "HUDORA Schaukel Vario Basismodul 64024",
       "where": null
     },
     {
-      "name": "AXI Summer Nestschaukel mit Gestell, 100 cm, Grau & Weiß / Nestschaukel Grün",
-      "warum": "Nestschaukel-Gestell aus FSC-Holz für mehrere Kinder gleichzeitig oder zum Liegen",
+      "name": "Gartenpirat Classic Schaukel Holz Doppelschaukel Typ 1.2 mit 2 Schaukelsitzen",
+      "warum": "Klassische Holz-Doppelschaukel mit Brettsitzen für 3–14 Jahre (ersetzt nach Korrektur die AXI-Doppelschaukel als Brettsitz-Alternative)",
       "fakten": [
-        { "text": "Freistehend ca. 160 x 254 x 207 cm, Nest Ø 100 cm, max. 150 kg, 4 Bodenanker, Hemlock-Balken 7 cm; ab 3 Jahren", "art": "Händlerangabe", "quelle": "https://www.decathlon.de/p/mp/summer-schaukel-fsc-holz-nestschaukel-mit-gestell-100-cm-braun-grun/ad1d6ba8-2dc7-4662-a681-ee144376e1f3/c27", "datum": "2026-10-08" }
+        {
+          "text": "KDI-Rundholz, Pfosten Ø 8 cm, Balken Ø 10 cm, 2 Sitze, 2 Kinder 3–14 Jahre je 50 kg, Gewicht 67 kg, Bodenanker separat (Pflicht); Titel: TÜV-geprüft; Maße 240 bzw. 300 x 190 x 220 cm (uneinheitlich)",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B004S5CXEY",
+          "datum": "2026-10-08"
+        }
       ],
-      "asin": "B08463273X",
-      "query": "AXI Summer Nestschaukel mit Gestell 100 cm",
+      "asin": "B004S5CXEY",
+      "query": "Gartenpirat Classic Schaukel Holz Doppelschaukel",
       "where": null
     },
     {
       "name": "HUDORA Start Schaukelgestell inkl. Schaukelbrett",
       "warum": "Günstiges Metallgestell mit einem Brettsitz für kleine Gärten",
       "fakten": [
-        { "text": "Stahlgestell, max. 50 kg, ab 4 Jahren, laut Anleitung ca. 30 cm einbetonieren (Beton nicht enthalten); Artikelnummer 64141", "art": "Händlerangabe", "quelle": "https://www.discounto.de/Angebot/HUDORA-Schaukel-Start-9668576/", "datum": "2026-10-08" }
+        {
+          "text": "Stahlgestell, max. 50 kg, ab 4 Jahren, laut Anleitung ca. 30 cm einbetonieren (Beton nicht enthalten); Artikelnummer 64141",
+          "art": "Händlerangabe",
+          "quelle": "https://www.discounto.de/Angebot/HUDORA-Schaukel-Start-9668576/",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Amazon-Listing B0CTHXJ96N nennt Mindestalter 18 Monate und Seilhöhe 40–90 cm; Händler (discounto u. a.) nennen ab 4 Jahren – widersprüchlich, Herstellerseite nicht abrufbar",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B0CTHXJ96N",
+          "datum": "2026-10-08"
+        }
       ],
       "asin": "B0CTHXJ96N",
       "query": "HUDORA Start Schaukelgestell inkl. Schaukelbrett",
@@ -128,7 +306,18 @@
       "name": "WICKEY Kinderschaukel Schaukelgestell Smart Shake mit roter Rutsche und Kletteranbau",
       "warum": "Doppelschaukel mit Podest, Wellenrutsche und Kletteranbau – Rutsche ohne kompletten Spielturm",
       "fakten": [
-        { "text": "Ca. 368 x 390 x 215 cm (Amazon) bzw. 379 x 378 x 211 cm (Hersteller), Podest 120 cm, Wellenrutsche 220 cm, Pfosten 7 x 7 cm, 50 kg je Sitz, nicht für Kinder unter 3 Jahren, Anker einbetonieren, entwickelt gemäß DIN EN 71", "art": "Herstellerangabe", "quelle": "https://wickey.de/doppelschaukel-mit-rutsche-smart-shake", "datum": "2026-10-08" }
+        {
+          "text": "Ca. 368 x 390 x 215 cm (Amazon) bzw. 379 x 378 x 211 cm (Hersteller), Podest 120 cm, Wellenrutsche 220 cm, Pfosten 7 x 7 cm, 50 kg je Sitz, nicht für Kinder unter 3 Jahren, Anker einbetonieren, entwickelt gemäß DIN EN 71",
+          "art": "Herstellerangabe",
+          "quelle": "https://wickey.de/doppelschaukel-mit-rutsche-smart-shake",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Safety Gate A12/01216/24 betrifft Wickey Smart Dash (Modell 614476), Verletzungs-/Einklemmgefahr – anderes Modell der Smart-Serie; zur Smart Shake keine Meldung gefunden",
+          "art": "Behördenmeldung",
+          "quelle": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/lesena-gugalnica-s-toboganom/",
+          "datum": "2026-10-08"
+        }
       ],
       "asin": "B09RQP9T2R",
       "query": "Wickey Smart Shake Schaukelgestell Rutsche",
@@ -138,8 +327,18 @@
       "name": "HUDORA Brettschaukel in Schwarz (Gummibrettschaukel 72175)",
       "warum": "Schaukelsitz zum Aufhängen an Baum oder vorhandenem Gestell",
       "fakten": [
-        { "text": "Gummisitz ca. 38 x 17,5 cm mit Metallplatte, Seile 137–197 cm verstellbar, max. 100 kg, nicht für Kinder unter 36 Monaten, laut Listing TÜV Rheinland/GS-geprüft", "art": "Herstellerangabe", "quelle": "https://www.hudora.de/de-de/hudora-gummibrettschaukel/72175", "datum": "2026-10-08" },
-        { "text": "Einzelne Amazon-Rezensionen berichten von gebrochenen bzw. stark abgenutzten Ösen der Höhenverstellung – Ösen und Seile regelmäßig prüfen", "art": "Bericht", "quelle": "https://www.amazon.de/dp/B086ZFLFNX", "datum": "2026-10-08" }
+        {
+          "text": "Gummisitz ca. 38 x 17,5 cm mit Metallplatte, Seile 137–197 cm verstellbar, max. 100 kg, nicht für Kinder unter 36 Monaten, laut Listing TÜV Rheinland/GS-geprüft",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.hudora.de/de-de/hudora-gummibrettschaukel/72175",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Einzelne Amazon-Rezensionen berichten von gebrochenen bzw. stark abgenutzten Ösen der Höhenverstellung – Ösen und Seile regelmäßig prüfen",
+          "art": "Bericht",
+          "quelle": "https://www.amazon.de/dp/B086ZFLFNX",
+          "datum": "2026-10-08"
+        }
       ],
       "asin": "B086ZFLFNX",
       "query": "HUDORA Gummibrettschaukel 72175",
@@ -158,38 +357,126 @@
     "Altersangaben nur als Herstellerangabe übernehmen; relevante Norm für Heim-Schaukeln ist EN 71-8 (Aktivitätsspielzeug für den Hausgebrauch). Keiner der Top-3-Hersteller nennt EN 71-8 explizit; Wickey nennt nur „DIN EN 71“."
   ],
   "verworfen": [
-    { "name": "Gartenpirat Premium Kinderschaukel Lärche Doppelschaukel 240 x 190 x 220 cm (TÜV)", "grund": "Hochwertig (Lärche, TÜV laut Listing), aber Amazon-Treffer widersprüchlich: dieselbe ASIN B06XTRJ3Q4 einmal als Einzel-, einmal als Doppelschaukel betitelt, zweite ASIN B0F53K29FQ ebenfalls als Einzelschaukel – keine eindeutige ASIN." },
-    { "name": "Gartenpirat Schaukel-Gestell Metall Doppelschaukel TÜV-geprüft (B07RMYP7KH)", "grund": "Laut Listing derzeit nicht auf Lager; nur 35 kg je Kind." },
-    { "name": "HUDORA 64023 Schaukelgestell mit Nestschaukel 120 cm (B095MX3ZXH)", "grund": "Amazon: derzeit nicht verfügbar, unklar ob wieder lieferbar." },
-    { "name": "HUDORA HD 800 Schaukelgestell (B0069GC5Y8)", "grund": "Älteres Modell, Kundenberichte zu brechenden Schrauben und Stabilität gemischt." },
-    { "name": "AXI Babyschaukel mit Gestell aus Holz (B09BL2DF57)", "grund": "Passend ab 9 Monaten, aber nur Einzelsitz und laut Amazon derzeit nicht verfügbar." },
-    { "name": "AXI Yuna Doppelschaukel Zeder (B0CZS4K11P)", "grund": "Widersprüchliche Belastungsangaben (50 kg je Sitz vs. 84 kg), nur 3 Bewertungen." },
-    { "name": "Wickey Smart Move (B01LZQNAMO)", "grund": "Schlankere Smart-Serie und widersprüchliche Altersangabe im Listing; Aero Star (Prime) stabiler." },
-    { "name": "KOMFOTTEU / COSTWAY Doppelschaukel Metall", "grund": "Austauschbare Marktplatz-Ware ohne belastbare Norm- und Herstellerangaben." }
+    {
+      "name": "K-Sport Schaukelgestell mit Nest- und Babyschaukel (B0BTDFL6RG, bisher Platz 3)",
+      "grund": "Korrektur Runde 1: ASIN per Suche nicht mehr auffindbar; alle K-Sport-Doppelschaukeln (B092KMMMK7, B09K7TF9RD) nennen 3–10 Jahre und ‚Nestschaukel nur einzeln und mittig verwenden‘ – Rolle ‚Babysitz + Nest für Geschwister‘ nicht haltbar."
+    },
+    {
+      "name": "AXI Doppelschaukel Braun/Weiß (B0845YXDFQ, bisher Platz 2)",
+      "grund": "Korrektur Runde 1: ASIN nicht bestätigbar. Nächstes Listing B08463FTQG ist die Doppel-ANBAUschaukel A030.144.01 (160 x 244 x 207 cm, 2 Bodenanker, zum Anbau an Spielturm); die freistehende Doppelschaukel (160 x 254 x 207, 4 Anker, OBI/Hornbach) hat keine auffindbare amazon.de-ASIN."
+    },
+    {
+      "name": "Gartenpirat Premium 2.2 Doppelschaukel 9 x 9 (B00AYUZZOC)",
+      "grund": "Keine Belastungsangabe gefunden, Anker separat; als Platz 2 nicht ausreichend belegt."
+    },
+    {
+      "name": "Gartenpirat Premium Kinderschaukel Lärche Doppelschaukel 240 x 190 x 220 cm (TÜV)",
+      "grund": "Hochwertig (Lärche, TÜV laut Listing), aber Amazon-Treffer widersprüchlich: dieselbe ASIN B06XTRJ3Q4 einmal als Einzel-, einmal als Doppelschaukel betitelt, zweite ASIN B0F53K29FQ ebenfalls als Einzelschaukel – keine eindeutige ASIN."
+    },
+    {
+      "name": "Gartenpirat Schaukel-Gestell Metall Doppelschaukel TÜV-geprüft (B07RMYP7KH)",
+      "grund": "Laut Listing derzeit nicht auf Lager; nur 35 kg je Kind."
+    },
+    {
+      "name": "HUDORA 64023 Schaukelgestell mit Nestschaukel 120 cm (B095MX3ZXH)",
+      "grund": "Amazon: derzeit nicht verfügbar, unklar ob wieder lieferbar."
+    },
+    {
+      "name": "HUDORA HD 800 Schaukelgestell (B0069GC5Y8)",
+      "grund": "Älteres Modell, Kundenberichte zu brechenden Schrauben und Stabilität gemischt."
+    },
+    {
+      "name": "AXI Babyschaukel mit Gestell aus Holz (B09BL2DF57)",
+      "grund": "Passend ab 9 Monaten, aber nur Einzelsitz und laut Amazon derzeit nicht verfügbar."
+    },
+    {
+      "name": "AXI Yuna Doppelschaukel Zeder (B0CZS4K11P)",
+      "grund": "Widersprüchliche Belastungsangaben (50 kg je Sitz vs. 84 kg), nur 3 Bewertungen."
+    },
+    {
+      "name": "Wickey Smart Move (B01LZQNAMO)",
+      "grund": "Schlankere Smart-Serie und widersprüchliche Altersangabe im Listing; Aero Star (Prime) stabiler."
+    },
+    {
+      "name": "KOMFOTTEU / COSTWAY Doppelschaukel Metall",
+      "grund": "Austauschbare Marktplatz-Ware ohne belastbare Norm- und Herstellerangaben."
+    }
   ],
   "offen": [
     "Awin: keine freigeschalteten Programme (alle pending) – alle Top-3 über Amazon; Hudora Vario Doppelschaukel nur mit query (Basismodul-ASIN B07K798RHN nur über Rezensionsseite gesehen, keine /dp/-Seite bestätigt).",
-    "K-Sport (Platz 3): Mindestalter für die Babyschaukel im Listing nicht eindeutig – vor Veröffentlichung auf der Amazon-Seite/Anleitung prüfen; falls ab 3 Jahren, Rolle 3 neu besetzen (Alternative: Gestell + separater Babysitz, z. B. HUDORA Babyschaukel 12–36 Monate).",
     "Wickey Aero Star: Amazon-Variante enthält laut Listing nur 2 elastische Sitze; Wickey-Shop-Varianten mit Holzsitzen. Amazon-Bewertung nur 3,8/5 (21).",
-    "Alle drei Top-Produkte liegen in Preisklasse 2 – die Rolle „Preis-Leistung“ für AXI begründet sich mit Bodenankern, Holzsitzen und 150 kg Belastung im Set, nicht mit deutlich niedrigerem Preis.",
     "bilder.json nennt in scoresAlt fünf Kriterien (inkl. Preis); final sind es vier: Gestell & Verankerung, Sitze & Altersbereich, Wetterfestigkeit & Verarbeitung, Aufbau & Platzbedarf.",
-    "Amazon-Seiten konnten nicht direkt abgerufen werden (Proxy); ASIN-Titel nur aus Suchtreffern übernommen."
+    "Amazon-Seiten konnten nicht direkt abgerufen werden (Proxy); ASIN-Titel nur aus Suchtreffern übernommen.",
+    "Korrektur Runde 1: Rolle ‚Preis-Leistung‘ entfällt; Top 3 nach Aufgabe (Doppelschaukel / Nestschaukel / Babyschaukel), zulässig laut BRIEFING (Rollen anpassbar). B08Y6148YQ: Verfügbarkeit nur aus Suchtreffer (Preis angezeigt), nicht direkt geprüft."
   ],
   "quellen": [
-    { "titel": "Wickey Aero Star (Hersteller)", "url": "https://wickey.de/gartenschaukel-aero-star" },
-    { "titel": "Wickey Aero Star (wickey.ie, Norm/Belastung)", "url": "https://wickey.ie/garden-swing-aero-star" },
-    { "titel": "Amazon.de Wickey Aero Star", "url": "https://www.amazon.de/dp/B07953FF66" },
-    { "titel": "Amazon.de AXI Doppelschaukel Braun/Weiß", "url": "https://www.amazon.de/dp/B0845YXDFQ" },
-    { "titel": "Hornbach AXI Doppelschaukel", "url": "https://www.hornbach.at/p/doppelschaukel-axi-holz-braun-weiss/10405515/" },
-    { "titel": "Amazon.de K-Sport Doppelschaukel mit Nest- und Babyschaukel", "url": "https://www.amazon.de/dp/B0BTDFL6RG" },
-    { "titel": "Amazon.de K-Sport Doppelschaukel mit Storchennest und Brettschaukel", "url": "https://www.amazon.de/dp/B092KMMMK7" },
-    { "titel": "HUDORA Vario Doppelschaukel", "url": "https://www.hudora.de/hudora-schaukelgestell-vario-doppelschaukel/bdl64044" },
-    { "titel": "HUDORA Vario Basismodul", "url": "https://www.hudora.de/de-de/hudora-schaukelgestell-vario-basismodul-v/64024" },
-    { "titel": "Decathlon AXI Summer Nestschaukel mit Gestell", "url": "https://www.decathlon.de/p/mp/summer-schaukel-fsc-holz-nestschaukel-mit-gestell-100-cm-braun-grun/ad1d6ba8-2dc7-4662-a681-ee144376e1f3/c27" },
-    { "titel": "Wickey Smart Shake", "url": "https://wickey.de/doppelschaukel-mit-rutsche-smart-shake" },
-    { "titel": "HUDORA Gummibrettschaukel", "url": "https://www.hudora.de/de-de/hudora-gummibrettschaukel/72175" },
-    { "titel": "discounto HUDORA Start", "url": "https://www.discounto.de/Angebot/HUDORA-Schaukel-Start-9668576/" },
-    { "titel": "Stiftung Warentest: Rückruf IKEA Gunggung", "url": "https://www.test.de/Rueckruf-Ikea-Kinderschaukel-Gunggung-Abflug-programmiert-4754741-0/" },
-    { "titel": "infranken: Rückruf Lidl/Kaufland 3-in-1-Schaukel", "url": "https://www.infranken.de/deutschland/lidl-und-kaufland-rufen-3-in-1-kinder-schaukel-zurueck-verletzungsgefahr-art-5733359" }
+    {
+      "titel": "Wickey Aero Star (Hersteller)",
+      "url": "https://wickey.de/gartenschaukel-aero-star"
+    },
+    {
+      "titel": "Wickey Aero Star (wickey.ie, Norm/Belastung)",
+      "url": "https://wickey.ie/garden-swing-aero-star"
+    },
+    {
+      "titel": "Amazon.de Wickey Aero Star",
+      "url": "https://www.amazon.de/dp/B07953FF66"
+    },
+    {
+      "titel": "Hornbach AXI Doppelschaukel",
+      "url": "https://www.hornbach.at/p/doppelschaukel-axi-holz-braun-weiss/10405515/"
+    },
+    {
+      "titel": "Amazon.de K-Sport Doppelschaukel mit Storchennest und Brettschaukel",
+      "url": "https://www.amazon.de/dp/B092KMMMK7"
+    },
+    {
+      "titel": "HUDORA Vario Doppelschaukel",
+      "url": "https://www.hudora.de/hudora-schaukelgestell-vario-doppelschaukel/bdl64044"
+    },
+    {
+      "titel": "HUDORA Vario Basismodul",
+      "url": "https://www.hudora.de/de-de/hudora-schaukelgestell-vario-basismodul-v/64024"
+    },
+    {
+      "titel": "Decathlon AXI Summer Nestschaukel mit Gestell",
+      "url": "https://www.decathlon.de/p/mp/summer-schaukel-fsc-holz-nestschaukel-mit-gestell-100-cm-braun-grun/ad1d6ba8-2dc7-4662-a681-ee144376e1f3/c27"
+    },
+    {
+      "titel": "Wickey Smart Shake",
+      "url": "https://wickey.de/doppelschaukel-mit-rutsche-smart-shake"
+    },
+    {
+      "titel": "HUDORA Gummibrettschaukel",
+      "url": "https://www.hudora.de/de-de/hudora-gummibrettschaukel/72175"
+    },
+    {
+      "titel": "discounto HUDORA Start",
+      "url": "https://www.discounto.de/Angebot/HUDORA-Schaukel-Start-9668576/"
+    },
+    {
+      "titel": "Stiftung Warentest: Rückruf IKEA Gunggung",
+      "url": "https://www.test.de/Rueckruf-Ikea-Kinderschaukel-Gunggung-Abflug-programmiert-4754741-0/"
+    },
+    {
+      "titel": "infranken: Rückruf Lidl/Kaufland 3-in-1-Schaukel",
+      "url": "https://www.infranken.de/deutschland/lidl-und-kaufland-rufen-3-in-1-kinder-schaukel-zurueck-verletzungsgefahr-art-5733359"
+    },
+    {
+      "titel": "Amazon.de AXI Summer Nestschaukel",
+      "url": "https://www.amazon.de/dp/B08463273X"
+    },
+    {
+      "titel": "Amazon.de AXI Babyschaukel Metallgestell",
+      "url": "https://www.amazon.de/dp/B08Y6148YQ"
+    },
+    {
+      "titel": "Amazon.de Gartenpirat Classic",
+      "url": "https://www.amazon.de/dp/B004S5CXEY"
+    },
+    {
+      "titel": "gov.si Safety Gate A12/01216/24 Wickey Smart Dash",
+      "url": "https://www.gov.si/podrocja/podjetnistvo-in-gospodarstvo/varstvo-potrosnikov-in-konkurence/nevarni-in-neskladni-izdelki/lesena-gugalnica-s-toboganom/"
+    }
   ]
 }

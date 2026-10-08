@@ -60,7 +60,7 @@ export default {
         "Kesseldruckimprägniert, kein Farbanstrich nötig, Holz aus Europa (Händlerangabe)",
         "Bausatz mit Schrauben und Scharnieren; empfohlene Maximalbelastung 50 kg (Herstellerangabe)",
       ],
-      pros: ["Zwei Klappbänke mit Rückenlehne", "Kein Anstrich nötig", "Hohe Wand, viel Spielfläche", "Etablierte Spielgeräte-Marke"],
+      pros: ["Zwei Klappbänke mit Rückenlehne", "Kein Anstrich nötig", "Hohe Wand, viel Spielfläche", "Rechteckformat: zwei Kinder spielen nebeneinander"],
       cons: ["Langes Rechteckformat braucht Platz", "Deckelbretter können sich laut Kundenbericht anfangs leicht verschieben", "Bodenvlies nicht als Lieferumfang belegt"],
       specs: {
         masse: "ca. 110 × 165 cm",
@@ -70,7 +70,6 @@ export default {
         sand: "ca. 400 kg (halbe Füllung)",
         belastung: "50 kg (Herstellerangabe)",
       },
-      asin: "B0BSV47B8H",
       query: "WICKEY Sandkasten Flippey 110x165 cm mit Klappdeckel",
     },
     {
@@ -119,6 +118,7 @@ export default {
         "150 × 150 × 20 cm, Fassungsvermögen ca. 475 kg Sand (Herstellerangabe)",
         "Deckel klappt zu zwei Bänken mit Rückenlehne auf, Belastbarkeit 150 kg pro Bank (Herstellerangabe)",
         "100 % FSC-Hemlock, laut Hersteller splitterarm und von Natur aus witterungsbeständig",
+        "Auf Amazon ein Sammel-Listing mit mehreren Größen und Farben – dort die Größe 150 × 150 cm wählen",
       ],
       pros: ["Sehr große Spielfläche", "FSC-Holz ohne Pflichtanstrich", "Bänke bis 150 kg belastbar", "Breites AXI-Sortiment mit Ersatzgrößen"],
       cons: ["Teuer", "Wand nur 20 cm hoch", "Kundenberichte (kleinere Ella) zu schmalem Deckelspalt und rostenden Schrauben"],
@@ -180,7 +180,7 @@ export default {
           { quick: "Für die meisten Familien ist der [WICKEY Flippey 110 × 165 cm](produkt:1) nach unserer Einschätzung die beste Wahl: große Spielfläche, hohe Wand, zwei Klappbänke und wetterfestes Holz ohne Anstrich. Wer sparen will, nimmt den [HABAU 120 × 120 cm](produkt:2), wer viel Platz hat, den [AXI Ella XXL](produkt:3)." },
           { first: "Ein Sandkasten wird im Garten jahrelang genutzt – und genauso lange steht er draußen im Regen. Deshalb ist der Deckel das wichtigste Bauteil. Eine lose Plane wird nach dem dritten Mal nicht mehr festgezurrt, ein Klappdeckel dagegen ist in Sekunden zu. Bei allen drei Empfehlungen besteht er aus zwei Holzhälften, die aufgeklappt zu Sitzbänken mit Rückenlehne werden. Das Kind sitzt also nicht auf dem Rand, und der Deckel liegt nicht irgendwo im Gras." },
           { p: "Den Ausschlag für den [WICKEY Flippey](produkt:1) geben Format und Holz: Mit rund 110 × 165 cm passen zwei Kinder nebeneinander, die Wand ist laut Hersteller etwa 30 cm hoch, und das kesseldruckimprägnierte Holz muss laut Händler nicht gestrichen werden. Ein Käufer berichtet, dass sich die Deckelbretter in den ersten nassen, kalten Wochen leicht verschoben haben – ein Punkt, den man nach dem ersten Winter an den Schrauben prüfen sollte." },
-          { p: "Der [HABAU 3022](produkt:2) ist das, was viele unter „Sandkasten mit Deckel“ verstehen: 120 × 120 cm, zwei Klappbänke, viele Hundert Bewertungen. Weil das Kiefernholz unbehandelt ist, gehört vor dem Aufstellen ein wasserbasierter, für Kinderspielzeug geeigneter Holzschutz darauf. Der [AXI Ella XXL](produkt:3) spielt in einer anderen Liga: 150 × 150 cm, FSC-Hemlock und Bänke, die laut Hersteller je 150 kg tragen." },
+          { p: "Der [HABAU 3022](produkt:2) ist das, was viele unter „Sandkasten mit Deckel“ verstehen: 120 × 120 cm, zwei Klappbänke, seit Jahren am Markt. Weil das Kiefernholz unbehandelt ist, gehört vor dem Aufstellen ein wasserbasierter, für Kinderspielzeug geeigneter Holzschutz darauf. Der [AXI Ella XXL](produkt:3) spielt in einer anderen Liga: 150 × 150 cm, FSC-Hemlock und Bänke, die laut Hersteller je 150 kg tragen." },
           { figure: "scores" },
           { callout: { title: "Kein unabhängiger Test", text: "Stiftung Warentest und Öko-Test haben Sandkästen bisher nicht getestet (Stand Oktober 2026). Seiten, die einen „Sandkasten-Testsieger“ küren, werten nach eigener Angabe Kundenbewertungen aus. Unsere Bewertung beruht auf Herstellerangaben und Käuferberichten." } },
         ],
@@ -264,8 +264,8 @@ export default {
         id: "spielsand",
         h2: "Welcher Sand gehört in den Sandkasten?",
         blocks: [
-          { quick: "Nur ausdrücklich als Spielsand ausgelobter, gewaschener Sand – kein Bau- oder Bastelsand. Achte auf Spielsand nach DIN EN 71-3 bzw. mit Prüfnachweis des Anbieters." },
-          { p: "Spielsand ist gewaschen, gesiebt und so gekörnt, dass er formbar ist und kaum staubt. Bausand kann scharfkantig sein, färbt ab und ist nicht für Kinder geprüft. Anfang 2026 wurden laut produktwarnung.eu Spiel- bzw. Bastelsande von HEMA und Hobbycraft wegen Asbest zurückgerufen – betroffen waren Sandprodukte, nicht Sandkästen. Für den Sandkasten heißt das: Sand von Anbietern kaufen, die die Eignung als Spielsand und eine Prüfung nach DIN EN 71-3 angeben." },
+          { quick: "Nur ausdrücklich als Spielsand ausgelobter, gewaschener Quarzsand – kein Bausand und kein bunter Deko- oder Bastelsand. Achte auf die Auslobung „Spielsand“ und einen Prüfnachweis des Anbieters." },
+          { p: "Spielsand ist gewaschen, gesiebt und so gekörnt, dass er formbar ist und kaum staubt. Bausand kann scharfkantig sein, färbt ab und ist nicht für Kinder geprüft. 2026 hat die Stiftung Warentest in buntem Spiel-, Deko- und Bastelsand Asbest gefunden – in 10 von 22 geprüften Produkten (test.de, Stand September 2026). Die belasteten Sande bestanden überwiegend aus Kalkstein, in Produkten aus Quarzsand fanden die Tester nichts. Händler wie HEMA und Woolworth haben Produkte zurückgerufen. Gewöhnlicher Sandkasten-Spielsand ist laut Stiftung Warentest nicht betroffen. Bunten oder Deko-Sand deshalb nicht in den Sandkasten geben und beim Kauf auf die Auslobung „Spielsand“ achten, wie es auch Verbraucherratgeber empfehlen." },
           { p: "Wie viel Sand nötig ist, steht bei vielen Modellen in der Anleitung: Für den WICKEY Flippey nennt der Hersteller ca. 400 kg bei halber Füllung, für den AXI Ella XXL ca. 475 kg. Spielsand wird meist in 25-kg-Säcken verkauft – für größere Sandkästen lohnt die Lieferung als Big Bag vom Baustoff- oder Gartenhandel, sofern dort ausdrücklich Spielsand angeboten wird." },
         ],
       },
@@ -274,16 +274,15 @@ export default {
 
   faqs: [
     { q: "Welcher Sandkasten mit Deckel ist der beste?", a: "Nach unserer Einschätzung der WICKEY Flippey 110 × 165 cm mit zwei Klappbänken, hoher Wand und kesseldruckimprägniertem Holz. Günstiger ist der HABAU 3022 mit 120 × 120 cm, am größten der AXI Ella XXL mit 150 × 150 cm. Einen unabhängigen Test von Sandkästen gibt es nicht." },
-    { q: "Welcher Sand ist für den Sandkasten geeignet?", a: "Gewaschener, ausdrücklich als Spielsand verkaufter Sand. Achte auf Spielsand nach DIN EN 71-3 bzw. einen Prüfnachweis des Anbieters und verwende keinen Bau- oder Bastelsand." },
+    { q: "Welcher Sand ist für den Sandkasten geeignet?", a: "Gewaschener Quarzsand, der ausdrücklich als Spielsand verkauft wird, am besten mit Prüfnachweis des Anbieters. Bausand sowie bunter Deko- oder Bastelsand gehören nicht in den Sandkasten: In bunten Sanden aus Kalkstein hat die Stiftung Warentest 2026 teils Asbest gefunden, Sandkasten-Spielsand war laut test.de nicht betroffen." },
     { q: "Wie viel Sand braucht ein Sandkasten?", a: "Das hängt von Fläche und Füllhöhe ab; gefüllt wird meist bis zur Hälfte oder zu zwei Dritteln. Für den WICKEY Flippey nennt der Hersteller ca. 400 kg bei halber Füllung, für den AXI Ella XXL ca. 475 kg, für die AXI Ella 120 × 120 cm ca. 375 kg." },
     { q: "Wie schützt man den Sandkasten vor Katzen?", a: "Am zuverlässigsten mit einem Deckel, der nach jedem Spielen geschlossen wird. Klappbank-Deckel aus Holz sind schnell zu und bleiben am Sandkasten; Planen werden in der Praxis oft liegen gelassen. Bleibt Kot im Sand, die betroffene Stelle großzügig ausheben und ersetzen." },
     { q: "Braucht ein Sandkasten einen Boden?", a: "Einen festen Boden nicht, aber ein wasserdurchlässiges Unkrautvlies als Trennschicht. Es hält Gras und Erde fern und lässt Regenwasser abfließen; eine dichte Folie würde Staunässe verursachen." },
-    { q: "Wie oft sollte man den Sand wechseln?", a: "Bei abgedeckten Sandkästen genügt in der Regel ein Austausch alle ein bis drei Jahre; Verbraucherratgeber wie Öko-Test empfehlen diesen Rhythmus. Früher tauschen, wenn der Sand verschmutzt ist, riecht oder Tierkot hineingelangt ist. Dazwischen regelmäßig durchharken." },
+    { q: "Wie oft sollte man den Sand wechseln?", a: "Bei abgedeckten Sandkästen genügt in der Regel ein Austausch alle ein bis drei Jahre; Verbraucherratgeber empfehlen diesen Rhythmus. Früher tauschen, wenn der Sand verschmutzt ist, riecht oder Tierkot hineingelangt ist. Dazwischen regelmäßig durchharken." },
     { q: "Holz- oder Kunststoffsandkasten?", a: "Für den Garten meist Holz: größer, mit Sitzbänken und Klappdeckel, langlebig bei wetterfestem Holz. Kunststoffmuscheln sind günstig, leicht und gut für Balkon oder kleine Flächen, sammeln laut Käuferberichten aber Regenwasser im Deckel." },
   ],
 
   sources: [
-    { label: "amazon.de: WICKEY Sandkasten Flippey 110 × 165 cm", url: "https://www.amazon.de/dp/B0BSV47B8H" },
     { label: "Kaufland: WICKEY Flippey (Händlerangaben)", url: "https://www.kaufland.de/product/300411500/" },
     { label: "amazon.de: HABAU Sandkasten 3022", url: "https://www.amazon.de/dp/B004SKU1L6" },
     { label: "amazon.de: AXI Sandkasten Ella XXL", url: "https://www.amazon.de/dp/B0F7LTZ4KS" },
@@ -293,7 +292,8 @@ export default {
     { label: "amazon.de: Paradiso Toys T00752 Sandmuschel", url: "https://www.amazon.de/dp/B003A8KNEW" },
     { label: "amazon.de: Step2 Naturally Playful Sandtisch", url: "https://www.amazon.de/dp/B0009F4YR6" },
     { label: "Öko-Test: Spielsand im Test", url: "https://www.oekotest.de/kinder-familie/Spielsand-im-Test-Wie-gut-sind-die-Produkte-_102723_1.html" },
-    { label: "produktwarnung.eu: Übersicht mit Spielsand-Rückrufen 2026", url: "https://www.produktwarnung.eu/stichwort/knabberwaren" },
+    { label: "Stiftung Warentest (test.de): Asbest in buntem Spielsand gefunden (laufend aktualisiert, Stand September 2026)", url: "https://www.test.de/Verbraucherschuetzer-warnen-Asbest-in-buntem-Spielsand-gefunden-6281991-0/" },
+    { label: "Stiftung Warentest (test.de): Asbest in Spielsand – 10 von 22 Produkten belastet", url: "https://www.test.de/Deko-Spiel-und-Bastelsand-Asbest-Alarm-in-Sandprodukten-6288341-0/" },
   ],
 
   related: [

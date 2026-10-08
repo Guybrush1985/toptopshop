@@ -18,7 +18,7 @@ export default {
   lead:
     "Eine Rutsche im Kinderzimmer gibt es in zwei Bauformen: als Rutschbrett, das man an ein Kletterdreieck hängt, oder als freistehende Kleinkindrutsche mit Stufen. Welche passt, hängt vom Alter, vom vorhandenen Klettergerät und vom Platz ab.",
   answer:
-    "Unsere beste Gesamtwahl ist das [**joy of nature Rutschbrett 2in1**](produkt:1) mit Kletter- und Rutschseite für Kletterdreieck und -bogen. Am günstigsten ist die freistehende [**Smoby Life Kinderrutsche XS**](produkt:2) mit 90 cm Rutschfläche; für die Kleinsten ab ca. 1,5 Jahren eignet sich die niedrige [**Little Tikes Erste Rutsche**](produkt:3).",
+    "Unsere beste Gesamtwahl ist die [**joy of nature Holz-Rampe Rutsche 2in1**](produkt:1) mit Kletter- und Rutschseite für Kletterdreieck und -bogen. Am günstigsten ist die freistehende [**Smoby Life Kinderrutsche XS**](produkt:2) mit 90 cm Rutschfläche; für die Kleinsten ab ca. 1,5 Jahren eignet sich die niedrige [**Little Tikes Erste Rutsche**](produkt:3).",
 
   top3Title: "Unsere Top 3 Indoor-Rutschen",
   top3Intro:
@@ -95,14 +95,14 @@ export default {
       ratings: { sicherheit: 7.5, vielseitigkeit: 6.5, material: 7.0, platz: 8.5 },
       bestFor: "Erste Rutschversuche ab ca. 1,5 Jahren",
       verdict:
-        "Die niedrige Einstiegshöhe von rund 70 cm macht die Erste Rutsche zum Klassiker für die ersten Rutschversuche. Der Hersteller gibt sie ab 18 Monaten an. Sie ist eher leicht gebaut und nur bis etwa 25 kg belastbar – für größere Geschwister ist sie nicht gedacht.",
+        "Eine niedrige Rutsche mit rund 70 cm Gesamthöhe einschließlich Handläufen (Händlerangabe) – damit ist die Erste Rutsche ein Klassiker für die ersten Rutschversuche. Der Hersteller gibt sie ab 18 Monaten an. Sie ist eher leicht gebaut und nur bis etwa 25 kg belastbar – für größere Geschwister ist sie nicht gedacht.",
       features: [
         "Altersangabe 18 Monate bis 5 Jahre, für drinnen und draußen (Herstellerangabe)",
         "Maße ca. 122 × 50 × 70 cm (Händlerangabe)",
         "Handläufe werden eingeklickt, Stufen ohne Werkzeug abnehmbar (Herstellerangabe)",
         "Laut Hersteller nur unter Aufsicht und auf weichem Untergrund nutzen",
       ],
-      pros: ["Niedrige Einstiegshöhe", "Ohne Werkzeug zerlegbar", "Bewährtes Modell einer bekannten Marke"],
+      pros: ["Niedrig gebaut, rund 70 cm Gesamthöhe (Händlerangabe)", "Ohne Werkzeug zerlegbar", "Bewährtes Modell einer bekannten Marke"],
       cons: ["Geringe Belastbarkeit (Listing nennt 25 bzw. 27,2 kg)", "Einzelne Käufer berichten, dass sie beim Hochklettern nach hinten kippen kann", "Laut Hersteller nicht ab 12, sondern ab 18 Monaten"],
       specs: { bauform: "freistehend mit Stufen", masse: "ca. 122 × 50 × 70 cm", last: "ca. 25 kg", alter: "18 Monate – 5 Jahre", material: "Kunststoff" },
       asin: "B006YMOCOS",
@@ -153,7 +153,7 @@ export default {
         blocks: [
           { quick: "Wer schon ein Kletterdreieck hat, fährt mit dem [joy of nature Rutschbrett 2in1](produkt:1) am besten. Ohne Klettergerät ist die [Smoby Life Kinderrutsche XS](produkt:2) die günstigste freistehende Lösung ab 2 Jahren, die [Little Tikes Erste Rutsche](produkt:3) der niedrige Einstieg ab ca. 1,5 Jahren." },
           { first: "Die erste Frage ist nicht „welche Marke?“, sondern „steht schon ein Kletterdreieck im Zimmer?“. Ein Rutschbrett ist Zubehör: Es wird an eine Sprosse gehängt und funktioniert nur zusammen mit einem Dreieck, Bogen oder Würfel. Dafür ist es vielseitig – das [joy of nature Brett](produkt:1) hat auf der Rückseite Sprossen und wird so zur Kletterrampe oder, flach zwischen zwei Geräte gelegt, zur Brücke." },
-          { p: "Freistehende Rutschen bringen ihre Stufen selbst mit. Sie sind die richtige Wahl, wenn kein Klettergerät da ist oder keins dazukommen soll. Die [Smoby XS](produkt:2) hat mit 90 cm die längere Rutschfläche und ist laut Hersteller bis 50 kg belastbar, startet aber erst ab 2 Jahren. Die [Little Tikes Erste Rutsche](produkt:3) ist niedriger und ab 18 Monaten angegeben, trägt aber nur rund 25 kg." },
+          { p: "Freistehende Rutschen bringen ihre Stufen selbst mit. Sie sind die richtige Wahl, wenn kein Klettergerät da ist oder keins dazukommen soll. Die [Smoby XS](produkt:2) hat eine 90 cm lange Rutschfläche und ist laut Hersteller bis 50 kg belastbar, startet aber erst ab 2 Jahren. Die [Little Tikes Erste Rutsche](produkt:3) ist niedriger und ab 18 Monaten angegeben, trägt aber nur rund 25 kg." },
           { figure: "scores" },
           { quote: "Eine Rutsche im Kinderzimmer muss nicht lang sein – sie muss sicher stehen und einen freien Auslauf haben." },
         ],
@@ -164,13 +164,13 @@ export default {
         blocks: [
           { quick: "Entscheidend sind die Herstellerangaben zu Alter und Belastung, ein Seitenrand an der Rutschfläche, eine sichere Einhängung bzw. ein kippstabiler Stand und eine Länge, die zum Zimmer passt." },
           { h3: "Alter und Belastbarkeit" },
-          { p: "Die Altersangaben unterscheiden sich deutlich: ab 12 Monaten beim joy-of-nature-Brett, ab 18 Monaten bei Little Tikes, ab 2 Jahren bei Smoby. Das sind Herstellerangaben und Mindestwerte – ob dein Kind sicher hochklettert und sich hinsetzt, siehst du am besten selbst. Die Belastbarkeit entscheidet, wie lange die Rutsche mitwächst: 50 kg reichen meist bis ins Grundschulalter, 25 kg eher bis ins Kindergartenalter." },
+          { p: "Die Altersangaben unterscheiden sich deutlich: ab 12 Monaten beim joy-of-nature-Brett, ab 18 Monaten bei Little Tikes, ab 2 Jahren bei Smoby. Das sind Herstellerangaben und Mindestwerte – ob dein Kind sicher hochklettert und sich hinsetzt, siehst du am besten selbst. Die Belastbarkeit entscheidet, wie lange die Rutsche mitwächst: Je höher die Belastungsgrenze, desto länger kann dein Kind sie nutzen. Gleich das Gewicht deines Kindes mit der Herstellerangabe ab, bevor du kaufst – und später regelmäßig wieder." },
           { h3: "Seitenrand und Einstieg" },
           { p: "Ein erhöhter Rand an der Rutschfläche verhindert, dass Kinder seitlich abrutschen. Oben sollte es eine Stelle zum Festhalten geben, bevor das Kind sich hinsetzt – bei freistehenden Rutschen übernehmen das Handläufe. Bei der Little Tikes Erste Rutsche bemängeln einzelne Käufer, dass oben ein Sicherheitsrand fehlt und die Rutsche beim Hochklettern nach hinten kippen kann; stell sie deshalb mit der Rückseite nah an eine Wand und nur auf ebenen Boden." },
           { h3: "Kompatibilität bei Rutschbrettern" },
           { p: "Rutschbretter haben an einem Ende Einhängeleisten oder Haken. Sie müssen zum Sprossendurchmesser und -abstand des Kletterdreiecks passen. Das [joy of nature Brett](produkt:1) ist laut Hersteller für Kletterdreieck, -bogen und -würfel gedacht; Systemteile wie das TP Active-Tots-Brett passen dagegen nur an Geräte desselben Herstellers. Vor dem Kauf also die Maße des vorhandenen Dreiecks prüfen." },
           { h3: "Holz oder Kunststoff" },
-          { p: "Holzbretter sind leise, wirken wohnlicher und lassen sich als Kletterrampe nutzen. Kunststoffrutschen sind leichter, abwaschbar und können im Sommer mit in den Garten. Bei Holz lohnt ein Blick auf die Oberfläche: joy of nature nennt Ökowachs und Farben auf Wasserbasis, Smoby verweist auf recycelten Kunststoff." },
+          { p: "Holzbretter sind leise, wirken wohnlicher und lassen sich als Kletterrampe nutzen. Kunststoffrutschen sind leichter, abwaschbar und können im Sommer mit in den Garten. Bei Holz lohnt ein Blick auf die Oberfläche: joy of nature nennt Ökowachs und Farben auf Wasserbasis. Bei Kunststoff kannst du auf den Materialanteil achten: Smoby verweist auf mindestens 38 % recycelten Kunststoff (Herstellerangabe)." },
           {
             table: {
               caption: "Rutschbrett oder freistehende Rutsche?",
@@ -199,7 +199,7 @@ export default {
               { title: "Noch kein Klettergerät", text: "Kletterdreieck mit oder ohne Rutsche.", link: { href: "/kinder-spielplatz/indoor/pikler-dreieck/", label: "Pikler-Dreiecke" } },
             ],
           },
-          { p: "Für Geschwisterkinder mit großem Altersabstand ist die Belastbarkeit das wichtigste Kriterium: Ein Vierjähriger mit 20 kg ist für die Little Tikes schon nah an der Grenze, für das joy-of-nature-Brett und die Smoby XS nicht. Wer wenig Platz hat, sollte eine Rutsche wählen, die sich schnell zerlegen lässt – Smoby und Little Tikes kommen dabei ohne Werkzeug aus." },
+          { p: "Für Geschwisterkinder mit großem Altersabstand ist die Belastbarkeit das wichtigste Kriterium: Die Little Tikes ist laut Listing nur bis etwa 25 kg ausgelegt, das joy-of-nature-Brett und die Smoby XS laut Hersteller bis 50 kg. Gleich das Gewicht des schwersten Kindes mit diesen Angaben ab. Wer wenig Platz hat, sollte eine Rutsche wählen, die sich schnell zerlegen lässt – Smoby und Little Tikes kommen dabei ohne Werkzeug aus." },
         ],
       },
     ],
@@ -213,7 +213,7 @@ export default {
       { name: "TP 683U Active-Tots Kletterbrücke & Rutsche aus Holz", for: "Rutschbrett im TP-System", text: "Brett zum Einhängen, nutzbar als Rutsche, Brücke oder gedreht als Leiter; 100 × 45 × 5,5 cm. Wichtig: laut Hersteller nur mit dem TP Active-Tots Kletterdreieck (TP682) oder Kletterwürfel (TP684) nutzbar. Altersangabe im Listing uneinheitlich (12 bzw. 18 Monate).", asin: "B0CKQKQCDB", query: "TP 683U Active-Tots Kletterbrücke Rutsche Holz" },
       { name: "TP 687 Active-Tots Holzrutsche für den Innenbereich", for: "Freistehende Holzrutsche", text: "Klappbare Holzrutsche für drinnen als Alternative zu Kunststoff; laut Hersteller ab 18 Monaten und bis 20 kg.", asin: "B09SDHSRP2", query: "TP 687 Active-Tots Holzrutsche Innenbereich" },
       { name: "KiddyMoon Kinder Rutsche aus Holz, 2in1 Montessori, Natur", for: "Holzrutsche mit Treppe", text: "Freistehende Holzrutsche mit Treppe, laut Hersteller 101 cm Rutschlänge, 52 cm hoch, bis 50 kg, für 24 Monate bis 4 Jahre. Im Erfahrungsbericht auf dadslife.de robust, mit vereinzelten Verarbeitungsmängeln.", asin: "B0B8CJZYRT", query: "KiddyMoon Kinder Rutsche Holz Kleinkinderrutsche 2in1 Montessori Natur" },
-      { name: "BioKinder Noah Rutsche (180 cm, Massivholz Kiefer)", for: "Systemrutsche für Spielturm/Spielbett", text: "36 × 180 cm lange Rutsche für den Indoor-Spielturm bzw. das Spielbett Noah. Achtung: nur zusammen mit Noah-Spielturm und Noah-Bett nutzbar, allein nicht verwendbar. Auf amazon.de haben wir sie nicht einzeln gefunden; einzeln ist sie beim Hersteller BioKinder erhältlich.", where: "bio-kinder.de" },
+      { name: "BioKinder Noah Rutsche (180 cm, Massivholz Kiefer)", for: "Systemrutsche für Spielturm/Spielbett", text: "36 × 180 cm lange Rutsche für den Indoor-Spielturm bzw. das Spielbett Noah. Achtung: nur zusammen mit Noah-Spielturm und Noah-Bett nutzbar, allein nicht verwendbar. Auf amazon.de haben wir sie nicht einzeln gefunden; laut Händlerangaben wird sie als Zubehör zum Noah-Spielturm angeboten.", where: "Zubehör zum BioKinder-Noah-Spielturm" },
       { name: "MAMOI Montessori Rutschbrett für Kletterdreieck und Kletterbogen", for: "Zweites Brett zum Einhängen", text: "Rutschbrett für Kletterdreieck und Kletterbogen, laut Hersteller ab 1 Jahr – Alternative zum joy-of-nature-Brett, etwa als zweites Brett für einen Parcours.", asin: "B09DKXZLXW", query: "MAMOI Rutschbrett Rutsche Kletterdreieck" },
     ],
   },

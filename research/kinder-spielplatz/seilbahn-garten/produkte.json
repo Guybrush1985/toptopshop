@@ -1,179 +1,436 @@
 {
-  "slug": "seilbahn-garten",
-  "stand": "2026-10-08",
-  "criteria": [
-    { "key": "sicherheit", "label": "Sicherheit & Bremse", "weight": 0.35, "description": "Endpuffer oder Bremsfeder im Lieferumfang, Altersfreigabe, Normangaben (EN 71, EN 1176), keine Rückrufe" },
-    { "key": "belastbarkeit", "label": "Belastbarkeit & Material", "weight": 0.25, "description": "Maximallast laut Hersteller, Seildurchmesser, Qualität von Laufkatze und Spanner" },
-    { "key": "laenge", "label": "Länge & Aufbau", "weight": 0.2, "description": "Seillänge und nutzbare Strecke, Befestigung an Bäumen oder Pfosten, Spannmaterial" },
-    { "key": "ausstattung", "label": "Ausstattung & Sitz", "weight": 0.2, "description": "Tellersitz (verstellbar?), Griffe, Baumschutz, Ersatzteilversorgung" }
-  ],
-  "priceTiers": { "1": "bis ca. 100 €", "2": "ca. 100–250 €", "3": "über 250 €" },
-  "products": [
+ "slug": "seilbahn-garten",
+ "stand": "2026-10-08",
+ "criteria": [
+  {
+   "key": "sicherheit",
+   "label": "Sicherheit & Bremse",
+   "weight": 0.35,
+   "description": "Endpuffer oder Bremsfeder im Lieferumfang, Altersfreigabe, Normangaben (EN 71, EN 1176), keine Rückrufe"
+  },
+  {
+   "key": "belastbarkeit",
+   "label": "Belastbarkeit & Material",
+   "weight": 0.25,
+   "description": "Maximallast laut Hersteller, Seildurchmesser, Qualität von Laufkatze und Spanner"
+  },
+  {
+   "key": "laenge",
+   "label": "Länge & Aufbau",
+   "weight": 0.2,
+   "description": "Seillänge und nutzbare Strecke, Befestigung an Bäumen oder Pfosten, Spannmaterial"
+  },
+  {
+   "key": "ausstattung",
+   "label": "Ausstattung & Sitz",
+   "weight": 0.2,
+   "description": "Tellersitz (verstellbar?), Griffe, Baumschutz, Ersatzteilversorgung"
+  }
+ ],
+ "priceTiers": {
+  "1": "bis ca. 100 €",
+  "2": "ca. 100–250 €",
+  "3": "über 250 €"
+ },
+ "products": [
+  {
+   "rank": 1,
+   "label": "Beste Gesamtwahl",
+   "name": "small foot Seilbahn Ropeway Rapid mit längenverstellbarer Tellerschaukel (11955)",
+   "brand": "small foot (Legler)",
+   "variant": "ca. 25 m Stahlseil, max. 70 kg, ab 5 Jahren",
+   "priceTier": 2,
+   "ratings": {
+    "sicherheit": 7.5,
+    "belastbarkeit": 7,
+    "laenge": 7.5,
+    "ausstattung": 8
+   },
+   "bestFor": "Familien mit Kindern ab etwa 5 Jahren und einem normal großen Garten, die eine kompakte Seilbahn zwischen zwei Bäumen oder Pfosten wollen",
+   "fakten": [
     {
-      "rank": 1,
-      "label": "Beste Gesamtwahl",
-      "name": "small foot Seilbahn Ropeway Rapid mit längenverstellbarer Tellerschaukel (11955)",
-      "brand": "small foot (Legler)",
-      "variant": "ca. 25 m Stahlseil, max. 70 kg, ab 5 Jahren",
-      "priceTier": 2,
-      "ratings": { "sicherheit": 7.5, "belastbarkeit": 7, "laenge": 7.5, "ausstattung": 8 },
-      "bestFor": "Familien mit Kindern ab etwa 5 Jahren und einem normal großen Garten, die eine kompakte Seilbahn zwischen zwei Bäumen oder Pfosten wollen",
-      "fakten": [
-        { "text": "Stahlseil ca. 25 m, maximale Belastung 70 kg, empfohlen ab 5 Jahren", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B09WYZYX48", "datum": "2026-10-08" },
-        { "text": "Tellerschaukel in der Länge verstellbar; Seilbahn wird zwischen zwei Bäumen oder Pfosten befestigt", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B09WYZYX48", "datum": "2026-10-08" },
-        { "text": "Gummipolster am Seilende sollen die Fahrt abbremsen; Sitz-Durchmesser ca. 28 cm, Schaukellänge ca. 180 cm", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B09WYZYX48", "datum": "2026-10-08" },
-        { "text": "Bewertung auf amazon.de ca. 4,7 von 5 Sternen bei wenigen Bewertungen", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B09WYZYX48", "datum": "2026-10-08" }
-      ],
-      "pros": ["Niedrigste Altersfreigabe im Feld (ab 5 Jahren)", "Sitzhöhe über verstellbares Seil an Kindergröße anpassbar", "Etablierte Spielzeugmarke (Legler/small foot)"],
-      "cons": ["Mit 70 kg nicht für Erwachsene", "Nur Gummipuffer statt Bremsfeder (laut Beschreibung)", "Mit 25 m eher kurze Strecke"],
-      "specs": { "Seillänge": "ca. 25 m", "Max. Last": "70 kg", "Alter": "ab 5 Jahren (Herstellerangabe)", "Bremse": "Gummipuffer am Seilende", "Sitz": "Tellerschaukel Ø ca. 28 cm, längenverstellbar", "Befestigung": "Bäume oder Pfosten" },
-      "asin": "B09WYZYX48",
-      "query": "small foot Ropeway Rapid 11955",
-      "shop": null,
-      "url": null,
-      "asinGeprueft": "small foot Ropeway Rapid, with Length-Adjustable Plate Swing and Steel Cable, Max. Load 70 kg, from 5 years, 11955 (amazon.de, /dp/-Seite laut Suchtreffer)"
+     "text": "Stahlseil ca. 25 m, maximale Belastung 70 kg, empfohlen ab 5 Jahren",
+     "art": "Herstellerangabe",
+     "quelle": "https://www.amazon.de/dp/B09WYZYX48",
+     "datum": "2026-10-08"
     },
     {
-      "rank": 2,
-      "label": "Premium-Wahl",
-      "name": "Slackers Eagle Zipline 30 m (980005)",
-      "brand": "Slackers (Vertrieb Schildkröt Funsports)",
-      "variant": "30 m verzinktes Stahlseil Ø 5 mm, max. 90 kg, ab 8 Jahren",
-      "priceTier": 3,
-      "ratings": { "sicherheit": 6.5, "belastbarkeit": 8.5, "laenge": 7.5, "ausstattung": 7.5 },
-      "bestFor": "Größere Kinder ab 8 Jahren und Gärten mit zwei kräftigen Bäumen (mind. 30 cm Durchmesser) im Abstand von bis zu 30 m",
-      "fakten": [
-        { "text": "Spannweite bis max. 30 m zwischen zwei Bäumen mit mindestens 30 cm Durchmesser, nutzbare Länge ca. 27 m", "art": "Händlerangabe", "quelle": "https://secure.fitshop.nl/en/slackers-eagle-zipline-dsk-980005", "datum": "2026-10-08" },
-        { "text": "Verzinktes Stahlseil Ø 5 mm, max. Nutzergewicht 90 kg, ab 8 Jahren; Lieferumfang: Griff/Laufwagen aus Metall mit Kunststoffgehäuse, 30 m Seil, Tellersitz, 1,5 m Seil, 3 Seilklemmen, Spanner", "art": "Händlerangabe", "quelle": "https://secure.fitshop.nl/en/slackers-eagle-zipline-dsk-980005", "datum": "2026-10-08" },
-        { "text": "Laut einer Kundenrezension auf amazon.de ist keine Bremsfeder im Lieferumfang; sie muss separat bestellt werden", "art": "Bericht", "quelle": "https://www.amazon.de/dp/B087SQMG93", "datum": "2026-10-08" },
-        { "text": "Nutzung laut Warnhinweis nur unter direkter Aufsicht eines Erwachsenen", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B087SQMG93", "datum": "2026-10-08" }
-      ],
-      "pros": ["Dickeres 5-mm-Seil und 90 kg Maximallast", "Bekannte Outdoor-Marke mit Vertrieb über Schildkröt in Deutschland", "Rutschfeste Griffe und Tellersitz"],
-      "cons": ["Bremsfeder laut Rezension nicht enthalten – separat kaufen", "Erst ab 8 Jahren", "Hohe Preisklasse"],
-      "specs": { "Seillänge": "30 m (nutzbar ca. 27 m)", "Seil": "verzinkter Stahl, Ø 5 mm", "Max. Last": "90 kg", "Alter": "ab 8 Jahren (Herstellerangabe)", "Bremse": "nicht im Lieferumfang (laut Rezension)", "Sitz": "Tellersitz" },
-      "asin": "B087SQMG93",
-      "query": "Slackers Eagle Zipline 30 m 980005",
-      "shop": null,
-      "url": null,
-      "asinGeprueft": "Slackers USA 980005 Eagle Zip Line 30 m Long Zipline Flying Fox with Solid Metal and Plastic Casing Robust Steel Cable Diameter 5 mm Including Swing (amazon.de, /dp/-Seite laut Suchtreffer)"
+     "text": "Tellerschaukel in der Länge verstellbar; Seilbahn wird zwischen zwei Bäumen oder Pfosten befestigt",
+     "art": "Herstellerangabe",
+     "quelle": "https://www.amazon.de/dp/B09WYZYX48",
+     "datum": "2026-10-08"
     },
     {
-      "rank": 3,
-      "label": "Bestes Preis-Leistungs-Verhältnis",
-      "name": "KBT Seilbahn grün 30 m (24302)",
-      "brand": "KBT",
-      "variant": "30 m Stahlseil Ø 4 mm, max. 70 kg",
-      "priceTier": 1,
-      "ratings": { "sicherheit": 7, "belastbarkeit": 6.5, "laenge": 7.5, "ausstattung": 6.5 },
-      "bestFor": "Eltern, die günstig eine klassische 30-m-Kinderseilbahn zwischen zwei Bäumen spannen wollen und Ersatzteile vom selben Hersteller schätzen",
-      "fakten": [
-        { "text": "30 m Stahlseil mit 4 mm Durchmesser für eine Strecke bis 27 m, maximale Belastung 70 kg, empfohlen für Kinder von 8 bis 12 Jahren", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B008CPDW9Q", "datum": "2026-10-08" },
-        { "text": "Mit Spielzeug-Sicherheitsnorm EN 71 angegeben; Befestigung an Bäumen", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B008CPDW9Q", "datum": "2026-10-08" },
-        { "text": "Kundenberichte: Seil schwer zu spannen, hängt trotzdem etwas durch; Gummistopper am Ende verschleißt schnell", "art": "Bericht", "quelle": "https://www.amazon.de/dp/B008CPDW9Q", "datum": "2026-10-08" },
-        { "text": "KBT bietet passende Edelstahl-Spiralbremsfedern (1,5 m und 3 m) und Laufkatzen als Ersatz- bzw. Zubehörteile auf amazon.de an", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B01LXQD5TU", "datum": "2026-10-08" }
-      ],
-      "pros": ["Niedrige Preisklasse", "EN-71-Angabe", "Ersatz- und Zubehörteile vom Hersteller erhältlich"],
-      "cons": ["Nur 4-mm-Seil und 70 kg", "Gummistopper verschleißt laut Kunden schnell", "Spannen kostet Kraft"],
-      "specs": { "Seillänge": "30 m (Strecke bis 27 m)", "Seil": "Stahl, Ø 4 mm", "Max. Last": "70 kg", "Alter": "8–12 Jahre (Herstellerangabe)", "Bremse": "Gummistopper; Bremsfeder als Zubehör", "Norm": "EN 71 (Herstellerangabe)" },
-      "asin": "B008CPDW9Q",
-      "query": "KBT Seilbahn grün 30 m 24302",
-      "shop": null,
-      "url": null,
-      "asinGeprueft": "Seilbahn grün / KBT 24302 Cable Car Green (amazon.de, /dp/-Seite laut Suchtreffer)"
+     "text": "Gummipolster am Seilende sollen die Fahrt abbremsen; Sitz-Durchmesser ca. 28 cm, Schaukellänge ca. 180 cm",
+     "art": "Herstellerangabe",
+     "quelle": "https://www.amazon.de/dp/B09WYZYX48",
+     "datum": "2026-10-08"
+    },
+    {
+     "text": "Bewertung auf amazon.de ca. 4,7 von 5 Sternen bei wenigen Bewertungen",
+     "art": "Händlerangabe",
+     "quelle": "https://www.amazon.de/dp/B09WYZYX48",
+     "datum": "2026-10-08"
+    },
+    {
+     "text": "Altersangaben im Listing uneinheitlich: Titel 'ab 5 Jahren', technische Daten '36 Monate bis 12 Jahre'; im Text wird die vorsichtigere Angabe (ab 5 Jahren) genannt",
+     "art": "Händlerangabe",
+     "quelle": "https://www.amazon.de/dp/B09WYZYX48",
+     "datum": "2026-10-08 (laut Prüfbericht)"
     }
-  ],
-  "top5": [
+   ],
+   "pros": [
+    "Niedrigste Altersfreigabe im Feld (ab 5 Jahren)",
+    "Sitzhöhe über verstellbares Seil an Kindergröße anpassbar",
+    "Etablierte Spielzeugmarke (Legler/small foot)"
+   ],
+   "cons": [
+    "Mit 70 kg nicht für Erwachsene",
+    "Nur Gummipuffer statt Bremsfeder (laut Beschreibung)",
+    "Mit 25 m eher kurze Strecke"
+   ],
+   "specs": {
+    "Seillänge": "ca. 25 m",
+    "Max. Last": "70 kg",
+    "Alter": "ab 5 Jahren (Herstellerangabe)",
+    "Bremse": "Gummipuffer am Seilende",
+    "Sitz": "Tellerschaukel Ø ca. 28 cm, längenverstellbar",
+    "Befestigung": "Bäume oder Pfosten"
+   },
+   "asin": "B09WYZYX48",
+   "query": "small foot Ropeway Rapid 11955",
+   "shop": null,
+   "url": null,
+   "asinGeprueft": "small foot Ropeway Rapid, with Length-Adjustable Plate Swing and Steel Cable, Max. Load 70 kg, from 5 years, 11955 (amazon.de, /dp/-Seite laut Suchtreffer)",
+   "gesamt": 7.48
+  },
+  {
+   "rank": 2,
+   "label": "Bestes Preis-Leistungs-Verhältnis",
+   "name": "KBT Seilbahn grün 30 m (24302)",
+   "brand": "KBT",
+   "variant": "30 m Stahlseil Ø 4 mm, max. 70 kg",
+   "priceTier": 1,
+   "ratings": {
+    "sicherheit": 7,
+    "belastbarkeit": 6.5,
+    "laenge": 7.5,
+    "ausstattung": 5.5
+   },
+   "bestFor": "Eltern, die günstig eine klassische 30-m-Kinderseilbahn zwischen zwei Bäumen spannen wollen und Ersatzteile vom selben Hersteller schätzen",
+   "fakten": [
     {
-      "name": "Gartenwelt Riegelsberger Seilbahn Para 30 m (grün; baugleich als Gartenpirat Para in Rot)",
-      "warum": "Günstige Alternative für den 20–30-m-Garten: 30 m Stahlseil Ø 4 mm, laut Hersteller bis 80 kg und nur für Kinder ab 8 Jahren.",
-      "fakten": [
-        { "text": "30 m Stahlseil Ø 4 mm, max. 80 kg, nur für Kinder ab 8 Jahren", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B01F01N49C", "datum": "2026-10-08" },
-        { "text": "Kundenhinweis: Seil ist schwer und muss sehr straff gespannt werden; Bäume an den Befestigungspunkten schützen", "art": "Bericht", "quelle": "https://www.amazon.de/dp/B01F01N49C", "datum": "2026-10-08" }
-      ],
-      "asin": "B01F01N49C",
-      "query": "Gartenwelt Riegelsberger Seilbahn Para 30 m grün",
-      "where": null
+     "text": "30 m Stahlseil mit 4 mm Durchmesser für eine Strecke bis 27 m, maximale Belastung 70 kg, empfohlen für Kinder von 8 bis 12 Jahren",
+     "art": "Herstellerangabe",
+     "quelle": "https://www.amazon.de/dp/B008CPDW9Q",
+     "datum": "2026-10-08"
     },
     {
-      "name": "SPRINGOS Seilrutsche 30 m (KG0011) – bis 120 kg",
-      "warum": "Für Jugendliche und Erwachsene: 6-mm-Seil, 120 kg Maximallast, Federdämpfer-Bremse, Ratschengurt und Baumschutz im Set.",
-      "fakten": [
-        { "text": "30 m Stahlseil Ø 6 mm, max. 120 kg; Federdämpfer-Bremse 109 cm; Tellersitz Ø 27,5 cm; Laufwagen mit 2 Kugellagern; Ratschengurt und Baumschutzpolster im Lieferumfang", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B0C4V391HD", "datum": "2026-10-08" },
-        { "text": "Kein Hersteller-Datenblatt und keine Normangabe (EN 71) gefunden; Altersangabe im Listing uneindeutig", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B0C4V391HD", "datum": "2026-10-08" }
-      ],
-      "asin": "B0C4V391HD",
-      "query": "SPRINGOS Seilrutsche 30 m 120 kg",
-      "where": null
+     "text": "Mit Spielzeug-Sicherheitsnorm EN 71 angegeben; Befestigung an Bäumen",
+     "art": "Herstellerangabe",
+     "quelle": "https://www.amazon.de/dp/B008CPDW9Q",
+     "datum": "2026-10-08"
     },
     {
-      "name": "CTSC Gartenseilbahn-Set 47 m mit Edelstahl-Federbremse",
-      "warum": "Einziges gefundenes Komplettset nahe 50 m mit Federbremse, Laufrolle und Sicherheitsgurt – für sehr lange Gärten. Herkunft/Normen unklar, daher nur als Längen-Option.",
-      "fakten": [
-        { "text": "Set mit ca. 47 m Seil, Edelstahl-Federbremse, Laufrolle und Sicherheitsgurt; die 25-m-Variante hat eine 1,8 m lange Bremsfeder", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B0CFTSTVZ5", "datum": "2026-10-08" }
-      ],
-      "asin": null,
-      "query": "CTSC Seilbahn 47 m Edelstahl Federbremse",
-      "where": null
+     "text": "Kundenberichte: Seil schwer zu spannen, hängt trotzdem etwas durch; Gummistopper am Ende verschleißt schnell",
+     "art": "Bericht",
+     "quelle": "https://www.amazon.de/dp/B008CPDW9Q",
+     "datum": "2026-10-08"
     },
     {
-      "name": "Loggyland Seilbahn für öffentliche Spielplätze (8265)",
-      "warum": "Seilbahn mit eigener Konstruktion für Gärten ohne geeignete Bäume bzw. für Kita/Schulhof; laut Hersteller nach DIN EN 1176 für öffentliche Spielplätze.",
-      "fakten": [
-        { "text": "Für Kinder von 6 bis 14 Jahren; Maße ca. H 4,16 × L 9,5 m; entspricht laut Angabe DIN EN 1176:2008 für öffentliche Spielplätze", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B00JS24PSY", "datum": "2026-10-08" }
-      ],
-      "asin": "B00JS24PSY",
-      "query": "Loggyland Seilbahn für öffentliche Spielplätze 8265",
-      "where": null
+     "text": "KBT bietet passende Edelstahl-Spiralbremsfedern (1,5 m und 3 m) und Laufkatzen als Ersatz- bzw. Zubehörteile auf amazon.de an",
+     "art": "Händlerangabe",
+     "quelle": "https://www.amazon.de/dp/B01LXQD5TU",
+     "datum": "2026-10-08"
     },
     {
-      "name": "Klingl Spielgeräte Seilbahn Komplettset 25 m – öffentlicher Bereich DIN 1176 (Rundholz)",
-      "warum": "Profi-Qualität für Pfosten aus Rundholz: 10-mm-Seil, Edelstahl-Laufkatze (V2A), 1,5-m-Bremsfeder, nachspannbar – Pendelsitz und Haltegriff müssen extra gekauft werden.",
-      "fakten": [
-        { "text": "Verzinkter Spanner und Halter, 25 m Seil Ø 10 mm, Bremsfeder 1,5 m, Laufkatze aus Edelstahl V2A; nach DIN 1176 für öffentliche Spielplätze; Lieferung ohne Pendelsitz und Haltegriff", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B093BFVKSX", "datum": "2026-10-08" }
-      ],
-      "asin": "B093BFVKSX",
-      "query": "Klingl Seilbahn Komplettset 25 Meter öffentlicher Bereich DIN 1176",
-      "where": null
+     "text": "Kunststoff-Schalensitz für die Seilbahn wird separat verkauft (nicht im Lieferumfang)",
+     "art": "Händlerangabe",
+     "quelle": "https://www.amazon.de/dp/B008CPDW9Q",
+     "datum": "2026-10-08 (über Suchergebnis, Korrektur Runde 1)"
     }
-  ],
-  "tests": [],
-  "warnungen": [
-    "Kein unabhängiger Test (Stiftung Warentest, Öko-Test, ADAC) zu Garten-Kinderseilbahnen gefunden (Suche 2026-10-08).",
-    "US-Rückruf Trsmima-Zipline-Kits und Trsmima-Federbremsen (CPSC, 30.07.2026, Nr. 26-632): ca. 60.720 Kits und 19.120 Federbremsen; Seil, Spanner oder Sitz können sich lösen oder brechen, Federbremsen bremsen nicht ausreichend, keine Notbremse; Nutzung sofort einstellen. Trsmima-Kit wird auch auf amazon.de gelistet (B087NRVW37) – nicht empfehlen. Quelle: https://www.cpsc.gov/Recalls/2026/Trsmima-Zipline-Kits-and-Zipline-Spring-Brakes-Recalled-Due-to-Fall-and-Collision-Hazards-Manufactured-by-Trsmima",
-    "US-Rückruf Jugader-Zipline-Kits (CPSC 2024): Seil kann reißen, 9 Verletzte. Quelle: https://www.cpsc.gov/Recalls/2024/Zipline-Kits-Recalled-Due-to-Fall-Hazard-Sold-Exclusively-on-Amazon-com-by-Jugader",
-    "Für Seilbahnen auf öffentlichen Spielplätzen gilt DIN EN 1176-4 (Ausgabe 2019-05); die alte DIN 7926-4 ist zurückgezogen. Garten-Sets sind meist nur als Spielzeug (EN 71) deklariert. Quelle: https://www.dinmedia.de/de/norm/din-en-1176-4/300005519",
-    "Altersangaben und Maximallasten sind durchweg Herstellerangaben; viele Sets nur unter Aufsicht Erwachsener. Endbremse (Bremsfeder/Puffer) und Baumschutz sind sicherheitsrelevant – bei Sets ohne Bremsfeder (z. B. Slackers laut Rezension) separat nachrüsten.",
-    "Kein Eintrag in EU Safety Gate zu den gewählten Modellen gefunden (nur Websuche, keine direkte Datenbankabfrage möglich)."
-  ],
-  "verworfen": [
-    { "name": "Trsmima Zipline Kit (u. a. B087NRVW37)", "grund": "CPSC-Rückruf 2026 wegen Fall- und Kollisionsgefahr (Seil/Spanner/Sitz, zu schwache Federbremse)" },
-    { "name": "Jugader Zipline Kits", "grund": "CPSC-Rückruf 2024 wegen reißender Seile" },
-    { "name": "VEVOR Zipline Kit bis 500 lbs (B0DGRP1MCH)", "grund": "Listing derzeit nicht verfügbar, Seillänge unklar, widersprüchliche Altersangaben („nur für Teenager“)" },
-    { "name": "Loggyland Kinder Seilbahn Kabelbahn 25 m öffentlich TÜV/GS (B008EC9JU8)", "grund": "Lieferumfang (Sitz, Bremse, Seil) und technische Daten nicht belastbar recherchierbar; Klingl-Set mit klaren Angaben bevorzugt" },
-    { "name": "Outsunny Seilrutschen-Set 80 kg (B0BW2YMMVY), MASGAMES 30 m (B089MC2ZVC)", "grund": "Austauschbare Marktplatz-Ware ohne Normangaben; keine Vorteile gegenüber KBT/Gartenwelt" }
-  ],
-  "offen": [
-    "Amazon-Produktseiten konnten nicht direkt abgerufen werden (WebFetch: DNS-Fehler); ASINs nur über amazon.de-Suchtreffer mit /dp/-URL und passendem Titel bestätigt. Verfügbarkeit/aktives Listing vor Veröffentlichung stichprobenartig prüfen.",
-    "CTSC 47 m: keine eindeutige ASIN für die 47-m-Variante gefunden (nur 25-m-Varianten B0CFTSTVZ5/B0FJ1HPBFZ) – nur `query` gesetzt.",
-    "Gartenpirat Para 30 m rot: keine eindeutige ASIN gefunden; stattdessen baugleich wirkende Gartenwelt-Riegelsberger-Variante (grün, B01F01N49C) übernommen.",
-    "Slackers Eagle 30 m: Lieferumfang Bremsfeder widersprüchlich (Rezension sagt: nicht enthalten) – im Text als Nachrüst-Hinweis formulieren; Preisklasse 3 geschätzt (anderes Eagle-Listing ca. 448 €).",
-    "small foot Ropeway Rapid: Preisklasse 2 geschätzt, Preis nicht verifiziert; Herstellerseite (small-foot.de) nicht abrufbar.",
-    "Loggyland 8265: Konstruktion (Gestell/Pfosten) und Lieferumfang nicht im Detail bestätigt – vor Nennung als „Seilbahn ohne Bäume“ prüfen.",
-    "Awin: laut Auftrag keine freigeschalteten Programme – alle Produkte über Amazon; keine Awin-Bewerbung nötig."
-  ],
-  "quellen": [
-    { "titel": "amazon.de – small foot Ropeway Rapid 11955", "url": "https://www.amazon.de/dp/B09WYZYX48" },
-    { "titel": "amazon.de – Slackers Eagle Zip Line 30 m 980005", "url": "https://www.amazon.de/dp/B087SQMG93" },
-    { "titel": "Fitshop – Slackers Eagle Zipline 980005 (technische Daten)", "url": "https://secure.fitshop.nl/en/slackers-eagle-zipline-dsk-980005" },
-    { "titel": "amazon.de – KBT Seilbahn grün 24302", "url": "https://www.amazon.de/dp/B008CPDW9Q" },
-    { "titel": "amazon.de – KBT Spiralbremsfeder 1,5 m", "url": "https://www.amazon.de/dp/B01LXQD5TU" },
-    { "titel": "amazon.de – Gartenwelt Riegelsberger Seilbahn Para 30 m", "url": "https://www.amazon.de/dp/B01F01N49C" },
-    { "titel": "amazon.de – SPRINGOS Seilrutsche 30 m", "url": "https://www.amazon.de/dp/B0C4V391HD" },
-    { "titel": "amazon.de – CTSC Gartenseilbahn-Set", "url": "https://www.amazon.de/dp/B0CFTSTVZ5" },
-    { "titel": "amazon.de – Loggyland Seilbahn für öffentliche Spielplätze", "url": "https://www.amazon.de/dp/B00JS24PSY" },
-    { "titel": "amazon.de – Klingl Seilbahn Komplettset 25 m DIN 1176", "url": "https://www.amazon.de/dp/B093BFVKSX" },
-    { "titel": "CPSC – Trsmima Zipline Kits Recall (2026)", "url": "https://www.cpsc.gov/Recalls/2026/Trsmima-Zipline-Kits-and-Zipline-Spring-Brakes-Recalled-Due-to-Fall-and-Collision-Hazards-Manufactured-by-Trsmima" },
-    { "titel": "CPSC – Jugader Zipline Kits Recall (2024)", "url": "https://www.cpsc.gov/Recalls/2024/Zipline-Kits-Recalled-Due-to-Fall-Hazard-Sold-Exclusively-on-Amazon-com-by-Jugader" },
-    { "titel": "DIN Media – DIN EN 1176-4 Seilbahnen", "url": "https://www.dinmedia.de/de/norm/din-en-1176-4/300005519" }
-  ]
+   ],
+   "pros": [
+    "Niedrige Preisklasse",
+    "EN-71-Angabe",
+    "Ersatz- und Zubehörteile vom Hersteller erhältlich"
+   ],
+   "cons": [
+    "Sitz nicht im Lieferumfang – muss extra gekauft werden",
+    "Nur 4-mm-Seil und 70 kg",
+    "Gummistopper verschleißt laut Kunden schnell",
+    "Spannen kostet Kraft"
+   ],
+   "specs": {
+    "Seillänge": "30 m (Strecke bis 27 m)",
+    "Seil": "Stahl, Ø 4 mm",
+    "Max. Last": "70 kg",
+    "Alter": "8–12 Jahre (Herstellerangabe)",
+    "Bremse": "Gummistopper; Bremsfeder als Zubehör",
+    "Norm": "EN 71 (Herstellerangabe)",
+    "Sitz": "nicht im Lieferumfang (separat erhältlich)"
+   },
+   "asin": "B008CPDW9Q",
+   "query": "KBT Seilbahn grün 30 m 24302",
+   "shop": null,
+   "url": null,
+   "asinGeprueft": "Seilbahn grün / KBT 24302 Cable Car Green (amazon.de, /dp/-Seite laut Suchtreffer)",
+   "gesamt": 6.68
+  },
+  {
+   "rank": 3,
+   "label": "Beste Wahl für größere Kinder",
+   "name": "Slackers Eagle Zipline 30 m (980005)",
+   "brand": "Slackers",
+   "variant": "30 m verzinktes Stahlseil Ø 5 mm, max. 90 kg, ab 8 Jahren",
+   "priceTier": 2,
+   "ratings": {
+    "sicherheit": 6.5,
+    "belastbarkeit": 8.5,
+    "laenge": 7.5,
+    "ausstattung": 7.5
+   },
+   "bestFor": "Größere Kinder ab 8 Jahren und Gärten mit zwei kräftigen Bäumen (mind. 30 cm Durchmesser) im Abstand von bis zu 30 m",
+   "fakten": [
+    {
+     "text": "Spannweite bis max. 30 m zwischen zwei Bäumen mit mindestens 30 cm Durchmesser, nutzbare Länge ca. 27 m",
+     "art": "Händlerangabe",
+     "quelle": "https://secure.fitshop.nl/en/slackers-eagle-zipline-dsk-980005",
+     "datum": "2026-10-08"
+    },
+    {
+     "text": "Verzinktes Stahlseil Ø 5 mm, max. Nutzergewicht 90 kg, ab 8 Jahren; Lieferumfang: Griff/Laufwagen aus Metall mit Kunststoffgehäuse, 30 m Seil, Tellersitz, 1,5 m Seil, 3 Seilklemmen, Spanner",
+     "art": "Händlerangabe",
+     "quelle": "https://secure.fitshop.nl/en/slackers-eagle-zipline-dsk-980005",
+     "datum": "2026-10-08"
+    },
+    {
+     "text": "Laut einer Kundenrezension auf amazon.de ist keine Bremsfeder im Lieferumfang; sie muss separat bestellt werden",
+     "art": "Bericht",
+     "quelle": "https://www.amazon.de/dp/B087SQMG93",
+     "datum": "2026-10-08"
+    },
+    {
+     "text": "Nutzung laut Warnhinweis nur unter direkter Aufsicht eines Erwachsenen",
+     "art": "Herstellerangabe",
+     "quelle": "https://www.amazon.de/dp/B087SQMG93",
+     "datum": "2026-10-08"
+    },
+    {
+     "text": "Preisangaben: eBay.de-Händlerlisting (Herstellernr. 980005) 159,95 €; amazon.de-Suchtreffer 'Angebote ab ca. 110 €' laut Prüfer – daher Preisklasse 2 (ca. 100–250 €)",
+     "art": "Händlerangabe",
+     "quelle": "https://www.ebay.de/p/6039725429",
+     "datum": "2026-10-08 (über Suchergebnis, Korrektur Runde 1)"
+    }
+   ],
+   "pros": [
+    "Dickeres 5-mm-Seil und 90 kg Maximallast",
+    "Tellersitz laut Händler im Lieferumfang",
+    "Nutzbare Strecke ca. 27 m"
+   ],
+   "cons": [
+    "Bremsfeder laut Rezension nicht enthalten – separat kaufen",
+    "Erst ab 8 Jahren",
+    "Braucht kräftige Bäume (mind. 30 cm Stammdurchmesser laut Händler)"
+   ],
+   "specs": {
+    "Seillänge": "30 m (nutzbar ca. 27 m)",
+    "Seil": "verzinkter Stahl, Ø 5 mm",
+    "Max. Last": "90 kg",
+    "Alter": "ab 8 Jahren (Herstellerangabe)",
+    "Bremse": "nicht im Lieferumfang (laut Rezension)",
+    "Sitz": "Tellersitz"
+   },
+   "asin": null,
+   "query": "Slackers Eagle Zipline 30 m 980005",
+   "shop": null,
+   "url": null,
+   "asinGeprueft": "Korrektur Runde 1: B087SQMG93 per WebSearch (amazon.de) nicht erneut bestätigbar – Suchtreffer nennen das Produkt 'Seilrutsche Eagle 30m … Stahlseil Ø5mm', aber ohne /dp/-URL. ASIN entfernt, nur query.",
+   "gesamt": 7.4
+  }
+ ],
+ "top5": [
+  {
+   "name": "Gartenwelt Riegelsberger Seilbahn Para 30 m (grün; baugleich als Gartenpirat Para in Rot)",
+   "warum": "Günstige Alternative für den 20–30-m-Garten: 30 m Stahlseil Ø 4 mm, laut Hersteller bis 80 kg und nur für Kinder ab 8 Jahren.",
+   "fakten": [
+    {
+     "text": "30 m Stahlseil Ø 4 mm, max. 80 kg, nur für Kinder ab 8 Jahren",
+     "art": "Herstellerangabe",
+     "quelle": "https://www.amazon.de/dp/B01F01N49C",
+     "datum": "2026-10-08"
+    },
+    {
+     "text": "Kundenhinweis: Seil ist schwer und muss sehr straff gespannt werden; Bäume an den Befestigungspunkten schützen",
+     "art": "Bericht",
+     "quelle": "https://www.amazon.de/dp/B01F01N49C",
+     "datum": "2026-10-08"
+    }
+   ],
+   "asin": "B01F01N49C",
+   "query": "Gartenwelt Riegelsberger Seilbahn Para 30 m grün",
+   "where": null
+  },
+  {
+   "name": "SPRINGOS Seilrutsche 30 m (KG0011) – bis 120 kg",
+   "warum": "Für Jugendliche und Erwachsene: 6-mm-Seil, 120 kg Maximallast, Federdämpfer-Bremse, Ratschengurt und Baumschutz im Set.",
+   "fakten": [
+    {
+     "text": "30 m Stahlseil Ø 6 mm, max. 120 kg; Federdämpfer-Bremse 109 cm; Tellersitz Ø 27,5 cm; Laufwagen mit 2 Kugellagern; Ratschengurt und Baumschutzpolster im Lieferumfang",
+     "art": "Herstellerangabe",
+     "quelle": "https://www.amazon.de/dp/B0C4V391HD",
+     "datum": "2026-10-08"
+    },
+    {
+     "text": "Kein Hersteller-Datenblatt und keine Normangabe (EN 71) gefunden; Altersangabe im Listing uneindeutig",
+     "art": "Händlerangabe",
+     "quelle": "https://www.amazon.de/dp/B0C4V391HD",
+     "datum": "2026-10-08"
+    }
+   ],
+   "asin": "B0C4V391HD",
+   "query": "SPRINGOS Seilrutsche 30 m 120 kg",
+   "where": null
+  },
+  {
+   "name": "CTSC Gartenseilbahn-Set 47 m mit Edelstahl-Federbremse",
+   "warum": "Einziges gefundenes Komplettset nahe 50 m mit Federbremse, Laufrolle und Sicherheitsgurt – für sehr lange Gärten. Herkunft/Normen unklar, daher nur als Längen-Option.",
+   "fakten": [
+    {
+     "text": "Set mit ca. 47 m Seil, Edelstahl-Federbremse, Laufrolle und Sicherheitsgurt; die 25-m-Variante hat eine 1,8 m lange Bremsfeder",
+     "art": "Händlerangabe",
+     "quelle": "https://www.amazon.de/dp/B0CFTSTVZ5",
+     "datum": "2026-10-08"
+    }
+   ],
+   "asin": null,
+   "query": "CTSC Seilbahn 47 m Edelstahl Federbremse",
+   "where": null
+  },
+  {
+   "name": "Loggyland Seilbahn für öffentliche Spielplätze (8265)",
+   "warum": "Seilbahn mit eigener Konstruktion für Gärten ohne geeignete Bäume bzw. für Kita/Schulhof; laut Hersteller nach DIN EN 1176 für öffentliche Spielplätze.",
+   "fakten": [
+    {
+     "text": "Für Kinder von 6 bis 14 Jahren; Maße ca. H 4,16 × L 9,5 m; entspricht laut Angabe DIN EN 1176:2008 für öffentliche Spielplätze",
+     "art": "Herstellerangabe",
+     "quelle": "https://www.amazon.de/dp/B00JS24PSY",
+     "datum": "2026-10-08"
+    }
+   ],
+   "asin": "B00JS24PSY",
+   "query": "Loggyland Seilbahn für öffentliche Spielplätze 8265",
+   "where": null
+  },
+  {
+   "name": "Klingl Spielgeräte Seilbahn Komplettset 25 m – öffentlicher Bereich DIN 1176 (Rundholz)",
+   "warum": "Profi-Qualität für Pfosten aus Rundholz: 10-mm-Seil, Edelstahl-Laufkatze (V2A), 1,5-m-Bremsfeder, nachspannbar – Pendelsitz und Haltegriff müssen extra gekauft werden.",
+   "fakten": [
+    {
+     "text": "Verzinkter Spanner und Halter, 25 m Seil Ø 10 mm, Bremsfeder 1,5 m, Laufkatze aus Edelstahl V2A; nach DIN 1176 für öffentliche Spielplätze; Lieferung ohne Pendelsitz und Haltegriff",
+     "art": "Herstellerangabe",
+     "quelle": "https://www.amazon.de/dp/B093BFVKSX",
+     "datum": "2026-10-08"
+    }
+   ],
+   "asin": "B093BFVKSX",
+   "query": "Klingl Seilbahn Komplettset 25 Meter öffentlicher Bereich DIN 1176",
+   "where": null
+  }
+ ],
+ "tests": [],
+ "warnungen": [
+  "Kein unabhängiger Test (Stiftung Warentest, Öko-Test, ADAC) zu Garten-Kinderseilbahnen gefunden (Suche 2026-10-08).",
+  "US-Rückruf Trsmima-Zipline-Kits und Trsmima-Federbremsen (CPSC, 30.07.2026, Nr. 26-632): ca. 60.720 Kits und 19.120 Federbremsen; Seil, Spanner oder Sitz können sich lösen oder brechen, Federbremsen bremsen nicht ausreichend, keine Notbremse; Nutzung sofort einstellen. Trsmima-Kit wird auch auf amazon.de gelistet (B087NRVW37) – nicht empfehlen. Quelle: https://www.cpsc.gov/Recalls/2026/Trsmima-Zipline-Kits-and-Zipline-Spring-Brakes-Recalled-Due-to-Fall-and-Collision-Hazards-Manufactured-by-Trsmima",
+  "US-Rückruf Jugader-Zipline-Kits (CPSC 2024): Seil kann reißen, 9 Verletzte. Quelle: https://www.cpsc.gov/Recalls/2024/Zipline-Kits-Recalled-Due-to-Fall-Hazard-Sold-Exclusively-on-Amazon-com-by-Jugader",
+  "Für Seilbahnen auf öffentlichen Spielplätzen gilt DIN EN 1176-4 (Ausgabe 2019-05); die alte DIN 7926-4 ist zurückgezogen. Garten-Sets sind meist nur als Spielzeug (EN 71) deklariert. Quelle: https://www.dinmedia.de/de/norm/din-en-1176-4/300005519",
+  "Altersangaben und Maximallasten sind durchweg Herstellerangaben; viele Sets nur unter Aufsicht Erwachsener. Endbremse (Bremsfeder/Puffer) und Baumschutz sind sicherheitsrelevant – bei Sets ohne Bremsfeder (z. B. Slackers laut Rezension) separat nachrüsten.",
+  "Kein Eintrag in EU Safety Gate zu den gewählten Modellen gefunden (nur Websuche, keine direkte Datenbankabfrage möglich)."
+ ],
+ "verworfen": [
+  {
+   "name": "Trsmima Zipline Kit (u. a. B087NRVW37)",
+   "grund": "CPSC-Rückruf 2026 wegen Fall- und Kollisionsgefahr (Seil/Spanner/Sitz, zu schwache Federbremse)"
+  },
+  {
+   "name": "Jugader Zipline Kits",
+   "grund": "CPSC-Rückruf 2024 wegen reißender Seile"
+  },
+  {
+   "name": "VEVOR Zipline Kit bis 500 lbs (B0DGRP1MCH)",
+   "grund": "Listing derzeit nicht verfügbar, Seillänge unklar, widersprüchliche Altersangaben („nur für Teenager“)"
+  },
+  {
+   "name": "Loggyland Kinder Seilbahn Kabelbahn 25 m öffentlich TÜV/GS (B008EC9JU8)",
+   "grund": "Lieferumfang (Sitz, Bremse, Seil) und technische Daten nicht belastbar recherchierbar; Klingl-Set mit klaren Angaben bevorzugt"
+  },
+  {
+   "name": "Outsunny Seilrutschen-Set 80 kg (B0BW2YMMVY), MASGAMES 30 m (B089MC2ZVC)",
+   "grund": "Austauschbare Marktplatz-Ware ohne Normangaben; keine Vorteile gegenüber KBT/Gartenwelt"
+  }
+ ],
+ "offen": [
+  "Amazon-Produktseiten konnten nicht direkt abgerufen werden (WebFetch: DNS-Fehler); ASINs nur über amazon.de-Suchtreffer mit /dp/-URL und passendem Titel bestätigt. Verfügbarkeit/aktives Listing vor Veröffentlichung stichprobenartig prüfen.",
+  "CTSC 47 m: keine eindeutige ASIN für die 47-m-Variante gefunden (nur 25-m-Varianten B0CFTSTVZ5/B0FJ1HPBFZ) – nur `query` gesetzt.",
+  "Gartenpirat Para 30 m rot: keine eindeutige ASIN gefunden; stattdessen baugleich wirkende Gartenwelt-Riegelsberger-Variante (grün, B01F01N49C) übernommen.",
+  "Slackers Eagle 30 m: Lieferumfang Bremsfeder widersprüchlich (Rezension sagt: nicht enthalten) – im Text als Nachrüst-Hinweis formulieren; Preisklasse 3 geschätzt (anderes Eagle-Listing ca. 448 €).",
+  "small foot Ropeway Rapid: Preisklasse 2 geschätzt, Preis nicht verifiziert; Herstellerseite (small-foot.de) nicht abrufbar.",
+  "Loggyland 8265: Konstruktion (Gestell/Pfosten) und Lieferumfang nicht im Detail bestätigt – vor Nennung als „Seilbahn ohne Bäume“ prüfen.",
+  "Awin: laut Auftrag keine freigeschalteten Programme – alle Produkte über Amazon; keine Awin-Bewerbung nötig.",
+  "Korrektur Runde 1: Vertrieb der Slackers Eagle über Schildkröt Funsports nur indirekt belegt (Slackers-Zubehör auf amazon.de unter 'Schildkroet-Funsports'; kaufland.cz-Listing 'Schildkröt Funsports 980005') – Aussage auf der Seite gestrichen."
+ ],
+ "quellen": [
+  {
+   "titel": "amazon.de – small foot Ropeway Rapid 11955",
+   "url": "https://www.amazon.de/dp/B09WYZYX48"
+  },
+  {
+   "titel": "amazon.de – Slackers Eagle Zip Line 30 m 980005",
+   "url": "https://www.amazon.de/dp/B087SQMG93"
+  },
+  {
+   "titel": "Fitshop – Slackers Eagle Zipline 980005 (technische Daten)",
+   "url": "https://secure.fitshop.nl/en/slackers-eagle-zipline-dsk-980005"
+  },
+  {
+   "titel": "amazon.de – KBT Seilbahn grün 24302",
+   "url": "https://www.amazon.de/dp/B008CPDW9Q"
+  },
+  {
+   "titel": "amazon.de – KBT Spiralbremsfeder 1,5 m",
+   "url": "https://www.amazon.de/dp/B01LXQD5TU"
+  },
+  {
+   "titel": "amazon.de – Gartenwelt Riegelsberger Seilbahn Para 30 m",
+   "url": "https://www.amazon.de/dp/B01F01N49C"
+  },
+  {
+   "titel": "amazon.de – SPRINGOS Seilrutsche 30 m",
+   "url": "https://www.amazon.de/dp/B0C4V391HD"
+  },
+  {
+   "titel": "amazon.de – CTSC Gartenseilbahn-Set",
+   "url": "https://www.amazon.de/dp/B0CFTSTVZ5"
+  },
+  {
+   "titel": "amazon.de – Loggyland Seilbahn für öffentliche Spielplätze",
+   "url": "https://www.amazon.de/dp/B00JS24PSY"
+  },
+  {
+   "titel": "amazon.de – Klingl Seilbahn Komplettset 25 m DIN 1176",
+   "url": "https://www.amazon.de/dp/B093BFVKSX"
+  },
+  {
+   "titel": "CPSC – Trsmima Zipline Kits Recall (2026)",
+   "url": "https://www.cpsc.gov/Recalls/2026/Trsmima-Zipline-Kits-and-Zipline-Spring-Brakes-Recalled-Due-to-Fall-and-Collision-Hazards-Manufactured-by-Trsmima"
+  },
+  {
+   "titel": "CPSC – Jugader Zipline Kits Recall (2024)",
+   "url": "https://www.cpsc.gov/Recalls/2024/Zipline-Kits-Recalled-Due-to-Fall-Hazard-Sold-Exclusively-on-Amazon-com-by-Jugader"
+  },
+  {
+   "titel": "DIN Media – DIN EN 1176-4 Seilbahnen",
+   "url": "https://www.dinmedia.de/de/norm/din-en-1176-4/300005519"
+  }
+ ]
 }

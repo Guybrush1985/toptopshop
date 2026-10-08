@@ -18,7 +18,7 @@ export default {
   lead:
     "Unter Pikler-Dreieck, Sprossenwand oder Kletterwand gehört eine Matte, die Stürze auf Parkett und Fliesen abfedert. Wir zeigen die drei besten Matten fürs Kinderzimmer – von der klappbaren 10-cm-Matte bis zur 20 cm dicken Weichbodenmatte – und erklären, wie dick sie für welche Höhe sein sollte.",
   answer:
-    "Unsere beste Gesamtwahl ist die [**Gartenpirat Universal-Bodenmatte 200 × 100 × 10 cm**](produkt:1): 10 cm dick, viermal klappbar und laut Hersteller nach EN 1177 für bis zu 1,90 m Fallhöhe geprüft – allerdings erst für Kinder ab 36 Monaten freigegeben. Am günstigsten und für Kleinkinder unter dem Pikler-Dreieck passend ist die [**EYEPOWER Klappbare Turnmatte 200 × 100 × 5 cm**](produkt:2). Unter höheren Kletter- und Sprossenwänden empfehlen wir die [**ALPIDEX Weichbodenmatte 200 × 150 × 20 cm**](produkt:3) mit Anti-Rutsch-Boden.",
+    "Unsere beste Gesamtwahl ist die [**Gartenpirat Universal-Bodenmatte 200 × 100 × 10 cm**](produkt:1): 10 cm dick, viermal klappbar und laut Hersteller nach EN 1177 für bis zu 1,90 m Fallhöhe geprüft – allerdings erst für Kinder ab 36 Monaten freigegeben. Leicht und für Kleinkinder unter dem Pikler-Dreieck passend ist die [**EYEPOWER Klappbare Turnmatte 200 × 100 × 5 cm**](produkt:2). Unter höheren Kletter- und Sprossenwänden empfehlen wir die [**ALPIDEX Weichbodenmatte 200 × 150 × 20 cm**](produkt:3) mit Anti-Rutsch-Boden.",
 
   priceTiers: {
     1: { symbol: "€", label: "bis ca. 100 €" },
@@ -86,16 +86,16 @@ export default {
     },
     {
       rank: 2,
-      label: "Bestes Preis-Leistungs-Verhältnis",
+      label: "Beste Wahl fürs Pikler-Dreieck",
       name: "EYEPOWER Klappbare Turnmatte für Zuhause 200 × 100 × 5 cm",
       brand: "EYEPOWER",
       variant: "200 × 100 × 5 cm, Blau/Schwarz",
       visual: { kind: "mat", tone: "green" },
-      priceTier: 1,
+      priceTier: 2,
       ratings: { daempfung: 6.0, sicherheit: 6.0, material: 6.5, handling: 9.0 },
-      bestFor: "Unter Pikler-Dreieck, Kletterbogen oder Indoor-Rutsche mit geringer Höhe – auch für Kinder unter 3 Jahren",
+      bestFor: "Unter Pikler-Dreieck, Kletterbogen oder Indoor-Rutsche mit geringer Höhe – der Anbieter nennt keine Altersgrenze",
       verdict:
-        "Die günstige, leichte Klappmatte für niedrige Geräte: 5 cm EPE-Schaum reichen unter einem Kletterdreieck oder Rutschbrett, und die Matte taugt gleich als Turnmatte. Für höhere Kletterwände ist sie zu dünn.",
+        "Die leichte Klappmatte für niedrige Geräte: 5 cm EPE-Schaum reichen unter einem Kletterdreieck oder Rutschbrett, und die Matte taugt gleich als Turnmatte. Für höhere Kletterwände ist sie zu dünn.",
       features: [
         "Kern aus EPE-Schaum mit Raumgewicht 20 kg/m³ (Herstellerangabe)",
         "PVC-Bezug, laut Hersteller schweiß- und speichelfest, wasserabweisend",
@@ -103,7 +103,7 @@ export default {
         "Als Turnmatte und Fallschutz am Klettergerüst beworben",
       ],
       pros: [
-        "Günstig",
+        "Mit ca. 3,25 kg sehr leicht (Händlerangabe)",
         "Leicht und schnell zusammengeklappt",
         "Abwischbarer PVC-Bezug",
         "Serie in mehreren Größen erhältlich",
@@ -112,18 +112,18 @@ export default {
         "Nur 5 cm – nur für geringe Fallhöhen",
         "Keine Prüfnorm und keine Fallhöhe angegeben",
         "Bezug nicht abnehmbar, Rutschfestigkeit nicht angegeben",
-        "Gewichtsangaben im Listing uneinheitlich",
+        "Für nur 5 cm Dicke nicht günstig",
       ],
       specs: {
         masse: "200 × 100 × 5 cm",
         gefaltet: "ca. 50 × 100 × 20 cm",
-        gewicht: "je nach Angabe unterschiedlich",
+        gewicht: "ca. 3,25 kg",
         bezug: "PVC",
         unterseite: "keine Angabe",
         pruefung: "keine angegeben",
         alter: "keine Angabe",
       },
-      asin: "B07BBSNP4X",
+      asin: "B07BBSF81N",
       query: "EYEPOWER Klappbare Turnmatte für Zuhause 200x100x5 cm",
     },
     {
@@ -213,10 +213,10 @@ export default {
         id: "beste-fallschutzmatte",
         h2: "Welche Fallschutzmatte ist die beste?",
         blocks: [
-          { quick: "Für die meisten Familien mit Kindern ab 3 Jahren ist die [Gartenpirat Universal-Bodenmatte](produkt:1) die beste Wahl: 10 cm dick, klappbar und laut Hersteller nach EN 1177 geprüft. Für Kleinkinder unter dem Pikler-Dreieck passt die günstige [EYEPOWER Klappbare Turnmatte](produkt:2), unter höheren Kletter- und Sprossenwänden die 20 cm dicke [ALPIDEX Weichbodenmatte](produkt:3)." },
+          { quick: "Für die meisten Familien mit Kindern ab 3 Jahren ist die [Gartenpirat Universal-Bodenmatte](produkt:1) die beste Wahl: 10 cm dick, klappbar und laut Hersteller nach EN 1177 geprüft. Für Kleinkinder unter dem Pikler-Dreieck passt die leichte [EYEPOWER Klappbare Turnmatte](produkt:2), unter höheren Kletter- und Sprossenwänden die 20 cm dicke [ALPIDEX Weichbodenmatte](produkt:3)." },
           { first: "Eine Fallschutzmatte hat im Kinderzimmer zwei Aufgaben, die sich widersprechen: Sie soll möglichst dick sein, damit ein Sturz weich endet – und sie soll nach dem Spielen möglichst wenig Platz wegnehmen. Klappmatten lösen das, indem sie sich auf ein Viertel der Fläche zusammenfalten lassen. Dicke Weichbodenmatten dämpfen besser, bleiben aber liegen." },
           { p: "Die [Gartenpirat Universal-Bodenmatte](produkt:1) trifft diesen Kompromiss am besten. Mit 10 cm ist sie doppelt so dick wie typische Turnmatten, wiegt laut Hersteller aber nur rund 7 kg und klappt auf 100 × 100 cm zusammen. Als einzige Matte in unserem Vergleich nennt sie eine Prüfung nach EN 1177 und eine Fallhöhe – bis 1,90 m. Das ist eine Herstellerangabe; ein unabhängiges Prüfzertifikat haben wir nicht gesehen." },
-          { callout: { title: "Wichtig: Altersfreigabe ab 36 Monaten", warn: true, text: "Die Gartenpirat-Bodenmatte trägt laut Hersteller den Warnhinweis „nicht für Kinder unter 36 Monaten geeignet“ und ist nur für den Hausgebrauch gedacht. Für ein Pikler-Dreieck, an dem typischerweise Kinder zwischen etwa 1 und 3 Jahren klettern, empfehlen wir deshalb die [EYEPOWER Klappbare Turnmatte](produkt:2) auf Platz 2 – sie nennt keine solche Altersgrenze." } },
+          { callout: { title: "Wichtig: Altersfreigabe ab 36 Monaten", warn: true, text: "Die Gartenpirat-Bodenmatte trägt laut Hersteller den Warnhinweis „nicht für Kinder unter 36 Monaten geeignet“ und ist nur für den Hausgebrauch gedacht. Für ein Pikler-Dreieck, an dem typischerweise Kinder zwischen etwa 1 und 3 Jahren klettern, empfehlen wir deshalb die [EYEPOWER Klappbare Turnmatte](produkt:2) auf Platz 2 – sie nennt keine solche Altersgrenze, eine ausdrückliche Freigabe für Kleinkinder fehlt aber ebenfalls." } },
           { p: "Die [EYEPOWER Klappbare Turnmatte](produkt:2) ist die vernünftige Wahl für niedrige Geräte. Ein Pikler-Dreieck oder Rutschbrett ist selten höher als ein Meter, und Kleinkinder fallen meist aus geringer Höhe. Dafür reichen 5 cm EPE-Schaum, wenn die Matte groß genug ist. Eine Prüfnorm oder Fallhöhe nennt der Anbieter allerdings nicht." },
           { p: "Klettert das Kind an einer Sprossenwand oder Kletterwand schon auf über einen Meter, wird die [ALPIDEX Weichbodenmatte](produkt:3) interessant: 20 cm PU-Schaum auf 200 × 150 cm, eine rutschfeste Unterseite und ein abnehmbarer Bezug. Sie ist die einzige Matte im Vergleich, die laut Hersteller einen Anti-Rutsch-Boden hat – ein echter Sicherheitsvorteil auf Parkett." },
           { figure: "scores" },
@@ -256,7 +256,7 @@ export default {
           { quick: "Pikler-Dreieck und Kleinkinder: EYEPOWER 5 cm. Kinder ab 3 Jahren an Kletterdreieck oder Sprossenwand: Gartenpirat 10 cm. Höhere Kletterwand mit Platz: ALPIDEX 20 cm." },
           {
             cards: [
-              { title: "Pikler-Dreieck & Kleinkind", text: "Leicht, günstig, ohne Altersgrenze ab 36 Monaten: EYEPOWER 5 cm.", link: { href: "#platz-2", label: "Zur Empfehlung" } },
+              { title: "Pikler-Dreieck & Kleinkind", text: "Leicht und klappbar, Anbieter nennt keine Altersgrenze: EYEPOWER 5 cm.", link: { href: "#platz-2", label: "Zur Empfehlung" } },
               { title: "Ab 3 Jahren, wenig Platz", text: "10 cm dick und klappbar: Gartenpirat.", link: { href: "#platz-1", label: "Zur Empfehlung" } },
               { title: "Kletter- & Sprossenwand", text: "20 cm PU-Schaum mit Anti-Rutsch-Boden: ALPIDEX.", link: { href: "#platz-3", label: "Zur Empfehlung" } },
               { title: "Spielgeräte im Garten", text: "Gummi-Fallschutzplatten statt Schaumstoff.", link: { href: "/sportboden-gummi/", label: "Sportboden aus Gummi" } },
@@ -273,7 +273,7 @@ export default {
     h2: "Die 5 besten Matten nach Einsatzort und Material",
     intro: "Für Kita-Qualität, große Rutschbereiche, Krabbelalter und den Garten: diese fünf Matten ergänzen die Top 3.",
     items: [
-      { name: "Sport-Thieme Fallschutzmatte „SL“ 200 × 100 × 6 cm", for: "Kita-Qualität unter Kletterwand", text: "Stark verpresster PE-Schaum mit Reisstrohprägung, Bezug fest mit dem Kern verklebt; laut Anbieter mit HIC-geprüfter kritischer Fallhöhe (die Werte unterscheiden sich je nach Angabe) und für Kitas und Bewegungsräume gedacht. Laut Listing nicht für Kinder unter 18 Monaten; nicht faltbar und deutlich teurer.", asin: "B0DDBS43ZG", query: "Sport-Thieme Fallschutzmatte SL 200x100x6 cm" },
+      { name: "Sport-Thieme Fallschutzmatte „SL“ 200 × 100 × 6 cm", for: "Kita-Qualität unter Kletterwand", text: "Stark verpresster PE-Schaum mit Reisstrohprägung, Bezug fest mit dem Kern verklebt; laut Anbieter mit HIC-geprüfter kritischer Fallhöhe (die Werte unterscheiden sich je nach Angabe) und für Kitas und Bewegungsräume gedacht. Laut Listing nicht für Kinder unter 18 Monaten; nicht faltbar und deutlich teurer. Achtung: Der Listing-Titel nennt 4 cm Dicke, die Beschreibung 6 cm – vor dem Kauf die Variante 200 × 100 × 6 cm auswählen.", asin: "B0DDBS43ZG", query: "Sport-Thieme Fallschutzmatte SL 200x100x6 cm" },
       { name: "EYEPOWER Klappbare Turnmatte 240 × 120 × 5 cm", for: "Pikler-Dreieck mit Rutsche", text: "Gleiche Serie wie unser Platz 2, aber mit 2,9 m² Fläche – genug für den Auslauf eines eingehängten Rutschbretts. Nur für geringe Fallhöhen.", asin: "B07BBVC8NL", query: "EYEPOWER Klappbare Turnmatte 240x120x5 cm" },
       { name: "Hakuna Matte Puzzlematte Baby 180 × 180 cm (Afrika, 9 Platten 60 × 60 cm)", for: "EVA-Puzzlematte fürs Krabbelalter", text: "Rutschhemmende Spielfläche aus EVA-Schaum, laut Hersteller formamid-, BPA- und phthalatfrei, 1,2 cm dick. Mit dieser Dicke ein Polster für Krabbel- und Sitzhöhe, kein Fallschutz für Klettergeräte.", asin: "B0DWFN7FRD", query: "Hakuna Matte Puzzlematte Baby 180x180 Afrika 9 XXL Platten 60x60" },
       { name: "Hakuna Matte Wolkenweiche Spielmatte Baby 200 × 150 × 2,5 cm, beige", for: "Unter Babyschaukel und Krabbelbereich", text: "Große, weiche Spielmatte mit PU-Schaumkern, Samtoberfläche und rutschfester Unterseite; laut Hersteller nach Oeko-Tex Standard 100 zertifiziert. Mit 2,5 cm nur für Krabbel- und Sitzhöhe, etwa unter einer sehr niedrig hängenden Babyschaukel – nicht unter Klettergeräten.", asin: "B0C9X7DSVS", query: "Hakuna Matte Wolkenweiche Spielmatte Baby 200x150x2,5 cm beige" },
@@ -306,7 +306,7 @@ export default {
         h2: "Was bedeuten EN 1177 und kritische Fallhöhe für zu Hause?",
         blocks: [
           { quick: "EN 1176 und EN 1177 sind Normen für öffentliche Spielplätze. EN 1177 beschreibt, wie die stoßdämpfende Wirkung eines Bodens geprüft wird; daraus ergibt sich die kritische Fallhöhe. Für Matten im Kinderzimmer sind solche Angaben eine Orientierung, aber keine unabhängig geprüfte Garantie." },
-          { p: "Die **kritische Fallhöhe** ist die größte Höhe, für die ein Bodenbelag bei der Prüfung noch ausreichend dämpft. Auf öffentlichen Spielplätzen ist ein stoßdämpfender Boden laut Anbieterangabe ab 60 cm freier Fallhöhe vorgeschrieben – ein brauchbarer Richtwert auch daheim. Für Heimmatten gibt es keine Pflicht zur Prüfung nach EN 1177. Wenn ein Hersteller sie nennt, wie Gartenpirat mit bis zu 1,90 m, handelt es sich um eine Herstellerangabe; ein Prüfzertifikat kannst du beim Anbieter anfragen." },
+          { p: "Die **kritische Fallhöhe** ist die größte Höhe, für die ein Bodenbelag bei der Prüfung noch ausreichend dämpft. Auf öffentlichen Spielplätzen ist laut TÜV SÜD bei Spielgeräten mit mehr als 60 cm freier Fallhöhe ein stoßdämpfender Boden verbindlich vorgeschrieben – ein brauchbarer Richtwert auch daheim. Für Heimmatten gibt es keine Pflicht zur Prüfung nach EN 1177. Wenn ein Hersteller sie nennt, wie Gartenpirat mit bis zu 1,90 m, handelt es sich um eine Herstellerangabe; ein Prüfzertifikat kannst du beim Anbieter anfragen." },
           { p: "Die Matte allein macht ein Klettergerät nicht sicher: Ebenso wichtig sind Kletterhöhe, Abstand zu Möbeln und Heizkörpern und eine stabile Montage des Geräts. Begrenze die Höhe lieber auf das, was die Matte abfangen kann, statt die Matte nachträglich zu vergrößern." },
         ],
       },
@@ -329,15 +329,16 @@ export default {
     { q: "Welche Matte gehört unter eine Kletterwand?", a: "Eine dicke Matte mit 10 bis 20 cm über die ganze Wandbreite. Für Kinder ab 3 Jahren passt die klappbare Gartenpirat-Matte mit 10 cm, für höhere Wände die ALPIDEX Weichbodenmatte mit 20 cm und Anti-Rutsch-Boden." },
     { q: "Sind Puzzlematten als Fallschutz geeignet?", a: "Nein. Mit 1 bis 2 cm sind EVA-Puzzlematten ein Polster für Krabbelkinder, aber kein Fallschutz unter Klettergeräten. Beim Kauf auf „formamidfrei“ und EN 71 achten." },
     { q: "Gummimatte oder Schaumstoffmatte für Kinder?", a: "Drinnen Schaumstoff, draußen Gummi. Schaumstoffmatten sind leichter, weicher und lassen sich wegräumen; Gummigranulat-Platten sind wetterfest und für Spielgeräte im Garten gedacht. Mehr dazu im Ratgeber Sportboden aus Gummi." },
-    { q: "Welche kritische Fallhöhe gilt für Spielgeräte?", a: "Die kritische Fallhöhe des Bodens sollte mindestens so groß sein wie die freie Fallhöhe des Spielgeräts. Auf öffentlichen Spielplätzen ist laut Anbieterangabe ab 60 cm freier Fallhöhe ein stoßdämpfender Boden vorgeschrieben (EN 1176/1177); für Heimmatten sind Angaben dazu Herstellerangaben." },
+    { q: "Welche kritische Fallhöhe gilt für Spielgeräte?", a: "Die kritische Fallhöhe des Bodens sollte mindestens so groß sein wie die freie Fallhöhe des Spielgeräts. Auf öffentlichen Spielplätzen ist laut TÜV SÜD bei mehr als 60 cm freier Fallhöhe ein stoßdämpfender Boden vorgeschrieben (EN 1176/1177); für Heimmatten sind Angaben dazu Herstellerangaben." },
   ],
 
   sources: [
     { label: "Gartenpirat Universal-Bodenmatte 200 × 100 × 10 cm (amazon.de)", url: "https://www.amazon.de/dp/B07RHNWYF2" },
-    { label: "EYEPOWER Klappbare Turnmatte 200 × 100 × 5 cm (amazon.de)", url: "https://www.amazon.de/dp/B07BBSNP4X" },
+    { label: "EYEPOWER Klappbare Turnmatte 200 × 100 × 5 cm (amazon.de)", url: "https://www.amazon.de/dp/B07BBSF81N" },
     { label: "ALPIDEX Weichbodenmatte 200 × 150 × 20 cm (amazon.de)", url: "https://www.amazon.de/dp/B0793Q4WKQ" },
     { label: "Sport-Thieme Fallschutzmatte „SL“ (Hersteller)", url: "https://www.sport-thieme.de/Turnger%C3%A4te/Matten/Fallschutzmatten/art=3746804" },
-    { label: "Anbieterangabe zum Fallschutz ab 60 cm freier Fallhöhe (amazon.de)", url: "https://www.amazon.de/dp/B08YZ7WPH9" },
+    { label: "TÜV SÜD: Prüfzeichen für Fallschutzböden (EN 1177, Pflicht ab mehr als 60 cm freier Fallhöhe)", url: "https://www.tuvsud.com/de-de/dienstleistungen/produktpruefung-und-produktzertifizierung/zertifikatsdatenbank/z2-240-fallschutzboeden" },
+    { label: "Sport-Thieme Weichbodenmatte klappbar – Hinweis zur Nutzung unter Aufsicht (amazon.de)", url: "https://www.amazon.de/dp/B0793N1R96" },
     { label: "ÖKO-TEST: Puzzlematten & Puzzleteppiche im Test (Jahrbuch Kleinkinder 2016)", url: "https://www.oekotest.de/kinder-familie/Puzzlematten-Puzzleteppiche-im-Test-Keine-ist-sehr-gut_107285_1.html" },
     { label: "AGES: Formamid in Puzzlematten", url: "https://www.ages.at/mensch/schwerpunkte/schwerpunktaktionen/detail/formamid-in-puzzlematten" },
     { label: "ANSES: Formamide and puzzle mats", url: "https://www.anses.fr/en/content/formamide-and-puzzle-mats-minimising-exposure-young-children" },

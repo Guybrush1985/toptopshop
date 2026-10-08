@@ -17,7 +17,7 @@ export default {
   lead:
     "Kinder greifen zu dem Buch, dessen Titelbild sie sehen. Ein gutes Kinderbücherregal zeigt die Cover, steht auf Kinderhöhe und ist sicher gegen Kippen befestigt. Wir zeigen die drei besten Modelle – und in der Top 5 weitere Bauformen von der Bücherkiste bis zur Leseecke mit Bank.",
   answer:
-    "Unsere beste Gesamtwahl ist das [**Tidy Books Montessori Kinder-Bücherregal**](produkt:1) mit vier Frontfächern und nur 7 cm Tiefe, das an der Wand befestigt wird. Das beste Preis-Leistungs-Verhältnis bietet das [**KidKraft Primary Sling Bücherregal 14226**](produkt:2) mit Stoffablagen. Niedrig und mobil ist das [**PINOLINO Regal Lasse**](produkt:3) auf Rollen – laut Hersteller ab 3 Jahren.",
+    "Unsere beste Gesamtwahl ist das [**Tidy Books Montessori Kinder-Bücherregal**](produkt:1) mit vier Frontfächern und nur 7 cm Tiefe, das an der Wand befestigt wird. Das beste Preis-Leistungs-Verhältnis bietet das [**KidKraft Hängefächerregal**](produkt:2) mit Stoffablagen. Niedrig und mobil ist das [**PINOLINO Regal Lasse**](produkt:3) auf Rollen – laut Hersteller ab 3 Jahren.",
 
   priceTiers: {
     1: { symbol: "€", label: "bis ca. 60 €" },
@@ -68,9 +68,9 @@ export default {
     {
       rank: 2,
       label: "Bestes Preis-Leistungs-Verhältnis",
-      name: "KidKraft Primary Sling Bücherregal 14226, mehrfarbig",
+      name: "KidKraft Hängefächerregal, Weiß mit rosa Muster",
       brand: "KidKraft",
-      variant: "Primary mit bunten Stoffablagen; Natur-Variante 14221",
+      variant: "Weißes MDF-Gestell, bedruckte Stoffablagen (Modell 14233)",
       visual: { kind: "shelf", tone: "green" },
       priceTier: 1,
       ratings: { hoehe_faecher: 8.0, kippschutz: 6.5, material: 6.5, kapazitaet_montage: 7.5 },
@@ -78,16 +78,16 @@ export default {
       verdict:
         "Frontpräsentation zum kleinen Preis: Vier Stoffablagen halten die Bücher mit dem Cover nach vorn und schonen Ecken und Rücken. Das Gestell ist einfacher verarbeitet als bei unserer Gesamtwahl, und wir würden das leichte Regal trotzdem an der Wand sichern.",
       features: [
-        "Ca. 71 × 61 × 30 cm, MDF-Gestell mit Baumwollstoff (Händlerangabe)",
-        "Vier Stoffablagen, Cover zeigen nach vorn (Händlerangabe)",
+        "Ca. 71 × 61 × 30 cm, ca. 4,5 kg, MDF-Gestell mit bedrucktem Canvas-Stoff (Händlerangabe)",
+        "Stoffablagen, in denen die Cover nach vorn zeigen; laut Listing 5 Fächer (Händlerangabe)",
         "Ab 3 Jahren, nicht für Kinder unter 36 Monaten (Händlerangabe)",
-        "Montage laut Händlerangabe zum Schwestermodell rund eine Stunde",
+        "Montage laut Händlerangaben zur Sling-Serie rund eine halbe bis eine Stunde",
       ],
-      pros: ["Frontpräsentation zu kleinem Preis", "Stoffablagen schonen Buchecken", "Vier gut erreichbare Ebenen"],
-      cons: ["MDF-Gestell, einfachere Lackierung laut Kundenberichten", "Leichtes, freistehendes Regal – Wandbefestigung empfehlenswert", "Laut Hersteller erst ab 3 Jahren", "Stoff kann mit der Zeit ausleiern"],
-      specs: { masse: "ca. 71 × 61 × 30 cm (H × B × T)", faecher: "4 Stoff-Frontfächer", material: "MDF, Baumwollstoff", kapazitaet: "keine Herstellerangabe", stand: "freistehend", alter: "ab 3 Jahren (Herstellerangabe)" },
-      asin: "B0018LUNJI",
-      query: "KidKraft Primary Sling Bücherregal 14226",
+      pros: ["Frontpräsentation zu kleinem Preis", "Stoffablagen schonen Buchecken", "Gut erreichbare Ebenen auf 71 cm Höhe"],
+      cons: ["MDF-Gestell, einfachere Lackierung laut Kundenberichten", "Leichtes, freistehendes Regal – Wandbefestigung empfehlenswert", "Laut Hersteller erst ab 3 Jahren", "Gemustertes Design gefällt nicht jedem", "Stoff kann mit der Zeit ausleiern"],
+      specs: { masse: "ca. 71 × 61 × 30 cm (H × B × T)", faecher: "Stoff-Frontfächer (laut Listing 5)", material: "MDF, Canvas-Stoff", kapazitaet: "keine Herstellerangabe", stand: "freistehend", alter: "ab 3 Jahren (Herstellerangabe)" },
+      asin: "B01GRFP970",
+      query: "KidKraft Hängefächerregal Weiß Rosa",
     },
     {
       rank: 3,
@@ -95,7 +95,7 @@ export default {
       name: "PINOLINO Regal Lasse Kinderbücherregal mit Rollen, 3 Fächer, weiß",
       brand: "Pinolino",
       variant: "Weiß lackiert; auch in Grau",
-      visual: { kind: "shelf", tone: "mint" },
+      visual: { kind: "sideboard", tone: "mint" },
       priceTier: 2,
       ratings: { hoehe_faecher: 7.5, kippschutz: 8.5, material: 7.0, kapazitaet_montage: 6.5 },
       bestFor: "Leseecke auf Kinderhöhe, laut Hersteller ab 3 Jahren",
@@ -129,7 +129,7 @@ export default {
       kind: "scores",
       file: "beste-kinderbuecherregale-2026-bewertung.svg",
       title: "Die 3 besten Bücherregale für Kinder 2026",
-      alt: "Balkendiagramm: Bewertung von Tidy Books Kinder-Bücherregal, KidKraft Primary Sling und PINOLINO Lasse in den Kriterien Höhe & Fachaufteilung, Kippschutz & Standsicherheit, Material & Kanten sowie Kapazität & Montage",
+      alt: "Balkendiagramm: Bewertung von Tidy Books Kinder-Bücherregal, KidKraft Hängefächerregal und PINOLINO Lasse in den Kriterien Höhe & Fachaufteilung, Kippschutz & Standsicherheit, Material & Kanten sowie Kapazität & Montage",
       caption: "Unsere Bewertung je Kriterium. Erreichbarkeit und Kippschutz zählen am meisten.",
     },
     steps: {
@@ -157,21 +157,21 @@ export default {
         id: "bestes-kinderbuecherregal",
         h2: "Welches Kinderbücherregal ist das beste?",
         blocks: [
-          { quick: "Für die meisten Familien ist das [Tidy Books Kinder-Bücherregal](produkt:1) die beste Wahl: vier Frontfächer, laut Hersteller Platz für rund 85 Bilderbücher und nur 7 cm Tiefe. Günstiger ist das [KidKraft Primary Sling](produkt:2), niedrig und mobil das [PINOLINO Regal Lasse](produkt:3)." },
+          { quick: "Für die meisten Familien ist das [Tidy Books Kinder-Bücherregal](produkt:1) die beste Wahl: vier Frontfächer, laut Hersteller Platz für rund 85 Bilderbücher und nur 7 cm Tiefe. Günstiger ist das [KidKraft Hängefächerregal](produkt:2), niedrig und mobil das [PINOLINO Regal Lasse](produkt:3)." },
           { first: "Ein Bücherregal fürs Kinderzimmer hat eine andere Aufgabe als ein Regal für Erwachsene. Bilderbücher sind dünn, großformatig und haben oft keinen lesbaren Buchrücken. Stehen sie dicht an dicht wie im Wohnzimmerregal, sieht ein Kind nur bunte Streifen – und greift immer wieder zum selben Buch oder zieht alle heraus, bis es das richtige findet. Ein **Frontregal** stellt die Bücher mit dem Titelbild nach vorn. Das Kind erkennt seine Bücher auf einen Blick und kann selbst wählen." },
           { p: "Das [Tidy Books Kinder-Bücherregal](produkt:1) setzt dieses Prinzip am konsequentesten um. Vier Frontfächer übereinander, laut Hersteller aus Linden-Sperrholz mit wasserbasiertem Lack, 115 cm hoch und nur 7 cm tief. Weil es so flach ist, nimmt es kaum Platz weg und passt auch neben eine Tür oder hinter das Bett. Der Preis dafür: Es ist das teuerste Regal im Vergleich und muss an der Wand befestigt werden. Das oberste Fach liegt für kleine Kinder zu hoch; dort stehen am besten die Bücher, die ihr gemeinsam lest." },
-          { p: "Das [KidKraft Primary Sling](produkt:2) ist die günstige Alternative. Statt fester Böden hängen vier Stoffbahnen im Gestell, die Bücher stehen darin mit dem Cover nach vorn. Kundenberichte loben die Stabilität, kritisieren aber zu kleine Vorbohrungen und eine eher einfache Lackierung. Sehr große Bilderbücher ragen heraus, sehr kleine rutschen in die Taschen. Laut Hersteller ist das Regal ab 3 Jahren freigegeben." },
+          { p: "Das [KidKraft Hängefächerregal](produkt:2) ist die günstige Alternative. Statt fester Böden hängen Stoffbahnen im Gestell, die Bücher stehen darin mit dem Cover nach vorn. Kundenberichte loben die Stabilität, kritisieren aber zu kleine Vorbohrungen und eine eher einfache Lackierung. Sehr große Bilderbücher ragen heraus, sehr kleine rutschen in die Taschen. Laut Hersteller ist das Regal ab 3 Jahren freigegeben." },
           { p: "Das [PINOLINO Regal Lasse](produkt:3) verfolgt ein anderes Konzept. Es ist ein niedriger Bücherwagen mit drei stufenförmigen Fächern, laut Händlerangabe 57 cm hoch, 65 cm breit und 42 cm tief, auf vier gummierten Holzrädern. Die breite Standfläche bei geringer Höhe macht es von Natur aus standfest; es lässt sich als Leseinsel in die Spielecke rollen. Wichtig: Die Herstellerangabe lautet **ab 3 Jahren**. Für Ein- und Zweijährige ist das Regal nicht freigegeben – deshalb nennen wir es „niedrig und mobil“ und nicht „für die Kleinsten“." },
           { figure: "scores" },
         ],
       },
       {
         id: "kaufkriterien",
-        h2: "Worauf sollte man beim Kauf achten?",
+        h2: "Worauf sollte man beim Kauf eines Kinderbücherregals achten?",
         blocks: [
           { quick: "Entscheidend sind Kippschutz und Erreichbarkeit: Das Regal muss sicher stehen oder an der Wand befestigt sein, und die Fächer, aus denen das Kind selbst nimmt, müssen in Greifhöhe liegen. Danach zählen Frontfächer, Material, Kapazität und Montage." },
           { h3: "Kippschutz und Wandbefestigung" },
-          { p: "Kinder ziehen sich an Regalen hoch, klettern in Fächer oder hängen sich an die oberste Kante. Ein Regal, das höher als breit ist, kann dabei kippen. Deshalb gilt: **Jedes Regal, das höher ist als die Greifhöhe des Kindes, gehört an die Wand.** Das gilt auch für leichte Standregale wie das KidKraft. Die Norm EN 14749 zur Standsicherheit von Wohnmöbeln umfasst ausdrücklich nicht die Wand und die wandseitigen Befestigungsmittel – ob ein Regal hält, hängt also davon ab, dass Dübel und Schrauben zur Wand passen. Für Gipskarton, Porenbeton oder Altbau-Putz gibt es eigene Dübel; im Zweifel eine Fachkraft fragen." },
+          { p: "Kinder ziehen sich an Regalen hoch, klettern in Fächer oder hängen sich an die oberste Kante. Ein Regal, das höher als breit ist, kann dabei kippen. Deshalb gilt: **Jedes Regal, das höher ist als die Greifhöhe des Kindes, gehört an die Wand.** Das gilt auch für leichte Standregale wie das KidKraft. Die Norm EN 14749 für Aufbewahrungsmöbel für den Wohn- und Küchenbereich umfasst ausdrücklich nicht die Wand und die wandseitigen Befestigungsmittel – ob ein Regal hält, hängt also davon ab, dass Dübel und Schrauben zur Wand passen. Welcher Dübel zu welcher Wand passt, zeigen wir im Ratgeber [Kinderschrank](/kinderschrank/#aufstellen-sichern)." },
           { p: "Niedrige, tiefe Bauformen wie das [PINOLINO Lasse](produkt:3) oder eine Bücherkiste am Boden haben eine geringere Kippneigung. Ganz ausschließen lässt sich ein Umkippen damit aber nicht – die Warn- und Montagehinweise des Herstellers gelten trotzdem." },
           { h3: "Höhe und Fachaufteilung" },
           {
@@ -202,7 +202,7 @@ export default {
           {
             cards: [
               { title: "Kleines Kinderzimmer", text: "Das [Tidy Books Regal](produkt:1) ist nur 7 cm tief und nutzt die Wandfläche statt den Boden." },
-              { title: "Erstes eigenes Bücherregal", text: "Das [KidKraft Primary Sling](produkt:2) zeigt Cover nach vorn und kostet wenig – laut Hersteller ab 3 Jahren." },
+              { title: "Erstes eigenes Bücherregal", text: "Das [KidKraft Hängefächerregal](produkt:2) zeigt Cover nach vorn und kostet wenig – laut Hersteller ab 3 Jahren." },
               { title: "Leseecke im Wohnzimmer", text: "Das [PINOLINO Lasse](produkt:3) rollt dorthin, wo vorgelesen wird, und bleibt niedrig." },
               { title: "Leseratten im Schulalter", text: "Ein klassisches Standregal mit Buchrücken-Fächern, an der Wand befestigt, nimmt deutlich mehr Bücher auf." },
             ],
@@ -234,7 +234,7 @@ export default {
         blocks: [
           { quick: "Das Regal mit dem Befestigungsmaterial des Herstellers oder einem Kippschutz-Set an der Wand verschrauben, Dübel und Schrauben passend zum Wanduntergrund wählen und schwere Bücher unten einräumen. Bei unklarem Untergrund eine Fachkraft fragen." },
           { figure: "steps" },
-          { p: "Vor dem Bohren prüfen, woraus die Wand besteht und wo Leitungen verlaufen – ein Leitungssucher hilft. Massive Wände aus Beton oder Ziegel halten mit Standarddübeln, Gipskarton braucht Hohlraumdübel, Porenbeton spezielle Dübel. Die Befestigung sollte im oberen Drittel des Regals sitzen, weil dort beim Kippen die größte Hebelkraft wirkt." },
+          { p: "Für Regale kommen drei Besonderheiten hinzu. **Wand-Frontregale** wie das [Tidy Books](produkt:1) stehen flach an der Wand und sind nur 7 cm tief – sie sind ohne Befestigung nicht standsicher, die Wandmontage ist hier Teil des Konzepts. **Leichte Stoffregale** wie das [KidKraft](produkt:2) wiegen nur wenige Kilo; gerade deshalb kippen sie schnell, wenn ein Kind sich an der oberen Stange hochzieht. **Bücherwagen auf Rollen** wie das [PINOLINO Lasse](produkt:3) stehen durch die niedrige, tiefe Bauform von Natur aus stabil, rollen aber weg, wenn ein Kind sich daran hochzieht – laut unserer Recherche nennt der Hersteller keine Feststellbremsen. Wo der Befestigungswinkel sitzt, gibt die Montageanleitung vor; als Faustregel in der Regel oben am Regal. Welche Dübel zu Beton, Ziegel, Porenbeton oder Gipskarton passen, erklären wir ausführlich im Ratgeber [Kinderschrank](/kinderschrank/#aufstellen-sichern)." },
           { p: "Beim Einräumen gilt: schwere und große Bücher nach unten, leichte nach oben. Fächer nicht überladen, damit Böden und Stoffbahnen nicht durchhängen. Kinder sollten Regale nicht als Kletterhilfe benutzen – für den Bewegungsdrang gibt es [Sprossenwände](/kinder-spielplatz/indoor/sprossenwand-kinder/) und andere Spielgeräte, die dafür gebaut sind." },
           { callout: { title: "Sicherheit", warn: true, text: "Kippende Möbel können Kinder schwer verletzen. Regale, die höher als die Greifhöhe des Kindes sind, immer an der Wand befestigen – auch leichte Modelle. Altersangaben und Warnhinweise des Herstellers beachten: KidKraft und PINOLINO Lasse sind laut Hersteller ab 3 Jahren, für Tidy Books haben wir keine Altersangabe gefunden. Kleine Kinder beim Spielen am Regal beaufsichtigen. Rollen eines Bücherwagens regelmäßig prüfen." } },
           { facts: [{ value: "7 cm", label: "Tiefe Tidy Books (Herstellerangabe)" }, { value: "85", label: "Bilderbücher Kapazität Tidy Books (Herstellerangabe)" }, { value: "57 cm", label: "Höhe PINOLINO Lasse (Händlerangabe)" }] },
@@ -253,24 +253,23 @@ export default {
   },
 
   faqs: [
-    { q: "Welches Kinderbücherregal ist das beste?", a: "Unsere beste Gesamtwahl ist das Tidy Books Montessori Kinder-Bücherregal mit vier Frontfächern und 7 cm Tiefe, das an der Wand befestigt wird. Günstiger ist das KidKraft Primary Sling, niedrig und mobil das PINOLINO Regal Lasse auf Rollen." },
+    { q: "Welches Kinderbücherregal ist das beste?", a: "Unsere beste Gesamtwahl ist das Tidy Books Montessori Kinder-Bücherregal mit vier Frontfächern und 7 cm Tiefe, das an der Wand befestigt wird. Günstiger ist das KidKraft Hängefächerregal, niedrig und mobil das PINOLINO Regal Lasse auf Rollen." },
     { q: "Wie hoch sollte ein Kinderbücherregal sein?", a: "So hoch, dass das Kind die Fächer, aus denen es selbst nehmen soll, ohne Klettern erreicht. Am einfachsten misst man die Greifhöhe des eigenen Kindes. Höhere Regale sind möglich, müssen dann aber an der Wand befestigt werden – die oberen Fächer eignen sich für Vorlesebücher." },
     { q: "Was ist ein Montessori-Bücherregal?", a: "Ein niedriges Regal, in dem Bücher mit dem Titelbild nach vorn stehen, damit Kinder selbst auswählen können. Der Name bezieht sich auf die „vorbereitete Umgebung“ der Montessori-Pädagogik; geschützt ist der Begriff nicht, er beschreibt meist ein Frontregal." },
-    { q: "Wie befestigt man ein Kinderregal kippsicher?", a: "Mit dem Befestigungsmaterial des Herstellers oder einem Kippschutz-Set an der Wand verschrauben, Dübel passend zum Untergrund wählen und schwere Bücher unten einräumen. Die Befestigung sitzt am besten im oberen Drittel. Bei Gipskarton, Porenbeton oder unklarem Untergrund eine Fachkraft fragen." },
+    { q: "Wie befestigt man ein Kinderregal kippsicher?", a: "Mit dem Befestigungsmaterial des Herstellers oder einem Kippschutz-Set an der Wand verschrauben – wo genau, steht in der Montageanleitung, in der Regel oben am Regal. Dübel passend zum Untergrund wählen und schwere Bücher unten einräumen. Bei Wand-Frontregalen ist die Montage Pflicht; bei niedrigen Bücherwagen auf Rollen gelten die Warn- und Montagehinweise des Herstellers." },
     { q: "Frontregal oder klassisches Regal?", a: "Für Bilderbücher ein Frontregal, weil Kinder ihre Bücher am Cover erkennen. Für Sachbücher, Comics und Lesebücher mit Buchrücken ist ein klassisches Regal besser, weil mehr hineinpasst. Viele Familien kombinieren beides." },
     { q: "Wie viele Bücher passen in ein Kinderregal?", a: "Das hängt von der Bauform ab: Das Tidy Books Regal fasst laut Hersteller bis zu 85 Kinderbücher, die tragbare Tidy-Books-Bücherkiste bis zu 40. Für die Übersicht hilft es, Frontfächer nicht zu voll zu stellen und Bücher regelmäßig zu tauschen." },
-    { q: "Ab welchem Alter brauchen Kinder ein eigenes Bücherregal?", a: "Ein festes Alter gibt es nicht – entscheidend ist, ab wann ein Kind Bücher selbst holen soll. Beim Kauf zählt die Altersangabe des Herstellers: KidKraft Primary Sling und PINOLINO Lasse sind laut Hersteller ab 3 Jahren; für Tidy Books haben wir keine Altersangabe gefunden." },
+    { q: "Ab welchem Alter brauchen Kinder ein eigenes Bücherregal?", a: "Ein festes Alter gibt es nicht – entscheidend ist, ab wann ein Kind Bücher selbst holen soll. Beim Kauf zählt die Altersangabe des Herstellers: KidKraft Hängefächerregal und PINOLINO Lasse sind laut Hersteller ab 3 Jahren; für Tidy Books haben wir keine Altersangabe gefunden." },
   ],
 
   sources: [
     { label: "Amazon.de: Tidy Books Kinder-Bücherregal Hellgrau (Herstellerangaben)", url: "https://www.amazon.de/dp/B01N1RW8RK" },
     { label: "Amazon.de: Tidy Books Bücherregal ABC (Herstellerangaben)", url: "https://www.amazon.de/dp/B07DRQB1V7" },
     { label: "John Lewis: Tidy Books Bookcase (Händlerangaben)", url: "https://www.johnlewis.com/tidy-books-bookcases/p333284" },
-    { label: "Amazon.de: KidKraft Primary Sling 14226", url: "https://www.amazon.de/dp/B0018LUNJI" },
-    { label: "Amazon.de: KidKraft 14221 Natur", url: "https://www.amazon.de/dp/B0018MCVH4" },
+    { label: "Amazon.de: KidKraft Hängefächerregal (Händlerangaben)", url: "https://www.amazon.de/dp/B01GRFP970" },
     { label: "Amazon.de: PINOLINO Regal Lasse", url: "https://www.amazon.de/dp/B07NS27JDW" },
     { label: "babyartikel.de: PINOLINO Kinderbücherregal Lasse (Händlerangaben)", url: "https://www.babyartikel.de/prod/pinolino-kinderbucherregal-lasse-mit-rollen-3-facher" },
-    { label: "EN 14749:2016+A1:2022 – Standsicherheit von Wohnmöbeln (Normzusammenfassung)", url: "https://iteh.es/catalog/standards/cen/b42a9e8c-05d9-4e56-8d24-d8fce51c2a05/en-14749-2016a1-2022" },
+    { label: "EN 14749:2016+A1:2022 – Aufbewahrungsmöbel für Wohn- und Küchenbereich (Normzusammenfassung)", url: "https://iteh.es/catalog/standards/cen/b42a9e8c-05d9-4e56-8d24-d8fce51c2a05/en-14749-2016a1-2022" },
   ],
 
   related: [

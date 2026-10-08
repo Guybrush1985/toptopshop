@@ -2,15 +2,44 @@
   "slug": "sandkasten-mit-deckel",
   "stand": "2026-10-08",
   "criteria": [
-    { "key": "deckel", "label": "Deckel & Schutz", "weight": 0.3, "description": "Art des Deckels (Klappbank, Plane, Dach, Muschel), wie vollständig er schließt (Katzen, Laub, Regen), Haltbarkeit von Scharnieren/Schrauben laut Kundenberichten" },
-    { "key": "material", "label": "Material & Wetterfestigkeit", "weight": 0.25, "description": "Holzart (FSC-Hemlock, kesseldruckimprägnierte Kiefer, unbehandelt) bzw. Kunststoff; nötige Nachbehandlung; Angaben zu Normen (EN 71) laut Hersteller" },
-    { "key": "groesse", "label": "Größe & Sandmenge", "weight": 0.2, "description": "Außen-/Innenmaß, Höhe der Wand, Füllmenge laut Hersteller – Platz für ein oder mehrere Kinder" },
-    { "key": "ausstattung", "label": "Sitzflächen & Ausstattung", "weight": 0.25, "description": "Sitzbänke mit Rückenlehne, Bodenvlies/Plane im Lieferumfang, Stauraum, Montageaufwand" }
+    {
+      "key": "deckel",
+      "label": "Deckel & Schutz",
+      "weight": 0.3,
+      "description": "Art des Deckels (Klappbank, Plane, Dach, Muschel), wie vollständig er schließt (Katzen, Laub, Regen), Haltbarkeit von Scharnieren/Schrauben laut Kundenberichten"
+    },
+    {
+      "key": "material",
+      "label": "Material & Wetterfestigkeit",
+      "weight": 0.25,
+      "description": "Holzart (FSC-Hemlock, kesseldruckimprägnierte Kiefer, unbehandelt) bzw. Kunststoff; nötige Nachbehandlung; Angaben zu Normen (EN 71) laut Hersteller"
+    },
+    {
+      "key": "groesse",
+      "label": "Größe & Sandmenge",
+      "weight": 0.2,
+      "description": "Außen-/Innenmaß, Höhe der Wand, Füllmenge laut Hersteller – Platz für ein oder mehrere Kinder"
+    },
+    {
+      "key": "ausstattung",
+      "label": "Sitzflächen & Ausstattung",
+      "weight": 0.25,
+      "description": "Sitzbänke mit Rückenlehne, Bodenvlies/Plane im Lieferumfang, Stauraum, Montageaufwand"
+    }
   ],
   "priceTiers": [
-    { "tier": 1, "label": "bis ca. 100 €" },
-    { "tier": 2, "label": "ca. 100–200 €" },
-    { "tier": 3, "label": "über 200 €" }
+    {
+      "tier": 1,
+      "label": "bis ca. 100 €"
+    },
+    {
+      "tier": 2,
+      "label": "ca. 100–200 €"
+    },
+    {
+      "tier": 3,
+      "label": "über 200 €"
+    }
   ],
   "products": [
     {
@@ -20,24 +49,76 @@
       "brand": "WICKEY",
       "variant": "110 x 165 cm, kesseldruckimprägniert grün",
       "priceTier": 2,
-      "ratings": { "deckel": 8.0, "material": 8.5, "groesse": 8.5, "ausstattung": 8.0 },
+      "ratings": {
+        "deckel": 8.0,
+        "material": 8.5,
+        "groesse": 8.5,
+        "ausstattung": 8.0
+      },
       "gesamt": 8.23,
       "bestFor": "Familien mit Garten, die einen großen, rechteckigen Holzsandkasten mit zwei Klappbänken wollen, der ohne Anstrich auskommt",
       "fakten": [
-        { "text": "Holzdeckel lässt sich zu zwei Sitzbänken mit Rückenlehne aufklappen und nach dem Spielen wieder als Abdeckung schließen", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B0BSV47B8H", "datum": "2026-10-08 (über Suchergebnis)" },
-        { "text": "Maße ca. 110 x 165 cm, Wandhöhe ca. 30 cm; Bedarf ca. 0,27 m³ bzw. 400 kg Sand bei halber Füllung", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B0BSV47B8H", "datum": "2026-10-08 (über Suchergebnis)" },
-        { "text": "Holz kesseldruckimprägniert (grün), kein Farbanstrich erforderlich; Holz aus Europa, \"Designed in Germany\"", "art": "Händlerangabe", "quelle": "https://www.kaufland.de/product/300411500/", "datum": "2026-10-08 (über Suchergebnis)" },
-        { "text": "Bausatz, nicht vormontiert, Schrauben und Scharniere im Lieferumfang; empfohlene Maximalbelastung 50 kg", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B0BSV47B8H", "datum": "2026-10-08 (über Suchergebnis)" },
-        { "text": "Kundenbericht: Aufbau recht einfach, Anleitung könnte detaillierter sein; Deckelbretter haben sich in den ersten Wochen (Kälte, Regen) leicht verschoben", "art": "Bericht", "quelle": "https://www.amazon.de/dp/B0BSV47B8H", "datum": "2026-10-08 (über Suchergebnis)" }
+        {
+          "text": "Holzdeckel lässt sich zu zwei Sitzbänken mit Rückenlehne aufklappen und nach dem Spielen wieder als Abdeckung schließen",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B0BSV47B8H",
+          "datum": "2026-10-08 (über Suchergebnis)"
+        },
+        {
+          "text": "Maße ca. 110 x 165 cm, Wandhöhe ca. 30 cm; Bedarf ca. 0,27 m³ bzw. 400 kg Sand bei halber Füllung",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B0BSV47B8H",
+          "datum": "2026-10-08 (über Suchergebnis)"
+        },
+        {
+          "text": "Holz kesseldruckimprägniert (grün), kein Farbanstrich erforderlich; Holz aus Europa, \"Designed in Germany\"",
+          "art": "Händlerangabe",
+          "quelle": "https://www.kaufland.de/product/300411500/",
+          "datum": "2026-10-08 (über Suchergebnis)"
+        },
+        {
+          "text": "Bausatz, nicht vormontiert, Schrauben und Scharniere im Lieferumfang; empfohlene Maximalbelastung 50 kg",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B0BSV47B8H",
+          "datum": "2026-10-08 (über Suchergebnis)"
+        },
+        {
+          "text": "Kundenbericht: Aufbau recht einfach, Anleitung könnte detaillierter sein; Deckelbretter haben sich in den ersten Wochen (Kälte, Regen) leicht verschoben",
+          "art": "Bericht",
+          "quelle": "https://www.amazon.de/dp/B0BSV47B8H",
+          "datum": "2026-10-08 (über Suchergebnis)"
+        },
+        {
+          "text": "Kaufland-Listing (Verkäufer WICKEY): 110 x 165 cm, ca. 30 cm hoch, Sitzbänke und Deckel integriert, ab 3 Jahren",
+          "art": "Händlerangabe",
+          "quelle": "https://www.kaufland.de/product/300411510/",
+          "datum": "2026-10-08 (über Suchergebnis)"
+        }
       ],
-      "pros": ["Zwei Klappbänke mit Rückenlehne", "Kesseldruckimprägniert – kein Anstrich nötig", "Hohe Wand (ca. 30 cm), viel Spielfläche", "Etablierte Spielgeräte-Marke"],
-      "cons": ["Keine EN-71-Angabe im Listing gefunden", "Deckelbretter können sich laut Kundenbericht anfangs verziehen", "Bodenvlies nicht als Lieferumfang belegt", "Langes Rechteckformat braucht Platz"],
-      "specs": { "Außenmaß": "ca. 110 x 165 cm", "Höhe": "ca. 30 cm", "Material": "Nadelholz, kesseldruckimprägniert", "Deckel": "2 Klappbänke mit Rückenlehne", "Sandbedarf": "ca. 400 kg (halbe Füllung, Herstellerangabe)" },
-      "asin": "B0BSV47B8H",
+      "pros": [
+        "Zwei Klappbänke mit Rückenlehne",
+        "Kesseldruckimprägniert – kein Anstrich nötig",
+        "Hohe Wand (ca. 30 cm), viel Spielfläche",
+        "Rechteckformat: zwei Kinder spielen nebeneinander"
+      ],
+      "cons": [
+        "Keine EN-71-Angabe im Listing gefunden",
+        "Deckelbretter können sich laut Kundenbericht anfangs verziehen",
+        "Bodenvlies nicht als Lieferumfang belegt",
+        "Langes Rechteckformat braucht Platz"
+      ],
+      "specs": {
+        "Außenmaß": "ca. 110 x 165 cm",
+        "Höhe": "ca. 30 cm",
+        "Material": "Nadelholz, kesseldruckimprägniert",
+        "Deckel": "2 Klappbänke mit Rückenlehne",
+        "Sandbedarf": "ca. 400 kg (halbe Füllung, Herstellerangabe)"
+      },
+      "asin": null,
       "query": "WICKEY Sandkasten Flippey 110x165 cm mit Klappdeckel",
       "shop": null,
       "url": null,
-      "asinGeprueft": "WICKEY Sandkasten Holz Sandkiste Flippey 110x165 cm mit Klappdeckel für Kinder, Buddelkiste, Spielplatz im Garten aus Holz, langlebiger Abenteuerspielplatz für Kinder: Amazon.de: Spielzeug"
+      "asinGeprueft": "Korrektur Runde 1 (2026-10-08): B0BSV47B8H per WebSearch nicht mehr bestätigbar; amazon.de-Treffer nur Flippey 150x165 cm (ohne /dp/-URL im Treffer) und 120x125 cm (B00O0VD8OA, nicht verfügbar). ASIN entfernt, nur query. Größe 110x165 cm, ca. 30 cm hoch, Verkauf durch WICKEY selbst laut Kaufland bestätigt."
     },
     {
       "rank": 2,
@@ -46,18 +127,59 @@
       "brand": "HABAU",
       "variant": "Modell 3022, unbehandeltes Naturholz",
       "priceTier": 1,
-      "ratings": { "deckel": 7.5, "material": 6.5, "groesse": 7.0, "ausstattung": 7.0 },
+      "ratings": {
+        "deckel": 7.5,
+        "material": 6.5,
+        "groesse": 7.0,
+        "ausstattung": 7.0
+      },
       "gesamt": 7.03,
       "bestFor": "Eltern, die einen klassischen quadratischen Klappbank-Sandkasten günstig wollen und das Holz selbst lasieren",
       "fakten": [
-        { "text": "Zwei Sitzbänke, die zusammengeklappt als Deckel dienen; aufgeklappt Bank mit Rückenlehne an zwei Seiten; Deckel schützt vor Witterung und Tieren", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B004SKU1L6", "datum": "2026-10-08 (über Suchergebnis)" },
-        { "text": "Außenmaß 120 x 120 cm, Innenmaß ca. 104 x 104 x 16 cm; Gewicht 20 kg; Maximalbelastung laut Hersteller 40 kg", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B004SKU1L6", "datum": "2026-10-08 (über Suchergebnis)" },
-        { "text": "Unbehandeltes Kiefernholz; Hersteller empfiehlt Behandlung mit wasserbasiertem Holzschutz", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B004SKU1L6", "datum": "2026-10-08 (über Suchergebnis)" },
-        { "text": "Kundenbewertung ca. 4,2/5 bei 339 Bewertungen; Lob für nummerierte, vorgebohrte Teile und schnellen Aufbau, vereinzelt Transportschäden", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B004SKU1L6", "datum": "2026-10-08 (über Suchergebnis)" }
+        {
+          "text": "Zwei Sitzbänke, die zusammengeklappt als Deckel dienen; aufgeklappt Bank mit Rückenlehne an zwei Seiten; Deckel schützt vor Witterung und Tieren",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B004SKU1L6",
+          "datum": "2026-10-08 (über Suchergebnis)"
+        },
+        {
+          "text": "Außenmaß 120 x 120 cm, Innenmaß ca. 104 x 104 x 16 cm; Gewicht 20 kg; Maximalbelastung laut Hersteller 40 kg",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B004SKU1L6",
+          "datum": "2026-10-08 (über Suchergebnis)"
+        },
+        {
+          "text": "Unbehandeltes Kiefernholz; Hersteller empfiehlt Behandlung mit wasserbasiertem Holzschutz",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B004SKU1L6",
+          "datum": "2026-10-08 (über Suchergebnis)"
+        },
+        {
+          "text": "Kundenbewertung ca. 4,2/5 bei 339 Bewertungen; Lob für nummerierte, vorgebohrte Teile und schnellen Aufbau, vereinzelt Transportschäden",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B004SKU1L6",
+          "datum": "2026-10-08 (über Suchergebnis)"
+        }
       ],
-      "pros": ["Günstig", "Viele Kundenbewertungen, seit Jahren am Markt", "Vorgebohrte, nummerierte Teile", "Bänke mit Rückenlehne"],
-      "cons": ["Unbehandeltes Holz – Lasur nötig", "Niedrige Wand (Innenhöhe ca. 16 cm)", "Keine EN-71-Angabe gefunden", "Bodenvlies nicht im Lieferumfang belegt"],
-      "specs": { "Außenmaß": "120 x 120 cm", "Innenmaß": "ca. 104 x 104 x 16 cm", "Material": "Kiefer, unbehandelt", "Deckel": "2 Klappbänke mit Rückenlehne", "Gewicht": "20 kg" },
+      "pros": [
+        "Günstig",
+        "Viele Kundenbewertungen, seit Jahren am Markt",
+        "Vorgebohrte, nummerierte Teile",
+        "Bänke mit Rückenlehne"
+      ],
+      "cons": [
+        "Unbehandeltes Holz – Lasur nötig",
+        "Niedrige Wand (Innenhöhe ca. 16 cm)",
+        "Keine EN-71-Angabe gefunden",
+        "Bodenvlies nicht im Lieferumfang belegt"
+      ],
+      "specs": {
+        "Außenmaß": "120 x 120 cm",
+        "Innenmaß": "ca. 104 x 104 x 16 cm",
+        "Material": "Kiefer, unbehandelt",
+        "Deckel": "2 Klappbänke mit Rückenlehne",
+        "Gewicht": "20 kg"
+      },
       "asin": "B004SKU1L6",
       "query": "HABAU 3022 Sandkasten mit Klappdeckel 120 x 120",
       "shop": null,
@@ -71,24 +193,70 @@
       "brand": "AXI",
       "variant": "XXL 150 x 150 x 20 cm, FSC-Hemlock",
       "priceTier": 3,
-      "ratings": { "deckel": 7.5, "material": 8.5, "groesse": 9.0, "ausstattung": 7.5 },
+      "ratings": {
+        "deckel": 7.5,
+        "material": 8.5,
+        "groesse": 9.0,
+        "ausstattung": 7.5
+      },
       "gesamt": 8.05,
       "bestFor": "Gärten mit Platz für mehrere spielende Kinder, die einen besonders großen, splitterarmen Sandkasten aus FSC-Holz wollen",
       "fakten": [
-        { "text": "Maße 150 x 150 x 20 cm; Fassungsvermögen ca. 475 kg Sand; Belastbarkeit 150 kg pro Bank", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B0F7LTZ4KS", "datum": "2026-10-08 (über Suchergebnis)" },
-        { "text": "Holzdeckel klappt zu zwei Bänken mit Rückenlehne auf; geschlossen Schutz vor Laub, Schmutz und Haustieren", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B0F7LTZ4KS", "datum": "2026-10-08 (über Suchergebnis)" },
-        { "text": "100 % FSC-Hemlockholz; laut Hersteller splitterarm und von Natur aus witterungsbeständig (Angabe zur Ella-Reihe)", "art": "Herstellerangabe", "quelle": "https://www.decathlon.de/p/mp/ella-sandkasten-xl-aus-holz-mit-deckel-und-sitzbank-braun-grau-120-x-120-cm/68f5c958-bf4b-4220-ab26-c41102694bb3/c251", "datum": "2026-10-08 (über Suchergebnis)" },
-        { "text": "Altersangaben in den Listings widersprüchlich (ab 18 Monaten / ab 24 Monaten / 3–10 Jahre)", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B0F7LTZ4KS", "datum": "2026-10-08 (über Suchergebnis)" },
-        { "text": "Kundenberichte zur kleineren Ella 120 x 120: Deckel schließt mit sehr schmalem Spalt; Deckelschrauben mussten nach einem Winter ersetzt werden", "art": "Bericht", "quelle": "https://www.amazon.de/dp/B0F7LTZ4KS", "datum": "2026-10-08 (über Suchergebnis)" }
+        {
+          "text": "Maße 150 x 150 x 20 cm; Fassungsvermögen ca. 475 kg Sand; Belastbarkeit 150 kg pro Bank",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B0F7LTZ4KS",
+          "datum": "2026-10-08 (über Suchergebnis)"
+        },
+        {
+          "text": "Holzdeckel klappt zu zwei Bänken mit Rückenlehne auf; geschlossen Schutz vor Laub, Schmutz und Haustieren",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B0F7LTZ4KS",
+          "datum": "2026-10-08 (über Suchergebnis)"
+        },
+        {
+          "text": "100 % FSC-Hemlockholz; laut Hersteller splitterarm und von Natur aus witterungsbeständig (Angabe zur Ella-Reihe)",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.decathlon.de/p/mp/ella-sandkasten-xl-aus-holz-mit-deckel-und-sitzbank-braun-grau-120-x-120-cm/68f5c958-bf4b-4220-ab26-c41102694bb3/c251",
+          "datum": "2026-10-08 (über Suchergebnis)"
+        },
+        {
+          "text": "Altersangaben in den Listings widersprüchlich (ab 18 Monaten / ab 24 Monaten / 3–10 Jahre)",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B0F7LTZ4KS",
+          "datum": "2026-10-08 (über Suchergebnis)"
+        },
+        {
+          "text": "Kundenberichte zur kleineren Ella 120 x 120: Deckel schließt mit sehr schmalem Spalt; Deckelschrauben mussten nach einem Winter ersetzt werden",
+          "art": "Bericht",
+          "quelle": "https://www.amazon.de/dp/B0F7LTZ4KS",
+          "datum": "2026-10-08 (über Suchergebnis)"
+        }
       ],
-      "pros": ["Sehr groß (150 x 150 cm, ca. 475 kg Sand)", "FSC-Hemlock, kein Anstrich nötig", "Bänke bis 150 kg belastbar", "Etablierte Marke mit breitem Sandkasten-Sortiment"],
-      "cons": ["Teuer", "Wand nur 20 cm hoch", "Widersprüchliche Altersangaben", "Kundenberichte (kleinere Größe) zu Spalt am Deckel und Schrauben"],
-      "specs": { "Außenmaß": "150 x 150 x 20 cm", "Material": "FSC-Hemlock", "Deckel": "2 Klappbänke mit Rückenlehne", "Sandmenge": "ca. 475 kg (Herstellerangabe)", "Gewicht": "32 kg" },
+      "pros": [
+        "Sehr groß (150 x 150 cm, ca. 475 kg Sand)",
+        "FSC-Hemlock, kein Anstrich nötig",
+        "Bänke bis 150 kg belastbar",
+        "Breites AXI-Sortiment mit Ersatzgrößen"
+      ],
+      "cons": [
+        "Teuer",
+        "Wand nur 20 cm hoch",
+        "Widersprüchliche Altersangaben",
+        "Kundenberichte (kleinere Größe) zu Spalt am Deckel und Schrauben"
+      ],
+      "specs": {
+        "Außenmaß": "150 x 150 x 20 cm",
+        "Material": "FSC-Hemlock",
+        "Deckel": "2 Klappbänke mit Rückenlehne",
+        "Sandmenge": "ca. 475 kg (Herstellerangabe)",
+        "Gewicht": "32 kg"
+      },
       "asin": "B0F7LTZ4KS",
       "query": "AXI Sandkasten Ella XXL aus Holz mit Deckel",
       "shop": null,
       "url": null,
-      "asinGeprueft": "AXI Sandkasten Ella XXL aus Holz mit Deckel, Grau und Braun"
+      "asinGeprueft": "AXI Ella Wooden Sandpit with Lid in Various Colours and Sizes (Sammel-Listing 120x120 und 150x150 cm). Korrektur Runde 1: keine eigene ASIN der 150er-Variante als /dp/-Treffer gefunden; im Text Hinweis 'Größe 150 x 150 cm wählen'. Ein Suchtreffer nennt für die XXL-Variante (Anthrazit/Braun, 150x150x20) ca. 290 € – priceTier 3 bleibt; die 110–160 € beziehen sich auf die 120er-Variante."
     }
   ],
   "top5": [
@@ -96,8 +264,18 @@
       "name": "AXI Ella XL Sandkasten aus Holz mit Deckel und Sitzbank 120 x 120 cm",
       "warum": "Sandkasten mit Sitzbank-Deckel in Standardgröße: FSC-Hemlock, Deckel klappt zu zwei Bänken, ca. 375 kg Sand, laut Hersteller ab 2 Jahren – die kompakte Alternative zum Ella XXL.",
       "fakten": [
-        { "text": "Ca. 375 kg Sand, ab 2 Jahren, 100 % FSC-Hemlock, Deckel wird zu zwei Sitzbänken", "art": "Herstellerangabe", "quelle": "https://www.decathlon.de/p/mp/ella-sandkasten-xl-aus-holz-mit-deckel-und-sitzbank-braun-grau-120-x-120-cm/68f5c958-bf4b-4220-ab26-c41102694bb3/c251", "datum": "2026-10-08 (über Suchergebnis)" },
-        { "text": "Kaufland: 4,5/5 bei 8 Bewertungen", "art": "Händlerangabe", "quelle": "https://www.kaufland.at/product/531448301/", "datum": "2026-10-08 (über Suchergebnis)" }
+        {
+          "text": "Ca. 375 kg Sand, ab 2 Jahren, 100 % FSC-Hemlock, Deckel wird zu zwei Sitzbänken",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.decathlon.de/p/mp/ella-sandkasten-xl-aus-holz-mit-deckel-und-sitzbank-braun-grau-120-x-120-cm/68f5c958-bf4b-4220-ab26-c41102694bb3/c251",
+          "datum": "2026-10-08 (über Suchergebnis)"
+        },
+        {
+          "text": "Kaufland: 4,5/5 bei 8 Bewertungen",
+          "art": "Händlerangabe",
+          "quelle": "https://www.kaufland.at/product/531448301/",
+          "datum": "2026-10-08 (über Suchergebnis)"
+        }
       ],
       "asin": null,
       "query": "AXI Ella XL Sandkasten 120 x 120 Deckel",
@@ -107,8 +285,18 @@
       "name": "Paradiso Toys T00752 Sand- oder Wassermuschel 2-teilig, blau",
       "warum": "Muschel-Sandkasten aus Kunststoff: zwei Hälften – als Sandmuschel mit Deckel oder als zwei Planschbecken nutzbar, platzsparend für Balkon und kleine Gärten.",
       "fakten": [
-        { "text": "2-teilig, ca. 87 x 78 x 20 cm (Titel nennt 86 x 80 x 20 cm)", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B003A8KNEW", "datum": "2026-10-08 (über Suchergebnis)" },
-        { "text": "Kundenbericht (Paradiso-Muschel): Regenwasser sammelt sich im Deckelrand und läuft über die Steckverbindungen in die untere Schale", "art": "Bericht", "quelle": "https://www.amazon.de/dp/B007K5Q7QY", "datum": "2026-10-08 (über Suchergebnis)" }
+        {
+          "text": "2-teilig, ca. 87 x 78 x 20 cm (Titel nennt 86 x 80 x 20 cm)",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B003A8KNEW",
+          "datum": "2026-10-08 (über Suchergebnis)"
+        },
+        {
+          "text": "Kundenbericht (Paradiso-Muschel): Regenwasser sammelt sich im Deckelrand und läuft über die Steckverbindungen in die untere Schale",
+          "art": "Bericht",
+          "quelle": "https://www.amazon.de/dp/B007K5Q7QY",
+          "datum": "2026-10-08 (über Suchergebnis)"
+        }
       ],
       "asin": "B003A8KNEW",
       "query": "Paradiso Toys T00752 Sandmuschel Wassermuschel 2-teilig blau",
@@ -118,7 +306,12 @@
       "name": "AXI Mandy XXL Sandkasten aus Holz mit Sitzbank, Stauraum, Deckel & Kreidetafel",
       "warum": "Großer Holzsandkasten (160 x 151 cm) mit Deckel, Kreidetafel an der Deckelinnenseite, Sitzbank mit Stauraum und mitgelieferter Bodenplane.",
       "fakten": [
-        { "text": "Maße 160 x 151 cm; Sitzbank 24,5 cm breit mit Stauraum; Kreidetafel innen am Deckel; Bodenplane im Lieferumfang", "art": "Händlerangabe", "quelle": "https://www.decathlon.de/p/mp/mandy-xxl-sandkasten-aus-holz-bank-stauraum-tafel-160-x-151-x-122-5-cm/41bebc84-9e6f-4f17-af38-7f36ae8dd96b/c27", "datum": "2026-10-08 (über Suchergebnis)" }
+        {
+          "text": "Maße 160 x 151 cm; Sitzbank 24,5 cm breit mit Stauraum; Kreidetafel innen am Deckel; Bodenplane im Lieferumfang",
+          "art": "Händlerangabe",
+          "quelle": "https://www.decathlon.de/p/mp/mandy-xxl-sandkasten-aus-holz-bank-stauraum-tafel-160-x-151-x-122-5-cm/41bebc84-9e6f-4f17-af38-7f36ae8dd96b/c27",
+          "datum": "2026-10-08 (über Suchergebnis)"
+        }
       ],
       "asin": "B0F7RXJM4Y",
       "query": "AXI Mandy XXL Sandkasten aus Holz mit Sitzbank, Stauraum, Deckel & Kreidetafel",
@@ -128,8 +321,18 @@
       "name": "AXI Sandkasten Lily aus FSC Holz mit verstellbarem Dach, 118 x 118 cm",
       "warum": "Sandkasten mit Dach/Sonnenschutz: höhenverstellbares Dach, das nach dem Spielen als Abdeckung abgesenkt wird, dazu Sitzecken.",
       "fakten": [
-        { "text": "FSC-Holz, verstellbares Dach als Abdeckung, Sitzecken, 118 x 118 cm; Altersangabe im Listing 36 Monate–4 Jahre", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B092R8MF4X", "datum": "2026-10-08 (über Suchergebnis)" },
-        { "text": "Variante Braun/Grün: 3,9/5 bei 22 Bewertungen; einzelne Farbvarianten zeitweise nicht verfügbar", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B092R8MF4X", "datum": "2026-10-08 (über Suchergebnis)" }
+        {
+          "text": "FSC-Holz, verstellbares Dach als Abdeckung, Sitzecken, 118 x 118 cm; Altersangabe im Listing 36 Monate–4 Jahre",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B092R8MF4X",
+          "datum": "2026-10-08 (über Suchergebnis)"
+        },
+        {
+          "text": "Variante Braun/Grün: 3,9/5 bei 22 Bewertungen; einzelne Farbvarianten zeitweise nicht verfügbar",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B092R8MF4X",
+          "datum": "2026-10-08 (über Suchergebnis)"
+        }
       ],
       "asin": "B092R8MF4X",
       "query": "AXI Sandkasten Lily mit verstellbarem Dach 118 x 118",
@@ -139,8 +342,18 @@
       "name": "Step2 Naturally Playful Sandtisch",
       "warum": "Sand-Spieltisch für kleine Flächen und Terrasse: Deckel mit eingeformter Rennstrecke und Gummispannern, Spielhöhe für Kleinkinder ab 2 Jahren laut Hersteller.",
       "fakten": [
-        { "text": "Ca. 66 x 91,4 x 41,6 cm; bis 36 kg Sand; Deckel mit Rennstrecke; 5-teiliges Zubehör; ab 2 Jahren", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B0009F4YR6", "datum": "2026-10-08 (über Suchergebnis)" },
-        { "text": "Kundenbericht: Deckel nicht sehr stabil, Regen gelangt in den Sandtisch", "art": "Bericht", "quelle": "https://www.amazon.de/dp/B0009F4YR6", "datum": "2026-10-08 (über Suchergebnis)" }
+        {
+          "text": "Ca. 66 x 91,4 x 41,6 cm; bis 36 kg Sand; Deckel mit Rennstrecke; 5-teiliges Zubehör; ab 2 Jahren",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B0009F4YR6",
+          "datum": "2026-10-08 (über Suchergebnis)"
+        },
+        {
+          "text": "Kundenbericht: Deckel nicht sehr stabil, Regen gelangt in den Sandtisch",
+          "art": "Bericht",
+          "quelle": "https://www.amazon.de/dp/B0009F4YR6",
+          "datum": "2026-10-08 (über Suchergebnis)"
+        }
       ],
       "asin": "B0009F4YR6",
       "query": "Step2 Naturally Playful Sandtisch",
@@ -148,23 +361,57 @@
     }
   ],
   "tests": [
-    { "institut": "Stiftung Warentest / Öko-Test", "heft": "–", "ergebnis": "Kein Test von Sandkästen mit Deckel auffindbar (Stand 2026-10-08). Die zahlreichen \"Testsieger 2026\"-Seiten (z. B. test-stiftung.de) beruhen nach eigener Angabe auf Kundenbewertungen und sind keine unabhängigen Tests.", "quelle": "https://test-stiftung.de/sandkasten-mit-deckel-tests" },
-    { "institut": "Öko-Test", "heft": "Spielsand im Test (Datum der aktuellen Ausgabe nicht ermittelt)", "ergebnis": "12 Spielsandmarken untersucht (Asbest, PAK, Dioxine); viele \"sehr gut\". Rat: auf Auslobung \"Spielsand\" achten, offene Sandkästen abdecken, Sand regelmäßig auflockern, alle 1–3 Jahre austauschen. Für FAQ zu Sand verwendbar.", "quelle": "https://www.oekotest.de/kinder-familie/Spielsand-im-Test-Wie-gut-sind-die-Produkte-_102723_1.html" },
-    { "institut": "Öko-Test", "heft": "Asbest-Check Knetsand/Spielsand (Frühjahr 2026, laut Berichten)", "ergebnis": "17 von 18 Knetsandprodukten ohne Asbest; Eduplay \"Mushimallow Stretch Sand\" \"ungenügend\". Betrifft Knetsand, nicht Sandkästen.", "quelle": "https://www.oekotest.de/kinder-familie/nach-asbest-skandal-in-knetsand-wie-stehts-um-spielsand_601050_1.html" }
+    {
+      "institut": "Stiftung Warentest / Öko-Test",
+      "heft": "–",
+      "ergebnis": "Kein Test von Sandkästen mit Deckel auffindbar (Stand 2026-10-08). Die zahlreichen \"Testsieger 2026\"-Seiten (z. B. test-stiftung.de) beruhen nach eigener Angabe auf Kundenbewertungen und sind keine unabhängigen Tests.",
+      "quelle": "https://test-stiftung.de/sandkasten-mit-deckel-tests"
+    },
+    {
+      "institut": "Öko-Test",
+      "heft": "Spielsand im Test, 12 Marken (Heftausgabe nicht sicher ermittelt; Suchtreffer deuten auf Mai 2026, unbestätigt)",
+      "ergebnis": "12 Spielsandmarken untersucht (Asbest, PAK, Dioxine); viele \"sehr gut\". Rat: auf Auslobung \"Spielsand\" achten, offene Sandkästen abdecken, Sand regelmäßig auflockern, alle 1–3 Jahre austauschen. Für FAQ zu Sand verwendbar.",
+      "quelle": "https://www.oekotest.de/kinder-familie/Spielsand-im-Test-Wie-gut-sind-die-Produkte-_102723_1.html"
+    },
+    {
+      "institut": "Öko-Test",
+      "heft": "Asbest-Check Knetsand/Spielsand (Frühjahr 2026, laut Berichten)",
+      "ergebnis": "17 von 18 Knetsandprodukten ohne Asbest; Eduplay \"Mushimallow Stretch Sand\" \"ungenügend\". Betrifft Knetsand, nicht Sandkästen.",
+      "quelle": "https://www.oekotest.de/kinder-familie/nach-asbest-skandal-in-knetsand-wie-stehts-um-spielsand_601050_1.html"
+    }
   ],
   "warnungen": [
     "Kein Rückruf und keine Safety-Gate-Meldung zu den ausgewählten Sandkästen gefunden (Websuche 2026-10-08; Safety-Gate-Datenbank und produktwarnung.eu konnten nicht direkt abgefragt werden, WebFetch ohne DNS-Auflösung).",
-    "Sand statt Sandkasten: Rückrufe wegen Asbest in Spiel-/Bastelsand von HEMA (19.02.2026) und Hobbycraft (18.02.2026) laut produktwarnung.eu-Übersicht – nur Überschriften gesehen. Für FAQ \"Welcher Sand?\": geprüften Spielsand verwenden. Quelle: https://www.produktwarnung.eu/stichwort/knabberwaren",
+    "Sand statt Sandkasten: Stiftung Warentest fand 2026 in 10 von 22 bunten Spiel-, Deko- und Bastelsanden Asbest; belastete Sande überwiegend aus Kalkstein, in Produkten aus Quarzsand nichts gefunden; es handelt sich nicht um Sandkastensand. Rückrufe u. a. bei HEMA und Woolworth (Spielfiguren mit Sandfüllung). Quelle: test.de, 'Verbraucherschützer warnen: Asbest in buntem Spielsand gefunden', laufend aktualisiert, Fassung vom 16.09.2026 (per WebSearch 2026-10-08 bestätigt): https://www.test.de/Verbraucherschuetzer-warnen-Asbest-in-buntem-Spielsand-gefunden-6281991-0/ ; Testbericht: https://www.test.de/Deko-Spiel-und-Bastelsand-Asbest-Alarm-in-Sandprodukten-6288341-0/ . Hobbycraft-Rückrufe betrafen nur UK und wurden gestrichen; produktwarnung.eu-Quelle entfernt.",
     "Für keinen der Holzsandkästen wurde eine EN-71-Angabe im Listing eindeutig gefunden (bei AXI Ella nur für die 100-cm-Version auf billiger.de als Attribut). Altersangaben nur als Herstellerangabe wiedergeben; bei AXI widersprüchlich.",
-    "Unbehandeltes Holz (HABAU) laut Hersteller mit wasserbasiertem Holzschutz behandeln – im Text auf kindgerechte, schadstoffarme Lasur hinweisen."
+    "Unbehandeltes Holz (HABAU) laut Hersteller mit wasserbasiertem Holzschutz behandeln – im Text auf kindgerechte, schadstoffarme Lasur hinweisen.",
+    "DIN EN 71-3 regelt die Migration bestimmter Elemente (Schwermetalle), nicht Asbest – nicht als Asbest-Schutz darstellen (Korrektur Runde 1)."
   ],
   "verworfen": [
-    { "name": "Nordje Sandkasten Anike 116 x 110 cm (B07DVG72B2)", "grund": "amazon.de-Listing \"derzeit nicht verfügbar\", unbekannt ob wieder lieferbar" },
-    { "name": "WICKEY Flip 120 x 125 cm (B00O0VD8OA)", "grund": "Listing nicht verfügbar; widersprüchliche Belastungsangaben; Nachfolger Flippey gewählt" },
-    { "name": "Eichhorn Sandkasten mit Sonnendach (B002UPB3DG)", "grund": "Modell/Artikelnummer konnte nicht verifiziert werden; AXI Lily für Dach-Variante gewählt" },
-    { "name": "SPRINGOS / KDI / Wiltec / Kotarbau 120 x 120 Klappbank-Sandkästen", "grund": "Austauschbare Marktplatz-Ware ohne belastbare Hersteller-/Normangaben; HABAU mit deutlich mehr Bewertungen als Preis-Tipp" },
-    { "name": "TikTakToo Wassermuschel (B07Z62C6R9)", "grund": "Kundenberichte: dünner Kunststoff verformt sich, Hälften rutschen auseinander; Paradiso Toys als Original gewählt" },
-    { "name": "Step2 Play & Store Sandkasten (B00AW8W4XQ)", "grund": "Teuer (ca. 150 €) bei kleiner Fläche; Sandtisch passt besser zum Top-5-Intent \"kleine Flächen\"" }
+    {
+      "name": "Nordje Sandkasten Anike 116 x 110 cm (B07DVG72B2)",
+      "grund": "amazon.de-Listing \"derzeit nicht verfügbar\", unbekannt ob wieder lieferbar"
+    },
+    {
+      "name": "WICKEY Flip 120 x 125 cm (B00O0VD8OA)",
+      "grund": "Listing nicht verfügbar; widersprüchliche Belastungsangaben; Nachfolger Flippey gewählt"
+    },
+    {
+      "name": "Eichhorn Sandkasten mit Sonnendach (B002UPB3DG)",
+      "grund": "Modell/Artikelnummer konnte nicht verifiziert werden; AXI Lily für Dach-Variante gewählt"
+    },
+    {
+      "name": "SPRINGOS / KDI / Wiltec / Kotarbau 120 x 120 Klappbank-Sandkästen",
+      "grund": "Austauschbare Marktplatz-Ware ohne belastbare Hersteller-/Normangaben; HABAU mit deutlich mehr Bewertungen als Preis-Tipp"
+    },
+    {
+      "name": "TikTakToo Wassermuschel (B07Z62C6R9)",
+      "grund": "Kundenberichte: dünner Kunststoff verformt sich, Hälften rutschen auseinander; Paradiso Toys als Original gewählt"
+    },
+    {
+      "name": "Step2 Play & Store Sandkasten (B00AW8W4XQ)",
+      "grund": "Teuer (ca. 150 €) bei kleiner Fläche; Sandtisch passt besser zum Top-5-Intent \"kleine Flächen\""
+    }
   ],
   "offen": [
     "Keine unabhängigen Tests (Stiftung Warentest, Öko-Test) zu Sandkästen vorhanden – Bewertung beruht auf Herstellerangaben und Kundenberichten; im Text transparent machen.",
@@ -177,20 +424,73 @@
     "Safety Gate (EU) und BAuA-Datenbank nicht direkt durchsuchbar gewesen – vor Veröffentlichung manuell nach \"sandpit\"/\"Sandkasten\" prüfen."
   ],
   "quellen": [
-    { "titel": "amazon.de: WICKEY Flippey 110x165 cm", "url": "https://www.amazon.de/dp/B0BSV47B8H" },
-    { "titel": "amazon.de: HABAU Sandkasten 3022", "url": "https://www.amazon.de/dp/B004SKU1L6" },
-    { "titel": "amazon.de: AXI Ella XXL", "url": "https://www.amazon.de/dp/B0F7LTZ4KS" },
-    { "titel": "amazon.de: AXI Ella (Eltern-Listing)", "url": "https://www.amazon.de/dp/B08ZLDP624" },
-    { "titel": "amazon.de: AXI Mandy XXL", "url": "https://www.amazon.de/dp/B0F7RXJM4Y" },
-    { "titel": "amazon.de: AXI Lily mit Dach", "url": "https://www.amazon.de/dp/B092R8MF4X" },
-    { "titel": "amazon.de: Paradiso Toys T00752", "url": "https://www.amazon.de/dp/B003A8KNEW" },
-    { "titel": "amazon.de: Step2 Naturally Playful Sandtisch", "url": "https://www.amazon.de/dp/B0009F4YR6" },
-    { "titel": "Kaufland: WICKEY Flippey", "url": "https://www.kaufland.de/product/300411500/" },
-    { "titel": "Decathlon: AXI Ella XL", "url": "https://www.decathlon.de/p/mp/ella-sandkasten-xl-aus-holz-mit-deckel-und-sitzbank-braun-grau-120-x-120-cm/68f5c958-bf4b-4220-ab26-c41102694bb3/c251" },
-    { "titel": "Decathlon: AXI Mandy XXL", "url": "https://www.decathlon.de/p/mp/mandy-xxl-sandkasten-aus-holz-bank-stauraum-tafel-160-x-151-x-122-5-cm/41bebc84-9e6f-4f17-af38-7f36ae8dd96b/c27" },
-    { "titel": "Öko-Test: Spielsand im Test", "url": "https://www.oekotest.de/kinder-familie/Spielsand-im-Test-Wie-gut-sind-die-Produkte-_102723_1.html" },
-    { "titel": "Öko-Test: Asbest in Knetsand – wie steht's um Spielsand", "url": "https://www.oekotest.de/kinder-familie/nach-asbest-skandal-in-knetsand-wie-stehts-um-spielsand_601050_1.html" },
-    { "titel": "produktwarnung.eu (Übersicht mit Spielsand-Rückrufen 2026)", "url": "https://www.produktwarnung.eu/stichwort/knabberwaren" },
-    { "titel": "test-stiftung.de (kein unabhängiger Test, nur Kundenbewertungen)", "url": "https://test-stiftung.de/sandkasten-mit-deckel-tests" }
+    {
+      "titel": "amazon.de: WICKEY Flippey 110x165 cm",
+      "url": "https://www.amazon.de/dp/B0BSV47B8H"
+    },
+    {
+      "titel": "amazon.de: HABAU Sandkasten 3022",
+      "url": "https://www.amazon.de/dp/B004SKU1L6"
+    },
+    {
+      "titel": "amazon.de: AXI Ella XXL",
+      "url": "https://www.amazon.de/dp/B0F7LTZ4KS"
+    },
+    {
+      "titel": "amazon.de: AXI Ella (Eltern-Listing)",
+      "url": "https://www.amazon.de/dp/B08ZLDP624"
+    },
+    {
+      "titel": "amazon.de: AXI Mandy XXL",
+      "url": "https://www.amazon.de/dp/B0F7RXJM4Y"
+    },
+    {
+      "titel": "amazon.de: AXI Lily mit Dach",
+      "url": "https://www.amazon.de/dp/B092R8MF4X"
+    },
+    {
+      "titel": "amazon.de: Paradiso Toys T00752",
+      "url": "https://www.amazon.de/dp/B003A8KNEW"
+    },
+    {
+      "titel": "amazon.de: Step2 Naturally Playful Sandtisch",
+      "url": "https://www.amazon.de/dp/B0009F4YR6"
+    },
+    {
+      "titel": "Kaufland: WICKEY Flippey",
+      "url": "https://www.kaufland.de/product/300411500/"
+    },
+    {
+      "titel": "Decathlon: AXI Ella XL",
+      "url": "https://www.decathlon.de/p/mp/ella-sandkasten-xl-aus-holz-mit-deckel-und-sitzbank-braun-grau-120-x-120-cm/68f5c958-bf4b-4220-ab26-c41102694bb3/c251"
+    },
+    {
+      "titel": "Decathlon: AXI Mandy XXL",
+      "url": "https://www.decathlon.de/p/mp/mandy-xxl-sandkasten-aus-holz-bank-stauraum-tafel-160-x-151-x-122-5-cm/41bebc84-9e6f-4f17-af38-7f36ae8dd96b/c27"
+    },
+    {
+      "titel": "Öko-Test: Spielsand im Test",
+      "url": "https://www.oekotest.de/kinder-familie/Spielsand-im-Test-Wie-gut-sind-die-Produkte-_102723_1.html"
+    },
+    {
+      "titel": "Öko-Test: Asbest in Knetsand – wie steht's um Spielsand",
+      "url": "https://www.oekotest.de/kinder-familie/nach-asbest-skandal-in-knetsand-wie-stehts-um-spielsand_601050_1.html"
+    },
+    {
+      "titel": "test-stiftung.de (kein unabhängiger Test, nur Kundenbewertungen)",
+      "url": "https://test-stiftung.de/sandkasten-mit-deckel-tests"
+    },
+    {
+      "titel": "test.de: Asbest in buntem Spielsand gefunden (Stand 16.09.2026)",
+      "url": "https://www.test.de/Verbraucherschuetzer-warnen-Asbest-in-buntem-Spielsand-gefunden-6281991-0/"
+    },
+    {
+      "titel": "test.de: Asbest in Spielsand – 10 von 22 Produkten belastet",
+      "url": "https://www.test.de/Deko-Spiel-und-Bastelsand-Asbest-Alarm-in-Sandprodukten-6288341-0/"
+    },
+    {
+      "titel": "Kaufland: WICKEY Flippey 110 x 165 (Verkäufer WICKEY)",
+      "url": "https://www.kaufland.de/product/300411510/"
+    }
   ]
 }

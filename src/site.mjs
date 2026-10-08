@@ -237,9 +237,9 @@ export const areas = [
       "Pikler-Dreieck, Kletterwand, Deckenschaukel, Spielturm, Sandkasten und Seilbahn: die besten Spielgeräte für Kinderzimmer und Garten mit Sicherheitstipps.",
     article: `
   <h2>Ein Spielplatz zu Hause – sicher geplant</h2>
-  <p class="quick">Ob Kinderzimmer oder Garten: Wähle Spielgeräte nach Alter und Platz, achte auf die Herstellerangaben zu Alter und Belastung und plane den Fallschutz von Anfang an mit. Geräte für den Hausgebrauch sollten nach EN 71 (Spielzeug) oder für den Garten nach EN 71-8 geprüft sein.</p>
+  <p class="quick">Ob Kinderzimmer oder Garten: Wähle Spielgeräte nach Alter und Platz, achte auf die Herstellerangaben zu Alter und Belastung und plane den Fallschutz von Anfang an mit. Für Schaukeln, Rutschen und ähnliche Spielgeräte für zu Hause gilt die Spielzeugnorm EN 71-8 – ob ein Gerät danach geprüft ist, steht in der Anleitung oder auf der Verpackung.</p>
   <p>Kinder wollen klettern, rutschen und schaukeln – bei jedem Wetter. Drinnen funktionieren Pikler-Dreieck, Sprossenwand, Kletterwand oder eine Schaukel an der Decke, draußen Spielturm, Gartenschaukel, Sandkasten und Seilbahn. Für jedes Gerät zeigen wir drei Empfehlungen und erklären, worauf es bei Alter, Montage und Sicherheit ankommt.</p>
-  <p>Wir empfehlen nur Produkte, die bei Amazon erhältlich sind, und kennzeichnen Altersangaben und technische Daten als Herstellerangaben. Unabhängige Tests gibt es für diese Geräte nur selten; wo es sie gibt, nennen wir sie.</p>
+  <p>Unsere Empfehlungen sind bei Amazon erhältlich; Modelle, die es nur beim Hersteller oder im Fachhandel gibt, nennen wir ohne Link. Wir kennzeichnen Altersangaben und technische Daten als Herstellerangaben. Unabhängige Tests gibt es für diese Geräte nur selten; wo es sie gibt, nennen wir sie.</p>
   <aside class="callout warn"><p class="ct">Sicherheit</p><p>Kleinkinder beim Klettern, Rutschen und Schaukeln immer beaufsichtigen. Wand- und Deckenbefestigungen müssen zum Untergrund passen – im Zweifel eine Fachkraft fragen. Gartengeräte nach Herstellerangabe im Boden verankern und darunter einen weichen Fallschutz vorsehen.</p></aside>`,
     groups: [
       {
@@ -265,8 +265,8 @@ export const areas = [
         metaDescription: "Spielturm, Gartenschaukel, Sandkasten mit Deckel, Seilbahn, Hüpfburg und Wasserrutsche: die besten Spielgeräte für den Garten mit Aufbau- und Sicherheitstipps.",
         article: `
   <h2>Der Garten als Spielplatz</h2>
-  <p class="quick">Am meisten Spielwert auf wenig Fläche bringt ein Spielturm mit Rutsche und Schaukel. Für Kleinkinder reicht oft ein Sandkasten mit Deckel und eine Babyschaukel; Seilbahn und Hüpfburg sind etwas für größere Kinder und große Gärten.</p>
-  <p>Gartenspielgeräte stehen das ganze Jahr draußen. Achte auf wetterfestes, kesseldruckimprägniertes oder von Natur aus haltbares Holz, auf Bodenanker und auf ausreichend Sicherheitsabstand rundherum. Für Spielgeräte im privaten Garten gilt die Norm EN 71-8; öffentliche Spielplätze folgen strengeren Regeln (EN 1176), an denen du dich bei Fallschutz und Abständen orientieren kannst.</p>`,
+  <p class="quick">Am meisten Spielwert auf wenig Fläche bringt ein Spielturm mit Rutsche und Schaukel. Für Kleinkinder reicht oft ein Sandkasten mit Deckel und eine Babyschaukel; Seilbahn und Hüpfburg brauchen viel Platz und einen großen Garten.</p>
+  <p>Gartenspielgeräte stehen das ganze Jahr draußen. Achte auf wetterfestes, kesseldruckimprägniertes oder von Natur aus haltbares Holz, auf Bodenanker und auf ausreichend Sicherheitsabstand rundherum. Schaukeln, Rutschen und ähnliche Spielgeräte für den Hausgebrauch fallen unter die Spielzeugnorm EN 71-8; öffentliche Spielplätze folgen strengeren Regeln (EN 1176), an denen du dich bei Fallschutz und Abständen orientieren kannst.</p>`,
       },
     ],
   },
@@ -283,7 +283,7 @@ export const areas = [
   <h2>Möbel, die mitspielen</h2>
   <p class="quick">Gute Spielzimmer-Möbel sind niedrig genug, dass Kinder selbst herankommen, standsicher an der Wand befestigt und robust genug für tägliches Ein- und Ausräumen. Tische und Stühle sollten zur Körpergröße passen – oder mitwachsen.</p>
   <p>Ein Spielzimmer funktioniert, wenn alles einen festen Platz hat: Bücher mit dem Cover nach vorn, Spielsachen in offenen Fächern oder Boxen, Malsachen am Kindertisch. Wir zeigen je Möbelstück drei Empfehlungen und erklären, worauf es bei Maßen, Material und Sicherheit ankommt.</p>
-  <aside class="callout warn"><p class="ct">Kippschutz</p><p>Regale, Schränke und Kommoden im Kinderzimmer immer mit dem mitgelieferten Kippschutz an der Wand befestigen. Kinder klettern gern an Möbeln hoch – nicht gesicherte Möbel können umfallen.</p></aside>`,
+  <aside class="callout warn"><p class="ct">Kippschutz</p><p>Regale, Schränke und Kommoden im Kinderzimmer immer mit einem Kippschutz und zum Untergrund passenden Dübeln an der Wand befestigen. Kinder klettern gern an Möbeln hoch – nicht gesicherte Möbel können umfallen.</p></aside>`,
   },
   {
     slug: "gaming-room",

@@ -38,7 +38,7 @@ export default {
   ],
 
   method:
-    "Wir testen die Schränke nicht selbst. Grundlage sind Herstellerangaben (Maße, Ausstattung, Material, Beschläge), Händlerangaben und Kundenberichte, Montageanleitungen der Hersteller zur Wandbefestigung sowie die Norm EN 14749 zur Standsicherheit von Aufbewahrungsmöbeln. Einen aktuellen Test von Kinderkleiderschränken durch Stiftung Warentest oder Öko-Test haben wir nicht gefunden; Vergleichsportale ohne eigene Prüfung zitieren wir nicht als Test. Die Bewertung ist eine redaktionelle Einschätzung in vier gewichteten Kriterien von 0 bis 10.",
+    "Wir testen die Schränke nicht selbst. Grundlage sind Herstellerangaben (Maße, Ausstattung, Material, Beschläge), Händlerangaben und Kundenberichte, Montageanleitungen der Hersteller zur Wandbefestigung sowie die Norm EN 14749 für Aufbewahrungsmöbel für den Wohn- und Küchenbereich. Einen aktuellen Test von Kinderkleiderschränken durch Stiftung Warentest oder Öko-Test haben wir nicht gefunden; Vergleichsportale ohne eigene Prüfung zitieren wir nicht als Test. Die Bewertung ist eine redaktionelle Einschätzung in vier gewichteten Kriterien von 0 bis 10.",
 
   products: [
     {
@@ -59,14 +59,14 @@ export default {
         "Soft-Close-Beschläge an den Türen, sollen das Einklemmen kleiner Finger verhindern (Herstellerangabe)",
         "Uni weiß oder Eiche mit Echtholzstruktur, Holzwerkstoff (Herstellerangabe)",
       ],
-      pros: ["Soft-Close-Türen gegen geklemmte Finger", "Offenes Fach plus vier verstellbare Böden", "Zeitloses Design, wächst mit", "Lange Garantie laut Händlerangaben"],
-      cons: ["Holzwerkstoff ohne veröffentlichte Emissionswerte", "Sehr schwer (83,5 kg) – Aufbau nur zu zweit", "Neues Modell mit noch wenigen Kundenbewertungen"],
+      pros: ["Soft-Close-Türen gegen geklemmte Finger", "Offenes Fach plus vier verstellbare Böden", "Zeitloses Design, wächst mit", "10 Jahre Pinolino-Plus-Garantie (laut Händlerangaben für das gesamte Sortiment)"],
+      cons: ["Holzwerkstoff ohne veröffentlichte Emissionswerte", "Sehr schwer (83,5 kg) – Aufbau nur zu zweit", "Neues Modell – Langzeiterfahrungen fehlen noch"],
       specs: {
         masse: "110 × 52 × 188 cm",
         tueren: "3 Türen, Soft-Close",
         innen: "4 Böden, 1 Stange, 1 offenes Fach",
         material: "Holzwerkstoff, weiß / Eiche-Struktur",
-        garantie: "10 Jahre (laut Händlerangaben)",
+        garantie: "10 Jahre Pinolino-Plus (laut Händlerangaben für alle Pinolino-Produkte)",
       },
       asin: "B0DXVYPSGR",
       query: "PINOLINO Kleiderschrank Linje",
@@ -86,10 +86,10 @@ export default {
       features: [
         "Ca. 80 × 189 × 53 cm (B × H × T), 2 Türen (Herstellerangabe)",
         "6 Fächer und 2 Kleiderstangen (Herstellerangabe)",
-        "Für die WINNIE-Serie schreibt Forte die Wandmontage vor (belegt für die 170er-Variante)",
+        "Wandmontage laut Listing vorgeschrieben (Herstellerangabe)",
         "2 Jahre Herstellergarantie (Herstellerangabe)",
       ],
-      pros: ["Nur 80 cm breit", "Zwei Kleiderstangen plus Fächer", "Viele Kundenbewertungen", "Günstigster Schrank im Vergleich"],
+      pros: ["Nur 80 cm breit", "Zwei Kleiderstangen plus Fächer", "Wandmontage vom Hersteller vorgeschrieben", "Günstigster Schrank im Vergleich"],
       cons: ["Holzwerkstoff ohne Emissionsangaben", "Kein Soft-Close angegeben", "Angaben zur Fächerzahl im Listing uneinheitlich", "Nicht speziell für Kinder entwickelt"],
       specs: {
         masse: "ca. 80 × 53 × 189 cm",
@@ -112,21 +112,21 @@ export default {
       ratings: { sicherheit: 8.0, stauraum: 7.5, material: 9.0, kindgerecht: 6.0 },
       bestFor: "Eltern, die Massivholz mit Ölfinish statt Spanplatte wollen",
       verdict:
-        "Der Schrank für alle, die beim Material keine Kompromisse machen: massive Buche, geölt mit Hartöl auf Leinölbasis, Soft-Close-Türen, zwei Kleiderstangen und fünf Böden. Er ist teuer und mit 63 cm sehr tief – dafür auf viele Jahre ausgelegt.",
+        "Der Schrank für alle, die beim Material keine Kompromisse machen: massive Buche, geölt mit Hartöl auf Leinölbasis, Soft-Close-Türen, zwei Kleiderstangen und vier bis fünf Böden (Angaben uneinheitlich). Er ist teuer und mit 63 cm sehr tief – dafür auf viele Jahre ausgelegt.",
       features: [
         "Massive Buche, Hartöl auf Leinölbasis (Herstellerangabe)",
         "B 94 × T 63 × H 182 cm (Herstellerangabe)",
-        "5 teils höhenverstellbare Böden, 2 Kleiderstangen, Soft-Close-Türen (Herstellerangabe)",
-        "10 Jahre Pinolino-Plus-Garantie (laut Händlerangaben)",
+        "4–5 teils höhenverstellbare Böden (Angaben in Listings uneinheitlich), 2 Kleiderstangen, Soft-Close-Türen (Herstellerangabe)",
+        "10 Jahre Pinolino-Plus-Garantie (laut Händlerangaben für alle Pinolino-Produkte)",
       ],
-      pros: ["Massivholz mit Ölfinish statt Dekorfolie", "Soft-Close-Türen", "Zwei Kleiderstangen plus fünf Böden", "Lange Garantie laut Händlerangaben"],
-      cons: ["Teuerster Schrank im Vergleich", "63 cm tief – braucht Stellfläche", "Aufbau laut Kundenberichten anspruchsvoll", "Nur wenige Kundenbewertungen"],
+      pros: ["Massivholz mit Ölfinish statt Dekorfolie", "Soft-Close-Türen", "Zwei Kleiderstangen plus vier bis fünf Böden", "10 Jahre Pinolino-Plus-Garantie (laut Händlerangaben)"],
+      cons: ["Teuerster Schrank im Vergleich", "63 cm tief – braucht Stellfläche", "Aufbau laut Kundenberichten anspruchsvoll", "Angaben zur Zahl der Böden uneinheitlich"],
       specs: {
         masse: "94 × 63 × 182 cm",
         tueren: "2 Türen, Soft-Close",
-        innen: "5 Böden, 2 Stangen",
+        innen: "4–5 Böden (Angaben uneinheitlich), 2 Stangen",
         material: "Buche massiv, Hartöl auf Leinölbasis",
-        garantie: "10 Jahre (laut Händlerangaben)",
+        garantie: "10 Jahre Pinolino-Plus (laut Händlerangaben)",
       },
       asin: "B004CR5AFC",
       query: "PINOLINO Kleiderschrank Natura",
@@ -178,7 +178,7 @@ export default {
           { first: "Ein Kinderschrank muss mehr aushalten als ein Schrank im Elternschlafzimmer: Türen werden aufgerissen und zugeknallt, Schubladen und Böden dienen gelegentlich als Treppe, und der Inhalt wechselt alle paar Monate, weil Kleidung zu klein wird. Deshalb haben wir nicht nur auf Stauraum geschaut, sondern vor allem auf zwei Dinge: ob der Hersteller eine Wandbefestigung vorsieht und wie die Türen schließen." },
           { p: "Der [PINOLINO Linje](produkt:1) liegt vorn, weil er beides gut löst. Er ist 3-türig und 110 cm breit; Pinolino stattet die Türen laut Hersteller mit Soft-Close-Beschlägen aus, die das Einklemmen kleiner Finger verhindern sollen. Innen gibt es eine Kleiderstange, vier höhenverstellbare Böden und ein offenes Fach – praktisch für Kuscheltier, Lieblingsbuch oder die Kleidung für morgen. Schwächen: Er besteht aus Holzwerkstoff, zu dem keine Emissionswerte veröffentlicht sind, und wiegt laut Hersteller 83,5 kg." },
           { p: "Der [Forte WINNIE 80](produkt:2) ist eigentlich ein gewöhnlicher Kleiderschrank, der als Kinderzimmerschrank angeboten wird. Gerade das macht ihn interessant: Mit 80 cm Breite passt er in kleine Zimmer, zwei Kleiderstangen und mehrere Fächer bieten viel Platz, und das Design wirkt nicht kindlich. Soft-Close-Türen gibt der Hersteller nicht an – deshalb liegt er bei Sicherheit hinter den Pinolino-Schränken." },
-          { p: "Der [PINOLINO Natura](produkt:3) ist der Schrank für Eltern, die Massivholz statt Spanplatte möchten. Massive Buche mit Hartöl auf Leinölbasis (Herstellerangabe), Soft-Close-Türen, zwei Stangen und fünf Böden – dazu laut Händlerangaben 10 Jahre Garantie. Er kostet deutlich mehr und ist mit 63 cm sehr tief, was in schmalen Kinderzimmern stören kann." },
+          { p: "Der [PINOLINO Natura](produkt:3) ist der Schrank für Eltern, die Massivholz statt Spanplatte möchten. Massive Buche mit Hartöl auf Leinölbasis (Herstellerangabe), Soft-Close-Türen, zwei Stangen und vier bis fünf Böden (die Listings nennen beides) – dazu laut Händlerangaben die 10-jährige Pinolino-Plus-Garantie, die Pinolino für das gesamte Sortiment gibt. Er kostet deutlich mehr und ist mit 63 cm sehr tief, was in schmalen Kinderzimmern stören kann." },
           { figure: "scores" },
         ],
       },
@@ -188,14 +188,14 @@ export default {
         blocks: [
           { quick: "Entscheidend sind fünf Punkte: eine Wandbefestigung gegen Kippen, Türen mit Soft-Close oder Klemmschutz, eine flexible Innenaufteilung, Maße passend zum Zimmer und ein Material, zu dem der Hersteller klare Angaben macht." },
           { h3: "Kippschutz: das wichtigste Kriterium" },
-          { p: "Ein hoher, schmaler Schrank kann umfallen, wenn ein Kind an offenen Türen zieht oder auf Böden klettert. Die europäische Norm **EN 14749** beschreibt Sicherheitsanforderungen und Prüfverfahren für die Standsicherheit von Aufbewahrungsmöbeln. Wichtig: Wand und Dübel sind laut BSI nicht Teil dieser Prüfung – die Befestigung muss also immer zur eigenen Wand passen. Pinolino schreibt in seinen Montageanleitungen die Befestigung mit einem mitgelieferten Winkel an der Wand vor (dokumentiert etwa für das Modell Viktoria), Forte für die WINNIE-Serie ebenfalls." },
-          { callout: { title: "Kippschutz ist Pflicht", warn: true, text: "Jeden Kinderschrank an der Wand befestigen – auch wenn er schwer und stabil wirkt. Dübel und Schrauben müssen zum Untergrund passen: Beton, Ziegel, Porenbeton und Gipskarton brauchen unterschiedliche Befestigungen. Bei Leichtbauwänden oder Unsicherheit über die Statik eine Fachkraft fragen. Kinder nicht an Türen hängen oder in den Schrank klettern lassen." } },
+          { p: "Ein hoher, schmaler Schrank kann umfallen, wenn ein Kind an offenen Türen zieht oder auf Böden klettert. Die europäische Norm **EN 14749** beschreibt Sicherheitsanforderungen und Prüfverfahren für Aufbewahrungsmöbel für den Wohn- und Küchenbereich, darunter die Standsicherheit. Wichtig: Wand und Dübel sind laut BSI nicht Teil dieser Prüfung – die Befestigung muss also immer zur eigenen Wand passen. Pinolino schreibt in seinen Montageanleitungen die Befestigung mit einem mitgelieferten Winkel an der Wand vor (dokumentiert etwa für das Modell Viktoria), Forte für die WINNIE-Serie ebenfalls." },
+          { callout: { title: "Kippschutz ist Pflicht", warn: true, text: "Jeden Kinderschrank an der Wand befestigen – auch wenn er schwer und stabil wirkt. Welcher Dübel hält, entscheidet die Wand – nicht das Möbel; mitgelieferte Dübel sind meist nur für Beton oder Vollziegel gedacht. Bei Leichtbauwänden oder Unsicherheit über die Statik eine Fachkraft fragen. Kinder nicht an Türen hängen oder in den Schrank klettern lassen." } },
           { h3: "Türen: Soft-Close und Fingerklemmschutz" },
           { p: "Gedämpfte Scharniere schließen die Tür auf den letzten Zentimetern langsam. Das schützt Finger und Möbel. Die beiden Pinolino-Schränke haben laut Hersteller Soft-Close-Türen, beim Forte WINNIE ist das nicht angegeben. Wer einen Schrank ohne Dämpfung kauft, kann Türstopper oder Klemmschutz aus dem Kindersicherheits-Zubehör nachrüsten." },
           { h3: "Innenaufteilung: Stange, Böden, offenes Fach" },
-          { p: "Kinderkleidung ist kurz – eine durchgehende Stange auf Erwachsenenhöhe verschenkt viel Platz. Gut sind zwei Stangen übereinander (WINNIE, Natura) oder verstellbare Böden (Linje: vier, Natura: fünf), die man mit dem Kind mitwachsen lässt. Ein offenes Fach wie beim Linje macht Lieblingssachen sichtbar und lädt Kinder ein, selbst etwas herauszunehmen." },
+          { p: "Kinderkleidung ist kurz – eine durchgehende Stange auf Erwachsenenhöhe verschenkt viel Platz. Gut sind zwei Stangen übereinander (WINNIE, Natura) oder verstellbare Böden (Linje: vier, Natura: vier bis fünf), die man mit dem Kind mitwachsen lässt. Ein offenes Fach wie beim Linje macht Lieblingssachen sichtbar und lädt Kinder ein, selbst etwas herauszunehmen." },
           { h3: "Material und Ausdünstungen" },
-          { p: "Die meisten Kinderschränke bestehen aus Holzwerkstoffen wie Span- oder MDF-Platten mit Dekor. Massivholz mit Ölfinish wie beim Natura gilt als Alternative für Eltern, die Kunstharz-Bindemittel vermeiden möchten. Als allgemeiner Hintergrund: Öko-Test hat in einem Test kompletter Kinderzimmermöbel (online aktualisiert 12/2019) festgestellt, dass Kleiderschrank und Stuhl in den ersten Tagen problematische Verbindungen ausdünsteten, und im Wickelkommoden-Test 2010 gasten die meisten Kommoden deutlich Formaldehyd aus. Für unsere drei Schränke gibt es keine solchen Prüfergebnisse – neue Möbel sollten in jedem Fall einige Tage gut gelüftet werden, bevor das Kind im Zimmer schläft." },
+          { p: "Die meisten Kinderschränke bestehen aus Holzwerkstoffen wie Span- oder MDF-Platten mit Dekor. Massivholz mit Ölfinish wie beim Natura gilt als Alternative für Eltern, die Kunstharz-Bindemittel vermeiden möchten. Als allgemeiner Hintergrund: Öko-Test hat ein komplett eingerichtetes Ikea-Kinderzimmer auf die Raumluft geprüft (online aktualisiert 12/2019). Insgesamt schnitt die Raumluft mit „gut“ ab, in den ersten Tagen dünsteten Kleiderschrank und Stuhl aber problematische Verbindungen aus. Im Wickelkommoden-Test (ÖKO-TEST Magazin 8/2009) gasten die meisten Kommoden deutlich Formaldehyd aus. Für unsere drei Schränke gibt es keine solchen Prüfergebnisse – neue Möbel sollten in jedem Fall einige Tage gut gelüftet werden, bevor das Kind im Zimmer schläft." },
           {
             table: {
               caption: "Die drei Schränke nach Material und Ausstattung",
@@ -203,7 +203,7 @@ export default {
               rows: [
                 ["**PINOLINO Linje**", "Holzwerkstoff", "3, Soft-Close", "4 Böden, 1 Stange, offenes Fach"],
                 ["**Forte WINNIE 80**", "Holzwerkstoff", "2, ohne Angabe zu Soft-Close", "Fächer, 2 Stangen"],
-                ["**PINOLINO Natura**", "Buche massiv, geölt", "2, Soft-Close", "5 Böden, 2 Stangen"],
+                ["**PINOLINO Natura**", "Buche massiv, geölt", "2, Soft-Close", "4–5 Böden, 2 Stangen"],
               ],
             },
           },
@@ -248,9 +248,22 @@ export default {
         blocks: [
           { quick: "Den Schrank mit dem mitgelieferten Winkel oder Gurt oben an der Wand verschrauben – mit Dübeln, die zum Mauerwerk passen. Danach Türen einstellen und die Befestigung regelmäßig prüfen." },
           { figure: "steps" },
-          { p: "Kippbeschläge gehören in den oberen Bereich des Schranks, weil dort die Hebelwirkung am größten ist. Vor dem Bohren prüfen, wo Leitungen verlaufen. In Gipskartonwänden halten normale Dübel nicht zuverlässig – hier Hohlraumdübel verwenden oder in ein Ständerprofil schrauben; bei Altbau, Porenbeton oder Unklarheiten über die Wand lieber eine Fachkraft hinzuziehen." },
+          { p: "Wo der Kippbeschlag sitzt, gibt die Montageanleitung vor – in der Regel oben am Möbel. Vor dem Bohren prüfen, wo Leitungen verlaufen; ein Leitungssucher hilft. Dann den Untergrund bestimmen, denn davon hängt ab, welcher Dübel hält:" },
+          {
+            table: {
+              caption: "Welche Befestigung zu welcher Wand passt (allgemeine Orientierung)",
+              head: ["Wand", "Befestigung", "Hinweis"],
+              rows: [
+                ["**Beton, Vollziegel**", "Standard-Spreizdübel", "Mitgelieferte Dübel sind meist dafür gedacht"],
+                ["**Lochziegel**", "Dübel für Lochstein (lange Spreizzone)", "Ohne Schlag bohren, damit die Stege nicht brechen"],
+                ["**Porenbeton**", "Spezialdübel für Porenbeton", "Normale Dübel drehen leicht durch"],
+                ["**Gipskarton, Leichtbau**", "Hohlraumdübel oder Schraube ins Ständerprofil", "Im Zweifel eine Fachkraft fragen"],
+              ],
+            },
+          },
+          { p: "Dasselbe gilt für alle Aufbewahrungsmöbel im Kinderzimmer – auch für Bücherregale und niedrige Sideboards. Was dort zusätzlich zu beachten ist, etwa bei Frontregalen oder Kommoden mit Schubladen, steht in unseren Ratgebern [Kinderbücherregal](/kinder-buecherregal/#kippsicher-einrichten) und [Sideboard fürs Kinderzimmer](/sideboard-kinderzimmer/#kippschutz). Bei Altbau, unbekanntem Wandaufbau oder schweren Schränken lieber eine Fachkraft hinzuziehen." },
           { p: "Beim Einräumen hilft eine einfache Regel: Schweres nach unten, Leichtes nach oben. Alltagskleidung auf Kinderhöhe, Saisonsachen und Bettwäsche in die oberen Fächer. Bei verstellbaren Böden die Belastungsgrenzen des Herstellers beachten – Forte nennt für die WINNIE-Serie etwa 5 kg je Boden und 15 kg je Stange." },
-          { facts: [{ value: "EN 14749", label: "Norm für Standsicherheit von Aufbewahrungsmöbeln" }, { value: "83,5 kg", label: "Gewicht PINOLINO Linje (Herstellerangabe)" }, { value: "80 cm", label: "Breite Forte WINNIE – schmalster Top-3-Schrank" }] },
+          { facts: [{ value: "EN 14749", label: "Norm für Aufbewahrungsmöbel (u. a. Standsicherheit)" }, { value: "83,5 kg", label: "Gewicht PINOLINO Linje (Herstellerangabe)" }, { value: "80 cm", label: "Breite Forte WINNIE – schmalster Top-3-Schrank" }] },
         ],
       },
       {
@@ -258,7 +271,7 @@ export default {
         h2: "Spielzeugschrank mit Klappe oder offene Fächer?",
         blocks: [
           { quick: "Offene Fächer sind für Kinder leichter zu nutzen und sicherer. Klappen und Deckel halten Ordnung und Staub fern, sollten aber gedämpft sein oder in jeder Position stehen bleiben, damit sie nicht auf Finger oder Kopf fallen." },
-          { p: "Ein Kleiderschrank mit Türen eignet sich nur bedingt für Spielzeug: Was hinter Türen verschwindet, wird seltener gespielt und schwerer aufgeräumt. Für Bausteine, Puzzles und Spiele sind niedrige Möbel mit offenen Fächern, Boxen oder einer gedämpften Klappe praktischer. Bei Spielzeugkisten mit Deckel besteht zusätzlich eine Einschlussgefahr – deshalb auf Klappenhalter, Dämpfer und Lüftungsöffnungen achten und Kinder beim Spielen mit Truhen nicht unbeaufsichtigt lassen." },
+          { p: "Ein Kleiderschrank mit Türen eignet sich nur bedingt für Spielzeug: Was hinter Türen verschwindet, wird seltener gespielt und schwerer aufgeräumt. Für Bausteine, Puzzles und Spiele sind niedrige Möbel mit offenen Fächern, Boxen oder einer gedämpften Klappe praktischer. Bei Spielzeugkisten mit Deckel kommt eine Einschlussgefahr hinzu. Für Spielzeugtruhen, die als Spielzeug verkauft werden, verlangt die Spielzeugnorm EN 71-1 deshalb unter anderem einen Deckelhalter, der den Deckel nicht herunterfallen lässt, und Lüftungsöffnungen bei Truhen, in die ein Kind hineinpasst. Achte bei jeder Kiste mit Deckel auf diese Punkte und lass Kinder beim Spielen mit Truhen nicht unbeaufsichtigt." },
           { p: "Der offene Montessori-Ansatz – niedrige Stange, sichtbare Kleidung, wenige Teile zur Auswahl – fördert, dass Kinder sich selbst anziehen. Er ersetzt aber meist keinen geschlossenen Schrank für Wechselkleidung, Bettzeug und Saisonsachen. Viele Familien kombinieren deshalb einen hohen Schrank mit einer offenen Kindergarderobe." },
         ],
       },
@@ -279,10 +292,12 @@ export default {
     { label: "amazon.de: Forte WINNIE Kleiderschrank 80 (Herstellerangaben)", url: "https://www.amazon.de/dp/B0085HMUPS" },
     { label: "amazon.de: Forte WINNIE 170 – Hinweis zur Wandmontage", url: "https://www.amazon.de/dp/B0DT1BFR8D" },
     { label: "amazon.de: PINOLINO Kleiderschrank Natura (Herstellerangaben)", url: "https://www.amazon.de/dp/B004CR5AFC" },
-    { label: "babyartikel.de: Pinolino-Kleiderschrank, Garantieangaben", url: "https://www.babyartikel.de/prod/pinolino-kleiderschrank-hope-3-tuerig" },
     { label: "Pinolino Viktoria: Montageanleitung mit Wandbefestigung", url: "https://manuall.de/pinolino-viktoria-kleiderschrank/?page=2" },
     { label: "BSI: EN 14749 – Aufbewahrungsmöbel, Sicherheitsanforderungen", url: "https://knowledge.bsigroup.com/products/furniture-domestic-and-kitchen-storage-units-and-kitchen-worktops-safety-requirements-and-test-methods" },
-    { label: "Öko-Test: Kinderzimmermöbel und Raumluft (online, 12/2019)", url: "https://www.oekotest.de/bauen-wohnen/Ikea-Kinderzimmer-im-Test-Wie-stark-Kinderbett-Co-die-Raumluft-belasten_111621_1.html" },
+    { label: "ÖKO-TEST Magazin 8/2009: 10 Wickelkommoden im Test", url: "https://www.oekotest.de/kinder-familie/10-Wickelkommoden-im-Test_94257_1.html" },
+    { label: "Lidl: Pinolino-Markenseite (10 Jahre Pinolino-Plus-Garantie auf das gesamte Sortiment)", url: "https://www.lidl.de/q/brand/pinolino/b5970" },
+    { label: "Intertek: EN 71-1 – mechanische und physikalische Anforderungen an Spielzeug (2026)", url: "https://www.intertek.com/products-retail/insight-bulletins/2026/1527-en-71-1-mechanical-physical-toys/" },
+    { label: "Öko-Test: Ikea-Kinderzimmer und Raumluft (online, 12/2019)", url: "https://www.oekotest.de/bauen-wohnen/Ikea-Kinderzimmer-im-Test-Wie-stark-Kinderbett-Co-die-Raumluft-belasten_111621_1.html" },
     { label: "amazon.de: HOCSOK Kinderregal mit Spielzeugkiste", url: "https://www.amazon.de/dp/B09ZNXRLD5" },
     { label: "amazon.de: BioKinder Lina Kleiderschrank Erle", url: "https://www.amazon.de/dp/B073QT1NRV" },
   ],

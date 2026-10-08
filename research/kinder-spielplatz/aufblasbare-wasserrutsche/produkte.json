@@ -2,43 +2,118 @@
   "slug": "aufblasbare-wasserrutsche",
   "stand": "2026-10-08",
   "criteria": [
-    { "key": "groesse", "label": "Größe, Rutsche & Becken", "weight": 0.3, "description": "Stellfläche, Rutschlänge/-spuren, Beckenvolumen, Anzahl gleichzeitiger Kinder (Herstellerangaben)." },
-    { "key": "sicherheit", "label": "Gebläse, Material & Sicherheit", "weight": 0.3, "description": "Dauergebläse (GS), Verankerung (Heringe, Wassersäcke), Netz/Seitenwände, Fallhöhe, Herstellerangaben zu Alter und Belastung, Haltbarkeit laut Erfahrungsberichten." },
-    { "key": "wasser", "label": "Wasserspiel & Sprinkler", "weight": 0.2, "description": "Sprühbogen/Sprinkler am Gartenschlauch, Wasserkanone, Planschbecken am Rutschenende." },
-    { "key": "handling", "label": "Auf-/Abbau & Trocknung", "weight": 0.2, "description": "Gewicht, Aufblasdauer, Packmaß, Ablassventile, Aufwand fürs Trocknen und Lagern." }
+    {
+      "key": "groesse",
+      "label": "Größe, Rutsche & Becken",
+      "weight": 0.3,
+      "description": "Stellfläche, Rutschlänge/-spuren, Beckenvolumen, Anzahl gleichzeitiger Kinder (Herstellerangaben)."
+    },
+    {
+      "key": "sicherheit",
+      "label": "Gebläse, Material & Sicherheit",
+      "weight": 0.3,
+      "description": "Dauergebläse (GS), Verankerung (Heringe, Wassersäcke), Netz/Seitenwände, Fallhöhe, Herstellerangaben zu Alter und Belastung, Haltbarkeit laut Erfahrungsberichten."
+    },
+    {
+      "key": "wasser",
+      "label": "Wasserspiel & Sprinkler",
+      "weight": 0.2,
+      "description": "Sprühbogen/Sprinkler am Gartenschlauch, Wasserkanone, Planschbecken am Rutschenende."
+    },
+    {
+      "key": "handling",
+      "label": "Auf-/Abbau & Trocknung",
+      "weight": 0.2,
+      "description": "Gewicht, Aufblasdauer, Packmaß, Ablassventile, Aufwand fürs Trocknen und Lagern."
+    }
   ],
   "priceTiers": [
-    { "tier": 1, "label": "bis ca. 100 €", "beispiele": "Rutschmatten, Planschbecken mit Rutsche" },
-    { "tier": 2, "label": "ca. 100–300 €", "beispiele": "kleine Wasser-Hüpfburg mit Gebläse, Surf-Rutsche" },
-    { "tier": 3, "label": "ab ca. 300 €", "beispiele": "Wasserparks mit Dauergebläse, Kletterwand und großem Becken" }
+    {
+      "tier": 1,
+      "label": "bis ca. 100 €",
+      "beispiele": "Rutschmatten, Planschbecken mit Rutsche"
+    },
+    {
+      "tier": 2,
+      "label": "ca. 100–300 €",
+      "beispiele": "kleine Wasser-Hüpfburg mit Gebläse, Surf-Rutsche"
+    },
+    {
+      "tier": 3,
+      "label": "ab ca. 300 €",
+      "beispiele": "Wasserparks mit Dauergebläse, Kletterwand und großem Becken"
+    }
   ],
   "products": [
     {
       "rank": 1,
       "label": "Beste Gesamtwahl",
-      "name": "Bestway H2OGO! Hurricane Wasserpark mit Dauergebläse, 420 x 320 x 260 cm (53303)",
+      "name": "Bestway H2OGO! Mega Wasserpark Splash Course mit Dauergebläse, 710 x 310 x 265 cm (53387)",
       "brand": "Bestway",
-      "variant": "Hurricane (Tunnel Blast), Art.-Nr. 53303",
+      "variant": "Splash Course, Art.-Nr. 53387",
       "priceTier": 3,
-      "ratings": { "groesse": 8.0, "sicherheit": 8.5, "wasser": 8.0, "handling": 7.0 },
-      "gesamt": 7.95,
-      "bestFor": "Familien mit Kindern von 5 bis 10 Jahren und mittelgroßem Garten, die einen kompletten Wasserpark mit Rutsche, Kletterwand und Becken wollen.",
+      "ratings": {
+        "groesse": 9.5,
+        "sicherheit": 7.0,
+        "wasser": 9.0,
+        "handling": 5.5
+      },
+      "gesamt": 7.85,
+      "bestFor": "Große Gärten, Geschwister und Kindergeburtstage – bis zu 10 Kinder ab 5 Jahren gleichzeitig.",
       "fakten": [
-        { "text": "Wasserrutsche mit Wasserkissen, Kletterwand und Planschbereich; am Rutschenende Tunnel mit integrierter Sprühdusche.", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B07FKJMMP9", "datum": "2026-10-08" },
-        { "text": "Dauergebläse 220–240 V / 520 W (GS-zertifiziert), aufgeblasen in unter 2 Minuten.", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B07FKJMMP9", "datum": "2026-10-08" },
-        { "text": "Altersangabe 5–10 Jahre; Rutsche und Kletterwand je 1 Person, Becken bis 6 Personen; max. Nutzergröße 152 cm. Gesamtbelastung im Listing widersprüchlich (327 kg bzw. 381 kg).", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B07FKJMMP9", "datum": "2026-10-08" },
-        { "text": "Bedienungsanleitung: Kinder ständig in Reichweite beaufsichtigen, alle Wasser-Ankersäcke (je ca. 18 kg) verwenden, Gebläse muss während der Nutzung durchlaufen; max. Fallhöhe 167 cm.", "art": "Herstellerangabe", "quelle": "https://www.manualslib.fr/manual/1210816/Bestway-53301.html", "datum": "2026-10-08" },
-        { "text": "Lieferumfang: Wasserschlauch, Ankersäcke, Heringe, Aufbewahrungstasche, Reparaturflicken; Gewicht ca. 28 kg.", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B07FKJMMP9", "datum": "2026-10-08" },
-        { "text": "Amazon-Kundenbewertung ca. 4,2 von 5 Sternen (rund 30–38 Bewertungen).", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B07FKJMMP9", "datum": "2026-10-08" }
+        {
+          "text": "Doppelspur-Rutsche, Wasser-Parcours und Wasserwand; Becken mit 2.389 Litern; Turm mit Netz.",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B08CBG5YTY",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Bis 10 Personen, max. 54 kg pro Person, Gesamtbelastung 544 kg; empfohlen ab 5 Jahren; max. Fallhöhe 145 cm.",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B08CBG5YTY",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Gebläse bläst den Park in unter 2 Minuten auf; nur für den Außenbereich.",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B08CBG5YTY",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Kundenbewertung ca. 3,8 von 5 Sternen bei 9 Bewertungen.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B08CBG5YTY",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Max. Fallhöhe 145 cm, kritische Fallhöhe 172 cm.",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B08CBG5YTY",
+          "datum": "2026-10-08"
+        }
       ],
-      "pros": ["Dauergebläse mit GS-Zeichen", "Rutsche, Kletterwand, Sprühtunnel und Becken in einem", "Ankersäcke und Heringe für sicheren Stand", "Beste Kundenbewertung unter den großen H2OGO!-Parks"],
-      "cons": ["Gebläse muss permanent laufen (Strom, Geräusch)", "28 kg schwer, Trocknen dauert", "Belastungsangaben im Listing widersprüchlich"],
-      "specs": { "Maße aufgebaut": "420 x 320 x 260 cm", "Gebläse": "Dauergebläse 520 W, GS", "Alter (Hersteller)": "5–10 Jahre", "Personen": "Becken bis 6, Rutsche/Kletterwand je 1", "Gewicht": "ca. 28 kg" },
-      "asin": "B07FKJMMP9",
-      "query": "Bestway H2OGO Hurricane Wasserpark Dauergebläse 53303",
+      "pros": [
+        "Größter Park im Vergleich, zwei Rutschspuren",
+        "Sehr großes Becken und mehrere Wasserspiele",
+        "Für bis zu 10 Kinder"
+      ],
+      "cons": [
+        "Braucht über 7 m Stellfläche",
+        "Fast 2.400 l Beckenwasser – hoher Wasserverbrauch",
+        "Auf-/Abbau und Trocknung aufwendig"
+      ],
+      "specs": {
+        "Maße aufgebaut": "710 x 310 x 265 cm",
+        "Becken": "2.389 l",
+        "Gebläse": "Dauergebläse, im Lieferumfang",
+        "Alter (Hersteller)": "ab 5 Jahren",
+        "Personen": "bis 10, je max. 54 kg"
+      },
+      "asin": "B08CBG5YTY",
+      "query": "Bestway H2OGO Splash Course Mega Wasserpark 53387",
       "shop": null,
       "url": null,
-      "asinGeprueft": "Bestway H2OGO!™ Hurricane Water Park, 420 x 320 x 260 cm with Continuous Blower (amazon.de/dp/B07FKJMMP9; 5 Angebote ab 399,95 € laut Suchtreffer)"
+      "asinGeprueft": "Bestway H2OGO!™ Mega Water Park Splash Course, 710 x 310 x 265 cm with Continuous Blower (amazon.de/dp/B08CBG5YTY; Kategorie-Seite zeigte 389 € mit Lieferung Mitte Oktober)"
     },
     {
       "rank": 2,
@@ -47,18 +122,58 @@
       "brand": "Bestway",
       "variant": "Beach Bounce (Hüpfburg + Rutsche + Planschbecken)",
       "priceTier": 2,
-      "ratings": { "groesse": 6.5, "sicherheit": 7.5, "wasser": 7.0, "handling": 8.0 },
+      "ratings": {
+        "groesse": 6.5,
+        "sicherheit": 7.5,
+        "wasser": 7.0,
+        "handling": 8.0
+      },
       "gesamt": 7.2,
       "bestFor": "Jüngere Kinder (3–8 Jahre) und Familien, die eine Wasser-Hüpfburg-Kombi mit Gebläse zum moderaten Preis suchen.",
       "fakten": [
-        { "text": "Kombination aus Hüpfburg, Rutsche, Planschbecken und Sprinkler; Gebläse, Reparaturset, Tasche, Heringe und Schlauch im Lieferumfang.", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B0FRNDQXLF", "datum": "2026-10-08" },
-        { "text": "Altersangabe 3–8 Jahre, max. 5 Kinder, Gesamtbelastung 227 kg, max. 45 kg pro Person; max. Fallhöhe 35 cm; nur für draußen.", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B0FRNDQXLF", "datum": "2026-10-08" },
-        { "text": "Aufgeblasen in unter 2 Minuten mit dem mitgelieferten Dauergebläse.", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B0FRNDQXLF", "datum": "2026-10-08" },
-        { "text": "Kundenbewertung ca. 4,4–4,6 von 5 Sternen bei nur 7–8 Bewertungen.", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B0FRNDQXLF", "datum": "2026-10-08" }
+        {
+          "text": "Kombination aus Hüpfburg, Rutsche, Planschbecken und Sprinkler; Gebläse, Reparaturset, Tasche, Heringe und Schlauch im Lieferumfang.",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B0FRNDQXLF",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Altersangabe 3–8 Jahre, max. 5 Kinder, Gesamtbelastung 227 kg, max. 45 kg pro Person; max. Fallhöhe 35 cm; nur für draußen.",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B0FRNDQXLF",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Aufgeblasen in unter 2 Minuten mit dem mitgelieferten Dauergebläse.",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B0FRNDQXLF",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Kundenbewertung ca. 4,4–4,6 von 5 Sternen bei nur 7–8 Bewertungen.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B0FRNDQXLF",
+          "datum": "2026-10-08"
+        }
       ],
-      "pros": ["Niedrige Fallhöhe (35 cm) – gut für Jüngere", "Hüpfen und Planschen kombiniert", "Gebläse im Lieferumfang", "Deutlich günstiger als große Wasserparks"],
-      "cons": ["Kleineres Becken und kurze Rutsche", "Wenige Kundenbewertungen", "Technische Daten im Listing teils fehlerhaft (Höhe, Gewichtsfeld)"],
-      "specs": { "Maße aufgebaut": "365 x 340 x 152 cm (laut Titel)", "Gebläse": "Dauergebläse, im Lieferumfang", "Alter (Hersteller)": "3–8 Jahre", "Personen": "max. 5, je max. 45 kg", "Fallhöhe": "max. 35 cm" },
+      "pros": [
+        "Niedrige Fallhöhe (35 cm) – gut für Jüngere",
+        "Hüpfen und Planschen kombiniert",
+        "Gebläse im Lieferumfang",
+        "Deutlich günstiger als große Wasserparks"
+      ],
+      "cons": [
+        "Kleineres Becken und kurze Rutsche",
+        "Noch wenig Erfahrungsberichte zur Haltbarkeit",
+        "Technische Daten im Listing teils fehlerhaft (Höhe, Gewichtsfeld)"
+      ],
+      "specs": {
+        "Maße aufgebaut": "365 x 340 x 152 cm (laut Titel)",
+        "Gebläse": "Dauergebläse, im Lieferumfang",
+        "Alter (Hersteller)": "3–8 Jahre",
+        "Personen": "max. 5, je max. 45 kg",
+        "Fallhöhe": "max. 35 cm"
+      },
       "asin": "B0FRNDQXLF",
       "query": "Bestway H2OGO Beach Bounce Wasserpark Dauergebläse 365 x 340 x 152 cm",
       "shop": null,
@@ -67,28 +182,74 @@
     },
     {
       "rank": 3,
-      "label": "Premium-Wahl",
-      "name": "Bestway H2OGO! Mega Wasserpark Splash Course mit Dauergebläse, 710 x 310 x 265 cm (53387)",
+      "label": "Für mittelgroße Gärten",
+      "name": "Bestway H2OGO! Turbo Splash Wasserpark mit Dauergebläse, 365 x 320 x 270 cm (53301)",
       "brand": "Bestway",
-      "variant": "Splash Course, Art.-Nr. 53387",
-      "priceTier": 3,
-      "ratings": { "groesse": 9.5, "sicherheit": 7.0, "wasser": 9.0, "handling": 5.5 },
-      "gesamt": 7.85,
-      "bestFor": "Große Gärten, Geschwister und Kindergeburtstage – bis zu 10 Kinder ab 5 Jahren gleichzeitig.",
+      "variant": "Turbo Splash, Art.-Nr. 53301",
+      "priceTier": 2,
+      "ratings": {
+        "groesse": 7.5,
+        "sicherheit": 8.0,
+        "wasser": 7.5,
+        "handling": 7.0
+      },
+      "gesamt": 7.55,
+      "bestFor": "Schulkinder von 5 bis 10 Jahren und mittelgroße Gärten.",
       "fakten": [
-        { "text": "Doppelspur-Rutsche, Wasser-Parcours und Wasserwand; Becken mit 2.389 Litern; Turm mit Netz.", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B08CBG5YTY", "datum": "2026-10-08" },
-        { "text": "Bis 10 Personen, max. 54 kg pro Person, Gesamtbelastung 544 kg; empfohlen ab 5 Jahren; max. Fallhöhe 145 cm.", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B08CBG5YTY", "datum": "2026-10-08" },
-        { "text": "Gebläse bläst den Park in unter 2 Minuten auf; nur für den Außenbereich.", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B08CBG5YTY", "datum": "2026-10-08" },
-        { "text": "Kundenbewertung ca. 3,8 von 5 Sternen bei 9 Bewertungen.", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B08CBG5YTY", "datum": "2026-10-08" }
+        {
+          "text": "365 x 320 x 270 cm; Becken, Rutsche mit eingebautem Wassereimer, Wasserkanone, Kletterwand, Turm mit Schutznetz; Dauergebläse 220–240 V / 520 W, GS-zertifiziert; aufgeblasen in ca. 2 Minuten.",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B07FKG9W8G",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "5–10 Jahre, max. Körpergröße 152 cm, Gesamtbelastung 270 kg; Rutsche und Kletterwand je 1 Person, Becken 5 Personen; nur draußen, nur unter Aufsicht.",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B07FKG9W8G",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Gewicht im Listing 26,1 bzw. 28 kg; Mindestalter-Warnung 'unter 3' bzw. 'unter 5' uneinheitlich.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B07FKG9W8G",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Einzelner Käufer berichtet von Riss im Material nach einer Nutzung; Rutsche bleibt nur bei laufendem Wasser rutschig.",
+          "art": "Bericht",
+          "quelle": "https://www.amazon.de/dp/B07FKG9W8G",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Snapshot mit Lieferdatum 9.–10. Oktober (aktiv); ein anderer Snapshot zeigt 'derzeit nicht verfügbar'.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B07FKG9W8G",
+          "datum": "2026-10-08"
+        }
       ],
-      "pros": ["Größter Park im Vergleich, zwei Rutschspuren", "Sehr großes Becken und mehrere Wasserspiele", "Für bis zu 10 Kinder"],
-      "cons": ["Braucht über 7 m Stellfläche", "Fast 2.400 l Beckenwasser – hoher Wasserverbrauch", "Wenige Bewertungen, Auf-/Abbau und Trocknung aufwendig"],
-      "specs": { "Maße aufgebaut": "710 x 310 x 265 cm", "Becken": "2.389 l", "Gebläse": "Dauergebläse, im Lieferumfang", "Alter (Hersteller)": "ab 5 Jahren", "Personen": "bis 10, je max. 54 kg" },
-      "asin": "B08CBG5YTY",
-      "query": "Bestway H2OGO Splash Course Mega Wasserpark 53387",
+      "pros": [
+        "Gebläse mit GS-Zeichen (Herstellerangabe)",
+        "Rutsche, Kletterwand, Wasserkanone und Becken auf kleiner Fläche",
+        "Turm mit Schutznetz",
+        "Gemeinsame Bestway-Anleitung 53301/53303"
+      ],
+      "cons": [
+        "Keine Fallhöhenangabe im Listing",
+        "26–28 kg, Trocknen dauert",
+        "Einzelberichte über Risse"
+      ],
+      "specs": {
+        "Maße aufgebaut": "365 x 320 x 270 cm",
+        "Gebläse": "Dauergebläse 520 W, GS",
+        "Alter (Hersteller)": "5–10 Jahre",
+        "Personen": "Becken bis 5, Rutsche/Kletterwand je 1",
+        "Fallhöhe": "keine Angabe gefunden"
+      },
+      "asin": "B07FKG9W8G",
+      "query": "Bestway H2OGO Turbo Splash Wasserpark Dauergebläse 53301",
       "shop": null,
       "url": null,
-      "asinGeprueft": "Bestway H2OGO!™ Mega Water Park Splash Course, 710 x 310 x 265 cm with Continuous Blower (amazon.de/dp/B08CBG5YTY; Kategorie-Seite zeigte 389 € mit Lieferung Mitte Oktober)"
+      "asinGeprueft": "Bestway® H2OGO!™ Turbo Splash Water Park with Continuous Blower, 365 x 320 x 270 cm: Amazon.de: Toys (Suchtreffer amazon.de/dp/B07FKG9W8G)"
     }
   ],
   "top5": [
@@ -96,8 +257,18 @@
       "name": "Intex Dinoland Play Center 57135NP – Planschbecken mit Rutsche und Sprühbogen, 333 x 229 x 112 cm",
       "warum": "Wasserrutsche mit Planschbecken ohne Gebläse – günstigster Einstieg für Kleinere; sehr viele Bewertungen, aber Nähte/Luftverlust häufig kritisiert.",
       "fakten": [
-        { "text": "Becken mit Rutsche (gepolsterter Boden, Seitenwände) und Dino-Bogen mit Sprühfunktion für den Gartenschlauch; max. 81 kg.", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B08DLRQWJB", "datum": "2026-10-08" },
-        { "text": "Ca. 4,1 von 5 Sternen bei rund 8.000 Bewertungen; Haltbarkeit und Nähte häufigster Kritikpunkt.", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B08DLRQWJB", "datum": "2026-10-08" }
+        {
+          "text": "Becken mit Rutsche (gepolsterter Boden, Seitenwände) und Dino-Bogen mit Sprühfunktion für den Gartenschlauch; max. 81 kg.",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B08DLRQWJB",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Ca. 4,1 von 5 Sternen bei rund 8.000 Bewertungen; Haltbarkeit und Nähte häufigster Kritikpunkt.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B08DLRQWJB",
+          "datum": "2026-10-08"
+        }
       ],
       "asin": "B08DLRQWJB",
       "query": "Intex 57135NP Dinoland Play Center",
@@ -108,8 +279,18 @@
       "name": "Bestway H2OGO! Mount Splashmore Wasserpark mit Dauergebläse, 435 x 286 x 267 cm",
       "warum": "Wasser-Hüpfburg-Kombi mit Kletterwand, Rutsche und Wasserkanone – Alternative zum Hurricane mit anderem Aufbau.",
       "fakten": [
-        { "text": "Becken 1.086 l, Kletterwand, Rutsche und Wasserkanone, max. 5 Kinder; Altersangabe im Listing widersprüchlich (Titel 5–10 Jahre, Datenblatt 0–5).", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B07TMJX879", "datum": "2026-10-08" },
-        { "text": "Kundenbewertung ca. 3,4 von 5 Sternen.", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B07TMJX879", "datum": "2026-10-08" }
+        {
+          "text": "Becken 1.086 l, Kletterwand, Rutsche und Wasserkanone, max. 5 Kinder; Altersangabe im Listing widersprüchlich (Titel 5–10 Jahre, Datenblatt 0–5).",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B07TMJX879",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Kundenbewertung ca. 3,4 von 5 Sternen.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B07TMJX879",
+          "datum": "2026-10-08"
+        }
       ],
       "asin": "B07TMJX879",
       "query": "Bestway H2OGO Mount Splashmore Wasserpark Dauergebläse",
@@ -120,8 +301,18 @@
       "name": "Bestway H2OGO! Wasserrutsche Single, 488 cm (52326)",
       "warum": "Einfache Rutschmatte (Slip and Slide) mit Sprinkler und kleinem Auffangbecken – Budgetoption ohne Strom.",
       "fakten": [
-        { "text": "488 x 82 cm, integrierter Sprinkler für den Gartenschlauch, kleines Becken am Ende; ab 3 Jahren, max. 50 kg; Vinyl 0,20/0,13 mm.", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B07TQRGDXN", "datum": "2026-10-08" },
-        { "text": "Ca. 3,9 von 5 Sternen bei über 1.000 Bewertungen; mehrere Berichte über schnelle Risse.", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B07TQRGDXN", "datum": "2026-10-08" }
+        {
+          "text": "488 x 82 cm, integrierter Sprinkler für den Gartenschlauch, kleines Becken am Ende; ab 3 Jahren, max. 50 kg; Vinyl 0,20/0,13 mm.",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B07TQRGDXN",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Ca. 3,9 von 5 Sternen bei über 1.000 Bewertungen; mehrere Berichte über schnelle Risse.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B07TQRGDXN",
+          "datum": "2026-10-08"
+        }
       ],
       "asin": "B07TQRGDXN",
       "query": "Bestway H2OGO Wasserrutsche Single 488 cm",
@@ -132,8 +323,18 @@
       "name": "Bestway H2OGO! Doppel-Wasserrutsche Double, 488 cm (52328)",
       "warum": "Zwei parallele Bahnen für Geschwister-Wettrennen – günstige doppelte Rutsche ohne Gebläse.",
       "fakten": [
-        { "text": "488 x 138 cm, zwei Bahnen, integrierter Sprinkler; ab 3 Jahren, Nutzung nur unter Aufsicht.", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B07TKGDNQ1", "datum": "2026-10-08" },
-        { "text": "Ca. 3,8 von 5 Sternen bei rund 1.150 Bewertungen; dünnes Material wird kritisiert.", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B07TKGDNQ1", "datum": "2026-10-08" }
+        {
+          "text": "488 x 138 cm, zwei Bahnen, integrierter Sprinkler; ab 3 Jahren, Nutzung nur unter Aufsicht.",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B07TKGDNQ1",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Ca. 3,8 von 5 Sternen bei rund 1.150 Bewertungen; dünnes Material wird kritisiert.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B07TKGDNQ1",
+          "datum": "2026-10-08"
+        }
       ],
       "asin": "B07TKGDNQ1",
       "query": "Bestway H2OGO Doppel-Wasserrutsche Double 488 cm",
@@ -141,21 +342,46 @@
       "priceTier": 1
     },
     {
-      "name": "Intex 56167NP Aufblasbare Surf-Wasserrutsche mit Sprüher und zwei Mini-Surfbrettern, 561 x 137 x 99 cm",
-      "warum": "Lange aufblasbare Rutsche ohne Dauergebläse für ältere Kinder (ab 6 Jahren, bis 100 kg).",
+      "name": "Bestway H2OGO! Doppel-Wasserrutsche mit aufblasbarer Startrampe, 549 cm",
+      "warum": "Längste Rutschbahn der Auswahl, mit Startrampe, ohne Gebläse.",
       "fakten": [
-        { "text": "561 x 137 x 99 cm, zwei Bögen mit Sprühdüsen für den Gartenschlauch, zwei Mini-Surfbretter; Vinyl 0,40 mm; ab 6 Jahren, max. 100 kg; Aufpumpen per Hand- oder Elektropumpe.", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B0CG6613KV", "datum": "2026-10-08" }
+        {
+          "text": "549 cm, zwei Bahnen, aufblasbare Startrampe, Sprinkler, Auffangbecken (Vinyl 0,22/0,20 mm); max. 100 kg; Modell 52255; Altersangabe uneinheitlich (ab 3 Jahren).",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B0CB8Q7NVS",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Mehrere Käufer berichten von undichten Nähten bzw. Luftverlust nach kurzer Nutzung.",
+          "art": "Bericht",
+          "quelle": "https://www.amazon.de/dp/B0CB8Q7NVS",
+          "datum": "2026-10-08"
+        }
       ],
-      "asin": "B0CG6613KV",
-      "query": "Intex 56167NP Surf-Wasserrutsche",
-      "where": null,
-      "priceTier": 2
+      "asin": "B0CB8Q7NVS",
+      "query": "Bestway H2OGO Doppel-Wasserrutsche mit Startrampe 549 cm",
+      "where": null
     }
   ],
   "tests": [
-    { "institut": "Stiftung Warentest / Verbraucherzentrale NRW", "heft": "test.de-Meldung „Schadstoffe in Wasserspielzeug – Riskanter Badespaß“ (Datum/Heft nicht ermittelt)", "ergebnis": "VZ NRW ließ 12 aufblasbare PVC-Wasserartikel von Amazon untersuchen: etwa jeder zweite mit Schadstoffen, 5 Proben über dem Phthalat-Grenzwert von 0,1 %. Keine Wasserrutsche namentlich bekannt; laut Berichten.", "quelle": "https://www.test.de/Schadstoffe-in-Wasserspielzeug-Riskanter-Badespass-4587025-0/" },
-    { "institut": "Öko-Test", "heft": "Planschbecken-Tests 07/2014 und 2015", "ergebnis": "14 von 16 Planschbecken durchgefallen (Weichmacher, PAK) – laut Berichten; aufblasbare Wasserrutschen nicht getestet, Ergebnisse veraltet.", "quelle": "https://www.oekotest.de/kinder-familie/Planschbecken-im-Test-Fast-alle-stecken-voller-Schadstoffe_105603_1.html" },
-    { "institut": "—", "heft": "—", "ergebnis": "Kein unabhängiger Test (Stiftung Warentest, Öko-Test, ADAC) zu aufblasbaren Wasserrutschen oder Wasserparks gefunden; Vergleichsportale (testsieger.de, test-vergleiche.com) nicht als Test verwenden.", "quelle": "https://www.testsieger.de/wasserrutschen/" }
+    {
+      "institut": "Stiftung Warentest / Verbraucherzentrale NRW",
+      "heft": "test.de-Meldung „Schadstoffe in Wasserspielzeug – Riskanter Badespaß“ (Datum/Heft nicht ermittelt)",
+      "ergebnis": "VZ NRW ließ 12 aufblasbare PVC-Wasserartikel von Amazon untersuchen: etwa jeder zweite mit Schadstoffen, 5 Proben über dem Phthalat-Grenzwert von 0,1 %. Keine Wasserrutsche namentlich bekannt; laut Berichten.",
+      "quelle": "https://www.test.de/Schadstoffe-in-Wasserspielzeug-Riskanter-Badespass-4587025-0/"
+    },
+    {
+      "institut": "Öko-Test",
+      "heft": "Planschbecken-Tests 07/2014 und 2015",
+      "ergebnis": "14 von 16 Planschbecken durchgefallen (Weichmacher, PAK) – laut Berichten; aufblasbare Wasserrutschen nicht getestet, Ergebnisse veraltet.",
+      "quelle": "https://www.oekotest.de/kinder-familie/Planschbecken-im-Test-Fast-alle-stecken-voller-Schadstoffe_105603_1.html"
+    },
+    {
+      "institut": "—",
+      "heft": "—",
+      "ergebnis": "Kein unabhängiger Test (Stiftung Warentest, Öko-Test, ADAC) zu aufblasbaren Wasserrutschen oder Wasserparks gefunden; Vergleichsportale (testsieger.de, test-vergleiche.com) nicht als Test verwenden.",
+      "quelle": "https://www.testsieger.de/wasserrutschen/"
+    }
   ],
   "warnungen": [
     "Kein Rückruf zu Bestway- oder Intex-Wasserrutschen/-Wasserparks gefunden (Websuche Safety Gate/produktwarnung.eu, 2026-10-08); Safety-Gate-Datenbank selbst war nicht direkt abrufbar.",
@@ -166,34 +392,112 @@
     "Altersangaben nur als Herstellerangaben nennen; einige Listings sind widersprüchlich (Mount Splashmore, Hurricane-Belastung). EN-71-Konformität für die Bestway-Parks nicht öffentlich belegt gefunden; GS-Zeichen nur fürs Hurricane-Gebläse angegeben."
   ],
   "verworfen": [
-    { "name": "Intex Kool Splash 58849 (B0B51QZ2D1)", "grund": "Poolrutsche für Schwimmbecken (ab 6 Jahren), keine Garten-Wasserrutsche mit Becken." },
-    { "name": "Bestway H2OGO! Tidal Tower (B08CBFLH5T)", "grund": "Laut Amazon derzeit nicht verfügbar." },
-    { "name": "Bestway H2OGO! Rennbahn Wasserrutsche 488 cm (B08CBHK6L2)", "grund": "Nur 3 Bewertungen (3,0 Sterne); Double 488 cm mit über 1.000 Bewertungen gewählt." },
-    { "name": "SportBob, FBSPORT, GOPLUS, Outsunny, RRrawgff Wasser-Hüpfburgen", "grund": "Austauschbare Händlermarken ohne belastbare Nachweise zu Normen/Ersatzteilen; GOPLUS ohne Gebläse." },
-    { "name": "Happy Hop Wasser-Hüpfburgen", "grund": "Auf amazon.de keine eindeutig verfügbaren Wasserrutschen-Modelle mit Daten gefunden; Clown Bouncer nicht verfügbar und ohne Wasser." },
-    { "name": "Bestway H2OGO! Jump and Soar (B095XM5QHS)", "grund": "Trockene Hüpfburg – gehört zu Kategorie huepfburg." }
+    {
+      "name": "Bestway H2OGO! Hurricane 53303 (B07FKJMMP9)",
+      "grund": "Bis Korrekturrunde 1 Platz 1. Laut zwei Suchtreffern (Prüfer und Korrektur, 2026-10-08) auf amazon.de 'Derzeit nicht verfügbar'. Korrigierte Daten: max. Fallhöhe 142 cm, kritische Fallhöhe 167 cm. Ersetzt durch den baugleich ausgestatteten Turbo Splash 53301 (gleiche Anleitung, gleiches 520-W-GS-Gebläse)."
+    },
+    {
+      "name": "Intex 56167NP Surf-Wasserrutsche (B0CG6613KV)",
+      "grund": "Laut amazon.de 'Derzeit nicht verfügbar' (2026-10-08). Ersetzt durch Bestway Doppel-Wasserrutsche mit Startrampe 549 cm (B0CB8Q7NVS)."
+    },
+    {
+      "name": "Intex Kool Splash 58849 (B0B51QZ2D1)",
+      "grund": "Poolrutsche für Schwimmbecken (ab 6 Jahren), keine Garten-Wasserrutsche mit Becken."
+    },
+    {
+      "name": "Bestway H2OGO! Tidal Tower (B08CBFLH5T)",
+      "grund": "Laut Amazon derzeit nicht verfügbar."
+    },
+    {
+      "name": "Bestway H2OGO! Rennbahn Wasserrutsche 488 cm (B08CBHK6L2)",
+      "grund": "Nur 3 Bewertungen (3,0 Sterne); Double 488 cm mit über 1.000 Bewertungen gewählt."
+    },
+    {
+      "name": "SportBob, FBSPORT, GOPLUS, Outsunny, RRrawgff Wasser-Hüpfburgen",
+      "grund": "Austauschbare Händlermarken ohne belastbare Nachweise zu Normen/Ersatzteilen; GOPLUS ohne Gebläse."
+    },
+    {
+      "name": "Happy Hop Wasser-Hüpfburgen",
+      "grund": "Auf amazon.de keine eindeutig verfügbaren Wasserrutschen-Modelle mit Daten gefunden; Clown Bouncer nicht verfügbar und ohne Wasser."
+    },
+    {
+      "name": "Bestway H2OGO! Jump and Soar (B095XM5QHS)",
+      "grund": "Trockene Hüpfburg – gehört zu Kategorie huepfburg."
+    },
+    {
+      "name": "Bestway Beachfront Bonanza (B08CBFPJ3G)",
+      "grund": "Derzeit nicht verfügbar."
+    },
+    {
+      "name": "Bestway Tsunami Splash Ramp Single (B095XL1936)",
+      "grund": "Überschneidung mit Single 488 cm, nur 3,2 Sterne / Nahtprobleme."
+    }
   ],
   "offen": [
     "Awin: laut Vorgabe keine Freischaltung (alle pending) – alle Produkte über Amazon; kein neuer Awin-Händler nötig.",
     "Beach Bounce hat zwei ASINs (B0FRNDQXLF neuer, B08CBGRZ62 älter); B0FRNDQXLF gewählt – Verfügbarkeit vor Veröffentlichung kurz prüfen.",
-    "Intex 56167NP (B0CG6613KV): eine Ansicht zeigte 'derzeit nicht verfügbar', andere Angebote ab ca. 93 € – vor Veröffentlichung prüfen, ggf. durch Bestway H2OGO! Tsunami Splash Ramp (B095XL1936, ungeprüft) ersetzen.",
     "Amazon-Produktseiten waren nicht direkt abrufbar (DNS), Daten stammen aus Suchtreffern der /dp/-Seiten.",
     "EN 71 / GS: nur das Hurricane-Gebläse ist als GS-zertifiziert angegeben; Konformitätserklärungen der Bestway-Parks nicht gefunden.",
-    "Preise schwanken stark (Splash Course 389 € vs. andere Angebote); Preisklassen-Zuordnung Hurricane/Splash Course beide Klasse 3."
+    "Preise schwanken stark (Splash Course 389 € vs. andere Angebote); Preisklassen-Zuordnung Hurricane/Splash Course beide Klasse 3.",
+    "Turbo Splash B07FKG9W8G: Snapshots widersprüchlich (Lieferdatum 9.–10.10. vs. 'nicht verfügbar') – vor Veröffentlichung im Browser bestätigen. Fallhöhe nicht gefunden.",
+    "Hurricane B07FKJMMP9: nicht verfügbar – falls wieder lieferbar, kann er (mit max. Fallhöhe 142 cm) zurück in die Top 3."
   ],
   "quellen": [
-    { "titel": "Amazon.de – Bestway H2OGO! Hurricane (B07FKJMMP9)", "url": "https://www.amazon.de/dp/B07FKJMMP9" },
-    { "titel": "Amazon.de – Bestway H2OGO! Beach Bounce (B0FRNDQXLF)", "url": "https://www.amazon.de/dp/B0FRNDQXLF" },
-    { "titel": "Amazon.de – Bestway H2OGO! Splash Course (B08CBG5YTY)", "url": "https://www.amazon.de/dp/B08CBG5YTY" },
-    { "titel": "Amazon.de – Intex Dinoland 57135NP (B08DLRQWJB)", "url": "https://www.amazon.de/dp/B08DLRQWJB" },
-    { "titel": "Amazon.de – Bestway Mount Splashmore (B07TMJX879)", "url": "https://www.amazon.de/dp/B07TMJX879" },
-    { "titel": "Amazon.de – Bestway H2OGO! Single 488 cm (B07TQRGDXN)", "url": "https://www.amazon.de/dp/B07TQRGDXN" },
-    { "titel": "Amazon.de – Bestway H2OGO! Double 488 cm (B07TKGDNQ1)", "url": "https://www.amazon.de/dp/B07TKGDNQ1" },
-    { "titel": "Amazon.de – Intex 56167NP (B0CG6613KV)", "url": "https://www.amazon.de/dp/B0CG6613KV" },
-    { "titel": "Bestway-Anleitung Wasserparks 53301/53303 (ManualsLib)", "url": "https://www.manualslib.fr/manual/1210816/Bestway-53301.html" },
-    { "titel": "test.de – Schadstoffe in Wasserspielzeug", "url": "https://www.test.de/Schadstoffe-in-Wasserspielzeug-Riskanter-Badespass-4587025-0/" },
-    { "titel": "Öko-Test – Planschbecken im Test", "url": "https://www.oekotest.de/kinder-familie/Planschbecken-im-Test-Fast-alle-stecken-voller-Schadstoffe_105603_1.html" },
-    { "titel": "Verbraucherzentrale NRW – Wasserspielzeug", "url": "https://www.verbraucherzentrale.nrw/schadstoffe/spielzeug/wasserspielzeug-wann-ist-es-gesundheitsgefaehrdend-43415" },
-    { "titel": "CPSC – Aviva Astroslide Recall 2004", "url": "https://www.cpsc.gov/Recalls/2004/cpsc-aviva-sports-announce-recall-to-repair-astroslide-water-slides" }
+    {
+      "titel": "Amazon.de – Bestway H2OGO! Hurricane (B07FKJMMP9)",
+      "url": "https://www.amazon.de/dp/B07FKJMMP9"
+    },
+    {
+      "titel": "Amazon.de – Bestway H2OGO! Beach Bounce (B0FRNDQXLF)",
+      "url": "https://www.amazon.de/dp/B0FRNDQXLF"
+    },
+    {
+      "titel": "Amazon.de – Bestway H2OGO! Splash Course (B08CBG5YTY)",
+      "url": "https://www.amazon.de/dp/B08CBG5YTY"
+    },
+    {
+      "titel": "Amazon.de – Intex Dinoland 57135NP (B08DLRQWJB)",
+      "url": "https://www.amazon.de/dp/B08DLRQWJB"
+    },
+    {
+      "titel": "Amazon.de – Bestway Mount Splashmore (B07TMJX879)",
+      "url": "https://www.amazon.de/dp/B07TMJX879"
+    },
+    {
+      "titel": "Amazon.de – Bestway H2OGO! Single 488 cm (B07TQRGDXN)",
+      "url": "https://www.amazon.de/dp/B07TQRGDXN"
+    },
+    {
+      "titel": "Amazon.de – Bestway H2OGO! Double 488 cm (B07TKGDNQ1)",
+      "url": "https://www.amazon.de/dp/B07TKGDNQ1"
+    },
+    {
+      "titel": "Bestway-Anleitung Wasserparks 53301/53303 (ManualsLib)",
+      "url": "https://www.manualslib.fr/manual/1210816/Bestway-53301.html"
+    },
+    {
+      "titel": "test.de – Schadstoffe in Wasserspielzeug",
+      "url": "https://www.test.de/Schadstoffe-in-Wasserspielzeug-Riskanter-Badespass-4587025-0/"
+    },
+    {
+      "titel": "Öko-Test – Planschbecken im Test",
+      "url": "https://www.oekotest.de/kinder-familie/Planschbecken-im-Test-Fast-alle-stecken-voller-Schadstoffe_105603_1.html"
+    },
+    {
+      "titel": "Verbraucherzentrale NRW – Wasserspielzeug",
+      "url": "https://www.verbraucherzentrale.nrw/schadstoffe/spielzeug/wasserspielzeug-wann-ist-es-gesundheitsgefaehrdend-43415"
+    },
+    {
+      "titel": "CPSC – Aviva Astroslide Recall 2004",
+      "url": "https://www.cpsc.gov/Recalls/2004/cpsc-aviva-sports-announce-recall-to-repair-astroslide-water-slides"
+    },
+    {
+      "titel": "Bestway H2OGO! Turbo Splash – amazon.de",
+      "url": "https://www.amazon.de/dp/B07FKG9W8G"
+    },
+    {
+      "titel": "Bestway Doppel-Wasserrutsche mit Startrampe 549 cm – amazon.de",
+      "url": "https://www.amazon.de/dp/B0CB8Q7NVS"
+    }
   ]
 }

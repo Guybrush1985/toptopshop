@@ -1,15 +1,47 @@
 {
   "slug": "spielteppich",
   "criteria": [
-    { "key": "schadstoffe", "label": "Schadstoffangaben", "weight": 0.3, "description": "Belegte Herstellerangaben zu OEKO-TEX Standard 100 (am besten mit Zertifikatsnummer), EN 71 bei Spielmatten, Verzicht auf PVC/Latex. Hintergrund: Öko-Test fand in Kinderteppichen u. a. Anilin, DEHP, Latexproteine und krebserregende Farbstoffe, in Schaumstoff-/Puzzlematten Formamid und PAK." },
-    { "key": "rutschfest", "label": "Rutschfestigkeit & Kanten", "weight": 0.25, "description": "Antirutsch-Rücken (Latex, Gel, Noppen), flach liegende Kanten, Stolpergefahr; Käuferberichte zum Verrutschen auf Laminat/Fliesen." },
-    { "key": "pflege", "label": "Waschbarkeit & Pflege", "weight": 0.25, "description": "Maschinenwäsche (30 °C) oder abwischbare Oberfläche, Saugroboter-tauglich, Fleckschutz; Widersprüche in den Pflegeangaben werden abgewertet." },
-    { "key": "spielwert", "label": "Spielwert, Größe & Flor", "weight": 0.2, "description": "Motiv zum Mitspielen (Straßenbreite für Spielzeugautos), verfügbare Größen, Florhöhe (Kurzflor rollt besser), Weichheit für Krabbler." }
+    {
+      "key": "schadstoffe",
+      "label": "Schadstoffangaben",
+      "weight": 0.3,
+      "description": "Belegte Herstellerangaben zu OEKO-TEX Standard 100 (am besten mit Zertifikatsnummer), EN 71 bei Spielmatten, Verzicht auf PVC/Latex. Hintergrund: Öko-Test fand in Kinderteppichen u. a. Anilin, DEHP, Latexproteine und krebserregende Farbstoffe, in Schaumstoff-/Puzzlematten Formamid und PAK."
+    },
+    {
+      "key": "rutschfest",
+      "label": "Rutschfestigkeit & Kanten",
+      "weight": 0.25,
+      "description": "Antirutsch-Rücken (Latex, Gel, Noppen), flach liegende Kanten, Stolpergefahr; Käuferberichte zum Verrutschen auf Laminat/Fliesen."
+    },
+    {
+      "key": "pflege",
+      "label": "Waschbarkeit & Pflege",
+      "weight": 0.25,
+      "description": "Maschinenwäsche (30 °C) oder abwischbare Oberfläche, Saugroboter-tauglich, Fleckschutz; Widersprüche in den Pflegeangaben werden abgewertet."
+    },
+    {
+      "key": "spielwert",
+      "label": "Spielwert, Größe & Flor",
+      "weight": 0.2,
+      "description": "Motiv zum Mitspielen (Straßenbreite für Spielzeugautos), verfügbare Größen, Florhöhe (Kurzflor rollt besser), Weichheit für Krabbler."
+    }
   ],
   "priceTiers": [
-    { "tier": 1, "label": "Einstieg", "range": "bis ca. 50 €" },
-    { "tier": 2, "label": "Mittelklasse", "range": "ca. 50–100 €" },
-    { "tier": 3, "label": "Premium", "range": "über 100 €" }
+    {
+      "tier": 1,
+      "label": "Einstieg",
+      "range": "bis ca. 50 €"
+    },
+    {
+      "tier": 2,
+      "label": "Mittelklasse",
+      "range": "ca. 50–100 €"
+    },
+    {
+      "tier": 3,
+      "label": "Premium",
+      "range": "über 100 €"
+    }
   ],
   "products": [
     {
@@ -19,22 +51,70 @@
       "brand": "Carpet Studio",
       "variant": "Big City, 140 x 200 cm (Modellnr. RBIGCGA97140200P01); gleiche Linie auch als „Racer“ und in 95 x 133 / 95 x 200 cm",
       "priceTier": 2,
-      "ratings": { "schadstoffe": 7.0, "rutschfest": 8.0, "pflege": 8.0, "spielwert": 8.5 },
+      "ratings": {
+        "schadstoffe": 7.0,
+        "rutschfest": 8.0,
+        "pflege": 8.0,
+        "spielwert": 8.5
+      },
       "bestFor": "Kinder ab dem Autospiel-Alter, die eine große, flache Straßenlandschaft wollen, die sich saugen und bei 30 °C waschen lässt.",
       "fakten": [
-        { "text": "Flor aus 100 % Polyamid, Florhöhe ca. 3 mm, rutschfeste Latex-Unterseite; Kanten eingefasst, damit sie nicht ausfransen.", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B07XVMV23Q", "datum": "2026-10-08" },
-        { "text": "Laut Angebot bei 30 °C waschbar sowie mit Staubsauger und Saugroboter zu reinigen.", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B07XVMV23Q", "datum": "2026-10-08" },
-        { "text": "Als OEKO-TEX-zertifiziert beworben (laut einer Variante zusätzlich GUT/REACH); eine Zertifikatsnummer wird im Angebot nicht genannt.", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B08617DFFQ", "datum": "2026-10-08" },
-        { "text": "Käufer loben den Halt und Straßen, die breit genug für größere Spielzeugautos sind; bei einer anderen Größe berichten Käufer von nach Monaten aufgehenden Kanten und leicht rauer Oberfläche.", "art": "Bericht", "quelle": "https://www.amazon.de/dp/B07XVMV23Q", "datum": "2026-10-08" }
+        {
+          "text": "Flor aus 100 % Polyamid, Florhöhe ca. 3 mm, rutschfeste Latex-Unterseite; Kanten eingefasst, damit sie nicht ausfransen.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B07XVMV23Q",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Laut Angebot bei 30 °C waschbar sowie mit Staubsauger und Saugroboter zu reinigen.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B07XVMV23Q",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Als OEKO-TEX-zertifiziert beworben (laut einer Variante zusätzlich GUT/REACH); eine Zertifikatsnummer wird im Angebot nicht genannt.",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B08617DFFQ",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Käufer loben den Halt und Straßen, die breit genug für größere Spielzeugautos sind; bei einer anderen Größe berichten Käufer von nach Monaten aufgehenden Kanten und leicht rauer Oberfläche.",
+          "art": "Bericht",
+          "quelle": "https://www.amazon.de/dp/B07XVMV23Q",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Linie in 95×133, 95×200 und 140×200 cm, Farbe ‚Big City‘ wählbar; 100 % Polyamid, Kanten eingefasst, Latexrücken, 30 °C waschbar, saugroboterfreundlich; OEKO-TEX beworben, zusätzlich GUT/REACH genannt",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/Carpet-Studio-Kinderzimmer-Spielteppich-Schlafzimmer/dp/B08TX5T2B4",
+          "datum": "2026-10-08"
+        }
       ],
-      "pros": ["Polyamid-Kurzflor ist strapazierfähig und Autos rollen gut", "30 °C waschbar und saugroboterfreundlich", "Antirutsch-Latexrücken", "mehrere Größen und Motive"],
-      "cons": ["OEKO-TEX ohne veröffentlichte Zertifikatsnummer", "Latexrücken – Öko-Test kritisierte bei Kinderteppichen Latexproteine (Allergierisiko)", "Hersteller hinter der Marke nicht klar identifizierbar", "Oberfläche laut einzelnen Käufern etwas rau"],
-      "specs": { "Größe": "140 x 200 cm", "Material": "100 % Polyamid, Latexrücken", "Florhöhe": "ca. 3 mm", "Gewicht": "ca. 3,8 kg", "Pflege": "saugen, 30 °C waschbar (Herstellerangabe)" },
+      "pros": [
+        "Polyamid-Kurzflor ist strapazierfähig und Autos rollen gut",
+        "30 °C waschbar und saugroboterfreundlich",
+        "Antirutsch-Latexrücken",
+        "mehrere Größen und Motive"
+      ],
+      "cons": [
+        "OEKO-TEX ohne veröffentlichte Zertifikatsnummer",
+        "Latexrücken – Öko-Test kritisierte bei Kinderteppichen Latexproteine (Allergierisiko)",
+        "Hersteller hinter der Marke nicht klar identifizierbar",
+        "Oberfläche laut einzelnen Käufern etwas rau"
+      ],
+      "specs": {
+        "Größe": "140 x 200 cm",
+        "Material": "100 % Polyamid, Latexrücken",
+        "Florhöhe": "ca. 3 mm",
+        "Gewicht": "ca. 3,8 kg",
+        "Pflege": "saugen, 30 °C waschbar (Herstellerangabe)"
+      },
       "asin": "B07XVMV23Q",
       "query": "Carpet Studio Kinderteppich Spielteppich Straße 140x200 Big City",
       "shop": null,
       "url": null,
-      "asinGeprueft": "Carpet Studio Children's Room Rug, 140 x 200 cm, Children's Carpet, Street Play Mat for Boys & Girls, Rugs for the Baby Room, Bedroom & Playroom, Non-Slip, Washable at 30°C (Variante Big City)"
+      "asinGeprueft": "Carpet Studio Children's Room Rug, 140 x 200 cm, Children's Carpet, Street Play Mat for Boys & Girls, Rugs for the Baby Room, Bedroom & Playroom, Non-Slip, Washable at 30°C (Variante Big City)",
+      "asinPruefungRunde1": "B07XVMV23Q per WebSearch (amazon.de) am 2026-10-08 erneut nicht auffindbar (auch nicht per ASIN-Suche). Indizien für Gültigkeit: Schwester-Listings derselben Linie B07XVLYQWH (95×200) und B07XVKRJP1 (95×133) stammen aus derselben ASIN-Familie B07XV…; das Big-City-Listing B08TX5T2B4 bietet 140×200 als Größenoption; Specs (Polyamid, 3 mm Flor, Latexrücken, 30 °C, OEKO-TEX + GUT/REACH beworben) dort bestätigt. ASIN beibehalten (Rechercheur sah Titel ‚Carpet Studio Children's Room Rug, 140 x 200 cm …‘), Variante/Verfügbarkeit vor Veröffentlichung im Browser prüfen."
     },
     {
       "rank": 2,
@@ -43,16 +123,56 @@
       "brand": "Entrando",
       "variant": "Colorful City, 133 x 190 cm",
       "priceTier": 1,
-      "ratings": { "schadstoffe": 7.5, "rutschfest": 7.5, "pflege": 8.0, "spielwert": 7.5 },
+      "ratings": {
+        "schadstoffe": 7.5,
+        "rutschfest": 7.5,
+        "pflege": 8.0,
+        "spielwert": 7.5
+      },
       "bestFor": "Eltern, die günstig eine große Straßenlandschaft mit nachprüfbarer OEKO-TEX-Nummer suchen.",
       "fakten": [
-        { "text": "OEKO-TEX Standard 100 mit Zertifikatsnummer 2309209 (im Label-Check der OEKO-TEX nachprüfbar).", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B0CL9ZXK35", "datum": "2026-10-08" },
-        { "text": "Polyester-Kurzflor mit rutschfester Unterseite; bei 30 °C maschinenwaschbar, trocknet laut Angebot schnell.", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B0CL9ZXK35", "datum": "2026-10-08" },
-        { "text": "Bewertung 4,4 von 5 Sternen bei 168 Bewertungen (Stand Suche); Käufer loben Farben, Halt, geringe Geruchsbildung, einige finden ihn sehr dünn („eher Matte als Teppich“).", "art": "Bericht", "quelle": "https://www.amazon.de/dp/B0CL9ZXK35", "datum": "2026-10-08" }
+        {
+          "text": "OEKO-TEX Standard 100 mit Zertifikatsnummer 2309209 (im Label-Check der OEKO-TEX nachprüfbar).",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B0CL9ZXK35",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Polyester-Kurzflor mit rutschfester Unterseite; bei 30 °C maschinenwaschbar, trocknet laut Angebot schnell.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B0CL9ZXK35",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Bewertung 4,4 von 5 Sternen bei 168 Bewertungen (Stand Suche); Käufer loben Farben, Halt, geringe Geruchsbildung, einige finden ihn sehr dünn („eher Matte als Teppich“).",
+          "art": "Bericht",
+          "quelle": "https://www.amazon.de/dp/B0CL9ZXK35",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Florhöhe laut Listing 10 mm; Altersangabe ‚ab ca. 3 Jahren‘, Kinder unter 3 Jahren beaufsichtigen (Prüfbericht-Treffer, Korrektur Runde 1 übernommen)",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B0CL9ZXK35",
+          "datum": "2026-10-08"
+        }
       ],
-      "pros": ["OEKO-TEX-Zertifikatsnummer angegeben", "30 °C waschbar", "große Spielfläche in der Einstiegs-Preisklasse", "rutschfeste Unterseite"],
-      "cons": ["dünn – wenig Polsterung", "Polyester statt Polyamid", "nur eine Größe"],
-      "specs": { "Größe": "133 x 190 cm", "Material": "Polyester, Antirutsch-Rücken", "Pflege": "30 °C Maschinenwäsche (Herstellerangabe)", "Zertifikat": "OEKO-TEX Standard 100, Nr. 2309209 (Herstellerangabe)" },
+      "pros": [
+        "OEKO-TEX-Zertifikatsnummer angegeben",
+        "30 °C waschbar",
+        "große Spielfläche in der Einstiegs-Preisklasse",
+        "rutschfeste Unterseite"
+      ],
+      "cons": [
+        "dünn – wenig Polsterung",
+        "Polyester statt Polyamid",
+        "nur eine Größe"
+      ],
+      "specs": {
+        "Größe": "133 x 190 cm",
+        "Material": "Polyester, Antirutsch-Rücken",
+        "Pflege": "30 °C Maschinenwäsche (Herstellerangabe)",
+        "Zertifikat": "OEKO-TEX Standard 100, Nr. 2309209 (Herstellerangabe)"
+      },
       "asin": "B0CL9ZXK35",
       "query": "Entrando Spielteppich XXL Straße 133x190",
       "shop": null,
@@ -66,21 +186,57 @@
       "brand": "Toddlekind",
       "variant": "Fog, 200 x 140 x 1,4 cm (weitere Farben/Motive als eigene ASINs)",
       "priceTier": 3,
-      "ratings": { "schadstoffe": 7.0, "rutschfest": 7.0, "pflege": 8.5, "spielwert": 7.0 },
+      "ratings": {
+        "schadstoffe": 7.0,
+        "rutschfest": 7.0,
+        "pflege": 8.5,
+        "spielwert": 7.0
+      },
       "bestFor": "Babys und Krabbler ab 0 Monaten: gepolsterte, abwischbare Spielfläche, die wie ein Teppich aussieht und zwei Seiten hat.",
       "fakten": [
-        { "text": "Einteilige Matte aus PU-Schaum, 200 x 140 x 1,4 cm, beidseitig mit zwei Mustern nutzbar, abwischbare Oberfläche, ab 0 Monaten.", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B0CBLY3537", "datum": "2026-10-08" },
-        { "text": "2 Jahre Herstellergarantie auf Fabrikationsfehler mit kostenlosem Ersatz.", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B0CBLY3537", "datum": "2026-10-08" },
-        { "text": "Laut Händlerangaben frei von BPA, Formaldehyd, Phthalaten, Schwermetallen, Latex und PVC; übertrifft laut Angabe die Prüfanforderungen der EN 71.", "art": "Herstellerangabe", "quelle": "https://babylist.com/gp/toddlekind-reversible-foam-playmat/28389/1300358", "datum": "2026-10-08" }
+        {
+          "text": "Einteilige Matte aus PU-Schaum, 200 x 140 x 1,4 cm, beidseitig mit zwei Mustern nutzbar, abwischbare Oberfläche, ab 0 Monaten.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B0CBLY3537",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "2 Jahre Herstellergarantie auf Fabrikationsfehler mit kostenlosem Ersatz.",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B0CBLY3537",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Laut Händlerangaben frei von BPA, Formaldehyd, Phthalaten, Schwermetallen, Latex und PVC; übertrifft laut Angabe die Prüfanforderungen der EN 71.",
+          "art": "Herstellerangabe",
+          "quelle": "https://babylist.com/gp/toddlekind-reversible-foam-playmat/28389/1300358",
+          "datum": "2026-10-08"
+        }
       ],
-      "pros": ["weich gepolstert (1,4 cm) und abwischbar", "einteilig – keine Puzzlefugen, keine abbeißbaren Kleinteile", "ohne PVC und Latex laut Hersteller", "wendbar mit zwei Designs"],
-      "cons": ["Premium-Preisklasse", "kein Straßenmotiv in dieser Variante", "EN-71-Angabe nur aus Händlertexten, kein Prüfbericht veröffentlicht", "ca. 4,9 kg – schwer zu verstauen"],
-      "specs": { "Größe": "200 x 140 x 1,4 cm", "Material": "PU-Schaum", "Gewicht": "ca. 4,9 kg", "Pflege": "feucht abwischen", "Alter": "ab 0 Monaten (Herstellerangabe)" },
+      "pros": [
+        "weich gepolstert (1,4 cm) und abwischbar",
+        "einteilig – keine Puzzlefugen, keine abbeißbaren Kleinteile",
+        "ohne PVC und Latex laut Hersteller",
+        "wendbar mit zwei Designs"
+      ],
+      "cons": [
+        "Premium-Preisklasse",
+        "kein Straßenmotiv in dieser Variante",
+        "EN-71-Angabe nur aus Händlertexten, kein Prüfbericht veröffentlicht",
+        "ca. 4,9 kg – schwer zu verstauen"
+      ],
+      "specs": {
+        "Größe": "200 x 140 x 1,4 cm",
+        "Material": "PU-Schaum",
+        "Pflege": "feucht abwischen",
+        "Alter": "ab 0 Monaten (Herstellerangabe)"
+      },
       "asin": "B0CBLY3537",
       "query": "Toddlekind Krabbelmatte beidseitig 200x140 Fog",
       "shop": null,
       "url": null,
-      "asinGeprueft": "Toddlekind Baby Crawling Mat Double Sided Reversible Foam Play Mat 200×140×1.4cm Fog"
+      "asinGeprueft": "Toddlekind Baby Crawling Mat Double Sided Reversible Foam Play Mat 200×140×1.4cm Fog",
+      "asinPruefungRunde1": "B0CBLY3537 per WebSearch (amazon.de, standard + extended) am 2026-10-08 nicht auffindbar; im amazon.de-Sortiment von Toddlekind erscheinen nur EVA-Puzzlematten (z. B. B0BVZ51J3F), die EVO-Matte (B0F7NMHP7B, Material PVC/PU widersprüchlich) und Baumwollmatten. Geprüfte Ersatzkandidaten verworfen: Kinderkraft Matty B08KHYDGL3 (derzeit nicht verfügbar, PVC/TPU widersprüchlich), Zukunftskinder B0CJYXPMNY (derzeit nicht verfügbar), Ehrenkind PRO (Material widersprüchlich). ASIN vorerst beibehalten – NUTZER MUSS IM BROWSER PRÜFEN; falls nicht verfügbar: query oder Ersatz."
     }
   ],
   "top5": [
@@ -88,7 +244,12 @@
       "name": "HEVO Stadt Mix Straßen-Spielteppich 145 x 200 cm",
       "warum": "Spielteppich mit Straßenmotiv in vielen Größen (90 x 200 bis 200 x 400 cm) – für große Autolandschaften; Polyamid mit OEKO-TEX-Angabe, allerdings nur Handwäsche.",
       "fakten": [
-        { "text": "100 % Polyamid, OEKO-TEX Standard 100, Größe 145 x 200 cm; weitere Größen 90 x 200, 200 x 200, 200 x 280, 200 x 400 cm und rund; Pflege: Handwäsche.", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B001SIBCAK", "datum": "2026-10-08" }
+        {
+          "text": "100 % Polyamid, OEKO-TEX Standard 100, Größe 145 x 200 cm; weitere Größen 90 x 200, 200 x 200, 200 x 280, 200 x 400 cm und rund; Pflege: Handwäsche.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B001SIBCAK",
+          "datum": "2026-10-08"
+        }
       ],
       "asin": "B001SIBCAK",
       "query": "HEVO Stadt Mix Strassen Spielteppich 145x200",
@@ -98,8 +259,18 @@
       "name": "the carpet Happy Life Kinderteppich Straßenteppich, waschbar, Beige, 120 x 160 cm",
       "warum": "Waschbarer Teppich: laut Angebot bei 30 °C im Schonwaschgang waschbar, Gel-Rücken gegen Verrutschen, sehr günstig und viel bewertet. Dünn; OEKO-TEX nur für andere Größen der Linie ausgewiesen.",
       "fakten": [
-        { "text": "Polyester, ca. 4 mm, Gel-Rücken, bei 30 °C im Schonwaschgang waschbar.", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B097C4YYVG", "datum": "2026-10-08" },
-        { "text": "Käufer berichten teils von Verrutschen und raten zu einer Antirutschunterlage; die grüne 140x200-Variante nennt abweichend „nur punktuell reinigen“.", "art": "Bericht", "quelle": "https://www.amazon.de/dp/B097C4YYVG", "datum": "2026-10-08" }
+        {
+          "text": "Polyester, ca. 4 mm, Gel-Rücken, bei 30 °C im Schonwaschgang waschbar.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B097C4YYVG",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Käufer berichten teils von Verrutschen und raten zu einer Antirutschunterlage; die grüne 140x200-Variante nennt abweichend „nur punktuell reinigen“.",
+          "art": "Bericht",
+          "quelle": "https://www.amazon.de/dp/B097C4YYVG",
+          "datum": "2026-10-08"
+        }
       ],
       "asin": "B097C4YYVG",
       "query": "the carpet Happy Life Straßenteppich Beige 120x160",
@@ -109,18 +280,34 @@
       "name": "Hakuna Matte Puzzlematte City – 16 Platten mit Straßen und 11 Fahrzeugen, 1,2 x 1,2 m",
       "warum": "Weiche Spielunterlage für Krabbler mit Straßenmotiv; als TÜV-SÜD-GS-geprüft beworben, EVA-Schaum laut Hersteller ohne Formamid, BPA und Phthalate. Ersetzt die beidseitige Matte (die steht mit Toddlekind schon in der Top 3).",
       "fakten": [
-        { "text": "EVA-Schaum, 16 Platten, 120 x 120 cm, 11 herausnehmbare Fahrzeuge; laut Titel TÜV SÜD GS-zertifiziert, laut Beschreibung EN 71-konform.", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B0B5PL4BZT", "datum": "2026-10-08" }
+        {
+          "text": "EVA-Schaum, 16 Platten, 120 x 120 cm, 11 herausnehmbare Fahrzeuge; laut Titel TÜV SÜD GS-zertifiziert, laut Beschreibung EN 71-konform.",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B0B5PL4BZT",
+          "datum": "2026-10-08"
+        }
       ],
       "asin": "B0B5PL4BZT",
       "query": "Hakuna Matte Puzzlematte City 1,2x1,2 m",
-      "where": null
+      "where": null,
+      "formamidRunde1": "Formamid-Freiheit für die City-Matte nicht belegt (nur für Hakuna Safari bei baby-walz.ch und Wald XXL bei testsieger.de gefunden) – Aussage im Text gestrichen."
     },
     {
       "name": "Paco Home Kinderteppich Spielmatte Straßenteppich, 120 cm rund, Weiß",
       "warum": "Runder Teppich mit Straßenmotiv für kleine Ecken; flach gewebt, laut Hersteller OEKO-TEX Standard 100 und für Fußbodenheizung geeignet, Einstiegspreis.",
       "fakten": [
-        { "text": "100 % Polyester, Flachgewebe (ca. 4 mm), schadstoffgeprüft nach OEKO-TEX Standard 100, fußbodenheizungsgeeignet bis 24 °C.", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B08Z4BSS8N", "datum": "2026-10-08" },
-        { "text": "Ein Käufer berichtet von Verrutschen auf Laminat/Vinyl – Antirutschunterlage einplanen.", "art": "Bericht", "quelle": "https://www.amazon.de/dp/B08Z4BSS8N", "datum": "2026-10-08" }
+        {
+          "text": "100 % Polyester, Flachgewebe (ca. 4 mm), schadstoffgeprüft nach OEKO-TEX Standard 100, fußbodenheizungsgeeignet bis 24 °C.",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B08Z4BSS8N",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Ein Käufer berichtet von Verrutschen auf Laminat/Vinyl – Antirutschunterlage einplanen.",
+          "art": "Bericht",
+          "quelle": "https://www.amazon.de/dp/B08Z4BSS8N",
+          "datum": "2026-10-08"
+        }
       ],
       "asin": "B08Z4BSS8N",
       "query": "Paco Home Kinderteppich Straßenteppich rund 120",
@@ -130,7 +317,12 @@
       "name": "Merinos Kinderteppich Hüpfspiel Teppich Hüpfkästchen, Rosa/Grau/Creme, 140 x 200 cm",
       "warum": "Teppich mit Hüpfkästchen-/Zahlenmotiv für Bewegungs- und Lernspiele; dichter, höherer Flor (ca. 13 mm), OEKO-TEX-Angabe, fußbodenheizungsgeeignet – aber nicht waschbar.",
       "fakten": [
-        { "text": "Merilon-Frisee/Polypropylen, Gesamthöhe ca. 13 mm, ca. 2.850 g/m², Öko-Tex-zertifiziert, fußbodenheizungsgeeignet (Herstellerreferenz 22607/055).", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B07M8WCSTS", "datum": "2026-10-08" }
+        {
+          "text": "Merilon-Frisee/Polypropylen, Gesamthöhe ca. 13 mm, ca. 2.850 g/m², Öko-Tex-zertifiziert, fußbodenheizungsgeeignet (Herstellerreferenz 22607/055).",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B07M8WCSTS",
+          "datum": "2026-10-08"
+        }
       ],
       "asin": "B07M8WCSTS",
       "query": "Merinos Kinderteppich Hüpfkästchen 140x200",
@@ -138,9 +330,24 @@
     }
   ],
   "tests": [
-    { "institut": "Öko-Test", "heft": "Kinderteppiche, erstmals Öko-Test 9/2015, im Jahrbuch Kleinkinder (Shop-Datum 18.01.2018) erneut veröffentlicht – Datum laut Berichten", "ergebnis": "9 Kinderteppiche/Spielteppiche (19,99–179 €): 6 „gut“, 2 „ungenügend“ wegen Schadstoffen (u. a. Anilin, DEHP genannt). HABA „Teppich Wiese“ zunächst „ungenügend“ (Benzidin im roten Druck), nach Rezepturänderung im Nachtest „gut“. Geprüft wurden u. a. Weichmacher, optische Aufheller, Latexproteine, PAK, Azofarbstoffe, Schwermetalle, VOC. Keines der heute empfohlenen Produkte war im Test.", "quelle": "https://www.oekotest.de/kinder-familie/Kinderteppiche-im-Test-Mehrzahl-der-Produkte-ueberzeugt_110642_1.html" },
-    { "institut": "Öko-Test", "heft": "Puzzlematten & Puzzleteppiche (Datum nicht gesichert, Erstveröffentlichung Sommer 2014, aktualisiert)", "ergebnis": "Kein Produkt „sehr gut“, 5 von 8 „gut“; ein Produkt wegen Formamid um zwei Noten abgewertet, eines mit erhöhten PAK; alle Matten laden sich elektrostatisch auf.", "quelle": "https://www.oekotest.de/kinder-familie/Puzzlematten-Puzzleteppiche-im-Test-Keine-ist-sehr-gut_107285_1.html" },
-    { "institut": "AGES (Österreich)", "heft": "Schwerpunktaktion Formamid in Puzzlematten (Datum nicht gesichert)", "ergebnis": "25 Proben geprüft, Formamid-Grenzwert in 6 Proben überschritten.", "quelle": "https://ages.at/en/human/focus/focus-actions/detail/formamid-in-puzzlematten" }
+    {
+      "institut": "Öko-Test",
+      "heft": "Kinderteppiche, erstmals Öko-Test 9/2015, im Jahrbuch Kleinkinder (Shop-Datum 18.01.2018) erneut veröffentlicht – Datum laut Berichten",
+      "ergebnis": "9 Kinderteppiche/Spielteppiche (19,99–179 €): 6 „gut“, 2 „ungenügend“ wegen Schadstoffen (u. a. Anilin, DEHP genannt). HABA „Teppich Wiese“ zunächst „ungenügend“ (Benzidin im roten Druck), nach Rezepturänderung im Nachtest „gut“. Geprüft wurden u. a. Weichmacher, optische Aufheller, Latexproteine, PAK, Azofarbstoffe, Schwermetalle, VOC. Keines der heute empfohlenen Produkte war im Test.",
+      "quelle": "https://www.oekotest.de/kinder-familie/Kinderteppiche-im-Test-Mehrzahl-der-Produkte-ueberzeugt_110642_1.html"
+    },
+    {
+      "institut": "Öko-Test",
+      "heft": "Puzzlematten & Puzzleteppiche (Datum nicht gesichert, Erstveröffentlichung Sommer 2014, aktualisiert)",
+      "ergebnis": "Kein Produkt „sehr gut“, 5 von 8 „gut“; ein Produkt wegen Formamid um zwei Noten abgewertet, eines mit erhöhten PAK; alle Matten laden sich elektrostatisch auf.",
+      "quelle": "https://www.oekotest.de/kinder-familie/Puzzlematten-Puzzleteppiche-im-Test-Keine-ist-sehr-gut_107285_1.html"
+    },
+    {
+      "institut": "AGES (Österreich)",
+      "heft": "Schwerpunktaktion Formamid in Puzzlematten (Datum nicht gesichert)",
+      "ergebnis": "25 Proben geprüft, Formamid-Grenzwert in 6 Proben überschritten.",
+      "quelle": "https://ages.at/en/human/focus/focus-actions/detail/formamid-in-puzzlematten"
+    }
   ],
   "warnungen": [
     "Kein aktueller Rückruf (Safety Gate / produktwarnung.eu) für die empfohlenen Produkte gefunden; Safety Gate selbst war aus der Arbeitsumgebung nicht direkt abrufbar – Suche nur über Websuche (Stand 2026-10-08).",
@@ -152,13 +359,34 @@
     "Teppiche ohne Antirutsch-Rücken bzw. mit Filzrücken auf glatten Böden nur mit Antirutschunterlage nutzen (Stolper-/Sturzgefahr)."
   ],
   "verworfen": [
-    { "name": "Hakuna Matte große Spielmatte 1,9 x 1,3 m (B082FLQ8Y2)", "grund": "Gute Herstellerangaben (TÜV SÜD EN 71/GS 10/2019, abwischbar), aber auf amazon.de derzeit nicht verfügbar." },
-    { "name": "Hakuna Matte Wolkenweiche Spielmatte Straßenteppich 160 x 120 x 1,5 cm (B0DM2BNK27 / B0DM2DRM3T / B0DM297QZB)", "grund": "Mehrere fast gleich betitelte ASINs, Motiv je ASIN nicht eindeutig zuordenbar; Angaben zu Wasserfestigkeit und Material (teils PVC im Rücken) widersprüchlich, nur Handwäsche." },
-    { "name": "Wunschkind / Sanosoft Krabbelmatte XXL Made in Germany (B0848V5GF3)", "grund": "OEKO-TEX mit Prüfnummer und 60 °C waschbar, aber aus PVC-Schaum (Öko-Test wertet PVC ab) und nur 5 Bewertungen (3,4 Sterne)." },
-    { "name": "HABA Teppiche (Stadtrundfahrt 302927, Traffico 8147, Stadt rund)", "grund": "Seriöse Marke, aber Listings derzeit nicht verfügbar bzw. Sortiment offenbar ausgelaufen; Traffico laut Käufern kaum waschmaschinentauglich." },
-    { "name": "Lorena Canals waschbare Baumwollteppiche (z. B. Wheels rund 140 cm, Clouds)", "grund": "Maschinenwaschbar aus Baumwolle, aber keine OEKO-TEX-Angabe gefunden, Wheels ohne eindeutig auffindbare ASIN, Bommeln als Kleinteile; ein Käufer behauptet (unbelegt) Öko-Test-Befunde – nicht verifiziert." },
-    { "name": "Primaflor Spielteppiche City/Big City/Streets (Made in Belgium)", "grund": "Europäische Fertigung und Fleckschutz, aber Schadstoffprüfung nur im URL-Text, keine Zertifikatsangabe; Material- und Pflegeangaben widersprüchlich; Käuferbericht über starken Geruch." },
-    { "name": "Teppich-Traum, Carpettex, SkippiDoo, TT Home u. ä. Straßenteppiche", "grund": "Austauschbare Händlermarken ohne nachprüfbare Zertifikatsnummern; teils Hinweise, dass der beworbene Antirutsch-Rücken fehlt." }
+    {
+      "name": "Hakuna Matte große Spielmatte 1,9 x 1,3 m (B082FLQ8Y2)",
+      "grund": "Gute Herstellerangaben (TÜV SÜD EN 71/GS 10/2019, abwischbar), aber auf amazon.de derzeit nicht verfügbar."
+    },
+    {
+      "name": "Hakuna Matte Wolkenweiche Spielmatte Straßenteppich 160 x 120 x 1,5 cm (B0DM2BNK27 / B0DM2DRM3T / B0DM297QZB)",
+      "grund": "Mehrere fast gleich betitelte ASINs, Motiv je ASIN nicht eindeutig zuordenbar; Angaben zu Wasserfestigkeit und Material (teils PVC im Rücken) widersprüchlich, nur Handwäsche."
+    },
+    {
+      "name": "Wunschkind / Sanosoft Krabbelmatte XXL Made in Germany (B0848V5GF3)",
+      "grund": "OEKO-TEX mit Prüfnummer und 60 °C waschbar, aber aus PVC-Schaum (Öko-Test wertet PVC ab) und nur 5 Bewertungen (3,4 Sterne)."
+    },
+    {
+      "name": "HABA Teppiche (Stadtrundfahrt 302927, Traffico 8147, Stadt rund)",
+      "grund": "Seriöse Marke, aber Listings derzeit nicht verfügbar bzw. Sortiment offenbar ausgelaufen; Traffico laut Käufern kaum waschmaschinentauglich."
+    },
+    {
+      "name": "Lorena Canals waschbare Baumwollteppiche (z. B. Wheels rund 140 cm, Clouds)",
+      "grund": "Maschinenwaschbar aus Baumwolle, aber keine OEKO-TEX-Angabe gefunden, Wheels ohne eindeutig auffindbare ASIN, Bommeln als Kleinteile; ein Käufer behauptet (unbelegt) Öko-Test-Befunde – nicht verifiziert."
+    },
+    {
+      "name": "Primaflor Spielteppiche City/Big City/Streets (Made in Belgium)",
+      "grund": "Europäische Fertigung und Fleckschutz, aber Schadstoffprüfung nur im URL-Text, keine Zertifikatsangabe; Material- und Pflegeangaben widersprüchlich; Käuferbericht über starken Geruch."
+    },
+    {
+      "name": "Teppich-Traum, Carpettex, SkippiDoo, TT Home u. ä. Straßenteppiche",
+      "grund": "Austauschbare Händlermarken ohne nachprüfbare Zertifikatsnummern; teils Hinweise, dass der beworbene Antirutsch-Rücken fehlt."
+    }
   ],
   "offen": [
     "OEKO-TEX-Nummer 2309209 (Entrando) im OEKO-TEX Label Check prüfen; für Carpet Studio, HEVO, Paco Home und Merinos keine Zertifikatsnummer gefunden.",
@@ -171,25 +399,85 @@
     "bilder.json: scoresAlt nennt die Kriterien „Spielwert, Material, Rutschfestigkeit, Pflege und Preis“ – an die finalen Kriterien (Schadstoffangaben, Rutschfestigkeit & Kanten, Waschbarkeit & Pflege, Spielwert/Größe/Flor) anpassen (nicht von mir geändert)."
   ],
   "quellen": [
-    { "titel": "Öko-Test: Kinderteppiche im Test – Mehrzahl der Produkte überzeugt", "url": "https://www.oekotest.de/kinder-familie/Kinderteppiche-im-Test-Mehrzahl-der-Produkte-ueberzeugt_110642_1.html" },
-    { "titel": "Öko-Test: Reaktionen HABA Teppich Wiese", "url": "https://www.oekotest.de/kinder-familie/Reaktionen-Haba-Teppich-Wiese_108910_1.html" },
-    { "titel": "Öko-Test Shop: Test Kinderteppiche", "url": "https://shop.oekotest.de/te110642/" },
-    { "titel": "Bremer Umwelt Beratung: Kinderteppiche", "url": "https://www.bremer-umwelt-beratung.de/Umwelttipps-Kinder-Kinderteppiche.html" },
-    { "titel": "Öko-Test: Puzzlematten & Puzzleteppiche im Test – Keine ist sehr gut", "url": "https://www.oekotest.de/kinder-familie/Puzzlematten-Puzzleteppiche-im-Test-Keine-ist-sehr-gut_107285_1.html" },
-    { "titel": "AGES: Formamid in Puzzlematten", "url": "https://ages.at/en/human/focus/focus-actions/detail/formamid-in-puzzlematten" },
-    { "titel": "ANSES: Formamide and puzzle mats", "url": "https://www.anses.fr/en/content/formamide-and-puzzle-mats-minimising-exposure-young-children" },
-    { "titel": "The Standard (HK): Six play mat models contain toxic substance exceeding EU standards", "url": "https://www.thestandard.com.hk/news/article/189121/Six-play-mat-models-contain-toxic-substance-exceeding-EU-standards" },
-    { "titel": "Amazon.de: Carpet Studio Spielteppich Straße 140x200 Big City", "url": "https://www.amazon.de/dp/B07XVMV23Q" },
-    { "titel": "Amazon.de: Carpet Studio Spielteppich Straße 140x200 Racer", "url": "https://www.amazon.de/dp/B0C9PSJVN1" },
-    { "titel": "Amazon.de: Entrando Spielteppich XXL Straße", "url": "https://www.amazon.de/dp/B0CL9ZXK35" },
-    { "titel": "Amazon.de: Toddlekind wendbare Krabbelmatte 200x140", "url": "https://www.amazon.de/dp/B0CBLY3537" },
-    { "titel": "Babylist: Toddlekind Reversible Foam Playmat", "url": "https://babylist.com/gp/toddlekind-reversible-foam-playmat/28389/1300358" },
-    { "titel": "Amazon.de: HEVO Stadt Mix 145x200", "url": "https://www.amazon.de/dp/B001SIBCAK" },
-    { "titel": "Amazon.de: the carpet Happy Life Straßenteppich 120x160", "url": "https://www.amazon.de/dp/B097C4YYVG" },
-    { "titel": "Amazon.de: Hakuna Matte Puzzlematte City", "url": "https://www.amazon.de/dp/B0B5PL4BZT" },
-    { "titel": "Amazon.de: Paco Home Straßenteppich rund 120", "url": "https://www.amazon.de/dp/B08Z4BSS8N" },
-    { "titel": "Amazon.de: Merinos Hüpfkästchen 140x200", "url": "https://www.amazon.de/dp/B07M8WCSTS" },
-    { "titel": "Amazon.de: Hakuna Matte große Spielmatte (nicht verfügbar)", "url": "https://www.amazon.de/dp/B082FLQ8Y2" },
-    { "titel": "Amazon.de: Wunschkind Krabbelmatte XXL", "url": "https://www.amazon.de/dp/B0848V5GF3" }
+    {
+      "titel": "Öko-Test: Kinderteppiche im Test – Mehrzahl der Produkte überzeugt",
+      "url": "https://www.oekotest.de/kinder-familie/Kinderteppiche-im-Test-Mehrzahl-der-Produkte-ueberzeugt_110642_1.html"
+    },
+    {
+      "titel": "Öko-Test: Reaktionen HABA Teppich Wiese",
+      "url": "https://www.oekotest.de/kinder-familie/Reaktionen-Haba-Teppich-Wiese_108910_1.html"
+    },
+    {
+      "titel": "Öko-Test Shop: Test Kinderteppiche",
+      "url": "https://shop.oekotest.de/te110642/"
+    },
+    {
+      "titel": "Bremer Umwelt Beratung: Kinderteppiche",
+      "url": "https://www.bremer-umwelt-beratung.de/Umwelttipps-Kinder-Kinderteppiche.html"
+    },
+    {
+      "titel": "Öko-Test: Puzzlematten & Puzzleteppiche im Test – Keine ist sehr gut",
+      "url": "https://www.oekotest.de/kinder-familie/Puzzlematten-Puzzleteppiche-im-Test-Keine-ist-sehr-gut_107285_1.html"
+    },
+    {
+      "titel": "AGES: Formamid in Puzzlematten",
+      "url": "https://ages.at/en/human/focus/focus-actions/detail/formamid-in-puzzlematten"
+    },
+    {
+      "titel": "ANSES: Formamide and puzzle mats",
+      "url": "https://www.anses.fr/en/content/formamide-and-puzzle-mats-minimising-exposure-young-children"
+    },
+    {
+      "titel": "The Standard (HK): Six play mat models contain toxic substance exceeding EU standards",
+      "url": "https://www.thestandard.com.hk/news/article/189121/Six-play-mat-models-contain-toxic-substance-exceeding-EU-standards"
+    },
+    {
+      "titel": "Amazon.de: Carpet Studio Spielteppich Straße 140x200 Big City",
+      "url": "https://www.amazon.de/dp/B07XVMV23Q"
+    },
+    {
+      "titel": "Amazon.de: Carpet Studio Spielteppich Straße 140x200 Racer",
+      "url": "https://www.amazon.de/dp/B0C9PSJVN1"
+    },
+    {
+      "titel": "Amazon.de: Entrando Spielteppich XXL Straße",
+      "url": "https://www.amazon.de/dp/B0CL9ZXK35"
+    },
+    {
+      "titel": "Amazon.de: Toddlekind wendbare Krabbelmatte 200x140",
+      "url": "https://www.amazon.de/dp/B0CBLY3537"
+    },
+    {
+      "titel": "Babylist: Toddlekind Reversible Foam Playmat",
+      "url": "https://babylist.com/gp/toddlekind-reversible-foam-playmat/28389/1300358"
+    },
+    {
+      "titel": "Amazon.de: HEVO Stadt Mix 145x200",
+      "url": "https://www.amazon.de/dp/B001SIBCAK"
+    },
+    {
+      "titel": "Amazon.de: the carpet Happy Life Straßenteppich 120x160",
+      "url": "https://www.amazon.de/dp/B097C4YYVG"
+    },
+    {
+      "titel": "Amazon.de: Hakuna Matte Puzzlematte City",
+      "url": "https://www.amazon.de/dp/B0B5PL4BZT"
+    },
+    {
+      "titel": "Amazon.de: Paco Home Straßenteppich rund 120",
+      "url": "https://www.amazon.de/dp/B08Z4BSS8N"
+    },
+    {
+      "titel": "Amazon.de: Merinos Hüpfkästchen 140x200",
+      "url": "https://www.amazon.de/dp/B07M8WCSTS"
+    },
+    {
+      "titel": "Amazon.de: Hakuna Matte große Spielmatte (nicht verfügbar)",
+      "url": "https://www.amazon.de/dp/B082FLQ8Y2"
+    },
+    {
+      "titel": "Amazon.de: Wunschkind Krabbelmatte XXL",
+      "url": "https://www.amazon.de/dp/B0848V5GF3"
+    }
   ]
 }
