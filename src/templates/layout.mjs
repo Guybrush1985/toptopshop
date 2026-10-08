@@ -89,9 +89,9 @@ function footer(categories) {
       <p>${esc(site.claim)} Wir reduzieren jede Kategorie auf drei Empfehlungen – und erklären ausführlich, warum.</p>
     </div>
     <div>
-      <h2>Ratgeber</h2>
-      <ul>${categories
-        .map((c) => `<li><a href="/${c.slug}/">${esc(c.navLabel)}</a></li>`)
+      <h2>Bereiche</h2>
+      <ul>${areas
+        .map((a) => `<li><a href="/${a.slug}/">${esc(a.name)}</a> <small>(${categories.filter((c) => c.area === a.slug).length})</small></li>`)
         .join("")}</ul>
     </div>
     <div>
