@@ -166,3 +166,6 @@ Mindestumfang je Kategorie: **≥ 1.000 Wörter** (nicht künstlich auffüllen),
   den Brick-Fanatics-Reviews. LEGO-Markenhinweis („nicht von LEGO gesponsert oder autorisiert“) auf der Bereichsseite.
 - 2026-10-08: Neuer Bereich Pickleball (flache URLs): Schläger, Bälle, Netze – ausschließlich Amazon-ASINs. Die bestehende
   Seite `/padel-pickleball/` bleibt bei der Court-Planung im Garten (Netz + Linien, Padel-Court) und verlinkt auf den Bereich.
+- 2026-10-08: Neuer Bereich Garten & Grundstück (gemeinsam mit Laubbläsern). Kategorie `/elektrische-schneefraese/`:
+  Top 3 nur Akku-Geräte (einstufig, für Pflaster/Asphalt), Top 5 deckt Kabel, Benzin (zweistufig) und Schneewanne ab.
+  Unabhängige Labortests für Schneefräsen gibt es nicht; Einordnung nach Herstellerangaben, Hinweis in der Methodik.
