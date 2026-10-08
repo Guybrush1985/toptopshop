@@ -16,9 +16,9 @@ export default {
   eyebrow: "Krisenvorsorge · Schutzraum & Ausstattung",
   h1: "Erste Hilfe und Brandschutz: Die 3 besten Produkte 2026",
   lead:
-    "In einer Krise ist der Rettungsdienst oft überlastet oder nicht erreichbar, und mit Kerzen, Kochern und Notstrom steigt das Brandrisiko. Ein vollständiger Erste-Hilfe-Koffer und ein richtiger Feuerlöscher gehören deshalb in jeden Haushalt.",
+    "In einer Krise ist der Rettungsdienst oft überlastet oder nicht erreichbar, und mit Kerzen, Kochern und Notstrom steigt das Brandrisiko. Ein vollständiger Erste-Hilfe-Koffer und ein geeigneter Feuerlöscher sind deshalb für jeden Haushalt sinnvoll – als Ergänzung zu einem Erste-Hilfe-Kurs und nie als Ersatz für den Notruf 112.",
   answer:
-    "Unsere beste Gesamtwahl ist der [**LEINA-WERKE Erste-Hilfe-Koffer SAN nach DIN 13157**](produkt:1): vollständig bestückt, robust und wandmontierbar. Zum Löschen empfehlen wir einen 6-Liter-Schaumlöscher wie den [**Jockel S6JX Green E 21**](produkt:2) – die Geräteklasse, die Stiftung Warentest für den Haushalt empfiehlt; für Küche und Auto ergänzt das Löschspray [**ABUS Feuerstopp AFS625**](produkt:3).",
+    "Unsere beste Gesamtwahl ist der [**LEINA-WERKE Erste-Hilfe-Koffer SAN nach DIN 13157**](produkt:1): laut Anbieter nach Norm bestückt, robust und wandmontierbar. Zum Löschen empfehlen wir einen 6-Liter-Schaumlöscher wie den [**Jockel S6JX Green E 21**](produkt:2) – die Geräteklasse, die Stiftung Warentest in ihrem Ratgeber „Feuer löschen“ für den Haushalt empfiehlt; für Küche und Auto ergänzt das Löschspray [**ABUS Feuerstopp AFS625**](produkt:3).",
 
   top3Title: "Unsere Top 3 für Erste Hilfe und Brandschutz",
   top3Intro:
@@ -33,7 +33,7 @@ export default {
   ],
 
   method:
-    "Grundlage sind die DIN 13157 für Erste-Hilfe-Material, der Test von Feuerlöschern und Löschsprays der Stiftung Warentest und deren Ratgeber „Feuer löschen“, die Vorsorgeempfehlungen des BBK zur Hausapotheke sowie Herstellerangaben zu Brandklassen und Löschleistung. Wir empfehlen ausschließlich Produkte, die bei Amazon erhältlich sind. Jedes Produkt wird in vier Kriterien von 0 bis 10 eingeordnet; die Gesamtnote ist der gewichtete Mittelwert.",
+    "Grundlage sind die DIN 13157 für Erste-Hilfe-Material, der Ratgeber „Feuer löschen“ der Stiftung Warentest auf test.de (beruht auf einem Test von Feuerlöschern und Löschsprays aus den Jahren 2017/2018), die Vorsorgeempfehlungen des BBK zur Hausapotheke sowie Herstellerangaben zu Brandklassen und Löschleistung. Wir haben die Produkte nicht selbst getestet. Wir empfehlen ausschließlich Produkte, die bei Amazon erhältlich sind. Jedes Produkt wird in vier Kriterien von 0 bis 10 eingeordnet; die Gesamtnote ist der gewichtete Mittelwert.",
 
   products: [
     {
@@ -47,9 +47,9 @@ export default {
       ratings: { wirkung: 9.0, bedienung: 9.0, ausstattung: 9.5, preis: 8.5 },
       bestFor: "Jeder Haushalt, Keller, Werkstatt",
       verdict:
-        "Der Standard für Betriebe – und eine hervorragende Basis für zu Hause: Der Inhalt nach DIN 13157 deckt Wunden, Blutungen, Verbrennungen und Verstauchungen ab. Der robuste Koffer lässt sich an der Wand montieren.",
+        "Die Norm für Betriebe – und nach unserer Einschätzung eine sehr gute Basis für zu Hause: Der Inhalt nach DIN 13157 ist auf die Versorgung von Wunden, Blutungen, Verbrennungen und Verstauchungen ausgelegt. Der robuste Koffer lässt sich an der Wand montieren.",
       features: [
-        "Inhalt nach DIN 13157 (Verbandkasten für Betriebe, „klein“)",
+        "Inhalt nach DIN 13157 (Verbandkasten für Betriebe, „klein“; Anbieterangabe)",
         "Koffer ca. 310 × 210 × 130 mm mit Wandhalterung (Anbieterangabe)",
         "Hersteller LEINA-WERKE, Windeck (Deutschland); Variante nach DIN 13169 (groß) erhältlich",
       ],
@@ -70,14 +70,14 @@ export default {
       ratings: { wirkung: 9.5, bedienung: 7.5, ausstattung: 8.5, preis: 7.0 },
       bestFor: "Wohnung, Haus, Keller",
       verdict:
-        "Stiftung Warentest empfiehlt für den Haushalt vor allem Schaum- und Wasserlöscher mit 6 Litern – im Test löschte der Prüfer damit ein Feuer in höchstens 12 Sekunden. Der Jockel S6JX ist so ein Gerät: fluorfrei, nachfüllbar, mit Prüfplakette.",
+        "Stiftung Warentest empfiehlt in ihrem Ratgeber „Feuer löschen“ für den Haushalt vor allem Schaum- und Wasserlöscher mit 6 Litern. Der Jockel S6JX ist so ein Gerät – laut Hersteller fluorfrei, nachfüllbar und mit Prüfplakette. Das Modell selbst wurde dort nicht bewertet.",
       features: [
-        "6 Liter Schaum, Löschleistung 21 A / 113 B (6 Löschmitteleinheiten)",
+        "6 Liter Schaum, Löschleistung 21 A / 113 B (6 Löschmitteleinheiten, Herstellerangabe)",
         "Fluor- und lösungsmittelfrei, laut Anbieter an elektrischen Anlagen bis 1.000 V einsetzbar (Mindestabstand beachten)",
-        "Aufladelöscher mit absperrbarer Löschpistole, Einsatz von +5 bis +60 °C, Made in Germany",
+        "Aufladelöscher mit absperrbarer Löschpistole, Einsatz von +5 bis +60 °C, Made in Germany (Herstellerangabe)",
       ],
       pros: ["Viel Löschmittel – Reserve für einen zweiten Versuch", "Nachfüllbar und wartbar", "Fluorfrei"],
-      cons: ["Rund 10,5 kg schwer", "Nicht frostsicher (ab +5 °C)", "Nicht für Fettbrände (Klasse F)"],
+      cons: ["Laut Datenblatt rund 10,5 kg schwer", "Nicht frostsicher (ab +5 °C)", "Nicht für Fettbrände (Klasse F)"],
       specs: { produkt: "Schaumfeuerlöscher", norm: "EN 3, 21 A / 113 B", einsatz: "Feststoffe, Flüssigkeiten", haltbarkeit: "Wartung alle 2 Jahre empfohlen", extra: "Prüfplakette" },
       asin: "B092LYQT7Z",
       query: "Jockel S6JX Green E 21 Schaumlöscher 6 l",
@@ -93,10 +93,10 @@ export default {
       ratings: { wirkung: 7.0, bedienung: 9.5, ausstattung: 8.0, preis: 8.5 },
       bestFor: "Küche, Grill, Wohnmobil, Auto",
       verdict:
-        "Klein, leicht, sofort einsatzbereit: Das Löschspray löscht laut ABUS Brände der Klassen A und F – also auch kleine Fettbrände. Stiftung Warentest empfahl in ihrem Test die größeren Sprays von Abus und Prymos.",
+        "Klein, leicht, sofort einsatzbereit: Das Löschspray ist laut ABUS für Brände der Klassen A und F zugelassen – also auch für kleine Fettbrände. Im Ratgeber der Stiftung Warentest gehörten 0,6-l-Sprays von Abus und Prymos zu den empfehlenswerten Geräten; ob das aktuelle Modell AFS625 geprüft wurde, geht daraus nicht hervor.",
       features: [
-        "Brandklassen 5A und 5F, laut Anbieter bis 1.000 V mit 1 m Abstand",
-        "Reichweite rund 3 m, Sprühzeit etwa 25 Sekunden, PFAS- und fluorfrei",
+        "Brandklassen 5A und 5F (Herstellerangabe), laut Anbieter bis 1.000 V mit 1 m Abstand",
+        "Reichweite rund 3 m, Sprühzeit etwa 25 Sekunden, PFAS- und fluorfrei (Herstellerangabe)",
         "Laut ABUS 10 Jahre ab Herstellung einsatzbereit, Made in Germany",
       ],
       pros: ["Auch für kleine Fettbrände", "Leicht und einfach", "Lange haltbar"],
@@ -121,7 +121,7 @@ export default {
       file: "erste-hilfe-koffer-feuerloescher-bewertung-vergleich.svg",
       title: "Erste Hilfe und Brandschutz: Die 3 besten Produkte",
       alt: "Balkendiagramm: Bewertung von Erste-Hilfe-Koffer, Schaumlöscher und Löschspray in den Kriterien Wirkung, Bedienung, Ausstattung und Preis",
-      caption: "Unsere Bewertung je Kriterium. Der Erste-Hilfe-Koffer ist Pflicht, der 6-l-Löscher hat die größte Löschwirkung.",
+      caption: "Unsere Bewertung je Kriterium. Der Erste-Hilfe-Koffer ist die Basis, der 6-l-Löscher bietet die meiste Löschmittelreserve.",
     },
     steps: {
       kind: "steps",
@@ -149,12 +149,12 @@ export default {
         id: "beste-ausstattung",
         h2: "Welcher Erste-Hilfe-Koffer und welcher Feuerlöscher sind die besten?",
         blocks: [
-          { quick: "Der [LEINA-WERKE Erste-Hilfe-Koffer nach DIN 13157](produkt:1) ist die beste Basis. Als Feuerlöscher empfehlen wir einen 6-Liter-Schaumlöscher wie den [Jockel S6JX](produkt:2), für Küche und Auto zusätzlich das Löschspray [ABUS AFS625](produkt:3)." },
-          { first: "In einer großflächigen Krise sind Rettungsdienst und Feuerwehr stark gefordert, Notrufe kommen bei Netzausfall womöglich gar nicht durch. Gleichzeitig steigt das Risiko: Kerzen, Gaskocher, provisorische Heizungen und Notstrom verursachen mehr Brände, Unfälle beim Improvisieren mehr Verletzungen. Wer selbst Erste Hilfe leisten und einen Entstehungsbrand löschen kann, gewinnt entscheidende Minuten." },
-          { p: "Für die Erste Hilfe empfehlen wir einen Koffer nach DIN 13157 – das ist die Norm für Verbandkästen in Betrieben. Der Inhalt ist umfangreicher als ein Kfz-Verbandkasten und deckt typische Verletzungen ab. Medikamente sind nicht enthalten; dafür braucht es eine Hausapotheke, wie sie auch das BBK empfiehlt." },
-          { p: "Beim Brandschutz ist die Empfehlung der Stiftung Warentest eindeutig: Für den Haushalt eignen sich vor allem Schaum- und Wasserlöscher mit 6 Litern Inhalt; damit gelang das Löschen im Test in höchstens 12 Sekunden, mit Löschsprays dauerte es bis zu 26 Sekunden. Sprays sind eine gute Ergänzung für Küche und Auto, ersetzen den großen Löscher aber nicht." },
+          { quick: "Der [LEINA-WERKE Erste-Hilfe-Koffer nach DIN 13157](produkt:1) ist nach unserer Einschätzung die beste Basis. Als Feuerlöscher empfehlen wir einen 6-Liter-Schaumlöscher wie den [Jockel S6JX](produkt:2), für Küche und Auto zusätzlich das Löschspray [ABUS AFS625](produkt:3)." },
+          { first: "In einer großflächigen Krise sind Rettungsdienst und Feuerwehr stark gefordert, Notrufe kommen bei Netzausfall womöglich gar nicht durch. Gleichzeitig steigt das Risiko: Kerzen, Gaskocher, provisorische Heizungen und Notstrom verursachen mehr Brände, Unfälle beim Improvisieren mehr Verletzungen. Wer selbst Erste Hilfe leisten und einen Entstehungsbrand löschen kann, gewinnt wertvolle Zeit. Trotzdem gilt immer: zuerst den Notruf 112 versuchen – Ausrüstung ersetzt weder Rettungsdienst noch Feuerwehr." },
+          { p: "Für die Erste Hilfe empfehlen wir einen Koffer nach DIN 13157 – das ist die Norm für Verbandkästen in Betrieben. Der Inhalt ist umfangreicher als ein Kfz-Verbandkasten und auf typische Verletzungen ausgelegt. Medikamente sind nicht enthalten; dafür braucht es eine Hausapotheke, wie sie auch das BBK empfiehlt." },
+          { p: "Beim Brandschutz empfiehlt die Stiftung Warentest in ihrem Ratgeber „Feuer löschen“ für den Haushalt vor allem Schaum- und Wasserlöscher mit 6 Litern Inhalt, dazu handliche Löschsprays mit rund 0,6 Litern. Sprays sind nach unserer Einschätzung eine gute Ergänzung für Küche und Auto, ersetzen den großen Löscher aber nicht, weil sie deutlich weniger Löschmittel enthalten." },
           { figure: "scores" },
-          { callout: { title: "Fettbrand nie mit Wasser", warn: true, text: "Brennendes Fett oder Öl explodiert förmlich, wenn Wasser darauf trifft. Herd ausschalten, Deckel auflegen oder einen Löscher der Brandklasse F verwenden. Ein normaler Schaumlöscher der Klassen A und B ist für Fettbrände nicht zugelassen." } },
+          { callout: { title: "Fettbrand nie mit Wasser", warn: true, text: "Trifft Wasser auf brennendes Fett oder Öl, verdampft es schlagartig und es kann zu einer Fettexplosion kommen. Herd ausschalten, Deckel auflegen oder einen Löscher der Brandklasse F verwenden. Ein normaler Schaumlöscher der Klassen A und B ist für Fettbrände nicht zugelassen." } },
         ],
       },
       {
@@ -175,18 +175,18 @@ export default {
             },
           },
           { h3: "Warum kein Pulverlöscher für die Wohnung?" },
-          { p: "Pulverlöscher löschen viele Brandklassen, hinterlassen aber feinen, ätzenden Staub, der sich in der ganzen Wohnung verteilt und Elektronik zerstört. Für Wohnräume sind Schaum- und Wasserlöscher die bessere Wahl." },
+          { p: "Pulverlöscher sind für viele Brandklassen zugelassen, hinterlassen aber feinen, korrosiven Staub, der sich in der ganzen Wohnung verteilt und Elektronik und Einrichtung beschädigen kann. Für Wohnräume sind Schaum- und Wasserlöscher die bessere Wahl." },
           { h3: "Die Löschdecke" },
           { p: "Löschdecken nach DIN EN 1869 werden für Fettbrände angeboten. Verbraucherratgeber sehen sie für den Haushalt kritisch, weil unter der Decke das Feuer weiterbrennen kann und die Anwendung Übung erfordert. Wer eine Löschdecke hat, sollte sie sicher handhaben können – oder für die Küche lieber ein Löschspray mit F-Zulassung bereithalten." },
           { h3: "Wartung" },
-          { p: "Feuerlöscher sollten regelmäßig geprüft werden, in Betrieben alle zwei Jahre. Auch privat ist das sinnvoll. Löschsprays sind Einweggeräte mit Verfallsdatum. Beim Erste-Hilfe-Koffer verbrauchtes Material sofort nachkaufen und Verfallsdaten jährlich prüfen." },
+          { p: "Feuerlöscher sollten regelmäßig von einem Sachkundigen geprüft werden, in Betrieben in der Regel alle zwei Jahre. Auch privat ist das sinnvoll. Löschsprays sind Einweggeräte mit Verfallsdatum. Beim Erste-Hilfe-Koffer verbrauchtes Material sofort nachkaufen und Verfallsdaten jährlich prüfen." },
         ],
       },
       {
         id: "was-passt",
         h2: "Was passt zu wem?",
         blocks: [
-          { quick: "Jeder Haushalt braucht einen Erste-Hilfe-Koffer, einen 6-Liter-Löscher pro Etage und Rauchmelder. Ein Löschspray ergänzt Küche, Auto und Wohnmobil." },
+          { quick: "Wir empfehlen jedem Haushalt einen Erste-Hilfe-Koffer, einen 6-Liter-Löscher pro Etage und Rauchmelder. Ein Löschspray ergänzt Küche, Auto und Wohnmobil." },
           {
             cards: [
               { title: "Erste Hilfe", text: "Genormt und komplett: LEINA-WERKE DIN 13157.", link: { href: "#platz-1", label: "Zur Empfehlung" } },
@@ -208,11 +208,11 @@ export default {
     intro:
       "Ein Fettbrandlöscher für die Küche, eine Löschdecke, ein Rauchmelder, eine zweite Erste-Hilfe-Ausstattung und ein Dauerdrucklöscher ergänzen die Top 3.",
     items: [
-      { name: "Gloria FB6EASY Fettbrandlöscher 6 l", for: "Küche mit Fettbrand", text: "Schaumlöscher mit Klasse F (21 A / 113 B / 75 F), laut Anbieter frostsicher von −30 bis +60 °C.", asin: "B007CM1YE0", query: "Gloria FB6EASY Fettbrand Feuerlöscher" },
+      { name: "Gloria FB6EASY Fettbrandlöscher 6 l", for: "Küche mit Fettbrand", text: "Schaumlöscher mit Klasse F (21 A / 113 B / 75 F, Herstellerangabe), laut Anbieter frostsicher von −30 bis +60 °C.", asin: "B007CM1YE0", query: "Gloria FB6EASY Fettbrand Feuerlöscher" },
       { name: "mumbi Löschdecke 120 × 180 cm", for: "Löschdecke nach DIN EN 1869", text: "Glasfaser-Löschdecke mit Wandbefestigung – nur einsetzen, wenn man die Anwendung beherrscht.", asin: "B007KLSM5C", query: "mumbi Löschdecke 120 x 180" },
-      { name: "Ei Electronics Ei650 Rauchwarnmelder", for: "Früh warnen", text: "Rauchmelder mit 10-Jahres-Batterie – Pflicht in allen Bundesländern und im Blackout besonders wichtig.", asin: "B007IGQ5SK", query: "Ei Electronics Ei650" },
+      { name: "Ei Electronics Ei650 Rauchwarnmelder", for: "Früh warnen", text: "Rauchmelder mit 10-Jahres-Batterie (Herstellerangabe) – Rauchmelder sind in allen Bundesländern in Wohnungen vorgeschrieben (Umfang je nach Landesbauordnung) und im Blackout besonders wichtig.", asin: "B007IGQ5SK", query: "Ei Electronics Ei650" },
       { name: "LEINA-WERKE SAN DRK-Edition DIN 13157:2021", for: "Aktuelle Normfassung", text: "Erste-Hilfe-Koffer in Kooperation mit dem DRK, laut Anbieter nach DIN 13157:2021-11.", asin: "B07ZJJFXHB", query: "LEINA-WERKE 82102 SAN DRK DIN 13157" },
-      { name: "Jockel S6LJM Bio34 Plus", for: "Dauerdrucklöscher", text: "6-Liter-Schaum-Dauerdrucklöscher mit Manometer – der Druck lässt sich auf einen Blick prüfen.", asin: "B001EXJLUM", query: "Jockel S6LJM Bio34 Plus" },
+      { name: "Jockel S6LJM Bio34 Plus", for: "Dauerdrucklöscher", text: "6-Liter-Schaum-Dauerdrucklöscher mit Manometer (Herstellerangabe) – der Druck lässt sich auf einen Blick prüfen.", asin: "B001EXJLUM", query: "Jockel S6LJM Bio34 Plus" },
     ],
   },
 
@@ -223,12 +223,13 @@ export default {
         h2: "Wie handelt man bei Verletzung oder Brand richtig?",
         blocks: [
           { quick: "Eigenschutz geht vor: Bei Brand warnen, 112 rufen, nur löschen, wenn es gefahrlos möglich ist, sonst raus und Tür schließen. Bei Verletzungen Ruhe bewahren, Notruf absetzen und Erste Hilfe leisten, so gut es geht." },
-          { p: "Ein Erste-Hilfe-Kurs ist die beste Vorsorge – er dauert einen Tag, wird von Hilfsorganisationen wie DRK, ASB, Johanniter und Malteser angeboten und sollte alle paar Jahre aufgefrischt werden. Der beste Verbandkasten nützt wenig, wenn man im Ernstfall nicht weiß, was zu tun ist." },
+          { p: "Wir empfehlen dringend einen Erste-Hilfe-Kurs – er ist die beste Vorsorge, dauert in der Regel einen Tag, wird von Hilfsorganisationen wie DRK, ASB, Johanniter und Malteser angeboten und sollte alle paar Jahre aufgefrischt werden. Der beste Verbandkasten nützt wenig, wenn man im Ernstfall nicht weiß, was zu tun ist. Auch Feuerwehren und Hilfsorganisationen bieten teils Brandschutz- und Feuerlöscherübungen an." },
+          { callout: { title: "Kein Ersatz für Notruf und Arzt", warn: true, text: "Erste-Hilfe-Material und Feuerlöscher ersetzen nicht den Notruf 112, den Rettungsdienst oder die Feuerwehr. Unsere Hinweise sind keine medizinische Anleitung und ersetzen weder einen Erste-Hilfe-Kurs noch ärztlichen Rat. Gebrauchsanweisungen der Hersteller beachten." } },
           { figure: "steps" },
           { h3: "Hausapotheke ergänzen" },
           {
             list: [
-              "**Persönliche Medikamente** für mindestens zehn Tage, Medikationsplan auf Papier.",
+              "**Persönliche Medikamente** für mindestens zehn Tage (Vorrat mit Arzt oder Apotheke absprechen), Medikationsplan auf Papier.",
               "**Schmerz- und Fiebermittel**, Mittel gegen Durchfall und Elektrolyte.",
               "**Fieberthermometer**, Pinzette, Zeckenkarte.",
               "**Desinfektionsmittel** für Haut und Wunden.",
@@ -238,8 +239,8 @@ export default {
           {
             facts: [
               { value: "6 l", label: "Löschmittel – von Stiftung Warentest für den Haushalt empfohlen" },
-              { value: "12 s", label: "maximale Löschzeit mit 6-l-Löschern im Test" },
-              { value: "26 s", label: "maximale Löschzeit mit Löschsprays im Test" },
+              { value: "112", label: "Notruf für Feuerwehr und Rettungsdienst – immer zuerst" },
+              { value: "0,6 l", label: "typischer Inhalt eines Löschsprays – nur für Entstehungsbrände" },
             ],
           },
           { h3: "Wo der Feuerlöscher hingehört" },
@@ -251,10 +252,11 @@ export default {
 
   faqs: [
     { q: "Welcher Erste-Hilfe-Koffer ist für zu Hause am besten?", a: "Ein Koffer nach DIN 13157 – unsere Empfehlung ist der LEINA-WERKE SAN. Er enthält mehr Material als ein Kfz-Verbandkasten. Medikamente gehören zusätzlich in eine Hausapotheke." },
-    { q: "Welcher Feuerlöscher ist für die Wohnung am besten?", a: "Stiftung Warentest empfiehlt Schaum- oder Wasserlöscher mit 6 Litern Inhalt. Unsere Empfehlung ist der Jockel S6JX Green E 21. Für die Küche ist ein Gerät mit Brandklasse F sinnvoll, etwa der Gloria FB6EASY oder ein Löschspray mit F-Zulassung." },
-    { q: "Reicht ein Feuerlöschspray?", a: "Für kleine Entstehungsbrände in Küche oder Auto ja. Für einen größeren Brand ist die Löschmittelmenge zu gering. Ein 6-Liter-Löscher bietet deutlich mehr Reserve." },
+    { q: "Welcher Feuerlöscher ist für die Wohnung am besten?", a: "Stiftung Warentest empfiehlt in ihrem Ratgeber „Feuer löschen“ Schaum- oder Wasserlöscher mit 6 Litern Inhalt. Unsere Empfehlung ist der Jockel S6JX Green E 21. Für die Küche ist ein Gerät mit Brandklasse F sinnvoll, etwa der Gloria FB6EASY oder ein Löschspray mit F-Zulassung." },
+    { q: "Reicht ein Feuerlöschspray?", a: "Für kleine Entstehungsbrände in Küche oder Auto kann es reichen. Für einen größeren Brand ist die Löschmittelmenge zu gering. Ein 6-Liter-Löscher bietet deutlich mehr Reserve." },
     { q: "Ist eine Löschdecke sinnvoll?", a: "Löschdecken nach DIN EN 1869 können kleine Fettbrände ersticken, gelten bei Verbraucherratgebern aber als schwierig in der Anwendung, weil das Feuer darunter weiterbrennen kann. Ein Topfdeckel oder ein Löscher der Klasse F ist oft einfacher." },
-    { q: "Wie oft muss ein Feuerlöscher gewartet werden?", a: "In Betrieben alle zwei Jahre; für Privathaushalte ist das ebenfalls empfehlenswert. Wartungsfirmen prüfen Druck, Löschmittel und Dichtungen und erneuern die Prüfplakette." },
+    { q: "Wie oft muss ein Feuerlöscher gewartet werden?", a: "In Betrieben in der Regel alle zwei Jahre; für Privathaushalte ist das ebenfalls empfehlenswert. Wartungsfirmen prüfen Druck, Löschmittel und Dichtungen und erneuern die Prüfplakette." },
+    { q: "Brauche ich einen Erste-Hilfe-Kurs, wenn ich einen guten Verbandkasten habe?", a: "Ja, wir empfehlen ihn ausdrücklich. Ein Kurs bei DRK, ASB, Johannitern oder Maltesern vermittelt Herz-Lungen-Wiederbelebung, stabile Seitenlage und Wundversorgung. Ausrüstung ersetzt weder Kurs noch Notruf: Im Ernstfall immer zuerst 112 wählen." },
     { q: "Ist ein Pulverlöscher für die Wohnung geeignet?", a: "Eher nicht. Pulver verteilt sich in der ganzen Wohnung und kann Elektronik und Einrichtung stark beschädigen. Schaum- oder Wasserlöscher sind für Wohnräume besser geeignet." },
   ],
 

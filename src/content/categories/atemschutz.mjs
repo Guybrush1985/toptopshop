@@ -16,9 +16,9 @@ export default {
   eyebrow: "Krisenvorsorge · Luftfiltration",
   h1: "Die 3 besten Atemschutzmasken für den Notfall 2026",
   lead:
-    "Rauch, Asche, Feinstaub oder radioaktive Partikel nach einem Unfall: Wer im Ernstfall nach draußen muss, schützt die Atemwege mit der richtigen Maske. Entscheidend sind Filterklasse und Dichtsitz – und das Wissen, wogegen eine Maske nicht hilft.",
+    "Rauch, Asche, Feinstaub oder radioaktive Partikel nach einem Unfall: Wer im Ernstfall nach draußen muss, kann das Einatmen solcher Partikel mit der richtigen Maske deutlich verringern. Entscheidend sind Filterklasse und Dichtsitz – und das Wissen, wogegen eine Maske nicht hilft.",
   answer:
-    "Für die meisten Haushalte ist die [**3M Aura 9332+ FFP3**](produkt:1) die beste Wahl: hoher Partikelschutz, sofort einsatzbereit und günstig auf Vorrat. Wer Gasfilter einsetzen will, nimmt die Mehrweg-Halbmaske [**3M 6200**](produkt:2); die [**3M Vollmaske 6800**](produkt:3) schützt zusätzlich die Augen.",
+    "Für die meisten Haushalte ist die [**3M Aura 9332+ FFP3**](produkt:1) die beste Wahl: hoher Partikelschutz, sofort einsatzbereit und günstig auf Vorrat. Wer Gasfilter einsetzen will, nimmt die Mehrweg-Halbmaske [**3M 6200**](produkt:2); die [**3M Vollmaske 6800**](produkt:3) deckt zusätzlich die Augen ab.",
 
   top3Title: "Unsere Top 3 Atemschutzmasken für den Ernstfall",
   top3Intro:
@@ -33,7 +33,7 @@ export default {
   ],
 
   method:
-    "Grundlage sind die Normen EN 149 (filtrierende Halbmasken), EN 140 (Halbmasken), EN 136 (Vollmasken), EN 143 (Partikelfilter) und EN 14387 (Gasfilter), die Empfehlung der Strahlenschutzkommission zu FFP-Masken (2023), die Verhaltenshinweise des BBK sowie Herstellerangaben von 3M. Wir empfehlen ausschließlich Produkte, die bei Amazon erhältlich sind. Jede Maske wird in vier Kriterien von 0 bis 10 eingeordnet; die Gesamtnote ist der gewichtete Mittelwert.",
+    "Grundlage sind die Normen EN 149 (filtrierende Halbmasken), EN 140 (Halbmasken), EN 136 (Vollmasken), EN 143 (Partikelfilter) und EN 14387 (Gasfilter), die Empfehlung der Strahlenschutzkommission zu FFP-Masken (2023), die Verhaltenshinweise des BBK sowie Herstellerangaben von 3M. Wir haben die Masken nicht selbst getestet; Normangaben und Schutzklassen sind Herstellerangaben. Wir empfehlen ausschließlich Produkte, die bei Amazon erhältlich sind. Jede Maske wird in vier Kriterien von 0 bis 10 eingeordnet; die Gesamtnote ist der gewichtete Mittelwert.",
 
   products: [
     {
@@ -47,11 +47,11 @@ export default {
       ratings: { schutz: 8.5, sitz: 8.5, vielseitig: 6.0, preis: 9.5 },
       bestFor: "Vorrat für die ganze Familie",
       verdict:
-        "Die sinnvollste Maske für den Notvorrat: höchste Schutzstufe für Partikel nach EN 149, faltbar, lange lagerfähig und so günstig, dass für jedes Familienmitglied mehrere bereitliegen können.",
+        "Die sinnvollste Maske für den Notvorrat: laut Hersteller höchste Schutzstufe für Partikel nach EN 149, faltbar, lange lagerfähig und so günstig, dass für jedes Familienmitglied mehrere bereitliegen können.",
       features: [
-        "FFP3 nach EN 149: mindestens 99 % Filterleistung, höchstens 2 % Gesamtleckage",
+        "FFP3 nach EN 149 (Herstellerangabe); die Norm fordert mindestens 99 % Filterleistung und höchstens 2 % Gesamtleckage",
         "Cool-Flow-Ausatemventil gegen Wärmestau, dreiteiliges Faltdesign mit Nasenbügel (Herstellerangabe)",
-        "Schützt vor Feinstaub, Rauchpartikeln und Aerosolen – nicht vor Gasen",
+        "Filtert laut Hersteller Feinstaub, Rauchpartikel und Aerosole – nicht aber Gase",
       ],
       pros: ["Sofort einsatzbereit, keine Montage", "Günstig im Mehrfachpack", "Platzsparend zu lagern"],
       cons: ["Einweg – nach Gebrauch entsorgen", "Kein Schutz vor Gasen und Dämpfen", "Mit Ventil: schützt andere weniger als ohne"],
@@ -70,10 +70,10 @@ export default {
       ratings: { schutz: 8.5, sitz: 7.5, vielseitig: 9.0, preis: 7.0 },
       bestFor: "Gase, Dämpfe & längere Einsätze",
       verdict:
-        "Die wiederverwendbare Halbmaske nimmt Partikel- und Gasfilter auf. Damit schützt sie – mit dem passenden Filter – auch gegen Gase und Dämpfe, gegen die keine FFP-Maske hilft.",
+        "Die wiederverwendbare Halbmaske nimmt Partikel- und Gasfilter auf. Damit kann sie – mit dem passenden, für den Stoff zugelassenen Filter – auch gegen bestimmte Gase und Dämpfe eingesetzt werden, gegen die keine FFP-Maske hilft.",
       features: [
-        "Wiederverwendbarer Maskenkörper nach EN 140 mit Bajonettanschluss für die 3M-Filter der Serie 6000 und 2000",
-        "Kombinierbar mit P3-Partikelfiltern (z. B. 3M 2135) oder Gasfiltern (z. B. 3M 6059 ABEK1)",
+        "Wiederverwendbarer Maskenkörper nach EN 140 mit Bajonettanschluss für die 3M-Filter der Serie 6000 und 2000 (Herstellerangabe)",
+        "Kombinierbar mit P3-Partikelfiltern (z. B. 3M 2135) oder Gasfiltern (z. B. 3M 6059 ABEK1) laut Hersteller",
         "Filter einzeln tauschbar, Maskenkörper abwaschbar",
       ],
       pros: ["Gasschutz mit passendem Filter möglich", "Geringe Folgekosten", "Bewährtes System mit großer Filterauswahl"],
@@ -93,13 +93,13 @@ export default {
       ratings: { schutz: 9.5, sitz: 8.0, vielseitig: 9.5, preis: 5.0 },
       bestFor: "Schutz für Augen und Atemwege",
       verdict:
-        "Die umfassendste Lösung: Vollmaske nach EN 136 mit großer Sichtscheibe, die Augen und Gesicht vor Rauch, Asche und reizenden Stoffen schützt – mit denselben Filtern wie die Halbmaske.",
+        "Die umfassendste Lösung: Vollmaske nach EN 136 (Herstellerangabe) mit großer Sichtscheibe, die zusätzlich Augen und Gesicht abdeckt – etwa bei Rauch, Asche und reizenden Stoffen – und dieselben Filter wie die Halbmaske nutzt.",
       features: [
-        "Vollmaske nach EN 136 aus Silikon mit großer Sichtscheibe",
-        "Nutzt die Bajonettfilter der 3M-Serie 6000/2000 (Partikel- und Gasfilter)",
+        "Vollmaske nach EN 136 aus Silikon mit großer Sichtscheibe (Herstellerangabe)",
+        "Nutzt die Bajonettfilter der 3M-Serie 6000/2000 (Partikel- und Gasfilter, Herstellerangabe)",
         "Cool-Flow-Ausatemventil, Vierpunkt-Kopfband (Herstellerangabe)",
       ],
-      pros: ["Schützt Augen und Atemwege", "Höchster Schutz der drei", "Gleiche Filter wie die Halbmaske"],
+      pros: ["Deckt Augen und Atemwege ab", "Umfassendster Schutz der drei (unsere Einschätzung)", "Gleiche Filter wie die Halbmaske"],
       cons: ["Teuer", "Für Brillenträger nur mit Masken-Brilleneinsatz", "Ohne Schulung schwerer dicht anzulegen"],
       specs: { typ: "Vollmaske (Mehrweg)", klasse: "EN 136, Filter nach EN 143/14387", gase: "mit Gasfilter", augen: "ja", filter: "Bajonett, 2 Filter", einsatz: "Rauch, Gase, Asche, Reizstoffe" },
       asin: "B0B45FG2ZT",
@@ -151,18 +151,19 @@ export default {
         h2: "Welche Atemschutzmaske ist für den Notfall die beste?",
         blocks: [
           { quick: "Für den Vorrat ist eine FFP3-Maske wie die [3M Aura 9332+](produkt:1) die beste Wahl: einfach, günstig und hoher Partikelschutz. Gegen Gase brauchst du eine Halbmaske wie die [3M 6200](produkt:2) mit Gasfilter, für Augenschutz die [Vollmaske 6800](produkt:3)." },
-          { first: "Die meisten Gefahren, gegen die sich Privathaushalte mit einer Maske schützen können, bestehen aus Partikeln: Ruß und Asche bei Großbränden, Feinstaub, Staub nach Einstürzen, Aerosole mit Krankheitserregern oder radioaktive Partikel nach einem Unfall. Dagegen schützen partikelfiltrierende Masken der Klassen FFP2 und FFP3 gut – vorausgesetzt, sie sitzen dicht." },
-          { p: "Die Strahlenschutzkommission (SSK) hat 2023 empfohlen, dass FFP2-Masken die Aufnahme radioaktiver Partikel nach einer Kernwaffenexplosion verringern können, vor allem wenn man ins Freie muss. Sie betont zugleich, dass die Masken nicht zu falscher Sicherheit führen dürfen und nicht vor Gasen schützen. FFP3 filtert noch mehr und lässt weniger Luft am Rand vorbei – deshalb ist sie unsere Wahl für den Vorrat." },
-          { p: "Für Gase und Dämpfe, etwa nach einem Chemieunfall, reichen Partikelmasken nicht. Dafür braucht es eine Halb- oder Vollmaske mit Gasfilter. Die Behörden raten in solchen Lagen aber in erster Linie, im Gebäude zu bleiben und Fenster und Türen zu schließen – die Maske ist für den Fall, dass du trotzdem hinaus musst." },
+          { first: "Die meisten Gefahren, gegen die sich Privathaushalte mit einer Maske schützen können, bestehen aus Partikeln: Ruß und Asche bei Großbränden, Feinstaub, Staub nach Einstürzen, Aerosole mit Krankheitserregern oder radioaktive Partikel nach einem Unfall. Partikelfiltrierende Masken der Klassen FFP2 und FFP3 können das Einatmen solcher Partikel deutlich verringern – vorausgesetzt, sie sitzen dicht. Einen vollständigen Schutz bietet keine Maske." },
+          { p: "Die Strahlenschutzkommission (SSK) hat 2023 festgehalten, dass FFP2-Masken die Aufnahme radioaktiver Partikel verringern können, vor allem wenn man ins Freie muss. Sie betont zugleich, dass die Masken nicht zu falscher Sicherheit führen dürfen und nicht vor Gasen schützen. FFP3 muss nach Norm mehr filtern und darf weniger Luft am Rand vorbeilassen – deshalb ist sie unsere Wahl für den Vorrat." },
+          { p: "Für Gase und Dämpfe, etwa nach einem Chemieunfall, reichen Partikelmasken nicht. Dafür braucht es eine Halb- oder Vollmaske mit einem für den jeweiligen Stoff geeigneten Gasfilter – und selbst dann ist der Schutz begrenzt, weil Konzentration, Stoff und Filterkapazität im Ernstfall meist unbekannt sind. Die Behörden raten in solchen Lagen aber in erster Linie, im Gebäude zu bleiben und Fenster und Türen zu schließen – die Maske ist für den Fall, dass du trotzdem hinaus musst." },
           { figure: "scores" },
           { callout: { title: "Grenzen jeder Filtermaske", warn: true, text: "Filtermasken schützen nicht vor Kohlenmonoxid und nicht bei Sauerstoffmangel – etwa in verrauchten Räumen oder Kellern nach einem Brand. Dort hilft nur umluftunabhängiger Atemschutz, den die Feuerwehr trägt. Bei Brand: raus und 112 rufen." } },
+          { callout: { title: "Kein Schutzversprechen bei CBRN-Lagen", warn: true, text: "Keine der hier vorgestellten Masken ist ein geprüfter Schutz gegen chemische Kampfstoffe, biologische Gefahrstoffe oder radioaktive Strahlung. Masken können das Einatmen von Partikeln und – mit passendem Filter – bestimmter Gase nur verringern. Anweisungen von Behörden, Feuerwehr und Katastrophenschutz (Radio, Warn-App, Lautsprecherdurchsagen) haben immer Vorrang. Gebrauchsanweisung des Herstellers beachten; die Angaben hier ersetzen keine Unterweisung im Atemschutz." } },
         ],
       },
       {
         id: "kaufkriterien",
         h2: "Worauf sollte man beim Kauf von Atemschutz achten?",
         blocks: [
-          { quick: "Wichtig sind die Schutzklasse (FFP3 bzw. P3), bei Gasen die passende Filterklasse nach EN 14387, der Dichtsitz und das Ablaufdatum der Filter. Kaufe nur Masken mit CE-Kennzeichnung und Normangabe." },
+          { quick: "Wichtig sind die Schutzklasse (FFP3 bzw. P3), bei Gasen die passende Filterklasse nach EN 14387, der Dichtsitz und das Ablaufdatum der Filter. Kaufe nur Masken mit CE-Kennzeichnung, Normangabe und Nummer der Prüfstelle auf Maske oder Verpackung." },
           { h3: "FFP-Klassen nach EN 149" },
           {
             table: {
@@ -170,13 +171,13 @@ export default {
               head: ["Klasse", "Filterleistung", "Max. Gesamtleckage", "Sinnvoll bei"],
               rows: [
                 ["**FFP1**", "mind. 80 %", "22 %", "groben Stäuben, nicht für den Ernstfall"],
-                ["**FFP2**", "mind. 94 %", "8 %", "Feinstaub, Aerosolen, laut SSK bei radioaktiven Partikeln"],
+                ["**FFP2**", "mind. 94 %", "8 %", "Feinstaub, Aerosolen; laut SSK zur Verringerung der Aufnahme radioaktiver Partikel"],
                 ["**FFP3**", "mind. 99 %", "2 %", "Rauchpartikeln, Asche, sehr feinen Partikeln"],
               ],
             },
           },
           { h3: "Gasfilter: Buchstaben und Farben" },
-          { p: "Gasfilter nach EN 14387 tragen Buchstaben für die Stoffgruppe: **A** (braun) für organische Gase und Dämpfe, **B** (grau) für anorganische Gase wie Chlor, **E** (gelb) für saure Gase wie Schwefeldioxid und **K** (grün) für Ammoniak. Die Ziffer 1 bis 3 steht für das Aufnahmevermögen. Ein ABEK1-Filter deckt also vier Gruppen in kleiner Kapazität ab – für Privathaushalte die übliche Wahl. Gegen Kohlenmonoxid hilft keiner dieser Filter." },
+          { p: "Gasfilter nach EN 14387 tragen Buchstaben für die Stoffgruppe: **A** (braun) für organische Gase und Dämpfe, **B** (grau) für anorganische Gase wie Chlor, **E** (gelb) für saure Gase wie Schwefeldioxid und **K** (grün) für Ammoniak. Die Ziffer 1 bis 3 steht für das Aufnahmevermögen. Ein ABEK1-Filter deckt also vier Gruppen in kleiner Kapazität und nur für niedrige Konzentrationen ab – für Privathaushalte die übliche Wahl. Gegen Kohlenmonoxid hilft keiner dieser Filter, und auch für chemische Kampfstoffe sind sie nicht ausgelegt." },
           { h3: "Dichtsitz, Bart und Brille" },
           { p: "Eine Maske schützt nur so gut, wie sie anliegt. Bartstoppeln im Dichtbereich, falsche Größe oder verdrehte Bänder lassen ungefilterte Luft am Rand vorbei. Probiere die Maske zu Hause an und übe das Anlegen. Bei Vollmasken brauchen Brillenträger einen speziellen Brilleneinsatz, weil Bügel die Dichtung unterbrechen." },
           { h3: "Lagerung und Haltbarkeit" },
@@ -210,10 +211,10 @@ export default {
       "Eine Mehrwegmaske ist nur so gut wie ihr Filter. Diese fünf Produkte ergänzen die Top 3 – sortiert nach der Gefahr, gegen die sie schützen.",
     items: [
       { name: "3M 2135 P3R-Partikelfilter (1 Paar)", for: "Partikel: Rauch, Asche, Staub", text: "Leichter P3-Filter mit geringem Atemwiderstand für die Halbmaske 6200 und die Vollmaske 6800.", asin: "B00DY4RMBE", query: "3M 2135 P3R Partikelfilter" },
-      { name: "3M 6059 ABEK1-Gasfilter", for: "Gase und Dämpfe", text: "Kombifilter gegen organische, anorganische und saure Gase sowie Ammoniak – kein Schutz vor Kohlenmonoxid.", asin: "B0DH9PFBRD", query: "3M 6059 ABEK1 Filter" },
-      { name: "3M 6038 P3R mit Aktivkohle", for: "Partikel plus Gerüche", text: "P3-Partikelfilter mit Aktivkohle gegen niedrige Konzentrationen organischer und saurer Gase sowie Ozon (Herstellerangabe).", asin: "B00BFWAN8Q", query: "3M 6038 Partikelfilter Aktivkohle" },
+      { name: "3M 6059 ABEK1-Gasfilter", for: "Gase und Dämpfe", text: "Kombifilter gegen organische, anorganische und saure Gase sowie Ammoniak in niedriger Konzentration (Herstellerangabe) – kein Schutz vor Kohlenmonoxid.", asin: "B0DH9PFBRD", query: "3M 6059 ABEK1 Filter" },
+      { name: "3M 6038 P3R mit Aktivkohle", for: "Partikel plus Gerüche", text: "P3-Partikelfilter mit Aktivkohle gegen Gerüche bzw. niedrige Konzentrationen organischer und saurer Gase sowie Ozon unterhalb der Grenzwerte (Herstellerangabe).", asin: "B00BFWAN8Q", query: "3M 6038 Partikelfilter Aktivkohle" },
       { name: "3M Aura 9330+ FFP3 ohne Ventil", for: "Schutz auch für andere", text: "Ohne Ausatemventil wird auch die ausgeatmete Luft gefiltert – sinnvoll bei Infektionsgefahr und in Notunterkünften.", asin: "B0BQJQPXNR", query: "3M Aura 9330+ FFP3 ohne Ventil" },
-      { name: "3M Aura 9322+ FFP2", for: "Leichter atmen", text: "FFP2-Maske mit Ventil: geringerer Atemwiderstand, laut SSK geeignet, um die Aufnahme radioaktiver Partikel zu verringern.", asin: "B006CO4H20", query: "3M Aura 9322+ FFP2" },
+      { name: "3M Aura 9322+ FFP2", for: "Leichter atmen", text: "FFP2-Maske mit Ventil: geringerer Atemwiderstand; laut SSK können FFP2-Masken die Aufnahme radioaktiver Partikel verringern.", asin: "B006CO4H20", query: "3M Aura 9322+ FFP2" },
     ],
   },
 
@@ -223,7 +224,7 @@ export default {
         id: "richtig-anwenden",
         h2: "Wie benutzt man eine Atemschutzmaske im Ernstfall richtig?",
         blocks: [
-          { quick: "Setze die Maske auf, bevor du in belastete Luft gehst, prüfe den Dichtsitz, halte den Aufenthalt draußen kurz und entsorge Einwegmasken danach. Folge immer den Anweisungen der Behörden über Radio oder Warn-App." },
+          { quick: "Setze die Maske auf, bevor du in belastete Luft gehst, prüfe den Dichtsitz, halte den Aufenthalt draußen kurz und entsorge Einwegmasken danach. Die Anweisungen der Behörden über Radio oder Warn-App haben immer Vorrang." },
           { p: "Eine Maske verschafft dir Zeit – etwa um von draußen in ein Gebäude zu kommen, Angehörige abzuholen oder einen Evakuierungspunkt zu erreichen. Sie ist kein Grund, sich länger als nötig im Freien aufzuhalten. Das BBK rät bei Gefahrstofffreisetzungen, das nächste geschlossene Gebäude aufzusuchen und dort Fenster und Türen zu schließen." },
           { figure: "steps" },
           { h3: "Nach dem Einsatz" },
@@ -243,18 +244,19 @@ export default {
             ],
           },
           { h3: "Kinder und Menschen mit Vorerkrankungen" },
-          { p: "Atemschutzmasken für Erwachsene passen Kindern meist nicht dicht, und der Atemwiderstand kann für Menschen mit Herz- oder Lungenerkrankungen belastend sein. Hier ist der Schutz im Gebäude – mit abgedichtetem Raum und Luftreiniger – oft die bessere Lösung. Lass dich bei Vorerkrankungen ärztlich beraten." },
+          { p: "Atemschutzmasken für Erwachsene passen Kindern meist nicht dicht, und der Atemwiderstand kann für Menschen mit Herz- oder Lungenerkrankungen belastend sein. Hier ist der Schutz im Gebäude – mit abgedichtetem Raum und Luftreiniger – oft die bessere Lösung. Lass dich bei Vorerkrankungen ärztlich beraten – unsere Hinweise ersetzen keine ärztliche Beratung." },
         ],
       },
     ],
   },
 
   faqs: [
-    { q: "Welche Maske schützt im Notfall am besten?", a: "Gegen Partikel wie Rauch, Asche und Feinstaub schützt eine dicht sitzende FFP3-Maske am besten – unsere Empfehlung ist die 3M Aura 9332+. Gegen Gase braucht es eine Halb- oder Vollmaske mit passendem Gasfilter, etwa die 3M 6200 mit ABEK1-Filter." },
-    { q: "Schützt eine FFP3-Maske vor Rauch?", a: "Sie filtert Rauchpartikel und Ruß, aber keine Gase wie Kohlenmonoxid. In verrauchten Räumen schützt sie deshalb nicht ausreichend. Bei Brand: Gebäude verlassen und 112 rufen." },
+    { q: "Welche Maske schützt im Notfall am besten?", a: "Gegen Partikel wie Rauch, Asche und Feinstaub ist nach unserer Einschätzung eine dicht sitzende FFP3-Maske die beste Wahl für Privathaushalte – unsere Empfehlung ist die 3M Aura 9332+. Einen vollständigen Schutz bietet keine Maske. Gegen Gase braucht es eine Halb- oder Vollmaske mit passendem Gasfilter, etwa die 3M 6200 mit ABEK1-Filter." },
+    { q: "Schützt eine FFP3-Maske vor Rauch?", a: "Sie kann Rauchpartikel und Ruß filtern, aber keine Gase wie Kohlenmonoxid. In verrauchten Räumen schützt sie deshalb nicht ausreichend. Bei Brand: Gebäude verlassen und 112 rufen." },
     { q: "Helfen FFP-Masken bei radioaktivem Fallout?", a: "Laut Strahlenschutzkommission (2023) können FFP2-Masken die Aufnahme radioaktiver Partikel verringern, vor allem wenn man ins Freie muss. Sie schützen aber nicht vor Strahlung selbst und nicht vor Gasen. Wichtigste Maßnahme bleibt der Aufenthalt in Gebäuden." },
     { q: "Was bedeutet ABEK1 auf einem Filter?", a: "Die Buchstaben stehen für die Gasgruppen: A organische Gase, B anorganische Gase, E saure Gase, K Ammoniak. Die 1 bezeichnet die kleinste Kapazitätsklasse. Ein ABEK1-Filter ist ein Kombifilter für niedrige Konzentrationen." },
     { q: "Sollte man eine Gasmaske für den Notfall kaufen?", a: "Für die meisten Haushalte reichen FFP3-Masken. Eine Halb- oder Vollmaske mit Gasfilter ist sinnvoll, wenn du in der Nähe von Industrieanlagen wohnst oder im Ernstfall draußen tätig sein musst. Sie bringt nur etwas, wenn du das Anlegen geübt hast und die Filter nicht abgelaufen sind." },
+    { q: "Schützt eine Gasmaske vor chemischen oder biologischen Kampfstoffen?", a: "Davon solltest du nicht ausgehen. Die hier vorgestellten Masken und Filter sind für Arbeitsschutz ausgelegt, nicht als geprüfter Schutz gegen Kampfstoffe oder Strahlung. Sie können die Belastung nur verringern. In solchen Lagen haben die Anweisungen der Behörden Vorrang – meist heißt das: Gebäude aufsuchen, Fenster und Türen schließen, Radio oder Warn-App verfolgen." },
     { q: "Wie lange sind Atemschutzmasken haltbar?", a: "Das Ablaufdatum steht auf der Verpackung und liegt bei ungeöffneten FFP-Masken meist bei einigen Jahren. Gasfilter halten originalverpackt ebenfalls mehrere Jahre, nach dem Öffnen deutlich kürzer." },
   ],
 

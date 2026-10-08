@@ -16,13 +16,13 @@ export default {
   eyebrow: "Krisenvorsorge · Schutzraum & Ausstattung",
   h1: "Licht und Notfallrucksack: Die 3 besten für den Ernstfall 2026",
   lead:
-    "Im Blackout ist es abends sofort stockdunkel – im Keller sogar tagsüber. Eine gute Stirnlampe hält die Hände frei, eine Laterne macht einen Raum hell, und ein fertig gepackter Notfallrucksack spart im Ernstfall wertvolle Minuten. Diese drei Produkte sind die beste Wahl.",
+    "Im Blackout ist es abends sofort stockdunkel – im Keller sogar tagsüber. Eine gute Stirnlampe hält die Hände frei, eine Laterne macht einen Raum hell, und ein fertig gepackter Notfallrucksack spart im Ernstfall wertvolle Minuten. Diese drei Produkte sind nach unserer Einschätzung die beste Wahl.",
   answer:
-    "Unsere beste Gesamtwahl ist die Stirnlampe [**Ledlenser H7R Core**](produkt:1): 1.000 Lumen, fokussierbar, IP67 und mit wechselbarem Akku. Für Raumlicht empfehlen wir die Laterne [**Ledlenser ML6**](produkt:2) mit 750 Lumen und Powerbank-Funktion; als Grundlage fürs Notgepäck den gepackten [**AdLuWa Fluchtrucksack**](produkt:3).",
+    "Unsere beste Gesamtwahl ist die Stirnlampe [**Ledlenser H7R Core**](produkt:1): laut Hersteller 1.000 Lumen, fokussierbar, IP67 und mit wechselbarem Akku. Für Raumlicht empfehlen wir die Laterne [**Ledlenser ML6**](produkt:2) mit 750 Lumen und Powerbank-Funktion; als Grundlage fürs Notgepäck den gepackten [**AdLuWa Fluchtrucksack**](produkt:3).",
 
   top3Title: "Unsere Top 3 für Licht und Notgepäck",
   top3Intro:
-    "Eine Stirnlampe für jede Person, eine Laterne pro Raum und ein Rucksack, der fertig an der Tür steht: Mit diesen drei Produkten ist die Grundausstattung für Keller und Evakuierung komplett.",
+    "Eine Stirnlampe für jede Person, eine Laterne pro Raum und ein Rucksack, der fertig an der Tür steht: Mit diesen drei Produkten steht eine solide Grundausstattung für Keller und Evakuierung, die du um Persönliches ergänzt.",
   comparisonTitle: "Stirnlampe, Laterne und Notfallrucksack im Vergleich",
 
   criteria: [
@@ -33,7 +33,7 @@ export default {
   ],
 
   method:
-    "Grundlage sind die Vorsorgeempfehlungen des BBK zu Licht und Notgepäck, Tests von Stirnlampen (u. a. Auto Bild 2026, outdoor-magazin.com), Herstellerangaben zu Leuchtkraft, Laufzeit und Schutzart sowie Kundenerfahrungen. Wir empfehlen ausschließlich Produkte, die bei Amazon erhältlich sind. Jedes Produkt wird in vier Kriterien von 0 bis 10 eingeordnet; die Gesamtnote ist der gewichtete Mittelwert.",
+    "Grundlage sind die Vorsorgeempfehlungen des BBK zu Licht und Notgepäck, Tests von Stirnlampen (u. a. Auto Bild 2026, outdoor-magazin.com), Herstellerangaben zu Leuchtkraft, Laufzeit und Schutzart sowie Kundenerfahrungen. Wir haben die Produkte nicht selbst getestet. Wir empfehlen ausschließlich Produkte, die bei Amazon erhältlich sind. Jedes Produkt wird in vier Kriterien von 0 bis 10 eingeordnet; die Gesamtnote ist der gewichtete Mittelwert.",
 
   products: [
     {
@@ -50,11 +50,11 @@ export default {
         "Eine Stirnlampe hält die Hände frei – zum Kochen, Tragen, Erste Hilfe leisten. Die H7R Core leuchtet laut Ledlenser bis 250 Meter weit, lässt sich von breit auf fokussiert stellen und läuft im Sparmodus bis zu 65 Stunden.",
       features: [
         "Bis 1.000 Lumen, bis 250 m Leuchtweite, fokussierbar, Kopf um 130° schwenkbar (Herstellerangaben)",
-        "Wechselbarer 21700-Lithium-Ionen-Akku (4.800 mAh), magnetisches Ladekabel",
-        "Schutzart IP67, im Sparmodus bis zu 65 Stunden",
+        "Wechselbarer 21700-Lithium-Ionen-Akku (4.800 mAh), magnetisches Ladekabel (Herstellerangabe)",
+        "Schutzart IP67, im Sparmodus bis zu 65 Stunden (Herstellerangabe)",
       ],
-      pros: ["Sehr hell und fokussierbar", "Wechselakku – Ersatz möglich", "Wasser- und staubdicht"],
-      cons: ["Relativ schwer (ca. 259 g)", "Teurer als einfache Stirnlampen", "Magnetkabel nicht verlieren"],
+      pros: ["Sehr hell und fokussierbar", "Wechselakku – Ersatz möglich", "Laut Hersteller wasser- und staubdicht (IP67)"],
+      cons: ["Relativ schwer (laut Hersteller ca. 259 g)", "Teurer als einfache Stirnlampen", "Magnetkabel nicht verlieren"],
       specs: { licht: "bis 1.000 lm", energie: "21700-Akku, magnetisch laden", laufzeit: "bis 65 h (Sparmodus)", schutz: "IP67", besonderheit: "fokussierbar, schwenkbar" },
       asin: "B08F2LB5LS",
       query: "Ledlenser H7R Core Stirnlampe",
@@ -70,11 +70,11 @@ export default {
       ratings: { nutzen: 8.5, laufzeit: 8.5, robust: 8.0, preis: 7.0 },
       bestFor: "Wohnzimmer, Keller, Zelt",
       verdict:
-        "Eine Laterne macht einen ganzen Raum hell – angenehmer als jede Taschenlampe. Die ML6 liefert bis zu 750 Lumen, hängt an Haken oder Magnet und lädt im Notfall auch das Handy.",
+        "Eine Laterne macht einen ganzen Raum hell – angenehmer als eine Taschenlampe. Die ML6 liefert laut Ledlenser bis zu 750 Lumen, hängt an Haken oder Magnet und lädt im Notfall auch das Handy.",
       features: [
         "Bis 750 Lumen, laut Ledlenser im niedrigsten Modus bis zu 70 Stunden",
-        "Wechselbarer Li-Ionen-Akku (3,6 V, 3.200 mAh), Powerbank-Funktion per USB",
-        "Gummihaken, Magnet und Standfuß; Variante mit warmem Licht erhältlich",
+        "Wechselbarer Li-Ionen-Akku (3,6 V, 3.200 mAh), Powerbank-Funktion per USB (Herstellerangabe)",
+        "Gummihaken, Magnet und Standfuß; Variante mit warmem Licht erhältlich (Herstellerangabe)",
       ],
       pros: ["Helles, blendfreies Raumlicht", "Lädt Handys", "Vielseitig aufhängbar"],
       cons: ["Angaben zur Schutzart schwanken je nach Variante", "Einzelne Berichte über defekte Powerbank-Funktion"],
@@ -121,7 +121,7 @@ export default {
       file: "stirnlampe-laterne-notfallrucksack-bewertung-vergleich.svg",
       title: "Licht und Notgepäck: Die 3 besten für den Ernstfall",
       alt: "Balkendiagramm: Bewertung von Stirnlampe, Laterne und Notfallrucksack in den Kriterien Nutzen, Energie, Robustheit und Preis-Leistung",
-      caption: "Unsere Bewertung je Kriterium. Die H7R Core ist am vielseitigsten, der Rucksack am wichtigsten für die Evakuierung.",
+      caption: "Unsere Bewertung je Kriterium. Die H7R Core ist nach unserer Einschätzung am vielseitigsten, der Rucksack hilft vor allem bei einer Evakuierung.",
     },
     steps: {
       kind: "steps",
@@ -149,12 +149,13 @@ export default {
         id: "beste-ausstattung",
         h2: "Welche Lampen und welcher Notfallrucksack sind die besten?",
         blocks: [
-          { quick: "Die [Ledlenser H7R Core](produkt:1) ist die beste Stirnlampe für den Notfall, die [Ledlenser ML6](produkt:2) die beste Laterne. Als Basis fürs Notgepäck eignet sich der gepackte [AdLuWa Fluchtrucksack](produkt:3)." },
-          { first: "Licht ist im Stromausfall das erste, was fehlt – und das, was am meisten Sicherheit gibt. Kerzen sind dabei die schlechteste Lösung: Sie erhöhen das Brandrisiko erheblich, gerade wenn viele Menschen im Dunkeln hantieren. Feuerwehren warnen nach Stromausfällen regelmäßig vor Bränden durch Kerzen. LED-Lampen mit Akku oder Batterien sind sicherer, heller und sparsamer." },
+          { quick: "Die [Ledlenser H7R Core](produkt:1) ist nach unserer Einschätzung die beste Stirnlampe für den Notfall, die [Ledlenser ML6](produkt:2) die beste Laterne. Als Basis fürs Notgepäck eignet sich der gepackte [AdLuWa Fluchtrucksack](produkt:3)." },
+          { first: "Licht ist im Stromausfall das erste, was fehlt – und das, was am meisten Sicherheit gibt. Kerzen sind dabei eine schlechte Lösung: Sie erhöhen das Brandrisiko erheblich, gerade wenn viele Menschen im Dunkeln hantieren. Feuerwehren warnen nach Stromausfällen regelmäßig vor Bränden durch Kerzen. LED-Lampen mit Akku oder Batterien sind sicherer, heller und sparsamer." },
           { p: "Für jeden Haushalt empfehlen wir zwei Lampentypen: eine Stirnlampe pro Person, damit die Hände frei bleiben, und eine Laterne pro genutztem Raum. Dazu kommen Ersatzbatterien oder eine Möglichkeit zum Laden, etwa über eine Powerbank oder Powerstation." },
           { p: "Für die Evakuierung empfiehlt das BBK ein Notgepäck pro Person: einen Rucksack mit Dokumenten, Medikamenten, Erster Hilfe, Radio, Licht, Verpflegung und Kleidung. Fertig gepackte Rucksäcke sind eine gute Basis – persönliche Dinge wie Medikamente und Dokumente muss man aber immer selbst ergänzen." },
           { figure: "scores" },
-          { callout: { title: "Kerzen nur mit Vorsicht", warn: true, text: "Kerzen und Teelichter nie unbeaufsichtigt lassen, nicht in die Nähe von Vorhängen stellen und nicht im Kinderzimmer nutzen. Ein Rauchwarnmelder ist Pflicht – gerade im Blackout, wenn mehr offenes Feuer brennt." } },
+          { callout: { title: "Kerzen nur mit Vorsicht", warn: true, text: "Kerzen und Teelichter nie unbeaufsichtigt lassen, nicht in die Nähe von Vorhängen stellen und nicht im Kinderzimmer nutzen. Rauchwarnmelder sind in Wohnungen in allen Bundesländern vorgeschrieben (Umfang je nach Landesbauordnung) – gerade im Blackout, wenn mehr offenes Feuer brennt, sind sie wichtig." } },
+          { callout: { title: "Lampen und Akkus sicher nutzen", text: "Sehr helle LED-Lampen nie direkt in die Augen von Menschen oder Tieren richten. Lithium-Ionen-Akkus nur mit passendem Ladegerät laden, nicht beschädigt oder heiß weiterverwenden und Ersatzakkus und Knopfzellen außer Reichweite kleiner Kinder lagern. Gebrauchsanweisung des Herstellers beachten." } },
         ],
       },
       {
@@ -175,7 +176,7 @@ export default {
             },
           },
           { h3: "Akku oder Batterie" },
-          { p: "Akkulampen sind im Alltag günstiger und umweltfreundlicher, brauchen im Blackout aber eine Lademöglichkeit. Batterielampen lassen sich mit gelagerten Batterien sofort betreiben. Ideal ist eine Mischung – oder Lampen, die beides können. Bei der H7R Core lässt sich der Akku wechseln; ein zweiter Akku verdoppelt die Laufzeit." },
+          { p: "Akkulampen sind im Alltag günstiger und umweltfreundlicher, brauchen im Blackout aber eine Lademöglichkeit. Batterielampen lassen sich mit gelagerten Batterien sofort betreiben. Ideal ist eine Mischung – oder Lampen, die beides können. Bei der H7R Core lässt sich der Akku wechseln; ein zweiter Akku kann die Laufzeit etwa verdoppeln." },
           { h3: "Helligkeit realistisch wählen" },
           { p: "Für den Alltag im Haus reichen meist 50 bis 200 Lumen – höhere Stufen kosten viel Akku. Die maximale Helligkeit braucht man draußen, beim Suchen oder in großen Räumen. Gute Lampen bieten mehrere Stufen und ein rotes Licht, das die Nachtsicht schont." },
           { h3: "Notfallrucksack" },
@@ -186,7 +187,7 @@ export default {
         id: "was-passt",
         h2: "Was passt zu wem?",
         blocks: [
-          { quick: "Jede Person braucht eine Stirnlampe und einen eigenen Rucksack. Für jeden Raum, in dem man sich im Ernstfall aufhält, gehört eine Laterne dazu." },
+          { quick: "Wir empfehlen für jede Person eine Stirnlampe und einen eigenen Rucksack. Für jeden Raum, in dem man sich im Ernstfall aufhält, gehört eine Laterne dazu." },
           {
             cards: [
               { title: "Licht für unterwegs", text: "Hell, fokussierbar, IP67: Ledlenser H7R Core.", link: { href: "#platz-1", label: "Zur Empfehlung" } },
@@ -208,9 +209,9 @@ export default {
     intro:
       "Batterie-Stirnlampe, Laterne mit warmem Licht, günstige Laterne mit Powerbank und Notfall-Sets für mehrere Personen: Diese fünf Produkte ergänzen die Top 3.",
     items: [
-      { name: "Ledlenser H7 SE", for: "Mit AAA-Batterien", text: "Batteriebetriebene Stirnlampe mit 300 Lumen, 160 m Leuchtweite und Rücklicht – laut Ledlenser bis 30 Stunden.", asin: "B08XXGRP77", query: "Ledlenser H7 SE Stirnlampe" },
+      { name: "Ledlenser H7 SE", for: "Mit AAA-Batterien", text: "Batteriebetriebene Stirnlampe, laut Ledlenser mit 300 Lumen, 160 m Leuchtweite, Rücklicht und bis 30 Stunden Laufzeit.", asin: "B08XXGRP77", query: "Ledlenser H7 SE Stirnlampe" },
       { name: "Ledlenser ML6 Warm Light", for: "Gemütliches Licht", text: "Die ML6 mit warmweißem Licht – angenehmer für lange Abende, laut Anbieter bis zu 200 Stunden im kleinsten Modus.", asin: "B07Y3XG9LM", query: "Ledlenser ML6 Warm Light" },
-      { name: "Daffodil LEC600 Campinglampe", for: "Günstige Laterne", text: "Wiederaufladbare Laterne mit 3.600-mAh-Powerbank, Rotlicht und Schutzklasse IPX6.", asin: "B0CP29RWDH", query: "Daffodil LEC600 Campinglampe" },
+      { name: "Daffodil LEC600 Campinglampe", for: "Günstige Laterne", text: "Wiederaufladbare Laterne, laut Anbieter mit 3.600-mAh-Powerbank, Rotlicht und Schutzart IPX6.", asin: "B0CP29RWDH", query: "Daffodil LEC600 Campinglampe" },
       { name: "First My Family Notfall-Set für 2 Personen", for: "Für Paare", text: "Survival- und Erste-Hilfe-Set für zwei Personen – Inhalt mit der BBK-Checkliste abgleichen.", asin: "B09VTM8P2Z", query: "First My Family Notfall Set 2 Personen" },
       { name: "Fluchtrucksack für 1 Person – Komplettset", for: "Alternative zum AdLuWa", text: "Gefüllter Rucksack für Notfälle und Katastrophen; laut Anbieter auch für zwei Personen und Familien erhältlich.", asin: "B0D18P7DBP", query: "Fluchtrucksack 1 Person Komplettset" },
     ],
@@ -228,7 +229,7 @@ export default {
           { h3: "Checkliste Licht" },
           {
             list: [
-              "**Eine Stirnlampe pro Person** – auch für Kinder.",
+              "**Eine Stirnlampe pro Person** – für Kinder ein leichtes, weniger helles Modell.",
               "**Eine Laterne pro Raum**, in dem ihr euch aufhaltet.",
               "**Ersatzbatterien** in den richtigen Größen, Haltbarkeitsdatum notieren.",
               "**Ladeweg** über Powerbank, Powerstation oder Solar einplanen.",
@@ -237,8 +238,8 @@ export default {
           },
           {
             facts: [
-              { value: "1.000 lm", label: "maximale Helligkeit der Ledlenser H7R Core" },
-              { value: "750 lm", label: "maximale Helligkeit der Ledlenser ML6" },
+              { value: "1.000 lm", label: "maximale Helligkeit der Ledlenser H7R Core (Herstellerangabe)" },
+              { value: "750 lm", label: "maximale Helligkeit der Ledlenser ML6 (Herstellerangabe)" },
               { value: "72 h", label: "Konzept vieler gepackter Notfallrucksäcke" },
             ],
           },
@@ -250,11 +251,11 @@ export default {
   },
 
   faqs: [
-    { q: "Welche Stirnlampe ist für den Notfall am besten?", a: "Unsere Empfehlung ist die Ledlenser H7R Core: bis 1.000 Lumen, fokussierbar, IP67 und mit wechselbarem Akku. Wer lieber Batterien nutzt, nimmt die Ledlenser H7 SE mit AAA-Batterien." },
+    { q: "Welche Stirnlampe ist für den Notfall am besten?", a: "Unsere Empfehlung ist die Ledlenser H7R Core: laut Hersteller bis 1.000 Lumen, fokussierbar, IP67 und mit wechselbarem Akku. Wer lieber Batterien nutzt, nimmt die Ledlenser H7 SE mit AAA-Batterien." },
     { q: "Was gehört in einen Notfallrucksack?", a: "Laut BBK gehören ins Notgepäck unter anderem Dokumentenkopien, persönliche Medikamente, Erste-Hilfe-Material, ein Radio, eine Lampe, Verpflegung und Wasser für einige Tage, Wechselkleidung, Schlafsack oder Decke und etwas Bargeld." },
     { q: "Lohnt sich ein fertig gepackter Notfallrucksack?", a: "Als Basis ja, weil er Zeit spart. Prüfe aber die Packliste und ergänze persönliche Dinge wie Medikamente, Brille, Dokumente und passende Kleidung. Schwache Komponenten, etwa einfache Lampen, lassen sich austauschen." },
     { q: "Sind Kerzen im Stromausfall eine gute Idee?", a: "Nur mit großer Vorsicht. Kerzen erhöhen das Brandrisiko. LED-Lampen mit Akku oder Batterie sind sicherer und heller. Wer Kerzen nutzt, lässt sie nie unbeaufsichtigt und hat Rauchmelder und Feuerlöscher griffbereit." },
-    { q: "Wie viele Lampen braucht ein Haushalt?", a: "Mindestens eine Stirnlampe pro Person und eine Laterne pro genutztem Raum, dazu Ersatzbatterien oder eine Lademöglichkeit." },
+    { q: "Wie viele Lampen braucht ein Haushalt?", a: "Wir empfehlen mindestens eine Stirnlampe pro Person und eine Laterne pro genutztem Raum, dazu Ersatzbatterien oder eine Lademöglichkeit." },
     { q: "Wie lange halten Stirnlampen im Notfall?", a: "Das hängt von der Stufe ab. Die H7R Core läuft laut Ledlenser im Sparmodus bis zu 65 Stunden, auf voller Leistung deutlich kürzer. Für den Alltag im Haus reicht meist eine niedrige Stufe." },
   ],
 

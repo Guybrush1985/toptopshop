@@ -16,13 +16,13 @@ export default {
   eyebrow: "Krisenvorsorge · Wasserversorgung",
   h1: "Die 3 besten Produkte zum Entkeimen und Testen von Wasser",
   lead:
-    "Ein Filter hält Bakterien und Parasiten zurück, aber keine Viren. Entkeimungstabletten schließen diese Lücke – und Teststreifen zeigen, ob Wasser mit Nitrat, Blei oder Keimen belastet ist. Diese drei Produkte gehören in jeden Vorrat.",
+    "Ein Filter hält Bakterien und Parasiten zurück, aber keine Viren. Entkeimungstabletten können diese Lücke laut Hersteller schließen – und Teststreifen geben einen groben Hinweis, ob Wasser mit Nitrat, Blei oder Keimen belastet sein könnte. Diese drei Produkte sind nach unserer Einschätzung eine sinnvolle Ergänzung für den Vorrat.",
   answer:
-    "Zum Entkeimen ist [**Katadyn Micropur Forte**](produkt:1) die beste Wahl: Chlor und Silberionen wirken laut Hersteller in 30 Minuten gegen Bakterien und Viren und schützen das Wasser danach bis zu 6 Monate. Günstiger für größere Mengen sind [**Aquatabs**](produkt:2) mit Chlor-Teststreifen; zum Prüfen empfehlen wir die [**AAwipes 17-in-1-Teststreifen mit Bakterientest**](produkt:3).",
+    "Zum Entkeimen ist [**Katadyn Micropur Forte**](produkt:1) die beste Wahl: Chlor und Silberionen wirken laut Hersteller in 30 Minuten gegen Bakterien und Viren und schützen das Wasser danach bis zu 6 Monate vor Wiederverkeimung. Günstiger für größere Mengen sind [**Aquatabs**](produkt:2) mit Chlor-Teststreifen; zum Prüfen empfehlen wir die [**AAwipes 17-in-1-Teststreifen mit Bakterientest**](produkt:3).",
 
   top3Title: "Unsere Top 3 zum Entkeimen und Testen",
   top3Intro:
-    "Zwei Entkeimungsmittel und ein Testset: Damit kannst du Wasser aus unsicheren Quellen trinkbar machen und vorher grob prüfen, ob es überhaupt infrage kommt.",
+    "Zwei Entkeimungsmittel und ein Testset: Damit kannst du klares Wasser aus unsicheren Quellen im Notfall entkeimen und vorher grob prüfen, ob es überhaupt infrage kommt. Eine Garantie für einwandfreies Trinkwasser gibt keines dieser Produkte.",
   comparisonTitle: "Entkeimungstabletten und Wassertests im Vergleich",
 
   criteria: [
@@ -33,7 +33,7 @@ export default {
   ],
 
   method:
-    "Grundlage sind Herstellerangaben zu Wirkstoff, Dosierung und Einwirkzeit, die Hinweise des Umweltbundesamts zum Abkochen von Trinkwasser, die Grenzwerte der Trinkwasserverordnung und die Vorsorgeempfehlungen des BBK. Eigene Labortests führen wir nicht durch. Wir empfehlen ausschließlich Produkte, die bei Amazon erhältlich sind. Jedes Produkt wird in vier Kriterien von 0 bis 10 eingeordnet; die Gesamtnote ist der gewichtete Mittelwert.",
+    "Grundlage sind Herstellerangaben zu Wirkstoff, Dosierung und Einwirkzeit, die Hinweise des Umweltbundesamts zum Abkochen von Trinkwasser, die Grenzwerte der Trinkwasserverordnung und die Vorsorgeempfehlungen des BBK. Eigene Labor- oder Praxistests führen wir nicht durch; Angaben zu Wirkung und Einwirkzeit sind Herstellerangaben. Wir empfehlen ausschließlich Produkte, die bei Amazon erhältlich sind. Jedes Produkt wird in vier Kriterien von 0 bis 10 eingeordnet; die Gesamtnote ist der gewichtete Mittelwert.",
 
   products: [
     {
@@ -47,13 +47,13 @@ export default {
       ratings: { wirkung: 9.0, anwendung: 8.5, lager: 8.0, preis: 7.5 },
       bestFor: "Ergänzung zum Filter, Notfallrucksack",
       verdict:
-        "Der Klassiker zur Entkeimung von klarem Wasser: Eine Tablette pro Liter, Chlor wirkt laut Katadyn in 30 Minuten gegen Bakterien und Viren, Silberionen schützen das Wasser danach bis zu 6 Monate vor neuer Verkeimung.",
+        "Ein verbreitetes Mittel zur Entkeimung von klarem Wasser: Eine Tablette pro Liter, Chlor wirkt laut Katadyn in 30 Minuten gegen Bakterien und Viren, Silberionen schützen das Wasser danach bis zu 6 Monate vor neuer Verkeimung.",
       features: [
-        "Wirkstoffkombination aus Chlor (Natriumdichlorisocyanurat) und Silberionen",
+        "Wirkstoffkombination aus Chlor (Natriumdichlorisocyanurat) und Silberionen (Herstellerangabe)",
         "Laut Hersteller 30 Minuten Einwirkzeit gegen Bakterien und Viren, 2 Stunden gegen Giardien",
-        "1 Tablette pro Liter klares Wasser; 100 Tabletten reichen für 100 Liter",
+        "1 Tablette pro Liter klares Wasser; 100 Tabletten reichen für 100 Liter (Herstellerangabe)",
       ],
-      pros: ["Wirkt auch gegen Viren", "Einzeln verpackt und leicht", "Konserviert das Wasser zusätzlich"],
+      pros: ["Laut Hersteller auch gegen Viren wirksam", "Einzeln verpackt und leicht", "Konserviert das Wasser zusätzlich"],
       cons: ["Nur für klares Wasser – trübes vorher filtern", "Leichter Chlorgeschmack", "Biozid: verursacht schwere Augenreizung, Sicherheitshinweise beachten"],
       specs: { typ: "Entkeimungstablette", wirkstoff: "Chlor + Silber", dosis: "1 Tablette / 1 l", einwirkzeit: "30 min (Giardien 2 h)", spektrum: "Bakterien, Viren, Giardien" },
       asin: "B0824VTYKH",
@@ -96,8 +96,8 @@ export default {
         "Ein Set für die grobe Einschätzung: 17 chemische Parameter wie Nitrat, Blei, Härte und pH per Teststreifen, dazu zwei Bakterientests. Es ersetzt keine Laboranalyse, zeigt aber, ob Wasser offensichtlich belastet ist.",
       features: [
         "17-in-1-Teststreifen, u. a. für Härte, pH, Nitrat, Nitrit, Blei, Kupfer, Eisen und Chlor (Anbieterangabe)",
-        "Zwei separate Bakterientests im Set",
-        "Ergebnis per Farbvergleich in Minuten",
+        "Zwei separate Bakterientests im Set (Anbieterangabe)",
+        "Ergebnis per Farbvergleich in Minuten (Anbieterangabe)",
       ],
       pros: ["Viele Parameter auf einmal", "Mit Bakterientest", "Gut zur Kontrolle von Filtern und Chlorung"],
       cons: ["Nur grobe Orientierung", "Farbskalen lassen Interpretationsspielraum", "Kein Ersatz für ein akkreditiertes Labor"],
@@ -149,12 +149,13 @@ export default {
         id: "beste-entkeimung",
         h2: "Womit entkeimt man Trinkwasser im Notfall am besten?",
         blocks: [
-          { quick: "Am zuverlässigsten ist Abkochen. Ohne Energie sind Chlortabletten wie [Katadyn Micropur Forte](produkt:1) die beste Wahl, für größere Mengen [Aquatabs](produkt:2). Ein Testset wie [AAwipes 17-in-1](produkt:3) hilft, Wasser vorab grob einzuschätzen." },
-          { first: "Krankheitserreger im Wasser lassen sich auf drei Wegen unschädlich machen: durch Hitze, durch Filtration oder durch Chemie. Abkochen wirkt gegen alle Erreger, braucht aber Energie. Hohlfaserfilter arbeiten ohne Energie, halten aber keine Viren zurück. Chemische Entkeimung mit Chlor schließt diese Lücke – und ist leicht, platzsparend und jahrelang lagerfähig." },
-          { p: "Micropur Forte kombiniert Chlor mit Silberionen. Das Chlor tötet laut Katadyn innerhalb von 30 Minuten Bakterien und Viren, Giardien brauchen 2 Stunden. Das Silber schützt das behandelte Wasser danach bis zu 6 Monate vor erneuter Verkeimung. Gegen Kryptosporidien wirkt Chlor in üblichen Dosierungen kaum – hier hilft der Filter. Die Kombination aus Filter und Tablette deckt deshalb das ganze Spektrum ab." },
+          { quick: "Gegen Krankheitserreger ist sprudelndes Abkochen am zuverlässigsten. Ohne Energie sind Chlortabletten wie [Katadyn Micropur Forte](produkt:1) nach unserer Einschätzung die beste Wahl, für größere Mengen [Aquatabs](produkt:2). Ein Testset wie [AAwipes 17-in-1](produkt:3) hilft, Wasser vorab grob einzuschätzen." },
+          { first: "Krankheitserreger im Wasser lassen sich auf drei Wegen unschädlich machen: durch Hitze, durch Filtration oder durch Chemie. Abkochen wirkt gegen Krankheitserreger – nicht gegen chemische Belastungen –, braucht aber Energie. Hohlfaserfilter arbeiten ohne Energie, halten aber keine Viren zurück. Chemische Entkeimung mit Chlor schließt diese Lücke – und ist leicht, platzsparend und jahrelang lagerfähig." },
+          { p: "Micropur Forte kombiniert Chlor mit Silberionen. Das Chlor wirkt laut Katadyn innerhalb von 30 Minuten gegen Bakterien und Viren, gegen Giardien nach 2 Stunden. Das Silber schützt das behandelte Wasser laut Hersteller danach bis zu 6 Monate vor erneuter Verkeimung. Gegen Kryptosporidien wirkt Chlor in üblichen Dosierungen kaum – hier hilft der Filter. Die Kombination aus Filter und Tablette deckt deshalb die wichtigsten Erregergruppen ab – chemische Verunreinigungen entfernt sie nicht." },
           { p: "Wichtig ist der Unterschied zwischen Entkeimen und Konservieren. Micropur Classic enthält nur Silberionen. Laut Hersteller schützt es bereits sauberes Wasser vor Wiederverkeimung – es ist aber nicht dafür gedacht, Wasser aus unsicheren Quellen zu entkeimen. Für den Notfall brauchst du ein chlorhaltiges Produkt." },
           { figure: "scores" },
           { callout: { title: "Biozide sicher verwenden", warn: true, text: "Entkeimungstabletten sind Biozidprodukte. Micropur Forte trägt den Hinweis, dass es schwere Augenreizungen verursacht und giftig für Wasserorganismen ist. Für Kinder unzugänglich aufbewahren, Dosierung genau einhalten und vor Gebrauch Kennzeichnung und Produktinformation lesen." } },
+          { callout: { title: "Keine Garantie für Trinkwasserqualität", warn: true, text: "Tabletten, Filter und Teststreifen können das Risiko verringern, garantieren aber kein einwandfreies Trinkwasser. Trinkwasser nur nach Herstellerangaben aufbereiten, im Zweifel sprudelnd abkochen und die Hinweise von Gesundheitsamt, Wasserversorger und Behörden beachten. Für Säuglinge, Schwangere, ältere und immungeschwächte Menschen im Zweifel abgepacktes Trinkwasser verwenden. Bei Beschwerden nach dem Trinken ärztlichen Rat einholen." } },
         ],
       },
       {
@@ -189,7 +190,7 @@ export default {
           { quick: "Für den Notfallrucksack und Flaschen: Micropur Forte. Für Kanister und Tanks: Aquatabs oder Micropur Forte flüssig. Für Brunnen, Regentonne oder nach Hochwasser: erst testen, dann filtern und entkeimen." },
           {
             cards: [
-              { title: "Flaschen & Rucksack", text: "1 Tablette pro Liter, wirkt auch gegen Viren: Micropur Forte.", link: { href: "#platz-1", label: "Zur Empfehlung" } },
+              { title: "Flaschen & Rucksack", text: "1 Tablette pro Liter, laut Hersteller auch gegen Viren: Micropur Forte.", link: { href: "#platz-1", label: "Zur Empfehlung" } },
               { title: "Kanister & Tanks", text: "Günstig für große Mengen, mit Chlor-Teststreifen: Aquatabs.", link: { href: "#platz-2", label: "Zur Empfehlung" } },
               { title: "Wasser prüfen", text: "17 Parameter plus Bakterientest: AAwipes.", link: { href: "#platz-3", label: "Zur Empfehlung" } },
               { title: "Konservieren & Ergänzen", text: "Silber, Flüssigkonzentrat und Einzeltests in der Top 5.", link: { href: "#top5-zweck", label: "Zur Top 5" } },
@@ -209,10 +210,10 @@ export default {
       "Konservieren, große Mengen entkeimen, einzelne Werte gezielt messen oder vorab filtern: Diese fünf Produkte ergänzen die Top 3.",
     items: [
       { name: "Katadyn Micropur Classic MC 1T", for: "Vorrat konservieren", text: "Silberionen schützen bereits sauberes Wasser laut Katadyn bis zu 6 Monate vor Wiederverkeimung – kein Entkeimungsmittel für Rohwasser.", asin: "B0016HS8CI", query: "Katadyn Micropur Classic MC 1T" },
-      { name: "Katadyn Micropur Forte MF 1000F", for: "Flüssig für Kanister", text: "100-ml-Flüssigkonzentrat mit Chlor und Silber – leichter zu dosieren, wenn ganze Kanister behandelt werden.", asin: "B000S0I64E", query: "Katadyn Micropur Forte MF 1000F 100 ml" },
+      { name: "Katadyn Micropur Forte MF 1000F", for: "Flüssig für Kanister", text: "100-ml-Flüssigkonzentrat mit Chlor und Silber (Herstellerangabe) – leichter zu dosieren, wenn ganze Kanister behandelt werden.", asin: "B000S0I64E", query: "Katadyn Micropur Forte MF 1000F 100 ml" },
       { name: "16-in-1-Trinkwasser-Teststreifen (25 Stück)", for: "Günstig nachkaufen", text: "Teststreifen für Härte, Blei, Kupfer, Nitrat und weitere Werte – zur regelmäßigen Kontrolle von Filter und Vorrat.", asin: "B0B2N3F544", query: "16 in 1 Trinkwasser Teststreifen 25 Stück" },
       { name: "Blei-Teststreifen für Trinkwasser", for: "Alte Hausleitungen", text: "Qualitativer Schnelltest auf Blei – sinnvoll in Altbauten, ersetzt aber keine Laboranalyse.", asin: "B0F6C1KJY4", query: "Blei Teststreifen Trinkwasser" },
-      { name: "Sawyer Squeeze SP129", for: "Vorher filtern", text: "Hohlfaserfilter gegen Bakterien und Parasiten – zusammen mit Chlor deckt er das ganze Spektrum ab.", asin: "B00B1OSU4W", query: "Sawyer Squeeze SP129" },
+      { name: "Sawyer Squeeze SP129", for: "Vorher filtern", text: "Hohlfaserfilter, der laut Hersteller Bakterien und Parasiten zurückhält – zusammen mit Chlor deckt er die wichtigsten Erregergruppen ab.", asin: "B00B1OSU4W", query: "Sawyer Squeeze SP129" },
     ],
   },
 
@@ -222,7 +223,7 @@ export default {
         id: "anleitung",
         h2: "Wie entkeimt man Wasser richtig?",
         blocks: [
-          { quick: "Trübes Wasser erst filtern, dann genau nach Packung dosieren, gut schütteln, die Einwirkzeit abwarten und mit Chlor-Teststreifen kontrollieren. Wenn Energie da ist, ist sprudelndes Abkochen die sicherste Methode." },
+          { quick: "Trübes Wasser erst filtern, dann genau nach Packung dosieren, gut schütteln, die Einwirkzeit abwarten und mit Chlor-Teststreifen kontrollieren. Wenn Energie da ist, ist sprudelndes Abkochen gegen Krankheitserreger die zuverlässigste Methode." },
           { p: "Chlor reagiert mit allem, was im Wasser schwimmt. Schwebstoffe, Laub oder Schlamm verbrauchen einen Teil des Wirkstoffs und können Keime abschirmen. Deshalb gilt: erst klar machen, dann entkeimen. Kaltes Wasser braucht länger, weil die Reaktion langsamer abläuft." },
           { figure: "steps" },
           { h3: "Bei einem Abkochgebot" },
@@ -236,7 +237,7 @@ export default {
           },
           {
             facts: [
-              { value: "30 min", label: "Einwirkzeit von Micropur Forte gegen Bakterien und Viren" },
+              { value: "30 min", label: "Einwirkzeit von Micropur Forte gegen Bakterien und Viren (Herstellerangabe)" },
               { value: "6 Monate", label: "Schutz vor Wiederverkeimung durch Silberionen (Katadyn)" },
               { value: "50 mg/l", label: "Grenzwert für Nitrat in der Trinkwasserverordnung" },
             ],
@@ -249,12 +250,12 @@ export default {
   },
 
   faqs: [
-    { q: "Welche Tabletten machen Wasser trinkbar?", a: "Chlorhaltige Tabletten wie Katadyn Micropur Forte oder Aquatabs entkeimen klares Wasser. Micropur Forte wirkt laut Hersteller in 30 Minuten gegen Bakterien und Viren, gegen Giardien in 2 Stunden. Silbertabletten wie Micropur Classic konservieren nur bereits sauberes Wasser." },
+    { q: "Welche Tabletten machen Wasser trinkbar?", a: "Chlorhaltige Tabletten wie Katadyn Micropur Forte oder Aquatabs können klares Wasser laut Hersteller entkeimen – eine Garantie für einwandfreies Trinkwasser sind sie nicht. Micropur Forte wirkt laut Hersteller in 30 Minuten gegen Bakterien und Viren, gegen Giardien in 2 Stunden. Silbertabletten wie Micropur Classic konservieren nur bereits sauberes Wasser." },
     { q: "Was ist der Unterschied zwischen Micropur Forte und Micropur Classic?", a: "Micropur Forte enthält Chlor und Silber und entkeimt Wasser. Micropur Classic enthält nur Silberionen und schützt bereits sauberes Wasser vor Wiederverkeimung. Für Wasser aus unsicheren Quellen ist Forte die richtige Wahl." },
     { q: "Ersetzen Entkeimungstabletten einen Wasserfilter?", a: "Nein, sie ergänzen ihn. Tabletten wirken nur in klarem Wasser zuverlässig und kaum gegen Kryptosporidien. Ein Hohlfaserfilter entfernt Trübstoffe und Parasiten, die Tablette zusätzlich Viren." },
     { q: "Wie zuverlässig sind Wasser-Teststreifen?", a: "Sie liefern eine grobe Orientierung, etwa ob Nitrat, Härte oder Chlor auffällig sind. Die Farbskalen lassen Spielraum. Für verbindliche Aussagen zu Blei oder Keimen ist eine Laboranalyse nötig." },
     { q: "Wie lange sind Entkeimungstabletten haltbar?", a: "Ungeöffnet in der Regel mehrere Jahre; das Ablaufdatum steht auf der Packung. Lagere sie trocken, kühl und für Kinder unzugänglich." },
-    { q: "Ist Abkochen besser als Tabletten?", a: "Abkochen wirkt gegen alle Krankheitserreger und verändert den Geschmack nicht, braucht aber Energie. Tabletten funktionieren überall ohne Energie, schmecken leicht nach Chlor und wirken nur in klarem Wasser. Im Notfall sind beide sinnvoll." },
+    { q: "Ist Abkochen besser als Tabletten?", a: "Abkochen wirkt zuverlässig gegen Krankheitserreger (nicht gegen Chemikalien) und verändert den Geschmack kaum, braucht aber Energie. Tabletten funktionieren überall ohne Energie, schmecken leicht nach Chlor und wirken nur in klarem Wasser. Im Notfall sind beide sinnvoll." },
   ],
 
   sources: [

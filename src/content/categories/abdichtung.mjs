@@ -16,13 +16,13 @@ export default {
   eyebrow: "Krisenvorsorge · Luftfiltration",
   h1: "Die 3 besten Produkte, um einen Raum abzudichten",
   lead:
-    "Bei einer Warnung vor Rauch oder Schadstoffen raten Behörden: drinnen bleiben, Fenster und Türen schließen, Lüftung aus. Wer Ritzen, Lüftungsöffnungen und undichte Fenster zusätzlich abklebt, lässt deutlich weniger Außenluft herein. Mit diesen drei Produkten geht das schnell.",
+    "Bei einer Warnung vor Rauch oder Schadstoffen raten Behörden: drinnen bleiben, Fenster und Türen schließen, Lüftung aus. Wer Ritzen, Lüftungsöffnungen und undichte Fenster zusätzlich abklebt, kann deutlich weniger Außenluft hereinlassen. Mit diesen drei Produkten geht das schnell.",
   answer:
-    "Das wichtigste Material ist ein starkes Gewebeband wie das [**tesa extra Power Universal**](produkt:1), das auf fast allen Untergründen hält. Am schnellsten geht es mit der [**tesa Easy Cover**](produkt:2), bei der Folie und Klebeband schon verbunden sind; für große Flächen ist die [**Handelskönig Baufolie 200 µ**](produkt:3) die robusteste Wahl.",
+    "Das wichtigste Material ist ein starkes Gewebeband wie das [**tesa extra Power Universal**](produkt:1), das laut Hersteller auf fast allen Untergründen hält. Am schnellsten geht es mit der [**tesa Easy Cover**](produkt:2), bei der Folie und Klebeband schon verbunden sind; für große Flächen ist die [**Handelskönig Baufolie 200 µ**](produkt:3) nach unserer Einschätzung die robusteste Wahl.",
 
   top3Title: "Unsere Top 3 zum Abdichten eines Raums",
   top3Intro:
-    "Zum Abdichten brauchst du zwei Dinge: Folie, um größere Öffnungen zu verschließen, und Klebeband, um sie luftdicht zu befestigen. Unsere drei Empfehlungen ergänzen sich – zusammen kosten sie weniger als ein Abendessen.",
+    "Zum Abdichten brauchst du zwei Dinge: Folie, um größere Öffnungen zu verschließen, und Klebeband, um sie luftdicht zu befestigen. Unsere drei Empfehlungen ergänzen sich und sind vergleichsweise günstig.",
   comparisonTitle: "Klebeband und Folien zum Abdichten im Vergleich",
 
   criteria: [
@@ -33,7 +33,7 @@ export default {
   ],
 
   method:
-    "Grundlage sind die Verhaltenshinweise des BBK bei Gefahrstofffreisetzung, Merkblätter von Kommunen und Landeswarnzentralen zum Abdichten von Räumen sowie Herstellerangaben zu Haftung, Material und Abmessungen. Eigene Labortests führen wir nicht durch. Wir empfehlen ausschließlich Produkte, die bei Amazon erhältlich sind. Jedes Produkt wird in vier Kriterien von 0 bis 10 eingeordnet; die Gesamtnote ist der gewichtete Mittelwert.",
+    "Grundlage sind die Verhaltenshinweise des BBK bei Gefahrstofffreisetzung, Merkblätter von Kommunen und Landeswarnzentralen zum Abdichten von Räumen sowie Herstellerangaben zu Haftung, Material und Abmessungen. Eigene Labor- oder Praxistests führen wir nicht durch. Wir empfehlen ausschließlich Produkte, die bei Amazon erhältlich sind. Jedes Produkt wird in vier Kriterien von 0 bis 10 eingeordnet; die Gesamtnote ist der gewichtete Mittelwert.",
 
   products: [
     {
@@ -47,11 +47,11 @@ export default {
       ratings: { dicht: 8.5, schnell: 8.0, schonend: 6.0, preis: 9.0 },
       bestFor: "Fenster, Lüftungen & Rahmen",
       verdict:
-        "Das Universalwerkzeug zum Abdichten: gewebeverstärktes Band, das von Hand reißt, auf fast allen Untergründen klebt und laut tesa wasserfest ist. 50 Meter reichen für mehrere Fenster und Türen.",
+        "Ein vielseitiges Band zum Abdichten: gewebeverstärkt, laut tesa von Hand einreißbar, auf fast allen Untergründen haftend und wasserfest. 50 Meter reichen für mehrere Fenster und Türen.",
       features: [
         "Gewebeverstärktes Folienband zum Reparieren, Befestigen und Abdichten (Herstellerangabe)",
-        "Von Hand einreißbar, für innen und außen, wasserfest",
-        "Rolle mit 50 m × 50 mm – genug für einen ganzen Raum",
+        "Von Hand einreißbar, für innen und außen, wasserfest (Herstellerangabe)",
+        "Rolle mit 50 m × 50 mm (Herstellerangabe) – meist genug für einen ganzen Raum",
       ],
       pros: ["Hält auch auf Kunststoff, Metall und Folie", "Ohne Schere nutzbar", "Günstig pro Meter"],
       cons: ["Kann auf Lack und Tapete Rückstände hinterlassen", "Für große Öffnungen zusätzlich Folie nötig"],
@@ -72,7 +72,7 @@ export default {
       verdict:
         "Folie und Klebeband in einer Rolle: Band ankleben, Folie abrollen, auffalten – und das ganze Fenster ist abgedeckt. Laut tesa bis zu 7 Tage rückstandsfrei ablösbar.",
       features: [
-        "PE-Abdeckfolie mit vorgeklebtem Malerband, 1,40 m breit und 33 m lang",
+        "PE-Abdeckfolie mit vorgeklebtem Malerband, 1,40 m breit und 33 m lang (Herstellerangabe)",
         "Laut Hersteller nach bis zu 7 Tagen rückstandsfrei entfernbar",
         "Mit Abroller nutzbar, Folie faltet sich nach dem Ankleben auf",
       ],
@@ -96,7 +96,7 @@ export default {
         "Dicke PE-Folie für alles, was größer ist als ein Fenster: Lüftungsgitter, Kaminöffnungen, Kellerschächte oder ein abgetrennter Flur. Mit Gewebeband befestigt, entsteht eine robuste Barriere.",
       features: [
         "PE-LD-Folie mit 200 µm (0,2 mm) Stärke, transparent (Herstellerangabe)",
-        "4 × 25 m = 100 m² – reicht für mehrere Räume",
+        "4 × 25 m = 100 m² (Herstellerangabe) – reicht für mehrere Räume",
         "Laut Anbieter feuchtigkeitsabweisend und von −20 bis +80 °C beständig",
       ],
       pros: ["Reißfester als Malerfolie", "Sehr viel Fläche für wenig Geld", "Bleibt lichtdurchlässig"],
@@ -121,7 +121,7 @@ export default {
       file: "raum-abdichten-klebeband-folie-bewertung-vergleich.svg",
       title: "Die 3 besten Produkte zum Abdichten eines Raums",
       alt: "Balkendiagramm: Bewertung von Gewebeband, Abdeckfolie mit Klebeband und Baufolie in den Kriterien Dichtwirkung, schnelle Anwendung, Rückstände und Preis",
-      caption: "Unsere Bewertung je Kriterium. Das Gewebeband dichtet am zuverlässigsten, die Easy Cover ist am schnellsten.",
+      caption: "Unsere Bewertung je Kriterium. Das Gewebeband schneidet bei der Dichtwirkung am besten ab, die Easy Cover bei der Geschwindigkeit.",
     },
     steps: {
       kind: "steps",
@@ -150,11 +150,12 @@ export default {
         h2: "Womit dichtet man einen Raum im Notfall am besten ab?",
         blocks: [
           { quick: "Am besten mit einer Kombination aus PE-Folie und starkem Gewebeband: Das [tesa extra Power Universal](produkt:1) verschließt Ritzen und befestigt Folie zuverlässig, die [tesa Easy Cover](produkt:2) deckt Fenster in einem Schritt ab, die [Baufolie 200 µ](produkt:3) verschließt große Öffnungen." },
-          { first: "Wenn eine Rauch- oder Schadstoffwolke über einen Ort zieht, ist das eigene Gebäude meist der sicherste Ort. Das BBK rät, im Haus zu bleiben, Fenster und Türen zu schließen, Ventilatoren und Klimaanlagen abzuschalten und die Lüftungsschlitze der Fensterrahmen zu schließen. Doch kein Wohngebäude ist luftdicht: Über Fugen, Rollladenkästen, Lüftungen und Türspalte gelangt Außenluft nach innen." },
+          { first: "Wenn eine Rauch- oder Schadstoffwolke über einen Ort zieht, ist ein geschlossenes Gebäude laut BBK meist der beste Schutz. Das BBK rät, im Haus zu bleiben, Fenster und Türen zu schließen, Ventilatoren und Klimaanlagen abzuschalten und die Lüftungsschlitze der Fensterrahmen zu schließen. Doch kein Wohngebäude ist luftdicht: Über Fugen, Rollladenkästen, Lüftungen und Türspalte gelangt Außenluft nach innen." },
           { p: "Merkblätter von Kommunen und Landeswarnzentralen gehen deshalb einen Schritt weiter: Die Stadt Dülmen empfiehlt beim ABC-Alarm, Tür- und Fensterritzen mit feuchten Tüchern abzudichten; die Landeswarnzentrale Oberösterreich rät, Fenster und Türen mit Klebeband abzudichten. Wer Folie und Klebeband im Haus hat, kann das deutlich gründlicher und schneller erledigen als mit Tüchern." },
-          { p: "Abdichten ist kein Schutzraum. Es verringert die Menge an Außenluft, die nach innen strömt, und gewinnt damit Zeit, bis die Wolke vorbeigezogen ist oder die Behörden entwarnen. Zusammen mit einem HEPA-Luftreiniger, der die eingedrungenen Partikel aus der Raumluft holt, entsteht ein Raum, in dem man einige Stunden gut ausharren kann." },
+          { p: "Abdichten ist kein Schutzraum. Es verringert die Menge an Außenluft, die nach innen strömt, und gewinnt damit Zeit, bis die Wolke vorbeigezogen ist oder die Behörden entwarnen. Zusammen mit einem HEPA-Luftreiniger, der eingedrungene Partikel aus der Raumluft filtern kann, lässt sich die Belastung in einem Raum für eine begrenzte Zeit verringern – einen vollständigen Schutz bietet das nicht. Die Anweisungen der Behörden haben immer Vorrang." },
           { figure: "scores" },
           { callout: { title: "Frischluft nicht vergessen", warn: true, text: "Ein dicht verschlossener Raum verbraucht seinen Sauerstoff, der CO₂-Gehalt steigt. Die Landeswarnzentrale Oberösterreich weist darauf hin, dass kleine Räume und Räume mit mehreren Personen nur kurz abgedichtet bleiben dürfen. Nach der Entwarnung sofort gründlich lüften. Bei Atemnot, Kopfschmerz oder Schwindel Raum verlassen und 112 rufen." } },
+          { callout: { title: "Keine offenen Flammen, Feuerstätten nicht abkleben", warn: true, text: "In einem abgedichteten Raum niemals Kerzen, Gas- oder Spirituskocher, Heizstrahler mit Flamme oder Notstromaggregate betreiben – es droht eine Kohlenmonoxidvergiftung. Lüftungs- und Abgasöffnungen von Gasthermen, Öfen und Kaminen nur abdecken, wenn die Feuerstätte aus ist und abgekühlt hat; vor der Wiederinbetriebnahme alle Abdeckungen entfernen. Im Zweifel den Schornsteinfeger fragen. Klebeband nicht in oder auf Steckdosen kleben, die genutzt werden." } },
         ],
       },
       {
@@ -171,14 +172,14 @@ export default {
                 ["**Ganzes Fenster**", "Abdeckfolie mit Klebeband", "Auf die Laibung oder Wand kleben, nicht auf das Glas"],
                 ["**Lüftungsgitter, Rohre**", "Baufolie + Gewebeband", "Folie größer zuschneiden als die Öffnung"],
                 ["**Türspalt unten**", "Zugluftstopper, feuchtes Handtuch", "Ohne Kleben – Tür bleibt benutzbar"],
-                ["**Schlüsselloch, Steckdosen an Außenwänden**", "Gewebeband", "Kleine Stücke reichen"],
+                ["**Schlüsselloch, ungenutzte Steckdosen an Außenwänden**", "Gewebeband", "Nur außen auf die Abdeckung, nichts in die Öffnungen stecken"],
               ],
             },
           },
           { h3: "Gewebeband statt Paketband" },
-          { p: "Paketband aus reiner Kunststofffolie reißt quer schlecht ab, verliert auf rauen Flächen schnell den Halt und lässt sich nur mit Schere verarbeiten. Gewebeband ist mit einem Textilgewebe verstärkt, lässt sich von Hand abreißen und klebt auch auf Holz, Metall, Kunststoff und Folie. Im Ernstfall ist das der entscheidende Unterschied." },
+          { p: "Paketband aus reiner Kunststofffolie reißt quer schlecht ab, verliert auf rauen Flächen schnell den Halt und lässt sich nur mit Schere verarbeiten. Gewebeband ist mit einem Textilgewebe verstärkt, lässt sich meist von Hand abreißen und klebt auch auf Holz, Metall, Kunststoff und Folie. Im Ernstfall ist das ein wichtiger Unterschied." },
           { h3: "Folienstärke" },
-          { p: "Malerfolien sind oft nur 0,01 bis 0,05 mm dünn und reißen bei Zugluft. Für Fenster, die nur kurz abgedeckt werden, reicht das. Für Lüftungsöffnungen, Kamine und Raumteiler ist eine Baufolie mit 0,2 mm Stärke deutlich robuster – und sie lässt sich nach der Krise wiederverwenden." },
+          { p: "Malerfolien sind oft nur 0,01 bis 0,05 mm dünn und reißen bei Zugluft. Für Fenster, die nur kurz abgedeckt werden, reicht das. Für Lüftungsöffnungen, kalte Kaminöffnungen und Raumteiler ist eine Baufolie mit 0,2 mm Stärke deutlich robuster – und sie lässt sich nach der Krise wiederverwenden." },
           { h3: "Vorbereiten statt improvisieren" },
           { p: "Miss den Raum vorher aus, schneide Folienstücke für Fenster und Lüftungen auf Maß und beschrifte sie. Lege Folie, Klebeband, Schere und ein Handtuch zusammen in eine Kiste im gewählten Raum. Im Ernstfall dauert das Abdichten dann nur noch Minuten." },
         ],
@@ -187,7 +188,7 @@ export default {
         id: "welches-passt",
         h2: "Welches Material passt zu welcher Wohnung?",
         blocks: [
-          { quick: "In jede Wohnung gehört eine Rolle Gewebeband. Wer viele oder große Fenster hat, ergänzt die tesa Easy Cover; wer Lüftungsanlage, Kamin oder Kellerfenster hat, die Baufolie." },
+          { quick: "Wir empfehlen für jede Wohnung eine Rolle Gewebeband. Wer viele oder große Fenster hat, ergänzt die tesa Easy Cover; wer Lüftungsanlage, Kamin oder Kellerfenster hat, die Baufolie." },
           {
             cards: [
               { title: "Mietwohnung", text: "Universell und günstig: Gewebeband tesa extra Power.", link: { href: "#platz-1", label: "Zur Empfehlung" } },
@@ -209,11 +210,11 @@ export default {
     intro:
       "Wer einen Raum schon vorab vorbereitet, muss im Ernstfall weniger kleben. Diese fünf Produkte machen Türen und Fenster dauerhaft dichter oder ergänzen den Schutzraum.",
     items: [
-      { name: "tesamoll Zugluftstopper für glatte Böden", for: "Türspalt ohne Kleben", text: "Wird unter die Tür geschoben, lässt sich auf 95 cm kürzen und dichtet laut tesa Spalten bis 22 mm – die Tür bleibt benutzbar.", asin: "B000VD94QW", query: "tesamoll Zugluftstopper glatte Böden grau" },
-      { name: "tesamoll P-Profil Gummidichtung", for: "Undichte Fenster und Türen", text: "Selbstklebende Gummidichtung für Fugen von 2 bis 5 mm; macht den Raum dauerhaft dichter und spart nebenbei Heizenergie.", asin: "B000QB4ELO", query: "tesamoll P-Profil Gummidichtung weiß" },
+      { name: "tesamoll Zugluftstopper für glatte Böden", for: "Türspalt ohne Kleben", text: "Wird unter die Tür geschoben, lässt sich laut tesa auf 95 cm kürzen und dichtet Spalten bis 22 mm – die Tür bleibt benutzbar.", asin: "B000VD94QW", query: "tesamoll Zugluftstopper glatte Böden grau" },
+      { name: "tesamoll P-Profil Gummidichtung", for: "Undichte Fenster und Türen", text: "Selbstklebende Gummidichtung für Fugen von 2 bis 5 mm (Herstellerangabe); macht den Raum dauerhaft dichter und kann nebenbei Heizenergie sparen. Bei sehr dichten Fenstern auf regelmäßiges Lüften achten (Schimmel).", asin: "B000QB4ELO", query: "tesamoll P-Profil Gummidichtung weiß" },
       { name: "tesa extra Power Universal (2er-Pack)", for: "Reserve für mehrere Räume", text: "Zwei Rollen à 50 m – eine für den Schutzraum, eine für Reparaturen und den Notfallrucksack.", asin: "B0CPHPRLH1", query: "tesa extra Power Universal Gewebeband 2er Pack" },
-      { name: "Bosch Air 4000", for: "Luft im Raum filtern", text: "Unser Testsieger unter den HEPA-Luftreinigern holt Rauchpartikel aus dem abgedichteten Raum.", asin: "B0B5D7H7VP", query: "Bosch Air 4000 Luftreiniger" },
-      { name: "3M Aura 9332+ FFP3", for: "Wenn du raus musst", text: "FFP3-Masken im Schutzraum lagern – für den Weg nach draußen oder wenn Rauch eindringt.", asin: "B000VDQL4K", query: "3M Aura 9332+ FFP3" },
+      { name: "Bosch Air 4000", for: "Luft im Raum filtern", text: "Unsere Gesamtwahl unter den HEPA-Luftreinigern (Testsieger der Stiftung Warentest, Heft 3/2024) kann Rauchpartikel im abgedichteten Raum aus der Luft filtern.", asin: "B0B5D7H7VP", query: "Bosch Air 4000 Luftreiniger" },
+      { name: "3M Aura 9332+ FFP3", for: "Wenn du raus musst", text: "FFP3-Masken im Schutzraum lagern – für den Weg nach draußen oder wenn Rauchpartikel eindringen; kein Schutz vor Gasen.", asin: "B000VDQL4K", query: "3M Aura 9332+ FFP3" },
     ],
   },
 
@@ -230,7 +231,7 @@ export default {
           {
             list: [
               "**Möglichst wenige Außenwände und Fenster** – ein Bad, eine Abstellkammer oder ein innenliegender Flur.",
-              "**Bei Gasen eher oben:** Laut BBK sind die meisten Gase schwerer als Luft und sammeln sich am Boden, deshalb bieten obere Stockwerke mehr Schutz.",
+              "**Bei Gasen eher oben:** Laut BBK sind viele Gefahrstoffe schwerer als Luft und sammeln sich am Boden, deshalb sind obere Stockwerke meist günstiger.",
               "**Bei radioaktiven Partikeln eher in der Mitte des Gebäudes** oder im Keller, mit möglichst viel Mauerwerk zwischen dir und draußen.",
               "**Wasser, Radio, Licht, Toilette in Reichweite** – du willst den Raum nicht ständig öffnen.",
             ],
@@ -251,9 +252,9 @@ export default {
 
   faqs: [
     { q: "Wie dichte ich einen Raum bei einer Schadstoffwarnung ab?", a: "Schließe Fenster und Türen, schalte Lüftung und Klimaanlage aus und ziehe dich in einen Innenraum zurück. Klebe Lüftungsöffnungen und Fenster mit Folie und Gewebeband ab und dichte den Türspalt mit einem Zugluftstopper oder feuchten Handtuch ab." },
-    { q: "Welches Klebeband eignet sich zum Abdichten?", a: "Ein gewebeverstärktes Klebeband wie das tesa extra Power Universal: Es reißt von Hand, klebt auf Holz, Metall, Kunststoff und Folie und hält auch bei Zugluft. Malerkrepp ist schonender, hält aber weniger fest." },
+    { q: "Welches Klebeband eignet sich zum Abdichten?", a: "Ein gewebeverstärktes Klebeband wie das tesa extra Power Universal: Es reißt laut Hersteller von Hand, klebt auf Holz, Metall, Kunststoff und Folie und hält in der Regel auch bei Zugluft. Malerkrepp ist schonender, hält aber weniger fest." },
     { q: "Wie lange darf man in einem abgedichteten Raum bleiben?", a: "Nur so lange wie nötig. In einem dicht verschlossenen Raum steigt der CO₂-Gehalt, besonders bei mehreren Personen in einem kleinen Raum. Höre Radio oder nutze die Warn-App und lüfte sofort nach der Entwarnung. Bei Kopfschmerzen, Schwindel oder Atemnot den Raum verlassen." },
-    { q: "Hilft ein nasses Handtuch an der Tür?", a: "Ja, ein feuchtes Handtuch vor dem Türspalt verringert den Luftaustausch und wird auch in kommunalen Merkblättern empfohlen. Ein Zugluftstopper ist dauerhafter und bequemer." },
+    { q: "Hilft ein nasses Handtuch an der Tür?", a: "Ja, ein feuchtes Handtuch vor dem Türspalt verringert den Luftaustausch und wird auch in kommunalen Merkblättern (etwa der Stadt Dülmen) empfohlen. Ein Zugluftstopper ist dauerhafter und bequemer." },
     { q: "Muss man auch bei Rauch von einem Großbrand abdichten?", a: "Fenster und Türen zu schließen und die Lüftung auszuschalten reicht meist. Wer empfindlich ist oder nahe am Brand wohnt, kann zusätzlich Ritzen abdichten und einen HEPA-Luftreiniger laufen lassen. Brennt es im eigenen Gebäude, gilt: raus und 112 rufen." },
     { q: "Hinterlässt Gewebeband Rückstände?", a: "Auf Lack, Tapete und Kunststoff kann Gewebeband Rückstände hinterlassen oder Farbe abziehen. Wer Oberflächen schonen will, klebt die Folie mit Malerband oder nutzt die tesa Easy Cover, die laut Hersteller bis zu sieben Tage rückstandsfrei ablösbar ist." },
   ],
