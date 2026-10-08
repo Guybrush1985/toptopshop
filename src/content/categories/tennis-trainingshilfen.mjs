@@ -210,7 +210,7 @@ export default {
       { name: "Wilson Starter Tennisbälle für Kinder, 12er-Pack", for: "Langsamere Bälle für Kinder", text: "Druckreduzierte Methodikbälle fliegen langsamer und springen niedriger – Kinder haben mehr Zeit zum Schlagen. Die Stufe (rot, orange, grün) nach Alter und Spielfeldgröße wählen.", asin: "B06WD8XDL6", query: "Wilson Tennisbälle Starter 12er Pack Kinder" },
       { name: "TOOLZ Power Ladder mit Hürden, 2 m", for: "Beinarbeit und Koordination", text: "Kurze Koordinationsleiter mit aufstellbaren Hürden; laut Hersteller für laufintensive Sportarten mit vielen Stoppbewegungen wie Tennis.", asin: "B071RZJNXQ", query: "TOOLZ Koordinationsleiter mit Hürden 2m" },
       { name: "JISADER Tennis-Schwungtrainer mit Klick-Geräusch", for: "Schwungtempo hörbar machen", text: "Leichter Schwungstab (laut Händler 285 g), der bei schnellem Schwung ein Geräusch macht – zum Aufwärmen und für Aufschlagbewegungen.", asin: "B0D9W11ZH2", query: "JISADER Tennis Schwungtrainer Sound" },
-      { name: "KIMISS Tennislöffel aus Roteiche", for: "Treffpunkt mit kleinem Ziel", text: "Holzlöffel mit kleiner Schlagfläche und Aufbewahrungstasche; trifft nur, wer den Ball zentral erwischt (Händlerangabe).", asin: "B0C549Y6JP", query: "KIMISS Tennislöffel Roteiche Sweet Spot Trainer" },
+      { name: "Tennis-Lernhelfer (Amazon-Angebot B0DK15PQFH)", for: "Weitere Empfehlung", text: "Zusätzlich von der Redaktion ausgewählt. Produktbezeichnung und Lieferumfang konnten wir für diese Seite noch nicht prüfen – bitte vor dem Kauf im Angebot ansehen.", asin: "B0DK15PQFH", query: "Tennis Trainingshilfe" },
     ],
   },
 
