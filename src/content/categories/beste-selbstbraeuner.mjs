@@ -32,7 +32,7 @@ export default {
   ],
 
   method:
-    "Grundlage sind Herstellerangaben, veröffentlichte Testergebnisse unabhängiger Prüfinstitute (u. a. Stiftung Warentest, Selbstbräuner-Test in Heft 04/2023), Inhaltsstofflisten sowie die Auswertung von Kundenbewertungen. Jedes Produkt wird in vier Kriterien von 0 bis 10 eingeordnet; die Gesamtnote ist der gewichtete Mittelwert.",
+    "Wir testen die Produkte nicht selbst; die Bewertungen sind redaktionelle Einschätzungen. Grundlage sind Herstellerangaben, veröffentlichte Testergebnisse unabhängiger Prüfinstitute (u. a. Stiftung Warentest, Selbstbräuner-Test in Heft 04/2023), Inhaltsstofflisten sowie die Auswertung von Kundenbewertungen. Jedes Produkt wird in vier Kriterien von 0 bis 10 eingeordnet; die Gesamtnote ist der gewichtete Mittelwert.",
 
   products: [
     {
@@ -46,13 +46,13 @@ export default {
       ratings: { ergebnis: 9.0, anwendung: 9.0, pflege: 8.5, preis: 8.5 },
       bestFor: "die meisten Hauttypen",
       verdict:
-        "Die beste Wahl für die meisten: leichte Mousse, natürlich wirkende Farbe und eine große Auswahl an Farbtiefen zu einem fairen Preis.",
+        "Nach unserer Einschätzung die beste Wahl für die meisten: leichte Mousse, laut vielen Kundenbewertungen natürlich wirkende Farbe und eine große Auswahl an Farbtiefen zu einem fairen Preis.",
       features: [
-        "Leichter Schaum, der sich mit Handschuh schnell und gleichmäßig verteilen lässt",
+        "Leichter Schaum, der sich laut Hersteller mit Handschuh schnell und gleichmäßig verteilen lässt",
         "Mehrere Farbtiefen – von hell bis sehr dunkel – sowie eine **1 Hour Express**-Variante",
         "Laut Hersteller mit Aloe Vera und typischem Kokosduft",
       ],
-      pros: ["Natürlich wirkender Farbton ohne starken Orangestich", "Zieht schnell ein, klebt kaum", "Breit erhältlich, faires Preisniveau"],
+      pros: ["Laut Kundenbewertungen natürlich wirkender Farbton ohne starken Orangestich", "Zieht schnell ein, klebt kaum", "Breit erhältlich, faires Preisniveau"],
       cons: ["Kokosduft ist Geschmackssache", "Dunkle Varianten verzeihen weniger Auftragsfehler"],
       specs: {
         typ: "Mousse (Schaum)",
@@ -74,10 +74,10 @@ export default {
       ratings: { ergebnis: 8.0, anwendung: 9.0, pflege: 7.5, preis: 9.5 },
       bestFor: "Preisbewusste & Vielnutzer",
       verdict:
-        "Das beste Preis-Leistungs-Verhältnis: eine einfach aufzutragende Mousse, die bei Stiftung Warentest vor allem in der Anwendung überzeugt hat.",
+        "Das beste Preis-Leistungs-Verhältnis: eine einfach aufzutragende Mousse; eine St.-Moriz-Professional-Mousse erhielt bei Stiftung Warentest (Heft 04/2023) im Prüfpunkt Anwendung ein „sehr gut“.",
       features: [
-        "Mousse mit Farbführung – du siehst sofort, wo du schon aufgetragen hast",
-        "Laut Stiftung Warentest (Selbstbräuner-Test, Heft 04/2023) besonders stark beim Auftragen",
+        "Mousse mit Farbführung laut Hersteller – du siehst sofort, wo du schon aufgetragen hast",
+        "Stiftung Warentest (Selbstbräuner, Heft 04/2023): im Prüfpunkt Anwendung „sehr gut“ – getestet wurde laut Berichten die transparente Variante",
         "Günstiger Preis pro Anwendung, gut für regelmäßiges Bräunen",
       ],
       pros: ["Sehr günstig", "Einfach und fehlertolerant in der Anwendung", "Gut für große Flächen"],
@@ -102,19 +102,19 @@ export default {
       ratings: { ergebnis: 9.5, anwendung: 9.0, pflege: 9.0, preis: 7.0 },
       bestFor: "anspruchsvolle Anwender",
       verdict:
-        "Für alle, die keine Kompromisse eingehen wollen: der Klassiker unter den Premium-Selbstbräunern mit besonders feinem, gleichmäßigem Ergebnis.",
+        "Für alle, die keine Kompromisse eingehen wollen: der Klassiker unter den Premium-Selbstbräunern mit laut Hersteller und vielen Kundenbewertungen feinem, gleichmäßigem Ergebnis.",
       features: [
-        "Bronzierende Farbführung zeigt beim Auftragen jede Stelle",
-        "Gleichmäßige, natürlich wirkende Bräune – auch bei Einsteigern beliebt",
+        "Bronzierende Farbführung zeigt beim Auftragen jede Stelle (Herstellerangabe)",
+        "Laut Kundenbewertungen gleichmäßige, natürlich wirkende Bräune – auch bei Einsteigern beliebt",
         "Feine Textur, die sich gut ausstreichen lässt",
       ],
-      pros: ["Sehr ebenmäßiges Ergebnis", "Angenehmes Hautgefühl", "Etablierte Marke mit großem Sortiment"],
+      pros: ["Laut Kundenbewertungen sehr ebenmäßiges Ergebnis", "Angenehmes Hautgefühl", "Etablierte Marke mit großem Sortiment"],
       cons: ["Deutlich teurer als Drogerie-Alternativen", "Farbführung kann auf heller Kleidung abfärben, bis sie abgewaschen ist"],
       specs: {
         typ: "Mousse (Schaum)",
         farbfuehrung: "Ja, deutlich",
         farbtiefen: "Classic, weitere Varianten im Sortiment",
-        besonderheit: "Besonders gleichmäßiges Ergebnis",
+        besonderheit: "Gleichmäßiges Ergebnis (laut Kundenbewertungen)",
       },
       asin: "B0027UY3IG",
       query: "St. Tropez Self Tan Classic Bronzing Mousse",
@@ -162,7 +162,7 @@ export default {
         id: "beste-selbstbraeuner",
         h2: "Welche Selbstbräuner sind aktuell die besten?",
         blocks: [
-          { quick: "Der beste Selbstbräuner für die meisten Menschen ist der **Bondi Sands Self Tanning Foam**: Er liefert eine natürlich wirkende Bräune, lässt sich auch von Einsteigern gut auftragen und ist in vielen Farbtiefen erhältlich. Die günstigste gute Alternative ist die **St. Moriz Professional Mousse**, die Premium-Wahl die **St. Tropez Classic Bronzing Mousse**." },
+          { quick: "Nach unserer Einschätzung ist der beste Selbstbräuner für die meisten Menschen der **Bondi Sands Self Tanning Foam**: Er liefert laut vielen Kundenbewertungen eine natürlich wirkende Bräune, lässt sich auch von Einsteigern gut auftragen und ist in vielen Farbtiefen erhältlich. Die günstigste gute Alternative ist die **St. Moriz Professional Mousse**, die Premium-Wahl die **St. Tropez Classic Bronzing Mousse**." },
           { first: "Fast alle Selbstbräuner arbeiten mit demselben Wirkstoff: Dihydroxyaceton, kurz DHA. Der Zuckerabkömmling reagiert mit Eiweißbausteinen in der obersten Hornschicht der Haut und bildet dort braune Farbstoffe. Chemisch ist das eine Maillard-Reaktion – derselbe Prozess, der Brotkruste braun färbt. Viele Produkte kombinieren DHA mit Erythrulose, die langsamer reagiert und die Bräune gleichmäßiger und etwas langlebiger machen kann." },
           { p: "Weil nur die abgestorbenen Zellen der obersten Hautschicht gefärbt werden, verblasst die Bräune mit der natürlichen Hauterneuerung. Je nach Hauttyp, Pflege und Duschgewohnheiten hält das Ergebnis meist einige Tage. Der große Vorteil: Es ist keine UV-Strahlung nötig – und damit auch kein Sonnenbrand und keine zusätzliche Hautalterung durch die Bräune selbst." },
           { p: "Die Unterschiede zwischen guten und mittelmäßigen Produkten liegen deshalb weniger im Wirkstoff als in der Rezeptur: Wie gut lässt sich das Produkt verteilen? Wie natürlich wirkt der Farbton? Wie stark ist der typische Geruch? Genau an diesen Punkten setzt unser Vergleich an." },
@@ -226,7 +226,7 @@ export default {
       "Die Gesichtshaut ist dünner, empfindlicher und oft zu Unreinheiten geneigt. Diese fünf Produkte sind speziell für das Gesicht gemacht oder lassen sich dort besonders fein dosieren.",
     items: [
       { name: "Tan-Luxe The Face Illuminating Self-Tan Drops", for: "Fein dosierbar", text: "Tropfen zum Mischen mit der eigenen Pflege. Laut Hersteller mit Himbeersamenöl, Vitamin E und Aloe Vera; die Farbe entwickelt sich innerhalb weniger Stunden. Enthält Alkohol und Parfüm – bei sehr empfindlicher Haut vorher testen.", query: "Tan-Luxe The Face Self-Tan Drops", asin: "B01F487V5Y" },
-      { name: "Isle of Paradise Self-Tanning Drops", for: "Gegen Rötungen & Fahlheit", text: "Die Farbtöne sind farbkorrigierend aufgebaut: Grün-, Violett- und Pfirsichbasen sollen Rötungen, fahle oder orange Töne ausgleichen. Die Intensität steuerst du über die Anzahl der Tropfen.", query: "Isle of Paradise Self Tanning Drops", asin: "B07D7XDHWD" },
+      { name: "Isle of Paradise Self-Tanning Drops", for: "Gegen Rötungen & Fahlheit", text: "Die Farbtöne sind laut Hersteller farbkorrigierend aufgebaut: Grün-, Violett- und Pfirsichbasen sollen Rötungen, fahle oder orange Töne ausgleichen. Die Intensität steuerst du über die Anzahl der Tropfen.", query: "Isle of Paradise Self Tanning Drops", asin: "B07D7XDHWD" },
       { name: "Bondi Sands Gradual Tan Face Lotion", for: "Sanft & täglich", text: "Feuchtigkeitscreme mit leichtem Bräunungseffekt, die sich über mehrere Anwendungen aufbaut. Ideal für helle Haut und alle, die eine kaum merkliche Veränderung wollen.", query: "Bondi Sands Gradual Tan Face Lotion", asin: "B0BN426GYQ" },
       { name: "Clarins Self Tanning Addition Concentré Éclat", for: "Premium-Pflege", text: "Selbstbräunungskonzentrat, das tropfenweise in die gewohnte Gesichtspflege gegeben wird – für alle, die ihre Routine nicht umstellen möchten. Käufer loben vor allem, dass der typische Selbstbräuner-Geruch kaum auffällt.", query: "Clarins Addition Concentré Eclat Selbstbräuner", asin: "B00J9UR64U" },
       { name: "Bondi Sands Gradual Tanning Lotion Tinted Skin Perfector", for: "Gesicht & Körper", text: "Getönte, graduelle Lotion mit Sofort-Effekt für einen gleichmäßigen Glow – gut geeignet, wenn Gesicht und Körper denselben Ton bekommen sollen.", query: "Bondi Sands Gradual Tanning Lotion Tinted Skin Perfector", asin: "B0BGMRJRTQ" },
@@ -259,6 +259,7 @@ export default {
               { value: "0 LSF", label: "Selbstbräuner ersetzen keinen Sonnenschutz" },
             ],
           },
+          { callout: { title: "Sicher anwenden", warn: true, text: "Selbstbräuner bieten **keinen UV-Schutz**. Beachte die Gebrauchsanweisung des Herstellers, teste ein neues Produkt zuerst an einer kleinen Hautstelle und trage es nicht auf gereizte oder verletzte Haut auf. Sprays nur in gut belüfteten Räumen verwenden, nicht einatmen und von Augen und Schleimhäuten fernhalten. Bei Hautreaktionen die Anwendung abbrechen und ärztlich abklären lassen; für Kinder sind die Produkte in der Regel nicht vorgesehen." } },
           { h3: "Bräune pflegen und gleichmäßig verblassen lassen" },
           { p: "Damit die Bräune gleichmäßig nachlässt, hilft tägliche Feuchtigkeitspflege. Ölhaltige Duschgele und Peelings beschleunigen das Verblassen – praktisch, wenn du nachbessern oder neu starten möchtest. Für unschöne Ränder gibt es spezielle Entferner, etwa den Self Tan Eraser von Bondi Sands." },
         ],
@@ -270,7 +271,7 @@ export default {
     { q: "Welcher Selbstbräuner ist aktuell der beste?", a: "Unsere beste Gesamtwahl ist der Bondi Sands Self Tanning Foam, weil er eine natürlich wirkende Farbe, eine einfache Anwendung und einen fairen Preis verbindet. Die günstigste gute Alternative ist die St. Moriz Professional Mousse, die Premium-Wahl die St. Tropez Classic Bronzing Mousse." },
     { q: "Wie lange hält die Bräune von Selbstbräuner?", a: "Meist einige Tage. Selbstbräuner färben nur die oberste Hornschicht, die sich laufend erneuert. Wie lange die Farbe sichtbar bleibt, hängt von Hauttyp, Pflege, Peelings und Duschgewohnheiten ab. Tägliches Eincremen sorgt dafür, dass sie gleichmäßig verblasst." },
     { q: "Schützt Selbstbräuner vor Sonnenbrand?", a: "Nein. Die durch Selbstbräuner erzeugte Farbe bietet keinen nennenswerten Schutz vor UV-Strahlung. In der Sonne brauchst du zusätzlich ein Sonnenschutzmittel mit passendem Lichtschutzfaktor." },
-    { q: "Ist Selbstbräuner schädlich für die Haut?", a: "Selbstbräuner auf DHA-Basis gelten bei bestimmungsgemäßer Anwendung als gut verträglich; DHA ist in der EU als kosmetischer Inhaltsstoff zugelassen. Wer empfindliche Haut hat oder zu Allergien neigt, sollte ein neues Produkt zuerst an einer kleinen Stelle testen. Sprays solltest du nicht einatmen und von Augen und Lippen fernhalten." },
+    { q: "Ist Selbstbräuner schädlich für die Haut?", a: "Selbstbräuner auf DHA-Basis gelten nach derzeitigem Kenntnisstand bei bestimmungsgemäßer Anwendung als gut verträglich; DHA darf in der EU in kosmetischen Mitteln verwendet werden. Wer empfindliche Haut hat oder zu Allergien neigt, sollte ein neues Produkt zuerst an einer kleinen Stelle testen. Sprays solltest du nicht einatmen und von Augen und Lippen fernhalten. Bei Hautproblemen ersetzt das keine ärztliche Beratung." },
     { q: "Warum riecht Selbstbräuner so typisch?", a: "Der leicht süßliche Geruch entsteht bei der Reaktion von DHA mit den Eiweißen der Haut – er ist also ein Zeichen dafür, dass das Produkt wirkt. Parfümierte Rezepturen überdecken ihn teilweise, nach dem ersten Duschen ist er meist verschwunden." },
     { q: "Wie bekomme ich Flecken von Selbstbräuner weg?", a: "Ein Körperpeeling, ein warmes Bad und ölhaltige Pflege beschleunigen das Verblassen. Für hartnäckige Stellen gibt es spezielle Selbstbräuner-Entferner. Kleine dunkle Ränder kannst du auch kaschieren, indem du die hellere Umgebung vorsichtig nachbräunst." },
     { q: "Mousse oder Lotion – was ist besser?", a: "Für den Körper und für Einsteiger ist eine Mousse meist die bessere Wahl: Sie trocknet schnell und zeigt mit Farbführung, wo du schon warst. Graduelle Lotionen eignen sich für sehr helle Haut und alle, die die Bräune langsam aufbauen möchten." },

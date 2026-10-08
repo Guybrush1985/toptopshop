@@ -15,7 +15,7 @@ export default {
   eyebrow: "Tennis solo · Kinder",
   h1: "Die 3 besten Ballwände für Kinder 2026",
   lead:
-    "Kinder lernen Tennis am schnellsten, wenn der Ball oft zurückkommt. Kleine Rebounder sind leicht, kippsicher und passen auf jede Terrasse – mit Softbällen sogar ins Wohnzimmer.",
+    "Kinder lernen Tennis leichter, wenn der Ball oft zurückkommt. Kleine Rebounder sind meist leicht, lassen sich verankern und passen auf die meisten Terrassen – mit Softbällen sogar ins Wohnzimmer.",
   answer:
     "Unsere beste Gesamtwahl ist der [**NET PLAYZ Rebounder 120 × 120 cm**](produkt:1) mit Stahlrahmen und verstellbarem Winkel. Am günstigsten ist der [**Amazing Tour Rebounder**](produkt:2), den es in drei Größen gibt; besonders platzsparend ist das faltbare [**Rebound-Netz 100 × 100 cm mit 5 Winkeln**](produkt:3).",
 
@@ -32,7 +32,7 @@ export default {
   ],
 
   method:
-    "Grundlage sind Herstellerangaben (Maße, Rahmen, Winkel), Angaben der Händler sowie die Empfehlungen des Deutschen Tennis Bundes zum Kindertennis mit langsameren Bällen (Play+Stay). Unabhängige Tests von Kinder-Rebounder gibt es nicht; die Bewertung ist eine redaktionelle Einschätzung in vier gewichteten Kriterien.",
+    "Wir testen die Produkte nicht selbst. Grundlage sind Herstellerangaben (Maße, Rahmen, Winkel), Angaben der Händler sowie die Empfehlungen des Deutschen Tennis Bundes zum Kindertennis mit langsameren Bällen (Play+Stay). Unabhängige Tests von Kinder-Reboundern sind uns nicht bekannt; die Bewertung ist eine redaktionelle Einschätzung in vier gewichteten Kriterien.",
 
   products: [
     {
@@ -49,8 +49,8 @@ export default {
         "Groß genug, dass auch unsaubere Schläge zurückkommen, und trotzdem leicht zu verstauen: Der Stahlrahmen ist einstellbar und faltbar, das Netz eignet sich für Soft- und Tennisbälle.",
       features: [
         "Fläche rund 120 × 120 cm, Rahmen aus Stahl (Herstellerangabe)",
-        "Winkel einstellbar, faltbar und mobil, für drinnen und draußen",
-        "Auch für Fußball- und Handballtraining nutzbar",
+        "Winkel einstellbar, faltbar und mobil, für drinnen und draußen (Herstellerangabe)",
+        "Laut Hersteller auch für Fußball- und Handballtraining nutzbar",
       ],
       pros: ["Gute Größe für Kinderschläge", "Robuster Stahlrahmen", "Wächst als Multisport-Gerät mit"],
       cons: ["Für Erwachsene zu klein", "Ohne Verankerung bei harten Bällen etwas unruhig"],
@@ -72,11 +72,11 @@ export default {
         "Günstiger Einstieg mit Größenwahl: Für kleine Kinder reicht die 75-cm-Variante, für Schulkinder lohnt die größere – verstellbar und schnell aufgebaut.",
       features: [
         "In drei Größen erhältlich (75, 100 und 150 cm, Händlerangabe)",
-        "Winkel verstellbar, für Garten und Hof",
+        "Winkel verstellbar, für Garten und Hof (Händlerangabe)",
         "Leichter Rahmen, einfach zu tragen",
       ],
       pros: ["Größe passend zum Alter wählbar", "Günstig", "Leicht genug für Kinder"],
-      cons: ["Netz weniger straff als beim Testsieger", "Kleine Größen nur für Volleys"],
+      cons: ["Netz nach unserer Einschätzung weniger straff als bei unserer Gesamtwahl", "Kleine Größen nur für Volleys"],
       specs: { groesse: "75 / 100 / 150 cm", rahmen: "Metall", winkel: "verstellbar", falt: "ja", ball: "Soft- & Fußbälle" },
       asin: "B0869BZKYH",
       query: "Amazing Tour Fußball Rebounder Kinder 75 100 150 cm",
@@ -92,14 +92,14 @@ export default {
       ratings: { kind: 8.0, rueckprall: 7.5, handling: 8.5, preis: 8.0 },
       bestFor: "Wohnung, Keller, Flur mit Softbällen",
       verdict:
-        "Das platzsparendste Modell: Das Netz klappt komplett flach zusammen und passt hinter jede Tür – ideal für Softball-Training drinnen.",
+        "Das platzsparendste Modell in unserem Vergleich: Das Netz klappt laut Händler komplett flach zusammen und lässt sich etwa hinter einer Tür verstauen – gut geeignet für Softball-Training drinnen.",
       features: [
         "Fläche 100 × 100 cm, fünf Winkelstufen (Händlerangabe)",
-        "Stabiler Stahlrahmen, komplett faltbar",
+        "Stahlrahmen, komplett faltbar (Händlerangabe)",
         "Beworben als Trainingshilfe für Kinder und Jugendliche",
       ],
       pros: ["Klappt flach zusammen", "Fünf Winkelstufen", "Gut für drinnen mit Softbällen"],
-      cons: ["Kleine Fläche", "No-Name-Produkt ohne Herstellerseite"],
+      cons: ["Kleine Fläche", "Keine Herstellerseite gefunden – Angaben stammen vom Händler"],
       specs: { groesse: "100 × 100 cm", rahmen: "Stahl", winkel: "5 Stufen", falt: "ja, flach", ball: "Softbälle" },
       asin: "B0FSKXY6R3",
       query: "Rebound Netz 100 x 100 cm verstellbare Rückprallwand 5 Winkel",
@@ -130,10 +130,10 @@ export default {
       alt: "Infografik: Tennisbälle für Kinder nach Alter – Schaumstoffball, Stage 3 rot, Stage 2 orange, Stage 1 grün, normaler Ball",
       caption: "Orientierung nach dem Stufensystem der Verbände. Entscheidend ist die Spielstärke, nicht allein das Alter.",
       steps: [
-        { title: "Ab ca. 4 Jahren: Schaumstoff", text: "Große, weiche Bälle springen langsam und tun nicht weh – perfekt für Wand und Wohnzimmer." },
-        { title: "Ca. 5–8 Jahre: Stage 3 (rot)", text: "Rund 75 % langsamer als normale Bälle. Ideal für den kleinen Platz und den Rebounder." },
-        { title: "Ca. 8–10 Jahre: Stage 2 (orange)", text: "Rund 50 % langsamer, für das Midcourt-Feld." },
-        { title: "Ca. 9–11 Jahre: Stage 1 (grün)", text: "Rund 25 % langsamer, auf dem ganzen Platz." },
+        { title: "Ab ca. 4 Jahren: Schaumstoff", text: "Große, weiche Bälle springen langsam und tun kaum weh – gut für Wand und Wohnzimmer." },
+        { title: "Ca. 5–8 Jahre: Stage 3 (rot)", text: "Laut ITF rund 75 % langsamer als normale Bälle. Gut für den kleinen Platz und den Rebounder." },
+        { title: "Ca. 8–10 Jahre: Stage 2 (orange)", text: "Laut ITF rund 50 % langsamer, für das Midcourt-Feld." },
+        { title: "Ca. 9–11 Jahre: Stage 1 (grün)", text: "Laut ITF rund 25 % langsamer, auf dem ganzen Platz." },
         { title: "Danach: normaler Ball", text: "Wenn Technik und Kraft passen, folgt der reguläre Ball." },
       ],
     },
@@ -147,9 +147,9 @@ export default {
         id: "beste-ballwand-kinder",
         h2: "Welche Ballwand ist für Kinder am besten?",
         blocks: [
-          { quick: "Für die meisten Familien ist der [NET PLAYZ Rebounder 120 × 120 cm](produkt:1) die beste Wahl. Für den kleinen Geldbeutel passt der [Amazing Tour Rebounder](produkt:2), für drinnen das faltbare [Rebound-Netz 100 × 100 cm](produkt:3)." },
+          { quick: "Für die meisten Familien ist der [NET PLAYZ Rebounder 120 × 120 cm](produkt:1) nach unserer Einschätzung die beste Wahl. Für den kleinen Geldbeutel passt der [Amazing Tour Rebounder](produkt:2), für drinnen das faltbare [Rebound-Netz 100 × 100 cm](produkt:3)." },
           { first: "Kinder wollen treffen, nicht Bällen hinterherlaufen. Genau darin liegt die Stärke eines kleinen Rebounders: Er bringt den Ball zuverlässig zurück, auch wenn der Schlag nicht perfekt war. Kombiniert mit einem langsamen Ball entsteht ein Spiel, das Spaß macht – und nebenbei Koordination, Timing und Ausdauer trainiert." },
-          { p: "Der Deutsche Tennis Bund setzt im Kindertennis auf das Konzept „Play+Stay“: kleinere Felder, kürzere Schläger und langsamere Bälle. Ein Rebounder passt perfekt dazu, weil er auch auf der Terrasse ein Mini-Feld schafft." },
+          { p: "Der Deutsche Tennis Bund setzt im Kindertennis auf das Konzept „Play+Stay“: kleinere Felder, kürzere Schläger und langsamere Bälle. Ein Rebounder passt gut dazu, weil er auch auf der Terrasse ein Mini-Feld schafft." },
           { figure: "scores" },
           { quote: "Kinder lernen Tennis nicht durch Erklärungen, sondern durch viele Ballkontakte." },
         ],
@@ -203,7 +203,7 @@ export default {
       { name: "Wilson Starter Foam Tennisbälle (3 Stück)", for: "Erste Schläge", text: "Große Schaumstoffbälle mit reduziertem Sprung, laut Hersteller für alle Beläge, Straßen und Spielplätze.", asin: "B09HHT1ZW4", query: "Wilson Starter Foam Tennisbälle Kinder" },
       { name: "Wilson Starter Red & Orange Tennisbälle (je 3 Stück)", for: "Stage 3 und 2", text: "Filzbälle mit 75 % (rot) und 50 % (orange) reduzierter Geschwindigkeit nach Herstellerangabe – passend zum Stufensystem.", asin: "B08WBY47LB", query: "Wilson Starter Red Orange Tennisbälle Kinder" },
       { name: "Wilson Pro Staff Precision Jr 21", for: "Erster Schläger (ca. 5–6 Jahre)", text: "Leichter Alu-Juniorschläger mit 21 Zoll Länge, laut Händler für Kinder von etwa 5 bis 6 Jahren.", asin: "B0D1J33JN7", query: "Wilson Pro Staff Precision Jr 21" },
-      { name: "Hudora Twistball Set mit 2 Schlägern", for: "Spiel im Garten", text: "Ball am Seil um eine Stange – für ein oder zwei Kinder, schult Vor- und Rückhand im Wechsel.", asin: "B0866DXG2Q", query: "Hudora Twistball Set 2 Schläger" },
+      { name: "Hudora Twistball Set mit 2 Schlägern", for: "Spiel im Garten", text: "Ball am Seil um eine Stange – für ein oder zwei Kinder, schult Vor- und Rückhand im Wechsel. Nur unter Aufsicht spielen und Zuschauer auf Abstand halten, damit niemand vom Ball oder Seil getroffen wird; Altersangabe des Herstellers beachten.", asin: "B0866DXG2Q", query: "Hudora Twistball Set 2 Schläger" },
       { name: "Schaumstoff-Tennisbälle 60 mm (3er-Set)", for: "Drinnen spielen", text: "Weiche Schaumstoffbälle in Tennisballgröße – leise genug für Flur und Kinderzimmer.", asin: "B01C62M2PK", query: "3er Tennisbälle Weichschaum 60 mm" },
     ],
   },
@@ -224,7 +224,7 @@ export default {
               "**Vorhand-Rückhand-Wechsel:** Nach jedem Schlag die Seite wechseln.",
             ],
           },
-          { callout: { title: "Sicherheit", warn: true, text: "Kinder nur unter Aufsicht spielen lassen, Rebounder verankern und Erdnägel nach dem Spielen entfernen. Drinnen nur mit Schaumstoffbällen spielen." } },
+          { callout: { title: "Sicherheit", warn: true, text: "Kinder nur unter Aufsicht spielen lassen, Rebounder verankern, damit er nicht kippt, und Erdnägel nach dem Spielen entfernen (Stolper- und Verletzungsgefahr). Genug Abstand zu anderen Kindern, Fenstern und Möbeln halten, damit niemand vom Schläger oder Ball getroffen wird. Drinnen nur mit Schaumstoffbällen spielen und die Alters- und Sicherheitshinweise des Herstellers beachten." } },
         ],
       },
     ],

@@ -17,7 +17,7 @@ export default {
   lead:
     "Wer allein trainiert, sammelt viele Bälle auf – und verbraucht sie schneller als gedacht. Mit dem richtigen Zubehör wird aus Wiederholung echtes Training.",
   answer:
-    "Unverzichtbar ist ein Ballsammler wie der [**Kollectaball K-MAX**](produkt:1), mit dem du 60 Bälle aufrecht stehend einsammelst. Das beste Preis-Leistungs-Verhältnis bieten die drucklosen [**Tretorn Micro X Trainer**](produkt:2), die an der Wand ihren Sprung behalten. Für gezieltes Training sorgen die [**TOOLZ Pop Up Targets**](produkt:3).",
+    "Besonders hilfreich ist nach unserer Einschätzung ein Ballsammler wie der [**Kollectaball K-MAX**](produkt:1), mit dem du laut Hersteller bis zu 60 Bälle aufrecht stehend einsammelst. Das beste Preis-Leistungs-Verhältnis bieten die drucklosen [**Tretorn Micro X Trainer**](produkt:2), die laut Hersteller ihren Sprung lange behalten. Für gezieltes Training sorgen die [**TOOLZ Pop Up Targets**](produkt:3).",
 
   top3Title: "Unsere Top 3 Zubehörteile",
   top3Intro: "Drei Dinge machen den größten Unterschied beim Solo-Training: schnell Bälle sammeln, Bälle, die lange halten, und Ziele, die Präzision fordern.",
@@ -31,7 +31,7 @@ export default {
   ],
 
   method:
-    "Grundlage sind Hersteller- und Händlerangaben (Kapazität, Material, Lieferumfang) und Hinweise von Tennis-Fachportalen zum Training mit Ballwand und Ballmaschine. Unabhängige Tests gibt es für dieses Zubehör nicht. Die Bewertung ist eine redaktionelle Einschätzung in vier gewichteten Kriterien von 0 bis 10.",
+    "Wir testen die Produkte nicht selbst. Grundlage sind Hersteller- und Händlerangaben (Kapazität, Material, Lieferumfang) und Hinweise von Tennis-Fachportalen zum Training mit Ballwand und Ballmaschine. Unabhängige Tests für dieses Zubehör sind uns nicht bekannt. Die Bewertung ist eine redaktionelle Einschätzung in vier gewichteten Kriterien von 0 bis 10.",
 
   products: [
     {
@@ -45,13 +45,13 @@ export default {
       ratings: { nutzen: 9.0, qualitaet: 8.5, handling: 8.5, preis: 7.5 },
       bestFor: "Alle, die mehr als 20 Bälle nutzen",
       verdict:
-        "Spart Rücken und Zeit: Der K-MAX nimmt bis zu 60 Bälle auf, während du aufrecht stehst – und dient gleichzeitig als Vorratsbehälter neben der Wand.",
+        "Spart Bücken und Zeit: Der K-MAX nimmt laut Hersteller bis zu 60 Bälle auf, während du aufrecht stehst – und dient gleichzeitig als Vorratsbehälter neben der Wand.",
       features: [
         "Fassungsvermögen 60 Bälle (Herstellerangabe)",
-        "Drahtöffnung zum Aufnehmen im Stehen",
+        "Drahtöffnung zum Aufnehmen im Stehen (Herstellerangabe)",
         "Unter 3,5 kg im aufgebauten Zustand (Herstellerangabe)",
       ],
-      pros: ["Kein Bücken mehr", "Großes Fassungsvermögen", "Auch für Ballmaschinen-Training"],
+      pros: ["Deutlich weniger Bücken", "Großes Fassungsvermögen", "Auch für Ballmaschinen-Training"],
       cons: ["Sperrig im Kofferraum", "Teurer als Sammelrohre"],
       specs: { art: "Ballsammler", kapazitaet: "60 Bälle", einsatz: "Sammeln & Vorrat", material: "Kunststoff/Draht" },
       asin: "B07CGCHWRP",
@@ -68,13 +68,13 @@ export default {
       ratings: { nutzen: 8.0, qualitaet: 8.5, handling: 8.5, preis: 8.5 },
       bestFor: "Ballwand, Rebounder, Ballmaschine",
       verdict:
-        "Die Bälle für die Wand: Drucklose Trainingsbälle verlieren ihren Sprung nicht wie Druckbälle – an der Ballwand halten sie dadurch ein Vielfaches länger.",
+        "Die Bälle für die Wand: Drucklose Trainingsbälle verlieren ihren Sprung laut Hersteller deutlich langsamer als Druckbälle – an der Ballwand halten sie dadurch meist erheblich länger.",
       features: [
         "Drucklose Trainingsbälle im 60er-Pack (Händlerangabe)",
-        "Behalten ihren Sprung über lange Zeit",
-        "Auch für Ballmaschinen geeignet",
+        "Behalten ihren Sprung über lange Zeit (Herstellerangabe)",
+        "Laut Hersteller auch für Ballmaschinen geeignet",
       ],
-      pros: ["Sehr lange haltbar", "Gleichmäßiges Sprungverhalten", "Großpackung"],
+      pros: ["Lange haltbar (laut Hersteller)", "Gleichmäßiges Sprungverhalten", "Großpackung"],
       cons: ["Etwas härter und schwerer als Turnierbälle", "Großpackung braucht Stauraum"],
       specs: { art: "Trainingsbälle", kapazitaet: "60 Stück", einsatz: "Wand & Maschine", material: "drucklos" },
       asin: "B0029NV3EI",
@@ -145,9 +145,9 @@ export default {
         id: "bestes-zubehoer",
         h2: "Welches Zubehör braucht man für die Ballwand?",
         blocks: [
-          { quick: "Das Wichtigste ist ein Ballsammler wie der [Kollectaball K-MAX](produkt:1), gefolgt von drucklosen Bällen wie den [Tretorn Micro X Trainer](produkt:2). Wer gezielter üben will, ergänzt [Pop-Up-Ziele](produkt:3)." },
-          { first: "Wer allein trainiert, verbringt erstaunlich viel Zeit damit, Bälle aufzusammeln. Je mehr Bälle im Spiel sind, desto länger die Serien – und desto mehr Bücken am Ende. Ein guter Ballsammler ist deshalb das Zubehör, das sich am schnellsten bezahlt macht." },
-          { p: "Fast genauso wichtig sind die richtigen Bälle. Normale Druckbälle verlieren nach wenigen Trainingseinheiten an Sprungkraft. Drucklose Bälle bekommen ihre Elastizität aus dem Material selbst und springen deshalb auch nach Monaten noch gleich." },
+          { quick: "Aus unserer Sicht am wichtigsten ist ein Ballsammler wie der [Kollectaball K-MAX](produkt:1), gefolgt von drucklosen Bällen wie den [Tretorn Micro X Trainer](produkt:2). Wer gezielter üben will, ergänzt [Pop-Up-Ziele](produkt:3)." },
+          { first: "Wer allein trainiert, verbringt erstaunlich viel Zeit damit, Bälle aufzusammeln. Je mehr Bälle im Spiel sind, desto länger die Serien – und desto mehr Bücken am Ende. Ein guter Ballsammler ist deshalb aus unserer Sicht das Zubehör, das sich am schnellsten bezahlt macht." },
+          { p: "Fast genauso wichtig sind die richtigen Bälle. Normale Druckbälle verlieren nach wenigen Trainingseinheiten an Sprungkraft. Drucklose Bälle bekommen ihre Elastizität aus dem Material selbst und springen deshalb auch nach Monaten noch annähernd gleich." },
           { figure: "scores" },
           { quote: "Ein Ziel an der Wand macht aus hundert Schlägen hundert Entscheidungen." },
         ],
@@ -181,10 +181,10 @@ export default {
     h2: "Die 5 besten Ergänzungen: Sammler, Bälle und Bodenanker",
     intro: "Für mehr Bälle, kürzere Wege und einen Rebounder, der auch bei Wind stehen bleibt.",
     items: [
-      { name: "Wilson Ballsammelkorb (75 Bälle)", for: "Großer Vorrat", text: "Korb mit Klappdeckel für 75 Bälle – stabil genug als Ballstation neben dem Rebounder.", asin: "B00HCTD6GM", query: "Wilson Ballsammelkorb 75 Tennisbälle" },
-      { name: "Vermont Tennisball-Sammelrohr (15 Bälle)", for: "Klein & leicht", text: "Sammelrohr aus PVC für bis zu 15 Bälle, passt in jede Tennistasche.", asin: "B01ANP8YKY", query: "Vermont Tennisball Sammelrohr 15 Bälle" },
+      { name: "Wilson Ballsammelkorb (75 Bälle)", for: "Großer Vorrat", text: "Korb mit Klappdeckel für 75 Bälle (Herstellerangabe) – als Ballstation neben dem Rebounder gedacht.", asin: "B00HCTD6GM", query: "Wilson Ballsammelkorb 75 Tennisbälle" },
+      { name: "Vermont Tennisball-Sammelrohr (15 Bälle)", for: "Klein & leicht", text: "Sammelrohr aus PVC für bis zu 15 Bälle (Herstellerangabe), passt in die meisten Tennistaschen.", asin: "B01ANP8YKY", query: "Vermont Tennisball Sammelrohr 15 Bälle" },
       { name: "Tretorn X-Trainer (72er-Beutel)", for: "Druckstabile Großpackung", text: "Druckstabile Trainingsbälle mit Mikrozellen-Technologie (Herstellerangabe) im 72er-Beutel.", asin: "B0C6VNNPKK", query: "Tretorn X-Trainer Tennisbälle 72er Beutel" },
-      { name: "KOVA Bodenanker XXL, 39 cm (10 Stück)", for: "Rebounder verankern", text: "Stahl-Erdnägel mit rund 39 cm Länge, auch für harte Böden und Fußballtore beworben.", asin: "B0B5HCNZQX", query: "KOVA Hering Bodenanker XXL 39 cm 10x" },
+      { name: "KOVA Bodenanker XXL, 39 cm (10 Stück)", for: "Rebounder verankern", text: "Stahl-Erdnägel mit rund 39 cm Länge (Herstellerangabe), auch für harte Böden und Fußballtore beworben. Vor dem Einschlagen auf Leitungen im Boden achten.", asin: "B0B5HCNZQX", query: "KOVA Hering Bodenanker XXL 39 cm 10x" },
       { name: "HEAD Trainerbedarf Hütchen (6 Stück)", for: "Laufwege & Ziele", text: "Sechs große Hütchen (32 cm) für Laufübungen, Feldmarkierung und Zielübungen.", asin: "B00J1REINS", query: "HEAD Trainerbedarf 6 große Hütchen Tennis" },
     ],
   },
@@ -199,6 +199,7 @@ export default {
           { p: "Ersatznetze sind kaum genormt: Jeder Rahmen hat eigene Maße und Befestigungen. Wer einen Rebounder kauft, sollte deshalb darauf achten, dass der Hersteller Ersatznetze und Gummizüge anbietet. Universelle Lösungen sind Gummispanner und Kabelbinder für kleinere Reparaturen." },
           { figure: "steps" },
           { callout: { title: "Tipp", text: "Notiere dir beim Kauf Modell und Maße deines Rebounders – das macht die spätere Suche nach Ersatznetzen deutlich einfacher." } },
+          { callout: { title: "Sicherheit", warn: true, text: "Herausstehende Erdnägel sind eine Stolper- und Verletzungsgefahr: vollständig einschlagen oder markieren und nach dem Abbau entfernen. Vor dem Einschlagen prüfen, ob im Boden Strom-, Wasser- oder Bewässerungsleitungen verlaufen. Gespannte Gummizüge können beim Lösen zurückschnellen – Augen schützen und Herstellerhinweise beachten." } },
           { facts: [{ value: "60–75", label: "Bälle passen in einen guten Sammelkorb" }, { value: "~39 cm", label: "Länge stabiler Bodenanker" }, { value: "0,914 m", label: "Netzhöhe in der Mitte" }] },
         ],
       },
@@ -207,7 +208,7 @@ export default {
 
   faqs: [
     { q: "Welches Zubehör braucht man für eine Tenniswand?", a: "Am wichtigsten sind ein Ballsammler und drucklose Trainingsbälle. Danach helfen Zielmarkierungen, Hütchen und Bodenanker." },
-    { q: "Welche Tennisbälle eignen sich für die Ballwand?", a: "Drucklose Trainingsbälle wie die Tretorn Micro X Trainer. Sie behalten ihren Sprung deutlich länger als Druckbälle." },
+    { q: "Welche Tennisbälle eignen sich für die Ballwand?", a: "Drucklose Trainingsbälle wie die Tretorn Micro X Trainer. Sie behalten ihren Sprung laut Hersteller deutlich länger als Druckbälle." },
     { q: "Wie viele Bälle braucht man für das Solo-Training?", a: "Für den Rebounder reichen 10 bis 20 Bälle, für die Ballmaschine sind 60 bis 150 sinnvoll. Je mehr Bälle, desto wichtiger ein Ballsammler." },
     { q: "Wo bekomme ich ein Ersatznetz für meinen Rebounder?", a: "In der Regel beim Hersteller des Rebounders, weil Maße und Befestigungen nicht genormt sind. Kleinere Schäden lassen sich mit Gummispannern und Kabelbindern reparieren." },
     { q: "Wie verankere ich einen Rebounder im Rasen?", a: "Mit langen Erdnägeln aus Stahl an den Füßen des Rahmens. Auf Pflaster oder Beton helfen Sandsäcke oder Gewichtsplatten." },

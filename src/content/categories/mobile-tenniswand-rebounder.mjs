@@ -15,7 +15,7 @@ export default {
   eyebrow: "Tennis solo · Rebounder",
   h1: "Die 3 besten mobilen Tenniswände 2026",
   lead:
-    "Ein freistehender Rebounder spielt jeden Ball zurück – im Garten, auf der Terrasse oder am Rand des Tennisplatzes. Wir zeigen die drei Modelle, die sich am meisten lohnen.",
+    "Ein freistehender Rebounder spielt jeden Ball zurück – im Garten, auf der Terrasse oder am Rand des Tennisplatzes. Wir zeigen drei Modelle, die sich nach unserer Einschätzung am meisten lohnen.",
   answer:
     "Unsere beste Gesamtwahl ist die [**Vermont Tenniswand Garten (2,7 × 2,1 m)**](produkt:1), weil sie eine große Trefffläche, ein dickes HDPE-Netz und vier Winkelstufen kombiniert. Am günstigsten ist der leichte [**ProTennisAustria Tenniswand Rebounder 260 × 200 cm**](produkt:2); die Premium-Wahl ist die [**Tri-tennis XL Tenniswand**](produkt:3) mit gespanntem Segeltuch statt Netz.",
 
@@ -32,7 +32,7 @@ export default {
   ],
 
   method:
-    "Grundlage sind Herstellerangaben (Maße, Material, Winkelverstellung, Gewicht), die Produktbeschreibungen bei Amazon sowie Hinweise von Tennis-Fachportalen zum Solo-Training. Unabhängige Labortests gibt es für Tennis-Rebounder bislang nicht. Jedes Modell wird in vier Kriterien von 0 bis 10 eingeordnet; die Gesamtnote ist der gewichtete Mittelwert.",
+    "Wir testen die Produkte nicht selbst. Grundlage sind Herstellerangaben (Maße, Material, Winkelverstellung, Gewicht), die Produktbeschreibungen bei Amazon sowie Hinweise von Tennis-Fachportalen zum Solo-Training. Unabhängige Labortests von Tennis-Reboundern sind uns nicht bekannt. Jedes Modell wird in vier Kriterien von 0 bis 10 eingeordnet; die Gesamtnote ist der gewichtete Mittelwert.",
 
   products: [
     {
@@ -46,13 +46,13 @@ export default {
       ratings: { rueckprall: 8.5, stabil: 8.5, handling: 8.0, preis: 8.0 },
       bestFor: "Garten & Vereinsgelände",
       verdict:
-        "Die ausgewogenste Wahl: große Trefffläche, robustes HDPE-Netz und ein Rahmen, der sich in vier Stufen neigen lässt – für Grundschläge ebenso wie für Volleys.",
+        "Nach unserer Einschätzung die ausgewogenste Wahl: große Trefffläche, robustes HDPE-Netz und ein Rahmen, der sich in vier Stufen neigen lässt – für Grundschläge ebenso wie für Volleys.",
       features: [
         "Trefffläche rund 2,7 × 2,1 m (Herstellerangabe)",
         "Rahmen aus pulverbeschichtetem Stahl, Netz aus 30-fach gedrehtem HDPE (Herstellerangabe)",
-        "Winkel in vier Positionen verstellbar, für drinnen und draußen",
+        "Winkel in vier Positionen verstellbar, für drinnen und draußen (Herstellerangabe)",
       ],
-      pros: ["Große Fläche verzeiht Fehlschläge", "Winkelverstellung für flache und hohe Bälle", "Dickes, wetterfestes Netz"],
+      pros: ["Große Fläche verzeiht Fehlschläge", "Winkelverstellung für flache und hohe Bälle", "Dickes, laut Hersteller wetterfestes Netz"],
       cons: ["Braucht Platz auch beim Lagern", "Netz gibt den Ball weicher zurück als eine Wand"],
       specs: { flaeche: "ca. 2,7 × 2,1 m", flaecheart: "HDPE-Netz", winkel: "4 Stufen", rahmen: "Stahl, pulverbeschichtet", gewicht: "–" },
       asin: "B00MA60A0M",
@@ -69,13 +69,13 @@ export default {
       ratings: { rueckprall: 7.5, stabil: 7.0, handling: 9.0, preis: 9.0 },
       bestFor: "Einsteiger, häufiger Ortswechsel",
       verdict:
-        "Das beste Preis-Leistungs-Verhältnis: fast so groß wie unser Testsieger, aber deutlich leichter und ohne Werkzeug aufgebaut – ideal, wenn der Rebounder öfter umziehen muss.",
+        "Das beste Preis-Leistungs-Verhältnis: fast so groß wie unsere Gesamtwahl, aber deutlich leichter und ohne Werkzeug aufgebaut – ideal, wenn der Rebounder öfter umziehen muss.",
       features: [
         "Fläche 260 × 200 cm, Stahlrahmen mit Polyesternetz (Herstellerangabe)",
         "Aufbau ohne zusätzliches Werkzeug, Gewicht rund 12,7 kg (Herstellerangabe)",
-        "Neigung verstellbar, für Garten, Kindertennis und Kindertraining beworben",
+        "Neigung verstellbar, für Garten, Kindertennis und Kindertraining beworben (Herstellerangabe)",
       ],
-      pros: ["Leicht und schnell versetzt", "Große Fläche zum kleinen Preis", "Auch für Kinder geeignet"],
+      pros: ["Leicht und schnell versetzt", "Große Fläche zum kleinen Preis", "Laut Hersteller auch für Kinder beworben"],
       cons: ["Leichter Rahmen braucht Erdnägel oder Gewichte", "Polyesternetz dünner als HDPE"],
       specs: { flaeche: "260 × 200 cm", flaecheart: "Polyesternetz", winkel: "verstellbar", rahmen: "Stahl", gewicht: "ca. 12,7 kg" },
       asin: "B0C89SF91X",
@@ -92,13 +92,13 @@ export default {
       ratings: { rueckprall: 9.0, stabil: 9.0, handling: 6.0, preis: 6.5 },
       bestFor: "Vereine, Tennisschulen, ernsthaftes Training",
       verdict:
-        "Für alle, die es fast wie an einer echten Trainingswand wollen: Statt Netz ist ein wetterfestes Segeltuch mit Federn auf einen verzinkten Stahlrahmen gespannt – der Ball kommt gleichmäßig zurück.",
+        "Für alle, die es fast wie an einer echten Trainingswand wollen: Statt Netz ist ein wetterfestes Segeltuch mit Federn auf einen verzinkten Stahlrahmen gespannt – der Ball kommt laut Hersteller gleichmäßig zurück.",
       features: [
         "Wetterfestes Segeltuch mit Federn auf verzinktem Stahlrahmen (Herstellerangabe)",
         "Maße rund 230 × 180 × 230 cm, Gewicht rund 40 kg (Herstellerangabe)",
         "Laut Hersteller kommt der Ball unabhängig vom Schlagtempo gleichmäßig zurück",
       ],
-      pros: ["Gleichmäßigster Rückprall im Vergleich", "Sehr robust, auch für mehrere Kinder", "Wirkt wie eine echte Ballwand"],
+      pros: ["Laut Hersteller sehr gleichmäßiger Rückprall", "Robust, laut Hersteller auch für mehrere Kinder", "Nach unserer Einschätzung nah an einer echten Ballwand"],
       cons: ["Schwer, eher stationär", "Deutlich teurer als Netz-Rebounder"],
       specs: { flaeche: "ca. 230 × 180 cm", flaecheart: "Segeltuch mit Federn", winkel: "fest", rahmen: "Stahl, verzinkt", gewicht: "ca. 40 kg" },
       asin: "B016S27SIK",
@@ -148,11 +148,11 @@ export default {
         id: "beste-mobile-tenniswand",
         h2: "Welche mobile Tenniswand ist die beste?",
         blocks: [
-          { quick: "Für die meisten ist die [Vermont Tenniswand Garten](produkt:1) die beste Wahl: große Fläche, robustes Netz und vier Winkelstufen. Wer sparen oder den Rebounder oft umstellen will, nimmt den [ProTennisAustria Rebounder](produkt:2); wer einen Rückprall wie an der Wand möchte, die [Tri-tennis XL](produkt:3)." },
-          { first: "Eine Trainingswand war lange etwas, das man nur im Verein fand. Heute gibt es dieselbe Idee als mobilen Rahmen, der in einer halben Stunde im Garten steht. Das Prinzip ist simpel: Der Ball trifft auf ein gespanntes Netz oder Tuch und federt zurück. Weil der Rebounder nicht müde wird, schafft man in zwanzig Minuten mehr Wiederholungen als in einer Stunde Freizeitspiel." },
-          { p: "Entscheidend ist, wie der Ball zurückkommt. Ein straff gespanntes, dickes Netz liefert einen gut berechenbaren Rückprall; ein dünnes, locker hängendes Netz schluckt viel Energie, und der Ball fällt kurz vor die Füße. Ein Segeltuch mit Federn, wie bei Tri-tennis, kommt einer echten Wand am nächsten." },
+          { quick: "Für die meisten ist die [Vermont Tenniswand Garten](produkt:1) nach unserer Einschätzung die beste Wahl: große Fläche, robustes Netz und vier Winkelstufen. Wer sparen oder den Rebounder oft umstellen will, nimmt den [ProTennisAustria Rebounder](produkt:2); wer einen Rückprall wie an der Wand möchte, die [Tri-tennis XL](produkt:3)." },
+          { first: "Eine Trainingswand war lange etwas, das man nur im Verein fand. Heute gibt es dieselbe Idee als mobilen Rahmen, der in einer halben Stunde im Garten steht. Das Prinzip ist simpel: Der Ball trifft auf ein gespanntes Netz oder Tuch und federt zurück. Weil der Rebounder nicht müde wird, schafft man in kurzer Zeit oft mehr Wiederholungen als in einem gemütlichen Freizeitmatch." },
+          { p: "Entscheidend ist, wie der Ball zurückkommt. Ein straff gespanntes, dickes Netz liefert einen gut berechenbaren Rückprall; ein dünnes, locker hängendes Netz schluckt viel Energie, und der Ball fällt kurz vor die Füße. Ein Segeltuch mit Federn, wie bei Tri-tennis, kommt einer echten Wand nach unserer Einschätzung am nächsten." },
           { figure: "scores" },
-          { quote: "Ein Rebounder wird nicht müde – zwanzig Minuten an der Wand bringen mehr Wiederholungen als eine Stunde Freizeitspiel." },
+          { quote: "Ein Rebounder wird nicht müde – schon kurze Einheiten bringen viele Wiederholungen." },
           { p: "Wichtig ist auch die Größe. Kleine Netze um einen Meter Kantenlänge stammen meist aus dem Fußball und eignen sich für Volleys und Kinder, nicht für Grundschläge mit voller Länge. Für Erwachsene empfehlen wir mindestens zwei Meter Breite." },
         ],
       },
@@ -168,7 +168,7 @@ export default {
               rows: [
                 ["**Dickes HDPE-Netz**", "Gleichmäßiger Rückprall, wetterfest, guter Kompromiss", "Netz kann mit den Jahren nachgeben"],
                 ["**Dünnes Polyesternetz**", "Leicht, günstig, schnell aufgebaut", "Weicherer Rückprall, braucht gute Verankerung"],
-                ["**Segeltuch mit Federn**", "Rückprall wie an der Wand, sehr robust", "Schwer, teuer, kaum mobil"],
+                ["**Segeltuch mit Federn**", "Rückprall ähnlich wie an der Wand, sehr robust", "Schwer, teuer, kaum mobil"],
                 ["**Kleiner Multisport-Rebounder**", "Kompakt, ideal für Kinder und Volleys", "Zu klein für Grundschläge von Erwachsenen"],
               ],
             },
@@ -230,7 +230,7 @@ export default {
               "**Zielschlagen:** eine Markierung auf das Netz kleben und gezielt treffen. So wird aus Wiederholung Präzision.",
             ],
           },
-          { callout: { title: "Sicherheit", warn: true, text: "Den Rebounder nie ungesichert stehen lassen: Bei Wind kann ein großer Rahmen umkippen. Kinder nur unter Aufsicht trainieren lassen und im Winter abbauen." } },
+          { callout: { title: "Sicherheit", warn: true, text: "Den Rebounder nie ungesichert stehen lassen: Bei Wind kann ein großer Rahmen umkippen. Beim Auf- und Abbau auf Klemmstellen an Gelenken und Federn achten, Erdnägel nach dem Abbau entfernen (Stolpergefahr) und Abstand zu Personen, Fenstern und Autos halten. Kinder nur unter Aufsicht trainieren lassen, Aufbau- und Sicherheitshinweise des Herstellers beachten und im Winter abbauen." } },
           {
             facts: [
               { value: "≥ 2 m", label: "Breite für Grundschläge von Erwachsenen" },
@@ -248,8 +248,8 @@ export default {
     { q: "Wie groß sollte ein Tennis-Rebounder sein?", a: "Für Grundschläge von Erwachsenen mindestens rund zwei Meter breit und hoch. Kleinere Netze um einen Meter eignen sich für Volleys, Kinder und Softbälle." },
     { q: "Ist ein Rebounder so gut wie eine Trainingswand?", a: "Fast. Ein straff gespanntes Netz oder Tuch gibt den Ball etwas weicher zurück als eine Betonwand. Dafür ist der Rebounder mobil, leiser und schont Schläger und Bälle. Am nächsten an die Wand kommen Modelle mit Segeltuch." },
     { q: "Kann ein Tennis-Rebounder draußen stehen bleiben?", a: "Für einige Wochen im Sommer ja, wenn Rahmen und Netz wetterfest sind und der Rebounder verankert ist. Über den Winter sollte er abgebaut werden, um Netz und Rahmen zu schonen." },
-    { q: "Welche Bälle eignen sich für den Rebounder?", a: "Drucklose Trainingsbälle halten an der Ballwand am längsten, weil sie ihren Sprung nicht verlieren. Für Kinder eignen sich Schaumstoff- oder Stage-Bälle mit reduziertem Sprungverhalten." },
-    { q: "Brauche ich eine Genehmigung für einen Rebounder im Garten?", a: "Nein, ein mobiler Rebounder ist kein Bauwerk. Rücksicht auf die Nachbarschaft lohnt sich trotzdem: Das Ploppen des Balls ist hörbar, und Ruhezeiten gelten auch für Sport im Garten." },
+    { q: "Welche Bälle eignen sich für den Rebounder?", a: "Drucklose Trainingsbälle halten an der Ballwand meist am längsten, weil sie ihren Sprung kaum verlieren. Für Kinder eignen sich Schaumstoff- oder Stage-Bälle mit reduziertem Sprungverhalten." },
+    { q: "Brauche ich eine Genehmigung für einen Rebounder im Garten?", a: "In der Regel nicht, weil ein mobiler Rebounder kein festes Bauwerk ist. Mieter und Wohnungseigentümer sollten aber Mietvertrag, Hausordnung bzw. Gemeinschaftsregeln beachten. Rücksicht auf die Nachbarschaft lohnt sich ohnehin: Das Ploppen des Balls ist hörbar, und Ruhezeiten – je nach Gemeinde und Hausordnung unterschiedlich geregelt – gelten auch für Sport im Garten." },
   ],
 
   sources: [

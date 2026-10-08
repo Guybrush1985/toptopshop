@@ -15,9 +15,9 @@ export default {
   eyebrow: "Tennis solo · Tennistrainer",
   h1: "Die 3 besten Tennistrainer mit Ball an der Schnur 2026",
   lead:
-    "Eine schwere Bodenplatte, ein Gummiseil, ein Ball – mehr braucht es nicht für Schlagtraining im Garten, im Park oder auf dem Parkplatz. Wir zeigen die drei besten Sets.",
+    "Eine schwere Bodenplatte, ein Gummiseil, ein Ball – mehr braucht es nicht für Schlagtraining im Garten, im Hof oder auf einer freien Wiese. Wir zeigen drei Sets nach unserer Einschätzung.",
   answer:
-    "Unsere beste Gesamtwahl ist das [**TENIX Tennis-Trainer-Set mit Power-Grip-System**](produkt:1), weil die Basis mit Metallkern ohne Wasserfüllung sicher steht. Am günstigsten ist der [**PerGar Tennistrainer**](produkt:2) mit befüllbarer Basis; für Familien mit zwei Spielern ist das [**Hudora Twistball Set**](produkt:3) die beste Wahl.",
+    "Unsere beste Gesamtwahl ist das [**TENIX Tennis-Trainer-Set mit Power-Grip-System**](produkt:1), weil die Basis mit Metallkern laut Hersteller ohne Wasserfüllung stabil steht. Am günstigsten ist der [**PerGar Tennistrainer**](produkt:2) mit befüllbarer Basis; für Familien mit zwei Spielern ist das [**Hudora Twistball Set**](produkt:3) nach unserer Einschätzung die beste Wahl.",
 
   top3Title: "Unsere Top 3 Tennistrainer",
   top3Intro:
@@ -32,7 +32,7 @@ export default {
   ],
 
   method:
-    "Grundlage sind Hersteller- und Händlerangaben (Basis, Seillänge, Lieferumfang) sowie Bewertungen auf Vergleichsportalen. Stiftung Warentest hat diese Produktgruppe nicht getestet. Die Bewertung ist eine redaktionelle Einschätzung in vier gewichteten Kriterien von 0 bis 10.",
+    "Wir testen die Produkte nicht selbst. Grundlage sind Hersteller- und Händlerangaben (Basis, Seillänge, Lieferumfang) sowie Bewertungen auf Vergleichsportalen. Ein Test der Stiftung Warentest zu dieser Produktgruppe ist uns nicht bekannt. Die Bewertung ist eine redaktionelle Einschätzung in vier gewichteten Kriterien von 0 bis 10.",
 
   products: [
     {
@@ -46,13 +46,13 @@ export default {
       ratings: { stand: 9.0, training: 8.0, haltbar: 8.0, preis: 7.5 },
       bestFor: "Regelmäßiges Solo-Training",
       verdict:
-        "Die beste Basis im Vergleich: Ein massiver Metallkern und eine haftende Unterseite halten das Set laut Hersteller auf verschiedenen Böden – ganz ohne Wasser oder Sand.",
+        "Nach unserer Einschätzung die beste Basis im Vergleich: Ein massiver Metallkern und eine haftende Unterseite halten das Set laut Hersteller auf verschiedenen Böden – ganz ohne Wasser oder Sand.",
       features: [
         "Massiver Metallkern mit Power-Grip-Unterseite, keine Wasserfüllung nötig (Herstellerangabe)",
         "Robustes Gummiseil, Tennisball und Ersatzball im Lieferumfang (Händlerangabe)",
         "QR-Code in der Anleitung führt zu Übungsvideos (Händlerangabe)",
       ],
-      pros: ["Sofort einsatzbereit", "Steht stabil ohne Befüllen", "Übungsvideos für den Einstieg"],
+      pros: ["Sofort einsatzbereit", "Laut Hersteller stabil ohne Befüllen", "Übungsvideos für den Einstieg"],
       cons: ["Teurer als einfache Plastikbasen", "Bei Starkregen nicht draußen lassen"],
       specs: { bauform: "Bodenplatte", basis: "Metallkern, ohne Füllung", seil: "Gummiseil", baelle: "1 + 1 Ersatzball", spieler: "1" },
       asin: "B0D6NPSN4N",
@@ -69,11 +69,11 @@ export default {
       ratings: { stand: 7.0, training: 7.5, haltbar: 6.5, preis: 9.0 },
       bestFor: "Ausprobieren, Urlaub, Park",
       verdict:
-        "Der günstige Einstieg: Die leichte Kunststoffbasis wird mit Sand oder Wasser befüllt und steht dann erstaunlich fest – leer passt sie in jede Tasche.",
+        "Der günstige Einstieg: Die leichte Kunststoffbasis wird mit Sand oder Wasser befüllt und steht dann laut Händler fest – leer passt sie in viele Taschen.",
       features: [
         "Kunststoffbasis zum Befüllen mit Sand oder Wasser (Händlerangabe)",
-        "Gummi-Elastikseil mit Tennisball für das Einzeltraining",
-        "Sehr leicht im leeren Zustand",
+        "Gummi-Elastikseil mit Tennisball für das Einzeltraining (Händlerangabe)",
+        "Sehr leicht im leeren Zustand (Händlerangabe)",
       ],
       pros: ["Sehr günstig", "Leer extrem leicht", "Gut für unterwegs"],
       cons: ["Steht erst befüllt sicher", "Seil und Ball verschleißen schneller"],
@@ -120,7 +120,7 @@ export default {
       file: "bester-tennistrainer-ball-an-schnur-2026-bewertung.svg",
       title: "Die 3 besten Tennistrainer mit Ball an der Schnur 2026",
       alt: "Balkendiagramm: Bewertung der drei besten Tennistrainer 2026 in Standfestigkeit, Trainingswert, Haltbarkeit und Preis-Leistung",
-      caption: "Unsere Bewertung je Kriterium. TENIX steht am sichersten, PerGar ist am günstigsten, Twistball macht zu zweit am meisten Spaß.",
+      caption: "Unsere Bewertung je Kriterium. TENIX punktet bei der Standfestigkeit, PerGar ist am günstigsten, Twistball macht zu zweit am meisten Spaß.",
     },
     steps: {
       kind: "steps",
@@ -130,7 +130,7 @@ export default {
       alt: "Infografik: Tennistrainer mit Ball an der Schnur aufstellen – Platz, Basis, Seil, Schläge, Verstauen",
       caption: "Mit diesen Schritten steht die Basis sicher und das Seil hält länger.",
       steps: [
-        { title: "Freien Platz wählen", text: "Rund 8 × 4 m ohne Hindernisse, Menschen oder Autos in Schlagrichtung." },
+        { title: "Freien Platz wählen", text: "Rund 8 × 4 m ohne Hindernisse, Menschen, Fenster oder Autos in Schlagrichtung." },
         { title: "Basis sichern", text: "Befüllbare Basen ganz mit Sand oder Wasser füllen, auf ebenem Boden aufstellen." },
         { title: "Seil ausrollen", text: "Seil ohne Knoten ausrollen und auf Risse prüfen – ein gerissenes Seil schnellt zurück." },
         { title: "Locker anfangen", text: "Erst mit halber Kraft schlagen, bis die Flugbahn vertraut ist." },
@@ -147,11 +147,11 @@ export default {
         id: "bester-tennistrainer",
         h2: "Welcher Tennistrainer mit Ball an der Schnur ist der beste?",
         blocks: [
-          { quick: "Für regelmäßiges Training ist das [TENIX-Set](produkt:1) die beste Wahl, weil die Basis ohne Füllung sicher steht. Zum Ausprobieren reicht der [PerGar Tennistrainer](produkt:2), für Familien macht das [Hudora Twistball Set](produkt:3) am meisten Spaß." },
+          { quick: "Für regelmäßiges Training ist das [TENIX-Set](produkt:1) nach unserer Einschätzung die beste Wahl, weil die Basis laut Hersteller ohne Füllung stabil steht. Zum Ausprobieren reicht der [PerGar Tennistrainer](produkt:2), für Familien macht das [Hudora Twistball Set](produkt:3) am meisten Spaß." },
           { first: "Der Tennistrainer mit Ball an der Schnur ist das kleinste Trainingsgerät im Tennis. Der Ball hängt an einem mehrere Meter langen Gummiseil, das an einer schweren Bodenplatte befestigt ist. Nach dem Schlag fliegt der Ball weg, wird vom Seil gebremst und kommt zurück – ein endloser Ballwechsel ohne Partner und ohne Wand." },
-          { p: "Seine Stärke ist die Mobilität: Das Set passt in jede Sporttasche und funktioniert auf Rasen, Pflaster und Asphalt. Die Grenze: Der Ball kommt nicht wie im Spiel zurück, sondern oft hoch und mit wechselndem Tempo. Für Schwungtechnik, Treffpunkt und Fitness ist das ideal, für Taktik und Platzgefühl weniger." },
+          { p: "Seine Stärke ist die Mobilität: Das Set passt in die meisten Sporttaschen und funktioniert auf Rasen, Pflaster und Asphalt. Die Grenze: Der Ball kommt nicht wie im Spiel zurück, sondern oft hoch und mit wechselndem Tempo. Für Schwungtechnik, Treffpunkt und Fitness ist das ideal, für Taktik und Platzgefühl weniger." },
           { figure: "scores" },
-          { quote: "Der kleinste Trainingspartner im Tennis passt in jede Sporttasche." },
+          { quote: "Der kleinste Trainingspartner im Tennis passt in fast jede Sporttasche." },
         ],
       },
       {
@@ -165,7 +165,7 @@ export default {
               head: ["Bauform", "Stärken", "Schwächen"],
               rows: [
                 ["**Bodenplatte mit Gummiseil**", "Mobil, Vor- und Rückhand, auf jedem Boden", "Ball kommt unregelmäßig zurück"],
-                ["**Twistball an der Stange**", "Zu zweit spielbar, für Kinder ideal", "Flugbahn wenig tennisnah, braucht Rasen"],
+                ["**Twistball an der Stange**", "Zu zweit spielbar, bei Kindern beliebt", "Flugbahn wenig tennisnah, braucht Rasen"],
               ],
             },
           },
@@ -206,23 +206,23 @@ export default {
               "**Kinder:** Mit einem leichten Kinderschläger und halber Kraft beginnen, Erwachsene in der Nähe.",
             ],
           },
-          { callout: { title: "Sicherheit", warn: true, text: "Ein reißendes Gummiseil kann zurückschnellen. Seil regelmäßig prüfen und bei Rissen sofort tauschen. Nie in Richtung von Menschen oder Fahrzeugen schlagen." } },
+          { callout: { title: "Sicherheit", warn: true, text: "Ein reißendes Gummiseil kann zurückschnellen, und der Ball kann unerwartet abgelenkt werden – ein Treffer im Gesicht oder am Auge kann verletzen. Seil regelmäßig prüfen und bei Rissen sofort tauschen. Nie in Richtung von Menschen, Fenstern oder Fahrzeugen schlagen und nicht in der Nähe von Straßen oder Parkverkehr trainieren. Kinder nur unter Aufsicht spielen lassen; Seile und Schnüre außerhalb der Reichweite von Kleinkindern aufbewahren (Strangulationsgefahr). Alters- und Sicherheitshinweise des Herstellers beachten." } },
         ],
       },
     ],
   },
 
   faqs: [
-    { q: "Welcher Tennistrainer mit Ball an der Schnur ist der beste?", a: "Unsere beste Gesamtwahl ist das TENIX-Set, weil seine Basis mit Metallkern ohne Wasser oder Sand sicher steht. Günstiger ist der PerGar Tennistrainer, für zwei Spieler das Hudora Twistball Set." },
+    { q: "Welcher Tennistrainer mit Ball an der Schnur ist der beste?", a: "Unsere beste Gesamtwahl ist das TENIX-Set, weil seine Basis mit Metallkern laut Hersteller ohne Wasser oder Sand stabil steht. Günstiger ist der PerGar Tennistrainer, für zwei Spieler das Hudora Twistball Set." },
     { q: "Bringt ein Tennistrainer mit Ball an der Schnur etwas?", a: "Ja, für Schwungtechnik, Treffpunkt und Fitness. Er ersetzt aber kein Spiel auf dem Platz, weil der Ball unregelmäßiger zurückkommt als im echten Ballwechsel." },
-    { q: "Wie viel Platz braucht ein Tennistrainer?", a: "Rund acht Meter in Schlagrichtung und vier Meter in der Breite reichen, weil das Seil den Ball abbremst. Eine Wiese, ein Hof oder ein leerer Parkplatz genügen." },
-    { q: "Womit befüllt man die Basis?", a: "Mit Sand oder Wasser. Sand ist schwerer und friert im Winter nicht. Basen mit Metallkern brauchen keine Füllung." },
+    { q: "Wie viel Platz braucht ein Tennistrainer?", a: "Rund acht Meter in Schlagrichtung und vier Meter in der Breite reichen meist, weil das Seil den Ball abbremst. Eine Wiese oder ein Hof genügen; auf öffentlichen Flächen gelten die örtlichen Regeln." },
+    { q: "Womit befüllt man die Basis?", a: "Mit Sand oder Wasser, je nach Herstellerangabe. Sand ist schwerer; Wasser kann im Winter gefrieren und die Basis beschädigen. Basen mit Metallkern brauchen laut Hersteller keine Füllung." },
     { q: "Ist ein Tennistrainer für Kinder geeignet?", a: "Ja, mit Aufsicht und leichtem Schläger. Für kleinere Kinder ist der Twistball an der Stange oft die bessere Wahl, weil er langsamer und berechenbarer kreist." },
   ],
 
   sources: [
     { label: "Hudora: Twistball", url: "https://www.hudora.de/" },
-    { label: "testberichte.de: TENIX Tennis-Trainer-Set", url: "https://www.testberichte.de/sportartikel/tenix-tennis-trainer-set-mit-power-grip-system-tennis-trainingsgeraet-fuer-kinder-erwachsene-tennis-alleine-spielen-im-hof-im-park-auf-dem.html" },
+    { label: "testberichte.de: Vergleichsportal mit Nutzerbewertungen", url: "https://www.testberichte.de/" },
   ],
 
   related: [
