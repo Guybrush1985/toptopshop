@@ -158,6 +158,12 @@ Mindestumfang je Kategorie: **≥ 1.000 Wörter** (nicht künstlich auffüllen),
   Rückrufe); die Seite `/kinder-spielplatz/indoor/schaukeltuch/` empfiehlt Hängesitze und Hängehöhlen mit Warnabschnitt.
 - 2026-10-08: Kippschutz ausführlich nur auf `/kinderschrank/#aufstellen-sichern`; Bücherregal und Sideboard verlinken
   dorthin. ASINs, die sich per Suche nicht eindeutig bestätigen lassen, bleiben weg (nur `query`).
+- 2026-10-08: Neuer Bereich „LEGO® ausstellen“ (`/lego-sammler/`, URLs flach) mit 6 Kategorien: Vitrinen für Sets, Minifiguren-
+  Vitrinen, Speed-Champions-Wandrahmen, Technic-Vitrinen, Speed-Champions-Vitrinen, LED-Lichtsets. Auf Wunsch des Nutzers
+  ausschließlich Produkte von BrickZoneHub (Awin 121692, Status `joined`, britischer Shop, Preise in GBP, liefert laut FAQ nach
+  Deutschland). BrickZoneHub-Ware gibt es nicht bei Amazon. Regale führt BrickZoneHub nicht – daher keine Regal-Seite.
+  brickzonehub.co.uk ist aus der Arbeitsumgebung nicht abrufbar; Produktdaten stammen aus der Websuche (Shop-Seiten) und
+  den Brick-Fanatics-Reviews. LEGO-Markenhinweis („nicht von LEGO gesponsert oder autorisiert“) auf der Bereichsseite.
 - 2026-10-08: Neuer Bereich Garten & Grundstück (gemeinsam mit Laubbläsern). Kategorie `/elektrische-schneefraese/`:
   Top 3 nur Akku-Geräte (einstufig, für Pflaster/Asphalt), Top 5 deckt Kabel, Benzin (zweistufig) und Schneewanne ab.
   Unabhängige Labortests für Schneefräsen gibt es nicht; Einordnung nach Herstellerangaben, Hinweis in der Methodik.

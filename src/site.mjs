@@ -23,6 +23,7 @@ export const site = {
       radwelt: { name: "RADWELT-Shop", mid: 15088, domain: "radwelt-shop.de" },
       fahrradlagerverkauf: { name: "Fahrradlagerverkauf", mid: 39644, domain: "fahrradlagerverkauf.com" },
       fahrrad24: { name: "fahrrad24", mid: 13691, domain: "fahrrad24.de" },
+      brickzonehub: { name: "BrickZoneHub", mid: 121692, domain: "brickzonehub.co.uk" },
     },
   },
 
@@ -300,6 +301,22 @@ export const areas = [
   <p>Ob Partykeller, Dachboden oder ausgebaute Garage: Ein Gaming-Room lebt vom Mix. Neben Konsole und PC sorgen Kicker, Airhockey oder Dartautomat dafür, dass auch Gäste mitspielen, die keinen Controller in die Hand nehmen wollen. Retro-Automaten und Flipper bringen Spielhallen-Gefühl, Beamer und Sim-Racing-Cockpit das große Kino.</p>
   <p>Für jede Kategorie zeigen wir drei Empfehlungen und erklären, worauf es ankommt: Maße und Gewicht, Lautstärke, Strombedarf und was im Alltag wirklich Spaß macht.</p>
   <aside class="callout"><p class="ct">Planungstipp</p><p>Miss den Raum, bevor du kaufst: Billardtische, Kicker und Airhockey brauchen rundherum Platz zum Spielen – oft mehr als doppelt so viel wie das Gerät selbst.</p></aside>`,
+  },
+  {
+    slug: "lego-sammler",
+    name: "LEGO® ausstellen",
+    short: "LEGO-Sammler",
+    intro:
+      "Fertig gebaut – und jetzt? Acrylvitrinen für große Sets, Wandvitrinen für Minifiguren, Wandrahmen und Vitrinen für Speed Champions und Technic-Autos sowie LED-Lichtsets: So präsentieren Sammler ihre Modelle staubfrei und gut sichtbar.",
+    metaTitle: "LEGO ausstellen: Vitrinen, Wandrahmen & LED-Licht im Überblick",
+    metaDescription:
+      "Die besten Vitrinen, Minifiguren-Wandvitrinen, Wandrahmen und LED-Lichtsets für LEGO-Sammler – je Kategorie drei Empfehlungen mit Kaufberatung.",
+    article: `
+  <h2>Sets zeigen statt verstauben lassen</h2>
+  <p class="quick">Wer LEGO-Sets ausstellen will, entscheidet zuerst zwischen geschlossener Vitrine (staubdicht, braucht Stellfläche) und Wandrahmen (spart Platz, schützt aber nicht vollständig vor Staub). LED-Lichtsets machen aus einem Modell am Abend einen Blickfang.</p>
+  <p>Große Sets wie der Millennium Falcon oder die Titanic sind über einen Meter lang und sammeln auf offenen Regalen schnell Staub, der sich aus den Fugen kaum wieder entfernen lässt. Eine Vitrine aus klarem Acryl hält ihn fern und schützt vor neugierigen Händen. Minifiguren und kleine Autos wirken dagegen am besten in Reihen an der Wand.</p>
+  <p>Unsere Empfehlungen stammen vom britischen Spezialshop BrickZoneHub, der Vitrinen, Rahmen und Lichtsets passgenau für einzelne Sets anbietet. Die Produkte sind Zubehör von Drittanbietern; LEGO-Sets sind nicht enthalten. Die Preise stehen im Shop in Pfund, die Lieferung nach Deutschland dauert laut Shop länger als innerhalb Großbritanniens.</p>
+  <aside class="callout"><p class="ct">Hinweis</p><p>LEGO® ist eine Marke der LEGO Gruppe, die diese Seite weder sponsert noch autorisiert. Die vorgestellten Vitrinen, Rahmen und Lichtsets sind keine offiziellen LEGO-Produkte.</p></aside>`,
   },
   {
     slug: "garten-grundstueck",

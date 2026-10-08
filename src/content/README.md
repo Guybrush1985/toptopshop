@@ -58,7 +58,8 @@ KATEGORIE
   visual: { kind: "foam" | "drops" | "oilspray" | "lotion" | "gel" | "device" | "station" | "panel" | "canister"
                 | "mask" | "radio" | "handheld" | "pack" | "roll" | "lamp" | "stove" | "cylinder"
                 | "triangle" | "slide" | "climbwall" | "ladder" | "swing" | "tent" | "mat" | "tower" | "sandbox" | "zipline"
-                | "bouncy" | "waterslide" | "shelf" | "wardrobe" | "kidtable" | "rug" | "sideboard" | "cloth" | "snowblower", tone: "forest" | "green" | "mint" },
+                | "bouncy" | "waterslide" | "shelf" | "wardrobe" | "kidtable" | "rug" | "sideboard" | "cloth"
+                | "vitrine" | "frame" | "minifig" | "ledkit" | "snowblower", tone: "forest" | "green" | "mint" },
   image: { src, alt, width, height },   // optional: echtes Produktfoto statt Symbolbild
   priceTier: 1 | 2 | 3,                 // €, €€, €€€ – keine festen Preise (Amazon-Richtlinien)
   ratings: { <kriterium>: 0–10, … },    // Gesamtnote wird automatisch gewichtet berechnet
@@ -68,7 +69,7 @@ KATEGORIE
   asin: "B0…",                          // optional: Direktlink; sonst Amazon-Suche über `query`
   query: "…",
   // ODER Awin-Partnershop statt Amazon:
-  shop: "radwelt" | "fahrradlagerverkauf" | "fahrrad24",  // Schlüssel aus site.awin.merchants
+  shop: "radwelt" | "fahrradlagerverkauf" | "fahrrad24" | "brickzonehub",  // Schlüssel aus site.awin.merchants
   url: "https://www.radwelt-shop.de/…",                    // Produktseite beim Händler
   // Nur Top 5: `where: "anbieter.de"` statt Link, wenn es keine Amazon-/Awin-Quelle gibt
 }
