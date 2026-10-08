@@ -1,85 +1,87 @@
 ---
 name: neue-kategorie
-description: Neue Kategorie oder neuen Bereich auf toptop.shop anlegen – Recherche, Top 3/Top 5 mit Amazon-ASINs oder Awin-Händlern, Content nach Briefing, Build, Prüfung, PR. Verwenden, wenn der Nutzer eine neue Kategorie, Produktgruppe oder einen neuen Bereich auf toptop.shop möchte (z. B. „lege eine Kategorie Luftreiniger an“).
+description: Orchestrator für den Ausbau von toptop.shop mit einem Agententeam (Trend-Scout, Strukturierer, Produkt-Rechercheur, Illustrator, Redakteur, Prüfer). Verwenden, wenn der Nutzer neue Nischen/Trends finden, eine neue Kategorie, Produktgruppe oder einen neuen Bereich anlegen oder bestehende Kategorien ausbauen möchte (z. B. „finde neue Nischen im Bereich Kinder“, „lege eine Kategorie Luftreiniger an“).
 ---
 
-# Neue Kategorie auf toptop.shop anlegen
+# Orchestrator: toptop.shop mit dem Agententeam ausbauen
 
-Grundlage: `docs/BRIEFING.md` (Positionierung, Seitenaufbau, Qualität, Monetarisierung, Design, Recht)
-und `src/content/README.md` (Content-Modell). Beides zuerst lesen.
+Der Nutzer spricht **nur mit dir**, dem Orchestrator (Hauptsitzung). Du verteilst die Arbeit über das
+`Agent`-Tool an die Fachagenten in `.claude/agents/`, sammelst die Ergebnisse, holst an den Freigabepunkten
+die Entscheidung des Nutzers ein und lieferst am Ende einen PR. Die Fachagenten reden nie direkt mit dem Nutzer.
 
-## 1. Zuschnitt klären
+Ergebnis ist eine Kategorie **wie die bestehenden** (Content-Modell `src/content/README.md`, Symbolbilder,
+Infografiken `scores`/`steps`, Amazon-/Awin-Links) – kein neues Layout.
 
-- Passt die Kategorie in einen bestehenden Bereich (`areas` in `src/site.mjs`) oder braucht es einen neuen?
-  Neuer Bereich: Eintrag mit `slug`, `name`, `short`, `intro`, `metaTitle`, `metaDescription`, `article`.
-- URL-Slug nach Suchintent: `beste-…` / `bestes-…-fuer-…`. Bereiche mit Unterbereichen (`areas[].groups`) nutzen `group` und verschachtelte URLs (`/bereich/gruppe/slug/`). Unterteilungen (z. B. nach Personenzahl,
-  Größe, Budget) als eigene Kategorien anlegen, wenn sie eigene Suchanfragen haben.
-- Nur nachfragen, wenn der Zuschnitt wirklich unklar ist.
+Grundlage für alle: `CLAUDE.md`, `docs/BRIEFING.md`, `src/content/README.md`.
 
-## 2. Recherche (WebSearch)
+## Das Team
 
-- Unabhängige Tests zuerst: Stiftung Warentest, Öko-Test, ADAC, Fachmagazine. Datum/Heft notieren.
-- Rückrufe, Verkaufsstopps, Sicherheitswarnungen prüfen – betroffene Produkte nicht empfehlen.
-- Rechtslage/Sicherheitsregeln bei sensiblen Themen (Gesundheit, Kinder, Verkehr).
-- Je Produkt nur belegbare Fakten sammeln (Herstellerangaben kennzeichnen). Widersprüche nennen statt glätten.
+| Agent (`subagent_type`) | Aufgabe | Ergebnis |
+|---|---|---|
+| `trend-scout` | Nischen mit wachsender Nachfrage und guter Produktqualität finden | `research/trends/<datum>-<thema>.md` |
+| `strukturierer` | Bereich, Unterbereiche, Kategorien, Suchintents, Rollen, FAQ-Kandidaten, Links | `research/<thema>/struktur.json` |
+| `produkt-rechercheur` | je Kategorie: Tests, Rückrufe, Top 3/Top 5, ASINs, Awin, Bewertungen mit Quellen | `research/<thema>/<slug>/produkte.json` |
+| `illustrator` | Symbolbilder (`visual.kind`, neue Formen), Steps-Grafik, Alt-Texte, OG-Bilder | `research/<thema>/<slug>/bilder.json` |
+| `redakteur` | Kategorie-Datei schreiben, Build grün | `src/content/categories/<slug>.mjs` |
+| `pruefer` | unabhängige Prüfung von Fakten, Links, Regeln, Technik | `research/<thema>/<slug>/pruefbericht.md` |
 
-## 3. Bezugsquelle je Produkt
+Jeder Agent startet ohne Kontext: Gib im Prompt immer Thema, Slug(s), Pfade der Eingabedateien, das heutige
+Datum und Besonderheiten aus dem Gespräch mit (z. B. Wünsche des Nutzers, ausgeschlossene Marken).
 
-Nur **Amazon** oder **Awin-Händler** (siehe `CLAUDE.md`). **Feste Reihenfolge je Produkt:**
+## Ablauf
 
-1. **Amazon zuerst prüfen.** Eindeutige, aktive ASIN gefunden → Amazon-Link, auch wenn es Awin-Angebote gibt.
-2. **Sonst Awin-Händler mit bestehender Freischaltung** (`joined` laut Awin-API bzw. schon in
-   `site.awin.merchants` genutzt).
-3. **Sonst nicht eigenmächtig neue Händler einbauen:** entweder ein gleichwertiges Produkt aus 1./2. wählen
-   (transparent begründen) oder dem Nutzer den neuen Awin-Händler mit Bewerbungstext vorschlagen und fragen.
+### Einstieg wählen
+- „Finde neue Nischen / Trends …“ → ab **Schritt 1**.
+- „Lege Kategorie/Bereich X an“ → ab **Schritt 2** (kein Scout).
+- „Baue Kategorie X aus / aktualisiere X“ → `produkt-rechercheur` mit Auftrag „Aktualisierung“, dann ab Schritt 4.
 
-- **Amazon:** exakte amazon.de-ASIN suchen (WebSearch mit `allowed_domains: ["amazon.de"]`), nur eindeutige,
-  aktive Listings. Kein Treffer → `query` mit exaktem Namen und dem Nutzer melden.
-- **Awin:** Produktseite beim Händler suchen (WebSearch mit den Händler-Domains), `shop` + `url` eintragen.
-  Neue Händler: Awin-Programm und `mid` prüfen, in `site.awin.merchants` ergänzen.
-- **Awin-Status prüfen**, wenn `api.awin.com` erreichbar ist (Token wird vom Proxy als Bearer gesetzt):
-  `curl -sS "https://api.awin.com/publishers/3117711/programmes?relationship=joined"` (analog `pending`,
-  `notjoined`). Händler ohne Freischaltung dem Nutzer melden und je einen Bewerbungstext vorschlagen
-  (Website, Zielgruppe, Kategorie, Einbindung). Nie selbst Bewerbungen abschicken.
-- Produktnamen an die Bezeichnung beim Händler/Amazon anpassen.
+### 1. Trend-Scout → ✋ Freigabe Nischenauswahl
+`trend-scout` mit Themenfeld (Standard: Sport, Kinder, Familie, Outdoor). Preis egal, Qualität wichtig.
+Dem Nutzer die Shortlist kompakt zeigen (Tabelle mit Punkten, Empfehlung) und fragen, welche Nischen
+umgesetzt werden. **Ohne Auswahl nicht weitermachen.**
 
-## 4. Auswahl & Bewertung
+### 2. Struktur
+`strukturierer` für das gewählte Thema. Ergebnis selbst plausibilisieren (Slugs eindeutig, keine
+Überschneidung mit `src/content/categories/`). Nur bei echten Zuschnittsfragen (`offen`) den Nutzer fragen,
+sonst weiter.
 
-- Top 3 mit Rollen (Gesamtwahl / Preis-Leistung / Premium oder passende Spezialrolle).
-- 4 Kriterien mit Gewichten (Summe 1), Bewertungen 0–10; Platz 1 muss die höchste Gesamtnote haben.
-- Top 5 mit **anderem Suchintent** als die Top 3; Produkte dürfen aus anderen Kategorien stammen.
-- Preisklassen statt Preise; bei teuren Produkten eigene `priceTiers` mit Euro-Spannen.
+### 3. Recherche und Bilder (parallel)
+In **einer** Nachricht mehrere `Agent`-Aufrufe starten: je Kategorie ein `produkt-rechercheur`, dazu ein
+`illustrator` für alle Kategorien des Themas (Formen anhand `produktart`; Steps-Grafik kann er nach der
+Recherche ergänzen). Bei vielen Kategorien in Wellen à ca. 5 arbeiten.
 
-## 5. Content schreiben
+**✋ Freigabe nur bei Bedarf:** Melden Rechercheure, dass ein Produkt nur über einen **nicht freigeschalteten
+Awin-Händler** zu bekommen ist, dem Nutzer Händler, Awin-ID und Bewerbungstext vorlegen und fragen: bewerben
+(und Produkt vorerst ersetzen) oder gleichwertiges Amazon-/Awin-Produkt nehmen. Nie selbst bewerben.
 
-Datei `src/content/categories/<slug>.mjs` nach Content-Modell (bestehende Kategorie als Vorlage kopieren).
+### 4. Texte
+Je Kategorie ein `redakteur` (parallel, sobald `produkte.json` und `bilder.json` vorliegen). Neue Bereiche in
+`src/site.mjs` vorher von **einem** Redakteur anlegen lassen oder selbst anlegen, damit parallele Agenten nicht
+gleichzeitig dieselbe Datei ändern. Danach selbst `node build.mjs` – muss fehlerfrei durchlaufen.
+Danach `illustrator` für die OG-Vorschaubilder (`scripts/og-images.mjs`).
 
-- „Kurz gesagt“ (`answer`) nennt alle drei Produkte als `[**Name**](produkt:1)` usw.
-- Jede H2 beginnt mit einem `quick`-Block (direkte Antwort), dann Erklärung.
-- Zwei Figuren: `scores` (automatisch) und `steps` (Anleitung/Checkliste), beide im Text eingebunden.
-- Mind. 5 FAQs aus echten Suchfragen, Quellenliste, kontextuelle `related`-Links.
-- Kein Duplicate Content zwischen ähnlichen Kategorien – eigene Schwerpunkte setzen.
-- Optional: `riders` (Personen-Piktogramm), `visual.kind` passend wählen
-  (`foam`, `drops`, `oilspray`, `lotion`, `gel`, `longtail`, `box`, `trike`, `device`, `station`, `panel`, `canister`, `mask`, `radio`, `handheld`, `pack`, `roll`, `lamp`, `stove`, `cylinder`) – neue Produktarten bei Bedarf
-  in `src/templates/visuals.mjs` ergänzen.
+### 5. Prüfung
+`pruefer` für alle neuen Kategorien. Korrekturaufträge an den genannten Agenten zurückgeben (gezielt, mit
+Fundstelle) und erneut prüfen lassen – höchstens zwei Runden, danach Rest als offenen Punkt melden.
+Kleine eindeutige Korrekturen (Tippfehler, Link) darfst du selbst machen.
 
-## 6. Bauen & prüfen
-
-```sh
-node build.mjs                                  # muss ohne Fehler durchlaufen
-ln -sfn <playwright node_modules> node_modules  # nur lokal für Vorschaubilder
-CHROMIUM_PATH=/opt/pw-browsers/chromium node scripts/og-images.mjs
-```
-
-- Seiten im Headless-Chromium bei 1440 px und 390 px ansehen: keine Konsolenfehler, keine 404,
-  kein horizontales Scrollen, Bilder/Icons korrekt.
-- JSON-LD parsebar, genau eine H1, keine Sprünge in der Überschriften-Hierarchie.
-- Neue Netzwerke/Tracking → Datenschutz und Impressum anpassen.
-
-## 7. Abschluss
-
-- Commit auf den Arbeitsbranch, PR gegen `main` mit Tabelle der Top 3 und offenen Punkten.
-- Mergen nur, wenn der Nutzer es für diese Änderung freigegeben hat; danach Deploy-Now-Lauf prüfen.
-- Dem Nutzer berichten: Auswahl, fehlende ASINs, nicht freigeschaltete Awin-Programme (mit Bewerbungstext),
-  Abweichungen vom Briefing mit Begründung, Quellen.
+### 6. Abschluss → ✋ Freigabe Merge
+- `node build.mjs`, dann Commit auf den Arbeitsbranch (inkl. `research/`), Push, PR gegen `main` mit
+  Tabelle der Top 3 je Kategorie und offenen Punkten.
+- Mergen nur nach Freigabe des Nutzers; danach Deploy-Now-Lauf prüfen.
+- Bericht an den Nutzer (kurz, auf Deutsch): umgesetzte Kategorien, Auswahl, fehlende ASINs,
+  nicht freigeschaltete Awin-Programme mit Bewerbungstext, Abweichungen vom Briefing, Prüfergebnis.
 - Neue Grundsatzentscheidungen in `docs/BRIEFING.md` → „Entscheidungen & Erfahrungen“ nachtragen.
+
+## Feste Regeln (gelten für alle Agenten, im Prompt bei Bedarf wiederholen)
+
+- Bezugsquellen: **1. Amazon** (eindeutige, aktive ASIN) → **2. Awin-Händler mit Freischaltung** →
+  **3. nur nach Rückfrage** neuer Awin-Händler oder gleichwertiges Produkt aus 1./2.
+- Für jedes Produkt (Top 3 und Top 5) die amazon.de-ASIN recherchieren; nie raten, sonst `query` + Meldung.
+- Keine festen Preise, keine Amazon-Produktbilder, keine externen Ressourcen, keine erfundenen Bewertungen.
+- Nur belegbare Aussagen: Herstellerangaben kennzeichnen, Tests mit Institut und Heft.
+- Produkte mit Rückrufen/Verkaufsstopps nicht empfehlen.
+- Awin-API nur lesend: `curl -sS "https://api.awin.com/publishers/3117711/programmes?relationship=joined"`.
+- Symbolbilder: vorhandene `visual.kind`-Werte stehen in `src/content/README.md` und `src/templates/visuals.mjs`;
+  neue Formen ergänzt der Illustrator.
+- Neue Netzwerke/Tracking → Datenschutz und Impressum vor dem Livegang anpassen.
