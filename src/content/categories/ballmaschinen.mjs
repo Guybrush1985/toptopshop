@@ -247,6 +247,8 @@ export default {
     { slug: "zubehoer-ballwand", text: "Ballsammler und drucklose Bälle – unverzichtbar für die Ballmaschine." },
     { slug: "mobile-tenniswand-rebounder", text: "Günstiger und ohne Akku: freistehende Rebounder." },
     { slug: "tennistrainer-ball-an-schnur", text: "Training auf kleinstem Raum: Ball an der Schnur." },
+    { slug: "padel-ballmaschinen", text: "Für den Padel-Court: Ballmaschinen mit eigenen Padel-Modi." },
+    { slug: "tennis-trainingshilfen", text: "Technik gezielt verbessern: Topspin-, Sweet-Spot- und Aufschlagtrainer." },
     { area: "tennis-ballwand", text: "Alle Ratgeber rund um das Tennistraining ohne Partner." },
   ],
 };

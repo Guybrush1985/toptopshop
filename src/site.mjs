@@ -184,7 +184,7 @@ export const areas = [
     name: "Tennis-Ballwand & Solo-Training",
     short: "Tennis solo",
     intro:
-      "Allein trainieren, ohne Partner und ohne gebuchten Platz: mobile Rebounder, feste Prallwände, Ballwände für Kinder, Tennistrainer mit Ball an der Schnur, Ballmaschinen und das passende Zubehör.",
+      "Allein trainieren, ohne Partner und ohne gebuchten Platz: mobile Rebounder, feste Prallwände, Ballwände für Kinder, Tennistrainer mit Ball an der Schnur, Lernhelfer für die Technik, Ballmaschinen für Tennis und Padel und das passende Zubehör.",
     metaTitle: "Tennis allein trainieren: Ballwand, Rebounder & Ballmaschine",
     metaDescription:
       "Die besten Tenniswände, Rebounder, Ballmaschinen und Tennistrainer für das Training ohne Partner – je Kategorie drei Empfehlungen mit Kaufberatung.",
