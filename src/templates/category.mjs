@@ -1,6 +1,6 @@
 import { site, areas } from "../site.mjs";
 import { page, crumbs } from "./layout.mjs";
-import { esc, md, productUrl, shopName, dateDe, scoreDe, absUrl, PRICE_TIERS } from "./util.mjs";
+import { esc, md, productUrl, shopName, dateDe, scoreDe, absUrl, catPath, groupPath, PRICE_TIERS } from "./util.mjs";
 import { productVisual } from "./visuals.mjs";
 import { ridersBadge } from "./icons.mjs";
 
@@ -93,7 +93,7 @@ function figure(cat, key) {
           .map((p) => `<li><span><small>${pad(p.rank)} · ${scoreDe(p.score)}</small>${esc(p.name)}</span>${buy(p)}</li>`)
           .join("")}</ul>`
       : "";
-  return `<figure class="fig"><img src="/${cat.slug}/${f.file}" alt="${esc(f.alt)}" width="${f.width}" height="${f.height}" loading="lazy" decoding="async"><figcaption>${md(f.caption)}</figcaption>${links}</figure>`;
+  return `<figure class="fig"><img src="${catPath(cat)}${f.file}" alt="${esc(f.alt)}" width="${f.width}" height="${f.height}" loading="lazy" decoding="async"><figcaption>${md(f.caption)}</figcaption>${links}</figure>`;
 }
 
 /** Markdown mit aufgelösten Produktlinks (produkt:N). */
@@ -189,7 +189,13 @@ function related(cat, all) {
     if (r.slug) {
       const target = all.find((c) => c.slug === r.slug);
       if (!target) throw new Error(`${cat.slug}: verwandte Kategorie "${r.slug}" existiert nicht`);
-      return { href: `/${target.slug}/`, kicker: "Ratgeber", title: target.navLabel, text: r.text };
+      return { href: catPath(target), kicker: "Ratgeber", title: target.navLabel, text: r.text };
+    }
+    if (r.group) {
+      const area = areas.find((a) => a.slug === cat.area);
+      const group = area.groups?.find((g) => g.slug === r.group);
+      if (!group) throw new Error(`${cat.slug}: Unterbereich "${r.group}" existiert nicht`);
+      return { href: groupPath(area, group), kicker: "Themenbereich", title: group.name, text: r.text };
     }
     const area = areas.find((a) => a.slug === r.area);
     if (!area) throw new Error(`${cat.slug}: Bereich "${r.area}" existiert nicht`);
@@ -208,7 +214,7 @@ function related(cat, all) {
 // ---------------------------------------------------------------------------
 
 function jsonld(cat) {
-  const url = absUrl(`/${cat.slug}/`);
+  const url = absUrl(catPath(cat));
   return [
     {
       "@type": "Article",
@@ -270,10 +276,12 @@ function jsonld(cat) {
 
 export function categoryPage(cat, all, readingMinutes) {
   const area = areas.find((a) => a.slug === cat.area);
+  const group = cat.group && area.groups.find((g) => g.slug === cat.group);
   const trail = [
     { name: "Startseite", path: "/" },
     { name: area.short, path: `/${area.slug}/` },
-    { name: cat.navLabel, path: `/${cat.slug}/` },
+    ...(group ? [{ name: group.short, path: groupPath(area, group) }] : []),
+    { name: cat.navLabel, path: catPath(cat) },
   ];
 
   const body = `
@@ -316,7 +324,7 @@ ${faq(cat)}
 ${related(cat, all)}`;
 
   return page({
-    path: `/${cat.slug}/`,
+    path: catPath(cat),
     title: cat.metaTitle,
     description: cat.metaDescription,
     body,

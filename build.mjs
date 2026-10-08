@@ -8,9 +8,9 @@ import { fileURLToPath, pathToFileURL } from "node:url";
 import { site, areas } from "./src/site.mjs";
 import { setCss } from "./src/templates/layout.mjs";
 import { categoryPage } from "./src/templates/category.mjs";
-import { homePage, areaPage, methodPage, legalPage, notFoundPage } from "./src/templates/pages.mjs";
+import { homePage, areaPage, groupPage, methodPage, legalPage, notFoundPage } from "./src/templates/pages.mjs";
 import { scoresFigure, stepsFigure, svgSize } from "./src/templates/visuals.mjs";
-import { overallScore, countWords } from "./src/templates/util.mjs";
+import { overallScore, countWords, catPath, groupPath } from "./src/templates/util.mjs";
 
 const ROOT = dirname(fileURLToPath(import.meta.url));
 const SRC = join(ROOT, "src");
@@ -59,7 +59,10 @@ async function loadCategories() {
     const id = cat.slug || f;
 
     if (`${cat.slug}.mjs` !== f) fail(`${f}: Dateiname muss dem slug entsprechen`);
-    if (!areas.some((a) => a.slug === cat.area)) fail(`${id}: unbekannter Bereich "${cat.area}"`);
+    const area = areas.find((a) => a.slug === cat.area);
+    if (!area) fail(`${id}: unbekannter Bereich "${cat.area}"`);
+    else if (area.groups && !area.groups.some((g) => g.slug === cat.group)) fail(`${id}: Bereich "${cat.area}" verlangt einen gültigen Unterbereich (group)`);
+    else if (!area.groups && cat.group) fail(`${id}: Bereich "${cat.area}" hat keine Unterbereiche`);
     if (cat.products?.length !== 3) fail(`${id}: genau 3 Top-Produkte erforderlich`);
     if (cat.top5?.items?.length !== 5) fail(`${id}: Top-5-Liste braucht genau 5 Einträge`);
     if ((cat.faqs?.length || 0) < MIN_FAQS) fail(`${id}: mindestens ${MIN_FAQS} FAQs erforderlich`);
@@ -149,8 +152,8 @@ async function build() {
     const words = countWords(main);
     if (words < MIN_WORDS) fail(`${cat.slug}: nur ${words} Wörter (mindestens ${MIN_WORDS})`);
     const html = categoryPage(cat, cats, Math.max(1, Math.round(words / 200)));
-    pages.push({ path: `/${cat.slug}/`, html, words, lastmod: cat.updated, priority: "0.9" });
-    for (const f of Object.values(cat.figures)) await write(join(cat.slug, f.file), f.svg);
+    pages.push({ path: catPath(cat), html, words, lastmod: cat.updated, priority: "0.9" });
+    for (const f of Object.values(cat.figures)) await write(join(catPath(cat), f.file), f.svg);
   }
 
   const latest = cats.map((c) => c.updated).sort().at(-1);
@@ -158,6 +161,11 @@ async function build() {
   for (const area of areas) {
     const areaCats = cats.filter((c) => c.area === area.slug);
     pages.push({ path: `/${area.slug}/`, html: areaPage(area, areaCats, cats), lastmod: latest, priority: "0.8" });
+    for (const group of area.groups || []) {
+      const groupCats = areaCats.filter((c) => c.group === group.slug);
+      if (!groupCats.length) fail(`${area.slug}/${group.slug}: Unterbereich ohne Ratgeber`);
+      pages.push({ path: groupPath(area, group), html: groupPage(area, group, groupCats, cats), lastmod: latest, priority: "0.8" });
+    }
   }
   pages.push({ path: "/methodik/", html: methodPage(cats), lastmod: latest, priority: "0.4" });
 
@@ -197,7 +205,7 @@ async function build() {
   }
 
   console.log(`✓ ${pages.length + 1} Seiten erzeugt in dist/`);
-  for (const p of pages.filter((x) => x.words)) console.log(`  ${p.path.padEnd(32)} ${p.words} Wörter`);
+  for (const p of pages.filter((x) => x.words)) console.log(`  ${p.path.padEnd(64)} ${p.words} Wörter`);
 }
 
 build().catch((err) => {

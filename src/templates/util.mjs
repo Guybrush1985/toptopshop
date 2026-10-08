@@ -90,6 +90,16 @@ export function scoreDe(score) {
   return score.toFixed(1).replace(".", ",");
 }
 
+/** URL-Pfad einer Kategorie: flach (/slug/) oder unter Bereich und Unterbereich (/bereich/gruppe/slug/). */
+export function catPath(cat) {
+  return cat.group ? `/${cat.area}/${cat.group}/${cat.slug}/` : `/${cat.slug}/`;
+}
+
+/** URL-Pfad eines Unterbereichs, z. B. /krisenvorsorge/luftfiltration/. */
+export function groupPath(area, group) {
+  return `/${area.slug}/${group.slug}/`;
+}
+
 export function absUrl(path) {
   return site.url + path;
 }

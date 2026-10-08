@@ -51,6 +51,76 @@ function shapes(kind, t) {
         <path d="M104 64 H216 L206 270 Q204 286 188 286 H132 Q116 286 114 270 Z" fill="${t.body}"/>
         <rect x="104" y="56" width="112" height="14" rx="3" fill="${t.body}" opacity=".85"/>
         <rect x="132" y="286" width="56" height="26" rx="6" fill="${t.cap}"/>`;
+    case "device": // Standgerät, z. B. Luftreiniger
+      return `
+        <rect x="100" y="56" width="120" height="250" rx="22" fill="${t.body}"/>
+        <rect x="116" y="70" width="88" height="8" rx="4" fill="${t.cap}"/>
+        <rect x="116" y="86" width="88" height="8" rx="4" fill="${t.cap}" opacity=".7"/>
+        <rect x="116" y="102" width="88" height="8" rx="4" fill="${t.cap}" opacity=".45"/>
+        <circle cx="160" cy="150" r="10" fill="${t.cap}"/>
+        <rect x="112" y="292" width="96" height="10" rx="5" fill="${t.cap}" opacity=".6"/>`;
+    case "station": // Koffer/Akkuspeicher mit Griff
+      return `
+        <path d="M118 128 V104 Q118 92 130 92 H190 Q202 92 202 104 V128" fill="none" stroke="${t.cap}" stroke-width="12"/>
+        <rect x="66" y="124" width="188" height="182" rx="22" fill="${t.body}"/>
+        <circle cx="94" cy="270" r="9" fill="${t.cap}"/><circle cx="226" cy="270" r="9" fill="${t.cap}"/>
+        <rect x="84" y="144" width="152" height="10" rx="5" fill="${t.cap}" opacity=".6"/>`;
+    case "panel": // Solarmodul
+      return `
+        <path d="M96 300 L124 250 M224 300 L196 250" stroke="${C.forest}" stroke-width="8" stroke-linecap="round"/>
+        <rect x="58" y="62" width="204" height="196" rx="10" fill="${t.body}"/>
+        <path d="M58 127 H262 M58 192 H262 M126 62 V258 M194 62 V258" stroke="${t.cap}" stroke-width="3" opacity=".8"/>`;
+    case "canister": // Wasserkanister
+      return `
+        <path d="M96 96 Q96 72 120 72 H200 Q224 72 224 96 V290 Q224 306 208 306 H112 Q96 306 96 290 Z" fill="${t.body}"/>
+        <rect x="124" y="84" width="72" height="22" rx="11" fill="${C.paper}" opacity=".9"/>
+        <rect x="186" y="48" width="30" height="30" rx="6" fill="${t.cap}"/>`;
+    case "mask": // Atemschutzmaske
+      return `
+        <path d="M70 150 Q160 100 250 150" fill="none" stroke="${t.cap}" stroke-width="8"/>
+        <path d="M70 260 Q160 300 250 260" fill="none" stroke="${t.cap}" stroke-width="8"/>
+        <path d="M110 130 Q160 96 210 130 L228 236 Q160 300 92 236 Z" fill="${t.body}"/>
+        <circle cx="160" cy="262" r="14" fill="${t.cap}"/>`;
+    case "radio": // Kurbel- und Solarradio
+      return `
+        <path d="M196 132 L236 58" stroke="${C.forest}" stroke-width="6" stroke-linecap="round"/>
+        <rect x="70" y="130" width="180" height="176" rx="20" fill="${t.body}"/>
+        <rect x="90" y="146" width="140" height="18" rx="4" fill="${t.cap}" opacity=".7"/>
+        <path d="M250 216 H274 V252" stroke="${t.cap}" stroke-width="10" stroke-linecap="round" fill="none"/>
+        <circle cx="274" cy="258" r="9" fill="${t.cap}"/>`;
+    case "handheld": // Funkgerät, Handy, Satelliten-Messenger, Schlüssel
+      return `
+        <rect x="186" y="34" width="14" height="46" rx="7" fill="${C.forest}"/>
+        <rect x="112" y="70" width="96" height="236" rx="20" fill="${t.body}"/>
+        <rect x="124" y="88" width="72" height="72" rx="8" fill="${t.cap}" opacity=".8"/>
+        <circle cx="160" cy="270" r="12" fill="${t.cap}"/>`;
+    case "pack": // Beutel, Rucksack, Vorratspackung
+      return `
+        <rect x="98" y="62" width="124" height="26" rx="6" fill="${t.cap}"/>
+        <path d="M100 88 H220 L232 290 Q232 306 216 306 H104 Q88 306 88 290 Z" fill="${t.body}"/>
+        <path d="M110 76 H210" stroke="${C.paper}" stroke-width="3" stroke-dasharray="6 6" opacity=".7"/>`;
+    case "roll": // Klebeband, Dichtband, Folie
+      return `
+        <circle cx="160" cy="206" r="104" fill="${t.body}"/>
+        <circle cx="160" cy="206" r="104" fill="none" stroke="${t.cap}" stroke-width="6" opacity=".6"/>
+        <path d="M250 254 L300 300 L280 314 L232 266 Z" fill="${t.body}" opacity=".75"/>`;
+    case "lamp": // Laterne, Stirnlampe
+      return `
+        <path d="M128 70 Q160 30 192 70" fill="none" stroke="${C.forest}" stroke-width="7"/>
+        <rect x="116" y="66" width="88" height="28" rx="8" fill="${t.cap}"/>
+        <rect x="108" y="94" width="104" height="186" rx="18" fill="${t.body}"/>
+        <circle cx="160" cy="132" r="22" fill="${C.mint}"/>
+        <rect x="100" y="278" width="120" height="28" rx="8" fill="${t.cap}"/>`;
+    case "stove": // Gaskocher mit Kartusche
+      return `
+        <path d="M92 94 H228 M118 94 L134 128 M202 94 L186 128" stroke="${C.forest}" stroke-width="7" stroke-linecap="round"/>
+        <rect x="128" y="124" width="64" height="28" rx="6" fill="${t.cap}"/>
+        <path d="M108 172 Q108 152 160 150 Q212 152 212 172 V292 Q212 306 198 306 H122 Q108 306 108 292 Z" fill="${t.body}"/>`;
+    case "cylinder": // Feuerlöscher
+      return `
+        <rect x="140" y="40" width="40" height="24" rx="6" fill="${t.cap}"/>
+        <path d="M180 52 Q232 58 228 120 L222 214" fill="none" stroke="${C.forest}" stroke-width="7" stroke-linecap="round"/>
+        <rect x="116" y="62" width="88" height="244" rx="34" fill="${t.body}"/>`;
     case "gel": // Spenderflasche
     default:
       return `
@@ -108,7 +178,7 @@ export function productVisual(product, uid) {
   const t = TONES[product.visual?.tone || "forest"];
   const kind = product.visual?.kind || "gel";
   const brand = esc(product.brand).toUpperCase();
-  const labelY = kind === "drops" ? 196 : 176;
+  const labelY = { drops: 196, station: 196, radio: 200, stove: 200, panel: 128, roll: 176, canister: 176 }[kind] || 176;
   return `<svg class="pv" viewBox="0 0 320 360" aria-hidden="true" focusable="false">
   <defs>
     <radialGradient id="g${uid}" cx="50%" cy="40%" r="65%">
