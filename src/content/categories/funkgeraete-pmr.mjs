@@ -16,13 +16,13 @@ export default {
   eyebrow: "Krisenvorsorge · Kommunikation & Technik",
   h1: "Die 3 besten PMR-Funkgeräte 2026",
   lead:
-    "Wenn das Handynetz ausfällt, funktionieren Walkie-Talkies weiter: PMR446-Funkgeräte sind in ganz Europa lizenzfrei, sofort einsatzbereit und verbinden Familie und Nachbarschaft über einige hundert Meter bis wenige Kilometer. Diese drei sind die beste Wahl.",
+    "Wenn das Handynetz ausfällt, funktionieren Walkie-Talkies weiter: PMR446-Funkgeräte sind in Deutschland und der EU anmelde- und gebührenfrei nutzbar, sofort einsatzbereit und verbinden Familie und Nachbarschaft je nach Gelände über einige hundert Meter bis wenige Kilometer. Diese drei sind nach unserer Einschätzung die beste Wahl.",
   answer:
-    "Unsere beste Gesamtwahl ist das [**Motorola Talkabout T82 Extreme**](produkt:1): wetterfest nach IPX4, mit Akkus, Ladeschale und Taschenlampe. Das beste Preis-Leistungs-Verhältnis bietet das [**Motorola Talkabout T42 im 3er-Set**](produkt:2), ideal auch für Kinder; besonders robust und vielseitig ist das [**Midland G7 Pro**](produkt:3) mit PMR und LPD.",
+    "Unsere beste Gesamtwahl ist das [**Motorola Talkabout T82 Extreme**](produkt:1): laut Hersteller spritzwassergeschützt nach IPX4, mit Akkus, Ladeschale und Taschenlampe. Das beste Preis-Leistungs-Verhältnis bietet das [**Motorola Talkabout T42 im 3er-Set**](produkt:2), ideal auch für Kinder; besonders robust und vielseitig ist das [**Midland G7 Pro**](produkt:3) mit PMR und LPD.",
 
   top3Title: "Unsere Top 3 PMR-Funkgeräte",
   top3Intro:
-    "Alle drei funken auf den 16 PMR446-Kanälen, die in Europa ohne Lizenz und Gebühren genutzt werden dürfen, und sind untereinander kompatibel.",
+    "Alle drei funken auf den 16 PMR446-Kanälen, die in Deutschland und der EU per Allgemeinzuteilung ohne Lizenz und Gebühren genutzt werden dürfen, und sind untereinander kompatibel.",
   comparisonTitle: "Die 3 besten PMR-Funkgeräte im Vergleich",
 
   criteria: [
@@ -33,7 +33,7 @@ export default {
   ],
 
   method:
-    "Grundlage sind die Regeln für PMR446 (Allgemeinzuteilung, max. 500 mW, fest eingebaute Antenne), Herstellerangaben zu Kanälen, Laufzeit und Wetterschutz sowie Kundenerfahrungen zu Reichweite und Bedienung. Eigene Reichweitentests führen wir nicht durch. Wir empfehlen ausschließlich Geräte, die bei Amazon erhältlich sind. Jedes Gerät wird in vier Kriterien von 0 bis 10 eingeordnet; die Gesamtnote ist der gewichtete Mittelwert.",
+    "Grundlage sind die Regeln für PMR446 (Allgemeinzuteilung, max. 500 mW, fest eingebaute Antenne), Herstellerangaben zu Kanälen, Laufzeit und Wetterschutz sowie Kundenerfahrungen zu Reichweite und Bedienung. Eigene Reichweiten- oder Praxistests führen wir nicht durch. Wir empfehlen ausschließlich Geräte, die bei Amazon erhältlich sind. Jedes Gerät wird in vier Kriterien von 0 bis 10 eingeordnet; die Gesamtnote ist der gewichtete Mittelwert.",
 
   products: [
     {
@@ -47,13 +47,13 @@ export default {
       ratings: { reichweite: 8.0, robust: 8.5, bedienung: 8.5, preis: 7.5 },
       bestFor: "Familie, Garten, Nachbarschaft",
       verdict:
-        "Das ausgewogenste Set: spritzwassergeschützt, mit Akkupacks, Doppelladeschale, Taschenlampe und Headsets – und laut Motorola bis zu 18 Stunden Betriebszeit.",
+        "Nach unserer Einschätzung das ausgewogenste Set: laut Hersteller spritzwassergeschützt, mit Akkupacks, Doppelladeschale, Taschenlampe und Headsets – und laut Motorola bis zu 18 Stunden Betriebszeit.",
       features: [
-        "16 PMR446-Kanäle, 121 Unterkanäle (Codes), 500 mW",
-        "Wetterschutz IPX4, eingebaute LED-Taschenlampe, VOX-Sprachsteuerung",
+        "16 PMR446-Kanäle, 121 Unterkanäle (Codes), 500 mW (Herstellerangabe)",
+        "Wetterschutz IPX4, eingebaute LED-Taschenlampe, VOX-Sprachsteuerung (Herstellerangabe)",
         "Lieferumfang laut Anbieter: 2 Geräte, NiMH-Akkupacks, Ladegerät, Gürtelclips, Ohrhörer, Tasche",
       ],
-      pros: ["Wetterfest", "Komplettes Zubehör", "Taschenlampe integriert"],
+      pros: ["Spritzwassergeschützt (IPX4)", "Komplettes Zubehör", "Taschenlampe integriert"],
       cons: ["Angegebene 10 km nur unter Idealbedingungen", "Akkupacks speziell – Ersatz einplanen"],
       specs: { kanaele: "16 + 121 Codes", leistung: "500 mW", strom: "NiMH-Akkupack (Ladeschale)", schutz: "IPX4", extras: "Taschenlampe, VOX, Headsets" },
       asin: "B078C7TD7Z",
@@ -70,13 +70,13 @@ export default {
       ratings: { reichweite: 6.0, robust: 6.0, bedienung: 9.5, preis: 9.5 },
       bestFor: "Kinder & einfache Nahbereichs-Funk",
       verdict:
-        "Drei leichte, einfache Geräte zum kleinen Preis. Laut Nutzern können schon Sechsjährige sie bedienen – ideal, damit auch die Kinder im Haus oder in der Nachbarschaft erreichbar sind.",
+        "Drei leichte, einfache Geräte zum kleinen Preis. Laut Nutzerberichten kommen schon Grundschulkinder damit zurecht – praktisch, damit auch die Kinder im Haus oder in der Nachbarschaft erreichbar sind. Kleine Kinder nur unter Aufsicht funken lassen und Batterien außer Reichweite halten.",
       features: [
-        "16 PMR446-Kanäle, laut Motorola bis 4 km Reichweite (gelände­abhängig)",
-        "Betrieb mit 3 × AAA je Gerät – Batterien oder Akkus",
+        "16 PMR446-Kanäle, laut Motorola bis 4 km Reichweite (geländeabhängig)",
+        "Betrieb mit 3 × AAA je Gerät – Batterien oder Akkus (Herstellerangabe)",
         "Drei Geräte, Gürtelclips und Sticker zum Personalisieren",
       ],
-      pros: ["Sehr günstig pro Gerät", "Kinderleichte Bedienung", "Standard-AAA-Batterien"],
+      pros: ["Sehr günstig pro Gerät", "Sehr einfache Bedienung", "Standard-AAA-Batterien"],
       cons: ["Geringere Reichweite", "Nicht wetterfest", "Batterien je nach Angebot nicht dabei"],
       specs: { kanaele: "16", leistung: "PMR446", strom: "3 × AAA", schutz: "–", extras: "Sticker, Gürtelclips" },
       asin: "B07DYGD8CH",
@@ -93,10 +93,10 @@ export default {
       ratings: { reichweite: 8.5, robust: 8.5, bedienung: 7.0, preis: 7.0 },
       bestFor: "Draußen, Garten, längere Einsätze",
       verdict:
-        "Ein robustes Arbeitsgerät mit LCD-Display, Doppelstandlader und zwei Bändern: PMR446 mit 500 mW und zusätzlich 69 LPD-Kanäle. Viele Codes, VOX und Vibrationsalarm.",
+        "Laut Hersteller ein robustes Gerät mit LCD-Display, Doppelstandlader und zwei Bändern: PMR446 mit 500 mW und zusätzlich 69 LPD-Kanäle. Viele Codes, VOX und Vibrationsalarm.",
       features: [
-        "Dualband PMR446 (500 mW) und LPD (10 mW), lizenzfrei",
-        "38 CTCSS- und 104 DCS-Codes, VOX in drei Stufen, VibraCall",
+        "Dualband PMR446 (500 mW) und LPD (10 mW), beide per Allgemeinzuteilung anmeldefrei (Herstellerangabe)",
+        "38 CTCSS- und 104 DCS-Codes, VOX in drei Stufen, VibraCall (Herstellerangabe)",
         "Set mit zwei Geräten, Doppelstandlader und Gürtelclips",
       ],
       pros: ["Robust", "Zwei Bänder", "Viele Einstellmöglichkeiten"],
@@ -149,12 +149,13 @@ export default {
         id: "bestes-pmr",
         h2: "Welches PMR-Funkgerät ist das beste?",
         blocks: [
-          { quick: "Das [Motorola T82 Extreme](produkt:1) ist die beste Wahl: wetterfest, mit Akkus und Taschenlampe. Am günstigsten ist das [Motorola T42 im 3er-Set](produkt:2), am robustesten das [Midland G7 Pro](produkt:3)." },
-          { first: "PMR446 steht für „Private Mobile Radio“ auf 446 Megahertz. Das Band ist in der EU für jedermann freigegeben: keine Lizenz, keine Gebühren, keine Anmeldung. Die Geräte dürfen höchstens 0,5 Watt abstrahlen und müssen eine fest eingebaute Antenne haben. Damit sind sie einfach, günstig und sofort einsatzbereit – genau das, was man in einem Ausfall braucht." },
-          { p: "Im Krisenfall können Funkgeräte überbrücken, was sonst das Handy erledigt: kurz fragen, ob beim Nachbarn alles in Ordnung ist, Kinder auf dem Spielplatz erreichen, sich bei der Wasserausgabe abstimmen. Weil alle PMR-Geräte dieselben Kanäle nutzen, sind Geräte verschiedener Hersteller untereinander kompatibel." },
-          { p: "Unsere Gesamtwahl ist das Motorola T82 Extreme, weil es wetterfest ist und ein komplettes Lade- und Zubehörset mitbringt. Die Akkupacks lassen sich über die USB-Ladeschale auch an einer Powerbank laden. Wer mehr Geräte für wenig Geld braucht, ergänzt die T42 – sie sind kompatibel." },
+          { quick: "Das [Motorola T82 Extreme](produkt:1) ist nach unserer Einschätzung die beste Wahl: spritzwassergeschützt, mit Akkus und Taschenlampe. Am günstigsten ist das [Motorola T42 im 3er-Set](produkt:2), besonders robust das [Midland G7 Pro](produkt:3)." },
+          { first: "PMR446 steht für „Private Mobile Radio“ auf 446 Megahertz. Das Band ist in Deutschland und der EU per Allgemeinzuteilung für jedermann freigegeben: keine Lizenz, keine Gebühren, keine Anmeldung. Die Geräte dürfen höchstens 0,5 Watt abstrahlen und müssen eine fest eingebaute Antenne haben. Damit sind sie einfach, günstig und sofort einsatzbereit – genau das, was man in einem Ausfall braucht." },
+          { p: "Im Krisenfall können Funkgeräte überbrücken, was sonst das Handy erledigt: kurz fragen, ob beim Nachbarn alles in Ordnung ist, Kinder auf dem Spielplatz erreichen, sich bei der Wasserausgabe abstimmen. Weil alle PMR-Geräte dieselben Kanäle nutzen, sind Geräte verschiedener Hersteller in der Regel untereinander kompatibel." },
+          { p: "Unsere Gesamtwahl ist das Motorola T82 Extreme, weil es laut Hersteller spritzwassergeschützt ist und ein komplettes Lade- und Zubehörset mitbringt. Die Akkupacks lassen sich über die USB-Ladeschale auch an einer Powerbank laden. Wer mehr Geräte für wenig Geld braucht, ergänzt die T42 – sie sind kompatibel." },
           { figure: "scores" },
           { callout: { title: "Reichweite realistisch sehen", text: "Herstellerangaben wie „bis 10 km“ gelten für freie Sicht, etwa von Berg zu Berg. In der Stadt und durch Gebäude sind einige hundert Meter bis zwei, drei Kilometer realistisch. Höher stehen und am Fenster funken hilft deutlich." } },
+          { callout: { title: "Nur zugelassene Geräte und Bänder nutzen", warn: true, text: "Anmelde- und gebührenfrei ist PMR446 nur mit Geräten, die dafür zugelassen sind: höchstens 0,5 W und fest eingebaute Antenne. Viele günstige Handfunkgeräte aus dem Onlinehandel (etwa Dualband-Geräte für 2 m/70 cm) senden mit mehr Leistung oder auf anderen Frequenzen – sie dürfen in der Regel nur mit Amateurfunkzulassung oder einer anderen Frequenzzuteilung betrieben werden. Für andere Bänder gelten eigene Regeln der Bundesnetzagentur; im Zweifel dort nachlesen. Unerlaubtes Senden kann Bußgelder nach sich ziehen und Funkdienste stören." } },
         ],
       },
       {
@@ -167,10 +168,10 @@ export default {
               caption: "Regeln für PMR446 in Europa",
               head: ["Regel", "Was gilt"],
               rows: [
-                ["**Frequenz**", "446,0 bis 446,2 MHz, 16 Kanäle"],
+                ["**Frequenz**", "446,0 bis 446,2 MHz, 16 Kanäle (digitale Geräte nutzen eigene Kanalraster)"],
                 ["**Sendeleistung**", "maximal 0,5 W (500 mW) ERP"],
                 ["**Antenne**", "fest eingebaut, nicht austauschbar"],
-                ["**Lizenz**", "nicht nötig (Allgemeinzuteilung)"],
+                ["**Lizenz**", "nicht nötig, keine Anmeldung (Allgemeinzuteilung der Bundesnetzagentur)"],
                 ["**Privatsphäre**", "keine – Gespräche sind für alle hörbar"],
               ],
             },
@@ -180,7 +181,7 @@ export default {
           { h3: "Codes sind keine Verschlüsselung" },
           { p: "Unterkanäle bzw. CTCSS- und DCS-Codes filtern nur, welche Gespräche du hörst. Sie verschlüsseln nichts – jeder auf demselben Kanal kann mithören. Gib deshalb über Funk keine Adressen, Abwesenheiten oder sensiblen Daten durch." },
           { h3: "Bedienung" },
-          { p: "Für Kinder und ältere Menschen zählen große Tasten und wenige Funktionen. Die Motorola T42 sind hier vorbildlich. VOX, die Freisprechfunktion per Sprachaktivierung, ist praktisch, wenn man die Hände frei braucht – sie löst aber auch bei Hintergrundgeräuschen aus." },
+          { p: "Für Kinder und ältere Menschen zählen große Tasten und wenige Funktionen. Die Motorola T42 sind hier nach unserer Einschätzung besonders einfach. VOX, die Freisprechfunktion per Sprachaktivierung, ist praktisch, wenn man die Hände frei braucht – sie löst aber auch bei Hintergrundgeräuschen aus." },
         ],
       },
       {
@@ -190,7 +191,7 @@ export default {
           { quick: "Für die Familie mit Garten und Nachbarschaft: T82 Extreme. Für Kinder und viele Geräte: T42. Für draußen und längere Einsätze: Midland G7 Pro." },
           {
             cards: [
-              { title: "Familie & Garten", text: "Wetterfest mit Zubehör: Motorola T82 Extreme.", link: { href: "#platz-1", label: "Zur Empfehlung" } },
+              { title: "Familie & Garten", text: "Spritzwassergeschützt mit Zubehör: Motorola T82 Extreme.", link: { href: "#platz-1", label: "Zur Empfehlung" } },
               { title: "Kinder", text: "Drei einfache Geräte für wenig Geld: Motorola T42.", link: { href: "#platz-2", label: "Zur Empfehlung" } },
               { title: "Robust draußen", text: "PMR und LPD, viele Codes: Midland G7 Pro.", link: { href: "#platz-3", label: "Zur Empfehlung" } },
               { title: "Mehr Geräte & Akkus", text: "4er-Sets und Ersatzakkus in der Top 5.", link: { href: "#top5-sets", label: "Zur Top 5" } },
@@ -210,9 +211,9 @@ export default {
       "Für größere Familien und Hausgemeinschaften lohnen sich 4er-Sets; Ersatzakkus und Batterien halten die Geräte im Ernstfall am Laufen.",
     items: [
       { name: "Motorola Talkabout T82 Extreme (4er-Set)", for: "Große Familie", text: "Vier T82 Extreme mit Zubehör – eines pro Familienmitglied oder Haushalt in der Nachbarschaft.", asin: "B077XTVFHQ", query: "Motorola T82 Extreme Quad" },
-      { name: "Midland G7 Pro Kofferset (4 Geräte)", for: "Hausgemeinschaft", text: "Vier G7 Pro mit Doppelstandladern und Headsets im Koffer (C1090.19).", asin: "B09CQ6S93Q", query: "Midland G7 Pro Kofferset C1090.19" },
+      { name: "Midland G7 Pro Kofferset (4 Geräte)", for: "Hausgemeinschaft", text: "Vier G7 Pro mit Doppelstandladern und Headsets im Koffer (C1090.19, Anbieterangabe).", asin: "B09CQ6S93Q", query: "Midland G7 Pro Kofferset C1090.19" },
       { name: "Motorola Talkabout T82 (2er-Set)", for: "Günstiger Allrounder", text: "Die Standardversion des T82 mit Spritzwasserschutz – etwas günstiger als die Extreme-Variante.", asin: "B077T18LQ3", query: "Motorola Talkabout T82" },
-      { name: "Ersatzakkus für Motorola T82/T92 (2 Stück)", for: "Akku-Reserve", text: "NiMH-Ersatzakkus 1.650 mAh (PMNN4477AR-kompatibel) – ein Satz in Reserve verdoppelt die Laufzeit.", asin: "B0BJTTNSB7", query: "Ersatzakku Motorola T82 PMNN4477" },
+      { name: "Ersatzakkus für Motorola T82/T92 (2 Stück)", for: "Akku-Reserve", text: "NiMH-Ersatzakkus 1.650 mAh (laut Anbieter PMNN4477AR-kompatibel) – ein Satz in Reserve kann die Laufzeit etwa verdoppeln. Nur passende, vom Anbieter freigegebene Akkus verwenden.", asin: "B0BJTTNSB7", query: "Ersatzakku Motorola T82 PMNN4477" },
       { name: "Motorola T42 mit 12 AAA-Akkus", for: "Gleich mit Akkus", text: "T42-Set zusammen mit vorgeladenen AAA-Akkus – sofort einsatzbereit.", asin: "B08GR2GCD6", query: "Motorola T42 AAA Akkus" },
     ],
   },
@@ -238,7 +239,7 @@ export default {
           },
           {
             facts: [
-              { value: "0 €", label: "Gebühren oder Lizenz für PMR446" },
+              { value: "0 €", label: "Gebühren für PMR446 – keine Lizenz, keine Anmeldung" },
               { value: "16", label: "Kanäle im PMR446-Band" },
               { value: "0,5 W", label: "maximale Sendeleistung" },
             ],
@@ -251,17 +252,18 @@ export default {
   },
 
   faqs: [
-    { q: "Welche Funkgeräte darf man ohne Lizenz benutzen?", a: "In Deutschland und der EU sind PMR446-Funkgeräte mit höchstens 0,5 Watt und fest eingebauter Antenne lizenz- und gebührenfrei. Zusätzlich gibt es lizenzfreie LPD- und Freenet-Geräte; Amateurfunk braucht eine Prüfung." },
+    { q: "Welche Funkgeräte darf man ohne Lizenz benutzen?", a: "In Deutschland und der EU sind zugelassene PMR446-Funkgeräte mit höchstens 0,5 Watt und fest eingebauter Antenne anmelde-, lizenz- und gebührenfrei. Auch LPD-Geräte (433 MHz, 10 mW) und CB-Funk sind nach den Allgemeinzuteilungen der Bundesnetzagentur ohne Einzellizenz nutzbar. Für andere Frequenzen gelten eigene Regeln – Amateurfunk etwa braucht eine Prüfung und Zulassung. Im Zweifel die Angaben der Bundesnetzagentur prüfen." },
     { q: "Wie weit reichen PMR-Funkgeräte?", a: "In der Stadt meist einige hundert Meter bis zwei, drei Kilometer, im freien Gelände und von erhöhten Punkten deutlich mehr. Herstellerangaben wie 10 km gelten nur unter Idealbedingungen." },
-    { q: "Sind PMR-Funkgeräte verschiedener Marken kompatibel?", a: "Ja, alle PMR446-Geräte nutzen dieselben Kanäle. Bei Unterkanälen und Codes kann es Unterschiede geben; der Standardkanal ohne Code funktioniert immer." },
+    { q: "Sind PMR-Funkgeräte verschiedener Marken kompatibel?", a: "In der Regel ja: Analoge PMR446-Geräte nutzen dieselben Kanäle. Bei Unterkanälen und Codes kann es Unterschiede geben; auf einem Kanal ohne Code klappt die Verständigung in der Regel." },
     { q: "Kann man mit PMR-Funk abgehört werden?", a: "Ja. PMR446 ist nicht verschlüsselt, Codes filtern nur. Jeder auf demselben Kanal kann mithören. Gib keine sensiblen Daten durch." },
-    { q: "Welches Funkgerät eignet sich für Kinder?", a: "Leichte, einfache Geräte wie das Motorola Talkabout T42. Laut Nutzern können sie schon Sechsjährige bedienen." },
+    { q: "Welches Funkgerät eignet sich für Kinder?", a: "Leichte, einfache Geräte wie das Motorola Talkabout T42. Laut Nutzerberichten kommen schon Grundschulkinder damit zurecht. Kleine Kinder nur unter Aufsicht funken lassen, Batterien und Kleinteile außer Reichweite halten." },
     { q: "Was ist besser: PMR oder Meshtastic?", a: "PMR überträgt Sprache sofort und ist sehr einfach, reicht aber nur einige Kilometer. Meshtastic überträgt Textnachrichten, kann über weitere Knoten deutlich weiter reichen und braucht meist ein Smartphone. Beide ergänzen sich." },
   ],
 
   sources: [
     { label: "BBK: Ratgeber „Vorsorgen für Krisen und Katastrophen“ (PDF)", url: "https://www.dortmund.de/dortmund/projekte/rathaus/verwaltung/feuerwehr-rettungsdienst-und-bevoelkerungsschutz/downloads/bbk-vorsorgen-fuer-krisen-und-katastrophen.pdf" },
     { label: "Wikipedia: PMR446", url: "https://de.wikipedia.org/wiki/PMR446" },
+    { label: "Bundesnetzagentur: Frequenzen und Allgemeinzuteilungen", url: "https://www.bundesnetzagentur.de/" },
   ],
 
   related: [

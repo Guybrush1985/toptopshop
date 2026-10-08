@@ -51,11 +51,11 @@ export default {
       ratings: { spiel: 8.5, funktionen: 9.5, bau: 8.5, preis: 8.0 },
       bestFor: "Vielspieler mit App-Statistik",
       verdict:
-        "Der modernste Karella-Automat: 37 Spiele, Bluetooth für App-Anbindung und Statistiken, dazu das bewährte Karella-Board mit gutem Trefferbild.",
+        "Einer der modernsten Karella-Automaten: laut Hersteller 37 Spiele, Bluetooth für App-Anbindung und Statistiken, dazu das bewährte Karella-Board mit gutem Trefferbild.",
       features: [
         "37 Spiele mit Varianten (Herstellerangabe)",
         "Bluetooth zur Verbindung mit einer App (Herstellerangabe)",
-        "Wandmontage, Soft-Darts im Lieferumfang",
+        "Wandmontage, Soft-Darts im Lieferumfang (Herstellerangabe)",
       ],
       pros: ["Viele Spiele", "App und Statistik", "Bewährte Marke"],
       cons: ["Teurer als CB-50", "App-Funktionen abhängig vom Smartphone"],
@@ -77,8 +77,8 @@ export default {
         "Der Klassiker seit Jahren: robustes E-Dart-Board mit vielen Spielen, Anzeige für mehrere Spieler und zuverlässiger Punktezählung – ohne App, dafür günstig.",
       features: [
         "Viele Spiele und Varianten (Herstellerangabe)",
-        "LCD-Anzeige für mehrere Spieler",
-        "Wandmontage, Soft-Darts im Lieferumfang",
+        "LCD-Anzeige für mehrere Spieler (Herstellerangabe)",
+        "Wandmontage, Soft-Darts im Lieferumfang (Herstellerangabe)",
       ],
       pros: ["Günstig", "Robust", "Einfach zu bedienen"],
       cons: ["Ohne App", "Recht laut beim Treffer"],
@@ -100,7 +100,7 @@ export default {
         "Der Kneipenautomat für zu Hause: freistehendes Gehäuse, großes Board und Anzeige auf Augenhöhe – ohne Wandmontage und mit echtem Automaten-Look.",
       features: [
         "Freistehender Standautomat (Herstellerangabe)",
-        "Automatische Punktezählung, mehrere Spieler",
+        "Automatische Punktezählung, mehrere Spieler (Herstellerangabe)",
         "Keine Wandmontage nötig",
       ],
       pros: ["Echter Automaten-Look", "Keine Bohrlöcher", "Stabil"],
@@ -154,7 +154,7 @@ export default {
         blocks: [
           { quick: "Für die meisten ist der [Karella CB-Smart](produkt:1) die beste Wahl, weil er viele Spiele und App-Statistik bietet. Günstiger ist der [Karella CB-50](produkt:2), mit Kneipen-Gefühl der [Karella E-Master](produkt:3)." },
           { first: "Beim **E-Dart** wirfst du Darts mit Kunststoffspitzen auf eine Scheibe mit tausenden kleinen Löchern. Sensoren erkennen das getroffene Segment und der Automat zählt automatisch – perfekt für Partys, weil niemand rechnen muss. Beim **Steeldart** wirfst du Darts mit Metallspitzen auf eine Sisalscheibe, wie bei den großen Turnieren im Fernsehen. Gezählt wird von Hand oder mit Kamera-Systemen." },
-          { p: "E-Dart ist familienfreundlicher, weil Soft-Darts weniger gefährlich sind und weniger Wandschäden verursachen. Steeldart ist präziser und leiser, hat aber den Nachteil, dass Punkte selbst gezählt werden müssen. Systeme wie **Autodarts** schließen diese Lücke: Kameras erkennen die Darts auf einer normalen Steeldart-Scheibe und zählen automatisch." },
+          { p: "E-Dart gilt als familienfreundlicher, weil Soft-Darts mit Kunststoffspitzen in der Regel ein geringeres Verletzungsrisiko haben und weniger Wandschäden verursachen. Steeldart ist präziser und leiser, hat aber den Nachteil, dass Punkte selbst gezählt werden müssen. Systeme wie **Autodarts** schließen diese Lücke: Kameras erkennen die Darts auf einer normalen Steeldart-Scheibe und zählen automatisch." },
           { figure: "scores" },
         ],
       },
@@ -205,7 +205,8 @@ export default {
           { quick: "Bullseye auf 173 cm Höhe, Abwurflinie bei 237 cm (Steeldart) oder 244 cm (E-Dart), Wand mit Surround oder Dartschrank schützen." },
           { figure: "steps" },
           { p: "Ein Dartbereich passt gut neben [Kicker](/kickertische/) oder [Billardtisch](/billardtische/) – achte aber darauf, dass niemand durch die Wurfbahn läuft. Ein Teppich oder eine Dartmatte schützt den Boden und die Spitzen herunterfallender Darts." },
-          { callout: { title: "Sicherheit", warn: true, text: "Steeldarts haben spitze Metallspitzen. Kinder nur unter Aufsicht spielen lassen, die Wurfbahn freihalten und niemals werfen, wenn jemand vor der Scheibe steht." } },
+          { callout: { title: "Sicherheit", warn: true, text: "Steeldarts haben spitze Metallspitzen, aber auch Soft-Darts können verletzen – vor allem die Augen. Kinder nur unter Aufsicht spielen lassen, die Wurfbahn freihalten und niemals werfen, wenn jemand vor der Scheibe steht. Wandgeräte mit für die Wand geeignetem Befestigungsmaterial nach Anleitung des Herstellers montieren, Standautomaten kippsicher aufstellen." } },
+          { callout: { title: "Lärm", warn: true, text: "E-Dartautomaten und Treffer auf der Scheibe können in Mehrfamilienhäusern als Körperschall bei Nachbarn ankommen. Ruhezeiten laut Hausordnung bzw. kommunaler Regelungen beachten und die Lautstärke des Automaten reduzieren." } },
           { facts: [{ value: "173 cm", label: "Höhe Bullseye" }, { value: "237 cm", label: "Abwurf Steeldart" }, { value: "244 cm", label: "Abwurf E-Dart" }] },
         ],
       },

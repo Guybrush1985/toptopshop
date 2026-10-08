@@ -20,11 +20,11 @@ export default {
   lead:
     "Öffentliche Schutzräume gibt es in Deutschland kaum noch – der Bund arbeitet an einem neuen, dezentralen Konzept. Wer selbst vorsorgen will, kann einen Keller nachrüsten lassen oder einen Fertigbunker kaufen. Hier findest du die Lage, die Anbieter und die Geräte, die in jeden Schutzraum gehören.",
   answer:
-    "Für jeden Schutz- oder Kellerraum empfehlen wir zuerst ein CO₂-Messgerät wie das [**Aranet4 Home**](produkt:1), denn in einem geschlossenen Raum wird die Luft schnell schlecht. Für mehrere Tage im Keller braucht jede Person einen Schlafplatz, etwa das [**tectake XL Feldbett**](produkt:2); wer die Strahlung selbst einschätzen will, nutzt ein Messgerät wie den [**RadiaCode 102**](produkt:3). Anbieter für Nachrüstung und Fertigbunker stellen wir weiter unten ohne Werbelink vor.",
+    "Für jeden Schutz- oder Kellerraum empfehlen wir zuerst ein CO₂-Messgerät wie das [**Aranet4 Home**](produkt:1), denn in einem geschlossenen Raum kann die Luft schnell schlecht werden. Für mehrere Tage im Keller braucht jede Person einen Schlafplatz, etwa das [**tectake XL Feldbett**](produkt:2); wer die Strahlung selbst einschätzen will, nutzt ein Messgerät wie den [**RadiaCode 102**](produkt:3). Anbieter für Nachrüstung und Fertigbunker stellen wir weiter unten ohne Werbelink vor.",
 
   top3Title: "Unsere Top 3 für jeden Schutzraum",
   top3Intro:
-    "Schutzräume selbst lassen sich nicht online bestellen. Diese drei Geräte machen aber jeden Keller oder Schutzraum sicherer und bewohnbarer – unabhängig davon, ob er nachgerüstet ist.",
+    "Schutzräume selbst lassen sich nicht online bestellen. Diese drei Geräte können aber jeden Keller oder Schutzraum sicherer und bewohnbarer machen – unabhängig davon, ob er nachgerüstet ist.",
   comparisonTitle: "CO₂-Messgerät, Feldbett und Strahlungsmessgerät im Vergleich",
 
   criteria: [
@@ -35,7 +35,7 @@ export default {
   ],
 
   method:
-    "Grundlage sind Berichte zum Schutzraumkonzept des Bundes (u. a. Behörden Spiegel, ZDFheute, Euronews, Bundestag 2026), die Empfehlungen der Strahlenschutzkommission zu Schutzstrategien, die Verhaltenshinweise des BBK sowie Herstellerangaben. Anbieter für Schutzraumbau haben wir nicht geprüft; wir nennen sie als Übersicht ohne Provision. Die Geräte der Top 3 sind bei Amazon erhältlich und werden in vier Kriterien von 0 bis 10 eingeordnet; die Gesamtnote ist der gewichtete Mittelwert.",
+    "Grundlage sind Berichte zum Schutzraumkonzept des Bundes (u. a. Behörden Spiegel, ZDFheute, Euronews, Bundestag 2026), die Empfehlungen der Strahlenschutzkommission zu Schutzstrategien, die Verhaltenshinweise des BBK sowie Herstellerangaben. Anbieter für Schutzraumbau haben wir nicht geprüft; wir nennen sie als Übersicht ohne Provision und ohne Qualitätsaussage. Eigene Tests der Geräte führen wir nicht durch; die Bewertungen sind redaktionelle Einschätzungen. Die Geräte der Top 3 sind bei Amazon erhältlich und werden in vier Kriterien von 0 bis 10 eingeordnet; die Gesamtnote ist der gewichtete Mittelwert.",
 
   products: [
     {
@@ -49,13 +49,13 @@ export default {
       ratings: { nutzen: 9.0, bedienung: 9.0, autark: 9.0, preis: 6.5 },
       bestFor: "Jeden geschlossenen Raum",
       verdict:
-        "In einem geschlossenen Raum steigt der CO₂-Gehalt mit jeder Person. Das Aranet4 zeigt ihn mit einem präzisen NDIR-Sensor auf einem stromsparenden E-Ink-Display an – und warnt, wenn gelüftet werden muss. Es läuft mit Batterien über lange Zeit.",
+        "In einem geschlossenen Raum steigt der CO₂-Gehalt mit jeder Person. Das Aranet4 zeigt ihn laut Hersteller mit einem NDIR-Sensor auf einem stromsparenden E-Ink-Display an – und warnt per Ampel, wenn gelüftet werden sollte. Laut Hersteller läuft es mit Batterien über lange Zeit.",
       features: [
-        "NDIR-Sensor für CO₂, dazu Temperatur, Luftfeuchte und Luftdruck",
-        "Ampelanzeige: grün unter 1.000 ppm, gelb bis 1.400 ppm, rot darüber; optionaler Summer",
+        "NDIR-Sensor für CO₂, dazu Temperatur, Luftfeuchte und Luftdruck (Herstellerangabe)",
+        "Ampelanzeige: grün unter 1.000 ppm, gelb bis 1.400 ppm, rot darüber; optionaler Summer (Herstellerangabe)",
         "E-Ink-Display, Batteriebetrieb, App per Bluetooth (Herstellerangaben)",
       ],
-      pros: ["Zeigt, wann Frischluft nötig ist", "Unabhängig von Strom und Netz", "Präziser Sensor"],
+      pros: ["Zeigt, wann Frischluft nötig ist", "Unabhängig von Strom und Netz", "NDIR-Sensor (laut Hersteller präzise)"],
       cons: ["Teurer als einfache CO₂-Ampeln", "Warnt nicht vor Kohlenmonoxid", "Alarmschwellen laut Nutzern nicht frei einstellbar"],
       specs: { aufgabe: "Luftqualität (CO₂) überwachen", energie: "Batterie, mehrjährig", anzeige: "E-Ink, Ampel", wichtig: "kein CO-Melder", alternative: "einfache CO₂-Ampel" },
       asin: "B07KYPL2K3",
@@ -74,11 +74,11 @@ export default {
       verdict:
         "Wer mehrere Tage im Keller verbringt, braucht einen Schlafplatz über dem kalten Boden. Das Feldbett ist in Minuten aufgebaut, laut Anbieter bis 150 kg belastbar und lässt sich mit Transporttasche platzsparend lagern.",
       features: [
-        "Aluminiumgestell, Maße ca. 190 × 70 × 45 cm, Liegefläche 190 × 60 cm",
+        "Aluminiumgestell, Maße ca. 190 × 70 × 45 cm, Liegefläche 190 × 60 cm (Anbieterangabe)",
         "Belastbar bis 150 kg laut Anbieter, rund 4,5 kg leicht",
         "Mit Transporttasche – lagert flach im Keller",
       ],
-      pros: ["Günstig", "Schnell aufgebaut", "Schützt vor Bodenkälte"],
+      pros: ["Günstig", "Schnell aufgebaut", "Hält Abstand zum kalten Boden"],
       cons: ["Stabilität laut Nutzern unterschiedlich", "Ohne Isomatte im Winter kühl", "Ein Bett pro Person nötig"],
       specs: { aufgabe: "Schlafen über dem Boden", energie: "keine", anzeige: "–", wichtig: "Isomatte und Schlafsack dazu", alternative: "Isomatte" },
       asin: "B00N1RC5FM",
@@ -95,13 +95,13 @@ export default {
       ratings: { nutzen: 7.5, bedienung: 7.0, autark: 7.0, preis: 6.0 },
       bestFor: "Wer Strahlung selbst einschätzen will",
       verdict:
-        "Ein Gamma-Messgerät mit Szintillationskristall, das Dosisleistung und Spektrum anzeigt und bei einstellbaren Schwellen alarmiert. Für die Einschätzung der Lage zählen aber vor allem die amtlichen Messwerte und Behördenhinweise.",
+        "Ein Gamma-Messgerät mit Szintillationskristall, das laut Anbieter Dosisleistung und Spektrum anzeigt und bei einstellbaren Schwellen alarmiert. Es ist kein geeichtes Messgerät für amtliche Zwecke. Für die Einschätzung der Lage zählen aber vor allem die amtlichen Messwerte und Behördenhinweise.",
       features: [
         "Szintillationskristall mit Halbleiter-Photomultiplier, misst Zählrate und Dosisleistung (Anbieterangaben)",
-        "Energiespektrum und Alarm bei einstellbaren Schwellen, App per Bluetooth",
+        "Energiespektrum und Alarm bei einstellbaren Schwellen, App per Bluetooth (Anbieterangaben)",
         "Laut Nutzerberichten bei Gamma deutlich empfindlicher als Geiger-Müller-Zählrohre, bei Alpha und Beta weniger",
       ],
-      pros: ["Empfindlich für Gammastrahlung", "Kompakt", "Alarmfunktion"],
+      pros: ["Laut Nutzerberichten empfindlich für Gammastrahlung", "Kompakt", "Alarmfunktion"],
       cons: ["Ersetzt keine amtlichen Messungen", "Erklärungsbedürftige Messwerte", "Teuer"],
       specs: { aufgabe: "Gamma-Dosisleistung messen", energie: "Akku", anzeige: "Display + App", wichtig: "amtliche Werte haben Vorrang", alternative: "BfS-Messnetz online" },
       asin: "B0CBQKND5W",
@@ -151,10 +151,10 @@ export default {
         id: "lage-deutschland",
         h2: "Gibt es in Deutschland noch Schutzräume?",
         blocks: [
-          { quick: "Kaum noch nutzbare. Von rund 2.000 öffentlichen Anlagen aus dem Kalten Krieg sind laut BBK knapp 580 übrig, und nach Berichten von 2026 ist keine davon voll einsatzfähig. Der Bund arbeitet seit 2024 an einem dezentralen Schutzraumkonzept. Für jeden Keller gilt: Ein [CO₂-Messgerät](produkt:1), [Schlafplätze](produkt:2) und – wer möchte – ein [Strahlungsmessgerät](produkt:3) gehören dazu." },
+          { quick: "Kaum noch nutzbare. Von rund 2.000 öffentlichen Anlagen aus dem Kalten Krieg sind laut BBK knapp 580 übrig, und nach Medienberichten von 2026 ist keine davon voll einsatzfähig. Der Bund arbeitet seit 2024 an einem dezentralen Schutzraumkonzept. Für jeden Keller gilt: Ein [CO₂-Messgerät](produkt:1), [Schlafplätze](produkt:2) und – wer möchte – ein [Strahlungsmessgerät](produkt:3) gehören dazu." },
           { first: "Nach dem Ende des Kalten Krieges wurden die meisten öffentlichen Schutzräume in Deutschland aufgegeben. Laut BBK sind von einst rund 2.000 Anlagen knapp 580 übrig; Medien berichteten 2026, dass keine davon heute voll einsatzbereit ist. Seit Mai 2024 erarbeitet das BBK ein neues Schutzraumkonzept. Es setzt auf viele dezentrale Zufluchtsorte – öffentliche und private Gebäude, Tiefgaragen, U-Bahnhöfe, Keller –, weil bei kurzen Vorwarnzeiten kaum jemand einen zentralen Bunker rechtzeitig erreichen würde." },
-          { p: "Für 2026 ist laut Berichten ein Pilotprogramm vorgesehen, mit dem Kommunen zunächst eine Million Schutzplätze einfach ausstatten sollen – mit Feldbetten, mobilen Sanitäranlagen, Wasser und Lebensmitteln. Förderprogramme für private Schutzräume gibt es bisher nicht. Das heißt: Der eigene Keller oder ein innenliegender Raum ist für die meisten Menschen die realistische Option." },
-          { p: "Die Strahlenschutzkommission betont in ihren Empfehlungen zu Schutzstrategien, dass der Aufenthalt in Gebäuden – möglichst im Keller oder in der Gebäudemitte – die wichtigste Schutzmaßnahme bei radioaktiver Freisetzung ist. Auch bei Gefahrstoffen, Unwettern oder Unruhen schützt ein vorbereiteter Raum. Dafür braucht es keinen Bunker, wohl aber Planung." },
+          { p: "Für 2026 ist laut Berichten ein Pilotprogramm vorgesehen, mit dem Kommunen zunächst eine Million Schutzplätze einfach ausstatten sollen – mit Feldbetten, mobilen Sanitäranlagen, Wasser und Lebensmitteln. Förderprogramme für private Schutzräume gibt es nach unserem Kenntnisstand (Oktober 2026) bisher nicht. Das heißt: Der eigene Keller oder ein innenliegender Raum ist für die meisten Menschen die realistische Option." },
+          { p: "Die Strahlenschutzkommission betont in ihren Empfehlungen zu Schutzstrategien, dass der Aufenthalt in Gebäuden – möglichst im Keller oder in der Gebäudemitte – die wichtigste Schutzmaßnahme bei radioaktiver Freisetzung ist. Auch bei Gefahrstoffen, Unwettern oder Unruhen kann ein vorbereiteter Raum schützen. Dafür braucht es keinen Bunker, wohl aber Planung." },
           { figure: "scores" },
           { callout: { title: "Lebensgefahr durch schlechte Luft", warn: true, text: "In einem dicht verschlossenen Raum steigt der CO₂-Gehalt schnell, besonders mit mehreren Personen. Kopfschmerzen, Müdigkeit und Atemnot sind Warnzeichen. Ab einer anhaltend roten Anzeige des CO₂-Messgeräts frische Luft zuführen – sofern Behörden keine anderen Anweisungen geben. Verbrennungsgeräte (Kocher, Generatoren) haben in Schutzräumen nichts verloren." } },
         ],
@@ -163,7 +163,7 @@ export default {
         id: "privater-schutzraum",
         h2: "Lohnt sich ein privater Schutzraum – und worauf kommt es an?",
         blocks: [
-          { quick: "Ein professionell nachgerüsteter Schutzraum mit Filteranlage kostet je nach Größe schnell einen fünfstelligen Betrag oder mehr und braucht Statik, Planung und oft eine Baugenehmigung. Für die meisten ist ein gut vorbereiteter Keller die sinnvollere Investition." },
+          { quick: "Ein professionell nachgerüsteter Schutzraum mit Filteranlage kostet je nach Größe als grobe Orientierung schnell einen fünfstelligen Betrag oder mehr und braucht Statik, Planung und – je nach Bundesland und Vorhaben – oft eine Baugenehmigung. Für die meisten ist ein gut vorbereiteter Keller die sinnvollere Investition." },
           {
             table: {
               caption: "Optionen für den Schutz im eigenen Haus",
@@ -171,23 +171,24 @@ export default {
               rows: [
                 ["**Innenraum vorbereiten**", "Grundschutz bei Gefahrstoffen und Strahlung", "gering"],
                 ["**Keller ausstatten**", "Besserer Strahlen- und Splitterschutz", "gering bis mittel"],
-                ["**Keller nachrüsten (Filter, Türen, Statik)**", "Schutz nach Schutzraum-Standard", "hoch, Fachfirma"],
-                ["**Fertigbunker / Fertigkeller-Schutzraum**", "Höchster privater Schutz", "sehr hoch, Neubau"],
+                ["**Keller nachrüsten (Filter, Türen, Statik)**", "je nach Ausführung, angelehnt an Schutzraum-Normen", "hoch, Fachfirma"],
+                ["**Fertigbunker / Fertigkeller-Schutzraum**", "hoher Schutz, je nach Ausführung", "sehr hoch, Neubau"],
               ],
             },
           },
           { h3: "Nachrüstung: Was dazugehört" },
-          { p: "Eine Nachrüstung umfasst nach Angaben von Anbietern bauliche Verstärkungen, druckfeste Türen, eine Schutzraumbelüftung mit ABC-Filter (NBC-Filter) und Notausstiege. Die Belüftung muss auch ohne Strom funktionieren – viele Geräte lassen sich per Handkurbel betreiben. In der Schweiz, wo Schutzräume seit Jahrzehnten vorgeschrieben sind, gibt es dafür etablierte Komponenten und Normen." },
+          { p: "Eine Nachrüstung umfasst nach Angaben von Anbietern bauliche Verstärkungen, druckfeste Türen, eine Schutzraumbelüftung mit ABC-Filter (NBC-Filter) und Notausstiege. Die Belüftung sollte auch ohne Strom funktionieren – viele Geräte lassen sich laut Anbietern per Handkurbel betreiben. In der Schweiz, wo grundsätzlich seit Jahrzehnten eine Schutzraumpflicht gilt, gibt es dafür etablierte Komponenten und Normen." },
           { h3: "Vor dem Auftrag" },
           {
             list: [
               "**Statik prüfen lassen** – durch einen unabhängigen Tragwerksplaner.",
-              "**Baurecht klären** – Bauamt fragen, ob eine Genehmigung nötig ist.",
+              "**Baurecht klären** – beim Bauamt fragen, ob eine Genehmigung nötig ist; die Regeln unterscheiden sich je nach Bundesland und Gemeinde.",
               "**Mehrere Angebote** einholen und Referenzen besichtigen.",
               "**Wartung einplanen** – Filter und Lüftung müssen regelmäßig geprüft werden.",
               "**Realistisch bleiben** – kein Schutzraum hilft ohne Wasser, Vorrat, Luft und Plan.",
             ],
           },
+          { callout: { title: "Bauliche Eingriffe nur mit Fachleuten", warn: true, text: "Durchbrüche, Notausstiege, schwere Türen und Lüftungsanlagen greifen in Statik, Brandschutz und Abdichtung des Gebäudes ein. Solche Arbeiten nur nach Planung durch Tragwerksplaner und Fachfirma ausführen lassen und vorab klären, ob eine Baugenehmigung nötig ist. In Eigentümergemeinschaften braucht es in der Regel einen Beschluss, in Mietwohnungen die Zustimmung des Vermieters. Unsere Hinweise sind keine Rechts- oder Bauberatung." } },
         ],
       },
       {
@@ -214,13 +215,13 @@ export default {
     id: "top5-anbieter",
     h2: "Anbieter für Schutzraum-Nachrüstung und Fertigbunker im Überblick",
     intro:
-      "Diese Unternehmen bieten Schutzraumbau, Nachrüstung oder Komponenten an. Wir haben ihre Leistungen nicht geprüft und erhalten keine Provision – die Übersicht soll den Einstieg in die Recherche erleichtern. Angebote immer individuell einholen und vergleichen.",
+      "Diese Unternehmen bieten laut eigenen Angaben Schutzraumbau, Nachrüstung oder Komponenten an. Wir haben ihre Leistungen nicht geprüft und erhalten keine Provision; die Nennung ist keine Empfehlung und keine Bewertung. Die Übersicht soll den Einstieg in die Recherche erleichtern und ist nicht vollständig, Angaben ohne Gewähr (Stand Oktober 2026). Angebote immer individuell einholen und vergleichen.",
     items: [
       { name: "BSSD Defence – Bunker Schutzraum Systeme Deutschland", for: "Nachrüstung & Fertigbunker (DE)", text: "Bietet laut eigener Website die Schutzraum-Nachrüstung „SN“ für bestehende Keller mit baulichen Verstärkungen und NBC-Filteranlage an; Projektanfrage erforderlich.", where: "bunker-bssd.de" },
-      { name: "Glatthaar Keller mit BSSD", for: "Schutzraum im Fertigkeller (DE)", text: "Der Fertigkeller-Hersteller bietet in Zusammenarbeit mit BSSD Keller mit Schutzraum aus Betonfertigteilen an – sinnvoll vor allem für Neubauten.", where: "glatthaar.com" },
-      { name: "Deutsches Schutzraum-Zentrum", for: "Beratung & Komponenten (DE)", text: "Beratung zum Schutzraumbau, Gutachten zur Reaktivierung bestehender Anlagen und Vertrieb von Schutzraumkomponenten des Schweizer Herstellers Mengeu.", where: "schutzraum-zentrum.de" },
-      { name: "KRENN Schutzraumtechnik", for: "Planung & Belüftung (AT)", text: "Planung und Errichtung vom Grundschutzraum im Einfamilienhaus bis zu großen Anlagen, dazu Komplettpakete für Schutzraumbelüftung.", where: "schutzraumtechnik-schutzraumbau-krenn.at" },
-      { name: "Schutztechnik GmbH", for: "Wartung & Nachrüstung (CH)", text: "Schweizer Betrieb für Bau, Nachrüstung und Wartung von Schutzräumen – interessant für Know-how aus dem Land mit Schutzraumpflicht.", where: "schutztechnik-gmbh.ch" },
+      { name: "Glatthaar Keller mit BSSD", for: "Schutzraum im Fertigkeller (DE)", text: "Der Fertigkeller-Hersteller bietet laut Anbieterangaben in Zusammenarbeit mit BSSD Keller mit Schutzraum aus Betonfertigteilen an – vor allem für Neubauten relevant.", where: "glatthaar.com" },
+      { name: "Deutsches Schutzraum-Zentrum", for: "Beratung & Komponenten (DE)", text: "Laut eigener Website Beratung zum Schutzraumbau, Gutachten zur Reaktivierung bestehender Anlagen und Vertrieb von Schutzraumkomponenten des Schweizer Herstellers Mengeu.", where: "schutzraum-zentrum.de" },
+      { name: "KRENN Schutzraumtechnik", for: "Planung & Belüftung (AT)", text: "Laut eigener Website Planung und Errichtung vom Grundschutzraum im Einfamilienhaus bis zu großen Anlagen, dazu Komplettpakete für Schutzraumbelüftung.", where: "schutzraumtechnik-schutzraumbau-krenn.at" },
+      { name: "Schutztechnik GmbH", for: "Wartung & Nachrüstung (CH)", text: "Schweizer Betrieb, der laut eigener Website Bau, Nachrüstung und Wartung von Schutzräumen anbietet – interessant für Know-how aus dem Land mit Schutzraumpflicht.", where: "schutztechnik-gmbh.ch" },
     ],
   },
 
@@ -231,7 +232,7 @@ export default {
         h2: "Wie bereitet man einen Keller als Schutzraum vor?",
         blocks: [
           { quick: "Wähle einen innenliegenden Kellerraum, sichere einen zweiten Ausgang, plane die Belüftung, lagere Wasser, Vorrat, Licht, Radio, Toilette und Erste Hilfe dort und prüfe alles einmal im Jahr." },
-          { p: "Ein Kellerraum bietet durch Erdreich und Mauerwerk deutlich mehr Schutz als die oberen Etagen – vor Strahlung, Splittern und Druckwellen. Wichtig ist, dass man sich dort einige Tage aufhalten kann: Luft, Licht, Wasser, Toilette, Schlafplatz und Informationen müssen vorhanden sein. Bei Gefahrstoffen gilt allerdings: Viele Gase sind schwerer als Luft – dann sind obere Stockwerke sicherer. Die Anweisungen der Behörden entscheiden." },
+          { p: "Ein Kellerraum bietet durch Erdreich und Mauerwerk in der Regel mehr Schutz als die oberen Etagen – vor Strahlung, Splittern und Druckwellen. Wichtig ist, dass man sich dort einige Tage aufhalten kann: Luft, Licht, Wasser, Toilette, Schlafplatz und Informationen müssen vorhanden sein. Bei Gefahrstoffen gilt allerdings: Viele Gase sind schwerer als Luft – dann sind obere Stockwerke sicherer. Die Anweisungen der Behörden entscheiden." },
           { figure: "steps" },
           { h3: "Checkliste für den Kellerraum" },
           {
@@ -249,7 +250,7 @@ export default {
             facts: [
               { value: "≈ 580", label: "verbliebene öffentliche Schutzräume aus dem Kalten Krieg (BBK)" },
               { value: "1 Mio.", label: "Schutzplätze im geplanten Pilotprogramm für Kommunen (2026)" },
-              { value: "1.000 ppm", label: "CO₂-Grenze, ab der das Aranet4 von Grün auf Gelb wechselt" },
+              { value: "1.000 ppm", label: "CO₂-Grenze, ab der das Aranet4 laut Hersteller von Grün auf Gelb wechselt" },
             ],
           },
           { h3: "Informiert bleiben" },
@@ -261,11 +262,11 @@ export default {
 
   faqs: [
     { q: "Gibt es in Deutschland noch öffentliche Bunker?", a: "Laut BBK sind von einst rund 2.000 öffentlichen Schutzräumen knapp 580 übrig; nach Medienberichten von 2026 ist keiner davon voll einsatzfähig. Der Bund arbeitet an einem dezentralen Schutzraumkonzept mit vielen Zufluchtsorten." },
-    { q: "Was kostet ein privater Schutzraum?", a: "Das hängt stark von Größe, Ausstattung und Bauweise ab. Eine professionelle Nachrüstung mit Filteranlage und baulichen Verstärkungen erreicht schnell einen fünfstelligen Betrag oder mehr. Anbieter erstellen individuelle Angebote." },
-    { q: "Braucht man für einen Bunker eine Baugenehmigung?", a: "Oft ja, vor allem bei Neubauten und baulichen Eingriffen in die Statik. Frage vorab beim Bauamt nach und lass die Statik von einem unabhängigen Tragwerksplaner prüfen." },
+    { q: "Was kostet ein privater Schutzraum?", a: "Das hängt stark von Größe, Ausstattung und Bauweise ab. Eine professionelle Nachrüstung mit Filteranlage und baulichen Verstärkungen erreicht als grobe Orientierung schnell einen fünfstelligen Betrag oder mehr. Anbieter erstellen individuelle Angebote." },
+    { q: "Braucht man für einen Bunker eine Baugenehmigung?", a: "Häufig ja, vor allem bei Neubauten und baulichen Eingriffen in die Statik – die Regeln unterscheiden sich je nach Bundesland, Gemeinde und Vorhaben. Frage vorab beim Bauamt nach und lass die Statik von einem unabhängigen Tragwerksplaner prüfen. Das ist keine Rechtsberatung." },
     { q: "Ist der Keller ein guter Schutzraum?", a: "Bei radioaktiver Freisetzung, Unwettern und Splittergefahr bietet ein Keller deutlich mehr Schutz als obere Etagen. Bei Gasen, die schwerer als Luft sind, können obere Stockwerke sicherer sein. Folge im Ernstfall den Hinweisen der Behörden." },
-    { q: "Warum ein CO₂-Messgerät im Schutzraum?", a: "In einem geschlossenen Raum steigt der CO₂-Gehalt mit jeder Person. Ein Messgerät zeigt, wann gelüftet werden muss, bevor Kopfschmerzen, Müdigkeit oder Atemnot auftreten. Vor Kohlenmonoxid warnt es nicht – dafür braucht es einen CO-Melder." },
-    { q: "Gibt es Förderung für private Schutzräume?", a: "Nach aktuellem Stand nicht. Geplante Programme richten sich an Kommunen. Wer privat vorsorgen will, trägt die Kosten selbst." },
+    { q: "Warum ein CO₂-Messgerät im Schutzraum?", a: "In einem geschlossenen Raum steigt der CO₂-Gehalt mit jeder Person. Ein Messgerät hilft, rechtzeitig zu lüften, bevor Beschwerden wie Kopfschmerzen, Müdigkeit oder Atemnot auftreten. Vor Kohlenmonoxid warnt es nicht – dafür braucht es einen CO-Melder." },
+    { q: "Gibt es Förderung für private Schutzräume?", a: "Nach unserem Kenntnisstand (Oktober 2026) nicht. Geplante Programme richten sich an Kommunen. Wer privat vorsorgen will, trägt die Kosten selbst." },
   ],
 
   sources: [

@@ -17,7 +17,7 @@ export default {
   lead:
     "Ein Cockpit macht aus dem Lenkrad am Schreibtisch ein echtes Rennerlebnis: feste Sitzposition, nichts verrutscht, die Pedale bleiben stehen. Wir zeigen die drei besten Rennsitze und in der Top 5 die passenden Lenkräder.",
   answer:
-    "Unsere beste Gesamtwahl ist der [**Playseat Trophy**](produkt:1) – stabil genug auch für Direct-Drive-Lenkräder und mit bequemem, atmungsaktivem Sitz. Das beste Preis-Leistungs-Verhältnis bietet der klappbare [**Playseat Challenge X Logitech G Edition**](produkt:2), die Wahl für GT- und Formel-Position ist das [**Next Level Racing F-GT Lite**](produkt:3).",
+    "Unsere beste Gesamtwahl ist der [**Playseat Trophy**](produkt:1) – laut Hersteller stabil genug auch für Direct-Drive-Lenkräder und mit bequemem, atmungsaktivem Sitz. Das beste Preis-Leistungs-Verhältnis bietet der klappbare [**Playseat Challenge X Logitech G Edition**](produkt:2), die Wahl für GT- und Formel-Position ist das [**Next Level Racing F-GT Lite**](produkt:3).",
 
   priceTiers: {
     1: { symbol: "€", label: "bis 300 €" },
@@ -51,10 +51,10 @@ export default {
       ratings: { stabil: 9.0, ergonomie: 9.0, alltag: 7.5, preis: 8.0 },
       bestFor: "Ambitionierte Fahrer, auch mit Direct Drive",
       verdict:
-        "Der beste Allrounder: steifer Rahmen, bequemer Sitz aus atmungsaktivem Material und eine Sitzposition wie im GT-Auto – ohne die Komplexität eines Aluprofil-Rigs.",
+        "Unser Allrounder-Favorit: steifer Rahmen, bequemer Sitz aus laut Hersteller atmungsaktivem Material und eine Sitzposition wie im GT-Auto – ohne die Komplexität eines Aluprofil-Rigs.",
       features: [
         "Steifer Rahmen, laut Hersteller auch für Direct-Drive-Lenkräder geeignet",
-        "Sitz aus atmungsaktivem Material",
+        "Sitz aus atmungsaktivem Material (Herstellerangabe)",
         "Kompatibel mit gängigen Lenkrädern und Pedalen (Herstellerangabe)",
       ],
       pros: ["Sehr stabil", "Bequem für lange Rennen", "Einfacher Aufbau"],
@@ -77,7 +77,7 @@ export default {
         "Zusammenklappen und an die Wand stellen: Der Challenge X ist ideal für Wohnzimmer und Gaming-Ecken – für sehr starke Direct-Drive-Lenkräder ist er aber nicht gebaut.",
       features: [
         "Klappbar, platzsparend zu verstauen (Herstellerangabe)",
-        "Optimiert für Logitech-Lenkräder",
+        "Optimiert für Logitech-Lenkräder (Herstellerangabe)",
         "Für Direct Drive laut Hersteller nur bis rund 5 Nm empfohlen",
       ],
       pros: ["Klappbar", "Schneller Aufbau", "Günstig"],
@@ -100,7 +100,7 @@ export default {
         "Flexibles Einstiegs-Cockpit: Die Sitzposition lässt sich zwischen GT und Formel umbauen, das Cockpit ist klappbar und laut Hersteller bis 130 kg belastbar.",
       features: [
         "Umbaubar zwischen GT- und Formel-Position (Herstellerangabe)",
-        "Klappbar",
+        "Klappbar (Herstellerangabe)",
         "Belastbar bis 130 kg (Herstellerangabe)",
       ],
       pros: ["Zwei Sitzpositionen", "Klappbar", "Günstig"],
@@ -153,7 +153,7 @@ export default {
         h2: "Welches Sim-Racing-Cockpit ist das beste?",
         blocks: [
           { quick: "Für die meisten ist der [Playseat Trophy](produkt:1) die beste Wahl, weil er stabil und bequem ist. Klappbar und günstig ist der [Playseat Challenge X](produkt:2), für GT- und Formel-Position das [Next Level F-GT Lite](produkt:3)." },
-          { first: "Wer ein Lenkrad an den Schreibtisch klemmt, merkt schnell die Grenzen: Der Stuhl rollt beim Bremsen weg, das Lenkrad wackelt und die Pedale verrutschen. Ein Cockpit verbindet Sitz, Lenkrad und Pedale zu einer festen Einheit. Das Ergebnis ist mehr Kontrolle, konstantere Rundenzeiten – und viel mehr Spaß." },
+          { first: "Wer ein Lenkrad an den Schreibtisch klemmt, merkt schnell die Grenzen: Der Stuhl rollt beim Bremsen weg, das Lenkrad wackelt und die Pedale verrutschen. Ein Cockpit verbindet Sitz, Lenkrad und Pedale zu einer festen Einheit. Das Ergebnis ist mehr Kontrolle, oft konstantere Rundenzeiten – und viel mehr Spaß." },
           { p: "Die wichtigste Frage ist, welches **Lenkrad** du nutzt. Riemen- und Zahnrad-Lenkräder wie das Logitech G923 oder Thrustmaster T300 erzeugen moderate Kräfte – dafür reicht auch ein Klappsitz. **Direct-Drive-Lenkräder** sitzen direkt auf dem Motor und erzeugen deutlich mehr Kraft. Bei ihnen verbiegt sich ein leichtes Cockpit spürbar, und das Force Feedback verliert an Präzision. Dann brauchst du einen steifen Rahmen wie beim Playseat Trophy oder ein Aluprofil-Rig." },
           { figure: "scores" },
         ],
@@ -188,10 +188,10 @@ export default {
     intro: "Ohne Lenkrad kein Rennen – die passenden Lenkräder für PlayStation, Xbox und PC.",
     items: [
       { name: "Logitech G923 TRUEFORCE mit Schaltknüppel", for: "Beliebter Einstieg", text: "Lenkrad mit TRUEFORCE-Feedback und Pedalen, im Bundle mit Schaltknüppel (Herstellerangabe).", asin: "B08K9VCZ5G", query: "Logitech G923 TRUEFORCE Schaltknüppel" },
-      { name: "Thrustmaster T300 RS GT Edition", for: "Riemenantrieb", text: "Lenkrad mit Riemenantrieb für PlayStation und PC, bekannt für sanftes Force Feedback.", asin: "B01HRYFODO", query: "Thrustmaster T300 RS GT Edition" },
+      { name: "Thrustmaster T300 RS GT Edition", for: "Riemenantrieb", text: "Lenkrad mit Riemenantrieb für PlayStation und PC (Herstellerangabe); Riemenantriebe gelten als vergleichsweise sanft im Force Feedback.", asin: "B01HRYFODO", query: "Thrustmaster T300 RS GT Edition" },
       { name: "Logitech G PRO Racing Wheel", for: "Direct Drive", text: "Direct-Drive-Lenkrad mit 11 Nm (Herstellerangabe) – für steife Cockpits wie den Playseat Trophy.", asin: "B0DCBW7GGM", query: "Logitech G PRO Racing Wheel PlayStation PC" },
-      { name: "Logitech G PRO Racing Wheel mit Pedalen", for: "Direct-Drive-Bundle", text: "Das G PRO Racing Wheel im Bundle mit Pedalen.", asin: "B0DDCR5RD9", query: "Logitech G PRO Racing Wheel Pedale Bundle" },
-      { name: "Meta Quest 3 512 GB", for: "Racing in VR", text: "VR-Brille für PC-Rennsimulationen – mehr im Ratgeber VR-Gaming.", asin: "B09N24BHKQ", query: "Meta Quest 3 512 GB" },
+      { name: "Logitech G PRO Racing Wheel mit Pedalen", for: "Direct-Drive-Bundle", text: "Das G PRO Racing Wheel im Bundle mit Pedalen (Herstellerangabe).", asin: "B0DDCR5RD9", query: "Logitech G PRO Racing Wheel Pedale Bundle" },
+      { name: "Meta Quest 3 512 GB", for: "Racing in VR", text: "VR-Brille für PC-Rennsimulationen – Altersangabe des Herstellers beachten, mehr im Ratgeber VR-Gaming.", asin: "B09N24BHKQ", query: "Meta Quest 3 512 GB" },
     ],
   },
 
@@ -204,8 +204,9 @@ export default {
           { quick: "Lenkrad fest verschrauben, Pedalabstand und Sitzposition an die Körpergröße anpassen und den Bildschirm möglichst nah und auf Augenhöhe aufstellen." },
           { figure: "steps" },
           { p: "Eine gute Sitzposition ist entscheidend: Die Arme sollten leicht angewinkelt sein, wenn die Hände oben am Lenkrad liegen, die Schultern bleiben am Sitz. Die Pedale stellst du so ein, dass das Knie beim voll durchgedrückten Bremspedal noch leicht gebeugt ist." },
-          { callout: { title: "Direct Drive", warn: true, text: "Direct-Drive-Lenkräder können sehr hohe Kräfte erzeugen. Kraft in der Software anfangs begrenzen, Hände nicht in die Speichen legen und das Lenkrad bei Ladebildschirmen nicht loslassen." } },
-          { facts: [{ value: "11 Nm", label: "Logitech G PRO Racing Wheel" }, { value: "≤ 5 Nm", label: "Direct Drive am Challenge X" }, { value: "130 kg", label: "Belastbarkeit F-GT Lite" }] },
+          { callout: { title: "Direct Drive", warn: true, text: "Direct-Drive-Lenkräder können sehr hohe Kräfte erzeugen. Kraft in der Software anfangs begrenzen, Hände nicht in die Speichen legen und das Lenkrad bei Ladebildschirmen nicht loslassen. Kinder nur unter Aufsicht und mit stark reduzierter Kraft fahren lassen; die Not-Aus- bzw. Sicherheitsfunktionen des Herstellers nutzen." } },
+          { callout: { title: "Aufbau und Gesundheit", warn: true, text: "Cockpit nach Anleitung des Herstellers aufbauen, alle Schrauben regelmäßig nachziehen und die angegebene Belastbarkeit beachten. Beim Zusammenklappen auf die Finger achten. Lange Sessions mit Pausen unterbrechen; die Hinweise hier ersetzen keine ärztliche Beratung. Bei Rennspielen in VR kann Bewegungsübelkeit auftreten – dann sofort pausieren. Blinkende Bildeffekte können bei Menschen mit fotosensibler Epilepsie Anfälle auslösen; Warnhinweise der Spiele beachten." } },
+          { facts: [{ value: "11 Nm", label: "Logitech G PRO Racing Wheel (Herstellerangabe)" }, { value: "≤ 5 Nm", label: "Direct Drive am Challenge X (Herstellerangabe)" }, { value: "130 kg", label: "Belastbarkeit F-GT Lite (Herstellerangabe)" }] },
         ],
       },
     ],

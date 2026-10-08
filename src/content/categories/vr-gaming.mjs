@@ -17,7 +17,7 @@ export default {
   lead:
     "Mit einer VR-Brille stehst du mitten im Spiel – ob Rhythmusspiel, Rennsimulation oder Escape Room. Wir zeigen die drei besten VR-Brillen für zu Hause und in der Top 5 Alternativen und sinnvolles Zubehör.",
   answer:
-    "Unsere beste Gesamtwahl ist die [**Meta Quest 3 512 GB**](produkt:1) – kabellos, mit scharfen Pancake-Linsen und farbigem Mixed-Reality-Modus. Das beste Preis-Leistungs-Verhältnis bietet die [**Meta Quest 3S 128 GB**](produkt:2), die Wahl für PlayStation-5-Besitzer ist die [**PlayStation VR2**](produkt:3).",
+    "Unsere beste Gesamtwahl ist die [**Meta Quest 3 512 GB**](produkt:1) – kabellos, laut Hersteller mit Pancake-Linsen und farbigem Mixed-Reality-Modus. Das beste Preis-Leistungs-Verhältnis bietet die [**Meta Quest 3S 128 GB**](produkt:2), die Wahl für PlayStation-5-Besitzer ist die [**PlayStation VR2**](produkt:3).",
 
   priceTiers: {
     1: { symbol: "€", label: "bis 350 €" },
@@ -49,13 +49,13 @@ export default {
       visual: { kind: "vr", tone: "forest" },
       priceTier: 3,
       ratings: { bild: 9.0, spiele: 9.5, komfort: 8.5, preis: 7.5 },
-      bestFor: "Die beste VR-Brille für die meisten",
+      bestFor: "Die meisten Spieler, die VR ausprobieren wollen",
       verdict:
-        "Die beste Allround-Brille: kabellos, scharfe Pancake-Linsen, farbiges Passthrough für Mixed Reality und die größte Spielebibliothek – per Kabel oder WLAN auch für PC-VR nutzbar.",
+        "Aus unserer Sicht die beste Allround-Brille im Vergleich: kabellos, scharfe Pancake-Linsen, farbiges Passthrough für Mixed Reality und eine der größten Spielebibliotheken – laut Hersteller per Kabel oder WLAN auch für PC-VR nutzbar.",
       features: [
         "Pancake-Linsen, hochauflösende Displays (Herstellerangabe)",
-        "Farbiges Passthrough für Mixed Reality",
-        "Eigenständig, PC-VR per Kabel oder WLAN möglich",
+        "Farbiges Passthrough für Mixed Reality (Herstellerangabe)",
+        "Eigenständig, PC-VR per Kabel oder WLAN möglich (Herstellerangabe)",
       ],
       pros: ["Sehr gutes Bild", "Große Spielebibliothek", "Kabellos"],
       cons: ["Teurer als Quest 3S", "Mitgeliefertes Kopfband einfach"],
@@ -74,11 +74,11 @@ export default {
       ratings: { bild: 7.0, spiele: 9.5, komfort: 8.5, preis: 9.0 },
       bestFor: "Einstieg, Familien",
       verdict:
-        "Der günstigste Einstieg in moderne VR: gleicher Prozessor und gleiche Spiele wie die Quest 3, aber mit einfacheren Fresnel-Linsen und weniger Speicher.",
+        "Ein günstiger Einstieg in moderne VR: laut Hersteller gleicher Prozessor und gleiche Spiele wie die Quest 3, aber mit einfacheren Fresnel-Linsen und weniger Speicher.",
       features: [
         "Gleiche Spielebibliothek wie Quest 3 (Herstellerangabe)",
-        "Fresnel-Linsen, farbiges Passthrough",
-        "Eigenständig, PC-VR möglich",
+        "Fresnel-Linsen, farbiges Passthrough (Herstellerangabe)",
+        "Eigenständig, PC-VR möglich (Herstellerangabe)",
       ],
       pros: ["Günstig", "Alle Quest-Spiele", "Kabellos"],
       cons: ["Bild weniger scharf am Rand", "Wenig Speicher"],
@@ -97,11 +97,11 @@ export default {
       ratings: { bild: 9.0, spiele: 7.5, komfort: 7.5, preis: 7.5 },
       bestFor: "PS5-Besitzer",
       verdict:
-        "VR mit OLED-Displays und Eye-Tracking für die PlayStation 5: beeindruckendes Bild und exklusive Spiele – aber mit Kabel und kleinerer Bibliothek als bei Meta.",
+        "VR mit laut Hersteller OLED-Displays und Eye-Tracking für die PlayStation 5: beeindruckendes Bild und exklusive Spiele – aber mit Kabel und kleinerer Bibliothek als bei Meta.",
       features: [
         "OLED-Displays, Eye-Tracking (Herstellerangabe)",
-        "Sense-Controller mit adaptiven Triggern",
-        "Per Kabel an der PS5, mit PC-Adapter auch am PC",
+        "Sense-Controller mit adaptiven Triggern (Herstellerangabe)",
+        "Per Kabel an der PS5, mit PC-Adapter auch am PC (Herstellerangabe)",
       ],
       pros: ["Kontraststarkes OLED-Bild", "Exklusive PS5-Spiele", "Eye-Tracking"],
       cons: ["Kabelgebunden", "Braucht PS5", "Kleinere Bibliothek"],
@@ -152,9 +152,9 @@ export default {
         id: "beste-vr-brille",
         h2: "Welche VR-Brille ist die beste?",
         blocks: [
-          { quick: "Für die meisten ist die [Meta Quest 3](produkt:1) die beste Wahl, weil sie kabellos ist und die größte Spielebibliothek hat. Günstiger ist die [Quest 3S](produkt:2), für PS5-Besitzer die [PlayStation VR2](produkt:3)." },
+          { quick: "Für die meisten ist die [Meta Quest 3](produkt:1) die beste Wahl, weil sie kabellos ist und eine der größten Spielebibliotheken hat. Günstiger ist die [Quest 3S](produkt:2), für PS5-Besitzer die [PlayStation VR2](produkt:3)." },
           { first: "Moderne VR-Brillen brauchen keine Basisstationen mehr: Kameras in der Brille erfassen Raum und Controller. **Eigenständige Brillen** wie die Meta Quest haben einen eingebauten Prozessor und laufen ohne Konsole oder PC – ideal, um sie schnell im Wohnzimmer aufzusetzen. Mit einem Gaming-PC lassen sie sich zusätzlich für anspruchsvolle PC-VR-Spiele nutzen." },
-          { p: "Die **PlayStation VR2** wird per Kabel an die PS5 angeschlossen und nutzt deren Rechenleistung. Dafür bietet sie OLED-Displays mit sattem Kontrast und Eye-Tracking. Mit Sonys PC-Adapter funktioniert sie auch am PC. Wer keine PS5 hat, ist mit einer Quest besser beraten. Für Rennspiele lohnt sich VR besonders in Kombination mit einem [Sim-Racing-Cockpit](/sim-racing-cockpits/)." },
+          { p: "Die **PlayStation VR2** wird per Kabel an die PS5 angeschlossen und nutzt deren Rechenleistung. Dafür bietet sie laut Sony OLED-Displays mit sattem Kontrast und Eye-Tracking. Mit Sonys PC-Adapter funktioniert sie auch am PC. Wer keine PS5 hat, ist mit einer Quest besser beraten. Für Rennspiele lohnt sich VR besonders in Kombination mit einem [Sim-Racing-Cockpit](/sim-racing-cockpits/)." },
           { figure: "scores" },
         ],
       },
@@ -175,7 +175,7 @@ export default {
             },
           },
           { h3: "Pancake- oder Fresnel-Linsen?" },
-          { p: "**Pancake-Linsen** wie in der Quest 3 sind dünner und bis zum Rand scharf. **Fresnel-Linsen** wie in der Quest 3S sind günstiger, zeigen aber am Rand Unschärfe und können bei hellen Kontrasten Lichtschlieren erzeugen. Für lange Sessions und Text lohnt sich der Aufpreis." },
+          { p: "**Pancake-Linsen** wie in der Quest 3 sind dünner und in der Regel bis zum Rand schärfer. **Fresnel-Linsen** wie in der Quest 3S sind günstiger, zeigen aber am Rand Unschärfe und können bei hellen Kontrasten Lichtschlieren erzeugen. Für lange Sessions und Text lohnt sich der Aufpreis." },
           { list: ["Plattform passend zu deinen Geräten", "Pancake-Linsen für scharfes Bild", "Ausreichend Speicher für große Spiele", "Komfort-Kopfband für lange Sessions", "Altersempfehlung des Herstellers beachten"] },
         ],
       },
@@ -190,7 +190,7 @@ export default {
       { name: "PICO 4 Ultra 256 GB", for: "Alternative zu Meta", text: "Eigenständige VR- und Mixed-Reality-Brille mit Pancake-Linsen und PC-Streaming für SteamVR (Herstellerangabe).", asin: "B0D9WKDZXW", query: "PICO 4 Ultra 256 GB" },
       { name: "Meta Quest 3S 256 GB", for: "Mehr Speicher", text: "Die Quest 3S mit doppeltem Speicher für viele Spiele.", asin: "B09MJR4K5K", query: "Meta Quest 3S 256 GB" },
       { name: "PlayStation VR2 PC-Adapter", for: "PS VR2 am PC", text: "Offizieller Adapter, mit dem die PS VR2 am PC mit SteamVR funktioniert (Herstellerangabe).", asin: "B0D8WC2ZRX", query: "PlayStation VR2 PC Adapter" },
-      { name: "BOBOVR M3 Pro", for: "Komfort-Kopfband mit Akku", text: "Kopfband mit Akku für die Quest 3 – verteilt das Gewicht und verlängert die Laufzeit (Kompatibilität prüfen).", asin: "B0CJLG9SBR", query: "BOBOVR M3 Pro Quest 3" },
+      { name: "BOBOVR M3 Pro", for: "Komfort-Kopfband mit Akku", text: "Kopfband mit Akku für die Quest 3 – soll laut Hersteller das Gewicht verteilen und die Laufzeit verlängern (Kompatibilität prüfen).", asin: "B0CJLG9SBR", query: "BOBOVR M3 Pro Quest 3" },
       { name: "BOBOVR S3 Pro", for: "Kopfband für Quest 3S", text: "Komfort-Kopfband mit Akku für die Quest 3S (Kompatibilität prüfen).", asin: "B0CSY8PD63", query: "BOBOVR S3 Pro" },
     ],
   },
@@ -204,8 +204,9 @@ export default {
           { quick: "Mindestens 2 × 2 m freiräumen, Spielgrenze einrichten, Linsen vor direkter Sonne schützen und die Altersempfehlung der Hersteller beachten." },
           { figure: "steps" },
           { p: "Manche Menschen reagieren in VR mit Schwindel oder Übelkeit, vor allem bei Spielen mit künstlicher Fortbewegung. Starte mit Spielen im Stehen oder Sitzen, nutze Komfort-Optionen wie Teleportation und mache regelmäßig Pausen. Akustik-Elemente und ein ruhiger Raum helfen zusätzlich – mehr im Ratgeber [Akustik-Paneele](/akustik-paneele/)." },
-          { callout: { title: "Sicherheit", warn: true, text: "Direkte Sonneneinstrahlung durch die Linsen kann die Displays beschädigen. Die Hersteller geben Mindestalter an (Meta: ab 10 Jahren mit Elternkonto, Sony: ab 12 Jahren). Möbel und Haustiere aus dem Spielbereich fernhalten." } },
-          { facts: [{ value: "2 × 2 m", label: "empfohlene Spielfläche" }, { value: "512 GB", label: "Speicher Quest 3" }, { value: "ab 12", label: "Altersempfehlung PS VR2" }] },
+          { callout: { title: "Sicherheit", warn: true, text: "Direkte Sonneneinstrahlung durch die Linsen kann die Displays beschädigen. Die Hersteller geben Mindestalter an – laut Herstellerangaben (Stand bei Redaktionsschluss, kann sich ändern) Meta ab 10 Jahren mit Elternkonto, Sony ab 12 Jahren. Zusätzlich haben einzelne Spiele eigene Altersfreigaben (USK, teils IARC im Store), die du beachten solltest. Möbel, Haustiere und andere Personen aus dem Spielbereich fernhalten." } },
+          { callout: { title: "Gesundheitshinweis", warn: true, text: "VR kann Schwindel, Übelkeit, Augenbelastung oder Kopfschmerzen auslösen. Blinkende Bildeffekte können bei Menschen mit fotosensibler Epilepsie Anfälle auslösen. Lies die Gesundheits- und Sicherheitshinweise des Herstellers, besonders bei Vorerkrankungen, in der Schwangerschaft oder bei Sehproblemen, und brich bei Beschwerden sofort ab. Diese Hinweise ersetzen keine ärztliche Beratung." } },
+          { facts: [{ value: "2 × 2 m", label: "Spielfläche für Bewegung (Faustregel)" }, { value: "512 GB", label: "Speicher Quest 3 (Herstellerangabe)" }, { value: "ab 12", label: "Altersangabe PS VR2 (Herstellerangabe)" }] },
         ],
       },
     ],
@@ -215,8 +216,8 @@ export default {
     { q: "Welche VR-Brille ist die beste?", a: "Unsere beste Gesamtwahl ist die Meta Quest 3. Günstiger ist die Quest 3S, für PS5-Besitzer die PlayStation VR2." },
     { q: "Brauche ich einen PC für VR?", a: "Nein. Eigenständige Brillen wie die Meta Quest laufen ohne PC. Mit einem Gaming-PC kannst du zusätzlich PC-VR-Spiele nutzen." },
     { q: "Wie viel Platz braucht VR?", a: "Für Spiele mit Bewegung mindestens rund 2 × 2 m. Viele Spiele funktionieren auch im Sitzen oder Stehen." },
-    { q: "Ab welchem Alter ist VR geeignet?", a: "Meta erlaubt die Quest ab 10 Jahren mit Elternkonto, Sony empfiehlt die PS VR2 ab 12 Jahren." },
-    { q: "Was ist der Unterschied zwischen Quest 3 und Quest 3S?", a: "Beide haben dieselben Spiele und denselben Prozessor. Die Quest 3 hat schärfere Pancake-Linsen und ein höher auflösendes Display, die Quest 3S ist günstiger." },
+    { q: "Ab welchem Alter ist VR geeignet?", a: "Laut Herstellerangaben ist die Meta Quest ab 10 Jahren mit Elternkonto vorgesehen, Sony gibt für die PS VR2 ein Mindestalter von 12 Jahren an. Diese Angaben können sich ändern – prüfe sie vor dem Kauf beim Hersteller und achte zusätzlich auf die Altersfreigaben der einzelnen Spiele." },
+    { q: "Was ist der Unterschied zwischen Quest 3 und Quest 3S?", a: "Laut Meta haben beide dieselben Spiele und denselben Prozessor. Die Quest 3 hat schärfere Pancake-Linsen und ein höher auflösendes Display, die Quest 3S ist günstiger." },
   ],
 
   sources: [

@@ -15,9 +15,9 @@ export default {
   eyebrow: "Home-Office · Schreibtisch",
   h1: "Die 3 besten höhenverstellbaren Schreibtische 2026",
   lead:
-    "Ein elektrischer Steh-Sitz-Tisch ist die wichtigste Investition ins Home-Office: Er bringt Bewegung in den Arbeitstag und passt sich jeder Körpergröße an. Wir zeigen die drei besten.",
+    "Ein elektrischer Steh-Sitz-Tisch ist für viele eine der sinnvollsten Investitionen ins Home-Office: Er kann mehr Bewegung in den Arbeitstag bringen und lässt sich an viele Körpergrößen anpassen. Wir zeigen die drei besten.",
   answer:
-    "Unsere beste Gesamtwahl ist der [**FLEXISPOT Schreibtisch mit Doppelmotor und 25-mm-Platte (160 × 80 cm)**](produkt:1): stabil, belastbar bis 160 kg und mit Memory-Steuerung. Am günstigsten ist der [**Ergotopia Desktopia Lite**](produkt:2); die Premium-Wahl ist der [**Ergotopia Desktopia Pro X**](produkt:3) mit OLED-Bedienteil, neun Speicherplätzen und sieben Jahren Garantie.",
+    "Unsere beste Gesamtwahl ist der [**FLEXISPOT Schreibtisch mit Doppelmotor und 25-mm-Platte (160 × 80 cm)**](produkt:1): stabil, laut Hersteller bis 160 kg belastbar und mit Memory-Steuerung. Am günstigsten ist der [**Ergotopia Desktopia Lite**](produkt:2); die Premium-Wahl ist der [**Ergotopia Desktopia Pro X**](produkt:3) mit OLED-Bedienteil, neun Speicherplätzen und laut Hersteller sieben Jahren Garantie.",
 
   priceTiers: {
     1: { symbol: "€", label: "bis 400 €" },
@@ -37,7 +37,7 @@ export default {
   ],
 
   method:
-    "Grundlage sind Herstellerangaben (Höhenbereich, Motoren, Last, Garantie), Angaben der Händler sowie die Empfehlungen der DGUV zu Steh-Sitz-Arbeitsplätzen. Einen Test elektrischer Schreibtische für Erwachsene hat die Stiftung Warentest bislang nicht veröffentlicht. Die Bewertung ist eine redaktionelle Einschätzung in vier gewichteten Kriterien von 0 bis 10.",
+    "Grundlage sind Herstellerangaben (Höhenbereich, Motoren, Last, Garantie), Angaben der Händler sowie die Empfehlungen der DGUV zu Steh-Sitz-Arbeitsplätzen. Ein Test elektrischer Schreibtische für Erwachsene durch die Stiftung Warentest ist uns nicht bekannt. Die Bewertung ist eine redaktionelle Einschätzung in vier gewichteten Kriterien von 0 bis 10.",
 
   products: [
     {
@@ -54,8 +54,8 @@ export default {
         "Der ausgewogenste Tisch: Zwei Motoren und ein dreistufiges Teleskopgestell tragen laut Hersteller bis zu 160 kg, die einteilige Platte bietet Platz für zwei Monitore.",
       features: [
         "Doppelmotor und 3-fach-Teleskopgestell, Last bis 160 kg (Herstellerangabe)",
-        "Einteilige 25-mm-Tischplatte, 160 × 80 cm (weitere Größen erhältlich)",
-        "Memory-Steuerung mit gespeicherten Positionen",
+        "Einteilige 25-mm-Tischplatte, 160 × 80 cm, weitere Größen erhältlich (Herstellerangabe)",
+        "Memory-Steuerung mit gespeicherten Positionen (Herstellerangabe)",
       ],
       pros: ["Sehr stabil auch in Stehhöhe", "Große Platte für zwei Monitore", "Hohe Tragkraft"],
       cons: ["Schwer, Aufbau zu zweit", "Kollisionsschutz und Speicherplätze je nach Variante prüfen"],
@@ -74,11 +74,11 @@ export default {
       ratings: { stabil: 7.5, verstellung: 7.5, qualitaet: 8.0, preis: 9.0 },
       bestFor: "Einsteiger, kleinere Räume",
       verdict:
-        "Der günstige Einstieg einer deutschen Ergonomie-Marke: elektrisch verstellbar, mit fünf Jahren Garantie und kompakter Platte für kleinere Arbeitszimmer.",
+        "Der günstige Einstieg einer deutschen Ergonomie-Marke: elektrisch verstellbar, laut Hersteller mit fünf Jahren Garantie und kompakter Platte für kleinere Arbeitszimmer.",
       features: [
         "Elektrisch höhenverstellbar, laut Hersteller rund 63–125 cm",
         "Tischplatte 120 × 80 cm (auch 160 × 80 cm), 5 Jahre Garantie (Herstellerangabe)",
-        "Speicherplätze für Sitz- und Stehhöhe",
+        "Speicherplätze für Sitz- und Stehhöhe (Herstellerangabe)",
       ],
       pros: ["Günstig für eine Markenqualität", "Lange Garantie", "Kompakte Größe verfügbar"],
       cons: ["Weniger stabil als Doppelmotor-Tische in voller Höhe", "Weniger Speicherplätze als Pro X"],
@@ -97,10 +97,10 @@ export default {
       ratings: { stabil: 9.0, verstellung: 9.5, qualitaet: 9.0, preis: 6.0 },
       bestFor: "Vielsitzer, die keine Kompromisse wollen",
       verdict:
-        "Der komfortabelste Tisch: zwei leise Motoren, OLED-Bedienteil mit neun Speicherplätzen, Steh-Erinnerung per Licht oder Vibration und sieben Jahre Garantie.",
+        "Nach unserer Einschätzung der komfortabelste Tisch im Vergleich: laut Hersteller zwei leise Motoren, OLED-Bedienteil mit neun Speicherplätzen, Steh-Erinnerung per Licht oder Vibration und sieben Jahre Garantie.",
       features: [
         "Höhe rund 62–127 cm, zwei Motoren mit 38 mm/s, 125 kg Tragkraft (Herstellerangabe)",
-        "OLED-Bedienteil mit 9 Speicherplätzen und einstellbarer Steh-Erinnerung",
+        "OLED-Bedienteil mit 9 Speicherplätzen und einstellbarer Steh-Erinnerung (Herstellerangabe)",
         "Kollisionsschutz, 7 Jahre Garantie (Herstellerangabe)",
       ],
       pros: ["Beste Bedienung im Vergleich", "Steh-Erinnerung eingebaut", "Sehr lange Garantie"],
@@ -153,7 +153,7 @@ export default {
         h2: "Welcher höhenverstellbare Schreibtisch ist der beste?",
         blocks: [
           { quick: "Für die meisten ist der [FLEXISPOT mit Doppelmotor](produkt:1) die beste Wahl. Wer weniger ausgeben möchte, nimmt den [Desktopia Lite](produkt:2); wer den höchsten Komfort will, den [Desktopia Pro X](produkt:3)." },
-          { first: "Ein höhenverstellbarer Schreibtisch macht aus dem Home-Office einen Arbeitsplatz, an dem man sich bewegt. Statt acht Stunden am Stück zu sitzen, wechselt man per Knopfdruck zwischen Sitzen und Stehen. Die DGUV empfiehlt, die Haltung regelmäßig zu wechseln – ein Steh-Sitz-Tisch ist dafür das einfachste Werkzeug." },
+          { first: "Ein höhenverstellbarer Schreibtisch kann aus dem Home-Office einen Arbeitsplatz machen, an dem man sich mehr bewegt. Statt acht Stunden am Stück zu sitzen, wechselt man per Knopfdruck zwischen Sitzen und Stehen. Die DGUV empfiehlt, die Haltung regelmäßig zu wechseln – ein Steh-Sitz-Tisch ist dafür ein einfaches Werkzeug." },
           { p: "Die Unterschiede zwischen den Modellen liegen weniger im Prinzip als in den Details: Ein Gestell mit zwei Motoren und drei Teleskopstufen wackelt in Stehhöhe deutlich weniger als ein Einmotor-Gestell. Memory-Tasten sorgen dafür, dass der Wechsel wirklich passiert – wer jedes Mal die Höhe suchen muss, bleibt sitzen." },
           { figure: "scores" },
           { quote: "Der beste Steh-Sitz-Tisch ist der, dessen Memory-Taste man wirklich drückt." },
@@ -179,6 +179,7 @@ export default {
           { p: "Wer groß ist, braucht eine Stehhöhe von 120 cm und mehr; wer klein ist, eine Sitzhöhe unter 65 cm. Prüfe beide Enden des Bereichs – nicht nur die maximale Höhe." },
           { h3: "Platte und Last" },
           { p: "Zwei Monitore, ein Monitorarm und ein Laptop wiegen schnell 25 kg. Eine Tragkraft von 100 kg und mehr verschafft Reserve. Bei der Platte sind 160 × 80 cm komfortabel, 120 × 80 cm reicht für einen Bildschirm." },
+          { callout: { title: "Sicherheit", warn: true, text: "Tische mit Gestell und Platte sind schwer: Aufbau zu zweit und nach Anleitung des Herstellers. Die angegebene Tragkraft nicht überschreiten und Lasten gleichmäßig verteilen. Beim Verfahren besteht Quetschgefahr – auf Kinder, Haustiere, Stuhllehnen, Fensterbänke und Regale achten, Kollisionsschutz und gegebenenfalls Kindersicherung nutzen. Kabel mit genug Spiel verlegen." } },
         ],
       },
       {
@@ -219,10 +220,11 @@ export default {
         id: "stehen-im-alltag",
         h2: "Wie lange sollte man am Schreibtisch stehen?",
         blocks: [
-          { quick: "Es gibt keine feste Regel. Fachleute empfehlen häufige Wechsel – etwa alle 30 bis 60 Minuten – statt langer Stehphasen. Wer neu beginnt, steigert die Stehzeit langsam." },
-          { p: "Stehen ist nicht automatisch gesünder als Sitzen; entscheidend ist die Abwechslung. Eine gute Faustregel: zwischendurch aufstehen, telefonieren im Stehen, Videocalls im Stehen. Bequeme Schuhe oder eine Anti-Ermüdungsmatte helfen bei längeren Stehphasen." },
+          { quick: "Es gibt keine feste Regel. Häufig empfohlen werden regelmäßige Wechsel – etwa alle 30 bis 60 Minuten – statt langer Stehphasen. Wer neu beginnt, steigert die Stehzeit langsam." },
+          { p: "Stehen ist nicht automatisch gesünder als Sitzen; entscheidend ist die Abwechslung. Eine gute Faustregel: zwischendurch aufstehen, telefonieren im Stehen, Videocalls im Stehen. Bequeme Schuhe oder eine Anti-Ermüdungsmatte können längere Stehphasen angenehmer machen." },
+          { p: "Die Arbeitsstättenverordnung (ArbStättV) gilt im Home-Office in der Regel nur für Telearbeitsplätze, die der Arbeitgeber eingerichtet hat. Für alle anderen sind die Hinweise der DGUV zu Bildschirmarbeitsplätzen eine Empfehlung und keine Pflicht – aber eine gute Orientierung." },
           { figure: "steps" },
-          { callout: { title: "Gesundheit", text: "Bei Rücken-, Knie- oder Venenbeschwerden sprich vor einer Umstellung mit deiner Ärztin oder deinem Arzt. Die DGUV und die Berufsgenossenschaften geben Hinweise zur Gestaltung von Bildschirmarbeitsplätzen." } },
+          { callout: { title: "Gesundheit", text: "Ein Steh-Sitz-Tisch kann zu mehr Bewegung beitragen, ist aber kein Mittel gegen Beschwerden und ersetzt keine ärztliche Beratung. Bei Rücken-, Knie- oder Venenbeschwerden sprich vor einer Umstellung mit deiner Ärztin oder deinem Arzt. Die DGUV und die Berufsgenossenschaften geben Hinweise zur Gestaltung von Bildschirmarbeitsplätzen." } },
           { facts: [{ value: "≥ 160 × 80", label: "cm Plattengröße für zwei Monitore" }, { value: "2", label: "Motoren für mehr Stabilität" }, { value: "30–60", label: "Minuten zwischen Haltungswechseln" }] },
         ],
       },
@@ -231,7 +233,7 @@ export default {
 
   faqs: [
     { q: "Welcher höhenverstellbare Schreibtisch ist der beste?", a: "Unsere beste Gesamtwahl ist der FLEXISPOT mit Doppelmotor und 160 × 80 cm großer 25-mm-Platte. Günstiger ist der Ergotopia Desktopia Lite, die Premium-Wahl der Desktopia Pro X." },
-    { q: "Lohnt sich ein elektrischer Schreibtisch mit zwei Motoren?", a: "Ja, vor allem für große Menschen und schwere Ausstattung. Zwei Motoren und ein 3-fach-Teleskop bieten mehr Höhenbereich und stehen stabiler als Einmotor-Gestelle." },
+    { q: "Lohnt sich ein elektrischer Schreibtisch mit zwei Motoren?", a: "Ja, vor allem für große Menschen und schwere Ausstattung. Zwei Motoren und ein 3-fach-Teleskop bieten in der Regel mehr Höhenbereich und stehen stabiler als Einmotor-Gestelle." },
     { q: "Wie hoch muss ein Stehschreibtisch sein?", a: "So hoch, dass die Ellbogen im Stehen etwa im rechten Winkel auf der Platte liegen. Für große Menschen sind das oft 115 bis 125 cm – prüfe den Höhenbereich vor dem Kauf." },
     { q: "Wie lange sollte man am Stehpult stehen?", a: "Es gibt keine feste Vorgabe. Häufige Wechsel zwischen Sitzen und Stehen sind sinnvoller als lange Stehphasen." },
     { q: "Kann ich meine alte Tischplatte verwenden?", a: "Ja, mit einem einzelnen Gestell wie dem FLEXISPOT E5 oder E6. Die Platte sollte mindestens 25 mm stark und zur Gestellbreite passend sein." },

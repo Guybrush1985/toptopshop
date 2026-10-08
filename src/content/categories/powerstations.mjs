@@ -16,13 +16,13 @@ export default {
   eyebrow: "Krisenvorsorge · Energie & Wärme",
   h1: "Die 3 besten Powerstations für den Stromausfall 2026",
   lead:
-    "Eine Powerstation ist ein großer Akku mit Steckdosen: Sie hält bei einem Stromausfall Router, Handys, Licht und für einige Zeit sogar den Kühlschrank am Laufen – und lädt sich mit Solarmodulen wieder auf. Diese drei Modelle sind die beste Wahl.",
+    "Eine Powerstation ist ein großer Akku mit Steckdosen: Sie hält bei einem Stromausfall Router, Handys, Licht und für einige Zeit sogar den Kühlschrank am Laufen – und lädt sich mit Solarmodulen wieder auf. Diese drei Modelle sind nach unserer Einschätzung die beste Wahl.",
   answer:
-    "Unsere beste Gesamtwahl ist die [**EcoFlow DELTA 3 Plus**](produkt:1): 1.024 Wh LiFePO4-Akku, 1.800 W Dauerleistung, USV-Funktion unter 10 ms und 1.000 W Solareingang. Das beste Preis-Leistungs-Verhältnis bietet die [**Anker SOLIX C1000**](produkt:2); wer mehrere Tage Kühlschrank und Heizungspumpe überbrücken will, nimmt die [**EcoFlow DELTA Pro 3**](produkt:3) mit 4 kWh.",
+    "Unsere beste Gesamtwahl ist die [**EcoFlow DELTA 3 Plus**](produkt:1): laut Hersteller 1.024 Wh LiFePO4-Akku, 1.800 W Dauerleistung, USV-Funktion unter 10 ms und 1.000 W Solareingang. Das beste Preis-Leistungs-Verhältnis bietet die [**Anker SOLIX C1000**](produkt:2); wer mehrere Tage Kühlschrank und Heizungspumpe überbrücken will, nimmt die [**EcoFlow DELTA Pro 3**](produkt:3) mit 4 kWh.",
 
   top3Title: "Unsere Top 3 Powerstations für den Notfall",
   top3Intro:
-    "Alle drei arbeiten mit langlebigen LiFePO4-Akkus und reinem Sinus an 230-Volt-Steckdosen. Sie unterscheiden sich vor allem in Kapazität, Solarleistung und Gewicht.",
+    "Alle drei arbeiten laut Hersteller mit LiFePO4-Akkus und reinem Sinus an 230-Volt-Steckdosen. Sie unterscheiden sich vor allem in Kapazität, Solarleistung und Gewicht.",
   comparisonTitle: "Die 3 besten Powerstations im Vergleich",
 
   priceTiers: {
@@ -39,7 +39,7 @@ export default {
   ],
 
   method:
-    "Grundlage sind Herstellerangaben zu Kapazität, Leistung, Solareingang, Zyklen und USV-Umschaltzeit, der Powerstation-Test der Stiftung Warentest (Heft 8/2023, Geräte mit 300 bis 700 Watt) sowie die Vorsorgehinweise des BBK zum Stromausfall. Eigene Messungen führen wir nicht durch. Wir empfehlen ausschließlich Geräte, die bei Amazon erhältlich sind. Jedes Gerät wird in vier Kriterien von 0 bis 10 eingeordnet; die Gesamtnote ist der gewichtete Mittelwert.",
+    "Grundlage sind Herstellerangaben zu Kapazität, Leistung, Solareingang, Zyklen und USV-Umschaltzeit, der Powerstation-Test der Stiftung Warentest (Heft 8/2023, Geräte mit 300 bis 700 Watt) sowie die Vorsorgehinweise des BBK zum Stromausfall. Eigene Tests oder Messungen führen wir nicht durch; die Bewertungen sind redaktionelle Einschätzungen. Wir empfehlen ausschließlich Geräte, die bei Amazon erhältlich sind. Jedes Gerät wird in vier Kriterien von 0 bis 10 eingeordnet; die Gesamtnote ist der gewichtete Mittelwert.",
 
   products: [
     {
@@ -53,11 +53,11 @@ export default {
       ratings: { kapazitaet: 8.5, krise: 9.0, alltag: 8.5, preis: 8.0 },
       bestFor: "Router, Kühlschrank & Licht für 1–2 Tage",
       verdict:
-        "Die ausgewogenste Notstromlösung: 1 kWh Akku, genug Leistung für fast alle Haushaltsgeräte, eine schnelle USV-Umschaltung und ein großer Solareingang, mit dem sie sich an einem sonnigen Tag vollständig nachladen lässt.",
+        "Aus unserer Sicht die ausgewogenste Notstromlösung: laut Hersteller 1 kWh Akku, genug Leistung für viele Haushaltsgeräte, eine schnelle USV-Umschaltung und ein großer Solareingang, mit dem sie sich bei ausreichender Modulleistung an einem sonnigen Tag nachladen lässt.",
       features: [
         "1.024 Wh LiFePO4-Akku, laut EcoFlow rund 4.000 Zyklen bis 80 % Restkapazität",
-        "1.800 W Dauerleistung (3.600 W Spitze), USV-Umschaltung unter 10 ms",
-        "1.000 W Solareingang, Netzladung in etwa 56 Minuten; mit Zusatzakkus auf bis zu 5 kWh erweiterbar",
+        "1.800 W Dauerleistung (3.600 W Spitze), USV-Umschaltung unter 10 ms (Herstellerangabe)",
+        "1.000 W Solareingang, Netzladung in etwa 56 Minuten; mit Zusatzakkus auf bis zu 5 kWh erweiterbar (Herstellerangabe)",
       ],
       pros: ["Schnelle USV für Router und PC", "Großer Solareingang", "Erweiterbar"],
       cons: ["Rund 12,5 kg schwer", "Modellname genau prüfen – DELTA 3 ohne „Plus“ hat nur 500 W Solareingang"],
@@ -76,14 +76,14 @@ export default {
       ratings: { kapazitaet: 8.5, krise: 8.0, alltag: 8.0, preis: 9.0 },
       bestFor: "Günstiger Einstieg mit voller Leistung",
       verdict:
-        "Fast die gleiche Kapazität und Leistung wie die EcoFlow – oft zu einem deutlich niedrigeren Preis. Die richtige Wahl, wenn das Budget zählt.",
+        "Laut Herstellerangaben fast die gleiche Kapazität und Leistung wie die EcoFlow – oft zu einem niedrigeren Preis. Die richtige Wahl, wenn das Budget zählt.",
       features: [
         "1.056 Wh LiFePO4-Akku, laut Anker rund 3.000 Zyklen",
-        "1.800 W Dauerleistung, kurzzeitig bis 2.400 W über SurgePad",
-        "600 W Solareingang mit MPPT, Netzladung in rund 58 Minuten; Erweiterungsakku BP1000 verdoppelt die Kapazität",
+        "1.800 W Dauerleistung, kurzzeitig bis 2.400 W über SurgePad (Herstellerangabe)",
+        "600 W Solareingang mit MPPT, Netzladung in rund 58 Minuten; Erweiterungsakku BP1000 verdoppelt die Kapazität (Herstellerangabe)",
       ],
-      pros: ["Sehr günstig pro Wattstunde", "Volle Leistung für Wasserkocher und Werkzeug", "Erweiterbar mit BP1000"],
-      cons: ["Kleinerer Solareingang als die EcoFlow", "Ein Käufer maß unter Last rund 880 Wh nutzbar – Eigenverbrauch einplanen", "Rund 12,9 kg schwer"],
+      pros: ["Oft günstig pro Wattstunde", "Volle Leistung für Wasserkocher und Werkzeug", "Erweiterbar mit BP1000"],
+      cons: ["Kleinerer Solareingang als die EcoFlow", "Nutzbare Kapazität liegt wegen Wandlungsverlusten unter dem Nennwert – Eigenverbrauch einplanen", "Rund 12,9 kg schwer"],
       specs: { kapazitaet: "1.056 Wh", leistung: "1.800 W (2.400 W Spitze)", solar: "bis 600 W", usv: "ja (Herstellerangabe)", akku: "LiFePO4, ca. 3.000 Zyklen", gewicht: "ca. 12,9 kg" },
       asin: "B0CGQZ7XSB",
       query: "Anker SOLIX C1000 Powerstation",
@@ -99,13 +99,13 @@ export default {
       ratings: { kapazitaet: 10.0, krise: 9.5, alltag: 6.0, preis: 5.5 },
       bestFor: "Familienhaus, mehrere Tage Blackout",
       verdict:
-        "Ein Hausspeicher auf Rollen: 4 kWh, 4.000 W Dauerleistung und erweiterbar auf 12 kWh. Damit laufen Kühlschrank, Gefriertruhe, Router und Licht mehrere Tage – mit Solar auch länger.",
+        "Ein Hausspeicher auf Rollen: laut Hersteller 4 kWh, 4.000 W Dauerleistung und erweiterbar auf 12 kWh. Je nach Verbrauch können Kühlschrank, Gefriertruhe, Router und Licht damit mehrere Tage laufen – mit Solar auch länger.",
       features: [
         "4.096 Wh LiFePO4, laut EcoFlow über 4.000 Zyklen bis 80 % Restkapazität",
-        "4.000 W Dauerleistung an 230 V, mit Zusatzakkus bis 12 kWh",
+        "4.000 W Dauerleistung an 230 V, mit Zusatzakkus bis 12 kWh (Herstellerangabe)",
         "Laut Anbieter unter 30 dB auch unter hoher Last, Akku nach IP65 geschützt",
       ],
-      pros: ["Riesige Kapazität", "Treibt auch große Verbraucher an", "Leise"],
+      pros: ["Sehr große Kapazität", "Treibt auch große Verbraucher an", "Laut Hersteller leise"],
       cons: ["Sehr teuer", "Schwer – eher stationär als tragbar", "Einbindung in die Hausinstallation nur durch Elektrofachkraft"],
       specs: { kapazitaet: "4.096 Wh", leistung: "4.000 W", solar: "laut Hersteller mehrere Eingänge", usv: "ja (Herstellerangabe)", akku: "LiFePO4, > 4.000 Zyklen", gewicht: "schwer, mit Rollen" },
       asin: "B0DDKP47PY",
@@ -159,9 +159,10 @@ export default {
           { quick: "Für die meisten Haushalte ist die [EcoFlow DELTA 3 Plus](produkt:1) die beste Wahl: 1 kWh, 1.800 W, USV und 1.000 W Solareingang. Günstiger ist die [Anker SOLIX C1000](produkt:2); für mehrere Tage mit Kühlschrank lohnt die [DELTA Pro 3](produkt:3) mit 4 kWh." },
           { first: "Fällt der Strom aus, merkt man schnell, wovon man abhängig ist: Ohne Router kein Internet, ohne Ladegerät bald kein Handy, ohne Licht kein Abend. Im Kühlschrank wird es nach einigen Stunden warm, und viele Gasheizungen stehen still, weil ihre Umwälzpumpe Strom braucht. Eine Powerstation überbrückt genau diese Lücke – leise, ohne Abgase und ohne Kraftstoff im Keller." },
           { p: "Für die Krisenvorsorge ist eine Kapazität um 1 kWh der sinnvolle Einstieg. Damit laufen ein Router einen Tag lang, alle Handys werden mehrfach geladen, und abends brennt Licht – und es bleibt noch etwas für den Kühlschrank. Mit Solarmodulen lädt sie sich bei Sonne wieder auf, sodass auch ein mehrtägiger Ausfall machbar wird." },
-          { p: "Unsere Gesamtwahl ist die EcoFlow DELTA 3 Plus, weil sie neben 1 kWh Kapazität zwei Dinge mitbringt, die im Ernstfall zählen: eine USV-Funktion, die bei einem Netzausfall in unter 10 Millisekunden umschaltet, und einen Solareingang mit bis zu 1.000 Watt. Die Anker SOLIX C1000 ist fast gleichwertig, oft aber günstiger. Stiftung Warentest hat zuletzt 2023 kleinere Powerstations mit 300 bis 700 Watt getestet – die heute üblichen 1-kWh-Geräte waren nicht dabei." },
+          { p: "Unsere Gesamtwahl ist die EcoFlow DELTA 3 Plus, weil sie neben 1 kWh Kapazität zwei Dinge mitbringt, die im Ernstfall zählen: eine USV-Funktion, die bei einem Netzausfall laut Hersteller in unter 10 Millisekunden umschaltet, und einen Solareingang mit bis zu 1.000 Watt. Die Anker SOLIX C1000 ist fast gleichwertig, oft aber günstiger. Stiftung Warentest hat 2023 (test 8/2023) kleinere Powerstations mit 300 bis 700 Watt getestet – die heute üblichen 1-kWh-Geräte waren nicht dabei." },
           { figure: "scores" },
-          { callout: { title: "Nicht ins Hausnetz einspeisen", warn: true, text: "Schließe eine Powerstation nie über einen Stecker-zu-Stecker-Adapter an eine Steckdose an, um das Hausnetz zu versorgen. Das ist lebensgefährlich für dich und für Netzmonteure. Eine Einbindung in die Hausinstallation, etwa für die Heizungspumpe, darf nur eine Elektrofachkraft mit passender Umschalteinrichtung vornehmen." } },
+          { callout: { title: "Nicht ins Hausnetz einspeisen", warn: true, text: "Schließe eine Powerstation nie über einen Stecker-zu-Stecker-Adapter an eine Steckdose an, um das Hausnetz zu versorgen. Das ist lebensgefährlich für dich und für Netzmonteure. Eine Einbindung in die Hausinstallation, etwa für die Heizungspumpe, darf nur eine Elektrofachkraft mit passender Umschalteinrichtung vornehmen; je nach Lösung ist der Netzbetreiber einzubeziehen." } },
+          { callout: { title: "Akku- und Brandsicherheit", warn: true, text: "Powerstations speichern viel Energie. Nur nach Bedienungsanleitung betreiben und laden, Originalladegerät oder vom Hersteller freigegebenes Zubehör verwenden, nicht abdecken, vor Hitze, Nässe und Stößen schützen und beschädigte oder aufgeblähte Geräte nicht mehr benutzen. Beim Laden nicht dauerhaft unbeaufsichtigt lassen, einen Rauchmelder im Raum haben und Kinder fernhalten. Wegen des Gewichts (über 10 kg) beim Tragen auf sicheren Stand achten." } },
         ],
       },
       {
@@ -183,11 +184,11 @@ export default {
             },
           },
           { h3: "Kapazität und Leistung" },
-          { p: "Die Kapazität in Wattstunden bestimmt, wie lange Geräte laufen. Die Dauerleistung in Watt bestimmt, welche Geräte überhaupt laufen: Ein Wasserkocher braucht rund 2.000 Watt, ein Kühlschrank beim Anlaufen ein Mehrfaches seiner Nennleistung. Mit 1.800 Watt Dauerleistung sind fast alle Haushaltsgeräte abgedeckt – wenn auch nicht lange." },
+          { p: "Die Kapazität in Wattstunden bestimmt, wie lange Geräte laufen. Die Dauerleistung in Watt bestimmt, welche Geräte überhaupt laufen: Ein Wasserkocher braucht rund 2.000 Watt, ein Kühlschrank beim Anlaufen ein Mehrfaches seiner Nennleistung. Mit 1.800 Watt Dauerleistung sind viele Haushaltsgeräte abgedeckt – wenn auch nicht lange; maßgeblich ist das Datenblatt des jeweiligen Geräts." },
           { h3: "Akkuchemie" },
-          { p: "LiFePO4-Akkus (Lithium-Eisenphosphat) halten mehrere tausend Ladezyklen, gelten als thermisch stabiler als andere Lithium-Akkus und entladen sich in der Lagerung langsam. Alle Geräte in unserer Auswahl nutzen diese Technik. Ältere oder sehr günstige Geräte mit NMC-Akkus sind leichter, halten aber weniger Zyklen." },
+          { p: "LiFePO4-Akkus (Lithium-Eisenphosphat) halten laut Herstellern mehrere tausend Ladezyklen, gelten als thermisch stabiler als andere Lithium-Akkus und entladen sich in der Lagerung langsam. Alle Geräte in unserer Top 3 nutzen laut Hersteller diese Technik. Brandsicher im absoluten Sinn ist aber kein Akku. Ältere oder sehr günstige Geräte mit NMC-Akkus sind leichter, halten aber weniger Zyklen." },
           { h3: "USV-Funktion" },
-          { p: "Eine USV (unterbrechungsfreie Stromversorgung) hängt zwischen Steckdose und Gerät. Fällt das Netz aus, übernimmt der Akku. Bei kurzen Umschaltzeiten unter 10 bis 20 Millisekunden laufen Router und Computer meist ohne Neustart weiter. Die EcoFlow DELTA 3 Plus gibt unter 10 ms an." },
+          { p: "Eine USV (unterbrechungsfreie Stromversorgung) hängt zwischen Steckdose und Gerät. Fällt das Netz aus, übernimmt der Akku. Bei kurzen Umschaltzeiten unter 10 bis 20 Millisekunden laufen Router und Computer meist ohne Neustart weiter – eine Garantie dafür gibt es nicht, und eine Powerstation ersetzt keine USV für kritische Geräte. Die EcoFlow DELTA 3 Plus gibt unter 10 ms an." },
           { h3: "Solareingang" },
           { p: "Je größer der Solareingang, desto schneller lädt die Powerstation an einem sonnigen Tag. Mit 1.000 Watt Eingang kann die DELTA 3 Plus theoretisch in wenigen Stunden voll werden – vorausgesetzt, es sind genug Module angeschlossen. Achte auf den zulässigen Spannungsbereich und den Stecker (meist XT60)." },
         ],
@@ -218,11 +219,11 @@ export default {
     intro:
       "Vom handlichen Akku für Handy und Router bis zum Erweiterungsakku: Diese fünf Geräte decken andere Größen und Budgets ab.",
     items: [
-      { name: "EcoFlow RIVER 3", for: "Klein: Handy, Router, Licht", text: "245 Wh LFP-Akku, rund 3,5 kg leicht, laut EcoFlow bis zu 600 W Spitzenleistung – genug für den Router und mehrere Handyladungen.", asin: "B0DJY2R42F", query: "EcoFlow RIVER 3 Powerstation 245Wh" },
-      { name: "Jackery Explorer 1000 v2", for: "Leichteste 1-kWh-Klasse", text: "1.070 Wh LiFePO4, 1.500 W Dauerleistung, laut Anbieter rund 10,8 kg und USV unter 20 ms.", asin: "B0DB1T34X5", query: "Jackery Explorer 1000 v2" },
-      { name: "BLUETTI AC180", for: "Etwas mehr Kapazität", text: "1.152 Wh LiFePO4 und 1.800 W Dauerleistung, laut Anbieter 0–80 % in 45 Minuten am Netz.", asin: "B0C14D9DBB", query: "BLUETTI AC180 Powerstation" },
+      { name: "EcoFlow RIVER 3", for: "Klein: Handy, Router, Licht", text: "Laut EcoFlow 245 Wh LFP-Akku, rund 3,5 kg und bis zu 600 W Spitzenleistung – genug für den Router und mehrere Handyladungen.", asin: "B0DJY2R42F", query: "EcoFlow RIVER 3 Powerstation 245Wh" },
+      { name: "Jackery Explorer 1000 v2", for: "Leichteste 1-kWh-Klasse", text: "Laut Anbieter 1.070 Wh LiFePO4, 1.500 W Dauerleistung, rund 10,8 kg und USV unter 20 ms.", asin: "B0DB1T34X5", query: "Jackery Explorer 1000 v2" },
+      { name: "BLUETTI AC180", for: "Etwas mehr Kapazität", text: "Laut Anbieter 1.152 Wh LiFePO4, 1.800 W Dauerleistung und 0–80 % in 45 Minuten am Netz.", asin: "B0C14D9DBB", query: "BLUETTI AC180 Powerstation" },
       { name: "Anker SOLIX BP1000", for: "Kapazität verdoppeln", text: "Erweiterungsakku mit 1.056 Wh für die Anker SOLIX C1000 – laut Anker nur mit dieser kompatibel.", asin: "B0CM95C3ZM", query: "Anker SOLIX BP1000 Erweiterungsakku" },
-      { name: "EcoFlow DELTA 3 Plus mit Stream Mikrowechselrichter", for: "Notstrom plus Balkonkraftwerk", text: "Set aus Powerstation und 800-W-Mikrowechselrichter – Solarstrom im Alltag nutzen und im Notfall den Akku verwenden.", asin: "B0FJY66BBQ", query: "EcoFlow DELTA 3 Plus Stream Mikrowechselrichter" },
+      { name: "EcoFlow DELTA 3 Plus mit Stream Mikrowechselrichter", for: "Notstrom plus Balkonkraftwerk", text: "Set aus Powerstation und 800-W-Mikrowechselrichter (Herstellerangabe) – Solarstrom im Alltag nutzen und im Notfall den Akku verwenden. Balkonkraftwerke müssen in der Regel im Marktstammdatenregister angemeldet werden; Details vorab beim Netzbetreiber klären.", asin: "B0FJY66BBQ", query: "EcoFlow DELTA 3 Plus Stream Mikrowechselrichter" },
     ],
   },
 
@@ -240,6 +241,7 @@ export default {
             list: [
               "**Nicht abdecken:** Lüftungsöffnungen frei lassen, nicht im Bett, Schrank oder neben Heizkörpern betreiben.",
               "**Nicht im Regen** und nicht bei Frost laden – Herstellerangaben zum Temperaturbereich beachten.",
+              "**Beschädigte Geräte nicht nutzen:** Bei Geruch, Hitze, Rauch oder aufgeblähtem Gehäuse Gerät vom Netz trennen, Abstand halten und im Brandfall 112 rufen.",
               "**Keine Mehrfachsteckdosen-Ketten:** Die Dauerleistung nicht dauerhaft ausreizen.",
               "**Kühlschrank geschlossen halten:** Ein voller Kühlschrank hält die Kälte einige Stunden, auch ohne Strom.",
               "**Medizinische Geräte:** Wer auf Beatmung, Sauerstoffkonzentrator oder ähnliche Geräte angewiesen ist, klärt die Notstromversorgung mit Arzt und Hersteller.",
@@ -249,7 +251,7 @@ export default {
             facts: [
               { value: "1 kWh", label: "sinnvolle Einstiegsgröße für Router, Handys und Licht" },
               { value: "< 10 ms", label: "USV-Umschaltzeit der EcoFlow DELTA 3 Plus laut Hersteller" },
-              { value: "4.000", label: "Ladezyklen bis 80 % Restkapazität (EcoFlow)" },
+              { value: "4.000", label: "Ladezyklen bis 80 % Restkapazität (Herstellerangabe EcoFlow)" },
             ],
           },
           { h3: "Laden ohne Netz" },
@@ -260,16 +262,16 @@ export default {
   },
 
   faqs: [
-    { q: "Welche Powerstation ist für den Stromausfall am besten?", a: "Unsere beste Gesamtwahl ist die EcoFlow DELTA 3 Plus mit 1.024 Wh, 1.800 W, USV unter 10 ms und 1.000 W Solareingang. Das beste Preis-Leistungs-Verhältnis bietet die Anker SOLIX C1000, für mehrere Tage mit Kühlschrank empfehlen wir die EcoFlow DELTA Pro 3." },
+    { q: "Welche Powerstation ist für den Stromausfall am besten?", a: "Unsere beste Gesamtwahl ist die EcoFlow DELTA 3 Plus mit laut Hersteller 1.024 Wh, 1.800 W, USV unter 10 ms und 1.000 W Solareingang. Das beste Preis-Leistungs-Verhältnis bietet die Anker SOLIX C1000, für mehrere Tage mit Kühlschrank empfehlen wir die EcoFlow DELTA Pro 3." },
     { q: "Wie lange läuft ein Kühlschrank an einer Powerstation?", a: "Das hängt vom Verbrauch ab, den das Energielabel angibt. Viele Kühlschränke brauchen 0,4 bis 1 kWh pro Tag. Eine 1-kWh-Powerstation hält einen sparsamen Kühlschrank also rund einen Tag, mit Solar-Nachladung länger." },
-    { q: "Kann ich mit einer Powerstation meine Heizung betreiben?", a: "Die Umwälzpumpe und Steuerung einer Gas- oder Ölheizung brauchen oft nur 20 bis 60 Watt. Der Anschluss muss aber von einer Elektrofachkraft vorbereitet werden, etwa mit einem Umschalter oder einem Schukostecker an der Heizung. Nie über einen Stecker-zu-Stecker-Adapter ins Hausnetz einspeisen." },
+    { q: "Kann ich mit einer Powerstation meine Heizung betreiben?", a: "Die Umwälzpumpe und Steuerung einer Gas- oder Ölheizung brauchen oft nur 20 bis 60 Watt. Der Anschluss muss aber von einer Elektrofachkraft vorbereitet werden, etwa mit einem Umschalter oder einem Schukostecker an der Heizung. Nie über einen Stecker-zu-Stecker-Adapter ins Hausnetz einspeisen – das ist lebensgefährlich." },
     { q: "Wie viel Kapazität brauche ich?", a: "Liste die Geräte auf, die du betreiben willst, multipliziere ihre Leistung mit den Stunden pro Tag und addiere 15 bis 20 Prozent Reserve. Für Router, Handys und Licht reichen 300 bis 500 Wh pro Tag, mit Kühlschrank eher 1 bis 1,5 kWh." },
-    { q: "Hat Stiftung Warentest Powerstations getestet?", a: "Ja, zuletzt in Heft 8/2023: elf Geräte mit 300 bis 700 Watt Leistung, fünf davon mit „gut“. Die heute üblichen Geräte um 1 kWh waren nicht Teil dieses Tests." },
+    { q: "Hat Stiftung Warentest Powerstations getestet?", a: "Ja, in test 8/2023. Die heute üblichen Geräte um 1 kWh waren nach unserem Kenntnisstand nicht Teil dieses Tests; Details stehen im Testbericht auf test.de." },
     { q: "Wie lagert man eine Powerstation?", a: "Kühl, trocken und teilgeladen, mit regelmäßiger Nachladung nach Herstellerangabe. LiFePO4-Akkus entladen sich langsam, ein jährlicher Blick reicht aber nicht – prüfe den Ladestand alle paar Monate." },
   ],
 
   sources: [
-    { label: "Stiftung Warentest: Powerstations im Test", url: "https://www.test.de/Powerstation-Test-6023127-0/" },
+    { label: "Stiftung Warentest: Powerstations im Test (test 8/2023)", url: "https://www.test.de/Powerstation-Test-6023127-0/" },
     { label: "BBK: Ratgeber „Vorsorgen für Krisen und Katastrophen“ (PDF)", url: "https://www.dortmund.de/dortmund/projekte/rathaus/verwaltung/feuerwehr-rettungsdienst-und-bevoelkerungsschutz/downloads/bbk-vorsorgen-fuer-krisen-und-katastrophen.pdf" },
     { label: "Stadt Karlsbad: Vorsorge für den Stromausfall (PDF)", url: "https://www.karlsbad.de/resources/ecics_8051_uyys2n.pdf" },
   ],

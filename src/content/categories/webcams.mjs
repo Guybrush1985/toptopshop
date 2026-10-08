@@ -17,7 +17,7 @@ export default {
   lead:
     "Die eingebaute Laptop-Kamera ist meist das schwächste Glied im Videocall. Eine gute 4K-Webcam liefert ein scharfes, helles Bild – auch wenn das Licht nicht perfekt ist.",
   answer:
-    "Unsere beste Gesamtwahl ist die [**Logitech MX Brio**](produkt:1): 4K, großer Sensor für wenig Licht, Autofokus und zwei Mikrofone. Das beste Preis-Leistungs-Verhältnis bietet die [**OBSBOT Meet 2**](produkt:2) mit 1/2-Zoll-Sensor und KI-Bildausschnitt; die Premium-Wahl ist die [**Insta360 Link 2**](produkt:3) mit Gimbal und Personenverfolgung.",
+    "Unsere beste Gesamtwahl ist die [**Logitech MX Brio**](produkt:1): laut Hersteller 4K, großer Sensor für wenig Licht, Autofokus und zwei Mikrofone. Das beste Preis-Leistungs-Verhältnis bietet die [**OBSBOT Meet 2**](produkt:2) mit 1/2-Zoll-Sensor und KI-Bildausschnitt; die Premium-Wahl ist die [**Insta360 Link 2**](produkt:3) mit Gimbal und Personenverfolgung.",
 
   top3Title: "Unsere Top 3 Webcams",
   top3Intro: "Alle drei liefern 4K-Auflösung und haben Autofokus. Sie unterscheiden sich vor allem beim Sensor, beim automatischen Bildausschnitt und darin, ob die Kamera dir folgt.",
@@ -45,13 +45,13 @@ export default {
       ratings: { bild: 9.0, funktionen: 8.5, alltag: 9.0, preis: 8.0 },
       bestFor: "Videocalls im Home-Office",
       verdict:
-        "Die zuverlässigste Webcam fürs Büro: 4K mit 30 oder Full HD mit 60 Bildern pro Sekunde, ein Sensor mit größeren Pixeln für wenig Licht, Show-Mode für den Tisch und eine Abdeckung.",
+        "Unsere Wahl fürs Büro: laut Hersteller 4K mit 30 oder Full HD mit 60 Bildern pro Sekunde, ein Sensor mit größeren Pixeln für wenig Licht, Show-Mode für den Tisch und eine Abdeckung.",
       features: [
         "4K bei 30 fps oder 1080p bei 60 fps, Autofokus, automatische Belichtung (Herstellerangabe)",
         "Laut Hersteller 70 % größere Pixel für bessere Bilder bei wenig Licht",
-        "Zwei Mikrofone mit Rauschunterdrückung, Show-Mode, Sichtschutz, USB-C",
+        "Zwei Mikrofone mit Rauschunterdrückung, Show-Mode, Sichtschutz, USB-C (Herstellerangabe)",
       ],
-      pros: ["Sehr gutes Bild auch bei wenig Licht", "Unkompliziert mit Teams, Zoom, Meet", "Sichtschutz integriert"],
+      pros: ["Laut Hersteller für wenig Licht optimiert", "Unkompliziert mit Teams, Zoom, Meet", "Sichtschutz integriert"],
       cons: ["4K nur mit 30 fps", "Kein Tracking"],
       specs: { aufloesung: "4K30 / 1080p60", sensor: "großer Sensor", fokus: "Autofokus", tracking: "Auto-Framing", anschluss: "USB-C" },
       asin: "B07W4DHLWV",
@@ -68,11 +68,11 @@ export default {
       ratings: { bild: 8.5, funktionen: 8.5, alltag: 8.0, preis: 9.0 },
       bestFor: "Gutes Bild zum kleinen Preis",
       verdict:
-        "Klein, leicht und erstaunlich gut: Der große 1/2-Zoll-Sensor liefert ein helles Bild, die KI schneidet automatisch auf dich zu – für deutlich weniger Geld als die Premium-Modelle.",
+        "Klein, leicht und nach unserer Einschätzung sehr gut: Der laut Hersteller 1/2 Zoll große Sensor liefert ein helles Bild, die KI schneidet automatisch auf dich zu – für deutlich weniger Geld als die Premium-Modelle.",
       features: [
         "1/2-Zoll-Sensor, 4K bei 30 fps oder 1080p bei 60 fps, HDR (Herstellerangabe)",
-        "KI-Bildausschnitt, Autofokus, Gestensteuerung, Beauty-Modus",
-        "Eingebautes Mikrofon, sehr kompaktes Gehäuse",
+        "KI-Bildausschnitt, Autofokus, Gestensteuerung, Beauty-Modus (Herstellerangabe)",
+        "Eingebautes Mikrofon, sehr kompaktes Gehäuse (Herstellerangabe)",
       ],
       pros: ["Großer Sensor für den Preis", "Automatischer Bildausschnitt", "Sehr kompakt"],
       cons: ["4K nur mit 30 fps", "Software teils weniger ausgereift als Logitech"],
@@ -91,11 +91,11 @@ export default {
       ratings: { bild: 9.0, funktionen: 9.5, alltag: 8.0, preis: 7.0 },
       bestFor: "Präsentationen, Whiteboard, Bewegung",
       verdict:
-        "Die Kamera, die dir folgt: Ein Zwei-Achsen-Gimbal mit KI-Tracking hält dich im Bild, auch wenn du aufstehst – dazu Schreibtisch- und Whiteboard-Modus.",
+        "Die Kamera, die dir folgt: Ein Zwei-Achsen-Gimbal mit KI-Tracking hält dich laut Hersteller im Bild, auch wenn du aufstehst – dazu Schreibtisch- und Whiteboard-Modus.",
       features: [
         "4K, 1/2-Zoll-Sensor, HDR, 2-Achsen-Gimbal mit KI-Tracking (Herstellerangabe)",
-        "Gestensteuerung, Deskview- und Whiteboard-Modus",
-        "Neigt sich nach Inaktivität automatisch nach unten (Privatsphäre)",
+        "Gestensteuerung, Deskview- und Whiteboard-Modus (Herstellerangabe)",
+        "Neigt sich nach Inaktivität automatisch nach unten (Privatsphäre, Herstellerangabe)",
       ],
       pros: ["Folgt dir automatisch", "Viele Spezialmodi", "Privatsphäre durch Abwärtsneigung"],
       cons: ["Teuer", "Tracking mit mehreren Personen weniger zuverlässig"],
@@ -182,11 +182,11 @@ export default {
     h2: "Die 5 besten Alternativen: Streaming, Tracking und Budget",
     intro: "Mehr Bildrate, mehr Tracking oder weniger Geld: fünf weitere Webcams.",
     items: [
-      { name: "Elgato Facecam Pro", for: "4K mit 60 fps", text: "4K60-Webcam mit Sony-STARVIS-Sensor und f/2.0-Objektiv – für Streaming und Aufnahmen.", asin: "B0BJL7Q3SR", query: "Elgato Facecam Pro 4K60" },
+      { name: "Elgato Facecam Pro", for: "4K mit 60 fps", text: "4K60-Webcam mit Sony-STARVIS-Sensor und f/2.0-Objektiv (Herstellerangabe) – für Streaming und Aufnahmen.", asin: "B0BJL7Q3SR", query: "Elgato Facecam Pro 4K60" },
       { name: "OBSBOT Tiny 2", for: "PTZ mit großem Sensor", text: "4K-PTZ-Webcam mit 1/1,5-Zoll-Sensor, KI-Tracking, Gesten- und Sprachsteuerung (Herstellerangabe).", asin: "B0C3B6ZR1V", query: "OBSBOT Tiny 2" },
-      { name: "OBSBOT Tiny 2 Lite", for: "Günstigere PTZ", text: "4K-PTZ mit 1/2-Zoll-Sensor, KI-Tracking und HDR – die günstigere Tiny.", asin: "B0CZ6XY78Y", query: "OBSBOT Tiny 2 Lite" },
-      { name: "Logitech MX Brio 705 for Business", for: "Für Unternehmen", text: "Business-Version mit Fernverwaltung über Logitech Sync, 4K30, 1080p60 und 720p90.", asin: "B07W5JHF5G", query: "Logitech MX Brio 705 for Business" },
-      { name: "Anker PowerConf C200", for: "Günstige 2K-Webcam", text: "2K-Webcam mit Stereo-Mikrofonen, einstellbarem Bildwinkel und Abdeckung – solide für gelegentliche Calls.", asin: "B09MFMTMPD", query: "Anker PowerConf C200 2K Webcam" },
+      { name: "OBSBOT Tiny 2 Lite", for: "Günstigere PTZ", text: "4K-PTZ mit 1/2-Zoll-Sensor, KI-Tracking und HDR (Herstellerangabe) – die günstigere Tiny.", asin: "B0CZ6XY78Y", query: "OBSBOT Tiny 2 Lite" },
+      { name: "Logitech MX Brio 705 for Business", for: "Für Unternehmen", text: "Business-Version mit Fernverwaltung über Logitech Sync, 4K30, 1080p60 und 720p90 (Herstellerangabe).", asin: "B07W5JHF5G", query: "Logitech MX Brio 705 for Business" },
+      { name: "Anker PowerConf C200", for: "Günstige 2K-Webcam", text: "2K-Webcam mit Stereo-Mikrofonen, einstellbarem Bildwinkel und Abdeckung (Herstellerangabe) – solide für gelegentliche Calls.", asin: "B09MFMTMPD", query: "Anker PowerConf C200 2K Webcam" },
     ],
   },
 
@@ -199,7 +199,7 @@ export default {
           { quick: "Kamera auf Augenhöhe, Licht von vorn, ruhiger Hintergrund und die Bildeinstellungen in der Hersteller-Software festlegen – dann sieht jede gute Webcam besser aus." },
           { figure: "steps" },
           { facts: [{ value: "60 fps", label: "für flüssige Bewegungen (meist in 1080p)" }, { value: "1/2 Zoll", label: "Sensorgröße guter Webcams" }, { value: "50–80 cm", label: "Abstand zur Kamera" }] },
-          { callout: { title: "Datenschutz", text: "Webcams mit Abdeckung oder automatischer Abwärtsneigung schützen die Privatsphäre, wenn gerade kein Call läuft." } },
+          { callout: { title: "Datenschutz und Privatsphäre", warn: true, text: "Webcams mit Abdeckung oder automatischer Abwärtsneigung können die Privatsphäre schützen, wenn gerade kein Call läuft. Prüfe vor jedem Call, wer und was im Bild ist: Mitbewohner, Familie oder Kinder nur mit deren Einverständnis zeigen und keine vertraulichen Unterlagen sichtbar lassen. Calls nur aufzeichnen, wenn alle Beteiligten zugestimmt haben. Software und Firmware aktuell halten." } },
         ],
       },
     ],
@@ -207,7 +207,7 @@ export default {
 
   faqs: [
     { q: "Welche Webcam ist die beste?", a: "Unsere beste Gesamtwahl ist die Logitech MX Brio. Günstiger ist die OBSBOT Meet 2, die Premium-Wahl die Insta360 Link 2 mit Gimbal." },
-    { q: "Lohnt sich eine 4K-Webcam für Videocalls?", a: "Ja, aber weniger wegen der Auflösung als wegen des größeren Sensors und des digitalen Zooms. Die meisten Videocall-Dienste übertragen ohnehin höchstens Full HD." },
+    { q: "Lohnt sich eine 4K-Webcam für Videocalls?", a: "Ja, aber weniger wegen der Auflösung als wegen des größeren Sensors und des digitalen Zooms. Die meisten Videocall-Dienste übertragen in der Regel ohnehin höchstens Full HD." },
     { q: "Welche Webcam ist gut bei wenig Licht?", a: "Modelle mit großem Sensor wie die MX Brio oder Webcams mit 1/2-Zoll-Sensor. Noch wichtiger ist aber zusätzliches Licht von vorn." },
     { q: "Brauche ich eine Webcam mit Tracking?", a: "Nur wenn du dich viel bewegst, präsentierst oder am Whiteboard arbeitest. Für normale Calls reicht Auto-Framing." },
     { q: "Ist das Webcam-Mikrofon gut genug?", a: "Für gelegentliche Calls ja. Ein Tischmikrofon oder Headset klingt deutlich klarer und blendet Tastaturgeräusche besser aus." },

@@ -15,9 +15,9 @@ export default {
   eyebrow: "Home-Office · Dock",
   h1: "Die 3 besten Docking-Stations 2026",
   lead:
-    "Ein Kabel rein, und der Laptop hängt an Monitoren, Netzwerk, Tastatur und Netzteil. Wir zeigen die drei Docks, die das am zuverlässigsten erledigen – für Mac und Windows.",
+    "Ein Kabel rein, und der Laptop hängt an Monitoren, Netzwerk, Tastatur und Netzteil. Wir zeigen die drei Docks, die das nach unserer Einschätzung am besten erledigen – für Mac und Windows.",
   answer:
-    "Unsere beste Gesamtwahl ist das [**CalDigit TS4**](produkt:1): Thunderbolt 4, 98 W Ladeleistung, 2,5-Gbit-LAN und 18 Anschlüsse für Mac und Windows. Das beste Preis-Leistungs-Verhältnis bietet das [**UGREEN Revodok Pro Triple Display Dock**](produkt:2); für Firmen-Laptops mit USB-C ist das [**Lenovo ThinkPad Universal USB-C Dock**](produkt:3) die beste Wahl.",
+    "Unsere beste Gesamtwahl ist das [**CalDigit TS4**](produkt:1): laut Hersteller Thunderbolt 4, 98 W Ladeleistung, 2,5-Gbit-LAN und 18 Anschlüsse für Mac und Windows. Das beste Preis-Leistungs-Verhältnis bietet das [**UGREEN Revodok Pro Triple Display Dock**](produkt:2); für Firmen-Laptops mit USB-C ist das [**Lenovo ThinkPad Universal USB-C Dock**](produkt:3) die beste Wahl.",
 
   priceTiers: {
     1: { symbol: "€", label: "bis 100 €" },
@@ -26,7 +26,7 @@ export default {
   },
 
   top3Title: "Unsere Top 3 Docking-Stations",
-  top3Intro: "Ein Thunderbolt-Dock für höchste Ansprüche, ein günstiges USB-C-Dock für drei Monitore unter Windows und ein Business-Dock, das sich in Firmen bewährt hat.",
+  top3Intro: "Ein Thunderbolt-Dock für höchste Ansprüche, ein günstiges USB-C-Dock für drei Monitore unter Windows und ein Business-Dock, das in Firmen weit verbreitet ist.",
   comparisonTitle: "Die 3 besten Docking-Stations im Vergleich",
 
   criteria: [
@@ -51,11 +51,11 @@ export default {
       ratings: { anschluss: 9.5, laden: 9.0, kompat: 9.5, preis: 7.0 },
       bestFor: "MacBook, Thunderbolt-Laptops, Kreative",
       verdict:
-        "Das Dock, das alles kann: 18 Anschlüsse, 98 W für den Laptop, 2,5-Gbit-LAN und Kartenleser – und es funktioniert gleichermaßen mit Mac, Windows und Chrome OS.",
+        "Ein sehr vielseitiges Dock: laut Hersteller 18 Anschlüsse, 98 W für den Laptop, 2,5-Gbit-LAN und Kartenleser – kompatibel mit Mac, Windows und Chrome OS.",
       features: [
         "3 × Thunderbolt 4, 5 × USB-A, 3 × USB-C, DisplayPort 1.4, 2,5GbE, SD/microSD (Herstellerangabe)",
-        "Bis zu 98 W Ladeleistung, 230-W-Netzteil im Lieferumfang",
-        "Windows: ein Monitor bis 8K; macOS: ein Monitor bis 6K 60 Hz, mit Apple-Silicon-Pro/Max mehr",
+        "Bis zu 98 W Ladeleistung, 230-W-Netzteil im Lieferumfang (Herstellerangabe)",
+        "Windows: ein Monitor bis 8K; macOS: ein Monitor bis 6K 60 Hz, mit Apple-Silicon-Pro/Max mehr (Herstellerangabe)",
       ],
       pros: ["Enorme Anschlussvielfalt", "Sehr hohe Ladeleistung", "Mac und Windows"],
       cons: ["Teuer", "Für drei Monitore unter Windows ist ein USB-C-MST-Dock günstiger"],
@@ -74,10 +74,10 @@ export default {
       ratings: { anschluss: 8.0, laden: 8.0, kompat: 7.0, preis: 9.5 },
       bestFor: "Windows-Laptops mit drei Monitoren",
       verdict:
-        "Für wenig Geld drei Monitore: Unter Windows liefert das Revodok Pro über USB-C Bild an bis zu drei Bildschirme und lädt den Laptop mit bis zu 100 W durch.",
+        "Für wenig Geld drei Monitore: Unter Windows liefert das Revodok Pro laut Hersteller über USB-C Bild an bis zu drei Bildschirme und lädt den Laptop mit bis zu 100 W durch.",
       features: [
         "2 × HDMI und 1 × DisplayPort, je bis 4K 60 Hz (Herstellerangabe)",
-        "4 × USB mit 10 Gbit/s (2 × USB-A, 2 × USB-C), Power Delivery bis 100 W",
+        "4 × USB mit 10 Gbit/s (2 × USB-A, 2 × USB-C), Power Delivery bis 100 W (Herstellerangabe)",
         "Unter macOS nur gespiegelte Darstellung mehrerer Monitore (Händlerangabe)",
       ],
       pros: ["Sehr günstig", "Drei Monitore unter Windows", "Kompakt"],
@@ -97,13 +97,13 @@ export default {
       ratings: { anschluss: 8.5, laden: 8.0, kompat: 8.0, preis: 8.0 },
       bestFor: "Business-Laptops, IT-verwaltete Geräte",
       verdict:
-        "Das bewährte Firmen-Dock: drei Monitore unter Windows, automatische Firmware-Updates und breite Kompatibilität – nicht nur mit ThinkPads.",
+        "Ein verbreitetes Firmen-Dock: laut Händler drei Monitore unter Windows, automatische Firmware-Updates und breite Kompatibilität – nicht nur mit ThinkPads.",
       features: [
         "Bis zu drei externe Monitore (2 × DisplayPort, 1 × HDMI) bis 4K 60 Hz (Händlerangabe)",
-        "Laptop-Ladung, Netzteil mit 90 W im Lieferumfang",
-        "Automatische Firmware-Updates, LAN, mehrere USB-Ports",
+        "Laptop-Ladung, Netzteil mit 90 W im Lieferumfang (Händlerangabe)",
+        "Automatische Firmware-Updates, LAN, mehrere USB-Ports (Herstellerangabe)",
       ],
-      pros: ["Zuverlässig im Büroalltag", "Drei Monitore", "Mit vielen USB-C-Laptops kompatibel"],
+      pros: ["Laut Käuferberichten zuverlässig im Büroalltag", "Drei Monitore", "Mit vielen USB-C-Laptops kompatibel"],
       cons: ["Ladeleistung je nach Angabe 90–100 W", "Am Mac nur ein erweiterter Monitor"],
       specs: { anschluss: "USB-C", laden: "90–100 W (je nach Angabe)", monitore: "bis 3 (Windows)", lan: "1 Gbit/s", mac: "eingeschränkt" },
       asin: "B09BDB266K",
@@ -152,7 +152,7 @@ export default {
         id: "beste-docking-station",
         h2: "Welche Docking-Station ist die beste?",
         blocks: [
-          { quick: "Das [CalDigit TS4](produkt:1) ist das beste Dock für Mac und Thunderbolt-Laptops. Für drei Monitore unter Windows reicht das günstige [UGREEN Revodok Pro](produkt:2), für Firmen-Laptops ist das [Lenovo Universal USB-C Dock](produkt:3) eine sichere Wahl." },
+          { quick: "Das [CalDigit TS4](produkt:1) ist das beste Dock für Mac und Thunderbolt-Laptops. Für drei Monitore unter Windows reicht das günstige [UGREEN Revodok Pro](produkt:2), für Firmen-Laptops ist das [Lenovo Universal USB-C Dock](produkt:3) eine solide Wahl." },
           { first: "Laptops werden immer dünner – und haben immer weniger Anschlüsse. Eine Docking-Station löst das Problem: Ein einziges Kabel verbindet den Laptop mit Monitoren, Netzwerk, Tastatur, Maus, Lautsprechern und Netzteil. Morgens einstecken, abends abziehen, fertig." },
           { p: "Die wichtigste Frage ist die Schnittstelle. Thunderbolt 4 und USB4 bieten 40 Gbit/s und unterstützen mehrere Monitore zuverlässig. Einfache USB-C-Docks sind günstiger, teilen die Bandbreite aber stärker und bieten unter macOS oft nur einen erweiterten Bildschirm." },
           { figure: "scores" },
@@ -177,7 +177,7 @@ export default {
             },
           },
           { h3: "Ladeleistung" },
-          { p: "Die Ladeleistung sollte mindestens der Leistung des Original-Netzteils entsprechen. Liegt sie darunter, lädt der Laptop langsamer oder entlädt sich unter Last." },
+          { p: "Die Ladeleistung sollte mindestens der Leistung des Original-Netzteils entsprechen. Liegt sie darunter, lädt der Laptop langsamer oder kann sich unter Last sogar entladen." },
         ],
       },
     ],
@@ -189,10 +189,10 @@ export default {
     intro: "Ob kompaktes USB-C-Dock, Dell-spezifisches Dock oder Thunderbolt-Hub: Diese fünf Modelle decken weitere Einsatzzwecke ab.",
     items: [
       { name: "Anker 575 USB-C Docking Station (13-in-1)", for: "Viele Ports, Windows", text: "85 W für den Laptop, 18 W für das Smartphone, 2 × HDMI, DisplayPort, LAN, Kartenleser und Audio (Herstellerangabe).", asin: "B08GM4GRLL", query: "Anker 575 USB-C Docking Station 13-in-1" },
-      { name: "Dell WD19S 130W", for: "Dell-Laptops mit USB-C", text: "2 × DisplayPort 1.4, HDMI, USB-C, LAN; Dell-Laptops erhalten mit dem 130-W-Netzteil bis zu 90 W.", asin: "B08XNH3BR6", query: "Dell WD19S 130W Docking Station" },
+      { name: "Dell WD19S 130W", for: "Dell-Laptops mit USB-C", text: "2 × DisplayPort 1.4, HDMI, USB-C, LAN; Dell-Laptops erhalten mit dem 130-W-Netzteil bis zu 90 W (Herstellerangabe).", asin: "B08XNH3BR6", query: "Dell WD19S 130W Docking Station" },
       { name: "Dell WD22TB4 Thunderbolt Dock", for: "Dell mit Thunderbolt", text: "Bis zu vier 4K-Monitore, bis zu 130 W für kompatible Dell-Laptops, 180-W-Netzteil (Herstellerangabe).", asin: "B09XN6BG19", query: "Dell WD22TB4 Docking Station" },
-      { name: "CalDigit Thunderbolt 4 Element Hub", for: "Kompakter Thunderbolt-Hub", text: "Thunderbolt-4-Hub mit zusätzlichen Thunderbolt- und USB-Ports, inklusive 0,8-m-Kabel.", asin: "B08FQWXQCN", query: "CalDigit Thunderbolt 4 Element Hub" },
-      { name: "UGREEN Revodok Pro 2101 für macOS", for: "MacBook, zwei HDMI", text: "2 × HDMI 4K, USB-C und USB-A mit 10 Gbit/s, LAN, SD/TF, 100 W PD; am Mac abhängig vom Chip.", asin: "B0C857NJKX", query: "UGREEN Revodok Pro 2101 Docking Station" },
+      { name: "CalDigit Thunderbolt 4 Element Hub", for: "Kompakter Thunderbolt-Hub", text: "Thunderbolt-4-Hub mit zusätzlichen Thunderbolt- und USB-Ports, inklusive 0,8-m-Kabel (Herstellerangabe).", asin: "B08FQWXQCN", query: "CalDigit Thunderbolt 4 Element Hub" },
+      { name: "UGREEN Revodok Pro 2101 für macOS", for: "MacBook, zwei HDMI", text: "2 × HDMI 4K, USB-C und USB-A mit 10 Gbit/s, LAN, SD/TF, 100 W PD (Herstellerangabe); am Mac abhängig vom Chip.", asin: "B0C857NJKX", query: "UGREEN Revodok Pro 2101 Docking Station" },
     ],
   },
 
@@ -206,7 +206,8 @@ export default {
           { p: "Apple unterstützt kein Multi-Stream-Transport (MST). Wer mehrere Monitore mit unterschiedlichen Inhalten an einem MacBook betreiben will, braucht einen Chip, der das nativ kann, und ein Thunderbolt-Dock – oder ein DisplayLink-Dock mit Treiber." },
           { figure: "steps" },
           { callout: { title: "Tipp", text: "Schau in den technischen Daten deines Laptops nach, wie viele externe Monitore er unterstützt. Das Dock kann diese Grenze nicht aufheben." } },
-          { facts: [{ value: "40 Gbit/s", label: "Bandbreite bei Thunderbolt 4 und USB4" }, { value: "98 W", label: "Ladeleistung beim CalDigit TS4" }, { value: "3", label: "Monitore unter Windows mit MST-Docks" }] },
+          { callout: { title: "Sicherheit", warn: true, text: "Nur das mitgelieferte Netzteil und geeignete, unbeschädigte Kabel verwenden. Docks und Netzteile werden unter Last warm – nicht abdecken, nicht auf weiche Unterlagen legen und Lüftungsöffnungen frei halten. Gebrauchsanweisung des Herstellers beachten." } },
+          { facts: [{ value: "40 Gbit/s", label: "Bandbreite bei Thunderbolt 4 und USB4" }, { value: "98 W", label: "Ladeleistung beim CalDigit TS4 (Herstellerangabe)" }, { value: "3", label: "Monitore unter Windows mit MST-Docks" }] },
         ],
       },
     ],

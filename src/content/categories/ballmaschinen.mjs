@@ -15,7 +15,7 @@ export default {
   eyebrow: "Tennis solo · Ballmaschine",
   h1: "Die 3 besten Tennis-Ballmaschinen 2026",
   lead:
-    "Eine Ballmaschine spielt dir den Ball zu – mit Tempo, Spin und wechselnden Richtungen. So trainierst du Laufwege und Schläge wie im echten Ballwechsel. Wir zeigen die drei besten Modelle.",
+    "Eine Ballmaschine spielt dir den Ball zu – mit Tempo, Spin und wechselnden Richtungen. So trainierst du Laufwege und Schläge wie im echten Ballwechsel. Wir zeigen drei Empfehlungen nach unserer Einschätzung.",
   answer:
     "Unsere beste Gesamtwahl ist die [**Spinshot Plus-2**](produkt:1): bewährte Technik, 120 Bälle, Top- und Backspin und wahlweise Akku oder Netzbetrieb. Am günstigsten ist die [**VEVOR Tennisballmaschine mit 150-Ball-Behälter**](produkt:2); die Premium-Wahl ist die [**Spinshot Player**](produkt:3), bei der sich jeder Ball per App programmieren lässt.",
 
@@ -37,7 +37,7 @@ export default {
   ],
 
   method:
-    "Grundlage sind Herstellerangaben, Bedienungsanleitungen, Händlerangaben bei Amazon sowie Testberichte englischsprachiger Tennis-Fachportale (z. B. Tennis Pro Guru, Tennis Warehouse). Deutsche Labortests von Ballmaschinen gibt es nicht. Die Bewertung ist eine redaktionelle Einschätzung in vier gewichteten Kriterien von 0 bis 10.",
+    "Wir testen die Maschinen nicht selbst. Grundlage sind Herstellerangaben, Bedienungsanleitungen, Händlerangaben bei Amazon sowie Testberichte englischsprachiger Tennis-Fachportale (z. B. Tennis Pro Guru, Tennis Warehouse). Deutsche Labortests von Ballmaschinen sind uns nicht bekannt. Die Bewertung ist eine redaktionelle Einschätzung in vier gewichteten Kriterien von 0 bis 10.",
 
   products: [
     {
@@ -51,13 +51,13 @@ export default {
       ratings: { spiel: 9.0, akku: 7.5, handling: 8.5, preis: 7.5 },
       bestFor: "Ambitionierte Spieler, Vereinstraining",
       verdict:
-        "Die ausgewogenste Ballmaschine: 18 Spin-Stufen, horizontale und vertikale Oszillation und 12 programmierbare Drills – in einem Gerät, das seit Jahren auf Plätzen weltweit läuft.",
+        "Nach unserer Einschätzung die ausgewogenste Ballmaschine: laut Hersteller 18 Spin-Stufen, horizontale und vertikale Oszillation und 12 programmierbare Drills – in einem Gerät, das seit Jahren verbreitet ist.",
       features: [
-        "Tempo laut Testbericht rund 30–110 km/h in 20 Stufen, 9 Stufen Top- und 9 Stufen Backspin",
-        "Ballkorb für 120 Bälle, Intervall 2–10 Sekunden",
+        "Tempo laut Testbericht von Tennis Pro Guru rund 30–110 km/h in 20 Stufen, 9 Stufen Top- und 9 Stufen Backspin",
+        "Ballkorb für 120 Bälle, Intervall 2–10 Sekunden (Herstellerangabe)",
         "Als Akku- oder Netzversion; Akkulaufzeit laut Hersteller 2–3 Stunden, Akku je nach Angebot separat",
       ],
-      pros: ["Sehr vielseitige Drills und Oszillation", "Fernbedienung und App", "Ersatzteile und Service verfügbar"],
+      pros: ["Sehr vielseitige Drills und Oszillation", "Fernbedienung und App", "Ersatzteile und Service laut Hersteller verfügbar"],
       cons: ["Akku teils separat zu kaufen", "Ladezeit 8–15 Stunden (Herstellerangabe)"],
       specs: { tempo: "ca. 30–110 km/h", spin: "Top & Back, 18 Stufen", baelle: "120", strom: "Akku oder Netz", steuerung: "Fernbedienung & App" },
       asin: "B01JXI1I8W",
@@ -74,7 +74,7 @@ export default {
       ratings: { spiel: 7.0, akku: 8.0, handling: 7.5, preis: 9.0 },
       bestFor: "Hobbyspieler mit kleinem Budget",
       verdict:
-        "Der günstigste ernsthafte Einstieg: großer Ballbehälter, Akku im Lieferumfang und App-Steuerung – für einen Bruchteil des Preises der Markenmaschinen.",
+        "Nach unserer Einschätzung der günstigste ernsthafte Einstieg: großer Ballbehälter, Akku im Lieferumfang und App-Steuerung – für einen Bruchteil des Preises der Markenmaschinen.",
       features: [
         "Ballbehälter für 150 Bälle, wiederaufladbarer Akku (Händlerangabe)",
         "Mehrere Übungsmodi, Steuerung per App über Bluetooth (Händlerangabe)",
@@ -100,10 +100,10 @@ export default {
         "Für alle, die jeden Ball selbst bestimmen wollen: Richtung, Höhe, Tempo, Spin und Takt lassen sich für jeden einzelnen Schlag in der App programmieren.",
       features: [
         "12 Drills mit je 6 Schlägen, jeder Ball einzeln programmierbar (Herstellerangabe)",
-        "Steuerung per App über WLAN, Android und iPhone (Testbericht)",
-        "120 Bälle, Tempo rund 30–110 km/h, Akku 2–3 Stunden (Testbericht)",
+        "Steuerung per App über WLAN, Android und iPhone (laut Testbericht von Tennis Pro Guru)",
+        "120 Bälle, Tempo rund 30–110 km/h, Akku 2–3 Stunden (laut Testbericht von Tennis Pro Guru)",
       ],
-      pros: ["Präziseste Programmierung", "Echte Spielsituationen simulierbar", "Bewährter Hersteller"],
+      pros: ["Sehr detaillierte Programmierung (Herstellerangabe)", "Echte Spielsituationen simulierbar", "Bewährter Hersteller"],
       cons: ["Am Gerät nur Drill-Tasten, vieles nur per App", "Teuer, Akku separat"],
       specs: { tempo: "ca. 30–110 km/h", spin: "Top & Back, je Ball", baelle: "120", strom: "Akku", steuerung: "App (WLAN)" },
       asin: "B0GL81CZ2F",
@@ -152,9 +152,9 @@ export default {
         id: "beste-ballmaschine",
         h2: "Welche Tennis-Ballmaschine ist die beste?",
         blocks: [
-          { quick: "Die beste Ballmaschine für die meisten ist die [Spinshot Plus-2](produkt:1). Wer wenig ausgeben will, nimmt die [VEVOR-Ballmaschine](produkt:2). Wer jeden Schlag selbst programmieren will, greift zur [Spinshot Player](produkt:3)." },
-          { first: "Eine Ballwand gibt zurück, was du schlägst. Eine Ballmaschine dagegen bestimmt, was kommt: hoch oder flach, mit Topspin oder Slice, kurz cross oder lang in die Rückhand. Genau das macht sie zum besten Werkzeug für Laufwege, Ballannahme und Wiederholungen unter Druck." },
-          { p: "Der Markt teilt sich in zwei Lager: etablierte Marken wie Spinshot oder Lobster, die seit Jahren auf Plätzen stehen und Ersatzteile liefern, und günstige Neulinge mit großem Ballbehälter und App, deren Langlebigkeit sich erst noch zeigen muss. Lobster-Modelle sind bei Amazon derzeit nicht verfügbar und deshalb nicht in unserer Auswahl." },
+          { quick: "Nach unserer Einschätzung ist die beste Ballmaschine für die meisten die [Spinshot Plus-2](produkt:1). Wer wenig ausgeben will, nimmt die [VEVOR-Ballmaschine](produkt:2). Wer jeden Schlag selbst programmieren will, greift zur [Spinshot Player](produkt:3)." },
+          { first: "Eine Ballwand gibt zurück, was du schlägst. Eine Ballmaschine dagegen bestimmt, was kommt: hoch oder flach, mit Topspin oder Slice, kurz cross oder lang in die Rückhand. Genau das macht sie zu einem sehr guten Werkzeug für Laufwege, Ballannahme und Wiederholungen unter Druck." },
+          { p: "Der Markt teilt sich in zwei Lager: etablierte Marken wie Spinshot oder Lobster, die seit Jahren auf Plätzen stehen und Ersatzteile liefern, und günstige Neulinge mit großem Ballbehälter und App, deren Langlebigkeit sich erst noch zeigen muss. Lobster-Modelle waren bei Amazon zum Recherchezeitpunkt nicht verfügbar und deshalb nicht in unserer Auswahl." },
           { figure: "scores" },
           { quote: "Eine Wand gibt zurück, was du schlägst – eine Ballmaschine entscheidet, was kommt." },
         ],
@@ -178,7 +178,7 @@ export default {
           { h3: "Spin und Oszillation" },
           { p: "Einfache Maschinen werfen nur geradeaus und ohne Spin. Für ernsthaftes Training sind Topspin, Backspin und eine seitliche Oszillation entscheidend – sie zwingen dich zu laufen und den Ball unterschiedlich anzunehmen." },
           { h3: "Bälle" },
-          { p: "Laut Spinshot-Anleitung sind gebrauchte Bälle besser als neue, weil neue Filzbeläge die Wurfräder verschmutzen. Drucklose Bälle halten am längsten und werfen am gleichmäßigsten." },
+          { p: "Gebrauchte Bälle sind oft sinnvoller als neue, weil neuer Filz die Wurfräder anfangs stärker verschmutzen kann – maßgeblich sind die Hinweise in der Anleitung deines Modells. Drucklose Bälle halten lange und werfen meist gleichmäßiger." },
         ],
       },
       {
@@ -191,7 +191,7 @@ export default {
               { title: "Ambitioniert", text: "Bewährt und vielseitig: Spinshot Plus-2.", link: { href: "#platz-1", label: "Zur Empfehlung" } },
               { title: "Hobby & Budget", text: "150 Bälle, Akku, App: VEVOR.", link: { href: "#platz-2", label: "Zur Empfehlung" } },
               { title: "Trainer & Turnier", text: "Jeder Ball programmierbar: Spinshot Player.", link: { href: "#platz-3", label: "Zur Empfehlung" } },
-              { title: "Kinder & Einsteiger", text: "Kleine Maschinen mit Batterie oder Netzteil.", link: { href: "#top5-einsteiger", label: "Zur Top 5" } },
+              { title: "Kinder & Einsteiger", text: "Kleine Maschinen mit Batterie oder Netzteil – Kinder nur unter Aufsicht.", link: { href: "#top5-einsteiger", label: "Zur Top 5" } },
             ],
           },
         ],
@@ -219,9 +219,9 @@ export default {
         h2: "Akku, Pflege und Sicherheit",
         blocks: [
           { quick: "Lade den Akku nach jedem Training vollständig und lagere ihn im Winter frostfrei und halb geladen. Halte Abstand zur Maschine, wenn sie läuft, und schalte sie aus, bevor du Bälle nachfüllst." },
-          { p: "Bleiakkus, wie sie in vielen Ballmaschinen stecken, mögen keine Tiefentladung. Wer die Maschine monatelang mit leerem Akku im Keller stehen lässt, braucht im Frühjahr oft einen neuen. Lithium-Akkus sind leichter und unempfindlicher, aber teurer." },
+          { p: "Bleiakkus, wie sie in vielen Ballmaschinen stecken, mögen keine Tiefentladung. Wer die Maschine monatelang mit leerem Akku im Keller stehen lässt, braucht im Frühjahr oft einen neuen. Lithium-Akkus sind leichter und unempfindlicher, aber teurer. Lade jeden Akku nur mit dem mitgelieferten Ladegerät, nicht unbeaufsichtigt und nicht in der Nähe brennbarer Materialien; beschädigte Akkus nicht weiterverwenden." },
           { figure: "steps" },
-          { callout: { title: "Sicherheit", warn: true, text: "Nie vor die laufende Maschine treten, um Bälle aufzuheben, und Kinder fernhalten. Bei Arbeiten an Wurfrädern oder Ballzuführung immer zuerst ausschalten." } },
+          { callout: { title: "Sicherheit", warn: true, text: "Ballmaschinen werfen Bälle mit hohem Tempo – ein Treffer im Gesicht oder am Auge kann ernsthaft verletzen. Nie vor die laufende Maschine treten, um Bälle aufzuheben, nie in die Auswurföffnung greifen oder schauen und mit niedrigem Tempo beginnen. Kinder nur unter Aufsicht trainieren lassen und Unbeteiligte fernhalten. Bei Arbeiten an Wurfrädern oder Ballzuführung immer zuerst ausschalten. Netzgeräte draußen nur an geeigneten, abgesicherten Außensteckdosen betreiben und vor Nässe schützen. Beachte die Sicherheitshinweise in der Bedienungsanleitung." } },
           { facts: [{ value: "2–8 h", label: "Akkulaufzeit je nach Modell (Herstellerangaben)" }, { value: "100–150", label: "Bälle passen in große Maschinen" }, { value: "8–15 h", label: "Ladezeit bei Spinshot (Herstellerangabe)" }] },
         ],
       },
@@ -230,7 +230,7 @@ export default {
 
   faqs: [
     { q: "Welche Tennis-Ballmaschine ist die beste?", a: "Unsere beste Gesamtwahl ist die Spinshot Plus-2 mit 120 Bällen, 18 Spin-Stufen und wahlweise Akku oder Netzbetrieb. Günstiger ist die VEVOR-Ballmaschine, die Premium-Wahl die Spinshot Player." },
-    { q: "Was kostet eine gute Tennis-Ballmaschine?", a: "Einfache Maschinen für Kinder gibt es unter 200 Euro, ernsthafte Akku-Maschinen ab etwa 400 Euro. Bewährte Markenmodelle wie Spinshot kosten deutlich über 1.000 Euro, teils plus Akku." },
+    { q: "Was kostet eine gute Tennis-Ballmaschine?", a: "Einfache Maschinen für Kinder liegen in der untersten Preisklasse, ernsthafte Akku-Maschinen beginnen in der unteren Preisklasse. Bewährte Markenmodelle wie Spinshot gehören in die oberste Preisklasse, teils kommt der Akku hinzu. Die Preisklassen findest du in der Vergleichstabelle; aktuelle Preise zeigt der Händler." },
     { q: "Ist bei Ballmaschinen der Akku dabei?", a: "Nicht immer. Bei mehreren Spinshot- und PONGBOT-Angeboten ist der Akku laut Händler separat zu kaufen. Prüfe den Lieferumfang vor der Bestellung." },
     { q: "Akku oder Netzbetrieb – was ist besser?", a: "Akku, wenn du auf verschiedenen Plätzen ohne Steckdose trainierst. Netzbetrieb, wenn die Maschine an einem festen Ort mit Strom steht – dann gibt es keine Laufzeitgrenze." },
     { q: "Welche Bälle nimmt man für die Ballmaschine?", a: "Am besten gebrauchte oder drucklose Bälle. Neue Bälle können die Wurfräder verschmutzen, nasse Bälle führen zu ungleichmäßigen Würfen." },
@@ -238,7 +238,7 @@ export default {
   ],
 
   sources: [
-    { label: "Spinshot: Bedienungsanleitung Plus-2 (PDF)", url: "https://cdn.shopify.com/s/files/1/2972/0242/files/manual-plus2.pdf" },
+    { label: "Spinshot: Herstellerseite mit Produktinformationen", url: "https://www.spinshot-sports.com/" },
     { label: "Tennis Pro Guru: Spinshot Player Review", url: "https://tennisproguru.com/spinshot-player-tennis-ball-machine-review/" },
     { label: "Tennis Pro Guru: Spinshot Plus-2 Review", url: "https://tennisproguru.com/spinshot-plus-2-tennis-ball-machine-review/" },
   ],

@@ -26,7 +26,7 @@ export default {
   },
 
   top3Title: "Unsere Top 3 Billardtische",
-  top3Intro: "Alle drei sind Pool-Billardtische in 7 Fuß – der häufigsten Größe für Wohnräume. Der wichtigste Unterschied ist die Spielplatte: Schiefer ist präziser und langlebiger als MDF.",
+  top3Intro: "Alle drei sind Pool-Billardtische in 7 Fuß – der häufigsten Größe für Wohnräume. Der wichtigste Unterschied ist die Spielplatte: Schiefer gilt als präziser und langlebiger als MDF.",
   comparisonTitle: "Die 3 besten Billardtische im Vergleich",
 
   criteria: [
@@ -74,9 +74,9 @@ export default {
       ratings: { spiel: 7.5, bau: 7.5, alltag: 8.0, preis: 9.5 },
       bestFor: "Einsteiger, Familien",
       verdict:
-        "Günstiger Einstieg ins Billard: Die Spielplatte ist aus MDF statt Schiefer, für Freizeitspiele in der Familie reicht das aber völlig – inklusive Queues und Kugeln.",
+        "Günstiger Einstieg ins Billard: Die Spielplatte ist aus MDF statt Schiefer, für Freizeitspiele in der Familie reicht das aus unserer Sicht aber aus – inklusive Queues und Kugeln.",
       features: [
-        "7-Fuß-Pool-Billard mit MDF-Platte",
+        "7-Fuß-Pool-Billard mit MDF-Platte (Herstellerangabe)",
         "Komplettset mit Zubehör (laut Händler)",
         "Deutlich leichter als Schiefertische",
       ],
@@ -100,7 +100,7 @@ export default {
         "Billard und Esstisch in einem: Schieferplatte für präzises Spiel, dazu eine Abdeckplatte, mit der der Tisch im Alltag als Esstisch dient – ideal, wenn kein eigener Spielraum da ist.",
       features: [
         "Schieferplatte, 7 Fuß (Herstellerangabe)",
-        "Abdeckplatte zur Nutzung als Esstisch",
+        "Abdeckplatte zur Nutzung als Esstisch (Herstellerangabe)",
         "Möbel-Design für den Wohnbereich",
       ],
       pros: ["Zwei Möbel in einem", "Schieferplatte", "Wohnliches Design"],
@@ -153,7 +153,7 @@ export default {
         h2: "Welcher Billardtisch ist der beste?",
         blocks: [
           { quick: "Für die meisten ist der [John West 7 ft Schiefer](produkt:1) die beste Wahl, weil er echten Schiefer bietet. Günstiger ist der [Blue Sea 7 ft](produkt:2), mit Esstisch-Funktion der [John West Denver Dream](produkt:3)." },
-          { first: "Ein Billardtisch ist ein großes, schweres Möbel – deshalb lohnt es sich, vor dem Kauf genau zu überlegen. Die wichtigste Frage ist die Spielplatte: Schiefer ist ein Naturstein, der sich nicht verzieht und die Kugeln präzise und gleichmäßig laufen lässt. MDF- oder Holzplatten sind günstiger und leichter, können sich aber bei Feuchtigkeit verziehen." },
+          { first: "Ein Billardtisch ist ein großes, schweres Möbel – deshalb lohnt es sich, vor dem Kauf genau zu überlegen. Die wichtigste Frage ist die Spielplatte: Schiefer ist ein Naturstein, der sich praktisch nicht verzieht und die Kugeln präzise und gleichmäßig laufen lässt. MDF- oder Holzplatten sind günstiger und leichter, können sich aber bei Feuchtigkeit verziehen." },
           { p: "In deutschen Wohnräumen ist **Pool-Billard** in 7 Fuß am häufigsten. Turniertische haben 9 Fuß, sind aber für die meisten Räume zu groß. Snooker-Tische sind noch größer und kommen nur für sehr große Räume infrage. Wer keinen eigenen Spielraum hat, sollte einen Kombitisch mit **Abdeckplatte** wählen: tagsüber Esstisch, abends Billardtisch." },
           { figure: "scores" },
         ],
@@ -204,8 +204,8 @@ export default {
           { quick: "Schiefertische vom Händler aufbauen und ausrichten lassen, das Tuch regelmäßig bürsten und eine Billardlampe für gleichmäßiges Licht über der Spielfläche aufhängen." },
           { figure: "steps" },
           { p: "Das Tuch ist das Verschleißteil eines Billardtischs. Bürste es regelmäßig in Längsrichtung, decke den Tisch ab, wenn er nicht genutzt wird, und halte Getränke fern. Als Licht eignet sich eine lange Billardlampe in rund 80 bis 100 cm Höhe über der Spielfläche – mehr zu stimmungsvollem Licht im Ratgeber [LED- und Neonbeleuchtung](/led-neon-beleuchtung/)." },
-          { callout: { title: "Gewicht", warn: true, text: "Schiefertische wiegen mehrere hundert Kilo. Aufbau nur zu mehreren oder durch den Händler, und bei Holzbalkendecken die Tragfähigkeit prüfen lassen." } },
-          { facts: [{ value: "7 Fuß", label: "häufigste Größe zu Hause" }, { value: "ca. 5 × 4 m", label: "Raumbedarf 7 Fuß" }, { value: "Schiefer", label: "beste Spielplatte" }] },
+          { callout: { title: "Gewicht", warn: true, text: "Schiefertische wiegen mehrere hundert Kilo, einzelne Schieferplatten sind schwer und zerbrechlich. Aufbau nur zu mehreren nach Anleitung des Herstellers oder durch den Händler, und bei Holzbalkendecken oder im Obergeschoss die Tragfähigkeit vorab von Fachleuten prüfen lassen. Billardlampen sicher an der Decke befestigen; Elektroanschlüsse von einer Elektrofachkraft ausführen lassen." } },
+          { facts: [{ value: "7 Fuß", label: "häufigste Größe zu Hause" }, { value: "ca. 5 × 4 m", label: "Raumbedarf 7 Fuß" }, { value: "Schiefer", label: "präziseste Spielplatte (unsere Einschätzung)" }] },
         ],
       },
     ],
@@ -214,14 +214,14 @@ export default {
   faqs: [
     { q: "Welcher Billardtisch für zu Hause ist der beste?", a: "Unsere beste Gesamtwahl ist der John West 7 ft mit Schieferplatte. Günstiger ist der Blue Sea 7 ft, mit Esstisch-Funktion der John West Denver Dream." },
     { q: "Wie viel Platz braucht ein Billardtisch?", a: "Für einen 7-Fuß-Tisch etwa 5 × 4 m, weil an jeder Seite rund eine Queue-Länge Platz nötig ist. Mit kürzeren Queues geht es etwas enger." },
-    { q: "Schiefer oder MDF – was ist besser?", a: "Schiefer ist präziser und verzieht sich nicht, ist aber teurer und viel schwerer. MDF reicht für Gelegenheitsspieler." },
+    { q: "Schiefer oder MDF – was ist besser?", a: "Schiefer ist präziser und verzieht sich praktisch nicht, ist aber teurer und viel schwerer. MDF reicht für Gelegenheitsspieler." },
     { q: "Kann man einen Billardtisch als Esstisch nutzen?", a: "Ja, mit einer passenden Abdeckplatte. Einige Modelle werden direkt als Kombitisch verkauft." },
     { q: "Wie schwer ist ein Billardtisch?", a: "Schiefertische wiegen mehrere hundert Kilogramm, MDF-Tische deutlich weniger." },
   ],
 
   sources: [
     { label: "Deutsche Billard-Union", url: "https://www.billard-union.net/" },
-    { label: "WPA: Tischspezifikationen", url: "https://wpapool.com/equipment-specifications/" },
+    { label: "WPA: Tischspezifikationen", url: "https://wpapool.com/" },
   ],
 
   related: [

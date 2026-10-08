@@ -31,7 +31,7 @@ export default {
   ],
 
   method:
-    "Grundlage sind Herstellerangaben (Leistung, Lichtstrom, Farbtemperatur, Schutzart), Händlerangaben und die Norm DIN EN 12193 zur Sportstättenbeleuchtung. Lumenangaben günstiger Fluter sind oft geschönt; wir bevorzugen deshalb Markenhersteller. Die Bewertung ist eine redaktionelle Einschätzung in vier gewichteten Kriterien von 0 bis 10.",
+    "Grundlage sind Herstellerangaben (Leistung, Lichtstrom, Farbtemperatur, Schutzart), Händlerangaben und die Norm DIN EN 12193 zur Sportstättenbeleuchtung. Lumenangaben günstiger Fluter sind nicht unabhängig geprüft und können optimistisch ausfallen; wir bevorzugen deshalb Markenhersteller mit nachvollziehbaren Datenblättern. Die Bewertung ist eine redaktionelle Einschätzung in vier gewichteten Kriterien von 0 bis 10.",
 
   products: [
     {
@@ -45,11 +45,11 @@ export default {
       ratings: { licht: 8.5, qualitaet: 9.0, montage: 8.0, preis: 7.5 },
       bestFor: "Courts und Bolzplätze im Garten",
       verdict:
-        "Markenqualität vom Lichtspezialisten: ein professioneller 200-W-Fluter mit symmetrischer 100°-Optik – für gleichmäßiges Licht auf dem Spielfeld.",
+        "Markenqualität vom Lichtspezialisten: laut Hersteller ein professioneller 200-W-Fluter mit symmetrischer 100°-Optik – für gleichmäßiges Licht auf dem Spielfeld.",
       features: [
         "200 W, symmetrischer Abstrahlwinkel 100° (Herstellerbezeichnung FL PFM 200W SYM 100)",
-        "Warmweiß 3000 K; die 6500-K-Variante ist derzeit nicht verfügbar",
-        "Für den professionellen Außeneinsatz",
+        "Warmweiß 3000 K (Herstellerangabe); die 6500-K-Variante ist derzeit nicht verfügbar",
+        "Für den professionellen Außeneinsatz (Herstellerangabe)",
       ],
       pros: ["Bekannter Markenhersteller", "Gleichmäßige Ausleuchtung", "Professionelle Bauweise"],
       cons: ["Warmweiß – für Sport ist neutralweiß oft angenehmer", "Detaildaten beim Händler lückenhaft"],
@@ -68,14 +68,14 @@ export default {
       ratings: { licht: 7.5, qualitaet: 7.0, montage: 8.0, preis: 9.5 },
       bestFor: "Kleines Budget, Garten und Einfahrt",
       verdict:
-        "Viel Licht für wenig Geld: 200 W in Kaltweiß mit 120° Abstrahlwinkel und IP65 – ausdrücklich auch für Sportplätze beworben.",
+        "Viel Licht für wenig Geld: laut Händler 200 W in Kaltweiß mit 120° Abstrahlwinkel und IP65 – ausdrücklich auch für Sportplätze beworben.",
       features: [
         "200 W, 6000 K, 120° Abstrahlwinkel (Händlerangabe)",
         "IP65, laut Händler 20.000 lm und 30.000 h Lebensdauer",
-        "Für Garten, Garage und Sportplatz beworben",
+        "Für Garten, Garage und Sportplatz beworben (Händlerangabe)",
       ],
       pros: ["Sehr günstig", "Kaltweiß, gute Kontraste", "IP65"],
-      cons: ["Lumenangabe vermutlich optimistisch", "No-Name-Hersteller"],
+      cons: ["Lumenangabe nicht unabhängig geprüft", "Wenig bekannter Hersteller"],
       specs: { leistung: "200 W", farbe: "6000 K", winkel: "120°", schutz: "IP65", marke: "Tayire" },
       asin: "B0C5WNMDKD",
       query: "Tayire LED Strahler Außen 200W 6000K",
@@ -91,11 +91,11 @@ export default {
       ratings: { licht: 8.5, qualitaet: 8.5, montage: 8.0, preis: 7.0 },
       bestFor: "Langlebige Anlage",
       verdict:
-        "Solide Markentechnik im Metallgehäuse: Der Philips-Fluter ist für den Außeneinsatz gebaut und wiegt mit knapp 3,8 kg spürbar mehr als Billigware.",
+        "Solide Markentechnik im Metallgehäuse: Der Philips-Fluter ist laut Händler für den Außeneinsatz ausgelegt und mit knapp 3,8 kg deutlich schwerer als viele günstige Fluter.",
       features: [
         "200 W, 3000 K, Metallgehäuse (Händlerangabe)",
-        "Für den Außeneinsatz, IP65",
-        "Gewicht rund 3,84 kg",
+        "Für den Außeneinsatz, IP65 (Händlerangabe)",
+        "Gewicht rund 3,84 kg (Händlerangabe)",
       ],
       pros: ["Markenhersteller", "Robustes Metallgehäuse", "Für außen"],
       cons: ["Warmweiß", "Wenige technische Angaben beim Händler"],
@@ -147,10 +147,10 @@ export default {
         h2: "Welches Flutlicht ist das beste für den Garten-Sportplatz?",
         blocks: [
           { quick: "Der [LEDVANCE Floodlight 200 W](produkt:1) ist die beste Wahl für eine langlebige Anlage. Günstiger leuchtet der [Tayire 200 W](produkt:2); als Premium-Alternative bietet sich der [Philips ProjectLine](produkt:3) an." },
-          { first: "Im Herbst wird es früh dunkel – genau dann, wenn nach Schule und Arbeit Zeit zum Spielen wäre. LED-Flutlicht verlängert die Saison: Zwei bis vier 200-W-Fluter leuchten einen kleinen Court oder Bolzplatz aus und brauchen zusammen 400 bis 800 Watt – eine Stunde Abendspiel kostet damit je nach Strompreis nur wenige Dutzend Cent." },
+          { first: "Im Herbst wird es früh dunkel – genau dann, wenn nach Schule und Arbeit Zeit zum Spielen wäre. LED-Flutlicht verlängert die Saison: Zwei bis vier 200-W-Fluter leuchten einen kleinen Court oder Bolzplatz aus und brauchen laut Nennleistung zusammen 400 bis 800 Watt – eine Stunde Abendspiel kostet damit je nach Strompreis grob 10 bis 30 Cent." },
           { p: "Für Vereinsplätze regelt die Norm DIN EN 12193, wie hell und gleichmäßig Sportflächen beleuchtet sein müssen. Im Garten geht es vor allem um gleichmäßiges Licht ohne Blendung – und darum, dass das Licht auf dem eigenen Grundstück bleibt." },
           { figure: "scores" },
-          { callout: { title: "Lumen-Angaben", text: "Viele günstige Fluter versprechen 100 Lumen pro Watt und mehr. Markenhersteller geben meist niedrigere, dafür realistische Werte an." } },
+          { callout: { title: "Lumen-Angaben", text: "Viele günstige Fluter werben mit 100 Lumen pro Watt und mehr. Markenhersteller geben oft niedrigere Werte an, die sie in Datenblättern dokumentieren. Unabhängig geprüft haben wir die Angaben nicht." } },
         ],
       },
       {
@@ -179,11 +179,11 @@ export default {
     h2: "Die 5 besten Alternativen: Doppelkopf, Solar und Masten",
     intro: "Mehr Flexibilität, Sensor oder Solarstrom – und der Mast, auf dem das Licht sitzt.",
     items: [
-      { name: "STASUN 200 W Doppelkopf-Flutlicht", for: "Zwei Köpfe, flexibel", text: "Zwei verstellbare Köpfe, 5000 K, IP65 – leuchtet zwei Richtungen aus einem Punkt aus.", asin: "B085SZRXKP", query: "STASUN 200W LED Flutlicht Außen" },
-      { name: "CP3 LED-Strahler 200 W mit Stecker", for: "Mit Stecker, 5000 K", text: "200 W, 5000 K, IP66 und Stecker – für temporäre Beleuchtung ohne Elektriker.", asin: "B08TQR278S", query: "CP3 200W LED Strahler Außen Stecker 5000K" },
-      { name: "OSRAM Floodlight Essential Sensor 200 W, 4000 K", for: "Neutralweiß mit Sensor", text: "Neutralweißer Markenfluter mit Bewegungsmelder – praktisch für Wege und kurze Spiele.", asin: "B0FCWWHFS7", query: "Osram Floodlight Essential Sensor 200 W 4000 K" },
+      { name: "STASUN 200 W Doppelkopf-Flutlicht", for: "Zwei Köpfe, flexibel", text: "Laut Händler zwei verstellbare Köpfe, 5000 K, IP65 – leuchtet zwei Richtungen aus einem Punkt aus.", asin: "B085SZRXKP", query: "STASUN 200W LED Flutlicht Außen" },
+      { name: "CP3 LED-Strahler 200 W mit Stecker", for: "Mit Stecker, 5000 K", text: "Laut Händler 200 W, 5000 K, IP66 und Stecker – für temporäre Beleuchtung an einer vorhandenen, fachgerecht installierten Außensteckdose mit FI-Schutz. Kabel nicht über Spielflächen führen.", asin: "B08TQR278S", query: "CP3 200W LED Strahler Außen Stecker 5000K" },
+      { name: "OSRAM Floodlight Essential Sensor 200 W, 4000 K", for: "Neutralweiß mit Sensor", text: "Neutralweißer Markenfluter mit Bewegungsmelder (Herstellerangabe) – praktisch für Wege und kurze Spiele.", asin: "B0FCWWHFS7", query: "Osram Floodlight Essential Sensor 200 W 4000 K" },
       { name: "LEDMO Solar-Flutlicht 200 W", for: "Ohne Stromanschluss", text: "Solar-Flutlicht mit Fernbedienung – für Flächen ohne Stromanschluss; Leistung stark wetterabhängig.", asin: "B07YWRFN5X", query: "LEDMO LED Solar Flutlicht 200W" },
-      { name: "Lichtmast 5–6 m für Fluter", for: "Mast", text: "Stahl- oder Aluminiummast mit Fundamentkorb; Traglast und Windlast vorher prüfen. Wir verlinken auf die Suche, weil es keinen klaren Standard gibt.", query: "Lichtmast 6 m Stahl Fundamentkorb" },
+      { name: "Lichtmast 5–6 m für Fluter", for: "Mast", text: "Stahl- oder Aluminiummast mit Fundamentkorb; Traglast, Windlast und Fundament vorher von einem Fachbetrieb prüfen lassen, Genehmigungspflicht beim Bauamt klären. Wir verlinken auf die Suche, weil es keinen klaren Standard gibt.", query: "Lichtmast 6 m Stahl Fundamentkorb" },
     ],
   },
 
@@ -193,10 +193,11 @@ export default {
         id: "recht-und-nachbarn",
         h2: "Nachbarn, Natur und Recht",
         blocks: [
-          { quick: "Richte Fluter steil nach unten auf das Spielfeld, schalte sie spätestens zur Nachtruhe ab und lass die Elektrik von einer Fachkraft installieren. Bei Masten und dauerhafter Beleuchtung kann eine Genehmigung nötig sein." },
-          { p: "Licht, das auf Nachbargrundstücke fällt, kann nach dem Immissionsschutz- und Nachbarrecht eine unzumutbare Störung sein. Die Hinweise der Bund/Länder-Arbeitsgemeinschaft für Immissionsschutz (LAI) zur Messung und Beurteilung von Lichtimmissionen geben Richtwerte. Auch Insekten und Vögel leiden unter nächtlichem Kunstlicht – warmweiße, nach unten gerichtete Leuchten und kurze Brenndauern sind die naturfreundlichere Wahl." },
+          { quick: "Richte Fluter steil nach unten auf das Spielfeld, schalte sie spätestens zur Nachtruhe ab und lass die Elektrik von einer Fachkraft installieren. Bei Masten und dauerhafter Beleuchtung kann je nach Bundesland und Gemeinde eine Genehmigung nötig sein – vorab beim Bauamt klären." },
+          { p: "Licht, das auf Nachbargrundstücke fällt, kann nach Immissionsschutz- und Nachbarrecht eine unzumutbare Störung sein – ob das im Einzelfall so ist, hängt von den Umständen ab. Die Hinweise der Bund/Länder-Arbeitsgemeinschaft für Immissionsschutz (LAI) zur Messung und Beurteilung von Lichtimmissionen nennen Orientierungswerte, an denen sich Behörden und Gerichte häufig ausrichten. Auch Insekten und Vögel leiden unter nächtlichem Kunstlicht – warmweiße, nach unten gerichtete Leuchten und kurze Brenndauern sind die naturfreundlichere Wahl." },
           { figure: "steps" },
-          { callout: { title: "Elektrik", warn: true, text: "Außenanlagen mit Erdkabel, Masten und Festanschluss gehören in die Hände einer Elektrofachkraft. Für Außensteckdosen ist ein Fehlerstromschutzschalter (FI) vorgeschrieben." } },
+          { callout: { title: "Elektrik nur vom Fachbetrieb", warn: true, text: "Außenanlagen mit Erdkabel, Masten und Festanschluss gehören in die Hände einer eingetragenen Elektrofachkraft – Arbeiten am Stromnetz sind lebensgefährlich. Für Außensteckdosen schreiben die geltenden VDE-Bestimmungen in der Regel einen Fehlerstromschutzschalter (FI/RCD) vor. Fluter werden im Betrieb heiß: Abstand zu brennbaren Materialien nach Herstellerangabe einhalten." } },
+          { callout: { title: "Blendung, Nachbarn und Bauamt", warn: true, text: "Fluter dürfen weder Nachbarn noch Verkehrsteilnehmer auf angrenzenden Straßen und Wegen blenden – im Zweifel abschirmen und steiler neigen. Ob ein Lichtmast genehmigungspflichtig ist, hängt von Landesbauordnung, Bebauungsplan, Höhe und Abstand zur Grenze ab; vorab beim Bauamt nachfragen. Masten müssen standsicher gegründet sein – Fundament und Windlast im Zweifel von einem Fachbetrieb bemessen lassen. Für Ballspiel am Abend gelten zusätzlich die Ruhezeiten der Gemeinde." } },
           { facts: [{ value: "IP65", label: "Mindestschutzart für draußen" }, { value: "5–8 m", label: "sinnvolle Masthöhe" }, { value: "DIN EN 12193", label: "Norm für Sportstättenbeleuchtung" }] },
         ],
       },
@@ -207,7 +208,7 @@ export default {
     { q: "Welches Flutlicht ist das beste für den Garten-Sportplatz?", a: "Unsere beste Gesamtwahl ist der LEDVANCE Floodlight 200 W. Günstiger ist der Tayire 200 W, als Premium-Alternative eignet sich der Philips ProjectLine." },
     { q: "Wie viele Fluter brauche ich für einen Bolzplatz?", a: "Für etwa 10 × 15 m sind vier 200-W-Fluter an zwei Masten ein guter Richtwert. Für größere Felder lohnt eine Lichtplanung." },
     { q: "Welche Lichtfarbe ist für Sport am besten?", a: "Neutralweiß bis Tageslichtweiß (4000–5700 K) sorgt für gute Kontraste. Warmweiß ist naturfreundlicher und angenehmer für Nachbarn." },
-    { q: "Darf ich im Garten Flutlicht betreiben?", a: "Grundsätzlich ja, aber das Licht darf Nachbarn nicht unzumutbar stören. Masten und Festanschluss können genehmigungs- bzw. fachbetriebspflichtig sein." },
+    { q: "Darf ich im Garten Flutlicht betreiben?", a: "In der Regel ja, aber das Licht darf Nachbarn und Verkehrsteilnehmer nicht unzumutbar stören oder blenden. Masten können je nach Bundesland und Gemeinde genehmigungspflichtig sein, den Festanschluss muss eine Elektrofachkraft ausführen. Im Zweifel vorab beim Bauamt nachfragen und mit den Nachbarn sprechen." },
     { q: "Lohnt sich Solar-Flutlicht?", a: "Nur für kleine Flächen und kurze Spielzeiten. Im Herbst und Winter liefern Solarfluter oft nicht genug Licht für längere Spiele." },
   ],
 

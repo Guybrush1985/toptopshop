@@ -10,14 +10,14 @@ export default {
 
   metaTitle: "Große Fußballtore aus Alu: Die 3 besten 2026 (5×2 bis 7,32 m)",
   metaDescription:
-    "Aluminium-Fußballtore von 5 × 2 m bis 7,32 × 2,44 m, kippsicher mit Netz und Bodenanker: Die 3 besten großen Fußballtore 2026 – mit DIN EN 748.",
+    "Aluminium-Fußballtore von 5 × 2 m bis 7,32 × 2,44 m mit Netz: Die 3 besten großen Fußballtore 2026 – plus Hinweise zur Kippsicherung nach DIN EN 748.",
 
   eyebrow: "Sportanlagen · Fußballtore",
   h1: "Die 3 besten großen Fußballtore 2026",
   lead:
     "Vom Jugendtor bis zur Vereinsgröße: Große Aluminiumtore machen aus dem Garten einen echten Fußballplatz. Wir zeigen die drei besten – und erklären, warum Kippsicherheit nicht verhandelbar ist.",
   answer:
-    "Unsere beste Gesamtwahl ist das [**GLA-WEL Jugendtor 5 × 2 m, vollverschweißt**](produkt:1): Ovalprofil, kippsicher nach DIN EN 748 mit passender Sicherung. Das beste Preis-Leistungs-Verhältnis bieten die [**FORZA Alu60 Fußballtore**](produkt:2) in zehn Größen; für Vereinsmaß ist das [**GLA-WEL Großfeldtor 7,32 × 2,44 m**](produkt:3) mit Stahlgewichten im Bodenrahmen die Premium-Wahl.",
+    "Unsere beste Gesamtwahl ist das [**GLA-WEL Jugendtor 5 × 2 m, vollverschweißt**](produkt:1): Ovalprofil, laut Hersteller kippsicher nach DIN EN 748 mit passender Sicherung. Das beste Preis-Leistungs-Verhältnis bieten die [**FORZA Alu60 Fußballtore**](produkt:2) in zehn Größen; für Vereinsmaß ist das [**GLA-WEL Großfeldtor 7,32 × 2,44 m**](produkt:3) mit Stahlgewichten im Bodenrahmen die Premium-Wahl. Jedes Tor muss vor dem ersten Spiel gegen Umkippen gesichert werden.",
 
   priceTiers: {
     1: { symbol: "€", label: "bis 1.000 €" },
@@ -51,13 +51,13 @@ export default {
       ratings: { sicherheit: 9.0, qualitaet: 9.0, handling: 7.5, preis: 7.5 },
       bestFor: "Großer Garten, Jugendfußball",
       verdict:
-        "Ein echtes Vereinstor für den Garten: vollverschweißtes Aluminium-Ovalprofil, wählbare Tortiefe und kippsicher nach DIN EN 748 in Verbindung mit passender Verankerung oder Zusatzgewicht.",
+        "Ein echtes Vereinstor für den Garten: laut Hersteller vollverschweißtes Aluminium-Ovalprofil, wählbare Tortiefe und kippsicher nach DIN EN 748 in Verbindung mit passender Verankerung oder Zusatzgewicht.",
       features: [
         "5 × 2 m, vollverschweißtes Aluminium-Ovalprofil (Herstellerangabe)",
-        "Tortiefe 1,00, 1,50 oder 2,00 m wählbar",
-        "Kippsicher nach DIN EN 748 mit passender Sicherung, inklusive Tornetz",
+        "Tortiefe 1,00, 1,50 oder 2,00 m wählbar (Herstellerangabe)",
+        "Kippsicher nach DIN EN 748 mit passender Sicherung, inklusive Tornetz (Herstellerangabe)",
       ],
-      pros: ["Vereinsqualität", "Normgerechte Kippsicherheit", "Langlebig"],
+      pros: ["Vereinsqualität", "Laut Hersteller kippsicher nach EN 748", "Stabile, vollverschweißte Bauweise"],
       cons: ["Teuer", "Braucht Platz und Verankerung"],
       specs: { masse: "5 × 2 m", profil: "Alu-Oval, vollverschweißt", sicherung: "Anker/Gewicht nach EN 748", netz: "ja", einsatz: "Jugend" },
       asin: "B07DF5QRLV",
@@ -74,11 +74,11 @@ export default {
       ratings: { sicherheit: 7.5, qualitaet: 8.0, handling: 8.5, preis: 9.0 },
       bestFor: "Garten, Training, flexible Größen",
       verdict:
-        "Viel Tor fürs Geld: 60-mm-Aluminiumprofil, 3-mm-Netz und Schnellverschluss-Querlatte – von 1,8 × 1,2 m bis zur Vereinsgröße 7,3 × 2,4 m.",
+        "Viel Tor fürs Geld: laut Hersteller 60-mm-Aluminiumprofil, 3-mm-Netz und Schnellverschluss-Querlatte – von 1,8 × 1,2 m bis zur Vereinsgröße 7,3 × 2,4 m.",
       features: [
         "60-mm-Aluminium, 3-mm-Netz, Netzclips (Herstellerangabe)",
-        "Zehn Größen, darunter 4,9 × 2,1 m, 5,6 × 2 m und 7,3 × 2,4 m",
-        "Freistehend; Verankerung nach Herstellerangabe einplanen",
+        "Zehn Größen, darunter 4,9 × 2,1 m, 5,6 × 2 m und 7,3 × 2,4 m (Herstellerangabe)",
+        "Freistehend; Verankerung nach Herstellerangabe zwingend einplanen",
       ],
       pros: ["Deutlich günstiger als Vereinstore", "Viele Größen", "Leichter Aufbau"],
       cons: ["Leichteres Profil", "Exakt 5 × 2 m nicht im Programm"],
@@ -100,10 +100,10 @@ export default {
         "Das Großfeldtor in Vereinsmaß: Stahlgewichte im Bodenrahmen machen es laut Hersteller auch ohne Bodenanker kippsicher nach DIN EN 748 – TÜV-geprüft.",
       features: [
         "7,32 × 2,44 m, vollverschweißt (Herstellerangabe)",
-        "Stahlgewichte im Bodenrahmen, kippsicher nach DIN EN 748, TÜV-geprüft",
-        "Inklusive Tornetz, Tortiefe 1,50 m",
+        "Stahlgewichte im Bodenrahmen, kippsicher nach DIN EN 748, TÜV-geprüft (Herstellerangabe)",
+        "Inklusive Tornetz, Tortiefe 1,50 m (Herstellerangabe)",
       ],
-      pros: ["Kippsicher ohne Anker", "Echte Vereinsgröße", "TÜV-geprüft"],
+      pros: ["Laut Hersteller kippsicher ohne Anker", "Echte Vereinsgröße", "TÜV-Prüfung laut Hersteller"],
       cons: ["Sehr teuer", "Schwer, nur mit mehreren Personen versetzbar"],
       specs: { masse: "7,32 × 2,44 m", profil: "Alu, vollverschweißt", sicherung: "Stahlgewichte im Rahmen", netz: "ja", einsatz: "Großfeld" },
       asin: "B07DF7FNT1",
@@ -137,7 +137,7 @@ export default {
       steps: [
         { title: "Ebenen Platz wählen", text: "Das Tor muss mit dem ganzen Bodenrahmen aufliegen." },
         { title: "Verankern", text: "Bodenanker, Erdnägel oder Zusatzgewichte nach Herstellerangabe – vor dem ersten Spiel." },
-        { title: "Kipptest machen", text: "Ein Erwachsener zieht vorn an der Latte: Das Tor darf nicht kippen." },
+        { title: "Sicherung prüfen", text: "Alle Anker und Gewichte kontrollieren; Kippsicherheit nach Herstelleranleitung prüfen." },
         { title: "Nie an die Latte hängen", text: "Kindern erklären: Klettern und Schaukeln am Tor ist tabu." },
         { title: "Regelmäßig prüfen", text: "Anker und Schrauben nach Sturm und vor jeder Saison kontrollieren." },
       ],
@@ -154,9 +154,9 @@ export default {
         blocks: [
           { quick: "Für die meisten großen Gärten ist das [GLA-WEL Jugendtor 5 × 2 m](produkt:1) die beste Wahl. Günstiger und flexibler sind die [FORZA Alu60](produkt:2), für Vereinsmaß das [GLA-WEL Großfeldtor](produkt:3)." },
           { first: "Ein großes Tor verändert den Garten: Statt Mini-Toren gibt es echte Torschüsse, Torwarttraining und Spiele mit vielen Kindern. Das Jugendtor mit 5 × 2 m ist das typische Maß im Jugendfußball, das Großfeldtor mit 7,32 × 2,44 m das Maß der Profis." },
-          { p: "Mit der Größe steigt das Risiko: Ein Aluminiumtor wiegt schnell 50 Kilogramm und mehr. Kippt es nach vorn – etwa, weil sich jemand an die Latte hängt –, kann das tödlich enden. Die Norm DIN EN 748 regelt deshalb, dass Fußballtore gegen Umkippen gesichert sein müssen." },
+          { p: "Mit der Größe steigt das Risiko: Ein großes Aluminiumtor kann 50 Kilogramm und mehr wiegen. Kippt es nach vorn – etwa, weil sich jemand an die Latte hängt –, kann das schwere oder sogar tödliche Verletzungen verursachen. Die Norm DIN EN 748 stellt deshalb unter anderem Anforderungen an die Standsicherheit von Fußballtoren; im Alltag heißt das: Jedes Tor muss gegen Umkippen gesichert sein." },
           { figure: "scores" },
-          { callout: { title: "Sicherheit zuerst", warn: true, text: "Ein Fußballtor darf nie unverankert aufgestellt werden. Die Unfallversicherungsträger und der DFB weisen immer wieder auf tödliche Unfälle mit umkippenden Toren hin." } },
+          { callout: { title: "Sicherheit zuerst", warn: true, text: "Ein Fußballtor darf nie unverankert aufgestellt werden. Unfallversicherungsträger weisen immer wieder auf schwere und tödliche Unfälle mit umkippenden, ungesicherten Toren hin. Auch kleinere Tore immer sichern, Kinder nie an Latte oder Netz klettern lassen und nicht genutzte mobile Tore gesichert abstellen oder umlegen." } },
         ],
       },
       {
@@ -176,7 +176,7 @@ export default {
             },
           },
           { h3: "Vollverschweißt oder verschraubt?" },
-          { p: "Vollverschweißte Tore sind steifer und langlebiger, verschraubte lassen sich leichter zerlegen und transportieren. Für den Dauerbetrieb im Garten sind vollverschweißte Tore die robustere Wahl." },
+          { p: "Vollverschweißte Tore sind in der Regel steifer und langlebiger, verschraubte lassen sich leichter zerlegen und transportieren. Für den Dauerbetrieb im Garten sind vollverschweißte Tore nach unserer Einschätzung die robustere Wahl." },
         ],
       },
     ],
@@ -187,11 +187,11 @@ export default {
     h2: "Die 5 besten Alternativen und Zubehör",
     intro: "Weitere Tore in Vereinsmaß, Ersatznetze und Bodenanker.",
     items: [
-      { name: "W&H mobiles Großfeldtor 7,32 × 2,44 m", for: "Großfeld, vollverschweißt", text: "Ovalprofil 120/100 mm, Tortiefe 2,00 m, laut Händler 8 Jahre Garantie.", asin: "B079ZVZ45Q", query: "W&H Fußballtor mobiles Großfeldtor 7,32 x 2,44" },
-      { name: "W&H mobiles Jugendtor 5 × 2 m mit Stahlauslage", for: "Jugendtor mit Stahlauslage", text: "Jugendtor mit Stahlauslage für zusätzliche Standfestigkeit, inklusive Netz.", asin: "B079ZV9TY9", query: "W&H Fußballtor mobiles Jugendtor 5 x 2 m Stahlauslage" },
-      { name: "Haspo transportables Fußballtor 7,32 × 2,44 m", for: "Großfeld, teilverschweißt", text: "Transportables Aluminium-Großfeldtor in Teilverschweißung.", asin: "B013HS5LIC", query: "Haspo Transportables Fußballtor 7,32 x 2,44" },
+      { name: "W&H mobiles Großfeldtor 7,32 × 2,44 m", for: "Großfeld, vollverschweißt", text: "Laut Händler Ovalprofil 120/100 mm, Tortiefe 2,00 m und 8 Jahre Garantie.", asin: "B079ZVZ45Q", query: "W&H Fußballtor mobiles Großfeldtor 7,32 x 2,44" },
+      { name: "W&H mobiles Jugendtor 5 × 2 m mit Stahlauslage", for: "Jugendtor mit Stahlauslage", text: "Jugendtor mit Stahlauslage, die laut Händler die Standfestigkeit erhöht, inklusive Netz. Zusätzliche Sicherung nach Herstellerangabe.", asin: "B079ZV9TY9", query: "W&H Fußballtor mobiles Jugendtor 5 x 2 m Stahlauslage" },
+      { name: "Haspo transportables Fußballtor 7,32 × 2,44 m", for: "Großfeld, teilverschweißt", text: "Transportables Aluminium-Großfeldtor in Teilverschweißung (Händlerangabe).", asin: "B013HS5LIC", query: "Haspo Transportables Fußballtor 7,32 x 2,44" },
       { name: "Sport-Thieme Jugendfußball-Tornetz 515 × 205 cm", for: "Ersatznetz", text: "Knotenloses Netz für 5 × 2 m-Tore nach DIN EN 748, 4 mm PP, 12 cm Maschen (Herstellerangabe).", asin: "B0793M8FTH", query: "Sport-Thieme Jugendfußballtornetz 515 x 205 cm" },
-      { name: "Naviable Bodenanker mit Spanngurten", for: "Verankerung", text: "Vier Schraubanker aus Stahl mit XXL-Spanngurten, beworben für Fußballtore und Trampoline.", asin: "B0DYG1Z3LD", query: "Naviable Bodenanker Trampolin Spanngurte" },
+      { name: "Naviable Bodenanker mit Spanngurten", for: "Verankerung", text: "Vier Schraubanker aus Stahl mit XXL-Spanngurten, beworben für Fußballtore und Trampoline (Händlerangabe). Ob sie für dein Tor genügen, entscheidet die Herstelleranleitung des Tors.", asin: "B0DYG1Z3LD", query: "Naviable Bodenanker Trampolin Spanngurte" },
     ],
   },
 
@@ -201,8 +201,10 @@ export default {
         id: "aufstellen",
         h2: "Aufstellen, verankern, prüfen",
         blocks: [
-          { quick: "Stelle das Tor eben auf, verankere es nach Herstellerangabe, mache einen Kipptest und erkläre allen Kindern, dass an der Latte nicht geturnt wird." },
+          { quick: "Stelle das Tor eben auf, verankere es nach Herstellerangabe, prüfe die Sicherung vor jeder Nutzung und erkläre allen Kindern, dass an der Latte nicht geturnt oder geklettert wird." },
           { figure: "steps" },
+          { callout: { title: "Tore immer gegen Umkippen sichern", warn: true, text: "Ungesicherte Tore sind lebensgefährlich. Verankerung oder Ballast nach Herstelleranleitung sind kein optionales Zubehör, sondern Pflicht – auch bei kurzem Spiel, auch auf Rasen. Prüfe Anker nach Sturm, Starkregen oder Frost erneut, denn aufgeweichter Boden kann den Halt verringern. Bei Zweifeln an der Standsicherheit das Tor nicht benutzen." } },
+          { callout: { title: "Rücksicht auf Nachbarn", text: "Torschüsse ins Netz und an den Pfosten sind laut. Halte die örtlichen Ruhezeiten (laut Gemeindesatzung) ein und stelle das Tor möglichst so auf, dass Bälle nicht Richtung Nachbargrundstück oder Straße fliegen – ein Ballfangnetz dahinter hilft." } },
           { facts: [{ value: "DIN EN 748", label: "Norm für Fußballtore" }, { value: "5 × 2 m", label: "Jugendtor" }, { value: "7,32 × 2,44 m", label: "Großfeldtor" }] },
         ],
       },
@@ -211,10 +213,10 @@ export default {
 
   faqs: [
     { q: "Welches große Fußballtor ist das beste für den Garten?", a: "Unsere beste Gesamtwahl ist das GLA-WEL Jugendtor 5 × 2 m, vollverschweißt. Günstiger sind die FORZA Alu60 in zehn Größen, für Vereinsmaß das GLA-WEL Großfeldtor 7,32 × 2,44 m." },
-    { q: "Wie sichert man ein Fußballtor gegen Umkippen?", a: "Mit Bodenankern, Erdnägeln oder Gewichten nach Herstellerangabe. Die Norm DIN EN 748 verlangt eine Kippsicherung – vor jeder Nutzung prüfen." },
+    { q: "Wie sichert man ein Fußballtor gegen Umkippen?", a: "Mit Bodenankern, Erdnägeln oder Gewichten nach Herstellerangabe. Die Norm DIN EN 748 stellt Anforderungen an die Standsicherheit von Fußballtoren – die Sicherung vor jeder Nutzung prüfen." },
     { q: "Welche Größe hat ein Jugendtor?", a: "Ein Jugendtor misst 5 × 2 m, ein Großfeldtor 7,32 × 2,44 m." },
-    { q: "Aluminium oder Stahl?", a: "Aluminium rostet nicht, ist leichter und deshalb für den Garten meist die bessere Wahl. Stahltore sind schwerer und günstiger, müssen aber vor Rost geschützt werden." },
-    { q: "Braucht ein großes Fußballtor eine Genehmigung?", a: "Ein mobiles Tor in der Regel nicht. Feste Ballfangzäune oder Flutlicht dahinter können aber genehmigungspflichtig sein." },
+    { q: "Aluminium oder Stahl?", a: "Aluminium rostet nicht wie Stahl, ist leichter und deshalb für den Garten meist die bessere Wahl. Stahltore sind schwerer und günstiger, müssen aber vor Rost geschützt werden." },
+    { q: "Braucht ein großes Fußballtor eine Genehmigung?", a: "Ein mobiles Tor in der Regel nicht. Fest einbetonierte Tore, Ballfangzäune oder Flutlichtmasten können aber je nach Landesbauordnung und Bebauungsplan genehmigungspflichtig sein – im Zweifel vorab beim Bauamt nachfragen." },
   ],
 
   sources: [

@@ -16,13 +16,13 @@ export default {
   eyebrow: "Krisenvorsorge · Lebensmittel & Lagerung",
   h1: "Lebensmittel haltbar machen: Die 3 besten Helfer 2026",
   lead:
-    "Ein Vorrat ist nur so gut wie seine Lagerung. Mit Mylar-Beuteln, Einkochautomat, Vakuumierer und Getreidemühle lassen sich Lebensmittel jahrelang haltbar machen – und Getreide wird erst dann zu Mehl, wenn man es braucht. Diese drei Helfer lohnen sich am meisten.",
+    "Ein Vorrat ist nur so gut wie seine Lagerung. Mit Mylar-Beuteln, Einkochautomat, Vakuumierer und Getreidemühle lassen sich viele Lebensmittel deutlich länger haltbar machen – und Getreide wird erst dann zu Mehl, wenn man es braucht. Diese drei Helfer lohnen sich nach unserer Einschätzung am meisten.",
   answer:
-    "Für die Langzeitlagerung trockener Lebensmittel sind [**Mylar-Beutel mit Sauerstoffabsorbern**](produkt:1) die beste Wahl: luft-, licht- und feuchtigkeitsdicht und laut Anbietern für Trockenware über viele Jahre geeignet. Zum Einkochen von Obst, Gemüse und Fertiggerichten empfehlen wir den [**WECK Einkochautomaten WAT 15**](produkt:2); ganz ohne Strom mahlt die [**KoMo Handmühle**](produkt:3) Getreide frisch zu Mehl.",
+    "Für die Langzeitlagerung trockener Lebensmittel sind [**Mylar-Beutel mit Sauerstoffabsorbern**](produkt:1) nach unserer Einschätzung die beste Wahl: laut Anbietern luft-, licht- und feuchtigkeitsdicht und laut Anbietern für Trockenware über viele Jahre geeignet. Zum Einkochen von Obst, Gemüse und Fertiggerichten empfehlen wir den [**WECK Einkochautomaten WAT 15**](produkt:2); ganz ohne Strom mahlt die [**KoMo Handmühle**](produkt:3) Getreide frisch zu Mehl.",
 
   top3Title: "Unsere Top 3 zum Haltbarmachen",
   top3Intro:
-    "Drei Wege zu einem länger haltbaren Vorrat: verpacken, einkochen, unverarbeitet lagern und bei Bedarf mahlen. Sie ergänzen sich – und ersetzen den Kühlschrank, wenn der Strom weg ist.",
+    "Drei Wege zu einem länger haltbaren Vorrat: verpacken, einkochen, unverarbeitet lagern und bei Bedarf mahlen. Sie ergänzen sich – und machen dich unabhängiger vom Kühlschrank, wenn der Strom weg ist.",
   comparisonTitle: "Mylar-Beutel, Einkochautomat und Handmühle im Vergleich",
 
   criteria: [
@@ -33,7 +33,7 @@ export default {
   ],
 
   method:
-    "Grundlage sind die Hinweise des Bundesinstituts für Risikobewertung (BfR) zum Botulismus bei selbst eingekochten Lebensmitteln, die Vorsorgeempfehlungen des BBK, Herstellerangaben zu Material, Leistung und Lieferumfang sowie Kundenerfahrungen. Wir empfehlen ausschließlich Produkte, die bei Amazon erhältlich sind. Jedes Produkt wird in vier Kriterien von 0 bis 10 eingeordnet; die Gesamtnote ist der gewichtete Mittelwert.",
+    "Grundlage sind die Hinweise des Bundesinstituts für Risikobewertung (BfR) zum Botulismus bei selbst eingekochten Lebensmitteln, die Vorsorgeempfehlungen des BBK, Herstellerangaben zu Material, Leistung und Lieferumfang sowie Kundenerfahrungen. Wir haben die Produkte nicht selbst getestet. Wir empfehlen ausschließlich Produkte, die bei Amazon erhältlich sind. Jedes Produkt wird in vier Kriterien von 0 bis 10 eingeordnet; die Gesamtnote ist der gewichtete Mittelwert.",
 
   products: [
     {
@@ -47,13 +47,13 @@ export default {
       ratings: { haltbar: 9.5, krise: 9.0, handhabung: 6.5, preis: 8.0 },
       bestFor: "Reis, Nudeln, Getreide, Hülsenfrüchte",
       verdict:
-        "Aluminiumbeschichtete Beutel schließen Licht, Feuchtigkeit und Sauerstoff aus, die Absorber binden den Restsauerstoff. Trockenware ist darin vor Oxidation und Schädlingen geschützt – laut Anbieter über viele Jahre.",
+        "Aluminiumbeschichtete Beutel halten laut Anbieter Licht, Feuchtigkeit und Sauerstoff weitgehend fern, die Absorber binden den Restsauerstoff. Trockenware ist darin besser vor Oxidation und Schädlingen geschützt – laut Anbieter über viele Jahre.",
       features: [
         "Mylar-Beutel im Format 10 × 16 Zoll (ca. 25 × 40 cm), laut Anbieter für rund 3,5 Liter je Beutel",
-        "Mit 300-cc-Sauerstoffabsorbern, Verschweißen per Folienschweißgerät oder Bügeleisen",
+        "Mit 300-cc-Sauerstoffabsorbern (Anbieterangabe), Verschweißen per Folienschweißgerät oder Bügeleisen",
         "Laut Anbieter bei korrekter Lagerung 20 Jahre und mehr für getrocknete Lebensmittel",
       ],
-      pros: ["Sehr lange Lagerung von Trockenware", "Schützt vor Licht, Feuchtigkeit und Insekten", "Kein Strom zur Lagerung nötig"],
+      pros: ["Sehr lange Lagerung von Trockenware (laut Anbieter)", "Hält Licht und Feuchtigkeit fern, erschwert Insektenbefall", "Kein Strom zur Lagerung nötig"],
       cons: ["Nur für trockene Lebensmittel", "Absorber nach dem Öffnen schnell verarbeiten", "Inhalt ist nicht sichtbar – beschriften"],
       specs: { methode: "Sauerstoffarm verpacken", geeignet: "trockene Lebensmittel", strom: "nur zum Verschweißen (oder Bügeleisen)", haltbarkeit: "viele Jahre (Anbieter)", zubehoer: "Absorber inklusive" },
       asin: "B004PRY5QY",
@@ -70,9 +70,9 @@ export default {
       ratings: { haltbar: 9.0, krise: 7.0, handhabung: 8.5, preis: 7.5 },
       bestFor: "Obst, Tomaten, Suppen, Eintöpfe",
       verdict:
-        "Der meistgekaufte Einkochautomat: 29 Liter, Präzisionsthermostat und Zeitschaltuhr. Eingekochtes lagert ohne Kühlschrank – der Strom wird nur beim Einkochen gebraucht, nicht bei der Lagerung.",
+        "Ein verbreiteter Einkochautomat: laut Hersteller 29 Liter, Präzisionsthermostat und Zeitschaltuhr. Eingekochtes lagert ohne Kühlschrank – der Strom wird nur beim Einkochen gebraucht, nicht bei der Lagerung.",
       features: [
-        "29 Liter Fassungsvermögen, 2.000 W, Zwei-Schicht-Emaillierung",
+        "29 Liter Fassungsvermögen, 2.000 W, Zwei-Schicht-Emaillierung (Herstellerangaben)",
         "Präzisionsthermostat, Überhitzungsschutz, Zeitschaltuhr (Herstellerangaben)",
         "Auch als Glühwein- und Saftbereiter nutzbar; Variante WAT 15-A mit Auslaufhahn",
       ],
@@ -96,10 +96,10 @@ export default {
         "Ganze Körner halten viel länger als Mehl. Mit der Handmühle wird daraus frisches Mehl, Schrot oder Grieß – ganz ohne Strom. Ein Stück Unabhängigkeit, das auch im Alltag Freude macht.",
       features: [
         "Handbetriebene Getreidemühle mit Holzgehäuse und Tischbefestigung (Anbieterangabe)",
-        "Mahlgrad einstellbar von fein bis grob",
+        "Mahlgrad einstellbar von fein bis grob (Anbieterangabe)",
         "Für Weizen, Dinkel, Roggen und andere trockene Getreidesorten",
       ],
-      pros: ["Funktioniert ohne Strom", "Ganze Körner lagern länger als Mehl", "Langlebig"],
+      pros: ["Funktioniert ohne Strom", "Ganze Körner lagern länger als Mehl", "Solide Holzbauweise (Anbieterangabe)"],
       cons: ["Mahlen kostet Kraft und Zeit", "Ölsaaten und feuchte Ware ungeeignet", "Braucht eine stabile Tischkante"],
       specs: { methode: "Ganzkorn lagern, frisch mahlen", geeignet: "trockenes Getreide", strom: "nein", haltbarkeit: "Körner: deutlich länger als Mehl", zubehoer: "Tischklemme" },
       asin: "B004XCFBZK",
@@ -150,11 +150,12 @@ export default {
         h2: "Womit macht man Lebensmittel am besten haltbar?",
         blocks: [
           { quick: "Trockenware lagert am längsten in [Mylar-Beuteln mit Sauerstoffabsorbern](produkt:1). Obst, Tomaten und Fertiggerichte kocht man im [WECK WAT 15](produkt:2) ein. Getreide bleibt als ganzes Korn am längsten frisch und wird mit der [KoMo Handmühle](produkt:3) ohne Strom gemahlen." },
-          { first: "Lebensmittel verderben durch Sauerstoff, Feuchtigkeit, Licht, Wärme, Mikroorganismen und Schädlinge. Jede Konservierungsmethode setzt an einem oder mehreren dieser Faktoren an. Mylar-Beutel mit Sauerstoffabsorbern schließen Luft, Licht und Feuchtigkeit aus. Einkochen tötet Mikroorganismen durch Hitze ab und verschließt das Glas luftdicht. Vakuumieren entzieht Luft, ersetzt aber bei feuchten Lebensmitteln nicht die Kühlung." },
+          { first: "Lebensmittel verderben durch Sauerstoff, Feuchtigkeit, Licht, Wärme, Mikroorganismen und Schädlinge. Jede Konservierungsmethode setzt an einem oder mehreren dieser Faktoren an. Mylar-Beutel mit Sauerstoffabsorbern schließen Luft, Licht und Feuchtigkeit aus. Einkochen tötet viele Mikroorganismen durch Hitze ab und verschließt das Glas luftdicht – Sporen überstehen 100 °C aber teilweise. Vakuumieren entzieht Luft, ersetzt aber bei feuchten Lebensmitteln nicht die Kühlung." },
           { p: "Für die Krisenvorsorge zählt vor allem, was ohne Kühlschrank lagert. Eingekochtes und in Mylar verpackte Trockenware brauchen keinen Strom zur Lagerung. Vakuumierte Frischware dagegen schon – sie hält im Kühlschrank länger, aber nicht im warmen Keller. Deshalb steht der Vakuumierer bei uns in der Top 5 und nicht in den Top 3." },
-          { p: "Unsere Gesamtwahl sind Mylar-Beutel, weil sie für wenig Geld die größte Wirkung haben: Ein Sack Reis, aufgeteilt und mit Absorbern verschweißt, ist geschützt vor Mehlmotten, Feuchtigkeit und Ranzigwerden. Laut Anbietern sind so verpackte Trockenwaren viele Jahre lagerfähig." },
+          { p: "Unsere Gesamtwahl sind Mylar-Beutel, weil sie nach unserer Einschätzung für wenig Geld die größte Wirkung haben: Ein Sack Reis, aufgeteilt und mit Absorbern verschweißt, ist deutlich besser vor Mehlmotten, Feuchtigkeit und Ranzigwerden geschützt. Laut Anbietern sind so verpackte Trockenwaren viele Jahre lagerfähig." },
           { figure: "scores" },
           { callout: { title: "Botulismus-Gefahr beim Einkochen", warn: true, text: "Das BfR weist darauf hin, dass ein großer Teil der Botulismusfälle auf selbst Eingekochtes zurückgeht. Bei 100 °C werden Sporen von Clostridium botulinum nicht sicher abgetötet. Säurearme Lebensmittel wie Bohnen, anderes Gemüse und Fleisch sollten unter Druck auf 121 °C erhitzt werden – oder nach BfR-Empfehlung zweimal im Abstand von ein bis zwei Tagen auf 100 °C. Aufgewölbte Deckel: Glas nicht öffnen, nicht essen." } },
+          { callout: { title: "Sicher arbeiten", text: "Einkochautomaten arbeiten mit kochendem Wasser und hoher Leistung: auf stabiler, hitzefester Fläche aufstellen, Kinder fernhalten, Verbrühungsgefahr beim Herausnehmen der Gläser beachten. Druck-Einkochgeräte nur nach Anleitung des Herstellers nutzen. Sauerstoffabsorber sind nicht zum Verzehr bestimmt und gehören außer Reichweite von Kindern und Haustieren. Unsere Hinweise ersetzen nicht die Empfehlungen des BfR und die Anleitungen der Hersteller." } },
         ],
       },
       {
@@ -180,7 +181,7 @@ export default {
           { h3: "Nicht alles gehört in Mylar" },
           { p: "Feuchte oder fettreiche Lebensmittel sind für die sauerstoffarme Lagerung ungeeignet: Fett wird trotz Absorber ranzig, und in feuchten Lebensmitteln ohne Sauerstoff können sich gefährliche Keime vermehren. Nüsse, Vollkornmehl und Ölsaaten halten auch in Mylar nur begrenzt." },
           { h3: "Getreidemühle: Hand oder elektrisch" },
-          { p: "Elektrische Mühlen wie die Mockmill 100 mahlen schnell und bequem, brauchen aber Strom. Handmühlen kosten Kraft, funktionieren dafür immer. Wer Getreide als Vorrat einplant, sollte mindestens eine handbetriebene Möglichkeit haben." },
+          { p: "Elektrische Mühlen wie die Mockmill 100 mahlen schnell und bequem, brauchen aber Strom. Handmühlen kosten Kraft, funktionieren dafür auch ohne Strom. Wer Getreide als Vorrat einplant, sollte mindestens eine handbetriebene Möglichkeit haben." },
         ],
       },
       {
@@ -209,11 +210,11 @@ export default {
     intro:
       "Vakuumieren für den Kühlschrank, Absorber in großen Mengen, größere Beutel, eine elektrische Mühle und ein zweiter Einkochautomat: Diese fünf Produkte ergänzen die Top 3.",
     items: [
-      { name: "CASO VC300 Vakuumierer mit Folienrollen", for: "Frisches länger frisch", text: "Vakuumierer mit 30-cm-Schweißnaht und herausnehmbarer Vakuumkammer, im Set mit Folienrollen – verlängert die Haltbarkeit im Kühlschrank und Gefrierfach.", asin: "B0D58X4W24", query: "CASO VC300 Vakuumierer" },
-      { name: "Wallaby Mylar-Beutel 1 Gallone (30 Stück)", for: "Mit Zipper, robust", text: "Stand-up-Beutel mit 7,5 mil Stärke, Zipper, Etiketten und 400-cc-Absorbern – wiederverschließbar für den laufenden Verbrauch.", asin: "B08SLGBGXV", query: "Wallaby Mylar Beutel 1 Gallone 30" },
+      { name: "CASO VC300 Vakuumierer mit Folienrollen", for: "Frisches länger frisch", text: "Vakuumierer, laut Hersteller mit 30-cm-Schweißnaht und herausnehmbarer Vakuumkammer, im Set mit Folienrollen – verlängert die Haltbarkeit im Kühlschrank und Gefrierfach.", asin: "B0D58X4W24", query: "CASO VC300 Vakuumierer" },
+      { name: "Wallaby Mylar-Beutel 1 Gallone (30 Stück)", for: "Mit Zipper, robust", text: "Stand-up-Beutel, laut Anbieter mit 7,5 mil Stärke, Zipper, Etiketten und 400-cc-Absorbern – wiederverschließbar für den laufenden Verbrauch.", asin: "B08SLGBGXV", query: "Wallaby Mylar Beutel 1 Gallone 30" },
       { name: "Sauerstoffabsorber 500 cc (50 Stück, einzeln verpackt)", for: "Absorber nachkaufen", text: "Einzeln verpackte Absorber – praktisch, weil nur geöffnet wird, was gerade gebraucht wird; auch für Einmachgläser.", asin: "B0C4638YP9", query: "Sauerstoffabsorber 500cc einzeln verpackt" },
-      { name: "Mockmill 100 Getreidemühle", for: "Elektrisch mahlen", text: "Elektrische Mühle mit Korund-Keramik-Mahlsteinen und 360 W, laut Anbieter Made in Germany und 6 Jahre Garantie.", asin: "B075S2J7T7", query: "Mockmill 100 Getreidemühle" },
-      { name: "ROMMELSBACHER KA 1801 Einkochautomat", for: "Mit Auslaufhahn", text: "27-Liter-Einkoch- und Glühweinautomat mit Ablasshahn und Einlegerost, laut Anbieter Made in Germany.", asin: "B000KNFBXI", query: "Rommelsbacher KA 1801 Einkochautomat" },
+      { name: "Mockmill 100 Getreidemühle", for: "Elektrisch mahlen", text: "Elektrische Mühle, laut Anbieter mit Korund-Keramik-Mahlsteinen und 360 W, Made in Germany und 6 Jahre Garantie.", asin: "B075S2J7T7", query: "Mockmill 100 Getreidemühle" },
+      { name: "ROMMELSBACHER KA 1801 Einkochautomat", for: "Mit Auslaufhahn", text: "Laut Anbieter 27-Liter-Einkoch- und Glühweinautomat mit Ablasshahn und Einlegerost, Made in Germany.", asin: "B000KNFBXI", query: "Rommelsbacher KA 1801 Einkochautomat" },
     ],
   },
 
@@ -224,7 +225,7 @@ export default {
         h2: "Wie kocht man sicher ein?",
         blocks: [
           { quick: "Saubere Gläser, frische Zutaten, korrekte Temperatur und Zeit – und bei säurearmen Lebensmitteln wie Bohnen und Fleisch die Regeln des BfR beachten: 121 °C unter Druck oder zweimal auf 100 °C im Abstand von ein bis zwei Tagen." },
-          { p: "Einkochen ist eine bewährte Methode, die ohne Kühlschrank auskommt. Bei sauren Lebensmitteln wie Obst, Marmelade oder Tomaten mit Zitronensaft reichen 100 °C. Bei säurearmen Lebensmitteln können Sporen von Clostridium botulinum überleben und im luftdichten Glas das gefährliche Botulinumtoxin bilden – deshalb gelten hier strengere Regeln." },
+          { p: "Einkochen ist eine bewährte Methode, deren Ergebnis ohne Kühlschrank lagert. Bei sauren Lebensmitteln wie Obst, Marmelade oder Tomaten mit Zitronensaft reichen 100 °C. Bei säurearmen Lebensmitteln können Sporen von Clostridium botulinum überleben und im luftdichten Glas das gefährliche Botulinumtoxin bilden – deshalb gelten hier strengere Regeln." },
           { figure: "steps" },
           { h3: "Checkliste Einkochen" },
           {
@@ -239,9 +240,9 @@ export default {
           },
           {
             facts: [
-              { value: "121 °C", label: "Temperatur, bei der Botulinum-Sporen sicher inaktiviert werden (BfR)" },
+              { value: "121 °C", label: "Temperatur unter Druck, die das BfR für säurearme Lebensmittel nennt" },
               { value: "2 ×", label: "auf 100 °C im Abstand von 1–2 Tagen, wenn kein Druck-Einkochen möglich ist" },
-              { value: "29 l", label: "Fassungsvermögen des WECK WAT 15" },
+              { value: "29 l", label: "Fassungsvermögen des WECK WAT 15 (Herstellerangabe)" },
             ],
           },
           { h3: "Warnzeichen" },

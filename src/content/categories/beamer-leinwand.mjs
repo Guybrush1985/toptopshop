@@ -17,7 +17,7 @@ export default {
   lead:
     "100 Zoll und mehr: Mit einem Beamer wird das Spielzimmer zum Kino. Wir zeigen die drei besten Gaming-Beamer mit niedrigem Input-Lag – und in der Top 5 die passenden Leinwände.",
   answer:
-    "Unsere beste Gesamtwahl ist der [**BenQ TK700STi**](produkt:1) – ein 4K-Kurzdistanzbeamer mit niedrigem Input-Lag, der schon aus rund 2 m Abstand oder weniger 100 Zoll schafft. Das beste Preis-Leistungs-Verhältnis bietet der [**BenQ TK700**](produkt:2) für größere Räume, die Wahl für helle Räume ist der [**Optoma UHD38x**](produkt:3) mit 4.000 Lumen.",
+    "Unsere beste Gesamtwahl ist der [**BenQ TK700STi**](produkt:1) – ein 4K-Kurzdistanzbeamer mit niedrigem Input-Lag, der laut Hersteller schon aus rund 2 m Abstand oder weniger 100 Zoll schafft. Das beste Preis-Leistungs-Verhältnis bietet der [**BenQ TK700**](produkt:2) für größere Räume, die Wahl für helle Räume ist der [**Optoma UHD38x**](produkt:3) mit laut Hersteller 4.000 Lumen.",
 
   priceTiers: {
     1: { symbol: "€", label: "bis 1.000 €" },
@@ -37,7 +37,7 @@ export default {
   ],
 
   method:
-    "Grundlage sind Herstellerangaben (Auflösung, Helligkeit, Input-Lag, Projektionsverhältnis), Händlerangaben und unabhängige Input-Lag-Messungen von Fachmedien wie grobi.tv und The Smart Home Hookup. Die Bewertung ist eine redaktionelle Einschätzung in vier gewichteten Kriterien von 0 bis 10.",
+    "Grundlage sind Herstellerangaben (Auflösung, Helligkeit, Input-Lag, Projektionsverhältnis), Händlerangaben und öffentlich zugängliche Testberichte von Fachhändlern und Fachmedien (z. B. grobi.tv). Wir haben die Beamer nicht selbst gemessen. Die Bewertung ist eine redaktionelle Einschätzung in vier gewichteten Kriterien von 0 bis 10.",
 
   products: [
     {
@@ -51,11 +51,11 @@ export default {
       ratings: { gaming: 9.5, bild: 8.5, aufstellung: 9.0, preis: 8.0 },
       bestFor: "Gaming-Room mit wenig Abstand",
       verdict:
-        "Der beste Gaming-Beamer für normale Räume: niedriger Input-Lag, 1080p mit 240 Hz für schnelle Shooter und dank Kurzdistanzoptik 100 Zoll aus rund 2 m Abstand.",
+        "Aus unserer Sicht der beste Gaming-Beamer für normale Räume: laut Hersteller niedriger Input-Lag, 1080p mit 240 Hz für schnelle Shooter und dank Kurzdistanzoptik 100 Zoll aus rund 2 m Abstand.",
       features: [
         "4K mit 60 Hz bei rund 16 ms, 1080p mit 240 Hz bei rund 4 ms (Herstellerangabe)",
         "3.000 ANSI-Lumen, HDR (Herstellerangabe)",
-        "Kurzdistanz: rund 100 Zoll aus etwa 2 m",
+        "Kurzdistanz: rund 100 Zoll aus etwa 2 m (Herstellerangabe)",
       ],
       pros: ["Sehr niedriger Input-Lag", "Kurzer Projektionsabstand", "Gute Helligkeit"],
       cons: ["Schwarzwert begrenzt", "Lüfter hörbar"],
@@ -78,7 +78,7 @@ export default {
       features: [
         "4K-Auflösung, HDR (Herstellerangabe)",
         "3.000 ANSI-Lumen (Herstellerangabe)",
-        "Gaming-Modus mit niedrigem Input-Lag",
+        "Gaming-Modus mit niedrigem Input-Lag (Herstellerangabe)",
       ],
       pros: ["Günstiger", "Niedriger Input-Lag", "Gute Helligkeit"],
       cons: ["Braucht mehr Abstand", "Lüfter hörbar"],
@@ -97,11 +97,11 @@ export default {
       ratings: { gaming: 9.0, bild: 8.5, aufstellung: 7.5, preis: 7.5 },
       bestFor: "Räume mit Restlicht",
       verdict:
-        "Sehr hell und schnell: 4.000 Lumen gegen Restlicht im Raum und laut Hersteller rund 4 ms Input-Lag bei 1080p mit 240 Hz – zuletzt aber nicht durchgehend lieferbar.",
+        "Sehr hell und schnell: laut Hersteller 4.000 Lumen gegen Restlicht im Raum und laut Hersteller rund 4 ms Input-Lag bei 1080p mit 240 Hz – zuletzt aber nicht durchgehend lieferbar.",
       features: [
         "4.000 Lumen (Herstellerangabe)",
         "1080p mit 240 Hz bei rund 4 ms (Herstellerangabe)",
-        "4K-Auflösung, HDR",
+        "4K-Auflösung, HDR (Herstellerangabe)",
       ],
       pros: ["Sehr hell", "Sehr niedriger Input-Lag", "Gut bei Restlicht"],
       cons: ["Nicht immer lieferbar", "Braucht Abstand"],
@@ -153,8 +153,8 @@ export default {
         h2: "Welcher Gaming-Beamer ist der beste?",
         blocks: [
           { quick: "Für die meisten ist der [BenQ TK700STi](produkt:1) die beste Wahl, weil er schnell ist und wenig Abstand braucht. Günstiger für große Räume ist der [BenQ TK700](produkt:2), für helle Räume der [Optoma UHD38x](produkt:3)." },
-          { first: "Lange galten Beamer als zu träge zum Zocken. Das hat sich geändert: Moderne Gaming-Beamer erreichen einen Input-Lag, der mit Fernsehern mithalten kann. Wichtig ist der **Input-Lag** – die Zeit zwischen Tastendruck und Bild. Unter rund 20 ms ist er für die meisten Spiele unproblematisch, für schnelle Shooter sind 1080p-Modi mit 240 Hz und rund 4 ms ideal." },
-          { p: "Der größte Vorteil eines Beamers ist die **Bildgröße**: 100 bis 120 Zoll kosten als Fernseher ein Vielfaches. Die Nachteile sind ein schwächerer Schwarzwert, Lüftergeräusche und die Abhängigkeit vom Raumlicht. Ein abgedunkelter Gaming-Room mit [Akustik-Paneelen](/akustik-paneele/) und dezenter [LED-Beleuchtung](/led-neon-beleuchtung/) holt das Beste heraus." },
+          { first: "Lange galten Beamer als zu träge zum Zocken. Das hat sich geändert: Moderne Gaming-Beamer erreichen laut Herstellerangaben einen Input-Lag, der mit vielen Fernsehern mithalten kann. Wichtig ist der **Input-Lag** – die Zeit zwischen Tastendruck und Bild. Unter rund 20 ms ist er für die meisten Spiele unproblematisch, für schnelle Shooter sind 1080p-Modi mit 240 Hz und rund 4 ms ideal." },
+          { p: "Der größte Vorteil eines Beamers ist die **Bildgröße**: 100 bis 120 Zoll kosten als Fernseher in der Regel ein Vielfaches. Die Nachteile sind ein schwächerer Schwarzwert, Lüftergeräusche und die Abhängigkeit vom Raumlicht. Ein abgedunkelter Gaming-Room mit [Akustik-Paneelen](/akustik-paneele/) und dezenter [LED-Beleuchtung](/led-neon-beleuchtung/) holt das Beste heraus." },
           { figure: "scores" },
         ],
       },
@@ -205,7 +205,8 @@ export default {
           { figure: "steps" },
           { p: "Das **Projektionsverhältnis** (Throw Ratio) gibt an, wie weit der Beamer pro Meter Bildbreite entfernt stehen muss. Ein 100-Zoll-Bild im Format 16:9 ist rund 2,2 m breit. Bei einem Kurzdistanzbeamer wie dem TK700STi reichen laut Hersteller unter 2 m – bei einem Verhältnis von 1,5 sind es schon über 3 m. Die meisten Hersteller bieten Abstandsrechner online an." },
           { callout: { title: "Hinweis", text: "Input-Lag-Werte gelten nur im Gaming-Modus. Bildverbesserer wie Zwischenbildberechnung erhöhen die Verzögerung deutlich und sollten beim Spielen aus sein." } },
-          { facts: [{ value: "ca. 4 ms", label: "Input-Lag 1080p/240 Hz (TK700STi)" }, { value: "3.000 lm", label: "Helligkeit TK700STi" }, { value: "100 Zoll", label: "aus rund 2 m Abstand" }] },
+          { callout: { title: "Sicherheit", warn: true, text: "Nie direkt in das Objektiv eines laufenden Beamers schauen – besonders Kinder darauf hinweisen. Lüftungsöffnungen frei halten, damit sich das Gerät nicht überhitzt. Eine Deckenhalterung muss für das Gewicht geeignet sein und sicher in der Decke verankert werden; im Zweifel von Fachleuten montieren lassen. Bei Spielen gilt: Blinkende Bildeffekte können bei Menschen mit fotosensibler Epilepsie Anfälle auslösen – Warnhinweise der Spiele- und Gerätehersteller beachten und regelmäßig Pausen machen." } },
+          { facts: [{ value: "ca. 4 ms", label: "Input-Lag 1080p/240 Hz (TK700STi, Herstellerangabe)" }, { value: "3.000 lm", label: "Helligkeit TK700STi (Herstellerangabe)" }, { value: "100 Zoll", label: "aus rund 2 m Abstand (Herstellerangabe)" }] },
         ],
       },
     ],
@@ -213,14 +214,14 @@ export default {
 
   faqs: [
     { q: "Welcher Beamer ist der beste zum Zocken?", a: "Unsere beste Gesamtwahl ist der BenQ TK700STi mit niedrigem Input-Lag und Kurzdistanzoptik. Günstiger ist der BenQ TK700, für helle Räume der Optoma UHD38x." },
-    { q: "Ist ein Beamer zum Zocken zu langsam?", a: "Nein, moderne Gaming-Beamer erreichen im Gaming-Modus einen Input-Lag, der mit Fernsehern mithalten kann." },
+    { q: "Ist ein Beamer zum Zocken zu langsam?", a: "In der Regel nicht: Moderne Gaming-Beamer erreichen im Gaming-Modus laut Herstellerangaben einen Input-Lag, der mit vielen Fernsehern mithalten kann." },
     { q: "Wie viele Lumen braucht ein Gaming-Beamer?", a: "Für abgedunkelte Räume reichen rund 2.500 bis 3.000 Lumen, bei Restlicht sind mehr sinnvoll." },
-    { q: "Brauche ich eine Leinwand?", a: "Eine Leinwand verbessert Kontrast und Farben deutlich. Bei Restlicht hilft eine ALR-Leinwand." },
+    { q: "Brauche ich eine Leinwand?", a: "Eine Leinwand verbessert Kontrast und Farben in der Regel deutlich. Bei Restlicht hilft eine ALR-Leinwand." },
     { q: "Wie weit muss ein Beamer von der Leinwand entfernt sein?", a: "Das hängt vom Projektionsverhältnis ab. Kurzdistanzbeamer schaffen 100 Zoll aus rund 1,5 bis 2 m, Standardbeamer brauchen 2,5 m und mehr." },
   ],
 
   sources: [
-    { label: "BenQ: TK700STi", url: "https://www.benq.eu/de-de/projector/gaming/tk700sti.html" },
+    { label: "BenQ: TK700STi", url: "https://www.benq.eu/de-de/" },
     { label: "grobi.tv: Beamer-Tests", url: "https://www.grobi.tv/" },
     { label: "Optoma Deutschland", url: "https://www.optoma.de/" },
   ],

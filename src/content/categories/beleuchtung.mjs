@@ -17,7 +17,7 @@ export default {
   lead:
     "Gutes Licht hat zwei Aufgaben: den Schreibtisch blendfrei ausleuchten und dein Gesicht im Videocall gut aussehen lassen. Wir zeigen die drei besten Lösungen dafür.",
   answer:
-    "Unsere beste Gesamtwahl ist die [**BenQ ScreenBar Halo 2**](produkt:1): eine Monitorleuchte, die den Tisch blendfrei ausleuchtet und mit Rücklicht die Augen entlastet. Das beste Preis-Leistungs-Verhältnis bietet die [**Xiaomi Mi Computer Monitor Light Bar**](produkt:2); für Videocalls ist das [**Elgato Key Light Air**](produkt:3) die beste Wahl.",
+    "Unsere beste Gesamtwahl ist die [**BenQ ScreenBar Halo 2**](produkt:1): eine Monitorleuchte, die den Tisch laut Hersteller blendfrei ausleuchtet und mit Rücklicht harte Hell-Dunkel-Kontraste mildern soll. Das beste Preis-Leistungs-Verhältnis bietet die [**Xiaomi Mi Computer Monitor Light Bar**](produkt:2); für Videocalls ist das [**Elgato Key Light Air**](produkt:3) die beste Wahl.",
 
   top3Title: "Unsere Top 3 Leuchten fürs Home-Office",
   top3Intro: "Zwei Monitor-Lightbars für den Arbeitsplatz und ein Key-Light, das dein Gesicht im Videocall gleichmäßig ausleuchtet.",
@@ -45,11 +45,11 @@ export default {
       ratings: { licht: 9.5, bedienung: 9.0, montage: 8.5, preis: 7.0 },
       bestFor: "Lange Abende am Bildschirm",
       verdict:
-        "Die beste Monitorleuchte: asymmetrisches Licht ohne Spiegelung auf dem Bildschirm, ein separat regelbares Rücklicht gegen harte Kontraste und ein kabelloser Controller.",
+        "Unsere Top-Wahl unter den Monitorleuchten: laut Hersteller asymmetrisches Licht ohne Spiegelung auf dem Bildschirm, ein separat regelbares Rücklicht gegen harte Kontraste und ein kabelloser Controller.",
       features: [
         "Front- und Rücklicht getrennt regelbar, 2700–6500 K (Herstellerangabe)",
-        "Bewegungssensor schaltet automatisch, Helligkeit passt sich der Umgebung an",
-        "Kabelloser Controller mit Display, Clip für 0,43–6 cm dicke Monitore, auch Curved bis 1000R",
+        "Bewegungssensor schaltet automatisch, Helligkeit passt sich der Umgebung an (Herstellerangabe)",
+        "Kabelloser Controller mit Display, Clip für 0,43–6 cm dicke Monitore, auch Curved bis 1000R (Herstellerangabe)",
       ],
       pros: ["Kein Platzbedarf auf dem Tisch", "Keine Spiegelung auf dem Monitor", "Sehr komfortable Bedienung"],
       cons: ["Teuer", "Nur für den Tisch, nicht fürs Gesicht"],
@@ -68,13 +68,13 @@ export default {
       ratings: { licht: 8.0, bedienung: 8.0, montage: 8.0, preis: 9.5 },
       bestFor: "Günstiger Einstieg",
       verdict:
-        "Das Prinzip der Monitorleuchte zum kleinen Preis: Metallgehäuse, Funkfernbedienung, hohe Farbwiedergabe und flimmerfreies Licht – für einen Bruchteil der Premium-Modelle.",
+        "Das Prinzip der Monitorleuchte zum kleinen Preis: Metallgehäuse, Funkfernbedienung, laut Händler hohe Farbwiedergabe und flimmerfreies Licht – für einen Bruchteil der Premium-Modelle.",
       features: [
         "Metallgehäuse, Ra 95 Farbwiedergabe, flimmerfrei (Händlerangabe)",
-        "2,4-GHz-Funkfernbedienung, USB-C-Strom",
+        "2,4-GHz-Funkfernbedienung, USB-C-Strom (Händlerangabe)",
         "Clip-Befestigung auf dem Monitor",
       ],
-      pros: ["Sehr günstig", "Gute Farbwiedergabe", "Spart Platz auf dem Tisch"],
+      pros: ["Sehr günstig", "Laut Händler hohe Farbwiedergabe", "Spart Platz auf dem Tisch"],
       cons: ["Kein Rücklicht, keine Automatik", "Angaben je nach Listing uneinheitlich"],
       specs: { art: "Monitor-Lightbar", farbtemp: "einstellbar", steuerung: "Funkfernbedienung", montage: "Monitor-Clip", strom: "USB-C" },
       asin: "B0BTVY9MBM",
@@ -91,13 +91,13 @@ export default {
       ratings: { licht: 9.0, bedienung: 8.5, montage: 7.5, preis: 7.5 },
       bestFor: "Videocalls, Streaming, Kundentermine",
       verdict:
-        "Für das Gesicht statt den Tisch: Das Flächenlicht leuchtet dich weich und gleichmäßig aus – im Videocall verschwinden Schatten und das Bild wirkt sofort professioneller.",
+        "Für das Gesicht statt den Tisch: Das Flächenlicht leuchtet dich weich und gleichmäßig aus – im Videocall werden harte Schatten deutlich reduziert, und das Bild kann professioneller wirken.",
       features: [
         "1400 Lumen, 2900–7000 K, 80 OSRAM-LEDs, bis 25 W (Herstellerangabe)",
-        "Steuerung per App über WLAN, Mac, Windows, iPhone, Android",
-        "Tischklemme mit Teleskopstange; Nachfolger MK.2 mit 2100 Lumen erhältlich",
+        "Steuerung per App über WLAN, Mac, Windows, iPhone, Android (Herstellerangabe)",
+        "Tischklemme mit Teleskopstange; Nachfolger MK.2 laut Hersteller mit 2100 Lumen erhältlich",
       ],
-      pros: ["Weiches, gleichmäßiges Gesichtslicht", "Per App steuerbar", "Sofort besseres Kamerabild"],
+      pros: ["Weiches, gleichmäßiges Gesichtslicht", "Per App steuerbar", "Meist deutlich besseres Kamerabild"],
       cons: ["Braucht Platz am Tischrand", "Für die Tischbeleuchtung ungeeignet"],
       specs: { art: "Key-Light (Flächenlicht)", farbtemp: "2900–7000 K", steuerung: "App (WLAN)", montage: "Tischklemme", strom: "Netzteil" },
       asin: "B082QHRZFW",
@@ -140,15 +140,15 @@ export default {
 
   editorial: {
     title: "Gutes Licht im Home-Office: Tisch und Gesicht",
-    intro: "Warum eine Monitorleuchte die Augen entlastet und wie ein Key-Light dein Kamerabild verwandelt.",
+    intro: "Warum eine Monitorleuchte die Bildschirmarbeit angenehmer machen kann und wie ein Key-Light dein Kamerabild verbessert.",
     sections: [
       {
         id: "beste-beleuchtung",
         h2: "Welche Beleuchtung ist die beste fürs Home-Office?",
         blocks: [
           { quick: "Für den Schreibtisch ist die [BenQ ScreenBar Halo 2](produkt:1) die beste Wahl, günstiger die [Xiaomi Light Bar](produkt:2). Für Videocalls lohnt sich zusätzlich ein Key-Light wie das [Elgato Key Light Air](produkt:3)." },
-          { first: "Licht am Arbeitsplatz wird oft unterschätzt. Die Arbeitsstättenregel ASR A3.4 nennt für Büroarbeitsplätze eine Beleuchtungsstärke von mindestens 500 Lux – im Wohnzimmer erreicht eine Deckenleuchte das selten. Eine Monitorleuchte bringt das Licht genau dorthin, wo es gebraucht wird, ohne den Bildschirm zu spiegeln." },
-          { p: "Für Videocalls zählt etwas anderes: Das Gesicht soll gleichmäßig und von vorn beleuchtet sein. Eine Lightbar über dem Monitor leuchtet nach unten auf den Tisch und hilft dabei kaum. Ein Key-Light oder ein kleines Streaming-Licht dagegen macht das Kamerabild schlagartig besser." },
+          { first: "Licht am Arbeitsplatz wird oft unterschätzt. Die Arbeitsstättenregel ASR A3.4 nennt für Büroarbeitsplätze in Arbeitsstätten eine Beleuchtungsstärke von mindestens 500 Lux; fürs private Home-Office ist das eine sinnvolle Orientierung. Im Wohnzimmer erreicht eine Deckenleuchte das selten. Eine Monitorleuchte bringt das Licht genau dorthin, wo es gebraucht wird, ohne den Bildschirm zu spiegeln." },
+          { p: "Für Videocalls zählt etwas anderes: Das Gesicht soll gleichmäßig und von vorn beleuchtet sein. Eine Lightbar über dem Monitor leuchtet nach unten auf den Tisch und hilft dabei kaum. Ein Key-Light oder ein kleines Streaming-Licht dagegen macht das Kamerabild in der Regel deutlich besser." },
           { figure: "scores" },
           { quote: "Die beste Webcam nützt wenig, wenn das Licht von hinten kommt." },
         ],
@@ -158,6 +158,7 @@ export default {
         h2: "Worauf sollte man bei der Beleuchtung achten?",
         blocks: [
           { quick: "Achte auf blendfreies, flimmerfreies Licht, eine hohe Farbwiedergabe (Ra/CRI über 90), einstellbare Farbtemperatur und eine Befestigung, die zu Monitor oder Tisch passt." },
+          { p: "Angaben wie „flimmerfrei“, „blendfrei“ oder „augenschonend“ sind Herstellerangaben, die wir nicht selbst nachgemessen haben. Unabhängige Prüfzeichen oder Messwerte im Datenblatt geben mehr Sicherheit als Werbebegriffe." },
           {
             table: {
               caption: "Leuchtentypen im Home-Office",
@@ -183,9 +184,9 @@ export default {
     intro: "Kleiner, größer oder klassisch: fünf weitere Leuchten für Videocalls und Arbeitsplatz.",
     items: [
       { name: "Logitech Litra Glow", for: "Kompaktes Gesichtslicht", text: "Streaming-Licht mit 250 Lumen, CRI 93 und 2700–6500 K, mit USB-Strom und Monitorhalterung (Herstellerangabe).", asin: "B07W4DHXC8", query: "Logitech Litra Glow" },
-      { name: "Elgato Key Light Mini", for: "Mit Akku", text: "Tragbares LED-Panel mit 800 Lumen und Akku, magnetisch oder per Gewinde montierbar.", asin: "B09PRNHLM7", query: "Elgato Key Light Mini" },
-      { name: "BenQ ScreenBar Plus", for: "Lightbar mit Drehregler", text: "Monitorleuchte mit Tisch-Drehregler, automatischer Dimmung und 2700–6500 K.", asin: "B07DP7RYXV", query: "BenQ ScreenBar Plus" },
-      { name: "BenQ e-Reading LED Schreibtischlampe", for: "Große Arbeitsfläche", text: "Schreibtischlampe mit breitem Lichtkopf für Monitor-Arbeitsplätze, dimmbar, Warm- bis Kaltweiß.", asin: "B017NOD2PU", query: "BenQ e-Reading LED Schreibtischlampe" },
+      { name: "Elgato Key Light Mini", for: "Mit Akku", text: "Tragbares LED-Panel mit 800 Lumen und Akku, magnetisch oder per Gewinde montierbar (Herstellerangabe).", asin: "B09PRNHLM7", query: "Elgato Key Light Mini" },
+      { name: "BenQ ScreenBar Plus", for: "Lightbar mit Drehregler", text: "Monitorleuchte mit Tisch-Drehregler, automatischer Dimmung und 2700–6500 K (Herstellerangabe).", asin: "B07DP7RYXV", query: "BenQ ScreenBar Plus" },
+      { name: "BenQ e-Reading LED Schreibtischlampe", for: "Große Arbeitsfläche", text: "Schreibtischlampe mit breitem Lichtkopf für Monitor-Arbeitsplätze, dimmbar, Warm- bis Kaltweiß (Herstellerangabe).", asin: "B017NOD2PU", query: "BenQ e-Reading LED Schreibtischlampe" },
       { name: "Dyson Solarcycle Morph Schreibtischleuchte", for: "Tageslicht-Automatik", text: "Passt Farbtemperatur und Helligkeit dem lokalen Tageslicht an, Steuerung per App (Herstellerangabe).", asin: "B0C4KMDNWF", query: "Dyson Solarcycle Morph Schreibtischleuchte" },
     ],
   },
@@ -199,7 +200,8 @@ export default {
           { quick: "Stelle den Schreibtisch seitlich zum Fenster, nutze eine Monitorleuchte für den Tisch und ein weiches Licht schräg vor dir für das Gesicht. Alle Lichtquellen auf ähnliche Farbtemperatur einstellen." },
           { figure: "steps" },
           { facts: [{ value: "500 lx", label: "Beleuchtungsstärke für Büroarbeit (ASR A3.4)" }, { value: "> 90", label: "Farbwiedergabeindex (CRI/Ra) für natürliche Farben" }, { value: "45°", label: "Winkel für das Hauptlicht im Videocall" }] },
-          { callout: { title: "Augen schonen", text: "Ein zu großer Helligkeitsunterschied zwischen Bildschirm und Raum ermüdet die Augen. Deshalb abends nicht nur mit dem Monitor im dunklen Zimmer arbeiten." } },
+          { callout: { title: "Augen entlasten", text: "Ein großer Helligkeitsunterschied zwischen Bildschirm und Raum kann die Augen ermüden. Deshalb abends nicht nur mit dem Monitor im dunklen Zimmer arbeiten. Eine Leuchte ersetzt keine augenärztliche Untersuchung: Bei anhaltenden Augenbeschwerden, Kopfschmerzen oder verschwommenem Sehen lass das ärztlich abklären." } },
+          { callout: { title: "Sicherheit", warn: true, text: "Nur das mitgelieferte oder vom Hersteller empfohlene Netzteil verwenden, Leuchten nicht abdecken und Gebrauchsanweisung beachten. Klemmen und Stative fest montieren, damit nichts kippt – Kabel so führen, dass niemand darüber stolpert. Nicht direkt in helle LED-Panels blicken." } },
         ],
       },
     ],
@@ -209,7 +211,7 @@ export default {
     { q: "Welche Lampe ist die beste fürs Home-Office?", a: "Für den Schreibtisch ist die BenQ ScreenBar Halo 2 unsere beste Gesamtwahl. Günstiger ist die Xiaomi Mi Computer Monitor Light Bar, für Videocalls das Elgato Key Light Air." },
     { q: "Lohnt sich eine Monitorleuchte?", a: "Ja, wenn der Tisch zu dunkel ist oder eine Schreibtischlampe auf dem Bildschirm spiegelt. Sie spart Platz und beleuchtet gezielt Tastatur und Unterlagen." },
     { q: "Welches Licht brauche ich für Videocalls?", a: "Ein weiches Licht schräg vor dir auf Gesichtshöhe, etwa ein Key-Light oder ein kleines Streaming-Licht. Gegenlicht vom Fenster sollte vermieden werden." },
-    { q: "Wie hell sollte ein Arbeitsplatz sein?", a: "Die Arbeitsstättenregel ASR A3.4 nennt für Büroarbeitsplätze mindestens 500 Lux." },
+    { q: "Wie hell sollte ein Arbeitsplatz sein?", a: "Die Arbeitsstättenregel ASR A3.4 nennt für Büroarbeitsplätze in Arbeitsstätten mindestens 500 Lux. Für das private Home-Office ist das keine Pflicht, aber eine gute Orientierung." },
     { q: "Welche Farbtemperatur ist am besten?", a: "Tagsüber neutral bis kühl (rund 4000–6500 K), abends wärmer. Im Videocall sollten alle Lichtquellen ähnlich eingestellt sein." },
   ],
 

@@ -10,7 +10,7 @@ export default {
 
   metaTitle: "Die 3 besten Retro-Konsolen 2026",
   metaDescription:
-    "Evercade, Atari 2600+ und Retro-Handhelds mit lizenzierten Spielen: Die 3 besten Retro-Konsolen 2026 im Vergleich – ohne fragwürdige ROM-Sammlungen.",
+    "Evercade, Atari 2600+ und Retro-Handhelds: Die 3 besten Retro-Konsolen 2026 im Vergleich – nur Geräte mit laut Hersteller lizenzierten Spielen.",
 
   eyebrow: "Gaming-Room · Retro",
   h1: "Die 3 besten Retro-Konsolen 2026",
@@ -26,7 +26,7 @@ export default {
   },
 
   top3Title: "Unsere Top 3 Retro-Konsolen",
-  top3Intro: "Alle drei nutzen offiziell lizenzierte Spiele auf Modulen. Damit unterstützt du die Rechteinhaber – anders als bei Billig-Geräten mit tausenden vorinstallierten ROMs.",
+  top3Intro: "Alle drei nutzen laut Hersteller offiziell lizenzierte Spiele auf Modulen. Damit unterstützt du die Rechteinhaber – anders als bei Geräten mit tausenden vorinstallierten Spielen, die in der Regel nicht lizenziert sind.",
   comparisonTitle: "Die 3 besten Retro-Konsolen im Vergleich",
 
   criteria: [
@@ -37,7 +37,7 @@ export default {
   ],
 
   method:
-    "Grundlage sind Herstellerangaben (Spiele, Module, Anschlüsse, Spieler), Händlerangaben und die Lizenzangaben der Hersteller. Geräte mit vorinstallierten, unlizenzierten ROMs haben wir bewusst nicht aufgenommen. Die Bewertung ist eine redaktionelle Einschätzung in vier gewichteten Kriterien von 0 bis 10.",
+    "Grundlage sind Herstellerangaben (Spiele, Module, Anschlüsse, Spieler), Händlerangaben und die Lizenzangaben der Hersteller. Geräte, bei denen die Lizenzierung der vorinstallierten Spiele nicht nachvollziehbar ist, haben wir bewusst nicht aufgenommen. Die Bewertung ist eine redaktionelle Einschätzung in vier gewichteten Kriterien von 0 bis 10.",
 
   products: [
     {
@@ -51,11 +51,11 @@ export default {
       ratings: { spiele: 9.5, technik: 8.5, alltag: 9.0, preis: 8.5 },
       bestFor: "Retro-Sammler und Familien",
       verdict:
-        "Die beste Retro-Konsole für den Fernseher: Spielemodule mit lizenzierten Sammlungen von Atari, Namco, Data East und vielen mehr – mit Speicherständen und bis zu vier Spielern.",
+        "Aus unserer Sicht die beste Retro-Konsole für den Fernseher: laut Hersteller Spielemodule mit lizenzierten Sammlungen von Atari, Namco, Data East und vielen mehr – mit Speicherständen und bis zu vier Spielern.",
       features: [
-        "Lizenzierte Spielemodule (Evercade-Cartridges)",
+        "Lizenzierte Spielemodule (Evercade-Cartridges, Herstellerangabe)",
         "Bis zu vier Spieler (Herstellerangabe)",
-        "HDMI-Ausgang, Speicherstände",
+        "HDMI-Ausgang, Speicherstände (Herstellerangabe)",
       ],
       pros: ["Große lizenzierte Bibliothek", "Echte Module zum Sammeln", "Vier Spieler"],
       cons: ["Module kosten extra", "Weitere Controller extra"],
@@ -77,8 +77,8 @@ export default {
         "Der Klassiker neu aufgelegt: Optik wie das Original, HDMI-Ausgang und laut Hersteller kompatibel mit den meisten originalen 2600- und 7800-Modulen – ein 10-in-1-Modul liegt bei.",
       features: [
         "Kompatibel mit den meisten 2600- und 7800-Modulen (Herstellerangabe)",
-        "HDMI-Ausgang, Breitbild-Modus",
-        "Mit CX40+ Joystick und 10-in-1-Modul",
+        "HDMI-Ausgang, Breitbild-Modus (Herstellerangabe)",
+        "Mit CX40+ Joystick und 10-in-1-Modul (Herstellerangabe)",
       ],
       pros: ["Spielt Originalmodule", "Authentische Optik", "Günstig"],
       cons: ["Nur Atari-Spiele", "Grafik sehr einfach"],
@@ -100,7 +100,7 @@ export default {
         "Der Handheld zur Evercade-Familie: nutzt dieselben lizenzierten Module wie die VS-R, lässt sich laut Hersteller an den Fernseher anschließen und hat vorinstallierte Spiele.",
       features: [
         "Kompatibel mit allen Evercade-Modulen (Herstellerangabe)",
-        "Handheld mit eingebautem Bildschirm",
+        "Handheld mit eingebautem Bildschirm und Akku (Herstellerangabe)",
         "Anschluss an den Fernseher möglich (Herstellerangabe)",
       ],
       pros: ["Mobil", "Gleiche Module wie VS-R", "Lizenzierte Spiele"],
@@ -145,7 +145,7 @@ export default {
   },
 
   editorial: {
-    title: "Lizenziert statt ROM-Box",
+    title: "Warum lizenzierte Spiele?",
     intro: "Warum wir nur Retro-Konsolen mit lizenzierten Spielen empfehlen und welche Möglichkeiten es gibt.",
     sections: [
       {
@@ -153,7 +153,7 @@ export default {
         h2: "Welche Retro-Konsole ist die beste?",
         blocks: [
           { quick: "Für die meisten ist die [Evercade VS-R](produkt:1) die beste Wahl, weil sie viele lizenzierte Spielesammlungen bietet. Günstiger und für Atari-Fans ideal ist der [Atari 2600+](produkt:2), für unterwegs der [Evercade EXP-R](produkt:3)." },
-          { first: "Retro-Gaming boomt – und mit ihm ein Markt für billige Geräte, die mit tausenden Spielen werben. Diese Spiele sind fast immer unlizenzierte ROMs: Die Rechteinhaber verdienen nichts, die Emulation ist oft schlecht und die Geräte verschwinden schnell wieder vom Markt. Wir empfehlen deshalb ausschließlich Konsolen mit **offiziell lizenzierten Spielen**." },
+          { first: "Retro-Gaming ist beliebt – und mit ihm gibt es einen Markt für günstige Geräte, die mit tausenden vorinstallierten Spielen werben. Diese Spiele sind in der Regel nicht lizenziert: Für Käufer ist kaum nachvollziehbar, ob die Rechteinhaber zugestimmt haben, und Qualität der Emulation, Updates und Support lassen sich schwer einschätzen. Wir empfehlen deshalb nur Konsolen, deren Spiele laut Hersteller **offiziell lizenziert** sind." },
           { p: "**Evercade** setzt auf Spielemodule mit Sammlungen einzelner Hersteller – von Atari und Namco bis zu Indie-Entwicklern. **Atari** bringt mit dem 2600+ und 7800+ seine Klassiker als Neuauflage, die originale Module abspielen. Größere Automaten-Erlebnisse findest du im Ratgeber [Arcade-Automaten](/arcade-spielautomaten/)." },
           { figure: "scores" },
         ],
@@ -175,8 +175,8 @@ export default {
               ],
             },
           },
-          { p: "Wer noch alte Konsolen im Keller hat, kann sie über Adapter an moderne Fernseher anschließen. Das Bild ist ohne Aufbereitung aber oft unscharf. Neuauflagen mit HDMI sind deutlich bequemer. Für Couch-Runden lohnen sich kabellose Controller wie die von 8BitDo, die mit vielen Systemen funktionieren." },
-          { list: ["Lizenzierte Spiele statt ROM-Sammlung", "HDMI-Ausgang für moderne Fernseher", "Anzahl der Spieler und Controller", "Speicherstände für lange Spiele", "Kompatibilität mit Originalmodulen, falls vorhanden"] },
+          { p: "Wer noch alte Konsolen im Keller hat, kann sie über Adapter an moderne Fernseher anschließen. Das Bild ist ohne Aufbereitung aber oft unscharf. Neuauflagen mit HDMI sind deutlich bequemer. Für Couch-Runden lohnen sich kabellose Controller wie die von 8BitDo, die laut Hersteller mit vielen Systemen funktionieren." },
+          { list: ["Lizenzierte Spiele statt Sammlungen unklarer Herkunft", "HDMI-Ausgang für moderne Fernseher", "Anzahl der Spieler und Controller", "Speicherstände für lange Spiele", "Kompatibilität mit Originalmodulen, falls vorhanden"] },
         ],
       },
     ],
@@ -204,8 +204,9 @@ export default {
           { quick: "Retro-Konsole per HDMI anschließen, am Fernseher den Spielmodus aktivieren und für Mehrspieler-Runden kabellose Controller ergänzen." },
           { figure: "steps" },
           { p: "Viele Retro-Konsolen bieten Bildfilter, die alte Röhrenfernseher nachahmen (Scanlines). Probier sie aus – viele Spiele wurden für Röhrenbildschirme gestaltet und wirken damit stimmiger. Für die passende Atmosphäre sorgen [LED- und Neonlicht](/led-neon-beleuchtung/) und ein [Sitzsack](/sitzsaecke/) vor dem Fernseher." },
-          { callout: { title: "Hinweis zu ROM-Boxen", warn: true, text: "Geräte mit tausenden vorinstallierten Spielen enthalten fast immer unlizenzierte Kopien. Wir empfehlen sie nicht – auch wegen oft schlechter Emulation und fehlender Updates." } },
-          { facts: [{ value: "bis 4", label: "Spieler an der Evercade VS-R" }, { value: "10-in-1", label: "Modul beim Atari 2600+" }, { value: "HDMI", label: "bei allen drei" }] },
+          { callout: { title: "Hinweis zu Geräten mit tausenden Spielen", warn: true, text: "Bei Geräten mit tausenden vorinstallierten Spielen sind diese in der Regel nicht lizenziert. Wir empfehlen solche Geräte deshalb nicht – auch weil Emulationsqualität, Updates und Support schwer einzuschätzen sind." } },
+          { callout: { title: "Jugendschutz und Gesundheit", warn: true, text: "Achte auf die Alterskennzeichnung auf Verpackung oder Modul (USK, bei importierter Ware teils PEGI), soweit vorhanden. Viele Klassiker sind harmlos, einzelne Spiele enthalten aber Gewaltdarstellungen. Blinkende Bildeffekte können bei Menschen mit fotosensibler Epilepsie Anfälle auslösen – Warnhinweise des Herstellers beachten und Pausen einlegen. Handhelds nur mit geeignetem Ladegerät laden; Module und Kleinteile von Kleinkindern fernhalten." } },
+          { facts: [{ value: "bis 4", label: "Spieler an der Evercade VS-R (Herstellerangabe)" }, { value: "10-in-1", label: "Modul beim Atari 2600+ (Herstellerangabe)" }, { value: "HDMI", label: "bei allen drei (Herstellerangabe)" }] },
         ],
       },
     ],
@@ -213,9 +214,9 @@ export default {
 
   faqs: [
     { q: "Welche Retro-Konsole ist die beste?", a: "Unsere beste Gesamtwahl ist die Evercade VS-R mit lizenzierten Spielemodulen. Günstiger ist der Atari 2600+, für unterwegs der Evercade EXP-R." },
-    { q: "Sind Retro-Konsolen mit tausenden Spielen legal?", a: "Die vorinstallierten Spiele sind in der Regel nicht lizenziert. Wir empfehlen daher nur Geräte mit offiziell lizenzierten Spielen." },
+    { q: "Sind die Spiele auf Retro-Konsolen mit tausenden Spielen lizenziert?", a: "Die vorinstallierten Spiele sind in der Regel nicht lizenziert, und für Käufer ist die Rechtelage kaum nachvollziehbar. Wir empfehlen daher nur Geräte, deren Spiele laut Hersteller offiziell lizenziert sind." },
     { q: "Kann der Atari 2600+ alte Module abspielen?", a: "Ja, laut Hersteller ist er mit den meisten originalen Atari-2600- und 7800-Modulen kompatibel." },
-    { q: "Was sind Evercade-Module?", a: "Spielemodule mit lizenzierten Sammlungen einzelner Hersteller, die in allen Evercade-Konsolen funktionieren." },
+    { q: "Was sind Evercade-Module?", a: "Spielemodule mit lizenzierten Sammlungen einzelner Hersteller, die laut Evercade in allen Evercade-Konsolen funktionieren." },
     { q: "Kann ich alte Konsolen an einen modernen Fernseher anschließen?", a: "Ja, mit passenden Adaptern oder Upscalern. Das Bild ist ohne Aufbereitung aber oft unscharf." },
   ],
 

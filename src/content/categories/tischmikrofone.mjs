@@ -15,7 +15,7 @@ export default {
   eyebrow: "Home-Office · Mikrofon",
   h1: "Die 3 besten USB-Mikrofone fürs Home-Office 2026",
   lead:
-    "Im Videocall verzeiht man ein unscharfes Bild eher als schlechten Ton. Ein gutes USB-Mikrofon macht deine Stimme klar und warm – und blendet Tastatur und Raum aus.",
+    "Im Videocall verzeiht man ein unscharfes Bild eher als schlechten Ton. Ein gutes USB-Mikrofon lässt deine Stimme klarer klingen – und kann Tastatur und Raum deutlich in den Hintergrund rücken.",
   answer:
     "Unsere beste Gesamtwahl ist das [**Elgato Wave:3**](produkt:1): Kondensatormikrofon mit Clipguard gegen Übersteuern, Stummschalten per Berührung und Mixing-Software. Das beste Preis-Leistungs-Verhältnis bietet das kompakte [**RØDE NT-USB Mini**](produkt:2); die Premium-Wahl ist das dynamische [**Shure MV7+**](produkt:3) mit USB-C und XLR.",
 
@@ -45,13 +45,13 @@ export default {
       ratings: { klang: 8.5, bedienung: 9.5, flexibel: 8.0, preis: 8.0 },
       bestFor: "Calls, Streaming, Podcasts am Schreibtisch",
       verdict:
-        "Das durchdachteste USB-Mikrofon: Clipguard verhindert Übersteuern, ein Tipp auf den Sensor schaltet stumm, und Wave Link mischt Mikrofon und PC-Ton.",
+        "Aus unserer Sicht das durchdachteste USB-Mikrofon im Vergleich: Clipguard soll laut Hersteller Übersteuern verhindern, ein Tipp auf den Sensor schaltet stumm, und Wave Link mischt Mikrofon und PC-Ton.",
       features: [
         "Kondensatorkapsel mit Nierencharakteristik, 24 Bit/96 kHz (Herstellerangabe)",
-        "Clipguard gegen Verzerrung, kapazitive Stummschaltung, Kopfhörerausgang",
-        "Wave-Link-Software für mehrere Audioquellen; Nachfolger MK.2 mit DSP erhältlich",
+        "Clipguard gegen Verzerrung, kapazitive Stummschaltung, Kopfhörerausgang (Herstellerangabe)",
+        "Wave-Link-Software für mehrere Audioquellen (Herstellerangabe); Nachfolger MK.2 mit DSP erhältlich",
       ],
-      pros: ["Sehr einfache Bedienung", "Übersteuert praktisch nicht", "Starke Software"],
+      pros: ["Sehr einfache Bedienung", "Schutz vor Übersteuern (laut Hersteller)", "Starke Software"],
       cons: ["Kondensator nimmt mehr Raum auf als ein dynamisches Mikro", "Nur USB"],
       specs: { typ: "Kondensator", anschluss: "USB-C", aufloesung: "24 Bit / 96 kHz", extra: "Clipguard, Wave Link", arm: "ja" },
       asin: "B088HHWC47",
@@ -68,11 +68,11 @@ export default {
       ratings: { klang: 8.5, bedienung: 7.5, flexibel: 7.5, preis: 9.0 },
       bestFor: "Kompakter Schreibtisch, kleines Budget",
       verdict:
-        "Klein, robust und überraschend klar: Das NT-USB Mini klingt für seinen Preis hervorragend und steht auf einem magnetischen Fuß, der sich auch gegen einen Arm tauschen lässt.",
+        "Klein, solide gebaut und klar: Das NT-USB Mini klingt nach unserer Einschätzung für seinen Preis sehr gut und steht auf einem magnetischen Fuß, der sich auch gegen einen Arm tauschen lässt.",
       features: [
         "Kondensatormikrofon, 24 Bit/48 kHz, Signal-Rausch-Abstand 82 dB (Herstellerangabe)",
-        "Kopfhörerausgang mit Lautstärkeregler, DSP mit APHEX-Bearbeitung",
-        "Magnetischer, abnehmbarer Standfuß, klassenkompatibel",
+        "Kopfhörerausgang mit Lautstärkeregler, DSP mit APHEX-Bearbeitung (Herstellerangabe)",
+        "Magnetischer, abnehmbarer Standfuß, klassenkompatibel (Herstellerangabe)",
       ],
       pros: ["Sehr guter Klang für den Preis", "Kompakt", "Plug & Play"],
       cons: ["Keine Stummschalttaste", "Nimmt Raumklang auf"],
@@ -91,11 +91,11 @@ export default {
       ratings: { klang: 9.0, bedienung: 8.5, flexibel: 9.5, preis: 6.5 },
       bestFor: "Laute Räume, Podcaster, Aufsteiger",
       verdict:
-        "Für Räume mit Hall und Nebengeräuschen: Das dynamische MV7+ konzentriert sich auf die Stimme, regelt automatisch nach und lässt sich später per XLR an ein Audiointerface anschließen.",
+        "Für Räume mit Hall und Nebengeräuschen: Das dynamische MV7+ konzentriert sich auf die Stimme, regelt laut Hersteller automatisch nach und lässt sich später per XLR an ein Audiointerface anschließen.",
       features: [
         "Dynamisches Mikrofon mit USB-C und XLR (Herstellerangabe)",
-        "Auto-Level-Modus, digitaler Popfilter, Rauschunterdrückung",
-        "LED-Touchpanel, eingebaute Hall-Effekte",
+        "Auto-Level-Modus, digitaler Popfilter, Rauschunterdrückung (Herstellerangabe)",
+        "LED-Touchpanel, eingebaute Hall-Effekte (Herstellerangabe)",
       ],
       pros: ["Blendet Raumgeräusche gut aus", "USB und XLR", "Automatische Pegelregelung"],
       cons: ["Teuer", "Muss nah am Mund stehen – Arm empfehlenswert"],
@@ -133,7 +133,7 @@ export default {
         { title: "Richtig ausrichten", text: "Die Einsprechseite zeigt auf den Mund, nicht auf die Tastatur." },
         { title: "Pegel einstellen", text: "Laut genug, aber ohne Übersteuern bei lautem Lachen." },
         { title: "Raum dämpfen", text: "Teppich, Vorhänge und Bücher reduzieren Hall." },
-        { title: "Mit Kopfhörern", text: "Verhindert Echo und Rückkopplungen im Call." },
+        { title: "Mit Kopfhörern", text: "Verhindert Echo und Rückkopplungen im Call – Lautstärke moderat halten." },
       ],
     },
   },
@@ -148,7 +148,7 @@ export default {
         blocks: [
           { quick: "Für die meisten ist das [Elgato Wave:3](produkt:1) die beste Wahl. Günstiger und kompakter ist das [RØDE NT-USB Mini](produkt:2); in hallenden oder lauten Räumen ist das dynamische [Shure MV7+](produkt:3) besser." },
           { first: "Laptop-Mikrofone sitzen weit weg vom Mund und direkt neben der Tastatur. Ein externes Mikrofon nah an der Stimme klingt schon deshalb besser – unabhängig vom Preis. Je nach Raum kommt dann die Bauform ins Spiel." },
-          { p: "Kondensatormikrofone klingen offen und detailreich, nehmen aber auch Hall, Tastatur und Straßenlärm auf. Dynamische Mikrofone sind weniger empfindlich und konzentrieren sich auf die Stimme direkt davor – ideal für typische Home-Office-Räume mit kahlen Wänden." },
+          { p: "Kondensatormikrofone klingen offen und detailreich, nehmen aber auch Hall, Tastatur und Straßenlärm auf. Dynamische Mikrofone sind weniger empfindlich und konzentrieren sich auf die Stimme direkt davor – oft die bessere Wahl für typische Home-Office-Räume mit kahlen Wänden." },
           { figure: "scores" },
           { quote: "Das beste Mikrofon ist das, das nah genug am Mund steht." },
         ],
@@ -181,11 +181,11 @@ export default {
     h2: "Die 5 besten Mikrofonarme und Alternativen",
     intro: "Ein guter Arm macht aus einem guten Mikrofon ein sehr gutes Setup. Dazu zwei Mikrofone für andere Budgets.",
     items: [
-      { name: "RØDE PSA1 Gelenkarm", for: "Klassischer Mikrofonarm", text: "Federgelenkarm mit Tischklemme, hält das Mikrofon nach dem Verstellen in Position.", asin: "B001D7UYBO", query: "RØDE PSA1 Gelenkarmstativ" },
+      { name: "RØDE PSA1 Gelenkarm", for: "Klassischer Mikrofonarm", text: "Federgelenkarm mit Tischklemme, hält das Mikrofon laut Hersteller nach dem Verstellen in Position.", asin: "B001D7UYBO", query: "RØDE PSA1 Gelenkarmstativ" },
       { name: "Elgato Wave Mic Arm LP", for: "Flacher Arm unter dem Bild", text: "Low-Profile-Arm mit Kabelkanälen, 740 mm Reichweite, bis 2 kg (Herstellerangabe) – bleibt unterhalb der Kamera.", asin: "B097376LKF", query: "Elgato Wave Mic Arm LP" },
       { name: "Elgato Wave:3 mit Wave Mic Arm LP", for: "Komplett-Set", text: "Das Wave:3 im Bundle mit dem flachen Mikrofonarm.", asin: "B09PB2X6QL", query: "Elgato Wave:3 Mic Arm Low Profile Bundle" },
-      { name: "Samson Q2U Recording-Paket", for: "Günstig dynamisch, USB & XLR", text: "Dynamisches Mikrofon mit USB und XLR samt Zubehör – günstiger Einstieg in die dynamische Bauform.", asin: "B001R747SG", query: "Samson Q2U Podcasting Paket" },
-      { name: "RØDE NT-USB", for: "Großer Bruder des Mini", text: "Studio-USB-Kondensatormikrofon mit Tischstativ und Popschutz.", asin: "B00KQPGRRE", query: "Rode NT-USB Kondensatormikrofon" },
+      { name: "Samson Q2U Recording-Paket", for: "Günstig dynamisch, USB & XLR", text: "Dynamisches Mikrofon mit USB und XLR samt Zubehör (Herstellerangabe) – günstiger Einstieg in die dynamische Bauform.", asin: "B001R747SG", query: "Samson Q2U Podcasting Paket" },
+      { name: "RØDE NT-USB", for: "Großer Bruder des Mini", text: "Studio-USB-Kondensatormikrofon mit Tischstativ und Popschutz (Herstellerangabe).", asin: "B00KQPGRRE", query: "Rode NT-USB Kondensatormikrofon" },
     ],
   },
 
@@ -195,10 +195,11 @@ export default {
         id: "mikrofon-einrichten",
         h2: "So klingst du im Call am besten",
         blocks: [
-          { quick: "Mikrofon nah an den Mund, auf die Stimme ausgerichtet, Pegel ohne Übersteuern, Kopfhörer auf und den Raum etwas dämpfen – das bringt mehr als jedes teure Mikrofon." },
+          { quick: "Mikrofon nah an den Mund, auf die Stimme ausgerichtet, Pegel ohne Übersteuern, Kopfhörer auf und den Raum etwas dämpfen – das bringt oft mehr als ein teureres Mikrofon." },
           { figure: "steps" },
           { facts: [{ value: "10–20 cm", label: "Abstand zum Mund" }, { value: "24 Bit", label: "Auflösung guter USB-Mikrofone" }, { value: "1", label: "Kabel: USB reicht für Calls" }] },
           { callout: { title: "Tipp", text: "Teste dein Mikrofon mit einer kurzen Aufnahme, bevor der wichtige Call beginnt. Viele Videocall-Programme haben dafür eine Testfunktion." } },
+          { callout: { title: "Aufnahmen und Privatsphäre", warn: true, text: "Calls, Podcasts oder Gespräche nur mit Einverständnis aller Beteiligten aufzeichnen – heimliche Aufnahmen des nichtöffentlich gesprochenen Wortes sind in Deutschland strafbar (§ 201 StGB). Empfindliche Mikrofone nehmen auch Mitbewohner oder Familie im Raum auf: im Zweifel stummschalten. Federarme fest montieren und beim Verstellen auf die Finger achten." } },
         ],
       },
     ],
@@ -206,7 +207,7 @@ export default {
 
   faqs: [
     { q: "Welches USB-Mikrofon ist das beste fürs Home-Office?", a: "Unsere beste Gesamtwahl ist das Elgato Wave:3. Günstiger ist das RØDE NT-USB Mini, die Premium-Wahl das dynamische Shure MV7+ mit USB-C und XLR." },
-    { q: "Lohnt sich ein externes Mikrofon für Videocalls?", a: "Ja. Es steht näher an der Stimme und weiter weg von der Tastatur als das Laptop-Mikrofon – das allein verbessert den Ton deutlich." },
+    { q: "Lohnt sich ein externes Mikrofon für Videocalls?", a: "Ja. Es steht näher an der Stimme und weiter weg von der Tastatur als das Laptop-Mikrofon – das verbessert den Ton meist deutlich." },
     { q: "Kondensator oder dynamisches Mikrofon?", a: "In ruhigen, gedämpften Räumen klingen Kondensatormikrofone offener. In hallenden oder lauten Räumen ist ein dynamisches Mikrofon die bessere Wahl." },
     { q: "Brauche ich einen Mikrofonarm?", a: "Nicht zwingend, aber ein Arm bringt das Mikrofon näher an den Mund und entkoppelt es von Tischgeräuschen." },
     { q: "Brauche ich ein Audiointerface?", a: "Für USB-Mikrofone nicht. Ein Interface ist nur für XLR-Mikrofone nötig." },

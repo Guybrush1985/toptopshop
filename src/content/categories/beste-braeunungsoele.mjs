@@ -15,13 +15,13 @@ export default {
   eyebrow: "Bräunung · Sonnenöle",
   h1: "Die 3 besten Bräunungsöle mit LSF 2026",
   lead:
-    "Schöne Bräune und echter Sonnenschutz schließen sich nicht aus. Wir zeigen die drei Sonnenöle, die beides am besten verbinden – und warum Öl ohne LSF keine gute Idee ist.",
+    "Schöne Bräune und echter Sonnenschutz schließen sich nicht aus. Wir zeigen drei Sonnenöle, die beides nach unserer Einschätzung am besten verbinden – und warum Öl ohne LSF keine gute Idee ist.",
   answer:
-    "Unsere beste Gesamtwahl ist das [**PIZ BUIN Tan & Protect Sonnenöl-Spray LSF 30**](produkt:1), weil es soliden UVA- und UVB-Schutz mit einem bräunungsfördernden Wirkstoff und angenehmer Textur verbindet. Am günstigsten ist das [**NIVEA SUN Sonnenölspray Schutz & Bräune LSF 30**](produkt:2); die Premium-Wahl mit dem höchsten Schutz ist das [**Lancaster Sun Beauty Fast Tan Optimizer LSF 50**](produkt:3).",
+    "Unsere beste Gesamtwahl ist das [**PIZ BUIN Tan & Protect Sonnenöl-Spray LSF 30**](produkt:1), weil es laut Hersteller UVA- und UVB-Schutz mit einem bräunungsfördernden Wirkstoff und angenehmer Textur verbindet. Am günstigsten ist das [**NIVEA SUN Sonnenölspray Schutz & Bräune LSF 30**](produkt:2); die Premium-Wahl mit dem höchsten Schutz ist das [**Lancaster Sun Beauty Fast Tan Optimizer LSF 50**](produkt:3).",
 
   top3Title: "Unsere Top 3 Bräunungsöle mit LSF",
   top3Intro:
-    "Alle drei Empfehlungen bieten einen Lichtschutzfaktor von mindestens 30 – das ist für uns die Grundvoraussetzung.",
+    "Alle drei Empfehlungen haben laut Hersteller einen Lichtschutzfaktor von mindestens 30 – das ist für uns die Grundvoraussetzung.",
   comparisonTitle: "Die 3 besten Bräunungsöle mit LSF im Vergleich",
 
   criteria: [
@@ -32,7 +32,7 @@ export default {
   ],
 
   method:
-    "Grundlage sind Herstellerangaben zu Lichtschutzfaktor, UVA-Schutz und Wasserfestigkeit, Inhaltsstofflisten, Händlerinformationen und die Auswertung von Kundenbewertungen. Produkte ohne Lichtschutzfaktor haben wir bewusst nicht empfohlen. Jedes Produkt wird in vier Kriterien von 0 bis 10 eingeordnet; die Gesamtnote ist der gewichtete Mittelwert.",
+    "Wir testen die Produkte nicht selbst; die Bewertungen sind redaktionelle Einschätzungen. Grundlage sind Herstellerangaben zu Lichtschutzfaktor, UVA-Schutz und Wasserfestigkeit, Inhaltsstofflisten, Händlerinformationen und die Auswertung von Kundenbewertungen. Produkte ohne Lichtschutzfaktor haben wir bewusst nicht empfohlen. Jedes Produkt wird in vier Kriterien von 0 bis 10 eingeordnet; die Gesamtnote ist der gewichtete Mittelwert.",
 
   products: [
     {
@@ -46,11 +46,11 @@ export default {
       ratings: { schutz: 8.5, braeune: 9.0, textur: 8.5, preis: 9.0 },
       bestFor: "normale bis leicht gebräunte Haut",
       verdict:
-        "Die beste Wahl für die meisten: verlässlicher UVA- und UVB-Schutz mit LSF 30 plus ein Wirkstoff, der laut Hersteller die natürliche Bräunung beschleunigt.",
+        "Nach unserer Einschätzung die beste Wahl für die meisten: UVA- und UVB-Schutz mit LSF 30 laut Hersteller plus ein Wirkstoff, der laut Hersteller die natürliche Bräunung beschleunigt.",
       features: [
         "Kombiniert UVA- und UVB-Filter mit dem bräunungsfördernden Wirkstoff **Illumitone** (Herstellerangabe)",
         "Laut Händlerangaben schweiß- und wasserfest",
-        "Ölspray mit seidigem Glow, das sich leicht verteilen lässt",
+        "Ölspray mit seidigem Glow, das sich laut Produktbeschreibung leicht verteilen lässt",
       ],
       pros: ["Gute Balance aus Schutz und Bräune", "Leicht aufzutragen, auch am Rücken", "Mit LSF 15 auch für vorgebräunte Haut verfügbar"],
       cons: ["Ölige Haptik direkt nach dem Auftragen", "Für sehr helle Haut ist LSF 50 die bessere Wahl"],
@@ -72,8 +72,8 @@ export default {
         "Das beste Preis-Leistungs-Verhältnis: transparentes Sonnenölspray mit LSF 30 und Pro-Melanin-Extrakt zum Drogeriepreis.",
       features: [
         "Transparentes Öl, das laut Hersteller schnell einzieht und die Haut geschmeidig macht",
-        "Wasserfest, mit UVA- und UVB-Schutz direkt nach dem Auftragen",
-        "Pro-Melanin-Extrakt soll die natürliche Bräune unterstützen – ohne Selbstbräuner",
+        "Wasserfest, mit UVA- und UVB-Schutz direkt nach dem Auftragen (Herstellerangabe)",
+        "Pro-Melanin-Extrakt soll laut Hersteller die natürliche Bräune unterstützen – ohne Selbstbräuner",
         "Verpackung laut Hersteller zu mindestens 70 % aus recyceltem Material",
       ],
       pros: ["Sehr günstiger Preis pro Milliliter", "Großes Gebinde für Urlaub und Familie", "Dermatologisch auf Hautverträglichkeit getestet (Herstellerangabe)"],
@@ -95,11 +95,11 @@ export default {
       verdict:
         "Für alle, die keine Kompromisse wollen: leichtes Sonnenöl mit LSF 50, das laut Hersteller die Bräunung beschleunigt und einen satinierten Glow hinterlässt.",
       features: [
-        "Hoher Lichtschutzfaktor 50 – sinnvoll für helle Haut, Mittagssonne und die ersten Urlaubstage",
+        "Hoher Lichtschutzfaktor 50 (Herstellerangabe) – sinnvoll für helle Haut, Mittagssonne und die ersten Urlaubstage",
         "Leichte Öl-Textur mit satiniertem Finish, die laut Produktbeschreibung nicht fettet",
         "Wasserabweisend laut Herstellerangabe",
       ],
-      pros: ["Höchster Schutz in unserem Vergleich", "Sehr angenehmes, trockenes Hautgefühl", "Luxuriöser Glow"],
+      pros: ["Höchster angegebener LSF in unserem Vergleich", "Laut Produktbeschreibung trockenes Hautgefühl", "Luxuriöser Glow"],
       cons: ["Deutlich höherer Preis pro Milliliter", "Kleineres Gebinde"],
       specs: { lsf: "50", textur: "Leichtes Sonnenöl", wasserfest: "Laut Hersteller wasserabweisend – Angaben der Händler uneinheitlich", besonderheit: "Bräunungsoptimierer" },
       asin: "B09SZKN6FF",
@@ -120,7 +120,7 @@ export default {
       file: "beste-braeunungsoele-lsf-2026-bewertung-vergleich.svg",
       title: "Die 3 besten Bräunungsöle mit LSF 2026",
       alt: "Balkendiagramm: Bewertung der drei besten Bräunungsöle mit Lichtschutzfaktor 2026 in den Kriterien Sonnenschutz, Bräunungsunterstützung, Textur und Preis-Leistung",
-      caption: "Unsere Bewertung je Kriterium. Lancaster schützt am stärksten, NIVEA ist am günstigsten, PIZ BUIN liegt in der Summe vorn.",
+      caption: "Unsere Bewertung je Kriterium. Lancaster hat den höchsten angegebenen LSF, NIVEA ist am günstigsten, PIZ BUIN liegt in der Summe vorn.",
     },
     steps: {
       kind: "steps",
@@ -130,7 +130,7 @@ export default {
       alt: "Infografik: Fünf Regeln für die richtige Anwendung von Sonnenöl – LSF nach Hauttyp wählen, großzügig auftragen, 20 Minuten vorher eincremen, regelmäßig nachcremen, Mittagssonne meiden",
       caption: "Die wichtigsten Regeln für ein Sonnenbad mit Öl – vom passenden LSF bis zum Nachcremen.",
       steps: [
-        { title: "LSF nach Hauttyp wählen", text: "Helle Haut und die ersten Urlaubstage brauchen LSF 50, normale Haut mindestens LSF 30." },
+        { title: "LSF nach Hauttyp wählen", text: "Für helle Haut und die ersten Urlaubstage ist LSF 50 sinnvoll, für normale Haut mindestens LSF 30." },
         { title: "Großzügig auftragen", text: "Wer zu wenig verwendet, erreicht nur einen Bruchteil des angegebenen Schutzes. Lieber eine Schicht mehr." },
         { title: "Rechtzeitig eincremen", text: "Sonnenschutz vor dem Sonnenbad auftragen und Stellen wie Ohren, Fußrücken und Nacken nicht vergessen." },
         { title: "Regelmäßig nachcremen", text: "Nach dem Baden, Abtrocknen oder Schwitzen erneut auftragen – auch bei wasserfesten Produkten." },
@@ -148,12 +148,13 @@ export default {
         id: "beste-braeunungsoele",
         h2: "Welche Bräunungsöle sind aktuell die besten?",
         blocks: [
-          { quick: "Das beste Bräunungsöl für die meisten ist das **PIZ BUIN Tan & Protect Sonnenöl-Spray LSF 30**: Es verbindet verlässlichen Sonnenschutz mit einem bräunungsfördernden Wirkstoff. Günstiger ist das **NIVEA SUN Sonnenölspray Schutz & Bräune LSF 30**, mehr Schutz bietet das **Lancaster Sun Beauty Fast Tan Optimizer LSF 50**." },
-          { first: "Klassische Bräunungsöle hatten lange einen zweifelhaften Ruf – zu Recht: Viele Produkte enthielten kaum oder gar keinen Lichtschutz und verstärkten durch den Glanz auf der Haut sogar die Wirkung der Sonne. Heute gibt es Sonnenöle, die den typischen Glow und eine seidige Textur mit einem echten Lichtschutzfaktor kombinieren. Genau diese Produkte stehen in unserem Vergleich." },
-          { p: "Wichtig ist das Verständnis, wie Bräune entsteht: Die Haut bildet unter UV-Strahlung den Farbstoff Melanin, um sich vor weiteren Schäden zu schützen. Bräune ist also bereits eine Schutzreaktion. Ein Sonnenöl mit LSF verhindert diese Reaktion nicht – es verlangsamt die Strahlenbelastung so, dass die Haut Zeit hat, Pigmente aufzubauen, ohne zu verbrennen. Die Bräune entwickelt sich dadurch langsamer, hält aber länger und schält sich nicht ab." },
+          { quick: "Nach unserer Einschätzung ist das beste Bräunungsöl für die meisten das **PIZ BUIN Tan & Protect Sonnenöl-Spray LSF 30**: Es verbindet laut Hersteller Sonnenschutz mit einem bräunungsfördernden Wirkstoff. Günstiger ist das **NIVEA SUN Sonnenölspray Schutz & Bräune LSF 30**, mehr Schutz bietet das **Lancaster Sun Beauty Fast Tan Optimizer LSF 50**." },
+          { first: "Klassische Bräunungsöle hatten lange einen zweifelhaften Ruf – zu Recht: Viele Produkte enthielten kaum oder gar keinen Lichtschutz. Heute gibt es Sonnenöle, die den typischen Glow und eine seidige Textur mit einem echten Lichtschutzfaktor kombinieren. Genau diese Produkte stehen in unserem Vergleich." },
+          { p: "Wichtig ist das Verständnis, wie Bräune entsteht: Die Haut bildet unter UV-Strahlung den Farbstoff Melanin, um sich vor weiteren Schäden zu schützen. Bräune ist also bereits eine Schutzreaktion. Ein Sonnenöl mit LSF verhindert diese Reaktion nicht – es verringert die Strahlenbelastung, sodass die Haut Pigmente aufbauen kann, ohne so schnell zu verbrennen. Die Bräune entwickelt sich dadurch langsamer und kann länger halten, weil sich die Haut weniger schält." },
+          { callout: { title: "Gesundheitshinweis", warn: true, text: "Auch Bräune ohne Sonnenbrand zeigt, dass die Haut UV-Strahlung abwehren musste. UV-Strahlung gilt als Hauptrisikofaktor für Hautkrebs; Sonnenschutzmittel können das Risiko verringern, aber nicht ausschließen. Fachstellen wie das Bundesamt für Strahlenschutz raten deshalb, intensive Sonne zu meiden. Bei Muttermalen, die sich verändern, ärztlich abklären lassen – unsere Hinweise ersetzen keine ärztliche Beratung." } },
           { p: "Zusätze wie Illumitone bei PIZ BUIN oder der Pro-Melanin-Extrakt bei NIVEA sollen die natürliche Pigmentierung zusätzlich unterstützen. Wie groß dieser Effekt im Alltag ist, lässt sich von außen schwer messen – entscheidend für die Auswahl bleiben deshalb Schutz, Textur und Preis." },
           { figure: "scores" },
-          { quote: "Bräune ist bereits eine Schutzreaktion der Haut – ein gutes Sonnenöl gibt ihr die Zeit, diese Reaktion ohne Sonnenbrand aufzubauen." },
+          { quote: "Bräune ist bereits eine Schutzreaktion der Haut – ein Sonnenöl mit ausreichendem LSF senkt das Risiko für Sonnenbrand, ersetzt aber nicht Schatten und Kleidung." },
           { callout: { title: "Wichtig", warn: true, text: "Ein Bräunungsöl **ohne** Lichtschutzfaktor schützt nicht vor UVA- und UVB-Strahlung. Solche Produkte eignen sich höchstens für bereits gebräunte Haut und kurze Sonnenbäder – wir empfehlen sie nicht." } },
         ],
       },
@@ -208,7 +209,7 @@ export default {
     intro:
       "Nicht jede Haut und nicht jeder Urlaub braucht dasselbe Produkt. Diese fünf Alternativen decken Bedürfnisse ab, die unsere Top 3 nicht abdecken.",
     items: [
-      { name: "Hawaiian Tropic Glowing Protection Trockenöl-Spray LSF 30", for: "Leichtes Trockenöl", text: "Wasserfestes Trockenöl-Spray mit UVA- und UVB-Schutz und typisch tropischem Duft – für alle, die einen dezenten Glanz und eine leichte Textur bevorzugen. Achtung: Hawaiian Tropic bietet auch Bräunungsöle ohne LSF an; achte auf die Angabe auf der Flasche.", query: "Hawaiian Tropic Glowing Protection Dry Oil Spray LSF 30", asin: "B08XQBQ957" },
+      { name: "Hawaiian Tropic Glowing Protection Trockenöl-Spray LSF 30", for: "Leichtes Trockenöl", text: "Laut Hersteller wasserfestes Trockenöl-Spray mit UVA- und UVB-Schutz und typisch tropischem Duft – für alle, die einen dezenten Glanz und eine leichte Textur bevorzugen. Achtung: Hawaiian Tropic bietet auch Bräunungsöle ohne LSF an; achte auf die Angabe auf der Flasche.", query: "Hawaiian Tropic Glowing Protection Dry Oil Spray LSF 30", asin: "B08XQBQ957" },
       { name: "Coco & Eve Anti-Aging Tanning Body Oil SPF 30", for: "Pflege & Anti-Aging", text: "Körperöl-Spray mit UVA- und UVB-Schutz, das laut Hersteller mit natürlichen Inhaltsstoffen und Antioxidantien eine schnellere Bräune unterstützen soll – für alle, die Pflege und Sonnenschutz kombinieren möchten. Es gibt eine ähnliche Variante mit LSF 50; achte beim Kauf auf den Lichtschutzfaktor.", query: "Coco & Eve Anti-Aging Tanning Body Oil SPF30" },
       { name: "PIZ BUIN Tan & Protect Sonnenöl-Spray LSF 15", for: "Vorgebräunte Haut", text: "Die Variante unserer Gesamtwahl mit niedrigerem Schutz – sinnvoll nur für bereits gebräunte, robuste Haut und moderate Sonne.", query: "PIZ BUIN Tan & Protect Oil Spray LSF 15", asin: "B00J4F4670" },
       { name: "NIVEA SUN Sonnenspray Schutz & Bräune LSF 30", for: "Ohne Öl-Gefühl", text: "Die Spray-Variante ohne Ölbasis mit demselben Pro-Melanin-Extrakt. Laut Händlern frei von Octocrylen, Octinoxat und Oxybenzon und ohne Mikroplastik.", query: "NIVEA SUN Sonnenspray Schutz & Bräune LSF 30", asin: "B079J9N5N9" },
@@ -241,6 +242,7 @@ export default {
               { value: "nach dem Baden", label: "immer nachcremen, auch bei wasserfesten Produkten" },
             ],
           },
+          { callout: { title: "Kinderhaut", warn: true, text: "Bräunungsöle sind für Erwachsene gedacht. Babys im ersten Lebensjahr gehören nach Empfehlung von Fachstellen nicht in die direkte Sonne; für Kinder sind Schatten, Kleidung, Hut und ein Sonnenschutzmittel für Kinderhaut mit hohem LSF die bessere Wahl. Beachte immer die Anwendungshinweise auf der Verpackung." } },
           { h3: "Nach der Sonne" },
           { p: "Nach dem Sonnenbad braucht die Haut vor allem Feuchtigkeit. Eine After-Sun-Lotion oder ein kühlendes Gel beruhigt und hilft, dass sich die Haut nicht schält – so bleibt auch die Bräune länger erhalten. Unsere Empfehlungen findest du im [After-Sun-Ratgeber](/beste-after-sun-produkte/)." },
         ],
@@ -250,16 +252,17 @@ export default {
 
   faqs: [
     { q: "Welches Bräunungsöl ist aktuell das beste?", a: "Unsere beste Gesamtwahl ist das PIZ BUIN Tan & Protect Sonnenöl-Spray LSF 30, weil es verlässlichen UVA- und UVB-Schutz mit einem bräunungsfördernden Wirkstoff verbindet. Am günstigsten ist das NIVEA SUN Sonnenölspray Schutz & Bräune LSF 30, den höchsten Schutz bietet das Lancaster Sun Beauty Fast Tan Optimizer LSF 50." },
-    { q: "Wird man mit Sonnenöl mit LSF überhaupt braun?", a: "Ja. Sonnenschutz verhindert die Bräunung nicht, sondern verlangsamt die Strahlenbelastung. Die Haut hat so Zeit, Pigmente aufzubauen, ohne zu verbrennen. Die Bräune entsteht etwas langsamer, hält aber länger, weil sich die Haut nicht schält." },
+    { q: "Wird man mit Sonnenöl mit LSF überhaupt braun?", a: "Ja. Sonnenschutz verhindert die Bräunung nicht, sondern verringert die Strahlenbelastung. Die Haut kann so Pigmente aufbauen, ohne so schnell zu verbrennen. Die Bräune entsteht etwas langsamer und kann länger halten, weil sich die Haut weniger schält. Ein vollständiger Schutz vor UV-Schäden ist das aber nicht." },
     { q: "Welcher Lichtschutzfaktor ist für Bräunungsöl sinnvoll?", a: "Für die meisten Menschen mindestens LSF 30. Bei heller Haut, in den ersten Urlaubstagen und bei starker Sonne ist LSF 50 die bessere Wahl. Niedrigere Faktoren eignen sich höchstens für bereits gebräunte, robuste Haut." },
     { q: "Ist Bräunungsöl ohne LSF schädlich?", a: "Ein Öl ohne Lichtschutzfaktor bietet keinen Schutz vor UVA- und UVB-Strahlung. Damit steigt das Risiko für Sonnenbrand und langfristige Hautschäden. Wir empfehlen deshalb ausschließlich Öle mit ausgewiesenem LSF." },
     { q: "Wie oft muss ich Sonnenöl nachcremen?", a: "Nach jedem Baden, Abtrocknen oder starkem Schwitzen – auch bei wasserfesten Produkten. Nachcremen verlängert die Schutzzeit nicht über den Lichtschutzfaktor hinaus, sondern erhält nur den bestehenden Schutz." },
-    { q: "Kann ich Sonnenöl auch im Solarium verwenden?", a: "Nein. Normale Sonnenöle können die Acrylscheiben von Sonnenbänken beschädigen. Im Solarium solltest du ausschließlich spezielle Solariumkosmetik verwenden und die Hinweise des Studios beachten. In Deutschland ist die Solariumnutzung für Minderjährige verboten." },
+    { q: "Kann ich Sonnenöl auch im Solarium verwenden?", a: "Nein, davon raten wir ab. Normale Sonnenöle können laut Studiobetreibern die Acrylscheiben von Sonnenbänken beschädigen. Im Solarium solltest du ausschließlich spezielle Solariumkosmetik verwenden und die Hinweise des Studios beachten. In Deutschland ist die Solariumnutzung für Minderjährige gesetzlich verboten; Fachstellen raten auch Erwachsenen generell von Solarien ab." },
   ],
 
   sources: [
-    { label: "dm: Hinweise zu Sonnenöl und Bräunungsölen", url: "https://www.dm.at/pflege-und-parfum/sonnenpflege/sonnencreme/sonnenoel" },
-    { label: "NIVEA SUN Sonnenölspray Schutz & Bräune LSF 30 – Produktinformationen bei dm", url: "https://www.dm.de/p/d/1428957/nivea-sun-sonnenoelspray-schutz-und-braeune-lsf-30" },
+    { label: "dm: Sonnenpflege und Produktinformationen", url: "https://www.dm.de/" },
+    { label: "NIVEA: Produktinformationen NIVEA SUN", url: "https://www.nivea.de/" },
+    { label: "Bundesamt für Strahlenschutz: UV-Strahlung und Sonnenschutz", url: "https://www.bfs.de/" },
   ],
 
   related: [

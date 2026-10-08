@@ -29,9 +29,9 @@ export default {
   eyebrow: "Lastenräder · 1 Kind",
   h1: "Die 3 besten Lastenräder für 1 Kind 2026",
   lead:
-    "Für ein Kind brauchst du kein riesiges Transportrad. Kompakte Longtails sind wendiger, leichter und passen in jeden Fahrradkeller. Wir zeigen die drei besten.",
+    "Für ein Kind brauchst du kein riesiges Transportrad. Kompakte Longtails sind wendiger, leichter und passen in die meisten Fahrradkeller. Wir zeigen drei Empfehlungen nach unserer Einschätzung.",
   answer:
-    "Unsere beste Gesamtwahl ist das [**Urban Arrow Breeze**](produkt:1), weil es als kompaktes Longtail mit kräftigem Cargo-Antrieb und nur rund 35 kg Gewicht den Alltag mit einem Kind am leichtesten macht. Am günstigsten ist das [**Tern Quick Haul P5i**](produkt:2); die Premium-Wahl ist das [**Riese & Müller Multitinker2 vario**](produkt:3).",
+    "Unsere beste Gesamtwahl ist das [**Urban Arrow Breeze**](produkt:1), weil es als kompaktes Longtail mit kräftigem Cargo-Antrieb und laut Fachpresse nur rund 35 kg Gewicht den Alltag mit einem Kind am leichtesten macht. Am günstigsten ist das [**Tern Quick Haul P5i**](produkt:2); die Premium-Wahl ist das [**Riese & Müller Multitinker2 vario**](produkt:3).",
 
   top3Title: "Unsere Top 3 Lastenräder für ein Kind",
   top3Intro:
@@ -42,7 +42,7 @@ export default {
   criteria: BIKE_CRITERIA,
 
   method:
-    "Grundlage sind Herstellerangaben (Zuladung, Freigaben für den Kindertransport, Antrieb), Angaben der Händler, Fachtests aus Fahrradmagazinen sowie die Hinweise von Stiftung Warentest, ADAC und DGUV zum Kindertransport. Wir empfehlen ausschließlich Modelle, die bei Amazon oder bei Händlern aus dem Awin-Partnernetzwerk erhältlich sind. Jedes Rad wird in vier Kriterien von 0 bis 10 eingeordnet; die Gesamtnote ist der gewichtete Mittelwert.",
+    "Wir testen die Räder nicht selbst; die Bewertungen sind redaktionelle Einschätzungen. Grundlage sind Herstellerangaben (Zuladung, Freigaben für den Kindertransport, Antrieb), Angaben der Händler, Fachtests aus Fahrradmagazinen sowie die Hinweise von Stiftung Warentest, ADAC und DGUV zum Kindertransport. Wir empfehlen ausschließlich Modelle, die bei Amazon oder bei Händlern aus dem Awin-Partnernetzwerk erhältlich sind. Jedes Rad wird in vier Kriterien von 0 bis 10 eingeordnet; die Gesamtnote ist der gewichtete Mittelwert.",
 
   products: [
     {
@@ -56,11 +56,11 @@ export default {
       ratings: { kinder: 8.5, fahren: 9.0, alltag: 9.5, preis: 7.5 },
       bestFor: "Stadt, enge Keller, ein Kind",
       verdict:
-        "Die beste Wahl für die meisten Familien mit einem Kind: kompaktes Longtail mit Bosch-Cargo-Antrieb, rund 35 kg leicht und trotzdem bis zu 80 kg auf dem Heck.",
+        "Nach unserer Einschätzung die beste Wahl für die meisten Familien mit einem Kind: kompaktes Longtail mit Bosch-Cargo-Antrieb, laut Fachpresse rund 35 kg leicht und laut Hersteller trotzdem bis zu 80 kg auf dem Heck.",
       features: [
         "Bosch Cargo Line Mittelmotor mit 85 Nm, Akku mit 545 Wh (Herstellerangabe; 400 und 800 Wh als Varianten)",
-        "Heckträger bis 80 kg – Platz für einen Kindersitz, laut Hersteller auch für zwei Kinder",
-        "Zulässiges Gesamtgewicht 200 kg, Gewicht laut Test rund 35 kg",
+        "Heckträger bis 80 kg (Herstellerangabe) – Platz für einen Kindersitz, laut Hersteller auch für zwei Kinder",
+        "Zulässiges Gesamtgewicht 200 kg (Herstellerangabe), Gewicht laut Fachpresse rund 35 kg",
       ],
       pros: ["Fährt sich fast wie ein normales Rad", "Leicht genug für Keller und Treppen", "Wächst bis zum zweiten Kind mit"],
       cons: ["Kein Wetterschutz wie bei einer Box", "Kindersitz und Zubehör kosten extra"],
@@ -83,7 +83,7 @@ export default {
       features: [
         "Bosch Performance Line mit 65 Nm und 500-Wh-Akku (Händlerangabe)",
         "Heckträger bis 50 kg, optionaler Frontträger bis 20 kg; zulässiges Gesamtgewicht 150 kg (Herstellerangabe)",
-        "Sehr niedriger Durchstieg und kompakte Maße – passt in Aufzug und Keller",
+        "Sehr niedriger Durchstieg und kompakte Maße – passt laut Hersteller in viele Aufzüge und Keller",
       ],
       pros: ["Günstigstes Rad im Vergleich", "Sehr wendig und handlich", "Für Fahrende verschiedener Größen einstellbar"],
       cons: ["Nur für ein Kind ausgelegt", "Geringere Zuladung als echte Lastenräder", "Schwächerer Motor als Cargo-Antriebe"],
@@ -102,7 +102,7 @@ export default {
       ratings: { kinder: 9.0, fahren: 9.0, alltag: 9.0, preis: 6.5 },
       bestFor: "anspruchsvolle Vielfahrer",
       verdict:
-        "Für alle, die keine Kompromisse wollen: hochwertiges Kompakt-Longtail mit stufenloser Schaltung, das sich mit dem Family Kit zum sicheren Kindertaxi umbauen lässt.",
+        "Für alle, die keine Kompromisse wollen: hochwertiges Kompakt-Longtail mit stufenloser Schaltung, das sich mit dem Family Kit zum Kindertaxi umbauen lässt.",
       features: [
         "Bosch Cargo Line mit 625-Wh-Akku und stufenloser Enviolo-Nabe (Herstellerangabe)",
         "Family Kit bzw. Family Kit Plus als Zubehör; mit dem Family Kit Plus laut Händler für bis zu zwei Kinder (max. 50 kg) freigegeben",
@@ -159,13 +159,13 @@ export default {
         id: "bestes-lastenrad-1-kind",
         h2: "Welches Lastenrad ist für ein Kind am besten?",
         blocks: [
-          { quick: "Für die meisten Familien mit einem Kind ist das [Urban Arrow Breeze](produkt:1) die beste Wahl: kompakt, rund 35 kg leicht und mit kräftigem Cargo-Antrieb. Wer sparen will, nimmt das [Tern Quick Haul P5i](produkt:2), wer das Beste möchte, das [Riese & Müller Multitinker2 vario](produkt:3)." },
+          { quick: "Für die meisten Familien mit einem Kind ist das [Urban Arrow Breeze](produkt:1) nach unserer Einschätzung die beste Wahl: kompakt, laut Fachpresse rund 35 kg leicht und mit kräftigem Cargo-Antrieb. Wer sparen will, nimmt das [Tern Quick Haul P5i](produkt:2), wer das Beste möchte, das [Riese & Müller Multitinker2 vario](produkt:3)." },
           { first: "Mit einem Kind ändert sich die Frage, die man sich beim Lastenradkauf stellt. Es geht nicht darum, möglichst viel Platz zu haben, sondern darum, ein Rad zu finden, das im Alltag nicht stört: das in den Fahrradkeller passt, das man notfalls eine Stufe hochschieben kann und das sich auf dem Weg zur Kita so selbstverständlich fährt wie ein normales Fahrrad. Genau hier spielen kompakte Longtails ihre Stärken aus." },
           { p: "Bei einem Longtail sitzt das Kind hinten auf einem verlängerten, besonders stabilen Gepäckträger. Das Rad ist dadurch nur wenig länger als ein gewöhnliches Fahrrad, der Schwerpunkt bleibt nah am Fahrenden, und das Lenkverhalten ändert sich kaum. Ein Frontlader mit großer Box bietet zwar mehr Wetterschutz und Blickkontakt, ist aber deutlich länger, schwerer und braucht einen ebenerdigen Stellplatz." },
-          { p: "Alle drei Empfehlungen sind Pedelecs: Der Motor unterstützt bis 25 km/h, es braucht weder Führerschein noch Versicherungskennzeichen. Mit Kind und Einkauf summiert sich das Gewicht schnell auf weit über 100 Kilogramm – ohne Motor würde man ein Lastenrad im Alltag kaum nutzen." },
+          { p: "Alle drei Empfehlungen sind Pedelecs: Der Motor unterstützt bis 25 km/h; dafür braucht es in Deutschland in der Regel weder Führerschein noch Versicherungskennzeichen. Mit Kind und Einkauf summiert sich das Gewicht schnell auf weit über 100 Kilogramm – ohne Motor würde man ein Lastenrad im Alltag kaum nutzen." },
           { figure: "scores" },
           { quote: "Für ein Kind zählt nicht der größte Laderaum, sondern ein Rad, das im Alltag nicht im Weg steht." },
-          { callout: { title: "Sicherheit zuerst", warn: true, text: "Die DGUV empfiehlt, nur Kinder mitzunehmen, die selbstständig sitzen und den Kopf sicher halten können. Jedes Kind braucht einen eigenen Sitzplatz mit Gurt und einen passenden Helm. Wer Kinder unter sieben Jahren mitnimmt, muss mindestens 16 Jahre alt sein." } },
+          { callout: { title: "Sicherheit zuerst", warn: true, text: "Die DGUV empfiehlt, nur Kinder mitzunehmen, die selbstständig sitzen und den Kopf sicher halten können. Jedes Kind braucht einen eigenen Sitzplatz mit Gurt und einen passenden Helm. Wer Kinder unter sieben Jahren mitnimmt, muss nach der StVO mindestens 16 Jahre alt sein. Beachte außerdem die Bedienungsanleitung und die Freigaben des Herstellers." } },
         ],
       },
       {
@@ -219,10 +219,10 @@ export default {
     intro:
       "Wenn ein zweites Kind geplant ist oder du zusätzlich viel Gepäck transportierst, lohnt sich ein Rad mit mehr Sitzplätzen. Diese fünf Modelle starten mit einem Kind und haben Platz für mehr.",
     items: [
-      { name: "Cube Cargo Hybrid Comfort Pro Family 800", for: "Frontlader mit Komplettausstattung", text: "Box aus EPP-Schaum mit herausnehmbarer Kindersitzbank, Gurten und Regenverdeck ab Werk, 800-Wh-Akku. Unsere Gesamtwahl für zwei Kinder.", shop: "fahrradlagerverkauf", url: "https://www.fahrradlagerverkauf.com/cube-cargo-hybrid-comfort-pro-family-800-20-26-zoll-800wh-5n-lastenrad-smaragdgrey-n-reflex-1110736c" },
-      { name: "Tern GSD S10", for: "Longtail für zwei", text: "Longtail mit 210 kg zulässigem Gesamtgewicht und bis zu 100 kg auf dem Heck; laut Händler passen zwei Kindersitze ohne Adapter.", shop: "fahrradlagerverkauf", url: "https://www.fahrradlagerverkauf.com/tern-gsd-s10-20-zoll-545wh-10k-lastenrad-satin-beige-1116066c" },
-      { name: "Tenways Cargo One", for: "Große Box, großer Akku", text: "Frontlader mit zwei Sitzplätzen und Regenverdeck, 960-Wh-Akku und laut Test 194 kg Zuladung – zu einem vergleichsweise günstigen Preis.", shop: "radwelt", url: "https://www.radwelt-shop.de/tenways-cargo-one-960-wh-schwarz-2026/770049" },
-      { name: "Urban Arrow Family Cargo Line", for: "Der Frontlader-Klassiker", text: "Sitzbank für zwei Kinder ab Werk, mit Zusatzbank laut Hersteller bis zu drei Kinder; zulässiges Gesamtgewicht 250 kg.", shop: "fahrradlagerverkauf", url: "https://www.fahrradlagerverkauf.com/urban-arrow-family-cargo-line-20-26-zoll-545wh-enviolo-lastenrad-black-1098610c" },
+      { name: "Cube Cargo Hybrid Comfort Pro Family 800", for: "Frontlader mit Komplettausstattung", text: "Laut Hersteller Box aus EPP-Schaum mit herausnehmbarer Kindersitzbank, Gurten und Regenverdeck ab Werk, 800-Wh-Akku. Unsere Gesamtwahl für zwei Kinder.", shop: "fahrradlagerverkauf", url: "https://www.fahrradlagerverkauf.com/cube-cargo-hybrid-comfort-pro-family-800-20-26-zoll-800wh-5n-lastenrad-smaragdgrey-n-reflex-1110736c" },
+      { name: "Tern GSD S10", for: "Longtail für zwei", text: "Longtail mit laut Hersteller 210 kg zulässigem Gesamtgewicht und bis zu 100 kg auf dem Heck; laut Händler passen zwei Kindersitze ohne Adapter.", shop: "fahrradlagerverkauf", url: "https://www.fahrradlagerverkauf.com/tern-gsd-s10-20-zoll-545wh-10k-lastenrad-satin-beige-1116066c" },
+      { name: "Tenways Cargo One", for: "Große Box, großer Akku", text: "Frontlader mit zwei Sitzplätzen und Regenverdeck, 960-Wh-Akku und laut Fachberichten rund 194 kg Zuladung (Herstellerangaben vor dem Kauf prüfen) – zu einem vergleichsweise günstigen Preis.", shop: "radwelt", url: "https://www.radwelt-shop.de/tenways-cargo-one-960-wh-schwarz-2026/770049" },
+      { name: "Urban Arrow Family Cargo Line", for: "Der Frontlader-Klassiker", text: "Sitzbank für zwei Kinder ab Werk, mit Zusatzbank laut Hersteller bis zu drei Kinder; zulässiges Gesamtgewicht 250 kg (Herstellerangabe).", shop: "fahrradlagerverkauf", url: "https://www.fahrradlagerverkauf.com/urban-arrow-family-cargo-line-20-26-zoll-545wh-enviolo-lastenrad-black-1098610c" },
       { name: "Riese & Müller Packster2 70 family", for: "Mitwachsend bis drei Kinder", text: "Laut Hersteller für bis zu drei Kinder bis zum vollendeten siebten Lebensjahr; für Babys gibt es eine Babyschalen-Halterung im Fachhandel.", shop: "fahrradlagerverkauf", url: "https://www.fahrradlagerverkauf.com/riese-muller-packster2-70-family-20-26-zoll-625wh-10k-lastenrad-chili-matt-1102662c" },
     ],
   },
@@ -233,17 +233,18 @@ export default {
         id: "kindertransport-recht",
         h2: "Rechtslage und Sicherheit beim Kindertransport",
         blocks: [
-          { quick: "Wer Kinder unter sieben Jahren auf dem Fahrrad mitnimmt, muss mindestens 16 Jahre alt sein; das Kind braucht einen eigenen Sitz, und die Füße dürfen nicht in die Speichen geraten. Für Räder, die zur Personenbeförderung gebaut sind, gilt seit 2020 keine feste Altersgrenze für Mitfahrende mehr." },
+          { quick: "Wer Kinder unter sieben Jahren auf dem Fahrrad mitnimmt, muss mindestens 16 Jahre alt sein; das Kind braucht einen eigenen Sitz, und die Füße dürfen nicht in die Speichen geraten. Für Räder, die zur Personenbeförderung gebaut und eingerichtet sind, gilt seit 2020 in der Regel keine feste Altersgrenze für Mitfahrende mehr – maßgeblich sind dann die Freigaben des Herstellers." },
           { p: "Auf einem normalen Fahrrad mit Kindersitz dürfen nach der Straßenverkehrs-Ordnung Kinder bis zum vollendeten siebten Lebensjahr mitfahren – vorausgesetzt, der Fahrende ist mindestens 16 Jahre alt, es gibt einen besonderen Sitz und eine Verkleidung oder Vorrichtung schützt die Füße vor den Speichen. Seit der StVO-Novelle 2020 dürfen auf Fahrrädern, die für die Personenbeförderung gebaut und eingerichtet sind, auch ältere Kinder mitgenommen werden. Maßgeblich sind dann zusätzlich die Freigaben des Herstellers – manche begrenzen Alter oder Gewicht der Mitfahrenden ausdrücklich." },
           { figure: "steps" },
           { h3: "Die wichtigsten Regeln im Alltag" },
           {
             list: [
-              "**Gurt immer schließen** – auch auf kurzen Strecken. Die Stiftung Warentest empfiehlt, fehlende Gurte nachzurüsten.",
-              "**Helm aufsetzen.** Im ADAC-Crashtest schützte die Transportbox beim Erstaufprall gut; kippt das Rad aber um, kann der Kopf des Kindes auf den Boden schlagen.",
+              "**Gurt immer schließen** – auch auf kurzen Strecken. Die Stiftung Warentest rät, bei fehlenden Gurten zu prüfen, ob sie sich nachrüsten lassen.",
+              "**Helm aufsetzen.** Laut dem ADAC-Sicherheitstest von 2021 (zusammengefasst von Stiftung Warentest) ist keine Transportvariante hundertprozentig sicher; kippt das Rad um, kann der Kopf des Kindes auf den Boden schlagen.",
               "**Erst üben, dann losfahren.** Das veränderte Fahrverhalten am besten zuerst ohne Kind und in einer ruhigen Straße ausprobieren.",
               "**Ständer und Aufsteigen beachten.** Das Kind erst hineinsetzen, wenn das Rad sicher auf dem Ständer steht – und erst danach aufsteigen.",
               "**Zuladung nicht überschreiten.** Gepäck und Kind zusammen dürfen die Freigabe für den Gepäckträger nicht überschreiten.",
+              "**Akku richtig behandeln.** Nur mit dem Original-Ladegerät laden, beschädigte Akkus nicht weiterverwenden und die Ladehinweise des Herstellers beachten – Lithium-Akkus können bei Schäden in Brand geraten.",
             ],
           },
           {
@@ -253,6 +254,7 @@ export default {
               { value: "25 km/h", label: "Unterstützungsgrenze bei Pedelecs" },
             ],
           },
+          { callout: { title: "Keine Rechtsberatung", warn: true, text: "Unsere Zusammenfassung der StVO-Regeln ersetzt keine Rechtsberatung und kann sich durch Gesetzesänderungen überholen. Verbindlich sind der aktuelle Wortlaut von § 21 StVO sowie die Freigaben und Gebrauchsanweisungen von Rad- und Sitzhersteller. Lass dein Rad vom Fachhandel einstellen und übe vor der ersten Fahrt mit Kind." } },
           { h3: "Förderung prüfen" },
           { p: "Viele Bundesländer und Kommunen fördern den Kauf von Lastenrädern, teils mit mehreren Hundert Euro. Die Programme ändern sich häufig und haben oft begrenzte Budgets – ein Blick auf die Website deiner Stadt oder deines Landes lohnt sich vor dem Kauf." },
         ],
@@ -262,15 +264,15 @@ export default {
 
   faqs: [
     { q: "Welches Lastenrad ist für ein Kind am besten?", a: "Unsere beste Gesamtwahl ist das Urban Arrow Breeze: ein kompaktes Longtail mit Bosch-Cargo-Antrieb, rund 35 kg Gewicht und bis zu 80 kg Zuladung auf dem Heck. Am günstigsten ist das Tern Quick Haul P5i, die Premium-Wahl das Riese & Müller Multitinker2 vario." },
-    { q: "Ab welchem Alter darf ein Kind im Lastenrad mitfahren?", a: "Sobald es selbstständig sitzen und den Kopf sicher halten kann – das ist meist ab etwa neun Monaten der Fall. Jüngere Babys dürfen nur in einer Babyschale mitfahren, die mit einem vom Hersteller freigegebenen Adapter befestigt ist. Maßgeblich sind immer die Angaben des Rad- und Sitzherstellers." },
+    { q: "Ab welchem Alter darf ein Kind im Lastenrad mitfahren?", a: "Sobald es selbstständig sitzen und den Kopf sicher halten kann – das ist häufig ab etwa neun bis zwölf Monaten der Fall; im Zweifel bei der Kinderärztin oder dem Kinderarzt nachfragen. Jüngere Babys dürfen nur in einer Babyschale mitfahren, die mit einem vom Hersteller freigegebenen Adapter befestigt ist. Maßgeblich sind immer die Angaben des Rad- und Sitzherstellers." },
     { q: "Lohnt sich ein Lastenrad für nur ein Kind?", a: "Ja, wenn das Rad im Alltag regelmäßig genutzt wird – etwa für Kita, Einkauf und Arbeitsweg. Für ein Kind sind kompakte Longtails ideal, weil sie kaum größer als ein normales Rad sind. Wer nur gelegentlich fährt, kann auch mit einem Kindersitz am eigenen E-Bike oder einem Anhänger auskommen." },
     { q: "Longtail oder Frontlader – was ist für ein Kind besser?", a: "Für ein Kind ist ein Longtail meist praktischer: kompakter, leichter und wendiger. Ein Frontlader lohnt sich, wenn ein Baby in der Babyschale mitfahren soll, wenn guter Wetterschutz wichtig ist oder bald ein zweites Kind dazukommt." },
     { q: "Muss mein Kind im Lastenrad einen Helm tragen?", a: "Eine Helmpflicht gibt es in Deutschland nicht, Fachleute raten aber dringend dazu. Bei einem Sturz oder wenn das Rad umkippt, kann der Kopf des Kindes auf den Boden schlagen." },
-    { q: "Wie viel kostet ein gutes Lastenrad für ein Kind?", a: "Kompakte E-Lastenräder für ein Kind beginnen bei rund 3.300 Euro (Tern Quick Haul P5i, Herstellerpreis je nach Akku). Hochwertige Kompakt-Longtails wie das Riese & Müller Multitinker2 kosten ab etwa 6.500 Euro plus Zubehör. Viele Kommunen fördern den Kauf." },
+    { q: "Wie viel kostet ein gutes Lastenrad für ein Kind?", a: "Kompakte E-Lastenräder für ein Kind beginnen bei rund 3.300 Euro (Tern Quick Haul P5i, Herstellerpreis je nach Akku). Hochwertige Kompakt-Longtails wie das Riese & Müller Multitinker2 kosten ab etwa 6.500 Euro plus Zubehör (grobe Orientierung, Preise ändern sich). Viele Kommunen fördern den Kauf." },
   ],
 
   sources: [
-    { label: "Stiftung Warentest: Kindertransport mit dem Fahrrad", url: "https://www.test.de/Sicherer-Kindertransport-mit-dem-Fahrrad-5776176-0/" },
+    { label: "Stiftung Warentest: Kindertransport mit dem Fahrrad (u. a. zum ADAC-Sicherheitstest 2021)", url: "https://www.test.de/Sicherer-Kindertransport-mit-dem-Fahrrad-5776176-0/" },
     { label: "DGUV: Kinder sicher mit dem Lastenrad befördern", url: "https://www.dguv.de/de/mediencenter/pm/pressemitteilung_622211.jsp" },
     { label: "ADAC: Test E-Lastenfahrräder", url: "https://www.adac.de/rund-ums-fahrzeug/tests/fahrrad/e-lastenfahrrad/" },
     { label: "Riese & Müller: Multitinker2", url: "https://www.r-m.de/de/bikes/multitinker2/" },

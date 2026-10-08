@@ -16,13 +16,13 @@ export default {
   eyebrow: "Krisenvorsorge · Schutzraum & Ausstattung",
   h1: "Hygiene im Notfall: Die 3 besten Produkte 2026",
   lead:
-    "Fällt die Wasserversorgung aus, funktioniert auch die Toilettenspülung nicht mehr – und mit fehlender Hygiene steigt das Risiko für Infektionen. Eine Campingtoilette, Toilettenbeutel mit Geliermittel und Händedesinfektion lösen die drängendsten Probleme.",
+    "Fällt die Wasserversorgung aus, funktioniert auch die Toilettenspülung nicht mehr – und mit fehlender Hygiene steigt das Risiko für Infektionen. Eine Campingtoilette, Toilettenbeutel mit Geliermittel und Händedesinfektion helfen bei den drängendsten Problemen.",
   answer:
-    "Unsere beste Gesamtwahl ist die Campingtoilette [**Thetford Porta Potti Qube 145**](produkt:1): geschlossen, geruchsarm und mit eigener Spülung aus dem Frischwassertank. Als einfachste Notlösung für Eimer oder Toilette empfehlen wir [**Toilettenbeutel mit Geliermittel**](produkt:2); für saubere Hände ohne Wasser [**Sterillium classic pure**](produkt:3).",
+    "Unsere beste Gesamtwahl ist die Campingtoilette [**Thetford Porta Potti Qube 145**](produkt:1): geschlossen, mit Sanitärzusatz geruchsarm und laut Hersteller mit eigener Spülung aus dem Frischwassertank. Als einfachste Notlösung für Eimer oder Toilette empfehlen wir [**Toilettenbeutel mit Geliermittel**](produkt:2); für saubere Hände ohne Wasser [**Sterillium classic pure**](produkt:3).",
 
   top3Title: "Unsere Top 3 für Hygiene ohne Wasser",
   top3Intro:
-    "Eine richtige Toilette, eine platzsparende Notlösung und Händedesinfektion: Damit bleibt die Hygiene auch dann gewahrt, wenn tagelang kein Wasser aus der Leitung kommt.",
+    "Eine richtige Toilette, eine platzsparende Notlösung und Händedesinfektion: Damit lässt sich die Hygiene auch dann weitgehend aufrechterhalten, wenn tagelang kein Wasser aus der Leitung kommt.",
   comparisonTitle: "Campingtoilette, Toilettenbeutel und Desinfektion im Vergleich",
 
   criteria: [
@@ -33,7 +33,7 @@ export default {
   ],
 
   method:
-    "Grundlage sind die Vorsorgeempfehlungen des BBK zu Hygiene und Hausapotheke, Herstellerangaben zu Tankvolumen, Geliermittel und Wirkspektrum sowie Kundenerfahrungen. Wir empfehlen ausschließlich Produkte, die bei Amazon erhältlich sind. Jedes Produkt wird in vier Kriterien von 0 bis 10 eingeordnet; die Gesamtnote ist der gewichtete Mittelwert.",
+    "Grundlage sind die Vorsorgeempfehlungen des BBK zu Hygiene und Hausapotheke, Herstellerangaben zu Tankvolumen, Geliermittel und Wirkspektrum sowie Kundenerfahrungen. Wir haben die Produkte nicht selbst getestet. Wir empfehlen ausschließlich Produkte, die bei Amazon erhältlich sind. Jedes Produkt wird in vier Kriterien von 0 bis 10 eingeordnet; die Gesamtnote ist der gewichtete Mittelwert.",
 
   products: [
     {
@@ -47,13 +47,13 @@ export default {
       ratings: { hygiene: 9.0, handhabung: 8.0, vorrat: 8.0, preis: 7.0 },
       bestFor: "Familie, mehrere Tage, Schutzraum",
       verdict:
-        "Eine vollwertige Toilette ohne Wasseranschluss: geschlossener Fäkalientank, eigene Spülung aus dem Frischwassertank, kompakt genug für Keller oder Abstellraum. Mit Sanitärzusatz bleibt sie über Tage geruchsarm.",
+        "Eine vollwertige Toilette ohne Wasseranschluss: geschlossener Fäkalientank, eigene Spülung aus dem Frischwassertank, kompakt genug für Keller oder Abstellraum. Mit Sanitärzusatz bleibt sie laut Hersteller und Nutzerberichten über Tage geruchsarm.",
       features: [
         "Fäkalientank 12 l, Frischwassertank 15 l, Sitzhöhe ca. 32 cm (Anbieterangaben)",
-        "Maße ca. 330 × 383 × 427 mm, rund 3,6 kg leer",
+        "Maße ca. 330 × 383 × 427 mm, rund 3,6 kg leer (Anbieterangaben)",
         "Mit Sanitärzusätzen (Flüssig oder Tabs) geruchsarm; Entleerung über Drehausguss",
       ],
-      pros: ["Geschlossenes, geruchsarmes System", "Eigene Spülung", "Bewährtes Campingprodukt"],
+      pros: ["Geschlossenes System, mit Zusatz geruchsarm", "Eigene Spülung", "Verbreitetes Campingprodukt"],
       cons: ["Niedrige Sitzhöhe", "Entleerung muss geplant werden", "Sanitärzusatz separat"],
       specs: { typ: "Chemietoilette", wasser: "eigener 15-l-Tank", nutzung: "mehrere Tage (je nach Personen)", entsorgung: "Tank in Toilette oder nach Behördenhinweis", extra: "Sanitärzusatz nötig" },
       asin: "B00L4KV1XU",
@@ -70,10 +70,10 @@ export default {
       ratings: { hygiene: 7.5, handhabung: 8.0, vorrat: 9.0, preis: 8.0 },
       bestFor: "Wohnung ohne Platz für eine Campingtoilette",
       verdict:
-        "Beutel in die Toilettenschüssel oder einen Eimer einsetzen, benutzen, verschließen: Eine Gel-Schicht verwandelt Flüssigkeit laut Anbieter in eine feste, geruchsarme Masse. Platzsparend und jahrelang lagerfähig.",
+        "Beutel in die Toilettenschüssel oder einen Eimer einsetzen, benutzen, verschließen: Eine Gel-Schicht verwandelt Flüssigkeit laut Anbieter in eine feste, geruchsarme Masse. Platzsparend und laut Anbieter lange lagerfähig.",
       features: [
         "Beutel mit GelMax-Schicht, laut Anbieter für bis zu etwa 600 ml Flüssigkeit",
-        "Passt in Toilette, Eimer oder Campingtoilette",
+        "Passt laut Anbieter in Toilette, Eimer oder Campingtoilette",
         "20 Stück pro Packung – auch als 2er- und 3er-Pack erhältlich",
       ],
       pros: ["Kein Wasser nötig", "Sehr platzsparend", "Einfache Entsorgung im Restmüll (Herstellerhinweise beachten)"],
@@ -93,13 +93,13 @@ export default {
       ratings: { hygiene: 8.0, handhabung: 9.0, vorrat: 6.0, preis: 8.5 },
       bestFor: "Händehygiene ohne Waschbecken",
       verdict:
-        "Ohne fließendes Wasser ist Händedesinfektion der wichtigste Schutz vor Durchfall- und Atemwegserkrankungen. Sterillium classic pure ist ein bewährtes Händedesinfektionsmittel aus dem Klinikalltag – farbstoff- und parfümfrei.",
+        "Ohne fließendes Wasser kann Händedesinfektion das Risiko für Durchfall- und Atemwegsinfektionen verringern. Sterillium classic pure ist ein verbreitetes Händedesinfektionsmittel aus dem Klinikalltag – laut Hersteller farbstoff- und parfümfrei.",
       features: [
         "Wirkstoffe Propan-2-ol, Propan-1-ol und Mecetroniumetilsulfat (Anbieterangabe)",
         "Laut Anbieter wirksam gegen Bakterien, Hefepilze und behüllte Viren",
-        "Für hygienische und chirurgische Händedesinfektion, mit Hautpflegekomplex",
+        "Für hygienische und chirurgische Händedesinfektion, mit Hautpflegekomplex (Anbieterangabe)",
       ],
-      pros: ["Wirkt ohne Wasser", "Hautfreundlich formuliert", "Günstig"],
+      pros: ["Anwendung ohne Wasser", "Laut Hersteller hautfreundlich formuliert", "Günstig"],
       cons: ["Entzündlich – kühl und fern von Flammen lagern", "Nicht gegen alle Erreger (z. B. unbehüllte Viren) voll wirksam", "Verursacht schwere Augenreizung"],
       specs: { typ: "Händedesinfektion", wasser: "keins", nutzung: "3 ml je Anwendung (Packungsangabe beachten)", entsorgung: "–", extra: "entzündlich" },
       asin: "B0026UXMUW",
@@ -121,7 +121,7 @@ export default {
       file: "hygiene-notfall-campingtoilette-desinfektion-bewertung-vergleich.svg",
       title: "Hygiene im Notfall: Die 3 besten Produkte",
       alt: "Balkendiagramm: Bewertung von Campingtoilette, Toilettenbeuteln und Händedesinfektion in den Kriterien Hygiene, Handhabung, Lagerfähigkeit und Preis",
-      caption: "Unsere Bewertung je Kriterium. Die Campingtoilette ist am hygienischsten, die Beutel sind am platzsparendsten.",
+      caption: "Unsere Bewertung je Kriterium. Die Campingtoilette schneidet bei der Hygiene am besten ab, die Beutel sind am platzsparendsten.",
     },
     steps: {
       kind: "steps",
@@ -152,9 +152,10 @@ export default {
           { quick: "Am wichtigsten sind eine Toilettenlösung ohne Wasser – die [Thetford Porta Potti Qube 145](produkt:1) oder [Toilettenbeutel mit Geliermittel](produkt:2) – und Händedesinfektion wie [Sterillium classic pure](produkt:3). Dazu kommen Müllbeutel, Feuchttücher und ein Hygienevorrat." },
           { first: "Ohne Strom fallen in vielen Gebäuden die Wasserpumpen aus, in Hochhäusern oft schon nach kurzer Zeit. Ohne Wasser funktionieren weder Spülung noch Waschbecken. In einer mehrtägigen Krise ist das nicht nur unangenehm, sondern ein Gesundheitsrisiko: Durchfallerkrankungen breiten sich dort am schnellsten aus, wo Händewaschen und Toilettenhygiene fehlen." },
           { p: "Das BBK empfiehlt deshalb einen Hygienevorrat als festen Teil der Notfallvorsorge: Seife, Zahnbürste und Zahnpasta, Toilettenpapier, Müllbeutel, Haushaltshandschuhe, Desinfektionsmittel – und für längere Ausfälle eine Campingtoilette mit Ersatzbeuteln und Hygienezusätzen." },
-          { p: "Unsere Gesamtwahl ist die Thetford Porta Potti Qube 145, weil sie für eine Familie über mehrere Tage die hygienischste Lösung ist: geschlossen, mit Spülung und geruchsarm. Wer keinen Platz hat oder nur ein, zwei Tage überbrücken muss, ist mit Gel-Toilettenbeuteln gut versorgt – sie passen in jede Schublade." },
+          { p: "Unsere Gesamtwahl ist die Thetford Porta Potti Qube 145, weil sie für eine Familie über mehrere Tage nach unserer Einschätzung die hygienischste Lösung ist: geschlossen, mit Spülung und mit Zusatz geruchsarm. Wer keinen Platz hat oder nur ein, zwei Tage überbrücken muss, ist mit Gel-Toilettenbeuteln gut versorgt – sie passen in jede Schublade." },
           { figure: "scores" },
           { callout: { title: "Nicht spülen, wenn das Abwasser gestört ist", warn: true, text: "Wenn Pumpwerke oder Kläranlagen ausfallen, kann Spülen zu Rückstau führen – bis hin zu Abwasser in tiefer gelegenen Wohnungen und Kellern. Achte auf die Hinweise von Stadtwerken und Behörden und nutze dann eine Notfall-Toilette." } },
+          { callout: { title: "Desinfektionsmittel richtig verwenden", text: "Händedesinfektionsmittel sind je nach Produkt als Arzneimittel oder Biozid zugelassen. Zu Risiken und Nebenwirkungen lesen Sie die Packungsbeilage und fragen Sie Ihre Ärztin, Ihren Arzt oder in Ihrer Apotheke. Kennzeichnung und Gebrauchsanweisung beachten, für Kinder unzugänglich und fern von Zündquellen lagern. Unsere Hinweise ersetzen keine ärztliche Beratung – bei anhaltendem Durchfall, Fieber oder Austrocknung, besonders bei Kindern und älteren Menschen, ärztliche Hilfe suchen." } },
         ],
       },
       {
@@ -175,7 +176,7 @@ export default {
             },
           },
           { h3: "Händedesinfektion: auf die Wirksamkeit achten" },
-          { p: "Händedesinfektionsmittel auf Alkoholbasis wirken gegen Bakterien und behüllte Viren wie Influenza- oder Coronaviren. Gegen unbehüllte Viren wie Noroviren braucht es Mittel mit erweitertem Wirkspektrum – die Angaben „begrenzt viruzid PLUS“ oder „viruzid“ auf dem Etikett zeigen das. Wenn Wasser verfügbar ist, bleibt gründliches Händewaschen mit Seife die Grundlage." },
+          { p: "Händedesinfektionsmittel auf Alkoholbasis wirken laut Herstellerangaben in der Regel gegen Bakterien und behüllte Viren wie Influenza- oder Coronaviren. Gegen unbehüllte Viren wie Noroviren braucht es Mittel mit erweitertem Wirkspektrum – die Angaben „begrenzt viruzid PLUS“ oder „viruzid“ auf dem Etikett zeigen das. Wenn Wasser verfügbar ist, bleibt gründliches Händewaschen mit Seife die Grundlage." },
           { h3: "Hygienevorrat" },
           {
             list: [
@@ -215,7 +216,7 @@ export default {
       "Sanitärzusatz für die Campingtoilette, robuste Müllbeutel, kompostierbare Beutel, ein Desinfektions-Vorrat und eine Lösung für unterwegs.",
     items: [
       { name: "AQAHY Campingtoiletten-Zusatz Tabs", for: "Geruch binden", text: "Tabs für Chemietoiletten, laut Anbieter kompatibel mit gängigen Campingtoiletten wie Thetford Porta Potti.", asin: "B0FBLDP3GZ", query: "AQAHY Campingtoilette Zusatz Tabs" },
-      { name: "WADEO Toilettenbeutel 50 l (80 Stück)", for: "Robuste Müllbeutel", text: "Reißfeste Beutel für Campingtoilette, Eimer und Müll – als Zweitbeutel für verschlossene Gel-Beutel.", asin: "B0CDGMQJCR", query: "WADEO Toilettenbeutel 80 Stück 50 L" },
+      { name: "WADEO Toilettenbeutel 50 l (80 Stück)", for: "Robuste Müllbeutel", text: "Laut Anbieter reißfeste Beutel für Campingtoilette, Eimer und Müll – als Zweitbeutel für verschlossene Gel-Beutel.", asin: "B0CDGMQJCR", query: "WADEO Toilettenbeutel 80 Stück 50 L" },
       { name: "Kompostierbare WC-Beutel (20 Stück)", for: "Umweltfreundlicher", text: "Laut Anbieter nach ASTM D6400 und OK Compost Home zertifiziert – für Trenntoiletten und Eimerlösungen.", asin: "B07JW5NHKS", query: "kompostierbare WC Beutel 20 Stück" },
       { name: "Sterillium 1.000 ml", for: "Desinfektions-Vorrat", text: "Großflasche zum Nachfüllen – für Familien und längere Ausfälle.", asin: "B000VJTQZK", query: "Sterillium 1000 ml" },
       { name: "Gel-Urinbeutel für unterwegs (2 Stück)", for: "Auto & Rucksack", text: "Einweg-Urinbeutel mit Gel für Stau, Evakuierung oder lange Wartezeiten.", asin: "B0D2CPX1SS", query: "Gel Urinbeutel Notfall Reisetoilette" },
@@ -242,13 +243,13 @@ export default {
           },
           {
             facts: [
-              { value: "12 l", label: "Fäkalientank der Porta Potti Qube 145" },
+              { value: "12 l", label: "Fäkalientank der Porta Potti Qube 145 (Herstellerangabe)" },
               { value: "≈ 600 ml", label: "Aufnahme eines Gel-Toilettenbeutels laut Anbieter" },
               { value: "10 Tage", label: "Vorsorgezeitraum, den das BBK empfiehlt" },
             ],
           },
           { h3: "Körperpflege mit wenig Wasser" },
-          { p: "Waschlappen und eine Schüssel mit einem Liter Wasser reichen für eine Katzenwäsche. Feuchttücher ergänzen. Zähneputzen mit einem Becher Wasser. Das Brauchwasser – etwa aus Regentonne oder Badewanne – eignet sich für Körperpflege und Putzen, aber nicht zum Trinken ohne Aufbereitung." },
+          { p: "Waschlappen und eine Schüssel mit einem Liter Wasser reichen für eine Katzenwäsche. Feuchttücher ergänzen. Zähneputzen mit einem Becher Wasser. Das Brauchwasser – etwa aus Regentonne oder Badewanne – eignet sich zum Putzen und für die Toilette; für Körperpflege nur, wenn es sauber ist, und zum Trinken nicht ohne Aufbereitung nach Herstellerangaben – im Zweifel abkochen und Hinweise der Behörden beachten." },
         ],
       },
     ],
@@ -256,9 +257,9 @@ export default {
 
   faqs: [
     { q: "Was tun, wenn die Toilettenspülung im Notfall nicht funktioniert?", a: "Nutze eine Campingtoilette oder setze Toilettenbeutel mit Geliermittel in die Toilettenschüssel oder einen Eimer. Wenn das Abwassersystem gestört ist, nicht spülen, um Rückstau zu vermeiden." },
-    { q: "Welche Campingtoilette ist für den Notfall am besten?", a: "Unsere Empfehlung ist die Thetford Porta Potti Qube 145 mit 12-Liter-Fäkalientank und eigener Spülung aus einem 15-Liter-Frischwassertank. Sie ist geschlossen, geruchsarm und kompakt." },
+    { q: "Welche Campingtoilette ist für den Notfall am besten?", a: "Unsere Empfehlung ist die Thetford Porta Potti Qube 145 mit laut Hersteller 12-Liter-Fäkalientank und eigener Spülung aus einem 15-Liter-Frischwassertank. Sie ist geschlossen, mit Sanitärzusatz geruchsarm und kompakt." },
     { q: "Wie viele Toilettenbeutel braucht man?", a: "Rechne mit mehreren Beuteln pro Person und Tag. Für eine Familie mit vier Personen und zehn Tagen kommen schnell über hundert Beutel zusammen – deshalb lohnt sich bei längeren Ausfällen eine Campingtoilette." },
-    { q: "Wirkt Händedesinfektion gegen alle Erreger?", a: "Alkoholische Händedesinfektion wirkt gegen Bakterien und behüllte Viren. Gegen unbehüllte Viren wie Noroviren braucht es Mittel mit erweitertem Wirkspektrum. Wenn Wasser verfügbar ist, ist Händewaschen mit Seife die Grundlage." },
+    { q: "Wirkt Händedesinfektion gegen alle Erreger?", a: "Nein. Alkoholische Händedesinfektion wirkt in der Regel gegen Bakterien und behüllte Viren. Gegen unbehüllte Viren wie Noroviren braucht es Mittel mit erweitertem Wirkspektrum. Wenn Wasser verfügbar ist, ist Händewaschen mit Seife die Grundlage." },
     { q: "Was gehört in den Hygienevorrat?", a: "Laut BBK unter anderem Seife, Zahnpasta und Zahnbürsten, Toilettenpapier, Müllbeutel, Haushaltshandschuhe und Desinfektionsmittel, für längere Ausfälle auch eine Campingtoilette mit Ersatzbeuteln und Hygienezusätzen." },
     { q: "Wie entsorgt man Toilettenbeutel in einer Krise?", a: "Doppelt verschlossen in einer dichten Tonne, kühl und außerhalb der Wohnräume lagern, bis die Müllabfuhr wieder läuft. Hinweise der Kommune beachten." },
   ],
