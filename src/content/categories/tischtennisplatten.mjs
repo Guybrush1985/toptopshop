@@ -223,7 +223,7 @@ export default {
 
   related: [
     { slug: "shuffleboard-shufflepuck", text: "Shuffleboard für Garten und Partykeller." },
-    { slug: "padel-pickleball", text: "Pickleball und Padel im Garten." },
+    { slug: "airhockey-tische", text: "Airhockey-Tische für den Partykeller." },
     { slug: "flutlicht-sportplatz", text: "Licht für Abendspiele." },
     { area: "private-sportanlagen", text: "Alle Ratgeber für den eigenen Sportplatz." },
   ],

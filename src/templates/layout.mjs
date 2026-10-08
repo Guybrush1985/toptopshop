@@ -77,7 +77,8 @@ function header(current) {
         `<a href="${l.href}"${l.cls ? ` class="${l.cls}"` : ""}${current && current.startsWith(l.href) ? ' aria-current="page"' : ""}>${esc(l.label)}</a>`
     )
     .join("")}</nav>
-</div></header>`;
+</div></header>
+<script>(function(){var n=document.querySelector(".nav"),a=n&&n.querySelector("[aria-current]");if(a&&n.scrollWidth>n.clientWidth)n.scrollLeft=a.offsetLeft-n.offsetLeft-16})()</script>`;
 }
 
 function footer(categories) {

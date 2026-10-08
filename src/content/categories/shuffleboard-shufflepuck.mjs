@@ -227,8 +227,8 @@ export default {
 
   related: [
     { slug: "tischtennisplatten", text: "Tischtennis für Garten und Keller." },
-    { slug: "padel-pickleball", text: "Pickleball und Padel im Garten." },
-    { slug: "court-fliesen-multisport", text: "Court-Fliesen für Spielflächen." },
+    { slug: "airhockey-tische", text: "Airhockey-Tische für den Partykeller." },
+    { slug: "kickertische", text: "Kickertische." },
     { area: "private-sportanlagen", text: "Alle Ratgeber für den eigenen Sportplatz." },
   ],
 };
