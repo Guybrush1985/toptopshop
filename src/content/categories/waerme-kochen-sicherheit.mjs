@@ -33,7 +33,7 @@ export default {
   ],
 
   method:
-    "Grundlage sind Herstellerangaben, die Norm DIN EN 50291 für CO-Melder, die Temperaturangaben nach Schlafsack-Norm, Vorsorgehinweise von BBK und Kommunen zum Kochen und Heizen ohne Strom sowie Kundenerfahrungen. Wir empfehlen ausschließlich Produkte, die bei Amazon erhältlich sind. Weil die drei Produkte unterschiedliche Aufgaben haben, bewerten wir sie nach gemeinsamen Kriterien für den Notfall; jedes Produkt wird von 0 bis 10 eingeordnet, die Gesamtnote ist der gewichtete Mittelwert.",
+    "Grundlage sind Herstellerangaben, die Norm DIN EN 50291 für CO-Melder, die Temperaturangaben nach Schlafsack-Norm, Vorsorgehinweise von BBK und Kommunen zum Kochen und Heizen ohne Strom sowie Kundenerfahrungen. Eigene Tests oder Messungen führen wir nicht durch; die Bewertungen sind redaktionelle Einschätzungen. Wir empfehlen ausschließlich Produkte, die bei Amazon erhältlich sind. Weil die drei Produkte unterschiedliche Aufgaben haben, bewerten wir sie nach gemeinsamen Kriterien für den Notfall; jedes Produkt wird von 0 bis 10 eingeordnet, die Gesamtnote ist der gewichtete Mittelwert.",
 
   products: [
     {
@@ -47,13 +47,13 @@ export default {
       ratings: { sicherheit: 10.0, nutzen: 7.5, handhabung: 9.0, preis: 9.0 },
       bestFor: "Jeden Haushalt mit Feuer, Gas oder Ofen",
       verdict:
-        "Kohlenmonoxid riecht man nicht, sieht man nicht und schmeckt man nicht. Der Ei208D misst laut Hersteller alle vier Sekunden die CO-Konzentration, zeigt sie im Display an und warnt laut, bevor es gefährlich wird – zehn Jahre lang ohne Batteriewechsel.",
+        "Kohlenmonoxid riecht man nicht, sieht man nicht und schmeckt man nicht. Der Ei208D misst laut Hersteller alle vier Sekunden die CO-Konzentration, zeigt sie im Display an und gibt bei erhöhten Werten einen lauten Alarm; die fest eingebaute Batterie ist laut Hersteller auf zehn Jahre ausgelegt.",
       features: [
-        "Elektrochemischer Sensor, Zulassung nach DIN EN 50291-1 für Wohnungen und EN 50291-2 für Wohnmobile und Boote",
-        "LCD-Display mit CO-Konzentration, Ereignisspeicher nach einem Alarm",
+        "Elektrochemischer Sensor, geprüft nach DIN EN 50291-1 für Wohnungen und EN 50291-2 für Wohnmobile und Boote (Herstellerangabe)",
+        "LCD-Display mit CO-Konzentration, Ereignisspeicher nach einem Alarm (Herstellerangabe)",
         "Fest eingebaute 10-Jahres-Lithiumbatterie, Herstellung in Irland (Herstellerangabe)",
       ],
-      pros: ["Warnt vor unsichtbarer Lebensgefahr", "Display zeigt auch niedrige Werte", "Kein Batteriewechsel"],
+      pros: ["Warnt vor unsichtbarem Kohlenmonoxid", "Display zeigt auch niedrige Werte", "Laut Hersteller kein Batteriewechsel nötig"],
       cons: ["Ersetzt keinen Rauchmelder", "Nach 10 Jahren komplett tauschen", "Anleitung nur auf Deutsch"],
       specs: { aufgabe: "Warnen vor Kohlenmonoxid", energie: "10-Jahres-Batterie", einsatz: "Wohnräume, Schlafzimmer, Heizungsraum", achtung: "Rauchmelder trotzdem nötig" },
       asin: "B00Y8DOSXA",
@@ -70,13 +70,13 @@ export default {
       ratings: { sicherheit: 9.0, nutzen: 8.5, handhabung: 8.0, preis: 7.0 },
       bestFor: "Kalte Nächte im Blackout",
       verdict:
-        "Die sicherste Wärmequelle ist die eigene Körperwärme. Ein guter Schlafsack hält sie fest – ohne Brennstoff, Abgase oder Brandgefahr. Der Orbit −5° hat laut deuter eine Komforttemperatur von +1 °C.",
+        "Die aus unserer Sicht risikoärmste Wärmequelle ist die eigene Körperwärme. Ein guter Schlafsack hält sie fest – ohne Brennstoff und ohne Abgase. Der Orbit −5° hat laut deuter eine Komforttemperatur von +1 °C.",
       features: [
-        "Kunstfaserfüllung (High-Loft Hollowfibre), wärmt auch bei Feuchtigkeit",
+        "Kunstfaserfüllung (High-Loft Hollowfibre), wärmt laut Hersteller auch bei Feuchtigkeit",
         "Komforttemperatur +1 °C, Limit −5 °C, Extrem −23 °C (Herstellerangabe)",
-        "Koppelbarer 2-Wege-Reißverschluss, Außenmaterial aus recycelten Materialien",
+        "Koppelbarer 2-Wege-Reißverschluss, Außenmaterial aus recycelten Materialien (Herstellerangabe)",
       ],
-      pros: ["Wärme ohne Energie und Risiko", "Pflegeleichter als Daune", "Auch für Camping nutzbar"],
+      pros: ["Wärme ohne Energie und Abgase", "Pflegeleichter als Daune", "Auch für Camping nutzbar"],
       cons: ["Größeres Packmaß als Daune", "Komforttemperatur liegt über dem Namenswert", "Ein Schlafsack pro Person nötig"],
       specs: { aufgabe: "Warm halten", energie: "keine", einsatz: "Schlafen in kalter Wohnung", achtung: "Isomatte gegen Bodenkälte" },
       asin: "B0BN26NHCM",
@@ -93,9 +93,9 @@ export default {
       ratings: { sicherheit: 6.0, nutzen: 9.0, handhabung: 8.5, preis: 8.5 },
       bestFor: "Kochen auf Balkon, Terrasse, Garten",
       verdict:
-        "Kochen wie am Herd: ein Liter Wasser kocht laut Angaben in gut sechs Minuten, eine Kartusche reicht für rund 75 Minuten. Aber: Kartuschenkocher gehören nach draußen – in Innenräumen drohen Kohlenmonoxid und Brand.",
+        "Kochen fast wie am Herd: Ein Liter Wasser kocht laut Anbieterangaben in gut sechs Minuten, eine Kartusche reicht für rund 75 Minuten. Aber: Kartuschenkocher gehören nach draußen – in Innenräumen drohen Kohlenmonoxid und Brand. Gebrauchsanweisung des Herstellers beachten.",
       features: [
-        "Einflammiger Gaskocher mit 2.200 W, Piezozündung und Kartuschen-Sicherheitsverriegelung",
+        "Einflammiger Gaskocher mit 2.200 W, Piezozündung und Kartuschen-Sicherheitsverriegelung (Herstellerangabe)",
         "Rund 160 g Gas pro Stunde, eine CP-250-Kartusche hält etwa 1 h 15 min (Anbieterangaben)",
         "Set mit vier Ventilkartuschen CP 250, Tragekoffer",
       ],
@@ -151,7 +151,7 @@ export default {
           { quick: "Am wichtigsten ist ein CO-Melder wie der [Ei208D](produkt:1). Dazu kommen ein warmer Schlafsack pro Person wie der [deuter Orbit −5°](produkt:2) und ein Gaskocher wie der [Campingaz Camp Bistro 3](produkt:3), der ausschließlich im Freien benutzt wird." },
           { first: "Bei einem Stromausfall im Winter wird es schneller kalt, als viele denken: Die meisten Gas- und Ölheizungen brauchen Strom für Zündung, Steuerung und Umwälzpumpe. Wärmepumpen ohnehin. Nach ein bis zwei Tagen sinkt die Temperatur in schlecht gedämmten Wohnungen deutlich. Gleichzeitig fehlt der Herd – und damit warmes Essen, heiße Getränke und die Möglichkeit, Wasser abzukochen." },
           { p: "In dieser Lage greifen Menschen zu Lösungen, die für draußen gedacht sind: Holzkohlegrill, Gasheizpilz, Campingkocher. In geschlossenen Räumen entsteht dabei Kohlenmonoxid. Das Gas ist geruchlos, verdrängt den Sauerstoff im Blut und führt zu Kopfschmerzen, Schwindel, Bewusstlosigkeit und Tod. Nach Stromausfällen und Unwettern kommt es immer wieder zu solchen Vergiftungen." },
-          { p: "Deshalb steht der CO-Melder bei uns auf Platz 1, obwohl er weder wärmt noch kocht. Kommunale Ratgeber empfehlen geprüfte CO-Melder ausdrücklich, und sie raten, Kartuschenkocher und Grills nur im Freien zu verwenden. Drinnen sind nur Geräte erlaubt, die ausdrücklich für Innenräume zugelassen sind." },
+          { p: "Deshalb steht der CO-Melder bei uns auf Platz 1, obwohl er weder wärmt noch kocht. Kommunale Ratgeber empfehlen geprüfte CO-Melder ausdrücklich, und sie raten, Kartuschenkocher und Grills nur im Freien zu verwenden. Drinnen kommen nur Geräte infrage, die laut Hersteller ausdrücklich für Innenräume vorgesehen sind – und auch dann nur genau nach Gebrauchsanweisung." },
           { figure: "scores" },
           { callout: { title: "Lebensgefahr durch Kohlenmonoxid", warn: true, text: "Grills, Kartuschenkocher, Heizpilze und Stromerzeuger nie in Wohnung, Keller, Garage oder Zelt betreiben – auch nicht bei offenem Fenster. Bei Kopfschmerzen, Schwindel oder Übelkeit sofort an die frische Luft und 112 rufen. Ein CO-Melder ersetzt keinen Rauchmelder." } },
         ],
@@ -162,19 +162,19 @@ export default {
         blocks: [
           { quick: "CO-Melder: Norm DIN EN 50291, Langzeitbatterie, idealerweise Display. Schlafsack: Komforttemperatur passend zur Raumtemperatur, Kunstfaser oder Daune. Kocher: stabiler Stand, Sicherheitsverriegelung, verfügbare Kartuschen – und ein Platz im Freien." },
           { h3: "CO-Melder richtig platzieren" },
-          { p: "Ein CO-Melder gehört in Räume mit Feuerstätte (Kamin, Gastherme, Ofen) und in Schlafräume, wo eine Vergiftung im Schlaf unbemerkt bliebe. Herstellerangaben zur Montagehöhe und zum Abstand zur Feuerstätte beachten. Rauchwarnmelder sind in allen Bundesländern Pflicht, CO-Melder nicht – sie ergänzen sich, weil Rauchmelder kein Kohlenmonoxid erkennen." },
+          { p: "Ein CO-Melder gehört in Räume mit Feuerstätte (Kamin, Gastherme, Ofen) und in Schlafräume, wo eine Vergiftung im Schlaf unbemerkt bliebe. Herstellerangaben zur Montagehöhe und zum Abstand zur Feuerstätte beachten. Rauchwarnmelder sind nach den Landesbauordnungen in Wohnungen vorgeschrieben (Details je Bundesland), CO-Melder in der Regel nicht – sie ergänzen sich, weil Rauchmelder kein Kohlenmonoxid erkennen." },
           { h3: "Schlafsack: auf die Komforttemperatur achten" },
-          { p: "Schlafsäcke tragen drei Temperaturen: Komfort, Limit und Extrem. Maßgeblich ist der Komfortwert – bei ihm schläft eine Person in entspannter Haltung warm. Der Name „−5°“ beim deuter Orbit bezieht sich auf das Limit, die Komforttemperatur liegt laut deuter bei +1 °C. Für eine ungeheizte Wohnung mit 5 bis 12 °C ist das gut ausreichend, im Freien im Winter nicht." },
+          { p: "Schlafsäcke tragen drei Temperaturen: Komfort, Limit und Extrem. Maßgeblich ist der Komfortwert – bei ihm schläft eine Person in entspannter Haltung warm. Der Name „−5°“ beim deuter Orbit bezieht sich auf das Limit, die Komforttemperatur liegt laut deuter bei +1 °C. Für eine ungeheizte Wohnung mit 5 bis 12 °C reicht das nach unserer Einschätzung in der Regel aus (je nach Kälteempfinden), im Freien im Winter nicht." },
           {
             table: {
               caption: "Kochen ohne Strom: was wo erlaubt ist",
               head: ["Gerät", "Drinnen", "Draußen", "Hinweis"],
               rows: [
                 ["**Kartuschen-Gaskocher**", "nein (außer ausdrücklich für Innenräume zugelassen)", "ja", "Kohlenmonoxid, Brandgefahr"],
-                ["**Holzkohle- und Gasgrill**", "nie", "ja", "Häufigste Ursache von CO-Vergiftungen"],
+                ["**Holzkohle- und Gasgrill**", "nie", "ja", "Häufige Ursache von CO-Vergiftungen"],
                 ["**Esbit- und Trockenbrennstoff**", "nein", "ja", "Für kleine Mengen Wasser"],
-                ["**Fondue-Set, Stövchen**", "mit Vorsicht", "ja", "Nur zum Warmhalten kleiner Mengen"],
-                ["**Powerstation + Wasserkocher**", "ja", "ja", "Braucht viel Akku: ca. 2.000 W"],
+                ["**Fondue-Set, Stövchen**", "nur nach Herstellerangabe, mit Vorsicht", "ja", "Nur zum Warmhalten kleiner Mengen, nie unbeaufsichtigt"],
+                ["**Powerstation + Wasserkocher**", "ja", "ja", "Nur wenn die Ausgangsleistung reicht (oft ca. 2.000 W); Herstellerangaben beachten"],
               ],
             },
           },
@@ -210,8 +210,8 @@ export default {
     items: [
       { name: "Campingaz CP 250 Ventilkartuschen (6er-Pack)", for: "Brennstoff-Vorrat", text: "Isobutan-Mix für Camp Bistro und Festivo; die Ventilkartusche lässt sich vor dem Leerwerden abnehmen.", asin: "B0743CRYF8", query: "Campingaz CP 250 Ventilkartusche 6er" },
       { name: "Esbit Taschenkocher klein mit 6 × 14 g", for: "Zweiter Kocher, sehr klein", text: "Faltbarer Kocher mit Trockenbrennstoff, eine Tablette brennt laut Anbieter etwa 12 Minuten – nur im Freien.", asin: "B001C1UGVO", query: "Esbit Taschenkocher klein Trockenbrennstoff" },
-      { name: "Fashy Wärmflasche 2 L mit Fleecebezug", for: "Wärme für die Nacht", text: "Mit heißem (nicht kochendem) Wasser gefüllt, wärmt sie den Schlafsack vor – laut Fashy nach britischem Standard BS 1970:2012.", asin: "B0B1QL7SCG", query: "Fashy Wärmflasche 2 Liter Fleecebezug" },
-      { name: "Ei Electronics Ei650 Rauchwarnmelder", for: "Brandschutz", text: "Rauchmelder mit 10-Jahres-Batterie – Kerzen und Kocher erhöhen im Blackout das Brandrisiko.", asin: "B007IGQ5SK", query: "Ei Electronics Ei650 Rauchwarnmelder" },
+      { name: "Fashy Wärmflasche 2 L mit Fleecebezug", for: "Wärme für die Nacht", text: "Mit heißem (nicht kochendem) Wasser gefüllt, wärmt sie den Schlafsack vor – laut Fashy nach britischem Standard BS 1970:2012. Füllhinweise des Herstellers beachten, Verbrühungsgefahr.", asin: "B0B1QL7SCG", query: "Fashy Wärmflasche 2 Liter Fleecebezug" },
+      { name: "Ei Electronics Ei650 Rauchwarnmelder", for: "Brandschutz", text: "Rauchmelder mit 10-Jahres-Batterie (Herstellerangabe) – Kerzen und Kocher erhöhen im Blackout das Brandrisiko.", asin: "B007IGQ5SK", query: "Ei Electronics Ei650 Rauchwarnmelder" },
       { name: "deuter Orbit SQ −5° Deckenschlafsack", for: "Als Decke oder gekoppelt", text: "Lässt sich als Decke öffnen oder mit einem zweiten Schlafsack koppeln – praktisch für Paare und Kinder.", asin: "B09MQRGD5M", query: "deuter Orbit SQ -5 Deckenschlafsack" },
     ],
   },
@@ -223,7 +223,8 @@ export default {
         h2: "Wie heizt und kocht man ohne Strom sicher?",
         blocks: [
           { quick: "Halte Körperwärme fest statt improvisiert zu heizen, koche nur im Freien oder mit für Innenräume zugelassenen Geräten und installiere einen CO-Melder. Im Zweifel helfen Notunterkünfte und Wärmestuben der Kommune." },
-          { p: "Die Stadt Karlsbad rät in ihrem Vorsorgeratgeber: Ohne Heizung helfen warme Kleidung, Decken und Schlafsäcke, Fenster und Türen bleiben geschlossen, gelüftet wird kurz und weit geöffnet. Für Innenräume zugelassene Gasheizer, Ethanolkamine oder Petroleumöfen funktionieren ohne Strom – sie verbrauchen aber Sauerstoff und erzeugen Abgase, weshalb ein CO-Melder dann Pflicht sein sollte." },
+          { p: "Die Stadt Karlsbad rät in ihrem Vorsorgeratgeber: Ohne Heizung helfen warme Kleidung, Decken und Schlafsäcke, Fenster und Türen bleiben geschlossen, gelüftet wird kurz und weit geöffnet. Gasheizer, Ethanolkamine oder Petroleumöfen funktionieren zwar ohne Strom – infrage kommen aber nur Geräte, die der Hersteller ausdrücklich für Innenräume vorsieht. Sie verbrauchen Sauerstoff und erzeugen Abgase; ein CO-Melder gehört dann aus unserer Sicht unbedingt dazu." },
+          { callout: { title: "Heizgeräte mit Flamme: nur nach Herstellerangabe", warn: true, text: "Gas-, Petroleum- und Ethanolgeräte in Innenräumen nur betreiben, wenn der Hersteller das ausdrücklich erlaubt – und dann genau nach Gebrauchsanweisung: Raumgröße und Lüftung beachten, nie im Schlafraum oder unbeaufsichtigt, Abstand zu Brennbarem halten, Kinder und Haustiere fernhalten, Brennstoff sicher lagern. In Mietwohnungen kann die Nutzung oder Lagerung zusätzlich durch Mietvertrag oder Hausordnung eingeschränkt sein. Im Zweifel beim Schornsteinfeger oder Hersteller nachfragen." } },
           { figure: "steps" },
           { h3: "Kochen mit wenig Energie" },
           {
@@ -237,8 +238,8 @@ export default {
           {
             facts: [
               { value: "+1 °C", label: "Komforttemperatur des deuter Orbit −5°" },
-              { value: "10 Jahre", label: "Batterielaufzeit des Ei208D" },
-              { value: "≈ 75 min", label: "Brenndauer einer CP-250-Kartusche im Camp Bistro 3" },
+              { value: "10 Jahre", label: "Batterielebensdauer des Ei208D laut Hersteller" },
+              { value: "≈ 75 min", label: "Brenndauer einer CP-250-Kartusche im Camp Bistro 3 (Anbieterangabe)" },
             ],
           },
           { h3: "Wenn es zu kalt wird" },
@@ -249,12 +250,12 @@ export default {
   },
 
   faqs: [
-    { q: "Wie kocht man bei Stromausfall?", a: "Am einfachsten mit einem Gaskartuschenkocher wie dem Campingaz Camp Bistro 3 – aber nur im Freien, etwa auf Balkon oder Terrasse. Drinnen sind nur Geräte erlaubt, die ausdrücklich für Innenräume zugelassen sind. Zum Warmhalten kleiner Mengen eignen sich Stövchen oder Fondue-Set." },
+    { q: "Wie kocht man bei Stromausfall?", a: "Am einfachsten mit einem Gaskartuschenkocher wie dem Campingaz Camp Bistro 3 – aber nur im Freien, etwa auf Balkon oder Terrasse. Drinnen kommen nur Geräte infrage, die laut Hersteller ausdrücklich für Innenräume vorgesehen sind. Zum Warmhalten kleiner Mengen eignen sich Stövchen oder Fondue-Set." },
     { q: "Darf man einen Gaskocher in der Wohnung benutzen?", a: "Kartuschenkocher für Camping sind in der Regel nur für den Außenbereich vorgesehen. In Innenräumen besteht die Gefahr einer Kohlenmonoxidvergiftung und eines Brandes. Beachte immer die Gebrauchsanweisung des Herstellers." },
     { q: "Brauche ich einen CO-Melder?", a: "Ja, wenn du einen Kamin, Ofen, eine Gastherme oder im Notfall andere Verbrennungsgeräte nutzt. Kohlenmonoxid ist geruchlos und wird von Rauchmeldern nicht erkannt. Unsere Empfehlung ist der Ei Electronics Ei208D mit Display." },
     { q: "Wie hält man die Wohnung ohne Heizung warm?", a: "Einen Raum gemeinsam bewohnen, Türen zu den übrigen Räumen schließen, Rollläden und Vorhänge zu, Zugluft abdichten. Mehrere Kleidungsschichten, Mütze und Socken tragen und nachts im Schlafsack auf einer Isomatte schlafen." },
     { q: "Welcher Schlafsack eignet sich für den Stromausfall?", a: "Einer mit einer Komforttemperatur um 0 °C, etwa der deuter Orbit −5° mit +1 °C Komfort. Für eine ungeheizte Wohnung reicht das in der Regel. Wichtig ist eine Isomatte gegen die Bodenkälte." },
-    { q: "Welche Symptome hat eine Kohlenmonoxidvergiftung?", a: "Typisch sind Kopfschmerzen, Schwindel, Übelkeit, Müdigkeit und Verwirrtheit – oft bei mehreren Personen gleichzeitig. Sofort an die frische Luft, Fenster öffnen, Gerät abschalten (wenn gefahrlos möglich) und 112 rufen." },
+    { q: "Welche Symptome hat eine Kohlenmonoxidvergiftung?", a: "Typisch sind Kopfschmerzen, Schwindel, Übelkeit, Müdigkeit und Verwirrtheit – oft bei mehreren Personen gleichzeitig. Sofort an die frische Luft, Fenster öffnen, Gerät abschalten (wenn gefahrlos möglich) und 112 rufen. Diese Hinweise ersetzen keine ärztliche Beratung." },
   ],
 
   sources: [

@@ -16,7 +16,7 @@ export default {
   eyebrow: "Krisenvorsorge · Lebensmittel & Lagerung",
   h1: "Die 3 besten Notnahrung-Vorräte 2026",
   lead:
-    "Das BBK empfiehlt einen Lebensmittelvorrat für zehn Tage. Den größten Teil bilden Lebensmittel, die man ohnehin isst. Langzeit-Notnahrung ist die Reserve dahinter: einmal kaufen, einlagern und erst in 10 bis 20 Jahren wieder daran denken. Diese drei Produkte eignen sich am besten.",
+    "Das BBK empfiehlt einen Lebensmittelvorrat für zehn Tage. Den größten Teil bilden Lebensmittel, die man ohnehin isst. Langzeit-Notnahrung ist die Reserve dahinter: einmal kaufen, einlagern und – je nach aufgedrucktem Mindesthaltbarkeitsdatum – erst nach vielen Jahren austauschen. Diese drei Produkte eignen sich nach unserer Einschätzung am besten.",
   answer:
     "Unsere beste Gesamtwahl ist die [**NRG-5 Notverpflegung im 24er-Karton**](produkt:1): sofort essbar, ohne Wasser und Kochen, laut Anbieter je nach Packung 15 bis 20 Jahre haltbar. Warme Mahlzeiten mit rund 15 Jahren Haltbarkeit liefert der [**Trek'n Eat Emergency Line Jägertopf**](produkt:2); ein fertiges Paket für zehn Tage ist das [**Notfallpaket 10T mit Fertiggerichten**](produkt:3).",
 
@@ -33,7 +33,7 @@ export default {
   ],
 
   method:
-    "Grundlage sind die Vorratsempfehlungen des BBK, Herstellerangaben zu Haltbarkeit, Energiegehalt und Zubereitung sowie Kundenerfahrungen zu Geschmack und Verpackung. Wir haben die Produkte nicht verkostet. Wir empfehlen ausschließlich Produkte, die bei Amazon erhältlich sind. Jedes Produkt wird in vier Kriterien von 0 bis 10 eingeordnet; die Gesamtnote ist der gewichtete Mittelwert.",
+    "Grundlage sind die Vorratsempfehlungen des BBK, Herstellerangaben zu Haltbarkeit, Energiegehalt und Zubereitung sowie Kundenerfahrungen zu Geschmack und Verpackung. Wir haben die Produkte nicht verkostet und nicht selbst getestet; die Bewertungen sind redaktionelle Einschätzungen. Wir empfehlen ausschließlich Produkte, die bei Amazon erhältlich sind. Jedes Produkt wird in vier Kriterien von 0 bis 10 eingeordnet; die Gesamtnote ist der gewichtete Mittelwert.",
 
   products: [
     {
@@ -47,13 +47,13 @@ export default {
       ratings: { haltbar: 9.0, naehrwert: 7.0, zubereitung: 10.0, preis: 8.0 },
       bestFor: "Reserve ohne Wasser und Kocher",
       verdict:
-        "Die einfachste Reserve: kompakte Riegel, die ohne Wasser, Strom und Kocher sofort essbar sind. Im Karton mit 24 Packungen liegen 12 Kilogramm Notration – genug Energie-Reserve für mehrere Personen über Tage.",
+        "Aus unserer Sicht die einfachste Reserve: kompakte Riegel, die laut Anbieter ohne Wasser, Strom und Kocher sofort essbar sind. Im Karton mit 24 Packungen liegen 12 Kilogramm Notration – genug Energie-Reserve für mehrere Personen über Tage.",
       features: [
         "Notration in 500-g-Packungen mit mehreren Riegeln, vegan und laktosefrei (Anbieterangaben)",
         "Laut Anbietern je nach Packung 15 bis 20 Jahre haltbar bei trockener, kühler Lagerung – MHD auf der Packung prüfen",
         "Sofort essbar, erzeugt laut Hersteller kaum Durst",
       ],
-      pros: ["Keine Zubereitung", "Sehr lange haltbar", "Platzsparend"],
+      pros: ["Keine Zubereitung", "Laut Anbieter sehr lange haltbar", "Platzsparend"],
       cons: ["Wenig Abwechslung", "Kein Ersatz für warme Mahlzeiten über viele Tage", "Haltbarkeitsangaben je nach Packung unterschiedlich"],
       specs: { art: "Riegel (Notration)", haltbarkeit: "15–20 Jahre (Anbieter)", zubereitung: "keine", menge: "24 × 500 g", ernaehrung: "vegan, laktosefrei" },
       asin: "B00AGUZAC2",
@@ -74,10 +74,10 @@ export default {
       features: [
         "Gefriergetrocknet, 6 Mahlzeiten pro Dose, rund 417 kcal pro 100 g (Herstellerangabe)",
         "Laut Anbieter bis zu 15 Jahre haltbar in der Dose",
-        "Zubereitung mit heißem Wasser; weitere Gerichte der Emergency Line verfügbar",
+        "Zubereitung mit heißem Wasser nach Packungsangabe; weitere Gerichte der Emergency Line verfügbar",
       ],
-      pros: ["Vollwertige Mahlzeit", "Lange haltbar", "Mehrere Sorten kombinierbar"],
-      cons: ["Braucht Wasser und Kocher", "Teurer pro Tag als Riegel", "Dose nach Öffnung zügig verbrauchen"],
+      pros: ["Sättigende warme Mahlzeit", "Laut Anbieter lange haltbar", "Mehrere Sorten kombinierbar"],
+      cons: ["Braucht Wasser und Kocher", "Teurer pro Tag als Riegel", "Dose nach Öffnung zügig verbrauchen; Allergene laut Packung prüfen"],
       specs: { art: "gefriergetrocknete Mahlzeit", haltbarkeit: "bis 15 Jahre (Anbieter)", zubereitung: "heißes Wasser", menge: "6 Mahlzeiten", ernaehrung: "mit Rindfleisch" },
       asin: "B07CJMQMPL",
       query: "Trek'n Eat Emergency Line Jägertopf Rindfleisch Nudeln",
@@ -93,11 +93,11 @@ export default {
       ratings: { haltbar: 6.5, naehrwert: 9.0, zubereitung: 8.0, preis: 6.5 },
       bestFor: "Alles auf einmal, ohne Planen",
       verdict:
-        "Ein Karton, zehn Tage: Fertiggerichte, Brot, Zwieback, Käse, Wurst und Schokolade in einem Paket. Wer keine Zeit hat, einen Vorrat selbst zusammenzustellen, ist damit schnell versorgt.",
+        "Ein Karton, zehn Tage: laut Anbieter Fertiggerichte, Brot, Zwieback, Käse, Wurst und Schokolade in einem Paket. Wer keine Zeit hat, einen Vorrat selbst zusammenzustellen, ist damit schnell versorgt.",
       features: [
         "Komplettpaket mit Fertiggerichten und Beilagen für zehn Tage (Anbieterangaben)",
         "Laut Anbietern meist 6 bis 10 Jahre haltbar",
-        "Viele Bestandteile auch kalt essbar",
+        "Viele Bestandteile auch kalt essbar (Anbieterangabe)",
       ],
       pros: ["Komplett ohne Planung", "Abwechslungsreich", "Viele Teile ohne Kochen essbar"],
       cons: ["Kürzere Haltbarkeit als Riegel", "Teuer", "Sperriger Karton"],
@@ -152,7 +152,7 @@ export default {
           { quick: "Als Reserve ohne Zubereitung ist die [NRG-5 Notverpflegung](produkt:1) die beste Wahl. Für warme Mahlzeiten empfehlen wir den [Trek'n Eat Jägertopf](produkt:2), für einen kompletten 10-Tage-Vorrat ohne Planung das [Notfallpaket 10T](produkt:3)." },
           { first: "Supermärkte haben nur für wenige Tage Ware im Lager. Fallen Strom, Logistik oder Kassensysteme aus, sind die Regale schnell leer. Das BBK empfiehlt deshalb jedem Haushalt einen Vorrat für zehn Tage – möglichst aus Lebensmitteln, die ohne Kühlung lagern und zur Not auch kalt gegessen werden können." },
           { p: "Den Kern des Vorrats bilden Dinge, die man im Alltag verbraucht und regelmäßig nachkauft: Nudeln, Reis, Haferflocken, Konserven, Hülsenfrüchte, Nüsse, Trockenobst. So bleibt der Vorrat frisch. Langzeit-Notnahrung ist die zweite Ebene: Sie liegt jahrelang unberührt und springt ein, wenn der Alltagsvorrat aufgebraucht ist oder man schnell mit wenig Gepäck aufbrechen muss." },
-          { p: "Unsere Gesamtwahl ist die NRG-5 Notverpflegung, weil sie die beiden wichtigsten Anforderungen an eine Reserve erfüllt: extrem lange Haltbarkeit und keine Zubereitung. Allerdings gehen die Haltbarkeitsangaben je nach Packung und Anbieter auseinander – von 10 über 15 bis 20 Jahren. Maßgeblich ist das Datum auf der Packung." },
+          { p: "Unsere Gesamtwahl ist die NRG-5 Notverpflegung, weil sie nach unserer Einschätzung die beiden wichtigsten Anforderungen an eine Reserve erfüllt: laut Anbieter sehr lange Haltbarkeit und keine Zubereitung. Allerdings gehen die Haltbarkeitsangaben je nach Packung und Anbieter auseinander – von 10 über 15 bis 20 Jahren. Maßgeblich ist das Datum auf der Packung." },
           { figure: "scores" },
           { callout: { title: "Ohne Wasser kein Vorrat", warn: true, text: "Gefriergetrocknete Mahlzeiten brauchen heißes Wasser, und selbst Riegel machen durstig. Plane zusätzlich zum Lebensmittelvorrat 2 Liter Wasser pro Person und Tag ein – laut BBK 20 Liter für zehn Tage." } },
         ],
@@ -175,11 +175,11 @@ export default {
             },
           },
           { h3: "Haltbarkeit richtig lesen" },
-          { p: "Das Mindesthaltbarkeitsdatum ist kein Verfallsdatum: Trockene Lebensmittel sind oft deutlich länger genießbar, wenn die Verpackung intakt ist. Für die Planung zählt trotzdem das aufgedruckte Datum. Notiere es auf einer Liste oder direkt auf dem Karton und plane den Austausch rechtzeitig." },
+          { p: "Das Mindesthaltbarkeitsdatum ist kein Verfallsdatum – anders als das Verbrauchsdatum („zu verbrauchen bis“) bei leicht verderblichen Lebensmitteln. Trockene Lebensmittel sind oft länger genießbar, wenn die Verpackung intakt ist und sie richtig gelagert wurden; eine Garantie gibt es dafür nicht. Für die Planung zählt trotzdem das aufgedruckte Datum. Notiere es auf einer Liste oder direkt auf dem Karton und plane den Austausch rechtzeitig." },
           { h3: "Energie und Abwechslung" },
           { p: "Ein Erwachsener braucht grob 2.000 bis 2.500 Kilokalorien am Tag, bei Kälte und körperlicher Arbeit mehr. Notrationen sind darauf ausgelegt, viel Energie auf wenig Raum zu liefern. Über zehn Tage wird ein einziges Produkt aber eintönig – kombiniere Riegel, warme Mahlzeiten und Alltagsvorrat." },
           { h3: "Besondere Bedürfnisse" },
-          { p: "Denke an Babynahrung, Diäten, Allergien und Unverträglichkeiten, an Medikamente, die mit Mahlzeiten eingenommen werden, und an Haustiere. NRG-5 ist laut Anbieter vegan und laktosefrei; es gibt auch eine glutenfreie Variante (NRG-5 Zero)." },
+          { p: "Denke an Babynahrung, Diäten, Allergien und Unverträglichkeiten, an Medikamente, die mit Mahlzeiten eingenommen werden, und an Haustiere. NRG-5 ist laut Anbieter vegan und laktosefrei; es gibt auch eine laut Anbieter glutenfreie Variante (NRG-5 Zero). Verlass dich bei Allergien nicht auf diese Übersicht: Zutatenliste und Allergenkennzeichnung auf jeder Packung prüfen, denn Rezepturen können sich ändern." },
         ],
       },
       {
@@ -208,10 +208,10 @@ export default {
     intro:
       "Glutenfrei, besonders lange haltbar, als kleineres Paket oder als einzelne Mahlzeit: Diese fünf Produkte ergänzen die Top 3.",
     items: [
-      { name: "BP ER Elite Emergency Food", for: "Riegel-Alternative", text: "Kompakte Notverpflegung, vom Anbieter mit sehr langer Haltbarkeit beworben; laut Kundenbericht trägt die Packung ein kürzeres MHD – Aufdruck prüfen.", asin: "B013Q01BF8", query: "BP ER Emergency Food" },
+      { name: "BP ER Elite Emergency Food", for: "Riegel-Alternative", text: "Kompakte Notverpflegung, vom Anbieter mit sehr langer Haltbarkeit beworben; Kundenberichten zufolge kann das aufgedruckte MHD kürzer ausfallen – Aufdruck prüfen.", asin: "B013Q01BF8", query: "BP ER Emergency Food" },
       { name: "NRG-5 Zero glutenfrei", for: "Glutenfrei", text: "Glutenfreie Variante der NRG-5 in 500-g-Packungen, laut Anbieter mindestens 15 Jahre haltbar.", asin: "B07DX92V1X", query: "NRG-5 Zero glutenfrei" },
       { name: "Trek'n Eat Emergency Line Ungarntopf", for: "Zweite Sorte", text: "Gefriergetrockneter Ungarntopf mit Rindfleisch und Nudeln in der 600-g-Dose, laut Anbieter rund 15 Jahre haltbar.", asin: "B07CJFK1YV", query: "Trek'n Eat Emergency Line Ungarntopf" },
-      { name: "Trek'n Eat Emergency Kartoffeleintopf", for: "Dritte Sorte", text: "Deftiger Kartoffeleintopf mit Rind und Bohnen in der 500-g-Dose – für Abwechslung im Vorrat.", asin: "B08WLZ6J37", query: "Trek'n Eat Emergency Kartoffeleintopf" },
+      { name: "Trek'n Eat Emergency Kartoffeleintopf", for: "Dritte Sorte", text: "Kartoffeleintopf mit Rind und Bohnen in der 500-g-Dose (Anbieterangabe) – für Abwechslung im Vorrat.", asin: "B08WLZ6J37", query: "Trek'n Eat Emergency Kartoffeleintopf" },
       { name: "Notfallpaket 5T mit Fertiggerichten (Fleisch)", for: "Halber Vorrat", text: "Das kleinere Paket für fünf Tage – als Ergänzung zum eigenen Alltagsvorrat.", asin: "B0888MR39L", query: "Notfallpaket 5T Fleisch" },
     ],
   },
@@ -235,6 +235,7 @@ export default {
               "**Dosenöffner nicht vergessen** – ein manueller Öffner gehört zum Vorrat.",
             ],
           },
+          { callout: { title: "Lebensmittelsicherheit", warn: true, text: "Beschädigte, aufgeblähte oder undichte Dosen und Beutel nicht verzehren. Geöffnete Packungen nach Herstellerangabe lagern und zügig verbrauchen, zubereiten nur mit Wasser in Trinkwasserqualität. Allergene und Zutaten auf jeder Packung prüfen. Für Säuglinge, Schwangere, Kranke und Menschen mit besonderer Ernährung ärztlich oder fachlich abklären, was in den Vorrat gehört – diese Übersicht ersetzt keine Ernährungs- oder ärztliche Beratung." } },
           {
             facts: [
               { value: "10 Tage", label: "Vorrat, den das BBK empfiehlt" },
@@ -243,7 +244,7 @@ export default {
             ],
           },
           { h3: "Im Ernstfall" },
-          { p: "Verbrauche zuerst, was im Kühlschrank und in der Tiefkühltruhe verderben würde, dann den Alltagsvorrat und zuletzt die Langzeit-Reserve. Ein voller, geschlossener Gefrierschrank hält die Kälte oft einen Tag oder länger – öffne ihn so selten wie möglich." },
+          { p: "Verbrauche zuerst, was im Kühlschrank und in der Tiefkühltruhe verderben würde, dann den Alltagsvorrat und zuletzt die Langzeit-Reserve. Ein voller, geschlossener Gefrierschrank hält die Kälte je nach Gerät oft einen Tag oder länger (siehe „Lagerzeit bei Störung“ in der Bedienungsanleitung) – öffne ihn so selten wie möglich. Aufgetaute Lebensmittel zügig verbrauchen und im Zweifel entsorgen." },
         ],
       },
     ],
@@ -252,9 +253,9 @@ export default {
   faqs: [
     { q: "Wie viel Notvorrat sollte man haben?", a: "Das BBK empfiehlt einen Lebensmittelvorrat für zehn Tage und 2 Liter Wasser pro Person und Tag. Der BBK-Vorratskalkulator rechnet die Mengen für deinen Haushalt aus." },
     { q: "Welche Notnahrung ist am längsten haltbar?", a: "Notration-Riegel wie NRG-5 werden mit 15 bis 20 Jahren angeboten, gefriergetrocknete Mahlzeiten wie Trek'n Eat Emergency Line mit rund 15 Jahren. Maßgeblich ist das aufgedruckte Mindesthaltbarkeitsdatum." },
-    { q: "Kann man Notnahrung nach dem MHD noch essen?", a: "Trockene, gut verpackte Lebensmittel sind oft länger genießbar. Prüfe Verpackung, Geruch, Aussehen und Geschmack. Ist die Verpackung beschädigt oder aufgebläht, nicht mehr essen." },
+    { q: "Kann man Notnahrung nach dem MHD noch essen?", a: "Trockene, gut verpackte Lebensmittel sind oft länger genießbar. Prüfe Verpackung, Geruch, Aussehen und Geschmack. Ist die Verpackung beschädigt oder aufgebläht, nicht mehr essen – im Zweifel lieber entsorgen." },
     { q: "Braucht man für Notnahrung Wasser?", a: "Riegel sind ohne Zubereitung essbar, gefriergetrocknete Mahlzeiten brauchen heißes Wasser. Plane in jedem Fall Trinkwasser ein – laut BBK 2 Liter pro Person und Tag." },
-    { q: "Ist Notnahrung für Kinder geeignet?", a: "Notrationen und Fertiggerichte sind für Erwachsene gedacht. Für Kleinkinder gehört passende Babynahrung in den Vorrat. Bei Allergien und Unverträglichkeiten die Zutatenliste prüfen." },
+    { q: "Ist Notnahrung für Kinder geeignet?", a: "Notrationen und Fertiggerichte sind für Erwachsene gedacht. Für Säuglinge und Kleinkinder gehört passende Babynahrung in den Vorrat; im Zweifel die Kinderarztpraxis fragen. Bei Allergien und Unverträglichkeiten die Zutatenliste und Allergenkennzeichnung prüfen." },
     { q: "Lohnen sich Notfallpakete?", a: "Sie sind praktisch, wenn man schnell und ohne Planung vorsorgen will, aber teurer als ein selbst zusammengestellter Vorrat und oft kürzer haltbar als Riegel. Kombiniert mit einem Alltagsvorrat sind sie eine gute Ergänzung." },
   ],
 

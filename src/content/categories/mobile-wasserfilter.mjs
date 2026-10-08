@@ -16,7 +16,7 @@ export default {
   eyebrow: "Krisenvorsorge · Wasserversorgung",
   h1: "Die 3 besten mobilen Wasserfilter 2026",
   lead:
-    "Wenn aus dem Hahn nichts mehr kommt, wird Wasser aus Bach, See oder Regentonne zur Reserve. Ein Hohlfaserfilter macht es in Minuten frei von Bakterien und Parasiten – ohne Strom und ohne Chemie. Diese drei Filter sind die beste Wahl.",
+    "Wenn aus dem Hahn nichts mehr kommt, wird Wasser aus Bach, See oder Regentonne zur Reserve. Ein Hohlfaserfilter hält laut Herstellern Bakterien und Parasiten zurück – ohne Strom und ohne Chemie. Diese drei Filter sind nach unserer Einschätzung die beste Wahl.",
   answer:
     "Unsere beste Gesamtwahl ist der [**Sawyer Squeeze SP129**](produkt:1): 0,1-µm-Filter, schneller Durchfluss und rückspülbar. Für Familie und Zuhause ist der Schwerkraftfilter [**Katadyn Gravity BeFree 3 L**](produkt:2) am bequemsten; am einfachsten unterwegs ist der [**Katadyn BeFree**](produkt:3) mit faltbarer Trinkflasche.",
 
@@ -33,7 +33,7 @@ export default {
   ],
 
   method:
-    "Grundlage sind Herstellerangaben zu Porengröße, Rückhalt, Durchfluss und Kapazität, Vergleichstests von Outdoor-Magazinen (u. a. Outdoor Life und outdoor-magazin.com), die Hinweise des Umweltbundesamts zum Abkochen von Trinkwasser sowie die Vorsorgeempfehlungen des BBK. Einen Test der Stiftung Warentest zu Outdoor-Wasserfiltern haben wir nicht gefunden. Wir empfehlen ausschließlich Produkte, die bei Amazon erhältlich sind. Jeder Filter wird in vier Kriterien von 0 bis 10 eingeordnet; die Gesamtnote ist der gewichtete Mittelwert.",
+    "Grundlage sind Herstellerangaben zu Porengröße, Rückhalt, Durchfluss und Kapazität, Vergleichstests von Outdoor-Magazinen (u. a. Outdoor Life und outdoor-magazin.com), die Hinweise des Umweltbundesamts zum Abkochen von Trinkwasser sowie die Vorsorgeempfehlungen des BBK. Einen Test der Stiftung Warentest zu Outdoor-Wasserfiltern haben wir nicht gefunden. Eigene Labor- oder Praxistests führen wir nicht durch; die Bewertungen sind redaktionelle Einschätzungen. Wir empfehlen ausschließlich Produkte, die bei Amazon erhältlich sind. Jeder Filter wird in vier Kriterien von 0 bis 10 eingeordnet; die Gesamtnote ist der gewichtete Mittelwert.",
 
   products: [
     {
@@ -47,9 +47,9 @@ export default {
       ratings: { keime: 8.5, leistung: 9.0, handhabung: 8.0, preis: 8.5 },
       bestFor: "Notfallrucksack & Allround",
       verdict:
-        "Der vielseitigste Filter: Er lässt sich auf Beutel und viele Flaschen schrauben, in einen Trinkschlauch einbauen oder als Schwerkraftfilter nutzen – und durch Rückspülen immer wieder reinigen.",
+        "Aus unserer Sicht der vielseitigste Filter: Er lässt sich auf Beutel und viele Flaschen schrauben, in einen Trinkschlauch einbauen oder als Schwerkraftfilter nutzen – und durch Rückspülen immer wieder reinigen.",
       features: [
-        "Hohlfaserfilter mit 0,1 µm absoluter Porengröße; laut Sawyer über 99,9999 % der Bakterien und 99,999 % der Protozoen",
+        "Hohlfaserfilter; laut Sawyer 0,1 µm absolute Porengröße und Rückhalt von über 99,9999 % der Bakterien und 99,999 % der Protozoen",
         "Bis zu 1,7 Liter pro Minute laut Hersteller, Reinigung durch Rückspülen",
         "Lieferumfang laut Anbieter: Filter, zwei 1-Liter-Beutel, Inline-Adapter, Netzbeutel",
       ],
@@ -73,8 +73,8 @@ export default {
         "Beutel füllen, aufhängen, abwarten: Der Schwerkraftfilter liefert laut Katadyn bis zu 2 Liter pro Minute – ohne Pumpen oder Drücken. Ideal, um für mehrere Personen Wasser aufzubereiten.",
       features: [
         "3-Liter-Reservoir mit BeFree-Filter (0,1 µm) und Schlauch, laut Hersteller für 2 bis 5 Personen",
-        "Bis zu 2 Liter pro Minute, Kapazität bis zu 1.000 Liter je nach Wasserqualität",
-        "Reinigung durch Schütteln oder Schwenken – ohne Rückspülen",
+        "Bis zu 2 Liter pro Minute, Kapazität bis zu 1.000 Liter je nach Wasserqualität (Herstellerangabe)",
+        "Reinigung durch Schütteln oder Schwenken – ohne Rückspülen (Herstellerangabe)",
       ],
       pros: ["Kein Kraftaufwand", "Gut für Familien", "Einfache Reinigung"],
       cons: ["Kein Schutz vor Viren", "Kleinere Gesamtkapazität als der Sawyer", "Braucht einen Aufhängepunkt"],
@@ -93,14 +93,14 @@ export default {
       ratings: { keime: 8.5, leistung: 7.0, handhabung: 9.0, preis: 8.0 },
       bestFor: "Jacken- und Handtasche, Kinder",
       verdict:
-        "Flasche füllen, Filter aufschrauben, trinken: einfacher geht Wasseraufbereitung nicht. Das outdoor-magazin kürte den BeFree 2018 zum Testsieger, Outdoor Life zum am einfachsten zu bedienenden Filter.",
+        "Flasche füllen, Filter aufschrauben, trinken: Einfacher geht Wasseraufbereitung kaum. Das outdoor-magazin hat den BeFree in einem Testbericht positiv bewertet, Outdoor Life nennt ihn in seinem Vergleich den am einfachsten zu bedienenden Filter.",
       features: [
-        "Hohlfasermembran mit 0,1 µm in einer faltbaren Soft-Flasche",
+        "Hohlfasermembran mit 0,1 µm in einer faltbaren Soft-Flasche (Herstellerangabe)",
         "Kapazität bis zu 1.000 Liter laut Katadyn, Ersatzfilter für alle BeFree-Größen",
         "Rollt sich leer auf Handflächengröße zusammen",
       ],
-      pros: ["Kinderleicht", "Sehr leicht und klein", "Schneller Durchfluss beim Trinken"],
-      cons: ["Kein Schutz vor Viren", "Kleinere Kapazität", "Deckel laut Testern etwas fummelig"],
+      pros: ["Sehr einfache Bedienung", "Sehr leicht und klein", "Schneller Durchfluss beim Trinken"],
+      cons: ["Kein Schutz vor Viren", "Kleinere Kapazität", "Deckel laut Erfahrungsberichten etwas fummelig"],
       specs: { bauform: "Soft-Flasche", poren: "0,1 µm", viren: "nein", durchfluss: "schnell (Trinkflasche)", reinigung: "Schütteln", gewicht: "sehr leicht" },
       asin: "B01IKI72E0",
       query: "Katadyn BeFree Wasserfilter",
@@ -152,10 +152,10 @@ export default {
         blocks: [
           { quick: "Der [Sawyer Squeeze SP129](produkt:1) ist für die meisten der beste Filter: vielseitig, schnell und rückspülbar. Für mehrere Personen ist der [Katadyn Gravity BeFree 3 L](produkt:2) bequemer, der [Katadyn BeFree](produkt:3) ist der einfachste Filter für unterwegs." },
           { first: "Mobile Wasserfilter sind für Wanderer entwickelt worden, aber sie lösen ein Kernproblem der Krisenvorsorge: Wasser gibt es fast überall – in Bächen, Seen, Regentonnen oder dem Swimmingpool der Nachbarn. Es ist nur nicht ohne Weiteres trinkbar. Krankheitserreger wie Bakterien und einzellige Parasiten (Giardien, Kryptosporidien) können schwere Durchfallerkrankungen auslösen." },
-          { p: "Hohlfasermembranen mit 0,1 µm Porengröße halten diese Erreger mechanisch zurück. Das Wasser wird durch tausende feine Röhrchen gedrückt oder läuft per Schwerkraft hindurch. Es braucht dafür weder Strom noch Chemie, und das Wasser schmeckt danach wie vorher. Der Sawyer Squeeze und die Katadyn-BeFree-Filter arbeiten nach diesem Prinzip." },
-          { p: "Unsere Gesamtwahl ist der Sawyer Squeeze, weil er die beste Mischung aus Durchfluss, Vielseitigkeit und Lebensdauer bietet. Er passt auf Beutel und viele Flaschen, lässt sich in einen Trinkschlauch oder ein Schwerkraftsystem einbauen und wird durch Rückspülen gereinigt. Outdoor Life zeichnete ihn als bestes Preis-Leistungs-Verhältnis aus, den Katadyn BeFree als am einfachsten zu bedienen und den Gravity BeFree als besten Schwerkraftfilter." },
+          { p: "Hohlfasermembranen mit 0,1 µm Porengröße halten diese Erreger laut Herstellern mechanisch zurück. Das Wasser wird durch tausende feine Röhrchen gedrückt oder läuft per Schwerkraft hindurch. Es braucht dafür weder Strom noch Chemie, und das Wasser schmeckt danach wie vorher. Der Sawyer Squeeze und die Katadyn-BeFree-Filter arbeiten nach diesem Prinzip." },
+          { p: "Unsere Gesamtwahl ist der Sawyer Squeeze, weil er nach unserer Einschätzung die beste Mischung aus Durchfluss, Vielseitigkeit und Lebensdauer bietet. Er passt auf Beutel und viele Flaschen, lässt sich in einen Trinkschlauch oder ein Schwerkraftsystem einbauen und wird durch Rückspülen gereinigt. Outdoor Life nennt ihn in seinem Vergleich „Best Backpacking Water Filters“ das beste Preis-Leistungs-Verhältnis, den Katadyn BeFree als am einfachsten zu bedienen und den Gravity BeFree als besten Schwerkraftfilter." },
           { figure: "scores" },
-          { callout: { title: "Die Lücke: Viren", warn: true, text: "Hohlfaserfilter mit 0,1 µm halten Viren nicht zuverlässig zurück. In Mitteleuropa können Oberflächengewässer unterhalb von Kläranlagen oder Siedlungen Viren enthalten. Wasser dann zusätzlich sprudelnd abkochen oder mit Entkeimungstabletten behandeln – oder einen Purifier wie den MSR Guardian nutzen." } },
+          { callout: { title: "Die Lücke: Viren", warn: true, text: "Hohlfaserfilter mit 0,1 µm halten Viren nicht zuverlässig zurück. In Mitteleuropa können Oberflächengewässer unterhalb von Kläranlagen oder Siedlungen Viren enthalten. Wasser dann zusätzlich sprudelnd abkochen oder mit Entkeimungstabletten behandeln – oder einen Purifier wie den MSR Guardian nutzen. Kein mobiler Filter garantiert einwandfreies Trinkwasser: Gebrauchsanweisung des Herstellers beachten und im Zweifel abkochen." } },
         ],
       },
       {
@@ -169,14 +169,14 @@ export default {
               head: ["Filterart", "Hält zurück", "Stärke", "Schwäche"],
               rows: [
                 ["**Hohlfaser 0,1 µm**", "Bakterien, Protozoen", "Leicht, schnell", "Keine Viren, frostempfindlich"],
-                ["**Keramik 0,2 µm**", "Bakterien, Protozoen", "Sehr langlebig, reinigbar", "Schwer, langsamer"],
-                ["**Purifier (z. B. 0,02 µm)**", "zusätzlich Viren", "Umfassender Schutz", "Teuer, schwer"],
+                ["**Keramik 0,2 µm**", "Bakterien, Protozoen", "Langlebig, reinigbar", "Schwer, langsamer"],
+                ["**Purifier (z. B. 0,02 µm)**", "laut Hersteller zusätzlich Viren", "Breiterer Rückhalt", "Teuer, schwer"],
                 ["**Aktivkohle**", "Geruch, Geschmack, manche Chemikalien", "Verbessert den Geschmack", "Keine Keime"],
               ],
             },
           },
           { h3: "Durchfluss und Kapazität" },
-          { p: "Im Notfall brauchst du pro Person rund 2 Liter am Tag zum Trinken und Kochen. Mit 1,7 bis 2 Litern pro Minute sind die Filter in unserer Auswahl schnell genug für eine Familie. Wichtiger ist die Gesamtkapazität: Katadyn nennt für die BeFree-Filter bis zu 1.000 Liter, der Sawyer Squeeze lässt sich durch Rückspülen deutlich länger nutzen. Keramikfilter wie der Katadyn Pocket schaffen laut Hersteller bis zu 50.000 Liter." },
+          { p: "Im Notfall brauchst du pro Person rund 2 Liter am Tag zum Trinken und Kochen. Mit laut Herstellern 1,7 bis 2 Litern pro Minute sind die Filter in unserer Auswahl schnell genug für eine Familie. Wichtiger ist die Gesamtkapazität: Katadyn nennt für die BeFree-Filter bis zu 1.000 Liter, der Sawyer Squeeze lässt sich durch Rückspülen deutlich länger nutzen. Keramikfilter wie der Katadyn Pocket schaffen laut Hersteller bis zu 50.000 Liter." },
           { h3: "Bauform" },
           { p: "Squeeze-Filter und Trinkflaschen eignen sich für den Notfallrucksack und unterwegs. Schwerkraftfilter sind ideal, wenn mehrere Personen versorgt werden müssen: Beutel füllen, aufhängen und darunter einen sauberen Kanister stellen. Pumpfilter brauchen etwas Kraft, ziehen aber auch aus flachen Pfützen Wasser." },
           { h3: "Frost und Lagerung" },
@@ -212,7 +212,7 @@ export default {
       { name: "Sawyer Mini", for: "Kleinster Notfallfilter", text: "Kleiner Bruder des Squeeze mit 0,1-µm-Membran – passt in jede Jackentasche und in den Erste-Hilfe-Beutel.", asin: "B07NHVWJ2Q", query: "Sawyer Mini Wasserfilter" },
       { name: "LifeStraw Personal", for: "Trinkhalm ohne Behälter", text: "Direkt aus dem Gewässer trinken: Hohlfaser-Trinkhalm ohne Chemie, laut Anbieter 57 g leicht.", asin: "B085HNCC3T", query: "LifeStraw Personal Wasserfilter" },
       { name: "MSR Guardian Purifier", for: "Auch gegen Viren", text: "Pumpfilter, der laut MSR zusätzlich Viren zurückhält und nach dem Prüfprotokoll NSF P248 getestet wurde; bis 2,5 l/min.", asin: "B019ERWU66", query: "MSR Guardian Purifier" },
-      { name: "Katadyn Pocket", for: "Langlebigkeit", text: "Keramik-Pumpfilter mit 0,2 µm und Silber, laut Katadyn bis zu 50.000 Liter – der Filter für viele Jahre.", asin: "B000RZEJPU", query: "Katadyn Pocket Wasserfilter" },
+      { name: "Katadyn Pocket", for: "Langlebigkeit", text: "Keramik-Pumpfilter mit 0,2 µm und Silber, laut Katadyn bis zu 50.000 Liter – bei guter Pflege lange nutzbar.", asin: "B000RZEJPU", query: "Katadyn Pocket Wasserfilter" },
       { name: "Katadyn BeFree Ersatzfilter", for: "Reserve", text: "Passt laut Katadyn in alle BeFree-Größen inklusive Gravity BeFree – ein Ersatz gehört in den Vorrat.", asin: "B01N9SE2T9", query: "Katadyn BeFree Ersatzfilter 8019641" },
     ],
   },
@@ -225,6 +225,7 @@ export default {
         blocks: [
           { quick: "Wähle eine möglichst saubere Quelle, filtere grob vor, leite das Wasser durch den Hohlfaserfilter und koche es bei Verdacht auf Viren zusätzlich sprudelnd ab oder entkeime es mit Tabletten. Gefiltertes Wasser getrennt lagern." },
           { p: "Kein Filter macht aus jedem Wasser Trinkwasser. Chemikalien wie Pflanzenschutzmittel, Kraftstoff oder Schwermetalle passieren Hohlfasermembranen. Meide deshalb Wasser unterhalb von Industrie, Straßen und intensiv bewirtschafteten Feldern sowie nach Hochwasser, wenn Kläranlagen überflutet sein können. Regenwasser von Dächern mit Teerpappe oder Kupferrinnen ist ebenfalls problematisch." },
+          { callout: { title: "Keine Garantie für Trinkwasserqualität", warn: true, text: "Ein mobiler Filter ersetzt keine Trinkwasseraufbereitung nach Trinkwasserverordnung. Wasser nur nach Herstellerangaben aufbereiten, im Zweifel zusätzlich abkochen und Hinweise von Gesundheitsamt und Behörden beachten. Für Säuglinge, Schwangere, ältere oder immungeschwächte Menschen ist besondere Vorsicht geboten. Bei Beschwerden nach dem Trinken ärztlichen Rat einholen – diese Hinweise ersetzen keine ärztliche Beratung." } },
           { figure: "steps" },
           { h3: "Hygiene beim Filtern" },
           {
@@ -237,13 +238,13 @@ export default {
           },
           {
             facts: [
-              { value: "0,1 µm", label: "Porengröße der Hohlfaserfilter in unserer Auswahl" },
+              { value: "0,1 µm", label: "Porengröße der Hohlfaserfilter in unserer Auswahl (Herstellerangabe)" },
               { value: "2 Liter", label: "Bedarf pro Person und Tag zum Trinken und Kochen (BBK)" },
               { value: "1.000 l", label: "Kapazität eines BeFree-Filters laut Katadyn" },
             ],
           },
           { h3: "Abkochen als Rückfallebene" },
-          { p: "Abkochen ist die einfachste Methode gegen alle Krankheitserreger: Wasser einmal sprudelnd aufkochen und abkühlen lassen. Das Umweltbundesamt empfiehlt dieses Vorgehen auch bei Abkochgeboten für Leitungswasser. Es braucht allerdings Energie – im Blackout einen Gas- oder Spirituskocher. Filter und Abkochen ergänzen sich deshalb: Der Filter entfernt Schwebstoffe und die meisten Keime, das Abkochen zusätzlich Viren." },
+          { p: "Abkochen ist die einfachste Methode gegen Krankheitserreger wie Bakterien, Viren und Parasiten: Wasser einmal sprudelnd aufkochen und abkühlen lassen. Das Umweltbundesamt empfiehlt dieses Vorgehen auch bei Abkochgeboten für Leitungswasser. Es braucht allerdings Energie – im Blackout einen Gas- oder Spirituskocher. Filter und Abkochen ergänzen sich deshalb: Der Filter hält Schwebstoffe sowie laut Hersteller Bakterien und Protozoen zurück, das Abkochen wirkt zusätzlich gegen Viren. Chemische Belastungen beseitigt keines von beiden." },
         ],
       },
     ],
@@ -254,7 +255,7 @@ export default {
     { q: "Filtern Outdoor-Wasserfilter Viren?", a: "Hohlfaserfilter mit 0,1 µm halten laut Herstellern Bakterien und Protozoen zurück, aber keine Viren. Gegen Viren hilft Abkochen, chemische Entkeimung oder ein sogenannter Purifier wie der MSR Guardian." },
     { q: "Kann man Regenwasser mit einem Wasserfilter trinkbar machen?", a: "Ein Hohlfaserfilter entfernt Keime aus Regenwasser, aber keine gelösten Schadstoffe vom Dach. Sammle Regen möglichst von unbehandelten Dächern, filtere vor und entkeime oder koche das Wasser zusätzlich ab." },
     { q: "Wie lange hält ein Wasserfilter?", a: "Das hängt vom Wasser ab. Katadyn nennt für BeFree-Filter bis zu 1.000 Liter, für den Keramikfilter Pocket bis zu 50.000 Liter. Der Sawyer Squeeze lässt sich durch Rückspülen lange nutzen. Gefrorene oder heruntergefallene Filter sollten ersetzt werden." },
-    { q: "Was ist besser: Filter oder Abkochen?", a: "Beides ergänzt sich. Abkochen tötet alle Krankheitserreger, braucht aber Energie und entfernt keine Trübstoffe. Ein Filter arbeitet ohne Energie, hält aber keine Viren zurück. Im Zweifel erst filtern, dann abkochen." },
+    { q: "Was ist besser: Filter oder Abkochen?", a: "Beides ergänzt sich. Sprudelndes Abkochen macht Krankheitserreger in der Regel unschädlich, braucht aber Energie und entfernt keine Trübstoffe. Ein Filter arbeitet ohne Energie, hält aber keine Viren zurück. Im Zweifel erst filtern, dann abkochen." },
     { q: "Darf ein Wasserfilter einfrieren?", a: "Nein. Gefrierendes Wasser kann die Hohlfasern beschädigen, ohne dass man es sieht. Lagere den Filter frostfrei und trockne ihn nach dem Einsatz." },
   ],
 

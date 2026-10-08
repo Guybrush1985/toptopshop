@@ -18,7 +18,7 @@ export default {
   lead:
     "Fallen Strom, Mobilfunk und Internet aus, informieren die Behörden vor allem über das Radio. Ein Notfallradio mit Kurbel, Solarzelle oder Batterien empfängt Warnungen auch dann – das BBK empfiehlt ein batteriebetriebenes Radio für jeden Haushalt.",
   answer:
-    "Unsere beste Gesamtwahl ist das [**Sangean MMR-99 DAB+**](produkt:1): DAB+ und UKW, Kurbel, Solar, USB-C, Powerbank-Funktion und Taschenlampe – laut Berichten zum Test der Stiftung Warentest (10/2023) das beste Kurbelradio mit „gut“. Den größten Akku zum kleinen Preis hat das [**ROCAM DAB+ Kurbelradio mit 12.000 mAh**](produkt:2); wer lieber auf AA-Batterien setzt, nimmt das [**Sony XDR-S61D**](produkt:3).",
+    "Unsere beste Gesamtwahl ist das [**Sangean MMR-99 DAB+**](produkt:1): DAB+ und UKW, Kurbel, Solar, USB-C, Powerbank-Funktion und Taschenlampe – laut Berichten über den Test der Stiftung Warentest (test 10/2023) das am besten bewertete Kurbelradio („gut“). Den größten Akku zum kleinen Preis hat das [**ROCAM DAB+ Kurbelradio mit 12.000 mAh**](produkt:2); wer lieber auf AA-Batterien setzt, nimmt das [**Sony XDR-S61D**](produkt:3).",
 
   top3Title: "Unsere Top 3 Notfallradios",
   top3Intro:
@@ -33,7 +33,7 @@ export default {
   ],
 
   method:
-    "Grundlage sind der Digitalradio-Test der Stiftung Warentest mit Kurbel- und Batteriegeräten (Heft 10/2023) und darauf beruhende Berichte, Herstellerangaben zu Empfang, Akku und Ausstattung sowie die Empfehlungen des BBK. Wir empfehlen ausschließlich Geräte, die bei Amazon erhältlich sind. Jedes Radio wird in vier Kriterien von 0 bis 10 eingeordnet; die Gesamtnote ist der gewichtete Mittelwert.",
+    "Grundlage sind der Digitalradio-Test der Stiftung Warentest mit Kurbel- und Batteriegeräten (Heft 10/2023) und darauf beruhende Berichte, Herstellerangaben zu Empfang, Akku und Ausstattung sowie die Empfehlungen des BBK. Eigene Tests führen wir nicht durch; die Bewertungen sind redaktionelle Einschätzungen. Wir empfehlen ausschließlich Geräte, die bei Amazon erhältlich sind. Jedes Radio wird in vier Kriterien von 0 bis 10 eingeordnet; die Gesamtnote ist der gewichtete Mittelwert.",
 
   products: [
     {
@@ -47,13 +47,13 @@ export default {
       ratings: { empfang: 9.0, energie: 9.0, extras: 9.0, preis: 6.5 },
       bestFor: "Der Klassiker für jeden Haushalt",
       verdict:
-        "Das durchdachteste Notfallradio: guter DAB+- und UKW-Empfang, vier Lademöglichkeiten, Powerbank, Taschenlampe und Spritzwasserschutz. In Berichten zum Stiftung-Warentest-Test 10/2023 das bestbewertete Kurbelradio („gut“).",
+        "Aus unserer Sicht das durchdachteste Notfallradio: laut Berichten guter DAB+- und UKW-Empfang, laut Hersteller vier Lademöglichkeiten, Powerbank, Taschenlampe und Spritzwasserschutz. In Berichten zum Stiftung-Warentest-Test 10/2023 das bestbewertete Kurbelradio („gut“).",
       features: [
-        "DAB+ und UKW mit RDS, 40 Senderspeicher, Bluetooth, AUX und Kopfhöreranschluss",
-        "Laden per Handkurbel, Solar, USB-C; 18650-Lithium-Akku mit 2.600 mAh, Powerbank-Funktion",
+        "DAB+ und UKW mit RDS, 40 Senderspeicher, Bluetooth, AUX und Kopfhöreranschluss (Herstellerangaben)",
+        "Laden per Handkurbel, Solar, USB-C; 18650-Lithium-Akku mit 2.600 mAh, Powerbank-Funktion (Herstellerangaben)",
         "LED-Taschenlampe mit SOS- und Rotlicht, Gehäuse nach IP55 (Herstellerangaben)",
       ],
-      pros: ["Bester Testkandidat mit Kurbel", "Viele Lademöglichkeiten", "Robust und spritzwassergeschützt"],
+      pros: ["Laut Berichten bestbewertetes Kurbelradio im Test 10/2023", "Viele Lademöglichkeiten", "Laut Hersteller spritzwassergeschützt (IP55)"],
       cons: ["Teuer", "Kurbeln ist mühsam", "Betriebstemperatur laut Nutzern eingeschränkt"],
       specs: { empfang: "DAB+, UKW", strom: "Kurbel, Solar, USB-C, Akku 2.600 mAh", extras: "Taschenlampe, Powerbank, Bluetooth", schutz: "IP55", test: "„gut“ (Berichte zu Heft 10/2023)" },
       asin: "B09SZ9XSQS",
@@ -70,13 +70,13 @@ export default {
       ratings: { empfang: 7.0, energie: 8.5, extras: 8.0, preis: 9.0 },
       bestFor: "Viel Reserve für Radio und Handy",
       verdict:
-        "Viel Akku für wenig Geld: 12.000 mAh speisen Radio, Taschenlampe und Handyladung über Tage. Empfang und Verarbeitung erreichen nicht das Niveau von Sangean, als zusätzliche Reserve ist es aber sehr nützlich.",
+        "Viel Akku für wenig Geld: Laut Anbieter speisen 12.000 mAh Radio, Taschenlampe und Handyladung über Tage. Einen unabhängigen Test kennen wir nicht, deshalb ordnen wir Empfang und Verarbeitung vorsichtiger ein als beim Sangean – als zusätzliche Reserve ist es aus unserer Sicht aber nützlich.",
       features: [
         "DAB+ und UKW, Bluetooth, Farbdisplay (Anbieterangaben)",
-        "12.000-mAh-Akku, Solarpanel und Handkurbel, USB-Ladeausgang fürs Handy",
-        "LED-Taschenlampe und SOS-Alarm",
+        "12.000-mAh-Akku, Solarpanel und Handkurbel, USB-Ladeausgang fürs Handy (Anbieterangaben)",
+        "LED-Taschenlampe und SOS-Alarm (Anbieterangaben)",
       ],
-      pros: ["Sehr großer Akku", "Günstig", "Lädt das Handy"],
+      pros: ["Laut Anbieter sehr großer Akku", "Günstig", "Lädt das Handy"],
       cons: ["Kein unabhängiger Test", "Handkurbel lädt laut Nutzern nur wenig", "Angaben zur Kapazität nicht unabhängig geprüft"],
       specs: { empfang: "DAB+, UKW", strom: "Kurbel, Solar, USB, Akku 12.000 mAh", extras: "Taschenlampe, SOS, Powerbank, Bluetooth", schutz: "–", test: "–" },
       asin: "B0FLQ4H2VW",
@@ -93,13 +93,13 @@ export default {
       ratings: { empfang: 9.0, energie: 7.5, extras: 6.0, preis: 8.0 },
       bestFor: "Batterievorrat statt Kurbel",
       verdict:
-        "Ein hervorragendes Digitalradio, das mit vier AA-Batterien oder Akkus läuft – laut Sony bis zu 28 Stunden. Wer Batterien auf Vorrat hat, braucht keine Kurbel. In Berichten zum Test 10/2023 das beste Gerät ohne Kurbel.",
+        "Ein Digitalradio, das mit vier AA-Batterien oder Akkus läuft – laut Sony bis zu 28 Stunden. Wer Batterien auf Vorrat hat, braucht keine Kurbel. In Berichten über den Test der Stiftung Warentest (test 10/2023) wird es als bestes Gerät ohne Kurbel genannt.",
       features: [
-        "DAB, DAB+ und UKW mit RDS, Senderspeicher, Wecker",
+        "DAB, DAB+ und UKW mit RDS, Senderspeicher, Wecker (Herstellerangaben)",
         "Betrieb mit 4 × AA oder Netzteil, laut Sony bis zu 28 Stunden Laufzeit",
         "Kompakt, guter Klang laut Nutzerberichten",
       ],
-      pros: ["Sehr guter Empfang", "Batterien lange lagerbar und überall erhältlich", "Kompakt"],
+      pros: ["Laut Berichten guter Empfang und Klang", "Batterien lange lagerbar und überall erhältlich", "Kompakt"],
       cons: ["Keine Kurbel, kein Solar", "Keine Taschenlampe oder Powerbank", "Laufzeit mit Akkus laut Nutzern schwankend"],
       specs: { empfang: "DAB+, UKW", strom: "4 × AA oder Netz", extras: "Wecker", schutz: "–", test: "bestes ohne Kurbel (Berichte zu Heft 10/2023)" },
       asin: "B074DXWK8K",
@@ -150,9 +150,9 @@ export default {
         h2: "Welches Notfallradio ist das beste?",
         blocks: [
           { quick: "Das [Sangean MMR-99 DAB+](produkt:1) ist die beste Wahl: DAB+ und UKW, Kurbel, Solar, Powerbank und Taschenlampe. Den größten Akku hat das [ROCAM 12.000 mAh](produkt:2), mit AA-Batterien läuft das [Sony XDR-S61D](produkt:3)." },
-          { first: "In Deutschland warnen die Behörden über einen Mix aus Kanälen: Warn-Apps wie NINA, Cell Broadcast aufs Handy, Sirenen, Lautsprecherdurchsagen, Fernsehen – und Radio. Fallen Strom und Mobilfunk aus, bleibt oft nur das Radio. Rundfunksender haben in der Regel eine robuste Notstromversorgung und erreichen ein großes Gebiet. Das BBK nennt ein batteriebetriebenes Radio deshalb als festen Bestandteil der Notfallvorsorge." },
-          { p: "Notfallradios gehen einen Schritt weiter: Neben Batterien oder Akku lassen sie sich per Handkurbel oder Solarzelle laden, viele haben eine Taschenlampe und können das Handy laden. Stiftung Warentest hat 2023 Digitalradios mit Batteriefach oder Akku und Kurbel geprüft; die Laufzeiten reichten bis zu 54 Stunden. Nach Berichten zum Test schnitt das Sangean MMR-99 unter den Kurbelradios am besten ab." },
-          { p: "Unsere Gesamtwahl ist deshalb das Sangean MMR-99 in der DAB+-Version. Es ist teurer als die vielen No-Name-Kurbelradios, bietet aber den besten Mix aus Empfang, Ausstattung und Robustheit. Als zweites Gerät oder für ein kleines Budget lohnt ein günstiges Kurbelradio mit großem Akku." },
+          { first: "In Deutschland warnen die Behörden über einen Mix aus Kanälen: Warn-Apps wie NINA, Cell Broadcast aufs Handy, Sirenen, Lautsprecherdurchsagen, Fernsehen – und Radio. Fallen Strom und Mobilfunk aus, bleibt oft nur das Radio. Viele Rundfunksender sind mit Notstrom abgesichert und erreichen ein großes Gebiet. Das BBK nennt ein batteriebetriebenes Radio deshalb als festen Bestandteil der Notfallvorsorge." },
+          { p: "Notfallradios gehen einen Schritt weiter: Neben Batterien oder Akku lassen sie sich per Handkurbel oder Solarzelle laden, viele haben eine Taschenlampe und können das Handy laden. Stiftung Warentest hat in test 10/2023 Digitalradios mit Batteriefach oder Akku, teils mit Kurbel, geprüft. Nach Berichten über den Test schnitt das Sangean MMR-99 unter den Kurbelradios am besten ab („gut“)." },
+          { p: "Unsere Gesamtwahl ist deshalb das Sangean MMR-99 in der DAB+-Version. Es ist teurer als die vielen No-Name-Kurbelradios, bietet aber nach unserer Einschätzung den besten Mix aus Empfang, Ausstattung und Robustheit. Als zweites Gerät oder für ein kleines Budget lohnt ein günstiges Kurbelradio mit großem Akku." },
           { figure: "scores" },
           { callout: { title: "Modell genau prüfen", text: "Das Sangean MMR-99 gibt es auch ohne DAB+ (nur AM/FM). Achte beim Kauf auf „DAB“ im Namen, wenn du Digitalradio empfangen willst." } },
         ],
@@ -179,7 +179,7 @@ export default {
           { h3: "Kurbel realistisch einschätzen" },
           { p: "Eine Handkurbel ist eine Rückfallebene, kein Hauptantrieb. Nutzer berichten, dass sich der Akku damit nur langsam laden lässt. Wichtiger ist ein voll geladener Akku und ein Vorrat an Batterien. Die Solarzelle hält den Akku bei Tageslicht nebenbei auf Stand." },
           { h3: "Robustheit und Bedienung" },
-          { p: "Ein Notfallradio muss auch im Dunkeln und unter Stress bedienbar sein: große Tasten, beleuchtetes Display, gespeicherte Lieblingssender. Spritzwasserschutz wie IP55 beim Sangean hilft, wenn das Radio draußen oder im feuchten Keller steht." },
+          { p: "Ein Notfallradio muss auch im Dunkeln und unter Stress bedienbar sein: große Tasten, beleuchtetes Display, gespeicherte Lieblingssender. Spritzwasserschutz wie IP55 beim Sangean (Herstellerangabe) hilft, wenn das Radio draußen oder im feuchten Keller steht." },
         ],
       },
       {
@@ -189,9 +189,9 @@ export default {
           { quick: "Wer ein einziges, hochwertiges Notfallradio will, nimmt das Sangean MMR-99. Wer viel Akku für wenig Geld möchte, das ROCAM. Wer Batterien bevorzugt und vor allem guten Empfang will, das Sony XDR-S61D." },
           {
             cards: [
-              { title: "Das eine Notfallradio", text: "Bestes Kurbelradio mit DAB+: Sangean MMR-99.", link: { href: "#platz-1", label: "Zur Empfehlung" } },
+              { title: "Das eine Notfallradio", text: "Unsere Wahl mit Kurbel und DAB+: Sangean MMR-99.", link: { href: "#platz-1", label: "Zur Empfehlung" } },
               { title: "Viel Reserve", text: "12.000 mAh, Solar und Kurbel: ROCAM.", link: { href: "#platz-2", label: "Zur Empfehlung" } },
-              { title: "Batterie-Vorrat", text: "Bester Empfang mit AA-Batterien: Sony XDR-S61D.", link: { href: "#platz-3", label: "Zur Empfehlung" } },
+              { title: "Batterie-Vorrat", text: "Guter Empfang mit AA-Batterien: Sony XDR-S61D.", link: { href: "#platz-3", label: "Zur Empfehlung" } },
               { title: "Weitere Bauformen", text: "Taschenradios und Warnfunktion in der Top 5.", link: { href: "#top5-bauform", label: "Zur Top 5" } },
               { title: "Licht ohne Strom", text: "Stirnlampen und Laternen für den Schutzraum.", link: { href: "/krisenvorsorge/schutzraum-ausstattung/ausstattung-licht/", label: "Ausstattung & Licht" } },
               { title: "Antworten senden", text: "Satelliten-Messenger und Funkgeräte.", link: { href: "/krisenvorsorge/kommunikation-technik/satelliten-kommunikation/", label: "Satelliten-Messenger" } },
@@ -210,7 +210,7 @@ export default {
     items: [
       { name: "Sangean DPR-76 DAB+", for: "Taschenradio mit AA-Akkus", text: "Kleines DAB+/UKW-Radio mit 4 × AA; NiMH-Akkus lassen sich laut Nutzern im Gerät laden. In Berichten zum Test 10/2023 ebenfalls mit „gut“.", asin: "B07KCMBDVJ", query: "Sangean DPR-76 DAB+" },
       { name: "TechniSat DIGITRADIO 1A", for: "Mit Warnfunktion", text: "Tragbares DAB+-Radio, das laut Anbieter eine automatische Sicherheitswarnung unterstützt – Details zur Funktion beim Hersteller prüfen.", asin: "B0FMDTW5QF", query: "TechniSat DIGITRADIO 1A" },
-      { name: "Sangean MMR-88 DAB", for: "Kleineres Sangean-Kurbelradio", text: "Kompakter Vorgänger mit Kurbel, Taschenlampe und Kopfhöreranschluss.", asin: "B071R3SGZQ", query: "Sangean MMR-88 DAB" },
+      { name: "Sangean MMR-88 DAB", for: "Kleineres Sangean-Kurbelradio", text: "Kompakter Vorgänger mit Kurbel, Taschenlampe und Kopfhöreranschluss (Herstellerangaben).", asin: "B071R3SGZQ", query: "Sangean MMR-88 DAB" },
       { name: "ROCAM DAB+ Kurbelradio 5.000 mAh", for: "Leichteres Zweitradio", text: "DAB+/UKW mit 5.000-mAh-Akku, AAA-Batteriefach, Solar und Kurbel – laut Anbieter bis zu 30 Stunden Radio.", asin: "B0BKRJPQ3P", query: "ROCAM Kurbelradio DAB+ 5000 mAh" },
       { name: "Kurbelradio DAB+/UKW mit Campinglampe 3.000 mAh", for: "Radio plus Laterne", text: "Kombination aus Laterne und Kurbelradio mit DAB+ und UKW, Solarzelle und SOS-Alarm – für den Notfallrucksack.", asin: "B0BNDHHWN6", query: "Kurbelradio DAB+ Campinglampe 3000 mAh" },
     ],
@@ -231,35 +231,36 @@ export default {
               "**Lautstärke niedrig halten** – laute Wiedergabe kostet am meisten Strom.",
               "**Gezielt einschalten:** zu den Nachrichten, bei Durchsagen, dann wieder aus.",
               "**Displaybeleuchtung aus**, wenn möglich.",
-              "**Tagsüber in die Sonne legen**, damit die Solarzelle nachlädt.",
+              "**Tagsüber in die Sonne legen**, damit die Solarzelle nachlädt – aber nicht überhitzen lassen.",
+              "**Akku nach Anleitung laden:** Geräte mit Lithium-Akku nicht dauerhaft unbeaufsichtigt laden, beschädigte oder aufgeblähte Akkus nicht weiter nutzen.",
             ],
           },
           {
             facts: [
-              { value: "54 h", label: "längste Laufzeit im Digitalradio-Test der Stiftung Warentest" },
+              { value: "10/2023", label: "Ausgabe von test mit dem Digitalradio-Test der Stiftung Warentest inkl. Kurbelradios" },
               { value: "28 h", label: "Laufzeit des Sony XDR-S61D mit AA-Batterien laut Sony" },
-              { value: "2.600 mAh", label: "Akku des Sangean MMR-99" },
+              { value: "2.600 mAh", label: "Akku des Sangean MMR-99 laut Hersteller" },
             ],
           },
           { h3: "Warntag" },
-          { p: "Beim bundesweiten Warntag, der jedes Jahr im September stattfindet, werden alle Warnkanäle gleichzeitig getestet. Ein guter Anlass, das Notfallradio einzuschalten, den Empfang zu prüfen und den Akku zu laden." },
+          { p: "Beim bundesweiten Warntag, der in der Regel jedes Jahr im September stattfindet, werden alle Warnkanäle gleichzeitig getestet. Ein guter Anlass, das Notfallradio einzuschalten, den Empfang zu prüfen und den Akku zu laden." },
         ],
       },
     ],
   },
 
   faqs: [
-    { q: "Welches Kurbelradio ist das beste?", a: "Unsere beste Gesamtwahl ist das Sangean MMR-99 in der DAB+-Version. In Berichten zum Digitalradio-Test der Stiftung Warentest (10/2023) war es das bestbewertete Kurbelradio mit „gut“." },
+    { q: "Welches Kurbelradio ist das beste?", a: "Unsere beste Gesamtwahl ist das Sangean MMR-99 in der DAB+-Version. In Berichten über den Digitalradio-Test der Stiftung Warentest (test 10/2023) wird es als bestbewertetes Kurbelradio mit „gut“ genannt." },
     { q: "Brauche ich DAB+ oder reicht UKW?", a: "Ideal ist ein Gerät mit beidem. UKW wird großflächig ausgestrahlt und funktioniert mit einfachen Geräten, DAB+ bietet mehr Sender. Fällt ein Sendernetz aus, bleibt das andere." },
     { q: "Warum empfiehlt das BBK ein batteriebetriebenes Radio?", a: "Weil Radio bei Strom- und Mobilfunkausfall oft die einzige Informationsquelle ist. Über die regionalen Sender verbreiten die Behörden Warnungen und Verhaltenshinweise." },
     { q: "Wie lange muss man ein Kurbelradio kurbeln?", a: "Das hängt vom Gerät ab. Nutzer berichten, dass sich ein Akku per Kurbel nur langsam laden lässt. Die Kurbel ist eine Rückfallebene; wichtiger sind ein geladener Akku, Batterien und die Solarzelle." },
-    { q: "Kann ich mit einem Notfallradio mein Handy laden?", a: "Viele Kurbelradios haben einen USB-Ausgang, etwa das Sangean MMR-99 und das ROCAM. Die Ladung reicht meist für eine Teil- oder volle Ladung, je nach Akkugröße." },
+    { q: "Kann ich mit einem Notfallradio mein Handy laden?", a: "Viele Kurbelradios haben einen USB-Ausgang, etwa das Sangean MMR-99 und das ROCAM. Die Ladung reicht je nach Akkugröße und Ladestand für eine Teil- oder volle Ladung." },
     { q: "Wo bewahre ich das Notfallradio auf?", a: "Griffbereit, trocken und zusammen mit Ersatzbatterien und einem Zettel mit den Frequenzen der regionalen Sender. Lade den Akku alle paar Monate nach." },
   ],
 
   sources: [
     { label: "Stiftung Warentest: Digitalradios im Test", url: "https://www.test.de/Digitalradios-im-Test-4868028-0/" },
-    { label: "produkte-im-test.de: Digitalradio-Testsieger der Stiftung Warentest", url: "https://produkte-im-test.de/digitalradio-test-stiftung-warentest" },
+    { label: "produkte-im-test.de: Bericht zum Digitalradio-Test der Stiftung Warentest (test 10/2023)", url: "https://produkte-im-test.de/digitalradio-test-stiftung-warentest" },
     { label: "netzwelt: Kurbelradios mit DAB+ im Vergleich", url: "https://www.netzwelt.de/lautsprecher/kaufberatung-kurbelradios-dab-plus-vergleich-7-notfallradios-lassen-euch-stromausfall-stich.html" },
     { label: "BBK: Ratgeber „Vorsorgen für Krisen und Katastrophen“ (PDF)", url: "https://www.dortmund.de/dortmund/projekte/rathaus/verwaltung/feuerwehr-rettungsdienst-und-bevoelkerungsschutz/downloads/bbk-vorsorgen-fuer-krisen-und-katastrophen.pdf" },
   ],

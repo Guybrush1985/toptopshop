@@ -18,7 +18,7 @@ export default {
   lead:
     "Das BBK empfiehlt 2 Liter Wasser pro Person und Tag für 10 Tage – für eine vierköpfige Familie sind das 80 Liter. Mit den richtigen Kanistern lässt sich der Vorrat platzsparend, hygienisch und tragbar lagern.",
   answer:
-    "Unsere beste Gesamtwahl ist der [**hünersdorff Wasserkanister Profi 22 L**](produkt:1): lebensmittelechtes HD-PE, stapelbar und mit 20 Litern genau der Zehn-Tage-Vorrat für eine Person. Zum Zapfen im Alltag ist der [**hünersdorff ECO 12 L mit Hahn**](produkt:2) am praktischsten; den größten Vorrat in kurzer Zeit schafft der Badewannen-Tank [**WaterBOB**](produkt:3).",
+    "Unsere beste Gesamtwahl ist der [**hünersdorff Wasserkanister Profi 22 L**](produkt:1): laut Anbieter lebensmittelechtes HD-PE, stapelbar und mit 20 Litern genau der Zehn-Tage-Vorrat für eine Person. Zum Zapfen im Alltag ist der [**hünersdorff ECO 12 L mit Hahn**](produkt:2) am praktischsten; den größten Vorrat in kurzer Zeit schafft der Badewannen-Tank [**WaterBOB**](produkt:3).",
 
   top3Title: "Unsere Top 3 Wasserspeicher für den Notvorrat",
   top3Intro:
@@ -33,7 +33,7 @@ export default {
   ],
 
   method:
-    "Grundlage sind die Vorratsempfehlungen des BBK (Ratgeber „Vorsorgen für Krisen und Katastrophen“), Herstellerangaben zu Material, Volumen und Zubehör sowie Hinweise von Verbraucherportalen zur Lagerung von Leitungswasser. Wir empfehlen ausschließlich Produkte, die bei Amazon erhältlich sind. Jeder Speicher wird in vier Kriterien von 0 bis 10 eingeordnet; die Gesamtnote ist der gewichtete Mittelwert.",
+    "Grundlage sind die Vorratsempfehlungen des BBK (Ratgeber „Vorsorgen für Krisen und Katastrophen“), Herstellerangaben zu Material, Volumen und Zubehör sowie Hinweise von Verbraucherportalen zur Lagerung von Leitungswasser. Eigene Tests führen wir nicht durch; die Bewertungen sind redaktionelle Einschätzungen. Wir empfehlen ausschließlich Produkte, die bei Amazon erhältlich sind. Jeder Speicher wird in vier Kriterien von 0 bis 10 eingeordnet; die Gesamtnote ist der gewichtete Mittelwert.",
 
   products: [
     {
@@ -47,13 +47,13 @@ export default {
       ratings: { hygiene: 8.5, handling: 8.0, volumen: 8.0, preis: 8.5 },
       bestFor: "Dauervorrat: ein Kanister pro Person",
       verdict:
-        "Der Standard für den Notvorrat: robuster Kanister aus lebensmittelechtem HD-PE, stapelbar und mit 20 Litern Nennvolumen – genau der Zehn-Tage-Vorrat für eine Person nach BBK-Empfehlung.",
+        "Aus unserer Sicht der Standard für den Notvorrat: robuster Kanister aus laut Anbieter lebensmittelechtem HD-PE, stapelbar und mit 20 Litern Nennvolumen – genau der Zehn-Tage-Vorrat für eine Person nach BBK-Empfehlung.",
       features: [
         "Lebensmittelechtes HD-PE, laut Anbieter für Trinkwasser und stapelbares Lagern geeignet",
-        "Empfohlene Füllmenge 20 Liter, befüllbar bis 22,5 Liter",
-        "Abnehmbares Auslaufrohr und unverlierbare Deckelverschraubung",
+        "Empfohlene Füllmenge 20 Liter, befüllbar bis 22,5 Liter (Herstellerangabe)",
+        "Abnehmbares Auslaufrohr und unverlierbare Deckelverschraubung (Herstellerangabe)",
       ],
-      pros: ["Exakt 20 Liter pro Person", "Stapelbar und robust", "Bekannte Marke mit Ersatzteilen"],
+      pros: ["20 Liter empfohlene Füllmenge – passt zum Vorrat pro Person", "Stapelbar und robust", "Bekannte Marke mit Ersatzteilen"],
       cons: ["Kein Hahn ab Werk", "Voll rund 21 kg schwer", "Naturfarben lässt Licht durch – dunkel lagern"],
       specs: { volumen: "20 l (max. 22,5 l)", material: "HD-PE, lebensmittelecht", zapfen: "Auslaufrohr", lagerung: "stapelbar", einsatz: "Dauervorrat" },
       asin: "B008XHRADM",
@@ -68,12 +68,12 @@ export default {
       visual: { kind: "canister", tone: "green" },
       priceTier: 1,
       ratings: { hygiene: 8.5, handling: 9.0, volumen: 6.0, preis: 8.5 },
-      bestFor: "Küche, Bad & Kinder",
+      bestFor: "Küche, Bad & Zapfstelle",
       verdict:
-        "Mit fest montiertem Hahn zapfst du Wasser, ohne den Kanister zu heben. Mit rund 10 bis 12 Litern bleibt er tragbar – auch für ältere Menschen und Kinder.",
+        "Mit fest montiertem Hahn zapfst du Wasser, ohne den Kanister zu heben. Mit rund 10 bis 12 Litern bleibt er für viele Menschen tragbar – Kinder sollten volle Kanister nicht schleppen.",
       features: [
         "Fest montierter Ablaufhahn, laut Anbieter für Lebensmittel geeignet",
-        "Empfohlene Füllmenge 10 Liter, maximal 12 Liter",
+        "Empfohlene Füllmenge 10 Liter, maximal 12 Liter (Herstellerangabe)",
         "Ergänzt große Vorratskanister als Zapfstelle in der Küche",
       ],
       pros: ["Bequem zapfen", "Leicht genug zum Tragen", "Günstig"],
@@ -93,13 +93,13 @@ export default {
       ratings: { hygiene: 7.5, handling: 6.5, volumen: 10.0, preis: 7.5 },
       bestFor: "Vorwarnung vor Ausfall oder Sturm",
       verdict:
-        "Ein lebensmittelechter Beutel für die Badewanne: Bei einer Vorwarnung in 30 bis 60 Minuten mit bis zu rund 378 Litern befüllt – genug Trink- und Brauchwasser für eine Familie über viele Tage.",
+        "Ein laut Hersteller lebensmittelechter Beutel für die Badewanne: Bei einer Vorwarnung laut Hersteller in 30 bis 60 Minuten mit bis zu rund 378 Litern befüllt – je nach Verbrauch Trink- und Brauchwasser für eine Familie über viele Tage.",
       features: [
         "Lebensmittelechte, BPA-freie Folie (LLDPE) mit Handpumpe zur Entnahme (Herstellerangabe)",
-        "Fassungsvermögen 100 Gallonen, rund 378 Liter",
+        "Fassungsvermögen 100 Gallonen, rund 378 Liter (Herstellerangabe)",
         "Laut Hersteller bleibt das Wasser bis zu 4 Wochen frisch",
       ],
-      pros: ["Riesiges Volumen auf kleinstem Lagerplatz", "Schnell befüllt", "Schützt das Wasser vor Staub und Seifenresten"],
+      pros: ["Großes Volumen bei kleinem Lagerplatz", "Schnell befüllt", "Schützt das Wasser laut Hersteller vor Staub und Seifenresten"],
       cons: ["Nur sinnvoll mit Vorwarnung und Wasserdruck", "Nicht für die Wiederverwendung gedacht", "Badewanne nötig"],
       specs: { volumen: "ca. 378 l", material: "LLDPE, BPA-frei", zapfen: "Handpumpe", lagerung: "gefaltet im Schrank", einsatz: "Vorrat bei Vorwarnung" },
       asin: "B001AXLUX2",
@@ -191,7 +191,7 @@ export default {
             cards: [
               { title: "Dauervorrat", text: "Ein 20-Liter-Kanister pro Person: hünersdorff Profi 22 L.", link: { href: "#platz-1", label: "Zur Empfehlung" } },
               { title: "Zapfstelle", text: "Kanister mit Hahn für Küche und Bad: hünersdorff ECO 12 L.", link: { href: "#platz-2", label: "Zur Empfehlung" } },
-              { title: "Vorwarnung", text: "Hunderte Liter in einer Stunde: WaterBOB.", link: { href: "#platz-3", label: "Zur Empfehlung" } },
+              { title: "Vorwarnung", text: "Laut Hersteller Hunderte Liter in einer Stunde: WaterBOB.", link: { href: "#platz-3", label: "Zur Empfehlung" } },
               { title: "Wenig Platz", text: "Faltkanister und Weithalsfässer in der Top 5.", link: { href: "#top5-platz", label: "Zur Top 5" } },
               { title: "Länger haltbar", text: "Mit Silberionen konservieren oder vor dem Trinken entkeimen.", link: { href: "/krisenvorsorge/wasserversorgung/entkeimung-wassertests/", label: "Entkeimung & Tests" } },
               { title: "Nachschub", text: "Wasser aus Regentonne und Bach filtern.", link: { href: "/krisenvorsorge/wasserversorgung/mobile-wasserfilter/", label: "Mobile Wasserfilter" } },
@@ -209,9 +209,9 @@ export default {
       "Nicht jede Wohnung hat einen Keller. Diese fünf Behälter lösen Platzprobleme, erleichtern das Tragen oder verlängern die Haltbarkeit des Vorrats.",
     items: [
       { name: "STURME Faltkanister 20 L mit Hahn", for: "Wenig Stauraum", text: "Gefaltet laut Anbieter nur 26 × 26 × 6 cm und 290 g leicht – für Wohnungen ohne Keller und für den Transport.", asin: "B0BJ23WYFM", query: "STURME Faltkanister 20 L Hahn" },
-      { name: "Relaxdays Faltkanister 5 L (4er-Set)", for: "Leichte Portionen", text: "Vier kleine Kanister mit Hahn – leicht zu tragen und gut für den Notfallrucksack oder ältere Menschen.", asin: "B0BHLB8ZM9", query: "Relaxdays Faltkanister 5 L 4er Set" },
-      { name: "plasteo Weithalsfass 60 L mit Spannring", for: "Großer Vorrat", text: "Lebensmittelechtes Fass mit Deckel und Spannring – für Brauchwasser oder als Behälter für Vorräte.", asin: "B0CQ57TJ7G", query: "plasteo Weithalsfass 60 Liter Spannring" },
-      { name: "hünersdorff Trinkwasserkanne 13 L", for: "Wasser holen", text: "Kanne mit verschließbarem Deckel und zwei Griffen aus lebensmittelechtem HDPE – ideal, wenn Wasser an einer Ausgabestelle geholt werden muss.", asin: "B09PVJVG6H", query: "hünersdorff Trinkwasserkanne 13 L" },
+      { name: "Relaxdays Faltkanister 5 L (4er-Set)", for: "Leichte Portionen", text: "Vier kleine Kanister mit Hahn (Anbieterangabe) – leicht zu tragen und gut für den Notfallrucksack oder ältere Menschen.", asin: "B0BHLB8ZM9", query: "Relaxdays Faltkanister 5 L 4er Set" },
+      { name: "plasteo Weithalsfass 60 L mit Spannring", for: "Großer Vorrat", text: "Laut Anbieter lebensmittelechtes Fass mit Deckel und Spannring – für Brauchwasser oder als Behälter für Vorräte.", asin: "B0CQ57TJ7G", query: "plasteo Weithalsfass 60 Liter Spannring" },
+      { name: "hünersdorff Trinkwasserkanne 13 L", for: "Wasser holen", text: "Kanne mit verschließbarem Deckel und zwei Griffen aus laut Anbieter lebensmittelechtem HDPE – ideal, wenn Wasser an einer Ausgabestelle geholt werden muss.", asin: "B09PVJVG6H", query: "hünersdorff Trinkwasserkanne 13 L" },
       { name: "Katadyn Micropur Classic MC 1T", for: "Länger frisch halten", text: "Silberionen-Tabletten, die laut Katadyn bereits sauberes Wasser bis zu 6 Monate vor Wiederverkeimung schützen – keine Desinfektion von Rohwasser.", asin: "B0016HS8CI", query: "Katadyn Micropur Classic MC 1T" },
     ],
   },
@@ -223,7 +223,7 @@ export default {
         h2: "Wie lagert man Leitungswasser richtig – und wie lange?",
         blocks: [
           { quick: "Fülle Leitungswasser frisch in saubere, lebensmittelechte Kanister, lagere es dunkel und kühl und tausche es regelmäßig aus. Eine feste Haltbarkeit gibt es nicht; viele Ratgeber empfehlen, den Vorrat spätestens nach ein bis zwei Jahren zu erneuern – mit Silberionen behandeltes Wasser laut Hersteller nach sechs Monaten." },
-          { p: "Leitungswasser ist beim Abfüllen sehr keimarm, aber nicht steril. Keime aus der Luft, vom Kanisterrand oder vom Hahn können sich im Lauf der Zeit vermehren, besonders bei Wärme und Licht. Je sauberer abgefüllt und je kühler gelagert, desto länger bleibt das Wasser einwandfrei. Riecht oder schmeckt es auffällig, nutze es nur noch als Brauchwasser." },
+          { p: "Leitungswasser ist beim Abfüllen sehr keimarm, aber nicht steril. Keime aus der Luft, vom Kanisterrand oder vom Hahn können sich im Lauf der Zeit vermehren, besonders bei Wärme und Licht. Je sauberer abgefüllt und je kühler gelagert, desto länger bleibt das Wasser einwandfrei. Riecht, schmeckt oder sieht es auffällig aus, nutze es nur noch als Brauchwasser. Im Zweifel vor dem Trinken sprudelnd abkochen und Hinweise von Wasserversorger und Gesundheitsamt beachten – eine Garantie für einwandfreies Wasser kann kein Kanister geben." },
           { figure: "steps" },
           { h3: "Wenn eine Störung angekündigt ist" },
           {
@@ -234,6 +234,7 @@ export default {
               "**Nachbarn einbeziehen:** Ältere und kranke Menschen können oft keine schweren Kanister tragen.",
             ],
           },
+          { callout: { title: "Sicher lagern und tragen", warn: true, text: "Volle Kanister sind schwer: unten ins Regal stellen, Regale gegen Kippen sichern und beim Heben in die Knie gehen. Eine gefüllte Badewanne oder offene Wasserbehälter sind für Kleinkinder eine Ertrinkungsgefahr – nie unbeaufsichtigt lassen und möglichst abdecken. Badewanne vor dem Einlegen eines Wassertanks reinigen und die Gebrauchsanweisung des Herstellers beachten." } },
           {
             facts: [
               { value: "20 Liter", label: "Trinkwasservorrat pro Person für 10 Tage (BBK)" },
@@ -253,7 +254,7 @@ export default {
     { q: "Wie lange ist Leitungswasser im Kanister haltbar?", a: "Eine feste Haltbarkeit gibt es nicht. Sauber abgefüllt und dunkel und kühl gelagert bleibt es lange einwandfrei. Viele Ratgeber empfehlen, den Vorrat spätestens nach ein bis zwei Jahren zu erneuern. Mit Silberionen behandeltes Wasser schützt Katadyn laut eigener Angabe bis zu 6 Monate vor Wiederverkeimung." },
     { q: "Welcher Kanister ist für Trinkwasser geeignet?", a: "Nur Kanister aus lebensmittelechtem Kunststoff, meist HD-PE, die ausdrücklich für Trinkwasser oder Lebensmittel ausgewiesen sind. Unsere Empfehlung ist der hünersdorff Wasserkanister Profi 22 L." },
     { q: "Mineralwasser oder Leitungswasser lagern?", a: "Beides ist möglich. Mineralwasser in Flaschen hat ein Mindesthaltbarkeitsdatum und lässt sich gut in den Alltag einbauen. Leitungswasser in Kanistern ist günstiger, muss aber selbst sauber abgefüllt und regelmäßig getauscht werden." },
-    { q: "Lohnt sich ein Badewannen-Wassertank?", a: "Ja, wenn eine Störung angekündigt ist und noch Wasserdruck besteht. Ein WaterBOB fasst rund 378 Liter in einem geschlossenen, lebensmittelechten Beutel. Ohne Vorwarnung hilft er nicht – den Grundvorrat ersetzt er nicht." },
+    { q: "Lohnt sich ein Badewannen-Wassertank?", a: "Ja, wenn eine Störung angekündigt ist und noch Wasserdruck besteht. Ein WaterBOB fasst laut Hersteller rund 378 Liter in einem geschlossenen, lebensmittelechten Beutel. Ohne Vorwarnung hilft er nicht – den Grundvorrat ersetzt er nicht." },
     { q: "Wo lagert man Wasserkanister am besten?", a: "Dunkel, kühl und frostfrei, etwa im Keller oder in einem Schrank. Nicht in der Sonne und nicht neben Kraftstoff, Farben oder Lösungsmitteln, weil Kunststoff Gerüche aufnehmen kann." },
   ],
 

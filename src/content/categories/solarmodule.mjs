@@ -16,13 +16,13 @@ export default {
   eyebrow: "Krisenvorsorge · Energie & Wärme",
   h1: "Die 3 besten Solarmodule für Powerstations 2026",
   lead:
-    "Eine Powerstation ist irgendwann leer – mit Solarmodulen lädt sie sich im Blackout selbst wieder auf. Faltbare Panels lassen sich in Minuten auf Balkon, Terrasse oder Garten aufstellen, feste Module bleiben dauerhaft montiert. Diese drei sind die beste Wahl.",
+    "Eine Powerstation ist irgendwann leer – mit Solarmodulen lädt sie sich im Blackout selbst wieder auf. Faltbare Panels lassen sich in Minuten auf Balkon, Terrasse oder Garten aufstellen, feste Module bleiben dauerhaft montiert. Diese drei sind nach unserer Einschätzung die beste Wahl.",
   answer:
-    "Unsere beste Gesamtwahl ist das [**EcoFlow 220 W bifaziale Solarpanel**](produkt:1): beidseitig aktiv, IP68, mit Ständer und XT60-Kabel direkt für Powerstations. Leichter und mit 5 Jahren Garantie ist das [**Anker SOLIX PS200**](produkt:2); die meiste Leistung pro Aufbau liefert das [**Anker SOLIX PS400 Gen 2**](produkt:3) mit 400 W.",
+    "Unsere beste Gesamtwahl ist das [**EcoFlow 220 W bifaziale Solarpanel**](produkt:1): laut Hersteller beidseitig aktiv, IP68, mit Ständer und XT60-Kabel direkt für Powerstations. Leichter und laut Anker mit 5 Jahren Garantie ist das [**Anker SOLIX PS200**](produkt:2); die meiste Leistung pro Aufbau liefert das [**Anker SOLIX PS400 Gen 2**](produkt:3) mit 400 W.",
 
   top3Title: "Unsere Top 3 Solarmodule für den Notfall",
   top3Intro:
-    "Drei faltbare, bifaziale Module in drei Leistungsklassen. Alle drei lassen sich ohne Montage aufstellen und direkt an gängige Powerstations anschließen.",
+    "Drei faltbare, bifaziale Module in drei Leistungsklassen. Alle drei lassen sich ohne Montage aufstellen und – passende Stecker und Spannung vorausgesetzt – an gängige Powerstations anschließen.",
   comparisonTitle: "Die 3 besten Solarmodule im Vergleich",
 
   criteria: [
@@ -33,7 +33,7 @@ export default {
   ],
 
   method:
-    "Grundlage sind Herstellerangaben zu Nennleistung, Wirkungsgrad, Schutzart und Gewicht, Kundenberichte zu Haltbarkeit und realem Ertrag sowie Kompatibilitätsangaben der Powerstation-Hersteller. Unabhängige Tests faltbarer Solarmodule haben wir nicht gefunden. Wir empfehlen ausschließlich Produkte, die bei Amazon erhältlich sind. Jedes Modul wird in vier Kriterien von 0 bis 10 eingeordnet; die Gesamtnote ist der gewichtete Mittelwert.",
+    "Grundlage sind Herstellerangaben zu Nennleistung, Wirkungsgrad, Schutzart und Gewicht, Kundenberichte zu Haltbarkeit und realem Ertrag sowie Kompatibilitätsangaben der Powerstation-Hersteller. Unabhängige Tests faltbarer Solarmodule haben wir nicht gefunden; eigene Tests führen wir nicht durch, die Bewertungen sind redaktionelle Einschätzungen. Wir empfehlen ausschließlich Produkte, die bei Amazon erhältlich sind. Jedes Modul wird in vier Kriterien von 0 bis 10 eingeordnet; die Gesamtnote ist der gewichtete Mittelwert.",
 
   products: [
     {
@@ -47,13 +47,13 @@ export default {
       ratings: { leistung: 8.5, mobil: 8.0, robust: 8.5, preis: 7.0 },
       bestFor: "1-kWh-Powerstations",
       verdict:
-        "Das ausgewogenste faltbare Modul: Vorder- und Rückseite nehmen Licht auf, der integrierte Ständer stellt den Winkel ein, und das XT60-Kabel passt ohne Adapter an EcoFlow-Powerstations.",
+        "Aus unserer Sicht das ausgewogenste faltbare Modul: Laut Hersteller nehmen Vorder- und Rückseite Licht auf, der integrierte Ständer stellt den Winkel ein, und das XT60-Kabel passt ohne Adapter an EcoFlow-Powerstations.",
       features: [
         "220 W auf der Vorderseite, bifazial; laut EcoFlow bis zu 243 W unter Testbedingungen",
-        "Verstellbarer Ständer mit 30–60° und Winkelhilfe, Schutzart IP68",
+        "Verstellbarer Ständer mit 30–60° und Winkelhilfe, Schutzart IP68 (Herstellerangabe)",
         "Integriertes XT60-Kabel, laut Anbieter mit allen EcoFlow-Powerstations kompatibel",
       ],
-      pros: ["Beidseitig aktiv", "Ständer und Winkelhilfe integriert", "Wasser- und staubdicht"],
+      pros: ["Beidseitig aktiv", "Ständer und Winkelhilfe integriert", "Laut Hersteller wasser- und staubdicht (IP68)"],
       cons: ["Teurer als No-Name-Module", "Gewichtsangaben schwanken je nach Listing", "Für andere Marken ggf. Adapter nötig"],
       specs: { leistung: "220 W (bifazial)", gewicht: "ca. 5–10 kg (Angaben schwanken)", schutz: "IP68", anschluss: "XT60", garantie: "2 Jahre (Listing)" },
       asin: "B0B12CKM3C",
@@ -70,13 +70,13 @@ export default {
       ratings: { leistung: 7.5, mobil: 9.0, robust: 9.0, preis: 6.5 },
       bestFor: "Balkon, Camping & Notfallrucksack-Auto",
       verdict:
-        "Rund 5 Kilogramm inklusive Ständer: Das PS200 lässt sich bequem tragen und schnell aufstellen. Anker gibt 5 Jahre Garantie und 10 Jahre Lebensdauer an.",
+        "Laut Anker rund 5 Kilogramm inklusive Ständer: Das PS200 lässt sich bequem tragen und schnell aufstellen. Anker gibt 5 Jahre Garantie und 10 Jahre Lebensdauer an.",
       features: [
         "200 W, bifazial, laut Anker über 25 % Wirkungsgrad",
-        "Rund 5 kg inklusive Ständer, Rahmen aus verstärktem Aluminium",
+        "Rund 5 kg inklusive Ständer, Rahmen aus verstärktem Aluminium (Herstellerangabe)",
         "Schutzart IP68, 5 Jahre Garantie (Herstellerangabe)",
       ],
-      pros: ["Leicht und kompakt", "Lange Garantie", "Hoher Wirkungsgrad"],
+      pros: ["Leicht und kompakt", "Lange Herstellergarantie", "Laut Anker hoher Wirkungsgrad"],
       cons: ["Weniger Leistung als 220–400-W-Module", "Preis schwankt stark zwischen Angeboten"],
       specs: { leistung: "200 W (bifazial)", gewicht: "ca. 5 kg inkl. Ständer", schutz: "IP68", anschluss: "laut Anker für SOLIX-Powerstations", garantie: "5 Jahre" },
       asin: "B0GFWNB2V7",
@@ -93,13 +93,13 @@ export default {
       ratings: { leistung: 9.5, mobil: 6.5, robust: 8.5, preis: 6.5 },
       bestFor: "Große Powerstations, schnelles Nachladen",
       verdict:
-        "Doppelte Leistung in einem Aufbau: Das PS400 Gen 2 lädt eine 1-kWh-Powerstation an einem guten Sommertag in wenigen Stunden. Anker empfiehlt es ausdrücklich für die SOLIX C1000.",
+        "Doppelte Nennleistung in einem Aufbau: Das PS400 Gen 2 kann eine 1-kWh-Powerstation an einem guten Sommertag in wenigen Stunden laden – der reale Ertrag hängt von Wetter und Ausrichtung ab. Anker empfiehlt es ausdrücklich für die SOLIX C1000.",
       features: [
         "400 W, bifazial, laut Anker über 25 % Wirkungsgrad und 10 Jahre Lebensdauer",
         "Laut Anbieter unter 10 kg – deutlich leichter als das ältere, einseitige PS400",
-        "Passend für Powerstations mit großem Solareingang (z. B. SOLIX C1000, DELTA 3 Plus mit Adapter)",
+        "Passend für Powerstations mit großem Solareingang (z. B. SOLIX C1000, DELTA 3 Plus mit Adapter; Spannungsbereich vorab prüfen)",
       ],
-      pros: ["Höchste Leistung pro Aufbau", "Bifazial", "Gutes Verhältnis von Preis zu Watt"],
+      pros: ["Höchste Nennleistung in unserer Top 3", "Bifazial", "Gutes Verhältnis von Preis zu Watt"],
       cons: ["Groß aufgeklappt – braucht viel Platz", "Schwerer als 200-W-Module", "Nicht mit dem älteren PS400 (21 kg) verwechseln"],
       specs: { leistung: "400 W (bifazial)", gewicht: "unter 10 kg (Anbieter)", schutz: "laut Anker wetterfest", anschluss: "laut Anker für SOLIX-Powerstations", garantie: "Herstellerangabe prüfen" },
       asin: "B0GYPKWFFF",
@@ -150,11 +150,11 @@ export default {
         h2: "Welches Solarmodul ist für eine Powerstation am besten?",
         blocks: [
           { quick: "Für die meisten ist das [EcoFlow 220 W bifazial](produkt:1) die beste Wahl: IP68, Ständer, XT60. Am leichtesten ist das [Anker SOLIX PS200](produkt:2), am leistungsstärksten das [Anker SOLIX PS400 Gen 2](produkt:3)." },
-          { first: "Eine Powerstation speichert Strom, sie erzeugt ihn nicht. Wer einen Stromausfall über mehrere Tage überbrücken will, braucht deshalb einen Weg zum Nachladen – und Solar ist der einzige, der ohne Kraftstoff, Lärm und Abgase auskommt. Faltbare Module sind dafür ideal: Sie liegen im Schrank, bis man sie braucht, und stehen in wenigen Minuten." },
+          { first: "Eine Powerstation speichert Strom, sie erzeugt ihn nicht. Wer einen Stromausfall über mehrere Tage überbrücken will, braucht deshalb einen Weg zum Nachladen – und Solar ist der naheliegendste Weg, der ohne Kraftstoff, Lärm und Abgase auskommt. Faltbare Module sind dafür ideal: Sie liegen im Schrank, bis man sie braucht, und stehen in wenigen Minuten." },
           { p: "Bifaziale Module nehmen auch auf der Rückseite Licht auf, das vom Boden oder einer hellen Wand reflektiert wird. EcoFlow gibt für sein 220-W-Modul bis zu 243 Watt unter Testbedingungen an. In der Praxis hängt der Zusatzertrag stark vom Untergrund ab – heller Kies oder Schnee bringen mehr als dunkler Rasen." },
-          { p: "Unsere Gesamtwahl ist das EcoFlow-Modul, weil es Leistung, Robustheit und einfache Handhabung am besten kombiniert. Für eine 1-kWh-Powerstation ist ein 200- bis 220-W-Modul ein guter Start, zwei Module oder ein 400-W-Modul laden deutlich schneller. Feste Module sind günstiger pro Watt, brauchen aber eine Halterung und passende Kabel." },
+          { p: "Unsere Gesamtwahl ist das EcoFlow-Modul, weil es nach unserer Einschätzung Leistung, Robustheit und einfache Handhabung am besten kombiniert. Für eine 1-kWh-Powerstation ist ein 200- bis 220-W-Modul ein guter Start, zwei Module oder ein 400-W-Modul laden deutlich schneller. Feste Module sind günstiger pro Watt, brauchen aber eine Halterung und passende Kabel." },
           { figure: "scores" },
-          { callout: { title: "Realistisch rechnen", text: "Die Nennleistung gilt unter Laborbedingungen. Im Alltag liefern Module meist deutlich weniger – Kunden berichten bei 100-W-Modulen von 75 bis 86 W in voller Sonne. Im Winter, bei Bewölkung und flachem Sonnenstand ist es oft nur ein Bruchteil davon." } },
+          { callout: { title: "Realistisch rechnen", text: "Die Nennleistung gilt unter Laborbedingungen. Im Alltag liefern Module meist deutlich weniger – Kundenberichten zufolge bei 100-W-Modulen etwa 75 bis 86 W in voller Sonne. Im Winter, bei Bewölkung und flachem Sonnenstand ist es oft nur ein Bruchteil davon." } },
         ],
       },
       {
@@ -170,17 +170,18 @@ export default {
                 ["**Aufbau**", "In Minuten, mit Ständer", "Halterung, Montage nötig"],
                 ["**Lagerung**", "Kompakt im Schrank", "Dauerhaft draußen"],
                 ["**Preis pro Watt**", "Höher", "Niedriger"],
-                ["**Haltbarkeit**", "Gelenke und Stoff empfindlicher", "Sehr robust, Glas und Alurahmen"],
+                ["**Haltbarkeit**", "Gelenke und Stoff empfindlicher", "In der Regel robuster, Glas und Alurahmen"],
                 ["**Anschluss**", "Oft XT60 oder Herstellerstecker", "Meist MC4, Adapter nötig"],
               ],
             },
           },
           { h3: "Spannung und Stecker" },
-          { p: "Jede Powerstation hat einen erlaubten Spannungsbereich am Solareingang und eine maximale Eingangsleistung. Die Leerlaufspannung der Module – bei Reihenschaltung addiert – darf diesen Bereich nicht überschreiten, sonst drohen Schäden. Prüfe im Datenblatt beider Geräte die Werte und nutze die vom Hersteller empfohlenen Kabel. Feste Module haben meist MC4-Stecker; für Powerstations mit XT60-Eingang gibt es Adapterkabel." },
+          { p: "Jede Powerstation hat einen erlaubten Spannungsbereich am Solareingang und eine maximale Eingangsleistung. Die Leerlaufspannung der Module – bei Reihenschaltung addiert – darf diesen Bereich nicht überschreiten, sonst drohen Schäden. Prüfe im Datenblatt beider Geräte die Werte und nutze die vom Hersteller empfohlenen Kabel. Stecker nur trocken und möglichst ohne Last verbinden oder trennen; beschädigte Kabel nicht verwenden. Feste Module haben meist MC4-Stecker; für Powerstations mit XT60-Eingang gibt es Adapterkabel." },
           { h3: "Robustheit" },
-          { p: "Faltbare Module sind mobil, aber empfindlicher als gerahmte Glasmodule. Kundenberichte erwähnen bei manchen Modellen Risse in der Beschichtung oder defekte Kabel. Achte auf IP67 oder IP68, verstärkte Kanten und eine Garantie von mehreren Jahren – Anker gibt beim PS200 fünf Jahre." },
+          { p: "Faltbare Module sind mobil, aber empfindlicher als gerahmte Glasmodule. Kundenberichte erwähnen bei manchen faltbaren Modulen Risse in der Beschichtung oder defekte Kabel. Achte auf IP67 oder IP68, verstärkte Kanten und eine Garantie von mehreren Jahren – Anker gibt beim PS200 laut eigener Angabe fünf Jahre." },
           { h3: "Feste Module als Dauerlösung" },
           { p: "Wer Platz auf Garage, Gartenhaus oder Flachdach hat, kann ein festes Modul dauerhaft montieren und über ein Kabel zur Powerstation führen. Das ist günstiger pro Watt und immer einsatzbereit. Für mehr als ein, zwei Module lohnt sich der Blick auf ein Balkonkraftwerk mit Speicher." },
+          { callout: { title: "Montage, Statik und Hausnetz", warn: true, text: "Feste Module sind schwer und bieten Wind viel Angriffsfläche. Halterung, Dachlast und Absturzsicherung sorgfältig planen; Arbeiten auf dem Dach oder in der Höhe besser Fachleuten überlassen. Je nach Bundesland, Gemeinde und Gebäude können Bauordnungsrecht, Denkmalschutz, Mietvertrag oder Eigentümergemeinschaft betroffen sein – vorab klären. Solarstrom nie selbst ins Hausnetz einspeisen: Netzgekoppelte Anlagen brauchen zugelassene Wechselrichter, die Anmeldung im Marktstammdatenregister und, über ein Balkonkraftwerk hinaus, eine Elektrofachkraft." } },
         ],
       },
       {
@@ -210,8 +211,8 @@ export default {
       "Ein festes Modul für das Dach, kleine Panels für Handy und Powerbank und das passende Kabel: Diese fünf Produkte ergänzen die Top 3.",
     items: [
       { name: "Offgridtec 200 W Mono Solarpanel Black Frame V2", for: "Festes Modul", text: "Starres Glasmodul mit Rahmen und MC4-Steckern, laut Anbieter über 22 % Wirkungsgrad – für die dauerhafte Montage auf Garage oder Gartenhaus.", asin: "B0CLY3HSRJ", query: "Offgridtec 200W Mono Solarpanel Black Frame" },
-      { name: "Jackery SolarSaga 100", for: "Für Jackery-Powerstations", text: "Faltbares 100-W-Modul mit DC-8-mm-Stecker sowie USB-A und USB-C für Handys direkt am Panel.", asin: "B0DQW43YGR", query: "Jackery SolarSaga 100" },
-      { name: "EcoFlow 110 W faltbar", for: "Kleine Powerstations", text: "Leichtes 110-W-Modul mit Tragetasche und IP68 – passend für die EcoFlow RIVER 3.", asin: "B0DPX15G6R", query: "EcoFlow 110W faltbares Solarpanel" },
+      { name: "Jackery SolarSaga 100", for: "Für Jackery-Powerstations", text: "Faltbares 100-W-Modul mit DC-8-mm-Stecker sowie USB-A und USB-C für Handys direkt am Panel (Herstellerangabe).", asin: "B0DQW43YGR", query: "Jackery SolarSaga 100" },
+      { name: "EcoFlow 110 W faltbar", for: "Kleine Powerstations", text: "Leichtes 110-W-Modul mit Tragetasche und laut Hersteller IP68 – passend für die EcoFlow RIVER 3.", asin: "B0DPX15G6R", query: "EcoFlow 110W faltbares Solarpanel" },
       { name: "EcoFlow 45 W faltbar", for: "Rucksack & Powerbank", text: "Sehr kompaktes Panel für unterwegs, kleine Powerstations und Powerbanks.", asin: "B0DPTRD689", query: "EcoFlow 45W faltbares Solarpanel" },
       { name: "EcoFlow MC4-Verlängerungskabel 3 m", for: "Mehr Abstand zur Sonne", text: "Verlängert das Solarkabel um 3 m – damit das Modul in der Sonne und die Powerstation im Schatten stehen kann.", asin: "B096RPBTZD", query: "EcoFlow MC4 Verlängerungskabel 3 m" },
     ],
@@ -223,13 +224,14 @@ export default {
         id: "ertrag-und-winter",
         h2: "Wie viel Strom liefert ein Solarmodul im Notfall?",
         blocks: [
-          { quick: "Im Sommer kann ein 200-W-Modul an einem sonnigen Tag rund 0,6 bis 1 kWh liefern, im Winter oft nur einen kleinen Bruchteil davon. Plane für die kalte Jahreszeit mehr Modulfläche ein und spare Strom." },
+          { quick: "Im Sommer kann ein 200-W-Modul an einem sonnigen Tag grob geschätzt rund 0,6 bis 1 kWh liefern, im Winter oft nur einen kleinen Bruchteil davon. Plane für die kalte Jahreszeit mehr Modulfläche ein und spare Strom." },
           { p: "Der Ertrag hängt von Sonnenstunden, Sonnenstand, Ausrichtung und Temperatur ab. Kühle, klare Tage sind für Solarzellen ideal, kurze Wintertage mit tiefstehender Sonne und Bewölkung dagegen schwach. Wer im Winter vorsorgen will, sollte steilere Winkel wählen, Schnee abräumen und lieber zwei Module als eines einplanen." },
           { figure: "steps" },
           { h3: "Praxis im Blackout" },
           {
             list: [
               "**Morgens aufstellen, abends einräumen:** So bleiben Modul und Kabel trocken und vor Diebstahl geschützt.",
+              "**Gegen Wind sichern:** Aufgestellte Module können umkippen oder vom Balkon wehen – beschweren oder festbinden, besonders in der Höhe.",
               "**Tagsüber verbrauchen:** Geräte bevorzugt laufen lassen, während die Sonne scheint – das schont den Akku.",
               "**Ertrag beobachten:** Die meisten Powerstations zeigen die Eingangsleistung an. Ein Nachdrehen alle paar Stunden lohnt sich.",
               "**Nicht hinter Glas:** Fensterglas schluckt einen Teil des Lichts, besonders bei beschichteten Scheiben.",
@@ -237,9 +239,9 @@ export default {
           },
           {
             facts: [
-              { value: "30–60°", label: "Verstellbereich des EcoFlow-Ständers" },
-              { value: "IP68", label: "Schutzart von EcoFlow 220 W und Anker PS200" },
-              { value: "5 Jahre", label: "Garantie auf das Anker SOLIX PS200" },
+              { value: "30–60°", label: "Verstellbereich des EcoFlow-Ständers (Herstellerangabe)" },
+              { value: "IP68", label: "Schutzart von EcoFlow 220 W und Anker PS200 laut Hersteller" },
+              { value: "5 Jahre", label: "Herstellergarantie auf das Anker SOLIX PS200 laut Anker" },
             ],
           },
           { h3: "Pflege und Lagerung" },
