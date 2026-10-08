@@ -10,14 +10,14 @@ export default {
 
   metaTitle: "Die 3 besten Outdoor-Tischtennisplatten 2026",
   metaDescription:
-    "Wetterfeste Outdoor-Tischtennisplatten, Betonplatten für die Ewigkeit und Indoor-Turnierplatten: Die 3 besten Tischtennisplatten 2026 im Vergleich.",
+    "Wetterfeste Outdoor-Tischtennisplatten, robuste Betonplatten und Indoor-Turnierplatten: Die 3 besten Tischtennisplatten 2026 im Vergleich.",
 
   eyebrow: "Sportanlagen · Tischtennis",
   h1: "Die 3 besten Outdoor-Tischtennisplatten 2026",
   lead:
     "Eine Tischtennisplatte im Garten ist Treffpunkt für die ganze Familie. Wir zeigen die drei besten wetterfesten Platten – und in der Top 5 Beton- und Indoor-Modelle.",
   answer:
-    "Unsere beste Gesamtwahl ist die [**Cornilleau 500X Outdoor**](produkt:1) mit 6-mm-Melaminharzplatte, TÜV-geprüft und zusammenklappbar. Das beste Preis-Leistungs-Verhältnis bietet die [**Cornilleau 200X Outdoor**](produkt:2) mit 10 Jahren Garantie; die Premium-Wahl ist die [**KETTLER K15 Outdoor**](produkt:3) mit 10-mm-Platte in Turnierqualität.",
+    "Unsere beste Gesamtwahl ist die [**Cornilleau 500X Outdoor**](produkt:1) mit 6-mm-Melaminharzplatte, laut Hersteller TÜV-geprüft, und zusammenklappbar. Das beste Preis-Leistungs-Verhältnis bietet die [**Cornilleau 200X Outdoor**](produkt:2), laut Händler mit 10 Jahren Garantie; die Premium-Wahl ist die [**KETTLER K15 Outdoor**](produkt:3) mit 10-mm-Platte, die der Hersteller als Turnierqualität bewirbt.",
 
   priceTiers: {
     1: { symbol: "€", label: "bis 600 €" },
@@ -26,7 +26,7 @@ export default {
   },
 
   top3Title: "Unsere Top 3 Outdoor-Tischtennisplatten",
-  top3Intro: "Alle drei sind wetterfest, klappbar und haben Turniermaße (274 × 152,5 cm). Der wichtigste Unterschied ist die Plattenstärke – sie bestimmt den Ballabsprung.",
+  top3Intro: "Alle drei sind laut Hersteller wetterfest, klappbar und haben Turniermaße (274 × 152,5 cm). Der wichtigste Unterschied ist die Plattenstärke – sie bestimmt den Ballabsprung.",
   comparisonTitle: "Die 3 besten Outdoor-Tischtennisplatten im Vergleich",
 
   criteria: [
@@ -51,13 +51,13 @@ export default {
       ratings: { spiel: 8.5, wetter: 9.0, handling: 9.0, preis: 8.0 },
       bestFor: "Familien und Vielspieler",
       verdict:
-        "Der beste Allrounder: 6 mm starke Melaminharzplatte für einen guten Ballabsprung, durchdachte Klappmechanik und TÜV-Prüfung – aus der eigenen Fabrik in Frankreich.",
+        "Unser Allrounder-Favorit: 6 mm starke Melaminharzplatte für einen guten Ballabsprung, durchdachte Klappmechanik und – laut Hersteller – TÜV-Prüfung und Fertigung in der eigenen Fabrik in Frankreich.",
       features: [
         "6-mm-Melaminharzplatte, Turniermaße (Herstellerangabe)",
-        "Wetterfest, klappbar, fahrbar, TÜV-geprüft",
-        "Hergestellt in der Cornilleau-Fabrik in Frankreich",
+        "Wetterfest, klappbar, fahrbar, TÜV-geprüft (Herstellerangabe)",
+        "Hergestellt in der Cornilleau-Fabrik in Frankreich (Herstellerangabe)",
       ],
-      pros: ["Guter Ballabsprung", "Sehr gute Klappmechanik", "Robust und wetterfest"],
+      pros: ["Guter Ballabsprung", "Durchdachte Klappmechanik", "Robust und wetterfest laut Hersteller"],
       cons: ["Teurer als Einstiegsmodelle", "Schwer"],
       specs: { platte: "6 mm Melaminharz", masse: "274 × 152,5 cm", klappbar: "ja", geprueft: "TÜV", garantie: "laut Hersteller" },
       asin: "B08VDMCHPD",
@@ -74,10 +74,10 @@ export default {
       ratings: { spiel: 7.5, wetter: 8.5, handling: 8.5, preis: 9.0 },
       bestFor: "Einstieg, Familien mit Kindern",
       verdict:
-        "Der günstige Einstieg in die Markenqualität: wetterfest, klappbar und mit 5-mm-Melaminharzplatte – laut Händler mit 10 Jahren Garantie.",
+        "Der günstige Einstieg in die Markenqualität: laut Hersteller wetterfest, klappbar und mit 5-mm-Melaminharzplatte – laut Händler mit 10 Jahren Garantie.",
       features: [
         "5-mm-Melaminharzplatte, Turniermaße (Herstellerangabe)",
-        "Wetterfest und klappbar",
+        "Wetterfest und klappbar (Herstellerangabe)",
         "Laut Händler 10 Jahre Garantie",
       ],
       pros: ["Günstig", "Lange Garantie", "Markenqualität"],
@@ -97,13 +97,13 @@ export default {
       ratings: { spiel: 9.5, wetter: 9.0, handling: 8.5, preis: 6.5 },
       bestFor: "Ambitionierte Spieler",
       verdict:
-        "Turniergefühl im Garten: Die 10 mm starke Melaminharzplatte mit kratzfester Overlay-Schicht liefert den besten Ballabsprung unter den klappbaren Outdoor-Platten.",
+        "Turniergefühl im Garten: Die 10 mm starke Melaminharzplatte mit laut Hersteller kratzfester Overlay-Schicht bietet nach unserer Einschätzung einen der besten Ballabsprünge unter den klappbaren Outdoor-Platten.",
       features: [
         "10-mm-Melaminharzplatte mit Overlay-Schicht (Herstellerangabe)",
-        "Turnierqualität, wetterfest, klappbar",
+        "Turnierqualität, wetterfest, klappbar (Herstellerangabe)",
         "Made in Germany, TÜV-geprüft (Herstellerangabe für die Serie)",
       ],
-      pros: ["Bester Ballabsprung", "Sehr robust", "Hochwertige Verarbeitung"],
+      pros: ["Sehr guter Ballabsprung", "Robuste Bauweise", "Hochwertige Verarbeitung"],
       cons: ["Teuer", "Sehr schwer"],
       specs: { platte: "10 mm Melaminharz", masse: "274 × 152,5 cm", klappbar: "ja", geprueft: "TÜV (Serie)", garantie: "laut Hersteller" },
       asin: "B09BNRHLZH",
@@ -133,12 +133,12 @@ export default {
       title: "Tischtennisplatte aufstellen",
       subtitle: "Platzbedarf, Untergrund und Pflege",
       alt: "Infografik: Tischtennisplatte aufstellen – Platzbedarf, Untergrund, Ausrichtung, Abdeckung, Winter",
-      caption: "So steht die Platte gerade und hält viele Jahre.",
+      caption: "So steht die Platte gerade und sicher – und hält länger.",
       steps: [
         { title: "Platz einplanen", text: "Für Freizeitspiel mindestens rund 6 × 3 m, besser 8 × 4 m." },
         { title: "Ebenen Untergrund", text: "Pflaster, Platten oder Beton – auf Rasen sinken Rollen ein." },
         { title: "Gegen die Sonne ausrichten", text: "Längsseite in Nord-Süd-Richtung, damit niemand geblendet wird." },
-        { title: "Abdecken", text: "Eine Schutzhülle verlängert die Lebensdauer deutlich." },
+        { title: "Abdecken", text: "Eine Schutzhülle kann die Lebensdauer verlängern." },
         { title: "Im Winter sichern", text: "Zusammengeklappt, abgedeckt und gegen Wind gesichert lagern." },
       ],
     },
@@ -153,8 +153,8 @@ export default {
         h2: "Welche Outdoor-Tischtennisplatte ist die beste?",
         blocks: [
           { quick: "Für die meisten ist die [Cornilleau 500X](produkt:1) die beste Wahl. Günstiger ist die [Cornilleau 200X](produkt:2), für Ambitionierte die [Kettler K15](produkt:3) mit 10-mm-Platte." },
-          { first: "Tischtennis ist einer der wenigen Sportarten, bei denen Großeltern gegen Enkel spielen können – und die Platte im Garten wird schnell zum Treffpunkt. Outdoor-Platten müssen Regen, Sonne und Frost aushalten. Deshalb bestehen sie aus Melaminharz oder Aluminium-Verbund statt aus Spanplatte." },
-          { p: "Der wichtigste Unterschied zwischen den Modellen ist die Plattenstärke: Je dicker, desto höher und gleichmäßiger springt der Ball. Einstiegsplatten haben 4 bis 5 mm, gute Allrounder 6 mm, Spitzenmodelle 7 bis 10 mm. Indoor-Turnierplatten aus Holz kommen auf 19 bis 25 mm – bei Regen wären sie aber schnell zerstört." },
+          { first: "Tischtennis ist eine der wenigen Sportarten, bei denen Großeltern gegen Enkel spielen können – und die Platte im Garten wird schnell zum Treffpunkt. Outdoor-Platten müssen Regen, Sonne und Frost aushalten. Deshalb bestehen sie aus Melaminharz oder Aluminium-Verbund statt aus Spanplatte." },
+          { p: "Der wichtigste Unterschied zwischen den Modellen ist die Plattenstärke: Je dicker, desto höher und gleichmäßiger springt der Ball. Einstiegsplatten haben laut Herstellerangaben meist 4 bis 5 mm, gute Allrounder 6 mm, Spitzenmodelle 7 bis 10 mm. Indoor-Turnierplatten aus Holz kommen auf 19 bis 25 mm – Regen und Feuchtigkeit würden ihnen aber schnell schaden." },
           { figure: "scores" },
         ],
       },
@@ -169,7 +169,7 @@ export default {
               head: ["Typ", "Stärken", "Schwächen"],
               rows: [
                 ["**Outdoor (Melaminharz)**", "Wetterfest, klappbar, guter Absprung", "Teurer als Indoor"],
-                ["**Beton**", "Unverwüstlich, ganzjährig draußen", "Rund 400 kg, fest installiert"],
+                ["**Beton**", "Sehr robust, ganzjährig draußen", "Rund 400 kg, fest installiert"],
                 ["**Indoor (Holz)**", "Bester Absprung, günstig", "Nicht wetterfest"],
               ],
             },
@@ -184,11 +184,11 @@ export default {
     h2: "Die 5 besten Alternativen: Beton, stationär und Indoor",
     intro: "Für den Dauereinsatz draußen, für Schulen und Vereine – oder für den Keller.",
     items: [
-      { name: "Beton-Tischtennistisch mit Netz (2. Wahl)", for: "Für die Ewigkeit", text: "Platte aus Acrylbeton (30 mm) mit Untergestell aus stahlarmiertem Beton, rund 400 kg (Händlerangabe) – 2.-Wahl-Ware, Beschreibung der Mängel beachten.", asin: "B01M4HDV95", query: "Beton-Tischtennistisch Netz Outdoor" },
-      { name: "Sport-Thieme Metall-Tischtennisnetz für Betonplatten", for: "Netz für Beton", text: "Robustes, wetterfestes Metallnetz zur dauerhaften Montage an Betonplatten, inklusive Befestigungsmaterial.", asin: "B0F5398XGT", query: "Sport-Thieme Metall-Tischtennisnetz Beton" },
-      { name: "Cornilleau Pro 510 Outdoor", for: "Stationär, ganzjährig", text: "Nicht klappbar, Gestell aus feuerverzinktem Stahlblech, 7-mm-Platte – für Schulen, Parks und Gärten.", asin: "B01M9HRUF0", query: "Cornilleau Pro 510 Outdoor" },
+      { name: "Beton-Tischtennistisch mit Netz (2. Wahl)", for: "Für den Dauereinsatz", text: "Platte aus Acrylbeton (30 mm) mit Untergestell aus stahlarmiertem Beton, rund 400 kg (Händlerangabe) – 2.-Wahl-Ware, Beschreibung der Mängel beachten.", asin: "B01M4HDV95", query: "Beton-Tischtennistisch Netz Outdoor" },
+      { name: "Sport-Thieme Metall-Tischtennisnetz für Betonplatten", for: "Netz für Beton", text: "Laut Händler robustes, wetterfestes Metallnetz zur dauerhaften Montage an Betonplatten, inklusive Befestigungsmaterial.", asin: "B0F5398XGT", query: "Sport-Thieme Metall-Tischtennisnetz Beton" },
+      { name: "Cornilleau Pro 510 Outdoor", for: "Stationär, ganzjährig", text: "Nicht klappbar, Gestell aus feuerverzinktem Stahlblech, 7-mm-Platte (Herstellerangabe) – für Schulen, Parks und Gärten.", asin: "B01M9HRUF0", query: "Cornilleau Pro 510 Outdoor" },
       { name: "Kettler K5 Indoor", for: "Indoor-Turnierplatte", text: "19-mm-Holzplatte mit kratzfester Overlay-Schicht, Turnierqualität, DIN EN 14468 (Herstellerangabe).", asin: "B088F4HVPP", query: "Kettler K5 Indoor Tischtennisplatte" },
-      { name: "JOOLA Inside 13 Indoor", for: "Günstig für den Keller", text: "Indoor-Platte mit 12-mm-MDF, klappbarem Untergestell und Netz, in rund 20 Minuten aufgebaut.", asin: "B0CPHL54QD", query: "JOOLA Inside 13 Tischtennisplatte" },
+      { name: "JOOLA Inside 13 Indoor", for: "Günstig für den Keller", text: "Indoor-Platte mit 12-mm-MDF, klappbarem Untergestell und Netz, laut Hersteller in rund 20 Minuten aufgebaut.", asin: "B0CPHL54QD", query: "JOOLA Inside 13 Tischtennisplatte" },
     ],
   },
 
@@ -200,7 +200,7 @@ export default {
         blocks: [
           { quick: "Platte auf ebenem, festem Grund aufstellen, Rollen feststellen, nach dem Spielen zusammenklappen und abdecken. Beim Klappen auf Finger achten." },
           { figure: "steps" },
-          { callout: { title: "Sicherheit", warn: true, text: "Klappbare Platten können beim Auf- und Zuklappen Finger einklemmen. Kinder nur unter Aufsicht klappen lassen und Sicherungen immer einrasten." } },
+          { callout: { title: "Sicherheit", warn: true, text: "Klappbare Platten können beim Auf- und Zuklappen Finger einklemmen. Kinder nur unter Aufsicht klappen lassen und Sicherungen immer einrasten. Eine zusammengeklappte Platte kann bei Wind oder unebenem Boden umkippen – Rollen feststellen und draußen gegen Wind sichern. Betonplatten wiegen rund 400 kg: Transport und Aufstellung nur mit geeignetem Gerät oder durch einen Fachbetrieb, auf tragfähigem, ebenem Untergrund nach Herstellerangabe." } },
           { facts: [{ value: "274 × 152,5 cm", label: "Turniermaß der Platte" }, { value: "76 cm", label: "Höhe der Spielfläche" }, { value: "15,25 cm", label: "Netzhöhe" }] },
         ],
       },
@@ -209,9 +209,9 @@ export default {
 
   faqs: [
     { q: "Welche Outdoor-Tischtennisplatte ist die beste?", a: "Unsere beste Gesamtwahl ist die Cornilleau 500X mit 6-mm-Platte. Günstiger ist die Cornilleau 200X, die Premium-Wahl die Kettler K15 mit 10-mm-Platte." },
-    { q: "Kann eine Outdoor-Tischtennisplatte im Winter draußen bleiben?", a: "Viele Outdoor-Platten sind dafür ausgelegt. Zusammengeklappt, abgedeckt und gegen Wind gesichert halten sie deutlich länger." },
+    { q: "Kann eine Outdoor-Tischtennisplatte im Winter draußen bleiben?", a: "Viele Outdoor-Platten sind laut Herstellern dafür ausgelegt. Zusammengeklappt, abgedeckt und gegen Wind gesichert halten sie in der Regel länger." },
     { q: "Wie viel Platz braucht eine Tischtennisplatte?", a: "Für Freizeitspiel mindestens rund 6 × 3 m, für schnelles Spiel eher 8 × 4 m und mehr." },
-    { q: "Lohnt sich eine Betonplatte?", a: "Für öffentliche Plätze, Schulen oder Gärten, in denen die Platte nie bewegt werden soll, ja. Sie ist unverwüstlich, wiegt aber rund 400 kg." },
+    { q: "Lohnt sich eine Betonplatte?", a: "Für öffentliche Plätze, Schulen oder Gärten, in denen die Platte nie bewegt werden soll, ja. Sie ist sehr robust und witterungsbeständig, wiegt aber rund 400 kg und lässt sich nur mit schwerem Gerät versetzen." },
     { q: "Was ist der Unterschied zwischen Indoor- und Outdoor-Platten?", a: "Indoor-Platten bestehen aus Holz und haben einen besseren Absprung, sind aber nicht wetterfest. Outdoor-Platten sind aus Melaminharz oder Aluminium-Verbund." },
   ],
 

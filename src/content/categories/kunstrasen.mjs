@@ -15,7 +15,7 @@ export default {
   eyebrow: "Sportanlagen · Kunstrasen",
   h1: "Der beste Kunstrasen für Garten und Bolzplatz 2026",
   lead:
-    "Kunstrasen ist immer grün, braucht keinen Rasenmäher und hält Fußball, Hockey und Toben aus – wenn Belag, Infill und Unterbau stimmen. Wir zeigen die drei besten Rollen und das passende Zubehör.",
+    "Kunstrasen bleibt grün, braucht keinen Rasenmäher und verträgt Fußball und Toben gut – wenn Belag, Infill und Unterbau stimmen. Wir zeigen die drei besten Rollen und das passende Zubehör.",
   answer:
     "Unsere beste Gesamtwahl ist der [**Floordirekt Premium Kunstrasen (2 × 10 m)**](produkt:1), weil er in großen Bahnen, mehreren Florhöhen und mit Drainage erhältlich ist. Am günstigsten ist der [**Nisorpa Kunstrasen 30 mm (10 × 1 m)**](produkt:2); für Ballspiele eignet sich der dichte [**Sportkunstrasen 30 mm als Rollware**](produkt:3). Echter FIFA-Sportkunstrasen ist bei Amazon nicht erhältlich – dafür nennen wir Fachanbieter.",
 
@@ -51,13 +51,13 @@ export default {
       ratings: { belastung: 8.0, qualitaet: 8.5, verlegung: 8.5, preis: 8.0 },
       bestFor: "Garten, Spielfläche, kleiner Bolzplatz",
       verdict:
-        "Die vielseitigste Wahl: breite Bahnen mit wenigen Nähten, mehrere Modelle und Florhöhen sowie eine Drainage, die Regenwasser schnell ableitet.",
+        "Die vielseitigste Wahl: breite Bahnen mit wenigen Nähten, mehrere Modelle und Florhöhen sowie laut Händler eine Drainage, die Regenwasser schnell ableitet.",
       features: [
         "Bahnen bis 2 × 10 m, verschiedene Modelle und Florhöhen (Händlerangabe)",
         "Drainage: laut Händler bis 60 Liter pro m² und Minute (Modell Windsor)",
-        "Mit dem Teppichmesser zuschneidbar, für Balkon, Terrasse und Garten",
+        "Mit dem Teppichmesser zuschneidbar, für Balkon, Terrasse und Garten (Händlerangabe)",
       ],
-      pros: ["Breite Bahnen, wenige Nähte", "Gute Drainage", "Viele Größen"],
+      pros: ["Breite Bahnen, wenige Nähte", "Drainage laut Händler", "Viele Größen"],
       cons: ["Kein zertifizierter Sportbelag", "Ohne Infill weniger standfest bei viel Fußball"],
       specs: { flor: "je nach Modell", groesse: "2 × 10 m (weitere Größen)", ruecken: "mit Drainage", einsatz: "Garten & Spiel", infill: "optional" },
       asin: "B07P7Q774D",
@@ -74,11 +74,11 @@ export default {
       ratings: { belastung: 7.0, qualitaet: 7.5, verlegung: 7.5, preis: 9.0 },
       bestFor: "Kleine Flächen, Einstieg",
       verdict:
-        "Der günstige Einstieg: 30 mm hoher Flor aus UV-stabilisiertem PE/PP-Garn auf einem Gummirücken mit Drainagelöchern – gut für Spielecken und Terrassen.",
+        "Der günstige Einstieg: laut Händler 30 mm hoher Flor aus UV-stabilisiertem PE/PP-Garn auf einem Gummirücken mit Drainagelöchern – gut für Spielecken und Terrassen.",
       features: [
         "Florhöhe 30 mm, UV-stabilisiertes PE/PP-Garn (Händlerangabe)",
-        "Gummirücken mit Drainagelöchern",
-        "Bahn 10 × 1 m, zuschneidbar",
+        "Gummirücken mit Drainagelöchern (Händlerangabe)",
+        "Bahn 10 × 1 m, zuschneidbar (Händlerangabe)",
       ],
       pros: ["Sehr günstig pro Quadratmeter", "Weicher, hoher Flor", "Einfach zuzuschneiden"],
       cons: ["Nur 1 m breit – viele Nähte bei großen Flächen", "Gemischte Käuferbewertungen"],
@@ -97,14 +97,14 @@ export default {
       ratings: { belastung: 8.0, qualitaet: 7.0, verlegung: 7.5, preis: 7.5 },
       bestFor: "Fußball und Toben im Garten",
       verdict:
-        "Für Fläche, auf der wirklich gespielt wird: hochdichter 30-mm-Flor, als Gartenkunstrasen für Sportaktivitäten beworben und in vielen Längen erhältlich.",
+        "Für Fläche, auf der wirklich gespielt wird: laut Händler hochdichter 30-mm-Flor, als Gartenkunstrasen für Sportaktivitäten beworben und in vielen Längen erhältlich.",
       features: [
         "Florhöhe 30 mm, hohe Dichte (Händlerangabe)",
-        "Längen von 100 bis 1000 cm, schneidbar",
-        "Wetterfest, für Sport und Garten beworben",
+        "Längen von 100 bis 1000 cm, schneidbar (Händlerangabe)",
+        "Wetterfest, für Sport und Garten beworben (Händlerangabe)",
       ],
       pros: ["Dichter Flor für Ballspiele", "Viele Längen", "Günstiger als Vereinsbeläge"],
-      cons: ["No-Name-Produkt ohne Sportzertifikat", "Angaben nur vom Händler"],
+      cons: ["Wenig bekannter Anbieter, kein Sportzertifikat angegeben", "Angaben nur vom Händler"],
       specs: { flor: "30 mm", groesse: "1 × 1 bis 1 × 10 m", ruecken: "laut Händler", einsatz: "Garten & Ballspiel", infill: "Sand empfohlen" },
       asin: "B0DJVKGW9X",
       query: "Kunstrasen Sportkunstrasen 30 mm Rollrasen",
@@ -125,7 +125,7 @@ export default {
       file: "bester-kunstrasen-garten-2026-bewertung.svg",
       title: "Der beste Kunstrasen für den Garten 2026",
       alt: "Balkendiagramm: Bewertung von Floordirekt Premium, Nisorpa 30 mm und Sportkunstrasen 30 mm",
-      caption: "Unsere Bewertung je Kriterium. Floordirekt ist am ausgewogensten, Nisorpa am günstigsten, der Sportkunstrasen am robustesten für Ballspiele.",
+      caption: "Unsere Bewertung je Kriterium. Floordirekt ist am ausgewogensten, Nisorpa am günstigsten, der Sportkunstrasen nach unserer Einschätzung am besten für Ballspiele geeignet.",
     },
     steps: {
       kind: "steps",
@@ -176,7 +176,7 @@ export default {
             },
           },
           { h3: "Infill" },
-          { p: "Quarzsand zwischen den Fasern beschwert den Belag, hält die Halme aufrecht und schützt den Rücken vor UV. Sportplätze verwenden zusätzlich Gummi- oder Korkgranulat. Für Kunststoffgranulat gelten seit 2023 EU-Beschränkungen zum Schutz vor Mikroplastik – im privaten Garten ist Sand die einfachste Lösung." },
+          { p: "Quarzsand zwischen den Fasern beschwert den Belag, hält die Halme aufrecht und schützt den Rücken vor UV. Sportplätze verwenden teils zusätzlich Gummi- oder Korkgranulat. Die EU hat 2023 eine Beschränkung für absichtlich zugesetztes Mikroplastik beschlossen, die nach einer mehrjährigen Übergangsfrist auch Kunststoffgranulat als Einstreumaterial für Kunstrasenplätze betrifft – Details regelt die EU-Verordnung. Im privaten Garten ist Sand die einfachste und unkritischere Lösung. Beim Einstreuen von trockenem Quarzsand Staub möglichst vermeiden." },
         ],
       },
     ],
@@ -187,8 +187,8 @@ export default {
     h2: "Die 5 wichtigsten Zubehörteile und Anbieter für Sportkunstrasen",
     intro: "Ohne Infill, Nahtband und Vlies hält kein Kunstrasen lange. Für echten Sportkunstrasen helfen Fachanbieter weiter.",
     items: [
-      { name: "Kunstrasensand / Quarzsand, 25 kg", for: "Infill", text: "Quarzsand zum Einstreuen in Kunstrasen; beschwert den Belag und hält die Fasern aufrecht.", asin: "B0FG36SCRC", query: "Kunstrasensand Quarzsand 25 kg" },
-      { name: "BUNDMAN Kunstrasen-Nahtband, 15 cm × 15 m", for: "Nähte verbinden", text: "Selbstklebendes Verbindungsband für die Nähte zwischen zwei Bahnen.", asin: "B07H8C62NW", query: "BUNDMAN Kunstrasen Nahtband 15 cm x 15 m" },
+      { name: "Kunstrasensand / Quarzsand, 25 kg", for: "Infill", text: "Quarzsand zum Einstreuen in Kunstrasen; beschwert laut Händler den Belag und hält die Fasern aufrecht.", asin: "B0FG36SCRC", query: "Kunstrasensand Quarzsand 25 kg" },
+      { name: "BUNDMAN Kunstrasen-Nahtband, 15 cm × 15 m", for: "Nähte verbinden", text: "Selbstklebendes Verbindungsband für die Nähte zwischen zwei Bahnen (Händlerangabe).", asin: "B07H8C62NW", query: "BUNDMAN Kunstrasen Nahtband 15 cm x 15 m" },
       { name: "Unkrautvlies für den Unterbau", for: "Unterbau", text: "Wasserdurchlässiges Vlies unter dem Kunstrasen verhindert Durchwuchs. Wir verlinken auf die Amazon-Suche, weil es viele gleichwertige Angebote gibt.", query: "Unkrautvlies 150 g/m² wasserdurchlässig" },
       { name: "Floordirekt Kunstrasen Windsor 25 mm, nach Maß", for: "Zuschnitt nach Maß", text: "Kunstrasen als Meterware nach Maß mit 25 mm Florhöhe und Drainage (Händlerangabe).", asin: "B07P5MYRYH", query: "Floordirekt Kunstrasen Windsor 25 mm" },
       { name: "Sportkunstrasen nach DIN EN 15330-1", for: "Für Vereinsqualität", text: "Echter Sportkunstrasen mit Infill-System wird von Sportplatzbauern und Fachhändlern verlegt – bei Amazon ist er nicht erhältlich.", where: "Fachhandel / Sportplatzbau" },
@@ -201,17 +201,17 @@ export default {
         id: "verlegen-und-pflegen",
         h2: "Verlegen, Pflege und Umwelt",
         blocks: [
-          { quick: "Ein tragfähiger, wasserdurchlässiger Unterbau, sauber verklebte Nähte und regelmäßiges Bürsten sind das Geheimnis eines langlebigen Kunstrasens." },
+          { quick: "Ein tragfähiger, wasserdurchlässiger Unterbau, sauber verklebte Nähte und regelmäßiges Bürsten tragen viel zur Lebensdauer eines Kunstrasens bei." },
           { figure: "steps" },
           {
             list: [
               "**Laub und Schmutz entfernen:** Mit Laubbläser oder Rechen, damit die Drainage frei bleibt.",
               "**Regelmäßig bürsten:** Gegen den Strich, damit die Fasern aufrecht bleiben.",
               "**Infill nachfüllen:** Ausgespielter Sand wird jährlich ergänzt.",
-              "**Hitze beachten:** Kunstrasen kann sich im Sommer stark aufheizen – kurz befeuchten kühlt.",
+              "**Hitze beachten:** Kunstrasen kann sich im Sommer stark aufheizen – Vorsicht bei Kindern und Haustieren auf nackter Haut oder Pfoten; kurz befeuchten kühlt. Kein Grill, Feuerkorb oder Feuerwerk auf dem Belag.",
             ],
           },
-          { callout: { title: "Umwelt & Recht", text: "Kunstrasen versiegelt keine Fläche im baurechtlichen Sinn, ersetzt aber Lebensraum. Manche Kommunen regeln Kunstrasen in Vorgärten über Satzungen. Für Kunststoffgranulat als Infill gelten EU-Beschränkungen; Sand ist die unkritische Alternative." } },
+          { callout: { title: "Umwelt & Recht", warn: true, text: "Ob und wo Kunstrasen erlaubt ist, kann je nach Bundesland und Gemeinde unterschiedlich sein: Manche Landesbauordnungen, Naturschutzgesetze, Bebauungspläne oder Gestaltungssatzungen verlangen, dass nicht überbaute Flächen begrünt werden, und schränken Kunstrasen etwa in Vorgärten ein. Kläre das vor größeren Flächen beim Bauamt. Kunstrasen ersetzt Lebensraum für Insekten und Bodenleben, und auch die Kunststofffasern können mit der Zeit Abrieb freisetzen. Für Kunststoffgranulat als Infill gilt die EU-Beschränkung von Mikroplastik mit Übergangsfrist; Sand ist die unkritischere Alternative." } },
           { facts: [{ value: "20–40 mm", label: "Florhöhe für Garten-Kunstrasen" }, { value: "~10 cm", label: "Aushub für den Unterbau" }, { value: "DIN EN 15330-1", label: "Norm für Sportkunstrasen" }] },
         ],
       },
@@ -222,7 +222,7 @@ export default {
     { q: "Welcher Kunstrasen ist der beste für den Garten?", a: "Unsere beste Gesamtwahl ist der Floordirekt Premium Kunstrasen mit breiten Bahnen und Drainage. Günstiger ist der Nisorpa 30 mm, für Ballspiele eignet sich ein dichter Sportkunstrasen mit Sand-Infill." },
     { q: "Kann man auf Garten-Kunstrasen Fußball spielen?", a: "Ja, für Freizeitspiele. Für intensive Nutzung mit Stollenschuhen ist Sportkunstrasen mit Infill-System besser, den Fachfirmen verlegen." },
     { q: "Braucht Kunstrasen Sand?", a: "Für Ballspiele und viel Belastung ja. Quarzsand beschwert den Belag, hält die Fasern aufrecht und schützt den Rücken." },
-    { q: "Wie viel kostet ein Kunstrasen-Bolzplatz im Garten?", a: "Garten-Kunstrasen kostet je nach Qualität etwa 10 bis 30 Euro pro Quadratmeter, dazu kommen Unterbau, Infill und Verlegung. Echter Sportkunstrasen vom Fachbetrieb ist deutlich teurer." },
+    { q: "Wie viel kostet ein Kunstrasen-Bolzplatz im Garten?", a: "Als grobe Orientierung kostet Garten-Kunstrasen je nach Qualität etwa 10 bis 30 Euro pro Quadratmeter, dazu kommen Unterbau, Infill und Verlegung. Echter Sportkunstrasen vom Fachbetrieb ist deutlich teurer." },
     { q: "Wie lange hält Kunstrasen?", a: "Je nach Qualität, Pflege und Nutzung mehrere bis viele Jahre. UV-stabile Fasern und regelmäßiges Bürsten verlängern die Lebensdauer." },
   ],
 

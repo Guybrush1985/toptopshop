@@ -45,14 +45,14 @@ export default {
       ratings: { spiel: 9.0, qualitaet: 8.5, mobil: 8.0, preis: 7.5 },
       bestFor: "Einfahrt, Garten, Verein",
       verdict:
-        "Das solide Markennetz: robuster Stahlrahmen in Regelbreite, gebogene Füße gegen Stolperfallen und eine Tragetasche für den Transport.",
+        "Das solide Markennetz: laut Hersteller Stahlrahmen in Regelbreite, gebogene Füße gegen Stolperfallen und eine Tragetasche für den Transport.",
       features: [
         "6,7 m breit, 0,9 m hoch, Stahlrahmen (Herstellerangabe)",
-        "Gebogene Beine gegen Stolperfallen",
-        "Tragetasche inklusive",
+        "Gebogene Beine gegen Stolperfallen (Herstellerangabe)",
+        "Tragetasche inklusive (Herstellerangabe)",
       ],
       pros: ["Regelbreite", "Stabiler Stahlrahmen", "Bekannte Marke"],
-      cons: ["Teurer als No-Name-Netze", "Mittelhöhe nicht ausgewiesen"],
+      cons: ["Teurer als Netze wenig bekannter Anbieter", "Mittelhöhe nicht ausgewiesen"],
       specs: { breite: "6,7 m", hoehe: "0,9 m", rahmen: "Stahl", tasche: "ja", art: "Netzsystem" },
       asin: "B0172E3KP8",
       query: "Wilson Pickleball Net System",
@@ -68,14 +68,14 @@ export default {
       ratings: { spiel: 8.0, qualitaet: 7.5, mobil: 8.5, preis: 9.0 },
       bestFor: "Einsteiger, Familien",
       verdict:
-        "Der günstige Einstieg: 6,7 m Netz mit stabilem Metallrahmen und PE-Netz, rund 7,8 kg leicht und in Minuten aufgebaut.",
+        "Der günstige Einstieg: laut Händler 6,7 m Netz mit Metallrahmen und PE-Netz, rund 7,8 kg leicht und schnell aufgebaut.",
       features: [
         "6,7 m Netz, Metallrahmen, PE-Netz (Händlerangabe)",
-        "Gewicht rund 7,8 kg, inklusive Tragetasche",
-        "Für Hinterhof und Einfahrt",
+        "Gewicht rund 7,8 kg, inklusive Tragetasche (Händlerangabe)",
+        "Für Hinterhof und Einfahrt beworben",
       ],
       pros: ["Günstig", "Leicht", "Schnell aufgebaut"],
-      cons: ["No-Name-Hersteller", "Netzqualität je nach Charge"],
+      cons: ["Wenig bekannter Hersteller", "Angaben zur Netzqualität nur vom Händler"],
       specs: { breite: "6,7 m", hoehe: "laut Händler", rahmen: "Metall", tasche: "ja", art: "Netzsystem" },
       asin: "B0B4ZN2QXW",
       query: "Lineslife tragbares Pickleball-Netzsystem 6,7 m",
@@ -91,10 +91,10 @@ export default {
       ratings: { spiel: 8.5, qualitaet: 7.5, mobil: 8.5, preis: 7.5 },
       bestFor: "Wechselnde Spielorte",
       verdict:
-        "Aus jeder Fläche ein Court: Das einteilige Gurtsystem wird ausgelegt und gespannt – ohne Messen, ohne Kreide, wiederverwendbar.",
+        "Aus jeder ebenen Fläche ein Court: Das einteilige Gurtsystem wird laut Hersteller ausgelegt und gespannt – ohne Messen, ohne Kreide, wiederverwendbar.",
       features: [
         "Einteiliges Gurtsystem für ein komplettes Pickleball-Feld (Herstellerangabe)",
-        "Kein Ausmessen nötig, wiederverwendbar",
+        "Kein Ausmessen nötig, wiederverwendbar (Herstellerangabe)",
         "Netz nicht im Lieferumfang",
       ],
       pros: ["Kein Ausmessen", "Schnell ausgelegt", "Wiederverwendbar"],
@@ -148,7 +148,7 @@ export default {
         blocks: [
           { quick: "Für Pickleball genügen ein Netz wie das [Wilson-Netzsystem](produkt:1) oder das günstige [Lineslife-Netz](produkt:2), Linien wie das [CORTABLE-Set](produkt:3), Schläger und Bälle. Für Padel braucht es einen fest gebauten Court vom Fachbetrieb." },
           { first: "Pickleball ist eine Mischung aus Tennis, Badminton und Tischtennis: gespielt mit Paddeln und einem gelochten Plastikball auf einem Feld so groß wie ein Badmintonfeld. Das macht es ideal für Einfahrten, Hofflächen und Garagenvorplätze – ein mobiles Netz und Linien reichen." },
-          { p: "Padel ist anspruchsvoller: Gespielt wird auf einem 10 × 20 m großen Court mit Glas- und Gitterwänden, an denen der Ball abprallt. Ein privater Padel-Court ist ein Bauprojekt mit Fundament, Kunstrasen und Wänden. Anbieterseiten nennen dafür Preise von rund 20.000 bis über 40.000 Euro, je nach Ausstattung und Untergrund." },
+          { p: "Padel ist anspruchsvoller: Gespielt wird auf einem 10 × 20 m großen Court mit Glas- und Gitterwänden, an denen der Ball abprallt. Ein privater Padel-Court ist ein Bauprojekt mit Fundament, Kunstrasen und Wänden. Anbieterseiten nennen dafür als grobe Orientierung Preise von rund 20.000 bis über 40.000 Euro, je nach Ausstattung und Untergrund." },
           { figure: "scores" },
           { quote: "Pickleball passt in jede Einfahrt – Padel braucht ein Fundament." },
         ],
@@ -165,8 +165,8 @@ export default {
               rows: [
                 ["**Spielfeld**", "6,10 × 13,41 m", "10 × 20 m mit Wänden"],
                 ["**Ausrüstung im Garten**", "Mobiles Netz, Linien", "Fester Court vom Fachbetrieb"],
-                ["**Kosten (grob)**", "ab rund 100 € für Netz und Linien", "rund 20.000–40.000 € und mehr"],
-                ["**Genehmigung**", "meist nicht nötig", "häufig nötig"],
+                ["**Kosten (grob)**", "überschaubar: mobiles Netz und Linien", "laut Anbietern rund 20.000–40.000 € und mehr"],
+                ["**Genehmigung**", "für mobile Netze in der Regel nicht nötig", "häufig nötig – Bauamt fragen"],
               ],
             },
           },
@@ -181,8 +181,8 @@ export default {
     intro: "Weitere Netze und Linien für Pickleball, ein Padel-Starterset – und wo es den Court gibt.",
     items: [
       { name: "Rally Deluxe Pickleball-Netzsystem", for: "Netz mit Regelmaßen", text: "Ovale Metallpfosten, 91,4 cm Randhöhe und 86,4 cm Mittelhöhe nach US-Regelmaß (Herstellerangabe).", asin: "B08M2P59TD", query: "Rally Deluxe Portable Pickleball Net System" },
-      { name: "Eco Walker Court-Markierungsset", for: "Flache Marker", text: "Rutschfeste Linien- und Eckmarker für Pickleball, Tennis und Badminton.", asin: "B08HRPBQ98", query: "Eco Walker Court Marker Set" },
-      { name: "PiBa Sports Pickleball-Linien zum Kleben", for: "Linien für glatte Böden", text: "Selbstklebende, wieder entfernbare Linienbänder in Gelb für das Pickleballfeld.", asin: "B0D14LM2KH", query: "PiBa Sports Pickleball Court Linien" },
+      { name: "Eco Walker Court-Markierungsset", for: "Flache Marker", text: "Linien- und Eckmarker für Pickleball, Tennis und Badminton, laut Hersteller rutschfest.", asin: "B08HRPBQ98", query: "Eco Walker Court Marker Set" },
+      { name: "PiBa Sports Pickleball-Linien zum Kleben", for: "Linien für glatte Böden", text: "Laut Händler selbstklebende, wieder entfernbare Linienbänder in Gelb für das Pickleballfeld.", asin: "B0D14LM2KH", query: "PiBa Sports Pickleball Court Linien" },
       { name: "Padel-Starterset: 2 Schläger und 3 Dosen Bälle", for: "Padel-Einstieg", text: "Zwei Padelschläger und Bälle für den Start – zum Beispiel auf einem gemieteten Court.", asin: "B0DXVWYQT9", query: "Padel Tennis Starter Set 2 Padelschläger 3 Dosen Bälle" },
       { name: "Padel-Courts vom Fachbetrieb", for: "Eigener Padel-Court", text: "Courts werden von spezialisierten Herstellern geplant und montiert; Ansprechpartner findest du über Padel-Fachhändler und den Deutschen Padel Verband.", where: "Fachbetrieb" },
     ],
@@ -195,8 +195,9 @@ export default {
         h2: "Padel-Court im Garten: Platz, Kosten und Genehmigung",
         blocks: [
           { quick: "Ein Padel-Court braucht mit Umlauf rund 11 × 21 m, ein tragfähiges Fundament und oft eine Baugenehmigung. Die Kosten liegen je nach Ausstattung grob zwischen 20.000 und über 40.000 Euro." },
-          { p: "Glaswände bis 4 m Höhe, ein Stahlgerüst und eventuell Flutlicht machen den Padel-Court zu einer baulichen Anlage. Ob eine Genehmigung nötig ist, entscheiden Landesbauordnung und Bebauungsplan. Hinzu kommt der Lärm: Das Ploppen der Bälle und der Aufprall an den Wänden tragen weit – in dicht bebauten Wohngebieten kann das zu Konflikten führen." },
+          { p: "Glaswände bis 4 m Höhe, ein Stahlgerüst und eventuell Flutlicht machen den Padel-Court zu einer baulichen Anlage. Ob eine Genehmigung nötig ist, entscheiden Landesbauordnung und Bebauungsplan. Hinzu kommt der Lärm: Das Ploppen der Bälle und der Aufprall an den Wänden tragen weit – in dicht bebauten Wohngebieten kann das zu Konflikten führen. Auch Pickleball ist durch den harten Plastikball deutlich hörbar." },
           { figure: "steps" },
+          { callout: { title: "Vor dem Bau klären", warn: true, text: "Ob ein Padel-Court genehmigungspflichtig ist, hängt von Landesbauordnung, Bebauungsplan, Höhe und Abstand zur Grundstücksgrenze ab – kläre das vor der Bestellung beim Bauamt. Fundament, Stahlgerüst und Glaswände sollten von einem Fachbetrieb nach dessen Statik montiert werden, Flutlicht und Stromanschluss von einer Elektrofachkraft. Achte auf Blendung von Nachbarn und Straße und halte die Ruhezeiten der Gemeinde ein; für den Spielbetrieb können je nach Lage weitere Lärmschutzvorgaben gelten." } },
           { facts: [{ value: "10 × 20 m", label: "Padel-Spielfeld" }, { value: "6,10 × 13,41 m", label: "Pickleball-Spielfeld" }, { value: "4 m", label: "Höhe der Padel-Wände" }] },
         ],
       },
@@ -206,15 +207,15 @@ export default {
   faqs: [
     { q: "Was brauche ich für Pickleball im Garten?", a: "Ein mobiles Netz in Regelbreite, Linienmarkierungen, Paddel und Bälle. Unsere beste Gesamtwahl beim Netz ist das Wilson Pickleball-Netzsystem." },
     { q: "Wie groß ist ein Pickleballfeld?", a: "Das Spielfeld misst 6,10 × 13,41 m (20 × 44 Fuß) – so groß wie ein Doppel-Badmintonfeld." },
-    { q: "Was kostet ein Padel-Court im Garten?", a: "Anbieter nennen grob 20.000 bis über 40.000 Euro, abhängig von Ausstattung, Untergrund und Montage. Dazu kommen Fundament und eventuell Flutlicht." },
-    { q: "Brauche ich für einen Padel-Court eine Baugenehmigung?", a: "Häufig ja, weil Wände bis 4 m Höhe und ein Stahlgerüst als bauliche Anlage gelten. Frag vorab beim Bauamt nach." },
+    { q: "Was kostet ein Padel-Court im Garten?", a: "Anbieter nennen als grobe Orientierung 20.000 bis über 40.000 Euro, abhängig von Ausstattung, Untergrund und Montage. Dazu kommen Fundament und eventuell Flutlicht." },
+    { q: "Brauche ich für einen Padel-Court eine Baugenehmigung?", a: "Häufig ja, weil Wände bis 4 m Höhe und ein Stahlgerüst in der Regel als bauliche Anlage gelten. Die Regeln unterscheiden sich je nach Bundesland und Gemeinde – frag vorab beim Bauamt nach." },
     { q: "Kann man Padel-Courts bei Amazon kaufen?", a: "Nein. Padel-Courts werden von Fachbetrieben geplant und montiert. Bei Amazon gibt es Schläger, Bälle und Zubehör." },
   ],
 
   sources: [
     { label: "USA Pickleball: Court-Maße", url: "https://usapickleball.org/" },
     { label: "International Padel Federation (FIP): Regeln", url: "https://www.padelfip.com/" },
-    { label: "My Padel Life: Kosten eines Padelplatzes", url: "https://mypadellife.com/de/blogs/tips-tricks/how-much-does-it-cost-to-build-a-padel-court" },
+    { label: "My Padel Life", url: "https://mypadellife.com/" },
   ],
 
   related: [

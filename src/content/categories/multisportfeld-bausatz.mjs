@@ -45,10 +45,10 @@ export default {
       ratings: { nutzen: 9.0, qualitaet: 8.0, aufbau: 8.5, preis: 8.0 },
       bestFor: "Ballfang rund um das Spielfeld",
       verdict:
-        "Ohne Ballfang kein Multisportfeld: Das freistehende System mit Pfosten fängt Bälle auf 3 m Höhe und lässt sich ohne Betonfundament aufstellen.",
+        "Ohne Ballfang kein Multisportfeld: Das freistehende System mit Pfosten fängt laut Händler Bälle auf 3 m Höhe und lässt sich ohne Betonfundament aufstellen.",
       features: [
         "Freistehendes Ballstoppnetz mit Pfostensystem, 3 m hoch (Händlerangabe)",
-        "In fünf Breiten von 3 bis 15 m erhältlich",
+        "In fünf Breiten von 3 bis 15 m erhältlich (Händlerangabe)",
         "Für Garten, Sportplatz und Fußballtraining",
       ],
       pros: ["Kein Fundament nötig", "Mehrere Breiten kombinierbar", "Wieder abbaubar"],
@@ -71,8 +71,8 @@ export default {
         "Der Belag für alle Ballsportarten: Klickfliesen mit Drainage machen aus einer Betonfläche einen Court – mit farbigen Linien für jede Sportart.",
       features: [
         "30,6 × 30,6 cm, ineinandergreifend (Händlerangabe)",
-        "Für Basketball, Tennis, Volleyball und Badminton beworben",
-        "Mehrere Farben für Linien",
+        "Für Basketball, Tennis, Volleyball und Badminton beworben (Händlerangabe)",
+        "Mehrere Farben für Linien (Händlerangabe)",
       ],
       pros: ["Linien für mehrere Sportarten", "Werkzeuglose Verlegung", "Drainage"],
       cons: ["Braucht festen Untergrund", "Keine Prüfzeugnisse"],
@@ -91,11 +91,11 @@ export default {
       ratings: { nutzen: 8.0, qualitaet: 8.5, aufbau: 8.0, preis: 7.5 },
       bestFor: "Fußball auf dem Multisportfeld",
       verdict:
-        "Stabile Aluminiumtore in zehn Größen – von klein für den Soccer-Court bis 7,3 × 2,4 m – mit Netz, Netzclips und Schnellverschluss-Querlatte.",
+        "Aluminiumtore in zehn Größen – von klein für den Soccer-Court bis 7,3 × 2,4 m – laut Hersteller mit Netz, Netzclips und Schnellverschluss-Querlatte. Wie jedes Tor nur gegen Umkippen gesichert nutzen.",
       features: [
         "60-mm-Aluminiumprofil, 3-mm-Netz (Herstellerangabe)",
-        "Zehn Größen von 1,8 × 1,2 m bis 7,3 × 2,4 m",
-        "Freistehend; Verankerung nach Herstellerangabe einplanen",
+        "Zehn Größen von 1,8 × 1,2 m bis 7,3 × 2,4 m (Herstellerangabe)",
+        "Freistehend; Verankerung nach Herstellerangabe zwingend einplanen",
       ],
       pros: ["Viele Größen", "Wetterfestes Aluminium", "Netz inklusive"],
       cons: ["Gegen Umkippen sichern", "Kein Bandentor wie im Soccer-Cage"],
@@ -147,8 +147,8 @@ export default {
         h2: "Welches Multisportfeld ist das beste für den Garten?",
         blocks: [
           { quick: "Komplette Soccer-Cages kommen vom Fachbetrieb und kosten je nach Größe einen hohen vier- bis fünfstelligen Betrag. Günstiger ist der Selbstbau aus [Ballstoppnetz](produkt:1), [Klickfliesen](produkt:2) und [Alu-Toren](produkt:3)." },
-          { first: "Auf Schulhöfen und in Parks sind sie längst Standard: eingezäunte Kleinspielfelder mit Bande, zwei Toren und oft zwei Basketballkörben. Der Ball bleibt im Feld, das Spiel wird schneller, und mehrere Sportarten teilen sich eine Fläche. Für den eigenen Garten ist ein solcher Soccer-Cage die Königsklasse." },
-          { p: "Kommunen nennen für einzelne Soccer-Courts Kosten im fünfstelligen Bereich – so bezifferte eine fränkische Stadt allein den Umzug ihres Soccer-Courts auf rund 80.000 Euro. Für Privatgärten gibt es kleinere Modelle, etwa achteckige Panna-Käfige mit fünf Metern Durchmesser. Wer flexibel bleiben will, baut sich sein Feld aus Bausteinen selbst." },
+          { first: "Auf Schulhöfen und in Parks sind sie weit verbreitet: eingezäunte Kleinspielfelder mit Bande, zwei Toren und oft zwei Basketballkörben. Der Ball bleibt im Feld, das Spiel wird schneller, und mehrere Sportarten teilen sich eine Fläche. Für den eigenen Garten ist ein solcher Soccer-Cage die Königsklasse." },
+          { p: "Kommunale Soccer-Courts sind große, fest verankerte Anlagen mit entsprechend hohen Kosten – konkrete Preise nennen die Anbieter auf Anfrage. Für Privatgärten gibt es kleinere Modelle, etwa achteckige Panna-Käfige mit fünf Metern Durchmesser. Wer flexibel bleiben will, baut sich sein Feld aus Bausteinen selbst." },
           { figure: "scores" },
           { quote: "Ein Multisportfeld ist vor allem eines: eine Fläche, auf der der Ball bleibt." },
         ],
@@ -180,10 +180,10 @@ export default {
     intro: "Wer eine fertige Anlage will, wendet sich an Hersteller von Soccer-Courts. Für kleine Gärten gibt es Mini-Lösungen bei Amazon.",
     items: [
       { name: "artec Sportgeräte – Soccer-Courts und OctoPitch", for: "Komplettanlagen", text: "Deutscher Hersteller von Soccer-Courts in Standard- und Sondergrößen; der achteckige OctoPitch misst 5 m Durchmesser und 2,5 m Höhe (Herstellerangabe).", where: "Hersteller-Anfrage" },
-      { name: "Sport-Thieme – Kleinspielfelder und Ausstattung", for: "Schulsportausstatter", text: "Der Schulsportausstatter führt Tore, Netze und Sportböden; Anlagen auf Anfrage.", where: "Fachhandel" },
-      { name: "Dunlop Fußball-Set mit Bande (426 × 235 cm)", for: "Mini-Cage für Kinder", text: "Kunststoff-Bande mit zwei Toren, Ball und Pumpe – ein kleines Spielfeld für Kinder im Garten.", asin: "B0DQ179N7H", query: "Dunlop Fußball Set Bande Fußballkäfig" },
+      { name: "Sport-Thieme – Kleinspielfelder und Ausstattung", for: "Schulsportausstatter", text: "Der Schulsportausstatter führt laut eigenem Sortiment Tore, Netze und Sportböden; Anlagen auf Anfrage.", where: "Fachhandel" },
+      { name: "Dunlop Fußball-Set mit Bande (426 × 235 cm)", for: "Mini-Cage für Kinder", text: "Laut Händler Kunststoff-Bande mit zwei Toren, Ball und Pumpe – ein kleines Spielfeld für Kinder im Garten. Altersangaben und Aufbauhinweise des Herstellers beachten.", asin: "B0DQ179N7H", query: "Dunlop Fußball Set Bande Fußballkäfig" },
       { name: "BERG PlayBase mit Tor und Basketballkorb", for: "Kombi-Spielgerät", text: "Spielgerüst mit Fußballtor, Basketballkorb und Kletterwand, laut Hersteller ohne Beton verankerbar.", asin: "B0DYPFMHY5", query: "BERG PlayBase Large" },
-      { name: "Aufblasbares Multisportfeld 3-in-1", for: "Für Feste & Events", text: "Aufblasbares Spielfeld für Fußball, Basketball und Volleyball – Gebläse nicht im Lieferumfang.", asin: "B0D4CCLFRQ", query: "aufblasbarer Sportplatz Fußball Basketball Volleyball 3 in 1" },
+      { name: "Aufblasbares Multisportfeld 3-in-1", for: "Für Feste & Events", text: "Aufblasbares Spielfeld für Fußball, Basketball und Volleyball (Händlerangabe) – Gebläse nicht im Lieferumfang. Nur verankert und unter Aufsicht nutzen, bei Wind abbauen.", asin: "B0D4CCLFRQ", query: "aufblasbarer Sportplatz Fußball Basketball Volleyball 3 in 1" },
     ],
   },
 
@@ -194,9 +194,9 @@ export default {
         h2: "Planung, Genehmigung und Nachbarn",
         blocks: [
           { quick: "Kläre vor dem Kauf mit dem Bauamt, ob Bande, Zaun oder Flutlicht genehmigungspflichtig sind, halte Abstand zur Grundstücksgrenze und sprich mit den Nachbarn über Spielzeiten." },
-          { p: "Die Landesbauordnungen regeln, welche Einfriedungen und baulichen Anlagen verfahrensfrei sind – oft abhängig von Höhe und Lage. Hohe Ballfangzäune an der Grundstücksgrenze und fest montierte Banden fallen schnell darunter. Lärm von Ballspielen kann zudem nachbarrechtlich relevant sein; Ruhezeiten und eine Bande aus lärmgedämmten Elementen helfen." },
+          { p: "Die Landesbauordnungen regeln, welche Einfriedungen und baulichen Anlagen verfahrensfrei sind – oft abhängig von Höhe und Lage. Hohe Ballfangzäune an der Grundstücksgrenze und fest montierte Banden fallen schnell darunter. Lärm von Ballspielen kann zudem nachbarrechtlich relevant sein. Für Sportanlagen gibt es mit der Sportanlagenlärmschutzverordnung eigene Regeln; ob und wie sie für ein privates Spielfeld im Garten gilt, hängt vom Einzelfall ab. In jedem Fall helfen das Einhalten der örtlichen Ruhezeiten, Abstand zu Nachbarfenstern und eine Bande aus lärmgedämmten Elementen." },
           { figure: "steps" },
-          { callout: { title: "Sicherheit", warn: true, text: "Tore und Basketballanlagen immer gegen Umkippen sichern. Nicht verankerte Tore haben schon zu tödlichen Unfällen geführt." } },
+          { callout: { title: "Sicherheit", warn: true, text: "Tore und Basketballanlagen immer nach Herstelleranleitung gegen Umkippen sichern – nicht verankerte Tore haben schon zu tödlichen Unfällen geführt. Kinder nicht an Toren, Netzen oder Banden klettern lassen. Fundamente für feste Banden, Zäune und Masten sowie Elektroinstallationen für Flutlicht gehören in die Hände von Fachbetrieben." } },
           { facts: [{ value: "≈ 10 × 15 m", label: "Fläche für einen kleinen Soccer-Court" }, { value: "5 m", label: "Durchmesser eines Panna-Käfigs (OctoPitch)" }, { value: "3 m", label: "Mindesthöhe für Ballfang hinter Toren" }] },
         ],
       },
@@ -204,7 +204,7 @@ export default {
   },
 
   faqs: [
-    { q: "Was kostet ein Soccer-Cage für den Garten?", a: "Komplette Anlagen vom Fachbetrieb kosten je nach Größe und Ausstattung einen hohen vier- bis fünfstelligen Betrag. Der Selbstbau aus Ballfangnetz, Belag und Toren ist deutlich günstiger." },
+    { q: "Was kostet ein Soccer-Cage für den Garten?", a: "Als grobe Orientierung kosten komplette Anlagen vom Fachbetrieb je nach Größe und Ausstattung einen hohen vier- bis fünfstelligen Betrag. Der Selbstbau aus Ballfangnetz, Belag und Toren ist deutlich günstiger." },
     { q: "Kann man einen Soccer-Cage bei Amazon kaufen?", a: "Komplette Anlagen nicht. Bei Amazon gibt es Bausteine wie Ballstoppnetze, Court-Fliesen und Tore sowie kleine Spielfelder mit Bande für Kinder." },
     { q: "Brauche ich eine Baugenehmigung für ein Multisportfeld?", a: "Das hängt von Bundesland, Größe und Ausführung ab. Feste Banden, hohe Zäune und Flutlicht können genehmigungspflichtig sein – frag vorab beim Bauamt." },
     { q: "Welcher Belag eignet sich für ein Multisportfeld?", a: "Für Fußball Kunstrasen mit Infill, für Basketball und Volleyball Court-Fliesen oder ein fugenloser Kunststoffbelag. Viele Anlagen kombinieren beides." },
@@ -212,8 +212,7 @@ export default {
   ],
 
   sources: [
-    { label: "artec Sportgeräte: Soccer Cage OctoPitch", url: "https://shop-en.artec-sportgeraete.de/produkt/soccer-cage-octopitch/" },
-    { label: "inFranken: Soccer-Court hat neuen Platz gefunden", url: "https://www.infranken.de/lk/gem/soccer-court-hat-neuen-platz-gefunden-art-5306945" },
+    { label: "artec Sportgeräte", url: "https://www.artec-sportgeraete.de/" },
   ],
 
   related: [

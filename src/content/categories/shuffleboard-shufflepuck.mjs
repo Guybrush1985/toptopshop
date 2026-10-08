@@ -51,11 +51,11 @@ export default {
       ratings: { spiel: 8.0, qualitaet: 7.5, extras: 9.0, preis: 8.5 },
       bestFor: "Partykeller, Gaming-Room",
       verdict:
-        "Barlänge zum fairen Preis: 9 Fuß Spielfläche, LED-Beleuchtung, acht Metallpucks und ein Bowling-Set als Zusatzspiel – ein echter Blickfang.",
+        "Barlänge zum fairen Preis: laut Hersteller 9 Fuß Spielfläche, LED-Beleuchtung, acht Metallpucks und ein Bowling-Set als Zusatzspiel – ein echter Blickfang.",
       features: [
         "Rund 2,76 × 0,61 × 0,81 m (Herstellerangabe)",
-        "LED-Beleuchtung, kratzfeste Spielfläche, 8 Metallpucks",
-        "Bowling-Set, Wachs und Tischbürste inklusive",
+        "LED-Beleuchtung, kratzfeste Spielfläche, 8 Metallpucks (Herstellerangabe)",
+        "Bowling-Set, Wachs und Tischbürste inklusive (Herstellerangabe)",
       ],
       pros: ["Echte Barlänge", "Beleuchtung", "Viel Zubehör"],
       cons: ["MDF statt Massivholz", "Rund 84 kg, Aufbau zu zweit"],
@@ -77,7 +77,7 @@ export default {
         "Shufflepuck für jeden Tisch: Das 114 cm lange Holzbrett passt auf Esstisch oder Kücheninsel – die Pucks gleiten laut Hersteller auch ohne Wachs.",
       features: [
         "114 × 32 cm, Holz (Herstellerangabe)",
-        "Shuffleboard und Curling in einem, 4 rote und 4 blaue Pucks",
+        "Shuffleboard und Curling in einem, 4 rote und 4 blaue Pucks (Herstellerangabe)",
         "Laut Hersteller ohne zusätzliches Wachs spielbar",
       ],
       pros: ["Sehr günstig", "Passt überall hin", "Zwei Spiele in einem"],
@@ -100,8 +100,8 @@ export default {
         "Für den Auftritt: Das schwarze 9-Fuß-Shuffleboard mit LED-Beleuchtung vom niederländischen Spieltischhersteller ist das Designstück im Partyraum.",
       features: [
         "9 Fuß (rund 2,7 m), LED-Beleuchtung, schwarz (Händlerangabe)",
-        "Für den Innenbereich",
-        "Auch als 7-Fuß-Version erhältlich",
+        "Für den Innenbereich (Händlerangabe)",
+        "Auch als 7-Fuß-Version erhältlich (Händlerangabe)",
       ],
       pros: ["Edles Design", "Barlänge", "Bekannter Spieltisch-Hersteller"],
       cons: ["Teuer", "Wenige technische Angaben"],
@@ -153,7 +153,7 @@ export default {
         blocks: [
           { quick: "Der [VEVOR 274 cm mit LED](produkt:1) ist die beste Wahl für den Partykeller. Für kleine Räume reicht das [COSTWAY-Shufflepuck-Brett](produkt:2), für einen Design-Gaming-Room das [Pegasi American Shuffleboard](produkt:3)." },
           { first: "In amerikanischen Bars steht es seit Jahrzehnten, in Deutschland entdecken es gerade Partykeller und Gaming-Rooms: Shuffleboard. Metallpucks gleiten über eine lange, gewachste Holzbahn, und wer am Ende am weitesten vorn liegt, punktet. Das Spiel ist schnell erklärt, leise und funktioniert auch mit einem Getränk in der Hand." },
-          { p: "Echte Bar-Shuffleboards sind 4 bis 6,7 m lang und aus Massivholz. Für Wohnräume haben sich kürzere Tische mit rund 2,7 m (9 Fuß) durchgesetzt. Shufflepuck-Bretter für den Tisch sind die kleinste Variante – ideal zum Ausprobieren." },
+          { p: "Klassische Bar-Shuffleboards sind oft rund 3,7 bis 6,7 m lang und meist aus Massivholz. Für Wohnräume haben sich kürzere Tische mit rund 2,7 m (9 Fuß) durchgesetzt. Shufflepuck-Bretter für den Tisch sind die kleinste Variante – ideal zum Ausprobieren." },
           { figure: "scores" },
         ],
       },
@@ -184,8 +184,8 @@ export default {
     intro: "Weitere Tische, Tischspiele und das wichtigste Zubehör: Wachs.",
     items: [
       { name: "SereneLife Shuffleboard-Tisch 9 ft", for: "Für kleinere Räume", text: "Rund 274 × 61,5 × 76 cm, Spielfläche 262 × 56 cm, MDF mit PVC (Händlerangabe).", asin: "B0B88GWXXX", query: "SereneLife Shuffleboard Tisch" },
-      { name: "VEVOR Shuffleboard 274 cm, 2-in-1 mit Bowling", for: "Ohne LED, günstiger", text: "9-Fuß-Tisch mit Bowling-Kombi aus verstärktem MDF, X-Beine, rund 80 kg.", asin: "B0DDXL72L1", query: "VEVOR Shuffleboard Tisch 274 cm Bowling" },
-      { name: "GOPLUS 2-in-1 Shuffleboard & Curling", for: "Tischspiel", text: "114 × 32 cm, 8 Scheiben, rutschfeste Rillen – aufklappen und losspielen.", asin: "B0G52XL7LK", query: "GOPLUS 2-in-1 Shuffleboard Curling" },
+      { name: "VEVOR Shuffleboard 274 cm, 2-in-1 mit Bowling", for: "Ohne LED, günstiger", text: "9-Fuß-Tisch mit Bowling-Kombi aus verstärktem MDF, X-Beine, rund 80 kg (Herstellerangabe).", asin: "B0DDXL72L1", query: "VEVOR Shuffleboard Tisch 274 cm Bowling" },
+      { name: "GOPLUS 2-in-1 Shuffleboard & Curling", for: "Tischspiel", text: "114 × 32 cm, 8 Scheiben, rutschfeste Rillen (Herstellerangabe) – aufklappen und losspielen.", asin: "B0G52XL7LK", query: "GOPLUS 2-in-1 Shuffleboard Curling" },
       { name: "AK Sport Sjoelbak 120 cm (20 Scheiben)", for: "Holländischer Klassiker", text: "Das niederländische Schiebespiel Sjoelen – verwandt mit Shufflepuck, für die ganze Familie.", asin: "B00AHAAHEC", query: "Sjoelbak 120 cm 20 Scheiben" },
       { name: "Sun-Glo Speed 6 Shuffleboard-Wachs", for: "Wachs", text: "Mittelschnelles Wachs, laut Hersteller passend für Tische von 2,5 bis 3,6 m.", asin: "B07C8L372D", query: "Sun-Glo Speed 6 Shuffleboard Wachs" },
     ],
@@ -206,6 +206,7 @@ export default {
               "**Fläche sauber halten:** Vor dem Spielen kurz abbürsten, nach dem Spielen abdecken.",
             ],
           },
+          { callout: { title: "Aufbau und Sicherheit", warn: true, text: "Große Shuffleboards wiegen laut Herstellern 80 kg und mehr – Aufbau und Transport nur zu zweit oder dritt und nach Anleitung, damit niemand eingeklemmt wird oder sich verhebt. Den Tisch stabil aufstellen, Kinder nicht daran klettern lassen. Pucks und Kleinteile sind nichts für Kleinkinder, und verstreutes Shuffleboard-Wachs macht den Fußboden rutschig: daneben gefallenes Wachs gleich auffegen. Bei LED-Beleuchtung nur das mitgelieferte Netzteil verwenden." } },
           { facts: [{ value: "9 ft", label: "≈ 2,74 m, typische Länge für Wohnräume" }, { value: "8", label: "Pucks pro Spiel (4 je Spieler)" }, { value: "15 / 21", label: "übliche Siegpunktzahl" }] },
         ],
       },
@@ -217,7 +218,7 @@ export default {
     { q: "Wie viel Platz braucht ein Shuffleboard?", a: "Ein 9-Fuß-Tisch ist rund 2,7 m lang. Mit Platz zum Spielen an den Enden und Seiten sollte der Raum etwa 4 × 2 m groß sein." },
     { q: "Was ist der Unterschied zwischen Shuffleboard und Shufflepuck?", a: "Shufflepuck bezeichnet meist die kompakte Tischvariante. Das Spielprinzip ist gleich, nur die Bahn ist deutlich kürzer." },
     { q: "Braucht man für Shuffleboard Wachs?", a: "Bei großen Tischen ja – das Wachs lässt die Pucks gleiten. Kleine Tischspiele funktionieren laut Herstellern teils ohne." },
-    { q: "Kann ein Shuffleboard draußen stehen?", a: "Die meisten Tische sind für den Innenbereich gebaut. Draußen sollten sie überdacht stehen und gut abgedeckt werden." },
+    { q: "Kann ein Shuffleboard draußen stehen?", a: "Die meisten Tische sind laut Herstellern für den Innenbereich gebaut. Draußen nur aufstellen, wenn der Hersteller das ausdrücklich erlaubt – dann überdacht und gut abgedeckt. Beleuchtete Tische gehören wegen der Elektrik nicht ins Freie." },
   ],
 
   sources: [

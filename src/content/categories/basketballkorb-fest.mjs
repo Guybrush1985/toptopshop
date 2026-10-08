@@ -17,7 +17,7 @@ export default {
   lead:
     "Ein fest einbetonierter Korb steht wie in der Halle, ein mobiler zieht mit um. Wir zeigen die drei besten Basketballanlagen – vom In-Ground-System bis zum mobilen Korb mit Glasboard.",
   answer:
-    "Unsere beste Gesamtwahl ist der fest einbetonierte [**Spalding Silver In-Ground (44 Zoll)**](produkt:1) mit Acrylboard und Höhenverstellung von 2,28 bis 3,05 m. Das beste Preis-Leistungs-Verhältnis bietet der mobile [**Lifetime UV100**](produkt:2); die Premium-Wahl ist der [**Spalding The Beast (60 Zoll)**](produkt:3) mit großem Glasboard und stufenloser Kurbelverstellung.",
+    "Unsere beste Gesamtwahl ist der fest einbetonierte [**Spalding Silver In-Ground (44 Zoll)**](produkt:1) mit Acrylboard und – laut Hersteller – Höhenverstellung von 2,28 bis 3,05 m. Das beste Preis-Leistungs-Verhältnis bietet der mobile [**Lifetime UV100**](produkt:2); die Premium-Wahl ist der [**Spalding The Beast (60 Zoll)**](produkt:3) mit großem Glasboard und stufenloser Kurbelverstellung.",
 
   priceTiers: {
     1: { symbol: "€", label: "bis 400 €" },
@@ -26,7 +26,7 @@ export default {
   },
 
   top3Title: "Unsere Top 3 Basketballanlagen",
-  top3Intro: "Ein fest einbetoniertes System, ein robuster mobiler Korb und ein mobiles Premium-Modell mit Glasboard. Alle drei erreichen die Wettkampfhöhe von 3,05 m.",
+  top3Intro: "Ein fest einbetoniertes System, ein robuster mobiler Korb und ein mobiles Premium-Modell mit Glasboard. Alle drei erreichen laut Hersteller die Wettkampfhöhe von 3,05 m.",
   comparisonTitle: "Die 3 besten Basketballkörbe im Vergleich",
 
   criteria: [
@@ -51,11 +51,11 @@ export default {
       ratings: { spiel: 8.5, stabil: 9.0, verstellung: 8.5, preis: 7.5 },
       bestFor: "Fester Platz im Garten oder an der Einfahrt",
       verdict:
-        "Steht wie in der Halle: Der einbetonierte Pfosten wackelt deutlich weniger als jeder mobile Korb, das 44-Zoll-Acrylboard hat einen Stahlrahmen, und die Höhe wächst mit den Kindern.",
+        "Fast wie in der Halle: Ein einbetonierter Pfosten wackelt nach unserer Einschätzung deutlich weniger als ein mobiler Korb, das 44-Zoll-Acrylboard hat einen Stahlrahmen, und die Höhe wächst mit den Kindern.",
       features: [
         "44-Zoll-Acrylboard mit Stahlrahmen und Polsterung (Händlerangabe)",
-        "Höhenverstellung von 2,28 bis 3,05 m",
-        "Pfosten mit 9 cm Durchmesser zum Einbetonieren, Pro-Slam-Ring",
+        "Höhenverstellung von 2,28 bis 3,05 m (Händlerangabe)",
+        "Pfosten mit 9 cm Durchmesser zum Einbetonieren, Pro-Slam-Ring (Händlerangabe)",
       ],
       pros: ["Sehr stabil", "Mitwachsende Höhe", "Kein Sandsack, kein Wasser"],
       cons: ["Fundament nötig, nicht mehr versetzbar", "Kein Glasboard"],
@@ -74,11 +74,11 @@ export default {
       ratings: { spiel: 7.5, stabil: 7.5, verstellung: 8.0, preis: 9.0 },
       bestFor: "Familien, Mietgärten",
       verdict:
-        "Der robuste Allrounder zum fairen Preis: großes 122-cm-Board, Edelstahlring und eine Basis für rund 45 Liter Wasser oder Sand – mit Rollen versetzbar.",
+        "Der robuste Allrounder zum fairen Preis: laut Hersteller großes 122-cm-Board, Edelstahlring und eine Basis für rund 45 Liter Wasser oder Sand – mit Rollen versetzbar.",
       features: [
         "Höhe 229–305 cm, Board 122 × 67,5 cm aus HDPE mit UV-Schutz (Herstellerangabe)",
-        "Basis aus doppelwandigem HDPE für rund 45 l Wasser oder Sand, zwei Rollen",
-        "Ring aus Edelstahl, Gewicht rund 26,5 kg",
+        "Basis aus doppelwandigem HDPE für rund 45 l Wasser oder Sand, zwei Rollen (Herstellerangabe)",
+        "Ring aus Edelstahl, Gewicht rund 26,5 kg (Herstellerangabe)",
       ],
       pros: ["Günstig", "Großes Board", "Versetzbar"],
       cons: ["Kunststoffboard statt Acryl/Glas", "Wackelt mehr als einbetonierte Anlagen"],
@@ -97,11 +97,11 @@ export default {
       ratings: { spiel: 9.5, stabil: 8.0, verstellung: 9.0, preis: 6.0 },
       bestFor: "Ambitionierte Spieler ohne Fundament",
       verdict:
-        "Hallengefühl ohne Beton: Das 60-Zoll-Glasboard liefert einen echten Rebound, die stufenlose Kurbel verstellt die Höhe in Sekunden.",
+        "Hallengefühl ohne Beton: Das 60-Zoll-Glasboard liefert einen hallenähnlichen Rebound, die stufenlose Kurbel verstellt die Höhe laut Hersteller schnell und bequem.",
       features: [
         "60-Zoll-Glasboard (Händlerangabe)",
-        "Stufenlose Höhenverstellung per Kurbel (Screw Jack) von 2,3 bis 3,05 m",
-        "Mobil, drinnen und draußen nutzbar; Abreißring (Pro Image) inklusive",
+        "Stufenlose Höhenverstellung per Kurbel (Screw Jack) von 2,3 bis 3,05 m (Händlerangabe)",
+        "Mobil, drinnen und draußen nutzbar; Abreißring (Pro Image) inklusive (Händlerangabe)",
       ],
       pros: ["Echtes Glasboard", "Bequemste Verstellung", "Sehr großes Board"],
       cons: ["Teuer", "Sehr schwer, braucht viel Ballast"],
@@ -153,8 +153,8 @@ export default {
         h2: "Welcher Basketballkorb ist der beste für den Garten?",
         blocks: [
           { quick: "Wer einen festen Platz hat, nimmt den einbetonierten [Spalding Silver In-Ground](produkt:1). Für Mietgärten und kleines Budget ist der mobile [Lifetime UV100](produkt:2) die beste Wahl, für ambitionierte Spieler der [Spalding The Beast](produkt:3) mit Glasboard." },
-          { first: "Ein Basketballkorb im Garten ist einer der meistgenutzten Sportgeräte überhaupt: Ein paar Würfe nach der Schule, ein schnelles 1-gegen-1 am Abend. Entscheidend für den Spaß ist die Stabilität – ein Korb, der bei jedem Wurf wackelt, frustriert schnell." },
-          { p: "Fest einbetonierte Anlagen (In-Ground) stehen am stabilsten und brauchen keinen Ballast. Mobile Körbe werden mit Wasser oder Sand beschwert und lassen sich versetzen – praktisch für Mietwohnungen und wechselnde Spielorte. Beim Board gilt: Glas spielt sich am besten, Acryl ist ein guter Kompromiss, Kunststoff (HDPE) ist robust und günstig." },
+          { first: "Ein Basketballkorb im Garten wird in vielen Familien sehr häufig genutzt: Ein paar Würfe nach der Schule, ein schnelles 1-gegen-1 am Abend. Entscheidend für den Spaß ist die Stabilität – ein Korb, der bei jedem Wurf wackelt, frustriert schnell." },
+          { p: "Fest einbetonierte Anlagen (In-Ground) stehen in der Regel am stabilsten und brauchen keinen Ballast. Mobile Körbe werden mit Wasser oder Sand beschwert und lassen sich versetzen – praktisch für Mietwohnungen und wechselnde Spielorte. Beim Board gilt: Glas spielt sich am besten, Acryl ist ein guter Kompromiss, Kunststoff (HDPE) ist robust und günstig." },
           { figure: "scores" },
         ],
       },
@@ -188,9 +188,9 @@ export default {
     items: [
       { name: "Spalding 54\" Portable mit Glasboard", for: "Glas zum mittleren Preis", text: "Mobiles System mit 54-Zoll-Glasboard und Kurbelverstellung von 2,3 bis 3 m (Händlerangabe).", asin: "B000Q5R57K", query: "Spalding 54 Portable Basketball System Glass" },
       { name: "HUDORA Basketball-Ständer 305 Competition Pro", for: "Robuster Klassiker", text: "Höhe in sechs Stufen von 230 bis 305 cm, Board 110 × 70 cm, Ballast über drei Säcke mit 93 l (Herstellerangabe).", asin: "B01NCNB7IM", query: "HUDORA Basketball-Ständer 305 Competition Pro" },
-      { name: "Spalding NBA Highlight Acrylic Portable", for: "Acryl mobil", text: "Mobile Anlage mit Acrylboard aus der NBA-Linie von Spalding.", asin: "B0025T4W3K", query: "Spalding NBA Highlight Acrylic Portable" },
+      { name: "Spalding NBA Highlight Acrylic Portable", for: "Acryl mobil", text: "Mobile Anlage mit Acrylboard aus der NBA-Linie von Spalding (Händlerangabe).", asin: "B0025T4W3K", query: "Spalding NBA Highlight Acrylic Portable" },
       { name: "CAPRISPORTS Basketballkorb 135–305 cm", for: "Mitwachsend ab Kleinkind", text: "Großer Höhenbereich ab 135 cm, Board 110 × 75 cm, Rollen und Sandsack (Händlerangabe).", asin: "B0CLS2Y772", query: "CAPRISPORTS Basketballkorb 135-305 cm" },
-      { name: "Salta Guard Basketballständer 230–305 cm", for: "Mit Dunkring", text: "Mobiler Basketballständer mit federndem Ring und Rollen für Kinder und Erwachsene.", asin: "B0CVN2PGFB", query: "Salta Guard Basketballständer" },
+      { name: "Salta Guard Basketballständer 230–305 cm", for: "Mit Dunkring", text: "Mobiler Basketballständer mit federndem Ring und Rollen für Kinder und Erwachsene (Händlerangabe).", asin: "B0CVN2PGFB", query: "Salta Guard Basketballständer" },
     ],
   },
 
@@ -202,7 +202,8 @@ export default {
         blocks: [
           { quick: "Feste Anlagen nach Herstelleranleitung einbetonieren, mobile Körbe immer voll mit Sand oder Wasser befüllen. Niemand sollte sich an den Ring hängen, wenn die Anlage dafür nicht ausgelegt ist." },
           { figure: "steps" },
-          { callout: { title: "Sicherheit", warn: true, text: "Umkippende Basketballanlagen können schwere Verletzungen verursachen. Basis vollständig befüllen, bei Sturm sichern oder umlegen und Polster am Pfosten anbringen." } },
+          { callout: { title: "Kippgefahr: Anlage immer sichern", warn: true, text: "Umkippende oder unzureichend verankerte Basketballanlagen können schwere, im Extremfall tödliche Verletzungen verursachen. Mobile Körbe nur mit vollständig befüllter Basis nutzen, regelmäßig auf Risse und Undichtigkeiten prüfen, bei Sturm sichern oder nach Herstellerangabe umlegen und Polster am Pfosten anbringen. Nicht an den Ring hängen oder am Board klettern, sofern der Hersteller das nicht ausdrücklich erlaubt – und Kinder nie unbeaufsichtigt an der Anlage turnen lassen. Fundament, Montage und Höhenverstellung exakt nach Herstelleranleitung; bei Unsicherheit einen Fachbetrieb beauftragen." } },
+          { callout: { title: "Nachbarn und Bauamt", warn: true, text: "Das Prellen und Aufschlagen des Balls am Board ist deutlich hörbar. Halte die örtlichen Ruhezeiten (etwa Mittags- und Nachtruhe laut Gemeindesatzung oder Hausordnung) ein und plane den Standort mit Abstand zu Nachbarfenstern. Ob für eine fest einbetonierte Anlage eine Genehmigung nötig ist, hängt von Landesbauordnung, Bebauungsplan und Lage ab – meist ist sie verfahrensfrei, im Zweifel vorab beim Bauamt nachfragen. Auf öffentlichen Gehwegen und Straßen haben Körbe nichts zu suchen." } },
           { facts: [{ value: "3,05 m", label: "Wettkampfhöhe des Rings" }, { value: "45 cm", label: "Ringdurchmesser (innen)" }, { value: "≈ 45–93 l", label: "Ballastvolumen mobiler Körbe" }] },
         ],
       },
@@ -213,8 +214,8 @@ export default {
     { q: "Welcher Basketballkorb ist der beste für den Garten?", a: "Unsere beste Gesamtwahl ist der einbetonierte Spalding Silver In-Ground. Mobil und günstig ist der Lifetime UV100, die Premium-Wahl der Spalding The Beast mit Glasboard." },
     { q: "Fest einbetonieren oder mobil?", a: "Einbetonierte Anlagen sind stabiler und spielen sich besser. Mobile Körbe lassen sich versetzen und sind ideal für Mietgärten." },
     { q: "Wie hoch hängt ein Basketballkorb?", a: "Die offizielle Höhe des Rings beträgt 3,05 m. Für Kinder sind verstellbare Anlagen ab etwa 2,30 m sinnvoll." },
-    { q: "Glas oder Acryl?", a: "Glas bietet den besten Rebound und ist am langlebigsten, aber teuer. Acryl ist ein guter Kompromiss für Familien." },
-    { q: "Womit beschwert man einen mobilen Basketballkorb?", a: "Mit Sand oder Wasser. Sand ist schwerer und friert nicht – im Winter ist er die sicherere Wahl." },
+    { q: "Glas oder Acryl?", a: "Glas bietet den besten Rebound und gilt als sehr langlebig, ist aber teuer und schwer. Acryl ist ein guter Kompromiss für Familien." },
+    { q: "Womit beschwert man einen mobilen Basketballkorb?", a: "Mit Sand oder Wasser – je nach Herstellerangabe. Sand ist schwerer und friert nicht; Wasser kann im Winter gefrieren und die Basis beschädigen. Die Basis muss in jedem Fall vollständig befüllt sein, sonst droht Kippgefahr." },
   ],
 
   sources: [

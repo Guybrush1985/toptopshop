@@ -10,12 +10,12 @@ export default {
 
   metaTitle: "Gummi-Sportboden & Fallschutz: Die 3 besten Platten 2026",
   metaDescription:
-    "Gummimatten, EPDM-Beläge und Fallschutzplatten für Fußball, Basketball und Fitness: Die 3 besten Sportböden aus Gummi 2026 – wetterfest und gelenkschonend.",
+    "Gummimatten, EPDM-Beläge und Fallschutzplatten für Fußball, Basketball und Fitness: Die 3 besten Sportböden aus Gummi 2026 – mit Tipps zu Dicke und Fallhöhe.",
 
   eyebrow: "Sportanlagen · Gummiboden",
   h1: "Die 3 besten Sportböden aus Gummi 2026",
   lead:
-    "Gummiboden dämpft Sprünge, schont Gelenke, verzeiht Stürze und hält jedes Wetter aus. Wir zeigen die drei besten Platten für Sport- und Fitnessflächen – und die passenden Fallschutzplatten.",
+    "Gummiboden dämpft Sprünge und Stöße, macht Stürze weniger hart und ist – wenn dafür ausgewiesen – wetterfest. Wir zeigen die drei besten Platten für Sport- und Fitnessflächen – und die passenden Fallschutzplatten.",
   answer:
     "Unsere beste Gesamtwahl ist der [**Sport-Thieme Sportboden Connect**](produkt:1) aus recyceltem Gummi mit Stecksystem. Das beste Preis-Leistungs-Verhältnis bietet die [**Vivol Bodenschutzmatte 100 × 100 cm, 20 mm**](produkt:2); die Premium-Wahl ist der [**EPDM-Sportboden 100 × 100 cm, 15 mm**](produkt:3) mit farbiger, griffiger Oberfläche.",
 
@@ -45,11 +45,11 @@ export default {
       ratings: { daempfung: 8.5, haltbar: 8.5, verlegung: 9.0, preis: 7.5 },
       bestFor: "Fitnessbereiche, Trainingsflächen",
       verdict:
-        "Vom Schulsportausstatter: robuste Platten aus recyceltem Gummi mit Stoßdämpfung, die über ein Stecksystem ohne Kleber zu einer festen Fläche verbunden werden.",
+        "Vom Schulsportausstatter: laut Hersteller robuste Platten aus recyceltem Gummi mit Stoßdämpfung, die über ein Stecksystem ohne Kleber zu einer festen Fläche verbunden werden.",
       features: [
         "Recycelter Gummi mit Stoßdämpfung (Herstellerangabe)",
-        "Stecksystem für eine verschiebefeste Fläche ohne Kleber",
-        "Für Fitnessstudio, Trainingsraum und Funktionsbereiche",
+        "Stecksystem für eine verschiebefeste Fläche ohne Kleber (Herstellerangabe)",
+        "Für Fitnessstudio, Trainingsraum und Funktionsbereiche (Herstellerangabe)",
       ],
       pros: ["Durchdachtes Verbindungssystem", "Bewährter Fachhändler", "Robust"],
       cons: ["Für draußen Herstellerangaben prüfen", "Teurer als einfache Matten"],
@@ -68,13 +68,13 @@ export default {
       ratings: { daempfung: 8.5, haltbar: 8.0, verlegung: 7.5, preis: 9.0 },
       bestFor: "Home-Gym, Hantelbereich",
       verdict:
-        "Viel Gummi fürs Geld: 20 mm starke Platten aus recyceltem SBR-Granulat dämpfen auch fallende Hanteln und liegen dank rund 20 kg Gewicht fest.",
+        "Viel Gummi fürs Geld: Die 20 mm starken Platten aus recyceltem SBR-Granulat sollen laut Hersteller auch fallende Hanteln dämpfen und liegen dank rund 20 kg Gewicht fest.",
       features: [
         "100 × 100 cm, 20 mm, recyceltes SBR-Gummigranulat (Herstellerangabe)",
-        "Shore-Härte 60° A ± 5, Gewicht rund 20 kg je Platte",
+        "Shore-Härte 60° A ± 5, Gewicht rund 20 kg je Platte (Herstellerangabe)",
         "Auch in 15 mm erhältlich, nach DIBt-Grundsätzen geprüft (Herstellerangabe)",
       ],
-      pros: ["Sehr gute Dämpfung", "Schwer, verrutscht kaum", "Günstig pro m²"],
+      pros: ["Gute Dämpfung laut Hersteller", "Schwer, verrutscht kaum", "Günstig pro m²"],
       cons: ["Für den Innenbereich ausgewiesen", "Gummigeruch in den ersten Wochen"],
       specs: { material: "SBR-Granulat", dicke: "20 mm", format: "100 × 100 cm", einsatz: "Fitness, Home-Gym", draussen: "innen" },
       asin: "B07JHFR2VH",
@@ -91,11 +91,11 @@ export default {
       ratings: { daempfung: 8.5, haltbar: 9.0, verlegung: 7.5, preis: 7.0 },
       bestFor: "Sichtbare Sportflächen, draußen",
       verdict:
-        "Die hochwertigere Oberfläche: Eine Deckschicht aus EPDM ist farbstabiler und griffiger als reines SBR – ideal für Flächen, die gut aussehen sollen.",
+        "Die hochwertigere Oberfläche: Eine Deckschicht aus EPDM ist in der Regel farbstabiler und griffiger als reines SBR – ideal für Flächen, die gut aussehen sollen.",
       features: [
         "100 × 100 cm, 15 mm, EPDM-Oberfläche (Händlerangabe)",
-        "Farbig statt schwarz, UV-beständiger als SBR",
-        "Für Sport- und Freizeitflächen",
+        "Farbig statt schwarz, UV-beständiger als SBR (Händlerangabe)",
+        "Für Sport- und Freizeitflächen (Händlerangabe)",
       ],
       pros: ["Farbstabil und griffig", "Hochwertige Optik", "Witterungsbeständig"],
       cons: ["Teurer", "Wenige Detailangaben des Händlers"],
@@ -148,7 +148,7 @@ export default {
         blocks: [
           { quick: "Für Trainingsflächen ist der [Sport-Thieme Sportboden Connect](produkt:1) die beste Wahl. Am günstigsten dämpft die [Vivol-Matte mit 20 mm](produkt:2); für sichtbare Flächen draußen lohnt der [EPDM-Sportboden](produkt:3)." },
           { first: "Gummiboden ist überall dort im Einsatz, wo Menschen springen, fallen oder schwere Gewichte abstellen: im Home-Gym, unter Spielgeräten, auf Laufbahnen und Multisportflächen. Die meisten Platten bestehen aus recyceltem Altreifengranulat (SBR), das mit Polyurethan gebunden wird. Hochwertigere Beläge haben eine Deckschicht aus EPDM, einem farbstabilen Synthesekautschuk." },
-          { p: "Für draußen zählen Frost- und UV-Beständigkeit sowie Wasserdurchlässigkeit. Für Spielgeräte ist der Fallschutz entscheidend: Die Norm EN 1177 beschreibt, bis zu welcher Fallhöhe ein Belag schützt – der Hersteller muss das für sein Produkt nachweisen." },
+          { p: "Für draußen zählen Frost- und UV-Beständigkeit sowie Wasserdurchlässigkeit. Für Spielgeräte ist der Fallschutz entscheidend: Die Norm EN 1177 beschreibt ein Prüfverfahren, mit dem ermittelt wird, bis zu welcher kritischen Fallhöhe ein Belag stoßdämpfend wirkt – seriöse Hersteller weisen das mit einem Prüfzeugnis für ihr Produkt nach. Ein Fallschutzbelag mindert das Verletzungsrisiko, verhindert Verletzungen aber nicht sicher." },
           { figure: "scores" },
         ],
       },
@@ -180,10 +180,10 @@ export default {
     intro: "Unter Schaukel, Reck und Klettergerüst zählt die geprüfte Fallhöhe. Diese fünf Platten sind für Spiel- und Sportflächen gedacht.",
     items: [
       { name: "Fallschutzmatte 500 × 500 × 45 mm, Made in Germany", for: "Bis ca. 1,5 m Fallhöhe", text: "Gummigranulat-Platte, laut Händler TÜV-geprüft nach DIN EN 1176-1 – Fallhöhe im Prüfzeugnis kontrollieren.", asin: "B00GMGXXP0", query: "Fallschutzmatte 500x500x45 mm Gummigranulat Made in Germany" },
-      { name: "Floordirekt Play Protect, 40 mm", for: "Spielplatz & Garten", text: "Fallschutzmatte 50 × 50 cm in 25 oder 40 mm, wetterfest und rutschfest (Händlerangabe).", asin: "B08YZ7WPH9", query: "Floordirekt Play Protect Fallschutzmatte 40 mm" },
-      { name: "Fallschutzmatte 500 × 500 × 40 mm, schwarz", for: "Klassisch schwarz", text: "Gummigranulat-Platte mit 40 mm Stärke für Spielgeräte und Sportflächen.", asin: "B00GMJI2KS", query: "Fallschutzmatte 500x500x40 mm Gummigranulat schwarz" },
-      { name: "LANDGRID Fallschutzmatten 50 × 50 × 4 cm (24 Stück)", for: "Größere Flächen, grün", text: "24 grüne Platten für rund 6 m² – grün fügt sich besser in den Garten ein.", asin: "B09XVKVLV1", query: "LANDGRID 24x Fallschutzmatten 50x50x4cm Grün" },
-      { name: "ATLETICA SolidProtect, 20 mm", for: "Fitness draußen & drinnen", text: "Bodenschutzmatten 50 × 50 cm mit 20 mm für Trainingsflächen.", asin: "B0BD8Z4BMQ", query: "ATLETICA SolidProtect Bodenschutzmatte 20 mm" },
+      { name: "Floordirekt Play Protect, 40 mm", for: "Spielplatz & Garten", text: "Fallschutzmatte 50 × 50 cm in 25 oder 40 mm, wetterfest und rutschfest (Händlerangabe) – geprüfte Fallhöhe im Prüfzeugnis kontrollieren.", asin: "B08YZ7WPH9", query: "Floordirekt Play Protect Fallschutzmatte 40 mm" },
+      { name: "Fallschutzmatte 500 × 500 × 40 mm, schwarz", for: "Klassisch schwarz", text: "Gummigranulat-Platte mit 40 mm Stärke, laut Händler für Spielgeräte und Sportflächen – für Spielgeräte nur mit Prüfzeugnis zur Fallhöhe.", asin: "B00GMJI2KS", query: "Fallschutzmatte 500x500x40 mm Gummigranulat schwarz" },
+      { name: "LANDGRID Fallschutzmatten 50 × 50 × 4 cm (24 Stück)", for: "Größere Flächen, grün", text: "24 grüne Platten für rund 6 m² (Händlerangabe) – grün fügt sich besser in den Garten ein. Fallhöhe laut Prüfzeugnis beachten.", asin: "B09XVKVLV1", query: "LANDGRID 24x Fallschutzmatten 50x50x4cm Grün" },
+      { name: "ATLETICA SolidProtect, 20 mm", for: "Fitness draußen & drinnen", text: "Bodenschutzmatten 50 × 50 cm mit 20 mm für Trainingsflächen (Händlerangabe) – kein Fallschutz für Spielgeräte.", asin: "B0BD8Z4BMQ", query: "ATLETICA SolidProtect Bodenschutzmatte 20 mm" },
     ],
   },
 
@@ -195,8 +195,8 @@ export default {
         blocks: [
           { quick: "Drinnen genügt ein ebener, sauberer Boden. Draußen braucht Gummiboden einen tragfähigen, wasserdurchlässigen Unterbau aus verdichtetem Schotter und Splitt oder eine Betonplatte mit Gefälle." },
           { figure: "steps" },
-          { callout: { title: "Sicherheit", warn: true, text: "Unter Spielgeräten nur Beläge mit nachgewiesener Fallhöhe nach EN 1177 verwenden und die Herstellerangaben zur Verlegung genau einhalten. Ab 60 cm freier Fallhöhe ist ein stoßdämpfender Boden nötig." } },
-          { facts: [{ value: "EN 1177", label: "Norm für Fallschutzböden" }, { value: "20 mm", label: "Mindeststärke für den Hantelbereich" }, { value: "60 cm", label: "Fallhöhe, ab der Fallschutz nötig ist" }] },
+          { callout: { title: "Sicherheit", warn: true, text: "Unter Spielgeräten nur Beläge mit nachgewiesener Fallhöhe nach EN 1177 verwenden und die Herstellerangaben zur Verlegung genau einhalten. Die Spielplatznorm DIN EN 1176-1 sieht ab rund 60 cm freier Fallhöhe einen stoßdämpfenden Boden vor – eine gute Orientierung auch für den Garten. Platten aus Altreifengranulat können anfangs riechen; achte vor allem für Innenräume und Kinderbereiche auf Herstellerangaben zu Schadstoffprüfungen und lüfte gut. Nasse Gummiflächen können rutschig sein, und Abrieb von Gummi- und Kunststoffbelägen gelangt als Mikroplastik in die Umwelt." } },
+          { facts: [{ value: "EN 1177", label: "Norm für Fallschutzböden" }, { value: "20 mm", label: "Empfohlene Stärke für den Hantelbereich" }, { value: "60 cm", label: "Fallhöhe, ab der die Norm Fallschutz vorsieht" }] },
         ],
       },
     ],
