@@ -147,7 +147,7 @@ export default {
         blocks: [
           { quick: "Ein [Ergotron-LX-Monitorarm](produkt:1) bringt nach unserer Einschätzung den größten Nutzen für Platz und Monitorposition, am meisten Nutzen pro Euro bringt das [Logitech Desk Mat](produkt:2), und am meisten Freude macht die [Ember Mug 2](produkt:3)." },
           { first: "Gadgets haben einen schlechten Ruf: Gekauft, ausprobiert, in die Schublade. Die besten Office-Gadgets sind deshalb die, die man jeden Tag benutzt, ohne darüber nachzudenken – die Tasse, aus der man trinkt, die Unterlage, auf der man arbeitet, der Arm, der den Monitor hält." },
-          { p: "Daneben gibt es Gadgets, die vor allem gute Laune machen: der USB-Raketenwerfer mit Schaumstoffgeschossen (nie auf Menschen oder Tiere zielen), der Tassenwärmer neben dem Laptop oder ein kinetisches Spielzeug für die Gedankenpause. Auch das hat seinen Platz." },
+          { p: "Daneben gibt es Gadgets, die vor allem gute Laune machen: ein Kugelstoßpendel (Newton-Wiege), der Tassenwärmer neben dem Laptop oder ein kinetisches Spielzeug für die Gedankenpause. Auch das hat seinen Platz." },
           { figure: "scores" },
         ],
       },
@@ -179,7 +179,7 @@ export default {
     h2: "Die 5 besten Gadgets für Ordnung, Wärme und Spaß",
     intro: "Kabelmanagement, Monitorständer, Tassenwärmer und der Klassiker unter den Spaß-Gadgets.",
     items: [
-      { name: "USB-Raketenwerfer", for: "Spaß im Büro", text: "Der Klassiker unter den Büro-Gadgets: Schaumstoffraketen per USB-Steuerung. Wichtig: nie auf Personen, Gesichter oder Tiere zielen – Verletzungsgefahr für die Augen; kein Spielzeug für kleine Kinder, Altersangabe und Warnhinweise des Herstellers beachten. Ein eindeutiges, aktiv gelistetes Modell haben wir nicht gefunden – der Link führt zur Amazon-Suche.", query: "USB Raketenwerfer" },
+      { name: "Pfiffig Wohnen Newton-Wiege (Kugelstoßpendel)", for: "Für die Gedankenpause", text: "Der Schreibtischklassiker: fünf Stahlkugeln, die sich gegenseitig anstoßen – leise, ohne Strom und hübsch anzusehen. Nicht für kleine Kinder geeignet (Kleinteile).", asin: "B00479P1JK", query: "Pfiffig Wohnen Newton-Wiege Kugelstoßpendel" },
       { name: "elestyle Elektrischer Kaffeewärmer", for: "Günstiger Tassenwärmer", text: "Warmhalteplatte mit 9 Temperaturstufen, LCD-Anzeige, Schwerkraftsensor und Abschaltautomatik (Herstellerangabe).", asin: "B0DHK22X68", query: "elestyle Elektrischer Kaffeewärmer" },
       { name: "Scanfield Kabelmanagement unter dem Tisch", for: "Kabelwanne", text: "Modulare Kabelwanne für die Montage unter der Tischplatte (Herstellerangabe) – Steckdosenleiste und Kabel verschwinden.", asin: "B091PQJ35C", query: "Scanfield Kabelmanagement unter Tisch" },
       { name: "Woodcessories Monitorständer Eiche", for: "Monitorständer aus Holz", text: "Monitorerhöhung aus Eiche mit Basis aus recyceltem Aluminium und ausziehbarer Ablage, 70 × 22 × 10 cm (Herstellerangabe).", asin: "B0BHZL1XDP", query: "Woodcessories Monitorständer Holz Eiche" },
@@ -196,7 +196,7 @@ export default {
           { quick: "Steckdosenleiste in eine Kabelwanne unter den Tisch, Kabel bündeln und zu einem Strang am Tischbein führen. Bei höhenverstellbaren Tischen genug Kabellänge für die Stehhöhe lassen." },
           { figure: "steps" },
           { callout: { title: "Sicherheit", warn: true, text: "Steckdosenleisten nicht hintereinanderstecken und Kabel nicht quetschen. Bei höhenverstellbaren Tischen darauf achten, dass sich beim Hochfahren nichts spannt. Monitorarme nur innerhalb der angegebenen Traglast nutzen, die Klemme fest anziehen und die Federspannung nach Anleitung einstellen, damit der Monitor nicht absinkt oder hochschnellt." } },
-          { callout: { title: "Wärme und Spaß-Gadgets", warn: true, text: "Beheizte Tassen und Tassenwärmer: heiße Getränke außer Reichweite von Kindern halten (Verbrühungsgefahr) und Gebrauchsanweisung beachten. USB-Raketenwerfer und ähnliche Spielzeuge nie auf Personen, besonders nicht auf Gesichter, zielen – die Geschosse können Augen verletzen. Kleinteile von kleinen Kindern fernhalten." } },
+          { callout: { title: "Wärme und Spaß-Gadgets", warn: true, text: "Beheizte Tassen und Tassenwärmer: heiße Getränke außer Reichweite von Kindern halten (Verbrühungsgefahr) und Gebrauchsanweisung beachten. Kleinteile von kleinen Kindern fernhalten." } },
           { facts: [{ value: "10–60 mm", label: "Klemmbereich des Ergotron LX (Herstellerangabe)" }, { value: "50–62,5 °C", label: "Temperaturbereich der Ember Mug 2 (Herstellerangabe)" }, { value: "30 × 70 cm", label: "Logitech Desk Mat" }] },
         ],
       },
@@ -208,7 +208,7 @@ export default {
     { q: "Ist die Ember Mug ihr Geld wert?", a: "Für alle, die oft kalten Kaffee trinken, ja. Sie ist allerdings teuer, und laut Käufern lässt der Akku nach einiger Zeit nach. Eine günstige Alternative ist ein Tassenwärmer." },
     { q: "Monitorarm oder Monitorständer?", a: "Ein Arm ist flexibler und schafft mehr Platz, ein Ständer ist günstiger und braucht keine Klemme. Beide können den Monitor auf eine passende Höhe bringen – Oberkante etwa auf oder leicht unter Augenhöhe." },
     { q: "Wie bekomme ich Kabel ohne Bohren unter den Tisch?", a: "Mit einer Kabelwanne zum Klemmen. Vorher die Plattenstärke messen und den Klemmbereich prüfen." },
-    { q: "Gibt es noch USB-Raketenwerfer?", a: "Ja, sie werden aber meist von wechselnden Händlern angeboten. Ein eindeutiges Markenmodell haben wir aktuell nicht gefunden. Wichtig: nie auf Personen zielen und Altersangabe sowie Warnhinweise beachten." },
+    { q: "Welche Gadgets eignen sich für die kurze Pause?", a: "Ruhige Klassiker wie ein Kugelstoßpendel (Newton-Wiege) oder ein kinetisches Spielzeug. Spielzeuge mit Geschossen empfehlen wir im Büro nicht, weil sie Augen verletzen können." },
   ],
 
   sources: [
