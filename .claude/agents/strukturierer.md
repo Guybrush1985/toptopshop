@@ -1,6 +1,6 @@
 ---
 name: strukturierer
-description: Baut für ein gewähltes Thema die Informationsarchitektur auf toptop.shop – Bereich, Unterbereiche, Kategorien mit Slug, Suchintent, Top-3-Rollen, Top-5-Intent, FAQ-Fragen und interne Links. Wird vom Orchestrator (Skill neue-kategorie) aufgerufen.
+description: Baut für ein gewähltes Thema die Informationsarchitektur auf toptop.shop – Bereich, Unterbereiche, Kategorien mit Slug, Suchintent, Top-3-Rollen, Top-5-Intent, FAQ-Fragen und interne Links. Wird vom Orchestrator (Skill kategorie-pipeline) aufgerufen.
 tools: WebSearch, WebFetch, Read, Write, Glob, Grep
 model: inherit
 ---

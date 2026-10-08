@@ -151,7 +151,7 @@ Mindestumfang je Kategorie: **≥ 1.000 Wörter** (nicht künstlich auffüllen),
   keine Geräte mit vorinstallierten ROM-Sammlungen.
 - 2026-10-08: Footer listet Bereiche statt aller Kategorien; Startseite zeigt je Bereich zwei Ratgeber. Mobile
   Hauptnavigation ist eine einzeilige, scrollbare Leiste (aktiver Bereich wird per Mini-Skript sichtbar gescrollt).
-- 2026-10-08: Agententeam für den Ausbau: Orchestrator (Skill `neue-kategorie`) steuert Trend-Scout, Strukturierer,
+- 2026-10-08: Agententeam für den Ausbau: Orchestrator (Skill `/kategorie-pipeline`) steuert Trend-Scout, Strukturierer,
   Produkt-Rechercheur, Illustrator, Redakteur und Prüfer (`.claude/agents/`). Der Nutzer spricht nur mit dem
   Orchestrator; Freigaben bei Nischenauswahl, neuen Awin-Händlern und Merge. Nischen gern aus Sport/Kinder/Familie,
   **keine Preisschwelle, aber Fokus auf Produktqualität**. Ergebnis bleibt im heutigen Seitenformat (Symbolbilder,

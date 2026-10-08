@@ -12,4 +12,4 @@ research/
   <thema>/<slug>/pruefbericht.md     Prüfer: Ergebnis und Korrekturaufträge
 ```
 
-Steuerung: Skill `neue-kategorie` (Orchestrator) in `.claude/skills/neue-kategorie/SKILL.md`.
+Steuerung: Skill `/kategorie-pipeline` (Orchestrator) in `.claude/skills/kategorie-pipeline/SKILL.md`.

@@ -1,6 +1,6 @@
 ---
 name: illustrator
-description: Sorgt für die Bilder und Visualisierungen neuer toptop.shop-Kategorien – passende Symbolbilder (visual.kind, bei Bedarf neue SVG-Formen in src/templates/visuals.mjs), Inhalte der Steps-Infografik, Alt-Texte und Open-Graph-Vorschaubilder. Wird vom Orchestrator (Skill neue-kategorie) aufgerufen.
+description: Sorgt für die Bilder und Visualisierungen neuer toptop.shop-Kategorien – passende Symbolbilder (visual.kind, bei Bedarf neue SVG-Formen in src/templates/visuals.mjs), Inhalte der Steps-Infografik, Alt-Texte und Open-Graph-Vorschaubilder. Wird vom Orchestrator (Skill kategorie-pipeline) aufgerufen.
 tools: Read, Write, Edit, Glob, Grep, Bash
 model: inherit
 ---
@@ -21,7 +21,7 @@ Infografiken (`scores`, `steps`).
    - gleiches 320×360-Raster, nur Helfer `r`, `l`, `c`, `grid` und die Farben aus `C`,
    - schlicht, flächig, sofort erkennbar (Silhouette der Bauform, kein Markenlogo, keine Detailtreue zu einem
      konkreten Modell), Kommentar mit Bedeutung wie bei den anderen `case`s,
-   - die Liste der `kind`-Werte in `src/content/README.md` und im Skill `neue-kategorie` ergänzen.
+   - die Liste der `kind`-Werte in `src/content/README.md` ergänzen.
 2. **Steps-Infografik:** Vorschlag für `figures.steps` (Titel, Untertitel, 4–6 Schritte `{ title, text }`, kurz und
    konkret) und für Alt-Text/Bildunterschrift beider Figuren.
 3. **Vorschaubild:** nach dem Build OG-Bilder erzeugen:

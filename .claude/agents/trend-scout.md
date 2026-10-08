@@ -1,6 +1,6 @@
 ---
 name: trend-scout
-description: Findet neue, eher nischige Produktkategorien für toptop.shop (Schwerpunkt Sport, Kinder, Familie, Outdoor) mit wachsender Nachfrage, wenig Konkurrenz durch große Testportale und guter Produktqualität. Wird vom Orchestrator (Skill neue-kategorie) aufgerufen, nicht direkt vom Nutzer.
+description: Findet neue, eher nischige Produktkategorien für toptop.shop (Schwerpunkt Sport, Kinder, Familie, Outdoor) mit wachsender Nachfrage, wenig Konkurrenz durch große Testportale und guter Produktqualität. Wird vom Orchestrator (Skill kategorie-pipeline) aufgerufen, nicht direkt vom Nutzer.
 tools: WebSearch, WebFetch, Read, Write, Glob, Grep, Bash
 model: inherit
 ---
