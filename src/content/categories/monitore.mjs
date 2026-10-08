@@ -17,7 +17,7 @@ export default {
   lead:
     "Ein Kabel, und der Laptop lädt, zeigt das Bild und hängt an Tastatur, Maus und Netzwerk. Wir zeigen die drei Monitore, die das am besten können.",
   answer:
-    "Unsere beste Gesamtwahl ist der [**Dell UltraSharp U2723QE**](produkt:1): 27 Zoll, 4K, IPS-Black-Panel und USB-C mit bis zu 90 W. Das beste Preis-Leistungs-Verhältnis bietet der [**Samsung ViewFinity S8 (LS27B800PXU)**](produkt:2); die Premium-Wahl für mehr Fläche ist der Ultrawide-Monitor [**Dell UltraSharp U3425WE**](produkt:3) mit Thunderbolt-Hub und 120 Hz.",
+    "Unsere beste Gesamtwahl ist der [**Dell UltraSharp U2723QE**](produkt:1): 27 Zoll, 4K, IPS-Black-Panel und laut Händler USB-C mit bis zu 90 W. Das beste Preis-Leistungs-Verhältnis bietet der [**Samsung ViewFinity S8 (LS27B800PXU)**](produkt:2); die Premium-Wahl für mehr Fläche ist der Ultrawide-Monitor [**Dell UltraSharp U3425WE**](produkt:3) mit Thunderbolt-Hub und 120 Hz.",
 
   priceTiers: {
     1: { symbol: "€", label: "bis 400 €" },
@@ -32,7 +32,7 @@ export default {
   criteria: [
     { key: "bild", label: "Bildqualität", weight: 0.3, description: "Auflösung, Schärfe, Kontrast, Farbtreue und Entspiegelung." },
     { key: "anschluss", label: "USB-C & Anschlüsse", weight: 0.25, description: "Ladeleistung, USB-Hub, LAN, Daisy-Chain, KVM." },
-    { key: "ergonomie", label: "Ergonomie", weight: 0.2, description: "Höhenverstellung, Neigung, Pivot, Flimmerfreiheit." },
+    { key: "ergonomie", label: "Ergonomie", weight: 0.2, description: "Höhenverstellung, Neigung, Pivot, Flimmerfreiheit (laut Hersteller)." },
     { key: "preis", label: "Preis-Leistung", weight: 0.25, description: "Preis im Verhältnis zu Ausstattung und Qualität." },
   ],
 
@@ -51,13 +51,13 @@ export default {
       ratings: { bild: 9.0, anschluss: 9.0, ergonomie: 9.0, preis: 7.5 },
       bestFor: "Laptop-Arbeitsplatz mit einem Kabel",
       verdict:
-        "Der Allrounder für das Home-Office: scharfes 4K-Bild mit hohem Kontrast, ein USB-C-Hub mit bis zu 90 W Ladeleistung und ein Standfuß, der sich in alle Richtungen verstellen lässt.",
+        "Der Allrounder für das Home-Office: scharfes 4K-Bild mit hohem Kontrast, ein USB-C-Hub mit laut Händler bis zu 90 W Ladeleistung und ein Standfuß, der sich in alle Richtungen verstellen lässt.",
       features: [
         "27 Zoll, 3840 × 2160, IPS-Black-Panel mit 2000:1 Kontrast (Händlerangabe)",
         "USB-C mit bis zu 90 W, USB-Hub mit 10-Gbit/s-Anschlüssen, LAN (Händlerangabe)",
-        "Höhen-, Neige-, Dreh- und Pivotfunktion; 3 Jahre Advanced Exchange Service",
+        "Höhen-, Neige-, Dreh- und Pivotfunktion; 3 Jahre Advanced Exchange Service (Herstellerangabe)",
       ],
-      pros: ["Sehr gute Bildqualität", "Echter Docking-Ersatz", "Top-Ergonomie"],
+      pros: ["Sehr gute Bildqualität", "Kann ein Dock ersetzen", "Vielseitig verstellbarer Fuß"],
       cons: ["Keine Lautsprecher, keine Webcam", "Nur 60 Hz"],
       specs: { groesse: "27 Zoll", aufloesung: "3840 × 2160 (4K)", usbc: "bis 90 W", hz: "60 Hz", extra: "USB-Hub, LAN" },
       asin: "B09RSTWVTP",
@@ -74,11 +74,11 @@ export default {
       ratings: { bild: 8.0, anschluss: 8.5, ergonomie: 8.5, preis: 9.0 },
       bestFor: "4K mit USB-C zum kleinen Preis",
       verdict:
-        "Viel Monitor fürs Geld: 4K auf 27 Zoll, USB-C mit 90 W Ladeleistung und ein höhenverstellbarer Fuß – deutlich günstiger als die Premium-Modelle.",
+        "Viel Monitor fürs Geld: 4K auf 27 Zoll, laut Händler USB-C mit 90 W Ladeleistung und ein höhenverstellbarer Fuß – deutlich günstiger als die Premium-Modelle.",
       features: [
         "27 Zoll IPS, 3840 × 2160 (Herstellerangabe)",
         "USB-C mit bis zu 90 W, dazu HDMI, DisplayPort, USB-A und LAN (Händlerangabe, je nach Variante)",
-        "Höhenverstellbar, neigbar, Pivot",
+        "Höhenverstellbar, neigbar, Pivot (Herstellerangabe)",
       ],
       pros: ["Sehr gutes Preis-Leistungs-Verhältnis", "90 W reichen für die meisten Laptops", "Ergonomischer Fuß"],
       cons: ["Kontrast und Farbraum unter Dell-Niveau", "Datenblatt-Angaben teils widersprüchlich"],
@@ -97,13 +97,13 @@ export default {
       ratings: { bild: 9.0, anschluss: 9.5, ergonomie: 8.5, preis: 6.5 },
       bestFor: "Viele Fenster, Tabellen, Schnitt",
       verdict:
-        "Für alle, die mehr Fläche wollen: 34 Zoll im 21:9-Format ersetzen zwei Monitore, 120 Hz machen Scrollen flüssig, und der Thunderbolt-Hub ersetzt die Dockingstation.",
+        "Für alle, die mehr Fläche wollen: 34 Zoll im 21:9-Format können zwei Monitore ersetzen, 120 Hz machen Scrollen flüssiger, und der Thunderbolt-Hub kann die Dockingstation ersetzen.",
       features: [
         "34 Zoll Curved, 3440 × 1440, 120 Hz (Händlerangabe)",
-        "Thunderbolt-Hub mit mehreren USB-Anschlüssen und Laptop-Ladung",
+        "Thunderbolt-Hub mit mehreren USB-Anschlüssen und Laptop-Ladung (Händlerangabe)",
         "Ein Kabel für Bild, Daten und Strom",
       ],
-      pros: ["Ersetzt zwei Monitore", "Flüssige 120 Hz", "Umfassender Hub"],
+      pros: ["Kann zwei Monitore ersetzen", "Flüssige 120 Hz", "Umfassender Hub"],
       cons: ["Teuer", "Braucht einen tiefen Schreibtisch"],
       specs: { groesse: "34 Zoll Curved", aufloesung: "3440 × 1440 (UWQHD)", usbc: "Thunderbolt mit Ladung", hz: "120 Hz", extra: "Hub, LAN" },
       asin: "B0CXDQJ2PQ",
@@ -136,7 +136,7 @@ export default {
       caption: "Orientierung nach den Hinweisen der DGUV zur Bildschirmarbeit.",
       steps: [
         { title: "Abstand: eine Armlänge", text: "Bei 27 Zoll rund 60 bis 80 cm zwischen Augen und Bildschirm." },
-        { title: "Höhe: Oberkante unter Augenhöhe", text: "Der Blick fällt leicht nach unten – das entlastet den Nacken." },
+        { title: "Höhe: Oberkante unter Augenhöhe", text: "Der Blick fällt leicht nach unten – das kann den Nacken entlasten." },
         { title: "Leicht nach hinten neigen", text: "Rund 10 Grad Neigung sorgen für einen geraden Blick auf die Bildmitte." },
         { title: "Seitlich zum Fenster", text: "Fenster nicht vor oder hinter dem Bildschirm – das vermeidet Blendung." },
         { title: "Skalierung anpassen", text: "Bei 4K auf 27 Zoll ist eine Skalierung von 150 % meist angenehm." },
@@ -153,10 +153,10 @@ export default {
         h2: "Welcher Monitor ist der beste fürs Home-Office?",
         blocks: [
           { quick: "Für die meisten ist der [Dell UltraSharp U2723QE](produkt:1) der beste Monitor fürs Home-Office. Günstiger ist der [Samsung ViewFinity S8](produkt:2); wer mehr Fläche braucht, nimmt den [Dell U3425WE](produkt:3)." },
-          { first: "Der Monitor ist das, worauf man im Home-Office den ganzen Tag schaut. Ein Laptop-Bildschirm ist dafür zu klein und zu tief. Ein externer Monitor auf Augenhöhe entlastet den Nacken, mehr Fläche erleichtert die Arbeit mit mehreren Fenstern – und mit USB-C wird er gleichzeitig zur Dockingstation." },
+          { first: "Der Monitor ist das, worauf man im Home-Office den ganzen Tag schaut. Ein Laptop-Bildschirm ist dafür zu klein und zu tief. Ein externer Monitor in passender Höhe kann den Nacken entlasten, mehr Fläche erleichtert die Arbeit mit mehreren Fenstern – und mit USB-C wird er gleichzeitig zur Dockingstation." },
           { p: "Bei USB-C-Monitoren zählt vor allem die Ladeleistung: Reicht sie für den eigenen Laptop, genügt ein einziges Kabel für Bild, Strom, Tastatur, Maus und oft auch Netzwerk. 65 W genügen für viele Ultrabooks, 90 W und mehr für leistungsstärkere Laptops." },
           { figure: "scores" },
-          { callout: { title: "Unabhängiger Test", text: "Die Stiftung Warentest hat im Monitortest 04/2023 15 USB-C-Monitore geprüft. Den 27-Zoll-4K-Monitor BenQ PD2705U findest du in unserer Top 5." } },
+          { callout: { title: "Unabhängiger Test", text: "Die Stiftung Warentest hat im Monitortest (Zeitschrift test, Ausgabe 04/2023) 15 USB-C-Monitore geprüft. Den 27-Zoll-4K-Monitor BenQ PD2705U findest du in unserer Top 5." } },
         ],
       },
       {
@@ -179,7 +179,7 @@ export default {
           { h3: "USB-C ist nicht gleich USB-C" },
           { p: "Für den Ein-Kabel-Betrieb muss der Laptop DisplayPort über USB-C (Alt-Mode) und Laden über USB-C unterstützen. Thunderbolt-Monitore bieten zusätzlich hohe Datenraten und lassen sich teils verketten." },
           { h3: "Ergonomie" },
-          { p: "Ein höhenverstellbarer Fuß ist im Home-Office Pflicht. Wer viel Platz sparen will, nutzt einen Monitorarm – dafür braucht der Monitor eine VESA-Halterung." },
+          { p: "Ein höhenverstellbarer Fuß ist im Home-Office aus unserer Sicht ein Muss. Wer viel Platz sparen will, nutzt einen Monitorarm – dafür braucht der Monitor eine VESA-Halterung." },
         ],
       },
     ],
@@ -187,14 +187,14 @@ export default {
 
   top5: {
     id: "top5-alternativen",
-    h2: "Die 5 besten Alternativen: Testsieger, Ultrawide und Kreativ-Monitore",
+    h2: "Die 5 besten Alternativen: Warentest-geprüft, Ultrawide und Kreativ",
     intro: "Von Stiftung-Warentest-geprüft bis Ultrawide mit Netzwerkanschluss: fünf Monitore für andere Ansprüche und Budgets.",
     items: [
-      { name: "BenQ PD2705U", for: "Bei Stiftung Warentest geprüft", text: "27 Zoll, 4K, USB-C mit 65 W, KVM-Switch, werkskalibriert; im Monitortest der Stiftung Warentest (test 04/2023) vertreten.", asin: "B096B3PBFZ", query: "BenQ PD2705U" },
+      { name: "BenQ PD2705U", for: "Bei Stiftung Warentest geprüft", text: "27 Zoll, 4K, USB-C mit 65 W, KVM-Switch, werkskalibriert (Herstellerangabe); im Monitortest der Stiftung Warentest (test 04/2023) vertreten.", asin: "B096B3PBFZ", query: "BenQ PD2705U" },
       { name: "LG 34WQ75C-B", for: "Günstiger Ultrawide", text: "34 Zoll Curved, 3440 × 1440, USB-C mit bis zu 90 W und LAN-Anschluss (Händlerangabe).", asin: "B09Y9FB388", query: "LG 34WQ75C-B Curved Monitor" },
-      { name: "Dell P2723QE", for: "4K fürs Büro", text: "27 Zoll, 4K, USB-C-Hub – das Business-Pendant zur UltraSharp-Serie.", asin: "B09TY127B8", query: "Dell P2723QE" },
+      { name: "Dell P2723QE", for: "4K fürs Büro", text: "27 Zoll, 4K, USB-C-Hub (Herstellerangabe) – das Business-Pendant zur UltraSharp-Serie.", asin: "B09TY127B8", query: "Dell P2723QE" },
       { name: "LG 27UP850K-W", for: "4K mit HDR 400", text: "27 Zoll IPS, 4K, DisplayHDR 400, USB-C mit 90 W (Händlerangabe).", asin: "B0DTQ9SKYF", query: "LG 27UP850K-W" },
-      { name: "BenQ PD2706U", for: "Kreativarbeit", text: "27 Zoll, 4K, P3-Farbraum, 90 W USB-C, werkskalibriert, KVM.", asin: "B0BZ4Q53BX", query: "BenQ PD2706U" },
+      { name: "BenQ PD2706U", for: "Kreativarbeit", text: "27 Zoll, 4K, P3-Farbraum, 90 W USB-C, werkskalibriert, KVM (Herstellerangabe).", asin: "B0BZ4Q53BX", query: "BenQ PD2706U" },
     ],
   },
 
@@ -210,9 +210,10 @@ export default {
             list: [
               "**Ein Kabel testen:** Funktioniert Laden und Bild über ein USB-C-Kabel, brauchst du keine separate Dockingstation.",
               "**Zwei Monitore?** Ein Ultrawide ist oft angenehmer als zwei Bildschirme mit Rahmen in der Mitte.",
-              "**Augen schonen:** Helligkeit an die Umgebung anpassen und regelmäßig in die Ferne schauen.",
+              "**Augen entlasten:** Helligkeit an die Umgebung anpassen und regelmäßig in die Ferne schauen – das kann Ermüdung vorbeugen.",
             ],
           },
+          { callout: { title: "Gesundheit", text: "Begriffe wie „flimmerfrei“, „Low Blue Light“ oder „augenschonend“ sind Herstellerangaben; eine Wirkung auf die Gesundheit ist damit nicht belegt. Bei anhaltenden Augenbeschwerden, Kopf- oder Nackenschmerzen lass das ärztlich abklären. Beschäftigte mit Bildschirmarbeit haben laut Arbeitsmedizinischer Vorsorgeverordnung Anspruch auf ein Vorsorgeangebot inklusive Augenuntersuchung. Die Hinweise der DGUV und der ArbStättV gelten im privaten Home-Office als Empfehlung." } },
           { facts: [{ value: "60–80 cm", label: "Abstand bei 27 Zoll" }, { value: "65–90 W", label: "USB-C-Ladeleistung für die meisten Laptops" }, { value: "150 %", label: "typische Skalierung bei 4K auf 27 Zoll" }] },
         ],
       },
@@ -224,7 +225,7 @@ export default {
     { q: "Lohnt sich 4K auf 27 Zoll?", a: "Ja, wenn du viel liest und schreibst: Schrift wirkt deutlich schärfer. Für reine Büroarbeit genügt auch QHD, das ist günstiger." },
     { q: "Wie viel Watt muss USB-C am Monitor haben?", a: "So viel, wie dein Laptop-Netzteil liefert. Viele Ultrabooks kommen mit 65 W aus, leistungsstärkere Laptops brauchen 90 W oder mehr." },
     { q: "Ultrawide oder zwei Monitore?", a: "Ein Ultrawide hat keinen Rahmen in der Mitte und braucht nur ein Kabel. Zwei Monitore sind flexibler und oft günstiger." },
-    { q: "Welcher Monitor ist Testsieger bei Stiftung Warentest?", a: "Im Monitortest 04/2023 hat die Stiftung Warentest 15 USB-C-Monitore geprüft. Der BenQ PD2705U war einer der getesteten 27-Zoll-4K-Monitore. Die aktuellen Noten findest du auf test.de." },
+    { q: "Welche Monitore hat die Stiftung Warentest getestet?", a: "Im Monitortest (test 04/2023) hat die Stiftung Warentest 15 USB-C-Monitore geprüft. Der BenQ PD2705U war einer der getesteten 27-Zoll-4K-Monitore. Die aktuellen Noten findest du auf test.de." },
   ],
 
   sources: [

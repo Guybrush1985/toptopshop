@@ -15,7 +15,7 @@ export default {
   eyebrow: "Home-Office · Hintergrund",
   h1: "Die 3 besten Green Screens 2026",
   lead:
-    "Ein virtueller Hintergrund ohne flimmernde Ränder braucht einen echten Green Screen. Wir zeigen die drei besten Modelle – ausziehbar wie eine Leinwand oder als Rollo an der Wand.",
+    "Ein virtueller Hintergrund ohne flimmernde Ränder gelingt mit einem echten Green Screen meist deutlich besser. Wir zeigen die drei besten Modelle – ausziehbar wie eine Leinwand oder als Rollo an der Wand.",
   answer:
     "Unsere beste Gesamtwahl ist der [**Elgato Green Screen**](produkt:1): in Sekunden ausgezogen, knitterfrei und rund 148 × 180 cm groß. Das beste Preis-Leistungs-Verhältnis bietet der [**Neewer Pull-up Green Screen 152 × 197 cm**](produkt:2); für breite Setups ist der [**Elgato Green Screen XL**](produkt:3) mit 200 × 182 cm die Premium-Wahl.",
 
@@ -31,7 +31,7 @@ export default {
   ],
 
   method:
-    "Grundlage sind Herstellerangaben (Maße, Material, Mechanik), Händlerangaben und Käufererfahrungen. Unabhängige Tests von Green Screens gibt es nicht. Die Bewertung ist eine redaktionelle Einschätzung in vier gewichteten Kriterien von 0 bis 10.",
+    "Grundlage sind Herstellerangaben (Maße, Material, Mechanik), Händlerangaben und Käufererfahrungen. Unabhängige Tests von Green Screens sind uns nicht bekannt. Die Bewertung ist eine redaktionelle Einschätzung in vier gewichteten Kriterien von 0 bis 10.",
 
   products: [
     {
@@ -45,13 +45,13 @@ export default {
       ratings: { keying: 9.0, aufbau: 9.0, groesse: 7.5, preis: 8.0 },
       bestFor: "Home-Office, Streaming am Schreibtisch",
       verdict:
-        "Der Klassiker: Gasdruckfedern ziehen den knitterfreien Stoff in Sekunden hoch, nach dem Call verschwindet er wieder im Aluminiumgehäuse.",
+        "Der Klassiker: Gasdruckfedern ziehen den laut Hersteller knitterfreien Stoff in Sekunden hoch, nach dem Call verschwindet er wieder im Aluminiumgehäuse.",
       features: [
         "Rund 148 × 180 cm Fläche, knitterfreies Material (Herstellerangabe)",
-        "X-Gestell mit Gasdruckfedern, Aluminiumgehäuse",
-        "Aufbau und Verstauen in Sekunden",
+        "X-Gestell mit Gasdruckfedern, Aluminiumgehäuse (Herstellerangabe)",
+        "Aufbau und Verstauen laut Hersteller in Sekunden",
       ],
-      pros: ["Extrem schneller Aufbau", "Gleichmäßige Farbe", "Kompakt verstaut"],
+      pros: ["Sehr schneller Aufbau", "Gleichmäßige Farbe", "Kompakt verstaut"],
       cons: ["Für breite Setups zu schmal", "Einzelne Berichte über defekte Federn"],
       specs: { masse: "ca. 148 × 180 cm", mechanik: "Gasdruck-X-Gestell", montage: "Boden", gewicht: "–", material: "knitterfrei" },
       asin: "B0BCH3J2BT",
@@ -71,8 +71,8 @@ export default {
         "Etwas größer als der Elgato und deutlich günstiger: Auch hier wird der Screen aus einem Aluminiumsockel gezogen und rastet automatisch ein.",
       features: [
         "152 × 197 cm, Pull-up mit automatisch verriegelndem Rahmen (Herstellerangabe)",
-        "Aluminiumsockel, in den der Screen eingezogen wird",
-        "Gewicht rund 7,8 kg",
+        "Aluminiumsockel, in den der Screen eingezogen wird (Herstellerangabe)",
+        "Gewicht rund 7,8 kg (Herstellerangabe)",
       ],
       pros: ["Günstig", "Größer als das Elgato-Standardmodell", "Stabiler Sockel"],
       cons: ["Schwerer", "Stoffqualität etwas einfacher"],
@@ -94,8 +94,8 @@ export default {
         "Wenn der Bildausschnitt breit ist: Der XL bietet rund zwei Meter Breite – genug für Weitwinkel-Webcams, Stehpult oder zwei Personen im Bild.",
       features: [
         "Rund 200 × 182 cm, 6,2 kg (Herstellerangabe)",
-        "Knitterfreies Material, ausfahrbar aus dem Gehäuse",
-        "Stabil auch bei großer Breite",
+        "Knitterfreies Material, ausfahrbar aus dem Gehäuse (Herstellerangabe)",
+        "Laut Hersteller stabil auch bei großer Breite",
       ],
       pros: ["Viel Breite für Weitwinkel", "Gleichmäßige Fläche", "Stabil"],
       cons: ["Teuer", "Braucht Platz hinter dem Stuhl"],
@@ -179,9 +179,9 @@ export default {
     h2: "Die 5 besten Alternativen: Rollo, faltbar und für den Stuhl",
     intro: "Wenn kein Platz für einen ausziehbaren Screen ist oder das Budget kleiner ausfällt.",
     items: [
-      { name: "ESMART Rollo Green Screen 200 × 200 cm", for: "Rollo für Wand oder Decke", text: "Rollsystem mit Metallgehäuse für Wand- und Deckenmontage, manuell zu bedienen und arretierbar.", asin: "B09HVBLSX3", query: "ESMART Rollo Green Screen 200 x 200" },
-      { name: "Streamplify Greenscreen Rollup 200 × 150 cm", for: "Mit Rollen", text: "Ausziehbarer Screen mit hydraulischer Stange und feststellbaren Rollen – leicht verschiebbar.", asin: "B09Q951T5M", query: "Streamplify Greenscreen Rollup 200 x 150" },
-      { name: "Neewer Chromakey 2-in-1, grün/blau, mit Ständer", for: "Grün und Blau", text: "Faltbarer Hintergrund 1,5 × 2 m in Grün und Blau, mit 2,6-m-Ständer und Tasche.", asin: "B085VMTXQY", query: "Neewer Chromakey 5x7ft faltbar grün blau Ständer" },
+      { name: "ESMART Rollo Green Screen 200 × 200 cm", for: "Rollo für Wand oder Decke", text: "Rollsystem mit Metallgehäuse für Wand- und Deckenmontage, manuell zu bedienen und arretierbar (Herstellerangabe).", asin: "B09HVBLSX3", query: "ESMART Rollo Green Screen 200 x 200" },
+      { name: "Streamplify Greenscreen Rollup 200 × 150 cm", for: "Mit Rollen", text: "Ausziehbarer Screen mit hydraulischer Stange und feststellbaren Rollen – leicht verschiebbar (Herstellerangabe).", asin: "B09Q951T5M", query: "Streamplify Greenscreen Rollup 200 x 150" },
+      { name: "Neewer Chromakey 2-in-1, grün/blau, mit Ständer", for: "Grün und Blau", text: "Faltbarer Hintergrund 1,5 × 2 m in Grün und Blau, mit 2,6-m-Ständer und Tasche (Herstellerangabe).", asin: "B085VMTXQY", query: "Neewer Chromakey 5x7ft faltbar grün blau Ständer" },
       { name: "Runder Green Screen 142 cm für den Stuhl", for: "Hinter dem Stuhl", text: "Zusammenklappbarer, runder Hintergrund mit Stahlring, der an der Stuhllehne befestigt wird.", asin: "B0CHJMJ4XW", query: "Green Screen 142 cm rund Stuhl Hintergrund" },
       { name: "Elgato Green Screen Mouse Mat", for: "Für Overhead-Aufnahmen", text: "Extra großes Chroma-Key-Mauspad – für Tutorials mit Kamera von oben.", asin: "B09737DLMV", query: "Elgato Green Screen Mouse Mat" },
     ],
@@ -196,6 +196,7 @@ export default {
           { quick: "Stell den Screen mindestens einen Meter hinter dich, beleuchte ihn gleichmäßig und dich separat von vorn. Trag kein Grün und stelle Belichtung und Weißabgleich der Webcam manuell ein." },
           { figure: "steps" },
           { callout: { title: "Tipp", text: "Wenn ein grüner Saum um Haare oder Schultern bleibt, hilft mehr Abstand zum Screen und ein Licht von hinten oben, das dich vom Hintergrund trennt." } },
+          { callout: { title: "Sicherheit", warn: true, text: "Ausziehbare Screens arbeiten mit Federn oder Gasdruck: Beim Aus- und Einfahren Finger vom Mechanismus fernhalten und den Screen nicht unbeaufsichtigt für Kinder erreichbar lassen. Standsicher auf ebenem Boden aufstellen, damit er nicht kippt. Rollos für Wand oder Decke nur mit zur Wand passenden Dübeln montieren – im Zweifel von Fachleuten montieren lassen; in Mietwohnungen vorher klären, ob gebohrt werden darf." } },
           { facts: [{ value: "≥ 1 m", label: "Abstand zwischen dir und dem Screen" }, { value: "148–200 cm", label: "typische Breite ausziehbarer Screens" }, { value: "2", label: "Lichtquellen: eine für dich, eine für den Screen" }] },
         ],
       },
@@ -206,7 +207,7 @@ export default {
     { q: "Welcher Green Screen ist der beste?", a: "Unsere beste Gesamtwahl ist der Elgato Green Screen. Günstiger ist der Neewer Pull-up mit 152 × 197 cm, breiter der Elgato Green Screen XL." },
     { q: "Brauche ich für Teams oder Zoom einen Green Screen?", a: "Nicht zwingend, aber mit Green Screen werden die Ränder deutlich sauberer, besonders bei Haaren und Bewegungen." },
     { q: "Wie groß muss ein Green Screen sein?", a: "So groß, dass er den gesamten Bildausschnitt hinter dir füllt. Am Schreibtisch reichen meist 150 cm Breite, bei Weitwinkel-Webcams eher 200 cm." },
-    { q: "Grün oder blau?", a: "Grün ist Standard, weil Kameras Grün am feinsten auflösen. Blau ist sinnvoll, wenn du grüne Kleidung oder Gegenstände im Bild hast." },
+    { q: "Grün oder blau?", a: "Grün ist Standard, weil Kamerasensoren Grün in der Regel am feinsten auflösen. Blau ist sinnvoll, wenn du grüne Kleidung oder Gegenstände im Bild hast." },
     { q: "Warum flackern die Ränder trotz Green Screen?", a: "Meist wegen ungleichmäßiger Beleuchtung, zu wenig Abstand oder automatischer Belichtung der Webcam." },
   ],
 

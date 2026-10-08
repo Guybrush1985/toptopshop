@@ -15,12 +15,12 @@ export default {
   eyebrow: "Home-Office · Maus",
   h1: "Die 3 besten Mäuse fürs Home-Office 2026",
   lead:
-    "Eine gute Maus merkt man nicht – eine schlechte spätestens am Abend im Handgelenk. Wir zeigen die drei besten Mäuse für lange Arbeitstage, darunter zwei vertikale Modelle.",
+    "Eine gute Maus merkt man nicht – eine unpassende kann sich nach langen Tagen im Handgelenk bemerkbar machen. Wir zeigen die drei besten Mäuse für lange Arbeitstage, darunter zwei vertikale Modelle.",
   answer:
-    "Unsere beste Gesamtwahl ist die [**Logitech MX Master 3S**](produkt:1): ergonomisch geformt, leise, mit MagSpeed-Scrollrad und 8000-DPI-Sensor. Das beste Preis-Leistungs-Verhältnis bietet die vertikale [**Logitech Lift**](produkt:2) für kleine und mittlere Hände; für große Hände ist die [**Logitech MX Vertical**](produkt:3) die beste vertikale Maus.",
+    "Unsere beste Gesamtwahl ist die [**Logitech MX Master 3S**](produkt:1): ergonomisch geformt, leise, laut Hersteller mit MagSpeed-Scrollrad und 8000-DPI-Sensor. Das beste Preis-Leistungs-Verhältnis bietet die vertikale [**Logitech Lift**](produkt:2) für kleine und mittlere Hände; für große Hände ist die [**Logitech MX Vertical**](produkt:3) die beste vertikale Maus.",
 
   top3Title: "Unsere Top 3 Mäuse",
-  top3Intro: "Eine klassisch geformte Ergonomie-Maus und zwei vertikale Mäuse, die das Handgelenk in eine natürliche Handschlag-Position bringen.",
+  top3Intro: "Eine klassisch geformte Ergonomie-Maus und zwei vertikale Mäuse, die die Hand in eine Handschlag-Position bringen, die viele als natürlicher empfinden.",
   comparisonTitle: "Die 3 besten Mäuse im Vergleich",
 
   criteria: [
@@ -45,14 +45,14 @@ export default {
       ratings: { ergonomie: 8.5, praezision: 9.5, alltag: 9.0, preis: 8.0 },
       bestFor: "Vielnutzer, Tabellen, Kreativarbeit",
       verdict:
-        "Die Büromaus, an der sich alle messen: daumenfreundliche Form, extrem schnelles MagSpeed-Scrollrad, Daumenrad für horizontales Scrollen und leise Klicks.",
+        "Unsere Referenz unter den Büromäusen: daumenfreundliche Form, laut Hersteller sehr schnelles MagSpeed-Scrollrad, Daumenrad für horizontales Scrollen und leise Klicks.",
       features: [
         "8000-DPI-Sensor, funktioniert laut Hersteller auch auf Glas",
-        "MagSpeed-Scrollrad mit bis zu 1.000 Zeilen pro Sekunde, Daumenrad, leise Klicks",
+        "MagSpeed-Scrollrad mit bis zu 1.000 Zeilen pro Sekunde, Daumenrad, leise Klicks (Herstellerangabe)",
         "Bis zu 70 Tage Akku, 1 Minute Laden für 3 Stunden (Herstellerangabe), drei Geräte",
       ],
       pros: ["Bestes Scrollrad", "Sehr vielseitig programmierbar", "Leise Klicks"],
-      cons: ["Groß und schwer (141 g)", "Nicht für Linkshänder"],
+      cons: ["Groß und schwer (laut Hersteller 141 g)", "Nicht für Linkshänder"],
       specs: { form: "ergonomisch, rechts", sensor: "8000 DPI", akku: "Akku, bis 70 Tage", geraete: "3", haende: "mittel bis groß" },
       asin: "B07W4DGFSM",
       query: "Logitech MX Master 3S Graphit",
@@ -66,15 +66,15 @@ export default {
       visual: { kind: "mouse", tone: "mint" },
       priceTier: 1,
       ratings: { ergonomie: 9.0, praezision: 7.5, alltag: 8.0, preis: 9.0 },
-      bestFor: "Kleine und mittlere Hände, Handgelenkbeschwerden",
+      bestFor: "Kleine und mittlere Hände, entspanntere Handhaltung",
       verdict:
-        "Der günstigste Einstieg in die vertikale Maus: Die Hand liegt in Handschlag-Position, das Handgelenk wird weniger verdreht – ideal für kleine und mittlere Hände.",
+        "Der günstigste Einstieg in die vertikale Maus: Die Hand liegt in Handschlag-Position, der Unterarm wird weniger verdreht – laut Hersteller gedacht für kleine und mittlere Hände.",
       features: [
         "Vertikale Form für kleine bis mittlere Hände (Herstellerangabe), auch als Linkshänder-Version",
-        "Leise Klicks, SmartWheel, vier Tasten",
+        "Leise Klicks, SmartWheel, vier Tasten (Herstellerangabe)",
         "Bluetooth oder Logi Bolt, Batterie laut Hersteller bis 2 Jahre",
       ],
-      pros: ["Spürbar entspanntere Handhaltung", "Günstig", "Linkshänder-Version verfügbar"],
+      pros: ["Für viele entspanntere Handhaltung", "Günstig", "Linkshänder-Version verfügbar"],
       cons: ["Für große Hände zu klein", "Weniger präzise als MX Master"],
       specs: { form: "vertikal (57°)", sensor: "–", akku: "AA-Batterie", geraete: "3", haende: "klein bis mittel" },
       asin: "B07W4DGC27",
@@ -95,7 +95,7 @@ export default {
       features: [
         "Vertikaler Winkel von 57°, 4000-DPI-Sensor (Herstellerangabe)",
         "Akku, laut Hersteller bis zu vier Monate pro Ladung",
-        "Bluetooth und Unifying-Empfänger, drei Geräte",
+        "Bluetooth und Unifying-Empfänger, drei Geräte (Herstellerangabe)",
       ],
       pros: ["Komfortabel für große Hände", "Akku statt Batterie", "Multi-Device"],
       cons: ["Kein horizontales Scrollen", "Teils nur eingeschränkt verfügbar"],
@@ -129,9 +129,9 @@ export default {
       alt: "Infografik: Handgröße messen und passende Maus wählen – messen, Griffart, Form, vertikal testen, Eingewöhnung",
       caption: "Die Handlänge ist der wichtigste Anhaltspunkt bei der Mausgröße.",
       steps: [
-        { title: "Hand messen", text: "Vom Handgelenk bis zur Spitze des Mittelfingers – unter etwa 18 cm gilt als klein, über 19 cm als groß." },
+        { title: "Hand messen", text: "Vom Handgelenk bis zur Spitze des Mittelfingers – grob gilt: unter etwa 18 cm klein, über 19 cm groß." },
         { title: "Griffart prüfen", text: "Liegt die ganze Hand auf (Palm) oder nur die Fingerspitzen (Fingertip)?" },
-        { title: "Form wählen", text: "Klassisch-ergonomisch für Präzision, vertikal für entspannte Handgelenke." },
+        { title: "Form wählen", text: "Klassisch-ergonomisch für Präzision, vertikal für eine gedrehte Handschlag-Haltung." },
         { title: "Vertikal testen", text: "Mit einer günstigen vertikalen Maus ausprobieren, ob die Haltung angenehm ist." },
         { title: "Eingewöhnen", text: "Eine vertikale Maus braucht einige Tage, bis sie sich natürlich anfühlt." },
       ],
@@ -146,8 +146,8 @@ export default {
         id: "beste-maus",
         h2: "Welche Maus ist die beste fürs Home-Office?",
         blocks: [
-          { quick: "Die beste Maus für die meisten ist die [Logitech MX Master 3S](produkt:1). Wer das Handgelenk entlasten will, nimmt eine vertikale Maus: die [Logitech Lift](produkt:2) für kleine bis mittlere, die [MX Vertical](produkt:3) für große Hände." },
-          { first: "Bei einer normalen Maus liegt die Hand flach, der Unterarm ist nach innen gedreht. Über Stunden kann das Handgelenk und Unterarm belasten. Ergonomische Mäuse stützen die Hand besser, vertikale Mäuse drehen sie in eine Haltung wie beim Händeschütteln." },
+          { quick: "Die beste Maus für die meisten ist die [Logitech MX Master 3S](produkt:1). Wer eine Handschlag-Haltung bevorzugt, nimmt eine vertikale Maus: die [Logitech Lift](produkt:2) für kleine bis mittlere, die [MX Vertical](produkt:3) für große Hände." },
+          { first: "Bei einer normalen Maus liegt die Hand flach, der Unterarm ist nach innen gedreht. Über Stunden kann das Handgelenk und Unterarm belasten. Ergonomische Mäuse können die Hand besser stützen, vertikale Mäuse drehen sie in eine Haltung wie beim Händeschütteln. Ob das Beschwerden lindert, ist individuell verschieden." },
           { p: "Wichtiger als jede Technik ist die Passform: Eine zu große Maus zwingt zum Strecken, eine zu kleine zum Verkrampfen. Logitech gibt für die Lift ausdrücklich kleine bis mittlere Hände an und verweist für große Hände auf die MX Vertical." },
           { figure: "scores" },
           { quote: "Die beste ergonomische Maus ist die, die zur eigenen Hand passt." },
@@ -180,10 +180,10 @@ export default {
     h2: "Die 5 besten Alternativen: Trackball, Reisemaus und Linkshänder",
     intro: "Für unterwegs, wenig Platz, die linke Hand oder das kleine Budget: fünf Mäuse für besondere Ansprüche.",
     items: [
-      { name: "Logitech ERGO M575 Trackball", for: "Trackball", text: "Bedienung mit dem Daumen, der Arm bleibt ruhig – für wenig Platz und entspannte Schultern.", asin: "B07W6HKMCN", query: "Logitech ERGO M575 Trackball" },
+      { name: "Logitech ERGO M575 Trackball", for: "Trackball", text: "Bedienung mit dem Daumen, der Arm bleibt ruhig – für wenig Platz und weniger Armbewegung.", asin: "B07W6HKMCN", query: "Logitech ERGO M575 Trackball" },
       { name: "Logitech MX Anywhere 3S", for: "Kompakt & unterwegs", text: "Kleine Maus mit 8000-DPI-Sensor, MagSpeed-Scrollrad und bis zu 70 Tagen Akku (Herstellerangabe).", asin: "B07W4DGLY6", query: "Logitech MX Anywhere 3S" },
       { name: "Logitech Signature M650", for: "Günstig & leise", text: "Leise Klicks, SmartWheel, AA-Batterie mit bis zu 24 Monaten Laufzeit (Herstellerangabe); auch als Version für große Hände.", asin: "B07W6G822T", query: "Logitech Signature M650" },
-      { name: "Logitech Lift Left", for: "Vertikal für Linkshänder", text: "Die Lift in Linkshänder-Ausführung für kleine bis mittlere Hände.", asin: "B07W8P4PDD", query: "Logitech Lift Left Vertical Ergonomic Mouse" },
+      { name: "Logitech Lift Left", for: "Vertikal für Linkshänder", text: "Die Lift in Linkshänder-Ausführung, laut Hersteller für kleine bis mittlere Hände.", asin: "B07W8P4PDD", query: "Logitech Lift Left Vertical Ergonomic Mouse" },
       { name: "Keychron M5 Wireless Vertical Mouse", for: "Vertikal & präzise", text: "Vertikale Maus mit PAW3950-Sensor, 8K-Polling, drei Verbindungsarten und bis zu 140 Stunden Akku (Herstellerangabe).", asin: "B0FBW16HC6", query: "Keychron M5 Wireless Vertical Mouse" },
     ],
   },
@@ -194,7 +194,7 @@ export default {
         id: "maus-ergonomie",
         h2: "So nutzt du die Maus ergonomisch",
         blocks: [
-          { quick: "Halte die Maus nah an der Tastatur, den Unterarm aufgelegt und das Handgelenk gerade. Eine schnellere Zeigergeschwindigkeit reduziert große Armbewegungen." },
+          { quick: "Halte die Maus nah an der Tastatur, den Unterarm aufgelegt und das Handgelenk gerade. Eine schnellere Zeigergeschwindigkeit kann große Armbewegungen reduzieren." },
           { figure: "steps" },
           {
             list: [
@@ -204,7 +204,7 @@ export default {
               "**Hand wechseln:** Wer kann, nutzt zwischendurch die andere Hand.",
             ],
           },
-          { callout: { title: "Gesundheit", text: "Bei anhaltenden Schmerzen oder Kribbeln in Hand und Arm solltest du ärztlichen Rat einholen. Eine Maus ist kein Medizinprodukt." } },
+          { callout: { title: "Gesundheit", text: "Bei anhaltenden Schmerzen oder Kribbeln in Hand und Arm solltest du ärztlichen Rat einholen. Eine Maus ist kein Medizinprodukt und ersetzt keine Behandlung. Die Hinweise der DGUV zur Bildschirmarbeit sind eine Empfehlung, keine Garantie gegen Beschwerden." } },
         ],
       },
     ],
