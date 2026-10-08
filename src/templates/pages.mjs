@@ -233,10 +233,11 @@ export function methodPage(all) {
   <ul>
     <li><strong>Unabhängige Tests:</strong> Ergebnisse von Prüfinstituten wie Stiftung Warentest und Öko-Test, sofern verfügbar und aktuell.</li>
     <li><strong>Herstellerangaben:</strong> Technische Daten, Inhaltsstoffe und Anwendungshinweise – als solche gekennzeichnet.</li>
-    <li><strong>Inhaltsstoffe:</strong> Bewertung der Rezepturen anhand öffentlich verfügbarer Inhaltsstofflisten.</li>
-    <li><strong>Kundenerfahrungen:</strong> Auswertung vieler Bewertungen, um wiederkehrende Stärken und Schwächen zu erkennen.</li>
+    <li><strong>Inhaltsstoffe:</strong> Bei Kosmetik die Einordnung der Rezepturen anhand öffentlich verfügbarer Inhaltsstofflisten.</li>
+    <li><strong>Normen und Behörden:</strong> Empfehlungen von Fachstellen und Verbänden, etwa zu Sicherheit, Ergonomie oder Vorsorge.</li>
+    <li><strong>Hinweise aus Kundenrezensionen:</strong> Wiederkehrende Hinweise aus öffentlich sichtbaren Rezensionen können in Vor- und Nachteile einfließen. Wir prüfen nicht, ob Rezensionen von tatsächlichen Käufern stammen, und geben keine Sternebewertungen oder Rezensionen Dritter wieder.</li>
   </ul>
-  <aside class="callout"><p class="ct">Wichtig</p><p>Wir führen <strong>keine eigenen Labortests</strong> durch und behaupten das auch nicht. Unsere Bewertungen sind redaktionelle Einschätzungen auf Basis der genannten Quellen.</p></aside>
+  <aside class="callout"><p class="ct">Wichtig</p><p>Wir führen <strong>keine eigenen Produkt- oder Labortests</strong> durch und behaupten das auch nicht. Unsere Bewertungen sind redaktionelle Einschätzungen auf Basis der genannten Quellen. Testergebnisse Dritter nennen wir nur mit Institut und Ausgabe; Angaben von Herstellern und Händlern kennzeichnen wir als solche, können sie aber nicht im Einzelnen überprüfen.</p></aside>
 
   <h2>Wie die Bewertung entsteht</h2>
   <p>Jede Kategorie hat vier eigene, gewichtete Kriterien – etwa Sonnenschutz, Textur und Preis-Leistung bei Sonnenölen. Jedes Produkt wird in jedem Kriterium auf einer Skala von 0 bis 10 eingeordnet. Die Gesamtnote ist der gewichtete Mittelwert. Kriterien und Gewichtung stehen auf jeder Ratgeberseite unter „So ist diese Empfehlung entstanden“.</p>
@@ -246,10 +247,11 @@ export function methodPage(all) {
   <p>toptop.shop finanziert sich über Affiliate-Provisionen: Kaufst du über einen mit * gekennzeichneten Link, erhalten wir von Amazon oder dem jeweiligen Partnershop (vermittelt über das Awin-Netzwerk) eine Provision. Für dich ändert sich der Preis nicht. Hersteller können sich keine Platzierung kaufen, und die Reihenfolge der Empfehlungen hängt nicht von der Höhe einer Provision ab. Preise zeigen wir bewusst nicht fest an, weil sie sich laufend ändern – maßgeblich ist der aktuelle Preis beim jeweiligen Händler.</p>
 
   <h2>Aktualität</h2>
-  <p>Jede Ratgeberseite zeigt, wann sie zuletzt aktualisiert wurde. Wir überprüfen unsere Empfehlungen regelmäßig und passen sie an, wenn neue Testergebnisse erscheinen, Produkte vom Markt verschwinden oder sich Rezepturen ändern.</p>
+  <p>Jede Ratgeberseite zeigt, wann sie zuletzt aktualisiert wurde. Wir überprüfen unsere Empfehlungen regelmäßig und passen sie an, wenn neue Testergebnisse erscheinen, Produkte vom Markt verschwinden oder sich Rezepturen ändern. Die angegebenen Preisklassen sind grobe Richtwerte zum Stand der letzten Aktualisierung.</p>
 
-  <h2>Gesundheitsthemen</h2>
-  <p>Gerade bei Themen wie Sonne und Haut gilt: Unsere Inhalte dienen der allgemeinen Information und ersetzen keine ärztliche oder dermatologische Beratung. Wir empfehlen für das Sonnenbad ausschließlich Produkte mit Lichtschutzfaktor.</p>
+  <h2>Gesundheit, Sicherheit und Recht</h2>
+  <p>Unsere Inhalte dienen der allgemeinen Information und ersetzen keine individuelle ärztliche, technische oder rechtliche Beratung. Gerade bei Themen wie Sonne und Haut, Ergonomie, Atemschutz, Trinkwasser oder Erste Hilfe gilt: Bei Beschwerden oder Unsicherheit ärztlichen Rat einholen und immer die Gebrauchsanweisung des Herstellers beachten. Für das Sonnenbad empfehlen wir ausschließlich Produkte mit Lichtschutzfaktor.</p>
+  <p>Elektroinstallationen (zum Beispiel Balkonkraftwerke, Flutlicht oder Einspeisung ins Hausnetz), feste Bauten wie Sportanlagen, Zäune oder Lichtmasten und die Montage schwerer Geräte gehören in fachkundige Hände. Ob eine Genehmigung, Anmeldung oder Abstimmung mit Nachbarn nötig ist, hängt vom Einzelfall, vom Bundesland und von der Gemeinde ab – das klärst du am besten vorab bei Bauamt, Netzbetreiber oder Hersteller. Rechtliche Hinweise in unseren Ratgebern geben den allgemeinen Stand wieder und sind keine Rechtsberatung.</p>
 
   <h2>Kontakt</h2>
   <p>Fehler entdeckt oder einen Produktvorschlag? Schreib uns an <a href="mailto:${site.organization.email}">${site.organization.email}</a>.</p>

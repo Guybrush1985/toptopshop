@@ -108,8 +108,8 @@ export const areas = [
         metaDescription: "Saubere Luft bei Rauch, Feinstaub und Schadstoffen: die besten HEPA-Luftreiniger, FFP3- und Vollmasken sowie Material zum Abdichten eines Raums.",
         article: `
   <h2>Saubere Luft im Ernstfall</h2>
-  <p class="quick">Bei Rauch oder einer Schadstoffwarnung gilt: drinnen bleiben, Fenster und Türen schließen, Lüftung und Klimaanlage ausschalten. Ein HEPA-Luftreiniger holt Partikel aus der Raumluft, eine FFP3-Maske schützt draußen vor Feinstaub – gegen Gase helfen nur passende Gasfilter.</p>
-  <p>Die drei Ratgeber dieses Themas greifen ineinander: Ein abgedichteter Raum lässt weniger belastete Außenluft herein, der Luftreiniger filtert, was trotzdem eindringt, und die Maske schützt, wenn du nach draußen musst. Wichtig ist, die Grenzen zu kennen: Kein Partikelfilter hält Kohlenmonoxid zurück, und ein dicht abgeklebter Raum braucht nach einiger Zeit wieder Frischluft.</p>`,
+  <p class="quick">Bei Rauch oder einer Schadstoffwarnung gilt: drinnen bleiben, Fenster und Türen schließen, Lüftung und Klimaanlage ausschalten. Ein HEPA-Luftreiniger holt Partikel aus der Raumluft, eine dicht sitzende FFP3-Maske kann draußen die Belastung durch Feinstaub deutlich verringern – gegen Gase helfen nur passende Gasfilter. Anweisungen von Behörden und Feuerwehr haben immer Vorrang.</p>
+  <p>Die drei Ratgeber dieses Themas greifen ineinander: Ein abgedichteter Raum lässt weniger belastete Außenluft herein, der Luftreiniger filtert, was trotzdem eindringt, und die Maske verringert die Belastung, wenn du nach draußen musst. Wichtig ist, die Grenzen zu kennen: Kein Partikelfilter hält Kohlenmonoxid zurück, und ein dicht abgeklebter Raum braucht nach einiger Zeit wieder Frischluft.</p>`,
       },
       {
         slug: "wasserversorgung",

@@ -56,7 +56,7 @@ function pick(cat, p) {
       <div class="con"><h4>Nachteile</h4><ul>${p.cons.map((x) => `<li>${md(x)}</li>`).join("")}</ul></div>
     </div>
     <a class="cta" href="${productUrl(p)}" target="_blank" rel="sponsored nofollow noopener">Aktuellen Preis bei ${esc(shopName(p))} ansehen*</a>
-    <p class="fine">Preis und Verfügbarkeit ändern sich laufend – maßgeblich ist die Angabe bei ${esc(shopName(p))}.</p>
+    <p class="fine">Die Preisklasse ist ein grober Richtwert zum Stand der letzten Aktualisierung. Preis, Verfügbarkeit und Produktdetails ändern sich laufend – maßgeblich sind allein die Angaben bei ${esc(shopName(p))}.</p>
   </div>
 </article>`;
 }
@@ -172,7 +172,7 @@ function faq(cat) {
     <h2 id="methode-h">So ist diese Empfehlung entstanden</h2>
     <p>${md(cat.method)}</p>
     <ul>${cat.criteria.map((c) => `<li><strong>${esc(c.label)}</strong> (${Math.round(c.weight * 100)} %): ${esc(c.description)}</li>`).join("")}</ul>
-    <p>Wir führen keine eigenen Labortests durch. Mehr dazu unter <a href="/methodik/">So wählen wir aus</a>.</p>
+    <p>Wir führen keine eigenen Produkt- oder Labortests durch. Die Bewertung ist eine redaktionelle Einschätzung auf Basis der genannten Quellen; Angaben der Hersteller und Händler können wir nicht im Einzelnen überprüfen. Die Inhalte dienen der allgemeinen Information und ersetzen keine ärztliche, technische oder rechtliche Beratung. Mehr dazu unter <a href="/methodik/">So wählen wir aus</a>.</p>
   </aside>
   ${
     cat.sources?.length
