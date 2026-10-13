@@ -172,3 +172,9 @@ Mindestumfang je Kategorie: **≥ 1.000 Wörter** (nicht künstlich auffüllen),
 - 2026-10-08: Neuer Bereich Garten & Grundstück (`/garten-grundstueck/`, flache URLs) für Laubbläser und Schneeräumgeräte.
   Laubbläser nur Akku-Modelle in den Top 3; Laubsauger mit Häcksler in der Top 5 mit Hinweis auf Kleintiere (NABU).
   Ruhezeiten nach § 7 der 32. BImSchV im Text. Kein bestätigter aktueller Stiftung-Warentest-Test → keine Testnoten.
+- 2026-10-13: Passwortgeschütztes Lerntraining „Nachhaltigkeits-Kompass“ für Lisa unter `/train/` (kein Teil des
+  Empfehlungsportals, nicht verlinkt, `noindex` und `Disallow: /train/`). Weil das Repository öffentlich ist, liegen
+  Quellen und Passwort **nicht** im Repo: Die Quellen stehen im git-ignorierten Ordner `train-src/`, `scripts/train.mjs`
+  verschlüsselt sie (PBKDF2 + AES-GCM) nach `src/static/train/index.html`. Bearbeiten: `TRAIN_PASSWORD=… node
+  scripts/train.mjs unpack`, ändern, `… build`, dann `node build.mjs`. Das Passwort kennt der Nutzer. Der Fortschritt
+  liegt nur im Local Storage des Browsers; Datenschutzerklärung um Abschnitt `#training` ergänzt.

@@ -190,7 +190,7 @@ async function build() {
   await write("404.html", notFound);
 
   // robots.txt & Sitemap (ohne noindex-Seiten)
-  await write("robots.txt", `User-agent: *\nAllow: /\n\nSitemap: ${site.url}/sitemap.xml\n`);
+  await write("robots.txt", `User-agent: *\nAllow: /\nDisallow: /train/\n\nSitemap: ${site.url}/sitemap.xml\n`);
   const urls = pages
     .filter((p) => !p.noindex)
     .map((p) => `  <url><loc>${site.url}${p.path}</loc><lastmod>${p.lastmod}</lastmod><priority>${p.priority}</priority></url>`)
