@@ -1,4 +1,5 @@
 // Sends watchlist and advertiser forms to api/signup.php and shows the result inline.
+// Where the host runs no PHP (static hosting), the form falls back to a prepared e-mail.
 (function () {
   var form = document.querySelector('form.signup');
   if (!form) return;
@@ -22,9 +23,22 @@
         form.reset();
         show(form.dataset.kind === 'watchlist' ? 'Danke! Sie sind vorgemerkt. Wir melden uns, sobald die Watchlist startet.' : 'Danke! Wir melden uns innerhalb von zwei Werktagen.', false);
       })
-      .catch(function () { show('Das hat leider nicht geklappt. Bitte versuchen Sie es später noch einmal.', true); })
+      .catch(function () { mailFallback(payload); })
       .finally(function () { form.querySelector('button').disabled = false; });
   });
+
+  function mailFallback(p) {
+    var to = form.dataset.mail;
+    if (!to) return show('Das hat leider nicht geklappt. Bitte versuchen Sie es später noch einmal.', true);
+    var labels = p.categories.map(function (v) { var c = form.querySelector('input[name="categories"][value="' + v + '"]'); return c ? c.parentNode.textContent.trim() : v; });
+    var subject = form.dataset.kind === 'watchlist' ? 'Watchlist vormerken' : 'Anfrage: ' + (p.interest || 'Werben auf Future Stack');
+    var lines = ['E-Mail: ' + p.email];
+    if (labels.length) lines.push('Kategorien: ' + labels.join(', '));
+    ['company', 'url', 'interest', 'message'].forEach(function (k) { if (p[k]) lines.push(({ company: 'Firma/Produkt', url: 'Website', interest: 'Interesse', message: 'Nachricht' })[k] + ': ' + p[k]); });
+    lines.push('', 'Ich bin einverstanden, dass Future Stack meine Angaben speichert, um mich zu kontaktieren.');
+    location.href = 'mailto:' + to + '?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(lines.join('\n'));
+    show('Ihr E-Mail-Programm öffnet sich mit einer fertigen Nachricht an ' + to + '. Bitte senden Sie sie ab, dann sind Sie vorgemerkt.', false);
+  }
 
   function show(text, isError) { msg.textContent = text; msg.className = 'form-msg ' + (isError ? 'err' : 'ok'); }
 })();
