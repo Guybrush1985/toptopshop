@@ -29,6 +29,7 @@ src/styles.css                Design-System
 src/static/                   Schriften, Favicon, OG-Bilder, .htaccess
 scripts/og-images.mjs         erzeugt Social-Media-Vorschaubilder (lokal, optional)
 scripts/train.mjs             verschlüsselt das Lerntraining für /train/
+src/static/myshotcoach/       MyShotCoach-Vorschau unter /myshotcoach/ (eigene App, siehe docs/BRIEFING.md)
 ```
 
 ## Lokal

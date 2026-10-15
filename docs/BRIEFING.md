@@ -178,3 +178,10 @@ Mindestumfang je Kategorie: **≥ 1.000 Wörter** (nicht künstlich auffüllen),
   verschlüsselt sie (PBKDF2 + AES-GCM) nach `src/static/train/index.html`. Bearbeiten: `TRAIN_PASSWORD=… node
   scripts/train.mjs unpack`, ändern, `… build`, dann `node build.mjs`. Das Passwort kennt der Nutzer. Der Fortschritt
   liegt nur im Local Storage des Browsers; Datenschutzerklärung um Abschnitt `#training` ergänzt.
+- 2026-10-15: Neue Unterseite **MyShotCoach** unter `/myshotcoach/` (eigenständige Plattform, kein Teil des
+  Empfehlungsportals): Marktplatz, auf dem Spieler:innen ein Video eines Schlags hochladen und lizenzierte Coaches
+  (Tennis, Padel, Tischtennis, Pickleball) Feedback geben; Provision 25 % (Ex-Profis 20 %). Liegt komplett in
+  `src/static/myshotcoach/` (React + htm, selbst gehostet, keine externen Ressourcen, `noindex`). Aktuell **Vorschau**:
+  keine Verträge, keine Zahlungen, keine Uploads, alle Coach-Profile und Bewertungen als „Beispiel“ gekennzeichnet.
+  Echt ist nur die Coach-Bewerbung per `mailto:` an info@tanmeon.de (Deploy Now führt kein PHP aus). Vor echten
+  Konten, Uploads oder Zahlungen: Datenschutzerklärung, AGB, Widerrufsbelehrung und Plattformpflichten nachziehen.
