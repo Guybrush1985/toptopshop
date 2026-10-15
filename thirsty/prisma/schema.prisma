@@ -1,0 +1,179 @@
+// Thirsty – Datenmodell. Lokal SQLite, in Produktion PostgreSQL (provider umstellen).
+// Status- und Rollenfelder sind Strings, damit das Schema auf beiden Datenbanken gleich bleibt.
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id           String   @id @default(cuid())
+  email        String   @unique
+  passwordHash String
+  name         String
+  phone        String?
+  role         String   @default("GUEST") // GUEST | OWNER
+  dietaryNotes String?
+  createdAt    DateTime @default(now())
+
+  memberships       RestaurantMember[]
+  bookings          Booking[]
+  reliabilityEvents ReliabilityEvent[]
+  favorites         Favorite[]
+}
+
+model Restaurant {
+  id          String   @id @default(cuid())
+  slug        String   @unique
+  name        String
+  tagline     String?
+  description String?
+  cuisine     String?
+  priceLevel  Int      @default(2) // 1–4
+  street      String?
+  postalCode  String?
+  city        String?
+  lat         Float?
+  lng         Float?
+  directions  String?
+  phone       String?
+  email       String?
+  website     String?
+  instagram   String?
+  seatsInside  Int     @default(0)
+  seatsOutside Int     @default(0)
+  features    String   @default("") // kommagetrennt: terrasse,barrierefrei,hunde,vegan,wlan
+  legalName   String?
+  vatId       String?
+  status      String   @default("DRAFT") // DRAFT | ACTIVE | PAUSED
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  members      RestaurantMember[]
+  openingHours OpeningHours[]
+  photos       Photo[]
+  menuItems    MenuItem[]
+  spots        Spot[]
+  favorites    Favorite[]
+}
+
+model RestaurantMember {
+  id           String     @id @default(cuid())
+  userId       String
+  restaurantId String
+  role         String     @default("OWNER") // OWNER | MANAGER | STAFF
+  user         User       @relation(fields: [userId], references: [id], onDelete: Cascade)
+  restaurant   Restaurant @relation(fields: [restaurantId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, restaurantId])
+}
+
+model OpeningHours {
+  id           String     @id @default(cuid())
+  restaurantId String
+  weekday      Int // 0 = Montag … 6 = Sonntag
+  opens        String // "17:00"
+  closes       String // "23:00"
+  restaurant   Restaurant @relation(fields: [restaurantId], references: [id], onDelete: Cascade)
+}
+
+model Photo {
+  id           String     @id @default(cuid())
+  restaurantId String
+  url          String
+  kind         String     @default("GALLERY") // LOGO | COVER | GALLERY | MENU
+  position     Int        @default(0)
+  restaurant   Restaurant @relation(fields: [restaurantId], references: [id], onDelete: Cascade)
+}
+
+model MenuItem {
+  id           String     @id @default(cuid())
+  restaurantId String
+  category     String
+  name         String
+  description  String?
+  priceCents   Int
+  tags         String     @default("") // vegetarisch,vegan,scharf
+  allergens    String?
+  position     Int        @default(0)
+  restaurant   Restaurant @relation(fields: [restaurantId], references: [id], onDelete: Cascade)
+}
+
+model Spot {
+  id              String     @id @default(cuid())
+  restaurantId    String
+  startsAt        DateTime
+  endsAt          DateTime
+  seats           Int
+  maxGroupSize    Int        @default(4)
+  discountPercent Int        @default(50)
+  freebie         String?    @default("1 Getränk pro Person")
+  conditions      String?
+  bookingCutoffMin Int       @default(30)
+  status          String     @default("OPEN") // OPEN | CANCELLED
+  createdAt       DateTime   @default(now())
+  restaurant      Restaurant @relation(fields: [restaurantId], references: [id], onDelete: Cascade)
+  bookings        Booking[]
+}
+
+model Booking {
+  id          String    @id @default(cuid())
+  spotId      String
+  userId      String
+  partySize   Int
+  code        String    @unique // sechsstelliger Code, steckt auch im QR-Code
+  status      String    @default("BOOKED") // BOOKED | CHECKED_IN | CANCELLED | LATE_CANCELLED | NO_SHOW
+  createdAt   DateTime  @default(now())
+  checkedInAt DateTime?
+  cancelledAt DateTime?
+  spot        Spot      @relation(fields: [spotId], references: [id], onDelete: Cascade)
+  user        User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  review      Review?
+  feedback    GuestFeedback?
+}
+
+model Review {
+  id          String   @id @default(cuid())
+  bookingId   String   @unique
+  rating      Int // 1–5
+  food        Int?
+  service     Int?
+  ambience    Int?
+  asPromised  Boolean  @default(true)
+  text        String?
+  reply       String?
+  createdAt   DateTime @default(now())
+  booking     Booking  @relation(fields: [bookingId], references: [id], onDelete: Cascade)
+}
+
+model GuestFeedback {
+  id        String   @id @default(cuid())
+  bookingId String   @unique
+  positive  Boolean
+  tags      String   @default("")
+  createdAt DateTime @default(now())
+  booking   Booking  @relation(fields: [bookingId], references: [id], onDelete: Cascade)
+}
+
+model ReliabilityEvent {
+  id        String   @id @default(cuid())
+  userId    String
+  bookingId String?
+  kind      String // ATTENDED | LATE_CANCEL | NO_SHOW | THUMBS_DOWN
+  points    Int
+  createdAt DateTime @default(now())
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model Favorite {
+  userId       String
+  restaurantId String
+  user         User       @relation(fields: [userId], references: [id], onDelete: Cascade)
+  restaurant   Restaurant @relation(fields: [restaurantId], references: [id], onDelete: Cascade)
+
+  @@id([userId, restaurantId])
+}
