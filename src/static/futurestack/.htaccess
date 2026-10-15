@@ -1,0 +1,5 @@
+# Hide source, private data and repository internals from the web.
+RedirectMatch 404 /(_src|_private|\.git|\.github)(/|$)
+RedirectMatch 404 /(README\.md|package\.json)$
+Options -Indexes
+AddDefaultCharset utf-8
