@@ -185,3 +185,9 @@ Mindestumfang je Kategorie: **≥ 1.000 Wörter** (nicht künstlich auffüllen),
   keine Verträge, keine Zahlungen, keine Uploads, alle Coach-Profile und Bewertungen als „Beispiel“ gekennzeichnet.
   Echt ist nur die Coach-Bewerbung per `mailto:` an info@tanmeon.de (Deploy Now führt kein PHP aus). Vor echten
   Konten, Uploads oder Zahlungen: Datenschutzerklärung, AGB, Widerrufsbelehrung und Plattformpflichten nachziehen.
+- 2026-10-16: MyShotCoach umgebaut (Wunsch des Nutzers): nur **Video-Antworten** vom Coach, kein schriftliches
+  Feedback. Preise pro Schlag inkl. MwSt.: 9,99 € (C-Trainer/Übungsleiter), 19 € (B-Trainer), 29 € (A-Trainer);
+  Coaches bekommen 75 %. Ex-Profis nur als „Premium, bald“ ohne Preis. Design ruhiger und sportlicher (eine Schrift:
+  Archivo, Tinte plus Akzent Ballgelb, Court-Szenen statt Comic-Elementen). Coaches haben einen **eigenen Bereich**
+  unter `/myshotcoach/coach/` (Landingpage, Registrierung, Login, Dashboard); die Registrierung ist echt und läuft
+  per `mailto:` an info@tanmeon.de. Code: `assets/core.js` (gemeinsam), `assets/player.js`, `assets/coach.js`.
