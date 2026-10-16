@@ -68,7 +68,7 @@ function TabBar({view, go}) {
 const HERO_CHAPTERS = [['0:00', 'Erster Eindruck', 0], ['0:41', 'Ausholbewegung', .16], ['1:52', 'Treffpunkt', .44], ['3:05', 'Deine Übungen', .74]];
 const FAQ = [
   ['Wie filme ich meinen Schlag richtig?', 'guide'],
-  ['Wie bekomme ich die Antwort?', 'Als Video unter „Meine Videos“. Dein Trainer spricht dich direkt an, geht dein Video in Zeitlupe durch, zeigt dir, was schon gut ist und was du ändern solltest, und gibt dir Übungen mit. Sobald die Antwort da ist, bekommst du eine E-Mail.'],
+  ['Wie bekomme ich die Antwort?', 'Als Video unter „Meine Videos“. Dein Trainer spricht dich direkt an, sagt dir, was ihm auffällt, zeigt dir, was schon gut ist und was du ändern solltest, und gibt dir Übungen mit. Sobald die Antwort da ist, bekommst du eine E-Mail.'],
   ['Wie bezahle ich?', 'Direkt beim Abschicken mit PayPal, Apple Pay, Google Pay oder Kreditkarte. Oder du lädst dein Guthaben auf und zahlst jede Einschätzung mit einem Klick davon. Kein Abo, keine Grundgebühr.'],
   ['Was passiert, wenn kein Trainer antwortet?', 'Übernimmt innerhalb von 72 Stunden kein Coach deine Anfrage oder kommt die Video-Antwort nicht rechtzeitig, bekommst du den vollen Betrag automatisch zurück: auf dein Zahlungsmittel oder, wenn du mit Guthaben bezahlt hast, auf dein Guthaben.'],
   ['Wer sieht mein Video?', 'Nur Trainer der Stufe, die du gewählt hast, solange deine Anfrage offen ist, und danach nur der Trainer, der sie übernommen hat. Dein Video wird nicht öffentlich gezeigt. In der Vorschau verlässt dein Video dein Gerät überhaupt nicht.'],
@@ -126,8 +126,8 @@ function Home({go, anchor}) {
       <div className="sec-h rv"><div><p className="label">So funktioniert's</p><h2>Drei Schritte zu deiner Video-Antwort</h2></div><p className="muted">Kein Abo, kein Termin, keine Anfahrt. Du brauchst nur dein Handy und ein paar Sekunden Video.</p></div>
       <ol className="steps">
         <li className="step rv"><span className="n num">01</span><span className="st-ic"><${StrokeIcon} k="fh"/></span><h3>Schlag auswählen</h3><p className="muted">Per Icon antippen, welchen Schlag du verbessern willst.</p></li>
-        <li className="step rv"><span className="n num">02</span><span className="st-ic"><${TopDown} ring/></span><h3>Rundherum filmen</h3><p className="muted">Handy aufs Stativ, ganzer Körper im Bild. Je 5 Schläge von der Seite, von hinten und von der anderen Seite.</p></li>
-        <li className="step rv"><span className="n num">03</span><span className="st-ic"><${Ic} n="video" size=${30} sw=${1.6}/></span><h3>Video-Antwort bekommen</h3><p className="muted">Dein Trainer spricht dich direkt an, zeigt dir in Zeitlupe, was gut ist und was du ändern solltest, und gibt dir Übungen mit.</p></li>
+        <li className="step rv"><span className="n num">02</span><span className="st-ic"><${TopDown}/></span><h3>Rundherum filmen</h3><p className="muted">Handy aufs Stativ, ganzer Körper im Bild. Je 5 Schläge von der Seite, von hinten und von der anderen Seite.</p></li>
+        <li className="step rv"><span className="n num">03</span><span className="st-ic"><${Ic} n="video" size=${30} sw=${1.6}/></span><h3>Video-Antwort bekommen</h3><p className="muted">Dein Trainer nimmt ein Video auf und sagt dir, was ihm auffällt: was schon gut ist, was du ändern solltest und wie du es übst.</p></li>
       </ol>
     </div></section>
 
@@ -268,7 +268,7 @@ function Submit({param, go, requireLogin, addRequest, balance, pay, openTopUp}) 
       <p className="note"><${Ic} n="lock" size=${14}/>Vorschau: Dein Video bleibt auf deinem Gerät und wird nicht hochgeladen.</p>
       <div className="tips">
         <div className="tip"><span className="tip-ic"><${PhoneFrameIcon}/></span><span><b>Komplett im Bild</b>Handy quer aufs Stativ, du mit Schläger von Kopf bis Fuß im Display.</span></div>
-        <div className="tip"><span className="tip-ic"><${TopDown} ring/></span><span><b>Rundherum filmen</b>15 Schläge: 5 von der Seite, 5 von hinten, 5 von der anderen Seite.</span></div>
+        <div className="tip"><span className="tip-ic"><${TopDown}/></span><span><b>Rundherum filmen</b>15 Schläge: 5 von der Seite, 5 von hinten, 5 von der anderen Seite.</span></div>
       </div>
       <${FilmGuide} compact/>
       <div className="field"><label htmlFor="note-in">Worauf soll der Coach achten? (optional)</label><textarea id="note-in" className="inp" maxLength="500" value=${note} onChange=${e => setNote(e.target.value)} placeholder="Zum Beispiel: Mein Ball fliegt oft ins Netz, wenn ich Druck mache."></textarea></div>

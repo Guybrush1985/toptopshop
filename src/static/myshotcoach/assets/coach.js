@@ -20,7 +20,7 @@ const SEED_JOBS = [
   {id:'j0', sport:'tennis', stroke:'auf', tier:'B', player:'Hanna, 30', ago:'vor 4 Tagen', note:'', status:'done', earned:payout(19)},
 ];
 const SEED_ME = {name:'Alex Becker', email:'', club:'TC Grünblick', city:'Hannover', tier:'B', license:'DTB B-Lizenz', sports:['tennis'],
-  bio:'Ich trainiere seit acht Jahren Mannschaftsspieler:innen bis zur Verbandsliga. In meinen Video-Antworten arbeite ich mit Zeitlupe und Markierungen.',
+  bio:'Ich trainiere seit acht Jahren Mannschaftsspieler:innen bis zur Verbandsliga. In meinen Video-Antworten sage ich klar, was mir auffällt, und gebe dir eine Übung mit.',
   langs:['Deutsch', 'Englisch'], awards:['Vereinstrainer des Jahres 2024'], certs:[{n:'DTB B-Trainer-Lizenz', st:'ok'}],
   active:true, photo:null, demo:true};
 

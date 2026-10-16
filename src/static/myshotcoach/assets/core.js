@@ -39,7 +39,7 @@ const payout = p => Math.floor(p * (1 - CUT) * 100) / 100;
 const COACHES = [
   {id:'lena', name:'Lena Hartmann', sports:['tennis'], tier:'A', license:'DTB A-Lizenz', club:'TC Möwenkante', city:'Hamburg', rating:4.9, reviews:128, resp:18, since:2019,
    langs:['Deutsch','Englisch'], focus:['Aufschlag','Rückhand','Matchplan'],
-   bio:'Ich arbeite seit 14 Jahren mit Erwachsenen und Jugendlichen im Leistungsbereich. Mein Spezialgebiet ist der Aufschlag: In meiner Video-Antwort gehe ich deinen Schlag in Zeitlupe durch und zeige dir, wo Energie verloren geht.',
+   bio:'Ich arbeite seit 14 Jahren mit Erwachsenen und Jugendlichen im Leistungsbereich. Mein Spezialgebiet ist der Aufschlag: In meiner Video-Antwort sage ich dir, was mir auffällt, und zeige dir, wo Energie verloren geht.',
    certs:['DTB A-Trainer-Lizenz','DTB Athletiktrainer','Mentaltraining im Tennis'], awards:['Landesmeisterin Damen 30, 2023']},
   {id:'marco', name:'Marco Ruiz', sports:['tennis'], tier:'B', license:'DTB B-Lizenz', club:'TC Spreebogen', city:'Berlin', rating:4.8, reviews:64, resp:12, since:2022,
    langs:['Deutsch','Spanisch','Englisch'], focus:['Topspin-Vorhand','Beinarbeit','Sandplatz'],
@@ -73,7 +73,7 @@ const COACHES = [
 const coachById = id => COACHES.find(c => c.id === id);
 const REVIEWS = [
   {n:'Paul', s:5, d:'vor 3 Tagen', st:'Aufschlag', t:'Super konkret. Nach zwei Wochen mit den Übungen aus dem Video kommt mein erster Aufschlag deutlich öfter rein.'},
-  {n:'Nele', s:5, d:'vor 1 Woche', st:'Rückhand', t:'Sie zeigt in Zeitlupe genau, wo mein Treffpunkt liegt. Das hätte ich alleine nie gesehen.'},
+  {n:'Nele', s:5, d:'vor 1 Woche', st:'Rückhand', t:'Sie sagt mir genau, wo mein Treffpunkt liegt. Das hätte ich alleine nie gesehen.'},
   {n:'Chris', s:4, d:'vor 3 Wochen', st:'Volley', t:'Sehr gute Video-Antwort, ich hätte mir noch eine Übung mehr gewünscht.'},
 ];
 
@@ -180,27 +180,28 @@ function StrokeIcon({k}) {
 }
 
 /* Filmen: Handy mit Spieler komplett im Bild, und Positionen rund um den Spieler (Draufsicht) */
-function PhoneFrameIcon() {
+// Rückansicht: Person von hinten, Schläger rechts neben dem Körper
+const BACK = {h:[32,13], n:[32,20], p:[32,37], ke:[26,47], fe:[23,58], kv:[38,47], fv:[41,58], e1:[39,27], w1:[44,33], e2:[25,27], w2:[21,33], r:150};
+function PhoneFrameIcon({view = 'side'}) {
+  const pose = view === 'back' ? BACK : POSES.fh;
   return html`<svg className="fi" viewBox="0 0 64 44" aria-hidden="true">
     <rect x="2" y="4" width="60" height="36" rx="6" fill="none" stroke="currentColor" strokeWidth="2.2"/>
     <circle cx="57" cy="22" r="1.6" fill="currentColor"/>
-    <path d="M9 11v-3h4M51 8h-4M9 33v3h4M47 36h4" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" opacity=".55"/>
-    <g transform="translate(15 6) scale(.48)"><${Figure} pose=${POSES.fh}/><${Racket} x=${42} y=${29} a=${82}/></g>
-    <circle className="si-ball" cx="42" cy="19" r="1.8"/>
+    <path d="M9 11v-3h4M47 8h4v3M9 33v3h4M47 36h4v-3" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" opacity=".55"/>
+    <g transform=${view === 'other' ? 'translate(64 0) scale(-1 1)' : undefined}>
+      <g transform=${view === 'back' ? 'translate(16 7) scale(.5)' : 'translate(13 7) scale(.5)'}><${Figure} pose=${pose}/><${Racket} x=${pose.w1[0]} y=${pose.w1[1]} a=${pose.r}/></g>
+    </g>
   </svg>`;
 }
-const SPOTS = {front:[10, 30], back:[32, 54], other:[54, 30]};
-function TopDown({spots = ['front', 'back', 'other'], active, ring}) {
+// Rundherum filmen: Person mit Kreisbahn um die Füße, Pfeil und Handy auf der Bahn
+function TopDown() {
   return html`<svg className="fi" viewBox="0 0 64 64" aria-hidden="true">
-    <path d="M4 14h56" stroke="currentColor" strokeWidth="1.4" strokeDasharray="2 3" opacity=".45"/>
-    ${ring && html`<path d="M14 44 A 22 22 0 0 0 50 44" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" opacity=".6"/>`}
-    ${ring && html`<path d="M46 47l4-3 1 5" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" opacity=".6"/>`}
-    <circle cx="32" cy="30" r="5" fill="currentColor"/>
-    <path d="M36 27l7-6" stroke="currentColor" strokeWidth="2.6" strokeLinecap="round"/><ellipse cx="45.5" cy="18.5" rx="3" ry="4" transform="rotate(48 45.5 18.5)" fill="none" stroke="currentColor" strokeWidth="1.8"/>
-    ${spots.map(s => { const [x, y] = SPOTS[s]; const on = !active || active === s; return html`<g key=${s} opacity=${on ? 1 : .3}>
-      <path d=${`M${x} ${y}L32 30`} stroke="currentColor" strokeWidth="1.3" strokeDasharray="1 3" strokeLinecap="round"/>
-      <rect x=${x - 4} y=${y - 6} width="8" height="12" rx="2" fill=${on ? 'var(--volt)' : 'none'} stroke="currentColor" strokeWidth="1.8"/>
-    </g>`; })}
+    <path d="M10 50 A 22 8 0 0 0 54 50" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round"/>
+    <path d="M54 50 A 22 8 0 0 0 10 50" fill="none" stroke="currentColor" strokeWidth="1.6" strokeDasharray="1.5 3.5" strokeLinecap="round" opacity=".5"/>
+    <path d="M49 52.5l5.5-2.5-1 6" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+    <g transform="translate(16 18) scale(.52)"><${Figure} pose=${BACK}/><${Racket} x=${BACK.w1[0]} y=${BACK.w1[1]} a=${BACK.r}/></g>
+    <rect x="25" y="53" width="14" height="9" rx="2" fill="var(--volt)" stroke="currentColor" strokeWidth="1.6"/>
+    <circle cx="35.5" cy="57.5" r="1.2" fill="currentColor"/>
   </svg>`;
 }
 const FILM_STEPS = [
@@ -210,7 +211,7 @@ const FILM_STEPS = [
 ];
 function FilmGuide({compact}) {
   return html`<ol className=${'film-guide' + (compact ? ' compact' : '')}>${FILM_STEPS.map((s, i) => html`<li key=${s.k}>
-    <span className="fg-ic"><${TopDown} active=${s.k}/></span>
+    <span className="fg-ic"><${PhoneFrameIcon} view=${s.k === 'front' ? 'side' : s.k}/></span>
     <span><b><span className="num">${i + 1}</span>${s.t}</b>${!compact && html`<span className="muted">${s.d}</span>`}</span>
   </li>`)}</ol>`;
 }

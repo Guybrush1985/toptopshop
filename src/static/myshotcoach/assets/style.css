@@ -702,7 +702,7 @@ body > footer a { color: rgba(255,255,255,.85); }
 .film-guide li > span:last-child { display: grid; gap: 2px; }
 .film-guide b { font-size: 14px; display: flex; gap: 8px; align-items: baseline; }
 .film-guide b .num { display: inline-grid; place-items: center; width: 20px; height: 20px; border-radius: 50%; background: var(--ink); color: #fff; font-size: 11px; flex: none; }
-.fg-ic .fi { width: 68px; height: 68px; color: var(--ink); }
+.fg-ic .fi { width: 68px; height: auto; color: var(--ink); }
 .film-ans p { margin-top: 0; }
 .film-ans .film-guide { margin-bottom: 8px; }
 
