@@ -7,7 +7,7 @@ import { TIERS, fmtEUR, payout, type TierId } from '@/lib/data';
 import { useAuth } from '@/lib/auth';
 import { germanError, searchClubs, supabase, uploadFile } from '@/lib/supabase';
 import { Icon } from '@/components/Icon';
-import { Button, Card, Field, H1, H2, Muted, Notice, Screen, Txt } from '@/components/ui';
+import { Button, Card, Chip, Field, FlowHeader, H1, Kicker, Muted, Notice, Screen, Txt } from '@/components/ui';
 
 type Proof = DocumentPicker.DocumentPickerAsset | 'later' | null;
 const LANGS = ['Deutsch', 'Englisch', 'Spanisch', 'Französisch', 'Italienisch', 'Türkisch', 'Polnisch', 'Russisch'];
@@ -62,7 +62,9 @@ export default function Register() {
   };
 
   if (done) return (
-    <Screen footer={<Button title={done === 'ok' ? 'Zu meinem Coach-Bereich' : 'Zum Login'} onPress={() => router.replace('/coach')} />}>
+    <View style={{ flex: 1, backgroundColor: C.bg }}>
+    <FlowHeader title="Registrierung" />
+    <Screen footer={<Button title={done === 'ok' ? 'Zu meinem Coach-Bereich' : 'Zum Login'} kind="volt" iconRight="arrow" onPress={() => router.replace('/coach')} />}>
       <View style={{ alignItems: 'center', gap: 14, marginTop: 40 }}>
         <View style={{ width: 80, height: 80, borderRadius: 40, backgroundColor: C.volt, alignItems: 'center', justifyContent: 'center' }}>
           <Icon n={done === 'ok' ? 'check' : 'mail'} size={36} color={C.ink} sw={2.4} />
@@ -73,14 +75,18 @@ export default function Register() {
           : `Wir haben dir einen Link an ${f.email.trim()} geschickt. Danach kannst du dich hier einloggen${proof && proof !== 'later' ? ' und deinen Nachweis hochladen' : ''}.`}</Muted>
       </View>
     </Screen>
+    </View>
   );
 
   return (
-    <Screen footer={<Button title="Profil anlegen" onPress={submit} busy={busy} />}>
-      <H1>Werde Coach bei tennistrainer.app</H1>
+    <View style={{ flex: 1, backgroundColor: C.bg }}>
+    <FlowHeader title="Coach werden" />
+    <Screen footer={<Button title="Profil anlegen" kind="volt" iconRight="arrow" onPress={submit} busy={busy} />}>
+      <Kicker style={{ marginTop: 14 }}>Für Trainer:innen</Kicker>
+      <H1 style={{ marginTop: 6 }}>Werde Coach bei tennistrainer.app</H1>
       <Muted style={{ marginTop: 8 }}>Du legst dein Profil direkt an. Live geht es, sobald wir deinen Nachweis geprüft haben.</Muted>
 
-      <H2 style={st.h}>Über dich</H2>
+      <Head n="1" t="Über dich" />
       <View style={st.gap}>
         <View style={{ flexDirection: 'row', gap: 10 }}>
           <View style={{ flex: 1 }}><Field label="Vorname" value={f.first} onChangeText={set('first')} autoComplete="given-name" /></View>
@@ -91,18 +97,21 @@ export default function Register() {
         <Field label="Telefon (optional)" value={f.phone} onChangeText={set('phone')} keyboardType="phone-pad" autoComplete="tel" />
       </View>
 
-      <H2 style={st.h}>Deine Qualifikation</H2>
+      <Head n="2" t="Deine Qualifikation" />
       <View style={st.gap}>
         {TIERS.map(t => {
           const on = tier === t.id;
           return (
             <Card key={t.id} selected={on} onPress={() => { setTier(t.id); setErr(''); }} style={{ flexDirection: 'row', alignItems: 'center', gap: 12 }}>
-              <View style={[st.radio, on && st.radioOn]}>{on && <Icon n="check" size={14} color="#fff" sw={3} />}</View>
+              <View style={[st.badge, t.pro && { backgroundColor: C.ink }]}><Txt style={{ fontFamily: F.black, fontSize: 17, color: t.pro ? C.volt : C.ink }}>{t.pro ? 'P' : t.id}</Txt></View>
               <View style={{ flex: 1 }}>
                 <Txt style={{ fontFamily: F.bold }}>{t.pro ? 'Ex-Profi (ATP/WTA, mind. Top 1000)' : t.name}</Txt>
                 <Txt style={{ color: C.ink3, fontSize: 13.5 }}>{t.pro ? 'mit oder ohne Trainerlizenz' : t.ex}</Txt>
               </View>
-              <Txt style={{ color: C.ink2, fontSize: 13.5 }}>{`du bekommst ${fmtEUR(payout(t.price))}`}</Txt>
+              <View style={{ alignItems: 'flex-end' }}>
+                <Txt style={{ fontFamily: F.heavy, fontSize: 16 }}>{fmtEUR(payout(t.price))}</Txt>
+                <Txt style={{ color: C.ink3, fontSize: 11.5 }}>pro Antwort</Txt>
+              </View>
             </Card>
           );
         })}
@@ -117,7 +126,7 @@ export default function Register() {
         )}
       </View>
 
-      <H2 style={st.h}>Dein Profil</H2>
+      <Head n="3" t="Dein Profil" />
       <View style={st.gap}>
         <View style={{ gap: 6 }}>
           <Field label="Heimatverein" value={f.club} onChangeText={v => { set('club')(v); }} placeholder="Namen eintippen, z. B. TC Blau-Weiß" />
@@ -139,15 +148,13 @@ export default function Register() {
           {LANGS.map(l => {
             const on = langs.includes(l);
             return (
-              <Pressable key={l} onPress={() => setLangs(x => on ? x.filter(y => y !== l) : [...x, l])} style={[st.chip, on && st.chipOn]} accessibilityRole="checkbox" accessibilityState={{ checked: on }}>
-                <Txt style={[{ fontFamily: F.semibold, fontSize: 14 }, on && { color: '#fff' }]}>{l}</Txt>
-              </Pressable>
+              <Chip key={l} title={l} on={on} onPress={() => setLangs(x => on ? x.filter(y => y !== l) : [...x, l])} />
             );
           })}
         </View>
       </View>
 
-      <H2 style={st.h}>Nachweis</H2>
+      <Head n="4" t="Nachweis" />
       <View style={st.gap}>
         <Muted style={{ fontSize: 14.5 }}>{tier === 'P' ? 'Ein Nachweis deiner besten Weltranglisten-Platzierung, z. B. ein Screenshot vom ATP- oder WTA-Profil.' : 'Ein Foto oder PDF deiner Trainerlizenz.'}</Muted>
         <Card selected={!!proof && proof !== 'later'} onPress={async () => {
@@ -168,6 +175,16 @@ export default function Register() {
       {!!err && <View style={{ marginTop: 18 }}><Notice tone="err" icon="info">{err}</Notice></View>}
       <Muted style={{ fontSize: 12.5, marginTop: 18 }}>Mit dem Anlegen akzeptierst du die Datenschutzerklärung. Deine Daten liegen bei unserem Dienstleister Supabase in Frankfurt.</Muted>
     </Screen>
+    </View>
+  );
+}
+
+function Head({ n, t }: { n: string; t: string }) {
+  return (
+    <View style={st.h}>
+      <Txt style={{ fontFamily: F.black, fontSize: 13, color: C.ink3 }}>{n.padStart(2, '0')}</Txt>
+      <Txt style={{ fontFamily: F.heavy, fontSize: 21, letterSpacing: -0.4 }}>{t}</Txt>
+    </View>
   );
 }
 
@@ -175,16 +192,15 @@ function Choice({ options, value, onChange }: { options: string[]; value: string
   return (
     <View style={{ flexDirection: 'row', gap: 8 }}>
       {options.map(o => (
-        <Pressable key={o} onPress={() => onChange(o)} style={[st.chip, value === o && st.chipOn]} accessibilityRole="radio" accessibilityState={{ checked: value === o }}>
-          <Txt style={[{ fontFamily: F.semibold, fontSize: 14 }, value === o && { color: '#fff' }]}>{o}</Txt>
-        </Pressable>
+        <Chip key={o} title={o} on={value === o} onPress={() => onChange(o)} />
       ))}
     </View>
   );
 }
 
 const st = StyleSheet.create({
-  h: { marginTop: 28, marginBottom: 12 },
+  h: { marginTop: 34, marginBottom: 14, flexDirection: 'row', alignItems: 'baseline', gap: 10, paddingTop: 18, borderTopWidth: 1, borderTopColor: C.line },
+  badge: { width: 42, height: 42, borderRadius: 21, backgroundColor: C.bg2, alignItems: 'center', justifyContent: 'center' },
   gap: { gap: 12 },
   radio: { width: 24, height: 24, borderRadius: 12, borderWidth: 2, borderColor: C.line2, alignItems: 'center', justifyContent: 'center' },
   radioOn: { backgroundColor: C.ink, borderColor: C.ink },
