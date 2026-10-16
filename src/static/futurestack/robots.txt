@@ -1,5 +1,0 @@
-User-agent: *
-Allow: /
-Disallow: /_src/
-Disallow: /_private/
-Sitemap: https://toptop.shop/futurestack/sitemap.xml
