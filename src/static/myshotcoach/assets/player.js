@@ -7,7 +7,7 @@ const {html, ROOT, SPORTS, sportById, strokeOf, TIERS, LEVELS, TIER_ORDER, tierB
   navigate, useScrollTo, useMotion, Footer, DemoBar, mount} = window.MSC;
 
 const SEED_REQ = [
-  {id:'r1', sport:'tennis', stroke:'kick', coach:'lena', tier:'A', price:29, status:'done', date:'12.10.2026', note:'Mein Kick springt kaum hoch.', rated:false,
+  {id:'r1', sport:'tennis', stroke:'auf', coach:'lena', tier:'A', price:29, status:'done', date:'12.10.2026', note:'Mein Kick springt kaum hoch.', rated:false,
    answer:{dur:'4:12', chapters:[['0:00', 'Erster Eindruck', 0], ['0:48', 'Ballwurf', .19], ['1:52', 'Knie und Absprung', .44], ['2:57', 'Treffpunkt', .7], ['3:41', 'Deine Übungen', .88]]}},
   {id:'r2', sport:'tennis', stroke:'vh', coach:'marco', tier:'B', price:19, status:'progress', date:'14.10.2026', note:'Meine Vorhand landet oft im Netz.'},
 ];
@@ -116,7 +116,7 @@ function Home({go, anchor}) {
     </section>
 
     <section className="sec" id="schlaege"><div className="wrap">
-      <div className="sec-h rv"><div><p className="label">Schläge</p><h2>Welcher Schlag soll besser werden?</h2></div><p className="muted">Tipp den Schlag an, zu dem du eine Einschätzung willst. Von der Vorhand bis zum Kick-Aufschlag.</p></div>
+      <div className="sec-h rv"><div><p className="label">Schläge</p><h2>Welcher Schlag soll besser werden?</h2></div><p className="muted">Tipp den Schlag an, zu dem du eine Einschätzung willst. Von der Vorhand bis zum Return.</p></div>
       <div className="strokes home-strokes rv">
         ${SPORTS[0].strokes.map(([id, name, icon]) => html`<button key=${id} className="stroke" onClick=${() => go('submit', {stroke:id})}><${StrokeIcon} k=${icon}/><span>${name}</span></button>`)}
       </div>

@@ -13,8 +13,7 @@ const CONTACT = 'info@tanmeon.de';
 const SPORTS = [
   {id:'tennis', name:'Tennis', color:'#C8643B', strokes:[
     ['vh','Vorhand','fh'],['rh','Rückhand','bh'],['vhv','Vorhand-Volley','volley'],['rhv','Rückhand-Volley','volleyb'],
-    ['sm','Schmetterball','smash'],['rsm','Rückhand-Schmetterball','smashb'],['auf','Aufschlag','serve'],['kick','Kick-Aufschlag','spin'],
-    ['sla','Slice-Aufschlag','sserve'],['vhs','Vorhand-Slice','slice'],['rhs','Rückhand-Slice','sliceb'],['ret','Return','return']]},
+    ['sm','Schmetterball','smash'],['rsm','Rückhand-Schmetterball','smashb'],['auf','Aufschlag','serve'],['ret','Return','return']]},
 ];
 const sportById = id => SPORTS.find(s => s.id === id) || SPORTS[0];
 const strokeOf = (sid, kid) => {

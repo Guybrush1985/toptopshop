@@ -691,7 +691,7 @@ body > footer a { color: rgba(255,255,255,.85); }
 @keyframes blink { 50% { opacity: .25; } }
 
 /* Schläge auf der Startseite und Filmanleitung */
-.home-strokes { grid-template-columns: repeat(6, minmax(0, 1fr)); }
+.home-strokes { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 .st-ic .fi { width: 44px; height: 44px; color: var(--ink); }
 .fi { display: block; }
 .tip-ic { flex: none; width: 64px; color: var(--ink); }
@@ -738,3 +738,7 @@ body > footer a { color: rgba(255,255,255,.85); }
   .wallet { grid-template-columns: minmax(0, 1fr) auto; } .wallet .drop-ic { display: none; }
 }
 @media (prefers-reduced-motion: reduce) { .ph-rec i { animation: none; } .stage { transform: none; } }
+
+.pill.err { background: #FDECEC; color: var(--err); }
+.missing-box { display: flex; gap: 12px; align-items: flex-start; padding: 14px 16px; margin-bottom: 14px; border-radius: var(--r); background: #FDECEC; color: #6B1D1D; font-size: 14.5px; }
+.missing-box svg { flex: none; color: var(--err); }
