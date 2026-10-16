@@ -97,7 +97,7 @@ create table if not exists public.spots (
   ends_at timestamptz not null,
   seats int not null check (seats between 1 and 100),
   max_group_size int not null default 4 check (max_group_size between 1 and 8),
-  discount_percent int not null default 50 check (discount_percent between 0 and 70),
+  discount_percent int not null default 50,
   freebie text,
   conditions text,
   booking_cutoff_min int not null default 30 check (booking_cutoff_min >= 0),
@@ -105,6 +105,9 @@ create table if not exists public.spots (
   check (ends_at > starts_at)
 );
 create index if not exists spots_restaurant_starts on public.spots (restaurant_id, starts_at);
+-- Angebotsarten: 25, 50 oder 75 % auf alles, oder 0 % mit Gratis-Getränk bzw. Gratis-Dessert (Spalte freebie).
+alter table public.spots drop constraint if exists spots_discount_percent_check;
+alter table public.spots add constraint spots_discount_percent_check check (discount_percent in (0, 25, 50, 75));
 
 create table if not exists public.bookings (
   id uuid primary key default gen_random_uuid(),
@@ -476,14 +479,18 @@ $$;
 -- Beispiel-Restaurants bekommen automatisch Angebote für die nächsten Tage.
 create or replace function public.ensure_demo_spots()
 returns void language plpgsql security definer set search_path = public as $$
-declare r record; d int; t timestamptz;
+declare r record; d int; t timestamptz; v int;
 begin
-  for r in select id from public.restaurants where demo and status = 'ACTIVE' loop
+  for r in select id, (row_number() over (order by slug))::int - 1 as i from public.restaurants where demo and status = 'ACTIVE' loop
     for d in 1..4 loop
       t := ((now() at time zone 'Europe/Berlin')::date + d + time '17:30') at time zone 'Europe/Berlin';
+      v := (r.i + extract(day from t)::int) % 5;
       if not exists (select 1 from public.spots where restaurant_id = r.id and starts_at = t) then
         insert into public.spots (restaurant_id, starts_at, ends_at, seats, discount_percent, freebie, conditions)
-        values (r.id, t, t + interval '90 minutes', 8, 50, '1 Getränk pro Person', 'Ein Hauptgericht pro Person.');
+        values (r.id, t, t + interval '90 minutes', 8,
+          case v when 0 then 50 when 3 then 25 when 4 then 75 else 0 end,
+          case v when 1 then 'Gratis-Getränk' when 2 then 'Gratis-Dessert' end,
+          'Ein Hauptgericht pro Person.');
       end if;
     end loop;
   end loop;

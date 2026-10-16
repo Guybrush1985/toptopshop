@@ -29,7 +29,7 @@ export default function Datenschutz() {
 
       <H2>Karten und Adresssuche (OpenStreetMap)</H2>
       <p>
-        Karten werden erst geladen, wenn du auf „Karte anzeigen“ klickst. Die Adresssuche im Restaurant-Portal wird erst ausgeführt,
+        Karten werden erst geladen, wenn du auf der Startseite eine Stadt auswählst oder auf einer Restaurantseite auf „Karte anzeigen“ klickst. Die Adresssuche im Restaurant-Portal wird erst ausgeführt,
         wenn du auf „Koordinaten aus Adresse ermitteln“ klickst. Dann wird deine IP-Adresse und bei der Suche die eingegebene Adresse
         an die OpenStreetMap Foundation, St John’s Innovation Centre, Cowley Road, Cambridge, CB4 0WS, Vereinigtes Königreich,
         übertragen (Art. 6 Abs. 1 lit. a DSGVO, Einwilligung durch Klick). Für das Vereinigte Königreich besteht ein

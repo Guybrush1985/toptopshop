@@ -16,7 +16,7 @@ export function Team({ restaurantId: id, role }: TabProps) {
   return (
     <div className="grid gap-6 lg:grid-cols-[1fr_22rem]">
       <section>
-        <ul className="divide-y divide-stone-200 rounded-xl border border-stone-200 bg-white">
+        <ul className="divide-y divide-stone-200 rounded-xl border border-stone-200 bg-ink-2">
           {members.map((m) => {
             const u = s.users.find((x) => x.id === m.userId);
             return (
@@ -41,7 +41,7 @@ export function Team({ restaurantId: id, role }: TabProps) {
             run(() => addMember(id, f.get("email"), f.get("role") as MemberRole));
           }}
         >
-          <h2 className="text-lg font-bold">Person hinzufügen</h2>
+          <h2 className="font-display text-2xl uppercase tracking-wide text-cream">Person hinzufügen</h2>
           <Notice error={error} />
           <Field label="E-Mail des Thirsty-Kontos"><input className="input" type="email" name="email" required /></Field>
           <Field label="Rolle">

@@ -1,5 +1,6 @@
 "use client";
 
+import { offerOf } from "@/lib/offer";
 import Link from "next/link";
 import { useStore } from "@/lib/store";
 import { reliabilityOf, TIER_LABEL } from "@/lib/reliability";
@@ -39,7 +40,7 @@ export function Today({ restaurantId: id, role }: TabProps) {
         </p>
       )}
 
-      <h2 className="text-xl font-bold">Heute</h2>
+      <h2 className="display text-3xl text-cream">Heute</h2>
       {spots.length === 0 ? (
         <p className="card text-stone-600">
           Heute keine Angebote. {canEdit && <Link href={`${base}&tab=angebote`} className="font-medium text-brand-700 underline">Angebot ausschreiben</Link>}
@@ -52,7 +53,7 @@ export function Today({ restaurantId: id, role }: TabProps) {
           return (
             <section key={sp.id} className="card">
               <div className="mb-3 flex items-center justify-between">
-                <p className="text-lg font-bold">{time(sp.startsAt)}–{time(sp.endsAt)} Uhr · −{sp.discountPercent} %{sp.freebie ? ` + ${sp.freebie}` : ""}</p>
+                <p className="text-lg font-bold">{time(sp.startsAt)}–{time(sp.endsAt)} Uhr · {offerOf(sp).long}</p>
                 <span className="chip">{taken}/{sp.seats} Plätze</span>
               </div>
               {bookings.length === 0 ? (

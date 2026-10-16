@@ -54,7 +54,7 @@ function Buchung() {
       <Notice success={isNew && b.status === "BOOKED" ? "Gebucht! Zeig diesen QR-Code im Restaurant." : undefined} error={error} />
       <div className="card text-center">
         <p className="text-sm text-stone-500">{BOOKING_STATUS[b.status]}</p>
-        <h1 className="text-2xl font-extrabold">{r.name}</h1>
+        <h1 className="display text-4xl text-cream">{r.name}</h1>
         <p className="font-semibold">{day(spot.startsAt)}, {time(spot.startsAt)}–{time(spot.endsAt)} Uhr</p>
         <p className="text-sm text-stone-600">{b.partySize} {b.partySize > 1 ? "Personen" : "Person"}</p>
         <div className="my-3"><OfferBadge discount={spot.discountPercent} freebie={spot.freebie} /></div>

@@ -5,6 +5,7 @@ import { useStore } from "@/lib/store";
 import { cancelSpot, createSpots, seatsTaken } from "@/lib/actions";
 import { Field, Notice, formValues, useAction } from "../ui";
 import { dateKey, day, time } from "@/lib/format";
+import { OFFER_KINDS, offerKind, offerOf } from "@/lib/offer";
 import type { TabProps } from "./types";
 
 export function Spots({ restaurantId: id }: TabProps) {
@@ -17,7 +18,7 @@ export function Spots({ restaurantId: id }: TabProps) {
   return (
     <div className="grid gap-6 lg:grid-cols-[1fr_24rem]">
       <section className="space-y-3">
-        <h2 className="text-xl font-bold">Kommende Angebote</h2>
+        <h2 className="display text-3xl text-cream">Kommende Angebote</h2>
         <Notice success={created ? `${created} ${created === 1 ? "Angebot" : "Angebote"} ausgeschrieben.` : undefined} />
         {spots.length === 0 && <p className="card text-stone-600">Noch nichts ausgeschrieben.</p>}
         <ul className="space-y-2">
@@ -27,7 +28,7 @@ export function Spots({ restaurantId: id }: TabProps) {
               <li key={sp.id} className={`card flex flex-wrap items-center gap-3 py-3 ${sp.status === "CANCELLED" ? "opacity-50" : ""}`}>
                 <div className="flex-1">
                   <p className="font-semibold">{day(sp.startsAt)}, {time(sp.startsAt)}–{time(sp.endsAt)} Uhr</p>
-                  <p className="text-sm text-stone-600">−{sp.discountPercent} %{sp.freebie ? ` + ${sp.freebie}` : ""} · max. {sp.maxGroupSize} pro Buchung</p>
+                  <p className="text-sm text-stone-600">{offerOf(sp).long} · max. {sp.maxGroupSize} pro Buchung</p>
                 </div>
                 <span className="chip">{sp.status === "CANCELLED" ? "Abgesagt" : `${taken}/${sp.seats} gebucht`}</span>
                 {sp.status === "OPEN" && (
@@ -49,17 +50,18 @@ export function Spots({ restaurantId: id }: TabProps) {
         className="card h-fit space-y-3"
         onSubmit={async (e) => {
           const f = formValues(e);
+          const o = offerKind(f.get("offer"));
           setCreated(undefined);
           const n = await run(() =>
             createSpots(id, {
               date: f.get("date"), start: f.get("start"), end: f.get("end"), repeatWeeks: f.num("repeatWeeks"),
-              seats: f.num("seats"), maxGroupSize: f.num("maxGroupSize"), discountPercent: f.num("discountPercent"),
-              freebie: f.get("freebie"), conditions: f.get("conditions"), bookingCutoffMin: f.num("bookingCutoffMin"),
+              seats: f.num("seats"), maxGroupSize: f.num("maxGroupSize"), discountPercent: o.discountPercent,
+              freebie: o.freebie ?? "", conditions: f.get("conditions"), bookingCutoffMin: f.num("bookingCutoffMin"),
             }));
           if (n) setCreated(n);
         }}
       >
-        <h2 className="text-lg font-bold">Neues Angebot</h2>
+        <h2 className="font-display text-2xl uppercase tracking-wide text-cream">Neues Angebot</h2>
         <Notice error={error} />
         <Field label="Datum"><input className="input" type="date" name="date" defaultValue={dateKey(new Date())} required /></Field>
         <div className="grid grid-cols-2 gap-3">
@@ -70,12 +72,23 @@ export function Spots({ restaurantId: id }: TabProps) {
           <Field label="Plätze"><input className="input" type="number" name="seats" min={1} max={100} defaultValue={8} required /></Field>
           <Field label="Max. pro Buchung"><input className="input" type="number" name="maxGroupSize" min={1} max={8} defaultValue={4} /></Field>
         </div>
-        <Field label="Rabatt">
-          <select className="input" name="discountPercent" defaultValue={50}>
-            {[50, 40, 30, 25, 20, 0].map((d) => <option key={d} value={d}>{d ? `${d} % auf die ganze Karte` : "kein Rabatt"}</option>)}
-          </select>
-        </Field>
-        <Field label="Gratis dazu"><input className="input" name="freebie" defaultValue="1 Getränk pro Person" /></Field>
+        <fieldset>
+          <legend className="label">Angebot für die ersten Gäste</legend>
+          <div className="grid grid-cols-2 gap-2">
+            {OFFER_KINDS.map((o, i) => {
+              const v = offerOf(o);
+              return (
+                <label key={o.kind} className={`cursor-pointer ${i === 0 ? "col-span-2" : ""}`}>
+                  <input type="radio" name="offer" value={o.kind} defaultChecked={i === 0} className="peer sr-only" />
+                  <span className={`flex items-baseline gap-2 rounded-2xl border-2 border-white/10 px-4 py-3 text-cream transition peer-checked:border-transparent peer-focus-visible:ring-2 peer-focus-visible:ring-lime ${v.tone === "hot" ? "peer-checked:bg-hot" : v.tone === "pink" ? "peer-checked:bg-pink" : "peer-checked:bg-lime"} peer-checked:text-ink hover:border-white/30`}>
+                    <span className="font-display text-2xl uppercase leading-none">{v.big}</span>
+                    <span className="text-sm font-semibold">{v.small}</span>
+                  </span>
+                </label>
+              );
+            })}
+          </div>
+        </fieldset>
         <Field label="Bedingungen" hint="z. B. ein Hauptgericht pro Person, Spirituosen ausgenommen"><input className="input" name="conditions" /></Field>
         <div className="grid grid-cols-2 gap-3">
           <Field label="Wiederholen" hint="Gleicher Wochentag">

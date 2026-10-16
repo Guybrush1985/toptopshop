@@ -27,7 +27,7 @@ function Portal() {
             <li key={m.id}>
               <Link href={`/portal/restaurant/?id=${r.id}`} className="card block hover:shadow-md">
                 <div className="flex items-center justify-between">
-                  <h2 className="text-lg font-bold">{r.name}</h2>
+                  <h2 className="font-display text-2xl uppercase tracking-wide text-cream">{r.name}</h2>
                   <span className="chip">{STATUS[r.status]}</span>
                 </div>
                 <p className="text-sm text-stone-600">{r.city ?? "Ort fehlt"} · {count} Angebote · Rolle: {ROLE[m.role]}</p>

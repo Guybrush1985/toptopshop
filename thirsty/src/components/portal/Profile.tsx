@@ -45,7 +45,7 @@ export function Profile({ restaurantId: id }: TabProps) {
         }}
       >
         <fieldset className="card grid gap-4 sm:grid-cols-2">
-          <legend className="px-1 text-lg font-bold">Allgemein</legend>
+          <legend className="px-1 font-display text-2xl uppercase tracking-wide text-cream">Allgemein</legend>
           <Field label="Name"><input className="input" name="name" defaultValue={r.name} required /></Field>
           <Field label="Küche" hint="z. B. Italienisch, Vietnamesisch, Deutsch"><input className="input" name="cuisine" defaultValue={v(r.cuisine)} /></Field>
           <div className="sm:col-span-2"><Field label="Kurzbeschreibung" hint="Ein Satz, der in der Liste erscheint."><input className="input" name="tagline" maxLength={120} defaultValue={v(r.tagline)} /></Field></div>
@@ -70,7 +70,7 @@ export function Profile({ restaurantId: id }: TabProps) {
         </fieldset>
 
         <fieldset className="card grid gap-4 sm:grid-cols-2">
-          <legend className="px-1 text-lg font-bold">Standort</legend>
+          <legend className="px-1 font-display text-2xl uppercase tracking-wide text-cream">Standort</legend>
           <div className="sm:col-span-2"><Field label="Straße und Hausnummer"><input className="input" name="street" defaultValue={v(r.street)} /></Field></div>
           <Field label="PLZ"><input className="input" name="postalCode" defaultValue={v(r.postalCode)} /></Field>
           <Field label="Stadt"><input className="input" name="city" defaultValue={v(r.city)} /></Field>
@@ -97,7 +97,7 @@ export function Profile({ restaurantId: id }: TabProps) {
         </fieldset>
 
         <fieldset className="card grid gap-4 sm:grid-cols-2">
-          <legend className="px-1 text-lg font-bold">Kontakt</legend>
+          <legend className="px-1 font-display text-2xl uppercase tracking-wide text-cream">Kontakt</legend>
           <Field label="Telefon"><input className="input" name="phone" type="tel" defaultValue={v(r.phone)} /></Field>
           <Field label="E-Mail"><input className="input" name="email" type="email" defaultValue={v(r.email)} /></Field>
           <Field label="Website"><input className="input" name="website" type="url" placeholder="https://" defaultValue={v(r.website)} /></Field>
@@ -105,7 +105,7 @@ export function Profile({ restaurantId: id }: TabProps) {
         </fieldset>
 
         <fieldset className="card grid gap-4 sm:grid-cols-2">
-          <legend className="px-1 text-lg font-bold">Rechnungsdaten</legend>
+          <legend className="px-1 font-display text-2xl uppercase tracking-wide text-cream">Rechnungsdaten</legend>
           <Field label="Firmenname"><input className="input" name="legalName" defaultValue={v(r.legalName)} /></Field>
           <Field label="USt-IdNr."><input className="input" name="vatId" defaultValue={v(r.vatId)} /></Field>
         </fieldset>
@@ -128,7 +128,7 @@ export function Profile({ restaurantId: id }: TabProps) {
           if (ok) setSaved("Öffnungszeiten gespeichert.");
         }}
       >
-        <h2 className="text-lg font-bold">Öffnungszeiten</h2>
+        <h2 className="font-display text-2xl uppercase tracking-wide text-cream">Öffnungszeiten</h2>
         <p className="text-sm text-stone-600">Bis zu zwei Zeiträume pro Tag. Leer lassen für Ruhetag.</p>
         {WEEKDAYS.map((w, d) => {
           const slots = hours.filter((h) => h.weekday === d);

@@ -18,7 +18,7 @@ export function Menu({ restaurantId: id }: TabProps) {
         {categories.map((c) => (
           <section key={c}>
             <h2 className="mb-2 font-semibold uppercase tracking-wide text-stone-500">{c}</h2>
-            <ul className="divide-y divide-stone-200 rounded-xl border border-stone-200 bg-white">
+            <ul className="divide-y divide-stone-200 rounded-xl border border-stone-200 bg-ink-2">
               {items.filter((i) => i.category === c).map((i) => (
                 <li key={i.id} className="flex items-center gap-3 px-4 py-2">
                   <div className="flex-1">
@@ -51,7 +51,7 @@ export function Menu({ restaurantId: id }: TabProps) {
           }
         }}
       >
-        <h2 className="text-lg font-bold">Gericht hinzufügen</h2>
+        <h2 className="font-display text-2xl uppercase tracking-wide text-cream">Gericht hinzufügen</h2>
         <Notice error={error} />
         <Field label="Kategorie"><input className="input" name="category" list="cats" placeholder="Vorspeisen" required /></Field>
         <datalist id="cats">{[...new Set(["Vorspeisen", "Hauptgerichte", "Desserts", "Getränke", ...categories])].map((c) => <option key={c} value={c} />)}</datalist>

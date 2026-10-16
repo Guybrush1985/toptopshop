@@ -22,7 +22,7 @@ export function Media({ restaurantId: id }: TabProps) {
       <p className="text-sm text-stone-600">Bilder werden beim Hochladen verkleinert. In der Vorschau liegen sie nur in diesem Browser, der Platz reicht für etwa 20 bis 30 Fotos.</p>
       {KINDS.map(([kind, title, hint, multiple]) => (
         <section key={kind} className="card space-y-3">
-          <h2 className="text-lg font-bold">{title}</h2>
+          <h2 className="font-display text-2xl uppercase tracking-wide text-cream">{title}</h2>
           <p className="text-sm text-stone-600">{hint} JPG, PNG oder WebP.</p>
           <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
             {photos.filter((p) => p.kind === kind).map((p) => (

@@ -4,7 +4,9 @@ import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
 import { useCurrentUser, useStore } from "@/lib/store";
 import { bookSpot, memberRole, seatsTaken, toggleFavorite } from "@/lib/actions";
-import { Notice, OfferBadge, Stars, useAction } from "@/components/ui";
+import { ART_BG, Notice, Stars, useAction } from "@/components/ui";
+import { useParallax } from "@/components/Parallax";
+import { offerOf, TONE_BG } from "@/lib/offer";
 import { MapEmbed } from "@/components/MapEmbed";
 import { FEATURES, WEEKDAYS, day, euro, priceLevel, time } from "@/lib/format";
 
@@ -14,10 +16,11 @@ export default function RestaurantPage() {
   const user = useCurrentUser();
   const router = useRouter();
   const { error, busy, run } = useAction();
+  useParallax([slug]);
   const r = s.restaurants.find((x) => x.slug === slug);
   const isMember = !!r && !!memberRole(s, user?.id, r.id);
   if (!r || (r.status !== "ACTIVE" && !isMember)) {
-    return <p className="card">Dieses Restaurant gibt es nicht oder es ist gerade nicht online. <Link href="/" className="underline">Zur Übersicht</Link></p>;
+    return <p className="card mx-auto mt-10 max-w-5xl">Dieses Restaurant gibt es nicht oder es ist gerade nicht online. <Link href="/" className="underline">Zur Übersicht</Link></p>;
   }
 
   const photos = s.photos.filter((p) => p.restaurantId === r.id).sort((a, b) => a.position - b.position);
@@ -37,7 +40,9 @@ export default function RestaurantPage() {
     .sort((a, b) => b.createdAt.localeCompare(a.createdAt));
   const avg = reviews.length ? reviews.reduce((n, x) => n + x.rating, 0) / reviews.length : 0;
   const fav = !!user && s.favorites.some((f) => f.userId === user.id && f.restaurantId === r.id);
-  const bestDiscount = Math.max(0, ...spots.map((sp) => sp.discountPercent));
+  const next = spots.find((sp) => sp.status === "OPEN");
+  // Speisekarte zeigt die Preise mit dem Rabatt des nächsten Angebots (Rabatte unterscheiden sich je Termin)
+  const bestDiscount = next?.discountPercent ?? 0;
 
   const book = async (spotId: string, partySize: number) => {
     if (!user) return router.push(`/login/?weiter=${encodeURIComponent(`/restaurant/?s=${r.slug}`)}`);
@@ -45,67 +50,90 @@ export default function RestaurantPage() {
     if (b) router.push(`/buchung/?id=${b.id}&neu=1`);
   };
 
+  const tone = next ? offerOf(next).tone : "lime";
+
   return (
-    <article className="space-y-8">
-      {r.status !== "ACTIVE" && <p className="rounded-lg bg-amber-100 px-4 py-2 text-sm text-amber-900">Vorschau: Dieses Restaurant ist noch nicht veröffentlicht.</p>}
-      <header>
-        <div
-          className="h-56 rounded-3xl bg-stone-200 bg-cover bg-center sm:h-72"
-          style={{ backgroundImage: cover ? `url(${cover.dataUrl})` : "linear-gradient(135deg,#fde68a,#f59e0b)" }}
-        />
-        <div className="mt-4 flex flex-wrap items-center gap-4">
-          {logo && <img src={logo.dataUrl} alt="" className="h-16 w-16 rounded-2xl border border-stone-200 bg-white object-cover" />}
-          <div className="flex-1">
-            <h1 className="text-3xl font-extrabold">{r.name} {r.demo && <span className="chip align-middle">Beispiel</span>}</h1>
-            <p className="text-stone-600">
-              {[r.cuisine, priceLevel(r.priceLevel), r.city].filter(Boolean).join(" · ")}
-              {reviews.length > 0 && <> · <Stars value={avg} /> {avg.toFixed(1)} ({reviews.length})</>}
-            </p>
-            {r.tagline && <p className="mt-1 font-medium">{r.tagline}</p>}
+    <article>
+      <header className="relative isolate overflow-hidden">
+        <div aria-hidden className="absolute inset-0 -z-10">
+          <div data-parallax="0.3" className={`absolute -inset-y-24 inset-x-0 bg-gradient-to-br ${ART_BG[tone]}`}>
+            {cover ? (
+              <img src={cover.dataUrl} alt="" className="h-full w-full object-cover" />
+            ) : (
+              <>
+                <div className="absolute -right-[10%] top-0 aspect-square w-[60%] rounded-full bg-white/25 blur-3xl" />
+                {next && <span className="display absolute -right-[2%] bottom-[8%] whitespace-nowrap text-[34vw] text-ink/85 sm:text-[22rem]">{offerOf(next).big}</span>}
+              </>
+            )}
           </div>
-          {user && <button onClick={() => toggleFavorite(r.id)} className="btn-secondary">{fav ? "♥ Gemerkt" : "♡ Merken"}</button>}
+          <div className="absolute inset-0 bg-gradient-to-t from-ink via-ink/50 to-ink/10" />
+        </div>
+        <div className="mx-auto max-w-6xl px-5 pb-12 pt-40 sm:pt-56">
+          {r.status !== "ACTIVE" && <p className="mb-4 inline-block rounded-full bg-amber-100 px-4 py-1.5 text-sm text-amber-900">Vorschau: Dieses Restaurant ist noch nicht veröffentlicht.</p>}
+          <div className="flex flex-wrap items-center gap-2">
+            {[r.cuisine, priceLevel(r.priceLevel), r.city].filter(Boolean).map((x) => <span key={x} className="chip bg-ink/60 backdrop-blur">{x}</span>)}
+            {r.demo && <span className="chip border-lime/50 bg-ink/60 text-lime backdrop-blur">Beispiel</span>}
+          </div>
+          <div className="mt-4 flex flex-wrap items-end gap-6">
+            {logo && <img src={logo.dataUrl} alt="" className="h-20 w-20 rounded-3xl border border-white/20 object-cover" />}
+            <h1 className="display min-w-0 flex-1 break-words text-[15vw] text-cream sm:text-8xl lg:text-9xl">{r.name}</h1>
+          </div>
+          {r.tagline && <p className="mt-4 max-w-2xl font-serif text-3xl italic leading-tight text-cream/90">{r.tagline}</p>}
+          <div className="mt-6 flex flex-wrap items-center gap-4">
+            {reviews.length > 0 && <p className="text-cream/80"><Stars value={avg} /> {avg.toFixed(1)} ({reviews.length})</p>}
+            {user && <button onClick={() => toggleFavorite(r.id)} className="btn-secondary">{fav ? "♥ Gemerkt" : "♡ Merken"}</button>}
+            {next && <a href="#plaetze" className="btn px-6 py-3 text-lg">Platz sichern ↓</a>}
+          </div>
         </div>
       </header>
 
-      <section>
-        <h2 className="mb-3 text-xl font-bold">Early-Bird-Plätze</h2>
+      <div className="mx-auto max-w-5xl space-y-16 px-5 pb-10 pt-12">
+      <section id="plaetze" className="scroll-mt-24">
+        <h2 className="display mb-5 text-5xl text-cream sm:text-6xl">Early-Bird-Plätze<span className="text-lime">.</span></h2>
         <Notice error={error} />
         {spots.length === 0 ? (
           <p className="card text-stone-600">Gerade keine freien Plätze ausgeschrieben.</p>
         ) : (
-          <ul className="grid gap-3 sm:grid-cols-2">
+          <ul className="space-y-4">
             {spots.map((sp) => {
               const left = sp.seats - seatsTaken(s, sp.id);
               const closed = Date.now() > new Date(sp.startsAt).getTime() - sp.bookingCutoffMin * 60_000;
+              const o = offerOf(sp);
               return (
-                <li key={sp.id} className="card space-y-3">
-                  <div className="flex items-center justify-between">
-                    <p className="text-lg font-bold">{day(sp.startsAt)}, {time(sp.startsAt)}–{time(sp.endsAt)} Uhr</p>
-                    <span className="text-sm text-stone-600">{left > 0 ? `${left} frei` : "ausgebucht"}</span>
+                <li key={sp.id} className="grid overflow-hidden rounded-[1.75rem] border border-white/10 bg-ink-2 sm:grid-cols-[15rem_1fr]">
+                  <div className={`relative flex flex-col justify-center px-6 py-5 ${TONE_BG[o.tone]}`}>
+                    <span className="display text-6xl">{o.big}</span>
+                    <span className="display text-2xl">{o.small}</span>
+                    <span aria-hidden className="absolute -right-3 top-1/2 hidden h-6 w-6 -translate-y-1/2 rounded-full bg-ink sm:block" />
                   </div>
-                  <OfferBadge discount={sp.discountPercent} freebie={sp.freebie} />
-                  <p className="text-sm text-stone-600">
-                    Rabatt auf alles, was bis {time(sp.endsAt)} Uhr bestellt wird. Ankunft bis 15 Minuten nach Beginn.
-                    Kostenlos stornierbar bis 2 Stunden vorher. Bezahlung im Restaurant.{sp.conditions && <> {sp.conditions}</>}
-                  </p>
-                  {left > 0 && !closed ? (
-                    <form
-                      className="flex items-center gap-2"
-                      onSubmit={(e) => {
-                        e.preventDefault();
-                        book(sp.id, Number(new FormData(e.currentTarget).get("partySize")));
-                      }}
-                    >
-                      <select name="partySize" className="input w-auto" aria-label="Personen">
-                        {Array.from({ length: Math.min(sp.maxGroupSize, left) }, (_, i) => (
-                          <option key={i} value={i + 1}>{i + 1} {i ? "Personen" : "Person"}</option>
-                        ))}
-                      </select>
-                      <button className="btn flex-1" disabled={busy}>{user ? "Platz buchen" : "Anmelden und buchen"}</button>
-                    </form>
-                  ) : (
-                    <p className="text-sm font-medium text-stone-500">{closed ? "Buchungsfrist abgelaufen" : "Ausgebucht"}</p>
-                  )}
+                  <div className="space-y-3 border-t-2 border-dashed border-white/15 p-5 sm:border-l-2 sm:border-t-0">
+                    <div className="flex flex-wrap items-center justify-between gap-2">
+                      <p className="font-display text-3xl uppercase leading-none text-cream">{day(sp.startsAt)} · {time(sp.startsAt)}–{time(sp.endsAt)}</p>
+                      <span className={`rounded-full px-3 py-1 text-sm font-semibold ${left <= 0 ? "bg-white/10 text-cream/60" : left <= 2 ? "bg-hot/20 text-hot-soft" : "bg-lime/15 text-lime"}`}>{left > 0 ? `noch ${left} frei` : "ausgebucht"}</span>
+                    </div>
+                    <p className="text-sm text-stone-600">
+                      {o.long}, gilt für alles, was bis {time(sp.endsAt)} Uhr bestellt wird. Ankunft bis 15 Minuten nach Beginn.
+                      Kostenlos stornierbar bis 2 Stunden vorher. Bezahlung im Restaurant.{sp.conditions && <> {sp.conditions}</>}
+                    </p>
+                    {left > 0 && !closed ? (
+                      <form
+                        className="flex items-center gap-2"
+                        onSubmit={(e) => {
+                          e.preventDefault();
+                          book(sp.id, Number(new FormData(e.currentTarget).get("partySize")));
+                        }}
+                      >
+                        <select name="partySize" className="input w-auto" aria-label="Personen">
+                          {Array.from({ length: Math.min(sp.maxGroupSize, left) }, (_, i) => (
+                            <option key={i} value={i + 1}>{i + 1} {i ? "Personen" : "Person"}</option>
+                          ))}
+                        </select>
+                        <button className="btn flex-1" disabled={busy}>{user ? "Platz buchen" : "Anmelden und buchen"}</button>
+                      </form>
+                    ) : (
+                      <p className="text-sm font-medium text-stone-500">{closed ? "Buchungsfrist abgelaufen" : "Ausgebucht"}</p>
+                    )}
+                  </div>
                 </li>
               );
             })}
@@ -115,7 +143,7 @@ export default function RestaurantPage() {
 
       {r.description && (
         <section>
-          <h2 className="mb-2 text-xl font-bold">Über uns</h2>
+          <h2 className="mb-2 display text-3xl text-cream">Über uns</h2>
           <p className="whitespace-pre-line text-stone-700">{r.description}</p>
           {r.features.length > 0 && (
             <div className="mt-3 flex flex-wrap gap-2">{r.features.map((f) => <span key={f} className="chip">{FEATURES[f] ?? f}</span>)}</div>
@@ -131,13 +159,13 @@ export default function RestaurantPage() {
 
       {(categories.length > 0 || menuPhotos.length > 0) && (
         <section>
-          <h2 className="mb-3 text-xl font-bold">Speisekarte</h2>
-          {bestDiscount > 0 && <p className="mb-3 text-sm text-stone-600">Rechts der Preis mit {bestDiscount} % Early-Bird-Rabatt.</p>}
+          <h2 className="mb-3 display text-3xl text-cream">Speisekarte</h2>
+          {bestDiscount > 0 && <p className="mb-3 text-sm text-stone-600">Rechts der Preis beim nächsten Angebot ({next && day(next.startsAt)}, −{bestDiscount} %).</p>}
           <div className="space-y-6">
             {categories.map((c) => (
               <div key={c}>
                 <h3 className="mb-2 font-semibold uppercase tracking-wide text-stone-500">{c}</h3>
-                <ul className="divide-y divide-stone-200 rounded-xl border border-stone-200 bg-white">
+                <ul className="divide-y divide-stone-200 rounded-xl border border-stone-200 bg-ink-2">
                   {menu.filter((m) => m.category === c).map((m) => (
                     <li key={m.id} className="flex gap-4 px-4 py-3">
                       <div className="flex-1">
@@ -149,7 +177,7 @@ export default function RestaurantPage() {
                         {bestDiscount > 0 ? (
                           <>
                             <p className="text-sm text-stone-400 line-through">{euro(m.priceCents)}</p>
-                            <p className="font-bold text-brand-700">{euro(Math.round((m.priceCents * (100 - bestDiscount)) / 100))}</p>
+                            <p className="font-bold text-lime">{euro(Math.round((m.priceCents * (100 - bestDiscount)) / 100))}</p>
                           </>
                         ) : (
                           <p className="font-bold">{euro(m.priceCents)}</p>
@@ -167,7 +195,7 @@ export default function RestaurantPage() {
 
       <section className="grid gap-6 sm:grid-cols-2">
         <div className="space-y-2">
-          <h2 className="text-xl font-bold">Anfahrt und Kontakt</h2>
+          <h2 className="display text-3xl text-cream">Anfahrt und Kontakt</h2>
           <p>{r.street}<br />{r.postalCode} {r.city}</p>
           {r.directions && <p className="text-sm text-stone-600">{r.directions}</p>}
           <p className="text-sm">
@@ -195,7 +223,7 @@ export default function RestaurantPage() {
       </section>
 
       <section>
-        <h2 className="mb-3 text-xl font-bold">Bewertungen von Thirsty-Gästen</h2>
+        <h2 className="mb-3 display text-3xl text-cream">Bewertungen von Thirsty-Gästen</h2>
         {reviews.length === 0 ? (
           <p className="text-stone-600">Noch keine Bewertungen. Bewerten können nur Gäste, die eingecheckt haben.</p>
         ) : (
@@ -213,6 +241,7 @@ export default function RestaurantPage() {
           </ul>
         )}
       </section>
+      </div>
     </article>
   );
 }
