@@ -191,3 +191,12 @@ Mindestumfang je Kategorie: **≥ 1.000 Wörter** (nicht künstlich auffüllen),
   Archivo, Tinte plus Akzent Ballgelb, Court-Szenen statt Comic-Elementen). Coaches haben einen **eigenen Bereich**
   unter `/myshotcoach/coach/` (Landingpage, Registrierung, Login, Dashboard); die Registrierung ist echt und läuft
   per `mailto:` an info@tanmeon.de. Code: `assets/core.js` (gemeinsam), `assets/player.js`, `assets/coach.js`.
+- 2026-10-16: Neue Unterseite **Thirsty** unter `/thirsty/` (eigenständige Plattform, kein Teil des
+  Empfehlungsportals): Restaurants schreiben Early-Bird-Plätze für die erste Stunde nach Öffnung aus (z. B. 8 Plätze,
+  50 % auf die Karte + Gratisgetränk), Gäste buchen, checken per QR-Code ein und zahlen im Restaurant. Konzept:
+  https://claude.ai/code/artifact/66454646-8209-4897-967b-aa839813e4c8. Quellcode in `thirsty/` (Next.js, statischer
+  Export mit `basePath: "/thirsty"`); `cd thirsty && npm run site` baut und kopiert nach `src/static/thirsty/`, danach
+  `node build.mjs`. Aktuell **Vorschau**: alle Daten nur im Local Storage des Browsers, Beispiel-Restaurants
+  gekennzeichnet, Demo-Konten `gast@thirsty.test` / `wirt@thirsty.test` (Passwort `thirsty123`), `noindex`, eigenes
+  Impressum/Datenschutz/Hinweise. Für echte Buchungen braucht es eine Datenbank (Vorschlag: Supabase, EU); dann
+  `src/lib/store.ts` und `src/lib/actions.ts` auf die Datenbank umstellen und Datenschutz, AGB, Plattformpflichten ergänzen.

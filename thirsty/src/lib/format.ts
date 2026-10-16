@@ -23,11 +23,13 @@ export function euro(cents: number) {
   return (cents / 100).toLocaleString("de-DE", { style: "currency", currency: "EUR" });
 }
 
-export function time(d: Date) {
+export function time(d: Date | string) {
+  d = new Date(d);
   return d.toLocaleTimeString("de-DE", { hour: "2-digit", minute: "2-digit", timeZone: TZ });
 }
 
-export function day(d: Date) {
+export function day(d: Date | string) {
+  d = new Date(d);
   const today = new Date();
   const fmt = (x: Date) => x.toLocaleDateString("de-DE", { timeZone: TZ });
   const tomorrow = new Date(today.getTime() + 864e5);
@@ -36,7 +38,8 @@ export function day(d: Date) {
   return d.toLocaleDateString("de-DE", { weekday: "short", day: "2-digit", month: "2-digit", timeZone: TZ });
 }
 
-export function dateKey(d: Date) {
+export function dateKey(d: Date | string) {
+  d = new Date(d);
   return d.toLocaleDateString("sv-SE", { timeZone: TZ });
 }
 
@@ -61,6 +64,3 @@ export function berlinDate(dateStr: string, timeStr: string) {
   return new Date(guess.getTime() - (berlin.getTime() - utc.getTime()));
 }
 
-export function features(s: string) {
-  return s.split(",").map((f) => f.trim()).filter(Boolean);
-}

@@ -1,4 +1,6 @@
-import type { ReactNode } from "react";
+"use client";
+
+import { useCallback, useState, type FormEvent, type ReactNode } from "react";
 
 export function Notice({ error, success }: { error?: string; success?: string }) {
   if (error) return <p className="mb-4 rounded-lg border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-800">{error}</p>;
@@ -42,4 +44,40 @@ export function PageTitle({ children, sub }: { children: ReactNode; sub?: ReactN
       {sub && <p className="mt-1 text-stone-600">{sub}</p>}
     </div>
   );
+}
+
+/** Führt eine Aktion aus und fängt Fehlermeldungen für die Anzeige ab. */
+export function useAction() {
+  const [error, setError] = useState<string>();
+  const [busy, setBusy] = useState(false);
+  const run = useCallback(async <T,>(fn: () => T | Promise<T>): Promise<T | undefined> => {
+    setError(undefined);
+    setBusy(true);
+    try {
+      return await fn();
+    } catch (e) {
+      setError(e instanceof Error ? e.message : "Etwas ist schiefgelaufen.");
+      return undefined;
+    } finally {
+      setBusy(false);
+    }
+  }, []);
+  return { error, setError, busy, run };
+}
+
+/** Liest die Felder eines Formulars als Objekt. */
+export function formValues(e: FormEvent<HTMLFormElement>) {
+  e.preventDefault();
+  const f = new FormData(e.currentTarget);
+  return {
+    get: (k: string) => String(f.get(k) ?? ""),
+    num: (k: string) => Number(f.get(k)),
+    all: (k: string) => f.getAll(k).map(String),
+    files: (k: string) => f.getAll(k).filter((x): x is File => x instanceof File && x.size > 0),
+    form: e.currentTarget,
+  };
+}
+
+export function Loading() {
+  return <p className="py-10 text-center text-stone-500">Lädt …</p>;
 }

@@ -1,0 +1,22 @@
+1:"$Sreact.fragment"
+2:I[7853,["619","static/chunks/619-ba102abea3e3d0e4.js","329","static/chunks/329-d0681e7e44fc0e62.js","177","static/chunks/app/layout-e2702bd624be0feb.js"],"Shell"]
+3:I[9766,[],""]
+4:I[8924,[],""]
+5:I[2619,["619","static/chunks/619-ba102abea3e3d0e4.js","345","static/chunks/app/not-found-8808a41b954e1476.js"],""]
+6:I[1959,[],"ClientPageRoot"]
+7:I[9547,["619","static/chunks/619-ba102abea3e3d0e4.js","329","static/chunks/329-d0681e7e44fc0e62.js","974","static/chunks/app/page-b59af1ebdb30f348.js"],"default"]
+a:I[4431,[],"OutletBoundary"]
+c:I[5278,[],"AsyncMetadataOutlet"]
+e:I[4431,[],"ViewportBoundary"]
+10:I[4431,[],"MetadataBoundary"]
+11:"$Sreact.suspense"
+13:I[7150,[],""]
+:HL["/thirsty/_next/static/css/26069ba6cd227df6.css","style"]
+0:{"P":null,"b":"tG6cqFuDTLmGBR3qLiUuw","p":"/thirsty","c":["",""],"i":false,"f":[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/thirsty/_next/static/css/26069ba6cd227df6.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"de","children":["$","body",null,{"className":"min-h-screen bg-stone-50 text-stone-900 antialiased","children":["$","$L2",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","div",null,{"className":"card mx-auto max-w-md text-center","children":[["$","h1",null,{"className":"text-2xl font-bold","children":"Seite nicht gefunden"}],["$","p",null,{"className":"mt-2 text-stone-600","children":["$","$L5",null,{"href":"/","className":"underline","children":"Zu den freien Plätzen"}]}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}]]}],{"children":["__PAGE__",["$","$1","c",{"children":[["$","$L6",null,{"Component":"$7","searchParams":{},"params":{},"promises":["$@8","$@9"]}],null,["$","$La",null,{"children":["$Lb",["$","$Lc",null,{"promise":"$@d"}]]}]]}],{},null,false]},null,false],["$","$1","h",{"children":[null,[["$","$Le",null,{"children":"$Lf"}],null],["$","$L10",null,{"children":["$","div",null,{"hidden":true,"children":["$","$11",null,{"fallback":null,"children":"$L12"}]}]}]]}],false]],"m":"$undefined","G":["$13",[]],"s":false,"S":true}
+8:{}
+9:"$0:f:0:1:2:children:1:props:children:0:props:params"
+f:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#d97706"}]]
+b:null
+14:I[622,[],"IconMark"]
+d:{"metadata":[["$","title","0",{"children":"Thirsty – Sei der erste Gast"}],["$","meta","1",{"name":"description","content":"Early-Bird-Plätze in Restaurants: zur Öffnung buchen, 50 % sparen, Getränk aufs Haus. Vorschau."}],["$","meta","2",{"name":"robots","content":"noindex, nofollow"}],["$","link","3",{"rel":"icon","href":"/thirsty/favicon.svg"}],["$","$L14","4",{}]],"error":null,"digest":"$undefined"}
+12:"$d:metadata"

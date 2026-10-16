@@ -9,8 +9,8 @@ declare global {
   }
 }
 
-/** Scannt QR-Codes mit der Kamera (BarcodeDetector-API) und schickt den Code an die Check-in-Action. */
-export function QrScanner({ restaurantId, action }: { restaurantId: string; action: (f: FormData) => void | Promise<void> }) {
+/** Scannt QR-Codes mit der Kamera (BarcodeDetector-API) und gibt den Inhalt an onCode weiter. */
+export function QrScanner({ onCode }: { onCode: (code: string) => void }) {
   const video = useRef<HTMLVideoElement>(null);
   const [on, setOn] = useState(false);
   const [supported, setSupported] = useState(true);
@@ -34,10 +34,8 @@ export function QrScanner({ restaurantId, action }: { restaurantId: string; acti
           const [hit] = await detector.detect(video.current).catch(() => []);
           if (hit?.rawValue) {
             stop = true;
-            const f = new FormData();
-            f.set("restaurantId", restaurantId);
-            f.set("code", hit.rawValue);
-            await action(f);
+            setOn(false);
+            onCode(hit.rawValue);
             break;
           }
           await new Promise((r) => setTimeout(r, 250));
@@ -50,7 +48,7 @@ export function QrScanner({ restaurantId, action }: { restaurantId: string; acti
       stop = true;
       stream?.getTracks().forEach((t) => t.stop());
     };
-  }, [on, restaurantId, action]);
+  }, [on, onCode]);
 
   if (!supported) {
     return <p className="text-sm text-stone-600">Dieser Browser kann keine QR-Codes scannen. Bitte den sechsstelligen Code unten eingeben.</p>;
