@@ -1,4 +1,4 @@
-// MyShotCoach – Spieler-Seite (Vorschau-Version). Bausteine und Daten kommen aus core.js.
+// tennistrainer.app – Spieler-Seite (Vorschau-Version). Bausteine und Daten kommen aus core.js.
 (function () {
 'use strict';
 const {useState, useEffect, useRef} = React;
@@ -39,7 +39,7 @@ function toHash(v, p) {
 /* ---------- Kopfzeile und Navigation ---------- */
 function Header({view, go, user, openLogin, logout}) {
   return html`<header className="hdr"><div className="wrap">
-    <a href="#/" aria-label="MyShotCoach Startseite"><${Logo}/></a>
+    <a href="#/" aria-label="tennistrainer.app Startseite"><${Logo}/></a>
     <nav className="nav" aria-label="Hauptnavigation">
       <button onClick=${() => go('home', 'so-gehts')}>So funktioniert's</button>
       <button className=${view === 'coaches' || view === 'coach' ? 'on' : ''} onClick=${() => go('coaches')}>Coaches</button>
@@ -91,9 +91,9 @@ function Home({go, anchor}) {
       </svg>
       <div className="wrap hero-in">
         <div className="hero-copy">
-          <p className="label dark-label">Tennis · Video-Coaching</p>
+          <p className="label dark-label">Dein Online Tennistrainer</p>
           <h1>Kurs zu teuer?<br/>Kein Trainer zur Hand?<br/><span className="hl">Nur eine konkrete Frage?</span></h1>
-          <p className="lead">Dann ist MyShotCoach das Richtige für dich. Film deinen Schlag mit dem Handy, lade das Video hoch und bekomm eine persönliche Video-Antwort von einem echten Trainer. Ab 9 € für ein Feedback zu deiner Technik.</p>
+          <p className="lead">Dann ist tennistrainer.app das Richtige für dich. Film deinen Schlag mit dem Handy, lade das Video hoch und bekomm eine persönliche Video-Antwort von einem echten Trainer. Ab 9 € für ein Feedback zu deiner Technik.</p>
           <div className="ctas">
             <button className="btn volt lg" onClick=${() => go('submit')}><${Ic} n="upload"/>Video hochladen</button>
             <button className="btn ondark lg" onClick=${() => go('home', 'so-gehts')}>So funktioniert's</button>

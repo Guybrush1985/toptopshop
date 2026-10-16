@@ -1,4 +1,4 @@
-// MyShotCoach – Verbindung zum Backend (Supabase, EU) für echte Coach-Konten.
+// tennistrainer.app – Verbindung zum Backend (Supabase, EU) für echte Coach-Konten.
 // Nur für den Coach-Bereich. Die Sitzung lebt im Arbeitsspeicher: kein Cookie, kein Local Storage.
 (function () {
 'use strict';

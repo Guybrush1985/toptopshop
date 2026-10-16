@@ -1,4 +1,4 @@
-// MyShotCoach – gemeinsame Bausteine für die Spieler-Seite und den Coach-Bereich (Vorschau-Version).
+// tennistrainer.app – gemeinsame Bausteine für die Spieler-Seite und den Coach-Bereich (Vorschau-Version).
 // Läuft komplett im Browser: keine Cookies, kein Local Storage, keine Uploads an einen Server.
 // Logins, Videos und Bestellungen leben nur im Arbeitsspeicher und sind nach dem Neuladen weg.
 (function () {
@@ -281,7 +281,7 @@ const LogoMark = ({light, size = 30}) => { const fg = light ? '#fff' : '#0B0F14'
     <circle cx="25.5" cy="6.5" r="4" fill="#D4F53C" stroke=${bg} strokeWidth="1.2"/></svg>`; };
 const Logo = ({light}) => html`<span className=${'logo' + (light ? ' light' : '')}>
   <${LogoMark} light=${light}/>
-  <span className="wm">MyShotCoach</span>
+  <span className="wm">tennistrainer<span className="wm-tld">.app</span></span>
 </span>`;
 
 /* ---------- Court-Szene: Standbild aus Broadcast-Perspektive, mit Markierungen des Coaches ---------- */
@@ -426,12 +426,12 @@ function useMotion(ref) {
 function Footer({area, links}) {
   return html`<footer className="foot"><div className="wrap">
     <div className="cols">
-      <div className="brand"><${Logo} light/><p>Video-Antworten von lizenzierten Tennistrainer:innen und Ex-Profis.</p></div>
+      <div className="brand"><${Logo} light/><p><b>Dein Online Tennistrainer.</b> Video-Antworten von lizenzierten Tennistrainer:innen und Ex-Profis.</p></div>
       <div><b>${area === 'coach' ? 'Für Coaches' : 'Plattform'}</b><ul>${links.map(([href, label]) => html`<li key=${href}><a href=${href}>${label}</a></li>`)}</ul></div>
       <div><b>Rechtliches</b><ul>
         <li><a href=${ROOT + 'impressum/'}>Impressum</a></li><li><a href=${ROOT + 'datenschutz/'}>Datenschutz</a></li><li><a href=${ROOT + 'hinweise/'}>Hinweise zur Vorschau</a></li></ul></div>
     </div>
-    <p className="fine">Vorschau-Version: Es werden noch keine Verträge geschlossen und keine Zahlungen abgewickelt. Alle Coach-Profile, Bewertungen und Zahlen auf dieser Seite sind fiktive Beispiele. MyShotCoach ist ein unabhängiges Angebot der TanMeOn GmbH und steht in keiner Verbindung zum Deutschen Tennis Bund (DTB), zum Deutschen Tischtennis-Bund (DTTB) oder anderen Verbänden. Lizenzbezeichnungen beschreiben die Qualifikation einzelner Coaches. Alle Preise inkl. MwSt.</p>
+    <p className="fine">Vorschau-Version: Es werden noch keine Verträge geschlossen und keine Zahlungen abgewickelt. Alle Coach-Profile, Bewertungen und Zahlen auf dieser Seite sind fiktive Beispiele. tennistrainer.app ist ein unabhängiges Angebot der TanMeOn GmbH und steht in keiner Verbindung zum Deutschen Tennis Bund (DTB), zum Deutschen Tischtennis-Bund (DTTB) oder anderen Verbänden. Lizenzbezeichnungen beschreiben die Qualifikation einzelner Coaches. Alle Preise inkl. MwSt.</p>
   </div></footer>`;
 }
 const DemoBar = () => html`<div className="demo">Vorschau: noch keine echten Buchungen oder Zahlungen. Profile und Bewertungen sind Beispiele. <a href=${ROOT + 'hinweise/'}>Mehr erfahren</a></div>`;

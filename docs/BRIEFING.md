@@ -217,3 +217,7 @@ Mindestumfang je Kategorie: **≥ 1.000 Wörter** (nicht künstlich auffüllen),
   zu trainer.tennis.de. KI-Vorprüfung der Nachweise per Edge Function `check-proof` (Quelle in `supabase/functions/`,
   Anthropic API, Ergebnis in `coaches.ai_check`); Freischaltung bleibt Handarbeit. Braucht Secret `ANTHROPIC_API_KEY`.
   Neues Logo: Handy hochkant mit Schläger, gelber Ball oben rechts.
+- 2026-10-16: Umbenennung (Rosi): MyShotCoach heißt jetzt **tennistrainer.app**, Claim „Dein Online Tennistrainer“.
+  Dateien bleiben im Ordner `src/static/myshotcoach/` (inkl. App-Vorschau `app/`). Die Domain tennistrainer.app wird
+  per `.htaccess`-Rewrite (Host-Abfrage) auf diesen Ordner gelegt; Deploy wie bisher per Push auf `main` (IONOS Deploy Now).
+  Rosi muss die Domain im Deploy-Now-Projekt hinzufügen. Impressum/Datenschutz überarbeitet (Empfänger, Speicherdauer, Art. 22).

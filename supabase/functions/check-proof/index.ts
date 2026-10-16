@@ -1,4 +1,4 @@
-// MyShotCoach – automatische Vorprüfung eines hochgeladenen Coach-Nachweises.
+// tennistrainer.app – automatische Vorprüfung eines hochgeladenen Coach-Nachweises.
 // Aufruf durch den eingeloggten Coach direkt nach dem Upload. Die Freischaltung entscheidet weiterhin ein Mensch.
 import { createClient } from "npm:@supabase/supabase-js@2";
 import Anthropic from "npm:@anthropic-ai/sdk";
@@ -6,8 +6,9 @@ import { zodOutputFormat } from "npm:@anthropic-ai/sdk/helpers/zod";
 import { z } from "npm:zod";
 import { encodeBase64 } from "jsr:@std/encoding/base64";
 
-const CORS = {
-  "Access-Control-Allow-Origin": "https://toptop.shop",
+const ORIGINS = ["https://tennistrainer.app", "https://www.tennistrainer.app", "https://toptop.shop"];
+let CORS: Record<string, string> = {
+  "Access-Control-Allow-Origin": ORIGINS[0],
   "Access-Control-Allow-Headers": "authorization, apikey, content-type",
   "Access-Control-Allow-Methods": "POST, OPTIONS",
 };
@@ -28,6 +29,8 @@ const TIER = { C: "DTB C-Trainer oder Übungsleiter Tennis", B: "DTB B-Trainer",
 const IMG = ["image/jpeg", "image/png", "image/webp", "image/gif"];
 
 Deno.serve(async (req) => {
+  const origin = req.headers.get("Origin") || "";
+  CORS = { ...CORS, "Access-Control-Allow-Origin": ORIGINS.includes(origin) ? origin : ORIGINS[0], "Vary": "Origin" };
   if (req.method === "OPTIONS") return new Response(null, { headers: CORS });
   const token = (req.headers.get("Authorization") || "").replace(/^Bearer /, "");
   const db = createClient(Deno.env.get("SUPABASE_URL")!, Deno.env.get("SUPABASE_SERVICE_ROLE_KEY")!);
