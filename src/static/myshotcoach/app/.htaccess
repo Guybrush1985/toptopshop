@@ -1,0 +1,15 @@
+Options -Indexes
+AddDefaultCharset utf-8
+ErrorDocument 404 /myshotcoach/app/index.html
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /myshotcoach/app/
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^ index.html [L]
+</IfModule>
+<IfModule mod_headers.c>
+  Header set X-Robots-Tag "noindex, nofollow"
+  Header set X-Content-Type-Options "nosniff"
+  Header set Referrer-Policy "strict-origin-when-cross-origin"
+</IfModule>
