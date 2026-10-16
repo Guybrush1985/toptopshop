@@ -30,6 +30,7 @@ src/static/                   Schriften, Favicon, OG-Bilder, .htaccess
 scripts/og-images.mjs         erzeugt Social-Media-Vorschaubilder (lokal, optional)
 scripts/train.mjs             verschlüsselt das Lerntraining für /train/
 src/static/myshotcoach/       MyShotCoach-Vorschau unter /myshotcoach/, Coach-Bereich unter /myshotcoach/coach/ (siehe docs/BRIEFING.md)
+src/static/vibe/              I'm Feeling It unter /vibe/ (Quellcode: github.com/Guybrush1985/vibe, `npm run toptop` exportiert hierher)
 thirsty/                      Quellcode von Firsty (Next.js); `npm run site` exportiert nach src/static/firsty/ → /firsty/
 ```
 
