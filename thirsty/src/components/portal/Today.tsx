@@ -8,10 +8,13 @@ import { giveFeedback, markNoShow, setStatus } from "@/lib/actions";
 import { Notice, useAction } from "../ui";
 import { BOOKING_STATUS, berlinDate, dateKey, time } from "@/lib/format";
 import type { TabProps } from "./types";
+import { BillForm } from "./BillForm";
+import { useState } from "react";
 
 export function Today({ restaurantId: id, role }: TabProps) {
   const s = useStore();
   const { error, run } = useAction();
+  const [warn, setWarn] = useState<string>();
   const r = s.restaurants.find((x) => x.id === id)!;
   const start = berlinDate(dateKey(new Date()), "00:00").getTime();
   const end = start + 864e5;
@@ -23,7 +26,7 @@ export function Today({ restaurantId: id, role }: TabProps) {
 
   return (
     <div className="space-y-6">
-      <Notice error={error} />
+      <Notice error={error} success={warn} />
       {canEdit && r.status !== "ACTIVE" && (
         <div className="card flex flex-wrap items-center justify-between gap-3 border-amber-300 bg-amber-50">
           <p className="text-sm">
@@ -68,15 +71,26 @@ export function Today({ restaurantId: id, role }: TabProps) {
                         <div className="flex-1">
                           <p className="font-medium">{guest.name} · {b.partySize} P.</p>
                           <p className="text-xs text-stone-500">
-                            Code {b.code} · {TIER_LABEL[reliabilityOf(s, guest.id).tier]}
+                            Code {b.code} · {TIER_LABEL[reliabilityOf(s, guest.id).tier]}{b.guaranteed && " · Karte hinterlegt"}
                             {guest.dietaryNotes && <> · Hinweis: {guest.dietaryNotes}</>}
                           </p>
                         </div>
                         <span className="chip">{BOOKING_STATUS[b.status]}</span>
                         {b.status === "BOOKED" && noShowAllowed && (
-                          <button className="btn-danger" onClick={() => run(() => markNoShow(b.id))}>Nicht erschienen</button>
+                          <button
+                            className="btn-danger"
+                            onClick={async () => {
+                              setWarn(undefined);
+                              const w = await run(() => markNoShow(b.id));
+                              if (w) setWarn(`Als nicht erschienen gemeldet. Keine Gebühr belastet: ${w}`);
+                              else if (b.guaranteed) setWarn(`Als nicht erschienen gemeldet. Die No-Show-Gebühr wurde von der hinterlegten Karte belastet.`);
+                            }}
+                          >
+                            Nicht erschienen
+                          </button>
                         )}
                         {b.status === "CHECKED_IN" && !fb && <FeedbackButtons onGive={(pos, tags) => run(() => giveFeedback(b.id, pos, tags))} />}
+                        {b.status === "CHECKED_IN" && <div className="basis-full"><BillForm booking={b} compact /></div>}
                       </li>
                     );
                   })}
@@ -87,7 +101,8 @@ export function Today({ restaurantId: id, role }: TabProps) {
         })
       )}
       <p className="text-xs text-stone-500">
-        „Nicht erschienen“ ist ab 15 Minuten nach Beginn möglich und kostet den Gast 25 Punkte. Kommt der Gast doch noch, einfach
+        „Nicht erschienen“ ist ab 15 Minuten nach Beginn möglich und kostet den Gast 25 Punkte. Bei Buchungen mit hinterlegter Karte
+        wird zusätzlich die No-Show-Gebühr belastet. Kommt der Gast doch noch, einfach
         einchecken; der Malus wird dann zurückgenommen.
       </p>
     </div>

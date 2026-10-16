@@ -7,11 +7,15 @@ import { Field, Notice, formValues, useAction } from "../ui";
 import { dateKey, day, time } from "@/lib/format";
 import { OFFER_KINDS, offerKind, offerOf } from "@/lib/offer";
 import type { TabProps } from "./types";
+import { accountOf, NO_SHOW_FEE_CENTS_PER_PERSON } from "@/lib/payments";
+import { euro } from "@/lib/format";
+import Link from "next/link";
 
 export function Spots({ restaurantId: id }: TabProps) {
   const s = useStore();
   const { error, run } = useAction();
   const [created, setCreated] = useState<number>();
+  const canProtect = accountOf(s, id).chargesEnabled;
   const spots = s.spots
     .filter((sp) => sp.restaurantId === id && new Date(sp.endsAt) > new Date())
     .sort((a, b) => a.startsAt.localeCompare(b.startsAt));
@@ -28,7 +32,7 @@ export function Spots({ restaurantId: id }: TabProps) {
               <li key={sp.id} className={`card flex flex-wrap items-center gap-3 py-3 ${sp.status === "CANCELLED" ? "opacity-50" : ""}`}>
                 <div className="flex-1">
                   <p className="font-semibold">{day(sp.startsAt)}, {time(sp.startsAt)}–{time(sp.endsAt)} Uhr</p>
-                  <p className="text-sm text-stone-600">{offerOf(sp).long} · max. {sp.maxGroupSize} pro Buchung</p>
+                  <p className="text-sm text-stone-600">{offerOf(sp).long} · max. {sp.maxGroupSize} pro Buchung{sp.noShowProtection && " · No-Show-Schutz"}</p>
                 </div>
                 <span className="chip">{sp.status === "CANCELLED" ? "Abgesagt" : `${taken}/${sp.seats} gebucht`}</span>
                 {sp.status === "OPEN" && (
@@ -57,6 +61,7 @@ export function Spots({ restaurantId: id }: TabProps) {
               date: f.get("date"), start: f.get("start"), end: f.get("end"), repeatWeeks: f.num("repeatWeeks"),
               seats: f.num("seats"), maxGroupSize: f.num("maxGroupSize"), discountPercent: o.discountPercent,
               freebie: o.freebie ?? "", conditions: f.get("conditions"), bookingCutoffMin: f.num("bookingCutoffMin"),
+              noShowProtection: f.get("noShowProtection") === "on",
             }));
           if (n) setCreated(n);
         }}
@@ -98,6 +103,14 @@ export function Spots({ restaurantId: id }: TabProps) {
           </Field>
           <Field label="Buchbar bis" hint="Minuten vor Beginn"><input className="input" type="number" name="bookingCutoffMin" min={0} defaultValue={30} /></Field>
         </div>
+        <label className={`flex items-start gap-2 text-sm ${canProtect ? "text-cream" : "text-cream/50"}`}>
+          <input type="checkbox" name="noShowProtection" disabled={!canProtect} className="mt-1" />
+          <span>
+            No-Show-Schutz: Gäste hinterlegen eine Karte. Erscheinen sie nicht, werden {euro(NO_SHOW_FEE_CENTS_PER_PERSON)} pro Person belastet,
+            davon gehen 70 % an dich.
+            {!canProtect && <> Dafür zuerst <Link className="underline" href={`/portal/restaurant/?id=${id}&tab=abrechnung`}>Auszahlungen einrichten</Link>.</>}
+          </span>
+        </label>
         <button className="btn w-full">Ausschreiben</button>
       </form>
     </div>

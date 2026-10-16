@@ -20,8 +20,9 @@ export default function Impressum() {
         <>
           <H2>Hinweis zur Testphase</H2>
           <p>
-            Firsty befindet sich in einer Testphase. Über Firsty werden keine Zahlungen abgewickelt; bezahlt wird im Restaurant. Die als
-            „Beispiel“ gekennzeichneten Restaurants und Angebote sind fiktiv. Details in den{" "}
+            Firsty befindet sich in einer Testphase. Solange Zahlungen nicht freigeschaltet sind, wird im Restaurant bezahlt. Zahlungen
+            in der App wickelt die Stripe Payments Europe Ltd. ab; es gelten unsere <Link href="/agb/" className="underline">AGB</Link>.
+            Die als „Beispiel“ gekennzeichneten Restaurants und Angebote sind fiktiv. Details in den{" "}
             <Link href="/hinweise/" className="underline">Hinweisen zur Testphase</Link>.
           </p>
         </>

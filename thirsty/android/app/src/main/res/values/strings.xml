@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Firsty</string>
+    <string name="title_activity_main">Firsty</string>
+    <string name="package_name">de.tanmeon.firsty</string>
+    <string name="custom_url_scheme">de.tanmeon.firsty</string>
+</resources>

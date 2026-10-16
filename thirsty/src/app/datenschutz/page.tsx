@@ -38,8 +38,16 @@ export default function Datenschutz() {
 
       <H2>Kamera beim Check-in</H2>
       <p>
-        Wenn Restaurants im Portal „Kamera öffnen“ wählen, fragt der Browser nach Zugriff auf die Kamera. Das Bild wird nur im Browser
-        auf einen QR-Code geprüft und weder gespeichert noch übertragen.
+        Wenn Restaurants im Portal „Kamera öffnen“ wählen, fragt der Browser oder die App nach Zugriff auf die Kamera. Das Bild wird nur
+        auf dem Gerät auf einen QR-Code geprüft und weder gespeichert noch übertragen.
+      </p>
+
+      <H2>Firsty-App für iOS und Android</H2>
+      <p>
+        Die App zeigt dieselben Inhalte wie die Website und verarbeitet dieselben Daten. Sie enthält keine Werbe- oder Analyse-SDKs und
+        erstellt kein Tracking-Profil. Die Kamera wird nur für den Check-in-Scanner genutzt. Für Zahlungen öffnet die App die Bezahlseite
+        von Stripe in einem sicheren Browserfenster. Apple und Google erhalten beim Herunterladen und bei Updates Daten nach ihren eigenen
+        Datenschutzhinweisen.
       </p>
 
       <H2>Externe Links</H2>
@@ -51,7 +59,7 @@ export default function Datenschutz() {
         sowie das Recht, dich bei einer Datenschutz-Aufsichtsbehörde zu beschweren. Eine erteilte Einwilligung kannst du jederzeit für
         die Zukunft widerrufen.{" "}
         {REMOTE
-          ? "Für Auskunft oder die Löschung deines Kontos genügt eine E-Mail an info@tanmeon.de von der Adresse, mit der du registriert bist."
+          ? "Dein Konto kannst du unter „Konto“ selbst löschen. Für Auskunft genügt eine E-Mail an info@tanmeon.de von der Adresse, mit der du registriert bist."
           : "Da wir in der Vorschau keine Konto- oder Buchungsdaten erhalten, betrifft eine Auskunft nur die Server-Logfiles."}
       </p>
     </Legal>
@@ -83,11 +91,22 @@ function LiveData() {
         seine Unterauftragnehmer Daten aus Drittländern abrufen können, ist dies durch EU-Standardvertragsklauseln abgesichert. Für
         Bestätigungs- und Passwort-Mails verarbeitet Supabase deine E-Mail-Adresse.
       </p>
+      <H2>Zahlungen über Stripe</H2>
+      <p>
+        Zahlungen in Firsty (Rechnung im Restaurant, No-Show-Gebühr, Restaurant-Abos und Werbeplätze) wickelt die Stripe Payments Europe
+        Ltd., 1 Grand Canal Street Lower, Dublin 2, Irland, ab. Kartendaten gibst du direkt bei Stripe ein; wir sehen nur Kartenmarke,
+        die letzten vier Ziffern und das Ablaufdatum. Wir speichern Betrag, Zeitpunkt, Status und die Stripe-Kennungen der Zahlung.
+        Restaurants, die Zahlungen empfangen, schließen mit Stripe einen eigenen Vertrag und übermitteln Stripe die für die
+        Identitätsprüfung nötigen Angaben. Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO, für Betrugsprävention durch Stripe Art. 6 Abs. 1
+        lit. f DSGVO. Stripe ist für die Zahlungsabwicklung teils eigener Verantwortlicher; Übermittlungen in die USA sind durch das
+        EU-US Data Privacy Framework und Standardvertragsklauseln abgesichert. Mehr unter stripe.com/de/privacy.
+      </p>
       <H2>Speicherdauer</H2>
       <p>
         Wir speichern deine Daten, solange dein Konto besteht. Ereignisse für den Zuverlässigkeitswert zählen nur bis zu 90 Tage negativ.
-        Wenn du dein Konto löschen lässt, werden Profil, Buchungen und Ereignisse gelöscht; gesetzliche Aufbewahrungspflichten bleiben
-        unberührt.
+        Du kannst dein Konto jederzeit unter „Konto“ selbst löschen. Dann werden Profil, Buchungen, Ereignisse und hinterlegte Karten
+        gelöscht. Rechnungen und Zahlungsbelege bewahren wir ohne Bezug zu deinem Konto auf, solange Handels- und Steuerrecht es verlangen
+        (bis zu zehn Jahre, § 147 AO, § 257 HGB).
       </p>
       <H2>Speicherung in deinem Browser</H2>
       <p>

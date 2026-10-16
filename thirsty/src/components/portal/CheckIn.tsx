@@ -7,6 +7,8 @@ import { Notice, OfferBadge, useAction } from "../ui";
 import { QrScanner } from "../QrScanner";
 import { time } from "@/lib/format";
 import type { TabProps } from "./types";
+import { BillForm } from "./BillForm";
+import { haptic } from "@/lib/native";
 
 export function CheckIn({ restaurantId: id }: TabProps) {
   const s = useStore();
@@ -16,7 +18,10 @@ export function CheckIn({ restaurantId: id }: TabProps) {
     async (code: string) => {
       setResult(undefined);
       const r = await run(() => checkIn(id, code));
-      if (r) setResult(r);
+      if (r) {
+        haptic();
+        setResult(r);
+      }
     },
     [id, run],
   );
@@ -34,6 +39,7 @@ export function CheckIn({ restaurantId: id }: TabProps) {
           <div className="my-2"><OfferBadge discount={spot.discountPercent} freebie={spot.freebie} /></div>
           <p className="text-sm">Rabatt gilt für Bestellungen bis {time(spot.endsAt)} Uhr.</p>
           {guest.dietaryNotes && <p className="mt-2 text-sm font-medium">Hinweis: {guest.dietaryNotes}</p>}
+          <div className="mt-4"><BillForm booking={b} compact /></div>
         </div>
       )}
       <div className="card space-y-4">
