@@ -1,7 +1,7 @@
-import { Pressable, StyleSheet, View, useWindowDimensions } from 'react-native';
+import { Image, Pressable, StyleSheet, View, useWindowDimensions } from 'react-native';
+import { LinearGradient } from 'expo-linear-gradient';
 import { VideoView, useVideoPlayer } from 'expo-video';
 import { C, F, R } from '@/lib/theme';
-import { CourtHero } from './Figures';
 import { Icon } from './Icon';
 import { Portrait, Txt } from './ui';
 
@@ -21,7 +21,8 @@ export function AnswerPlaceholder({ coachName, label, onPress }: { coachName?: s
   const w = Math.min(width - 40, 560);
   return (
     <Pressable onPress={onPress} disabled={!onPress} style={[st.frame, { height: w * 9 / 16 }]} accessibilityRole={onPress ? 'button' : undefined} accessibilityLabel="Video-Antwort abspielen">
-      <CourtHero width={w} />
+      <Image source={require('../../assets/hero.jpg')} style={StyleSheet.absoluteFill} resizeMode="cover" accessibilityIgnoresInvertColors />
+      <LinearGradient colors={['rgba(7,9,12,0.15)', 'rgba(7,9,12,0.75)']} style={StyleSheet.absoluteFill} />
       <View style={st.play}><Icon n="play" size={26} color={C.ink} fill={C.ink} sw={0} /></View>
       {label && <View style={st.tag}><Txt style={st.tagTxt}>{label}</Txt></View>}
       {coachName && (

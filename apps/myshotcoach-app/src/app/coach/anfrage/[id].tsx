@@ -2,17 +2,17 @@ import { useState } from 'react';
 import { Alert, View } from 'react-native';
 import { router, useLocalSearchParams } from 'expo-router';
 import * as ImagePicker from 'expo-image-picker';
-import { C, F } from '@/lib/theme';
+import { C, F, R } from '@/lib/theme';
 import { fmtEUR, payout, strokeById, tierById } from '@/lib/data';
 import { COACH_JOBS } from '@/lib/coachJobs';
 import { AnswerPlaceholder, LocalVideo } from '@/components/Video';
-import { Button, Card, H1, H2, Muted, Notice, Screen, Txt } from '@/components/ui';
+import { Button, Card, FlowHeader, H1, H2, Kicker, Muted, Notice, Pill, Screen, Txt } from '@/components/ui';
 
 export default function CoachJob() {
   const { id } = useLocalSearchParams<{ id: string }>();
   const j = COACH_JOBS.find(x => x.id === id);
   const [answer, setAnswer] = useState<string | null>(null);
-  if (!j) return <Screen><Muted>Diese Anfrage gibt es nicht mehr.</Muted></Screen>;
+  if (!j) return <View style={{ flex: 1, backgroundColor: C.bg }}><FlowHeader title="Anfrage" /><Screen><Muted>Diese Anfrage gibt es nicht mehr.</Muted></Screen></View>;
   const s = strokeById(j.stroke);
 
   const record = async (camera: boolean) => {
@@ -27,11 +27,18 @@ export default function CoachJob() {
   const send = () => Alert.alert('Vorschau', `Hier würde deine Video-Antwort an ${j.player.split(',')[0]} gehen und dir ${fmtEUR(payout(tierById(j.tier).price))} gutgeschrieben werden.`, [{ text: 'OK', onPress: () => router.back() }]);
 
   return (
-    <Screen footer={answer ? <Button title="Video-Antwort senden" icon="arrow" onPress={send} /> : <Button title="Video-Antwort aufnehmen" icon="cam" onPress={() => record(true)} />}>
-      <H1>{s.name} · {j.player}</H1>
-      <Muted style={{ marginTop: 6 }}>{`${j.ago} · ${tierById(j.tier).name} · du bekommst ${fmtEUR(payout(tierById(j.tier).price))}`}</Muted>
+    <View style={{ flex: 1, backgroundColor: C.bg }}>
+    <FlowHeader title="Anfrage" />
+    <Screen footer={answer ? <Button title="Video-Antwort senden" kind="volt" iconRight="arrow" onPress={send} /> : <Button title="Video-Antwort aufnehmen" kind="volt" icon="cam" onPress={() => record(true)} />}>
+      <View style={{ flexDirection: 'row', gap: 6, marginTop: 14 }}><Pill tone="dark">{tierById(j.tier).name}</Pill><Pill tone="warn">Beispiel</Pill></View>
+      <H1 style={{ marginTop: 10 }}>{s.name}</H1>
+      <Muted style={{ marginTop: 4 }}>{`${j.player} · ${j.ago}`}</Muted>
+      <View style={{ flexDirection: 'row', marginTop: 16, borderRadius: R.lg, backgroundColor: C.bg2, padding: 16 }}>
+        <View style={{ flex: 1 }}><Kicker>Du bekommst</Kicker><Txt style={{ fontFamily: F.black, fontSize: 24, letterSpacing: -0.6 }}>{fmtEUR(payout(tierById(j.tier).price))}</Txt></View>
+        <View style={{ flex: 1 }}><Kicker>Zeit nach Annahme</Kicker><Txt style={{ fontFamily: F.black, fontSize: 24, letterSpacing: -0.6 }}>72 Std.</Txt></View>
+      </View>
 
-      <H2 style={{ marginTop: 20, marginBottom: 10 }}>Video der Spielerin / des Spielers</H2>
+      <Kicker style={{ marginTop: 26, marginBottom: 10 }}>Video der Spielerin / des Spielers</Kicker>
       <AnswerPlaceholder label="Beispiel · 15 Schläge, 3 Perspektiven" />
       {!!j.note && <Card style={{ marginTop: 12, gap: 4 }}><Txt style={{ color: C.ink3, fontSize: 13 }}>Frage</Txt><Txt>{j.note}</Txt></Card>}
 
@@ -45,5 +52,6 @@ export default function CoachJob() {
       </View>
       <Txt style={{ color: C.ink3, fontSize: 12.5, marginTop: 14, fontFamily: F.regular }}>Vorschau: Diese Anfrage ist ein Beispiel. Es wird nichts gesendet.</Txt>
     </Screen>
+    </View>
   );
 }
