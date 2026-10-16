@@ -4,7 +4,7 @@
 const {useState, useEffect, useRef} = React;
 const {html, ROOT, SPORTS, sportById, strokeOf, TIERS, LEVELS, TIER_ORDER, tierById, COACHES, coachById, REVIEWS, fmtEUR, fmtNum,
   Ic, Stars, StrokeIcon, PhoneFrameIcon, TopDown, FilmGuide, PhoneStage, Portrait, Logo, CourtScene, VideoFrame, ExBadge, Modal, useToast, useHashRoute, hashParts,
-  navigate, useScrollTo, useMotion, Footer, DemoBar, mount} = window.MSC;
+  navigate, useScrollTo, useMotion, Footer, DemoBar, LAUNCH, mount} = window.MSC;
 
 const SEED_REQ = [
   {id:'r1', sport:'tennis', stroke:'auf', coach:'lena', tier:'A', price:29, status:'done', date:'12.10.2026', note:'Mein Kick springt kaum hoch.', rated:false,
@@ -44,22 +44,17 @@ function Header({view, go, user, openLogin, logout}) {
       <button onClick=${() => go('home', 'so-gehts')}>So funktioniert's</button>
       <button className=${view === 'coaches' || view === 'coach' ? 'on' : ''} onClick=${() => go('coaches')}>Coaches</button>
       <button onClick=${() => go('home', 'preise')}>Preise</button>
-      <button className=${view === 'mine' ? 'on' : ''} onClick=${() => go('mine')}>Meine Videos</button>
     </nav>
     <div className="sp"></div>
     <a className="lnk hide-m" href="coach/">Für Coaches</a>
-    ${user
-      ? html`<button className="chip-user" onClick=${logout} aria-label=${'Abmelden (' + user.name + ')'} title="Abmelden"><span className="av">${user.name[0].toUpperCase()}</span><span className="hide-m">${user.name}</span><${Ic} n="logout" size=${16}/></button>`
-      : html`<button className="btn ghost sm" onClick=${openLogin}>Login</button>`}
-    <button className="btn volt sm hide-m" onClick=${() => go('submit')}><${Ic} n="upload" size=${17}/>Video hochladen</button>
+    <button className="btn volt sm hide-m" onClick=${() => go('submit')}><${Ic} n="bell" size=${17}/>Vormerken</button>
   </div></header>`;
 }
 function TabBar({view, go}) {
   return html`<nav className="tabbar" aria-label="Navigation unten">
     <button className=${view === 'home' ? 'on' : ''} onClick=${() => go('home')}><${Ic} n="home"/>Start</button>
     <button className=${view === 'coaches' || view === 'coach' ? 'on' : ''} onClick=${() => go('coaches')}><${Ic} n="users"/>Coaches</button>
-    <button className="up" onClick=${() => go('submit')}><span><${Ic} n="upload" size=${24}/></span>Upload</button>
-    <button className=${view === 'mine' ? 'on' : ''} onClick=${() => go('mine')}><${Ic} n="film"/>Videos</button>
+    <button className="up" onClick=${() => go('submit')}><span><${Ic} n="bell" size=${24}/></span>Vormerken</button>
     <a href="coach/"><${Ic} n="award"/>Für Coaches</a>
   </nav>`;
 }
@@ -95,7 +90,7 @@ function Home({go, anchor}) {
           <h1>Kurs zu teuer?<br/>Kein Trainer zur Hand?<br/><span className="hl">Nur eine konkrete Frage?</span></h1>
           <p className="lead">Dann ist tennistrainer.app das Richtige für dich. Film deinen Schlag mit dem Handy, lade das Video hoch und bekomm eine persönliche Video-Antwort von einem echten Trainer. Ab 9 € für ein Feedback zu deiner Technik.</p>
           <div className="ctas">
-            <button className="btn volt lg" onClick=${() => go('submit')}><${Ic} n="upload"/>Video hochladen</button>
+            <button className="btn volt lg" onClick=${() => go('submit')}><${Ic} n="bell"/>Jetzt vormerken</button>
             <button className="btn ondark lg" onClick=${() => go('home', 'so-gehts')}>So funktioniert's</button>
           </div>
           <ul className="trust">
@@ -145,7 +140,7 @@ function Home({go, anchor}) {
             <li><${Ic} n="check" size=${16}/>Antwort in höchstens 72 Stunden</li>
             <li><${Ic} n="check" size=${16}/>Übungen für dein Training</li>
           </ul>
-          <button className=${'btn ' + (t.id === 'B' ? 'volt' : 'pri')} onClick=${() => go('submit', {tier:t.id})}>Video hochladen</button>
+          <button className=${'btn ' + (t.id === 'B' ? 'volt' : 'pri')} onClick=${() => go('submit', {tier:t.id})}>Vormerken</button>
         </div>`)}
       </div>
       <div className="premium rv"><span className="pill dark">Premium</span><b>Ex-Profis</b><span className="muted">Ehemalige Tour-Spieler:innen schauen auf deine Technik. Ab ${fmtEUR(tierById('P').price)}, buchbar über „Coach selbst wählen“.</span></div>
@@ -387,12 +382,12 @@ function CoachProfile({id, go}) {
           <p className="label">Video-Antwort</p>
           <p className="price"><b className="num">${fmtEUR(t.price)}</b><span>pro Schlag, inkl. MwSt.</span></p>
           <ul><li><${Ic} n="clock" size=${16}/>Antwort meist in ~${c.resp} Std., höchstens 72 Std.</li><li><${Ic} n="video" size=${16}/>Persönliches Video von ${first}</li></ul>
-          <button className="btn volt lg" onClick=${() => go('submit', {coach:c.id})}><${Ic} n="upload" size=${18}/>Video an ${first} senden</button>
+          <button className="btn volt lg" onClick=${() => go('submit', {coach:c.id})}><${Ic} n="bell" size=${18}/>Vormerken: Video an ${first} ab ${LAUNCH}</button>
         </div>
         <div className="blk"><h3>Sprachen</h3><div className="pills">${c.langs.map(l => html`<span key=${l} className="pill">${l}</span>`)}</div></div>
       </aside>
     </div>
-    <div className="sticky-cta"><button className="btn volt lg" onClick=${() => go('submit', {coach:c.id})}><${Ic} n="upload"/>Video an ${first} senden · ${fmtEUR(t.price)}</button></div>
+    <div className="sticky-cta"><button className="btn volt lg" onClick=${() => go('submit', {coach:c.id})}><${Ic} n="bell"/>Vormerken · ab ${fmtEUR(t.price)}</button></div>
   </div>`;
 }
 
@@ -490,6 +485,45 @@ function Login({close, done}) {
 }
 
 /* ---------- App ---------- */
+/* ---------- Warteliste: Spieler:innen lassen sich bis zum Start vormerken ---------- */
+const SB = {url:'https://htibyxvxryraooarkwjg.supabase.co', key:'sb_publishable_Jin5STAwVyaIRaXdqAjZEQ_ttqap1Ro'};
+const CONSENT = 'Ich möchte per E-Mail benachrichtigt werden, sobald tennistrainer.app startet. Ich kann mich jederzeit wieder austragen.';
+function Waitlist({param}) {
+  const [email, setEmail] = useState(''); const [name, setName] = useState(''); const [ok, setOk] = useState(false);
+  const [busy, setBusy] = useState(false); const [err, setErr] = useState(''); const [done, setDone] = useState(false);
+  useEffect(() => { window.scrollTo(0, 0); }, [done]);
+  const send = async e => {
+    e.preventDefault(); setErr('');
+    if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email.trim())) return setErr('Bitte gib eine gültige E-Mail-Adresse an.');
+    if (!ok) return setErr('Bitte bestätige, dass wir dich benachrichtigen dürfen.');
+    setBusy(true);
+    try {
+      const r = await fetch(SB.url + '/rest/v1/rpc/join_waitlist', {method:'POST', headers:{apikey:SB.key, 'Content-Type':'application/json'},
+        body:JSON.stringify({p_email:email.trim(), p_first_name:name.trim(), p_consent:CONSENT, p_source:param && (param.coach || param.tier || param.stroke) || 'web'})});
+      if (!r.ok) throw new Error();
+      setDone(true);
+    } catch (x) { setErr('Das hat nicht geklappt. Bitte versuch es gleich noch einmal.'); }
+    setBusy(false);
+  };
+  if (done) return html`<div className="wrap page narrow"><div className="success">
+    <span className="ok-ring"><${Ic} n="check" size=${34} sw=${2.4}/></span>
+    <h1>Du bist vorgemerkt</h1>
+    <p>Sobald tennistrainer.app im ${LAUNCH} startet, schreiben wir dir an <b>${email.trim()}</b>. Dann kannst du dein erstes Video hochladen.</p>
+    <div className="row-btns"><a className="btn pri" href="#/">Zur Startseite</a></div>
+  </div></div>`;
+  return html`<div className="wrap page narrow">
+    <div className="wiz-h"><p className="label">Start im ${LAUNCH}</p><h1>Lass dich vormerken</h1>
+      <p className="lead-s">Die App für iPhone und Android startet im ${LAUNCH}. Videos hochladen kannst du ab dem Start. Trag dich ein, dann sagen wir dir Bescheid, sobald es losgeht.</p></div>
+    <form className="form card pad" onSubmit=${send} noValidate>
+      <div className="field"><label htmlFor="wl-mail">E-Mail-Adresse</label><input id="wl-mail" className="inp" type="email" autoComplete="email" value=${email} onChange=${e => { setEmail(e.target.value); setErr(''); }}/></div>
+      <div className="field"><label htmlFor="wl-name">Vorname (optional)</label><input id="wl-name" className="inp" autoComplete="given-name" value=${name} onChange=${e => setName(e.target.value)}/></div>
+      <label className="check"><input type="checkbox" checked=${ok} onChange=${e => { setOk(e.target.checked); setErr(''); }}/><span>${CONSENT} Mehr dazu in der <a href="datenschutz/#warteliste">Datenschutzerklärung</a>.</span></label>
+      ${err && html`<p className="err" role="alert">${err}</p>`}
+      <button className="btn volt lg" type="submit" disabled=${busy}>${busy ? 'Wird eingetragen …' : 'Jetzt vormerken'}</button>
+    </form>
+    <p className="muted small" style=${{marginTop:'16px'}}>Du bist Trainer:in? <a href="coach/#/registrieren">Registrier dich schon jetzt als Coach.</a></p>
+  </div>`;
+}
 function App() {
   const route = useHashRoute(parseHash);
   const [user, setUser] = useState(null);
@@ -511,7 +545,7 @@ function App() {
 
   let page;
   if (view === 'home') page = html`<${Home} go=${go} anchor=${anchor}/>`;
-  else if (view === 'submit') page = html`<${Submit} key=${toHash('submit', param)} param=${param} go=${go} requireLogin=${requireLogin} addRequest=${r => setRequests(rs => [r, ...rs])} balance=${balance} pay=${pay} openTopUp=${openTopUp}/>`;
+  else if (view === 'submit') page = html`<${Waitlist} param=${param}/>`;
   else if (view === 'coaches') page = html`<${Coaches} go=${go}/>`;
   else if (view === 'coach') page = html`<${CoachProfile} id=${param} go=${go}/>`;
   else if (view === 'mine') page = user ? html`<${Mine} requests=${requests} go=${go} openReq=${setOpenR} balance=${balance} openTopUp=${openTopUp}/>` : html`<${LoginGate} openLogin=${openLogin}/>`;

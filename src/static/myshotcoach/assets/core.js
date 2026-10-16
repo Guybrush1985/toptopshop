@@ -85,6 +85,7 @@ const initials = name => (name || '?').split(/\s+/).filter(Boolean).map(x => x[0
 /* ---------- Icons (24er-Raster, Linienstil) ---------- */
 const I = {
   upload:'M12 16V4m0 0-5 5m5-5 5 5M4 17v2a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-2',
+  bell:'M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9M10.3 21a1.94 1.94 0 0 0 3.4 0',
   home:'M3 11 12 4l9 7v8a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z',
   users:'M16 19v-1a4 4 0 0 0-4-4H7a4 4 0 0 0-4 4v1M9.5 10a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7M21 19v-1a4 4 0 0 0-3-3.87M15.5 3.13a3.5 3.5 0 0 1 0 6.74',
   film:'M4 5h16v14H4zM8 5v14M16 5v14M4 9h4M4 15h4M16 9h4M16 15h4',
@@ -434,7 +435,8 @@ function Footer({area, links}) {
     <p className="fine">Vorschau-Version: Es werden noch keine Verträge geschlossen und keine Zahlungen abgewickelt. Alle Coach-Profile, Bewertungen und Zahlen auf dieser Seite sind fiktive Beispiele. tennistrainer.app ist ein unabhängiges Angebot der TanMeOn GmbH und steht in keiner Verbindung zum Deutschen Tennis Bund (DTB), zum Deutschen Tischtennis-Bund (DTTB) oder anderen Verbänden. Lizenzbezeichnungen beschreiben die Qualifikation einzelner Coaches. Alle Preise inkl. MwSt.</p>
   </div></footer>`;
 }
-const DemoBar = () => html`<div className="demo">Vorschau: noch keine echten Buchungen oder Zahlungen. Profile und Bewertungen sind Beispiele. <a href=${ROOT + 'hinweise/'}>Mehr erfahren</a></div>`;
+const LAUNCH = 'Dezember 2026';
+const DemoBar = () => html`<div className="demo launch"><b>Die App für iPhone und Android kommt im ${LAUNCH}.</b> Coaches können sich schon jetzt registrieren, Spieler:innen sich vormerken lassen. Profile und Bewertungen auf dieser Seite sind Beispiele. <a href=${ROOT + 'hinweise/'}>Mehr erfahren</a></div>`;
 
 function mount(App) {
   const root = document.getElementById('root');
@@ -444,5 +446,5 @@ function mount(App) {
 
 window.MSC = {html, ROOT, CONTACT, SPORTS, sportById, strokeOf, TIERS, LEVELS, TIER_ORDER, tierById, CUT, payout, COACHES, coachById, REVIEWS,
   fmtEUR, fmtNum, initials, I, Ic, Stars, StrokeIcon, PhoneFrameIcon, TopDown, FilmGuide, FILM_STEPS, SideScene, PhoneStage, Portrait, Logo, CourtScene, VideoFrame, ExBadge, Modal, useToast,
-  useHashRoute, hashParts, navigate, useScrollTo, useMotion, Footer, DemoBar, mount};
+  useHashRoute, hashParts, navigate, useScrollTo, useMotion, Footer, DemoBar, LAUNCH, mount};
 })();
