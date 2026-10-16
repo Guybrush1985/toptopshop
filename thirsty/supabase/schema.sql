@@ -173,8 +173,7 @@ begin
   return new;
 end $$;
 
-drop trigger if exists on_auth_user_created on auth.users;
-create trigger on_auth_user_created after insert on auth.users
+create or replace trigger on_auth_user_created after insert on auth.users
   for each row execute function public.handle_new_user();
 
 -- ---------- Hilfsfunktionen ----------
@@ -184,7 +183,7 @@ returns boolean language sql stable security definer set search_path = public as
   select exists (select 1 from public.members m where m.restaurant_id = rid and m.user_id = auth.uid() and m.role = any (roles));
 $$;
 
-create or replace function public.points_for(kind text) returns int language sql immutable as $$
+create or replace function public.points_for(kind text) returns int language sql immutable set search_path = public as $$
   select case kind when 'ATTENDED' then 3 when 'LATE_CANCEL' then -10 when 'LATE_ARRIVAL' then -5
     when 'THUMBS_DOWN' then -3 when 'NO_SHOW' then -25 end;
 $$;
@@ -262,8 +261,7 @@ begin
   return new;
 end $$;
 
-drop trigger if exists restaurants_before_update on public.restaurants;
-create trigger restaurants_before_update before update on public.restaurants
+create or replace trigger restaurants_before_update before update on public.restaurants
   for each row execute function public.restaurants_before_update();
 
 -- ---------- Funktionen für die App ----------
@@ -556,19 +554,42 @@ create policy "eigene Ereignisse" on public.reliability_events for select using 
 
 create policy "eigene Favoriten" on public.favorites for all using (user_id = auth.uid()) with check (user_id = auth.uid());
 
+-- Grundrechte ausdrücklich setzen (neuere Supabase-Projekte geben neue Tabellen nicht mehr automatisch frei).
+grant usage on schema public to anon, authenticated;
+grant select on public.profiles, public.restaurants, public.restaurant_billing, public.members, public.opening_hours,
+  public.photos, public.menu_items, public.spots, public.bookings, public.reviews, public.feedback,
+  public.reliability_events, public.favorites to anon, authenticated;
+grant insert, update, delete on public.profiles, public.restaurants, public.restaurant_billing, public.members,
+  public.opening_hours, public.photos, public.menu_items, public.spots, public.bookings, public.reviews, public.feedback,
+  public.reliability_events, public.favorites to authenticated;
+grant execute on all functions in schema public to anon, authenticated;
+
 -- Spaltenrechte: nur das Nötige änderbar.
-revoke insert, update, delete on public.profiles from anon, authenticated;
+revoke insert, update, delete, truncate on public.profiles from anon, authenticated;
 grant update (name, phone, dietary_notes) on public.profiles to authenticated;
-revoke insert, update, delete on public.restaurants from anon, authenticated;
+revoke insert, update, delete, truncate on public.restaurants from anon, authenticated;
 grant update (name, tagline, description, cuisine, price_level, street, postal_code, city, lat, lng, directions, phone,
   email, website, instagram, seats_inside, seats_outside, features, status) on public.restaurants to authenticated;
-revoke insert, update, delete on public.reviews from anon, authenticated;
+revoke insert, update, delete, truncate on public.reviews from anon, authenticated;
 grant update (reply) on public.reviews to authenticated;
-revoke insert, update, delete on public.bookings, public.feedback, public.reliability_events from anon, authenticated;
-revoke insert, update on public.members from anon, authenticated;
-revoke update, delete on public.spots from anon, authenticated;
+revoke insert, update, delete, truncate on public.bookings, public.feedback, public.reliability_events from anon, authenticated;
+revoke insert, update, truncate on public.members from anon, authenticated;
+revoke update, delete, truncate on public.spots from anon, authenticated;
+revoke truncate on public.restaurant_billing, public.opening_hours, public.photos, public.menu_items, public.favorites from anon, authenticated;
+revoke insert, update, delete on public.restaurant_billing, public.opening_hours, public.photos, public.menu_items,
+  public.favorites, public.members, public.spots from anon;
+
+-- Funktionsrechte: interne Funktionen gar nicht aufrufbar, Aktionen nur angemeldet.
+-- is_member bleibt für alle aufrufbar, weil die Zugriffsregeln sie verwenden.
 revoke all on function public.add_event(uuid, text, uuid) from public, anon, authenticated;
 revoke all on function public.reliability(uuid) from public, anon, authenticated;
+revoke all on function public.handle_new_user() from public, anon, authenticated;
+revoke all on function public.restaurants_before_update() from public, anon, authenticated;
+revoke all on function public.make_slug(text, uuid) from public, anon, authenticated;
+revoke all on function public.add_member(uuid, text, text), public.book_spot(uuid, int), public.cancel_booking(uuid),
+  public.cancel_spot(uuid), public.check_in(uuid, text), public.create_restaurant(text, text), public.give_feedback(uuid, boolean, text[]),
+  public.mark_no_show(uuid), public.my_reliability(), public.restaurant_bookings(uuid), public.restaurant_members(uuid),
+  public.submit_review(uuid, int, int, int, int, boolean, text) from public, anon;
 
 -- ---------- Fotos (Supabase Storage) ----------
 
