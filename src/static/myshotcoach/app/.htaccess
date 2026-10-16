@@ -4,6 +4,10 @@ ErrorDocument 404 /myshotcoach/app/index.html
 <IfModule mod_rewrite.c>
   RewriteEngine On
   RewriteBase /myshotcoach/app/
+  # tennistrainer.app/app/… zeigt intern auf diesen Ordner, die App erwartet aber den Pfad /myshotcoach/app/
+  RewriteCond %{HTTP_HOST} ^tennistrainer\.app$ [NC]
+  RewriteCond %{THE_REQUEST} ^\S+\s/app(/|\s|\?) [NC]
+  RewriteRule ^(.*)$ https://tennistrainer.app/myshotcoach/app/$1 [R=302,L]
   RewriteCond %{REQUEST_FILENAME} !-f
   RewriteCond %{REQUEST_FILENAME} !-d
   RewriteRule ^ index.html [L]
