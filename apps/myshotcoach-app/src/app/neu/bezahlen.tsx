@@ -60,7 +60,7 @@ export default function Pay() {
 
       <View style={{ marginTop: 20, gap: 10 }}>
         <Notice icon="shield" tone="ok">{`Der Betrag wird zunächst nur reserviert. Abgebucht wird erst, wenn ein Coach deine Anfrage annimmt. Nimmt innerhalb von ${ACCEPT_HOURS} Stunden niemand an, wird die Reservierung aufgehoben.`}</Notice>
-        <Muted style={{ fontSize: 13 }}>Mit der Anfrage akzeptierst du die AGB und die Datenschutzerklärung von MyShotCoach (TanMeOn GmbH).</Muted>
+        <Muted style={{ fontSize: 13 }}>Mit der Anfrage akzeptierst du die AGB und die Datenschutzerklärung von tennistrainer.app (TanMeOn GmbH).</Muted>
       </View>
     </Screen>
   );

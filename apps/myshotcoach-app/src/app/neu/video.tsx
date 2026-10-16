@@ -20,7 +20,7 @@ export default function RecordVideo() {
     try {
       const perm = camera ? await ImagePicker.requestCameraPermissionsAsync() : await ImagePicker.requestMediaLibraryPermissionsAsync();
       if (!perm.granted && Platform.OS !== 'web') {
-        Alert.alert('Kein Zugriff', camera ? 'Bitte erlaube MyShotCoach in den Einstellungen den Zugriff auf die Kamera.' : 'Bitte erlaube MyShotCoach in den Einstellungen den Zugriff auf deine Videos.');
+        Alert.alert('Kein Zugriff', camera ? 'Bitte erlaube tennistrainer.app in den Einstellungen den Zugriff auf die Kamera.' : 'Bitte erlaube tennistrainer.app in den Einstellungen den Zugriff auf deine Videos.');
         return;
       }
       const opts: ImagePicker.ImagePickerOptions = { mediaTypes: ['videos'], videoMaxDuration: 300, quality: 1 };

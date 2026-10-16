@@ -18,7 +18,7 @@ export default function CoachJob() {
   const record = async (camera: boolean) => {
     if (camera) {
       const p = await ImagePicker.requestCameraPermissionsAsync();
-      if (!p.granted) { Alert.alert('Kein Zugriff', 'Bitte erlaube MyShotCoach in den Einstellungen den Zugriff auf Kamera und Mikrofon.'); return; }
+      if (!p.granted) { Alert.alert('Kein Zugriff', 'Bitte erlaube tennistrainer.app in den Einstellungen den Zugriff auf Kamera und Mikrofon.'); return; }
     }
     const opts: ImagePicker.ImagePickerOptions = { mediaTypes: ['videos'], videoMaxDuration: 600, quality: 1 };
     const res = camera ? await ImagePicker.launchCameraAsync(opts) : await ImagePicker.launchImageLibraryAsync(opts);

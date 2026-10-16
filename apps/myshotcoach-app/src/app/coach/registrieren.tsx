@@ -77,7 +77,7 @@ export default function Register() {
 
   return (
     <Screen footer={<Button title="Profil anlegen" onPress={submit} busy={busy} />}>
-      <H1>Werde Coach bei MyShotCoach</H1>
+      <H1>Werde Coach bei tennistrainer.app</H1>
       <Muted style={{ marginTop: 8 }}>Du legst dein Profil direkt an. Live geht es, sobald wir deinen Nachweis geprüft haben.</Muted>
 
       <H2 style={st.h}>Über dich</H2>
