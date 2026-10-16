@@ -183,7 +183,17 @@ function Home({go, anchor}) {
 const licenseOf = f => f.tier === 'P'
   ? `Ex-Profi · beste ${f.proTour}-Platzierung ${f.proRank || '?'}` + (f.proLic ? ` · DTB ${f.proLic}-Lizenz` : '')
   : {C:'DTB C-Lizenz / Übungsleiter', B:'DTB B-Lizenz', A:'DTB A-Lizenz'}[f.tier] || '';
-const EMPTY = {first:'', last:'', email:'', phone:'', sports:['tennis'], tier:'', proTour:'ATP', proRank:'', proLic:'', proof:null, club:'', city:'', photo:null, bio:'', langs:['Deutsch']};
+// Profil aus der Datenbank in das Format des Coach-Bereichs übersetzen
+const fromDb = (r, session, extra = {}) => {
+  const f = {tier:r.tier, proTour:r.pro_tour || 'ATP', proRank:r.pro_rank || '', proLic:r.pro_license || ''};
+  const lic = licenseOf(f);
+  return {...SEED_ME, name:[r.first_name, r.last_name].filter(Boolean).join(' ') || r.email, email:r.email, club:r.club || '', city:r.city || '',
+    tier:r.tier, license:lic, sports:['tennis'], bio:r.bio || '', langs:r.langs && r.langs.length ? r.langs : ['Deutsch'], awards:[], photo:extra.photo || null,
+    certs:[{n:lic, st:r.status === 'live' ? 'ok' : r.proof_path ? 'review' : 'missing'}], status:r.status, missingProof:r.status === 'missing_proof',
+    demo:false, real:true, session, db:r};
+};
+const API = window.MSC_API;
+const EMPTY = {password:'', proofFile:null, photoFile:null, first:'', last:'', email:'', phone:'', sports:['tennis'], tier:'', proTour:'ATP', proRank:'', proLic:'', proof:null, club:'', city:'', photo:null, bio:'', langs:['Deutsch']};
 function Register({go, onDone}) {
   const [step, setStep] = useState(1);
   const [f, setF] = useState(EMPTY);
@@ -198,6 +208,7 @@ function Register({go, onDone}) {
     if (step === 1) {
       if (!f.first.trim() || !f.last.trim()) return 'Bitte gib deinen Vor- und Nachnamen an.';
       if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(f.email)) return 'Bitte gib eine gültige E-Mail-Adresse an.';
+      if (f.password.length < 8) return 'Bitte wähl ein Passwort mit mindestens 8 Zeichen.';
     }
     if (step === 2) {
       if (!f.sports.length) return 'Bitte wähl mindestens eine Sportart.';
@@ -207,32 +218,37 @@ function Register({go, onDone}) {
     return '';
   };
   const next = () => { const e = check(); if (e) setErr(e); else setStep(step + 1); };
-  const body = () => [
-    'Registrierung als Coach bei MyShotCoach', '',
-    'Name: ' + name, 'E-Mail: ' + f.email, f.phone ? 'Telefon: ' + f.phone : null,
-    'Sportarten: ' + f.sports.map(s => sportById(s).name).join(', '),
-    'Level: ' + tierById(f.tier).name, 'Lizenz: ' + licenseOf(f),
-    'Heimverein: ' + (f.club || '-'), 'Stadt: ' + (f.city || '-'),
-    'Sprachen: ' + f.langs.join(', '),
-    f.bio ? '\nÜber mich:\n' + f.bio : null, '',
-    'Meinen Lizenznachweis' + (f.photo ? ' und mein Profilfoto' : '') + ' hänge ich an diese E-Mail an.',
-  ].filter(x => x !== null).join('\n');
-  const submit = () => {
-    const href = 'mailto:' + CONTACT + '?subject=' + encodeURIComponent('Coach-Registrierung: ' + name) + '&body=' + encodeURIComponent(body());
-    window.location.href = href;
-    setSent(true);
+  const [busy, setBusy] = useState(false);
+  const submit = async () => {
+    setBusy(true); setErr('');
+    try {
+      const meta = {first_name:f.first.trim(), last_name:f.last.trim(), phone:f.phone.trim(), tier:f.tier, club:f.club.trim(), city:f.city.trim(), bio:f.bio.trim(), langs:f.langs,
+        ...(f.tier === 'P' ? {pro_tour:f.proTour, pro_rank:String(f.proRank), pro_license:f.proLic} : {})};
+      const r = await API.signUp(f.email.trim(), f.password, meta);
+      if (r.session) {
+        const patch = {};
+        if (f.proofFile) patch.proof_path = await API.upload(r.session, 'nachweis', f.proofFile);
+        if (f.photoFile) patch.photo_path = await API.upload(r.session, 'foto', f.photoFile);
+        const row = Object.keys(patch).length ? await API.update(r.session, patch) : await API.profile(r.session);
+        setSent({session:r.session, row});
+      } else setSent({confirm:true});
+    } catch (e) { setErr(e.message); }
+    setBusy(false);
   };
-  const copy = () => { if (navigator.clipboard) navigator.clipboard.writeText(CONTACT).then(() => { setCopied(true); setTimeout(() => setCopied(false), 2000); }, () => {}); };
-  const onPhoto = e => { const x = e.target.files[0]; if (!x) return; if (f.photo) URL.revokeObjectURL(f.photo); set('photo', URL.createObjectURL(x)); };
+  const onPhoto = e => { const x = e.target.files[0]; if (!x) return; if (f.photo) URL.revokeObjectURL(f.photo); setF(v => ({...v, photo:URL.createObjectURL(x), photoFile:x})); };
   const preview = {name: name || 'Dein Name', photo:f.photo};
 
-  if (sent) return html`<div className="wrap page narrow"><div className="success">
+  if (sent && sent.confirm) return html`<div className="wrap page narrow"><div className="success">
     <span className="ok-ring"><${Ic} n="mail" size=${30} sw=${2}/></span>
-    <h1>Fast geschafft</h1>
-    <p>Dein E-Mail-Programm öffnet sich mit deinen Angaben. <b>Häng bitte deinen Lizenznachweis${f.photo ? ' und dein Profilfoto' : ''} an</b> und schick die Mail ab. Wir prüfen deine Lizenz und melden uns vor dem Start bei dir.</p>
-    <p className="muted">Falls sich nichts öffnet, schreib uns direkt an diese Adresse:</p>
-    <div className="mailbox"><code>${CONTACT}</code><button className="btn sm" onClick=${copy}><${Ic} n="copy" size=${16}/>${copied ? 'Kopiert' : 'Kopieren'}</button></div>
-    <div className="row-btns"><button className="btn pri" onClick=${() => onDone({...SEED_ME, name, email:f.email, club:f.club, city:f.city, tier:f.tier, license:licenseOf(f), sports:f.sports, bio:f.bio, langs:f.langs, photo:f.photo, awards:[], certs:[{n:licenseOf(f), st:f.proof ? 'review' : 'missing'}], missingProof:!f.proof, demo:false})}>Coach-Bereich ansehen (Vorschau)</button></div>
+    <h1>Bitte bestätige deine E-Mail</h1>
+    <p>Dein Profil ist angelegt. Wir haben dir einen Link an <b>${f.email}</b> geschickt. Klick ihn an, dann bist du direkt in deinem Coach-Bereich.</p>
+    ${f.proofFile ? html`<p className="muted">Deinen Nachweis lädst du nach der Bestätigung unter „Profil“ hoch.</p>` : html`<p className="muted">Ohne Nachweis ist dein Profil noch nicht live. Du kannst ihn nach der Bestätigung unter „Profil“ hochladen.</p>`}
+  </div></div>`;
+  if (sent) return html`<div className="wrap page narrow"><div className="success">
+    <span className="ok-ring"><${Ic} n="check" size=${34} sw=${2.4}/></span>
+    <h1>Dein Profil ist angelegt</h1>
+    <p>${sent.row && sent.row.status === 'missing_proof' ? 'Es fehlt noch dein Nachweis. Ohne ihn schalten wir dein Profil nicht live. Du kannst ihn jederzeit unter „Profil“ hochladen.' : 'Wir prüfen jetzt deinen Nachweis und schalten dein Profil frei. Du bekommst eine E-Mail, sobald es live ist.'}</p>
+    <div className="row-btns"><button className="btn pri" onClick=${() => onDone(fromDb(sent.row, sent.session, {photo:f.photo}))}>Zu meinem Coach-Bereich</button></div>
   </div></div>`;
 
   const titles = ['', 'Über dich', 'Deine Qualifikation', 'Dein Profil', 'Prüfen und absenden'];
@@ -249,6 +265,7 @@ function Register({go, onDone}) {
         <div className="field"><label htmlFor="rg-last">Nachname</label><input id="rg-last" className="inp" autoComplete="family-name" value=${f.last} onChange=${e => set('last', e.target.value)}/></div>
       </div>
       <div className="field"><label htmlFor="rg-mail">E-Mail-Adresse</label><input id="rg-mail" className="inp" type="email" autoComplete="email" value=${f.email} onChange=${e => set('email', e.target.value)}/></div>
+      <div className="field"><label htmlFor="rg-pw">Passwort (mindestens 8 Zeichen)</label><input id="rg-pw" className="inp" type="password" autoComplete="new-password" value=${f.password} onChange=${e => set('password', e.target.value)}/></div>
       <div className="field"><label htmlFor="rg-tel">Telefon (optional)</label><input id="rg-tel" className="inp" type="tel" autoComplete="tel" value=${f.phone} onChange=${e => set('phone', e.target.value)}/></div>
     </div>`}
 
@@ -268,7 +285,7 @@ function Register({go, onDone}) {
         <div className="field"><span className="flabel">Trainerlizenz (optional)</span><div className="seg sm">${[['', 'Keine'], ['C', 'DTB C'], ['B', 'DTB B'], ['A', 'DTB A']].map(([v, l]) => html`<button type="button" key=${v} className=${f.proLic === v ? 'on' : ''} aria-pressed=${f.proLic === v} onClick=${() => set('proLic', v)}>${l}</button>`)}</div></div>
       </div>`}
       <div className="field"><span className="flabel">${f.tier === 'P' ? 'Nachweis (z. B. Screenshot deines Spielerprofils)' : 'Lizenznachweis'} (optional, für die Freischaltung nötig)</span>
-        <label className="filebtn"><${Ic} n="doc" size=${18}/>${f.proof ? f.proof : 'Foto oder PDF auswählen'}<input id="rg-proof" type="file" accept="image/*,application/pdf" onChange=${e => e.target.files[0] && set('proof', e.target.files[0].name)}/></label>
+        <label className="filebtn"><${Ic} n="doc" size=${18}/>${f.proof ? f.proof : 'Foto oder PDF auswählen'}<input id="rg-proof" type="file" accept="image/*,application/pdf" onChange=${e => { const x = e.target.files[0]; if (!x) return; if (x.size > 10 * 1024 * 1024) { setErr('Die Datei ist größer als 10 MB.'); return; } setF(v => ({...v, proof:x.name, proofFile:x})); setErr(''); }}/></label>
         <span className="note">Ohne Nachweis legen wir dein Profil trotzdem an, schalten es aber erst live, wenn der Nachweis da ist. Du kannst ihn jederzeit nachreichen.</span></div>
       <div className="two">
         <div className="field"><label htmlFor="rg-club">Heimverein (optional)</label><input id="rg-club" className="inp" value=${f.club} onChange=${e => set('club', e.target.value)}/></div>
@@ -278,7 +295,7 @@ function Register({go, onDone}) {
 
     ${step === 3 && html`<div className="form">
       <div className="ph-up"><span className="av lg"><${Portrait} c=${preview} round/></span>
-        <div className="stack sm-gap"><b>Profilfoto (optional)</b><label className="filebtn"><${Ic} n="cam" size=${18}/>Foto auswählen<input id="rg-photo" type="file" accept="image/*" onChange=${onPhoto}/></label><span className="note">Am besten ein Bild auf dem Court. Es bleibt in der Vorschau auf deinem Gerät.</span></div></div>
+        <div className="stack sm-gap"><b>Profilfoto (optional)</b><label className="filebtn"><${Ic} n="cam" size=${18}/>Foto auswählen<input id="rg-photo" type="file" accept="image/*" onChange=${onPhoto}/></label><span className="note">Am besten ein Bild auf dem Court.</span></div></div>
       <div className="field"><label htmlFor="rg-bio">Über mich (optional)</label><textarea id="rg-bio" className="inp" maxLength="700" value=${f.bio} onChange=${e => set('bio', e.target.value)} placeholder="Erfahrung, Schwerpunkte, mit wem du am liebsten arbeitest"></textarea></div>
       <div className="field"><label htmlFor="rg-lang">Sprachen</label>
         <div className="tagrow">${f.langs.map(a => html`<span key=${a} className="pill">${a}<button type="button" aria-label=${a + ' entfernen'} onClick=${() => set('langs', f.langs.filter(x => x !== a))}>×</button></span>`)}</div>
@@ -300,9 +317,9 @@ function Register({go, onDone}) {
       </div>
       <div className="card pad order">
         <h3>So geht es weiter</h3>
-        <ol className="mini-steps"><li>Dein E-Mail-Programm öffnet sich mit deinen Angaben.</li><li>Du hängst deinen Lizenznachweis an und schickst die Mail ab.</li><li>Wir prüfen deine Lizenz und melden uns vor dem Start bei dir.</li></ol>
-        <button className="btn volt lg" onClick=${submit}><${Ic} n="mail" size=${18}/>Registrierung per E-Mail senden</button>
-        <p className="small">Wir nutzen deine Angaben nur, um deine Registrierung zu bearbeiten. Mehr dazu in der <a href=${ROOT + 'datenschutz/#registrierung'}>Datenschutzerklärung</a>.</p>
+        <ol className="mini-steps"><li>Wir legen dein Coach-Konto und dein Profil an.</li><li>${f.proofFile ? 'Wir prüfen deinen Nachweis.' : 'Ohne Nachweis bleibt dein Profil offline, bis du ihn hochlädst.'}</li><li>Nach der Prüfung schalten wir dein Profil live.</li></ol>
+        <button className="btn volt lg" disabled=${busy} onClick=${submit}><${Ic} n="check" size=${18}/>${busy ? 'Profil wird angelegt …' : 'Profil anlegen'}</button>
+        <p className="small">Wir nutzen deine Angaben für dein Coach-Konto und die Prüfung deiner Qualifikation. Mehr dazu in der <a href=${ROOT + 'datenschutz/#registrierung'}>Datenschutzerklärung</a>.</p>
       </div>
     </div>`}
 
@@ -316,35 +333,45 @@ function Register({go, onDone}) {
 
 /* ---------- Login (Vorschau: nur im Browser) ---------- */
 function Login({go, done, gate}) {
-  const [email, setEmail] = useState(''); const [err, setErr] = useState('');
-  const submit = e => {
-    e.preventDefault();
+  const [email, setEmail] = useState(''); const [pw, setPw] = useState(''); const [err, setErr] = useState(''); const [info, setInfo] = useState(''); const [busy, setBusy] = useState(false);
+  const submit = async e => {
+    e.preventDefault(); setErr(''); setInfo('');
     if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) { setErr('Bitte gib eine gültige E-Mail-Adresse ein.'); return; }
-    done({...SEED_ME, email});
+    if (!pw) { setErr('Bitte gib dein Passwort ein.'); return; }
+    setBusy(true);
+    try { const s = await API.signIn(email.trim(), pw); const row = await API.profile(s); if (!row) throw new Error('Zu diesem Konto gibt es kein Coach-Profil.'); done(fromDb(row, s)); }
+    catch (x) { setErr(x.message); }
+    setBusy(false);
+  };
+  const reset = async () => {
+    setErr(''); if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) { setErr('Gib oben deine E-Mail-Adresse ein, dann schicken wir dir einen Link.'); return; }
+    try { await API.resetPassword(email.trim()); setInfo('Wir haben dir einen Link geschickt, mit dem du dich einloggen kannst.'); } catch (x) { setErr(x.message); }
   };
   return html`<div className="wrap page"><div className="auth card pad">
     <p className="label center">Coach-Bereich</p>
     <h1 className="center">Login für Coaches</h1>
-    <p className="muted center">${gate ? 'Bitte logg dich ein, um Anfragen, Aufträge und dein Profil zu sehen.' : 'Ohne Passwort: Wir schicken dir einen Login-Link per E-Mail.'}</p>
+    ${gate && html`<p className="muted center">Bitte logg dich ein, um Anfragen, Aufträge und dein Profil zu sehen.</p>`}
     <form onSubmit=${submit} noValidate className="form">
       <div className="field"><label htmlFor="cl-mail">E-Mail-Adresse</label><input id="cl-mail" className="inp" type="email" autoComplete="email" placeholder="du@beispiel.de" value=${email} onChange=${e => { setEmail(e.target.value); setErr(''); }}/></div>
+      <div className="field"><label htmlFor="cl-pw">Passwort</label><input id="cl-pw" className="inp" type="password" autoComplete="current-password" value=${pw} onChange=${e => { setPw(e.target.value); setErr(''); }}/></div>
       ${err && html`<p className="err" role="alert">${err}</p>`}
-      <button className="btn pri lg" type="submit">Weiter</button>
+      ${info && html`<p className="note" role="status">${info}</p>`}
+      <button className="btn pri lg" type="submit" disabled=${busy}>${busy ? 'Einen Moment …' : 'Einloggen'}</button>
+      <button className="lnk-btn small" type="button" onClick=${reset}>Passwort vergessen?</button>
     </form>
-    <p className="ex-banner">Vorschau: Es wird keine E-Mail verschickt. Du siehst den Coach-Bereich mit Beispieldaten, bis du die Seite neu lädst.</p>
     <p className="center small">Noch nicht registriert? <a href="#/registrieren">Jetzt registrieren</a></p>
+    <p className="center small"><button className="lnk-btn" onClick=${() => done({...SEED_ME})}>Demo mit Beispieldaten ansehen</button></p>
   </div></div>`;
 }
-
-/* ---------- Dashboard ---------- */
 function Dash({tab, go, me, setMe, board, jobs, claim, openJob, earn, toast}) {
   const myBoard = board.filter(b => me.sports.includes(b.sport) && TIER_ORDER.indexOf(b.tier) <= TIER_ORDER.indexOf(me.tier));
   const open = jobs.filter(j => j.status !== 'done'); const done = jobs.filter(j => j.status === 'done');
   return html`<div className="wrap page">
     <div className="page-h"><div><p className="label">Coach-Bereich</p><h1>Hallo ${me.name.split(' ')[0]}</h1></div>
       <button className=${'switch' + (me.active ? ' on' : '')} onClick=${() => setMe({...me, active:!me.active})} aria-pressed=${me.active}><span className="knob" aria-hidden="true"></span>${me.active ? 'Nimmt Anfragen an' : 'Pausiert'}</button></div>
+    ${me.status === 'in_review' && html`<div className="missing-box ok" role="status"><${Ic} n="shield" size=${22}/><span><b>Dein Nachweis wird geprüft.</b> Sobald wir ihn bestätigt haben, schalten wir dein Profil live.</span></div>`}
     ${me.missingProof && html`<div className="missing-box" role="status"><${Ic} n="doc" size=${22}/><span><b>Dein Profil ist noch nicht live.</b> Es fehlt dein ${me.tier === 'P' ? 'Nachweis zur Weltranglisten-Platzierung' : 'Lizenznachweis'}. Lade ihn unter „Profil“ hoch, dann prüfen wir ihn und schalten dich frei.</span></div>`}
-    <p className="ex-banner">Vorschau: Anfragen, Aufträge und Verdienst sind Beispieldaten. So sieht der Bereich für Coaches zum Start aus.</p>
+    <p className="ex-banner">${me.real ? 'Dein Konto ist echt. Anfragen, Aufträge und Verdienst sind bis zum Start noch Beispieldaten.' : 'Vorschau: Anfragen, Aufträge und Verdienst sind Beispieldaten. So sieht der Bereich für Coaches zum Start aus.'}</p>
     <div className="dash-k">
       <div><small>Verdienst Oktober</small><b className="num">${fmtEUR(earn)}</b></div>
       <div><small>Offene Anfragen</small><b className="num">${myBoard.length}</b></div>
@@ -418,11 +445,29 @@ function JobEditor({j, close, submit}) {
 }
 
 function ProfileEditor({me, setMe, toast}) {
-  const [d, setD] = useState(me); const [award, setAward] = useState(''); const [lang, setLang] = useState('');
+  const [d, setD] = useState(me); const [busy, setBusy] = useState(false); const [perr, setPerr] = useState('');
+  const save = async () => {
+    if (!me.real) { setMe({...d, tab:me.tab}); toast('Profil gespeichert'); return; }
+    setBusy(true); setPerr('');
+    try {
+      const [first, ...rest] = d.name.trim().split(/\s+/);
+      const row = await API.update(me.session, {first_name:first || '', last_name:rest.join(' '), club:d.club.trim() || null, city:d.city.trim() || null, bio:d.bio.trim() || null, langs:d.langs});
+      setMe({...fromDb(row, me.session, {photo:d.photo}), awards:d.awards}); toast('Profil gespeichert');
+    } catch (x) { setPerr(x.message); }
+    setBusy(false);
+  };
+  const onProof = async e => {
+    const f = e.target.files[0]; if (!f) return;
+    if (!me.real) { set('certs', [...d.certs, {n:f.name.replace(/\.[^.]+$/, ''), st:'review'}]); return; }
+    if (f.size > 10 * 1024 * 1024) { setPerr('Die Datei ist größer als 10 MB.'); return; }
+    setBusy(true); setPerr('');
+    try { const path = await API.upload(me.session, 'nachweis', f); const row = await API.update(me.session, {proof_path:path}); const m = fromDb(row, me.session, {photo:d.photo}); setMe(m); setD(m); toast('Nachweis hochgeladen. Wir prüfen ihn.'); }
+    catch (x) { setPerr(x.message); }
+    setBusy(false);
+  }; const [award, setAward] = useState(''); const [lang, setLang] = useState('');
   const set = (k, v) => setD(x => ({...x, [k]:v}));
   const t = tierById(d.tier);
   const onPhoto = e => { const f = e.target.files[0]; if (!f) return; if (d.photo && d.photo.startsWith('blob:')) URL.revokeObjectURL(d.photo); set('photo', URL.createObjectURL(f)); };
-  const onCert = e => { const f = e.target.files[0]; if (!f) return; set('certs', [...d.certs, {n:f.name.replace(/\.[^.]+$/, ''), st:'review'}]); };
   return html`<div className="edit-grid">
     <div className="form card pad">
       <div className="ph-up"><span className="av lg"><${Portrait} c=${d} round/></span>
@@ -431,15 +476,14 @@ function ProfileEditor({me, setMe, toast}) {
         <div className="field"><label htmlFor="n-in">Name</label><input id="n-in" className="inp" value=${d.name} onChange=${e => set('name', e.target.value)}/></div>
         <div className="field"><label htmlFor="c-in">Heimverein</label><input id="c-in" className="inp" value=${d.club} onChange=${e => set('club', e.target.value)}/></div>
         <div className="field"><label htmlFor="ci-in">Stadt</label><input id="ci-in" className="inp" value=${d.city} onChange=${e => set('city', e.target.value)}/></div>
-        <div className="field"><label htmlFor="t-sel">Level</label><select id="t-sel" className="inp" value=${d.tier} onChange=${e => set('tier', e.target.value)}>${TIERS.map(x => html`<option key=${x.id} value=${x.id}>${x.name}</option>`)}</select></div>
+        <div className="field"><label htmlFor="t-sel">Level</label><select id="t-sel" className="inp" value=${d.tier} disabled=${me.real} onChange=${e => set('tier', e.target.value)}>${TIERS.map(x => html`<option key=${x.id} value=${x.id}>${x.name}</option>`)}</select></div>
       </div>
       <div className="price-info"><span>Dein Preis pro Video-Antwort</span><b className="num">${fmtEUR(t.price)}</b><span className="muted">Du erhältst ${fmtEUR(payout(t.price))} (${PCT}). Ein höheres Level schalten wir nach Prüfung der Lizenz frei.</span></div>
-      <div className="field"><label htmlFor="l-in">Lizenz, wie sie im Profil steht</label><input id="l-in" className="inp" value=${d.license} onChange=${e => set('license', e.target.value)}/></div>
       ${SPORTS.length > 1 && html`<div className="field"><span className="flabel">Sportarten</span><div className="chipsel">${SPORTS.map(s => html`<button key=${s.id} aria-pressed=${d.sports.includes(s.id)} className=${d.sports.includes(s.id) ? 'on' : ''} onClick=${() => set('sports', d.sports.includes(s.id) ? d.sports.filter(x => x !== s.id) : [...d.sports, s.id])}><i style=${{background:s.color}}></i>${s.name}</button>`)}</div></div>`}
       <div className="field"><label htmlFor="b-in">Über mich</label><textarea id="b-in" className="inp" maxLength="700" value=${d.bio} onChange=${e => set('bio', e.target.value)}></textarea></div>
       <div className="field"><span className="flabel">Zertifikate und Lizenzen</span>
         ${d.certs.map((c, i) => html`<div key=${i} className="cert"><${Ic} n="doc" size=${22}/><span className="wrapany">${c.n}</span>${c.st === 'ok' ? html`<span className="pill ok"><${Ic} n="check" size=${13}/>geprüft</span>` : c.st === 'missing' ? html`<span className="pill err">Nachweis fehlt</span>` : html`<span className="pill warn">wird geprüft</span>`}</div>`)}
-        <label className="filebtn"><${Ic} n="plus" size=${18}/>Zertifikat hinzufügen (PDF oder Foto)<input id="cert-in" type="file" accept="image/*,application/pdf" onChange=${onCert}/></label>
+        <label className="filebtn"><${Ic} n="plus" size=${18}/>${me.missingProof ? 'Nachweis hochladen (PDF oder Foto)' : 'Weiteren Nachweis hochladen'}<input id="cert-in" type="file" accept="image/*,application/pdf" disabled=${busy} onChange=${onProof}/></label>
       </div>
       <div className="field"><label htmlFor="aw-in">Auszeichnungen</label>
         <div className="tagrow">${d.awards.map(a => html`<span key=${a} className="pill">${a}<button aria-label=${a + ' entfernen'} onClick=${() => set('awards', d.awards.filter(x => x !== a))}>×</button></span>`)}</div>
@@ -449,7 +493,8 @@ function ProfileEditor({me, setMe, toast}) {
         <div className="tagrow">${d.langs.map(a => html`<span key=${a} className="pill">${a}<button aria-label=${a + ' entfernen'} onClick=${() => set('langs', d.langs.filter(x => x !== a))}>×</button></span>`)}</div>
         <div className="inline"><input id="la-in" className="inp" value=${lang} onChange=${e => setLang(e.target.value)} placeholder="z. B. Spanisch"/><button className="btn sm" onClick=${() => { if (lang.trim()) { set('langs', [...d.langs, lang.trim()]); setLang(''); } }}>Hinzufügen</button></div>
       </div>
-      <button className="btn pri lg" style=${{justifySelf:'start'}} onClick=${() => { setMe({...d, tab:me.tab}); toast('Profil gespeichert'); }}>Profil speichern</button>
+      ${perr && html`<p className="err" role="alert">${perr}</p>`}
+      <button className="btn pri lg" style=${{justifySelf:'start'}} disabled=${busy} onClick=${save}>${busy ? 'Speichert …' : 'Profil speichern'}</button>
     </div>
     <div className="preview"><p className="label">So sehen Spieler:innen dich</p>
       <div className="ccard static">
@@ -480,6 +525,9 @@ function App() {
   const claim = b => { setBoard(board.filter(x => x.id !== b.id)); setJobs([{...b, ago:'gerade eben', status:'progress', left:72}, ...jobs]); toast('Anfrage übernommen. Du hast 72 Stunden Zeit.'); go('dash', 'jobs'); };
   const submitJob = j => { const e = payout(tierById(j.tier).price); setJobs(jobs.map(x => x.id === j.id ? {...x, status:'done', earned:e} : x)); setEarn(earn + e); setOpenJ(null); toast('Video-Antwort gesendet · +' + fmtEUR(e)); };
   const meTab = me && {...me, tab: view === 'dash' ? param : null};
+  useEffect(() => {
+    API.fromHash().then(async s => { if (!s) return; const row = await API.profile(s); if (row) { setMeRaw(fromDb(row, s)); toast('E-Mail bestätigt. Willkommen!'); go('dash', 'profile'); } }).catch(() => toast('Der Link ist abgelaufen. Bitte logg dich ein.'));
+  }, []);
 
   let page;
   if (view === 'register') page = html`<${Register} go=${go} onDone=${login}/>`;
