@@ -31,7 +31,7 @@ npx tsc --noEmit        # Typprüfung
 npm run export:preview  # baut die Web-Version nach src/static/myshotcoach/app/
 ```
 
-Danach wie gewohnt `node build.mjs` im Repo-Hauptordner. Die Vorschau liegt unter https://toptop.shop/myshotcoach/app/.
+Danach wie gewohnt `node build.mjs` im Repo-Hauptordner. Die Vorschau liegt unter https://tennistrainer.app/myshotcoach/app/ und https://toptop.shop/myshotcoach/app/ (tennistrainer.app/app/ leitet dorthin weiter, weil die App mit dem Pfad /myshotcoach/app gebaut ist).
 Sie speichert nichts im Browser (kein Local Storage, keine Cookies).
 
 ## In die App Stores
