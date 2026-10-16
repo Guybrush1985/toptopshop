@@ -221,3 +221,4 @@ Mindestumfang je Kategorie: **≥ 1.000 Wörter** (nicht künstlich auffüllen),
   Dateien bleiben im Ordner `src/static/myshotcoach/` (inkl. App-Vorschau `app/`). Die Domain tennistrainer.app wird
   per `.htaccess`-Rewrite (Host-Abfrage) auf diesen Ordner gelegt; Deploy wie bisher per Push auf `main` (IONOS Deploy Now).
   Rosi muss die Domain im Deploy-Now-Projekt hinzufügen. Impressum/Datenschutz überarbeitet (Empfänger, Speicherdauer, Art. 22).
+- 2026-10-16 15:10: tennistrainer.app läuft im eigenen Repo Guybrush1985/tennistrainer (eigenes Deploy-Now-Projekt). `src/static/myshotcoach/` entfernt, /myshotcoach/* leitet per 301 auf tennistrainer.app um.
