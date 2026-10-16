@@ -107,7 +107,7 @@ export default function Discover() {
           </p>
 
           <div className="mt-12 animate-rise" style={{ animationDelay: ".24s" }}>
-            <p className="display text-3xl text-cream sm:text-4xl">Wo hast du Durst?</p>
+            <p className="display text-3xl text-cream sm:text-4xl">Wo suchst du ein Schnäppchen?</p>
             <div className="mt-4 flex max-w-3xl flex-wrap gap-2.5">
               {cities.length === 0 && <p className="text-cream/60">Gerade ist noch keine Stadt dabei.</p>}
               {cities.map((c) => (
