@@ -1,4 +1,4 @@
-// MyShotCoach – Coach-Bereich (Vorschau-Version). Registrierung, Login, Anfragen, Aufträge und Profil.
+// tennistrainer.app – Coach-Bereich (Vorschau-Version). Registrierung, Login, Anfragen, Aufträge und Profil.
 // Echt ist nur die Registrierung: Sie öffnet eine vorausgefüllte E-Mail an uns. Alles andere läuft im Browser.
 (function () {
 'use strict';
@@ -45,7 +45,7 @@ function toHash(v, p) {
 /* ---------- Kopfzeile ---------- */
 function Header({view, go, me, logout}) {
   return html`<header className="hdr dark"><div className="wrap">
-    <a href="#/" aria-label="MyShotCoach für Coaches, Startseite" className="brand-coach"><${Logo} light/><span className="pill volt">Coach</span></a>
+    <a href="#/" aria-label="tennistrainer.app für Coaches, Startseite" className="brand-coach"><${Logo} light/><span className="pill volt">Coach</span></a>
     <nav className="nav" aria-label="Navigation Coach-Bereich">
       ${me ? html`
         <button className=${view === 'dash' && me.tab === 'board' ? 'on' : ''} onClick=${() => go('dash', 'board')}>Anfragen</button>
@@ -115,7 +115,7 @@ function Home({go, anchor}) {
       </svg>
       <div className="wrap hero-in">
         <div className="hero-copy">
-          <p className="label dark-label">MyShotCoach für Trainer:innen</p>
+          <p className="label dark-label">tennistrainer.app für Trainer:innen</p>
           <h1>Coache per Video.<br/><span className="hl">Wann und wo du willst.</span></h1>
           <p className="lead">Spieler:innen schicken dir ein kurzes Video von einem Schlag. Du schaust es dir an, nimmst eine persönliche Video-Antwort auf und bekommst ${PCT} vom Preis.</p>
           <div className="ctas">

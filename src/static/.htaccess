@@ -1,6 +1,17 @@
 # Wird nur ausgewertet, wenn der Webserver .htaccess unterstützt (Apache).
 ErrorDocument 404 /404.html
 
+# tennistrainer.app: eigene Domain im selben Webspace. Die Domain zeigt auf den Ordner /myshotcoach/,
+# toptop.shop bleibt unverändert. www wird auf die Hauptdomain umgeleitet.
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteCond %{HTTP_HOST} ^www\.tennistrainer\.app$ [NC]
+  RewriteRule ^(.*)$ https://tennistrainer.app/$1 [R=301,L]
+  RewriteCond %{HTTP_HOST} ^tennistrainer\.app$ [NC]
+  RewriteCond %{REQUEST_URI} !^/myshotcoach/
+  RewriteRule ^(.*)$ /myshotcoach/$1 [L]
+</IfModule>
+
 # Alte Adressen der ersten Version weiterleiten
 Redirect 301 /impressum.html /impressum/
 Redirect 301 /datenschutz.html /datenschutz/
