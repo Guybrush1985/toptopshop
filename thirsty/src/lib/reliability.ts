@@ -19,7 +19,7 @@ export type Tier = "RELIABLE" | "PROBATION" | "DEPOSIT" | "BLOCKED";
 export const TIER_LABEL: Record<Tier, string> = {
   RELIABLE: "Zuverlässig",
   PROBATION: "Auf Bewährung",
-  DEPOSIT: "Nur mit Kaution",
+  DEPOSIT: "Nur mit Karte",
   BLOCKED: "Gesperrt",
 };
 

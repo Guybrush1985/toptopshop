@@ -6,6 +6,7 @@
 
 import { supabase } from "./supabase";
 import { emptyState, getState, setRemoteState, type Booking, type MemberRole, type Photo, type Restaurant, type Role, type State, type User } from "./store";
+import { SITE_URL } from "./config";
 import type { Tier } from "./reliability";
 import { ActionError } from "./errors";
 
@@ -57,8 +58,11 @@ function mapBooking(b: Row): Booking {
   return {
     id: b.id, spotId: b.spot_id, userId: b.user_id, partySize: b.party_size, code: b.code, status: b.status,
     createdAt: b.created_at, checkedInAt: opt(b.checked_in_at), cancelledAt: opt(b.cancelled_at),
+    guaranteed: b.guaranteed ?? undefined, noShowFeeCents: b.no_show_fee_cents ?? undefined,
   };
 }
+
+const iso = (v: unknown) => (v ? new Date(v as string).toISOString() : undefined);
 
 let loadSeq = 0;
 let latest: Promise<void> = Promise.resolve();
@@ -104,6 +108,17 @@ async function load(seq: number): Promise<boolean> {
     me ? all<Row[]>(db.from("restaurant_billing").select("*")) : none,
     me ? all<Row[]>(db.rpc("my_reliability")) : none,
   ]);
+  // Zahlungen: tolerant laden, damit die App auch ohne eingespielte Zahlungstabellen läuft
+  const soft = <T,>(p: PromiseLike<{ data: T | null; error: unknown }>) =>
+    Promise.resolve(p).then((r) => (r.error ? ([] as unknown as T) : (r.data ?? ([] as unknown as T)))).catch(() => [] as unknown as T);
+  const [flags, bills, payments, cards, accounts, sponsorships] = await Promise.all([
+    soft<Row[]>(db.rpc("payment_flags")),
+    me ? soft<Row[]>(db.from("bills").select("*")) : none,
+    me ? soft<Row[]>(db.from("payments").select("*").order("created_at", { ascending: false }).limit(1000)) : none,
+    me ? soft<Row[]>(db.from("guest_payment_methods").select("user_id, brand, last4, exp_month, exp_year").eq("user_id", me)) : none,
+    me ? soft<Row[]>(db.from("restaurant_accounts").select("*")) : none,
+    me ? soft<Row[]>(db.from("sponsorships").select("*")) : none,
+  ]);
 
   // Portal: Buchungen mit Gastinfos und Team der eigenen Restaurants.
   const myRestaurants = [...new Set(members.filter((m) => m.user_id === me).map((m) => m.restaurant_id as string))];
@@ -111,6 +126,7 @@ async function load(seq: number): Promise<boolean> {
     myRestaurants.map(async (rid) => ({
       bookings: await all<Row[]>(db.rpc("restaurant_bookings", { p_restaurant: rid })),
       team: await all<Row[]>(db.rpc("restaurant_members", { p_restaurant: rid })),
+      extras: await soft<Row[]>(db.rpc("restaurant_booking_extras", { p_restaurant: rid })),
     })),
   );
   if (seq !== loadSeq) return false; // ein neuerer Ladevorgang läuft schon
@@ -135,6 +151,7 @@ async function load(seq: number): Promise<boolean> {
     id: x.id, restaurantId: x.restaurant_id, startsAt: new Date(x.starts_at).toISOString(), endsAt: new Date(x.ends_at).toISOString(),
     seats: x.seats, maxGroupSize: x.max_group_size, discountPercent: x.discount_percent, freebie: opt(x.freebie),
     conditions: opt(x.conditions), bookingCutoffMin: x.booking_cutoff_min, status: x.status,
+    noShowProtection: x.no_show_protection ?? undefined,
   }));
   s.reviews = reviews.map((v) => ({
     id: v.id, bookingId: v.booking_id, restaurantId: v.restaurant_id, authorName: v.author_name, rating: v.rating,
@@ -151,9 +168,10 @@ async function load(seq: number): Promise<boolean> {
   s.events = events.map((e) => ({ id: e.id, userId: e.user_id, bookingId: opt(e.booking_id), kind: e.kind, points: e.points, createdAt: e.created_at }));
   s.favorites = favorites.map((f) => ({ userId: f.user_id, restaurantId: f.restaurant_id }));
 
-  for (const { bookings: rb, team } of portal) {
+  for (const { bookings: rb, team, extras } of portal) {
     for (const b of rb) {
-      if (!s.bookings.some((x) => x.id === b.id)) s.bookings.push(mapBooking(b));
+      const extra = extras.find((e) => e.booking_id === b.id);
+      if (!s.bookings.some((x) => x.id === b.id)) s.bookings.push(mapBooking({ ...b, ...(extra ? { guaranteed: extra.guaranteed, no_show_fee_cents: extra.no_show_fee_cents } : {}) }));
       addUser({ id: b.user_id, name: b.guest_name, dietaryNotes: opt(b.dietary_notes) });
       remote.reliability[b.user_id] ??= { score: -1, tier: b.tier as Tier, blockedUntil: null };
       if (b.has_feedback && !s.feedback.some((f) => f.bookingId === b.id)) s.feedback.push({ bookingId: b.id, positive: true, tags: [] });
@@ -167,6 +185,29 @@ async function load(seq: number): Promise<boolean> {
     remote.reliability[me] = { score: rel[0].score, tier: rel[0].tier, blockedUntil: rel[0].blocked_until ? new Date(rel[0].blocked_until) : null };
   }
   s.users = [...users.values()];
+
+  s.flags = Object.fromEntries(flags.map((f) => [f.restaurant_id, { acceptsAppPayment: !!f.accepts_app_payment, sponsored: !!f.sponsored }]));
+  s.bills = bills.map((b) => ({
+    id: b.id, bookingId: opt(b.booking_id), restaurantId: b.restaurant_id, userId: opt(b.user_id), subtotalCents: b.subtotal_cents,
+    discountPercent: b.discount_percent, discountCents: b.discount_cents, amountCents: b.amount_cents, tipCents: b.tip_cents,
+    feeCents: b.fee_cents, status: b.status, note: opt(b.note), receiptUrl: opt(b.receipt_url), createdAt: b.created_at, paidAt: iso(b.paid_at),
+  }));
+  s.payments = payments.map((p) => ({
+    id: p.id, kind: p.kind, restaurantId: opt(p.restaurant_id), userId: opt(p.user_id), bookingId: opt(p.booking_id), billId: opt(p.bill_id),
+    amountCents: p.amount_cents, feeCents: p.fee_cents, netCents: p.net_cents, tipCents: p.tip_cents, status: p.status,
+    description: opt(p.description), receiptUrl: opt(p.receipt_url), invoiceUrl: opt(p.invoice_url), invoicePdf: opt(p.invoice_pdf),
+    createdAt: p.created_at,
+  }));
+  s.cards = cards.map((c) => ({ userId: c.user_id, brand: opt(c.brand), last4: opt(c.last4), expMonth: opt(c.exp_month), expYear: opt(c.exp_year) }));
+  s.accounts = accounts.map((a) => ({
+    restaurantId: a.restaurant_id, connected: !!a.stripe_account_id, chargesEnabled: a.charges_enabled, payoutsEnabled: a.payouts_enabled,
+    detailsSubmitted: a.details_submitted, plan: a.plan, planStatus: a.plan_status, trialUsed: a.trial_used, trialEnd: iso(a.trial_end),
+    periodEnd: iso(a.current_period_end), cancelAtPeriodEnd: a.cancel_at_period_end, hasCustomer: !!a.stripe_customer_id,
+  }));
+  s.sponsorships = sponsorships.map((x) => ({
+    id: x.id, restaurantId: x.restaurant_id, city: x.city, startsAt: iso(x.starts_at)!, endsAt: iso(x.ends_at)!, days: x.days,
+    amountCents: x.amount_cents, status: x.status, createdAt: x.created_at,
+  }));
   setRemoteState(s);
   return true;
 }
@@ -197,7 +238,7 @@ export async function register(input: { name: string; email: string; password: s
   const { data } = check(await sb().auth.signUp({
     email: input.email,
     password: input.password,
-    options: { data: { name: input.name, role: input.role }, emailRedirectTo: `${window.location.origin}/firsty/login/` },
+    options: { data: { name: input.name, role: input.role }, emailRedirectTo: `${SITE_URL}/login/` },
   }));
   if (!data.session) fail("Fast geschafft: Wir haben dir eine E-Mail geschickt. Bitte bestätige deine Adresse über den Link und melde dich dann an.");
   await refresh();

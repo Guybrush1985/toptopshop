@@ -48,6 +48,23 @@ ausführt. Nach Änderungen in `thirsty/` also immer `npm run site` laufen lasse
 - `src/app/`: Seiten. Gäste: Entdecken, Restaurant, Buchung mit QR-Code, Konto. Portal: Restaurant anlegen, Heute,
   Angebote, Check-in (Kamera oder Code), Profil mit Öffnungszeiten und Standort, Fotos, Speisekarte, Bewertungen, Team.
 
+## Zahlungen und Abrechnung (Stripe)
+
+- Preise und Anteile an einer Stelle: `supabase/functions/_shared/pricing.ts` (5 % Provision, 10 € No-Show-Gebühr je
+  Person mit 30 % für Firsty, Abos Basic 49 € / Pro 99 € netto mit 90 Tagen Testzeit, Werbeplatz 5 € netto pro Tag).
+- Edge Functions: `payments` (alle Aktionen) und `stripe-webhook` (ohne JWT-Prüfung, signiert über Stripe).
+  Secrets: `STRIPE_SECRET_KEY`, `STRIPE_WEBHOOK_SECRET`, `STRIPE_CONNECT_WEBHOOK_SECRET`. Ohne Schlüssel melden die
+  Funktionen „Zahlungen sind noch nicht eingerichtet“, alles andere läuft weiter.
+- Restaurants: Stripe Connect Express, Gäste zahlen per Checkout als Destination Charge; Provision als Application Fee.
+- Portal → Abrechnung: Auszahlungen, Abo, Werbeplatz, Monatsübersicht mit CSV und druckbarem Monatsbeleg.
+- Tests: `bash test/db/start.sh` + `psql … -f test/db/payments.test.sql` (Regeln in SQL) und
+  `DENO=… STRIPE_MOCK=… bash test/functions/run.sh` (Edge Functions gegen stripe-mock).
+
+## App für iOS und Android
+
+Capacitor-Hülle um denselben Code (`npm run app`), Projekte in `ios/` und `android/`. Bauen, Store-Texte,
+Datenschutzangaben und die Checkliste bis zum Start: [docs/STORES.md](docs/STORES.md).
+
 ## Noch offen
 
-AGB und Plattformpflichten, Passwort vergessen, Konto selbst löschen, Zahlungen, Kaution, Abos, Promotion und Erinnerungen.
+Erinnerungen (Push/E-Mail) vor dem Termin.

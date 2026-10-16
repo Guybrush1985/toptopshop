@@ -11,13 +11,14 @@ import { Marquee, useParallax } from "@/components/Parallax";
 import { offerOf, TONE_BG } from "@/lib/offer";
 import { day, priceLevel, time } from "@/lib/format";
 import type { MapPin } from "@/components/CityMap";
+import { flagsOf, SPONSOR_MAX_PER_CITY } from "@/lib/payments";
 
 const CityMap = dynamic(() => import("@/components/CityMap").then((m) => m.CityMap), {
   ssr: false,
   loading: () => <div className="h-full w-full animate-pulse bg-ink-2" />,
 });
 
-type Deal = { r: Restaurant; sp: Spot; left: number; cover?: string };
+type Deal = { r: Restaurant; sp: Spot; left: number; cover?: string; ad?: boolean };
 
 export default function Discover() {
   const s = useStore();
@@ -51,7 +52,7 @@ export default function Discover() {
         .map((x) => ({ x, left: x.seats - seatsTaken(s, x.id) }))
         .filter((x) => x.left > 0)
         .sort((a, b) => a.x.startsAt.localeCompare(b.x.startsAt))[0];
-      if (sp) out.push({ r, sp: sp.x, left: sp.left, cover: s.photos.find((p) => p.restaurantId === r.id && p.kind === "COVER")?.dataUrl });
+      if (sp) out.push({ r, sp: sp.x, left: sp.left, cover: s.photos.find((p) => p.restaurantId === r.id && p.kind === "COVER")?.dataUrl, ad: flagsOf(s, r.id).sponsored });
     }
     return out.sort((a, b) => a.sp.startsAt.localeCompare(b.sp.startsAt));
   }, [s]);
@@ -61,7 +62,12 @@ export default function Discover() {
     return all.map((c) => ({ name: c, n: deals.filter((d) => d.r.city === c).length })).sort((a, b) => b.n - a.n || a.name.localeCompare(b.name));
   }, [s, deals]);
 
-  const inCity = deals.filter((d) => d.r.city === city);
+  // Reihenfolge: bis zu zwei Anzeigen (gekennzeichnet) zuerst, dann nach Uhrzeit des Angebots
+  const inCity = useMemo(() => {
+    const all = deals.filter((d) => d.r.city === city);
+    const ads = all.filter((d) => d.ad).slice(0, SPONSOR_MAX_PER_CITY);
+    return [...ads, ...all.filter((d) => !ads.includes(d)).map((d) => ({ ...d, ad: false }))];
+  }, [deals, city]);
   const pins: MapPin[] = inCity
     .filter((d) => d.r.lat != null && d.r.lng != null)
     .map((d) => ({ id: d.r.id, lat: d.r.lat!, lng: d.r.lng!, label: offerOf(d.sp).pin, tone: offerOf(d.sp).tone, name: d.r.name }));
@@ -150,6 +156,7 @@ export default function Discover() {
             <p className="max-w-xs text-right text-cream/70">
               <span className="font-display text-4xl text-lime">{inCity.length}</span>{" "}
               {inCity.length === 1 ? "Restaurant hat" : "Restaurants haben"} gerade ein Angebot für die ersten Gäste. Tipp auf einen Pin.
+              <span className="mt-1 block text-xs text-cream/40">Sortiert nach Uhrzeit, Anzeigen sind gekennzeichnet.</span>
             </p>
           </div>
 
@@ -194,7 +201,7 @@ export default function Discover() {
           {[
             ["Stadt wählen", "Auf der Karte siehst du sofort, wer heute die ersten Gäste belohnt."],
             ["Platz sichern", "Ein Klick, ein QR-Code. Kostenlos stornierbar bis zwei Stunden vorher."],
-            ["Hingehen, sparen", "QR-Code zeigen, essen, vor Ort zahlen. Das Angebot gilt bis zum Ende des Zeitfensters."],
+            ["Hingehen, sparen", "QR-Code zeigen, essen, in der App oder vor Ort zahlen. Das Angebot gilt bis zum Ende des Zeitfensters."],
           ].map(([t, x], i) => (
             <li key={t} className="bg-ink p-7">
               <span className="display block text-8xl text-lime">0{i + 1}</span>
@@ -240,6 +247,7 @@ function DealCard({ d, onClose }: { d: Deal; onClose: () => void }) {
           <p className="display text-3xl text-cream">{d.r.name}</p>
           <p className="text-sm text-cream/60">
             {[d.r.cuisine, priceLevel(d.r.priceLevel), d.r.street].filter(Boolean).join(" · ")}
+            {d.ad && <span className="chip ml-2">Anzeige</span>}
             {d.r.demo && <span className="chip ml-2">Beispiel</span>}
           </p>
         </div>
@@ -258,7 +266,7 @@ function DealTile({ d, active, onShow }: { d: Deal; active: boolean; onShow: () 
   return (
     <div className={`group overflow-hidden rounded-[1.75rem] border bg-ink-2 transition duration-300 hover:-translate-y-1 ${active ? "border-lime" : "border-white/10"}`}>
       <Link href={`/restaurant/?s=${d.r.slug}`} className="block">
-        <OfferArt discount={d.sp.discountPercent} freebie={d.sp.freebie} photo={d.cover} label={d.r.demo ? "Beispiel" : undefined} className="h-44" />
+        <OfferArt discount={d.sp.discountPercent} freebie={d.sp.freebie} photo={d.cover} label={[d.ad && "Anzeige", d.r.demo && "Beispiel"].filter(Boolean).join(" · ") || undefined} className="h-44" />
         <div className="space-y-1 p-5">
           <p className="display text-3xl text-cream">{d.r.name}</p>
           <p className="text-sm text-cream/60">{[d.r.cuisine, priceLevel(d.r.priceLevel)].filter(Boolean).join(" · ")}</p>

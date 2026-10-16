@@ -13,6 +13,7 @@ import { Media } from "@/components/portal/Media";
 import { Menu } from "@/components/portal/Menu";
 import { Reviews } from "@/components/portal/Reviews";
 import { Team } from "@/components/portal/Team";
+import { Billing } from "@/components/portal/Billing";
 
 const TABS = [
   ["", "Heute", Today],
@@ -23,6 +24,7 @@ const TABS = [
   ["karte", "Speisekarte", Menu],
   ["bewertungen", "Bewertungen", Reviews],
   ["team", "Team", Team],
+  ["abrechnung", "Abrechnung", Billing],
 ] as const;
 
 export default function RestaurantPortalPage() {
