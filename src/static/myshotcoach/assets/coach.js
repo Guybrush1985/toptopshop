@@ -189,11 +189,52 @@ const fromDb = (r, session, extra = {}) => {
   const lic = licenseOf(f);
   return {...SEED_ME, name:[r.first_name, r.last_name].filter(Boolean).join(' ') || r.email, email:r.email, club:r.club || '', city:r.city || '',
     tier:r.tier, license:lic, sports:['tennis'], bio:r.bio || '', langs:r.langs && r.langs.length ? r.langs : ['Deutsch'], awards:[], photo:extra.photo || null,
-    certs:[{n:lic, st:r.status === 'live' ? 'ok' : r.proof_path ? 'review' : 'missing'}], status:r.status, missingProof:r.status === 'missing_proof',
+    certs:[{n:lic, st:r.status === 'live' ? 'ok' : r.proof_path ? 'review' : 'missing'}], status:r.status, missingProof:r.status === 'missing_proof', aiCheck:r.ai_check || null,
     demo:false, real:true, session, db:r};
 };
 const API = window.MSC_API;
-const EMPTY = {password:'', proofFile:null, photoFile:null, first:'', last:'', email:'', phone:'', sports:['tennis'], tier:'', proTour:'ATP', proRank:'', proLic:'', proof:null, club:'', city:'', photo:null, bio:'', langs:['Deutsch']};
+// Status-Box: Profil offline, solange der Nachweis nicht persönlich bestätigt ist; zeigt das Ergebnis der automatischen Vorprüfung
+function ProofStatus({me}) {
+  const a = me.aiCheck;
+  if (a && !(a.plausible && a.name_matches)) return html`<div className="missing-box" role="status"><${Ic} n="doc" size=${22}/><span><b>Profil offline · Nachweis bitte prüfen.</b> Unsere automatische Vorprüfung meldet: ${a.reason} Lade unter „Profil“ einen besser lesbaren oder passenden Nachweis hoch, oder warte auf unsere persönliche Prüfung.</span></div>`;
+  return html`<div className="missing-box ok" role="status"><${Ic} n="shield" size=${22}/><span><b>Profil offline · Nachweis wird geprüft.</b> ${a ? 'Die automatische Vorprüfung ist ohne Auffälligkeiten. ' : ''}Sobald wir ihn persönlich bestätigt haben, schalten wir dein Profil live.</span></div>`;
+}
+/* ---------- Auswahllisten für Stadt und Heimverein (Daten liegen lokal, kein externer Dienst) ---------- */
+let ORTE = null;
+const loadOrte = () => ORTE || (ORTE = fetch(ROOT + 'assets/data-orte.json').then(r => r.json()).then(d => d.orte.map(([n, st]) => ({v:n, sub:d.states[st]}))).catch(() => []));
+const norm = x => x.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/ß/g, 'ss');
+const findCities = async q => {
+  q = norm(q.trim()); if (q.length < 2) return [];
+  const a = [], b = [];
+  for (const it of await loadOrte()) { const n = norm(it.v); if (n.startsWith(q)) a.push(it); else if (b.length < 8 && n.includes(q)) b.push(it); if (a.length >= 8) break; }
+  return a.concat(b).slice(0, 8);
+};
+// Vereine kommen aus unserer Datenbank (OpenStreetMap-Daten), Städte aus einer Datei auf dem eigenen Webspace
+const findClubs = async (q, city) => {
+  if (q.trim().length < 2 && !city.trim()) return [];
+  const rows = await API.clubs(q.trim().length >= 2 ? q : '', city);
+  return (rows || []).map(r => ({v:r.name, sub:r.city, city:r.city}));
+};
+function Combo({id, kind, value, onChange, city = '', placeholder}) {
+  const [hits, setHits] = useState([]); const [open, setOpen] = useState(false); const [hi, setHi] = useState(0);
+  useEffect(() => {
+    if (!open) return; let on = true;
+    const t = setTimeout(() => (kind === 'city' ? findCities(value) : findClubs(value, city)).then(h => on && (setHits(h), setHi(0))), kind === 'city' ? 0 : 220);
+    return () => { on = false; clearTimeout(t); };
+  }, [value, city, open, kind]);
+  const pick = it => { onChange(it.v, it); setOpen(false); };
+  const show = open && hits.length > 0 && !(hits.length === 1 && hits[0].v === value);
+  return html`<div className="combo">
+    <input id=${id} className="inp" role="combobox" aria-expanded=${show} aria-autocomplete="list" aria-controls=${id + '-l'} autoComplete="off" placeholder=${placeholder}
+      value=${value} onFocus=${() => setOpen(true)} onBlur=${() => setTimeout(() => setOpen(false), 150)}
+      onChange=${e => { onChange(e.target.value); setOpen(true); }}
+      onKeyDown=${e => { if (!show) return; if (e.key === 'ArrowDown') { e.preventDefault(); setHi((hi + 1) % hits.length); } else if (e.key === 'ArrowUp') { e.preventDefault(); setHi((hi + hits.length - 1) % hits.length); } else if (e.key === 'Enter') { e.preventDefault(); pick(hits[hi]); } else if (e.key === 'Escape') setOpen(false); }}/>
+    ${show && html`<ul id=${id + '-l'} className="combo-l" role="listbox">${hits.map((it, i) => html`<li key=${it.v + it.sub + i} role="option" aria-selected=${i === hi} className=${i === hi ? 'on' : ''} onMouseDown=${e => { e.preventDefault(); pick(it); }}><b>${it.v}</b>${it.sub && html`<span>${it.sub}</span>`}</li>`)}</ul>`}
+  </div>`;
+}
+const TRAINER_WERDEN = 'https://trainer.tennis.de/de/trainer-werden';
+
+const EMPTY = {password:'', proofFile:null, proofLater:false, photoFile:null, first:'', last:'', email:'', phone:'', sports:['tennis'], tier:'', proTour:'ATP', proRank:'', proLic:'', proof:null, club:'', city:'', photo:null, bio:'', langs:['Deutsch']};
 function Register({go, onDone}) {
   const [step, setStep] = useState(1);
   const [f, setF] = useState(EMPTY);
@@ -213,6 +254,7 @@ function Register({go, onDone}) {
     if (step === 2) {
       if (!f.sports.length) return 'Bitte wähl mindestens eine Sportart.';
       if (!f.tier) return 'Bitte wähl dein Level.';
+      if (!f.proofLater && !f.proofFile) return 'Bitte lade deinen Nachweis hoch oder wähl „Später nachreichen“.';
       if (f.tier === 'P' && !(+f.proRank >= 1 && +f.proRank <= 1000)) return 'Für Ex-Profis gilt: beste Weltranglisten-Platzierung zwischen 1 und 1000.';
     }
     return '';
@@ -229,7 +271,8 @@ function Register({go, onDone}) {
         const patch = {};
         if (f.proofFile) patch.proof_path = await API.upload(r.session, 'nachweis', f.proofFile);
         if (f.photoFile) patch.photo_path = await API.upload(r.session, 'foto', f.photoFile);
-        const row = Object.keys(patch).length ? await API.update(r.session, patch) : await API.profile(r.session);
+        let row = Object.keys(patch).length ? await API.update(r.session, patch) : await API.profile(r.session);
+        if (patch.proof_path) { await API.checkProof(r.session); row = await API.profile(r.session) || row; }
         setSent({session:r.session, row});
       } else setSent({confirm:true});
     } catch (e) { setErr(e.message); }
@@ -284,12 +327,18 @@ function Register({go, onDone}) {
         </div>
         <div className="field"><span className="flabel">Trainerlizenz (optional)</span><div className="seg sm">${[['', 'Keine'], ['C', 'DTB C'], ['B', 'DTB B'], ['A', 'DTB A']].map(([v, l]) => html`<button type="button" key=${v} className=${f.proLic === v ? 'on' : ''} aria-pressed=${f.proLic === v} onClick=${() => set('proLic', v)}>${l}</button>`)}</div></div>
       </div>`}
-      <div className="field"><span className="flabel">${f.tier === 'P' ? 'Nachweis (z. B. Screenshot deines Spielerprofils)' : 'Lizenznachweis'} (optional, für die Freischaltung nötig)</span>
-        <label className="filebtn"><${Ic} n="doc" size=${18}/>${f.proof ? f.proof : 'Foto oder PDF auswählen'}<input id="rg-proof" type="file" accept="image/*,application/pdf" onChange=${e => { const x = e.target.files[0]; if (!x) return; if (x.size > 10 * 1024 * 1024) { setErr('Die Datei ist größer als 10 MB.'); return; } setF(v => ({...v, proof:x.name, proofFile:x})); setErr(''); }}/></label>
-        <span className="note">Ohne Nachweis legen wir dein Profil trotzdem an, schalten es aber erst live, wenn der Nachweis da ist. Du kannst ihn jederzeit nachreichen.</span></div>
+      <div className="field"><span className="flabel">${f.tier === 'P' ? 'Nachweis (z. B. Screenshot deines Spielerprofils)' : 'Lizenznachweis'}</span>
+        <div className="seg sm proof-seg">
+          <button type="button" className=${!f.proofLater ? 'on' : ''} aria-pressed=${!f.proofLater} onClick=${() => set('proofLater', false)}>Jetzt hochladen</button>
+          <button type="button" className=${f.proofLater ? 'on' : ''} aria-pressed=${f.proofLater} onClick=${() => setF(v => ({...v, proofLater:true, proof:null, proofFile:null}))}>Später nachreichen</button></div>
+        ${f.proofLater
+          ? html`<div className="missing-box" role="status"><${Ic} n="doc" size=${22}/><span><b>Dein Profil bleibt offline, bis der Nachweis da ist.</b> Wir legen dein Konto trotzdem an. Den Nachweis lädst du jederzeit unter „Profil“ hoch.</span></div>`
+          : html`<label className="filebtn"><${Ic} n="doc" size=${18}/>${f.proof ? f.proof : 'Foto oder PDF auswählen'}<input id="rg-proof" type="file" accept="image/*,application/pdf" onChange=${e => { const x = e.target.files[0]; if (!x) return; if (x.size > 10 * 1024 * 1024) { setErr('Die Datei ist größer als 10 MB.'); return; } setF(v => ({...v, proof:x.name, proofFile:x})); setErr(''); }}/></label>
+            <span className="note">Wir prüfen den Nachweis zuerst automatisch und dann persönlich, bevor dein Profil live geht.</span>`}</div>
+      ${f.tier && f.tier !== 'P' && html`<a className="become" href=${TRAINER_WERDEN} target="_blank" rel="noopener"><${Ic} n="shield" size=${20}/><span><b>Noch kein Trainer?</b> Jetzt Trainer werden: So kommst du beim DTB zur Lizenz.</span><${Ic} n="arrow" size=${16}/></a>`}
       <div className="two">
-        <div className="field"><label htmlFor="rg-club">Heimverein (optional)</label><input id="rg-club" className="inp" value=${f.club} onChange=${e => set('club', e.target.value)}/></div>
-        <div className="field"><label htmlFor="rg-city">Stadt (optional)</label><input id="rg-city" className="inp" autoComplete="address-level2" value=${f.city} onChange=${e => set('city', e.target.value)}/></div>
+        <div className="field"><label htmlFor="rg-city">Stadt (optional)</label><${Combo} id="rg-city" kind="city" placeholder="Stadt suchen" value=${f.city} onChange=${v => set('city', v)}/></div>
+        <div className="field"><label htmlFor="rg-club">Heimverein (optional)</label><${Combo} id="rg-club" kind="club" city=${f.city} placeholder="Verein suchen" value=${f.club} onChange=${(v, it) => { set('club', v); if (it && it.city && !f.city) set('city', it.city); }}/><span className="note">Nicht in der Liste? Tipp den Namen einfach ein. Vereinsdaten © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a>-Mitwirkende.</span></div>
       </div>
     </div>`}
 
@@ -309,7 +358,7 @@ function Register({go, onDone}) {
           <div><dt>Sportarten</dt><dd>${f.sports.map(s => sportById(s).name).join(', ')}</dd></div>
           <div><dt>Level</dt><dd>${tierById(f.tier).name}</dd></div>
           <div><dt>Lizenz</dt><dd className="wrapany">${licenseOf(f)}</dd></div>
-          <div><dt>Nachweis</dt><dd>${f.proof ? f.proof : html`<span className="pill warn">fehlt · Profil noch nicht live</span>`}</dd></div>
+          <div><dt>Nachweis</dt><dd>${f.proof ? f.proof : html`<span className="pill err">kommt später · Profil bleibt offline</span>`}</dd></div>
           <div><dt>Heimverein</dt><dd>${[f.club, f.city].filter(Boolean).join(', ') || '-'}</dd></div>
           <div><dt>Sprachen</dt><dd>${f.langs.join(', ') || '-'}</dd></div>
           <div className="total"><dt>Dein Anteil pro Antwort</dt><dd className="num">${fmtEUR(payout(tierById(f.tier).price))}</dd></div>
@@ -369,8 +418,8 @@ function Dash({tab, go, me, setMe, board, jobs, claim, openJob, earn, toast}) {
   return html`<div className="wrap page">
     <div className="page-h"><div><p className="label">Coach-Bereich</p><h1>Hallo ${me.name.split(' ')[0]}</h1></div>
       <button className=${'switch' + (me.active ? ' on' : '')} onClick=${() => setMe({...me, active:!me.active})} aria-pressed=${me.active}><span className="knob" aria-hidden="true"></span>${me.active ? 'Nimmt Anfragen an' : 'Pausiert'}</button></div>
-    ${me.status === 'in_review' && html`<div className="missing-box ok" role="status"><${Ic} n="shield" size=${22}/><span><b>Dein Nachweis wird geprüft.</b> Sobald wir ihn bestätigt haben, schalten wir dein Profil live.</span></div>`}
-    ${me.missingProof && html`<div className="missing-box" role="status"><${Ic} n="doc" size=${22}/><span><b>Dein Profil ist noch nicht live.</b> Es fehlt dein ${me.tier === 'P' ? 'Nachweis zur Weltranglisten-Platzierung' : 'Lizenznachweis'}. Lade ihn unter „Profil“ hoch, dann prüfen wir ihn und schalten dich frei.</span></div>`}
+    ${me.status === 'in_review' && html`<${ProofStatus} me=${me}/>`}
+    ${me.missingProof && html`<div className="missing-box" role="status"><${Ic} n="doc" size=${22}/><span><b>Profil offline · Nachweis fehlt.</b> Es fehlt dein ${me.tier === 'P' ? 'Nachweis zur Weltranglisten-Platzierung' : 'Lizenznachweis'}. Lade ihn unter „Profil“ hoch, dann prüfen wir ihn und schalten dich frei.</span></div>`}
     <p className="ex-banner">${me.real ? 'Dein Konto ist echt. Anfragen, Aufträge und Verdienst sind bis zum Start noch Beispieldaten.' : 'Vorschau: Anfragen, Aufträge und Verdienst sind Beispieldaten. So sieht der Bereich für Coaches zum Start aus.'}</p>
     <div className="dash-k">
       <div><small>Verdienst Oktober</small><b className="num">${fmtEUR(earn)}</b></div>
@@ -461,7 +510,7 @@ function ProfileEditor({me, setMe, toast}) {
     if (!me.real) { set('certs', [...d.certs, {n:f.name.replace(/\.[^.]+$/, ''), st:'review'}]); return; }
     if (f.size > 10 * 1024 * 1024) { setPerr('Die Datei ist größer als 10 MB.'); return; }
     setBusy(true); setPerr('');
-    try { const path = await API.upload(me.session, 'nachweis', f); const row = await API.update(me.session, {proof_path:path}); const m = fromDb(row, me.session, {photo:d.photo}); setMe(m); setD(m); toast('Nachweis hochgeladen. Wir prüfen ihn.'); }
+    try { const path = await API.upload(me.session, 'nachweis', f); let row = await API.update(me.session, {proof_path:path}); toast('Nachweis hochgeladen. Wir prüfen ihn kurz automatisch …'); await API.checkProof(me.session); row = await API.profile(me.session) || row; const m = fromDb(row, me.session, {photo:d.photo}); setMe(m); setD(m); toast(m.aiCheck && m.aiCheck.plausible ? 'Nachweis sieht gut aus. Wir schalten dich nach der persönlichen Prüfung frei.' : 'Nachweis hochgeladen. Wir prüfen ihn.'); }
     catch (x) { setPerr(x.message); }
     setBusy(false);
   }; const [award, setAward] = useState(''); const [lang, setLang] = useState('');
@@ -474,8 +523,8 @@ function ProfileEditor({me, setMe, toast}) {
         <div className="stack sm-gap"><b>Profilfoto</b><label className="filebtn"><${Ic} n="cam" size=${18}/>Foto auswählen<input id="photo-in" type="file" accept="image/*" onChange=${onPhoto}/></label><span className="note">Am besten ein Bild auf dem Court. In der Vorschau bleibt es auf deinem Gerät.</span></div></div>
       <div className="two">
         <div className="field"><label htmlFor="n-in">Name</label><input id="n-in" className="inp" value=${d.name} onChange=${e => set('name', e.target.value)}/></div>
-        <div className="field"><label htmlFor="c-in">Heimverein</label><input id="c-in" className="inp" value=${d.club} onChange=${e => set('club', e.target.value)}/></div>
-        <div className="field"><label htmlFor="ci-in">Stadt</label><input id="ci-in" className="inp" value=${d.city} onChange=${e => set('city', e.target.value)}/></div>
+        <div className="field"><label htmlFor="c-in">Heimverein</label><${Combo} id="c-in" kind="club" city=${d.city} placeholder="Verein suchen" value=${d.club} onChange=${(v, it) => { set('club', v); if (it && it.city && !d.city) set('city', it.city); }}/></div>
+        <div className="field"><label htmlFor="ci-in">Stadt</label><${Combo} id="ci-in" kind="city" placeholder="Stadt suchen" value=${d.city} onChange=${v => set('city', v)}/></div>
         <div className="field"><label htmlFor="t-sel">Level</label><select id="t-sel" className="inp" value=${d.tier} disabled=${me.real} onChange=${e => set('tier', e.target.value)}>${TIERS.map(x => html`<option key=${x.id} value=${x.id}>${x.name}</option>`)}</select></div>
       </div>
       <div className="price-info"><span>Dein Preis pro Video-Antwort</span><b className="num">${fmtEUR(t.price)}</b><span className="muted">Du erhältst ${fmtEUR(payout(t.price))} (${PCT}). Ein höheres Level schalten wir nach Prüfung der Lizenz frei.</span></div>

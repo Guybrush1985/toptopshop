@@ -758,3 +758,13 @@ body > footer a { color: rgba(255,255,255,.85); }
 @media (max-width: 1080px) { .guide { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (max-width: 520px) { .guide { grid-template-columns: minmax(0, 1fr); } }
 .missing-box.ok { background: var(--bg-2); color: var(--ink); } .missing-box.ok svg { color: var(--ok); }
+/* Auswahllisten Stadt/Verein */
+.combo { position: relative; }
+.combo-l { position: absolute; z-index: 30; left: 0; right: 0; top: calc(100% + 4px); margin: 0; padding: 4px; list-style: none; background: #fff; border: 1px solid var(--line, #D9DDE1); border-radius: var(--r); box-shadow: 0 12px 30px rgba(11,15,20,.14); max-height: 300px; overflow: auto; }
+.combo-l li { display: flex; flex-direction: column; gap: 1px; padding: 8px 10px; border-radius: 8px; cursor: pointer; font-size: 14.5px; }
+.combo-l li span { font-size: 12.5px; color: var(--muted, #5B636B); }
+.combo-l li.on, .combo-l li:hover { background: var(--bg-2, #F2F4F5); }
+.proof-seg { margin-bottom: 10px; }
+.become { display: flex; gap: 12px; align-items: center; padding: 14px 16px; border-radius: var(--r); background: #0B0F14; color: #fff; text-decoration: none; font-size: 14.5px; }
+.become svg:first-child { color: #D4F53C; flex: none; } .become span { flex: 1; } .become b { color: #D4F53C; }
+.become:hover { background: #1A2129; }
