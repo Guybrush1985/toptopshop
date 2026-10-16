@@ -338,7 +338,7 @@ img.portrait { width: 100%; height: 100%; }
 .strokes { display: grid; grid-template-columns: repeat(auto-fill, minmax(132px, 1fr)); gap: 12px; }
 .stroke { display: grid; justify-items: center; gap: 8px; padding: 18px 10px 14px; border-radius: var(--r-lg); border: 1px solid var(--line); background: #fff; font-weight: 600; font-size: 14.5px; text-align: center; color: var(--ink); transition: border-color .15s, background .15s, transform .15s var(--ease); }
 .stroke:hover { border-color: var(--ink-3); transform: translateY(-2px); }
-.stroke .si { width: 56px; height: 56px; color: var(--ink); }
+.stroke .si { width: 92px; height: 104px; color: var(--ink); }
 .si-ball { fill: currentColor; }
 .stroke .si-ball { fill: #C9A800; }
 .stroke.on { background: var(--ink); color: #fff; border-color: var(--ink); }
@@ -360,7 +360,7 @@ img.portrait { width: 100%; height: 100%; }
 .file { display: inline-flex; align-items: center; gap: 8px; font-weight: 600; min-width: 0; overflow-wrap: anywhere; }
 .drop + .err, .vprev-wrap + .err { margin-top: 12px; }
 .drop ~ .note, .vprev-wrap ~ .note { margin-top: 12px; }
-.tips { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px; margin: 22px 0 24px; }
+.tips { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; margin: 22px 0 24px; }
 .tip { display: flex; gap: 10px; align-items: flex-start; padding: 14px; border-radius: var(--r); border: 1px solid var(--line); font-size: 13.5px; color: var(--ink-2); }
 .tip svg { flex: none; color: var(--ink); }
 .tip b { display: block; color: var(--ink); font-size: 14px; }
@@ -625,7 +625,7 @@ body > footer a { color: rgba(255,255,255,.85); }
   .steps.four { grid-template-columns: minmax(0, 1fr); }
   .strokes { grid-template-columns: repeat(auto-fill, minmax(104px, 1fr)); gap: 10px; }
   .stroke { padding: 14px 6px 12px; font-size: 13.5px; }
-  .stroke .si { width: 46px; height: 46px; }
+  .stroke .si { width: 66px; height: 70px; }
   .hm-card { display: none; }
   .hm-thumb { width: 80px; }
   .vf-pip { right: 10px; top: 10px; }
@@ -671,3 +671,70 @@ body > footer a { color: rgba(255,255,255,.85); }
   .marks .draw { stroke-dashoffset: 0; }
   .marks .zone, .marks g, .marks .tip, .ovl { opacity: 1; }
 }
+
+/* Handy-Bühne im Hero */
+.stage { position: relative; aspect-ratio: 16 / 12; border-radius: 22px; overflow: hidden; background: #0B0F14; box-shadow: var(--sh-lg); transform: translate3d(0, calc(var(--sy, 0) * -.04px), 0); }
+.stage-bg { position: absolute; inset: -40px; filter: blur(16px) saturate(.9) brightness(.62); transform: scale(1.25); }
+.stage-bg .side-scene { width: 100%; height: 100%; }
+.stage-rig { position: absolute; left: 50%; top: 13%; width: 80%; transform: translateX(-50%); }
+.stage-phone { position: relative; z-index: 1; aspect-ratio: 19.5 / 9; padding: 2.2%; border-radius: 9% / 19%; background: linear-gradient(145deg, #2A3038, #0E1116); box-shadow: 0 26px 60px rgba(0,0,0,.55), inset 0 0 0 1.5px rgba(255,255,255,.12); }
+.ph-screen { position: relative; width: 100%; height: 100%; border-radius: 7% / 15%; overflow: hidden; background: #000; }
+.ph-screen .side-scene { width: 100%; height: 100%; display: block; }
+.ph-rec { position: absolute; left: 3.5%; top: 6%; display: inline-flex; align-items: center; gap: 6px; padding: 3px 9px; border-radius: 6px; background: rgba(11,15,20,.6); color: #fff; font-size: 12px; font-weight: 700; letter-spacing: .04em; }
+.ph-rec i { width: 8px; height: 8px; border-radius: 50%; background: #FF3B30; animation: blink 1.2s infinite; }
+.ph-count { position: absolute; right: 9%; top: 6%; padding: 3px 9px; border-radius: 6px; background: var(--volt); color: var(--ink); font-size: 12px; font-weight: 700; }
+.ph-corners { position: absolute; inset: 14% 22% 10% 10%; border: 2px solid rgba(255,255,255,.55); border-radius: 6px; -webkit-mask: linear-gradient(#000 0 0) top left / 18% 22% no-repeat, linear-gradient(#000 0 0) top right / 18% 22% no-repeat, linear-gradient(#000 0 0) bottom left / 18% 22% no-repeat, linear-gradient(#000 0 0) bottom right / 18% 22% no-repeat; mask: linear-gradient(#000 0 0) top left / 18% 22% no-repeat, linear-gradient(#000 0 0) top right / 18% 22% no-repeat, linear-gradient(#000 0 0) bottom left / 18% 22% no-repeat, linear-gradient(#000 0 0) bottom right / 18% 22% no-repeat; }
+.ph-shutter { position: absolute; right: 2.5%; top: 50%; width: 9%; aspect-ratio: 1; transform: translateY(-50%); border-radius: 50%; border: 3px solid #fff; background: radial-gradient(circle, #FF3B30 0 48%, transparent 50%); }
+.stage-tripod { position: relative; display: block; width: 46%; margin: -2px auto 0; filter: blur(.6px); }
+.stage .hm-card { left: auto; right: 4%; top: auto; bottom: 5%; z-index: 2; transform: none; }
+.stage .hm-card .pip-av { width: 46px; height: 46px; }
+@keyframes blink { 50% { opacity: .25; } }
+
+/* Schläge auf der Startseite und Filmanleitung */
+.home-strokes { grid-template-columns: repeat(6, minmax(0, 1fr)); }
+.st-ic .fi { width: 44px; height: 44px; color: var(--ink); }
+.fi { display: block; }
+.tip-ic { flex: none; width: 64px; color: var(--ink); }
+.tip-ic .fi { width: 64px; height: auto; }
+.tip .tip-ic svg { color: var(--ink); }
+.film-guide { list-style: none; margin: 0 0 24px; padding: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; }
+.film-guide li { display: grid; grid-template-columns: 68px minmax(0, 1fr); gap: 12px; align-items: center; padding: 12px; border-radius: var(--r); background: var(--bg-2); font-size: 13.5px; }
+.film-guide li > span:last-child { display: grid; gap: 2px; }
+.film-guide b { font-size: 14px; display: flex; gap: 8px; align-items: baseline; }
+.film-guide b .num { display: inline-grid; place-items: center; width: 20px; height: 20px; border-radius: 50%; background: var(--ink); color: #fff; font-size: 11px; flex: none; }
+.fg-ic .fi { width: 68px; height: 68px; color: var(--ink); }
+.film-ans p { margin-top: 0; }
+.film-ans .film-guide { margin-bottom: 8px; }
+
+/* Bezahlen und Guthaben */
+.pay-list { display: grid; gap: 8px; margin: 4px 0 14px; }
+.pay { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; gap: 12px; align-items: center; text-align: left; padding: 12px 14px; border-radius: var(--r); border: 1px solid var(--line-2); background: #fff; color: var(--ink); font-weight: 600; }
+.pay:hover { border-color: var(--ink-3); }
+.pay.on { border-color: var(--ink); box-shadow: 0 0 0 1px var(--ink); }
+.pay .radio { width: 18px; height: 18px; border-radius: 50%; border: 1.5px solid var(--line-2); }
+.pay.on .radio { border-color: var(--ink); background: radial-gradient(circle, var(--ink) 0 4.5px, transparent 5px); }
+.pay-l { display: grid; gap: 1px; }
+.pay-l small { font-weight: 500; font-size: 12.5px; }
+.paymark { font-size: 12px; font-weight: 800; padding: 3px 8px; border-radius: 6px; border: 1px solid var(--line-2); color: var(--ink-2); letter-spacing: .01em; white-space: nowrap; }
+.pm-paypal { color: #003087; } .pm-apple, .pm-google { color: var(--ink); } .pm-card { color: #1A1F71; } .pm-balance { background: var(--volt); border-color: var(--volt); color: var(--ink); }
+.lnk-btn { color: inherit; font-weight: 700; text-decoration: underline; padding: 0; }
+.order .btn[disabled] { opacity: .45; cursor: not-allowed; }
+.wallet { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; gap: 16px; align-items: center; margin-bottom: 18px; }
+.wl-t { display: grid; gap: 2px; }
+.wl-t b { font-size: 26px; font-weight: 800; }
+.seg.amt { margin: 16px 0 14px; }
+.seg.amt button { padding: 0 20px; }
+
+@media (max-width: 1080px) { .home-strokes { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+@media (max-width: 860px) {
+  .tips, .film-guide { grid-template-columns: minmax(0, 1fr); }
+  .stage .hm-card { position: absolute; margin: 0; }
+}
+@media (max-width: 520px) {
+  .home-strokes { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .stage { aspect-ratio: 4 / 3.6; border-radius: 16px; }
+  .stage-rig { width: 92%; top: 10%; }
+  .stage .hm-card { display: none; }
+  .wallet { grid-template-columns: minmax(0, 1fr) auto; } .wallet .drop-ic { display: none; }
+}
+@media (prefers-reduced-motion: reduce) { .ph-rec i { animation: none; } .stage { transform: none; } }

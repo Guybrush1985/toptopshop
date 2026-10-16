@@ -2,14 +2,14 @@
 (function () {
 'use strict';
 const {useState, useEffect, useRef} = React;
-const {html, ROOT, SPORTS, sportById, strokeOf, TIERS, tierById, COACHES, coachById, REVIEWS, fmtEUR, fmtNum,
-  Ic, Stars, StrokeIcon, Portrait, Logo, CourtScene, VideoFrame, ExBadge, Modal, useToast, useHashRoute, hashParts,
+const {html, ROOT, SPORTS, sportById, strokeOf, TIERS, LEVELS, TIER_ORDER, tierById, COACHES, coachById, REVIEWS, fmtEUR, fmtNum,
+  Ic, Stars, StrokeIcon, PhoneFrameIcon, TopDown, FilmGuide, PhoneStage, Portrait, Logo, CourtScene, VideoFrame, ExBadge, Modal, useToast, useHashRoute, hashParts,
   navigate, useScrollTo, useMotion, Footer, DemoBar, mount} = window.MSC;
 
 const SEED_REQ = [
   {id:'r1', sport:'tennis', stroke:'kick', coach:'lena', tier:'A', price:29, status:'done', date:'12.10.2026', note:'Mein Kick springt kaum hoch.', rated:false,
    answer:{dur:'4:12', chapters:[['0:00', 'Erster Eindruck', 0], ['0:48', 'Ballwurf', .19], ['1:52', 'Knie und Absprung', .44], ['2:57', 'Treffpunkt', .7], ['3:41', 'Deine Übungen', .88]]}},
-  {id:'r2', sport:'padel', stroke:'ban', coach:'marco', tier:'B', price:19, status:'progress', date:'14.10.2026', note:'Meine Bandeja landet oft im Netz.'},
+  {id:'r2', sport:'tennis', stroke:'vh', coach:'marco', tier:'B', price:19, status:'progress', date:'14.10.2026', note:'Meine Vorhand landet oft im Netz.'},
 ];
 
 /* ---------- Routing: #/coaches, #/coaches/lena, #/upload/tennis … ---------- */
@@ -19,7 +19,8 @@ function parseHash() {
     case 'coaches': return coachById(b) ? {view:'coach', param:b} : {view:'coaches'};
     case 'upload':
       if (b === 'coach' && coachById(c)) return {view:'submit', param:{coach:c}};
-      if (b === 'level' && TIERS.some(t => t.id === c)) return {view:'submit', param:{tier:c}};
+      if (b === 'level' && LEVELS.some(t => t.id === c)) return {view:'submit', param:{tier:c}};
+      if (b === 'schlag' && SPORTS[0].strokes.some(x => x[0] === c)) return {view:'submit', param:{stroke:c}};
       return {view:'submit', param: SPORTS.some(s => s.id === b) ? {sport:b} : {}};
     case 'meine-videos': return {view:'mine'};
     case 'so-gehts': case 'preise': case 'faq': return {view:'home', anchor:a};
@@ -29,7 +30,7 @@ function parseHash() {
 function toHash(v, p) {
   if (v === 'coaches') return '#/coaches';
   if (v === 'coach') return '#/coaches/' + p;
-  if (v === 'submit') return p && p.coach ? '#/upload/coach/' + p.coach : p && p.tier ? '#/upload/level/' + p.tier : p && p.sport ? '#/upload/' + p.sport : '#/upload';
+  if (v === 'submit') return p && p.coach ? '#/upload/coach/' + p.coach : p && p.tier ? '#/upload/level/' + p.tier : p && p.stroke ? '#/upload/schlag/' + p.stroke : p && p.sport ? '#/upload/' + p.sport : '#/upload';
   if (v === 'mine') return '#/meine-videos';
   if (v === 'home' && p) return '#/' + p;
   return '#/';
@@ -66,12 +67,19 @@ function TabBar({view, go}) {
 /* ---------- Startseite ---------- */
 const HERO_CHAPTERS = [['0:00', 'Erster Eindruck', 0], ['0:41', 'Ausholbewegung', .16], ['1:52', 'Treffpunkt', .44], ['3:05', 'Deine Übungen', .74]];
 const FAQ = [
-  ['Wie filme ich meinen Schlag richtig?', 'Stell dein Handy seitlich auf Hüfthöhe und film im Querformat. Dein ganzer Körper sollte im Bild sein. Fünf bis zehn Wiederholungen reichen, insgesamt höchstens 60 Sekunden.'],
+  ['Wie filme ich meinen Schlag richtig?', 'guide'],
   ['Wie bekomme ich die Antwort?', 'Als Video unter „Meine Videos“. Dein Trainer spricht dich direkt an, geht dein Video in Zeitlupe durch, zeigt dir, was schon gut ist und was du ändern solltest, und gibt dir Übungen mit. Sobald die Antwort da ist, bekommst du eine E-Mail.'],
-  ['Was passiert, wenn kein Trainer antwortet?', 'Kommt innerhalb von 72 Stunden keine Video-Antwort, bekommst du dein Geld vollständig zurück.'],
+  ['Wie bezahle ich?', 'Direkt beim Abschicken mit PayPal, Apple Pay, Google Pay oder Kreditkarte. Oder du lädst dein Guthaben auf und zahlst jede Einschätzung mit einem Klick davon. Kein Abo, keine Grundgebühr.'],
+  ['Was passiert, wenn kein Trainer antwortet?', 'Übernimmt innerhalb von 72 Stunden kein Coach deine Anfrage oder kommt die Video-Antwort nicht rechtzeitig, bekommst du den vollen Betrag automatisch zurück: auf dein Zahlungsmittel oder, wenn du mit Guthaben bezahlt hast, auf dein Guthaben.'],
   ['Wer sieht mein Video?', 'Nur Trainer der Stufe, die du gewählt hast, solange deine Anfrage offen ist, und danach nur der Trainer, der sie übernommen hat. Dein Video wird nicht öffentlich gezeigt. In der Vorschau verlässt dein Video dein Gerät überhaupt nicht.'],
   ['Wie werden die Trainer geprüft?', 'Jeder Coach schickt uns vor der Freischaltung seinen Lizenznachweis. Im Profil siehst du Lizenz, Heimverein und die Bewertungen anderer Spieler:innen, die bei diesem Coach gebucht haben.'],
 ];
+function FilmAnswer() {
+  return html`<div className="film-ans">
+    <p>Stell dein Handy auf ein Stativ (oder lehn es an die Tasche) auf Hüfthöhe und film im Querformat. Du solltest mit Schläger komplett im Bild sein. Dann filmst du rundherum: 15 Schläge, je 5 aus drei Richtungen. Insgesamt reichen 2 Minuten.</p>
+    <${FilmGuide}/>
+  </div>`;
+}
 function Home({go, anchor}) {
   const ref = useRef(null);
   useMotion(ref); useScrollTo(anchor);
@@ -83,58 +91,55 @@ function Home({go, anchor}) {
       </svg>
       <div className="wrap hero-in">
         <div className="hero-copy">
-          <p className="label dark-label"><span className="dots" aria-hidden="true">${SPORTS.map(s => html`<i key=${s.id} style=${{background:s.color}}></i>`)}</span>Tennis · Padel · Tischtennis · Pickleball</p>
-          <h1>Dein Schlag.<br/>Bewertet von <span className="hl">echten Trainern.</span></h1>
-          <p className="lead">Film einen Schlag mit dem Handy und lade das Video hoch. Ein lizenzierter Trainer schaut es sich an und schickt dir eine persönliche Video-Antwort.</p>
+          <p className="label dark-label">Tennis · Video-Coaching</p>
+          <h1>Kurs zu teuer?<br/>Kein Trainer zur Hand?<br/><span className="hl">Nur eine konkrete Frage?</span></h1>
+          <p className="lead">Dann ist MyShotCoach das Richtige für dich. Film deinen Schlag mit dem Handy, lade das Video hoch und bekomm eine persönliche Video-Antwort von einem echten Trainer. Ab 9 € für ein Feedback zu deiner Technik.</p>
           <div className="ctas">
             <button className="btn volt lg" onClick=${() => go('submit')}><${Ic} n="upload"/>Video hochladen</button>
             <button className="btn ondark lg" onClick=${() => go('home', 'so-gehts')}>So funktioniert's</button>
           </div>
           <ul className="trust">
-            <li><${Ic} n="check" size=${16}/>Ab 9,99 € pro Schlag</li>
+            <li><${Ic} n="check" size=${16}/>Ab 9 € pro Einschätzung</li>
             <li><${Ic} n="check" size=${16}/>Antwort in 72 Std. oder Geld zurück</li>
             <li><${Ic} n="check" size=${16}/>Kein Abo</li>
           </ul>
         </div>
-        <div className="hero-media" role="img" aria-label="Beispiel einer Video-Antwort: Eine Trainerin markiert im Video, wo der Ball landet und wo er landen sollte.">
-          <div className="hm-main"><${VideoFrame} sport="tennis" marks coach=${lena} chapters=${HERO_CHAPTERS} active=${2} label="Beispiel · Video-Antwort einer A-Trainerin"/></div>
-          <div className="hm-card">
-            <div className="hm-thumb"><${CourtScene} sport="tennis"/><span className="vf-play sm"><${Ic} n="play" size=${14} sw=${0} style=${{fill:'currentColor'}}/></span></div>
-            <div><b>Vorhand</b><span>Dein Video · 0:24</span><span className="ok"><${Ic} n="check" size=${14}/>Hochgeladen</span></div>
-          </div>
+        <div className="hero-media" role="img" aria-label="Ein Handy auf einem Stativ filmt einen Tennisspieler bei der Vorhand. Auf dem Display ist er komplett im Bild, die Umgebung ist unscharf.">
+          <${PhoneStage}>
+            <div className="hm-card">
+              <span className="pip-av"><${Portrait} c=${lena} round/></span>
+              <div><b>Video-Antwort von Lena</b><span>A-Trainerin · 4:12</span><span className="ok"><${Ic} n="check" size=${14}/>Antwort ist da</span></div>
+            </div>
+          <//>
         </div>
       </div>
     </section>
 
-    <section className="sec" id="sportarten"><div className="wrap">
-      <div className="sec-h rv"><div><p className="label">Sportarten</p><h2>Ein Schlag. Vier Sportarten.</h2></div><p className="muted">Wähl deine Sportart und tipp den Schlag an, den du verbessern willst. Von der Vorhand bis zum Third Shot Drop.</p></div>
-      <div className="sport-grid">
-        ${SPORTS.map(s => html`<button key=${s.id} className="sport-card rv" onClick=${() => go('submit', {sport:s.id})}>
-          <span className="sc-img"><${CourtScene} sport=${s.id}/></span>
-          <span className="sc-bd"><b>${s.name}</b><span className="muted">${s.strokes.length} Schläge, z. B. ${s.strokes.slice(0, 3).map(x => x[1]).join(', ')}</span></span>
-          <span className="sc-go"><${Ic} n="arrow" size=${18}/></span>
-        </button>`)}
+    <section className="sec" id="schlaege"><div className="wrap">
+      <div className="sec-h rv"><div><p className="label">Schläge</p><h2>Welcher Schlag soll besser werden?</h2></div><p className="muted">Tipp den Schlag an, zu dem du eine Einschätzung willst. Von der Vorhand bis zum Kick-Aufschlag.</p></div>
+      <div className="strokes home-strokes rv">
+        ${SPORTS[0].strokes.map(([id, name, icon]) => html`<button key=${id} className="stroke" onClick=${() => go('submit', {stroke:id})}><${StrokeIcon} k=${icon}/><span>${name}</span></button>`)}
       </div>
     </div></section>
 
     <section className="sec alt" id="so-gehts"><div className="wrap">
       <div className="sec-h rv"><div><p className="label">So funktioniert's</p><h2>Drei Schritte zu deiner Video-Antwort</h2></div><p className="muted">Kein Abo, kein Termin, keine Anfahrt. Du brauchst nur dein Handy und ein paar Sekunden Video.</p></div>
       <ol className="steps">
-        <li className="step rv"><span className="n num">01</span><span className="st-ic"><${StrokeIcon} k="fh"/></span><h3>Schlag auswählen</h3><p className="muted">Sportart wählen und per Icon antippen, welchen Schlag du verbessern willst.</p></li>
-        <li className="step rv"><span className="n num">02</span><span className="st-ic"><${Ic} n="upload" size=${30} sw=${1.6}/></span><h3>Video hochladen</h3><p className="muted">Seitlich filmen, ganzer Körper im Bild, fünf bis zehn Wiederholungen. 60 Sekunden reichen.</p></li>
+        <li className="step rv"><span className="n num">01</span><span className="st-ic"><${StrokeIcon} k="fh"/></span><h3>Schlag auswählen</h3><p className="muted">Per Icon antippen, welchen Schlag du verbessern willst.</p></li>
+        <li className="step rv"><span className="n num">02</span><span className="st-ic"><${TopDown} ring/></span><h3>Rundherum filmen</h3><p className="muted">Handy aufs Stativ, ganzer Körper im Bild. Je 5 Schläge von der Seite, von hinten und von der anderen Seite.</p></li>
         <li className="step rv"><span className="n num">03</span><span className="st-ic"><${Ic} n="video" size=${30} sw=${1.6}/></span><h3>Video-Antwort bekommen</h3><p className="muted">Dein Trainer spricht dich direkt an, zeigt dir in Zeitlupe, was gut ist und was du ändern solltest, und gibt dir Übungen mit.</p></li>
       </ol>
     </div></section>
 
     <section className="sec" id="preise"><div className="wrap">
-      <div className="sec-h rv"><div><p className="label">Preise</p><h2>Ein Schlag, eine Video-Antwort</h2></div><p className="muted">Du zahlst pro Schlag. Kommt nach 72 Stunden keine Antwort, bekommst du dein Geld zurück.</p></div>
+      <div className="sec-h rv"><div><p className="label">Preise</p><h2>Ein Schlag, eine Video-Antwort</h2></div><p className="muted">Du zahlst pro Einschätzung, mit PayPal, Apple Pay, Google Pay, Kreditkarte oder Guthaben. Nimmt kein Coach an, bekommst du dein Geld zurück.</p></div>
       <div className="tiers">
-        ${TIERS.map(t => html`<div key=${t.id} className=${'tier rv' + (t.id === 'B' ? ' feat' : '')}>
+        ${LEVELS.map(t => html`<div key=${t.id} className=${'tier rv' + (t.id === 'B' ? ' feat' : '')}>
           ${t.id === 'B' && html`<span className="tag">Beliebt</span>`}
           <p className="label">Einschätzung vom</p>
           <h3>${t.name}</h3>
           <p className="tier-ex">${t.ex}</p>
-          <p className="price"><b className="num">${fmtEUR(t.price)}</b><span>pro Schlag</span></p>
+          <p className="price"><b className="num">${fmtEUR(t.price)}</b><span>pro Einschätzung</span></p>
           <ul>
             <li><${Ic} n="check" size=${16}/>Persönliche Video-Antwort</li>
             <li><${Ic} n="check" size=${16}/>Antwort in höchstens 72 Stunden</li>
@@ -143,7 +148,7 @@ function Home({go, anchor}) {
           <button className=${'btn ' + (t.id === 'B' ? 'volt' : 'pri')} onClick=${() => go('submit', {tier:t.id})}>Video hochladen</button>
         </div>`)}
       </div>
-      <div className="premium rv"><span className="pill dark">Bald</span><b>Premium mit Ex-Profis</b><span className="muted">Ehemalige Tour-Spieler:innen schauen auf deine Technik.</span></div>
+      <div className="premium rv"><span className="pill dark">Premium</span><b>Ex-Profis</b><span className="muted">Ehemalige Tour-Spieler:innen schauen auf deine Technik. Ab ${fmtEUR(tierById('P').price)}, buchbar über „Coach selbst wählen“.</span></div>
       <p className="note">Alle Preise inkl. MwSt.</p>
     </div></section>
 
@@ -155,11 +160,11 @@ function Home({go, anchor}) {
 
     <section className="sec" id="faq"><div className="wrap faq-wrap">
       <div className="rv"><p className="label">Fragen</p><h2>Gut zu wissen</h2></div>
-      <div className="faq rv">${FAQ.map(([q, a]) => html`<details key=${q}><summary>${q}<${Ic} n="plus" size=${18}/></summary><p>${a}</p></details>`)}</div>
+      <div className="faq rv">${FAQ.map(([q, a]) => html`<details key=${q} open=${a === 'guide' || undefined}><summary>${q}<${Ic} n="plus" size=${18}/></summary>${a === 'guide' ? html`<${FilmAnswer}/>` : html`<p>${a}</p>`}</details>`)}</div>
     </div></section>
 
     <section className="coach-band"><div className="wrap">
-      <div><p className="label dark-label">Für Trainer:innen</p><h2>Du bist Trainer:in?</h2><p>Nimm Video-Antworten auf, wann und wo du willst, und verdien pro Antwort bis zu ${fmtEUR(21.75)}.</p></div>
+      <div><p className="label dark-label">Für Trainer:innen</p><h2>Du bist Tennistrainer:in?</h2><p>Nimm Video-Antworten auf, wann und wo du willst, und verdien pro Antwort bis zu ${fmtEUR(window.MSC.payout(29))}.</p></div>
       <a className="btn volt lg" href="coach/">Zum Coach-Bereich<${Ic} n="arrow"/></a>
     </div></section>
   </div>`;
@@ -181,12 +186,17 @@ function CoachCard({c, onOpen, example = true, reveal}) {
 }
 
 /* ---------- Upload in vier Schritten ---------- */
-function Submit({param, go, requireLogin, addRequest}) {
+const PAY = [['paypal', 'PayPal'], ['apple', 'Apple Pay'], ['google', 'Google Pay'], ['card', 'Kreditkarte']];
+const PAYMARK = {paypal:'PayPal', apple:'Apple Pay', google:'G Pay', card:'Visa · MC', balance:'€'};
+const PayMark = ({k}) => html`<span className=${'paymark pm-' + k} aria-hidden="true">${PAYMARK[k]}</span>`;
+function Submit({param, go, requireLogin, addRequest, balance, pay, openTopUp}) {
   const pre = param || {};
   const preCoach = pre.coach ? coachById(pre.coach) : null;
   const [step, setStep] = useState(1);
   const [sport, setSport] = useState(pre.sport || (preCoach ? preCoach.sports[0] : 'tennis'));
-  const [stroke, setStroke] = useState(null);
+  const [stroke, setStroke] = useState(pre.stroke || null);
+  const [tierF, setTierF] = useState('');
+  const [method, setMethod] = useState('paypal');
   const [file, setFile] = useState(null);
   const [url, setUrl] = useState(null);
   const [fileErr, setFileErr] = useState('');
@@ -200,18 +210,22 @@ function Submit({param, go, requireLogin, addRequest}) {
   const s = sportById(sport);
   const coach = coachId ? coachById(coachId) : null;
   const price = mode === 'coach' && coach ? tierById(coach.tier).price : tierById(tier).price;
-  const fitCoaches = COACHES.filter(c => c.sports.includes(sport) && c.rating >= minStars);
+  const fitCoaches = COACHES.filter(c => c.sports.includes(sport) && c.rating >= minStars && (!tierF || c.tier === tierF))
+    .sort((x, y) => TIER_ORDER.indexOf(x.tier) - TIER_ORDER.indexOf(y.tier) || y.rating - x.rating);
+  const lowBalance = method === 'balance' && balance < price;
   useEffect(() => { window.scrollTo(0, 0); }, [step]);
   useEffect(() => { if (coach && !coach.sports.includes(sport)) setCoachId(null); }, [sport]);
   const takeFile = f => {
     if (!f) return;
     if (!/^video\//.test(f.type)) { setFileErr('Das ist kein Video. Bitte wähl eine Videodatei, zum Beispiel MP4 oder MOV.'); return; }
-    if (f.size > 500 * 1024 * 1024) { setFileErr('Das Video ist größer als 500 MB. Bitte kürz es auf höchstens 60 Sekunden.'); return; }
+    if (f.size > 1024 * 1024 * 1024) { setFileErr('Das Video ist größer als 1 GB. Bitte kürz es auf höchstens 2 Minuten.'); return; }
     setFileErr(''); if (url) URL.revokeObjectURL(url); setFile(f); setUrl(URL.createObjectURL(f));
   };
   const canNext = step === 1 ? !!stroke : step === 2 ? !!file : step === 3 ? (mode === 'tier' || !!coach) : true;
   const order = () => requireLogin(() => {
-    const r = {id:'r' + Date.now(), sport, stroke, coach: mode === 'coach' ? coachId : null, tier: mode === 'coach' ? coach.tier : tier, price, minStars, status:'open', date:new Date().toLocaleDateString('de-DE'), note, url};
+    if (lowBalance) return;
+    pay(method, price);
+    const r = {method, id:'r' + Date.now(), sport, stroke, coach: mode === 'coach' ? coachId : null, tier: mode === 'coach' ? coach.tier : tier, price, minStars, status:'open', date:new Date().toLocaleDateString('de-DE'), note, url};
     addRequest(r); setDone(r);
   });
   const restart = () => { setDone(null); setStep(1); setStroke(null); setFile(null); setUrl(null); setNote(''); };
@@ -219,6 +233,7 @@ function Submit({param, go, requireLogin, addRequest}) {
     <span className="ok-ring"><${Ic} n="check" size=${34} sw=${2.4}/></span>
     <h1>Dein Video ist raus</h1>
     <p className="muted">${done.coach ? `${coachById(done.coach).name} hat deine Anfrage bekommen.` : `Coaches der Stufe ${tierById(done.tier).name}${done.minStars ? ` mit mindestens ${fmtNum(done.minStars)} Sternen` : ''} sehen jetzt deine Anfrage.`} Sobald deine Video-Antwort da ist, bekommst du eine E-Mail.</p>
+    <p className="muted small">${done.method === 'balance' ? `${fmtEUR(done.price)} wurden von deinem Guthaben abgebucht.` : `Bezahlt mit ${PAY.find(x => x[0] === done.method)[1]}.`} Nimmt innerhalb von 72 Stunden kein Coach an, bekommst du den Betrag automatisch zurück.</p>
     <p className="ex-banner">Vorschau: Diese Bestellung ist eine Demo. Es wurde nichts berechnet und dein Video hat dein Gerät nicht verlassen.</p>
     <div className="row-btns"><button className="btn pri" onClick=${() => go('mine')}>Zu meinen Videos</button><button className="btn" onClick=${restart}>Noch einen Schlag senden</button></div>
   </div></div>`;
@@ -231,7 +246,7 @@ function Submit({param, go, requireLogin, addRequest}) {
     </div>
 
     ${step === 1 && html`<div>
-      <div className="seg sports" role="group" aria-label="Sportart">${SPORTS.filter(x => !preCoach || preCoach.sports.includes(x.id)).map(x => html`<button key=${x.id} className=${x.id === sport ? 'on' : ''} aria-pressed=${x.id === sport} onClick=${() => { setSport(x.id); setStroke(null); }}><i style=${{background:x.color}}></i>${x.name}</button>`)}</div>
+      ${SPORTS.length > 1 && html`<div className="seg sports" role="group" aria-label="Sportart">${SPORTS.filter(x => !preCoach || preCoach.sports.includes(x.id)).map(x => html`<button key=${x.id} className=${x.id === sport ? 'on' : ''} aria-pressed=${x.id === sport} onClick=${() => { setSport(x.id); setStroke(null); }}><i style=${{background:x.color}}></i>${x.name}</button>`)}</div>`}
       <div className="strokes" role="radiogroup" aria-label="Schlag auswählen">
         ${s.strokes.map(([id, name, icon]) => html`<button key=${id} role="radio" aria-checked=${stroke === id} className=${'stroke' + (stroke === id ? ' on' : '')} onClick=${() => setStroke(id)}><${StrokeIcon} k=${icon}/><span>${name}</span></button>`)}
       </div>
@@ -242,7 +257,7 @@ function Submit({param, go, requireLogin, addRequest}) {
           <input id="video-in" type="file" accept="video/*" onChange=${e => takeFile(e.target.files[0])} aria-label="Video auswählen"/>
           <span className="drop-ic"><${Ic} n="upload" size=${28}/></span>
           <b>Video auswählen oder hierher ziehen</b>
-          <span className="muted">Aus der Galerie wählen oder direkt filmen · höchstens 60 Sekunden</span>
+          <span className="muted">Aus der Galerie wählen oder direkt filmen · höchstens 2 Minuten</span>
         </label>`
       : html`<div className="vprev-wrap">
           <div className="vprev"><video src=${url} controls playsInline></video></div>
@@ -252,18 +267,17 @@ function Submit({param, go, requireLogin, addRequest}) {
       ${fileErr && html`<p className="err" role="alert">${fileErr}</p>`}
       <p className="note"><${Ic} n="lock" size=${14}/>Vorschau: Dein Video bleibt auf deinem Gerät und wird nicht hochgeladen.</p>
       <div className="tips">
-        <div className="tip"><${Ic} n="side"/><span><b>Seitlich filmen</b>Handy auf Hüfthöhe, quer.</span></div>
-        <div className="tip"><${Ic} n="body"/><span><b>Ganzer Körper</b>Von Kopf bis Fuß im Bild.</span></div>
-        <div className="tip"><${Ic} n="repeat"/><span><b>5 bis 10 Schläge</b>Mehrere Wiederholungen.</span></div>
-        <div className="tip"><${Ic} n="sun"/><span><b>Gutes Licht</b>Nicht gegen die Sonne.</span></div>
+        <div className="tip"><span className="tip-ic"><${PhoneFrameIcon}/></span><span><b>Komplett im Bild</b>Handy quer aufs Stativ, du mit Schläger von Kopf bis Fuß im Display.</span></div>
+        <div className="tip"><span className="tip-ic"><${TopDown} ring/></span><span><b>Rundherum filmen</b>15 Schläge: 5 von der Seite, 5 von hinten, 5 von der anderen Seite.</span></div>
       </div>
+      <${FilmGuide} compact/>
       <div className="field"><label htmlFor="note-in">Worauf soll der Coach achten? (optional)</label><textarea id="note-in" className="inp" maxLength="500" value=${note} onChange=${e => setNote(e.target.value)} placeholder="Zum Beispiel: Mein Ball fliegt oft ins Netz, wenn ich Druck mache."></textarea></div>
     </div>`}
 
     ${step === 3 && html`<div className="stack">
       <div className="seg" role="group" aria-label="Auswahl"><button className=${mode === 'tier' ? 'on' : ''} aria-pressed=${mode === 'tier'} onClick=${() => setMode('tier')}>Nach Level</button><button className=${mode === 'coach' ? 'on' : ''} aria-pressed=${mode === 'coach'} onClick=${() => setMode('coach')}>Coach selbst wählen</button></div>
       ${mode === 'tier' ? html`<div className="stack">
-        <div className="pick-tiers">${TIERS.map(t => html`<button key=${t.id} className=${'pt' + (tier === t.id ? ' on' : '')} aria-pressed=${tier === t.id} onClick=${() => setTier(t.id)}>
+        <div className="pick-tiers">${LEVELS.map(t => html`<button key=${t.id} className=${'pt' + (tier === t.id ? ' on' : '')} aria-pressed=${tier === t.id} onClick=${() => setTier(t.id)}>
           <span className="radio" aria-hidden="true"></span>
           <span className="pt-t"><b>${t.name}</b><span className="muted">${t.ex}</span></span>
           <b className="num pt-p">${fmtEUR(t.price)}</b></button>`)}</div>
@@ -271,13 +285,14 @@ function Submit({param, go, requireLogin, addRequest}) {
           <div className="seg sm">${[[0, 'Alle'], [4, '4+ ★'], [4.5, '4,5+ ★'], [4.8, '4,8+ ★']].map(([v, l]) => html`<button key=${v} className=${minStars === v ? 'on' : ''} aria-pressed=${minStars === v} onClick=${() => setMinStars(v)}>${l}</button>`)}</div></div>
         <p className="muted small">Der erste passende Coach übernimmt deine Anfrage und schickt dir seine Video-Antwort.</p>
       </div>` : html`<div className="stack">
+        <div className="filter-row"><span>Level</span><div className="seg sm" role="group" aria-label="Level filtern">${[['', 'Alle'], ['C', 'DTB C'], ['B', 'DTB B'], ['A', 'DTB A'], ['P', 'Ex-Profi']].map(([v, l]) => html`<button key=${v} className=${tierF === v ? 'on' : ''} aria-pressed=${tierF === v} onClick=${() => setTierF(v)}>${l}</button>`)}</div></div>
         <div className="filter-row"><span>Bewertung</span><div className="seg sm">${[[0, 'Alle'], [4.5, '4,5+ ★'], [4.8, '4,8+ ★']].map(([v, l]) => html`<button key=${v} className=${minStars === v ? 'on' : ''} aria-pressed=${minStars === v} onClick=${() => setMinStars(v)}>${l}</button>`)}</div></div>
         <p className="note">Beispielprofile: Die echten Coaches folgen zum Start.</p>
         <div className="mc-list">${fitCoaches.length ? fitCoaches.map(c => html`<button key=${c.id} className=${'mini-coach' + (coachId === c.id ? ' on' : '')} aria-pressed=${coachId === c.id} onClick=${() => setCoachId(c.id)}>
           <span className="av"><${Portrait} c=${c} round/></span>
-          <span className="mc-t"><b>${c.name}</b><span className="muted">${c.license}</span><span className="mc-r"><${Stars} v=${c.rating} size=${12}/>${fmtNum(c.rating)}</span></span>
+          <span className="mc-t"><b>${c.name}</b><span className="muted">${tierById(c.tier).short} · ${c.license}</span><span className="mc-r"><${Stars} v=${c.rating} size=${12}/>${fmtNum(c.rating)}</span></span>
           <b className="num">${fmtEUR(tierById(c.tier).price)}</b>
-        </button>`) : html`<div className="empty">Für diese Auswahl gibt es keinen Coach. Probier einen niedrigeren Sternefilter.</div>`}</div>
+        </button>`) : html`<div className="empty">Für diese Auswahl gibt es keinen Coach. Probier einen anderen Filter.</div>`}</div>
         ${coach && html`<button className="btn sm" style=${{justifySelf:'start'}} onClick=${() => go('coach', coach.id)}>Profil von ${coach.name} ansehen</button>`}
       </div>`}
     </div>`}
@@ -296,10 +311,15 @@ function Submit({param, go, requireLogin, addRequest}) {
         <p className="note">inkl. MwSt.</p>
       </div>
       <div className="card pad order">
-        <h3>Bestellen</h3>
-        <p>Vorschau: Die Bezahlung ist noch nicht aktiv. Mit dem Button probierst du den Ablauf aus, ohne dass etwas berechnet wird.</p>
-        <button className="btn volt lg" onClick=${order}>Demo-Bestellung abschicken</button>
-        <p className="small"><${Ic} n="shield" size=${16}/>Kommt nach 72 Stunden keine Antwort, bekommst du dein Geld zurück.</p>
+        <h3>Bezahlen</h3>
+        <div className="pay-list" role="radiogroup" aria-label="Zahlungsart">
+          ${[['balance', 'Guthaben'], ...PAY].map(([k, l]) => html`<button key=${k} role="radio" aria-checked=${method === k} className=${'pay' + (method === k ? ' on' : '')} onClick=${() => setMethod(k)}>
+            <span className="radio" aria-hidden="true"></span><span className="pay-l">${l}${k === 'balance' && html`<small className="muted">Verfügbar: ${fmtEUR(balance)}</small>`}</span><${PayMark} k=${k}/></button>`)}
+        </div>
+        ${lowBalance && html`<p className="err" role="alert">Dein Guthaben reicht nicht. <button className="lnk-btn" onClick=${openTopUp}>Guthaben aufladen</button></p>`}
+        <button className="btn volt lg" disabled=${lowBalance} onClick=${order}>${fmtEUR(price)} bezahlen und abschicken</button>
+        <p className="small"><${Ic} n="shield" size=${16}/>Nimmt innerhalb von 72 Stunden kein Coach deine Anfrage an, bekommst du den vollen Betrag automatisch zurück.</p>
+        <p className="ex-banner">Vorschau: Die Bezahlung ist noch nicht aktiv. Du probierst den Ablauf aus, ohne dass etwas berechnet wird.</p>
       </div>
     </div>`}
 
@@ -390,9 +410,28 @@ function LoginGate({openLogin}) {
     <button className="btn pri" onClick=${openLogin}>Login</button>
   </div></div>`;
 }
-function Mine({requests, go, openReq}) {
+function Wallet({balance, openTopUp}) {
+  return html`<div className="wallet card pad">
+    <span className="drop-ic"><${Ic} n="euro" size=${22}/></span>
+    <span className="wl-t"><span className="label">Dein Guthaben</span><b className="num">${fmtEUR(balance)}</b></span>
+    <button className="btn pri" onClick=${openTopUp}><${Ic} n="plus" size=${18}/>Aufladen</button>
+  </div>`;
+}
+function TopUp({close, done}) {
+  const [amt, setAmt] = useState(50); const [m, setM] = useState('paypal');
+  return html`<${Modal} label="Guthaben aufladen" close=${close}>
+    <h2 className="m-title">Guthaben aufladen</h2>
+    <p className="muted">Lade einmal auf und bezahl jede Einschätzung mit einem Klick. Erstattungen landen wieder auf deinem Guthaben.</p>
+    <div className="seg amt" role="group" aria-label="Betrag">${[20, 50, 100].map(v => html`<button key=${v} className=${amt === v ? 'on' : ''} aria-pressed=${amt === v} onClick=${() => setAmt(v)}><span className="num">${fmtEUR(v)}</span></button>`)}</div>
+    <div className="pay-list" role="radiogroup" aria-label="Zahlungsart">${PAY.map(([k, l]) => html`<button key=${k} role="radio" aria-checked=${m === k} className=${'pay' + (m === k ? ' on' : '')} onClick=${() => setM(k)}><span className="radio" aria-hidden="true"></span><span className="pay-l">${l}</span><${PayMark} k=${k}/></button>`)}</div>
+    <button className="btn volt lg" onClick=${() => done(amt)}>${fmtEUR(amt)} aufladen</button>
+    <p className="ex-banner">Vorschau: Es wird nichts berechnet. Das Guthaben gilt nur, bis du die Seite neu lädst.</p>
+  <//>`;
+}
+function Mine({requests, go, openReq, balance, openTopUp}) {
   return html`<div className="wrap page">
     <div className="page-h"><div><p className="label">Dein Bereich</p><h1>Meine Videos</h1></div><button className="btn volt" onClick=${() => go('submit')}><${Ic} n="plus" size=${18}/>Neuer Schlag</button></div>
+    <${Wallet} balance=${balance} openTopUp=${openTopUp}/>
     <p className="ex-banner">Vorschau: Die ersten beiden Einträge sind Beispiele, damit du siehst, wie eine fertige Video-Antwort aussieht.</p>
     ${requests.length ? html`<div className="rlist">${requests.map(r => {
       const st = strokeOf(r.sport, r.stroke); const c = r.coach && coachById(r.coach);
@@ -457,6 +496,10 @@ function App() {
   const [login, setLogin] = useState(null);
   const [requests, setRequests] = useState(SEED_REQ);
   const [openR, setOpenR] = useState(null);
+  const [balance, setBalance] = useState(0);
+  const [topUp, setTopUp] = useState(false);
+  const openTopUp = () => requireLogin(() => setTopUp(true));
+  const pay = (m, amount) => { if (m === 'balance') setBalance(b => Math.round((b - amount) * 100) / 100); };
   const [toast, toastEl] = useToast();
   const {view, param, anchor} = route;
   const go = (v, p) => navigate(toHash(v, p), v === 'home' ? p : null);
@@ -468,10 +511,10 @@ function App() {
 
   let page;
   if (view === 'home') page = html`<${Home} go=${go} anchor=${anchor}/>`;
-  else if (view === 'submit') page = html`<${Submit} key=${toHash('submit', param)} param=${param} go=${go} requireLogin=${requireLogin} addRequest=${r => setRequests(rs => [r, ...rs])}/>`;
+  else if (view === 'submit') page = html`<${Submit} key=${toHash('submit', param)} param=${param} go=${go} requireLogin=${requireLogin} addRequest=${r => setRequests(rs => [r, ...rs])} balance=${balance} pay=${pay} openTopUp=${openTopUp}/>`;
   else if (view === 'coaches') page = html`<${Coaches} go=${go}/>`;
   else if (view === 'coach') page = html`<${CoachProfile} id=${param} go=${go}/>`;
-  else if (view === 'mine') page = user ? html`<${Mine} requests=${requests} go=${go} openReq=${setOpenR}/>` : html`<${LoginGate} openLogin=${openLogin}/>`;
+  else if (view === 'mine') page = user ? html`<${Mine} requests=${requests} go=${go} openReq=${setOpenR} balance=${balance} openTopUp=${openTopUp}/>` : html`<${LoginGate} openLogin=${openLogin}/>`;
 
   return html`<div className="app">
     <${DemoBar}/>
@@ -480,6 +523,7 @@ function App() {
     <${Footer} links=${[['#/so-gehts', "So funktioniert's"], ['#/coaches', 'Coaches'], ['#/preise', 'Preise'], ['#/faq', 'Fragen'], ['coach/', 'Für Coaches']]}/>
     <${TabBar} view=${view} go=${go}/>
     ${login && html`<${Login} close=${() => setLogin(null)} done=${afterLogin}/>`}
+    ${topUp && html`<${TopUp} close=${() => setTopUp(false)} done=${a => { setBalance(b => b + a); setTopUp(false); toast(fmtEUR(a) + ' aufgeladen (Demo)'); }}/>`}
     ${openR && html`<${ReqDetail} r=${openR} close=${() => setOpenR(null)} rate=${rate} go=${go}/>`}
     ${toastEl}
   </div>`;

@@ -9,20 +9,12 @@ const ROOT = document.body.dataset.root || '';            // '' auf der Spieler-
 const CONTACT = 'info@tanmeon.de';
 
 /* ---------- Daten ---------- */
+// Start nur mit Tennis (Entscheidung 16.10.2026). Padel, Tischtennis und Pickleball folgen später.
 const SPORTS = [
   {id:'tennis', name:'Tennis', color:'#C8643B', strokes:[
     ['vh','Vorhand','fh'],['rh','Rückhand','bh'],['vhv','Vorhand-Volley','volley'],['rhv','Rückhand-Volley','volleyb'],
-    ['sm','Schmetterball','smash'],['rsm','Rückhand-Schmetterball','smashb'],['auf','Aufschlag','serve'],['kick','Spin-Aufschlag','spin'],
-    ['sla','Slice-Aufschlag','slice'],['vhs','Vorhand-Slice','slice'],['rhs','Rückhand-Slice','sliceb'],['ret','Return','return']]},
-  {id:'padel', name:'Padel', color:'#2C7DA0', strokes:[
-    ['vh','Vorhand','fh'],['rh','Rückhand','bh'],['vol','Volley','volley'],['ban','Bandeja','slice'],['vib','Víbora','sliceb'],
-    ['smash','Smash','smash'],['baj','Bajada','wall'],['auf','Aufschlag','serve'],['lob','Lob','lob'],['chi','Chiquita','drop']]},
-  {id:'tt', name:'Tischtennis', color:'#C93A3A', strokes:[
-    ['vht','VH-Topspin','spin'],['rht','RH-Topspin','bh'],['sch','Schupf','slice'],['blo','Block','block'],
-    ['flip','Flip','fh'],['kon','Konter','return'],['auf','Aufschlag','serve']]},
-  {id:'pickle', name:'Pickleball', color:'#3E9C5B', strokes:[
-    ['dink','Dink','drop'],['drv','Drive','fh'],['tsd','Third Shot Drop','lob'],['vol','Volley','volley'],
-    ['auf','Aufschlag','serve'],['ret','Return','return'],['ovh','Overhead','smash']]},
+    ['sm','Schmetterball','smash'],['rsm','Rückhand-Schmetterball','smashb'],['auf','Aufschlag','serve'],['kick','Kick-Aufschlag','spin'],
+    ['sla','Slice-Aufschlag','sserve'],['vhs','Vorhand-Slice','slice'],['rhs','Rückhand-Slice','sliceb'],['ret','Return','return']]},
 ];
 const sportById = id => SPORTS.find(s => s.id === id) || SPORTS[0];
 const strokeOf = (sid, kid) => {
@@ -31,11 +23,15 @@ const strokeOf = (sid, kid) => {
 };
 
 // Preis pro Video-Antwort inkl. MwSt.; die Plattform behält 25 % Provision.
+// Ex-Profis (P) sind nur über „Coach selbst wählen“ buchbar; der Preis ist ein vorläufiger Platzhalter.
 const TIERS = [
-  {id:'C', name:'C-Trainer / Übungsleiter', short:'C-Trainer', ex:'z. B. DTB-C-Lizenz oder Übungsleiter-Lizenz', price:9.99},
+  {id:'C', name:'C-Trainer / Übungsleiter', short:'C-Trainer', ex:'z. B. DTB-C-Lizenz oder Übungsleiter-Lizenz', price:9},
   {id:'B', name:'B-Trainer', short:'B-Trainer', ex:'z. B. DTB-B-Lizenz', price:19},
   {id:'A', name:'A-Trainer', short:'A-Trainer', ex:'z. B. DTB-A-Lizenz', price:29},
+  {id:'P', name:'Ex-Profi', short:'Ex-Profi', ex:'ehemalige Tour-Spieler:innen', price:49, pro:true},
 ];
+const LEVELS = TIERS.filter(t => !t.pro);
+const TIER_ORDER = 'CBAP';
 const tierById = id => TIERS.find(t => t.id === id) || TIERS[0];
 const CUT = 0.25;
 const payout = p => Math.floor(p * (1 - CUT) * 100) / 100;
@@ -46,30 +42,34 @@ const COACHES = [
    langs:['Deutsch','Englisch'], focus:['Aufschlag','Rückhand','Matchplan'],
    bio:'Ich arbeite seit 14 Jahren mit Erwachsenen und Jugendlichen im Leistungsbereich. Mein Spezialgebiet ist der Aufschlag: In meiner Video-Antwort gehe ich deinen Schlag in Zeitlupe durch und zeige dir, wo Energie verloren geht.',
    certs:['DTB A-Trainer-Lizenz','DTB Athletiktrainer','Mentaltraining im Tennis'], awards:['Landesmeisterin Damen 30, 2023']},
-  {id:'marco', name:'Marco Ruiz', sports:['padel'], tier:'B', license:'Padel-Trainer Level 2', club:'Padelwerk Spreebogen', city:'Berlin', rating:4.8, reviews:64, resp:12, since:2022,
-   langs:['Deutsch','Spanisch','Englisch'], focus:['Bandeja','Víbora','Spiel an der Wand'],
-   bio:'Aufgewachsen in Valencia, seit vier Jahren Coach in Berlin. Im Video erkläre ich dir, warum deine Bandeja zu lang wird, und zeige dir drei Übungen für die nächste Session.',
-   certs:['Padel-Trainer Level 2','Padel-Trainer Level 1'], awards:['Vize-Stadtmeister Berlin 2025']},
+  {id:'marco', name:'Marco Ruiz', sports:['tennis'], tier:'B', license:'DTB B-Lizenz', club:'TC Spreebogen', city:'Berlin', rating:4.8, reviews:64, resp:12, since:2022,
+   langs:['Deutsch','Spanisch','Englisch'], focus:['Topspin-Vorhand','Beinarbeit','Sandplatz'],
+   bio:'Aufgewachsen auf den Sandplätzen von Valencia, seit vier Jahren Trainer in Berlin. Im Video zeige ich dir, wie du mit den Beinen mehr Spin erzeugst, und gebe dir drei Übungen für die nächste Einheit.',
+   certs:['DTB B-Trainer-Lizenz','DTB C-Trainer-Lizenz Leistungssport'], awards:['Vize-Stadtmeister Berlin 2025']},
   {id:'jonas', name:'Jonas Weber', sports:['tennis'], tier:'C', license:'DTB C-Lizenz Breitensport', club:'TSV Isarbogen', city:'München', rating:4.6, reviews:41, resp:24, since:2023,
    langs:['Deutsch'], focus:['Vorhand','Einsteiger:innen','Jugend'],
    bio:'Ich trainiere vor allem Hobbyspieler:innen und Kids. Meine Video-Antworten sind kurz und klar, mit Übungen, die du auch alleine an der Ballwand machen kannst.',
    certs:['DTB C-Trainer-Lizenz Breitensport','Kindertennis-Zertifikat'], awards:[]},
-  {id:'aylin', name:'Aylin Demir', sports:['tt'], tier:'B', license:'DTTB B-Lizenz', club:'TTV Förde-Nord', city:'Kiel', rating:4.9, reviews:87, resp:10, since:2020,
-   langs:['Deutsch','Türkisch'], focus:['Topspin','Aufschlag','Rückhand'],
-   bio:'Ehemalige Oberliga-Spielerin. Ich gehe deine Schlagbewegung im Video Bild für Bild durch und achte besonders auf Handgelenk und Beinarbeit.',
-   certs:['DTTB B-Trainer-Lizenz'], awards:['Oberliga-Meisterin 2018']},
-  {id:'sofia', name:'Sofia Lindqvist', sports:['padel','tennis'], tier:'A', license:'Padel-Trainer Level 3 · DTB B-Lizenz', club:'Padel Arena Mainufer', city:'Frankfurt', rating:4.8, reviews:59, resp:16, since:2021,
-   langs:['Englisch','Deutsch','Schwedisch'], focus:['Umstieg von Tennis','Volley','Smash'],
-   bio:'Ich helfe vor allem Tennisspieler:innen beim Umstieg auf Padel. Viele Gewohnheiten aus dem Tennis kosten auf dem Padel-Court Punkte, und genau die finde ich.',
-   certs:['Padel-Trainer Level 3','DTB B-Trainer-Lizenz'], awards:[]},
-  {id:'ben', name:'Ben Okafor', sports:['pickle'], tier:'C', license:'Zertifizierter Pickleball-Coach', club:'Pickleball Club Pleiße', city:'Leipzig', rating:4.7, reviews:19, resp:20, since:2024,
-   langs:['Deutsch','Englisch'], focus:['Dink','Third Shot Drop','Einsteiger:innen'],
-   bio:'Pickleball ist schnell gelernt und schwer gemeistert. Ich helfe dir beim Schritt vom Hobby zum Turnier.',
-   certs:['Pickleball-Coach-Zertifikat Level 1'], awards:[]},
-  {id:'mia', name:'Mia Schröder', sports:['tt','pickle'], tier:'A', license:'DTTB A-Lizenz', club:'TTC Weserkante', city:'Bremen', rating:4.8, reviews:47, resp:14, since:2021,
-   langs:['Deutsch'], focus:['Aufschlag','Beinarbeit','Pickleball-Umstieg'],
-   bio:'Tischtennis und Pickleball leben von schnellen Füßen. In meiner Video-Antwort zeige ich dir Laufwege und eine Übungsroutine für zehn Minuten am Tag.',
-   certs:['DTTB A-Trainer-Lizenz'], awards:['Landesmeisterin Damen 2017']},
+  {id:'aylin', name:'Aylin Demir', sports:['tennis'], tier:'B', license:'DTB B-Lizenz', club:'TV Förde-Nord', city:'Kiel', rating:4.9, reviews:87, resp:10, since:2020,
+   langs:['Deutsch','Türkisch'], focus:['Volley','Doppel','Rückhand-Slice'],
+   bio:'Ehemalige Regionalliga-Spielerin und Doppel-Spezialistin. Ich gehe deine Schlagbewegung im Video Bild für Bild durch und achte besonders auf Schlägerhaltung und Beinarbeit am Netz.',
+   certs:['DTB B-Trainer-Lizenz'], awards:['Regionalliga-Meisterin Damen 2018']},
+  {id:'sofia', name:'Sofia Lindqvist', sports:['tennis'], tier:'A', license:'DTB A-Lizenz', club:'TC Mainufer', city:'Frankfurt', rating:4.8, reviews:59, resp:16, since:2021,
+   langs:['Englisch','Deutsch','Schwedisch'], focus:['Return','Taktik','Leistungssport Jugend'],
+   bio:'Ich betreue Jugendliche auf dem Weg in den Leistungssport. Im Video zeige ich dir, wie du den Return früher nimmst und damit sofort Druck machst.',
+   certs:['DTB A-Trainer-Lizenz','Schwedische Trainerlizenz Nivå 3'], awards:[]},
+  {id:'ben', name:'Ben Okafor', sports:['tennis'], tier:'C', license:'Übungsleiter-Lizenz Tennis', club:'TC Pleiße', city:'Leipzig', rating:4.7, reviews:19, resp:20, since:2024,
+   langs:['Deutsch','Englisch'], focus:['Einsteiger:innen','Aufschlag','Wiedereinstieg'],
+   bio:'Ich helfe vor allem Erwachsenen, die (wieder) mit Tennis anfangen. Kein Fachchinesisch, sondern ein, zwei Dinge, die sofort etwas bringen.',
+   certs:['Übungsleiter-Lizenz C Tennis'], awards:[]},
+  {id:'mia', name:'Mia Schröder', sports:['tennis'], tier:'A', license:'DTB A-Lizenz', club:'TC Weserkante', city:'Bremen', rating:4.8, reviews:47, resp:14, since:2021,
+   langs:['Deutsch'], focus:['Beinarbeit','Vorhand','Athletik'],
+   bio:'Tennis wird mit den Füßen gespielt. In meiner Video-Antwort zeige ich dir Laufwege und eine Übungsroutine für zehn Minuten am Tag.',
+   certs:['DTB A-Trainer-Lizenz','Athletiktrainer-Zertifikat'], awards:['Landesmeisterin Damen 2017']},
+  {id:'tom', name:'Tom Berger', sports:['tennis'], tier:'P', license:'Ehemaliger ATP-Profi', club:'TC Alsterblick', city:'Hamburg', rating:5.0, reviews:22, resp:30, since:2025,
+   langs:['Deutsch','Englisch','Französisch'], focus:['Aufschlag','Matchplan','Turnierspieler:innen'],
+   bio:'Zehn Jahre auf der ATP-Tour, Challenger- und ATP-500-Turniere. Heute schaue ich auf die Technik ambitionierter Spieler:innen und erkläre dir, was auf der Tour den Unterschied macht.',
+   certs:['Beste ATP-Platzierung im Doppel: 112','DTB B-Trainer-Lizenz'], awards:['Zwei Challenger-Titel im Doppel']},
 ];
 const coachById = id => COACHES.find(c => c.id === id);
 const REVIEWS = [
@@ -131,35 +131,137 @@ function Stars({v, size = 14}) {
   return html`<span className="stars" role="img" aria-label=${fmtNum(v) + ' von 5 Sternen'}>${out}</span>`;
 }
 
-/* Schlag-Icons: Schläger, Ball und Schwungbahn auf einem 64er-Raster, als ruhige Linien */
-function Racket({x, y, a}) {
-  return html`<g transform=${`translate(${x} ${y}) rotate(${a})`}>
-    <ellipse cx="0" cy="-13" rx="8.5" ry="11.5" fill="none" stroke="currentColor" strokeWidth="2.4"/>
-    <path d="M-4 -21v15M0 -24v21M4 -21v15M-7.5 -16h15M-7.5 -10h15" stroke="currentColor" strokeWidth="1" opacity=".45"/>
-    <path d="M0 -1.5v13" stroke="currentColor" strokeWidth="3.6" strokeLinecap="round"/>
+/* Schlag-Icons: Person mit Schläger in der Schlagposition, dazu Ball und Schwungbahn (Raster 64 × 64) */
+function Racket({x, y, a, s = .72}) {
+  // Ursprung = Griffende in der Hand, a = Richtung des Schlägerkopfs (0 = oben, 90 = rechts)
+  return html`<g transform=${`translate(${x} ${y}) rotate(${a}) scale(${s})`}>
+    <path d="M0 0v-15" stroke="currentColor" strokeWidth="4.6" strokeLinecap="round"/>
+    <ellipse cx="0" cy="-28" rx="9.5" ry="13" fill="none" stroke="currentColor" strokeWidth="3.4"/>
+    <path d="M-4.5 -38v20M0 -41v26M4.5 -38v20M-8.5 -32h17M-8.5 -24h17" stroke="currentColor" strokeWidth="1.3" opacity=".45"/>
   </g>`;
 }
-const Ball = ({x, y, r = 4}) => html`<circle className="si-ball" cx=${x} cy=${y} r=${r}/>`;
-const Trail = ({d, dash}) => html`<path d=${d} fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeDasharray=${dash || '0.5 5'} opacity=".7"/>`;
+const Ball = ({x, y, r = 3.6}) => html`<circle className="si-ball" cx=${x} cy=${y} r=${r}/>`;
+const Trail = ({d, dash}) => html`<path d=${d} fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeDasharray=${dash || '0.5 4.5'} opacity=".55"/>`;
+// Gelenkpunkte: h Kopf, n Hals/Schulter, p Hüfte, ke/fe Knie/Fuß hinten, kv/fv Knie/Fuß vorn, e1/w1 Schlagarm, e2/w2 freier Arm
+const POSES = {
+  fh:     {h:[25,13], n:[26,20], p:[25,36], ke:[18,46], fe:[12,58], kv:[33,46], fv:[38,58], e1:[34,26], w1:[42,29], e2:[18,24], w2:[13,20], r:82, ball:[55,27], trail:'M10 44 Q 22 54 40 33'},
+  bh:     {h:[27,13], n:[27,20], p:[26,36], ke:[19,46], fe:[13,58], kv:[34,46], fv:[39,58], e1:[34,27], w1:[40,31], e2:[32,30], w2:[39,32], r:72, ball:[55,24], trail:'M12 46 Q 20 56 38 35'},
+  volley: {h:[27,15], n:[27,22], p:[25,38], ke:[17,47], fe:[11,58], kv:[34,47], fv:[41,58], e1:[35,26], w1:[40,21], e2:[20,28], w2:[25,33], r:28, ball:[49,12], trail:'M60 12 H 52', net:true},
+  smash:  {h:[26,15], n:[27,22], p:[27,38], ke:[22,48], fe:[18,58], kv:[33,48], fv:[37,58], e1:[33,13], w1:[37,7], e2:[20,14], w2:[16,7], r:52, ball:[51,2], trail:'M18 4 Q 28 -2 44 8'},
+  serve:  {h:[28,15], n:[28,22], p:[27,38], ke:[22,48], fe:[17,58], kv:[34,48], fv:[38,58], e1:[19,22], w1:[15,14], e2:[32,13], w2:[35,6], r:-25, ball:[37,-4], trail:'M35 4 V -1'},
+  spin:   {h:[29,13], n:[28,20], p:[24,37], ke:[20,48], fe:[16,58], kv:[30,48], fv:[34,58], e1:[30,11], w1:[31,4], e2:[22,28], w2:[25,34], r:-8, ball:[22,-4], trail:'M6 40 Q 6 10 30 -6', spin:true},
+  sserve: {h:[27,14], n:[27,21], p:[26,38], ke:[21,48], fe:[16,58], kv:[33,48], fv:[37,58], e1:[33,12], w1:[37,6], e2:[22,28], w2:[25,34], r:40, ball:[48,-2], trail:'M48 -2 Q 62 14 56 30'},
+  slice:  {h:[25,14], n:[26,21], p:[25,37], ke:[18,47], fe:[12,58], kv:[33,47], fv:[39,58], e1:[33,25], w1:[40,27], e2:[17,25], w2:[12,22], r:70, ball:[56,30], trail:'M14 8 Q 30 12 44 34'},
+  return: {h:[30,17], n:[30,24], p:[30,39], ke:[21,47], fe:[16,58], kv:[39,47], fv:[44,58], e1:[36,29], w1:[40,33], e2:[32,32], w2:[39,34], r:55, ball:[60,12], trail:'M68 6 L 58 13', ready:true},
+};
+function Figure({pose}) {
+  const q = pose;
+  const seg = (...pts) => 'M' + pts.map(x => x.join(' ')).join('L');
+  return html`<g fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round">
+    <path d=${seg(q.fe, q.ke, q.p, q.kv, q.fv)} strokeWidth="4"/>
+    <path d=${seg(q.p, q.n)} strokeWidth="5"/>
+    <path d=${seg(q.n, q.e2, q.w2)} strokeWidth="3.4"/>
+    <path d=${seg(q.n, q.e1, q.w1)} strokeWidth="3.4"/>
+    <circle cx=${q.h[0]} cy=${q.h[1]} r="4.6" fill="currentColor" stroke="none"/>
+  </g>`;
+}
 function StrokeIcon({k}) {
-  const flip = /b$/.test(k);
+  const flip = /b$/.test(k) && k !== 'bh';
   const base = flip ? k.slice(0, -1) : k;
-  let body;
-  switch (base) {
-    case 'fh': case 'bh': body = html`<${Trail} d="M8 48 Q 26 60 50 24"/><${Racket} x=${46} y=${36} a=${38}/><${Ball} x=${18} y=${22}/>`; break;
-    case 'volley': body = html`<path d="M6 8v50" stroke="currentColor" strokeWidth="1.6" strokeDasharray="3 4" opacity=".4"/><${Trail} d="M12 30 L 30 30"/><${Racket} x=${42} y=${38} a=${-12}/><${Ball} x=${14} y=${30}/>`; break;
-    case 'smash': body = html`<${Trail} d="M46 6 Q 54 30 20 56"/><${Racket} x=${40} y=${28} a=${24}/><${Ball} x=${22} y=${10}/>`; break;
-    case 'serve': body = html`<path d="M18 58 V 18" stroke="currentColor" strokeWidth="2" strokeDasharray="0.5 5" strokeLinecap="round" opacity=".7"/><${Ball} x=${18} y=${12}/><${Trail} d="M54 54 Q 62 22 40 8"/><${Racket} x=${44} y=${30} a=${22}/>`; break;
-    case 'spin': body = html`<${Trail} d="M8 56 Q 22 52 30 36 T 54 10"/><${Racket} x=${42} y=${42} a=${30}/><${Ball} x=${16} y=${20}/><path d="M9 14a9 9 0 0 1 9-4M25 26a9 9 0 0 1-9 4" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round"/>`; break;
-    case 'slice': body = html`<${Trail} d="M8 12 Q 36 18 56 52"/><${Racket} x=${42} y=${38} a=${-58}/><${Ball} x=${16} y=${40}/>`; break;
-    case 'return': body = html`<path d="M8 22h30m-7-7 7 7-7 7M56 44H26m7-7-7 7 7 7" fill="none" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round" strokeLinejoin="round"/><${Ball} x=${48} y=${22}/>`; break;
-    case 'drop': body = html`<path d="M36 34v24" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round"/><path d="M28 34h16" stroke="currentColor" strokeWidth="1.6" opacity=".5"/><${Trail} d="M8 44 Q 30 8 46 54"/><${Ball} x=${46} y=${54}/>`; break;
-    case 'lob': body = html`<${Trail} d="M6 56 Q 32 -16 58 56"/><path d="M32 40v18" stroke="currentColor" strokeWidth="2.4" strokeLinecap="round"/><${Ball} x=${32} y=${10}/>`; break;
-    case 'block': body = html`<path d="M48 8v48" stroke="currentColor" strokeWidth="3.2" strokeLinecap="round"/><${Trail} d="M8 20 L 40 32 L 12 46"/><${Ball} x=${40} y=${32}/>`; break;
-    case 'wall': body = html`<rect x="48" y="6" width="9" height="52" rx="1.5" fill="none" stroke="currentColor" strokeWidth="2"/><path d="M48 18h9M48 30h9M48 42h9" stroke="currentColor" strokeWidth="1" opacity=".45"/><${Trail} d="M10 50 Q 40 46 48 24 Q 30 18 12 30"/><${Ball} x=${12} y=${30}/>`; break;
-    default: body = html`<${Ball} x=${32} y=${32} r=${8}/>`;
-  }
-  return html`<svg className="si" viewBox="0 0 64 64" aria-hidden="true"><g transform=${flip ? 'translate(64 0) scale(-1 1)' : undefined}>${body}</g></svg>`;
+  const q = POSES[base] || POSES.fh;
+  return html`<svg className="si" viewBox="-6 -22 76 86" aria-hidden="true"><g transform=${flip ? 'translate(64 0) scale(-1 1)' : undefined}>
+    <path d="M0 60.5h64" stroke="currentColor" strokeWidth="1.4" opacity=".3"/>
+    ${q.net && html`<path d="M58 34v26" stroke="currentColor" strokeWidth="1.6" strokeDasharray="2 3" opacity=".5"/>`}
+    <${Trail} d=${q.trail}/>
+    <${Figure} pose=${q}/>
+    <${Racket} x=${q.w1[0]} y=${q.w1[1]} a=${q.r}/>
+    ${q.spin && html`<path d="M14 -4a8 8 0 0 1 8-4M30 0a8 8 0 0 1-8 4" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round"/>`}
+    <${Ball} x=${q.ball[0]} y=${q.ball[1]}/>
+  </g></svg>`;
+}
+
+/* Filmen: Handy mit Spieler komplett im Bild, und Positionen rund um den Spieler (Draufsicht) */
+function PhoneFrameIcon() {
+  return html`<svg className="fi" viewBox="0 0 64 44" aria-hidden="true">
+    <rect x="2" y="4" width="60" height="36" rx="6" fill="none" stroke="currentColor" strokeWidth="2.2"/>
+    <circle cx="57" cy="22" r="1.6" fill="currentColor"/>
+    <path d="M9 11v-3h4M51 8h-4M9 33v3h4M47 36h4" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" opacity=".55"/>
+    <g transform="translate(15 6) scale(.48)"><${Figure} pose=${POSES.fh}/><${Racket} x=${42} y=${29} a=${82}/></g>
+    <circle className="si-ball" cx="42" cy="19" r="1.8"/>
+  </svg>`;
+}
+const SPOTS = {front:[10, 30], back:[32, 54], other:[54, 30]};
+function TopDown({spots = ['front', 'back', 'other'], active, ring}) {
+  return html`<svg className="fi" viewBox="0 0 64 64" aria-hidden="true">
+    <path d="M4 14h56" stroke="currentColor" strokeWidth="1.4" strokeDasharray="2 3" opacity=".45"/>
+    ${ring && html`<path d="M14 44 A 22 22 0 0 0 50 44" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" opacity=".6"/>`}
+    ${ring && html`<path d="M46 47l4-3 1 5" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" opacity=".6"/>`}
+    <circle cx="32" cy="30" r="5" fill="currentColor"/>
+    <path d="M36 27l7-6" stroke="currentColor" strokeWidth="2.6" strokeLinecap="round"/><ellipse cx="45.5" cy="18.5" rx="3" ry="4" transform="rotate(48 45.5 18.5)" fill="none" stroke="currentColor" strokeWidth="1.8"/>
+    ${spots.map(s => { const [x, y] = SPOTS[s]; const on = !active || active === s; return html`<g key=${s} opacity=${on ? 1 : .3}>
+      <path d=${`M${x} ${y}L32 30`} stroke="currentColor" strokeWidth="1.3" strokeDasharray="1 3" strokeLinecap="round"/>
+      <rect x=${x - 4} y=${y - 6} width="8" height="12" rx="2" fill=${on ? 'var(--volt)' : 'none'} stroke="currentColor" strokeWidth="1.8"/>
+    </g>`; })}
+  </svg>`;
+}
+const FILM_STEPS = [
+  {k:'front', t:'5 Schläge von der Seite', d:'Handy seitlich, du schaust beim Schlag zur Kamera.'},
+  {k:'back', t:'5 Schläge von hinten', d:'Handy hinter dir, Blick Richtung Netz.'},
+  {k:'other', t:'5 Schläge von der anderen Seite', d:'Handy auf die andere Seite stellen.'},
+];
+function FilmGuide({compact}) {
+  return html`<ol className=${'film-guide' + (compact ? ' compact' : '')}>${FILM_STEPS.map((s, i) => html`<li key=${s.k}>
+    <span className="fg-ic"><${TopDown} active=${s.k}/></span>
+    <span><b><span className="num">${i + 1}</span>${s.t}</b>${!compact && html`<span className="muted">${s.d}</span>`}</span>
+  </li>`)}</ol>`;
+}
+
+/* Seitenansicht auf dem Handy-Display: Spieler:in mit Vorhand, Platz und Netz */
+function SideScene({pose = 'fh', blur}) {
+  const q = POSES[pose];
+  return html`<svg className="side-scene" viewBox="0 0 640 360" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+    <defs><linearGradient id=${'sky' + (blur ? 'b' : '')} x1="0" y1="0" x2="0" y2="1"><stop offset="0" stopColor="#8FB6C9"/><stop offset="1" stopColor="#CFE0E3"/></linearGradient></defs>
+    <rect width="640" height="360" fill=${`url(#sky${blur ? 'b' : ''})`}/>
+    <path d="M0 120 Q 120 96 220 112 T 430 104 T 640 116 V 190 H 0 Z" fill="#4F7A5A"/>
+    <rect y="150" width="640" height="62" fill="#1F4A3A"/>
+    <g stroke="#2B5E4A" strokeWidth="2">${Array.from({length:17}, (_, i) => html`<path key=${i} d=${`M${i * 40} 150v62`}/>`)}</g>
+    <path d="M0 212 H640 V360 H0Z" fill="#2E6A94"/>
+    <path d="M0 212 H640 L640 232 H0Z" fill="#B3502C"/>
+    <path d="M0 300 L640 270" stroke="#fff" strokeOpacity=".9" strokeWidth="4"/>
+    <g><path d="M560 196v92" stroke="#E6E9EC" strokeWidth="6"/><path d="M560 210 L 640 206 V 268 L 560 276Z" fill="#0B0F14" fillOpacity=".35"/>
+      <path d="M560 210 L640 206" stroke="#fff" strokeWidth="5"/></g>
+    <ellipse cx="200" cy="318" rx="90" ry="10" fill="#000" fillOpacity=".22"/>
+    <g transform="translate(70 34) scale(4.9)" style=${{color:'#F7F8F9'}}>
+      <${Trail} d=${q.trail}/>
+      <${Figure} pose=${q}/>
+      <${Racket} x=${q.w1[0]} y=${q.w1[1]} a=${q.r}/>
+    </g>
+    <circle cx=${70 + q.ball[0] * 4.9} cy=${34 + q.ball[1] * 4.9} r="9" fill="#E9F35A"/>
+  </svg>`;
+}
+/* Bühne im Hero: Handy auf einem Stativ filmt; rund um das Display ist alles unscharf */
+function PhoneStage({children}) {
+  return html`<div className="stage">
+    <div className="stage-bg"><${SideScene} blur/></div>
+    <div className="stage-rig">
+      <div className="stage-phone">
+        <div className="ph-screen">
+          <${SideScene}/>
+          <span className="ph-rec"><i></i>REC <span className="num">00:14</span></span>
+          <span className="ph-count num">Vorhand · 7/15</span>
+          <span className="ph-corners" aria-hidden="true"></span>
+          <span className="ph-shutter" aria-hidden="true"></span>
+        </div>
+      </div>
+      <svg className="stage-tripod" viewBox="0 0 200 240" aria-hidden="true">
+        <rect x="88" y="0" width="24" height="16" rx="3" fill="#15191F"/>
+        <rect x="95" y="14" width="10" height="70" fill="#1F252D"/>
+        <rect x="86" y="80" width="28" height="14" rx="4" fill="#15191F"/>
+        <path d="M94 92 L28 240 M100 94 L100 240 M106 92 L172 240" stroke="#1F252D" strokeWidth="8" strokeLinecap="round"/>
+      </svg>
+    </div>
+    ${children}
+  </div>`;
 }
 
 /* Profilbild: hochgeladenes Foto oder ruhiger Platzhalter mit Initialen */
@@ -319,7 +421,7 @@ function useMotion(ref) {
 function Footer({area, links}) {
   return html`<footer className="foot"><div className="wrap">
     <div className="cols">
-      <div className="brand"><${Logo} light/><p>Video-Antworten von lizenzierten Trainer:innen für Tennis, Padel, Tischtennis und Pickleball.</p></div>
+      <div className="brand"><${Logo} light/><p>Video-Antworten von lizenzierten Tennistrainer:innen und Ex-Profis.</p></div>
       <div><b>${area === 'coach' ? 'Für Coaches' : 'Plattform'}</b><ul>${links.map(([href, label]) => html`<li key=${href}><a href=${href}>${label}</a></li>`)}</ul></div>
       <div><b>Rechtliches</b><ul>
         <li><a href=${ROOT + 'impressum/'}>Impressum</a></li><li><a href=${ROOT + 'datenschutz/'}>Datenschutz</a></li><li><a href=${ROOT + 'hinweise/'}>Hinweise zur Vorschau</a></li></ul></div>
@@ -335,7 +437,7 @@ function mount(App) {
   ReactDOM.createRoot(root).render(html`<${App}/>`);
 }
 
-window.MSC = {html, ROOT, CONTACT, SPORTS, sportById, strokeOf, TIERS, tierById, CUT, payout, COACHES, coachById, REVIEWS,
-  fmtEUR, fmtNum, initials, I, Ic, Stars, StrokeIcon, Portrait, Logo, CourtScene, VideoFrame, ExBadge, Modal, useToast,
+window.MSC = {html, ROOT, CONTACT, SPORTS, sportById, strokeOf, TIERS, LEVELS, TIER_ORDER, tierById, CUT, payout, COACHES, coachById, REVIEWS,
+  fmtEUR, fmtNum, initials, I, Ic, Stars, StrokeIcon, PhoneFrameIcon, TopDown, FilmGuide, FILM_STEPS, SideScene, PhoneStage, Portrait, Logo, CourtScene, VideoFrame, ExBadge, Modal, useToast,
   useHashRoute, hashParts, navigate, useScrollTo, useMotion, Footer, DemoBar, mount};
 })();

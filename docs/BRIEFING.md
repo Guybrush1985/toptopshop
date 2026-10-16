@@ -200,3 +200,9 @@ Mindestumfang je Kategorie: **≥ 1.000 Wörter** (nicht künstlich auffüllen),
   gekennzeichnet, Demo-Konten `gast@thirsty.test` / `wirt@thirsty.test` (Passwort `thirsty123`), `noindex`, eigenes
   Impressum/Datenschutz/Hinweise. Für echte Buchungen braucht es eine Datenbank (Vorschlag: Supabase, EU); dann
   `src/lib/store.ts` und `src/lib/actions.ts` auf die Datenbank umstellen und Datenschutz, AGB, Plattformpflichten ergänzen.
+- 2026-10-16: MyShotCoach (Rosi): **erst nur Tennis**, andere Sportarten später. Preise „ab 9 € pro Einschätzung“
+  (C 9 €, B 19 €, A 29 €). Ex-Profis als eigene Stufe P, nur über „Coach selbst wählen“ buchbar, vorläufig 49 €
+  (Platzhalter, nicht von Rosi bestätigt). Hero: Handy auf Stativ filmt die Vorhand, Umgebung unscharf. Schlag-Icons
+  mit Person. Filmanleitung: rundherum, je 5 Schläge von der Seite, von hinten, von der anderen Seite (max. 2 Min.).
+  Bezahlen geplant mit PayPal, Apple Pay, Google Pay, Kreditkarte und aufladbarem Guthaben; automatische Erstattung,
+  wenn kein Coach annimmt. In der Vorschau alles nur Demo.

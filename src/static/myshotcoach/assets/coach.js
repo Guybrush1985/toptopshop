@@ -3,7 +3,7 @@
 (function () {
 'use strict';
 const {useState, useEffect, useRef} = React;
-const {html, ROOT, CONTACT, SPORTS, sportById, strokeOf, TIERS, tierById, CUT, payout, fmtEUR, fmtNum,
+const {html, ROOT, CONTACT, SPORTS, sportById, strokeOf, TIERS, TIER_ORDER, tierById, CUT, payout, fmtEUR, fmtNum,
   Ic, Stars, StrokeIcon, Portrait, Logo, VideoFrame, Modal, useToast, useHashRoute, hashParts, navigate,
   useScrollTo, useMotion, Footer, DemoBar, mount} = window.MSC;
 const PCT = Math.round((1 - CUT) * 100) + ' %';
@@ -12,16 +12,16 @@ const SEED_BOARD = [
   {id:'b1', sport:'tennis', stroke:'rh', tier:'B', player:'Jana, 34', ago:'vor 12 Min.', note:'Einhändige Rückhand, der Ball fliegt oft zu hoch.'},
   {id:'b2', sport:'tennis', stroke:'auf', tier:'B', player:'Malte, 41', ago:'vor 40 Min.', note:'Der erste Aufschlag kommt selten rein.'},
   {id:'b3', sport:'tennis', stroke:'vhv', tier:'C', player:'Leonie, 17', ago:'vor 1 Std.', note:'Am Netz bin ich mit dem Volley zu spät.'},
-  {id:'b4', sport:'padel', stroke:'vib', tier:'B', player:'Sarah, 39', ago:'vor 3 Std.', note:'Víbora oder Bandeja? Ich weiß nie, welche.'},
+  {id:'b4', sport:'tennis', stroke:'rhs', tier:'B', player:'Sarah, 39', ago:'vor 3 Std.', note:'Mein Slice springt zu hoch ab.'},
   {id:'b5', sport:'tennis', stroke:'sla', tier:'C', player:'Ömer, 28', ago:'vor 4 Std.', note:''},
 ];
 const SEED_JOBS = [
   {id:'j1', sport:'tennis', stroke:'vh', tier:'B', player:'Felix, 23', ago:'gestern', note:'Die Vorhand longline geht immer ins Aus.', status:'progress', left:51},
   {id:'j0', sport:'tennis', stroke:'kick', tier:'B', player:'Hanna, 30', ago:'vor 4 Tagen', note:'', status:'done', earned:payout(19)},
 ];
-const SEED_ME = {name:'Alex Becker', email:'', club:'TC Grünblick', city:'Hannover', tier:'B', license:'DTB B-Lizenz', sports:['tennis', 'padel'],
+const SEED_ME = {name:'Alex Becker', email:'', club:'TC Grünblick', city:'Hannover', tier:'B', license:'DTB B-Lizenz', sports:['tennis'],
   bio:'Ich trainiere seit acht Jahren Mannschaftsspieler:innen bis zur Verbandsliga. In meinen Video-Antworten arbeite ich mit Zeitlupe und Markierungen.',
-  langs:['Deutsch', 'Englisch'], awards:['Vereinstrainer des Jahres 2024'], certs:[{n:'DTB B-Trainer-Lizenz', st:'ok'}, {n:'Padel-Trainer Level 1', st:'ok'}],
+  langs:['Deutsch', 'Englisch'], awards:['Vereinstrainer des Jahres 2024'], certs:[{n:'DTB B-Trainer-Lizenz', st:'ok'}],
   active:true, photo:null, demo:true};
 
 /* ---------- Routing ---------- */
@@ -82,12 +82,12 @@ function TabBar({view, go, me}) {
 
 /* ---------- Startseite für Coaches ---------- */
 const FAQ = [
-  ['Muss ich jede Anfrage annehmen?', 'Nein. Du siehst offene Anfragen aus deinen Sportarten und deinem Level und übernimmst nur, was zu dir passt. Du kannst dich jederzeit pausieren.'],
+  ['Muss ich jede Anfrage annehmen?', 'Nein. Du siehst offene Anfragen zu deinem Level und übernimmst nur, was zu dir passt. Du kannst dich jederzeit pausieren.'],
   ['Wie lange habe ich Zeit?', '72 Stunden ab Übernahme. Die meisten Video-Antworten dauern 10 bis 15 Minuten.'],
   ['Wie nehme ich eine Video-Antwort auf?', 'Am einfachsten per Bildschirmaufnahme mit Ton: Spiel das Video der Spielerin oder des Spielers ab, stopp an den wichtigen Stellen und erklär, was du siehst. iPhone und Android haben die Bildschirmaufnahme eingebaut, am Mac geht es mit Cmd + Shift + 5, unter Windows 11 mit dem Snipping Tool.'],
   ['Wie werde ich bezahlt?', `Du bekommst ${PCT} vom Preis jeder Video-Antwort. Zum Start zahlen wir deinen Anteil einmal im Monat per Überweisung aus, mit einer Gutschrift über alle Antworten.`],
   ['Was ist mit Steuern?', 'Du arbeitest selbstständig und versteuerst deine Einnahmen selbst. Als Plattform sind wir gesetzlich verpflichtet, die Einnahmen unserer Anbieter:innen einmal im Jahr an das Bundeszentralamt für Steuern zu melden (Plattformen-Steuertransparenzgesetz). Die nötigen Angaben fragen wir vor der ersten Auszahlung ab.'],
-  ['Welche Lizenzen werden anerkannt?', 'Trainerlizenzen der Stufen C, B und A sowie Übungsleiter-Lizenzen in Tennis, Padel, Tischtennis und Pickleball. Schick uns deinen Nachweis bei der Registrierung mit, wir prüfen ihn vor der Freischaltung.'],
+  ['Welche Lizenzen werden anerkannt?', 'Trainerlizenzen der Stufen C, B und A sowie Übungsleiter-Lizenzen im Tennis. Ehemalige Profis schicken uns ihre beste Weltranglisten-Platzierung. Schick uns deinen Nachweis bei der Registrierung mit, wir prüfen ihn vor der Freischaltung.'],
 ];
 function Home({go, anchor}) {
   const ref = useRef(null);
@@ -128,9 +128,9 @@ function Home({go, anchor}) {
     <section className="sec" id="so-gehts"><div className="wrap">
       <div className="sec-h rv"><div><p className="label">So funktioniert's</p><h2>Von der Registrierung zur ersten Auszahlung</h2></div><p className="muted">Du brauchst eine Trainerlizenz, ein Smartphone oder einen Laptop und ein paar Minuten pro Antwort.</p></div>
       <ol className="steps four">
-        <li className="step rv"><span className="n num">01</span><span className="st-ic"><${Ic} n="user" size=${28} sw=${1.6}/></span><h3>Registrieren</h3><p className="muted">Profil anlegen, Sportarten und Level wählen, Lizenznachweis mitschicken.</p></li>
+        <li className="step rv"><span className="n num">01</span><span className="st-ic"><${Ic} n="user" size=${28} sw=${1.6}/></span><h3>Registrieren</h3><p className="muted">Profil anlegen, Level wählen, Lizenznachweis mitschicken.</p></li>
         <li className="step rv"><span className="n num">02</span><span className="st-ic"><${Ic} n="shield" size=${28} sw=${1.6}/></span><h3>Freischaltung</h3><p className="muted">Wir prüfen deine Lizenz und schalten dein Profil frei.</p></li>
-        <li className="step rv"><span className="n num">03</span><span className="st-ic"><${Ic} n="inbox" size=${28} sw=${1.6}/></span><h3>Anfrage übernehmen</h3><p className="muted">Du siehst Anfragen aus deinen Sportarten und nimmst, was zu dir passt.</p></li>
+        <li className="step rv"><span className="n num">03</span><span className="st-ic"><${Ic} n="inbox" size=${28} sw=${1.6}/></span><h3>Anfrage übernehmen</h3><p className="muted">Du siehst Anfragen zu deinem Level und nimmst, was zu dir passt.</p></li>
         <li className="step rv"><span className="n num">04</span><span className="st-ic"><${Ic} n="video" size=${28} sw=${1.6}/></span><h3>Video-Antwort aufnehmen</h3><p className="muted">Video abspielen, stoppen, erklären. Hochladen, fertig.</p></li>
       </ol>
     </div></section>
@@ -157,7 +157,7 @@ function Home({go, anchor}) {
 }
 
 /* ---------- Registrierung (echt: per E-Mail) ---------- */
-const EMPTY = {first:'', last:'', email:'', phone:'', sports:[], tier:'', license:'', proof:null, club:'', city:'', photo:null, bio:'', langs:['Deutsch']};
+const EMPTY = {first:'', last:'', email:'', phone:'', sports:['tennis'], tier:'', license:'', proof:null, club:'', city:'', photo:null, bio:'', langs:['Deutsch']};
 function Register({go, onDone}) {
   const [step, setStep] = useState(1);
   const [f, setF] = useState(EMPTY);
@@ -227,13 +227,13 @@ function Register({go, onDone}) {
     </div>`}
 
     ${step === 2 && html`<div className="form">
-      <div className="field"><span className="flabel">Sportarten</span><div className="chipsel">${SPORTS.map(s => html`<button type="button" key=${s.id} aria-pressed=${f.sports.includes(s.id)} className=${f.sports.includes(s.id) ? 'on' : ''} onClick=${() => set('sports', f.sports.includes(s.id) ? f.sports.filter(x => x !== s.id) : [...f.sports, s.id])}><i style=${{background:s.color}}></i>${s.name}</button>`)}</div></div>
+      ${SPORTS.length > 1 && html`<div className="field"><span className="flabel">Sportarten</span><div className="chipsel">${SPORTS.map(s => html`<button type="button" key=${s.id} aria-pressed=${f.sports.includes(s.id)} className=${f.sports.includes(s.id) ? 'on' : ''} onClick=${() => set('sports', f.sports.includes(s.id) ? f.sports.filter(x => x !== s.id) : [...f.sports, s.id])}><i style=${{background:s.color}}></i>${s.name}</button>`)}</div></div>`}
       <div className="field"><span className="flabel">Dein Level</span>
         <div className="pick-tiers">${TIERS.map(t => html`<button type="button" key=${t.id} className=${'pt' + (f.tier === t.id ? ' on' : '')} aria-pressed=${f.tier === t.id} onClick=${() => set('tier', t.id)}>
           <span className="radio" aria-hidden="true"></span>
           <span className="pt-t"><b>${t.name}</b><span className="muted">${t.ex}</span></span>
           <span className="pt-p"><b className="num">${fmtEUR(payout(t.price))}</b><small className="muted">pro Antwort für dich</small></span></button>`)}</div></div>
-      <div className="field"><label htmlFor="rg-lic">Lizenz, wie sie im Profil stehen soll</label><input id="rg-lic" className="inp" placeholder="z. B. DTB B-Lizenz, DTTB C-Lizenz, Padel-Trainer Level 2" value=${f.license} onChange=${e => set('license', e.target.value)}/></div>
+      <div className="field"><label htmlFor="rg-lic">Lizenz, wie sie im Profil stehen soll</label><input id="rg-lic" className="inp" placeholder="z. B. DTB B-Lizenz oder Ehemaliger ATP-Profi" value=${f.license} onChange=${e => set('license', e.target.value)}/></div>
       <div className="field"><span className="flabel">Lizenznachweis</span>
         <label className="filebtn"><${Ic} n="doc" size=${18}/>${f.proof ? f.proof : 'Foto oder PDF auswählen'}<input id="rg-proof" type="file" accept="image/*,application/pdf" onChange=${e => e.target.files[0] && set('proof', e.target.files[0].name)}/></label>
         <span className="note">Den Nachweis hängst du an die E-Mail an, die sich im letzten Schritt öffnet. Hier dient er nur als Erinnerung und bleibt auf deinem Gerät.</span></div>
@@ -304,7 +304,7 @@ function Login({go, done, gate}) {
 
 /* ---------- Dashboard ---------- */
 function Dash({tab, go, me, setMe, board, jobs, claim, openJob, earn, toast}) {
-  const myBoard = board.filter(b => me.sports.includes(b.sport) && 'CBA'.indexOf(b.tier) <= 'CBA'.indexOf(me.tier));
+  const myBoard = board.filter(b => me.sports.includes(b.sport) && TIER_ORDER.indexOf(b.tier) <= TIER_ORDER.indexOf(me.tier));
   const open = jobs.filter(j => j.status !== 'done'); const done = jobs.filter(j => j.status === 'done');
   return html`<div className="wrap page">
     <div className="page-h"><div><p className="label">Coach-Bereich</p><h1>Hallo ${me.name.split(' ')[0]}</h1></div>
@@ -330,7 +330,7 @@ function Dash({tab, go, me, setMe, board, jobs, claim, openJob, earn, toast}) {
           ${b.note && html`<span className="quote">„${b.note}“</span>`}</span>
         <span className="ri-r"><b className="num plus">+${fmtEUR(payout(t.price))}</b><button className="btn pri sm" disabled=${!me.active} onClick=${() => claim(b)}>Übernehmen</button></span>
       </div>`; })}</div>`
-      : html`<div className="empty"><b>Gerade keine offenen Anfragen in deinen Sportarten.</b><p className="muted">Sobald etwas reinkommt, bekommst du eine Nachricht.</p></div>`)}
+      : html`<div className="empty"><b>Gerade keine offenen Anfragen für dein Level.</b><p className="muted">Sobald etwas reinkommt, bekommst du eine Nachricht.</p></div>`)}
     ${tab === 'jobs' && html`<div className="stack lg-gap">
       ${open.length ? html`<div className="rlist">${open.map(j => {
         const st = strokeOf(j.sport, j.stroke);
@@ -400,7 +400,7 @@ function ProfileEditor({me, setMe, toast}) {
       </div>
       <div className="price-info"><span>Dein Preis pro Video-Antwort</span><b className="num">${fmtEUR(t.price)}</b><span className="muted">Du erhältst ${fmtEUR(payout(t.price))} (${PCT}). Ein höheres Level schalten wir nach Prüfung der Lizenz frei.</span></div>
       <div className="field"><label htmlFor="l-in">Lizenz, wie sie im Profil steht</label><input id="l-in" className="inp" value=${d.license} onChange=${e => set('license', e.target.value)}/></div>
-      <div className="field"><span className="flabel">Sportarten</span><div className="chipsel">${SPORTS.map(s => html`<button key=${s.id} aria-pressed=${d.sports.includes(s.id)} className=${d.sports.includes(s.id) ? 'on' : ''} onClick=${() => set('sports', d.sports.includes(s.id) ? d.sports.filter(x => x !== s.id) : [...d.sports, s.id])}><i style=${{background:s.color}}></i>${s.name}</button>`)}</div></div>
+      ${SPORTS.length > 1 && html`<div className="field"><span className="flabel">Sportarten</span><div className="chipsel">${SPORTS.map(s => html`<button key=${s.id} aria-pressed=${d.sports.includes(s.id)} className=${d.sports.includes(s.id) ? 'on' : ''} onClick=${() => set('sports', d.sports.includes(s.id) ? d.sports.filter(x => x !== s.id) : [...d.sports, s.id])}><i style=${{background:s.color}}></i>${s.name}</button>`)}</div></div>`}
       <div className="field"><label htmlFor="b-in">Über mich</label><textarea id="b-in" className="inp" maxLength="700" value=${d.bio} onChange=${e => set('bio', e.target.value)}></textarea></div>
       <div className="field"><span className="flabel">Zertifikate und Lizenzen</span>
         ${d.certs.map((c, i) => html`<div key=${i} className="cert"><${Ic} n="doc" size=${22}/><span className="wrapany">${c.n}</span>${c.st === 'ok' ? html`<span className="pill ok"><${Ic} n="check" size=${13}/>geprüft</span>` : html`<span className="pill warn">wird geprüft</span>`}</div>`)}
