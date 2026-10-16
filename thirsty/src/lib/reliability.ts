@@ -57,6 +57,8 @@ export function tierFor(score: number, blockedUntil: Date | null): Tier {
 }
 
 export function reliabilityOf(s: State, userId: string) {
+  const known = s.remote?.reliability[userId];
+  if (known) return known;
   const { score, blockedUntil } = computeScore(s.events.filter((e) => e.userId === userId));
   return { score, blockedUntil, tier: tierFor(score, blockedUntil) };
 }

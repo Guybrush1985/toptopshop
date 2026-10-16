@@ -28,8 +28,8 @@ export function Profile({ restaurantId: id }: TabProps) {
           setSaved(undefined);
           const lat = coords.lat ? Number(coords.lat.replace(",", ".")) : undefined;
           const lng = coords.lng ? Number(coords.lng.replace(",", ".")) : undefined;
-          const ok = await run(() => {
-            updateRestaurant(id, {
+          const ok = await run(async () => {
+            await updateRestaurant(id, {
               name: f.get("name"), tagline: opt(f.get("tagline")), description: opt(f.get("description")), cuisine: opt(f.get("cuisine")),
               priceLevel: Math.min(4, Math.max(1, f.num("priceLevel") || 2)),
               street: opt(f.get("street")), postalCode: opt(f.get("postalCode")), city: opt(f.get("city")),
@@ -124,7 +124,7 @@ export function Profile({ restaurantId: id }: TabProps) {
             }
           }
           setSaved(undefined);
-          const ok = await run(() => (setOpeningHours(id, rows), true));
+          const ok = await run(async () => (await setOpeningHours(id, rows), true));
           if (ok) setSaved("Öffnungszeiten gespeichert.");
         }}
       >

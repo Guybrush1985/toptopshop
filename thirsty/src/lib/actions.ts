@@ -2,15 +2,20 @@
 
 // Alle Änderungen an Daten. Regeln wie im Konzept: Buchungsgrenzen, Malus, Check-in-Fenster.
 // Fehler werden als ActionError geworfen und in der Oberfläche angezeigt.
+// Im Live-Betrieb (REMOTE) gehen die Änderungen an Supabase (remote.ts); dort prüft die Datenbank dieselben Regeln.
+// Alle Änderungen sind deshalb async.
 
 import {
   getState, hashPassword, uid, update,
-  type Booking, type EventKind, type MemberRole, type Photo, type Restaurant, type Role, type State,
+  type Booking, type EventKind, type MemberRole, type Photo, type Restaurant, type Role, type Spot, type State,
 } from "./store";
 import { POINTS, reliabilityOf } from "./reliability";
 import { berlinDate, dateKey, slugify } from "./format";
+import { ActionError } from "./errors";
+import { REMOTE } from "./supabase";
+import * as R from "./remote";
 
-export class ActionError extends Error {}
+export { ActionError };
 const fail = (msg: string): never => {
   throw new ActionError(msg);
 };
@@ -51,6 +56,7 @@ export async function register(input: { name: string; email: string; password: s
   if (name.length < 2) fail("Bitte gib deinen Namen an.");
   if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) fail("Bitte gib eine gültige E-Mail-Adresse an.");
   if (input.password.length < 8) fail("Das Passwort braucht mindestens 8 Zeichen.");
+  if (REMOTE) return R.register({ ...input, name, email });
   if (getState().users.some((u) => u.email === email)) fail("Für diese E-Mail gibt es schon ein Konto.");
   const passwordHash = await hashPassword(input.password);
   const id = uid();
@@ -61,6 +67,7 @@ export async function register(input: { name: string; email: string; password: s
 }
 
 export async function login(emailRaw: string, password: string) {
+  if (REMOTE) return R.login(emailRaw.trim().toLowerCase(), password);
   const email = emailRaw.trim().toLowerCase();
   const user = getState().users.find((u) => u.email === email);
   if (!user || user.passwordHash !== (await hashPassword(password))) fail("E-Mail oder Passwort stimmt nicht.");
@@ -68,12 +75,14 @@ export async function login(emailRaw: string, password: string) {
   return user!;
 }
 
-export function logout() {
+export async function logout() {
+  if (REMOTE) return R.logout();
   save((s) => void (s.sessionUserId = null));
 }
 
-export function updateProfile(input: { name: string; phone: string; dietaryNotes: string }) {
+export async function updateProfile(input: { name: string; phone: string; dietaryNotes: string }) {
   const user = me();
+  if (REMOTE) return R.updateProfile(input);
   save((s) => {
     const u = s.users.find((x) => x.id === user.id)!;
     u.name = input.name.trim() || u.name;
@@ -85,10 +94,12 @@ export function updateProfile(input: { name: string; phone: string; dietaryNotes
 // ---------- Gäste ----------
 
 export function seatsTaken(s: State, spotId: string) {
+  if (s.remote) return s.remote.taken[spotId] ?? 0;
   return s.bookings.filter((b) => b.spotId === spotId && ACTIVE.includes(b.status)).reduce((n, b) => n + b.partySize, 0);
 }
 
-export function bookSpot(spotId: string, partySize: number): Booking {
+export async function bookSpot(spotId: string, partySize: number): Promise<Booking> {
+  if (REMOTE) return R.bookSpot(spotId, partySize);
   const user = me();
   const s = getState();
   const spot = s.spots.find((x) => x.id === spotId) ?? fail("Dieses Angebot gibt es nicht mehr.");
@@ -126,7 +137,8 @@ export function bookSpot(spotId: string, partySize: number): Booking {
   return booking;
 }
 
-export function cancelBooking(bookingId: string) {
+export async function cancelBooking(bookingId: string) {
+  if (REMOTE) return R.cancelBooking(bookingId);
   const user = me();
   const s = getState();
   const b = s.bookings.find((x) => x.id === bookingId);
@@ -141,18 +153,24 @@ export function cancelBooking(bookingId: string) {
   });
 }
 
-export function submitReview(bookingId: string, input: { rating: number; food?: number; service?: number; ambience?: number; asPromised: boolean; text: string }) {
+export async function submitReview(bookingId: string, input: { rating: number; food?: number; service?: number; ambience?: number; asPromised: boolean; text: string }) {
   const user = me();
   const s = getState();
   const b = s.bookings.find((x) => x.id === bookingId);
-  if (!b || b.userId !== user.id || b.status !== "CHECKED_IN") fail("Bewerten kannst du nur nach dem Check-in.");
-  if (s.reviews.some((r) => r.bookingId === bookingId)) fail("Du hast schon bewertet.");
+  if (!REMOTE && (!b || b.userId !== user.id || b.status !== "CHECKED_IN")) fail("Bewerten kannst du nur nach dem Check-in.");
+  if (!REMOTE && s.reviews.some((r) => r.bookingId === bookingId)) fail("Du hast schon bewertet.");
   if (!(input.rating >= 1 && input.rating <= 5)) fail("Bitte vergib 1 bis 5 Sterne.");
+  if (REMOTE) return R.submitReview(bookingId, input);
+  const restaurantId = s.spots.find((x) => x.id === b!.spotId)!.restaurantId;
   save((d) =>
-    void d.reviews.push({ id: uid(), bookingId, ...input, text: input.text.trim() || undefined, createdAt: new Date().toISOString() }));
+    void d.reviews.push({
+      id: uid(), bookingId, restaurantId, authorName: user.name.split(" ")[0], ...input, text: input.text.trim() || undefined,
+      createdAt: new Date().toISOString(),
+    }));
 }
 
-export function toggleFavorite(restaurantId: string) {
+export async function toggleFavorite(restaurantId: string) {
+  if (REMOTE) return R.toggleFavorite(restaurantId);
   const user = me();
   save((d) => {
     const i = d.favorites.findIndex((f) => f.userId === user.id && f.restaurantId === restaurantId);
@@ -171,9 +189,10 @@ function uniqueSlug(s: State, name: string, ignoreId?: string) {
   }
 }
 
-export function createRestaurant(name: string, city: string) {
+export async function createRestaurant(name: string, city: string) {
   const user = me();
   if (!name.trim()) fail("Bitte gib den Namen des Restaurants an.");
+  if (REMOTE) return R.createRestaurant(name.trim(), city.trim());
   const id = uid();
   save((d) => {
     d.restaurants.push({
@@ -203,9 +222,10 @@ export async function geocode(street?: string, postalCode?: string, city?: strin
   }
 }
 
-export function updateRestaurant(id: string, patch: Partial<Restaurant>) {
+export async function updateRestaurant(id: string, patch: Partial<Restaurant>) {
   requireMember(id, ["OWNER", "MANAGER"]);
   if (patch.name !== undefined && !patch.name.trim()) fail("Der Name darf nicht leer sein.");
+  if (REMOTE) return R.updateRestaurant(id, patch);
   save((d) => {
     const r = d.restaurants.find((x) => x.id === id)!;
     if (patch.name && patch.name !== r.name) patch.slug = uniqueSlug(d, patch.name, id);
@@ -213,23 +233,25 @@ export function updateRestaurant(id: string, patch: Partial<Restaurant>) {
   });
 }
 
-export function setOpeningHours(id: string, rows: { weekday: number; opens: string; closes: string }[]) {
+export async function setOpeningHours(id: string, rows: { weekday: number; opens: string; closes: string }[]) {
   requireMember(id, ["OWNER", "MANAGER"]);
+  if (REMOTE) return R.setOpeningHours(id, rows);
   save((d) => {
     d.hours = d.hours.filter((h) => h.restaurantId !== id).concat(rows.map((r) => ({ ...r, restaurantId: id })));
   });
 }
 
-export function setStatus(id: string, status: Restaurant["status"]) {
+export async function setStatus(id: string, status: Restaurant["status"]) {
   requireMember(id, ["OWNER", "MANAGER"]);
   const r = getState().restaurants.find((x) => x.id === id)!;
   if (status === "ACTIVE" && (!r.street || !r.city || !r.description)) {
     fail("Zum Veröffentlichen brauchst du mindestens Adresse und Beschreibung (Reiter „Profil“).");
   }
+  if (REMOTE) return R.setStatus(id, status);
   save((d) => void (d.restaurants.find((x) => x.id === id)!.status = status));
 }
 
-/** Verkleinert ein Bild im Browser, damit es in den lokalen Speicher passt. */
+/** Verkleinert ein Bild im Browser, damit es in den lokalen Speicher passt und Uploads klein bleiben. */
 export function resizeImage(file: File, maxSide = 1000): Promise<string> {
   if (!["image/jpeg", "image/png", "image/webp"].includes(file.type)) return Promise.reject(new ActionError("Erlaubt sind JPG, PNG und WebP."));
   if (file.size > 10 * 1024 * 1024) return Promise.reject(new ActionError("Ein Bild darf höchstens 10 MB groß sein."));
@@ -252,7 +274,8 @@ export function resizeImage(file: File, maxSide = 1000): Promise<string> {
 export async function addPhotos(restaurantId: string, kind: Photo["kind"], files: File[]) {
   requireMember(restaurantId, ["OWNER", "MANAGER"]);
   if (!files.length) fail("Bitte wähle mindestens ein Bild aus.");
-  const urls = await Promise.all(files.map((f) => resizeImage(f, kind === "LOGO" ? 400 : 1000)));
+  const urls = await Promise.all(files.map((f) => resizeImage(f, kind === "LOGO" ? 400 : kind === "MENU" ? 1600 : 1200)));
+  if (REMOTE) return R.addPhotos(restaurantId, kind, urls);
   save((d) => {
     if (kind === "LOGO" || kind === "COVER") d.photos = d.photos.filter((p) => !(p.restaurantId === restaurantId && p.kind === kind));
     let position = d.photos.filter((p) => p.restaurantId === restaurantId).length;
@@ -260,16 +283,24 @@ export async function addPhotos(restaurantId: string, kind: Photo["kind"], files
   });
 }
 
-export function deletePhoto(photoId: string) {
+export async function deletePhoto(photoId: string) {
   const p = getState().photos.find((x) => x.id === photoId) ?? fail("Foto nicht gefunden.");
   requireMember(p.restaurantId, ["OWNER", "MANAGER"]);
+  if (REMOTE) return R.deletePhoto(photoId);
   save((d) => void (d.photos = d.photos.filter((x) => x.id !== photoId)));
 }
 
-export function addMenuItem(restaurantId: string, input: { category: string; name: string; description: string; price: string; allergens: string; tags: string[] }) {
+export async function addMenuItem(restaurantId: string, input: { category: string; name: string; description: string; price: string; allergens: string; tags: string[] }) {
   requireMember(restaurantId, ["OWNER", "MANAGER"]);
   const price = Number(input.price.replace(",", "."));
   if (!input.name.trim() || !Number.isFinite(price) || price < 0) fail("Bitte Name und Preis angeben.");
+  if (REMOTE) {
+    return R.addMenuItem(restaurantId, {
+      category: input.category.trim() || "Speisen", name: input.name.trim(), description: input.description.trim() || null,
+      price_cents: Math.round(price * 100), tags: input.tags, allergens: input.allergens.trim() || null,
+      position: getState().menu.filter((m) => m.restaurantId === restaurantId).length,
+    });
+  }
   save((d) =>
     void d.menu.push({
       id: uid(), restaurantId, category: input.category.trim() || "Speisen", name: input.name.trim(),
@@ -278,13 +309,14 @@ export function addMenuItem(restaurantId: string, input: { category: string; nam
     }));
 }
 
-export function deleteMenuItem(itemId: string) {
+export async function deleteMenuItem(itemId: string) {
   const item = getState().menu.find((x) => x.id === itemId) ?? fail("Gericht nicht gefunden.");
   requireMember(item.restaurantId, ["OWNER", "MANAGER"]);
+  if (REMOTE) return R.deleteMenuItem(itemId);
   save((d) => void (d.menu = d.menu.filter((x) => x.id !== itemId)));
 }
 
-export function createSpots(restaurantId: string, input: {
+export async function createSpots(restaurantId: string, input: {
   date: string; start: string; end: string; repeatWeeks: number; seats: number; maxGroupSize: number;
   discountPercent: number; freebie: string; conditions: string; bookingCutoffMin: number;
 }) {
@@ -299,22 +331,27 @@ export function createSpots(restaurantId: string, input: {
   if (end <= start) fail("Das Ende muss nach dem Beginn liegen.");
   if (start < new Date()) fail("Der Beginn liegt in der Vergangenheit.");
   const weeks = Math.min(12, Math.max(1, input.repeatWeeks));
-  save((d) => {
-    for (let w = 0; w < weeks; w++) {
-      d.spots.push({
-        id: uid(), restaurantId,
-        startsAt: new Date(start.getTime() + w * 7 * 864e5).toISOString(),
-        endsAt: new Date(end.getTime() + w * 7 * 864e5).toISOString(),
-        seats: input.seats, maxGroupSize: Math.min(8, Math.max(1, input.maxGroupSize)),
-        discountPercent: input.discountPercent, freebie: input.freebie.trim() || undefined,
-        conditions: input.conditions.trim() || undefined, bookingCutoffMin: Math.max(0, input.bookingCutoffMin), status: "OPEN",
-      });
-    }
-  });
+  const spots: Spot[] = Array.from({ length: weeks }, (_, w) => ({
+    id: uid(), restaurantId,
+    startsAt: new Date(start.getTime() + w * 7 * 864e5).toISOString(),
+    endsAt: new Date(end.getTime() + w * 7 * 864e5).toISOString(),
+    seats: input.seats, maxGroupSize: Math.min(8, Math.max(1, input.maxGroupSize)),
+    discountPercent: input.discountPercent, freebie: input.freebie.trim() || undefined,
+    conditions: input.conditions.trim() || undefined, bookingCutoffMin: Math.max(0, input.bookingCutoffMin), status: "OPEN",
+  }));
+  if (REMOTE) {
+    await R.createSpots(spots.map((x) => ({
+      restaurant_id: restaurantId, starts_at: x.startsAt, ends_at: x.endsAt, seats: x.seats, max_group_size: x.maxGroupSize,
+      discount_percent: x.discountPercent, freebie: x.freebie ?? null, conditions: x.conditions ?? null, booking_cutoff_min: x.bookingCutoffMin,
+    })));
+    return weeks;
+  }
+  save((d) => void d.spots.push(...spots));
   return weeks;
 }
 
-export function cancelSpot(spotId: string) {
+export async function cancelSpot(spotId: string) {
+  if (REMOTE) return R.cancelSpot(spotId);
   const spot = getState().spots.find((x) => x.id === spotId) ?? fail("Angebot nicht gefunden.");
   requireMember(spot.restaurantId, ["OWNER", "MANAGER"]);
   save((d) => {
@@ -329,7 +366,8 @@ export function cancelSpot(spotId: string) {
 }
 
 /** Check-in per Code oder QR-Inhalt. Gilt ab 60 Minuten vor Beginn bis zum Ende des Zeitfensters. */
-export function checkIn(restaurantId: string, raw: string): { bookingId: string; again: boolean } {
+export async function checkIn(restaurantId: string, raw: string): Promise<{ bookingId: string; again: boolean }> {
+  if (REMOTE) return R.checkIn(restaurantId, raw);
   requireMember(restaurantId);
   const code = raw.replace(/^THIRSTY:/i, "").replace(/\D/g, "");
   const s = getState();
@@ -353,7 +391,8 @@ export function checkIn(restaurantId: string, raw: string): { bookingId: string;
 }
 
 /** No-Show melden: frühestens 15 Minuten nach Beginn. */
-export function markNoShow(bookingId: string) {
+export async function markNoShow(bookingId: string) {
+  if (REMOTE) return R.markNoShow(bookingId);
   const s = getState();
   const b = s.bookings.find((x) => x.id === bookingId) ?? fail("Buchung nicht gefunden.");
   const spot = s.spots.find((x) => x.id === b.spotId)!;
@@ -366,7 +405,8 @@ export function markNoShow(bookingId: string) {
   });
 }
 
-export function giveFeedback(bookingId: string, positive: boolean, tags: string[]) {
+export async function giveFeedback(bookingId: string, positive: boolean, tags: string[]) {
+  if (REMOTE) return R.giveFeedback(bookingId, positive, tags);
   const s = getState();
   const b = s.bookings.find((x) => x.id === bookingId) ?? fail("Buchung nicht gefunden.");
   const spot = s.spots.find((x) => x.id === b.spotId)!;
@@ -379,16 +419,15 @@ export function giveFeedback(bookingId: string, positive: boolean, tags: string[
   });
 }
 
-export function replyToReview(reviewId: string, reply: string) {
-  const s = getState();
-  const r = s.reviews.find((x) => x.id === reviewId) ?? fail("Bewertung nicht gefunden.");
-  const b = s.bookings.find((x) => x.id === r.bookingId)!;
-  const spot = s.spots.find((x) => x.id === b.spotId)!;
-  requireMember(spot.restaurantId, ["OWNER", "MANAGER"]);
+export async function replyToReview(reviewId: string, reply: string) {
+  if (REMOTE) return R.replyToReview(reviewId, reply);
+  const r = getState().reviews.find((x) => x.id === reviewId) ?? fail("Bewertung nicht gefunden.");
+  requireMember(r.restaurantId, ["OWNER", "MANAGER"]);
   save((d) => void (d.reviews.find((x) => x.id === reviewId)!.reply = reply.trim() || undefined));
 }
 
-export function addMember(restaurantId: string, emailRaw: string, role: MemberRole) {
+export async function addMember(restaurantId: string, emailRaw: string, role: MemberRole) {
+  if (REMOTE) return R.addMember(restaurantId, emailRaw.trim(), role);
   requireMember(restaurantId, ["OWNER"]);
   if (!["MANAGER", "STAFF"].includes(role)) fail("Unbekannte Rolle.");
   const email = emailRaw.trim().toLowerCase();
@@ -401,7 +440,8 @@ export function addMember(restaurantId: string, emailRaw: string, role: MemberRo
   });
 }
 
-export function removeMember(restaurantId: string, memberId: string) {
+export async function removeMember(restaurantId: string, memberId: string) {
+  if (REMOTE) return R.removeMember(restaurantId, memberId);
   const user = requireMember(restaurantId, ["OWNER"]);
   save((d) => void (d.members = d.members.filter((m) => !(m.id === memberId && m.restaurantId === restaurantId && m.userId !== user.id))));
 }

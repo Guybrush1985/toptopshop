@@ -10,7 +10,7 @@ export function Reviews({ restaurantId: id }: TabProps) {
   const { error, run } = useAction();
   const spotIds = new Set(s.spots.filter((sp) => sp.restaurantId === id).map((sp) => sp.id));
   const bookings = s.bookings.filter((b) => spotIds.has(b.spotId));
-  const reviews = s.reviews.filter((r) => bookings.some((b) => b.id === r.bookingId)).sort((a, b) => b.createdAt.localeCompare(a.createdAt));
+  const reviews = s.reviews.filter((r) => r.restaurantId === id).sort((a, b) => b.createdAt.localeCompare(a.createdAt));
   const attended = bookings.filter((b) => b.status === "CHECKED_IN").length;
   const noShows = bookings.filter((b) => b.status === "NO_SHOW").length;
   const avg = (k: "rating" | "food" | "service" | "ambience") => {
@@ -35,12 +35,9 @@ export function Reviews({ restaurantId: id }: TabProps) {
       {reviews.length === 0 && <p className="card text-stone-600">Noch keine Bewertungen.</p>}
       <ul className="space-y-3">
         {reviews.map((r) => {
-          const b = bookings.find((x) => x.id === r.bookingId)!;
-          const guest = s.users.find((u) => u.id === b.userId);
-          const spot = s.spots.find((x) => x.id === b.spotId)!;
           return (
             <li key={r.id} className="card space-y-2">
-              <p><Stars value={r.rating} /> <span className="font-medium">{guest?.name}</span> · <span className="text-sm text-stone-500">{new Date(spot.startsAt).toLocaleDateString("de-DE")}</span></p>
+              <p><Stars value={r.rating} /> <span className="font-medium">{r.authorName}</span> · <span className="text-sm text-stone-500">{new Date(r.createdAt).toLocaleDateString("de-DE")}</span></p>
               {r.text && <p>{r.text}</p>}
               {!r.asPromised && <p className="text-sm text-red-700">Gast sagt: Angebot nicht wie versprochen eingelöst.</p>}
               <form

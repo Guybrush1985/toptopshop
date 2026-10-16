@@ -5,31 +5,42 @@ import { useRouter } from "next/navigation";
 import { Suspense, useEffect, useState, type ReactNode } from "react";
 import { useCurrentUser, useStore } from "@/lib/store";
 import { logout } from "@/lib/actions";
+import { REMOTE } from "@/lib/config";
+import { startRemote } from "@/lib/remote";
 import { Loading } from "./ui";
 
-/** Rahmen der App. Rendert erst im Browser, weil alle Daten im Local Storage liegen. */
+/** Rahmen der App. Rendert erst im Browser, weil die Daten im Browser geladen werden (Local Storage oder Supabase). */
 export function Shell({ children }: { children: ReactNode }) {
   const [mounted, setMounted] = useState(false);
-  useEffect(() => setMounted(true), []);
+  useEffect(() => {
+    if (REMOTE) startRemote();
+    setMounted(true);
+  }, []);
   return (
     <>
       <div className="bg-stone-900 px-4 py-1.5 text-center text-xs text-stone-200">
-        Vorschau: Buchungen und Konten liegen nur in diesem Browser.{" "}
+        {REMOTE ? "Testphase: Thirsty startet gerade. Mit „Beispiel“ markierte Restaurants sind erfunden." : "Vorschau: Buchungen und Konten liegen nur in diesem Browser."}{" "}
         <Link href="/hinweise/" className="underline">Mehr erfahren</Link>
       </div>
       {mounted ? <Header /> : <div className="h-[57px] border-b border-stone-200 bg-white" />}
       <main className="mx-auto max-w-5xl px-4 py-8">
-        {mounted ? <Suspense fallback={<Loading />}>{children}</Suspense> : <Loading />}
+        {mounted ? <Ready><Suspense fallback={<Loading />}>{children}</Suspense></Ready> : <Loading />}
       </main>
       <footer className="mx-auto flex max-w-5xl flex-wrap gap-x-3 gap-y-1 px-4 pb-10 text-xs text-stone-500">
-        <span>Thirsty · eine Vorschau der TanMeOn GmbH</span>
+        <span>Thirsty · {REMOTE ? "ein Angebot" : "eine Vorschau"} der TanMeOn GmbH</span>
         <Link href="/registrieren/?rolle=restaurant" className="underline">Für Restaurants</Link>
-        <Link href="/hinweise/" className="underline">Hinweise zur Vorschau</Link>
+        <Link href="/hinweise/" className="underline">{REMOTE ? "Hinweise zur Testphase" : "Hinweise zur Vorschau"}</Link>
         <Link href="/impressum/" className="underline">Impressum</Link>
         <Link href="/datenschutz/" className="underline">Datenschutz</Link>
       </footer>
     </>
   );
+}
+
+/** Im Live-Betrieb erst rendern, wenn die Daten geladen sind. */
+function Ready({ children }: { children: ReactNode }) {
+  const s = useStore();
+  return !s.remote || s.remote.ready ? <>{children}</> : <Loading />;
 }
 
 function Header() {
@@ -47,8 +58,8 @@ function Header() {
           {(isMember || user?.role === "OWNER") && <Link href="/portal/" className="hover:text-brand-700">Portal</Link>}
           {user ? (
             <button
-              onClick={() => {
-                logout();
+              onClick={async () => {
+                await logout();
                 router.push("/");
               }}
               className="text-stone-500 hover:text-stone-800"

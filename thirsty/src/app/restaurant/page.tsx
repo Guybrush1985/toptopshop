@@ -32,10 +32,8 @@ export default function RestaurantPage() {
     .filter((sp) => sp.restaurantId === r.id && sp.status === "OPEN" && new Date(sp.endsAt) > new Date())
     .sort((a, b) => a.startsAt.localeCompare(b.startsAt))
     .slice(0, 10);
-  const spotIds = new Set(s.spots.filter((sp) => sp.restaurantId === r.id).map((sp) => sp.id));
-  const bookings = s.bookings.filter((b) => spotIds.has(b.spotId));
   const reviews = s.reviews
-    .filter((v) => bookings.some((b) => b.id === v.bookingId))
+    .filter((v) => v.restaurantId === r.id)
     .sort((a, b) => b.createdAt.localeCompare(a.createdAt));
   const avg = reviews.length ? reviews.reduce((n, x) => n + x.rating, 0) / reviews.length : 0;
   const fav = !!user && s.favorites.some((f) => f.userId === user.id && f.restaurantId === r.id);
@@ -203,11 +201,9 @@ export default function RestaurantPage() {
         ) : (
           <ul className="space-y-3">
             {reviews.map((v) => {
-              const b = bookings.find((x) => x.id === v.bookingId)!;
-              const name = s.users.find((u) => u.id === b.userId)?.name.split(" ")[0] ?? "Gast";
               return (
                 <li key={v.id} className="card">
-                  <p><Stars value={v.rating} /> <span className="font-medium">{name}</span></p>
+                  <p><Stars value={v.rating} /> <span className="font-medium">{v.authorName}</span></p>
                   {v.text && <p className="mt-1 text-stone-700">{v.text}</p>}
                   {!v.asPromised && <p className="mt-1 text-xs text-red-700">Angebot wurde nicht wie versprochen eingelöst.</p>}
                   {v.reply && <p className="mt-2 border-l-2 border-brand-500 pl-3 text-sm text-stone-600"><span className="font-medium">Antwort des Restaurants:</span> {v.reply}</p>}
