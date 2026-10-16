@@ -206,3 +206,7 @@ Mindestumfang je Kategorie: **≥ 1.000 Wörter** (nicht künstlich auffüllen),
   mit Person. Filmanleitung: rundherum, je 5 Schläge von der Seite, von hinten, von der anderen Seite (max. 2 Min.).
   Bezahlen geplant mit PayPal, Apple Pay, Google Pay, Kreditkarte und aufladbarem Guthaben; automatische Erstattung,
   wenn kein Coach annimmt. In der Vorschau alles nur Demo.
+- 2026-10-16: MyShotCoach-Coach-Konten echt: eigenes Supabase-Projekt „OnlineTennisCoach“ (`htibyxvxryraooarkwjg`, EU/Irland),
+  Tabelle `coaches` (Anlage per Trigger aus den Signup-Metadaten, Status `missing_proof` → `in_review` beim Nachweis-Upload,
+  `live`/`rejected` setzt nur das Team), privater Bucket `coach-files`. Client ohne Bibliothek in `assets/api.js`,
+  Sitzung nur im Arbeitsspeicher. Datenschutz Abschnitt 6 entsprechend angepasst.

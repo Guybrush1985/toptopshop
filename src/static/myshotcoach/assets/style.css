@@ -757,3 +757,4 @@ body > footer a { color: rgba(255,255,255,.85); }
 .guide-dont svg { color: var(--err); }
 @media (max-width: 1080px) { .guide { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (max-width: 520px) { .guide { grid-template-columns: minmax(0, 1fr); } }
+.missing-box.ok { background: var(--bg-2); color: var(--ink); } .missing-box.ok svg { color: var(--ok); }
