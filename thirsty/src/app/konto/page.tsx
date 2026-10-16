@@ -45,7 +45,7 @@ function Konto() {
         <div className="card">
           <p className="text-sm text-stone-500">Dein Zuverlässigkeitswert</p>
           <p className="mt-1 flex items-center gap-3">
-            <span className="text-4xl font-extrabold" data-testid="score">{rel.score}</span>
+            <span className="display text-6xl text-lime" data-testid="score">{rel.score}</span>
             <span className={`rounded-full px-3 py-1 text-sm font-semibold ${TIER_STYLE[rel.tier]}`}>{TIER_LABEL[rel.tier]}</span>
           </p>
           <div className="mt-3 h-2 rounded-full bg-stone-100">
@@ -80,7 +80,7 @@ function Konto() {
       </section>
 
       <section>
-        <h2 className="mb-3 text-xl font-bold">Anstehend</h2>
+        <h2 className="mb-3 display text-3xl text-cream">Anstehend</h2>
         {upcoming.length === 0 ? (
           <p className="card text-stone-600">Keine offenen Buchungen. <Link href="/" className="font-medium text-brand-700 underline">Plätze entdecken</Link></p>
         ) : (
@@ -102,8 +102,8 @@ function Konto() {
 
       {past.length > 0 && (
         <section>
-          <h2 className="mb-3 text-xl font-bold">Vergangen</h2>
-          <ul className="divide-y divide-stone-200 rounded-xl border border-stone-200 bg-white">
+          <h2 className="mb-3 display text-3xl text-cream">Vergangen</h2>
+          <ul className="divide-y divide-stone-200 rounded-xl border border-stone-200 bg-ink-2">
             {past.map((b) => (
               <li key={b.id}>
                 <Link href={`/buchung/?id=${b.id}`} className="flex items-center justify-between px-4 py-3 hover:bg-stone-50">
@@ -118,7 +118,7 @@ function Konto() {
 
       {favorites.length > 0 && (
         <section>
-          <h2 className="mb-3 text-xl font-bold">Gemerkte Restaurants</h2>
+          <h2 className="mb-3 display text-3xl text-cream">Gemerkte Restaurants</h2>
           <div className="flex flex-wrap gap-2">
             {favorites.map((r) => <Link key={r.id} href={`/restaurant/?s=${r.slug}`} className="btn-secondary">{r.name}</Link>)}
           </div>

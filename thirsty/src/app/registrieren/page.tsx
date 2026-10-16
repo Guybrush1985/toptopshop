@@ -17,8 +17,8 @@ export default function RegisterPage() {
         {owner ? "Restaurant registrieren" : "Konto erstellen"}
       </PageTitle>
       <div className="mb-4 grid grid-cols-2 gap-2 rounded-xl bg-stone-100 p-1 text-sm font-medium">
-        <Link href="/registrieren/" className={`rounded-lg px-3 py-2 text-center ${!owner ? "bg-white shadow-sm" : "text-stone-600"}`}>Ich bin Gast</Link>
-        <Link href="/registrieren/?rolle=restaurant" className={`rounded-lg px-3 py-2 text-center ${owner ? "bg-white shadow-sm" : "text-stone-600"}`}>Ich habe ein Restaurant</Link>
+        <Link href="/registrieren/" className={`rounded-lg px-3 py-2 text-center ${!owner ? "bg-lime font-semibold text-ink" : "text-stone-600"}`}>Ich bin Gast</Link>
+        <Link href="/registrieren/?rolle=restaurant" className={`rounded-lg px-3 py-2 text-center ${owner ? "bg-lime font-semibold text-ink" : "text-stone-600"}`}>Ich habe ein Restaurant</Link>
       </div>
       <Notice error={error} />
       <form

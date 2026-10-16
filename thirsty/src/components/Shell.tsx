@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useRouter } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import { Suspense, useEffect, useState, type ReactNode } from "react";
 import { useCurrentUser, useStore } from "@/lib/store";
 import { logout } from "@/lib/actions";
@@ -9,31 +9,47 @@ import { REMOTE } from "@/lib/config";
 import { startRemote } from "@/lib/remote";
 import { Loading } from "./ui";
 
+/** Seiten, die selbst randlos gestalten (Hero, Karte). Alle anderen bekommen den Standard-Rahmen. */
+const FULL_BLEED = ["/", "/restaurant/"];
+
 /** Rahmen der App. Rendert erst im Browser, weil die Daten im Browser geladen werden (Local Storage oder Supabase). */
 export function Shell({ children }: { children: ReactNode }) {
   const [mounted, setMounted] = useState(false);
+  const path = usePathname();
+  const bleed = FULL_BLEED.includes(path.endsWith("/") ? path : path + "/");
   useEffect(() => {
     if (REMOTE) startRemote();
     setMounted(true);
   }, []);
   return (
-    <>
-      <div className="bg-stone-900 px-4 py-1.5 text-center text-xs text-stone-200">
-        {REMOTE ? "Testphase: Thirsty startet gerade. Mit „Beispiel“ markierte Restaurants sind erfunden." : "Vorschau: Buchungen und Konten liegen nur in diesem Browser."}{" "}
-        <Link href="/hinweise/" className="underline">Mehr erfahren</Link>
+    <div className="grain relative min-h-screen overflow-x-clip">
+      <div className="relative z-30 bg-lime px-4 py-1.5 text-center text-[11px] font-semibold uppercase tracking-[.18em] text-ink">
+        {REMOTE ? "Testphase · Mit „Beispiel“ markierte Restaurants sind erfunden" : "Vorschau · Buchungen und Konten liegen nur in diesem Browser"}{" "}
+        <Link href="/hinweise/" className="underline decoration-2 underline-offset-2">Mehr</Link>
       </div>
-      {mounted ? <Header /> : <div className="h-[57px] border-b border-stone-200 bg-white" />}
-      <main className="mx-auto max-w-5xl px-4 py-8">
+      {mounted ? <Header /> : <div className="h-[68px]" />}
+      <main className={bleed ? "" : "mx-auto max-w-5xl px-5 pb-20 pt-10"}>
         {mounted ? <Ready><Suspense fallback={<Loading />}>{children}</Suspense></Ready> : <Loading />}
       </main>
-      <footer className="mx-auto flex max-w-5xl flex-wrap gap-x-3 gap-y-1 px-4 pb-10 text-xs text-stone-500">
+      <Footer />
+    </div>
+  );
+}
+
+function Footer() {
+  return (
+    <footer className="relative mt-24 overflow-hidden border-t border-white/10 bg-ink">
+      <div className="mx-auto flex max-w-6xl flex-wrap items-center gap-x-6 gap-y-2 px-5 pt-10 text-sm text-cream/60">
         <span>Thirsty · {REMOTE ? "ein Angebot" : "eine Vorschau"} der TanMeOn GmbH</span>
-        <Link href="/registrieren/?rolle=restaurant" className="underline">Für Restaurants</Link>
-        <Link href="/hinweise/" className="underline">{REMOTE ? "Hinweise zur Testphase" : "Hinweise zur Vorschau"}</Link>
-        <Link href="/impressum/" className="underline">Impressum</Link>
-        <Link href="/datenschutz/" className="underline">Datenschutz</Link>
-      </footer>
-    </>
+        <Link href="/registrieren/?rolle=restaurant" className="hover:text-lime">Für Restaurants</Link>
+        <Link href="/hinweise/" className="hover:text-lime">{REMOTE ? "Hinweise zur Testphase" : "Hinweise zur Vorschau"}</Link>
+        <Link href="/impressum/" className="hover:text-lime">Impressum</Link>
+        <Link href="/datenschutz/" className="hover:text-lime">Datenschutz</Link>
+      </div>
+      <p aria-hidden className="display pointer-events-none select-none whitespace-nowrap px-3 pb-2 pt-6 text-center text-[22vw] leading-[.8] text-white/[.04]">
+        Thirsty
+      </p>
+    </footer>
   );
 }
 
@@ -48,28 +64,31 @@ function Header() {
   const s = useStore();
   const router = useRouter();
   const isMember = !!user && s.members.some((m) => m.userId === user.id);
+  const link = "rounded-full px-3 py-1.5 text-cream/80 transition hover:bg-white/10 hover:text-cream";
   return (
-    <header className="sticky top-0 z-20 border-b border-stone-200 bg-white/90 backdrop-blur">
-      <nav className="mx-auto flex max-w-5xl items-center gap-4 px-4 py-3">
-        <Link href="/" className="text-xl font-extrabold tracking-tight text-brand-600">Thirsty</Link>
-        <div className="ml-auto flex items-center gap-3 text-sm">
-          <Link href="/" className="hover:text-brand-700">Entdecken</Link>
-          {user && <Link href="/konto/" className="hover:text-brand-700">Meine Buchungen</Link>}
-          {(isMember || user?.role === "OWNER") && <Link href="/portal/" className="hover:text-brand-700">Portal</Link>}
+    <header className="sticky top-0 z-20 border-b border-white/[.06] bg-ink/70 backdrop-blur-xl">
+      <nav className="mx-auto flex max-w-6xl items-center gap-2 px-5 py-3">
+        <Link href="/" className="group flex items-baseline gap-1 font-display text-3xl uppercase leading-none tracking-wide text-cream">
+          Thirsty<span className="inline-block h-2.5 w-2.5 rounded-full bg-lime transition group-hover:scale-150" />
+        </Link>
+        <div className="ml-auto flex flex-wrap items-center justify-end gap-1 text-sm font-medium">
+          <Link href="/" className={`${link} hidden sm:inline-block`}>Entdecken</Link>
+          {user && <Link href="/konto/" className={link}>Buchungen</Link>}
+          {(isMember || user?.role === "OWNER") && <Link href="/portal/" className={link}>Portal</Link>}
           {user ? (
             <button
               onClick={async () => {
                 await logout();
                 router.push("/");
               }}
-              className="text-stone-500 hover:text-stone-800"
+              className={`${link} text-cream/50`}
             >
               Abmelden
             </button>
           ) : (
             <>
-              <Link href="/login/" className="hover:text-brand-700">Anmelden</Link>
-              <Link href="/registrieren/" className="btn py-1.5">Registrieren</Link>
+              <Link href="/login/" className={link}>Anmelden</Link>
+              <Link href="/registrieren/" className="btn ml-1 px-4 py-2">Registrieren</Link>
             </>
           )}
         </div>

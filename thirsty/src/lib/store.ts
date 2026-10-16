@@ -8,6 +8,7 @@
 import { useSyncExternalStore } from "react";
 import { REMOTE } from "./config";
 import type { Tier } from "./reliability";
+import { OFFER_KINDS } from "./offer";
 
 export type Role = "GUEST" | "OWNER";
 export type MemberRole = "OWNER" | "MANAGER" | "STAFF";
@@ -235,20 +236,22 @@ const DEMO_RESTAURANTS: DemoRestaurant[] = [
   },
 ];
 
-function demoSpots(restaurantId: string, fromDay: number, withSoon: boolean): Spot[] {
+function demoSpots(restaurantId: string, fromDay: number, withSoon: boolean, variant = 0): Spot[] {
   const spots: Spot[] = [];
   if (withSoon) {
     // Startet in 45 Minuten, damit Buchung und Check-in sofort ausprobiert werden können.
-    spots.push(makeSpot(restaurantId, new Date(Date.now() + 45 * 60_000).toISOString(), new Date(Date.now() + 165 * 60_000).toISOString()));
+    spots.push(makeSpot(restaurantId, new Date(Date.now() + 45 * 60_000).toISOString(), new Date(Date.now() + 165 * 60_000).toISOString(), variant));
   }
-  for (let d = Math.max(1, fromDay); d <= 4; d++) spots.push(makeSpot(restaurantId, berlinAt(d, "17:30"), berlinAt(d, "19:00")));
+  for (let d = Math.max(1, fromDay); d <= 4; d++) spots.push(makeSpot(restaurantId, berlinAt(d, "17:30"), berlinAt(d, "19:00"), variant + d));
   return spots;
 }
 
-function makeSpot(restaurantId: string, startsAt: string, endsAt: string): Spot {
+/** Beispielangebote wechseln die Angebotsart, damit alle Varianten zu sehen sind. */
+function makeSpot(restaurantId: string, startsAt: string, endsAt: string, variant: number): Spot {
+  const offer = OFFER_KINDS[variant % OFFER_KINDS.length];
   return {
-    id: uid(), restaurantId, startsAt, endsAt, seats: 8, maxGroupSize: 4, discountPercent: 50,
-    freebie: "1 Getränk pro Person", conditions: "Ein Hauptgericht pro Person.", bookingCutoffMin: 30, status: "OPEN",
+    id: uid(), restaurantId, startsAt, endsAt, seats: 8, maxGroupSize: 4, discountPercent: offer.discountPercent,
+    freebie: offer.freebie, conditions: "Ein Hauptgericht pro Person.", bookingCutoffMin: 30, status: "OPEN",
   };
 }
 
@@ -268,16 +271,16 @@ function seed(): State {
     for (const weekday of [1, 2, 3, 4, 5, 6]) s.hours.push({ restaurantId: id, weekday, opens: "17:00", closes: "23:00" });
     menu.forEach(([category, name, priceCents, tags], position) =>
       s.menu.push({ id: uid(), restaurantId: id, category, name, priceCents, tags, position }));
-    s.spots.push(...demoSpots(id, 0, i < 2));
+    s.spots.push(...demoSpots(id, 0, i < 2, i));
   });
   return s;
 }
 
 /** Wer die Vorschau Tage später wieder öffnet, findet weiter Beispielangebote. */
 function topUpDemoSpots(s: State): State {
-  for (const r of s.restaurants.filter((x) => x.demo)) {
+  for (const [i, r] of s.restaurants.filter((x) => x.demo).entries()) {
     const upcoming = s.spots.some((sp) => sp.restaurantId === r.id && sp.status === "OPEN" && new Date(sp.endsAt) > new Date());
-    if (!upcoming) s.spots.push(...demoSpots(r.id, 1, false));
+    if (!upcoming) s.spots.push(...demoSpots(r.id, 1, false, i));
   }
   return s;
 }

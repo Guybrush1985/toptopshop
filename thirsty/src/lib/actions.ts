@@ -325,7 +325,8 @@ export async function createSpots(restaurantId: string, input: {
     fail("Bitte Datum und Uhrzeiten angeben.");
   }
   if (!(input.seats >= 1 && input.seats <= 100)) fail("Das Kontingent muss zwischen 1 und 100 Plätzen liegen.");
-  if (!(input.discountPercent >= 0 && input.discountPercent <= 70)) fail("Der Rabatt muss zwischen 0 und 70 % liegen.");
+  if (![0, 25, 50, 75].includes(input.discountPercent)) fail("Der Rabatt muss 25, 50 oder 75 % betragen.");
+  if (!input.discountPercent && !input.freebie.trim()) fail("Bitte wähle ein Angebot aus.");
   const start = berlinDate(input.date, input.start);
   const end = berlinDate(input.date, input.end);
   if (end <= start) fail("Das Ende muss nach dem Beginn liegen.");

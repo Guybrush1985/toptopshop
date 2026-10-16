@@ -9,12 +9,12 @@ export const metadata: Metadata = {
   icons: { icon: "/thirsty/favicon.svg" },
 };
 
-export const viewport: Viewport = { themeColor: "#d97706" };
+export const viewport: Viewport = { themeColor: "#0b0b0d" };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="de">
-      <body className="min-h-screen bg-stone-50 text-stone-900 antialiased">
+      <body className="min-h-screen bg-ink font-sans text-cream antialiased">
         <Shell>{children}</Shell>
       </body>
     </html>

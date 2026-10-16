@@ -29,7 +29,7 @@ export function CheckIn({ restaurantId: id }: TabProps) {
       {b && guest && spot && (
         <div className="card border-green-300 bg-green-50 text-center">
           <p className="text-sm font-semibold uppercase tracking-wide text-green-800">{result!.again ? "Bereits eingecheckt" : "Eingecheckt"}</p>
-          <p className="mt-1 text-2xl font-extrabold" data-testid="checked-in">{guest.name}</p>
+          <p className="mt-1 display text-4xl text-cream" data-testid="checked-in">{guest.name}</p>
           <p>{b.partySize} {b.partySize > 1 ? "Personen" : "Person"}</p>
           <div className="my-2"><OfferBadge discount={spot.discountPercent} freebie={spot.freebie} /></div>
           <p className="text-sm">Rabatt gilt für Bestellungen bis {time(spot.endsAt)} Uhr.</p>
@@ -37,7 +37,7 @@ export function CheckIn({ restaurantId: id }: TabProps) {
         </div>
       )}
       <div className="card space-y-4">
-        <h2 className="text-lg font-bold">QR-Code scannen</h2>
+        <h2 className="font-display text-2xl uppercase tracking-wide text-cream">QR-Code scannen</h2>
         <QrScanner onCode={submit} />
         <form
           className="flex gap-2"

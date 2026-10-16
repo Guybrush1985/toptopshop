@@ -43,7 +43,7 @@ function RestaurantPortal() {
   return (
     <div>
       <div className="mb-4 flex flex-wrap items-baseline justify-between gap-2">
-        <h1 className="text-2xl font-bold">{r.name}</h1>
+        <h1 className="display text-5xl text-cream">{r.name}</h1>
         <Link href={`/restaurant/?s=${r.slug}`} className="text-sm underline">Gästeansicht</Link>
       </div>
       <nav className="mb-6 flex gap-1 overflow-x-auto border-b border-stone-200 text-sm">
@@ -51,7 +51,7 @@ function RestaurantPortal() {
           <Link
             key={k}
             href={`/portal/restaurant/?id=${id}${k ? `&tab=${k}` : ""}`}
-            className={`whitespace-nowrap rounded-t-lg px-3 py-2 font-medium ${k === tab ? "border-b-2 border-brand-600 text-stone-900" : "text-stone-600 hover:bg-white hover:text-stone-900"}`}
+            className={`whitespace-nowrap rounded-t-lg px-3 py-2 font-medium ${k === tab ? "border-b-2 border-brand-600 text-stone-900" : "text-stone-600 hover:bg-white/5 hover:text-stone-900"}`}
           >
             {label}
           </Link>
