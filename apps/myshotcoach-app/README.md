@@ -1,4 +1,6 @@
-# MyShotCoach – App für iPhone und Android
+# tennistrainer.app – App für iPhone und Android
+
+„Dein Online Tennistrainer“ (früher MyShotCoach). Der Ordnername `apps/myshotcoach-app` bleibt vorerst.
 
 Eine Codebasis (React Native mit Expo SDK 58, Expo Router) für iOS, Android und eine Web-Vorschau.
 Backend ist dasselbe Supabase-Projekt wie der Coach-Bereich der Website (`htibyxvxryraooarkwjg`, Frankfurt).
@@ -45,7 +47,7 @@ npx eas-cli submit --platform android                     # Google Play
 ```
 
 Dafür nötig: Apple Developer Program (Firma TanMeOn GmbH, D-U-N-S-Nummer), Google Play Console (Organisationskonto),
-ein Expo-Konto sowie Datenschutzangaben in beiden Stores. Bundle-ID / Paketname: `de.tanmeon.myshotcoach`.
+ein Expo-Konto sowie Datenschutzangaben in beiden Stores. Name auf dem Home-Bildschirm: „Tennistrainer“. Bundle-ID / Paketname: `app.tennistrainer`.
 
 ## Bevor echtes Geld fließt
 

@@ -30,9 +30,10 @@ export default function Start() {
     <ScrollView style={{ flex: 1, backgroundColor: C.bg }} contentContainerStyle={{ paddingBottom: 40 }}>
       <View style={[st.hero, { paddingTop: ins.top + 14 }]}>
         <Logo light />
+        <Txt style={st.claim}>Dein Online Tennistrainer</Txt>
         <View style={st.heroImg}><CourtHero width={width - SPACE * 2} /></View>
         <Txt style={st.kicker}>Kurs zu teuer? Kein Trainer zur Hand? Nur mal kurz eine konkrete Frage?</Txt>
-        <Txt style={st.title}>Dann ist MyShotCoach das Richtige.</Txt>
+        <Txt style={st.title}>Dann ist tennistrainer.app das Richtige.</Txt>
         <Txt style={st.sub}>Ab {fmtEUR(minPrice)} für ein Feedback zu deiner Technik. Als Video, von lizenzierten Tennistrainer:innen.</Txt>
         <Button title="Schlag filmen und einreichen" kind="volt" icon="cam" onPress={() => start()} style={{ marginTop: 22 }} />
       </View>
@@ -93,6 +94,7 @@ export default function Start() {
 const st = StyleSheet.create({
   hero: { backgroundColor: C.night, paddingHorizontal: SPACE, paddingBottom: 28 },
   heroImg: { marginTop: 18, marginBottom: 20, borderRadius: R.lg, overflow: 'hidden' },
+  claim: { color: C.volt, fontFamily: F.semibold, fontSize: 14, marginTop: 8, letterSpacing: 0.2 },
   kicker: { color: 'rgba(255,255,255,.7)', fontFamily: F.medium, fontSize: 15.5, lineHeight: 22 },
   title: { color: '#fff', fontFamily: F.heavy, fontSize: 31, lineHeight: 34, letterSpacing: -0.8, marginTop: 6 },
   sub: { color: 'rgba(255,255,255,.82)', fontSize: 16, lineHeight: 23, marginTop: 10 },

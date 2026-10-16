@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "MyShotCoach",
-    "slug": "myshotcoach",
-    "scheme": "myshotcoach",
+    "name": "Tennistrainer",
+    "slug": "tennistrainer",
+    "scheme": "tennistrainer",
     "version": "0.1.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -15,17 +15,17 @@
       "backgroundColor": "#0B0F14"
     },
     "ios": {
-      "bundleIdentifier": "de.tanmeon.myshotcoach",
+      "bundleIdentifier": "app.tennistrainer",
       "supportsTablet": false,
       "infoPlist": {
-        "NSCameraUsageDescription": "MyShotCoach nutzt die Kamera, damit du deinen Schlag filmen und Trainer:innen ihre Video-Antwort aufnehmen können.",
+        "NSCameraUsageDescription": "tennistrainer.app nutzt die Kamera, damit du deinen Schlag filmen und Trainer:innen ihre Video-Antwort aufnehmen können.",
         "NSMicrophoneUsageDescription": "Der Ton wird mit aufgenommen, damit Trainer:innen ihre Tipps im Video erklären können.",
-        "NSPhotoLibraryUsageDescription": "MyShotCoach braucht Zugriff auf deine Mediathek, damit du ein vorhandenes Video auswählen kannst.",
+        "NSPhotoLibraryUsageDescription": "tennistrainer.app braucht Zugriff auf deine Mediathek, damit du ein vorhandenes Video auswählen kannst.",
         "ITSAppUsesNonExemptEncryption": false
       }
     },
     "android": {
-      "package": "de.tanmeon.myshotcoach",
+      "package": "app.tennistrainer",
       "adaptiveIcon": {
         "backgroundColor": "#0B0F14",
         "foregroundImage": "./assets/android-icon-foreground.png",
@@ -50,8 +50,8 @@
       [
         "expo-image-picker",
         {
-          "photosPermission": "MyShotCoach braucht Zugriff auf deine Mediathek, damit du ein vorhandenes Video auswählen kannst.",
-          "cameraPermission": "MyShotCoach nutzt die Kamera, damit du deinen Schlag filmen und Trainer:innen ihre Video-Antwort aufnehmen können.",
+          "photosPermission": "tennistrainer.app braucht Zugriff auf deine Mediathek, damit du ein vorhandenes Video auswählen kannst.",
+          "cameraPermission": "tennistrainer.app nutzt die Kamera, damit du deinen Schlag filmen und Trainer:innen ihre Video-Antwort aufnehmen können.",
           "microphonePermission": "Der Ton wird mit aufgenommen, damit Trainer:innen ihre Tipps im Video erklären können."
         }
       ]
