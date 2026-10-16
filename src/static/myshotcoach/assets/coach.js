@@ -12,12 +12,12 @@ const SEED_BOARD = [
   {id:'b1', sport:'tennis', stroke:'rh', tier:'B', player:'Jana, 34', ago:'vor 12 Min.', note:'Einhändige Rückhand, der Ball fliegt oft zu hoch.'},
   {id:'b2', sport:'tennis', stroke:'auf', tier:'B', player:'Malte, 41', ago:'vor 40 Min.', note:'Der erste Aufschlag kommt selten rein.'},
   {id:'b3', sport:'tennis', stroke:'vhv', tier:'C', player:'Leonie, 17', ago:'vor 1 Std.', note:'Am Netz bin ich mit dem Volley zu spät.'},
-  {id:'b4', sport:'tennis', stroke:'rhs', tier:'B', player:'Sarah, 39', ago:'vor 3 Std.', note:'Mein Slice springt zu hoch ab.'},
-  {id:'b5', sport:'tennis', stroke:'sla', tier:'C', player:'Ömer, 28', ago:'vor 4 Std.', note:''},
+  {id:'b4', sport:'tennis', stroke:'rsm', tier:'B', player:'Sarah, 39', ago:'vor 3 Std.', note:'Hohe Bälle auf der Rückhand kann ich nicht angreifen.'},
+  {id:'b5', sport:'tennis', stroke:'ret', tier:'C', player:'Ömer, 28', ago:'vor 4 Std.', note:''},
 ];
 const SEED_JOBS = [
   {id:'j1', sport:'tennis', stroke:'vh', tier:'B', player:'Felix, 23', ago:'gestern', note:'Die Vorhand longline geht immer ins Aus.', status:'progress', left:51},
-  {id:'j0', sport:'tennis', stroke:'kick', tier:'B', player:'Hanna, 30', ago:'vor 4 Tagen', note:'', status:'done', earned:payout(19)},
+  {id:'j0', sport:'tennis', stroke:'auf', tier:'B', player:'Hanna, 30', ago:'vor 4 Tagen', note:'', status:'done', earned:payout(19)},
 ];
 const SEED_ME = {name:'Alex Becker', email:'', club:'TC Grünblick', city:'Hannover', tier:'B', license:'DTB B-Lizenz', sports:['tennis'],
   bio:'Ich trainiere seit acht Jahren Mannschaftsspieler:innen bis zur Verbandsliga. In meinen Video-Antworten arbeite ich mit Zeitlupe und Markierungen.',
@@ -157,7 +157,11 @@ function Home({go, anchor}) {
 }
 
 /* ---------- Registrierung (echt: per E-Mail) ---------- */
-const EMPTY = {first:'', last:'', email:'', phone:'', sports:['tennis'], tier:'', license:'', proof:null, club:'', city:'', photo:null, bio:'', langs:['Deutsch']};
+// Die Lizenzbezeichnung im Profil ergibt sich aus dem Level.
+const licenseOf = f => f.tier === 'P'
+  ? `Ex-Profi · beste ${f.proTour}-Platzierung ${f.proRank || '?'}` + (f.proLic ? ` · DTB ${f.proLic}-Lizenz` : '')
+  : {C:'DTB C-Lizenz / Übungsleiter', B:'DTB B-Lizenz', A:'DTB A-Lizenz'}[f.tier] || '';
+const EMPTY = {first:'', last:'', email:'', phone:'', sports:['tennis'], tier:'', proTour:'ATP', proRank:'', proLic:'', proof:null, club:'', city:'', photo:null, bio:'', langs:['Deutsch']};
 function Register({go, onDone}) {
   const [step, setStep] = useState(1);
   const [f, setF] = useState(EMPTY);
@@ -176,7 +180,7 @@ function Register({go, onDone}) {
     if (step === 2) {
       if (!f.sports.length) return 'Bitte wähl mindestens eine Sportart.';
       if (!f.tier) return 'Bitte wähl dein Level.';
-      if (!f.license.trim()) return 'Bitte gib deine Lizenz an, zum Beispiel „DTB B-Lizenz“.';
+      if (f.tier === 'P' && !(+f.proRank >= 1 && +f.proRank <= 1000)) return 'Für Ex-Profis gilt: beste Weltranglisten-Platzierung zwischen 1 und 1000.';
     }
     return '';
   };
@@ -185,7 +189,7 @@ function Register({go, onDone}) {
     'Registrierung als Coach bei MyShotCoach', '',
     'Name: ' + name, 'E-Mail: ' + f.email, f.phone ? 'Telefon: ' + f.phone : null,
     'Sportarten: ' + f.sports.map(s => sportById(s).name).join(', '),
-    'Level: ' + tierById(f.tier).name, 'Lizenz: ' + f.license,
+    'Level: ' + tierById(f.tier).name, 'Lizenz: ' + licenseOf(f),
     'Heimverein: ' + (f.club || '-'), 'Stadt: ' + (f.city || '-'),
     'Sprachen: ' + f.langs.join(', '),
     f.bio ? '\nÜber mich:\n' + f.bio : null, '',
@@ -206,7 +210,7 @@ function Register({go, onDone}) {
     <p>Dein E-Mail-Programm öffnet sich mit deinen Angaben. <b>Häng bitte deinen Lizenznachweis${f.photo ? ' und dein Profilfoto' : ''} an</b> und schick die Mail ab. Wir prüfen deine Lizenz und melden uns vor dem Start bei dir.</p>
     <p className="muted">Falls sich nichts öffnet, schreib uns direkt an diese Adresse:</p>
     <div className="mailbox"><code>${CONTACT}</code><button className="btn sm" onClick=${copy}><${Ic} n="copy" size=${16}/>${copied ? 'Kopiert' : 'Kopieren'}</button></div>
-    <div className="row-btns"><button className="btn pri" onClick=${() => onDone({...SEED_ME, name, email:f.email, club:f.club, city:f.city, tier:f.tier, license:f.license, sports:f.sports, bio:f.bio, langs:f.langs, photo:f.photo, awards:[], certs:[{n:f.license, st:'review'}], demo:false})}>Coach-Bereich ansehen (Vorschau)</button></div>
+    <div className="row-btns"><button className="btn pri" onClick=${() => onDone({...SEED_ME, name, email:f.email, club:f.club, city:f.city, tier:f.tier, license:licenseOf(f), sports:f.sports, bio:f.bio, langs:f.langs, photo:f.photo, awards:[], certs:[{n:licenseOf(f), st:f.proof ? 'review' : 'missing'}], missingProof:!f.proof, demo:false})}>Coach-Bereich ansehen (Vorschau)</button></div>
   </div></div>`;
 
   const titles = ['', 'Über dich', 'Deine Qualifikation', 'Dein Profil', 'Prüfen und absenden'];
@@ -233,10 +237,17 @@ function Register({go, onDone}) {
           <span className="radio" aria-hidden="true"></span>
           <span className="pt-t"><b>${t.name}</b><span className="muted">${t.ex}</span></span>
           <span className="pt-p"><b className="num">${fmtEUR(payout(t.price))}</b><small className="muted">pro Antwort für dich</small></span></button>`)}</div></div>
-      <div className="field"><label htmlFor="rg-lic">Lizenz, wie sie im Profil stehen soll</label><input id="rg-lic" className="inp" placeholder="z. B. DTB B-Lizenz oder Ehemaliger ATP-Profi" value=${f.license} onChange=${e => set('license', e.target.value)}/></div>
-      <div className="field"><span className="flabel">Lizenznachweis</span>
+      ${f.tier === 'P' && html`<div className="card pad stack sm-gap">
+        <b>Angaben für Ex-Profis</b><span className="muted small">Voraussetzung: mindestens Top 1000 der ATP- oder WTA-Weltrangliste (Einzel oder Doppel). Eine Trainerlizenz ist nicht nötig.</span>
+        <div className="two">
+          <div className="field"><span className="flabel">Tour</span><div className="seg sm">${['ATP', 'WTA'].map(t => html`<button type="button" key=${t} className=${f.proTour === t ? 'on' : ''} aria-pressed=${f.proTour === t} onClick=${() => set('proTour', t)}>${t}</button>`)}</div></div>
+          <div className="field"><label htmlFor="rg-rank">Beste Platzierung</label><input id="rg-rank" className="inp" inputMode="numeric" placeholder="z. B. 412" value=${f.proRank} onChange=${e => set('proRank', e.target.value.replace(/\D/g, '').slice(0, 4))}/></div>
+        </div>
+        <div className="field"><span className="flabel">Trainerlizenz (optional)</span><div className="seg sm">${[['', 'Keine'], ['C', 'DTB C'], ['B', 'DTB B'], ['A', 'DTB A']].map(([v, l]) => html`<button type="button" key=${v} className=${f.proLic === v ? 'on' : ''} aria-pressed=${f.proLic === v} onClick=${() => set('proLic', v)}>${l}</button>`)}</div></div>
+      </div>`}
+      <div className="field"><span className="flabel">${f.tier === 'P' ? 'Nachweis (z. B. Screenshot deines Spielerprofils)' : 'Lizenznachweis'} (optional, für die Freischaltung nötig)</span>
         <label className="filebtn"><${Ic} n="doc" size=${18}/>${f.proof ? f.proof : 'Foto oder PDF auswählen'}<input id="rg-proof" type="file" accept="image/*,application/pdf" onChange=${e => e.target.files[0] && set('proof', e.target.files[0].name)}/></label>
-        <span className="note">Den Nachweis hängst du an die E-Mail an, die sich im letzten Schritt öffnet. Hier dient er nur als Erinnerung und bleibt auf deinem Gerät.</span></div>
+        <span className="note">Ohne Nachweis legen wir dein Profil trotzdem an, schalten es aber erst live, wenn der Nachweis da ist. Du kannst ihn jederzeit nachreichen.</span></div>
       <div className="two">
         <div className="field"><label htmlFor="rg-club">Heimverein (optional)</label><input id="rg-club" className="inp" value=${f.club} onChange=${e => set('club', e.target.value)}/></div>
         <div className="field"><label htmlFor="rg-city">Stadt (optional)</label><input id="rg-city" className="inp" autoComplete="address-level2" value=${f.city} onChange=${e => set('city', e.target.value)}/></div>
@@ -258,7 +269,8 @@ function Register({go, onDone}) {
         <dl className="rows">
           <div><dt>Sportarten</dt><dd>${f.sports.map(s => sportById(s).name).join(', ')}</dd></div>
           <div><dt>Level</dt><dd>${tierById(f.tier).name}</dd></div>
-          <div><dt>Lizenz</dt><dd className="wrapany">${f.license}</dd></div>
+          <div><dt>Lizenz</dt><dd className="wrapany">${licenseOf(f)}</dd></div>
+          <div><dt>Nachweis</dt><dd>${f.proof ? f.proof : html`<span className="pill warn">fehlt · Profil noch nicht live</span>`}</dd></div>
           <div><dt>Heimverein</dt><dd>${[f.club, f.city].filter(Boolean).join(', ') || '-'}</dd></div>
           <div><dt>Sprachen</dt><dd>${f.langs.join(', ') || '-'}</dd></div>
           <div className="total"><dt>Dein Anteil pro Antwort</dt><dd className="num">${fmtEUR(payout(tierById(f.tier).price))}</dd></div>
@@ -309,6 +321,7 @@ function Dash({tab, go, me, setMe, board, jobs, claim, openJob, earn, toast}) {
   return html`<div className="wrap page">
     <div className="page-h"><div><p className="label">Coach-Bereich</p><h1>Hallo ${me.name.split(' ')[0]}</h1></div>
       <button className=${'switch' + (me.active ? ' on' : '')} onClick=${() => setMe({...me, active:!me.active})} aria-pressed=${me.active}><span className="knob" aria-hidden="true"></span>${me.active ? 'Nimmt Anfragen an' : 'Pausiert'}</button></div>
+    ${me.missingProof && html`<div className="missing-box" role="status"><${Ic} n="doc" size=${22}/><span><b>Dein Profil ist noch nicht live.</b> Es fehlt dein ${me.tier === 'P' ? 'Nachweis zur Weltranglisten-Platzierung' : 'Lizenznachweis'}. Lade ihn unter „Profil“ hoch, dann prüfen wir ihn und schalten dich frei.</span></div>`}
     <p className="ex-banner">Vorschau: Anfragen, Aufträge und Verdienst sind Beispieldaten. So sieht der Bereich für Coaches zum Start aus.</p>
     <div className="dash-k">
       <div><small>Verdienst Oktober</small><b className="num">${fmtEUR(earn)}</b></div>
@@ -403,7 +416,7 @@ function ProfileEditor({me, setMe, toast}) {
       ${SPORTS.length > 1 && html`<div className="field"><span className="flabel">Sportarten</span><div className="chipsel">${SPORTS.map(s => html`<button key=${s.id} aria-pressed=${d.sports.includes(s.id)} className=${d.sports.includes(s.id) ? 'on' : ''} onClick=${() => set('sports', d.sports.includes(s.id) ? d.sports.filter(x => x !== s.id) : [...d.sports, s.id])}><i style=${{background:s.color}}></i>${s.name}</button>`)}</div></div>`}
       <div className="field"><label htmlFor="b-in">Über mich</label><textarea id="b-in" className="inp" maxLength="700" value=${d.bio} onChange=${e => set('bio', e.target.value)}></textarea></div>
       <div className="field"><span className="flabel">Zertifikate und Lizenzen</span>
-        ${d.certs.map((c, i) => html`<div key=${i} className="cert"><${Ic} n="doc" size=${22}/><span className="wrapany">${c.n}</span>${c.st === 'ok' ? html`<span className="pill ok"><${Ic} n="check" size=${13}/>geprüft</span>` : html`<span className="pill warn">wird geprüft</span>`}</div>`)}
+        ${d.certs.map((c, i) => html`<div key=${i} className="cert"><${Ic} n="doc" size=${22}/><span className="wrapany">${c.n}</span>${c.st === 'ok' ? html`<span className="pill ok"><${Ic} n="check" size=${13}/>geprüft</span>` : c.st === 'missing' ? html`<span className="pill err">Nachweis fehlt</span>` : html`<span className="pill warn">wird geprüft</span>`}</div>`)}
         <label className="filebtn"><${Ic} n="plus" size=${18}/>Zertifikat hinzufügen (PDF oder Foto)<input id="cert-in" type="file" accept="image/*,application/pdf" onChange=${onCert}/></label>
       </div>
       <div className="field"><label htmlFor="aw-in">Auszeichnungen</label>
