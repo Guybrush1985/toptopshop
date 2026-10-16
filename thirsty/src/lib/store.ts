@@ -1,10 +1,13 @@
 "use client";
 
-// Datenhaltung der Vorschau: alles liegt im Local Storage dieses Browsers.
-// Die Funktionen in actions.ts sind die einzige Stelle, die Daten ändert. Für den echten Betrieb
-// wird diese Datei durch eine Anbindung an eine Datenbank (z. B. Supabase) ersetzt.
+// Datenhaltung. Zwei Betriebsarten mit derselben Form der Daten (State):
+// - Vorschau: alles liegt im Local Storage dieses Browsers.
+// - Live (Supabase konfiguriert): remote.ts lädt die Daten aus der Datenbank und setzt sie mit setRemoteState.
+// Die Funktionen in actions.ts sind die einzige Stelle, die Daten ändert.
 
 import { useSyncExternalStore } from "react";
+import { REMOTE } from "./config";
+import type { Tier } from "./reliability";
 
 export type Role = "GUEST" | "OWNER";
 export type MemberRole = "OWNER" | "MANAGER" | "STAFF";
@@ -39,7 +42,7 @@ export type Booking = {
   createdAt: string; checkedInAt?: string; cancelledAt?: string;
 };
 export type Review = {
-  id: string; bookingId: string; rating: number; food?: number; service?: number; ambience?: number;
+  id: string; bookingId: string; restaurantId: string; authorName: string; rating: number; food?: number; service?: number; ambience?: number;
   asPromised: boolean; text?: string; reply?: string; createdAt: string;
 };
 export type Feedback = { bookingId: string; positive: boolean; tags: string[] };
@@ -61,6 +64,14 @@ export type State = {
   feedback: Feedback[];
   events: ReliabilityEvent[];
   favorites: Favorite[];
+  /** Nur im Live-Betrieb: Daten, die der Browser nicht selbst aus Buchungen und Ereignissen berechnen kann. */
+  remote?: {
+    ready: boolean;
+    /** Belegte Plätze pro Angebot */
+    taken: Record<string, number>;
+    /** Zuverlässigkeit: eigener Wert und Stufen der Gäste in den eigenen Restaurants */
+    reliability: Record<string, { score: number; tier: Tier; blockedUntil: Date | null }>;
+  };
 };
 
 const KEY = "thirsty-preview-v1";
@@ -69,12 +80,20 @@ const listeners = new Set<() => void>();
 
 export const uid = () => Math.random().toString(36).slice(2, 10) + Date.now().toString(36).slice(-4);
 
+export function emptyState(): State {
+  return {
+    version: 1, sessionUserId: null, users: [], restaurants: [], members: [], hours: [], photos: [], menu: [],
+    spots: [], bookings: [], reviews: [], feedback: [], events: [], favorites: [],
+  };
+}
+
 function load(): State {
+  if (REMOTE) return { ...emptyState(), remote: { ready: false, taken: {}, reliability: {} } };
   try {
     const raw = localStorage.getItem(KEY);
     if (raw) {
       const s = JSON.parse(raw) as State;
-      if (s.version === 1) return topUpDemoSpots(s);
+      if (s.version === 1) return migrate(topUpDemoSpots(s));
     }
   } catch {
     /* Local Storage nicht verfügbar oder beschädigt: neu anfangen */
@@ -83,6 +102,7 @@ function load(): State {
 }
 
 function persist(s: State) {
+  if (REMOTE) return true;
   try {
     localStorage.setItem(KEY, JSON.stringify(s));
     return true;
@@ -109,6 +129,12 @@ export function update(fn: (draft: State) => void): boolean {
   return true;
 }
 
+/** Live-Betrieb: frisch geladene Daten übernehmen. */
+export function setRemoteState(next: State) {
+  state = next;
+  listeners.forEach((l) => l());
+}
+
 export function resetDemo() {
   try {
     localStorage.removeItem(KEY);
@@ -123,7 +149,7 @@ export function resetDemo() {
 function subscribe(l: () => void) {
   listeners.add(l);
   const onStorage = (e: StorageEvent) => {
-    if (e.key === KEY) {
+    if (!REMOTE && e.key === KEY) {
       state = null;
       l();
     }
@@ -228,10 +254,7 @@ function makeSpot(restaurantId: string, startsAt: string, endsAt: string): Spot 
 
 function seed(): State {
   const now = new Date().toISOString();
-  const s: State = {
-    version: 1, sessionUserId: null, users: [], restaurants: [], members: [], hours: [], photos: [], menu: [],
-    spots: [], bookings: [], reviews: [], feedback: [], events: [], favorites: [],
-  };
+  const s = emptyState();
   // Passwort der Demo-Konten: "thirsty123" (SHA-256 von "thirsty:thirsty123")
   const demoHash = "2ef3e82c4a588abd72284a0e846521dbab5b4e3cb4cf78d59f8819965fea5f12";
   s.users.push(
@@ -255,6 +278,17 @@ function topUpDemoSpots(s: State): State {
   for (const r of s.restaurants.filter((x) => x.demo)) {
     const upcoming = s.spots.some((sp) => sp.restaurantId === r.id && sp.status === "OPEN" && new Date(sp.endsAt) > new Date());
     if (!upcoming) s.spots.push(...demoSpots(r.id, 1, false));
+  }
+  return s;
+}
+
+/** Ältere Vorschau-Daten: Bewertungen bekamen später Restaurant und Namen direkt mitgespeichert. */
+function migrate(s: State): State {
+  for (const r of s.reviews) {
+    if (r.restaurantId && r.authorName) continue;
+    const b = s.bookings.find((x) => x.id === r.bookingId);
+    r.restaurantId = s.spots.find((x) => x.id === b?.spotId)?.restaurantId ?? "";
+    r.authorName = s.users.find((u) => u.id === b?.userId)?.name.split(" ")[0] ?? "Gast";
   }
   return s;
 }

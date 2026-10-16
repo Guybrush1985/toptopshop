@@ -3,10 +3,12 @@
 import Link from "next/link";
 import { useState } from "react";
 import { resetDemo } from "@/lib/store";
+import { REMOTE } from "@/lib/config";
 import { H2, Legal } from "@/components/Legal";
 
 export default function Hinweise() {
   const [done, setDone] = useState(false);
+  if (REMOTE) return <LiveHints />;
   return (
     <Legal title="Hinweise zur Vorschau">
       <p>
@@ -45,6 +47,35 @@ export default function Hinweise() {
         Vorschau zurücksetzen
       </button>
       {done && <p className="text-sm text-green-800">Zurückgesetzt. <Link href="/" className="underline">Zur Startseite</Link></p>}
+    </Legal>
+  );
+}
+
+function LiveHints() {
+  return (
+    <Legal title="Hinweise zur Testphase">
+      <p>
+        Thirsty ist eine Plattform, auf der Restaurants Plätze für die erste Stunde nach Öffnung mit Rabatt ausschreiben, damit die
+        Tische früh am Abend voll sind. Gäste buchen, zeigen im Restaurant einen QR-Code und bezahlen vor Ort.
+      </p>
+      <H2>Was die Testphase bedeutet</H2>
+      <ul className="list-disc space-y-1 pl-5">
+        <li>Konten, Restaurants, Buchungen und Bewertungen werden gespeichert und sind auf allen Geräten gleich.</li>
+        <li>Über Thirsty wird nichts bezahlt. Den Rabatt löst das Restaurant beim Bezahlen vor Ort ein.</li>
+        <li>Die als „Beispiel“ gekennzeichneten Restaurants, Angebote und Preise sind erfunden. Buchungen dort erreichen kein Restaurant.</li>
+        <li>Funktionen und Regeln können sich in der Testphase noch ändern.</li>
+      </ul>
+      <H2>So testest du den Ablauf</H2>
+      <ol className="list-decimal space-y-1 pl-5">
+        <li>Ein Konto als Restaurant anlegen, das Restaurant mit Adresse und Beschreibung veröffentlichen und ein Angebot erstellen.</li>
+        <li>Mit einem zweiten Konto (andere E-Mail) als Gast das Angebot buchen und den Code notieren.</li>
+        <li>Im Portal unter „Check-in“ den Code eingeben oder den QR-Code mit der Kamera scannen.</li>
+        <li>Als Gast die Buchung bewerten und den Zuverlässigkeitswert im Konto ansehen.</li>
+      </ol>
+      <H2>Für Restaurants</H2>
+      <p>
+        Interesse am Start in deiner Stadt? Schreib an <a className="underline" href="mailto:info@tanmeon.de?subject=Thirsty">info@tanmeon.de</a>.
+      </p>
     </Legal>
   );
 }

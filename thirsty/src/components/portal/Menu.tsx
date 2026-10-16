@@ -37,8 +37,8 @@ export function Menu({ restaurantId: id }: TabProps) {
         className="card h-fit space-y-3"
         onSubmit={async (e) => {
           const f = formValues(e);
-          const ok = await run(() => {
-            addMenuItem(id, {
+          const ok = await run(async () => {
+            await addMenuItem(id, {
               category: f.get("category"), name: f.get("name"), description: f.get("description"),
               price: f.get("price"), allergens: f.get("allergens"), tags: f.all("tags"),
             });

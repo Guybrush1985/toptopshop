@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
 import { login } from "@/lib/actions";
 import { DEMO_LOGINS } from "@/lib/store";
+import { REMOTE } from "@/lib/config";
 import { Field, Notice, PageTitle, formValues, useAction } from "@/components/ui";
 
 export default function LoginPage() {
@@ -29,7 +30,7 @@ export default function LoginPage() {
         <Field label="Passwort"><input className="input" name="password" type="password" required autoComplete="current-password" /></Field>
         <button className="btn w-full" disabled={busy}>Anmelden</button>
       </form>
-      <div className="card mt-4 space-y-2 bg-brand-50">
+      {!REMOTE && <div className="card mt-4 space-y-2 bg-brand-50">
         <p className="text-sm font-medium">Ausprobieren ohne Registrierung</p>
         <div className="flex flex-wrap gap-2">
           {DEMO_LOGINS.map((d) => (
@@ -37,7 +38,7 @@ export default function LoginPage() {
           ))}
         </div>
         <p className="text-xs text-stone-600">Tipp: Als Gast buchen, abmelden, als Restaurant einchecken. Beides funktioniert in diesem Browser.</p>
-      </div>
+      </div>}
       <p className="mt-4 text-sm text-stone-600">
         Noch kein Konto? <Link href="/registrieren/" className="font-medium text-brand-700 underline">Registrieren</Link>
       </p>
