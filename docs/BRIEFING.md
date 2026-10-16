@@ -227,3 +227,9 @@ Mindestumfang je Kategorie: **≥ 1.000 Wörter** (nicht künstlich auffüllen),
   per `.htaccess`-Rewrite (Host-Abfrage) auf diesen Ordner gelegt; Deploy wie bisher per Push auf `main` (IONOS Deploy Now).
   Rosi muss die Domain im Deploy-Now-Projekt hinzufügen. Impressum/Datenschutz überarbeitet (Empfänger, Speicherdauer, Art. 22).
 - 2026-10-16 15:10: tennistrainer.app läuft im eigenen Repo Guybrush1985/tennistrainer (eigenes Deploy-Now-Projekt). `src/static/myshotcoach/` entfernt, /myshotcoach/* leitet per 301 auf tennistrainer.app um.
+- 2026-10-16: **I'm Feeling It** (Rosi) liegt unter `/vibe/`: ein Knopf meldet „I'm feeling it“ mit Standort, eine
+  Live-Weltkarte pulsiert, wo viele es fühlen, dazu Rankings nach Stadt, Land, Kontinent und Welt. Quellcode im eigenen
+  Repo github.com/Guybrush1985/vibe (Next.js, statischer Export mit `basePath: "/vibe"`); dort `npm run toptop`
+  (mit `TOPTOP_DIR` auf diesen Checkout), danach hier `node build.mjs`. Daten in Supabase-Projekt Firsty.app, eigenes
+  Schema `vibe`, Zugriff nur über die Funktionen `vibe_feel` und `vibe_live_feelings`. Demo-Daten sind beigemischt und
+  gekennzeichnet. `noindex` per `src/static/vibe/.htaccess`.
