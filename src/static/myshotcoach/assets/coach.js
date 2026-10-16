@@ -3,7 +3,7 @@
 (function () {
 'use strict';
 const {useState, useEffect, useRef} = React;
-const {html, ROOT, CONTACT, SPORTS, sportById, strokeOf, TIERS, TIER_ORDER, tierById, CUT, payout, fmtEUR, fmtNum,
+const {html, ROOT, CONTACT, SPORTS, sportById, strokeOf, TIERS, TIER_ORDER, tierById, PhoneFrameIcon, CUT, payout, fmtEUR, fmtNum,
   Ic, Stars, StrokeIcon, Portrait, Logo, VideoFrame, Modal, useToast, useHashRoute, hashParts, navigate,
   useScrollTo, useMotion, Footer, DemoBar, mount} = window.MSC;
 const PCT = Math.round((1 - CUT) * 100) + ' %';
@@ -31,7 +31,7 @@ function parseHash() {
   if (a === 'registrieren') return {view:'register'};
   if (a === 'login') return {view:'login'};
   if (TABS[a]) return {view:'dash', param:TABS[a]};
-  if (a === 'so-gehts' || a === 'verdienst' || a === 'faq') return {view:'home', anchor:a};
+  if (a === 'so-gehts' || a === 'ratgeber' || a === 'verdienst' || a === 'faq') return {view:'home', anchor:a};
   return {view:'home'};
 }
 function toHash(v, p) {
@@ -53,6 +53,7 @@ function Header({view, go, me, logout}) {
         <button className=${view === 'dash' && me.tab === 'profile' ? 'on' : ''} onClick=${() => go('dash', 'profile')}>Profil</button>`
       : html`
         <button onClick=${() => go('home', 'so-gehts')}>So funktioniert's</button>
+        <button onClick=${() => go('home', 'ratgeber')}>Ratgeber</button>
         <button onClick=${() => go('home', 'verdienst')}>Verdienst</button>
         <button onClick=${() => go('home', 'faq')}>Fragen</button>`}
     </nav>
@@ -84,11 +85,26 @@ function TabBar({view, go, me}) {
 const FAQ = [
   ['Muss ich jede Anfrage annehmen?', 'Nein. Du siehst offene Anfragen zu deinem Level und übernimmst nur, was zu dir passt. Du kannst dich jederzeit pausieren.'],
   ['Wie lange habe ich Zeit?', '72 Stunden ab Übernahme. Die meisten Video-Antworten dauern 10 bis 15 Minuten.'],
-  ['Wie nehme ich eine Video-Antwort auf?', 'Am einfachsten per Bildschirmaufnahme mit Ton: Spiel das Video der Spielerin oder des Spielers ab, stopp an den wichtigen Stellen und erklär, was du siehst. iPhone und Android haben die Bildschirmaufnahme eingebaut, am Mac geht es mit Cmd + Shift + 5, unter Windows 11 mit dem Snipping Tool.'],
+  ['Wie nehme ich eine Video-Antwort auf?', 'Am besten auf dem Tennisplatz, mit Schläger in der Hand: Geh auf das ein, was dir im Video aufgefallen ist, und mach den Schlag richtig vor, am liebsten mit Ball. Alle Tipps stehen oben im Ratgeber.'],
   ['Wie werde ich bezahlt?', `Du bekommst ${PCT} vom Preis jeder Video-Antwort. Zum Start zahlen wir deinen Anteil einmal im Monat per Überweisung aus, mit einer Gutschrift über alle Antworten.`],
   ['Was ist mit Steuern?', 'Du arbeitest selbstständig und versteuerst deine Einnahmen selbst. Als Plattform sind wir gesetzlich verpflichtet, die Einnahmen unserer Anbieter:innen einmal im Jahr an das Bundeszentralamt für Steuern zu melden (Plattformen-Steuertransparenzgesetz). Die nötigen Angaben fragen wir vor der ersten Auszahlung ab.'],
   ['Welche Lizenzen werden anerkannt?', 'Trainerlizenzen der Stufen C, B und A sowie Übungsleiter-Lizenzen im Tennis. Ehemalige Profis schicken uns ihre beste Weltranglisten-Platzierung. Schick uns deinen Nachweis bei der Registrierung mit, wir prüfen ihn vor der Freischaltung.'],
 ];
+
+function GuideIcon({k}) {
+  if (k === 'racket') return html`<${StrokeIcon} k="fh"/>`;
+  if (k === 'ball') return html`<${StrokeIcon} k="serve"/>`;
+  if (k === 'eye') return html`<${PhoneFrameIcon}/>`;
+  return html`<${Ic} n=${k === 'pin' ? 'pin' : 'check'} size=${34} sw=${1.6}/>`;
+}
+const GUIDE = [
+  ['eye', 'Erst das ganze Video ansehen', 'Schau dir alle 15 Schläge an: von der Seite, von hinten und von der anderen Seite. Erst dann entscheidest du, was das Wichtigste ist.'],
+  ['pin', 'Ab auf den Platz', 'Nimm deine Antwort am besten auf dem Tennisplatz auf, nicht am Schreibtisch. Handy aufs Stativ, du komplett im Bild.'],
+  ['racket', 'Schläger in die Hand', 'Sprich die Spielerin oder den Spieler direkt an und geh auf das ein, was dir im Video aufgefallen ist. Zeig mit dem Schläger, was du meinst.'],
+  ['ball', 'Richtig vormachen, mit Ball', 'Mach den Schlag so vor, wie er sein sollte, am liebsten mit Ball. Sag beim Schlagen, worauf es ankommt.'],
+  ['check', 'Ein bis drei Punkte, eine Übung', 'Lieber wenige Hinweise, die sitzen, als zehn auf einmal. Gib zum Schluss eine Übung mit, die man allein machen kann.'],
+];
+const GUIDE_DONT = ['Keine reine Bildschirmaufnahme vom Schreibtisch', 'Nicht das ganze Video nacherzählen', 'Keine Liste mit zehn Fehlern'];
 function Home({go, anchor}) {
   const ref = useRef(null);
   useMotion(ref); useScrollTo(anchor);
@@ -133,6 +149,12 @@ function Home({go, anchor}) {
         <li className="step rv"><span className="n num">03</span><span className="st-ic"><${Ic} n="inbox" size=${28} sw=${1.6}/></span><h3>Anfrage übernehmen</h3><p className="muted">Du siehst Anfragen zu deinem Level und nimmst, was zu dir passt.</p></li>
         <li className="step rv"><span className="n num">04</span><span className="st-ic"><${Ic} n="video" size=${28} sw=${1.6}/></span><h3>Video-Antwort aufnehmen</h3><p className="muted">Video abspielen, stoppen, erklären. Hochladen, fertig.</p></li>
       </ol>
+    </div></section>
+
+    <section className="sec guide-sec" id="ratgeber"><div className="wrap">
+      <div className="sec-h rv"><div><p className="label">Ratgeber</p><h2>So sieht eine gute Video-Antwort aus</h2></div><p className="muted">Spieler:innen wollen einen echten Trainer auf dem Platz sehen, der ihnen den Schlag zeigt. Fünf Regeln, an die sich jede Antwort hält.</p></div>
+      <ol className="guide rv">${GUIDE.map(([ic, t, d], i) => html`<li key=${t}><span className="g-n num">${i + 1}</span><span className="g-ic"><${GuideIcon} k=${ic}/></span><h3>${t}</h3><p className="muted">${d}</p></li>`)}</ol>
+      <div className="guide-dont rv"><b>Bitte nicht</b>${GUIDE_DONT.map(x => html`<span key=${x}><${Ic} n="close" size=${16}/>${x}</span>`)}</div>
     </div></section>
 
     <section className="sec alt" id="verdienst"><div className="wrap">
@@ -373,7 +395,7 @@ function JobEditor({j, close, submit}) {
     <${VideoFrame} sport=${j.sport} label=${'Video von ' + j.player.split(',')[0]} at="0:00" dur="0:24" progress=${0}/>
     ${j.note && html`<p className="quote-blk"><b>Hinweis:</b> „${j.note}“</p>`}
     <div className="form" style=${{marginTop:20}}>
-      <div className="howto"><b>So nimmst du deine Antwort auf</b><ol><li>Bildschirmaufnahme mit Ton starten.</li><li>Video abspielen, an wichtigen Stellen stoppen und erklären, was du siehst.</li><li>Zum Schluss zwei, drei Übungen zeigen oder erklären.</li></ol></div>
+      <div className="howto"><b>So nimmst du deine Antwort auf</b><ol><li>Das ganze Video ansehen, alle drei Perspektiven.</li><li>Auf den Platz, Handy aufs Stativ, Schläger in die Hand.</li><li>Sagen, was dir auffällt, und den Schlag richtig vormachen, am besten mit Ball.</li><li>Ein bis drei Punkte und eine Übung zum Schluss.</li></ol></div>
       <div className="field"><span className="flabel">Deine Video-Antwort</span>
         ${vurl ? html`<div className="stack sm-gap"><div className="vprev"><video src=${vurl} controls playsInline></video></div>
             <div className="vprev-ft"><span className="file"><span className="pill ok"><${Ic} n="check" size=${13}/>Bereit</span>${vname}</span><button className="btn sm" onClick=${() => { setVurl(null); setVname(''); }}>Ersetzen</button></div></div>`
