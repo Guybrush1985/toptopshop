@@ -210,3 +210,10 @@ Mindestumfang je Kategorie: **≥ 1.000 Wörter** (nicht künstlich auffüllen),
   Tabelle `coaches` (Anlage per Trigger aus den Signup-Metadaten, Status `missing_proof` → `in_review` beim Nachweis-Upload,
   `live`/`rejected` setzt nur das Team), privater Bucket `coach-files`. Client ohne Bibliothek in `assets/api.js`,
   Sitzung nur im Arbeitsspeicher. Datenschutz Abschnitt 6 entsprechend angepasst.
+- 2026-10-16: MyShotCoach-Registrierung: Stadt und Heimverein als Suchfelder (lokale Dateien `assets/data-orte.json`
+  aus npm `german-zip-codes`, MIT; Vereine in Supabase-Tabelle `clubs` aus OpenStreetMap, ODbL, ca. 2.400 Einträge,
+  NRW/Niedersachsen/Sachsen fehlen noch wegen überlasteter Overpass-Server; freie Eingabe bleibt möglich).
+  Nachweis „Jetzt hochladen“ oder „Später nachreichen“ (Profil bleibt offline, rot markiert). Link „Noch kein Trainer?“
+  zu trainer.tennis.de. KI-Vorprüfung der Nachweise per Edge Function `check-proof` (Quelle in `supabase/functions/`,
+  Anthropic API, Ergebnis in `coaches.ai_check`); Freischaltung bleibt Handarbeit. Braucht Secret `ANTHROPIC_API_KEY`.
+  Neues Logo: Handy hochkant mit Schläger, gelber Ball oben rechts.

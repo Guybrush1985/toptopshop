@@ -274,8 +274,13 @@ function Portrait({c, round}) {
   </div>`;
 }
 
+const LogoMark = ({light, size = 30}) => { const fg = light ? '#fff' : '#0B0F14', bg = light ? '#0B0F14' : '#fff';
+  return html`<svg width=${size} height=${size} viewBox="0 0 32 32" aria-hidden="true">
+    <rect x="7" y="2.5" width="16" height="27" rx="3.6" fill=${fg}/><rect x="9" y="5.5" width="12" height="20.5" rx="1.6" fill=${bg}/>
+    <g transform="rotate(-28 15 15.5)" fill="none" stroke=${fg} strokeWidth="1.5" strokeLinecap="round"><ellipse cx="15" cy="12.2" rx="3.4" ry="4.4"/><path d="M15 16.6v6.2"/><path d="M13.3 12.2h3.4M15 8.6v7.2" strokeWidth=".8" opacity=".6"/></g>
+    <circle cx="25.5" cy="6.5" r="4" fill="#D4F53C" stroke=${bg} strokeWidth="1.2"/></svg>`; };
 const Logo = ({light}) => html`<span className=${'logo' + (light ? ' light' : '')}>
-  <svg width="30" height="30" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill=${light ? '#fff' : '#0B0F14'}/><path d="M12.5 10v12l9.5-6z" fill=${light ? '#0B0F14' : '#fff'}/><circle cx="25" cy="7" r="4" fill="#D4F53C"/></svg>
+  <${LogoMark} light=${light}/>
   <span className="wm">MyShotCoach</span>
 </span>`;
 

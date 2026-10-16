@@ -50,6 +50,19 @@ const api = {
     await call(`/storage/v1/object/${BUCKET}/${path}`, {method:'POST', token:s.access_token, body:file, raw:true, headers:{'Content-Type':file.type || 'application/octet-stream', 'x-upsert':'true'}});
     return path;
   },
+  // Tennisvereine (Quelle: OpenStreetMap) für die Vereinssuche
+  async clubs(q, city) {
+    const c = x => (x || '').replace(/[*,()."\\]/g, ' ').trim();
+    const parts = [];
+    if (c(q)) parts.push(`name.ilike.*${c(q)}*`);
+    if (c(city)) parts.push(`or(city.ilike.${c(city)},name.ilike.*${c(city)}*)`);
+    if (!parts.length) return [];
+    try { return await call('/rest/v1/clubs?select=name,city&order=name&limit=8&and=(' + encodeURIComponent(parts.join(',')) + ')'); } catch (e) { return []; }
+  },
+  // Automatische Vorprüfung des Nachweises (Server ruft die KI auf, ein Mensch entscheidet über die Freischaltung)
+  async checkProof(s) {
+    try { return await call('/functions/v1/check-proof', {method:'POST', token:s.access_token, body:{}}); } catch (e) { return null; }
+  },
   // Login-Link aus der Bestätigungs-Mail: #access_token=…&refresh_token=…
   async fromHash() {
     const h = location.hash;
