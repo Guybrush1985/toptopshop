@@ -769,3 +769,9 @@ body > footer a { color: rgba(255,255,255,.85); }
 .become svg:first-child { color: #D4F53C; flex: none; } .become span { flex: 1; } .become b { color: #D4F53C; }
 .become:hover { background: #1A2129; }
 .logo .wm-tld { color: #6B7480; font-weight: 600; } .logo.light .wm-tld, .foot .logo .wm-tld { color: #D4F53C; }
+/* Start-Banner und Warteliste */
+.demo.launch { background: #D4F53C; color: #0B0F14; border-bottom: 0; font-size: 14px; padding: 9px 16px; }
+.demo.launch b { font-weight: 750; }
+.check { display: flex; gap: 10px; align-items: flex-start; font-size: 14.5px; line-height: 1.45; cursor: pointer; }
+.check input { width: 18px; height: 18px; margin-top: 2px; flex: none; accent-color: #0B0F14; }
+.lead-s { color: var(--ink-2); font-size: 16.5px; line-height: 1.55; margin-top: 10px; max-width: 56ch; }
