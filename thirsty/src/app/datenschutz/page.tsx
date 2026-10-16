@@ -12,7 +12,7 @@ export default function Datenschutz() {
       {REMOTE ? <LiveData /> : <>
       <H2>Speicherung in deinem Browser</H2>
       <p>
-        In der Vorschau speichert Thirsty alle Eingaben (Konto, Profil, Restaurantdaten, Fotos, Buchungen, Bewertungen) ausschließlich
+        In der Vorschau speichert Firsty alle Eingaben (Konto, Profil, Restaurantdaten, Fotos, Buchungen, Bewertungen) ausschließlich
         im Local Storage deines Browsers. Diese Daten werden nicht an uns oder Dritte übertragen und sind nur auf diesem Gerät in diesem
         Browser sichtbar. Passwörter werden dort nur als Prüfsumme abgelegt. Du kannst die Daten jederzeit löschen, indem du in den
         Hinweisen zur Vorschau auf „Vorschau zurücksetzen“ klickst oder die Websitedaten in deinem Browser entfernst. Rechtsgrundlage
@@ -68,7 +68,7 @@ function LiveData() {
         (gebucht, eingecheckt, storniert, nicht erschienen) und Zeitpunkte. Aus Check-ins, späten Absagen und No-Shows ergibt sich dein
         Zuverlässigkeitswert. Bewertungen erscheinen öffentlich mit deinem Vornamen. Restaurantbetreiber speichern Angaben zum Restaurant,
         Fotos, Speisekarte, Rechnungsdaten und die Mitglieder ihres Teams. Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO (Nutzung von
-        Thirsty und Durchführung der Buchung).
+        Firsty und Durchführung der Buchung).
       </p>
       <H2>Was das Restaurant sieht</H2>
       <p>
@@ -91,7 +91,7 @@ function LiveData() {
       </p>
       <H2>Speicherung in deinem Browser</H2>
       <p>
-        Damit du angemeldet bleibst, legt Thirsty im Local Storage deines Browsers einen Anmeldeschlüssel ab. Er wird beim Abmelden gelöscht.
+        Damit du angemeldet bleibst, legt Firsty im Local Storage deines Browsers einen Anmeldeschlüssel ab. Er wird beim Abmelden gelöscht.
         Rechtsgrundlage ist § 25 Abs. 2 Nr. 2 TDDDG, weil die Speicherung für die von dir gewünschte Anmeldung unbedingt erforderlich ist.
         Cookies zu Werbe- oder Analysezwecken verwenden wir nicht.
       </p>

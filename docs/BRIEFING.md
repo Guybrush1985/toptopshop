@@ -200,6 +200,11 @@ Mindestumfang je Kategorie: **≥ 1.000 Wörter** (nicht künstlich auffüllen),
   gekennzeichnet, Demo-Konten `gast@thirsty.test` / `wirt@thirsty.test` (Passwort `thirsty123`), `noindex`, eigenes
   Impressum/Datenschutz/Hinweise. Für echte Buchungen braucht es eine Datenbank (Vorschlag: Supabase, EU); dann
   `src/lib/store.ts` und `src/lib/actions.ts` auf die Datenbank umstellen und Datenschutz, AGB, Plattformpflichten ergänzen.
+- 2026-10-16: Thirsty heißt jetzt **Firsty** (Mix aus „first“ und „thirsty“) und liegt unter `/firsty/`; `/thirsty/`
+  leitet per 301 weiter (`src/static/.htaccess`). Der Quellcode bleibt im Ordner `thirsty/`, `npm run site` kopiert nach
+  `src/static/firsty/`. Live mit Supabase (`thirsty/.env.production`). Design: dunkel, laut (Anton, Lime/Orange/Pink),
+  Stadtkarte mit Angebots-Pins. Angebotsarten: Gratis-Getränk, Gratis-Dessert, 25/50/75 % auf alles. Beispiel-Restaurants
+  in Hamburg, Berlin, Bremen, München, Köln, Frankfurt, Düsseldorf, Stuttgart und Leipzig.
 - 2026-10-16: MyShotCoach (Rosi): **erst nur Tennis**, andere Sportarten später. Preise „ab 9 € pro Einschätzung“
   (C 9 €, B 19 €, A 29 €). Ex-Profis als eigene Stufe P, nur über „Coach selbst wählen“ buchbar, vorläufig 49 €
   (Platzhalter, nicht von Rosi bestätigt). Hero: Handy auf Stativ filmt die Vorhand, Umgebung unscharf. Schlag-Icons

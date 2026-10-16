@@ -1,7 +1,7 @@
 {
   "name": "thirsty",
   "version": "1.0.0",
-  "description": "Thirsty – Early-Bird-Plätze in Restaurants (Vorschau unter toptop.shop/thirsty/)",
+  "description": "Firsty – Early-Bird-Plätze in Restaurants (toptop.shop/firsty/)",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
