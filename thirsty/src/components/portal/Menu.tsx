@@ -14,7 +14,7 @@ export function Menu({ restaurantId: id }: TabProps) {
   return (
     <div className="grid gap-6 lg:grid-cols-[1fr_22rem]">
       <div className="space-y-4">
-        {items.length === 0 && <p className="card text-stone-600">Noch keine Gerichte. Aus den Preisen berechnet Thirsty die Early-Bird-Preise für deine Gäste.</p>}
+        {items.length === 0 && <p className="card text-stone-600">Noch keine Gerichte. Aus den Preisen berechnet Firsty die Early-Bird-Preise für deine Gäste.</p>}
         {categories.map((c) => (
           <section key={c}>
             <h2 className="mb-2 font-semibold uppercase tracking-wide text-stone-500">{c}</h2>

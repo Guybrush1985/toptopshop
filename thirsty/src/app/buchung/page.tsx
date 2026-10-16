@@ -47,7 +47,7 @@ function Buchung() {
   const active = b.status === "BOOKED" && new Date(spot.endsAt) > new Date();
   const lateCancel = startsAt.getTime() - Date.now() < 2 * 3600_000;
   const ics = (d: string) => new Date(d).toISOString().replace(/[-:]|\.\d{3}/g, "");
-  const calLink = `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(`Thirsty: ${r.name}`)}&dates=${ics(spot.startsAt)}/${ics(spot.endsAt)}&location=${encodeURIComponent([r.street, r.postalCode, r.city].filter(Boolean).join(", "))}&details=${encodeURIComponent(`Buchungscode ${b.code}`)}`;
+  const calLink = `https://calendar.google.com/calendar/render?action=TEMPLATE&text=${encodeURIComponent(`Firsty: ${r.name}`)}&dates=${ics(spot.startsAt)}/${ics(spot.endsAt)}&location=${encodeURIComponent([r.street, r.postalCode, r.city].filter(Boolean).join(", "))}&details=${encodeURIComponent(`Buchungscode ${b.code}`)}`;
 
   return (
     <div className="mx-auto max-w-md space-y-6">

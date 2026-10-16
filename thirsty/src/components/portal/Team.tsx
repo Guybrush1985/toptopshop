@@ -43,7 +43,7 @@ export function Team({ restaurantId: id, role }: TabProps) {
         >
           <h2 className="font-display text-2xl uppercase tracking-wide text-cream">Person hinzufügen</h2>
           <Notice error={error} />
-          <Field label="E-Mail des Thirsty-Kontos"><input className="input" type="email" name="email" required /></Field>
+          <Field label="E-Mail des Firsty-Kontos"><input className="input" type="email" name="email" required /></Field>
           <Field label="Rolle">
             <select className="input" name="role"><option value="STAFF">Service</option><option value="MANAGER">Manager</option></select>
           </Field>

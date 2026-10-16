@@ -94,7 +94,7 @@ function load(): State {
     const raw = localStorage.getItem(KEY);
     if (raw) {
       const s = JSON.parse(raw) as State;
-      if (s.version === 1) return migrate(topUpDemoSpots(s));
+      if (s.version === 1) return migrate(topUpDemoSpots(addDemoRestaurants(s)));
     }
   } catch {
     /* Local Storage nicht verfügbar oder beschädigt: neu anfangen */
@@ -234,6 +234,270 @@ const DEMO_RESTAURANTS: DemoRestaurant[] = [
       ["Hauptgerichte", "Matjes mit Bratkartoffeln", 1890, []],
     ],
   },
+  {
+    slug: "kiezkantine", name: "Kiezkantine", cuisine: "Deutsch-modern", priceLevel: 2,
+    tagline: "Schmorgerichte und Naturwein mitten in Kreuzberg",
+    description: "Offene Küche, lange Tafeln, wechselnde Wochenkarte mit Zutaten aus Brandenburg.",
+    street: "Oranienstraße 180", postalCode: "10999", city: "Berlin", lat: 52.5003, lng: 13.4205,
+    seatsInside: 36, seatsOutside: 16, features: ["terrasse", "vegan"],
+    menu: [
+      ["Vorspeisen", "Rote Bete mit Meerrettich", 850, ["vegan"]],
+      ["Hauptgerichte", "Geschmorte Ochsenbacke", 2290, []],
+      ["Desserts", "Quarkkeulchen", 750, ["vegetarisch"]],
+    ],
+  },
+  {
+    slug: "zaatar-zitrone", name: "Zaatar & Zitrone", cuisine: "Levantinisch", priceLevel: 2,
+    tagline: "Mezze zum Teilen in Mitte",
+    description: "Kleine Teller, Holzkohlegrill und hausgebackenes Fladenbrot.",
+    street: "Torstraße 140", postalCode: "10119", city: "Berlin", lat: 52.5293, lng: 13.401,
+    seatsInside: 40, seatsOutside: 12, features: ["vegan", "wlan"],
+    menu: [
+      ["Mezze", "Hummus mit Kichererbsen", 690, ["vegan"]],
+      ["Mezze", "Baba Ghanoush", 720, ["vegan"]],
+      ["Grill", "Lammkofta", 1690, []],
+    ],
+  },
+  {
+    slug: "nudelwerk-ost", name: "Nudelwerk Ost", cuisine: "Japanisch", priceLevel: 1,
+    tagline: "Ramen mit 18-Stunden-Brühe",
+    description: "Kleiner Ramen-Laden mit Tresenplätzen und hausgemachten Nudeln.",
+    street: "Kastanienallee 50", postalCode: "10119", city: "Berlin", lat: 52.5333, lng: 13.4078,
+    seatsInside: 24, seatsOutside: 0, features: [],
+    menu: [
+      ["Ramen", "Tonkotsu Ramen", 1450, []],
+      ["Ramen", "Miso Ramen mit Tofu", 1350, ["vegan"]],
+      ["Beilagen", "Gyoza", 650, []],
+    ],
+  },
+  {
+    slug: "spreegold", name: "Spreegold", cuisine: "Französisch", priceLevel: 3,
+    tagline: "Bistroküche mit Blick aufs Wasser",
+    description: "Französisches Bistro am Schiffbauerdamm, abends mit Kerzenlicht und Weinkarte.",
+    street: "Schiffbauerdamm 20", postalCode: "10117", city: "Berlin", lat: 52.5206, lng: 13.3858,
+    seatsInside: 50, seatsOutside: 30, features: ["terrasse", "barrierefrei"],
+    menu: [
+      ["Vorspeisen", "Zwiebelsuppe", 890, ["vegetarisch"]],
+      ["Hauptgerichte", "Entrecôte mit Frites", 2890, []],
+      ["Desserts", "Crème brûlée", 850, ["vegetarisch"]],
+    ],
+  },
+  {
+    slug: "weserkind", name: "Weserkind", cuisine: "Norddeutsch", priceLevel: 2,
+    tagline: "Labskaus, Knipp und Bremer Klassiker",
+    description: "Gemütliche Stube im Schnoor mit regionaler Küche.",
+    street: "Schnoor 22", postalCode: "28195", city: "Bremen", lat: 53.0727, lng: 8.8104,
+    seatsInside: 32, seatsOutside: 10, features: ["kinder"],
+    menu: [
+      ["Hauptgerichte", "Labskaus mit Spiegelei", 1690, []],
+      ["Hauptgerichte", "Knipp mit Bratkartoffeln", 1590, []],
+      ["Desserts", "Rote Grütze", 650, ["vegetarisch"]],
+    ],
+  },
+  {
+    slug: "moewe-mandel", name: "Möwe & Mandel", cuisine: "Spanisch", priceLevel: 2,
+    tagline: "Tapas und Vermut im Viertel",
+    description: "Lebhafte Tapasbar im Ostertor, ab 17 Uhr mit Happy Hour.",
+    street: "Ostertorsteinweg 60", postalCode: "28203", city: "Bremen", lat: 53.0736, lng: 8.824,
+    seatsInside: 30, seatsOutside: 14, features: ["terrasse"],
+    menu: [
+      ["Tapas", "Patatas bravas", 590, ["vegan"]],
+      ["Tapas", "Gambas al ajillo", 1190, []],
+      ["Tapas", "Tortilla española", 690, ["vegetarisch"]],
+    ],
+  },
+  {
+    slug: "schlachte-sieben", name: "Schlachte Sieben", cuisine: "Fisch", priceLevel: 3,
+    tagline: "Fisch und Weserblick an der Schlachte",
+    description: "Fischküche direkt an der Weserpromenade mit großer Außenterrasse.",
+    street: "Schlachte 30", postalCode: "28195", city: "Bremen", lat: 53.0757, lng: 8.8022,
+    seatsInside: 55, seatsOutside: 40, features: ["terrasse", "barrierefrei"],
+    menu: [
+      ["Vorspeisen", "Fischsuppe", 990, []],
+      ["Hauptgerichte", "Zanderfilet auf Linsen", 2490, []],
+      ["Hauptgerichte", "Backfisch mit Remoulade", 1790, []],
+    ],
+  },
+  {
+    slug: "grantlhuber", name: "Grantlhuber", cuisine: "Bayerisch", priceLevel: 2,
+    tagline: "Wirtshaus im Glockenbachviertel",
+    description: "Bayerische Klassiker, Schweinsbraten aus dem Rohr und Bier vom Holzfass.",
+    street: "Müllerstraße 40", postalCode: "80469", city: "München", lat: 48.131, lng: 11.57,
+    seatsInside: 60, seatsOutside: 40, features: ["terrasse", "kinder"],
+    menu: [
+      ["Hauptgerichte", "Schweinsbraten mit Knödel", 1790, []],
+      ["Hauptgerichte", "Kässpatzn", 1490, ["vegetarisch"]],
+      ["Desserts", "Kaiserschmarrn", 1190, ["vegetarisch"]],
+    ],
+  },
+  {
+    slug: "lupo-nero", name: "Lupo Nero", cuisine: "Italienisch", priceLevel: 2,
+    tagline: "Pasta fresca in Schwabing",
+    description: "Kleine Osteria mit täglich frischer Pasta und offener Weinbar.",
+    street: "Leopoldstraße 60", postalCode: "80802", city: "München", lat: 48.16, lng: 11.5856,
+    seatsInside: 38, seatsOutside: 20, features: ["terrasse", "wlan"],
+    menu: [
+      ["Primi", "Cacio e pepe", 1390, ["vegetarisch"]],
+      ["Primi", "Pappardelle al cinghiale", 1790, []],
+      ["Dolci", "Panna cotta", 690, ["vegetarisch"]],
+    ],
+  },
+  {
+    slug: "masala-moon", name: "Masala Moon", cuisine: "Indisch", priceLevel: 1,
+    tagline: "Currys aus dem Tandoor im Westend",
+    description: "Indische Küche mit eigenem Tandoor-Ofen und vielen veganen Gerichten.",
+    street: "Schwanthalerstraße 130", postalCode: "80339", city: "München", lat: 48.136, lng: 11.542,
+    seatsInside: 44, seatsOutside: 0, features: ["vegan"],
+    menu: [
+      ["Vorspeisen", "Samosas", 590, ["vegan"]],
+      ["Hauptgerichte", "Butter Chicken", 1590, []],
+      ["Hauptgerichte", "Chana Masala", 1290, ["vegan"]],
+    ],
+  },
+  {
+    slug: "koelsch-kohl", name: "Kölsch & Kohl", cuisine: "Rheinisch", priceLevel: 2,
+    tagline: "Brauhausküche in Ehrenfeld",
+    description: "Rheinische Klassiker, frisch gezapftes Kölsch und lange Holztische.",
+    street: "Venloer Straße 300", postalCode: "50823", city: "Köln", lat: 50.9496, lng: 6.92,
+    seatsInside: 80, seatsOutside: 30, features: ["kinder", "barrierefrei"],
+    menu: [
+      ["Hauptgerichte", "Himmel un Ääd", 1490, []],
+      ["Hauptgerichte", "Rheinischer Sauerbraten", 1890, []],
+      ["Kleinigkeiten", "Halve Hahn", 690, ["vegetarisch"]],
+    ],
+  },
+  {
+    slug: "petit-bruxelles", name: "Petit Bruxelles", cuisine: "Belgisch", priceLevel: 2,
+    tagline: "Moules-frites im Belgischen Viertel",
+    description: "Belgisches Bistro mit Muscheln, Frites und über 40 Biersorten.",
+    street: "Brüsseler Straße 50", postalCode: "50674", city: "Köln", lat: 50.9365, lng: 6.933,
+    seatsInside: 34, seatsOutside: 18, features: ["terrasse"],
+    menu: [
+      ["Hauptgerichte", "Moules-frites", 2190, []],
+      ["Hauptgerichte", "Carbonade flamande", 1890, []],
+      ["Desserts", "Belgische Waffel", 690, ["vegetarisch"]],
+    ],
+  },
+  {
+    slug: "umami-sued", name: "Umami Süd", cuisine: "Japanisch", priceLevel: 3,
+    tagline: "Sushi und Izakaya in der Südstadt",
+    description: "Sushi-Theke und warme Izakaya-Gerichte in der Kölner Südstadt.",
+    street: "Severinstraße 100", postalCode: "50678", city: "Köln", lat: 50.9273, lng: 6.959,
+    seatsInside: 32, seatsOutside: 8, features: [],
+    menu: [
+      ["Sushi", "Sake Nigiri (2 Stück)", 590, []],
+      ["Sushi", "Avocado Maki", 690, ["vegan"]],
+      ["Warm", "Karaage", 990, []],
+    ],
+  },
+  {
+    slug: "ebbelwoi-engel", name: "Ebbelwoi Engel", cuisine: "Hessisch", priceLevel: 2,
+    tagline: "Apfelwein und Grüne Soße in Sachsenhausen",
+    description: "Traditionelle Apfelweinwirtschaft mit Hof und langen Bänken.",
+    street: "Schweizer Straße 50", postalCode: "60594", city: "Frankfurt am Main", lat: 50.101, lng: 8.683,
+    seatsInside: 70, seatsOutside: 50, features: ["terrasse", "kinder"],
+    menu: [
+      ["Hauptgerichte", "Grüne Soße mit Eiern", 1390, ["vegetarisch"]],
+      ["Hauptgerichte", "Schnitzel mit Bratkartoffeln", 1790, []],
+      ["Kleinigkeiten", "Handkäs mit Musik", 690, ["vegetarisch"]],
+    ],
+  },
+  {
+    slug: "taverna-thalassa", name: "Taverna Thalassa", cuisine: "Griechisch", priceLevel: 2,
+    tagline: "Griechische Taverne auf der Berger Straße",
+    description: "Grill, Ofengerichte und Meze in familiärer Atmosphäre.",
+    street: "Berger Straße 200", postalCode: "60385", city: "Frankfurt am Main", lat: 50.126, lng: 8.708,
+    seatsInside: 48, seatsOutside: 24, features: ["terrasse", "kinder"],
+    menu: [
+      ["Meze", "Tzatziki", 590, ["vegetarisch"]],
+      ["Hauptgerichte", "Gyros mit Pita", 1590, []],
+      ["Hauptgerichte", "Moussaka", 1690, []],
+    ],
+  },
+  {
+    slug: "gruenzeug-bowls", name: "Grünzeug", cuisine: "Bowls", priceLevel: 1,
+    tagline: "Bunte Bowls im Nordend",
+    description: "Frische Bowls und Säfte, fast alles vegan.",
+    street: "Oeder Weg 40", postalCode: "60318", city: "Frankfurt am Main", lat: 50.122, lng: 8.681,
+    seatsInside: 26, seatsOutside: 10, features: ["vegan", "wlan"],
+    menu: [
+      ["Bowls", "Falafel Bowl", 1290, ["vegan"]],
+      ["Bowls", "Teriyaki Lachs Bowl", 1490, []],
+      ["Desserts", "Chia-Pudding", 590, ["vegan"]],
+    ],
+  },
+  {
+    slug: "radschlaeger", name: "Radschläger", cuisine: "Rheinisch", priceLevel: 2,
+    tagline: "Altbier und Rheinküche in der Altstadt",
+    description: "Urige Altstadtkneipe mit Küche bis spät.",
+    street: "Bolkerstraße 40", postalCode: "40213", city: "Düsseldorf", lat: 51.2265, lng: 6.774,
+    seatsInside: 60, seatsOutside: 20, features: ["kinder"],
+    menu: [
+      ["Hauptgerichte", "Rheinischer Sauerbraten", 1890, []],
+      ["Hauptgerichte", "Reibekuchen mit Apfelmus", 1190, ["vegetarisch"]],
+      ["Kleinigkeiten", "Mettbrötchen", 490, []],
+    ],
+  },
+  {
+    slug: "udon-ichi", name: "Udon Ichi", cuisine: "Japanisch", priceLevel: 1,
+    tagline: "Handgezogene Udon im Japanviertel",
+    description: "Schneller Nudelladen mit frischen Udon und Tempura.",
+    street: "Immermannstraße 30", postalCode: "40210", city: "Düsseldorf", lat: 51.225, lng: 6.788,
+    seatsInside: 30, seatsOutside: 0, features: [],
+    menu: [
+      ["Udon", "Kake Udon", 1090, ["vegan"]],
+      ["Udon", "Tempura Udon", 1390, []],
+      ["Beilagen", "Onigiri", 390, ["vegan"]],
+    ],
+  },
+  {
+    slug: "bohnenbesen", name: "Bohnenbesen", cuisine: "Schwäbisch", priceLevel: 2,
+    tagline: "Maultaschen und Trollinger im Bohnenviertel",
+    description: "Schwäbische Weinstube mit hausgemachten Spätzle.",
+    street: "Weberstraße 50", postalCode: "70182", city: "Stuttgart", lat: 48.772, lng: 9.183,
+    seatsInside: 40, seatsOutside: 16, features: ["terrasse"],
+    menu: [
+      ["Hauptgerichte", "Maultaschen geschmälzt", 1490, []],
+      ["Hauptgerichte", "Käsespätzle", 1390, ["vegetarisch"]],
+      ["Hauptgerichte", "Zwiebelrostbraten", 2490, []],
+    ],
+  },
+  {
+    slug: "forno-rosso", name: "Forno Rosso", cuisine: "Italienisch", priceLevel: 1,
+    tagline: "Neapolitanische Pizza am Marienplatz",
+    description: "Pizza aus dem Holzofen, 48 Stunden gereifter Teig.",
+    street: "Tübinger Straße 90", postalCode: "70178", city: "Stuttgart", lat: 48.766, lng: 9.169,
+    seatsInside: 45, seatsOutside: 25, features: ["terrasse", "kinder"],
+    menu: [
+      ["Pizza", "Margherita", 990, ["vegetarisch"]],
+      ["Pizza", "Diavola", 1290, ["scharf"]],
+      ["Dolci", "Tiramisù", 650, ["vegetarisch"]],
+    ],
+  },
+  {
+    slug: "gemuesegarten-sued", name: "Gemüsegarten Süd", cuisine: "Vegetarisch", priceLevel: 1,
+    tagline: "Vegetarische Küche in der Südvorstadt",
+    description: "Saisonale, vegetarische und vegane Gerichte auf der Karli.",
+    street: "Karl-Liebknecht-Straße 90", postalCode: "04275", city: "Leipzig", lat: 51.32, lng: 12.374,
+    seatsInside: 34, seatsOutside: 20, features: ["vegan", "terrasse"],
+    menu: [
+      ["Hauptgerichte", "Kürbis-Curry", 1290, ["vegan"]],
+      ["Hauptgerichte", "Spinatknödel", 1350, ["vegetarisch"]],
+      ["Desserts", "Apfelstrudel", 590, ["vegetarisch"]],
+    ],
+  },
+  {
+    slug: "kanalkantine", name: "Kanalkantine", cuisine: "Deutsch-modern", priceLevel: 2,
+    tagline: "Abendküche am Karl-Heine-Kanal",
+    description: "Ehemalige Fabrikhalle in Plagwitz mit Terrasse am Wasser.",
+    street: "Karl-Heine-Straße 50", postalCode: "04229", city: "Leipzig", lat: 51.33, lng: 12.337,
+    seatsInside: 70, seatsOutside: 40, features: ["terrasse", "barrierefrei"],
+    menu: [
+      ["Vorspeisen", "Leipziger Allerlei", 890, ["vegetarisch"]],
+      ["Hauptgerichte", "Rinderroulade", 2190, []],
+      ["Desserts", "Leipziger Lerche", 450, ["vegetarisch"]],
+    ],
+  },
 ];
 
 function demoSpots(restaurantId: string, fromDay: number, withSoon: boolean, variant = 0): Spot[] {
@@ -264,10 +528,19 @@ function seed(): State {
     { id: "demo-owner", email: "wirt@thirsty.test", name: "Maria Rossi", role: "OWNER", passwordHash: demoHash, createdAt: now },
     { id: "demo-guest", email: "gast@thirsty.test", name: "Jonas Gast", role: "GUEST", passwordHash: demoHash, phone: "0151 0000000", createdAt: now },
   );
+  addDemoRestaurants(s);
+  return s;
+}
+
+/** Legt fehlende Beispiel-Restaurants an (auch in älteren Vorschau-Daten, wenn neue Städte dazukommen). */
+function addDemoRestaurants(s: State): State {
+  const now = new Date().toISOString();
   DEMO_RESTAURANTS.forEach(({ menu, ...r }, i) => {
     const id = `demo-${r.slug}`;
+    if (s.restaurants.some((x) => x.id === id)) return;
     s.restaurants.push({ ...r, id, status: "ACTIVE", demo: true, createdAt: now });
-    s.members.push({ id: uid(), userId: "demo-owner", restaurantId: id, role: "OWNER" });
+    // Das Demo-Wirtskonto verwaltet nur die Hamburger Beispiele, damit das Portal übersichtlich bleibt.
+    if (r.city === "Hamburg" && s.users.some((u) => u.id === "demo-owner")) s.members.push({ id: uid(), userId: "demo-owner", restaurantId: id, role: "OWNER" });
     for (const weekday of [1, 2, 3, 4, 5, 6]) s.hours.push({ restaurantId: id, weekday, opens: "17:00", closes: "23:00" });
     menu.forEach(([category, name, priceCents, tags], position) =>
       s.menu.push({ id: uid(), restaurantId: id, category, name, priceCents, tags, position }));

@@ -12,7 +12,7 @@ export default function Hinweise() {
   return (
     <Legal title="Hinweise zur Vorschau">
       <p>
-        Thirsty ist eine Plattform, auf der Restaurants Plätze für die erste Stunde nach Öffnung mit Rabatt ausschreiben, damit die
+        Firsty ist eine Plattform, auf der Restaurants Plätze für die erste Stunde nach Öffnung mit Rabatt ausschreiben, damit die
         Tische früh am Abend voll sind. Gäste buchen, zeigen im Restaurant einen QR-Code und bezahlen vor Ort.
       </p>
       <H2>Was die Vorschau ist</H2>
@@ -31,7 +31,7 @@ export default function Hinweise() {
       </ol>
       <H2>Für Restaurants</H2>
       <p>
-        Interesse am Start in deiner Stadt? Schreib an <a className="underline" href="mailto:info@tanmeon.de?subject=Thirsty">info@tanmeon.de</a>.
+        Interesse am Start in deiner Stadt? Schreib an <a className="underline" href="mailto:info@tanmeon.de?subject=Firsty">info@tanmeon.de</a>.
       </p>
       <H2>Vorschau zurücksetzen</H2>
       <p>Löscht alle Daten dieser Vorschau in deinem Browser und lädt die Beispiele neu.</p>
@@ -55,13 +55,13 @@ function LiveHints() {
   return (
     <Legal title="Hinweise zur Testphase">
       <p>
-        Thirsty ist eine Plattform, auf der Restaurants Plätze für die erste Stunde nach Öffnung mit Rabatt ausschreiben, damit die
+        Firsty ist eine Plattform, auf der Restaurants Plätze für die erste Stunde nach Öffnung mit Rabatt ausschreiben, damit die
         Tische früh am Abend voll sind. Gäste buchen, zeigen im Restaurant einen QR-Code und bezahlen vor Ort.
       </p>
       <H2>Was die Testphase bedeutet</H2>
       <ul className="list-disc space-y-1 pl-5">
         <li>Konten, Restaurants, Buchungen und Bewertungen werden gespeichert und sind auf allen Geräten gleich.</li>
-        <li>Über Thirsty wird nichts bezahlt. Den Rabatt löst das Restaurant beim Bezahlen vor Ort ein.</li>
+        <li>Über Firsty wird nichts bezahlt. Den Rabatt löst das Restaurant beim Bezahlen vor Ort ein.</li>
         <li>Die als „Beispiel“ gekennzeichneten Restaurants, Angebote und Preise sind erfunden. Buchungen dort erreichen kein Restaurant.</li>
         <li>Funktionen und Regeln können sich in der Testphase noch ändern.</li>
       </ul>
@@ -74,7 +74,7 @@ function LiveHints() {
       </ol>
       <H2>Für Restaurants</H2>
       <p>
-        Interesse am Start in deiner Stadt? Schreib an <a className="underline" href="mailto:info@tanmeon.de?subject=Thirsty">info@tanmeon.de</a>.
+        Interesse am Start in deiner Stadt? Schreib an <a className="underline" href="mailto:info@tanmeon.de?subject=Firsty">info@tanmeon.de</a>.
       </p>
     </Legal>
   );

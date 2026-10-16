@@ -57,20 +57,26 @@ export function OfferArt({ discount, freebie, label, photo, className = "" }: { 
       {photo ? (
         <>
           <img src={photo} alt="" className="absolute inset-0 -z-10 h-full w-full object-cover transition duration-700 group-hover:scale-105" />
-          <div className="absolute inset-0 -z-10 bg-gradient-to-t from-ink via-ink/20 to-transparent" />
+          <div className="absolute inset-0 -z-10 bg-gradient-to-t from-ink via-ink/30 to-transparent" />
         </>
       ) : (
-        <>
-          <div className="absolute -right-1/4 -top-1/3 -z-10 aspect-square w-[90%] rounded-full bg-white/25 blur-3xl" />
-          <span aria-hidden className="display absolute -bottom-[.12em] -left-[.04em] -z-10 whitespace-nowrap text-[9rem] text-ink/90 transition duration-700 group-hover:-translate-y-2 sm:text-[11rem]">
-            {o.big}
-          </span>
-        </>
+        <div className="absolute -right-1/4 -top-1/3 -z-10 aspect-square w-[90%] rounded-full bg-white/25 blur-3xl" />
       )}
-      <span className={`absolute right-3 top-3 rounded-full px-3 py-1 font-display text-lg uppercase leading-none ${photo ? TONE_BG[o.tone] : "bg-ink text-cream"}`}>
-        {photo ? `${o.big} ${o.small}` : o.small}
-      </span>
-      {label && <span className="absolute left-3 top-3 rounded-full bg-ink/80 px-2.5 py-1 text-[11px] font-semibold uppercase tracking-widest text-cream backdrop-blur">{label}</span>}
+      {label && <span className="absolute left-4 top-4 rounded-full bg-ink/80 px-2.5 py-1 text-[11px] font-semibold uppercase tracking-widest text-cream backdrop-blur">{label}</span>}
+      {/* Angebot vollständig sichtbar, unten links */}
+      <div className={`absolute bottom-4 left-4 right-4 ${photo ? "" : "text-ink"}`}>
+        {photo ? (
+          <span className={`inline-flex items-baseline gap-2 rounded-2xl px-4 py-2 ${TONE_BG[o.tone]}`}>
+            <span className="display text-4xl">{o.big}</span>
+            <span className="font-display text-lg uppercase leading-none">{o.small}</span>
+          </span>
+        ) : (
+          <>
+            <span className="display block text-6xl transition duration-500 group-hover:-translate-y-1">{o.big}</span>
+            <span className="display block text-2xl">{o.small}</span>
+          </>
+        )}
+      </div>
     </div>
   );
 }

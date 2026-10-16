@@ -433,7 +433,7 @@ export async function addMember(restaurantId: string, emailRaw: string, role: Me
   if (!["MANAGER", "STAFF"].includes(role)) fail("Unbekannte Rolle.");
   const email = emailRaw.trim().toLowerCase();
   const user = getState().users.find((u) => u.email === email);
-  if (!user) fail("Zu dieser E-Mail gibt es noch kein Thirsty-Konto. Die Person muss sich zuerst registrieren.");
+  if (!user) fail("Zu dieser E-Mail gibt es noch kein Firsty-Konto. Die Person muss sich zuerst registrieren.");
   save((d) => {
     const m = d.members.find((x) => x.userId === user!.id && x.restaurantId === restaurantId);
     if (m) m.role = role;

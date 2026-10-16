@@ -197,7 +197,7 @@ export async function register(input: { name: string; email: string; password: s
   const { data } = check(await sb().auth.signUp({
     email: input.email,
     password: input.password,
-    options: { data: { name: input.name, role: input.role }, emailRedirectTo: `${window.location.origin}/thirsty/login/` },
+    options: { data: { name: input.name, role: input.role }, emailRedirectTo: `${window.location.origin}/firsty/login/` },
   }));
   if (!data.session) fail("Fast geschafft: Wir haben dir eine E-Mail geschickt. Bitte bestätige deine Adresse über den Link und melde dich dann an.");
   await refresh();

@@ -20,7 +20,7 @@ export default function Impressum() {
         <>
           <H2>Hinweis zur Testphase</H2>
           <p>
-            Thirsty befindet sich in einer Testphase. Über Thirsty werden keine Zahlungen abgewickelt; bezahlt wird im Restaurant. Die als
+            Firsty befindet sich in einer Testphase. Über Firsty werden keine Zahlungen abgewickelt; bezahlt wird im Restaurant. Die als
             „Beispiel“ gekennzeichneten Restaurants und Angebote sind fiktiv. Details in den{" "}
             <Link href="/hinweise/" className="underline">Hinweisen zur Testphase</Link>.
           </p>
@@ -29,7 +29,7 @@ export default function Impressum() {
         <>
           <H2>Hinweis zur Vorschau</H2>
           <p>
-            Thirsty befindet sich in einer Vorschau-Phase. Über diese Website werden keine Verträge geschlossen, keine Reservierungen an
+            Firsty befindet sich in einer Vorschau-Phase. Über diese Website werden keine Verträge geschlossen, keine Reservierungen an
             Restaurants übermittelt und keine Zahlungen abgewickelt. Die als „Beispiel“ gekennzeichneten Restaurants und Angebote sind
             fiktiv. Details in den <Link href="/hinweise/" className="underline">Hinweisen zur Vorschau</Link>.
           </p>

@@ -24,7 +24,7 @@ export function Shell({ children }: { children: ReactNode }) {
   return (
     <div className="grain relative min-h-screen overflow-x-clip">
       <div className="relative z-30 bg-lime px-4 py-1.5 text-center text-[11px] font-semibold uppercase tracking-[.18em] text-ink">
-        {REMOTE ? "Testphase · Mit „Beispiel“ markierte Restaurants sind erfunden" : "Vorschau · Buchungen und Konten liegen nur in diesem Browser"}{" "}
+        {REMOTE ? "Firsty geht im Dezember 2026 live · Bis dahin Testphase, mit „Beispiel“ markierte Restaurants sind erfunden" : "Firsty geht im Dezember 2026 live · Vorschau, Daten liegen nur in diesem Browser"}{" "}
         <Link href="/hinweise/" className="underline decoration-2 underline-offset-2">Mehr</Link>
       </div>
       {mounted ? <Header /> : <div className="h-[68px]" />}
@@ -40,14 +40,14 @@ function Footer() {
   return (
     <footer className="relative mt-24 overflow-hidden border-t border-white/10 bg-ink">
       <div className="mx-auto flex max-w-6xl flex-wrap items-center gap-x-6 gap-y-2 px-5 pt-10 text-sm text-cream/60">
-        <span>Thirsty · {REMOTE ? "ein Angebot" : "eine Vorschau"} der TanMeOn GmbH</span>
+        <span>Firsty · {REMOTE ? "ein Angebot" : "eine Vorschau"} der TanMeOn GmbH</span>
         <Link href="/registrieren/?rolle=restaurant" className="hover:text-lime">Für Restaurants</Link>
         <Link href="/hinweise/" className="hover:text-lime">{REMOTE ? "Hinweise zur Testphase" : "Hinweise zur Vorschau"}</Link>
         <Link href="/impressum/" className="hover:text-lime">Impressum</Link>
         <Link href="/datenschutz/" className="hover:text-lime">Datenschutz</Link>
       </div>
       <p aria-hidden className="display pointer-events-none select-none whitespace-nowrap px-3 pb-2 pt-6 text-center text-[22vw] leading-[.8] text-white/[.04]">
-        Thirsty
+        Firsty
       </p>
     </footer>
   );
@@ -69,7 +69,7 @@ function Header() {
     <header className="sticky top-0 z-20 border-b border-white/[.06] bg-ink/70 backdrop-blur-xl">
       <nav className="mx-auto flex max-w-6xl items-center gap-2 px-5 py-3">
         <Link href="/" className="group flex items-baseline gap-1 font-display text-3xl uppercase leading-none tracking-wide text-cream">
-          Thirsty<span className="inline-block h-2.5 w-2.5 rounded-full bg-lime transition group-hover:scale-150" />
+          Firsty<span className="inline-block h-2.5 w-2.5 rounded-full bg-lime transition group-hover:scale-150" />
         </Link>
         <div className="ml-auto flex flex-wrap items-center justify-end gap-1 text-sm font-medium">
           <Link href="/" className={`${link} hidden sm:inline-block`}>Entdecken</Link>
@@ -102,7 +102,7 @@ export function RequireUser({ children }: { children: ReactNode }) {
   const user = useCurrentUser();
   const router = useRouter();
   useEffect(() => {
-    if (!user) router.replace(`/login/?weiter=${encodeURIComponent(window.location.pathname.replace(/^\/thirsty/, "") + window.location.search)}`);
+    if (!user) router.replace(`/login/?weiter=${encodeURIComponent(window.location.pathname.replace(/^\/firsty/, "") + window.location.search)}`);
   }, [user, router]);
   return user ? <>{children}</> : <Loading />;
 }

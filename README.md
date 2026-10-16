@@ -30,7 +30,7 @@ src/static/                   Schriften, Favicon, OG-Bilder, .htaccess
 scripts/og-images.mjs         erzeugt Social-Media-Vorschaubilder (lokal, optional)
 scripts/train.mjs             verschlüsselt das Lerntraining für /train/
 src/static/myshotcoach/       MyShotCoach-Vorschau unter /myshotcoach/, Coach-Bereich unter /myshotcoach/coach/ (siehe docs/BRIEFING.md)
-thirsty/                      Quellcode der Thirsty-Vorschau (Next.js); `npm run site` exportiert nach src/static/thirsty/ → /thirsty/
+thirsty/                      Quellcode von Firsty (Next.js); `npm run site` exportiert nach src/static/firsty/ → /firsty/
 ```
 
 ## Lokal

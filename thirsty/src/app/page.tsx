@@ -91,13 +91,13 @@ export default function Discover() {
 
         {/* schwebende Angebots-Sticker */}
         <div aria-hidden className="pointer-events-none absolute inset-0 -z-10 hidden xl:block">
-          <span data-parallax="-0.25" data-rotate="-8" className="display absolute right-[7%] top-[14%] rotate-[-8deg] rounded-full bg-hot px-7 py-4 text-6xl text-ink shadow-2xl">−50 %</span>
-          <span data-parallax="-0.45" data-rotate="9" className="display absolute right-[3%] top-[47%] rotate-[9deg] rounded-full bg-lime px-6 py-3 text-4xl text-ink shadow-2xl">Gratis Drink</span>
-          <span data-parallax="-0.12" data-rotate="-4" className="display absolute bottom-[10%] right-[20%] rotate-[-4deg] rounded-full bg-pink px-6 py-3 text-4xl text-ink shadow-2xl">Gratis Dessert</span>
+          <span data-parallax="-0.25" data-rotate="-8" className="display absolute right-[6%] top-[12%] rotate-[-8deg] rounded-full bg-hot px-7 py-4 text-6xl text-ink shadow-2xl">−50 %</span>
+          <span data-parallax="-0.45" data-rotate="9" className="display absolute right-[2%] top-[38%] rotate-[9deg] rounded-full bg-lime px-6 py-3 text-4xl text-ink shadow-2xl">Gratis Drink</span>
+          <span data-parallax="-0.12" data-rotate="-4" className="display absolute right-[7%] top-[62%] rotate-[-4deg] rounded-full bg-pink px-6 py-3 text-4xl text-ink shadow-2xl">Gratis Dessert</span>
         </div>
 
         <div className="mx-auto max-w-6xl px-5 pb-20 pt-14 sm:pt-20">
-          <p className="animate-rise text-xs font-semibold uppercase tracking-[.3em] text-lime">Early Bird · die erste Stunde gehört dir</p>
+          <p className="animate-rise text-xs font-semibold uppercase tracking-[.3em] text-lime">Start im Dezember 2026 · die erste Stunde gehört dir</p>
           <h1 className="display mt-5 animate-rise text-[22vw] text-cream sm:text-[15vw] lg:text-[12.5rem]" style={{ animationDelay: ".08s" }}>
             Sei der<br />
             <span className="text-lime">erste</span> Gast<span className="text-hot">.</span>
@@ -108,14 +108,14 @@ export default function Discover() {
 
           <div className="mt-12 animate-rise" style={{ animationDelay: ".24s" }}>
             <p className="display text-3xl text-cream sm:text-4xl">Wo hast du Durst?</p>
-            <div className="mt-4 flex flex-wrap gap-3">
+            <div className="mt-4 flex max-w-3xl flex-wrap gap-2.5">
               {cities.length === 0 && <p className="text-cream/60">Gerade ist noch keine Stadt dabei.</p>}
               {cities.map((c) => (
                 <button
                   key={c.name}
                   onClick={() => pick(c.name)}
                   aria-pressed={c.name === city}
-                  className={`group flex items-center gap-3 rounded-full border-2 px-6 py-3 font-display text-3xl uppercase leading-none transition ${
+                  className={`group flex items-center gap-2.5 rounded-full border-2 px-5 py-2.5 font-display text-2xl uppercase leading-none transition ${
                     c.name === city ? "border-lime bg-lime text-ink" : "border-lime/60 text-cream hover:border-lime hover:bg-lime hover:text-ink"
                   }`}
                 >
@@ -258,7 +258,7 @@ function DealTile({ d, active, onShow }: { d: Deal; active: boolean; onShow: () 
   return (
     <div className={`group overflow-hidden rounded-[1.75rem] border bg-ink-2 transition duration-300 hover:-translate-y-1 ${active ? "border-lime" : "border-white/10"}`}>
       <Link href={`/restaurant/?s=${d.r.slug}`} className="block">
-        <OfferArt discount={d.sp.discountPercent} freebie={d.sp.freebie} photo={d.cover} label={d.r.demo ? "Beispiel" : undefined} className="h-52" />
+        <OfferArt discount={d.sp.discountPercent} freebie={d.sp.freebie} photo={d.cover} label={d.r.demo ? "Beispiel" : undefined} className="h-44" />
         <div className="space-y-1 p-5">
           <p className="display text-3xl text-cream">{d.r.name}</p>
           <p className="text-sm text-cream/60">{[d.r.cuisine, priceLevel(d.r.priceLevel)].filter(Boolean).join(" · ")}</p>
