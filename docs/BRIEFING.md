@@ -246,3 +246,13 @@ Mindestumfang je Kategorie: **≥ 1.000 Wörter** (nicht künstlich auffüllen),
   Spots laufen als Endlos-Feed zum Wischen (wie Shorts/Reels, Hochformat 9:16); nach jedem Spot kommen die 3 Fragen,
   solange ist das Wischen gesperrt. Weiterwischen während des Spots = überspringen ohne Punkte und ohne Sperre
   (Tageslimit und 24-h-Sperre zählen erst, wenn die Fragen erreicht wurden).
+- 2026-10-18: **Wo bist du?** (Rosi) unter `/wobistdu/`: Freunde antippen (auch mehrere), großer „Wo bist du?“-Knopf;
+  der Gefragte teilt genau oder ungefähr (≈1 km), einmalig (1 Std sichtbar) oder live 15/60 Min, oder sagt per fertigem
+  Button ab. Messenger nur mit fertigen Buttons (keine Freitexte): Reaktionen, „Wie lange brauchst du noch?“ mit
+  ETA-Antworten, „Und du?“, Standort senden. Extras: vertraute Kontakte (antworten automatisch, wenn die App offen ist),
+  stumm, blockieren (Blockierte merken nichts), Einladungslink, Testkontakt „Toni“ (Bot im Backend, antwortet sofort).
+  Testversion als Web-App (Vanilla-JS, Leaflet 1.9.4 selbst gehostet, OSM-Kacheln, Nominatim für Adressen) in
+  `src/static/wobistdu/`; später native Apps für iOS/Android. Konten mit Handynummer oder E-Mail + Passwort; SMS-Code,
+  Apple und Google folgen mit der App. Daten im Supabase-Projekt Firsty.app, Schema `wbd`, Zugriff nur über
+  `public.wbd_*` (Quelle `supabase/wobistdu/schema.sql`); Koordinaten werden nach Ablauf/Beenden auf null gesetzt.
+  Abgleich per Polling alle 3 s; Hinweise per Browser-Notification nur bei offenem Tab. Datenschutz Abschnitt 5 ergänzt.
