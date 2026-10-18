@@ -141,7 +141,7 @@ security definer set search_path = wls as $$
   select jsonb_build_object('id', a.id, 'email', a.email, 'role', a.role, 'name', a.name, 'company', a.company,
     'points', a.points, 'demo_points', a.demo_points, 'admin', wls.is_admin(a),
     'payout_min', wls.payout_min(), 'daily_limit', wls.daily_limit(),
-    'today', (select count(*) from wls.views v where v.account_id = a.id and v.started_at > date_trunc('day', now() at time zone 'Europe/Berlin') at time zone 'Europe/Berlin'))
+    'today', (select count(*) from wls.views v where v.account_id = a.id and v.quiz_at is not null and v.started_at > date_trunc('day', now() at time zone 'Europe/Berlin') at time zone 'Europe/Berlin'))
 $$;
 
 -- ---------- Konten ----------
@@ -207,13 +207,13 @@ declare a wls.accounts := wls.auth(p_token);
 begin
   return coalesce((select jsonb_agg(x order by x->>'demo', x->>'created_at' desc) from (
     select jsonb_build_object('id', c.id, 'brand', c.brand, 'title', c.title, 'claim', c.claim, 'duration', c.duration,
-      'points', wls.reward_points(c.duration), 'demo', c.is_demo, 'color', c.color, 'created_at', c.created_at) x
+      'points', wls.reward_points(c.duration), 'demo', c.is_demo, 'color', c.color, 'video_url', c.video_url, 'created_at', c.created_at) x
     from wls.campaigns c
     where c.status = 'live' and c.video_url is not null
       and (c.is_demo or c.budget_cents - c.spent_cents >= wls.price_cents(c.duration))
       and (select count(*) from wls.questions q where q.campaign_id = c.id) >= 3
       and not exists (select 1 from wls.views v where v.campaign_id = c.id and v.account_id = a.id
-                      and (v.verified or v.started_at > now() - interval '24 hours'))
+                      and (v.verified or (v.quiz_at is not null and v.started_at > now() - interval '24 hours')))
   ) s), '[]'::jsonb);
 end $$;
 
@@ -228,7 +228,7 @@ begin
   select * into c from wls.campaigns where id = p_campaign and status = 'live';
   if c.id is null then raise exception 'Dieser Spot ist nicht mehr verfügbar.'; end if;
   if exists (select 1 from wls.views where campaign_id = c.id and account_id = a.id
-             and (verified or started_at > now() - interval '24 hours')) then
+             and (verified or (quiz_at is not null and started_at > now() - interval '24 hours'))) then
     raise exception 'Diesen Spot hast du schon geschaut.';
   end if;
   if not c.is_demo and c.budget_cents - c.spent_cents < wls.price_cents(c.duration) then

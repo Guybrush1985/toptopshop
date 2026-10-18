@@ -243,3 +243,6 @@ Mindestumfang je Kategorie: **≥ 1.000 Wörter** (nicht künstlich auffüllen),
   über Edge Function `wls-upload` in den Bucket `wls-spots`. Admins in Tabelle `wls.admins` (E-Mail). Pilotphase: 5 Demo-Spots
   fiktiver Marken (`scripts/werbunglohntsich-spots.mjs`), die nur Demo-Punkte geben. Abrechnung mit Werbetreibenden per Rechnung,
   Freischaltung und Gutschein-Versand von Hand im Admin-Bereich. Datenschutz Abschnitt 5 ergänzt.
+  Spots laufen als Endlos-Feed zum Wischen (wie Shorts/Reels, Hochformat 9:16); nach jedem Spot kommen die 3 Fragen,
+  solange ist das Wischen gesperrt. Weiterwischen während des Spots = überspringen ohne Punkte und ohne Sperre
+  (Tageslimit und 24-h-Sperre zählen erst, wenn die Fragen erreicht wurden).

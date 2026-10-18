@@ -77,16 +77,18 @@ for (const s of spots) {
   const inputs = [];
   const parts = [];
   s.scenes.forEach((text, i) => {
-    inputs.push("-f", "lavfi", "-t", String(per), "-i", `color=c=${s.bg[i % s.bg.length]}:s=960x540:r=25`);
+    inputs.push("-f", "lavfi", "-t", String(per), "-i", `color=c=${s.bg[i % s.bg.length]}:s=540x960:r=25`);
     const lines = text.split("\n");
-    const size = i === 0 ? 104 : 76;
+    // Hochformat 9:16 (wie Shorts/Reels): Schriftgröße an die längste Zeile anpassen
+    const longest = Math.max(...lines.map((l) => l.length));
+    const size = Math.min(i === 0 ? 92 : 70, Math.floor(470 / (longest * (i === 0 ? 0.74 : 0.6))));
     let f = `[${i}:v]`;
     const chain = lines.map((ln, li) => {
       const y = `(h-${lines.length * size * 1.15})/2+${li * size * 1.15}`;
       // Text gleitet von links herein
-      return `drawtext=fontfile=${FONT}:text='${esc(ln)}':fontsize=${size}:fontcolor=white:expansion=none:x='(w-tw)/2-max(0,(0.35-t)*900)':y=${y}`;
+      return `drawtext=fontfile=${FONT}:text='${esc(ln)}':fontsize=${size}:fontcolor=white:expansion=none:x='(w-tw)/2-max(0,(0.35-t)*700)':y=${y}`;
     });
-    chain.push(`drawtext=fontfile=${FONT}:text='${esc(s.brand.toUpperCase())}  ·  DEMO-SPOT':fontsize=22:fontcolor=white@0.7:x=40:y=h-56`);
+    chain.push(`drawtext=fontfile=${FONT}:text='${esc(s.brand.toUpperCase())}  ·  DEMO-SPOT':fontsize=18:fontcolor=white@0.7:x=(w-tw)/2:y=120`);
     chain.push(`drawbox=x=0:y=ih-8:w=iw*${(i + 1) / s.scenes.length}:h=8:color=white@0.85:t=fill`);
     parts.push(`${f}${chain.join(",")}[v${i}]`);
   });

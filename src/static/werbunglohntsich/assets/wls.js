@@ -35,6 +35,8 @@
     film: '<rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 4v16M17 4v16M3 9h4M3 15h4M17 9h4M17 15h4"/>',
     settings: '<circle cx="12" cy="12" r="3"/><path d="M12 2.5v3M12 18.5v3M2.5 12h3M18.5 12h3M5.3 5.3l2.1 2.1M16.6 16.6l2.1 2.1M5.3 18.7l2.1-2.1M16.6 7.4l2.1-2.1"/>',
     info: '<circle cx="12" cy="12" r="9"/><path d="M12 11v6"/><circle cx="12" cy="7.8" r=".6" fill="currentColor"/>',
+    sound: '<path d="M4 9.5v5h3.5L12 19V5L7.5 9.5z"/><path d="M15.5 9a4 4 0 0 1 0 6M18 6.5a7.5 7.5 0 0 1 0 11"/>',
+    mute: '<path d="M4 9.5v5h3.5L12 19V5L7.5 9.5z"/><path d="M16 9.5l5 5M21 9.5l-5 5"/>',
     alert: '<path d="M12 3.5L2.5 20h19z"/><path d="M12 10v4.5"/><circle cx="12" cy="17.3" r=".6" fill="currentColor"/>',
   };
   const icon = (n, cls = "") => `<svg class="ico ${cls}" viewBox="0 0 24 24" aria-hidden="true">${ICONS[n] || ""}</svg>`;
@@ -253,130 +255,266 @@
     });
   }
 
-  /* ---------- Zuschauer: Spots ---------- */
+  /* ---------- Zuschauer: Spot-Feed zum Wischen (wie Shorts/Reels) ----------
+     Ein gemeinsames <video> wandert in den jeweils sichtbaren Spot. So reicht ein einziges Antippen,
+     damit danach alle Spots mit Ton laufen (iOS/Android erlauben Ton erst nach einer Geste).
+     Nach jedem Spot kommen die 3 Fragen; solange sie offen sind, ist das Wischen gesperrt.
+     Wer während des Spots weiterwischt, überspringt ihn ohne Punkte. */
+  let feedCleanup = null;
+  function closePlayer() { if (feedCleanup) { const f = feedCleanup; feedCleanup = null; f(); } }
+  const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+  const KEYS = ["A", "B", "C", "D"];
+  const ADVANCE_MS = 3500;
+
   async function viewSpots() {
     document.title = "Spots – Werbung lohnt sich";
-    const [feed, acc] = await Promise.all([api.feed(), api.me()]);
+    const [list, acc] = await Promise.all([api.feed(), api.me()]);
     me = acc;
-    const left = Math.max(0, me.daily_limit - me.today);
-    app.innerHTML = `<section class="app"><div class="wrap">
-      <div class="app-head reveal">
-        <div><span class="kicker hl">Hallo ${esc(me.name.split(" ")[0])}</span><h1 style="margin-top:16px">Deine Spots</h1></div>
-        <div class="grid-2" style="min-width:min(100%,440px)">
-          <div class="stat lime"><b>${num(me.points)}</b><span>Punkte · ${ptsEuro(me.points)}</span></div>
-          <div class="stat dark"><b>${left}</b><span>Spots heute noch möglich</span></div>
+    document.body.classList.add("feed-mode");
+    app.innerHTML = `<div class="feed-top">
+        <a class="feed-btn" href="#/konto" aria-label="Mein Konto">${icon("user")}</a>
+        <span class="feed-logo">Werbung <b>lohnt sich</b></span>
+        <a class="feed-pts" href="#/konto" id="feed-pts" title="Deine Punkte"></a></div>
+      <div class="feed" id="feed"><section class="slide slide-end" aria-label="Ende"></section></div>
+      <div class="feed-arrows"><button class="feed-btn" id="feed-up" aria-label="Vorheriger Spot">${icon("arrow")}</button>
+        <button class="feed-btn" id="feed-down" aria-label="Nächster Spot">${icon("arrow")}</button></div>`;
+
+    const feed = $("#feed", app), endEl = $(".slide-end", feed);
+    const items = [];
+    let active = -1, unlocked = false, locked = false, muted = false, owner = null, refilling = null;
+
+    const video = document.createElement("video");
+    video.className = "slide-video";
+    video.playsInline = true; video.setAttribute("playsinline", ""); video.preload = "auto";
+    video.disablePictureInPicture = true; video.setAttribute("controlslist", "nodownload noplaybackrate nofullscreen");
+
+    const updatePts = () => {
+      $("#feed-pts", app).innerHTML = `${icon("coin")}<span>${num(me.points)}</span>${me.demo_points ? `<small>+${num(me.demo_points)} Demo</small>` : ""}`;
+    };
+    const limitReached = () => me.today >= me.daily_limit;
+    const renderEnd = () => {
+      const limit = limitReached();
+      endEl.innerHTML = `<div class="slide-stage end-stage">${icon("sparkle")}
+        <h2 class="big">${limit ? "Tageslimit erreicht" : "Alles geschaut!"}</h2>
+        <p>${limit ? `Du hast heute ${me.daily_limit} Spots geschaut. Morgen geht es weiter.` : "Gerade gibt es keine neuen Spots für dich. Neue kommen laufend dazu."}</p>
+        <div class="row" style="justify-content:center"><a class="btn btn-lime btn-xl" href="#/konto">${icon("coin")} Zum Konto</a>
+        ${limit ? "" : `<button class="btn btn-paper btn-xl" data-act="reload">Neu laden</button>`}</div></div>`;
+    };
+    const slideHtml = (s) => `<section class="slide" style="--c:${esc(s.color || "#FF4D2E")}" aria-label="Spot von ${esc(s.brand)}">
+      <div class="slide-stage">
+        <div class="slide-poster" aria-hidden="true">${esc(s.brand)}</div>
+        <div class="slide-info">
+          <div class="row">${s.demo ? '<span class="badge">Demo</span>' : '<span class="badge badge-lime">Echte Punkte</span>'}<span class="badge badge-dark">${icon("clock")} ${s.duration} Sek.</span></div>
+          <div class="slide-brand">${esc(s.brand)}</div>
+          <div class="slide-title">${esc(s.title)}</div>
+          ${s.claim ? `<div class="slide-claim">${esc(s.claim)}</div>` : ""}
         </div>
-      </div>
-      ${feed.some((s) => s.demo) ? `<div class="reveal" style="margin-bottom:22px">${alertBox("Pilotphase: Spots mit dem Hinweis „Demo“ sind fiktive Marken. Dafür gibt es Demo-Punkte zum Ausprobieren, keine Auszahlung.", "info")}</div>` : ""}
-      ${left === 0 ? alertBox("Tageslimit erreicht. Morgen gibt es neue Spots.", "info") : ""}
-      ${feed.length ? `<div class="spot-grid">${feed.map((s, i) => `
-        <button class="spot-card reveal ${i % 3 ? "reveal-d" + (i % 3) : ""}" style="--c:${esc(s.color || "#FF4D2E")}" data-id="${esc(s.id)}" ${left === 0 ? "disabled" : ""}>
-          <div class="row"><span class="badge badge-dark">${icon("clock")} ${s.duration} Sek.</span>${s.demo ? '<span class="badge">Demo</span>' : '<span class="badge badge-lime">Echte Punkte</span>'}</div>
-          <div><div class="brand">${esc(s.brand)}</div><div class="title">${esc(s.title)}</div></div>
-          <div class="meta"><span class="pts">+${s.points} <small>Punkte</small></span><span class="play">${icon("play")}</span></div>
-        </button>`).join("")}</div>`
-      : `<div class="empty reveal">${icon("sparkle")}<h2 class="mid">Alles geschaut!</h2><p class="muted">Gerade gibt es keine neuen Spots für dich. Schau später wieder vorbei.</p></div>`}
-    </div></section>`;
-    $$(".spot-card", app).forEach((b) => b.addEventListener("click", () => watch(b.dataset.id)));
-  }
+        <div class="slide-side">
+          <span class="slide-avatar" aria-hidden="true">${esc((s.brand || "?").trim().charAt(0))}</span>
+          <span class="slide-reward"><b>+${s.points}</b><small>${s.demo ? "Demo-Punkte" : "Punkte"}</small></span>
+          <button class="slide-mute" data-act="mute" aria-label="Ton aus">${icon("sound")}</button>
+        </div>
+        <div class="slide-bar"><i></i></div>
+        <div class="slide-cover" hidden></div>
+        <div class="slide-quiz" hidden></div>
+      </div></section>`;
 
-  /* ---------- Player & Quiz ---------- */
-  let player = null;
-  function closePlayer() {
-    if (!player) return;
-    player.cleanup(); player.el.remove(); player = null; document.body.style.overflow = "";
-  }
-  async function watch(id) {
-    let v;
-    try { v = await api.startView(id); } catch (e) { toast(e.message); return; }
-    const el = document.createElement("div");
-    el.className = "player"; el.setAttribute("role", "dialog"); el.setAttribute("aria-label", "Spot von " + v.brand);
-    el.innerHTML = `
-      <div class="player-top"><span class="brand">${esc(v.brand)}</span><span class="badge badge-dark">${esc(v.title)}</span>${v.demo ? '<span class="badge">Demo</span>' : ""}
-        <span class="spacer"></span><span class="badge badge-lime">+${v.points} Punkte</span>
-        <button class="icon-btn" style="color:#fff" id="p-close" aria-label="Abbrechen">${icon("x")}</button></div>
-      <div class="player-stage">
-        <video playsinline preload="auto" disablepictureinpicture controlslist="nodownload noplaybackrate nofullscreen" src="${esc(resolveUrl(v.video_url))}"></video>
-        <div class="player-overlay" id="p-ov"><div class="stack" style="justify-items:center">
-          <h2 class="big">Bereit?</h2><p class="muted" style="color:#A49DB0">Schau den Spot bis zum Ende. Danach kommen 3 Fragen.</p>
-          <button class="btn btn-lime btn-xl" id="p-go">${icon("play")} Spot starten</button></div></div>
-      </div>
-      <div class="player-bottom"><div class="progress"><i></i></div><span class="timer" id="p-t">${v.duration}</span></div>`;
-    document.body.appendChild(el); document.body.style.overflow = "hidden";
-    const video = $("video", el), bar = $(".progress i", el), timer = $("#p-t", el), ov = $("#p-ov", el);
-    let maxT = 0, ended = false;
-    const onVis = () => { if (document.hidden && !video.paused) { video.pause(); showPause(); } };
-    const showPause = () => {
-      if (ended) return;
-      ov.hidden = false;
-      ov.innerHTML = `<div class="stack" style="justify-items:center"><h2 class="big">Pausiert</h2><p style="color:#A49DB0">Der Spot läuft weiter, wenn du zurück bist.</p>
-        <button class="btn btn-lime btn-xl" id="p-go">${icon("play")} Weiter</button></div>`;
-      $("#p-go", el).onclick = play;
-    };
-    const play = () => { ov.hidden = true; video.play().catch(() => { video.muted = true; video.play(); }); };
-    video.addEventListener("timeupdate", () => {
-      if (video.currentTime > maxT + 1.2) { video.currentTime = maxT; return; } // kein Vorspulen
-      maxT = Math.max(maxT, video.currentTime);
-      const d = video.duration || v.duration;
-      bar.style.width = Math.min(100, (video.currentTime / d) * 100) + "%";
-      timer.textContent = Math.max(0, Math.ceil(d - video.currentTime));
-    });
-    video.addEventListener("seeking", () => { if (video.currentTime > maxT + 1.2) video.currentTime = maxT; });
-    video.addEventListener("pause", () => { if (!ended && video.currentTime < (video.duration || v.duration) - .3) showPause(); });
-    video.addEventListener("ended", () => { ended = true; quiz(v, el); });
-    video.addEventListener("click", () => (video.paused ? play() : video.pause()));
-    video.addEventListener("error", () => { ov.hidden = false; ov.innerHTML = `<div class="stack" style="justify-items:center">${alertBox("Das Video konnte nicht geladen werden.")}<button class="btn btn-lime" id="p-x">Schließen</button></div>`; $("#p-x", el).onclick = () => { closePlayer(); route(); }; });
-    document.addEventListener("visibilitychange", onVis);
-    $("#p-go", el).onclick = play;
-    $("#p-close", el).onclick = () => { if (ended || confirm("Spot abbrechen? Dann gibt es keine Punkte, und du kannst ihn erst morgen wieder schauen.")) { closePlayer(); route(); } };
-    player = { el, cleanup: () => { video.pause(); document.removeEventListener("visibilitychange", onVis); } };
-  }
-
-  async function quiz(v, el) {
-    const stage = $(".player-stage", el); $(".player-bottom", el).remove();
-    stage.innerHTML = '<div class="spinner" style="border-color:#2A2533;border-top-color:var(--lime)"></div>';
-    let q;
-    for (let i = 0; i < 4; i++) {
-      try { q = await api.quiz(v.view); break; }
-      catch (e) { if (i === 3 || !/Ende/.test(e.message)) { stage.innerHTML = alertBox(e.message); return; } await new Promise((r) => setTimeout(r, 1500)); }
+    function add(list) {
+      const known = new Set(items.map((x) => x.s.id));
+      const fresh = list.filter((s) => !known.has(s.id));
+      fresh.forEach((s) => {
+        endEl.insertAdjacentHTML("beforebegin", slideHtml(s));
+        const it = { s, el: endEl.previousElementSibling, state: "idle", maxT: 0 };
+        items.push(it); obs.observe(it.el); syncMute(it);
+      });
+      return fresh.length;
     }
-    const answers = [];
-    const keys = ["A", "B", "C", "D"];
-    const show = (i) => {
-      const item = q.questions[i];
-      stage.innerHTML = `<div class="quiz">
-        <div class="quiz-progress">${q.questions.map((_, j) => `<i class="${j <= i ? "on" : ""}"></i>`).join("")}</div>
-        <span class="kicker" style="color:var(--lime)">Frage ${i + 1} von ${q.questions.length}</span>
-        <h2 style="margin-top:16px">${esc(item.question)}</h2>
-        <div class="answers">${item.answers.map((a, j) => `<button class="answer" data-j="${j}"><span class="key">${keys[j]}</span>${esc(a)}</button>`).join("")}</div></div>`;
-      $$(".answer", stage).forEach((b) => b.addEventListener("click", () => {
-        b.classList.add("picked"); $$(".answer", stage).forEach((x) => (x.disabled = true));
-        answers[i] = Number(b.dataset.j);
-        setTimeout(() => (i + 1 < q.questions.length ? show(i + 1) : finish()), 320);
-      }));
+    function refill() {
+      if (refilling || limitReached()) return refilling;
+      refilling = api.feed().then(add).catch(() => 0).finally(() => { refilling = null; });
+      return refilling;
+    }
+    const slides = () => $$(".slide", feed);
+    const go = (i) => {
+      const el = slides()[i];
+      if (el && !locked) feed.scrollTo({ top: el.offsetTop, behavior: reduce ? "auto" : "smooth" });
     };
-    const onKey = (e) => { const j = keys.indexOf(e.key.toUpperCase()); const b = $$(".answer", stage)[j]; if (b && !b.disabled) b.click(); };
+    const lock = (on) => { locked = on; feed.classList.toggle("locked", on); };
+    const cover = (it, html) => { const c = $(".slide-cover", it.el); c.innerHTML = html || ""; c.hidden = !html; };
+    const startCover = (it) => `<span class="cover-go">${icon("play")}</span><b>Tippen zum Starten</b>
+      <span>Schau den Spot bis zum Ende. Danach kommen 3 Fragen, und wer alle richtig hat, bekommt ${it.s.points} ${it.s.demo ? "Demo-Punkte" : "Punkte"}.</span>
+      ${it.s.demo ? "<small>Pilotphase: Demo-Spots sind fiktive Marken. Demo-Punkte kann man nicht auszahlen.</small>" : ""}`;
+    const msgCover = (title, text) => `${icon("alert", "cover-ico")}<b>${esc(title)}</b>${text ? `<span>${esc(text)}</span>` : ""}`;
+    function syncMute(only) {
+      (only ? [only] : items).forEach((it) => {
+        const b = $(".slide-mute", it.el); b.innerHTML = icon(muted ? "mute" : "sound"); b.setAttribute("aria-label", muted ? "Ton an" : "Ton aus");
+      });
+    }
+
+    const obs = new IntersectionObserver((ens) => ens.forEach((en) => {
+      if (en.isIntersecting) activate(slides().indexOf(en.target));
+    }), { root: feed, threshold: 0.6 });
+    obs.observe(endEl);
+
+    function activate(i) {
+      if (i < 0 || i === active) return;
+      const prev = items[active];
+      if (prev) { clearTimeout(prev.timer); if (["loading", "playing", "paused"].includes(prev.state)) skip(prev); }
+      active = i;
+      $("#feed-up", app).disabled = i === 0;
+      $("#feed-down", app).disabled = i >= items.length;
+      if (i >= items.length - 2) refill();
+      const it = items[i];
+      if (!it) { video.pause(); return; } // Ende-Karte
+      if (it.state === "idle") { if (unlocked) start(it); else cover(it, startCover(it)); }
+    }
+    function skip(it) {
+      video.pause(); it.state = "idle"; owner = null;
+      cover(it, `${icon("back", "cover-ico")}<b>Übersprungen</b><span>Für diesen Spot gibt es keine Punkte. Tippen, um ihn neu zu starten.</span>`);
+    }
+    async function start(it) {
+      if (limitReached()) { renderEnd(); cover(it, msgCover("Tageslimit erreicht", "Morgen gibt es neue Spots.")); return; }
+      it.state = "loading"; it.maxT = 0; owner = it;
+      cover(it, '<div class="spinner"></div>');
+      $(".slide-bar i", it.el).style.width = "0";
+      const stage = $(".slide-stage", it.el);
+      if (video.parentNode !== stage) stage.prepend(video);
+      let v;
+      try { v = await api.startView(it.s.id); }
+      catch (e) {
+        if (e.auth) { location.hash = "#/login"; return; }
+        it.state = "error"; owner = null;
+        cover(it, msgCover(e.message, "Wisch weiter zum nächsten Spot."));
+        if (/Tageslimit/.test(e.message)) { me.today = me.daily_limit; renderEnd(); }
+        return;
+      }
+      if (items[active] !== it || !feedCleanup) { it.state = "idle"; return; } // inzwischen weitergewischt
+      it.view = v.view;
+      video.src = resolveUrl(v.video_url || it.s.video_url);
+      video.muted = muted;
+      it.state = "playing"; cover(it, "");
+      try { await video.play(); }
+      catch {
+        muted = true; video.muted = true; syncMute();
+        try { await video.play(); } catch { if (it.state === "playing") pause(it); }
+      }
+    }
+    function pause(it) {
+      video.pause(); it.state = "paused";
+      cover(it, `<span class="cover-go">${icon("play")}</span><b>Pausiert</b><span>Tippen, um weiterzuschauen.</span>`);
+    }
+    function resume(it) { it.state = "playing"; cover(it, ""); video.play().catch(() => pause(it)); }
+
+    video.addEventListener("timeupdate", () => {
+      const it = owner; if (!it || it.state !== "playing") return;
+      if (video.currentTime > it.maxT + 1.2) { video.currentTime = it.maxT; return; } // kein Vorspulen
+      it.maxT = Math.max(it.maxT, video.currentTime);
+      $(".slide-bar i", it.el).style.width = Math.min(100, (video.currentTime / (video.duration || it.s.duration)) * 100) + "%";
+    });
+    video.addEventListener("seeking", () => { const it = owner; if (it && video.currentTime > it.maxT + 1.2) video.currentTime = it.maxT; });
+    video.addEventListener("ended", () => { const it = owner; if (it && it.state === "playing") quiz(it); });
+    video.addEventListener("error", () => {
+      const it = owner; if (!it || !["loading", "playing"].includes(it.state)) return;
+      it.state = "error"; owner = null; cover(it, msgCover("Das Video konnte nicht geladen werden.", "Wisch weiter zum nächsten Spot."));
+    });
+
+    async function quiz(it) {
+      it.state = "quiz"; lock(true);
+      const box = $(".slide-quiz", it.el); box.hidden = false;
+      box.innerHTML = '<div class="spinner"></div>';
+      const fail = (m) => { box.innerHTML = `<div class="result fail">${icon("alert", "cover-ico")}<h2 class="mid">${esc(m)}</h2>
+        <button class="btn btn-lime btn-xl" data-act="next">Nächster Spot ${icon("arrow")}</button></div>`; it.state = "done"; lock(false); };
+      let q;
+      for (let i = 0; i < 4; i++) {
+        try { q = await api.quiz(it.view); break; }
+        catch (e) { if (e.auth) { location.hash = "#/login"; return; } if (i === 3 || !/Ende/.test(e.message)) return fail(e.message); await sleep(1500); }
+      }
+      const answers = [];
+      const show = (i) => {
+        const item = q.questions[i];
+        box.innerHTML = `<div class="quiz">
+          <div class="quiz-progress">${q.questions.map((_, j) => `<i class="${j <= i ? "on" : ""}"></i>`).join("")}</div>
+          <span class="kicker" style="color:var(--lime)">Frage ${i + 1} von ${q.questions.length}</span>
+          <h2 style="margin-top:14px">${esc(item.question)}</h2>
+          <div class="answers">${item.answers.map((a, j) => `<button class="answer" data-j="${j}"><span class="key">${KEYS[j]}</span>${esc(a)}</button>`).join("")}</div></div>`;
+        $$(".answer", box).forEach((b) => b.addEventListener("click", () => {
+          b.classList.add("picked"); $$(".answer", box).forEach((x) => (x.disabled = true));
+          answers[i] = Number(b.dataset.j);
+          setTimeout(() => (i + 1 < q.questions.length ? show(i + 1) : finish()), 320);
+        }));
+      };
+      const finish = async () => {
+        box.innerHTML = '<div class="spinner"></div>';
+        let r;
+        try { r = await api.submit(it.view, answers); } catch (e) { if (e.auth) { location.hash = "#/login"; return; } return fail(e.message); }
+        me = r.account; updatePts();
+        const last = !items[active + 1];
+        box.innerHTML = r.verified
+          ? `<div class="result"><span class="kicker" style="color:var(--lime)">3 von 3 richtig</span><div class="num">+${r.points}</div>
+              <h2 class="mid">${r.demo ? "Demo-Punkte" : "Punkte"} gutgeschrieben!</h2>
+              <button class="btn btn-lime btn-xl next-btn" data-act="next">${last ? "Weiter" : "Nächster Spot"} ${icon("arrow")}<span class="ring"></span></button>
+              <small class="muted-light">Geht gleich automatisch weiter, oder einfach wischen.</small></div>`
+          : `<div class="result fail"><span class="kicker" style="color:var(--signal)">Knapp daneben</span><div class="num">${r.correct}/3</div>
+              <h2 class="mid">Diesmal keine Punkte.</h2><p class="muted-light">Für Punkte müssen alle 3 Antworten stimmen.</p>
+              <button class="btn btn-lime btn-xl next-btn" data-act="next">${last ? "Weiter" : "Nächster Spot"} ${icon("arrow")}<span class="ring"></span></button></div>`;
+        if (r.verified) burst();
+        it.state = "done"; lock(false);
+        if (limitReached()) renderEnd();
+        it.timer = setTimeout(() => { if (items[active] === it) go(active + 1); }, ADVANCE_MS);
+      };
+      show(0);
+    }
+
+    feed.addEventListener("click", (e) => {
+      const act = e.target.closest("[data-act]");
+      if (act) {
+        const a = act.dataset.act;
+        if (a === "mute") { muted = !muted; video.muted = muted; syncMute(); }
+        else if (a === "next") { const it = items[active]; if (it) clearTimeout(it.timer); go(active + 1); }
+        else if (a === "reload") { act.disabled = true; refill().then((n) => { act.disabled = false; n ? go(items.length - n) : toast("Noch keine neuen Spots."); }); }
+        return;
+      }
+      if (e.target.closest(".slide-quiz")) return;
+      const el = e.target.closest(".slide"); const it = items[active];
+      if (!it || it.el !== el) return;
+      if (it.state === "idle") { unlocked = true; start(it); }
+      else if (it.state === "paused") resume(it);
+      else if (it.state === "playing") pause(it);
+    });
+    $("#feed-up", app).addEventListener("click", () => go(active - 1));
+    $("#feed-down", app).addEventListener("click", () => go(active + 1));
+
+    const onKey = (e) => {
+      if (e.target.closest && e.target.closest("input, textarea, select")) return;
+      const it = items[active];
+      if (it && it.state === "quiz") {
+        const b = $$(".answer", it.el)[KEYS.indexOf(e.key.toUpperCase())];
+        if (b && !b.disabled) b.click();
+        return;
+      }
+      if (["ArrowDown", "PageDown"].includes(e.key)) { e.preventDefault(); go(active + 1); }
+      else if (["ArrowUp", "PageUp"].includes(e.key)) { e.preventDefault(); go(active - 1); }
+      else if (e.key === " " && it) {
+        e.preventDefault();
+        if (it.state === "idle") { unlocked = true; start(it); } else if (it.state === "paused") resume(it); else if (it.state === "playing") pause(it);
+      }
+    };
+    const onVis = () => { const it = owner; if (document.hidden && it && it.state === "playing") pause(it); };
     document.addEventListener("keydown", onKey);
-    const prevCleanup = player.cleanup; player.cleanup = () => { prevCleanup(); document.removeEventListener("keydown", onKey); };
-    const finish = async () => {
-      stage.innerHTML = '<div class="spinner" style="border-color:#2A2533;border-top-color:var(--lime)"></div>';
-      let r;
-      try { r = await api.submit(v.view, answers); } catch (e) { stage.innerHTML = alertBox(e.message); return; }
-      me = r.account;
-      stage.innerHTML = r.verified
-        ? `<div class="result"><span class="kicker" style="color:var(--lime)">3 von 3 richtig</span><div class="num">+${r.points}</div>
-            <h2 class="mid">${r.demo ? "Demo-Punkte" : "Punkte"} gutgeschrieben!</h2>
-            <p style="color:#A49DB0">Guthaben: ${num(me.points)} Punkte${me.demo_points ? ` · ${num(me.demo_points)} Demo-Punkte` : ""}</p>
-            <div class="row" style="justify-content:center"><button class="btn btn-lime btn-xl" id="r-next">Nächster Spot ${icon("arrow")}</button><a class="btn btn-ghost btn-xl" href="#/konto" id="r-acc"><span>Zum Konto</span></a></div></div>`
-        : `<div class="result fail"><span class="kicker" style="color:var(--signal)">Knapp daneben</span><div class="num">${r.correct}/3</div>
-            <h2 class="mid">Diesmal keine Punkte.</h2><p style="color:#A49DB0">Für Punkte müssen alle 3 Antworten stimmen. Probier einen anderen Spot.</p>
-            <div class="row" style="justify-content:center"><button class="btn btn-lime btn-xl" id="r-next">Anderer Spot ${icon("arrow")}</button></div></div>`;
-      if (r.verified) burst();
-      $("#r-next", el).onclick = () => { closePlayer(); route(); };
-      const acc = $("#r-acc", el); if (acc) acc.onclick = () => closePlayer();
+    document.addEventListener("visibilitychange", onVis);
+
+    feedCleanup = () => {
+      owner = null; obs.disconnect(); video.pause(); video.removeAttribute("src");
+      items.forEach((it) => clearTimeout(it.timer));
+      document.removeEventListener("keydown", onKey); document.removeEventListener("visibilitychange", onVis);
+      document.body.classList.remove("feed-mode");
     };
-    show(0);
+
+    updatePts(); renderEnd();
+    if (!limitReached()) add(list);
+    feed.focus({ preventScroll: true });
   }
+
   function burst() {
     if (reduce) return;
     const b = document.createElement("div"); b.className = "burst";
@@ -518,7 +656,7 @@
           <div class="panel stack reveal reveal-d1">
             <h2 class="mid">2. Spot hochladen</h2>
             <label class="upload" id="drop">${c.video_url ? `<video src="${esc(resolveUrl(c.video_url))}" controls playsinline></video>` : icon("upload")}
-              <b id="up-label">${c.video_url ? "Anderes Video wählen" : "Video auswählen"}</b><span class="muted" style="font-size:.9rem">MP4, WebM oder MOV · max. 50 MB · Länge passend zur Spotlänge</span>
+              <b id="up-label">${c.video_url ? "Anderes Video wählen" : "Video auswählen"}</b><span class="muted" style="font-size:.9rem">Hochformat 9:16 empfohlen (wie Shorts/Reels) · MP4, WebM oder MOV · max. 50 MB · Länge passend zur Spotlänge</span>
               <input type="file" accept="video/mp4,video/webm,video/quicktime" hidden id="file"></label>
             <div class="meter" id="up-meter" hidden><i style="width:0"></i></div>
             <div id="up-msg"></div>
