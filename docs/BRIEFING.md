@@ -233,3 +233,13 @@ Mindestumfang je Kategorie: **≥ 1.000 Wörter** (nicht künstlich auffüllen),
   (mit `TOPTOP_DIR` auf diesen Checkout), danach hier `node build.mjs`. Daten in Supabase-Projekt Firsty.app, eigenes
   Schema `vibe`, Zugriff nur über die Funktionen `vibe_feel` und `vibe_live_feelings`. Demo-Daten sind beigemischt und
   gekennzeichnet. `noindex` per `src/static/vibe/.htaccess`.
+- 2026-10-18: **Werbung lohnt sich** (Rosi) unter `/werbunglohntsich/`: Nutzer schauen Spots (15/30/60 s), beantworten
+  3 Fragen (zufällig aus einem Pool, Antworten gemischt) und bekommen nur bei 3/3 Punkte (1 Punkt = 0,1 Cent; 25/40/70 Punkte),
+  Werbetreibende zahlen 0,06/0,10/0,18 € pro verifiziertem View (Business Case:
+  https://claude.ai/code/artifact/b181ebe0-c1b3-4b17-9bbc-8424a7fafdfe). Einlösen ab 5.000 Punkten als Gutschein oder Spende,
+  Tageslimit 20 Spots, ab 18. Vanilla-JS ohne Build in `src/static/werbunglohntsich/` (eigenes Design: Bricolage Grotesque +
+  Inter, Ink/Creme/Lime/Signalrot, Parallax). Daten im Supabase-Projekt Firsty.app, eigenes Schema `wls` mit eigenen Konten
+  (nicht Supabase Auth), Zugriff nur über `public.wls_*`-Funktionen (Quelle `supabase/werbunglohntsich/schema.sql`); Uploads
+  über Edge Function `wls-upload` in den Bucket `wls-spots`. Admins in Tabelle `wls.admins` (E-Mail). Pilotphase: 5 Demo-Spots
+  fiktiver Marken (`scripts/werbunglohntsich-spots.mjs`), die nur Demo-Punkte geben. Abrechnung mit Werbetreibenden per Rechnung,
+  Freischaltung und Gutschein-Versand von Hand im Admin-Bereich. Datenschutz Abschnitt 5 ergänzt.
