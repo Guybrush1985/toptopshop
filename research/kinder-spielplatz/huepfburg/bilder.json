@@ -1,0 +1,54 @@
+{
+  "visuals": {
+    "1": {
+      "kind": "bouncy",
+      "tone": "forest"
+    },
+    "2": {
+      "kind": "bouncy",
+      "tone": "green"
+    },
+    "3": {
+      "kind": "bouncy",
+      "tone": "mint"
+    }
+  },
+  "steps": {
+    "title": "Hüpfburg sicher aufbauen",
+    "subtitle": "Für Garten und Kindergeburtstag",
+    "alt": "Infografik: Hüpfburg sicher aufbauen – Fläche vorbereiten, Verankern, Gebläse anschließen, Regeln festlegen, Immer beaufsichtigen, Trocken einlagern",
+    "caption": "Verankern, beaufsichtigen und bei Wind abbauen.",
+    "steps": [
+      {
+        "title": "Fläche vorbereiten",
+        "text": "Ebene Rasenfläche ohne Steine und Äste wählen, eine Plane unterlegen."
+      },
+      {
+        "title": "Verankern",
+        "text": "Alle Heringe bzw. Ankerpunkte nutzen – bei Wind kann die Burg abheben."
+      },
+      {
+        "title": "Gebläse anschließen",
+        "text": "Gebläse laufen lassen, Kabel und Stecker vor Nässe schützen."
+      },
+      {
+        "title": "Regeln festlegen",
+        "text": "Nur Kinder einer Altersgruppe gleichzeitig, Schuhe und spitze Gegenstände aus."
+      },
+      {
+        "title": "Immer beaufsichtigen",
+        "text": "Ein Erwachsener bleibt dabei; bei Wind oder Regen Betrieb einstellen."
+      },
+      {
+        "title": "Trocken einlagern",
+        "text": "Nach dem Spielen säubern und vollständig trocknen lassen."
+      }
+    ]
+  },
+  "scoresAlt": "Balkendiagramm: Bewertung der drei besten Hüpfburgen in den Kriterien Größe, Gebläse, Material, Aufbau und Preis",
+  "scoresCaption": "Unsere Bewertung je Kriterium für die drei empfohlenen Modelle.",
+  "neueFormen": [],
+  "offen": [
+    "Kriterien in scoresAlt sind ein Entwurf – an die finalen Bewertungskriterien anpassen; Produktnamen nach Recherche ergänzen."
+  ]
+}

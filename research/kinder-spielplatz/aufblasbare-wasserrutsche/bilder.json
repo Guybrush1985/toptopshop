@@ -1,0 +1,54 @@
+{
+  "visuals": {
+    "1": {
+      "kind": "waterslide",
+      "tone": "forest"
+    },
+    "2": {
+      "kind": "waterslide",
+      "tone": "green"
+    },
+    "3": {
+      "kind": "waterslide",
+      "tone": "mint"
+    }
+  },
+  "steps": {
+    "title": "Aufblasbare Wasserrutsche aufbauen",
+    "subtitle": "Fläche, Wasser und Trocknung",
+    "alt": "Infografik: Aufblasbare Wasserrutsche aufbauen – Ebene Rasenfläche, Verankern und aufblasen, Strom schützen, Wasser anschließen, Beaufsichtigen, Gründlich trocknen",
+    "caption": "Strom und Wasser trennen, Kinder beaufsichtigen, danach gut trocknen.",
+    "steps": [
+      {
+        "title": "Ebene Rasenfläche",
+        "text": "Steine und Äste entfernen, Plane unterlegen, Abstand zu Zäunen lassen."
+      },
+      {
+        "title": "Verankern und aufblasen",
+        "text": "Alle Ankerpunkte nutzen, Gebläse nach Anleitung anschließen."
+      },
+      {
+        "title": "Strom schützen",
+        "text": "Gebläse und Stecker trocken und außerhalb der Spritzzone platzieren."
+      },
+      {
+        "title": "Wasser anschließen",
+        "text": "Gartenschlauch an den Sprinkler anschließen, Becken nur flach füllen."
+      },
+      {
+        "title": "Beaufsichtigen",
+        "text": "Kinder im Wasser nie allein lassen, auch bei flachem Becken."
+      },
+      {
+        "title": "Gründlich trocknen",
+        "text": "Nach dem Spielen entleeren und vollständig trocknen, sonst droht Schimmel."
+      }
+    ]
+  },
+  "scoresAlt": "Balkendiagramm: Bewertung der drei besten aufblasbaren Wasserrutschen in den Kriterien Spielwert, Größe, Material, Aufbau und Preis",
+  "scoresCaption": "Unsere Bewertung je Kriterium für die drei empfohlenen Modelle.",
+  "neueFormen": [],
+  "offen": [
+    "Kriterien in scoresAlt sind ein Entwurf – an die finalen Bewertungskriterien anpassen; Produktnamen nach Recherche ergänzen."
+  ]
+}

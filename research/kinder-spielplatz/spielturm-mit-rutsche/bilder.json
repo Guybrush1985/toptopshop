@@ -1,0 +1,51 @@
+{
+  "visuals": {
+    "1": {
+      "kind": "tower",
+      "tone": "forest"
+    },
+    "2": {
+      "kind": "tower",
+      "tone": "green"
+    },
+    "3": {
+      "kind": "tower",
+      "tone": "mint"
+    }
+  },
+  "steps": {
+    "title": "Spielturm im Garten aufbauen",
+    "subtitle": "Standort, Fundament und Wartung",
+    "alt": "Infografik: Spielturm im Garten aufbauen – Standort planen, Untergrund vorbereiten, Zu zweit aufbauen, Fallschutz anlegen, Jährlich warten",
+    "caption": "Guter Standort, feste Verankerung und regelmäßige Kontrolle.",
+    "steps": [
+      {
+        "title": "Standort planen",
+        "text": "Ebene Fläche mit Sicherheitsabstand zu Zäunen, Wegen und Bäumen wählen."
+      },
+      {
+        "title": "Untergrund vorbereiten",
+        "text": "Boden ebnen und den Turm nach Anleitung verankern."
+      },
+      {
+        "title": "Zu zweit aufbauen",
+        "text": "Bauteile nach Plan verschrauben, Schrauben erst am Ende fest anziehen."
+      },
+      {
+        "title": "Fallschutz anlegen",
+        "text": "Unter Schaukel und Rutschenauslauf weichen Boden (Rasen, Fallschutzmatten, Sand) vorsehen."
+      },
+      {
+        "title": "Jährlich warten",
+        "text": "Holz, Schrauben und Schaukelaufhängung prüfen, Holz bei Bedarf nachbehandeln."
+      }
+    ]
+  },
+  "scoresAlt": "Balkendiagramm: Bewertung der drei besten Spieltürme mit Rutsche in den Kriterien Stabilität, Holzqualität, Spielwert, Aufbau und Preis",
+  "scoresCaption": "Unsere Bewertung je Kriterium für die drei empfohlenen Modelle.",
+  "neueFormen": [],
+  "offen": [
+    "Kriterien in scoresAlt sind ein Entwurf – an die finalen Bewertungskriterien anpassen; Produktnamen nach Recherche ergänzen.",
+    "Sicherheits-/Montageschritte allgemein gehalten; Tragfähigkeits- und Altersangaben nur aus Herstellerquellen ergänzen."
+  ]
+}

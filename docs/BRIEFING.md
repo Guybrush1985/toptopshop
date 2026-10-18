@@ -151,8 +151,93 @@ Mindestumfang je Kategorie: **≥ 1.000 Wörter** (nicht künstlich auffüllen),
   keine Geräte mit vorinstallierten ROM-Sammlungen.
 - 2026-10-08: Footer listet Bereiche statt aller Kategorien; Startseite zeigt je Bereich zwei Ratgeber. Mobile
   Hauptnavigation ist eine einzeilige, scrollbare Leiste (aktiver Bereich wird per Mini-Skript sichtbar gescrollt).
+- 2026-10-08: Zwei neue Bereiche mit 20 Kategorien aus der CSV `toptop-kinder-spielplatz-v3.csv`: Kinder-Spielplatz
+  (Gruppen Indoor 8 / Outdoor 6, URLs `/kinder-spielplatz/<gruppe>/<slug>/`) und Spielzimmer (6, flach). Altersgruppen
+  der CSV sind keine eigenen Seiten, sondern Abschnitte; doppelte CSV-Zeilen (Noah-Rutsche) nur einmal.
+- 2026-10-08: Elastische Schaukeltücher (zum Spannen zwischen Wand/Türrahmen) empfehlen wir nicht (NL-Verbot 04/2023,
+  Rückrufe); die Seite `/kinder-spielplatz/indoor/schaukeltuch/` empfiehlt Hängesitze und Hängehöhlen mit Warnabschnitt.
+- 2026-10-08: Kippschutz ausführlich nur auf `/kinderschrank/#aufstellen-sichern`; Bücherregal und Sideboard verlinken
+  dorthin. ASINs, die sich per Suche nicht eindeutig bestätigen lassen, bleiben weg (nur `query`).
+- 2026-10-08: Neuer Bereich „LEGO® ausstellen“ (`/lego-sammler/`, URLs flach) mit 6 Kategorien: Vitrinen für Sets, Minifiguren-
+  Vitrinen, Speed-Champions-Wandrahmen, Technic-Vitrinen, Speed-Champions-Vitrinen, LED-Lichtsets. Auf Wunsch des Nutzers
+  ausschließlich Produkte von BrickZoneHub (Awin 121692, Status `joined`, britischer Shop, Preise in GBP, liefert laut FAQ nach
+  Deutschland). BrickZoneHub-Ware gibt es nicht bei Amazon. Regale führt BrickZoneHub nicht – daher keine Regal-Seite.
+  brickzonehub.co.uk ist aus der Arbeitsumgebung nicht abrufbar; Produktdaten stammen aus der Websuche (Shop-Seiten) und
+  den Brick-Fanatics-Reviews. LEGO-Markenhinweis („nicht von LEGO gesponsert oder autorisiert“) auf der Bereichsseite.
+- 2026-10-08: Neuer Bereich Pickleball (flache URLs): Schläger, Bälle, Netze – ausschließlich Amazon-ASINs. Die bestehende
+  Seite `/padel-pickleball/` bleibt bei der Court-Planung im Garten (Netz + Linien, Padel-Court) und verlinkt auf den Bereich.
+- 2026-10-08: Neuer Bereich Garten & Grundstück (gemeinsam mit Laubbläsern). Kategorie `/elektrische-schneefraese/`:
+  Top 3 nur Akku-Geräte (einstufig, für Pflaster/Asphalt), Top 5 deckt Kabel, Benzin (zweistufig) und Schneewanne ab.
+  Unabhängige Labortests für Schneefräsen gibt es nicht; Einordnung nach Herstellerangaben, Hinweis in der Methodik.
+- 2026-10-08: Neuer Bereich Garten & Grundstück (`/garten-grundstueck/`, flache URLs) für Laubbläser und Schneeräumgeräte.
+  Laubbläser nur Akku-Modelle in den Top 3; Laubsauger mit Häcksler in der Top 5 mit Hinweis auf Kleintiere (NABU).
+  Ruhezeiten nach § 7 der 32. BImSchV im Text. Kein bestätigter aktueller Stiftung-Warentest-Test → keine Testnoten.
+- 2026-10-13: Passwortgeschütztes Lerntraining „Nachhaltigkeits-Kompass“ für Lisa unter `/train/` (kein Teil des
+  Empfehlungsportals, nicht verlinkt, `noindex` und `Disallow: /train/`). Weil das Repository öffentlich ist, liegen
+  Quellen und Passwort **nicht** im Repo: Die Quellen stehen im git-ignorierten Ordner `train-src/`, `scripts/train.mjs`
+  verschlüsselt sie (PBKDF2 + AES-GCM) nach `src/static/train/index.html`. Bearbeiten: `TRAIN_PASSWORD=… node
+  scripts/train.mjs unpack`, ändern, `… build`, dann `node build.mjs`. Das Passwort kennt der Nutzer. Der Fortschritt
+  liegt nur im Local Storage des Browsers; Datenschutzerklärung um Abschnitt `#training` ergänzt.
+- 2026-10-15: Neue Unterseite **MyShotCoach** unter `/myshotcoach/` (eigenständige Plattform, kein Teil des
+  Empfehlungsportals): Marktplatz, auf dem Spieler:innen ein Video eines Schlags hochladen und lizenzierte Coaches
+  (Tennis, Padel, Tischtennis, Pickleball) Feedback geben; Provision 25 % (Ex-Profis 20 %). Liegt komplett in
+  `src/static/myshotcoach/` (React + htm, selbst gehostet, keine externen Ressourcen, `noindex`). Aktuell **Vorschau**:
+  keine Verträge, keine Zahlungen, keine Uploads, alle Coach-Profile und Bewertungen als „Beispiel“ gekennzeichnet.
+  Echt ist nur die Coach-Bewerbung per `mailto:` an info@tanmeon.de (Deploy Now führt kein PHP aus). Vor echten
+  Konten, Uploads oder Zahlungen: Datenschutzerklärung, AGB, Widerrufsbelehrung und Plattformpflichten nachziehen.
+- 2026-10-16: MyShotCoach umgebaut (Wunsch des Nutzers): nur **Video-Antworten** vom Coach, kein schriftliches
+  Feedback. Preise pro Schlag inkl. MwSt.: 9,99 € (C-Trainer/Übungsleiter), 19 € (B-Trainer), 29 € (A-Trainer);
+  Coaches bekommen 75 %. Ex-Profis nur als „Premium, bald“ ohne Preis. Design ruhiger und sportlicher (eine Schrift:
+  Archivo, Tinte plus Akzent Ballgelb, Court-Szenen statt Comic-Elementen). Coaches haben einen **eigenen Bereich**
+  unter `/myshotcoach/coach/` (Landingpage, Registrierung, Login, Dashboard); die Registrierung ist echt und läuft
+  per `mailto:` an info@tanmeon.de. Code: `assets/core.js` (gemeinsam), `assets/player.js`, `assets/coach.js`.
+- 2026-10-16: Neue Unterseite **Thirsty** unter `/thirsty/` (eigenständige Plattform, kein Teil des
+  Empfehlungsportals): Restaurants schreiben Early-Bird-Plätze für die erste Stunde nach Öffnung aus (z. B. 8 Plätze,
+  50 % auf die Karte + Gratisgetränk), Gäste buchen, checken per QR-Code ein und zahlen im Restaurant. Konzept:
+  https://claude.ai/code/artifact/66454646-8209-4897-967b-aa839813e4c8. Quellcode in `thirsty/` (Next.js, statischer
+  Export mit `basePath: "/thirsty"`); `cd thirsty && npm run site` baut und kopiert nach `src/static/thirsty/`, danach
+  `node build.mjs`. Aktuell **Vorschau**: alle Daten nur im Local Storage des Browsers, Beispiel-Restaurants
+  gekennzeichnet, Demo-Konten `gast@thirsty.test` / `wirt@thirsty.test` (Passwort `thirsty123`), `noindex`, eigenes
+  Impressum/Datenschutz/Hinweise. Für echte Buchungen braucht es eine Datenbank (Vorschlag: Supabase, EU); dann
+  `src/lib/store.ts` und `src/lib/actions.ts` auf die Datenbank umstellen und Datenschutz, AGB, Plattformpflichten ergänzen.
+- 2026-10-16: Thirsty heißt jetzt **Firsty** (Mix aus „first“ und „thirsty“) und liegt unter `/firsty/`; `/thirsty/`
+  leitet per 301 weiter (`src/static/.htaccess`). Der Quellcode bleibt im Ordner `thirsty/`, `npm run site` kopiert nach
+  `src/static/firsty/`. Live mit Supabase (`thirsty/.env.production`). Design: dunkel, laut (Anton, Lime/Orange/Pink),
+  Stadtkarte mit Angebots-Pins. Angebotsarten: Gratis-Getränk, Gratis-Dessert, 25/50/75 % auf alles. Beispiel-Restaurants
+  in Hamburg, Berlin, Bremen, München, Köln, Frankfurt, Düsseldorf, Stuttgart und Leipzig.
+- 2026-10-16: MyShotCoach (Rosi): **erst nur Tennis**, andere Sportarten später. Preise „ab 9 € pro Einschätzung“
+  (C 9 €, B 19 €, A 29 €). Ex-Profis als eigene Stufe P, nur über „Coach selbst wählen“ buchbar, vorläufig 49 €
+  (Platzhalter, nicht von Rosi bestätigt). Hero: Handy auf Stativ filmt die Vorhand, Umgebung unscharf. Schlag-Icons
+  mit Person. Filmanleitung: rundherum, je 5 Schläge von der Seite, von hinten, von der anderen Seite (max. 2 Min.).
+  Bezahlen geplant mit PayPal, Apple Pay, Google Pay, Kreditkarte und aufladbarem Guthaben; automatische Erstattung,
+  wenn kein Coach annimmt. In der Vorschau alles nur Demo.
+- 2026-10-16: MyShotCoach-Coach-Konten echt: eigenes Supabase-Projekt „OnlineTennisCoach“ (`htibyxvxryraooarkwjg`, EU/Irland),
+  Tabelle `coaches` (Anlage per Trigger aus den Signup-Metadaten, Status `missing_proof` → `in_review` beim Nachweis-Upload,
+  `live`/`rejected` setzt nur das Team), privater Bucket `coach-files`. Client ohne Bibliothek in `assets/api.js`,
+  Sitzung nur im Arbeitsspeicher. Datenschutz Abschnitt 6 entsprechend angepasst.
+- 2026-10-16: MyShotCoach-Registrierung: Stadt und Heimverein als Suchfelder (lokale Dateien `assets/data-orte.json`
+  aus npm `german-zip-codes`, MIT; Vereine in Supabase-Tabelle `clubs` aus OpenStreetMap, ODbL, ca. 2.400 Einträge,
+  NRW/Niedersachsen/Sachsen fehlen noch wegen überlasteter Overpass-Server; freie Eingabe bleibt möglich).
+  Nachweis „Jetzt hochladen“ oder „Später nachreichen“ (Profil bleibt offline, rot markiert). Link „Noch kein Trainer?“
+  zu trainer.tennis.de. KI-Vorprüfung der Nachweise per Edge Function `check-proof` (Quelle in `supabase/functions/`,
+  Anthropic API, Ergebnis in `coaches.ai_check`); Freischaltung bleibt Handarbeit. Braucht Secret `ANTHROPIC_API_KEY`.
+  Neues Logo: Handy hochkant mit Schläger, gelber Ball oben rechts.
+- 2026-10-16: Umbenennung (Rosi): MyShotCoach heißt jetzt **tennistrainer.app**, Claim „Dein Online Tennistrainer“.
+  Dateien bleiben im Ordner `src/static/myshotcoach/` (inkl. App-Vorschau `app/`). Die Domain tennistrainer.app wird
+  per `.htaccess`-Rewrite (Host-Abfrage) auf diesen Ordner gelegt; Deploy wie bisher per Push auf `main` (IONOS Deploy Now).
+  Rosi muss die Domain im Deploy-Now-Projekt hinzufügen. Impressum/Datenschutz überarbeitet (Empfänger, Speicherdauer, Art. 22).
+- 2026-10-16 15:10: tennistrainer.app läuft im eigenen Repo Guybrush1985/tennistrainer (eigenes Deploy-Now-Projekt). `src/static/myshotcoach/` entfernt, /myshotcoach/* leitet per 301 auf tennistrainer.app um.
+- 2026-10-16: **I'm Feeling It** (Rosi) liegt unter `/vibe/`: ein Knopf meldet „I'm feeling it“ mit Standort, eine
+  Live-Weltkarte pulsiert, wo viele es fühlen, dazu Rankings nach Stadt, Land, Kontinent und Welt. Quellcode im eigenen
+  Repo github.com/Guybrush1985/vibe (Next.js, statischer Export mit `basePath: "/vibe"`); dort `npm run toptop`
+  (mit `TOPTOP_DIR` auf diesen Checkout), danach hier `node build.mjs`. Daten in Supabase-Projekt Firsty.app, eigenes
+  Schema `vibe`, Zugriff nur über die Funktionen `vibe_feel` und `vibe_live_feelings`. Demo-Daten sind beigemischt und
+  gekennzeichnet. `noindex` per `src/static/vibe/.htaccess`.
 - 2026-10-08: Agententeam für den Ausbau: Orchestrator (Skill `/kategorie-pipeline`) steuert Trend-Scout, Strukturierer,
   Produkt-Rechercheur, Illustrator, Redakteur und Prüfer (`.claude/agents/`). Der Nutzer spricht nur mit dem
   Orchestrator; Freigaben bei Nischenauswahl, neuen Awin-Händlern und Merge. Nischen gern aus Sport/Kinder/Familie,
   **keine Preisschwelle, aber Fokus auf Produktqualität**. Ergebnis bleibt im heutigen Seitenformat (Symbolbilder,
   `scores`/`steps`). Recherche-Dateien werden in `research/` als Quellenarchiv mit eingecheckt.
+- 2026-10-18: Tägliche Routine (Rosi): Das Agententeam baut jeden Tag autonom bis zu 5 neue Kategorien
+  (Skill `/kategorie-pipeline`, Abschnitt „Autonomer Modus“) und legt dafür einen PR an. **Live geht nichts ohne
+  Rosis Merge.** Nischen wählt der Scout selbst; neue Awin-Händler nur als offener Punkt im PR.

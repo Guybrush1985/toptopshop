@@ -1,0 +1,50 @@
+{
+  "visuals": {
+    "1": {
+      "kind": "sandbox",
+      "tone": "forest"
+    },
+    "2": {
+      "kind": "sandbox",
+      "tone": "green"
+    },
+    "3": {
+      "kind": "sandbox",
+      "tone": "mint"
+    }
+  },
+  "steps": {
+    "title": "Sandkasten anlegen und sauber halten",
+    "subtitle": "Standort, Sand und Abdeckung",
+    "alt": "Infografik: Sandkasten anlegen und sauber halten – Halbschattig stellen, Vlies drunter, Spielsand einfüllen, Immer abdecken, Sand pflegen",
+    "caption": "Der Deckel hält den Sand sauber – vorausgesetzt, er wird nach dem Spielen geschlossen.",
+    "steps": [
+      {
+        "title": "Halbschattig stellen",
+        "text": "Ein Platz mit Schatten über Mittag schont Kinderhaut und Holz."
+      },
+      {
+        "title": "Vlies drunter",
+        "text": "Unkrautvlies verhindert Durchwuchs und lässt Wasser abfließen."
+      },
+      {
+        "title": "Spielsand einfüllen",
+        "text": "Gewaschenen Spielsand verwenden, nicht Bausand."
+      },
+      {
+        "title": "Immer abdecken",
+        "text": "Nach dem Spielen den Deckel schließen – gegen Katzen, Laub und Regen."
+      },
+      {
+        "title": "Sand pflegen",
+        "text": "Regelmäßig durchharken, Fremdkörper entfernen und Sand bei Bedarf tauschen."
+      }
+    ]
+  },
+  "scoresAlt": "Balkendiagramm: Bewertung der drei besten Sandkästen mit Deckel in den Kriterien Deckel, Material, Größe, Aufbau und Preis",
+  "scoresCaption": "Unsere Bewertung je Kriterium für die drei empfohlenen Modelle.",
+  "neueFormen": [],
+  "offen": [
+    "Kriterien in scoresAlt sind ein Entwurf – an die finalen Bewertungskriterien anpassen; Produktnamen nach Recherche ergänzen."
+  ]
+}

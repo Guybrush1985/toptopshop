@@ -28,6 +28,10 @@ src/templates/                Layout, Kategorie-Seite, Startseite, Grafiken
 src/styles.css                Design-System
 src/static/                   Schriften, Favicon, OG-Bilder, .htaccess
 scripts/og-images.mjs         erzeugt Social-Media-Vorschaubilder (lokal, optional)
+scripts/train.mjs             verschlüsselt das Lerntraining für /train/
+src/static/myshotcoach/       MyShotCoach-Vorschau unter /myshotcoach/, Coach-Bereich unter /myshotcoach/coach/ (siehe docs/BRIEFING.md)
+src/static/vibe/              I'm Feeling It unter /vibe/ (Quellcode: github.com/Guybrush1985/vibe, `npm run toptop` exportiert hierher)
+thirsty/                      Quellcode von Firsty (Next.js); `npm run site` exportiert nach src/static/firsty/ → /firsty/
 ```
 
 ## Lokal
@@ -41,6 +45,18 @@ cd dist && python3 -m http.server 8000
 
 Jeder Push auf `main` startet den Workflow `.github/workflows/toptopshop-build.yaml`:
 `node build.mjs`, veröffentlicht wird der Ordner `dist/`.
+
+## Lerntraining `/train/` (passwortgeschützt)
+
+Privates, nicht verlinktes Lerntraining. Das Repository ist öffentlich, deshalb liegt hier nur die verschlüsselte
+Fassung (`src/static/train/index.html`). Quellen und Passwort sind nicht eingecheckt.
+
+```sh
+TRAIN_PASSWORD=… node scripts/train.mjs unpack   # verschlüsselte Fassung → train-src/ (git-ignoriert)
+# Dateien in train-src/ bearbeiten (content-*.js = Inhalte, app.js = Engine, app.css = Design)
+TRAIN_PASSWORD=… node scripts/train.mjs build    # train-src/ → src/static/train/index.html
+node build.mjs
+```
 
 ## Amazon-Partnerprogramm
 

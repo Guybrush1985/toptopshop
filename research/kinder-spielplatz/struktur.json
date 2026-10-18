@@ -1,0 +1,809 @@
+{
+  "thema": "kinder-spielplatz",
+  "areas": [
+    {
+      "slug": "kinder-spielplatz",
+      "neu": true,
+      "name": "Kinder-Spielplatz",
+      "short": "Spielplatz",
+      "hinweis": "bereits in src/site.mjs angelegt (inkl. intro/meta/article) – Werte dort maßgeblich",
+      "groups": [
+        {
+          "slug": "indoor",
+          "name": "Indoor-Spielplatz"
+        },
+        {
+          "slug": "outdoor",
+          "name": "Outdoor-Spielplatz"
+        }
+      ]
+    },
+    {
+      "slug": "spielzimmer",
+      "neu": true,
+      "name": "Spielzimmer",
+      "short": "Spielzimmer",
+      "hinweis": "bereits in src/site.mjs angelegt – Werte dort maßgeblich; flach, ohne groups",
+      "groups": []
+    }
+  ],
+  "categories": [
+    {
+      "slug": "pikler-dreieck",
+      "group": "indoor",
+      "navLabel": "Pikler-Dreieck",
+      "h1": "Die 3 besten Pikler-Dreiecke 2026",
+      "suchintent": "Eltern von Kindern ca. 6 Monate bis 3 Jahre suchen ein klappbares Kletterdreieck (mit oder ohne Rutsche) fürs Kinderzimmer (Keywords-Hypothese: pikler dreieck, pikler dreieck mit rutsche, pikler dreieck indoor).",
+      "abgrenzung": "Freistehendes Kletter-Grundgerät für Kleinkinder. Rutschbretter als Einzelkauf und Systemrutschen gehören zu indoor-rutsche; wandmontierte Geräte zu kletterwand-kinderzimmer bzw. sprossenwand-kinder.",
+      "rollen": [
+        "Beste Gesamtwahl (Dreieck mit Rutsche)",
+        "Bestes Preis-Leistungs-Verhältnis",
+        "Beste Wahl ab 1 Jahr (ohne Rutsche, platzsparend)"
+      ],
+      "kriterienEntwurf": [
+        "Klappbarkeit und Stellmaß",
+        "Sprossenabstand und -durchmesser",
+        "Herstellerangabe Alter und Maximalbelastung",
+        "Holzart und Oberfläche (EN 71-3)",
+        "Erweiterbarkeit (Rutsche/Kletterbrett, Bogen)"
+      ],
+      "top5Intent": "Nach Bauform und Einsatzort: Set mit Bogen (Kletterbogen/5-in-1), Dreieck ohne Rutsche für kleine Räume, für draußen geeignetes Outdoor-Kletterdreieck (CSV: Giant bean 5-in-1), Montessori-Set mit Würfel.",
+      "faqKandidaten": [
+        "Ab welchem Alter ist ein Pikler-Dreieck sinnvoll?",
+        "Pikler-Dreieck mit oder ohne Rutsche – was ist besser?",
+        "Wie lange nutzen Kinder ein Pikler-Dreieck?",
+        "Braucht man unter dem Pikler-Dreieck eine Matte?",
+        "Kann man ein Pikler-Dreieck draußen nutzen?",
+        "Welche Höhe sollte ein Pikler-Dreieck haben?",
+        "Was ist der Unterschied zwischen Pikler-Dreieck und Kletterbogen?"
+      ],
+      "related": [
+        "indoor-rutsche",
+        "fallschutzmatten",
+        "sprossenwand-kinder"
+      ],
+      "metaTitle": "Pikler-Dreieck: Die 3 besten Kletterdreiecke 2026",
+      "metaDescription": "Pikler-Dreieck mit oder ohne Rutsche: die 3 besten klappbaren Kletterdreiecke für Kleinkinder – mit Tipps zu Alter, Höhe, Sicherheit und passender Matte.",
+      "produktart": "triangle – klappbares Holz-Kletterdreieck mit Sprossen, optional eingehängtes Rutsch-/Kletterbrett"
+    },
+    {
+      "slug": "indoor-rutsche",
+      "group": "indoor",
+      "navLabel": "Indoor-Rutsche",
+      "h1": "Die 3 besten Indoor-Rutschen für Kinder 2026",
+      "suchintent": "Eltern suchen eine Rutsche fürs Kinderzimmer – freistehende Kleinkindrutsche oder Rutschbrett zum Einhängen ans Kletterdreieck (Hypothese: indoor rutsche kleinkind, rutsche kinderzimmer).",
+      "abgrenzung": "Fokus Rutsche als eigenes Produkt (freistehend oder als Zubehör). Komplettsets Dreieck+Rutsche gehören zu pikler-dreieck; Garten-Rutschen am Spielturm zu spielturm-mit-rutsche.",
+      "rollen": [
+        "Beste Gesamtwahl",
+        "Bestes Preis-Leistungs-Verhältnis",
+        "Beste Wahl ab 1 Jahr (kurze freistehende Rutsche)"
+      ],
+      "kriterienEntwurf": [
+        "Rutschlänge und Einstiegshöhe",
+        "Seitenränder/Sicherheitsrand",
+        "Kompatibilität (Einhängeleisten, Sprossendurchmesser)",
+        "Material (Holz vs. Kunststoff) und Standfestigkeit",
+        "Herstellerangabe Alter/Belastung"
+      ],
+      "top5Intent": "Nach Bauform/System: Rutschbrett zum Einhängen (beidseitig Kletter-/Rutschseite), freistehende Kunststoffrutsche, Systemrutsche für Hochbett/Spielturm (BioKinder Noah Rutsche 180 cm – nur mit Noah-Spielturm/-Bett nutzbar, klar kennzeichnen), Rutsche mit Treppe.",
+      "faqKandidaten": [
+        "Ab wann können Kinder alleine rutschen?",
+        "Welche Rutsche passt an ein Pikler-Dreieck?",
+        "Wie lang sollte eine Indoor-Rutsche sein?",
+        "Holz- oder Kunststoffrutsche fürs Kinderzimmer?",
+        "Kann man an ein Hochbett eine Rutsche anbauen?",
+        "Wie viel Platz braucht eine Rutsche im Kinderzimmer?"
+      ],
+      "related": [
+        "pikler-dreieck",
+        "fallschutzmatten",
+        "spielturm-mit-rutsche"
+      ],
+      "metaTitle": "Indoor-Rutsche: Die 3 besten Rutschen fürs Kinderzimmer 2026",
+      "metaDescription": "Rutschbrett fürs Kletterdreieck oder freistehende Kleinkindrutsche: die 3 besten Indoor-Rutschen 2026 – mit Tipps zu Länge, Kompatibilität und Sicherheit.",
+      "produktart": "slide – kurze Kinderrutsche/Rutschbrett mit Seitenrand, schräg gestellt"
+    },
+    {
+      "slug": "kletterwand-kinderzimmer",
+      "group": "indoor",
+      "navLabel": "Kletterwand",
+      "h1": "Die 3 besten Kletterwände fürs Kinderzimmer 2026",
+      "suchintent": "Eltern von Kindern ca. 3–10 Jahre suchen eine Kletterwand oder Klettergriffe zur Wandmontage im Kinderzimmer (Hypothese: kletterwand kinderzimmer).",
+      "abgrenzung": "Boulder-/Griffwand an der Wand. Sprossenwand (Hangeln, Turnen) ist eigene Kategorie; freistehendes Klettern für Kleinkinder = pikler-dreieck. Keine Überschneidung mit Sportanlagen-Bereich (keine Kletterwand-Kategorie vorhanden).",
+      "rollen": [
+        "Beste Gesamtwahl",
+        "Bestes Preis-Leistungs-Verhältnis",
+        "Premium-Wahl"
+      ],
+      "kriterienEntwurf": [
+        "Montageart (Wandplatte vs. Einzelgriffe) und Untergrund",
+        "Griffanzahl, -größe und Befestigung",
+        "Wandfläche/Höhe für Kinder",
+        "Herstellerangabe Alter/Belastung",
+        "Zubehör (Schrauben, Dübel, Anleitung)"
+      ],
+      "top5Intent": "Nach Bauform und Alter: Klettergriff-Set zum Selbstbauen, fertige Holz-Kletterwand-Paneele, Kletterwand kombiniert mit Sprossenwand/Turnwand, Set für Kleinkinder ab 3 mit großen Griffen.",
+      "faqKandidaten": [
+        "Ab welchem Alter ist eine Kletterwand im Kinderzimmer geeignet?",
+        "Wie hoch darf eine Kletterwand im Kinderzimmer sein?",
+        "Welche Wand eignet sich für eine Kletterwand (Trockenbau/Rigips)?",
+        "Wie viele Klettergriffe braucht man?",
+        "Braucht man unter einer Kletterwand eine Matte?",
+        "Kletterwand selber bauen oder fertig kaufen?"
+      ],
+      "related": [
+        "sprossenwand-kinder",
+        "fallschutzmatten",
+        "pikler-dreieck"
+      ],
+      "metaTitle": "Kletterwand fürs Kinderzimmer: Die 3 besten Modelle 2026",
+      "metaDescription": "Klettergriffe oder fertige Kletterwand: die 3 besten Kletterwände fürs Kinderzimmer 2026 – mit Tipps zu Wandmontage, Höhe, Griffen und Fallschutz.",
+      "produktart": "climbwall – Holzpaneel an der Wand mit bunten Klettergriffen"
+    },
+    {
+      "slug": "sprossenwand-kinder",
+      "group": "indoor",
+      "navLabel": "Sprossenwand",
+      "h1": "Die 3 besten Sprossenwände für Kinder 2026",
+      "suchintent": "Eltern suchen eine Sprossenwand/Turnwand fürs Kinderzimmer zum Klettern und Hangeln, oft mit Zubehör (Ringe, Netz, Rutsche) (Hypothese: sprossenwand kinder).",
+      "abgrenzung": "Senkrechte Sprossen zur Wandmontage oder freistehend mit Turnzubehör. Kletterwand (Griffe, Bouldern) und Pikler-Dreieck (Kleinkind, klappbar) sind getrennt.",
+      "rollen": [
+        "Beste Gesamtwahl",
+        "Bestes Preis-Leistungs-Verhältnis",
+        "Premium-Wahl"
+      ],
+      "kriterienEntwurf": [
+        "Wandmontage vs. freistehend",
+        "Sprossenabstand und Höhe",
+        "Zubehör (Turnringe, Strickleiter, Rutsche, Klimmzugstange)",
+        "Maximalbelastung (Herstellerangabe, auch für Erwachsene?)",
+        "Holzqualität"
+      ],
+      "top5Intent": "Nach Bauform/Ausstattung: Kinder-Turnwand komplett mit Zubehör, freistehende Sprossenwand ohne Bohren, Eck-Sprossenwand, Sprossenwand mit Klimmzugstange auch für Erwachsene.",
+      "faqKandidaten": [
+        "Ab welchem Alter eignet sich eine Sprossenwand?",
+        "Kann man eine Sprossenwand ohne Bohren aufstellen?",
+        "Wie befestigt man eine Sprossenwand sicher?",
+        "Welches Zubehör passt an eine Sprossenwand?",
+        "Wie viel Platz braucht eine Sprossenwand im Kinderzimmer?",
+        "Sprossenwand oder Kletterwand – was ist besser für Kinder?"
+      ],
+      "related": [
+        "kletterwand-kinderzimmer",
+        "deckenschaukel",
+        "fallschutzmatten"
+      ],
+      "metaTitle": "Sprossenwand für Kinder: Die 3 besten Turnwände 2026",
+      "metaDescription": "Sprossenwand fürs Kinderzimmer, mit oder ohne Bohren: die 3 besten Turnwände für Kinder 2026 – mit Tipps zu Montage, Zubehör und Belastbarkeit.",
+      "produktart": "ladder – senkrechte Holz-Sprossenwand, optional mit Turnringen"
+    },
+    {
+      "slug": "deckenschaukel",
+      "group": "indoor",
+      "navLabel": "Deckenschaukel",
+      "h1": "Die 3 besten Deckenschaukeln für Kinder 2026",
+      "suchintent": "Eltern suchen eine Schaukel für drinnen, die an der Decke oder im Türrahmen hängt, plus passende Deckenhaken (Hypothesen: indoor schaukel decke kinder, kletterhaken decke kinder).",
+      "abgrenzung": "Feste Schaukelsitze (Brett, Nest, Babyschaukel) für innen inkl. Deckenbefestigung. Textile Tücher = schaukeltuch; Gartenschaukeln mit Gestell = gartenschaukel. Kletterhaken/Deckenmontage hier als Top-5-Zubehör und Beratungsabschnitt, keine eigene Seite.",
+      "rollen": [
+        "Beste Gesamtwahl",
+        "Bestes Preis-Leistungs-Verhältnis",
+        "Beste Wahl ab 1 Jahr (Babyschaukel mit Rückenlehne)"
+      ],
+      "kriterienEntwurf": [
+        "Befestigung (Deckenhaken, Türrahmen) und Statik-Hinweise",
+        "Sitzform (Brett, Nestschaukel, Babysitz)",
+        "Maximalbelastung (Herstellerangabe)",
+        "Seillänge/Höhenverstellung",
+        "Drehwirbel und Karabiner"
+      ],
+      "top5Intent": "Nach Montageart und Zubehör: Türrahmenschaukel ohne Bohren, Nestschaukel für innen, Deckenhaken-Set mit Drehwirbel (Kletterhaken für Seile/Ringe), Deckenhaken für Betondecke vs. Holzbalken.",
+      "faqKandidaten": [
+        "Wie befestigt man eine Schaukel an der Decke?",
+        "Welcher Deckenhaken hält eine Kinderschaukel?",
+        "Hält eine Schaukel an einer Rigips-Decke?",
+        "Gibt es Schaukeln für den Türrahmen?",
+        "Ab welchem Alter darf ein Kind in eine Indoor-Schaukel?",
+        "Wie viel Platz braucht eine Schaukel im Zimmer?",
+        "Brauche ich einen Drehwirbel für die Schaukel?"
+      ],
+      "related": [
+        "schaukeltuch",
+        "gartenschaukel",
+        "sprossenwand-kinder"
+      ],
+      "metaTitle": "Deckenschaukel für Kinder: Die 3 besten Indoor-Schaukeln 2026",
+      "metaDescription": "Schaukel für drinnen an Decke oder Türrahmen: die 3 besten Indoor-Schaukeln für Kinder 2026 – mit Tipps zu Deckenhaken, Statik und Sicherheit.",
+      "produktart": "swing – Schaukelsitz an zwei Seilen, von der Decke hängend (Variante: Nestschaukel)"
+    },
+    {
+      "slug": "schaukeltuch",
+      "group": "indoor",
+      "navLabel": "Schaukeltuch",
+      "h1": "Die 3 besten Schaukeltücher für Kinder 2026",
+      "suchintent": "Eltern suchen ein Deckentuch/Hängesitz aus Stoff zum Schaukeln, Klettern und Verstecken, oft für sensorische Bedürfnisse (Hypothese: deckentuch kinder schaukeln, schaukeltuch kinder).",
+      "abgrenzung": "Textile, nachgiebige Schaukeln (Tuch, Hängehöhle, Therapieschaukel aus Lycra). Feste Sitze = deckenschaukel; Spielhöhle am Boden = spielhoehle.",
+      "rollen": [
+        "Beste Gesamtwahl",
+        "Bestes Preis-Leistungs-Verhältnis",
+        "Beste Wahl für Rückzug (Hängehöhle)"
+      ],
+      "kriterienEntwurf": [
+        "Stoff (Dehnbarkeit, Waschbarkeit, Reißfestigkeit)",
+        "Maximalbelastung (Herstellerangabe)",
+        "Aufhängung inkl. Drehwirbel",
+        "Höhenverstellung",
+        "Einsatz: Schaukeln, Klettern, Verstecken"
+      ],
+      "top5Intent": "Nach Form: elastisches Therapie-/Lycra-Tuch, Hängehöhle (Pod-Schaukel), Luftakrobatik-Tuch für ältere Kinder, Set inkl. Deckenmontage.",
+      "faqKandidaten": [
+        "Was ist ein Schaukeltuch?",
+        "Wie hoch hängt man ein Schaukeltuch auf?",
+        "Für welches Alter eignet sich ein Schaukeltuch?",
+        "Welches Material ist für ein Schaukeltuch am besten?",
+        "Wie hilft ein Schaukeltuch bei sensorischer Unruhe?",
+        "Wie viel Gewicht hält ein Schaukeltuch?"
+      ],
+      "related": [
+        "deckenschaukel",
+        "spielhoehle"
+      ],
+      "metaTitle": "Schaukeltuch für Kinder: Die 3 besten Deckentücher 2026",
+      "metaDescription": "Elastisches Schaukeltuch oder Hängehöhle: die 3 besten Deckentücher zum Schaukeln und Verstecken 2026 – mit Tipps zu Aufhängung, Stoff und Belastbarkeit.",
+      "produktart": "swing (Variante) – von der Decke hängendes Stofftuch/Hängehöhle; falls eigene Form gewünscht, swing mit Tuch-Variante"
+    },
+    {
+      "slug": "spielhoehle",
+      "group": "indoor",
+      "navLabel": "Spielhöhle",
+      "h1": "Die 3 besten Spielhöhlen für Kinder 2026",
+      "suchintent": "Eltern suchen einen Rückzugsort fürs Kinderzimmer: Spielzelt, Tipi oder Höhle (Hypothese: spielhöhle kinder indoor, spielzelt kinderzimmer).",
+      "abgrenzung": "Bodenstehende Höhle/Zelt. Hängende Stoffhöhlen = schaukeltuch. Spielturm mit Häuschen = spielturm-mit-rutsche.",
+      "rollen": [
+        "Beste Gesamtwahl",
+        "Bestes Preis-Leistungs-Verhältnis",
+        "Premium-Wahl"
+      ],
+      "kriterienEntwurf": [
+        "Bauform (Tipi, Zelt, Höhle, Bettzelt) und Maße",
+        "Stoff (waschbar, schadstoffgeprüft, z. B. OEKO-TEX als Herstellerangabe)",
+        "Stabilität des Gestells",
+        "Auf- und Abbau, Verstaubarkeit",
+        "Bodenmatte/Polster"
+      ],
+      "top5Intent": "Nach Form und Zielgruppe: Tipi mit Bodenkissen, Pop-up-Spielzelt, Höhle aus Stoff/Filz für Kleinkinder, Bällebad-Zelt, Spielhaus aus Karton zum Bemalen.",
+      "faqKandidaten": [
+        "Ab welchem Alter ist ein Spielzelt geeignet?",
+        "Tipi oder Spielzelt – was ist besser?",
+        "Kann man ein Tipi waschen?",
+        "Wie viel Platz braucht ein Tipi im Kinderzimmer?",
+        "Welche Bodenmatte passt in ein Spielzelt?",
+        "Ist ein Spielzelt aus Holz sicher?"
+      ],
+      "related": [
+        "schaukeltuch",
+        "spielteppich"
+      ],
+      "metaTitle": "Spielhöhle: Die 3 besten Spielzelte & Tipis für Kinder 2026",
+      "metaDescription": "Tipi, Pop-up-Zelt oder Stoffhöhle: die 3 besten Spielhöhlen fürs Kinderzimmer 2026 – mit Tipps zu Größe, Material, Waschbarkeit und Aufbau.",
+      "produktart": "tent – Tipi/Spielzelt aus Stoff mit Öffnung"
+    },
+    {
+      "slug": "fallschutzmatten",
+      "group": "indoor",
+      "navLabel": "Fallschutzmatten",
+      "h1": "Die 3 besten Fallschutzmatten für Kinder 2026",
+      "suchintent": "Eltern suchen weiche Unterlagen unter Pikler-Dreieck, Kletterwand, Rutsche oder Schaukel drinnen (Hypothese: gummimatte spielplatz unterlage, fallschutzmatte kinderzimmer).",
+      "abgrenzung": "Fokus Indoor-Fallschutz im Kinderzimmer (Weichbodenmatten, Klappmatten, Schaumstoff-Puzzlematten). sportboden-gummi deckt Sport-/Fitnessflächen und Gartenfallschutzplatten ab – dorthin verlinken, Gummi-Fallschutzplatten für den Garten nur als Top-5-Hinweis, nicht als Schwerpunkt. spielteppich = Spielfläche ohne Sturzschutz-Anspruch.",
+      "rollen": [
+        "Beste Gesamtwahl (Klappmatte)",
+        "Bestes Preis-Leistungs-Verhältnis",
+        "Beste Wahl unter Kletterwand/Sprossenwand (dicke Weichbodenmatte)"
+      ],
+      "kriterienEntwurf": [
+        "Dicke und Dämpfung je Fallhöhe",
+        "Material (PU-Schaum, EVA, Gummi) und Schadstoffe",
+        "Rutschfeste Unterseite",
+        "Bezug abwaschbar",
+        "Faltbarkeit/Maße"
+      ],
+      "top5Intent": "Nach Einsatzort und Material: Weichbodenmatte unter Kletterwand, faltbare Krabbel-/Turnmatte, EVA-Puzzlematten, Gummi-Fallschutzplatten für den Garten (Link zu sportboden-gummi), Matte unter Indoor-Schaukel.",
+      "faqKandidaten": [
+        "Wie dick muss eine Fallschutzmatte sein?",
+        "Welche Matte unter das Pikler-Dreieck?",
+        "Welche Matte unter eine Kletterwand?",
+        "Sind Puzzlematten als Fallschutz geeignet?",
+        "Gummimatte oder Schaumstoffmatte für Kinder?",
+        "Welche kritische Fallhöhe gilt für Spielgeräte?"
+      ],
+      "related": [
+        "pikler-dreieck",
+        "kletterwand-kinderzimmer",
+        "sportboden-gummi"
+      ],
+      "metaTitle": "Fallschutzmatten für Kinder: Die 3 besten Matten 2026",
+      "metaDescription": "Weichbodenmatte, Klappmatte oder Puzzlematte: die 3 besten Fallschutzmatten unter Pikler-Dreieck, Kletterwand und Schaukel 2026 – mit Tipps zur Dicke.",
+      "produktart": "mat – dicke, faltbare Weichbodenmatte am Boden"
+    },
+    {
+      "slug": "spielturm-mit-rutsche",
+      "group": "outdoor",
+      "navLabel": "Spielturm",
+      "h1": "Die 3 besten Spieltürme mit Rutsche 2026",
+      "suchintent": "Eltern mit Garten suchen einen Holz-Spielturm mit Rutsche, oft mit Schaukel und Kletterwand (Hypothesen: spielturm mit rutsche, spielturm mit schaukel und kletterwand, spielturm zedernholz).",
+      "abgrenzung": "Kombigerät für den Garten. Einzelne Schaukelgestelle = gartenschaukel; Indoor-Rutschen = indoor-rutsche.",
+      "rollen": [
+        "Beste Gesamtwahl",
+        "Bestes Preis-Leistungs-Verhältnis",
+        "Premium-Wahl (mit Doppelschaukel und Kletterwand)"
+      ],
+      "kriterienEntwurf": [
+        "Holzart und Imprägnierung (KDI, Zeder, Lärche)",
+        "Podesthöhe, Rutschlänge und Herstellerangabe Alter",
+        "Ausstattung (Schaukeln, Kletterwand, Sandkasten)",
+        "Platzbedarf inkl. Sicherheitsabstand",
+        "Bodenanker, Aufbauaufwand, Norm EN 71-8"
+      ],
+      "top5Intent": "Nach Ausstattung/Material/Platz: Spielturm mit Doppelschaukel und Kletterwand, Spielturm aus Zedernholz, kompakter Spielturm für kleine Gärten, Spielturm mit Sandkasten unten, Spielturm ab 2 Jahren mit niedrigem Podest.",
+      "faqKandidaten": [
+        "Wie viel Platz braucht ein Spielturm im Garten?",
+        "Welches Holz ist am besten für einen Spielturm?",
+        "Muss ein Spielturm einbetoniert werden?",
+        "Braucht man für einen Spielturm eine Baugenehmigung?",
+        "Ab welchem Alter ist ein Spielturm geeignet?",
+        "Welcher Untergrund gehört unter einen Spielturm?",
+        "Wie lange hält ein Holz-Spielturm?"
+      ],
+      "related": [
+        "gartenschaukel",
+        "sandkasten-mit-deckel",
+        "sportboden-gummi"
+      ],
+      "metaTitle": "Spielturm mit Rutsche: Die 3 besten Spieltürme 2026",
+      "metaDescription": "Spielturm mit Rutsche, Schaukel und Kletterwand: die 3 besten Holz-Spieltürme für den Garten 2026 – mit Tipps zu Holz, Platzbedarf, Verankerung und Fallschutz.",
+      "produktart": "tower – Holz-Spielturm mit Dach, Podest, Rutsche und angebauter Schaukel"
+    },
+    {
+      "slug": "gartenschaukel",
+      "group": "outdoor",
+      "navLabel": "Gartenschaukel",
+      "h1": "Die 3 besten Gartenschaukeln für Kinder 2026",
+      "suchintent": "Eltern suchen ein freistehendes Schaukelgestell für den Garten (Hypothese: schaukel garten kinder, kinderschaukel garten).",
+      "abgrenzung": "Freistehendes Schaukelgestell (Holz/Metall) mit Sitzen. Kombigeräte = spielturm-mit-rutsche; Innenschaukeln = deckenschaukel.",
+      "rollen": [
+        "Beste Gesamtwahl",
+        "Bestes Preis-Leistungs-Verhältnis",
+        "Beste Wahl ab 1 Jahr (mit Babysitz)"
+      ],
+      "kriterienEntwurf": [
+        "Gestell (Holz vs. Metall) und Standfestigkeit",
+        "Anzahl/Art der Sitze (Baby, Brett, Nest)",
+        "Maximalbelastung und Gestellhöhe",
+        "Bodenanker",
+        "Wetterfestigkeit"
+      ],
+      "top5Intent": "Nach Ausstattung: Doppelschaukel mit Babysitz, Nestschaukel-Gestell, Metallschaukel günstig, Schaukel mit Rutsche (ohne Turm), Schaukelsitz zum Aufhängen am Baum.",
+      "faqKandidaten": [
+        "Wie viel Platz braucht eine Gartenschaukel?",
+        "Muss eine Gartenschaukel verankert werden?",
+        "Holz- oder Metallschaukel – was ist besser?",
+        "Ab welchem Alter darf ein Kind in die Gartenschaukel?",
+        "Welche Höhe sollte ein Schaukelgestell haben?",
+        "Kann man eine Schaukel an einen Baum hängen?"
+      ],
+      "related": [
+        "spielturm-mit-rutsche",
+        "deckenschaukel",
+        "seilbahn-garten"
+      ],
+      "metaTitle": "Gartenschaukel für Kinder: Die 3 besten Schaukeln 2026",
+      "metaDescription": "Doppelschaukel, Nestschaukel oder Babyschaukel: die 3 besten Gartenschaukeln für Kinder 2026 – mit Tipps zu Gestell, Platzbedarf und Verankerung.",
+      "produktart": "swing – A-Gestell im Garten mit Schaukelsitz(en)"
+    },
+    {
+      "slug": "sandkasten-mit-deckel",
+      "group": "outdoor",
+      "navLabel": "Sandkasten",
+      "h1": "Die 3 besten Sandkästen mit Deckel 2026",
+      "suchintent": "Eltern suchen einen Sandkasten mit Abdeckung gegen Katzen, Laub und Regen (Hypothese: sandkasten mit deckel).",
+      "abgrenzung": "Eigenständiger Sandkasten. Sandkästen unter Spieltürmen nur als Hinweis in spielturm-mit-rutsche.",
+      "rollen": [
+        "Beste Gesamtwahl",
+        "Bestes Preis-Leistungs-Verhältnis",
+        "Premium-Wahl"
+      ],
+      "kriterienEntwurf": [
+        "Deckel (Klappbank, Plane, Muschel) und Dichtheit",
+        "Material (Holz vs. Kunststoff)",
+        "Größe/Sandmenge",
+        "Bodenvlies, Wasserablauf",
+        "Sitzflächen"
+      ],
+      "top5Intent": "Nach Form/Material: Sandkasten mit Sitzbank-Deckel, Muschel-Sandkasten aus Kunststoff, großer Holzsandkasten, Sandkasten mit Dach/Sonnenschutz, Sand-Wasser-Spieltisch für kleine Flächen.",
+      "faqKandidaten": [
+        "Welcher Sand ist für den Sandkasten geeignet?",
+        "Wie viel Sand braucht ein Sandkasten?",
+        "Wie schützt man den Sandkasten vor Katzen?",
+        "Braucht ein Sandkasten einen Boden?",
+        "Wie oft sollte man den Sand wechseln?",
+        "Holz- oder Kunststoffsandkasten?"
+      ],
+      "related": [
+        "spielturm-mit-rutsche",
+        "gartenschaukel"
+      ],
+      "metaTitle": "Sandkasten mit Deckel: Die 3 besten Modelle 2026",
+      "metaDescription": "Sandkasten mit Klappdeckel, Muschel oder Holz mit Dach: die 3 besten Sandkästen mit Deckel 2026 – mit Tipps zu Sand, Bodenvlies und Katzenschutz.",
+      "produktart": "sandbox – quadratischer Holz-Sandkasten mit aufklappbarem Bankdeckel"
+    },
+    {
+      "slug": "seilbahn-garten",
+      "group": "outdoor",
+      "navLabel": "Seilbahn",
+      "h1": "Die 3 besten Seilbahnen für den Garten 2026",
+      "suchintent": "Eltern von Kindern ca. 5–12 Jahre suchen eine Kinderseilbahn zwischen Bäumen oder Pfosten (Hypothese: seilbahn garten kinder).",
+      "abgrenzung": "Einziges Fahrgerät im Bereich; keine Überschneidung.",
+      "rollen": [
+        "Beste Gesamtwahl",
+        "Bestes Preis-Leistungs-Verhältnis",
+        "Premium-Wahl"
+      ],
+      "kriterienEntwurf": [
+        "Seillänge und benötigte Baumabstände",
+        "Maximalbelastung (auch für Erwachsene?)",
+        "Laufkatze/Bremse (Federbremse, Endpuffer)",
+        "Sitz (Teller, Sitzbrett)",
+        "Montagematerial (Baumschutz, Spanner)"
+      ],
+      "top5Intent": "Nach Länge und Ausstattung: kurze Seilbahn für kleine Gärten (ca. 20–30 m), lange Seilbahn (50 m+), Seilbahn mit Gestell ohne Bäume, Set für Jugendliche/Erwachsene.",
+      "faqKandidaten": [
+        "Wie lang sollte eine Seilbahn im Garten sein?",
+        "Welche Bäume eignen sich für eine Seilbahn?",
+        "Wie hoch muss eine Kinderseilbahn hängen?",
+        "Braucht eine Seilbahn eine Bremse?",
+        "Ab welchem Alter ist eine Seilbahn geeignet?",
+        "Kann man eine Seilbahn ohne Bäume aufbauen?"
+      ],
+      "related": [
+        "gartenschaukel",
+        "spielturm-mit-rutsche"
+      ],
+      "metaTitle": "Seilbahn für den Garten: Die 3 besten Kinderseilbahnen 2026",
+      "metaDescription": "Kinderseilbahn für 20 bis 50 Meter: die 3 besten Seilbahnen für den Garten 2026 – mit Tipps zu Bäumen, Höhe, Bremse und sicherem Aufbau.",
+      "produktart": "zipline – gespanntes Seil zwischen zwei Bäumen mit Laufkatze und Tellersitz"
+    },
+    {
+      "slug": "huepfburg",
+      "group": "outdoor",
+      "navLabel": "Hüpfburg",
+      "h1": "Die 3 besten Hüpfburgen für den Garten 2026",
+      "suchintent": "Eltern suchen eine aufblasbare Hüpfburg für Garten und Kindergeburtstag (Hypothese: hüpfburg garten, hüpfburg kaufen).",
+      "abgrenzung": "Trockene Hüpfburg. Kombimodelle mit Wasserrutsche = aufblasbare-wasserrutsche (dort Schwerpunkt Wasser).",
+      "rollen": [
+        "Beste Gesamtwahl",
+        "Bestes Preis-Leistungs-Verhältnis",
+        "Premium-Wahl"
+      ],
+      "kriterienEntwurf": [
+        "Größe/Stellfläche und Anzahl Kinder",
+        "Gebläse (Dauergebläse, Lautstärke)",
+        "Material und Nähte",
+        "Verankerung (Heringe)",
+        "Herstellerangabe Alter und Maximalbelastung"
+      ],
+      "top5Intent": "Nach Größe/Einsatz: kleine Hüpfburg für 2–3 Kinder, große Party-Hüpfburg, Hüpfburg mit Rutsche, Hüpfburg für drinnen.",
+      "faqKandidaten": [
+        "Wie viel Platz braucht eine Hüpfburg?",
+        "Wie laut ist das Gebläse einer Hüpfburg?",
+        "Kann eine Hüpfburg im Regen stehen bleiben?",
+        "Wie viele Kinder dürfen gleichzeitig in die Hüpfburg?",
+        "Hüpfburg kaufen oder mieten?",
+        "Wie trocknet und lagert man eine Hüpfburg?"
+      ],
+      "related": [
+        "aufblasbare-wasserrutsche",
+        "seilbahn-garten"
+      ],
+      "metaTitle": "Hüpfburg für den Garten: Die 3 besten Modelle 2026",
+      "metaDescription": "Hüpfburg kaufen statt mieten: die 3 besten Hüpfburgen für Garten und Kindergeburtstag 2026 – mit Tipps zu Größe, Gebläse und Sicherheit.",
+      "produktart": "bouncy – aufblasbare Hüpfburg mit Türmchen"
+    },
+    {
+      "slug": "aufblasbare-wasserrutsche",
+      "group": "outdoor",
+      "navLabel": "Wasserrutsche",
+      "h1": "Die 3 besten aufblasbaren Wasserrutschen 2026",
+      "suchintent": "Eltern suchen im Sommer eine aufblasbare Wasserrutsche oder Wasser-Hüpfburg für den Garten (Hypothese: aufblasbare wasserrutsche garten).",
+      "abgrenzung": "Wasserspielgerät; Hüpfburgen ohne Wasser = huepfburg. Einfache Rutschmatten (Slip and Slide) nur als Top-5-Budgetoption.",
+      "rollen": [
+        "Beste Gesamtwahl",
+        "Bestes Preis-Leistungs-Verhältnis",
+        "Premium-Wahl"
+      ],
+      "kriterienEntwurf": [
+        "Größe, Rutschlänge und Becken",
+        "Wasseranschluss/Sprinkler",
+        "Gebläse und Material",
+        "Auf- und Abbau, Trocknung",
+        "Herstellerangabe Alter/Belastung"
+      ],
+      "top5Intent": "Nach Bauform/Budget: Wasserrutsche mit Planschbecken, Wasser-Hüpfburg-Kombi, einfache Rutschmatte (Slip and Slide), doppelte Rutsche für mehrere Kinder.",
+      "faqKandidaten": [
+        "Wie funktioniert eine aufblasbare Wasserrutsche?",
+        "Wie viel Wasser verbraucht eine Wasserrutsche?",
+        "Kann der Rasen unter der Wasserrutsche leiden?",
+        "Ab welchem Alter ist eine Wasserrutsche geeignet?",
+        "Wie trocknet man eine Wasserrutsche richtig?",
+        "Braucht eine Wasserrutsche ein Dauergebläse?"
+      ],
+      "related": [
+        "huepfburg",
+        "spielturm-mit-rutsche"
+      ],
+      "metaTitle": "Aufblasbare Wasserrutsche: Die 3 besten Modelle 2026",
+      "metaDescription": "Wasserrutsche mit Becken oder Wasser-Hüpfburg: die 3 besten aufblasbaren Wasserrutschen für den Garten 2026 – mit Tipps zu Aufbau, Wasser und Trocknung.",
+      "produktart": "waterslide – aufblasbare Rutsche mit Sprühbogen und Auffangbecken"
+    },
+    {
+      "slug": "kinder-buecherregal",
+      "group": null,
+      "navLabel": "Kinderbücherregal",
+      "h1": "Die 3 besten Bücherregale für Kinder 2026",
+      "suchintent": "Eltern suchen ein niedriges Bücherregal, oft mit Frontfächern (Cover nach vorn, Montessori) (Hypothese: kinder bücherregal).",
+      "abgrenzung": "Regal speziell für Bücher. Spielzeugaufbewahrung mit Türen/Klappen = kinderschrank bzw. sideboard-kinderzimmer.",
+      "rollen": [
+        "Beste Gesamtwahl (Frontfächer)",
+        "Bestes Preis-Leistungs-Verhältnis",
+        "Beste Wahl ab 1 Jahr (niedrig, kippsicher)"
+      ],
+      "kriterienEntwurf": [
+        "Höhe und Fachaufteilung (Front vs. Rücken)",
+        "Kippschutz/Wandbefestigung",
+        "Material und Kanten",
+        "Kapazität",
+        "Montageaufwand"
+      ],
+      "top5Intent": "Nach Bauform: Frontregal/Bücherdisplay für Bilderbücher, Montessori-Regal mit Boxen, Bücherregal mit Sitzbank, Wandregal (Gewürzregal-Prinzip), mitwachsendes Regal für Schulkinder.",
+      "faqKandidaten": [
+        "Wie hoch sollte ein Kinderbücherregal sein?",
+        "Was ist ein Montessori-Bücherregal?",
+        "Wie befestigt man ein Kinderregal kippsicher?",
+        "Frontregal oder klassisches Regal?",
+        "Wie viele Bücher passen in ein Kinderregal?",
+        "Ab welchem Alter brauchen Kinder ein eigenes Bücherregal?"
+      ],
+      "related": [
+        "kinderschrank",
+        "sideboard-kinderzimmer",
+        "spielteppich"
+      ],
+      "metaTitle": "Kinderbücherregal: Die 3 besten Bücherregale für Kinder 2026",
+      "metaDescription": "Frontregal, Montessori-Regal oder Bücherregal mit Bank: die 3 besten Bücherregale fürs Kinderzimmer 2026 – mit Tipps zu Höhe, Kippschutz und Fächern.",
+      "produktart": "shelf – niedriges Holzregal mit schrägen Frontfächern, Buchcover sichtbar"
+    },
+    {
+      "slug": "kinderschrank",
+      "group": null,
+      "navLabel": "Kinderschrank",
+      "h1": "Die 3 besten Kinderschränke 2026",
+      "suchintent": "Eltern suchen einen Kleider- oder Spielzeugschrank fürs Kinderzimmer (Hypothesen: kinderschrank, spielzeugschrank kinder).",
+      "abgrenzung": "Hoher Schrank mit Türen (Kleider/Spielzeug). Niedrige Kommoden/Sideboards = sideboard-kinderzimmer; offene Bücherregale = kinder-buecherregal. Spielzeugschrank mit Klappe als Top-5-Intent.",
+      "rollen": [
+        "Beste Gesamtwahl",
+        "Bestes Preis-Leistungs-Verhältnis",
+        "Premium-Wahl"
+      ],
+      "kriterienEntwurf": [
+        "Innenaufteilung (Stange, Fächer, Schubladen)",
+        "Kippschutz",
+        "Türen (Soft-Close, Fingerschutz)",
+        "Maße/Höhe für Kinder erreichbar",
+        "Material und Emissionen"
+      ],
+      "top5Intent": "Nach Nutzung: Spielzeugschrank mit Klappe/Fächern, Kinderkleiderschrank mit niedriger Stange, Montessori-Kleiderschrank offen, schmaler Schrank für kleine Zimmer.",
+      "faqKandidaten": [
+        "Wie groß sollte ein Kinderkleiderschrank sein?",
+        "Was ist ein Montessori-Kleiderschrank?",
+        "Wie sichert man einen Kinderschrank gegen Umkippen?",
+        "Spielzeugschrank mit Klappe oder offene Fächer?",
+        "Welche Materialien sind für Kindermöbel unbedenklich?",
+        "Wann braucht ein Kind einen eigenen Kleiderschrank?"
+      ],
+      "related": [
+        "sideboard-kinderzimmer",
+        "kinder-buecherregal"
+      ],
+      "metaTitle": "Kinderschrank: Die 3 besten Kleider- & Spielzeugschränke 2026",
+      "metaDescription": "Kleiderschrank oder Spielzeugschrank mit Klappe: die 3 besten Kinderschränke 2026 – mit Tipps zu Aufteilung, Kippschutz und unbedenklichem Material.",
+      "produktart": "wardrobe – zweitüriger Kinderschrank, unten Fächer"
+    },
+    {
+      "slug": "kindertisch-mit-stuehlen",
+      "group": null,
+      "navLabel": "Kindertisch mit Stühlen",
+      "h1": "Die 3 besten Kindertische mit Stühlen 2026",
+      "suchintent": "Eltern von Kindern ca. 1–6 Jahre suchen eine Kindersitzgruppe zum Malen, Basteln und Essen (Hypothesen: kindertisch mit stühlen, kindertisch und stuhl set kleinkind).",
+      "abgrenzung": "Feste Sitzgruppe für Klein- und Vorschulkinder. Mitwachsende Arbeitstische für Schulkinder = kinderschreibtisch-hoehenverstellbar.",
+      "rollen": [
+        "Beste Gesamtwahl",
+        "Bestes Preis-Leistungs-Verhältnis",
+        "Beste Wahl ab 1 Jahr (niedrige Sitzgruppe)"
+      ],
+      "kriterienEntwurf": [
+        "Tisch- und Sitzhöhe passend zur Körpergröße",
+        "Standfestigkeit/Kippsicherheit der Stühle",
+        "Abwischbare Oberfläche",
+        "Stauraum im Tisch",
+        "Material"
+      ],
+      "top5Intent": "Nach Alter/Funktion: Kleinkind-Sitzgruppe ab 1 Jahr, Tisch mit Stauraum/Tafelplatte, Kindersitzgruppe für draußen, Tisch mit Bänken für Geschwister, höhenverstellbarer Kindertisch.",
+      "faqKandidaten": [
+        "Welche Tischhöhe für welches Alter?",
+        "Ab welchem Alter braucht ein Kind einen Kindertisch?",
+        "Holz oder Kunststoff beim Kindertisch?",
+        "Wie hoch sollte ein Kinderstuhl sein?",
+        "Kann man Kindertische höhenverstellen?",
+        "Wie viel Platz braucht eine Kindersitzgruppe?"
+      ],
+      "related": [
+        "kinderschreibtisch-hoehenverstellbar",
+        "spielteppich"
+      ],
+      "metaTitle": "Kindertisch mit Stühlen: Die 3 besten Sitzgruppen 2026",
+      "metaDescription": "Kindertisch mit zwei Stühlen für Malen, Basteln und Essen: die 3 besten Kindersitzgruppen 2026 – mit Tipps zu Tischhöhe, Alter und Material.",
+      "produktart": "kidtable – niedriger Kindertisch mit zwei kleinen Stühlen"
+    },
+    {
+      "slug": "kinderschreibtisch-hoehenverstellbar",
+      "group": null,
+      "navLabel": "Kinderschreibtisch",
+      "h1": "Die 3 besten höhenverstellbaren Kinderschreibtische 2026",
+      "suchintent": "Eltern von Schulkindern (ca. 6–12) suchen einen mitwachsenden Schreibtisch für Hausaufgaben (Hypothese: kinderschreibtisch höhenverstellbar).",
+      "abgrenzung": "Kinder-/Schülerschreibtisch, mechanisch oder per Kurbel, oft mit neigbarer Platte. hoehenverstellbare-schreibtische (Home-Office) behandelt elektrische Sitz-Steh-Tische für Erwachsene – dorthin verlinken, keine Erwachsenen-Tische in den Top 3.",
+      "rollen": [
+        "Beste Gesamtwahl",
+        "Bestes Preis-Leistungs-Verhältnis",
+        "Premium-Wahl"
+      ],
+      "kriterienEntwurf": [
+        "Höhenbereich (passend 1. Klasse bis Jugend)",
+        "Neigbare Tischplatte",
+        "Verstellmechanik (Kurbel, Gasdruck, elektrisch)",
+        "Stauraum, Kabel/Lampe",
+        "Passender Stuhl mitwachsend"
+      ],
+      "top5Intent": "Nach Ausstattung/Budget: Set mit mitwachsendem Stuhl, elektrischer Kinderschreibtisch, kompakter Schreibtisch für kleine Zimmer, Schreibtisch mit Aufsatz/Regal.",
+      "faqKandidaten": [
+        "Ab wann braucht ein Kind einen Schreibtisch?",
+        "Welche Schreibtischhöhe für welche Körpergröße?",
+        "Lohnt sich ein höhenverstellbarer Kinderschreibtisch?",
+        "Warum hat ein Kinderschreibtisch eine neigbare Platte?",
+        "Welcher Stuhl passt zum Kinderschreibtisch?",
+        "Elektrisch oder Kurbel beim Kinderschreibtisch?"
+      ],
+      "related": [
+        "kindertisch-mit-stuehlen",
+        "hoehenverstellbare-schreibtische",
+        "kinder-buecherregal"
+      ],
+      "metaTitle": "Kinderschreibtisch höhenverstellbar: Die 3 besten 2026",
+      "metaDescription": "Mitwachsender Kinderschreibtisch mit neigbarer Platte: die 3 besten höhenverstellbaren Schülerschreibtische 2026 – mit Tipps zu Höhe, Stuhl und Ausstattung.",
+      "produktart": "desk – Kinderschreibtisch mit neigbarer Platte und Kurbel"
+    },
+    {
+      "slug": "spielteppich",
+      "group": null,
+      "navLabel": "Spielteppich",
+      "h1": "Die 3 besten Spielteppiche fürs Kinderzimmer 2026",
+      "suchintent": "Eltern suchen einen Kinderteppich als Spielfläche, z. B. mit Straßenmotiv oder als weiche Krabbelfläche (Hypothesen: spielteppich kinderzimmer, spielteppich kinder straße).",
+      "abgrenzung": "Teppich als Spielfläche/Deko. Sturzschutz unter Klettergeräten = fallschutzmatten. Abgrenzung offen zu Krabbelmatten (gepolstert) – hier nur, wenn als Teppich vermarktet.",
+      "rollen": [
+        "Beste Gesamtwahl",
+        "Bestes Preis-Leistungs-Verhältnis",
+        "Beste Wahl für Krabbler (weich, abwaschbar)"
+      ],
+      "kriterienEntwurf": [
+        "Rutschfestigkeit",
+        "Schadstoffprüfung (Herstellerangabe, z. B. OEKO-TEX)",
+        "Waschbarkeit/Pflege",
+        "Florhöhe und Weichheit",
+        "Größe und Motiv"
+      ],
+      "top5Intent": "Nach Motiv/Funktion: Spielteppich mit Straßenmotiv, waschbarer Teppich, beidseitige Spielmatte für Krabbler, runder Teppich, Teppich mit Hüpfkästchen/Lernmotiv.",
+      "faqKandidaten": [
+        "Welcher Teppich ist fürs Kinderzimmer geeignet?",
+        "Kann man einen Spielteppich waschen?",
+        "Sind Spielteppiche schadstofffrei?",
+        "Welche Größe sollte ein Spielteppich haben?",
+        "Kurzflor oder Hochflor im Kinderzimmer?",
+        "Was tun, wenn der Teppich verrutscht?"
+      ],
+      "related": [
+        "fallschutzmatten",
+        "kindertisch-mit-stuehlen",
+        "spielhoehle"
+      ],
+      "metaTitle": "Spielteppich: Die 3 besten Kinderteppiche 2026",
+      "metaDescription": "Spielteppich mit Straßenmotiv oder waschbarer Krabbelteppich: die 3 besten Teppiche fürs Kinderzimmer 2026 – mit Tipps zu Material und Rutschfestigkeit.",
+      "produktart": "rug – rechteckiger Teppich mit Straßenmotiv"
+    },
+    {
+      "slug": "sideboard-kinderzimmer",
+      "group": null,
+      "navLabel": "Sideboard",
+      "h1": "Die 3 besten Sideboards fürs Kinderzimmer 2026",
+      "suchintent": "Eltern suchen eine niedrige Kommode/Sideboard mit Türen, Fächern oder Boxen für Spielzeug (Hypothese: sideboard kinderzimmer, kommode kinderzimmer).",
+      "abgrenzung": "Niedriges, breites Möbel mit Türen/Boxen; Kinder kommen selbst heran. Hohe Schränke = kinderschrank, offene Bücherfächer = kinder-buecherregal.",
+      "rollen": [
+        "Beste Gesamtwahl",
+        "Bestes Preis-Leistungs-Verhältnis",
+        "Premium-Wahl"
+      ],
+      "kriterienEntwurf": [
+        "Höhe/Breite und Erreichbarkeit",
+        "Aufteilung (Türen, Schubladen, Boxen)",
+        "Kippschutz",
+        "Fingerklemmschutz",
+        "Material und Oberflächen"
+      ],
+      "top5Intent": "Nach Bauform: Regal mit Stoffboxen (Kubus), Sideboard mit Sitzauflage, Wickelkommode, die später Sideboard wird, Sideboard mit Rollen-Boxen.",
+      "faqKandidaten": [
+        "Wie hoch sollte eine Kommode im Kinderzimmer sein?",
+        "Sideboard oder Regal mit Boxen für Spielzeug?",
+        "Wie sichert man eine Kommode gegen Umkippen?",
+        "Kann man eine Wickelkommode später als Sideboard nutzen?",
+        "Welche Aufbewahrung für Spielzeug ist sinnvoll?",
+        "Welche Möbel brauchen einen Kippschutz?"
+      ],
+      "related": [
+        "kinderschrank",
+        "kinder-buecherregal"
+      ],
+      "metaTitle": "Sideboard fürs Kinderzimmer: Die 3 besten Modelle 2026",
+      "metaDescription": "Niedrige Kommode mit Türen, Fächern oder Boxen: die 3 besten Sideboards fürs Kinderzimmer 2026 – mit Tipps zu Kippschutz, Höhe und Aufteilung.",
+      "produktart": "sideboard – niedriges breites Möbel mit Türen und Boxen"
+    }
+  ],
+  "csvZuordnung": {
+    "Kletterdreieck mit Rutsche": "pikler-dreieck (Top 3)",
+    "Kletterdreieck ohne Rutsche": "pikler-dreieck (Top 3, Rolle ab 1 Jahr)",
+    "Outdoor-Kletterdreieck": "pikler-dreieck (Top 5)",
+    "Rutschbrett für Kleinkinder": "indoor-rutsche",
+    "BioKinder Noah Rutsche": "indoor-rutsche (Top 5, einmal; CSV-Duplikat 'bis 7'/'bis 10 Jahre' zusammengeführt)",
+    "Kletterwand": "kletterwand-kinderzimmer",
+    "Sprossenwand": "sprossenwand-kinder",
+    "Deckenschaukel": "deckenschaukel",
+    "Kletterhaken für die Decke": "deckenschaukel (Top 5 + Beratung)",
+    "Deckentuch": "schaukeltuch",
+    "Spielhöhle": "spielhoehle",
+    "Schutzmatte": "fallschutzmatten",
+    "Spielturm mit Rutsche": "spielturm-mit-rutsche (Top 3)",
+    "Spielturm mit Doppelschaukel und Kletterwand": "spielturm-mit-rutsche (Premium/Top 5)",
+    "Spielturm aus Zedernholz": "spielturm-mit-rutsche (Top 5)",
+    "Gartenschaukel": "gartenschaukel",
+    "Sandkasten": "sandkasten-mit-deckel",
+    "Seilbahn": "seilbahn-garten",
+    "Hüpfburg": "huepfburg",
+    "Aufblasbare Wasserrutsche": "aufblasbare-wasserrutsche",
+    "Niedriges Kinderbücherregal": "kinder-buecherregal (Rolle ab 1 Jahr)",
+    "Bücherregal mit Frontfächern": "kinder-buecherregal (Gesamtwahl)",
+    "Kinderschrank mit Stauraum": "kinderschrank",
+    "Spielzeugschrank mit Klappe": "kinderschrank (Top 5)",
+    "Kindersitzgruppe für Kleinkinder": "kindertisch-mit-stuehlen (Rolle ab 1 Jahr)",
+    "Kindertisch mit Stühlen": "kindertisch-mit-stuehlen",
+    "Höhenverstellbarer Kinderschreibtisch": "kinderschreibtisch-hoehenverstellbar",
+    "Spielteppich für Kleinkinder": "spielteppich (Rolle Krabbler)",
+    "Spielteppich mit Straßen-Motiv": "spielteppich (Top 5)",
+    "Sideboard für Spielzeug": "sideboard-kinderzimmer"
+  },
+  "offen": [
+    "Keywords aus der CSV sind ungeprüfte Hypothesen (kein Suchvolumen); FAQ-Kandidaten sind typische Suchfragen, nicht gegen Google 'Ähnliche Fragen' verifiziert – Texter sollte sie stichprobenartig prüfen.",
+    "Altersgruppen im Spielzimmer sind laut CSV nicht belegt – im Text nur Herstellerangaben zu Alter/Maßen verwenden, keine eigenen Altersempfehlungen als Fakt.",
+    "BioKinder Noah Rutsche: nur mit Noah-Spielturm/-Bett nutzbar und offenbar nur bei bio-kinder.de – vermutlich weder Amazon noch Awin-Händler mit Freischaltung; dann Top 5 mit 'where' ohne Link oder weglassen.",
+    "Kannibalisierung fallschutzmatten ↔ sportboden-gummi (metaTitle dort enthält 'Fallschutz'): Schwerpunkt hier Indoor-Weichboden/Klappmatte; Gummi-Fallschutzplatten für den Garten nur Top-5-Hinweis mit Link auf sportboden-gummi. Für Outdoor-Fallschutz unter Spieltürmen auf sportboden-gummi verlinken.",
+    "Kannibalisierung kinderschreibtisch-hoehenverstellbar ↔ hoehenverstellbare-schreibtische: nur Kinder-/Schülertische; gegenseitig verlinken (in hoehenverstellbare-schreibtische ggf. Hinweis ergänzen).",
+    "ballwand-fuer-kinder (Tennis-Ballwand) überschneidet sich nicht; optional Link von gartenschaukel/spielturm nicht nötig.",
+    "Slug-Vorschläge (Slugs bleiben wie vorgegeben): 'spielhoehle' – Hauptsuchbegriff ist vermutlich 'spielzelt'/'tipi kinderzimmer', Vorschlag 'spielzelt-kinderzimmer'; 'schaukeltuch' ok, Alternative 'haengehoehle-kinder' prüfen; 'sideboard-kinderzimmer' – 'kommode-kinderzimmer' hat vermutlich mehr Nachfrage.",
+    "Visual für schaukeltuch: kein eigenes kind (z. B. 'cloth'/'pod'); vorerst swing-Variante oder tent.",
+    "Kletterwand/Sprossenwand/Deckenschaukel: Montage-/Statikhinweise (Rigips, Beton, Holzbalken) als Sicherheits-Callout; keine Tragfähigkeitsangaben ohne Herstellerquelle."
+  ]
+}

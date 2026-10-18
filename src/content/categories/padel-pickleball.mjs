@@ -219,6 +219,7 @@ export default {
   ],
 
   related: [
+    { area: "pickleball", text: "Pickleball-Schläger, Bälle und Netze im Überblick." },
     { slug: "court-fliesen-multisport", text: "Court-Fliesen für die Pickleball-Fläche." },
     { slug: "ballmaschinen", text: "Ballmaschinen – manche eignen sich auch für Padel." },
     { slug: "flutlicht-sportplatz", text: "Flutlicht für Abendspiele." },

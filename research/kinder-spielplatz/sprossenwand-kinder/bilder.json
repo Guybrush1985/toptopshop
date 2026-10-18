@@ -1,0 +1,51 @@
+{
+  "visuals": {
+    "1": {
+      "kind": "ladder",
+      "tone": "forest"
+    },
+    "2": {
+      "kind": "ladder",
+      "tone": "green"
+    },
+    "3": {
+      "kind": "ladder",
+      "tone": "mint"
+    }
+  },
+  "steps": {
+    "title": "Sprossenwand sicher einrichten",
+    "subtitle": "Montage, Zubehör und Fallschutz",
+    "alt": "Infografik: Sprossenwand sicher einrichten – Untergrund klären, Lot und fest montieren, Zubehör sichern, Fallschutz davor, Regelmäßig prüfen",
+    "caption": "Sichere Montage und eine Matte davor machen die Sprossenwand alltagstauglich.",
+    "steps": [
+      {
+        "title": "Untergrund klären",
+        "text": "Wand und Boden prüfen; bei Wandmontage passende Dübel für den Wandaufbau wählen."
+      },
+      {
+        "title": "Lot und fest montieren",
+        "text": "Wand senkrecht ausrichten und alle Befestigungspunkte nach Anleitung nutzen."
+      },
+      {
+        "title": "Zubehör sichern",
+        "text": "Ringe, Netz oder Rutsche nur an den vorgesehenen Punkten einhängen."
+      },
+      {
+        "title": "Fallschutz davor",
+        "text": "Eine weiche Matte vor die Sprossenwand legen."
+      },
+      {
+        "title": "Regelmäßig prüfen",
+        "text": "Sprossen, Schrauben und Seile auf festen Sitz und Verschleiß kontrollieren."
+      }
+    ]
+  },
+  "scoresAlt": "Balkendiagramm: Bewertung der drei besten Sprossenwände für Kinder in den Kriterien Stabilität, Montage, Zubehör, Verarbeitung und Preis",
+  "scoresCaption": "Unsere Bewertung je Kriterium für die drei empfohlenen Modelle.",
+  "neueFormen": [],
+  "offen": [
+    "Kriterien in scoresAlt sind ein Entwurf – an die finalen Bewertungskriterien anpassen; Produktnamen nach Recherche ergänzen.",
+    "Sicherheits-/Montageschritte allgemein gehalten; Tragfähigkeits- und Altersangaben nur aus Herstellerquellen ergänzen."
+  ]
+}

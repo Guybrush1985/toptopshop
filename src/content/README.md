@@ -65,7 +65,7 @@ KATEGORIE
   asin: "B0…",                          // optional: Direktlink; sonst Amazon-Suche über `query`
   query: "…",
   // ODER Awin-Partnershop statt Amazon:
-  shop: "radwelt" | "fahrradlagerverkauf" | "fahrrad24",  // Schlüssel aus site.awin.merchants
+  shop: "radwelt" | "fahrradlagerverkauf" | "fahrrad24" | "brickzonehub",  // Schlüssel aus site.awin.merchants
   url: "https://www.radwelt-shop.de/…",                    // Produktseite beim Händler
   // Nur Top 5: `where: "anbieter.de"` statt Link, wenn es keine Amazon-/Awin-Quelle gibt
 }
@@ -82,6 +82,9 @@ Definiert in `src/templates/visuals.mjs`; neue Formen ergänzt der Illustrator-A
   `mouse`, `lamp`, `webcam`, `screen`, `mic`, `mug`, `turf`, `tiles`, `cage`, `hoop`, `goal`, `fence`, `flood`,
   `pingpong`, `shuffle`, `paddle`, `beanbag`, `chair`, `arcade`, `pinball`, `gametable`, `dart`, `wheel`, `vr`,
   `projector`, `neon`, `panel`, `console`, `fridge`
+- Kinder & Spielzimmer (Set `OBJECTS`): `triangle`, `slide`, `climbwall`, `ladder`, `swing`, `tent`, `mat`, `tower`,
+  `sandbox`, `zipline`, `bouncy`, `waterslide`, `shelf`, `wardrobe`, `kidtable`, `rug`, `sideboard`, `cloth`
+- Sammeln & Garten (Set `OBJECTS`): `vitrine`, `frame`, `minifig`, `ledkit`, `snowblower`, `blower`
 
 ### Textbausteine in `sections[].blocks`
 

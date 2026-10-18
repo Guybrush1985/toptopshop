@@ -1,0 +1,50 @@
+{
+  "visuals": {
+    "1": {
+      "kind": "slide",
+      "tone": "forest"
+    },
+    "2": {
+      "kind": "slide",
+      "tone": "green"
+    },
+    "3": {
+      "kind": "slide",
+      "tone": "mint"
+    }
+  },
+  "steps": {
+    "title": "Indoor-Rutsche richtig aufstellen",
+    "subtitle": "Freistehend oder als Rutschbrett am Kletterdreieck",
+    "alt": "Infografik: Indoor-Rutsche richtig aufstellen – Auslauf freihalten, Fest einhängen oder aufbauen, Rutschfest stellen, Matte ans Ende, Regeln erklären",
+    "caption": "Freier Auslauf und feste Verbindung sind wichtiger als die Rutschlänge.",
+    "steps": [
+      {
+        "title": "Auslauf freihalten",
+        "text": "Am Rutschenende genug freien Platz lassen, keine Möbelkanten in der Nähe."
+      },
+      {
+        "title": "Fest einhängen oder aufbauen",
+        "text": "Rutschbretter nur an dafür vorgesehene Sprossen hängen, Sicherung prüfen."
+      },
+      {
+        "title": "Rutschfest stellen",
+        "text": "Auf ebenem Boden aufstellen, bei glattem Boden eine rutschfeste Unterlage nutzen."
+      },
+      {
+        "title": "Matte ans Ende",
+        "text": "Eine weiche Matte am Auslauf federt das Ankommen ab."
+      },
+      {
+        "title": "Regeln erklären",
+        "text": "Nur nacheinander und mit den Füßen voran rutschen, nicht entgegen hochklettern."
+      }
+    ]
+  },
+  "scoresAlt": "Balkendiagramm: Bewertung der drei besten Indoor-Rutschen in den Kriterien Stabilität, Rutschspaß, Platzbedarf, Verarbeitung und Preis",
+  "scoresCaption": "Unsere Bewertung je Kriterium für die drei empfohlenen Modelle.",
+  "neueFormen": [],
+  "offen": [
+    "Kriterien in scoresAlt sind ein Entwurf – an die finalen Bewertungskriterien anpassen; Produktnamen nach Recherche ergänzen."
+  ]
+}

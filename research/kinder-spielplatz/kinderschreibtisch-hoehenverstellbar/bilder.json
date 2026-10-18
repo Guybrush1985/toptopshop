@@ -1,0 +1,50 @@
+{
+  "visuals": {
+    "1": {
+      "kind": "desk",
+      "tone": "forest"
+    },
+    "2": {
+      "kind": "desk",
+      "tone": "green"
+    },
+    "3": {
+      "kind": "desk",
+      "tone": "mint"
+    }
+  },
+  "steps": {
+    "title": "Kinderschreibtisch richtig einstellen",
+    "subtitle": "Damit er mitwächst",
+    "alt": "Infografik: Kinderschreibtisch richtig einstellen – Stuhl zuerst, Tischhöhe anpassen, Neigung nutzen, Licht von der Seite, Regelmäßig nachstellen",
+    "caption": "Erst den Stuhl, dann den Tisch einstellen – und regelmäßig nachjustieren.",
+    "steps": [
+      {
+        "title": "Stuhl zuerst",
+        "text": "Stuhl so einstellen, dass die Füße flach stehen und die Knie etwa rechtwinklig sind."
+      },
+      {
+        "title": "Tischhöhe anpassen",
+        "text": "Unterarme liegen locker auf, die Schultern bleiben entspannt."
+      },
+      {
+        "title": "Neigung nutzen",
+        "text": "Zum Lesen und Schreiben die Platte leicht neigen, zum Basteln flach stellen."
+      },
+      {
+        "title": "Licht von der Seite",
+        "text": "Lampe bei Rechtshändern links, bei Linkshändern rechts platzieren."
+      },
+      {
+        "title": "Regelmäßig nachstellen",
+        "text": "Höhe zu Schuljahresbeginn und nach Wachstumsschüben anpassen."
+      }
+    ]
+  },
+  "scoresAlt": "Balkendiagramm: Bewertung der drei besten höhenverstellbaren Kinderschreibtische in den Kriterien Verstellbereich, Ergonomie, Stabilität, Arbeitsfläche und Preis",
+  "scoresCaption": "Unsere Bewertung je Kriterium für die drei empfohlenen Modelle.",
+  "neueFormen": [],
+  "offen": [
+    "Kriterien in scoresAlt sind ein Entwurf – an die finalen Bewertungskriterien anpassen; Produktnamen nach Recherche ergänzen."
+  ]
+}

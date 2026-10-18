@@ -74,6 +74,27 @@ Kleine eindeutige Korrekturen (Tippfehler, Link) darfst du selbst machen.
   nicht freigeschaltete Awin-Programme mit Bewerbungstext, Abweichungen vom Briefing, Prüfergebnis.
 - Neue Grundsatzentscheidungen in `docs/BRIEFING.md` → „Entscheidungen & Erfahrungen“ nachtragen.
 
+## Autonomer Modus (tägliche Routine)
+
+Startet die tägliche Routine die Pipeline („Autonomer Lauf: 5 neue Kategorien“), gibt es niemanden, der Fragen
+beantwortet. Dann gilt abweichend vom Ablauf oben:
+
+- **Schritt 1 ohne Freigabe:** `trend-scout` mit dem Standard-Themenfeld; du wählst selbst die **5 Kategorien** mit
+  der höchsten Gesamtpunktzahl. Vorher Slugs aus `src/content/categories/`, `research/trends/` und offenen PRs
+  (Branches `claude/taeglich-*`) ausschließen, damit nichts doppelt entsteht. Lieber 5 Kategorien in einem
+  bestehenden oder einem neuen Bereich als 5 verstreute Einzelseiten.
+- **Keine Rückfragen:** Zuschnittsfragen entscheidest du selbst und notierst sie im PR. Braucht ein Produkt einen
+  nicht freigeschalteten Awin-Händler, nimm ein gleichwertiges Amazon-Produkt oder einen freigeschalteten
+  Awin-Händler; den Händler mit Awin-ID und Bewerbungstext nur im PR als offenen Punkt nennen.
+- **Qualität vor Menge:** Besteht eine Kategorie die Prüfung nach zwei Runden nicht oder findet die Recherche keine
+  drei empfehlenswerten Produkte, lass sie weg und nimm die nächste Idee der Shortlist. Weniger als 5 sind in
+  Ordnung, wenn die Shortlist nicht mehr hergibt – dann im PR begründen.
+- **Abschluss:** eigener Branch `claude/taeglich-<JJJJ-MM-TT>` von aktuellem `main`, Commit inkl. `research/`,
+  Push, **PR gegen `main` (kein Entwurf), nie selbst mergen** – der Nutzer merged. PR-Text: Tabelle der Kategorien
+  (URL · Top 3 · Bezugsquelle), Prüfergebnis, offene Punkte (fehlende ASINs, Awin-Bewerbungen, Entscheidungen).
+- Liegen schon **3 oder mehr** offene `claude/taeglich-*`-PRs ungemergt, keine neuen Kategorien bauen, sondern nur
+  einen kurzen Hinweis als Kommentar im ältesten offenen Tages-PR hinterlassen.
+
 ## Feste Regeln (gelten für alle Agenten, im Prompt bei Bedarf wiederholen)
 
 - Bezugsquellen: **1. Amazon** (eindeutige, aktive ASIN) → **2. Awin-Händler mit Freischaltung** →

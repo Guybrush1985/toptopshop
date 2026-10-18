@@ -1,0 +1,8 @@
+Options -Indexes
+AddDefaultCharset utf-8
+ErrorDocument 404 /firsty/404.html
+<IfModule mod_headers.c>
+  Header set X-Robots-Tag "noindex, nofollow"
+  Header set X-Content-Type-Options "nosniff"
+  Header set Referrer-Policy "strict-origin-when-cross-origin"
+</IfModule>

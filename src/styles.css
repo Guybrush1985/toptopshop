@@ -186,6 +186,7 @@ tbody tr:last-child>*{border-bottom:0}
 .top5 a.go{color:var(--mint);font-weight:600;font-size:.9rem;white-space:nowrap;text-decoration:none;border:1px solid rgba(207,255,220,.3);padding:8px 14px;border-radius:999px}
 .top5 a.go:hover{background:rgba(207,255,220,.1)}
 .top5 .where{font-size:.82rem;color:rgba(255,255,255,.6);white-space:nowrap}
+@media (max-width:600px){.top5 .where{white-space:normal}}
 
 /* FAQ */
 .faq{max-width:var(--text);margin-inline:auto}

@@ -1,0 +1,50 @@
+{
+  "visuals": {
+    "1": {
+      "kind": "wardrobe",
+      "tone": "forest"
+    },
+    "2": {
+      "kind": "wardrobe",
+      "tone": "green"
+    },
+    "3": {
+      "kind": "wardrobe",
+      "tone": "mint"
+    }
+  },
+  "steps": {
+    "title": "Kinderschrank sicher aufstellen",
+    "subtitle": "Aufbau, Kippschutz und Ordnung",
+    "alt": "Infografik: Kinderschrank sicher aufstellen – Zu zweit aufbauen, Kippschutz anbringen, Fingerschutz beachten, Ordnung auf Kinderhöhe, Nachjustieren",
+    "caption": "Ein Wandbefestigungsset gegen Kippen ist das Wichtigste.",
+    "steps": [
+      {
+        "title": "Zu zweit aufbauen",
+        "text": "Nach Anleitung montieren, Türen und Scharniere zum Schluss einstellen."
+      },
+      {
+        "title": "Kippschutz anbringen",
+        "text": "Schrank mit dem mitgelieferten Wandbefestigungsset sichern."
+      },
+      {
+        "title": "Fingerschutz beachten",
+        "text": "Türen und Schubladen auf leichtgängiges, sanftes Schließen prüfen."
+      },
+      {
+        "title": "Ordnung auf Kinderhöhe",
+        "text": "Alltagskleidung unten, Saisonsachen oben einräumen."
+      },
+      {
+        "title": "Nachjustieren",
+        "text": "Scharniere und Schrauben gelegentlich nachziehen."
+      }
+    ]
+  },
+  "scoresAlt": "Balkendiagramm: Bewertung der drei besten Kinderschränke in den Kriterien Stauraum, Kippsicherheit, Verarbeitung, Aufbau und Preis",
+  "scoresCaption": "Unsere Bewertung je Kriterium für die drei empfohlenen Modelle.",
+  "neueFormen": [],
+  "offen": [
+    "Kriterien in scoresAlt sind ein Entwurf – an die finalen Bewertungskriterien anpassen; Produktnamen nach Recherche ergänzen."
+  ]
+}

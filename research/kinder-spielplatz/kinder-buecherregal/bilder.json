@@ -1,0 +1,50 @@
+{
+  "visuals": {
+    "1": {
+      "kind": "shelf",
+      "tone": "forest"
+    },
+    "2": {
+      "kind": "shelf",
+      "tone": "green"
+    },
+    "3": {
+      "kind": "shelf",
+      "tone": "mint"
+    }
+  },
+  "steps": {
+    "title": "Kinderbücherregal einrichten",
+    "subtitle": "Kippsicher und auf Kinderhöhe",
+    "alt": "Infografik: Kinderbücherregal einrichten – Auf Kinderhöhe planen, Kippsicher befestigen, Cover nach vorn, Schweres nach unten, Regelmäßig tauschen",
+    "caption": "Kippschutz montieren und Bücher dorthin stellen, wo Kinder selbst herankommen.",
+    "steps": [
+      {
+        "title": "Auf Kinderhöhe planen",
+        "text": "Bücher so stellen, dass das Kind sie selbst greifen kann."
+      },
+      {
+        "title": "Kippsicher befestigen",
+        "text": "Regal mit dem beiliegenden Kippschutz an der Wand sichern."
+      },
+      {
+        "title": "Cover nach vorn",
+        "text": "Lieblingsbücher mit dem Titelbild nach vorn präsentieren."
+      },
+      {
+        "title": "Schweres nach unten",
+        "text": "Große und schwere Bücher in die unteren Fächer."
+      },
+      {
+        "title": "Regelmäßig tauschen",
+        "text": "Bücher gelegentlich wechseln, damit das Regal spannend bleibt."
+      }
+    ]
+  },
+  "scoresAlt": "Balkendiagramm: Bewertung der drei besten Kinderbücherregale in den Kriterien Erreichbarkeit, Kippsicherheit, Stauraum, Verarbeitung und Preis",
+  "scoresCaption": "Unsere Bewertung je Kriterium für die drei empfohlenen Modelle.",
+  "neueFormen": [],
+  "offen": [
+    "Kriterien in scoresAlt sind ein Entwurf – an die finalen Bewertungskriterien anpassen; Produktnamen nach Recherche ergänzen."
+  ]
+}

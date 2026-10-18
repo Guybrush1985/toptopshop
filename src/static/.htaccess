@@ -1,6 +1,12 @@
 # Wird nur ausgewertet, wenn der Webserver .htaccess unterstützt (Apache).
 ErrorDocument 404 /404.html
 
+# MyShotCoach heißt jetzt tennistrainer.app und läuft dort in einem eigenen Projekt
+RedirectMatch 301 ^/myshotcoach/?(.*)$ https://tennistrainer.app/$1
+
+# Thirsty heißt jetzt Firsty
+RedirectMatch 301 ^/thirsty/?(.*)$ /firsty/$1
+
 # Alte Adressen der ersten Version weiterleiten
 Redirect 301 /impressum.html /impressum/
 Redirect 301 /datenschutz.html /datenschutz/

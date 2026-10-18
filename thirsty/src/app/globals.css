@@ -1,0 +1,83 @@
+@import "@fontsource/anton/latin-400.css";
+@import "@fontsource/instrument-serif/latin-400.css";
+@import "@fontsource/instrument-serif/latin-400-italic.css";
+@import "@fontsource-variable/bricolage-grotesque/index.css";
+@import "leaflet/dist/leaflet.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html { background: #0b0b0d; color-scheme: dark; }
+  body { font-feature-settings: "ss01"; }
+  ::selection { background: #d4ff3a; color: #0b0b0d; }
+  :focus-visible { outline: 2px solid #d4ff3a; outline-offset: 2px; }
+}
+
+@layer components {
+  .input {
+    @apply w-full rounded-xl border border-white/10 bg-white/[0.04] px-3.5 py-2.5 text-cream placeholder:text-cream/30 transition focus:border-lime focus:bg-white/[0.07] focus:outline-none;
+  }
+  select.input { @apply pr-8; }
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-full bg-lime px-5 py-2.5 font-bold text-ink shadow-[0_0_0_0_rgba(212,255,58,0)] transition hover:shadow-[0_0_32px_-4px_rgba(212,255,58,.55)] active:scale-[.98] disabled:opacity-50;
+  }
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2 rounded-full border border-white/15 bg-white/[0.04] px-5 py-2.5 font-semibold text-cream transition hover:border-white/30 hover:bg-white/[0.08];
+  }
+  .btn-danger {
+    @apply inline-flex items-center justify-center gap-2 rounded-full border border-hot/40 px-3.5 py-1.5 text-sm font-semibold text-hot-soft transition hover:bg-hot/10;
+  }
+  .card {
+    @apply rounded-3xl border border-white/[0.08] bg-ink-2/80 p-5 backdrop-blur;
+  }
+  .label {
+    @apply mb-1.5 block text-xs font-semibold uppercase tracking-[.14em] text-cream/50;
+  }
+  .chip {
+    @apply inline-flex items-center rounded-full border border-white/10 bg-white/[0.05] px-2.5 py-0.5 text-xs font-medium text-cream/80;
+  }
+  .display {
+    @apply font-display uppercase leading-[.86] tracking-[-.01em];
+  }
+  .grain::after {
+    content: "";
+    @apply pointer-events-none absolute inset-0 opacity-[.07] mix-blend-overlay;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
+}
+
+/* Karte: OpenStreetMap im dunklen Look */
+.thirsty-map { background: #0f0f12; }
+.thirsty-map .leaflet-tile-pane { filter: invert(1) hue-rotate(180deg) brightness(.82) contrast(.92) saturate(.35); }
+.thirsty-map .leaflet-control-attribution { background: rgba(11, 11, 13, .7); color: #9a9aa4; font-size: 10px; }
+.thirsty-map .leaflet-control-attribution a { color: #bdbdc4; }
+.thirsty-map .leaflet-control-zoom a { background: #17171b; color: #f6efe4; border-color: #2a2a30; }
+.thirsty-pin { background: none; border: 0; }
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-marquee, .animate-rise { animation: none !important; }
+  [data-parallax] { transform: none !important; }
+}
+
+/* Angebots-Pins auf der Karte */
+.thirsty-pin .pin {
+  position: absolute; left: 0; top: 0;
+  transform: translate(-50%, -100%);
+  display: inline-flex; align-items: center; white-space: nowrap;
+  padding: 7px 12px 6px; border-radius: 999px;
+  font-family: Anton, sans-serif; font-size: 17px; letter-spacing: .02em; text-transform: uppercase; line-height: 1;
+  color: #0b0b0d; cursor: pointer;
+  box-shadow: 0 10px 28px -8px rgba(0,0,0,.8), 0 0 0 3px rgba(11,11,13,.9);
+  transition: transform .18s cubic-bezier(.2,.7,.2,1), box-shadow .18s;
+}
+.thirsty-pin .pin::after {
+  content: ""; position: absolute; left: 50%; bottom: -7px; width: 12px; height: 12px;
+  background: inherit; transform: translateX(-50%) rotate(45deg); border-radius: 2px; z-index: -1;
+}
+.thirsty-pin .pin-lime { background: #d4ff3a; }
+.thirsty-pin .pin-hot { background: #ff4d1f; }
+.thirsty-pin .pin-pink { background: #ff3d8b; }
+.thirsty-pin .pin:hover { transform: translate(-50%, -100%) scale(1.12); }
+.thirsty-pin .pin-active { transform: translate(-50%, -100%) scale(1.3); box-shadow: 0 14px 40px -6px rgba(0,0,0,.9), 0 0 0 3px #f6efe4; }

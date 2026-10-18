@@ -201,14 +201,14 @@ export default {
 
   top5: {
     id: "top5-einsteiger",
-    h2: "Die 5 besten Ballmaschinen für Einsteiger, Kinder und Padel",
-    intro: "Nicht jeder braucht 110 km/h und 18 Spin-Stufen. Diese fünf Maschinen sind kleiner, günstiger oder vielseitiger – vom Kindertraining bis zum Padel-Court.",
+    h2: "Die 5 besten Ballmaschinen für Einsteiger, Kinder und lange Trainingstage",
+    intro: "Nicht jeder braucht 110 km/h und 18 Spin-Stufen. Diese fünf Maschinen sind kleiner, günstiger oder ausdauernder – vom Kindertraining bis zum langen Trainingstag. Für den Padel-Court gibt es eine [eigene Übersicht](/padel-ballmaschinen/).",
     items: [
       { name: "PONGBOT PACE S Tennisball-Maschine", for: "Lange Akkulaufzeit", text: "150 Bälle, Doppelmotor für Top- und Backspin, App und Fernbedienung; laut Händler über 8 Stunden Laufzeit mit wechselbarem Akku (Akku separat).", asin: "B0FTWZT7LC", query: "PONGBOT PACE S Tennisball-Maschine" },
       { name: "PUSUN PT-MINIPro Tennisballmaschine", for: "Leicht & für drinnen", text: "Kompakte Maschine mit App-Steuerung und über 65 Bällen Kapazität; laut Händler 3–5 Stunden Akku und auch für Schulen geeignet.", asin: "B0F3X2FKVZ", query: "PUSUN PT-MINIPro Tennisballmaschine" },
       { name: "Teknigoo Tennisballmaschine (max. 30 Bälle)", for: "Kinder, Netz oder Batterie", text: "Kleine Ballmaschine mit Netzteil, Batteriebetrieb oder USB – für Kinder, Einsteiger und das Training zu Hause (Händlerangabe).", asin: "B08YJ1XPHL", query: "Teknigoo Tennisballmaschine 30 Bälle" },
-      { name: "hzexun Tennisballmaschine, Netz & Batterie", for: "Günstigster Einstieg", text: "Kunststoffmaschine mit 30 Bällen Kapazität und einem Ball alle paar Sekunden, betrieben mit Netzteil oder Batterien (Händlerangabe).", asin: "B08FG2LGQV", query: "hzexun Tennisball-Maschine tragbar AC Batterie" },
-      { name: "Spinshot Pro Tennisball-Maschine", for: "Robuster Spinshot-Klassiker", text: "Das einfachere Spinshot-Modell mit Akkubetrieb; Akku je nach Angebot nicht im Lieferumfang – vor dem Kauf prüfen.", asin: "B00U5I1646", query: "SPINSHOT-PRO Tennisball-Maschine" },
+      { name: "Tennisballmaschine (Amazon-Angebot B0F23GZ4D4)", for: "Weitere Empfehlung", text: "Zusätzlich von der Redaktion ausgewählt. Modellbezeichnung, Akku und Lieferumfang konnten wir für diese Seite noch nicht prüfen – bitte vor dem Kauf im Angebot ansehen.", asin: "B0F23GZ4D4", query: "Tennisballmaschine" },
+      { name: "Tennisballmaschine (Amazon-Angebot B0DN1N9W97)", for: "Weitere Empfehlung", text: "Zusätzlich von der Redaktion ausgewählt. Modellbezeichnung, Akku und Lieferumfang konnten wir für diese Seite noch nicht prüfen – bitte vor dem Kauf im Angebot ansehen.", asin: "B0DN1N9W97", query: "Tennisballmaschine" },
     ],
   },
 
@@ -247,6 +247,8 @@ export default {
     { slug: "zubehoer-ballwand", text: "Ballsammler und drucklose Bälle – unverzichtbar für die Ballmaschine." },
     { slug: "mobile-tenniswand-rebounder", text: "Günstiger und ohne Akku: freistehende Rebounder." },
     { slug: "tennistrainer-ball-an-schnur", text: "Training auf kleinstem Raum: Ball an der Schnur." },
+    { slug: "padel-ballmaschinen", text: "Für den Padel-Court: Ballmaschinen mit eigenen Padel-Modi." },
+    { slug: "tennis-trainingshilfen", text: "Technik gezielt verbessern: Topspin-, Sweet-Spot- und Aufschlagtrainer." },
     { area: "tennis-ballwand", text: "Alle Ratgeber rund um das Tennistraining ohne Partner." },
   ],
 };

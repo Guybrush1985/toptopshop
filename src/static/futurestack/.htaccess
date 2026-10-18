@@ -1,0 +1,2 @@
+# Future Stack ist vorübergehend offline.
+RedirectMatch 410 ^/futurestack(/.*)?$

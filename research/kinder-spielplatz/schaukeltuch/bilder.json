@@ -1,0 +1,57 @@
+{
+  "visuals": {
+    "1": {
+      "kind": "cloth",
+      "tone": "forest"
+    },
+    "2": {
+      "kind": "cloth",
+      "tone": "green"
+    },
+    "3": {
+      "kind": "cloth",
+      "tone": "mint"
+    }
+  },
+  "steps": {
+    "title": "Schaukeltuch aufhängen",
+    "subtitle": "Deckenpunkt, Höhe und Pflege",
+    "alt": "Infografik: Schaukeltuch aufhängen – Tragfähigen Deckenpunkt finden, Drehwirbel einsetzen, Höhe einstellen, Platz rundum, Nicht unbeaufsichtigt, Waschen und prüfen",
+    "caption": "Ein tragfähiger Deckenpunkt und ein Drehwirbel sind die Basis.",
+    "steps": [
+      {
+        "title": "Tragfähigen Deckenpunkt finden",
+        "text": "Nur an Beton oder Holzbalken mit passendem Haken befestigen, nicht in Rigips."
+      },
+      {
+        "title": "Drehwirbel einsetzen",
+        "text": "Ein Drehwirbel zwischen Haken und Tuch verhindert, dass sich das Seil verdreht."
+      },
+      {
+        "title": "Höhe einstellen",
+        "text": "Tuch so hoch hängen, dass das Kind sicher hinein- und herauskommt."
+      },
+      {
+        "title": "Platz rundum",
+        "text": "Abstand zu Wänden, Möbeln und Heizkörpern lassen, darunter eine weiche Matte."
+      },
+      {
+        "title": "Nicht unbeaufsichtigt",
+        "text": "Kleine Kinder im Tuch beaufsichtigen, Tuch nicht um den Hals wickeln lassen."
+      },
+      {
+        "title": "Waschen und prüfen",
+        "text": "Nach Herstellerangabe waschen, Nähte und Aufhängung regelmäßig kontrollieren."
+      }
+    ]
+  },
+  "scoresAlt": "Balkendiagramm: Bewertung der drei besten Schaukeltücher in den Kriterien Sicherheit, Stoffqualität, Befestigung, Vielseitigkeit und Preis",
+  "scoresCaption": "Unsere Bewertung je Kriterium für die drei empfohlenen Modelle.",
+  "neueFormen": [
+    "cloth"
+  ],
+  "offen": [
+    "Kriterien in scoresAlt sind ein Entwurf – an die finalen Bewertungskriterien anpassen; Produktnamen nach Recherche ergänzen.",
+    "Sicherheits-/Montageschritte allgemein gehalten; Tragfähigkeits- und Altersangaben nur aus Herstellerquellen ergänzen."
+  ]
+}

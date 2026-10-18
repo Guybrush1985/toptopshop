@@ -1,0 +1,54 @@
+{
+  "visuals": {
+    "1": {
+      "kind": "triangle",
+      "tone": "forest"
+    },
+    "2": {
+      "kind": "triangle",
+      "tone": "green"
+    },
+    "3": {
+      "kind": "triangle",
+      "tone": "mint"
+    }
+  },
+  "steps": {
+    "title": "Pikler-Dreieck sicher aufstellen",
+    "subtitle": "Vom Auspacken bis zum ersten Klettern",
+    "alt": "Infografik: Pikler-Dreieck sicher aufstellen – Platz wählen, Aufklappen und arretieren, Weiche Unterlage, Wackeltest, Kind begleiten, Regelmäßig prüfen",
+    "caption": "Ebener Platz, weiche Unterlage und ein kurzer Wackeltest vor jedem Spielen.",
+    "steps": [
+      {
+        "title": "Platz wählen",
+        "text": "Freie, ebene Fläche ohne Möbel, Heizkörper oder Fensterbänke in Reichweite."
+      },
+      {
+        "title": "Aufklappen und arretieren",
+        "text": "Dreieck vollständig öffnen und die Sicherung nach Herstelleranleitung einrasten lassen."
+      },
+      {
+        "title": "Weiche Unterlage",
+        "text": "Eine Fallschutz- oder Turnmatte unter und rund um das Dreieck legen."
+      },
+      {
+        "title": "Wackeltest",
+        "text": "Vor jedem Spielen rütteln: Steht es fest, sitzen Sprossen und Schrauben?"
+      },
+      {
+        "title": "Kind begleiten",
+        "text": "Klettern lassen, aber in der Nähe bleiben – nicht hochheben oder auf Sprossen setzen."
+      },
+      {
+        "title": "Regelmäßig prüfen",
+        "text": "Holz auf Splitter und Risse kontrollieren, Schrauben nachziehen."
+      }
+    ]
+  },
+  "scoresAlt": "Balkendiagramm: Bewertung der drei besten Pikler-Dreiecke in den Kriterien Stabilität, Verarbeitung, Spielwert, Klappbarkeit und Preis",
+  "scoresCaption": "Unsere Bewertung je Kriterium für die drei empfohlenen Modelle.",
+  "neueFormen": [],
+  "offen": [
+    "Kriterien in scoresAlt sind ein Entwurf – an die finalen Bewertungskriterien anpassen; Produktnamen nach Recherche ergänzen."
+  ]
+}

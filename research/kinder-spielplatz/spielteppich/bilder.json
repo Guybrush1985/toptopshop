@@ -1,0 +1,50 @@
+{
+  "visuals": {
+    "1": {
+      "kind": "rug",
+      "tone": "forest"
+    },
+    "2": {
+      "kind": "rug",
+      "tone": "green"
+    },
+    "3": {
+      "kind": "rug",
+      "tone": "mint"
+    }
+  },
+  "steps": {
+    "title": "Spielteppich auswählen und pflegen",
+    "subtitle": "Größe, Halt und Sauberkeit",
+    "alt": "Infografik: Spielteppich auswählen und pflegen – Größe planen, Rutschfest legen, Kanten flach, Auslüften, Pflegen",
+    "caption": "Rutschfest liegen und flache Kanten – dann ist der Teppich eine gute Spielfläche.",
+    "steps": [
+      {
+        "title": "Größe planen",
+        "text": "Teppich so wählen, dass er die Spielfläche abdeckt, ohne unter Türen zu reichen."
+      },
+      {
+        "title": "Rutschfest legen",
+        "text": "Eine Antirutschunterlage verhindert Ausrutschen auf glatten Böden."
+      },
+      {
+        "title": "Kanten flach",
+        "text": "Aufgerollte Ecken glätten, damit niemand stolpert."
+      },
+      {
+        "title": "Auslüften",
+        "text": "Neue Teppiche vor der Nutzung gut auslüften lassen."
+      },
+      {
+        "title": "Pflegen",
+        "text": "Regelmäßig saugen, Flecken sofort behandeln; Waschbarkeit laut Hersteller beachten."
+      }
+    ]
+  },
+  "scoresAlt": "Balkendiagramm: Bewertung der drei besten Spielteppiche in den Kriterien Spielwert, Material, Rutschfestigkeit, Pflege und Preis",
+  "scoresCaption": "Unsere Bewertung je Kriterium für die drei empfohlenen Modelle.",
+  "neueFormen": [],
+  "offen": [
+    "Kriterien in scoresAlt sind ein Entwurf – an die finalen Bewertungskriterien anpassen; Produktnamen nach Recherche ergänzen."
+  ]
+}

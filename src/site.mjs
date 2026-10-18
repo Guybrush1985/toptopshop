@@ -23,6 +23,7 @@ export const site = {
       radwelt: { name: "RADWELT-Shop", mid: 15088, domain: "radwelt-shop.de" },
       fahrradlagerverkauf: { name: "Fahrradlagerverkauf", mid: 39644, domain: "fahrradlagerverkauf.com" },
       fahrrad24: { name: "fahrrad24", mid: 13691, domain: "fahrrad24.de" },
+      brickzonehub: { name: "BrickZoneHub", mid: 121692, domain: "brickzonehub.co.uk" },
     },
   },
 
@@ -183,7 +184,7 @@ export const areas = [
     name: "Tennis-Ballwand & Solo-Training",
     short: "Tennis solo",
     intro:
-      "Allein trainieren, ohne Partner und ohne gebuchten Platz: mobile Rebounder, feste Prallwände, Ballwände für Kinder, Tennistrainer mit Ball an der Schnur, Ballmaschinen und das passende Zubehör.",
+      "Allein trainieren, ohne Partner und ohne gebuchten Platz: mobile Rebounder, feste Prallwände, Ballwände für Kinder, Tennistrainer mit Ball an der Schnur, Lernhelfer für die Technik, Ballmaschinen für Tennis und Padel und das passende Zubehör.",
     metaTitle: "Tennis allein trainieren: Ballwand, Rebounder & Ballmaschine",
     metaDescription:
       "Die besten Tenniswände, Rebounder, Ballmaschinen und Tennistrainer für das Training ohne Partner – je Kategorie drei Empfehlungen mit Kaufberatung.",
@@ -227,6 +228,81 @@ export const areas = [
   <aside class="callout warn"><p class="ct">Sicherheit</p><p>Tore und Basketballanlagen müssen gegen Umkippen gesichert sein. Nicht verankerte Tore haben schon zu schweren Unfällen geführt. Feste Bauten, Zäune und Flutlicht können außerdem genehmigungspflichtig sein – frag vorab bei deiner Gemeinde nach.</p></aside>`,
   },
   {
+    slug: "pickleball",
+    name: "Pickleball",
+    short: "Pickleball",
+    intro:
+      "Die Trendsportart für Einfahrt, Garten, Tennisplatz und Halle: Pickleball-Schläger für jedes Niveau, Bälle für drinnen und draußen und mobile Netze in Regelgröße.",
+    metaTitle: "Pickleball-Ausrüstung: Schläger, Bälle und Netze im Überblick",
+    metaDescription:
+      "Pickleball-Schläger, Bälle und mobile Netze: je Kategorie die 3 besten Produkte mit Kaufberatung zu Paddel, Ballart, Netzhöhe und Spielfeld.",
+    article: `
+  <h2>Pickleball: schnell gelernt, überall gespielt</h2>
+  <p class="quick">Für den Start brauchst du zwei bis vier Paddel, ein paar Bälle für deinen Spielort und – wenn kein Platz mit Netz in der Nähe ist – ein mobiles Netz mit Linienmarkern. Ein günstiges Set reicht für die ersten Wochen; ein besseres Paddel lohnt sich, wenn du regelmäßig spielst.</p>
+  <p>Pickleball verbindet Elemente aus Tennis, Badminton und Tischtennis. Gespielt wird mit festen Paddeln und einem gelochten Kunststoffball auf einem Feld von 6,10 × 13,41 m – so groß wie ein Doppel-Badmintonfeld. Die Regeln sind schnell erklärt, die Bälle langsamer als beim Tennis, und Doppel lassen sich auch generationenübergreifend spielen. In Deutschland wächst die Szene: Der Deutsche Pickleball Bund nennt auf seiner Website über 150 Vereine.</p>
+  <p>Wir empfehlen ausschließlich Produkte, die bei Amazon erhältlich sind, und kennzeichnen Herstellerangaben als solche. Unabhängige Tests von Stiftung Warentest oder ähnlichen Instituten gibt es für Pickleball-Ausrüstung bislang nicht – umso wichtiger sind nachvollziehbare Kriterien und die Ausrüstungsregeln von USA Pickleball.</p>
+  <aside class="callout"><p class="ct">Tipp</p><p>Viele Vereine bieten Schnupperstunden mit Leihschlägern an. So findest du heraus, welches Paddel dir liegt, bevor du Geld ausgibst.</p></aside>`,
+  },
+  {
+    slug: "kinder-spielplatz",
+    name: "Kinder-Spielplatz",
+    short: "Spielplatz",
+    intro:
+      "Klettern, rutschen, schaukeln – drinnen und im Garten: Pikler-Dreiecke, Indoor-Rutschen, Kletterwände, Sprossenwände, Deckenschaukeln, Spieltürme, Sandkästen, Seilbahnen, Hüpfburgen und die passende Fallschutzmatte.",
+    metaTitle: "Kinder-Spielplatz: Die besten Spielgeräte für drinnen & draußen",
+    metaDescription:
+      "Pikler-Dreieck, Kletterwand, Deckenschaukel, Spielturm, Sandkasten und Seilbahn: die besten Spielgeräte für Kinderzimmer und Garten mit Sicherheitstipps.",
+    article: `
+  <h2>Ein Spielplatz zu Hause – sicher geplant</h2>
+  <p class="quick">Ob Kinderzimmer oder Garten: Wähle Spielgeräte nach Alter und Platz, achte auf die Herstellerangaben zu Alter und Belastung und plane den Fallschutz von Anfang an mit. Für Schaukeln, Rutschen und ähnliche Spielgeräte für zu Hause gilt die Spielzeugnorm EN 71-8 – ob ein Gerät danach geprüft ist, steht in der Anleitung oder auf der Verpackung.</p>
+  <p>Kinder wollen klettern, rutschen und schaukeln – bei jedem Wetter. Drinnen funktionieren Pikler-Dreieck, Sprossenwand, Kletterwand oder eine Schaukel an der Decke, draußen Spielturm, Gartenschaukel, Sandkasten und Seilbahn. Für jedes Gerät zeigen wir drei Empfehlungen und erklären, worauf es bei Alter, Montage und Sicherheit ankommt.</p>
+  <p>Unsere Empfehlungen sind bei Amazon erhältlich; Modelle, die es nur beim Hersteller oder im Fachhandel gibt, nennen wir ohne Link. Wir kennzeichnen Altersangaben und technische Daten als Herstellerangaben. Unabhängige Tests gibt es für diese Geräte nur selten; wo es sie gibt, nennen wir sie.</p>
+  <aside class="callout warn"><p class="ct">Sicherheit</p><p>Kleinkinder beim Klettern, Rutschen und Schaukeln immer beaufsichtigen. Wand- und Deckenbefestigungen müssen zum Untergrund passen – im Zweifel eine Fachkraft fragen. Gartengeräte nach Herstellerangabe im Boden verankern und darunter einen weichen Fallschutz vorsehen.</p></aside>`,
+    groups: [
+      {
+        slug: "indoor",
+        name: "Indoor-Spielplatz",
+        short: "Indoor",
+        navLabel: "Kinder-Spielplatz: Indoor",
+        intro: "Bewegung im Kinderzimmer, auch wenn es draußen regnet: Pikler-Dreieck, Indoor-Rutsche, Kletterwand, Sprossenwand, Deckenschaukel, Schaukeltuch, Spielhöhle und Fallschutzmatten.",
+        metaTitle: "Indoor-Spielplatz fürs Kinderzimmer: Die besten Spielgeräte",
+        metaDescription: "Pikler-Dreieck, Indoor-Rutsche, Kletterwand, Sprossenwand, Deckenschaukel und Spielhöhle: die besten Spielgeräte für drinnen mit Montage- und Sicherheitstipps.",
+        article: `
+  <h2>Klettern und Schaukeln im Kinderzimmer</h2>
+  <p class="quick">Für die Kleinsten ist ein klappbares Pikler-Dreieck der beste Einstieg, ab dem Kindergartenalter kommen Sprossenwand, Kletterwand und Deckenschaukel dazu. Darunter gehört immer eine dämpfende Matte.</p>
+  <p>Indoor-Spielgeräte müssen zwei Dinge können: in eine normale Wohnung passen und sicher befestigt sein. Freistehende Geräte wie Kletterdreiecke lassen sich wegräumen, Wand- und Deckenmontagen brauchen den richtigen Untergrund und passende Dübel. Die Altersangaben der Hersteller sind ein Richtwert – entscheidend ist, was dein Kind motorisch schon kann.</p>`,
+      },
+      {
+        slug: "outdoor",
+        name: "Outdoor-Spielplatz",
+        short: "Outdoor",
+        navLabel: "Kinder-Spielplatz: Outdoor",
+        intro: "Der Spielplatz im eigenen Garten: Spielturm mit Rutsche, Gartenschaukel, Sandkasten mit Deckel, Seilbahn, Hüpfburg und aufblasbare Wasserrutsche.",
+        metaTitle: "Spielplatz im Garten: Die besten Spielgeräte für draußen",
+        metaDescription: "Spielturm, Gartenschaukel, Sandkasten mit Deckel, Seilbahn, Hüpfburg und Wasserrutsche: die besten Spielgeräte für den Garten mit Aufbau- und Sicherheitstipps.",
+        article: `
+  <h2>Der Garten als Spielplatz</h2>
+  <p class="quick">Am meisten Spielwert auf wenig Fläche bringt ein Spielturm mit Rutsche und Schaukel. Für Kleinkinder reicht oft ein Sandkasten mit Deckel und eine Babyschaukel; Seilbahn und Hüpfburg brauchen viel Platz und einen großen Garten.</p>
+  <p>Gartenspielgeräte stehen das ganze Jahr draußen. Achte auf wetterfestes, kesseldruckimprägniertes oder von Natur aus haltbares Holz, auf Bodenanker und auf ausreichend Sicherheitsabstand rundherum. Schaukeln, Rutschen und ähnliche Spielgeräte für den Hausgebrauch fallen unter die Spielzeugnorm EN 71-8; öffentliche Spielplätze folgen strengeren Regeln (EN 1176), an denen du dich bei Fallschutz und Abständen orientieren kannst.</p>`,
+      },
+    ],
+  },
+  {
+    slug: "spielzimmer",
+    name: "Spielzimmer",
+    short: "Spielzimmer",
+    intro:
+      "Ein Kinderzimmer, in dem Spielen und Aufräumen leichtfallen: Bücherregale in Kinderhöhe, Kinderschränke, Kindertische mit Stühlen, mitwachsende Schreibtische, Spielteppiche und Sideboards.",
+    metaTitle: "Spielzimmer einrichten: Die besten Kindermöbel im Überblick",
+    metaDescription:
+      "Kinderbücherregal, Kinderschrank, Kindertisch mit Stühlen, Kinderschreibtisch, Spielteppich und Sideboard: die besten Möbel fürs Spielzimmer mit Kaufberatung.",
+    article: `
+  <h2>Möbel, die mitspielen</h2>
+  <p class="quick">Gute Spielzimmer-Möbel sind niedrig genug, dass Kinder selbst herankommen, standsicher an der Wand befestigt und robust genug für tägliches Ein- und Ausräumen. Tische und Stühle sollten zur Körpergröße passen – oder mitwachsen.</p>
+  <p>Ein Spielzimmer funktioniert, wenn alles einen festen Platz hat: Bücher mit dem Cover nach vorn, Spielsachen in offenen Fächern oder Boxen, Malsachen am Kindertisch. Wir zeigen je Möbelstück drei Empfehlungen und erklären, worauf es bei Maßen, Material und Sicherheit ankommt.</p>
+  <aside class="callout warn"><p class="ct">Kippschutz</p><p>Regale, Schränke und Kommoden im Kinderzimmer immer mit einem Kippschutz und zum Untergrund passenden Dübeln an der Wand befestigen. Kinder klettern gern an Möbeln hoch – nicht gesicherte Möbel können umfallen.</p></aside>`,
+  },
+  {
     slug: "gaming-room",
     name: "Gaming-Room",
     short: "Gaming-Room",
@@ -241,5 +317,37 @@ export const areas = [
   <p>Ob Partykeller, Dachboden oder ausgebaute Garage: Ein Gaming-Room lebt vom Mix. Neben Konsole und PC sorgen Kicker, Airhockey oder Dartautomat dafür, dass auch Gäste mitspielen, die keinen Controller in die Hand nehmen wollen. Retro-Automaten und Flipper bringen Spielhallen-Gefühl, Beamer und Sim-Racing-Cockpit das große Kino.</p>
   <p>Für jede Kategorie zeigen wir drei Empfehlungen und erklären, worauf es ankommt: Maße und Gewicht, Lautstärke, Strombedarf und was im Alltag wirklich Spaß macht.</p>
   <aside class="callout"><p class="ct">Planungstipp</p><p>Miss den Raum, bevor du kaufst: Billardtische, Kicker und Airhockey brauchen rundherum Platz zum Spielen – oft mehr als doppelt so viel wie das Gerät selbst.</p></aside>`,
+  },
+  {
+    slug: "lego-sammler",
+    name: "LEGO® ausstellen",
+    short: "LEGO-Sammler",
+    intro:
+      "Fertig gebaut – und jetzt? Acrylvitrinen für große Sets, Wandvitrinen für Minifiguren, Wandrahmen und Vitrinen für Speed Champions und Technic-Autos sowie LED-Lichtsets: So präsentieren Sammler ihre Modelle staubfrei und gut sichtbar.",
+    metaTitle: "LEGO ausstellen: Vitrinen, Wandrahmen & LED-Licht im Überblick",
+    metaDescription:
+      "Die besten Vitrinen, Minifiguren-Wandvitrinen, Wandrahmen und LED-Lichtsets für LEGO-Sammler – je Kategorie drei Empfehlungen mit Kaufberatung.",
+    article: `
+  <h2>Sets zeigen statt verstauben lassen</h2>
+  <p class="quick">Wer LEGO-Sets ausstellen will, entscheidet zuerst zwischen geschlossener Vitrine (staubdicht, braucht Stellfläche) und Wandrahmen (spart Platz, schützt aber nicht vollständig vor Staub). LED-Lichtsets machen aus einem Modell am Abend einen Blickfang.</p>
+  <p>Große Sets wie der Millennium Falcon oder die Titanic sind über einen Meter lang und sammeln auf offenen Regalen schnell Staub, der sich aus den Fugen kaum wieder entfernen lässt. Eine Vitrine aus klarem Acryl hält ihn fern und schützt vor neugierigen Händen. Minifiguren und kleine Autos wirken dagegen am besten in Reihen an der Wand.</p>
+  <p>Unsere Empfehlungen stammen vom britischen Spezialshop BrickZoneHub, der Vitrinen, Rahmen und Lichtsets passgenau für einzelne Sets anbietet. Die Produkte sind Zubehör von Drittanbietern; LEGO-Sets sind nicht enthalten. Die Preise stehen im Shop in Pfund, die Lieferung nach Deutschland dauert laut Shop länger als innerhalb Großbritanniens.</p>
+  <aside class="callout"><p class="ct">Hinweis</p><p>LEGO® ist eine Marke der LEGO Gruppe, die diese Seite weder sponsert noch autorisiert. Die vorgestellten Vitrinen, Rahmen und Lichtsets sind keine offiziellen LEGO-Produkte.</p></aside>`,
+  },
+  {
+    slug: "garten-grundstueck",
+    name: "Garten & Grundstück",
+    short: "Garten",
+    intro:
+      "Wege, Einfahrt und Rasen sauber halten, im Herbst wie im Winter: Laubbläser und Laubsauger für das Laub, Schneefräsen und Schneeschieber für Einfahrt und Gehweg.",
+    metaTitle: "Garten & Grundstück: Laubbläser, Schneefräse & Co. im Überblick",
+    metaDescription:
+      "Laubbläser, Laubsauger, Schneefräsen und Schneeschieber für Garten, Einfahrt und Gehweg – je Kategorie drei Empfehlungen mit Kaufberatung und Rechtstipps.",
+    article: `
+  <h2>Ein gepflegtes Grundstück, das ganze Jahr</h2>
+  <p class="quick">Im Herbst geht es um Laub auf Wegen, Terrasse und Rasen, im Winter um Schnee und Eis auf Einfahrt und Gehweg. Für beides gibt es Geräte, die die Arbeit deutlich verkürzen – wenn sie zur Fläche passen.</p>
+  <p>Wer ein Haus mit Garten hat, kennt die Pflichten: Gehwege müssen bei Schnee und Glätte geräumt sein, nasses Laub auf Wegen wird schnell zur Rutschfalle. Wir zeigen je Gerätetyp drei Empfehlungen und erklären, worauf es bei Leistung, Akku oder Kabel, Gewicht und Lautstärke ankommt.</p>
+  <p>Unsere Empfehlungen sind bei Amazon erhältlich. Technische Daten kennzeichnen wir als Herstellerangaben; unabhängige Tests nennen wir nur mit Institut und Ausgabe.</p>
+  <aside class="callout"><p class="ct">Gut zu wissen</p><p>Für laute Gartengeräte gelten in Wohngebieten Ruhezeiten nach der Geräte- und Maschinenlärmschutzverordnung (32. BImSchV). Viele Gemeinden haben zusätzliche Regeln – ein Blick in die örtliche Satzung lohnt sich.</p></aside>`,
   },
 ];

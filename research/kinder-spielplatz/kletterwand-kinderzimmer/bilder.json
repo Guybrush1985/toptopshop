@@ -1,0 +1,55 @@
+{
+  "visuals": {
+    "1": {
+      "kind": "climbwall",
+      "tone": "forest"
+    },
+    "2": {
+      "kind": "climbwall",
+      "tone": "green"
+    },
+    "3": {
+      "kind": "climbwall",
+      "tone": "mint"
+    }
+  },
+  "steps": {
+    "title": "Kletterwand im Kinderzimmer montieren",
+    "subtitle": "Von der Wandprüfung bis zur ersten Route",
+    "alt": "Infografik: Kletterwand im Kinderzimmer montieren – Wand prüfen, Passende Dübel wählen, Platten oder Griffe setzen, Fallschutz auslegen, Niedrig starten, Griffe nachziehen",
+    "caption": "Die Befestigung richtet sich nach der Wand – im Zweifel Fachleute fragen.",
+    "steps": [
+      {
+        "title": "Wand prüfen",
+        "text": "Wandaufbau klären (Beton, Mauerwerk, Holzständer, Rigips) – davon hängt die Befestigung ab."
+      },
+      {
+        "title": "Passende Dübel wählen",
+        "text": "Nur Befestigungsmaterial verwenden, das der Hersteller für diesen Untergrund vorsieht."
+      },
+      {
+        "title": "Platten oder Griffe setzen",
+        "text": "Nach Anleitung montieren, Griffe fest anziehen und die Ausrichtung prüfen."
+      },
+      {
+        "title": "Fallschutz auslegen",
+        "text": "Unter der ganzen Wandbreite eine dicke, weiche Matte auslegen."
+      },
+      {
+        "title": "Niedrig starten",
+        "text": "Erst quer in geringer Höhe klettern (Traversieren), höher erst mit Übung."
+      },
+      {
+        "title": "Griffe nachziehen",
+        "text": "Lockere Griffe regelmäßig kontrollieren und festschrauben."
+      }
+    ]
+  },
+  "scoresAlt": "Balkendiagramm: Bewertung der drei besten Kletterwände fürs Kinderzimmer in den Kriterien Montage, Griffvielfalt, Sicherheit, Verarbeitung und Preis",
+  "scoresCaption": "Unsere Bewertung je Kriterium für die drei empfohlenen Modelle.",
+  "neueFormen": [],
+  "offen": [
+    "Kriterien in scoresAlt sind ein Entwurf – an die finalen Bewertungskriterien anpassen; Produktnamen nach Recherche ergänzen.",
+    "Sicherheits-/Montageschritte allgemein gehalten; Tragfähigkeits- und Altersangaben nur aus Herstellerquellen ergänzen."
+  ]
+}

@@ -1,0 +1,535 @@
+{
+  "slug": "kindertisch-mit-stuehlen",
+  "stand": "2026-10-08",
+  "hinweisRecherche": "amazon.de-Produktseiten waren per WebFetch nicht abrufbar (DNS-Fehler); alle Amazon-Angaben stammen aus Suchtreffern (WebSearch, allowed_domains amazon.de) mit /dp/-URL und passendem Titel. Bewertungszahlen und Preise sind Momentaufnahmen vom 2026-10-08.",
+  "criteria": [
+    {
+      "key": "passform",
+      "label": "Tisch- und Sitzhöhe",
+      "weight": 0.3,
+      "description": "Tisch- und Sitzhöhe passend zur Altersgruppe (Richtwert laut Ratgebern: Sitz ca. 26–30 cm, Tisch ca. 45–54 cm), Altersangabe des Herstellers"
+    },
+    {
+      "key": "stabilitaet",
+      "label": "Standfestigkeit & Belastbarkeit",
+      "weight": 0.3,
+      "description": "Kippsicherheit, Material der Gestelle, Belastbarkeitsangabe des Herstellers, Erfahrungsberichte zu Wackeln/Lockern"
+    },
+    {
+      "key": "oberflaeche",
+      "label": "Material & Oberfläche",
+      "weight": 0.25,
+      "description": "Massivholz vs. Holzwerkstoff, abwischbare Oberfläche, Herstellerangaben zu EN 71-3 (speichelfest) bzw. Schadstoffprüfung, Kratzempfindlichkeit"
+    },
+    {
+      "key": "alltag",
+      "label": "Alltag & Ausstattung",
+      "weight": 0.15,
+      "description": "Montageaufwand, Lieferzustand, Stauraum/Extras, Tenor der Kundenberichte zu Haltbarkeit und Aufbau (keine Bewertungsanzahl)"
+    }
+  ],
+  "priceTiers": [
+    {
+      "tier": 1,
+      "label": "bis ca. 80 €"
+    },
+    {
+      "tier": 2,
+      "label": "ca. 80–130 €"
+    },
+    {
+      "tier": 3,
+      "label": "über 130 €"
+    }
+  ],
+  "products": [
+    {
+      "rank": 1,
+      "label": "Beste Gesamtwahl",
+      "name": "Betten-ABC Bubema Kindertisch und 2 Stühle, extra stabil aus massiver Kernbuche, weiß lackiert",
+      "brand": "Betten-ABC (Bubema)",
+      "variant": "Kernbuche massiv, weiß lackiert (auch natur geölt erhältlich)",
+      "priceTier": 3,
+      "ratings": {
+        "passform": 7.5,
+        "stabilitaet": 9.5,
+        "oberflaeche": 9.0,
+        "alltag": 8.0
+      },
+      "gesamt": 8.55,
+      "bestFor": "Eltern, die eine langlebige Massivholz-Sitzgruppe für Kindergartenkinder wollen und dafür mehr ausgeben",
+      "fakten": [
+        {
+          "text": "Tisch und Stühle aus massiver Kernbuche, wahlweise weiß lackiert oder natur geölt",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/Betten-ABC-Kindertisch-massiver-Kernbuche-lackiert/dp/B08P54SXC8",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Lieferumfang: Tischplatte mit vier Füßen zum Eindrehen und zwei bereits fertig montierte Stühle",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/Betten-ABC-Kindertisch-massiver-Kernbuche-lackiert/dp/B08P54SXC8",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Maße: Tisch ca. 48 × 50 × 60 cm (H × T × B), Stuhl ca. 50 × 31 × 30 cm (H × T × B); Sitzhöhe nicht separat angegeben",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/Betten-ABC-Kindertisch-massiver-Kernbuche-lackiert/dp/B08P54SXC8",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Kundenbewertung ca. 4,8/5 bei rund 140 Bewertungen; Lob für Stabilität und Material, Kritik vereinzelt an Verarbeitung (nicht sauber verschraubte Querstreben) und hohem Gewicht der Stühle",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/Betten-ABC-Kindertisch-massiver-Kernbuche-lackiert/dp/B08P54SXC8",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Weißer Lack laut Listing nach EN 71-3 als unbedenklich zertifiziert; natur geölte Variante mit Leinöl und Naturwachsen; Listing aktiv (Verkauf und Versand durch Betten-ABC, wenige Stück auf Lager)",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/Betten-ABC-Kindertisch-massiver-Kernbuche-lackiert/dp/B08P54SXC8",
+          "datum": "2026-10-08"
+        }
+      ],
+      "pros": [
+        "Massive Kernbuche",
+        "Stühle kommen fertig montiert",
+        "Sehr gute Kundenbewertungen",
+        "Tischhöhe 48 cm im Ratgeber-Richtwertbereich"
+      ],
+      "cons": [
+        "Deutlich teurer als die Alternativen",
+        "Keine Altersangabe und keine Sitzhöhe im Listing",
+        "Keine Angabe zu EN 71-3 für den Lack gefunden",
+        "Kein Stauraum"
+      ],
+      "specs": {
+        "Material": "Kernbuche massiv, weiß lackiert (Herstellerangabe)",
+        "Tisch": "ca. 48 × 50 × 60 cm (H × T × B)",
+        "Stuhl": "ca. 50 × 31 × 30 cm (H × T × B)",
+        "Lieferzustand": "Stühle montiert, Tischfüße eindrehen",
+        "Altersangabe": "keine im Listing"
+      },
+      "asin": "B08P54SXC8",
+      "query": "Betten-ABC Bubema Kindertisch und 2 Stühle Kernbuche weiß lackiert",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "Betten-ABC Bubema Kindertisch und 2 Stühle, extra stabil aus massiver Kernbuche Weiß lackiert : Amazon.de: Küche, Haushalt & Wohnen – Korrektur Runde 1: per WebSearch erneut gefunden, Titel passt, auf Lager"
+    },
+    {
+      "rank": 2,
+      "label": "Bestes Preis-Leistungs-Verhältnis",
+      "name": "Bomi Kindersitzgruppe Holz Amy",
+      "brand": "Bomi",
+      "variant": "Tisch + 2 Stühle, FSC-Kiefer massiv; Farbe auf der Produktseite wählbar (englischer Titel der ASIN nennt anthrazit/weiß)",
+      "priceTier": 1,
+      "ratings": {
+        "passform": 7.5,
+        "stabilitaet": 8.5,
+        "oberflaeche": 7.0,
+        "alltag": 7.5
+      },
+      "gesamt": 7.675,
+      "bestFor": "Familien mit Kindern ab etwa 3 Jahren, die eine solide Massivholz-Sitzgruppe zum Malen und Essen für unter 100 € suchen",
+      "fakten": [
+        {
+          "text": "Massives Kiefernholz aus FSC-zertifizierter Forstwirtschaft, abgerundete Ecken und Kanten",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/Bomi-Kindersitzgruppe-Kindertisch-Kinderzimmer-Basteltisch/dp/B078S7MD79",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Farbe laut Anbieter lebensmittelecht und speichelfest nach DIN EN 71-3",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/Bomi-Kindersitzgruppe-Kindertisch-Kinderzimmer-Basteltisch/dp/B078S7MD79",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Jeder Stuhl bis 180 kg belastbar; Tisch 55 × 55 × 45 cm, Stuhl 27,5 × 27,5 × 50,5 cm (Angaben je nach Listing leicht abweichend, z. B. 56 × 52 × 48 cm)",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/Bomi-Kindersitzgruppe-Kindertisch-Kinderzimmer-Basteltisch/dp/B078S7MD79",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Altersangaben widersprüchlich: Titel nennt „ab 1 Jahr“, Beschreibung 36 Monate bis 6 Jahre",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/Bomi-Kindersitzgruppe-Kindertisch-Kinderzimmer-Basteltisch/dp/B078S7MD79",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Kundenbewertung ca. 4,6/5 bei rund 2.800 Bewertungen; Lob für Optik, Aufbau und Stabilität, Kritik an weichem, kratzempfindlichem Holz und sich lockernden Schrauben",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/Bomi-Kindersitzgruppe-Kindertisch-Kinderzimmer-Basteltisch/dp/B078S7MD79",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Belastbarkeit 180 kg je Stuhl in den 2-Stuhl-, 4-Stuhl- und Grau/Weiß-Listings; das Listing Grün/Natur (B08THTFJ3N) nennt im Feld ‚High load capacity‘ 40 kg, in der Vergleichstabelle derselben Seite aber 180 kg",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/Kindertisch-St%C3%BChlen-abgerundete-sitzgruppe-Kleinkinder/dp/B08THTFJ3N",
+          "datum": "2026-10-08"
+        }
+      ],
+      "pros": [
+        "Massivholz zum günstigen Preis",
+        "Hohe Belastbarkeit laut Hersteller",
+        "Speichelfester Lack laut Hersteller (EN 71-3)",
+        "Sehr viele positive Bewertungen"
+      ],
+      "cons": [
+        "Kiefer ist weich und kratzt schnell",
+        "Schrauben müssen gelegentlich nachgezogen werden",
+        "Altersangabe widersprüchlich (für Einjährige laut Rezensionen noch zu hoch)"
+      ],
+      "specs": {
+        "Material": "Kiefer massiv, FSC (Herstellerangabe)",
+        "Tisch": "ca. 55 × 55 × 45 cm",
+        "Stuhl": "ca. 27,5 × 27,5 × 50,5 cm",
+        "Belastbarkeit": "180 kg je Stuhl (Herstellerangabe)",
+        "Alter": "36 Monate bis 6 Jahre (Herstellerangabe Beschreibung)"
+      },
+      "asin": "B078S7MD79",
+      "query": "Bomi Kindersitzgruppe Holz Amy",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "Bomi Kindersitzgruppe Holz Amy (amazon.de/dp/B078S7MD79, laut Suchtreffer auf Lager, 79,99 €)"
+    },
+    {
+      "rank": 3,
+      "label": "Beste Wahl ab 1 Jahr (niedrige Sitzgruppe)",
+      "name": "roba Kindersitzgruppe „Woody“ – 2 Kinderstühle und 1 Tisch, Holzdekor/Taupe",
+      "brand": "roba",
+      "variant": "Holzdekor/Taupe (weitere Farbvarianten erhältlich)",
+      "priceTier": 1,
+      "ratings": {
+        "passform": 8.5,
+        "stabilitaet": 7.0,
+        "oberflaeche": 8.0,
+        "alltag": 6.5
+      },
+      "gesamt": 7.625,
+      "bestFor": "Kleinkinder ab etwa 18 Monaten, die eine besonders niedrige Sitzhöhe brauchen",
+      "fakten": [
+        {
+          "text": "Laut Hersteller auf Kinder ab 18 Monaten zugeschnitten; Sitzhöhe 25,5 cm, Stuhl H 52 × B 27 × T 27 cm, Tisch H 48,5 × B 56 × T 56 cm",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/roba-Kindersitzgruppe-Woody/dp/B0CBRZYY91",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Tischplatte und Sitzflächen melaminharzbeschichtet, leicht abwischbar",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.baur.de/p/AKLBB1779415177",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Hergestellt nach EN 71-1:2014, Materialien laut Hersteller auf Schadstoffe geprüft; Belastbarkeit 50 kg pro Sitzplatz",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/roba-Kindersitzgruppe-Woody/dp/B0CBRZYY91",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Kundenbewertung ca. 3,9/5 bei 48 Bewertungen; laut Suchtreffer auf Lager",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/roba-Kindersitzgruppe-Woody/dp/B0CBRZYY91",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "B0CBRZYY91 trägt im Titel ‚Holzdekor und Taupe‘; B0C3H2162B (Modell 450040HTP) ist das Sammel-Listing derselben Sitzgruppe mit Farbangabe grau. B0CBRZYY91 bleibt, weil es die Farbe direkt benennt. Hinweis im Listing: nur unter direkter Aufsicht eines Erwachsenen",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/roba-Kindersitzgruppe-Woody/dp/B0CBRZYY91",
+          "datum": "2026-10-08"
+        }
+      ],
+      "pros": [
+        "Niedrigste Sitzhöhe im Vergleich (25,5 cm)",
+        "Ab 18 Monaten laut Hersteller",
+        "Abwischbare Melaminharz-Oberfläche",
+        "Norm EN 71-1 genannt"
+      ],
+      "cons": [
+        "Holzwerkstoff mit Dekor statt Massivholz",
+        "Erst ab 18 Monaten, nicht ab 12",
+        "Nur 50 kg je Sitzplatz",
+        "Wenige Bewertungen, Haltbarkeit teils kritisiert"
+      ],
+      "specs": {
+        "Sitzhöhe": "25,5 cm (Herstellerangabe)",
+        "Tisch": "H 48,5 × B 56 × T 56 cm",
+        "Alter": "ab 18 Monaten (Herstellerangabe)",
+        "Belastbarkeit": "50 kg pro Sitzplatz",
+        "Norm": "EN 71-1:2014 (Herstellerangabe)"
+      },
+      "asin": "B0CBRZYY91",
+      "query": "roba Kindersitzgruppe Woody Holzdekor Taupe",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "roba 'Woody' Children's Furniture Set - 2 Children's Chairs and 1 Table - Furniture for Children in Wood Decoration and Taupe : Amazon.de: Home & Kitchen"
+    }
+  ],
+  "top5": [
+    {
+      "name": "roba Kinder-Outdoor-Sitzgruppe „Picknick for 4“ (Outdoor Deluxe, grau)",
+      "warum": "Kleinkind-Sitzgruppe ab 12 Monaten: laut Hersteller ab 12 Monaten, Sitzhöhe 27 cm, Massivholz, drinnen und draußen nutzbar, Platz für vier Kinder",
+      "fakten": [
+        {
+          "text": "Ab 12 Monaten, Sitzhöhe 27 cm, Bänke und Tischplatte je bis 50 kg, Maße ca. 50 × 89 × 84,5 cm, wetterfestes Massivholz",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/-/en/roba/dp/B0H5JNKLLM",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Kundenbewertung ca. 3,8/5 bei rund 300 Bewertungen; Verfügbarkeit laut Suchtreffer „begrenzt“",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/-/en/roba/dp/B0H5JNKLLM",
+          "datum": "2026-10-08"
+        }
+      ],
+      "asin": "B0H5JNKLLM",
+      "query": "roba Kinder Outdoor Sitzgruppe Picknick for 4 grau",
+      "where": null
+    },
+    {
+      "name": "KidKraft Runder Kindertisch mit Stauraum und 2 Stühlen (27027, natur/weiß)",
+      "warum": "Tisch mit Stauraum: Klappe in der Tischmitte mit Netzfach für Stifte und Bastelsachen; ab 3 Jahren",
+      "fakten": [
+        {
+          "text": "Runder Tisch mit zentralem Stauraumnetz, 2 Holzstühle, ca. 59,7 × 59,7 × 43,8 cm, Holzwerkstoff/MDF",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/KidKraft/dp/B0C9ZX5C2J",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Kundenbewertung ca. 4,2/5 bei rund 6.550 Bewertungen; Kritik an Kratzern und abplatzendem Lack; laut Suchtreffer auf Lager",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/KidKraft/dp/B0C9ZX5C2J",
+          "datum": "2026-10-08"
+        }
+      ],
+      "asin": "B0C9ZX5C2J",
+      "query": "KidKraft Runder Kindertisch mit Stauraum und 2 Stühlen 27027",
+      "where": null
+    },
+    {
+      "name": "Little Tikes Junior Picknicktisch mit 4 Sitzplätzen (Evergreen)",
+      "warum": "Kindersitzgruppe für draußen: Kunststoff, wetterfest, leicht, ab 18 Monaten",
+      "fakten": [
+        {
+          "text": "Für Kinder von 18 Monaten bis 5 Jahren, 4 Sitzplätze, ca. 74 × 80 × 46 cm, Kunststoff",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/Little-Tikes-479A00060-Kindertisch-Funny/dp/B000XS40L4",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Kundenbewertung ca. 4,6/5 bei rund 440 Bewertungen",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/Little-Tikes-479A00060-Kindertisch-Funny/dp/B000XS40L4",
+          "datum": "2026-10-08"
+        }
+      ],
+      "asin": "B000XS40L4",
+      "query": "Little Tikes Junior Picknicktisch 4 Sitzplätze Evergreen",
+      "where": null
+    },
+    {
+      "name": "PINOLINO Kindersitzgarnitur Nicki für 4 (Massivholz, natur)",
+      "warum": "Tisch mit Bänken für Geschwister: zwei fest verbundene Bänke, Platz für vier Kinder, drinnen und im Garten",
+      "fakten": [
+        {
+          "text": "Tisch mit zwei Bänken aus massivem Fichtenholz, 90 × 79 × 50 cm, Platz für 4 Kinder",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/PINOLINO-Kindersitzgarnitur-massivem-empfohlen-Kinder/dp/B0009JK8MM",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Sitzhöhe 28 cm, empfohlen ab 2 Jahren (Angabe der baugleichen grauen Variante B079ZY9FP8)",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/Pinolino-201614-Kindersitzgarnitur-Nicki-grau/dp/B079ZY9FP8",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Kundenbewertung ca. 4,3/5 bei rund 2.970 Bewertungen; Kritik an splitterndem Holz und fehlendem Wetterschutz (Lasur empfohlen)",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/PINOLINO-Kindersitzgarnitur-massivem-empfohlen-Kinder/dp/B0009JK8MM",
+          "datum": "2026-10-08"
+        }
+      ],
+      "asin": "B0009JK8MM",
+      "query": "Pinolino Kindersitzgarnitur Nicki für 4",
+      "where": null
+    },
+    {
+      "name": "FUNLIO Kindertisch mit 2 Stühlen, höhenverstellbar (3-teilig, FL-010)",
+      "warum": "Höhenverstellbarer Kindertisch: Tisch und Stühle in mehreren Stufen verstellbar, abwischbare Kunststoffplatte, für 3–8 Jahre",
+      "fakten": [
+        {
+          "text": "Tisch und Stühle höhenverstellbar, für Kinder von 3 bis 8 Jahren, leicht abwischbar, „CPC-geprüft“ (US-Kinderprodukt-Zertifikat); nicht für Kinder unter 3 Jahren",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/FUNLIO-Kindersitzgruppe-H%C3%B6henverstellbar-Abwischbarer-Klassenzimmer/dp/B0BWJCZ89Y",
+          "datum": "2026-10-08"
+        },
+        {
+          "text": "Kundenbewertung ca. 4,8/5 bei rund 1.650 Bewertungen",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/FUNLIO-Kindersitzgruppe-H%C3%B6henverstellbar-Abwischbarer-Klassenzimmer/dp/B0BWJCZ89Y",
+          "datum": "2026-10-08"
+        }
+      ],
+      "asin": "B0BWJCZ89Y",
+      "query": "FUNLIO Kindertisch mit 2 Stühlen höhenverstellbar 3-teilig",
+      "where": null
+    }
+  ],
+  "tests": [
+    {
+      "institut": "Stiftung Warentest / Öko-Test",
+      "heft": "–",
+      "ergebnis": "Kein Test von Kindersitzgruppen bzw. Kindertischen mit Stühlen gefunden (Stand 2026-10-08).",
+      "quelle": "WebSearch 2026-10-08 (Treffer nur zu Autokindersitzen)"
+    },
+    {
+      "institut": "kita.de (Ratgeber, redaktionell, keine Laborprüfung)",
+      "heft": "Ratgeber „Kinder-Tischgruppe“, 2026",
+      "ergebnis": "Richtwerte: Sitzhöhe ideal 26–30 cm, Tischhöhe 48–54 cm",
+      "quelle": "https://www.kita.de/ratgeber/haushalt/kinderzimmer/kindermoebel/kinder-tischgruppe/"
+    },
+    {
+      "institut": "testsieger.de (Vergleichsportal, keine eigene Prüfung)",
+      "heft": "Kindersitzgruppen-Übersicht",
+      "ergebnis": "Richtwert für Kleinkinder ab ca. 18 Monaten: Sitzhöhe 26–30 cm, Tisch ca. 45–50 cm; Lacke speichelfest, GS-Zeichen als Orientierung (laut Suchzusammenfassung)",
+      "quelle": "https://www.testsieger.de/kindersitzgruppen/"
+    }
+  ],
+  "warnungen": [
+    "Rückruf Zara Home (veröffentlicht u. a. von der irischen CCPC am 21.01.2026, berichtet von test.de): runder, klappbarer Kinderholztisch (kann ungewollt zusammenklappen, Quetschgefahr) und Kinderschreibtischstuhl auf Rollen (Kippgefahr). Nicht empfehlen. Quellen: https://www.test.de/Sicherheitsrisiko-Zara-ruft-Kinderprodukte-zurueck-6279442-0/ , https://www.ccpc.ie/consumer-advice/product-safety/product-safety-notifications/details/itx-retail-ireland-limited-t-a-zara-home-recalls-zara-home-children-s-wooden-foldable-table",
+    "Für Bubema, Bomi, roba, KidKraft (Tische), Little Tikes, Pinolino und FUNLIO wurden keine Rückrufe zu Kindertischen/-stühlen gefunden (Websuche 2026-10-08; Safety Gate nicht direkt abfragbar). KidKraft hatte in den USA einen Rückruf einer Spielküche (Modell 53411) – betrifft keine Tische.",
+    "Einschlägige Norm für Kindersitzmöbel ist DIN EN 17191:2021 (Kindermöbel – Kindersitzmöbel – Sicherheitstechnische Anforderungen und Prüfverfahren; für Kinder, die selbstständig laufen und sitzen können). Keiner der Kandidaten nennt diese Norm im Listing; EN 71-1/EN 71-3 (Spielzeug bzw. Speichelechtheit von Beschichtungen) werden von roba bzw. Bomi genannt. Quelle: https://www.dinmedia.de/de/norm/din-en-17191/328441890",
+    "Herstellerwarnungen: Sitzgruppen nicht unter Fenster stellen (Kinder nutzen sie als Steighilfe; Bomi), Kinder unter 12 Monaten nicht unbeaufsichtigt (roba). Altersangaben sind Herstellerangaben."
+  ],
+  "verworfen": [
+    {
+      "name": "Pinolino Kindersitzgruppe Olaf (B00SL72GJC)",
+      "grund": "Nur ca. 3,6/5 bei ~230 Bewertungen, wiederholt Berichte über Transportschäden, nicht passende Bohrungen, fehlende Schrauben; Materialangabe widersprüchlich (Buche vs. Kiefer teilmassiv)"
+    },
+    {
+      "name": "Pinolino Kindersitzgruppe Fenna (B07HQT5VVX)",
+      "grund": "Massive Kiefer, gute Maße (Tisch 51 cm, Sitz 29 cm, 2–7 Jahre), aber nur 4 Bewertungen (3,7/5) – zu wenig Erfahrungswerte"
+    },
+    {
+      "name": "Bomi Amy Natur/Weiß (B08THRPFKD)",
+      "grund": "Laut Suchtreffer derzeit nicht verfügbar; aktive Alternative B078S7MD79 gewählt"
+    },
+    {
+      "name": "roba Picknick for 4 ohne Lehnen (B075LTNRJS)",
+      "grund": "Derzeit nicht verfügbar, 3,6/5"
+    },
+    {
+      "name": "KidKraft Runder Tisch 26166",
+      "grund": "Derzeit nicht verfügbar; Modell 27027 gewählt"
+    },
+    {
+      "name": "Möbeldesign Team 2000 Kindersitzgruppe Kernbuche (B015XWR17E)",
+      "grund": "Keine belastbaren Maße/Bewertungen auffindbar"
+    },
+    {
+      "name": "FUNLIO Montessori-Tisch 1–3 Jahre (B0D838F1SQ u. a.)",
+      "grund": "Tisch max. ca. 38 cm – eher Beikost-/Montessori-Tisch als Sitzgruppe zum Malen"
+    },
+    {
+      "name": "MAMIZO, AufuN, WOLTU, ONVAYA, Erdnuss-Tische u. ä.",
+      "grund": "Austauschbare No-Name-Ware ohne Normangaben; FUNLIO als einziger höhenverstellbarer Vertreter wegen großer Bewertungsbasis gewählt"
+    },
+    {
+      "name": "Little Tikes Großer Picknicktisch (B000XRY4CA)",
+      "grund": "Erst ab 3 Jahren, Materialangabe im Listing widersprüchlich"
+    },
+    {
+      "name": "Zara Home Kinderholztisch / Kinderschreibtischstuhl",
+      "grund": "Rückruf 2026 (Klapp- bzw. Kippgefahr)"
+    }
+  ],
+  "offen": [
+    "Awin: laut Auftrag keine freigeschalteten Programme – alle Produkte über Amazon-ASINs; kein Awin-Händler nötig.",
+    "Bubema (Platz 1): Sitzhöhe, Altersangabe und Normangabe (EN 71-3/EN 17191) im Listing nicht gefunden – vor Veröffentlichung auf der Produktseite prüfen; Text sollte die Sitzhöhe dann nicht behaupten.",
+    "Bomi Amy (Platz 2): ASIN B078S7MD79 ist ein Variantenlisting; englischer Titel nennt „charcoal/white“, deutscher Titel nur „Bomi Kindersitzgruppe Holz Amy“. Farbe im Text offen lassen. Altersangabe widersprüchlich (Titel ab 1 Jahr, Beschreibung 36 Monate–6 Jahre) – im Text 'laut Beschreibung ab 3 Jahren' verwenden.",
+    "Rolle 'Beste Wahl ab 1 Jahr': Keine Markensitzgruppe mit zwei Stühlen ausdrücklich ab 12 Monaten gefunden; roba Woody ist ab 18 Monaten – Label ggf. zu „Beste Wahl für Kleinkinder (ab 18 Monaten)“ anpassen. Ab 12 Monaten nur roba „Picknick for 4“ (Bankgarnitur, Top 5).",
+    "roba Picknick for 4 (Top 5): Seite B0H5JNKLLM nennt in den Produktdetails die ASIN B07QLZSVBS; Verfügbarkeit 'begrenzt'. Vor Veröffentlichung prüfen, ggf. auf B07QLZSVBS wechseln.",
+    "KidKraft 27027: Seite B0C9ZX5C2J verweist in 'Zusätzliche Informationen' auf B00L3NQQKQ; B0C9ZX5C2J war laut Suchtreffer auf Lager und wurde deshalb gewählt.",
+    "Pinolino Nicki für 4: Sitzhöhe/Alter stammen von der baugleichen grauen Variante B079ZY9FP8.",
+    "Keine unabhängigen Tests (Stiftung Warentest, Öko-Test) für Kindersitzgruppen gefunden – Bewertungen rein redaktionell auf Basis von Herstellerangaben und Kundenbewertungen.",
+    "amazon.de-Seiten waren nicht direkt abrufbar; Bewertungen/Verfügbarkeit stammen aus Suchtreffern."
+  ],
+  "quellen": [
+    {
+      "titel": "Betten-ABC Bubema Kindertisch und 2 Stühle (amazon.de)",
+      "url": "https://www.amazon.de/Betten-ABC-Kindertisch-massiver-Kernbuche-lackiert/dp/B08P54SXC8"
+    },
+    {
+      "titel": "Bubema Kindertisch und 2 Stühle, Natur (Kaufland)",
+      "url": "https://www.kaufland.at/product/365777559/"
+    },
+    {
+      "titel": "Bomi Kindersitzgruppe Holz Amy (amazon.de)",
+      "url": "https://www.amazon.de/Bomi-Kindersitzgruppe-Kindertisch-Kinderzimmer-Basteltisch/dp/B078S7MD79"
+    },
+    {
+      "titel": "roba Kindersitzgruppe Woody (amazon.de)",
+      "url": "https://www.amazon.de/roba-Kindersitzgruppe-Woody/dp/B0CBRZYY91"
+    },
+    {
+      "titel": "roba Kindersitzgruppe Woody (BAUR)",
+      "url": "https://www.baur.de/p/AKLBB1779415177"
+    },
+    {
+      "titel": "roba Outdoor Deluxe Picknick for 4 (amazon.de)",
+      "url": "https://www.amazon.de/-/en/roba/dp/B0H5JNKLLM"
+    },
+    {
+      "titel": "KidKraft Runder Kindertisch mit Stauraum (amazon.de)",
+      "url": "https://www.amazon.de/KidKraft/dp/B0C9ZX5C2J"
+    },
+    {
+      "titel": "Little Tikes Junior Picknicktisch (amazon.de)",
+      "url": "https://www.amazon.de/Little-Tikes-479A00060-Kindertisch-Funny/dp/B000XS40L4"
+    },
+    {
+      "titel": "Pinolino Nicki für 4 (amazon.de)",
+      "url": "https://www.amazon.de/PINOLINO-Kindersitzgarnitur-massivem-empfohlen-Kinder/dp/B0009JK8MM"
+    },
+    {
+      "titel": "Pinolino Nicki für 4 grau (amazon.de)",
+      "url": "https://www.amazon.de/Pinolino-201614-Kindersitzgarnitur-Nicki-grau/dp/B079ZY9FP8"
+    },
+    {
+      "titel": "FUNLIO Kindertisch höhenverstellbar (amazon.de)",
+      "url": "https://www.amazon.de/FUNLIO-Kindersitzgruppe-H%C3%B6henverstellbar-Abwischbarer-Klassenzimmer/dp/B0BWJCZ89Y"
+    },
+    {
+      "titel": "Pinolino Olaf (amazon.de)",
+      "url": "https://www.amazon.de/Pinolino-Sitzgruppe-3-tlg-Sitzgarnitur-Tisch/dp/B00SL72GJC"
+    },
+    {
+      "titel": "Pinolino Fenna (amazon.de)",
+      "url": "https://www.amazon.de/Pinolino-201424-Kindersitzgruppe-Fenna-natur/dp/B07HQT5VVX"
+    },
+    {
+      "titel": "kita.de Ratgeber Kinder-Tischgruppe",
+      "url": "https://www.kita.de/ratgeber/haushalt/kinderzimmer/kindermoebel/kinder-tischgruppe/"
+    },
+    {
+      "titel": "testsieger.de Kindersitzgruppen",
+      "url": "https://www.testsieger.de/kindersitzgruppen/"
+    },
+    {
+      "titel": "DIN EN 17191:2021 Kindersitzmöbel",
+      "url": "https://www.dinmedia.de/de/norm/din-en-17191/328441890"
+    },
+    {
+      "titel": "test.de: Zara ruft Kinderprodukte zurück",
+      "url": "https://www.test.de/Sicherheitsrisiko-Zara-ruft-Kinderprodukte-zurueck-6279442-0/"
+    },
+    {
+      "titel": "CCPC: Zara Home Children's Wooden Foldable Table",
+      "url": "https://www.ccpc.ie/consumer-advice/product-safety/product-safety-notifications/details/itx-retail-ireland-limited-t-a-zara-home-recalls-zara-home-children-s-wooden-foldable-table"
+    }
+  ],
+  "korrekturRunde1": "Bewertungsanzahlen/-schnitte aus Seite entfernt (Bomi-Zahl 2.800 war falsch, Listing zeigt 48); alltag-Note Bomi 8,0→7,5 (war durch Bewertungsbasis gestützt); Bubema oberflaeche 8,5→9,0 (EN 71-3 für Lack nun belegt)."
+}
