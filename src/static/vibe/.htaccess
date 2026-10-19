@@ -1,6 +1,14 @@
 Options -Indexes
 AddDefaultCharset utf-8
 ErrorDocument 404 /vibe/404.html
+
+# Passwortschutz (Basic Auth, beliebiger Benutzername). Bewusst ohne <IfModule>:
+# fehlt mod_rewrite, antwortet der Server mit einem Fehler statt die Seite offen zu zeigen.
+RewriteEngine On
+RewriteCond expr "!(%{HTTP:Authorization} =~ /^Basic\s+(\S+)$/ && unbase64($1) =~ /^[^:]*:(.+)$/ && sha1('toptop-vibe:$1') == 'de81de75f73c3e2f0c6f49b2fb41710b7bbec2fe')"
+RewriteRule ^ - [R=401,L]
+Header always set WWW-Authenticate "Basic realm=\"I feel the Vibe\", charset=\"UTF-8\"" "expr=%{REQUEST_STATUS} == 401"
+
 <IfModule mod_headers.c>
   Header set X-Robots-Tag "noindex, nofollow"
   Header set X-Content-Type-Options "nosniff"
