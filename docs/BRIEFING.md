@@ -233,6 +233,29 @@ Mindestumfang je Kategorie: **≥ 1.000 Wörter** (nicht künstlich auffüllen),
   (mit `TOPTOP_DIR` auf diesen Checkout), danach hier `node build.mjs`. Daten in Supabase-Projekt Firsty.app, eigenes
   Schema `vibe`, Zugriff nur über die Funktionen `vibe_feel` und `vibe_live_feelings`. Demo-Daten sind beigemischt und
   gekennzeichnet. `noindex` per `src/static/vibe/.htaccess`.
+- 2026-10-18: **Werbung lohnt sich** (Rosi) unter `/werbunglohntsich/`: Nutzer schauen Spots (15/30/60 s), beantworten
+  3 Fragen (zufällig aus einem Pool, Antworten gemischt) und bekommen nur bei 3/3 Punkte (1 Punkt = 0,1 Cent; 25/40/70 Punkte),
+  Werbetreibende zahlen 0,06/0,10/0,18 € pro verifiziertem View (Business Case:
+  https://claude.ai/code/artifact/b181ebe0-c1b3-4b17-9bbc-8424a7fafdfe). Einlösen ab 5.000 Punkten als Gutschein oder Spende,
+  Tageslimit 20 Spots, ab 18. Vanilla-JS ohne Build in `src/static/werbunglohntsich/` (eigenes Design: Bricolage Grotesque +
+  Inter, Ink/Creme/Lime/Signalrot, Parallax). Daten im Supabase-Projekt Firsty.app, eigenes Schema `wls` mit eigenen Konten
+  (nicht Supabase Auth), Zugriff nur über `public.wls_*`-Funktionen (Quelle `supabase/werbunglohntsich/schema.sql`); Uploads
+  über Edge Function `wls-upload` in den Bucket `wls-spots`. Admins in Tabelle `wls.admins` (E-Mail). Pilotphase: 5 Demo-Spots
+  fiktiver Marken (`scripts/werbunglohntsich-spots.mjs`), die nur Demo-Punkte geben. Abrechnung mit Werbetreibenden per Rechnung,
+  Freischaltung und Gutschein-Versand von Hand im Admin-Bereich. Datenschutz Abschnitt 5 ergänzt.
+  Spots laufen als Endlos-Feed zum Wischen (wie Shorts/Reels, Hochformat 9:16); nach jedem Spot kommen die 3 Fragen,
+  solange ist das Wischen gesperrt. Weiterwischen während des Spots = überspringen ohne Punkte und ohne Sperre
+  (Tageslimit und 24-h-Sperre zählen erst, wenn die Fragen erreicht wurden).
+- 2026-10-18: **Wo bist du?** (Rosi) unter `/wobistdu/`: Freunde antippen (auch mehrere), großer „Wo bist du?“-Knopf;
+  der Gefragte teilt genau oder ungefähr (≈1 km), einmalig (1 Std sichtbar) oder live 15/60 Min, oder sagt per fertigem
+  Button ab. Messenger nur mit fertigen Buttons (keine Freitexte): Reaktionen, „Wie lange brauchst du noch?“ mit
+  ETA-Antworten, „Und du?“, Standort senden. Extras: vertraute Kontakte (antworten automatisch, wenn die App offen ist),
+  stumm, blockieren (Blockierte merken nichts), Einladungslink, Testkontakt „Toni“ (Bot im Backend, antwortet sofort).
+  Testversion als Web-App (Vanilla-JS, Leaflet 1.9.4 selbst gehostet, OSM-Kacheln, Nominatim für Adressen) in
+  `src/static/wobistdu/`; später native Apps für iOS/Android. Konten mit Handynummer oder E-Mail + Passwort; SMS-Code,
+  Apple und Google folgen mit der App. Daten im Supabase-Projekt Firsty.app, Schema `wbd`, Zugriff nur über
+  `public.wbd_*` (Quelle `supabase/wobistdu/schema.sql`); Koordinaten werden nach Ablauf/Beenden auf null gesetzt.
+  Abgleich per Polling alle 3 s; Hinweise per Browser-Notification nur bei offenem Tab. Datenschutz Abschnitt 5 ergänzt.
 - 2026-10-08: Agententeam für den Ausbau: Orchestrator (Skill `/kategorie-pipeline`) steuert Trend-Scout, Strukturierer,
   Produkt-Rechercheur, Illustrator, Redakteur und Prüfer (`.claude/agents/`). Der Nutzer spricht nur mit dem
   Orchestrator; Freigaben bei Nischenauswahl, neuen Awin-Händlern und Merge. Nischen gern aus Sport/Kinder/Familie,
