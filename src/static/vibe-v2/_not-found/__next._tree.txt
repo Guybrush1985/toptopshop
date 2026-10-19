@@ -1,4 +1,4 @@
-:HL["/vibe-v2/_next/static/chunks/2rdrz0esji74g.css","style"]
+:HL["/vibe-v2/_next/static/chunks/42rltkpg6tk00.css","style"]
 2:[["children",{"s":"__PAGE__","h":160}]]
 1:[["children",{"s":"/_not-found","h":96,"c":"$Q2"}]]
-0:{"b":"JaiaXUQLX6zx6U2JR-DOo","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
+0:{"b":"hlM9AaZuNl9JdXgeKFdeh","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
