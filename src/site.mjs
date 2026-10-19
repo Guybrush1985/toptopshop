@@ -277,7 +277,7 @@ export const areas = [
         name: "Outdoor-Spielplatz",
         short: "Outdoor",
         navLabel: "Kinder-Spielplatz: Outdoor",
-        intro: "Der Spielplatz im eigenen Garten: Spielturm mit Rutsche, Gartenschaukel, Sandkasten mit Deckel, Seilbahn, Hüpfburg und aufblasbare Wasserrutsche.",
+        intro: "Der Spielplatz im eigenen Garten: Spielturm mit Rutsche, Gartenschaukel, Sandkasten mit Deckel, Seilbahn, Hüpfburg und aufblasbare Wasserrutsche – und für den Winter Lenkschlitten für Kinder.",
         metaTitle: "Spielplatz im Garten: Die besten Spielgeräte für draußen",
         metaDescription: "Spielturm, Gartenschaukel, Sandkasten mit Deckel, Seilbahn, Hüpfburg und Wasserrutsche: die besten Spielgeräte für den Garten mit Aufbau- und Sicherheitstipps.",
         article: `

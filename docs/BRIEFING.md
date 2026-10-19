@@ -256,3 +256,7 @@ Mindestumfang je Kategorie: **≥ 1.000 Wörter** (nicht künstlich auffüllen),
   Apple und Google folgen mit der App. Daten im Supabase-Projekt Firsty.app, Schema `wbd`, Zugriff nur über
   `public.wbd_*` (Quelle `supabase/wobistdu/schema.sql`); Koordinaten werden nach Ablauf/Beenden auf null gesetzt.
   Abgleich per Polling alle 3 s; Hinweise per Browser-Notification nur bei offenem Tab. Datenschutz Abschnitt 5 ergänzt.
+- 2026-10-19: Kategorie **Kinderlenkschlitten** (Rosi: „alle von Amazon, viel Fokus auf SEO“) unter
+  `/kinder-spielplatz/outdoor/kinderlenkschlitten/` – mangels eigenem Winterbereich im Outdoor-Unterbereich, Slug exakt nach
+  Rosis Suchbegriff. Ausschließlich Amazon-ASINs. Neues Symbolbild `visual.kind: "sled"`. Letzter Stiftung-Warentest-Schlittentest
+  ist von 12/2013, daher vor allem Herstellerangaben; bei widersprüchlichen Händlerwerten (Alter, Maximallast) gilt die vorsichtigere.
