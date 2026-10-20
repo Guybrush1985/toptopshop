@@ -39,6 +39,19 @@
     return data;
   }
 
+  async function sms(body) {
+    let res;
+    try {
+      res = await fetch(`${URL}/functions/v1/wbd-sms`, {
+        method: "POST", headers: { apikey: KEY, "Content-Type": "application/json" }, body: JSON.stringify(body),
+      });
+    } catch { throw new Error("Keine Verbindung. Bitte prüfe dein Internet."); }
+    const data = await res.json().catch(() => ({}));
+    if (data.error) { const e = new Error(data.error); e.key = data.error; throw e; }
+    if (!res.ok) throw new Error("Da ist etwas schiefgelaufen.");
+    return data;
+  }
+
   const t = () => store.get();
   window.WBD = {
     loggedIn: () => !!store.get(),
@@ -49,6 +62,11 @@
     async login(login, password) {
       const r = await rpc("wbd_login", { p_login: login, p_password: password });
       store.set(r.token); return r.account;
+    },
+    smsStart: (phone) => sms({ action: "start", phone }),
+    async smsCheck(phone, code, name) {
+      const r = await sms({ action: "check", phone, code, name: name || null });
+      store.set(r.token); return r;
     },
     async logout() { try { await rpc("wbd_logout", { p_token: t() }); } finally { store.set(null); } },
     async deleteAccount() { await rpc("wbd_delete_account", { p_token: t() }); store.set(null); },
