@@ -165,16 +165,17 @@ returns jsonb language plpgsql security definer set search_path = wbd, extension
 declare n jsonb := wbd.norm_login(p_login); a wbd.accounts; b wbd.accounts := wbd.bot();
   colors text[] := array['#2F5BFF','#13875B','#B5487A','#B07A12','#7A4BD1','#0E7C86','#C2412D'];
 begin
+  -- Handynummern nur per SMS-Code (bestätigt). Passwort nur noch für Test-Zugänge mit E-Mail.
+  if n ? 'phone' then return jsonb_build_object('error','Mit Handynummer meldest du dich per SMS-Code an.'); end if;
   if length(coalesce(p_password,'')) < 8 then return jsonb_build_object('error','Das Passwort braucht mindestens 8 Zeichen.'); end if;
   if length(trim(coalesce(p_name,''))) < 2 then return jsonb_build_object('error','Bitte gib deinen Namen ein.'); end if;
   if (wbd.find(p_login)).id is not null then
-    return jsonb_build_object('error','Für diese Nummer bzw. E-Mail gibt es schon ein Konto. Bitte melde dich an.');
+    return jsonb_build_object('error','Für diese E-Mail gibt es schon ein Konto. Bitte melde dich an.');
   end if;
   insert into wbd.accounts(phone, email, pw_hash, name, color)
-  values (n->>'phone', n->>'email', crypt(p_password, gen_salt('bf', 10)), left(trim(p_name), 40),
+  values (null, n->>'email', crypt(p_password, gen_salt('bf', 10)), left(trim(p_name), 40),
           colors[1 + floor(random() * array_length(colors,1))::int])
   returning * into a;
-  -- Kontakte, die diese Person schon gespeichert haben, sind nun verbunden; Test-Kontakt hinzufügen
   if b.id is not null then
     insert into wbd.contacts(owner, contact) values (a.id, b.id) on conflict do nothing;
     insert into wbd.contacts(owner, contact) values (b.id, a.id) on conflict do nothing;
@@ -385,6 +386,49 @@ begin
   return jsonb_build_object('ok', true);
 end $$;
 
+-- Anmeldung per SMS-Code (Twilio Verify über die Edge Function wbd-sms). Nur service_role darf diese aufrufen.
+create table if not exists wbd.sms_attempts (phone text not null, at timestamptz not null default now());
+create index if not exists wbd_sms_attempts_idx on wbd.sms_attempts(phone, at);
+alter table wbd.sms_attempts enable row level security;
+
+-- Vor dem SMS-Versand: Nummer prüfen, Limits gegen Kostenmissbrauch (5 pro Nummer/Stunde, 300 insgesamt/Tag)
+create or replace function public.wbd_sms_start(p_phone text)
+returns jsonb language plpgsql security definer set search_path = wbd, extensions, public as $$
+declare n jsonb := wbd.norm_login(p_phone); ph text;
+begin
+  if not n ? 'phone' then return jsonb_build_object('error','Bitte gib deine Handynummer ein.'); end if;
+  ph := n->>'phone';
+  if (select count(*) from wbd.sms_attempts where phone = ph and at > now() - interval '1 hour') >= 5 then
+    return jsonb_build_object('error','Zu viele Codes angefordert. Bitte warte eine Stunde.');
+  end if;
+  if (select count(*) from wbd.sms_attempts where at > now() - interval '1 day') >= 300 then
+    return jsonb_build_object('error','Heute können keine weiteren Codes verschickt werden. Bitte versuch es morgen.');
+  end if;
+  insert into wbd.sms_attempts(phone) values (ph);
+  return jsonb_build_object('phone', ph, 'known', exists(select 1 from wbd.accounts where phone = ph and not is_bot));
+end $$;
+
+-- Nach bestätigtem Code: anmelden oder Konto anlegen
+create or replace function public.wbd_sms_login(p_phone text, p_name text default null)
+returns jsonb language plpgsql security definer set search_path = wbd, extensions, public as $$
+declare n jsonb := wbd.norm_login(p_phone); a wbd.accounts; b wbd.accounts := wbd.bot();
+  colors text[] := array['#2F5BFF','#13875B','#B5487A','#B07A12','#7A4BD1','#0E7C86','#C2412D'];
+begin
+  if not n ? 'phone' then return jsonb_build_object('error','Ungültige Nummer.'); end if;
+  select * into a from wbd.accounts where phone = n->>'phone' and not is_bot;
+  if a.id is null then
+    if length(trim(coalesce(p_name,''))) < 2 then return jsonb_build_object('error','need_name'); end if;
+    insert into wbd.accounts(phone, name, color)
+    values (n->>'phone', left(trim(p_name), 40), colors[1 + floor(random() * array_length(colors,1))::int])
+    returning * into a;
+    if b.id is not null then
+      insert into wbd.contacts(owner, contact) values (a.id, b.id) on conflict do nothing;
+      insert into wbd.contacts(owner, contact) values (b.id, a.id) on conflict do nothing;
+    end if;
+  end if;
+  return jsonb_build_object('token', wbd.new_session(a.id), 'account', wbd.account_json(a), 'new', a.created_at > now() - interval '5 seconds');
+end $$;
+
 -- Test-Kontakt anlegen (einmalig)
 insert into wbd.accounts(email, name, color, is_bot)
 select 'testkontakt@wobistdu.invalid', 'Toni (Testkontakt)', '#13875B', true
@@ -396,6 +440,10 @@ do $$ declare f record; begin
   for f in select p.oid::regprocedure sig from pg_proc p join pg_namespace n on n.oid = p.pronamespace
            where n.nspname = 'public' and p.proname like 'wbd\_%' loop
     execute format('revoke all on function %s from public, anon, authenticated', f.sig);
-    execute format('grant execute on function %s to anon, authenticated', f.sig);
+    if f.sig::text not like 'wbd_sms_%' then
+      execute format('grant execute on function %s to anon, authenticated', f.sig);
+    else
+      execute format('grant execute on function %s to service_role', f.sig);
+    end if;
   end loop;
 end $$;

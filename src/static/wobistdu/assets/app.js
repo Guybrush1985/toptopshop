@@ -638,46 +638,88 @@
         <div class="muted">Dein Standort wird nur ermittelt, wenn du auf „Teilen“ tippst, nie im Hintergrund. Geteilte Standorte verschwinden nach Ablauf und werden gelöscht. Blockierte Personen können dich nicht fragen.</div>
         <a class="muted" href="/datenschutz/#wobistdu">Datenschutzerklärung</a></div>
       <div class="card"><div class="title" style="font-size:1.1rem">Testversion</div>
-        <div class="muted">Das ist die Web-Version zum Ausprobieren. In der App für iPhone und Android kommen Anmeldung per SMS-Code und mit Apple oder Google, echte Push-Nachrichten und Live-Standort im Hintergrund dazu.</div></div>
+        <div class="muted">Das ist die Web-Version zum Ausprobieren. In der App für iPhone und Android kommen Anmeldung mit Apple oder Google, echte Push-Nachrichten und Live-Standort im Hintergrund dazu.</div></div>
       <button class="btn" data-logout>Abmelden</button>
       <button class="btn danger" data-delete>Konto löschen</button>
       ${tabs()}`;
   }
 
-  function renderAuth(mode = renderAuth.mode || "register", msg = "") {
-    renderAuth.mode = mode;
+  // Anmeldung: Handynummer → SMS-Code (bei neuer Nummer zusätzlich Name). Kein Passwort.
+  const A = { step: "phone", phone: "", known: true, smsOff: false, testMode: "register" };
+  function signedIn(isNew) {
+    S.view = "home"; S.firstSync = true; S.msgs.clear(); S.maxId = 0;
+    return sync().then(() => { render(); toast(isNew ? `Willkommen, ${first(S.me.name)}!` : `Hi ${first(S.me.name)}!`); });
+  }
+  function renderAuth(msg = "") {
     $app.className = "app no-tabs";
-    const reg = mode === "register";
+    let form;
+    if (A.step === "code") {
+      form = `
+        <form class="form" id="auth-form" novalidate>
+          <div class="field"><label for="f-code">Code aus der SMS an ${esc(A.phone)}</label>
+            <input id="f-code" name="code" inputmode="numeric" autocomplete="one-time-code" maxlength="8" placeholder="123456" required style="font-size:1.6rem;letter-spacing:.3em;text-align:center"></div>
+          ${A.known ? "" : `<div class="field"><label for="f-name">Wie heißt du?</label><input id="f-name" name="name" autocomplete="given-name" placeholder="z. B. Lena" required></div>`}
+          <div class="err" id="f-err">${esc(msg)}</div>
+          <button class="btn primary" type="submit" style="padding:18px;font-size:1.1rem">${A.known ? "Anmelden" : "Los geht’s"}</button>
+          <div class="btn-row"><button class="btn" type="button" data-auth="back">Andere Nummer</button><button class="btn" type="button" data-auth="resend">Code neu senden</button></div>
+        </form>`;
+    } else if (A.step === "test") {
+      const reg = A.testMode === "register";
+      form = `
+        <div class="card" style="background:var(--warn-soft);box-shadow:none"><div class="muted" style="color:var(--ink)">Die SMS-Anmeldung wird gerade eingerichtet. Bis dahin kannst du mit einem Testzugang per E-Mail ausprobieren.</div></div>
+        <div class="seg" role="group" aria-label="Testzugang">
+          <button data-test-mode="register" aria-pressed="${reg}">Neu hier</button><button data-test-mode="login" aria-pressed="${!reg}">Anmelden</button>
+        </div>
+        <form class="form" id="auth-form" novalidate>
+          <div class="field"><label for="f-login">E-Mail</label><input id="f-login" name="login" type="email" autocomplete="username" placeholder="du@beispiel.de" required></div>
+          ${reg ? `<div class="field"><label for="f-name">Dein Name</label><input id="f-name" name="name" autocomplete="given-name" placeholder="z. B. Lena" required></div>` : ""}
+          <div class="field"><label for="f-pw">Passwort</label><input id="f-pw" name="pw" type="password" autocomplete="${reg ? "new-password" : "current-password"}" placeholder="${reg ? "mindestens 8 Zeichen" : ""}" required></div>
+          <div class="err" id="f-err">${esc(msg)}</div>
+          <button class="btn primary" type="submit" style="padding:18px;font-size:1.1rem">${reg ? "Testzugang erstellen" : "Anmelden"}</button>
+          <button class="btn" type="button" data-auth="back">Zurück zur SMS-Anmeldung</button>
+        </form>`;
+    } else {
+      form = `
+        <form class="form" id="auth-form" novalidate>
+          <div class="field"><label for="f-phone">Deine Handynummer</label>
+            <input id="f-phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" placeholder="0171 2345678" value="${esc(A.phone)}" required style="font-size:1.25rem"></div>
+          <div class="err" id="f-err">${esc(msg)}</div>
+          <button class="btn primary" type="submit" style="padding:18px;font-size:1.1rem">Code per SMS senden</button>
+          <p class="fine" style="text-align:center;margin:0">Kein Passwort nötig. Wir schicken dir einen Code.</p>
+        </form>
+        ${A.smsOff ? `<button class="btn" type="button" data-auth="test">Testzugang mit E-Mail</button>` : ""}`;
+    }
     $app.innerHTML = `
       <div class="auth">
         <div class="hero">Wo bist<br>du<span class="q">?</span></div>
         <p class="lede">Die häufigste Frage am Telefon, ohne Anruf. Freund antippen, fragen, fertig. Er entscheidet, ob er seinen Standort zeigt.</p>
-        <div class="seg" role="group" aria-label="Anmelden oder registrieren">
-          <button data-mode="register" aria-pressed="${reg}">Neu hier</button><button data-mode="login" aria-pressed="${!reg}">Anmelden</button>
-        </div>
-        <form class="form" id="auth-form" novalidate>
-          <div class="field"><label for="f-login">Handynummer oder E-Mail</label><input id="f-login" name="login" autocomplete="username" inputmode="email" placeholder="0171 2345678" required></div>
-          ${reg ? `<div class="field"><label for="f-name">Dein Name</label><input id="f-name" name="name" autocomplete="given-name" placeholder="z. B. Lena" required></div>` : ""}
-          <div class="field"><label for="f-pw">Passwort</label><input id="f-pw" name="pw" type="password" autocomplete="${reg ? "new-password" : "current-password"}" placeholder="${reg ? "mindestens 8 Zeichen" : ""}" required></div>
-          <div class="err" id="f-err">${esc(msg)}</div>
-          <button class="btn primary" type="submit" style="padding:18px;font-size:1.1rem">${reg ? "Konto erstellen" : "Anmelden"}</button>
-        </form>
-        <div class="soon" aria-label="Bald verfügbar"><span>Apple</span><span>Google</span><span>SMS-Code</span></div>
-        <p class="fine" style="margin-top:-14px;text-align:center">Anmeldung mit Apple, Google und SMS-Code kommt mit der App.</p>
-        <p class="fine">Testversion. Mit der Anmeldung akzeptierst du, dass wir Name, Nummer bzw. E-Mail und die Standorte, die du aktiv teilst, speichern. Geteilte Standorte werden nach Ablauf gelöscht. <a href="/datenschutz/#wobistdu">Datenschutz</a></p>
+        ${form}
+        <p class="fine">Mit der Anmeldung akzeptierst du, dass wir Name, Handynummer und die Standorte, die du aktiv teilst, speichern. Geteilte Standorte werden nach Ablauf gelöscht. <a href="/datenschutz/#wobistdu">Datenschutz</a></p>
       </div>`;
     const f = document.getElementById("auth-form");
+    const focus = f.querySelector("input"); focus && focus.focus({ preventScroll: true });
     f.addEventListener("submit", (e) => {
       e.preventDefault();
       const d = Object.fromEntries(new FormData(f));
       const err = document.getElementById("f-err"); err.textContent = "";
       guard(async () => {
         try {
-          S.me = reg ? await WBD.register(d.login, d.pw, d.name) : await WBD.login(d.login, d.pw);
-          S.view = "home"; S.firstSync = true; S.msgs.clear(); S.maxId = 0;
-          await sync(); render();
-          if (reg) toast(`Willkommen, ${first(S.me.name)}!`);
-        } catch (x) { err.textContent = x.message; }
+          if (A.step === "phone") {
+            const r = await WBD.smsStart(d.phone);
+            A.phone = r.phone; A.known = r.known; A.step = "code"; renderAuth();
+          } else if (A.step === "code") {
+            if (!A.known && (d.name || "").trim().length < 2) { err.textContent = "Bitte gib deinen Namen ein."; return; }
+            const r = await WBD.smsCheck(A.phone, d.code, d.name);
+            S.me = r.account; await signedIn(r.new);
+          } else {
+            const reg = A.testMode === "register";
+            S.me = reg ? await WBD.register(d.login, d.pw, d.name) : await WBD.login(d.login, d.pw);
+            await signedIn(reg);
+          }
+        } catch (x) {
+          if (x.key === "not_configured") { A.smsOff = true; A.step = "phone"; if (d.phone) A.phone = d.phone; renderAuth("Die SMS-Anmeldung ist noch nicht eingerichtet."); return; }
+          err.textContent = x.message;
+        }
       });
     });
   }
@@ -687,7 +729,14 @@
     const b = e.target.closest("button, a"); if (!b) return;
     const d = b.dataset;
     if (d.close != null || e.target.classList.contains("backdrop")) return closeSheet();
-    if (d.mode) return renderAuth(d.mode);
+    if (d.auth === "back") { A.step = "phone"; return renderAuth(); }
+    if (d.auth === "test") { A.step = "test"; return renderAuth(); }
+    if (d.auth === "resend") {
+      return guard(async () => {
+        try { await WBD.smsStart(A.phone); toast("Neuer Code ist unterwegs"); } catch (x) { toast(x.message); }
+      });
+    }
+    if (d.testMode) { A.testMode = d.testMode; return renderAuth(); }
     if (d.tab) return go(d.tab);
     if (d.pick) {
       S.selected.has(d.pick) ? S.selected.delete(d.pick) : S.selected.add(d.pick);
@@ -732,7 +781,7 @@
   (async function start() {
     if (!WBD.loggedIn()) return renderAuth();
     await sync();
-    if (!S.me) return renderAuth("login");
+    if (!S.me) return renderAuth();
     render();
     if (await geoGranted()) locate().catch(() => {});
     loop();

@@ -252,8 +252,10 @@ Mindestumfang je Kategorie: **≥ 1.000 Wörter** (nicht künstlich auffüllen),
   ETA-Antworten, „Und du?“, Standort senden. Extras: vertraute Kontakte (antworten automatisch, wenn die App offen ist),
   stumm, blockieren (Blockierte merken nichts), Einladungslink, Testkontakt „Toni“ (Bot im Backend, antwortet sofort).
   Testversion als Web-App (Vanilla-JS, Leaflet 1.9.4 selbst gehostet, OSM-Kacheln, Nominatim für Adressen) in
-  `src/static/wobistdu/`; später native Apps für iOS/Android. Konten mit Handynummer oder E-Mail + Passwort; SMS-Code,
-  Apple und Google folgen mit der App. Daten im Supabase-Projekt Firsty.app, Schema `wbd`, Zugriff nur über
+  `src/static/wobistdu/`; später native Apps für iOS/Android. Anmeldung ohne Passwort per SMS-Code (2026-10-20, Rosi): Edge
+  Function `wbd-sms` mit Twilio Verify (Secrets `TWILIO_ACCOUNT_SID`, `TWILIO_AUTH_TOKEN`, `TWILIO_VERIFY_SID`),
+  Limits 5 Codes/Nummer/Stunde und 300/Tag. Ohne Secrets bietet die Seite einen Testzugang mit E-Mail + Passwort;
+  Handynummern gibt es nur bestätigt per SMS. Apple und Google folgen mit der App. Daten im Supabase-Projekt Firsty.app, Schema `wbd`, Zugriff nur über
   `public.wbd_*` (Quelle `supabase/wobistdu/schema.sql`); Koordinaten werden nach Ablauf/Beenden auf null gesetzt.
   Abgleich per Polling alle 3 s; Hinweise per Browser-Notification nur bei offenem Tab. Datenschutz Abschnitt 5 ergänzt.
 - 2026-10-08: Agententeam für den Ausbau: Orchestrator (Skill `/kategorie-pipeline`) steuert Trend-Scout, Strukturierer,
