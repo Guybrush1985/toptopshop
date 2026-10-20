@@ -256,3 +256,11 @@ Mindestumfang je Kategorie: **≥ 1.000 Wörter** (nicht künstlich auffüllen),
   Apple und Google folgen mit der App. Daten im Supabase-Projekt Firsty.app, Schema `wbd`, Zugriff nur über
   `public.wbd_*` (Quelle `supabase/wobistdu/schema.sql`); Koordinaten werden nach Ablauf/Beenden auf null gesetzt.
   Abgleich per Polling alle 3 s; Hinweise per Browser-Notification nur bei offenem Tab. Datenschutz Abschnitt 5 ergänzt.
+- 2026-10-08: Agententeam für den Ausbau: Orchestrator (Skill `/kategorie-pipeline`) steuert Trend-Scout, Strukturierer,
+  Produkt-Rechercheur, Illustrator, Redakteur und Prüfer (`.claude/agents/`). Der Nutzer spricht nur mit dem
+  Orchestrator; Freigaben bei Nischenauswahl, neuen Awin-Händlern und Merge. Nischen gern aus Sport/Kinder/Familie,
+  **keine Preisschwelle, aber Fokus auf Produktqualität**. Ergebnis bleibt im heutigen Seitenformat (Symbolbilder,
+  `scores`/`steps`). Recherche-Dateien werden in `research/` als Quellenarchiv mit eingecheckt.
+- 2026-10-18: Tägliche Routine (Rosi): Das Agententeam baut jeden Tag autonom bis zu 5 neue Kategorien
+  (Skill `/kategorie-pipeline`, Abschnitt „Autonomer Modus“) und legt dafür einen PR an. **Live geht nichts ohne
+  Rosis Merge.** Nischen wählt der Scout selbst; neue Awin-Händler nur als offener Punkt im PR.
