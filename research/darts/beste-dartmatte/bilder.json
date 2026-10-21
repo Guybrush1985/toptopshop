@@ -1,0 +1,53 @@
+{
+  "visuals": {
+    "1": {
+      "kind": "dartmat",
+      "tone": "forest"
+    },
+    "2": {
+      "kind": "dartmat",
+      "tone": "green"
+    },
+    "3": {
+      "kind": "dartmat",
+      "tone": "mint"
+    }
+  },
+  "steps": {
+    "title": "Dartmatte richtig auslegen",
+    "subtitle": "Abwurflinie nach Regelmaß",
+    "alt": "Infografik: Dartmatte richtig auslegen – Platz messen, Mittig ausrichten, Abwurflinie prüfen, Rutschfest legen, Pflegen",
+    "caption": "Abwurflinie 2,37 m vor der Scheibe – die Matte schützt Boden und Spitzen.",
+    "steps": [
+      {
+        "title": "Platz messen",
+        "text": "Die Matte braucht etwa 3 m Länge vor der Scheibe, plus Platz hinter der Abwurflinie."
+      },
+      {
+        "title": "Mittig ausrichten",
+        "text": "Die Matte liegt mittig vor der Scheibe, gerade zur Wand."
+      },
+      {
+        "title": "Abwurflinie prüfen",
+        "text": "Die Linie liegt 2,37 m vor der Scheibenfront – aufgedruckte Markierungen nachmessen."
+      },
+      {
+        "title": "Rutschfest legen",
+        "text": "Auf glattem Boden auf eine rutschfeste Unterseite achten oder eine Unterlage nutzen."
+      },
+      {
+        "title": "Pflegen",
+        "text": "Absaugen oder abwischen; Gummimatten nach dem Auspacken auslüften lassen."
+      }
+    ]
+  },
+  "scoresAlt": "Balkendiagramm: Bewertung der drei besten Dartmatten in den Kriterien Material, Bodenschutz, Abwurflinie, Rutschfestigkeit und Preis-Leistung",
+  "scoresCaption": "Unsere Bewertung je Kriterium für die drei empfohlenen Modelle.",
+  "neueFormen": [
+    "dartmat"
+  ],
+  "offen": [
+    "Kriterien in scoresAlt sind ein Entwurf – an die finalen Bewertungskriterien des Redakteurs anpassen.",
+    "Regelmaße (1,73 m Bullhöhe, 2,37 m Abwurflinie, 2,93 m Diagonale) sind allgemein bekannte WDF/PDC-Standardmaße – Redakteur kann sie mit Quelle (z. B. WDF-Regelwerk) belegen."
+  ]
+}

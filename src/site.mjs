@@ -350,4 +350,20 @@ export const areas = [
   <p>Unsere Empfehlungen sind bei Amazon erhältlich. Technische Daten kennzeichnen wir als Herstellerangaben; unabhängige Tests nennen wir nur mit Institut und Ausgabe.</p>
   <aside class="callout"><p class="ct">Gut zu wissen</p><p>Für laute Gartengeräte gelten in Wohngebieten Ruhezeiten nach der Geräte- und Maschinenlärmschutzverordnung (32. BImSchV). Viele Gemeinden haben zusätzliche Regeln – ein Blick in die örtliche Satzung lohnt sich.</p></aside>`,
   },
+  {
+    slug: "darts",
+    name: "Darts zu Hause",
+    short: "Darts",
+    intro:
+      "Steeldart wie im Fernsehen, nur im eigenen Keller: Sisal-Scheiben, schattenfreies Licht, Kamera-Zählsysteme, Dartschränke zum Schutz der Wand und Matten mit Abwurflinie – je Kategorie die drei besten Produkte.",
+    metaTitle: "Darts zu Hause: Scheibe, Licht, Autoscoring & Zubehör",
+    metaDescription:
+      "Steeldart-Scheiben, Dart-Beleuchtung, Autoscoring, Dartschränke und Dartmatten: je Kategorie die 3 besten Produkte mit Kaufberatung für die eigene Dart-Ecke.",
+    article: `
+  <h2>Die eigene Dart-Ecke einrichten</h2>
+  <p class="quick">Für den Start reichen eine gute Sisal-Scheibe, ein Satz Pfeile und eine Abwurflinie. Wer regelmäßig spielt, ergänzt Licht gegen Schatten, Wandschutz und eine Bodenmatte – und auf Wunsch ein Kamerasystem, das die Punkte zählt.</p>
+  <p>Gespielt wird nach den gängigen Regeln mit der Mitte des Bullseyes in 1,73 m Höhe und der Abwurflinie in 2,37 m Abstand zur Scheibe. Plane deshalb deutlich mehr als 2,37 m Länge ein: Hinter der Abwurflinie braucht der Werfer Platz zum Stehen, seitlich sollten Mitspielende mit Abstand warten können. Wichtig ist eine feste Wand, an der sich Scheibe oder Schrank sicher verschrauben lassen.</p>
+  <p>Unsere Top-3-Empfehlungen sind bei Amazon erhältlich. Technische Daten kennzeichnen wir als Herstellerangaben. Unabhängige Labortests von Stiftung Warentest & Co. haben wir für Dart-Zubehör bisher nicht gefunden (Stand Oktober 2026) – deshalb erklären wir unsere Kriterien offen. Elektronische Automaten mit Kunststoffspitzen findest du im Gaming-Room unter <a href="/dartautomaten/">Dartautomaten</a>.</p>
+  <aside class="callout warn"><p class="ct">Sicherheit</p><p>Steeldarts haben spitze Metallspitzen. Kinder nur unter Aufsicht spielen lassen, nie in Richtung von Türen oder Durchgängen werfen und die Scheibe so hängen, dass niemand hinter oder neben ihr vorbeigeht.</p></aside>`,
+  },
 ];

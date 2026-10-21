@@ -1,0 +1,57 @@
+{
+  "visuals": {
+    "1": {
+      "kind": "dartcam",
+      "tone": "forest"
+    },
+    "2": {
+      "kind": "dartcam",
+      "tone": "green"
+    },
+    "3": {
+      "kind": "dartcam",
+      "tone": "mint"
+    }
+  },
+  "steps": {
+    "title": "Dart-Autoscoring einrichten",
+    "subtitle": "Vom Auspacken zum ersten Leg",
+    "alt": "Infografik: Dart-Autoscoring einrichten – Scheibe regelgerecht hängen, Kameraring montieren, Licht prüfen, Verbinden, Kalibrieren, Spielen",
+    "caption": "Gleichmäßiges Licht und eine fest hängende Scheibe helfen der Erkennung.",
+    "steps": [
+      {
+        "title": "Scheibe regelgerecht hängen",
+        "text": "Bullmitte auf 1,73 m, die 20 oben – die Scheibe darf nicht wackeln."
+      },
+      {
+        "title": "Kameraring montieren",
+        "text": "Ring bzw. Kameras laut Anleitung um die Scheibe setzen und ausrichten."
+      },
+      {
+        "title": "Licht prüfen",
+        "text": "Gleichmäßiges Licht ohne starke Schatten oder Gegenlicht erleichtert die Erkennung."
+      },
+      {
+        "title": "Verbinden",
+        "text": "Gerät per WLAN bzw. USB mit App oder Rechner koppeln, Software aktualisieren."
+      },
+      {
+        "title": "Kalibrieren",
+        "text": "Kalibrierung starten und mit ein paar Probewürfen testen."
+      },
+      {
+        "title": "Spielen",
+        "text": "Spielmodus wählen – offline, gegen Freunde oder online."
+      }
+    ]
+  },
+  "scoresAlt": "Balkendiagramm: Bewertung der drei besten Dart-Autoscoring-Systeme in den Kriterien Erkennungsgenauigkeit, Einrichtung, App und Spielmodi, Folgekosten und Preis-Leistung",
+  "scoresCaption": "Unsere Bewertung je Kriterium für die drei empfohlenen Modelle.",
+  "neueFormen": [
+    "dartcam"
+  ],
+  "offen": [
+    "Kriterien in scoresAlt sind ein Entwurf – an die finalen Bewertungskriterien des Redakteurs anpassen.",
+    "Regelmaße (1,73 m Bullhöhe, 2,37 m Abwurflinie, 2,93 m Diagonale) sind allgemein bekannte WDF/PDC-Standardmaße – Redakteur kann sie mit Quelle (z. B. WDF-Regelwerk) belegen."
+  ]
+}

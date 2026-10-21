@@ -85,6 +85,8 @@ Definiert in `src/templates/visuals.mjs`; neue Formen ergänzt der Illustrator-A
 - Kinder & Spielzimmer (Set `OBJECTS`): `triangle`, `slide`, `climbwall`, `ladder`, `swing`, `tent`, `mat`, `tower`,
   `sandbox`, `zipline`, `bouncy`, `waterslide`, `shelf`, `wardrobe`, `kidtable`, `rug`, `sideboard`, `cloth`
 - Sammeln & Garten (Set `OBJECTS`): `vitrine`, `frame`, `minifig`, `ledkit`, `snowblower`, `blower`
+- Darts (Set `OBJECTS`): `dartboard` (Steeldart-Scheibe), `dartlight` (Ringlicht), `dartcam` (Kamera-Autoscoring),
+  `dartcabinet` (Kabinett), `dartmat` (Matte mit Abwurflinie); `dart` = einfache Zielscheibe (E-Dart)
 
 ### Textbausteine in `sections[].blocks`
 

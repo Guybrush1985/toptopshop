@@ -1,0 +1,188 @@
+{
+  "slug": "bestes-dartboard-kabinett",
+  "stand": "2026-10-21",
+  "hinweisRecherche": "amazon.de ist aus der Arbeitsumgebung nicht direkt abrufbar (Proxy: connect_rejected, WebFetch: ENOTFOUND). Alle ASINs, Titel, Lieferumfänge und Bewertungszahlen stammen aus WebSearch-Treffern auf die jeweiligen amazon.de-/dp/-Seiten (Titel + Snippets, Stand 2026-10-21). Herstellerseiten (winmau.com, target-darts.co.uk, missiondarts.com) lieferten keine eigenen Datenblätter; ergänzende Angaben stammen von Fachhändlern und sind als Händlerangabe gekennzeichnet. Preise wurden bewusst nicht übernommen.",
+  "criteria": [
+    { "key": "schutz", "label": "Wandschutz & Verarbeitung", "weight": 0.3, "description": "Wie gut Türen und Rahmen die Wand schützen, Material (Massivholz/MDF/Furnier), Scharniere und Verarbeitung laut Erfahrungsberichten." },
+    { "key": "ausstattung", "label": "Ausstattung & Lieferumfang", "weight": 0.25, "description": "Scheibe, Pfeile, Schreibtafeln, Abwurflinie, Licht im Set – oder leerer Schrank für die vorhandene Scheibe." },
+    { "key": "scheibe", "label": "Scheibe & Kompatibilität", "weight": 0.25, "description": "Qualität der mitgelieferten Sisal-Scheibe (Drähte, Bull ohne Klammern) bzw. Passform für Standard-Bristle-Scheiben (45 cm)." },
+    { "key": "alltag", "label": "Montage & Alltag", "weight": 0.2, "description": "Aufhängung, Gewicht, Türen beim Spielen, Wischtafeln, Platzbedarf geöffnet." }
+  ],
+  "priceTiers": [
+    { "tier": 1, "label": "unter ca. 60 €" },
+    { "tier": 2, "label": "ca. 60–100 €" },
+    { "tier": 3, "label": "über ca. 100 €" }
+  ],
+  "products": [
+    {
+      "rank": 1,
+      "label": "Beste Gesamtwahl",
+      "name": "WINMAU Darts Set (Black Cabinet, Diamond Plus Dartboard and Darts)",
+      "brand": "Winmau",
+      "variant": "Schwarzes Kabinett mit Diamond-Plus-Scheibe, 2 Sätzen Steeldarts und Abwurflinie",
+      "priceTier": 2,
+      "ratings": { "schutz": 7.5, "ausstattung": 8.5, "scheibe": 8.0, "alltag": 7.5 },
+      "gesamt": 7.88,
+      "bestFor": "Wer ohne Vorwissen ein komplettes, sauberes Setup für Flur, Keller oder Hobbyraum möchte: Schrank, ordentliche Turnier-Scheibe, Pfeile und Abwurflinie in einem Paket.",
+      "fakten": [
+        { "text": "Lieferumfang laut Amazon-Listing: Diamond-Plus-Dartscheibe, Dartschrank, zwei Sätze Darts, Abwurflinie (Oche), Kreide und Tuch für die Schreibtafel.", "art": "Händlerangabe", "quelle": "https://www.amazon.de/WINMAU-Diamond-Plus-Dartscheiben-Serie-Schrank-Sets/dp/B0DWT8YLS1", "datum": "2026-10-21" },
+        { "text": "Schrank mit Furnieroberfläche, soll die umgebende Wand schützen.", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/WINMAU-Diamond-Plus-Dartscheiben-Serie-Schrank-Sets/dp/B0DWT8YLS1", "datum": "2026-10-21" },
+        { "text": "Rund 1.350 Bewertungen mit durchschnittlich 4,5 von 5 Sternen auf amazon.de.", "art": "Händlerangabe", "quelle": "https://www.amazon.de/WINMAU-Diamond-Plus-Dartscheiben-Serie-Schrank-Sets/dp/B0DWT8YLS1", "datum": "2026-10-21" },
+        { "text": "Diamond Plus: Bull ohne Klammern (staple-free), dreieckig profilierte, dünnere Drähte als beim Vorgänger Diamond, dichter Sisal, abnehmbarer Zahlenring; als turnierzugelassen beschrieben.", "art": "Händlerangabe", "quelle": "https://www.mastersofgames.com/cat/pub/darts-boards-diamond.htm", "datum": "2026-10-21" },
+        { "text": "Erfahrungsberichte: Scheibe robust bei häufigem Spiel; mitgelieferte Pfeile eher leicht, einmal ein gebrochenes Kunststoffteil an der Rückseite gemeldet.", "art": "Bericht", "quelle": "https://www.amazon.de/WINMAU-Diamond-Plus-Dartscheiben-Serie-Schrank-Sets/dp/B0DWT8YLS1", "datum": "2026-10-21" }
+      ],
+      "pros": ["Komplettpaket inkl. Abwurflinie", "Turniertaugliche Sisal-Scheibe mit klammerfreiem Bull", "Sehr viele, überwiegend gute Bewertungen"],
+      "cons": ["Mitgelieferte Pfeile nur Einstiegsqualität", "Furnier statt Massivholz", "Kein Licht"],
+      "specs": { "Scheibe": "Winmau Diamond Plus (Sisal, 45 cm)", "Lieferumfang": "Schrank, Scheibe, 2 Dartsätze, Oche, Kreide, Tuch", "Oberfläche": "Furnier, schwarz" },
+      "asin": "B0DWT8YLS1",
+      "query": "Winmau Diamond Plus Dartscheibe Schrank Set",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "Winmau Darts Set (Black Cabinet, Diamond Dartboard and Darts) : Amazon.de (URL-Slug: WINMAU-Diamond-Plus-Dartscheiben-Serie-Schrank-Sets)"
+    },
+    {
+      "rank": 2,
+      "label": "Bestes Preis-Leistungs-Verhältnis",
+      "name": "Mission Darts CAB011 Dartscheiben-Schrank mit Markerboards, robust, Weiß",
+      "brand": "Mission Darts",
+      "variant": "Leerer Schrank (ohne Scheibe), Weiß; laut Listing auch Schwarz und Helle Eiche",
+      "priceTier": 1,
+      "ratings": { "schutz": 7.0, "ausstattung": 5.5, "scheibe": 7.0, "alltag": 7.5 },
+      "gesamt": 6.73,
+      "bestFor": "Wer schon eine gute Sisal-Scheibe hat und nur Wandschutz, Ordnung und Schreibtafeln braucht – auch in hellen Wohnräumen (Weiß/Eiche statt Kneipenoptik).",
+      "fakten": [
+        { "text": "Als „robuster Deluxe-Dartscheibenschrank mit Markerboards“ gelistet; abwischbare Schreibtafeln, Magnet-Marker und Halter für zwei Dartsätze.", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/Mission-Darts-CAB011-Dartscheiben-Schrank-Markerboards/dp/B08NXYSM7Q", "datum": "2026-10-21" },
+        { "text": "Maße laut Schrankspezifikation 495 × 590 × 85 mm (B × H × T), Gewicht 5,8 kg; an anderer Stelle im Listing 50 × 61 × 8,5 cm.", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/Mission-Darts-CAB011-Dartscheiben-Schrank-Markerboards/dp/B08NXYSM7Q", "datum": "2026-10-21" },
+        { "text": "Farben laut Listing: Weiß, Schwarz, Helle Eiche; Befestigungsmaterial und Montageanleitung im Lieferumfang.", "art": "Händlerangabe", "quelle": "https://www.amazon.de/Mission-Darts-CAB011-Dartscheiben-Schrank-Markerboards/dp/B08NXYSM7Q", "datum": "2026-10-21" },
+        { "text": "144 Bewertungen mit durchschnittlich 4,3 von 5 Sternen auf amazon.de.", "art": "Händlerangabe", "quelle": "https://www.amazon.de/Mission-Darts-CAB011-Dartscheiben-Schrank-Markerboards/dp/B08NXYSM7Q", "datum": "2026-10-21" }
+      ],
+      "pros": ["Günstigster Weg zum Kabinett", "Helle Farben für Wohnräume", "Schreibtafeln mit Magnet-Markern statt Kreide"],
+      "cons": ["Scheibe und Pfeile fehlen", "Maßangaben im Listing widersprüchlich", "Anleitung evtl. nicht auf Deutsch"],
+      "specs": { "Maße": "ca. 49,5 × 59 × 8,5 cm (Herstellerangabe)", "Gewicht": "5,8 kg", "Farben": "Weiß, Schwarz, Helle Eiche", "Scheibe": "nicht enthalten" },
+      "asin": "B08NXYSM7Q",
+      "query": "Mission Darts CAB011 Dartscheiben-Schrank",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "Mission Darts CAB011 Dartscheiben-Schrank mit Markerboards, robust, Weiß : Amazon.de: Sport & Freizeit"
+    },
+    {
+      "rank": 3,
+      "label": "Premium-Wahl (mit Licht)",
+      "name": "Target Darts Arc Dartboard Lighting System in Home Cabinet Set (World Champion Dartboard, 2 Dart Sets), Black",
+      "brand": "Target Darts",
+      "variant": "Schwarzes Kabinett mit aufgesetztem Arc-LED-Licht, World-Champion-Scheibe und 2 Dartsätzen",
+      "priceTier": 2,
+      "ratings": { "schutz": 7.5, "ausstattung": 9.0, "scheibe": 6.5, "alltag": 7.0 },
+      "gesamt": 7.53,
+      "bestFor": "Wer im Keller oder Hobbyraum ohne Deckenlicht spielt und Schrank plus Beleuchtung aus einer Hand will.",
+      "fakten": [
+        { "text": "Set aus Kabinett, World-Champion-Dartscheibe, Arc-Lichtsystem, zwei Sätzen Messing-Darts, drei Mini-Kreiden, Netzteil und vier Länderadaptern.", "art": "Händlerangabe", "quelle": "https://www.amazon.de/Target-Darts-Dartboard-Beleuchtungssystem-Heimkabinett-Set-Weltmeister-Dartboard/dp/B08ZYQMZTH", "datum": "2026-10-21" },
+        { "text": "952 Bewertungen mit durchschnittlich 4,4 von 5 Sternen auf amazon.de; Lob für Schrank und Licht, Kritik an zu dicken Drähten der mitgelieferten Scheibe; Set wird als schwer beschrieben.", "art": "Bericht", "quelle": "https://www.amazon.de/Target-Darts-Dartboard-Beleuchtungssystem-Heimkabinett-Set-Weltmeister-Dartboard/dp/B08ZYQMZTH", "datum": "2026-10-21" },
+        { "text": "Das Arc-Licht wird oben auf das Kabinett gesetzt; die Türen lassen sich bei Nichtgebrauch schließen. Passt laut Händler auf Kabinette mit flacher Oberseite.", "art": "Händlerangabe", "quelle": "https://aviddarts.com.au/products/target-arc-dartboard-cabinet-lighting-system", "datum": "2026-10-21" },
+        { "text": "Schwachpunkt laut Erfahrungsberichten: Klebe-Befestigung des Lichts braucht saubere, trockene Fläche.", "art": "Bericht", "quelle": "https://a-zdarts.com/products/15-119699-target-arc-cabinet-light", "datum": "2026-10-21" }
+      ],
+      "pros": ["Licht schon integriert – keine Schatten-Bastelei", "Türen bleiben mit Licht schließbar", "Großer Lieferumfang"],
+      "cons": ["Mitgelieferte Scheibe ist das schwächste Teil (dicke Drähte laut Berichten)", "Licht klebt nur – Untergrund vorbereiten", "Schwer"],
+      "specs": { "Scheibe": "Target World Champion (Sisal)", "Licht": "Target Arc LED, Netzteil + 4 Adapter", "Lieferumfang": "Schrank, Scheibe, Licht, 2 Messing-Dartsätze, Kreide" },
+      "asin": "B08ZYQMZTH",
+      "query": "Target Darts Arc Dartboard Lighting System Home Cabinet Set",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "Target Darts Arc Dartboard Lighting System in Home Cabinet Set. Includes World Champion Dartboard and 2 Dart Sets - Black, Standard Size : Amazon.de"
+    }
+  ],
+  "top5": [
+    {
+      "name": "WINMAU Dartboard Protective Ring – Pro Line 1.0 Black Dart Surround",
+      "warum": "Surround statt Schrank: Schaumring um die Scheibe fängt Fehlwürfe in Wandnähe ab, ohne Türen und ohne zusätzliche Befestigung – für Spieler, die den Turnier-Look wollen.",
+      "fakten": [
+        { "text": "Polyurethan-Schaum, für Blade 5/Blade 6 ausgelegt, werkzeuglos auf die Scheibe aufschiebbar; rund 1.100 Bewertungen, 4,7 von 5 Sternen (Listing Pro Line & Advance Original).", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/WINMAU-Advance-Original-Dartboard-Surround/dp/B0GWM3XWX9", "datum": "2026-10-21" }
+      ],
+      "asin": "B0GWM3XWX9",
+      "query": "Winmau Pro Line Dartboard Surround schwarz",
+      "where": null
+    },
+    {
+      "name": "Unicorn Dartmate Tri-Stand Portable Dartboard Stand",
+      "warum": "Ohne Bohren: mobiler Dreibein-Ständer für Mietwohnung oder wechselnde Räume; Scheibe und Surround separat.",
+      "fakten": [
+        { "text": "Metallständer, ca. 4 kg, faltbar für den Transport; 255 Bewertungen, 4,4 von 5 Sternen; nicht für Kinder unter 6 Jahren, nur unter Aufsicht Erwachsener.", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/Unicorn-Dartmate-Tri-Stand-mobiler-Dartst%C3%A4nder/dp/B01HXK0XLU", "datum": "2026-10-21" }
+      ],
+      "asin": "B01HXK0XLU",
+      "query": "Unicorn Dartmate Tri-Stand",
+      "where": null
+    },
+    {
+      "name": "Winmau Plain Rosewood Dartboard Cabinet – Rosewood",
+      "warum": "Klassisches leeres Kabinett in Holzoptik für eine vorhandene Winmau-Scheibe, mit Home/Away-Wischtafeln.",
+      "fakten": [
+        { "text": "Modell 4060, 600 × 515 × 75 mm, passend für alle Winmau-Bristle-Scheiben, Home/Away-Wischtafeln; 360 Bewertungen, 4,2 von 5 Sternen. Erfahrungsberichte: MDF mit Holzdekor, nicht Massivholz.", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/Winmau-Rosewood-Dartboard-Cabinet-Rosenholz/dp/B01KJP3L5G", "datum": "2026-10-21" }
+      ],
+      "asin": "B01KJP3L5G",
+      "query": "Winmau Plain Rosewood Dartboard Cabinet",
+      "where": null
+    },
+    {
+      "name": "Target Darts Arc Dartboard Cabinet Lighting System",
+      "warum": "Kabinett mit Licht nachrüsten: das Arc-Licht aus dem Premium-Set einzeln für einen vorhandenen Schrank mit flacher Oberseite.",
+      "fakten": [
+        { "text": "Einzeln erhältliches Arc-Licht; 660 Bewertungen, 4,5 von 5 Sternen; einzelne Käufer bemängeln ein kurzes Kabel.", "art": "Händlerangabe", "quelle": "https://www.amazon.de/Target-Darts-Dartscheibe-Schrankbeleuchtung-System/dp/B09CV8JPXV", "datum": "2026-10-21" }
+      ],
+      "asin": "B09CV8JPXV",
+      "query": "Target Darts Arc Dartboard Cabinet Lighting System",
+      "where": null
+    },
+    {
+      "name": "Holz-Dartboard-Surround / Backboard mit optionalem Tablet-Halter (WDS)",
+      "warum": "Großflächiger Wandschutz aus Holz (Backboard) für Spieler, die viel daneben werfen oder ein Tablet für Autoscoring/Apps neben der Scheibe wollen.",
+      "fakten": [
+        { "text": "Holz-Backboard 100 × 97 × 5 cm (mit Tablet-Halter 100 × 122 × 5 cm), ohne Scheibe und Pfeile; Marke WDS laut Listing.", "art": "Händlerangabe", "quelle": "https://www.amazon.de/Dartboard-Dart-Wandschutz-Tablet-Halter-Geflammter-Catchring/dp/B0CJ3DY7VV", "datum": "2026-10-21" }
+      ],
+      "asin": "B0CJ3DY7VV",
+      "query": "Holz Dartboard Surround Backboard Tablet-Halter",
+      "where": null
+    }
+  ],
+  "tests": [
+    { "institut": "Stiftung Warentest / Öko-Test / ADAC", "heft": "–", "ergebnis": "Kein Test von Dartschränken oder Dartscheiben gefunden (Suche 2026-10-21). Vergleichsportale wie testsieger.de listen nur Produkte mit Preisvergleich, ohne eigene Prüfung.", "quelle": "https://www.testsieger.de/klassische-dartscheiben/4CR3A86ZWJPGX-winmau-professionelles-dart-set-diamond-plus-dartscheibe-mit-hochwertigem-schrank-und-oche-line.html" }
+  ],
+  "warnungen": [
+    "Keine Safety-Gate-/BAuA-Meldung zu Dartschränken oder Steeldart-Scheiben gefunden (WebSearch 2026-10-21; Safety-Gate-Portal selbst nicht direkt abgefragt).",
+    "Steeldarts sind spitze Wurfgeräte: Hersteller schließen Kinder unter 6 Jahren aus und verlangen Aufsicht Erwachsener (z. B. Unicorn Dartmate Tri-Stand, https://www.amazon.de/Unicorn-Dartmate-Tri-Stand-mobiler-Dartst%C3%A4nder/dp/B01HXK0XLU). Hinweis für den Text: Wurfbereich frei von Durchgängen/Türen halten.",
+    "Kabinette mit Scheibe wiegen rund 6–11 kg (Mission CAB011 5,8 kg; Winmau-Blade-6-Set 10,8 kg laut Listing B09QX7FCNN) – Montage mit zur Wand passenden Dübeln."
+  ],
+  "verworfen": [
+    { "name": "WINMAU Blade 6 Professional Bristle Classic Dartboard with Winmau Dart Cabinet (B09QX7FCNN)", "grund": "Auf amazon.de als „derzeit nicht verfügbar“, ohne Wiederauffüllungstermin; zudem Berichte über verdrehte Scharniere." },
+    { "name": "„Winmau Pro Line“ als Kabinett (Scout-Kandidat)", "grund": "Unter „Pro Line“ führt Winmau auf amazon.de einen Surround (Schutzring), kein Kabinett – daher als Top-5-Surround verwendet." },
+    { "name": "Unicorn Classic Cabinet / Unicorn Maestro Dartboard Cabinet (B0BYPD2988, B0BYPDXH2K)", "grund": "Kein „Classic Cabinet“ auf amazon.de gefunden; Maestro-Variante 46233 nicht verfügbar, die andere nur mit 5 Bewertungen und Restbestand." },
+    { "name": "Unicorn Striker Home Darts Centre (B01DQUYJTI)", "grund": "Freizeit-Scheibe (laut Händler für gelegentliches Spiel), teurer als die Winmau-Gesamtwahl; Listing-Daten nennen intern eine abweichende ASIN (B003V8AZ8K)." },
+    { "name": "Target Darts World Championship Dartboard in a Home Cabinet (B09CV1V8M5)", "grund": "Gleiche Scheibe wie das Arc-Set, aber ohne Licht – kein eigener Vorteil gegenüber Platz 3." },
+    { "name": "WINMAU Xtreme Dartboard, Cabinet and Dart Set (B0C6FDN89X)", "grund": "Einsteiger-Scheibe (Xtreme), Diamond-Plus-Set bietet die bessere Scheibe." },
+    { "name": "Winmau Design-Kabinette (Roundel B09HV6VYK1, Blade 6 Design B09HV6KLTK, Printed Rosewood B01KJP2P9E)", "grund": "Leere Deko-Kabinette ohne Mehrwert ggü. CAB011/Rosewood; Printed Rosewood nicht verfügbar." }
+  ],
+  "offen": [
+    "ASIN B0DWT8YLS1 (Platz 1): In den Produktdetails der Seite steht laut Snippet eine abweichende ASIN B077TW9CWF (Winmau-Diamond-Plus-Paket, Teilenr. 5003, ebenfalls ~1.350 Bewertungen) – vermutlich Eltern-/Variantenbeziehung. Vor Veröffentlichung im Browser prüfen, ob /dp/B0DWT8YLS1 auf das Schrank-Set zeigt.",
+    "Platz 2 Mission CAB011: Listing nennt Weiß als Titelvariante; Schwarz/Helle Eiche sind vermutlich Varianten derselben Seite – eigene ASINs nicht ermittelt. Maßangaben im Listing widersprüchlich (495 × 590 × 85 mm vs. 50 × 61 × 8,5 cm).",
+    "Top 5 Nr. 5 (Holz-Backboard, Marke „WDS“): Hersteller/Garantie nicht verifiziert – vor Veröffentlichung Marke prüfen oder durch Winmau Blade 360 Surround (B0FWS1HZC9) ersetzen.",
+    "Herstellerseiten (winmau.com, target-darts.co.uk, missiondarts.com) und amazon.de nicht direkt abrufbar; Verfügbarkeit aller ASINs ist Stand der Suchtreffer vom 2026-10-21.",
+    "Awin: freigeschaltet nur Rewe DE (11652), Radwelt-shop (15088), brickzonehub (121692) – keiner führt Dartschränke; alle Produkte über Amazon, kein neuer Awin-Händler nötig.",
+    "Safety Gate nur per WebSearch geprüft, nicht im Portal selbst."
+  ],
+  "quellen": [
+    { "titel": "amazon.de – Winmau Diamond Plus Schrank-Set (B0DWT8YLS1)", "url": "https://www.amazon.de/WINMAU-Diamond-Plus-Dartscheiben-Serie-Schrank-Sets/dp/B0DWT8YLS1" },
+    { "titel": "amazon.de – Mission Darts CAB011 (B08NXYSM7Q)", "url": "https://www.amazon.de/Mission-Darts-CAB011-Dartscheiben-Schrank-Markerboards/dp/B08NXYSM7Q" },
+    { "titel": "amazon.de – Target Darts Arc Home Cabinet Set (B08ZYQMZTH)", "url": "https://www.amazon.de/Target-Darts-Dartboard-Beleuchtungssystem-Heimkabinett-Set-Weltmeister-Dartboard/dp/B08ZYQMZTH" },
+    { "titel": "amazon.de – Target Darts Arc Cabinet Lighting System (B09CV8JPXV)", "url": "https://www.amazon.de/Target-Darts-Dartscheibe-Schrankbeleuchtung-System/dp/B09CV8JPXV" },
+    { "titel": "amazon.de – Winmau Plain Rosewood Cabinet (B01KJP3L5G)", "url": "https://www.amazon.de/Winmau-Rosewood-Dartboard-Cabinet-Rosenholz/dp/B01KJP3L5G" },
+    { "titel": "amazon.de – Winmau Pro Line Surround (B0GWM3XWX9)", "url": "https://www.amazon.de/WINMAU-Advance-Original-Dartboard-Surround/dp/B0GWM3XWX9" },
+    { "titel": "amazon.de – Unicorn Dartmate Tri-Stand (B01HXK0XLU)", "url": "https://www.amazon.de/Unicorn-Dartmate-Tri-Stand-mobiler-Dartst%C3%A4nder/dp/B01HXK0XLU" },
+    { "titel": "amazon.de – Holz-Backboard WDS (B0CJ3DY7VV)", "url": "https://www.amazon.de/Dartboard-Dart-Wandschutz-Tablet-Halter-Geflammter-Catchring/dp/B0CJ3DY7VV" },
+    { "titel": "amazon.de – Winmau Blade 6 + Cabinet (B09QX7FCNN, nicht verfügbar)", "url": "https://www.amazon.de/WINMAU-Blade-Professionelle-Dartscheibe-Dartschrank/dp/B09QX7FCNN" },
+    { "titel": "amazon.de – Unicorn Striker Home Darts Centre (B01DQUYJTI)", "url": "https://www.amazon.de/Unicorn-Bristle-Kabinette-Striker-Center/dp/B01DQUYJTI" },
+    { "titel": "Masters of Games – Winmau Diamond Plus", "url": "https://www.mastersofgames.com/cat/pub/darts-boards-diamond.htm" },
+    { "titel": "Avid Darts – Target Arc Cabinet Lighting System", "url": "https://aviddarts.com.au/products/target-arc-dartboard-cabinet-lighting-system" },
+    { "titel": "A-Z Darts – Target Arc Cabinet Light", "url": "https://a-zdarts.com/products/15-119699-target-arc-cabinet-light" },
+    { "titel": "Galaxus – Unicorn Striker Bristle Board", "url": "https://www.galaxus.nl/en/s5/product/unicorn-striker-bristle-board-dartboards-5827327" },
+    { "titel": "Awin-API (joined), Abruf 2026-10-21", "url": "https://api.awin.com/publishers/3117711/programmes?relationship=joined" }
+  ]
+}

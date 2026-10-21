@@ -184,7 +184,26 @@ function object(kind, t) {
     for (let i = 1; i < n; i++) g += l(x + (w * i) / n, y, x + (w * i) / n, y + h, 2, col) + l(x, y + (h * i) / n, x + w, y + (h * i) / n, 2, col);
     return g;
   };
+  // Steeldart-Scheibe (Sisal): 20 Segmente, Double-/Triple-Ring, Bull, schwarzer Zahlenring mit Markierungen
+  const board = (cx, cy, R) => {
+    const pt = (rr, deg) => { const t = ((deg - 90) * Math.PI) / 180; return `${(cx + rr * Math.cos(t)).toFixed(1)} ${(cy + rr * Math.sin(t)).toFixed(1)}`; };
+    const seg = (r1, r2, a1, a2, fill) => `<path d="M${pt(r1, a1)} L${pt(r2, a1)} A${r2} ${r2} 0 0 1 ${pt(r2, a2)} L${pt(r1, a2)} A${r1} ${r1} 0 0 0 ${pt(r1, a1)} Z" fill="${fill}"/>`;
+    let g = c(cx, cy, R, F);
+    for (let i = 0; i < 20; i++) {
+      const a1 = i * 18 - 9, a2 = a1 + 18, even = i % 2 === 0;
+      g += seg(R * 0.16, R * 0.78, a1, a2, even ? b : C.mint);
+      g += seg(R * 0.72, R * 0.78, a1, a2, even ? k : C.white);
+      g += seg(R * 0.44, R * 0.5, a1, a2, even ? k : C.white);
+      g += `<circle cx="${pt(R * 0.89, i * 18).split(" ")[0]}" cy="${pt(R * 0.89, i * 18).split(" ")[1]}" r="${(R * 0.03).toFixed(1)}" fill="${C.white}"/>`;
+    }
+    return `${g}${c(cx, cy, R * 0.78, "none", ` stroke="${F}" stroke-width="1.5"`)}${c(cx, cy, R * 0.16, C.leaf)}${c(cx, cy, R * 0.07, F)}`;
+  };
   switch (kind) {
+    case "dartboard": return `${board(160, 168, 132)}${l(176, 98, 248, 40, 5, F)}${l(176, 98, 186, 90, 3, C.white)}<path d="M240 46 L268 22 L276 44 L254 56 Z" fill="${C.leaf}"/>`; // Steeldart-Scheibe (Sisal) mit steckendem Pfeil
+    case "dartlight": return `${c(160, 168, 142, C.leaf, ' opacity=".22"')}${c(160, 168, 128, "none", ` stroke="${b}" stroke-width="18"`)}${Array.from({ length: 24 }, (_, i) => { const t = (i * 15 * Math.PI) / 180; return c(160 + 128 * Math.cos(t), 168 + 128 * Math.sin(t), 3.5, C.mint); }).join("")}${board(160, 168, 108)}${l(160, 22, 160, 40, 6)}`; // LED-Ringlicht um die Dartscheibe
+    case "dartcam": return `${c(146, 156, 118, "none", ` stroke="${b}" stroke-width="10"`)}${board(146, 156, 96)}${[300, 60, 180].map((deg) => { const t = ((deg - 90) * Math.PI) / 180, x = 146 + 118 * Math.cos(t), y = 156 + 118 * Math.sin(t); return `${r(x - 17, y - 13, 34, 26, 7, F)}${c(x, y, 8, k)}${c(x, y, 3, C.white)}`; }).join("")}${r(206, 222, 94, 70, 8, F)}${r(212, 228, 82, 58, 4, C.mint)}${r(220, 236, 30, 18, 3, k)}${r(256, 236, 30, 18, 3, b)}${r(220, 262, 66, 6, 3, F, ' opacity=".5"')}${r(220, 274, 46, 6, 3, F, ' opacity=".35"')}`; // Kamera-Ring (3 Kameras) um die Scheibe plus Tablet mit Punktestand
+    case "dartcabinet": { const fr = b === F ? C.green : b; return `${r(98, 50, 124, 236, 6, fr)}${r(108, 60, 104, 216, 4, F)}${board(160, 150, 46)}${[0, 1, 2].map((i) => c(134 + i * 26, 236, 6, C.leaf)).join("")}${[0, 1, 2].map((i) => l(140 + i * 26, 236, 152 + i * 26, 262, 3, C.white)).join("")}<path d="M98 50 L36 70 V266 L98 286 Z" fill="${fr}"/><path d="M90 66 L44 81 V255 L90 270 Z" fill="${F}"/>${[0, 1, 2, 3].map((i) => l(52, 108 + i * 34, 82, 104 + i * 34, 3, C.white)).join("")}<path d="M222 50 L284 70 V266 L222 286 Z" fill="${fr}"/><path d="M230 66 L276 81 V255 L230 270 Z" fill="${F}"/>${[0, 1, 2, 3].map((i) => l(238, 104 + i * 34, 268, 108 + i * 34, 3, C.white)).join("")}${c(98, 168, 5, k)}${c(222, 168, 5, k)}`; } // Holz-Kabinett mit offenen Türen (Kreidetafeln) und Scheibe
+    case "dartmat": return `${board(160, 72, 46)}<path d="M120 132 H200 L292 300 H28 Z" fill="${b}"/><path d="M128 140 H192 L270 290 H50 Z" fill="none" stroke="${C.white}" stroke-width="3" stroke-dasharray="10 8" opacity=".7"/>${r(54, 254, 212, 14, 4, k)}${l(160, 150, 160, 236, 3, C.mint)}<path d="M152 160 L160 148 L168 160 M152 226 L160 238 L168 226" stroke="${C.mint}" stroke-width="3" fill="none"/>`; // Bodenmatte mit Abwurflinie vor der Scheibe
     case "net": return `${r(70, 60, 180, 190, 10, b)}${grid(78, 68, 164, 174, 6)}${l(70, 250, 40, 296)}${l(250, 250, 280, 296)}${l(160, 250, 160, 296)}${c(222, 120, 12, C.leaf)}`;
     case "wall": return `${r(56, 52, 208, 240, 8, b)}${[0, 1, 2, 3, 4].map((i) => l(56, 92 + i * 40, 264, 92 + i * 40, 3, a)).join("")}${l(56, 132, 264, 132, 4, C.white)}${c(200, 200, 22, "none", ` stroke="${C.white}" stroke-width="5"`)}`;
     case "trainer": return `${r(60, 268, 120, 26, 10, b)}<path d="M120 268 Q170 150 236 118" stroke="${F}" stroke-width="4" fill="none" stroke-dasharray="6 6"/>${c(240, 112, 22, C.leaf)}<path d="M222 104 Q240 116 258 104" stroke="${C.white}" stroke-width="3" fill="none"/>`;
@@ -251,7 +270,7 @@ function object(kind, t) {
   }
 }
 
-const OBJECTS = new Set(["blower", "net", "wall", "trainer", "machine", "balls", "desk", "monitor", "dock", "keyboard", "mouse", "lamp", "webcam", "screen", "mic", "mug", "turf", "tiles", "cage", "hoop", "goal", "fence", "flood", "pingpong", "shuffle", "paddle", "beanbag", "chair", "arcade", "pinball", "gametable", "dart", "wheel", "vr", "projector", "neon", "panel", "console", "fridge", "triangle", "slide", "climbwall", "ladder", "swing", "tent", "mat", "tower", "sandbox", "zipline", "bouncy", "waterslide", "shelf", "wardrobe", "kidtable", "rug", "sideboard", "cloth", "vitrine", "frame", "minifig", "ledkit", "snowblower"]);
+const OBJECTS = new Set(["blower", "net", "wall", "trainer", "machine", "balls", "desk", "monitor", "dock", "keyboard", "mouse", "lamp", "webcam", "screen", "mic", "mug", "turf", "tiles", "cage", "hoop", "goal", "fence", "flood", "pingpong", "shuffle", "paddle", "beanbag", "chair", "arcade", "pinball", "gametable", "dart", "wheel", "vr", "projector", "neon", "panel", "console", "fridge", "triangle", "slide", "climbwall", "ladder", "swing", "tent", "mat", "tower", "sandbox", "zipline", "bouncy", "waterslide", "shelf", "wardrobe", "kidtable", "rug", "sideboard", "cloth", "vitrine", "frame", "minifig", "ledkit", "snowblower", "dartboard", "dartlight", "dartcam", "dartcabinet", "dartmat"]);
 
 function objectVisual(product, uid) {
   const t = TONES[product.visual?.tone || "forest"];
