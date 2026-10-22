@@ -1,0 +1,533 @@
+{
+  "slug": "bestes-huepfpolster-kinder",
+  "stand": "2026-10-22",
+  "hinweisRecherche": "amazon.de, linodino.de, funzy.de, dadslife.de, wunschkind-community.de, Safety Gate (ec.europa.eu), produktwarnung.eu und baua.de waren per Direktabruf (WebFetch/curl) nicht erreichbar (Proxy-Sperre/DNS). Alle ASINs und Produktangaben stammen aus WebSearch-Treffern auf amazon.de-/dp/-Seiten (Titel und Snippets) bzw. Herstellerseiten. Verfügbarkeit und Variante vor Veröffentlichung stichprobenartig prüfen.",
+  "criteria": [
+    {
+      "key": "federung",
+      "label": "Federkern & Sprunggefühl",
+      "weight": 0.3,
+      "description": "Echter (Taschen-)Federkern statt reinem Schaum, Polsterhöhe, Sprungkraft laut Erfahrungsberichten, Formstabilität."
+    },
+    {
+      "key": "sicherheit",
+      "label": "Sicherheit & Alterseignung",
+      "weight": 0.3,
+      "description": "Herstellerangaben zu Mindestalter und Maximalgewicht, bodennahe Höhe (Kipp-/Sturzrisiko), rutschfeste Unterseite, verdeckter Reißverschluss, Aufsichtshinweis."
+    },
+    {
+      "key": "bezug",
+      "label": "Bezug, Material & Schadstoffe",
+      "weight": 0.2,
+      "description": "Abnehmbarer, waschbarer Bezug (Temperatur), Oeko-Tex Standard 100 als Herstellerangabe, Material (Cord, Webstoff, Kunstleder), Verarbeitung laut Rezensionen."
+    },
+    {
+      "key": "alltag",
+      "label": "Platz, Lautstärke & Zweitnutzen",
+      "weight": 0.2,
+      "description": "Liegefläche und Gewicht (Wegräumen), Geräusch für Nachbarn darunter, Nutzung als Sitzpolster/Teil eines Spielsofas, Indoor/Outdoor."
+    }
+  ],
+  "priceTiers": [
+    {
+      "tier": 1,
+      "label": "bis ca. 100 €"
+    },
+    {
+      "tier": 2,
+      "label": "ca. 100–160 €"
+    },
+    {
+      "tier": 3,
+      "label": "über ca. 160 €"
+    }
+  ],
+  "products": [
+    {
+      "rank": 1,
+      "label": "Beste Gesamtwahl",
+      "name": "Funzy Hüpfpolster für Kinder – Hüpfmatratze mit Taschenfederkern, Cord-Bezug, 85 x 65 x 21 cm",
+      "brand": "Funzy",
+      "variant": "Cord Cream Beige, 85 x 65 x 21 cm (weitere Farben: Kirschblütenrosa, Koala-Grau, Lagunenblau, Salbeigrün)",
+      "priceTier": 2,
+      "ratings": {
+        "federung": 8.5,
+        "sicherheit": 8.0,
+        "bezug": 9.0,
+        "alltag": 8.5
+      },
+      "gesamt": 8.45,
+      "bestFor": "Familien in der Wohnung, die ein kompaktes, kräftig federndes Hüpfpolster ab ca. 18 Monaten suchen, das auch als Sitzpolster neben dem Funzy-Spielsofa taugt.",
+      "fakten": [
+        {
+          "text": "Taschenfederkern mit PUR-Schaum-Polsterung; Maße 85 x 65 x 21 cm.",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B0FCYYD56N",
+          "datum": "2026-10-22"
+        },
+        {
+          "text": "Ausgelegt für maximal 40 kg; geeignet ab 18 Monaten, nicht für Kinder unter 18 Monaten.",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B0FCYV2FD4",
+          "datum": "2026-10-22"
+        },
+        {
+          "text": "Cord-Bezug per Reißverschluss abnehmbar, bei 30 °C waschbar; OEKO-TEX STANDARD 100 zertifiziert.",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B0FCYYD56N",
+          "datum": "2026-10-22"
+        },
+        {
+          "text": "Gewicht ca. 6,5 kg; drinnen und draußen nutzbar, soll aber trocken bleiben und eben liegen.",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B0FCYV2FD4",
+          "datum": "2026-10-22"
+        },
+        {
+          "text": "Rund 4,6 von 5 Sternen bei etwa 45 Bewertungen (Stand Websuche).",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B0FCYV2FD4",
+          "datum": "2026-10-22"
+        }
+      ],
+      "pros": [
+        "Echter Taschenfederkern, mit 21 cm das höchste Polster im Vergleich – spürbare Federung",
+        "Kleinste Stellfläche (85 x 65 cm), mit 6,5 kg leicht wegzuräumen",
+        "Oeko-Tex-Cordbezug abnehmbar und bei 30 °C waschbar, fünf Farben passend zur Funzy-Spielsofa-Reihe"
+      ],
+      "cons": [
+        "Kleine Sprungfläche – für zwei Kinder gleichzeitig ungeeignet",
+        "Wie alle Polster nur bis 40 kg (Herstellerangabe), für ältere Schulkinder zu knapp",
+        "Bisher wenige Erfahrungsberichte, kein unabhängiger Test"
+      ],
+      "specs": {
+        "Maße": "85 x 65 x 21 cm",
+        "Kern": "Taschenfederkern + PUR-Schaum (Herstellerangabe)",
+        "Maximalgewicht": "40 kg (Herstellerangabe)",
+        "Alter": "ab 18 Monaten (Herstellerangabe)",
+        "Bezug": "Cord, abnehmbar, 30 °C, OEKO-TEX Standard 100",
+        "Gewicht": "ca. 6,5 kg"
+      },
+      "asin": "B0FCYYD56N",
+      "query": "Funzy Hüpfpolster für Kinder Taschenfederkern 85 x 65 x 21 cm",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "Funzy Hüpfpolster für Kinder – Hüpfmatratze mit Taschenfederkern … Cord Cream Beige, 85 x 65 x 21 cm (amazon.de/dp/B0FCYYD56N; Variante Kirschblütenrosa: B0FCYV2FD4)"
+    },
+    {
+      "rank": 2,
+      "label": "Beste Wahl für drinnen & draußen",
+      "name": "traturio Hüpfmatratze Kinder Indoor/Outdoor in tollen Farben für alle kleinen Hüpfer 107x70x17 cm",
+      "brand": "traturio",
+      "variant": "Mittelgrau/eisblau, 107 x 70 x 17 cm",
+      "priceTier": 2,
+      "ratings": {
+        "federung": 6.5,
+        "sicherheit": 8.0,
+        "bezug": 7.5,
+        "alltag": 7.5
+      },
+      "gesamt": 7.35,
+      "bestFor": "Familien, die ein Polster mit robuster Turnmatten-Unterseite suchen, das es auch als Outdoor-Variante für Terrasse oder Garten gibt.",
+      "fakten": [
+        {
+          "text": "Stahlfedern bzw. Taschenfederkern mit Komfortschaum im Inneren; Maße 107 x 70 x 17 cm, Gewicht ca. 8 kg.",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B07ZW9SX4V",
+          "datum": "2026-10-22"
+        },
+        {
+          "text": "Belastbar bis 40 kg.",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B0DKPBT1WY",
+          "datum": "2026-10-22"
+        },
+        {
+          "text": "Made in Germany; Oberseite aus waschbarem Webstoff nach Oeko-Tex 100, Seitenteile abwaschbar, Unterseite aus rutschfestem Turnmattenmaterial.",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B07ZW9SX4V",
+          "datum": "2026-10-22"
+        },
+        {
+          "text": "Mehrere Käufer beschreiben die Sprungkraft als eher gering („in keinster Weise mit einem Trampolin vergleichbar“).",
+          "art": "Bericht",
+          "quelle": "https://www.amazon.de/dp/B07ZW9SX4V",
+          "datum": "2026-10-22"
+        },
+        {
+          "text": "Kein Stiftung-Warentest-Ergebnis für Hüpfpolster; Vergleichsportal vergibt redaktionelle Note 1,5 bzw. 1,8.",
+          "art": "Bericht",
+          "quelle": "https://www.beste-testsieger.de/produkte/traturio-huepfpolster/",
+          "datum": "2026-10-22"
+        }
+      ],
+      "pros": [
+        "Eigene Outdoor-Varianten für Terrasse und Garten, größere Sprungfläche als das Funzy",
+        "Rutschfeste Unterseite aus Turnmattenmaterial, laut Anbieter Made in Germany (nicht unabhängig bestätigt)",
+        "Viele Farben und eigene Outdoor-Varianten, größere Modelle (bis 70 kg) im gleichen Programm"
+      ],
+      "cons": [
+        "Federung laut Rezensionen weicher/schwächer als bei Funzy und Linodino",
+        "Pflegeangaben uneinheitlich (40 °C vs. „nur Handwäsche“), Bezug nicht komplett abnehmbar",
+        "Viele Farbvarianten mit eigenen ASINs – einzelne Farben zeitweise nicht lieferbar"
+      ],
+      "specs": {
+        "Maße": "107 x 70 x 17 cm (auch 97 x 70 x 17 cm)",
+        "Kern": "Stahlfedern/Taschenfederkern + Komfortschaum (Herstellerangabe)",
+        "Maximalgewicht": "40 kg (Herstellerangabe)",
+        "Alter": "keine eindeutige Herstellerangabe (Größe „Kleinkind“)",
+        "Bezug": "Webstoff-Oberseite Oeko-Tex 100, rutschfeste Turnmatten-Unterseite",
+        "Gewicht": "ca. 8 kg"
+      },
+      "asin": "B07ZW9RY5H",
+      "query": "traturio Hüpfmatratze 107x70x17 cm",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "traturio Hüpfmatratze Kinder Indoor/Outdoor in tollen Farben für alle kleinen Hüpfer 107x70x17 cm & 97x70x17 cm (Mittelgrau/eisblau, 107.00) – Verfügbarkeit per Snippet nicht bestätigt; Variante stahlblau/eisblau B07ZW9SX4V ist „derzeit nicht verfügbar“"
+    },
+    {
+      "rank": 3,
+      "label": "Beste Wahl für Kleinkinder",
+      "name": "Linodino Hüpfpolster für Kinder 107 x 70 x 17 cm",
+      "brand": "Linodino",
+      "variant": "Cord-Bezug (u. a. Grau, Grün, Lila, Gelb), 107 x 70 x 17 cm",
+      "priceTier": 2,
+      "ratings": {
+        "federung": 8.0,
+        "sicherheit": 8.5,
+        "bezug": 8.5,
+        "alltag": 7.5
+      },
+      "gesamt": 8.15,
+      "bestFor": "Kleinkinder ab ca. 18 Monaten, die sicher stehen und laufen – flaches, großes Polster, das optisch zum Linodino-Spielsofa passt.",
+      "fakten": [
+        {
+          "text": "Federkern in PUR-Schaumstoff; ca. 107 x 70 x 17 cm, ca. 6,5 kg.",
+          "art": "Herstellerangabe",
+          "quelle": "https://linodino.de/products/linodino-huepfpolster",
+          "datum": "2026-10-22"
+        },
+        {
+          "text": "Empfohlen ab ca. 18 Monaten, sobald das Kind sicher steht und läuft; maximal 40 kg. Nutzung durch Erwachsene auf eigenes Risiko.",
+          "art": "Herstellerangabe",
+          "quelle": "https://linodino.de/products/linodino-huepfpolster",
+          "datum": "2026-10-22"
+        },
+        {
+          "text": "Cord-Bezug abnehmbar, bei 30 °C maschinenwaschbar; OEKO-TEX Standard 100; rutschfeste Unterseite; Tragegriff.",
+          "art": "Herstellerangabe",
+          "quelle": "https://linodino.de/products/linodino-huepfpolster",
+          "datum": "2026-10-22"
+        },
+        {
+          "text": "Praxistest über mehrere Wochen lobt Sprungkraft und rutschfeste Unterseite (Gesamtwertung 98 %); Affiliate-Portal, kein Institutstest.",
+          "art": "Bericht",
+          "quelle": "https://dadslife.de/produkte/huepfpolster-linodino-fuer-kinder/",
+          "datum": "2026-10-22"
+        },
+        {
+          "text": "Wird vakuumverpackt geliefert; Neugeruch verfliegt laut Bericht nach ca. drei Tagen Lüften.",
+          "art": "Bericht",
+          "quelle": "https://dadslife.de/huepfmatratze/",
+          "datum": "2026-10-22"
+        },
+        {
+          "text": "Auf amazon.de rund 4,8 von 5 Sternen bei ca. 52 Bewertungen (laut Suchtreffer, Listing nicht direkt bestätigt).",
+          "art": "Bericht",
+          "quelle": "https://dadslife.de/huepfmatratze/",
+          "datum": "2026-10-22"
+        }
+      ],
+      "pros": [
+        "Ausdrückliche Altersangabe ab ca. 18 Monaten (Herstellerangabe), flache 17 cm",
+        "Federkern in PUR-Schaum, Sprungkraft laut Praxisbericht gut; rutschfeste Unterseite",
+        "Oeko-Tex-Cordbezug bei 30 °C waschbar, passt zum Linodino-Spielsofa (Ergänzung zur Spielecke)"
+      ],
+      "cons": [
+        "amazon.de-Listing per Suche nicht eindeutig bestätigt – Link führt vorerst zur Amazon-Suche",
+        "Bis 40 kg – für ältere Geschwister begrenzt",
+        "Mit 107 x 70 cm mehr Platzbedarf als das Funzy-Polster"
+      ],
+      "specs": {
+        "Maße": "ca. 107 x 70 x 17 cm",
+        "Kern": "Federkern in PUR-Schaumstoff (Herstellerangabe)",
+        "Maximalgewicht": "40 kg (Herstellerangabe)",
+        "Alter": "ab ca. 18 Monaten (Herstellerangabe)",
+        "Bezug": "Cord, abnehmbar, 30 °C, OEKO-TEX Standard 100",
+        "Gewicht": "ca. 6,5 kg"
+      },
+      "asin": null,
+      "query": "Linodino Hüpfpolster für Kinder 107 x 70 x 17 cm Hüpfmatratze Cord Federkern",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "keine – amazon.de-/dp/-Seite trotz mehrerer Suchen nicht gefunden (nur Snippets ohne URL); query belassen"
+    }
+  ],
+  "top5": [
+    {
+      "name": "Betzold Hüpfpolster S – Kinder-Hüpfmatratze 97 x 70 x 17 cm, belastbar bis 40 kg",
+      "warum": "Kita-erprobt vom Schul- und Kita-Ausstatter: gummierte, rutschfeste Unterseite, Bezug bei 40 °C waschbar, Altersangabe 2–12 Jahre – teurer, und ob ein Federkern verbaut ist, geht aus dem Listing nicht hervor (Füllung als Schaumstoff angegeben). Für Mehrfamilienhäuser: Schaumfüllung ist geräuscharm.",
+      "fakten": [
+        {
+          "text": "97 x 70 x 17 cm, ca. 8 kg, belastbar bis 40 kg, empfohlen 2–12 Jahre, Nutzung nur unter direkter Aufsicht Erwachsener.",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B0DZVJJ945",
+          "datum": "2026-10-22"
+        },
+        {
+          "text": "Unterseite mit rutschfester Gummi-Oberfläche; Bezug bei 40 °C (Schonwaschgang) waschbar.",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B0D2KW999M",
+          "datum": "2026-10-22"
+        },
+        {
+          "text": "Gutes Sprungverhalten und hochwertige Verarbeitung, Preis eher hoch.",
+          "art": "Bericht",
+          "quelle": "https://dadslife.de/huepfmatratze/",
+          "datum": "2026-10-22"
+        },
+        {
+          "text": "Dasselbe Listing nennt zugleich „nicht für Kinder unter 3 Jahren geeignet“ – Altersangabe widersprüchlich (2–12 Jahre vs. ab 3 Jahren).",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B0DZVJJ945",
+          "datum": "2026-10-22"
+        }
+      ],
+      "asin": "B0DZVJJ945",
+      "query": "Betzold Hüpfpolster S 97 x 70 x 17 cm",
+      "where": null
+    },
+    {
+      "name": "traturio Hüpfmatratze für alle kleinen und großen Hüpfer 130x90x25cm, blau/eisblau",
+      "warum": "XL mit Stahlfedern für Geschwister und Schulkinder: 130 x 90 x 25 cm, laut Hersteller bis 70 kg – braucht aber dauerhaft Platz.",
+      "fakten": [
+        {
+          "text": "130 x 90 x 25 cm, belastbar bis 70 kg (eine Beschreibung nennt 60 kg). Variante blau/eisblau aktiv mit Preis laut Snippet; die frühere Variante B07ZKY9QZC ist „derzeit nicht verfügbar“. Gewicht (18 kg) und Waschtemperatur nur für B07ZKY9QZC belegt, daher nicht übernommen.",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B07ZWG9M8P",
+          "datum": "2026-10-22"
+        }
+      ],
+      "asin": "B07ZWG9M8P",
+      "query": "traturio Hüpfmatratze 130x90x25 cm blau eisblau",
+      "where": null
+    },
+    {
+      "name": "Betzold Hüpfpolster XL – Indoor-Sprungkissen 140 x 90 x 21 cm",
+      "warum": "Größte Fläche im Vergleich für zwei Kinder oder Kita-Gruppen, bis 70 kg – aber PU-Schaum statt Federkern (eher Weichboden als Hüpfmatratze), 14,6 kg schwer.",
+      "fakten": [
+        {
+          "text": "140 x 90 x 21 cm, 14,6 kg, bis 70 kg belastbar; Mindestalter laut Hersteller 24 Monate, nur unter Aufsicht.",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B0F267FCRT",
+          "datum": "2026-10-22"
+        },
+        {
+          "text": "Kunstlederbezug, Füllung aus Polyurethan-Schaum (PU), Turnmatten-Unterseite.",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B0F267FCRT",
+          "datum": "2026-10-22"
+        }
+      ],
+      "asin": "B0F267FCRT",
+      "query": "Betzold Hüpfpolster XL Indoor 140 x 90 x 21 cm",
+      "where": null
+    },
+    {
+      "name": "Jump Hüpfpolster blau für Kinder ab 3 Jahren bis 40 kg – 99 x 75 x 18 cm",
+      "warum": "Günstiger Einstieg (Preisklasse 1) mit Oeko-Tex-Bezug, 30 °C waschbar und rutschfester Unterseite – Angaben zum Kern widersprüchlich (Federkern im Text, PU-Polsterung in den Materialdaten), laut Rezension für schwerere Kinder zu weich.",
+      "fakten": [
+        {
+          "text": "99 x 75 x 18 cm, ab 3 Jahren, bis 40 kg, ca. 6,2 kg; Bezug abnehmbar, 30 °C; Oeko-Tex Standard 100; CE.",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B0CV5FK6DP",
+          "datum": "2026-10-22"
+        },
+        {
+          "text": "Ein Käufer berichtet, das Polster gebe bei schwereren Kindern schnell nach.",
+          "art": "Bericht",
+          "quelle": "https://www.amazon.de/dp/B0CV5FK6DP",
+          "datum": "2026-10-22"
+        }
+      ],
+      "asin": "B0CV5FK6DP",
+      "query": "Jump Hüpfpolster 99 x 75 x 18 cm blau",
+      "where": null
+    },
+    {
+      "name": "SportPlus Fitness Trampolin für Zuhause Ø 126 cm – leise Gummiseilfederung, 5-fach höhenverstellbarer Haltegriff, bis 130 kg",
+      "warum": "Alternative mit Haltegriff für Schulkinder ab 6 Jahren (und Eltern): Gummiseilfederung statt Stahlfedern ist leise, Griff 82–117 cm verstellbar – ein Fitnessgerät, kein Kleinkindspielzeug; Kinderärzte raten unter 6 Jahren vom Trampolinspringen ab.",
+      "fakten": [
+        {
+          "text": "Ø ca. 126 cm (Sprungtuch ca. 95 cm), Haltegriff 5-fach verstellbar 82–117 cm, Nutzergewicht bis 130 kg; laut Anbieter TÜV SÜD sicherheitsgeprüft.",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B0D8BLNK1F",
+          "datum": "2026-10-22"
+        },
+        {
+          "text": "Bei einem verwandten SportPlus-Listing (nicht B0D8BLNK1F) bemängeln einzelne Rezensionen einen sich lockernden Haltegriff bzw. gerissene Gummiseile.",
+          "art": "Bericht",
+          "quelle": "https://www.amazon.de/dp/B01N8W1WI4",
+          "datum": "2026-10-22"
+        },
+        {
+          "text": "Kinder unter 6 Jahren gehören laut Kinder- und Jugendärzten nicht auf ein Trampolin, auch nicht auf Mini-Trampoline; nie zu mehreren springen, keine Saltos.",
+          "art": "Bericht",
+          "quelle": "https://www.kinderaerzteimnetz.de/fileadmin/user_upload/Trampoline_GE.pdf",
+          "datum": "2026-10-22"
+        }
+      ],
+      "asin": "B0D8BLNK1F",
+      "query": "SportPlus Fitness Trampolin Ø 126 cm Haltegriff",
+      "where": null
+    }
+  ],
+  "tests": [
+    {
+      "institut": "Stiftung Warentest / Öko-Test",
+      "heft": "–",
+      "ergebnis": "Kein Test von Hüpfpolstern/Hüpfmatratzen gefunden (auch laut vergleich.org und beste-testsieger.de kein Ergebnis).",
+      "quelle": "https://www.vergleich.org/huepfpolster/"
+    },
+    {
+      "institut": "Stiftung Warentest",
+      "heft": "test 04/2019 (laut Berichten)",
+      "ergebnis": "Nur Gartentrampoline geprüft (10 Modelle; Sicherheit 25 %, Schadstoffe 5 %) – nicht auf Hüpfpolster oder Indoor-Minitrampoline übertragbar.",
+      "quelle": "https://www.test.de/Trampoline-im-Test-5451736-5451743/"
+    }
+  ],
+  "warnungen": [
+    "Keine Rückrufe oder Safety-Gate-Meldungen zu Hüpfpolstern/Hüpfmatratzen (Funzy, Linodino, traturio, Betzold) per Websuche gefunden; Safety Gate, produktwarnung.eu und BAuA waren direkt nicht abrufbar – vor Veröffentlichung manuell prüfen.",
+    "Alle Top-3-Polster sind laut Hersteller nur bis 40 kg belastbar; Betzold verlangt Nutzung „unter direkter Aufsicht eines Erwachsenen“ (https://www.amazon.de/dp/B0DZVJJ945).",
+    "Mindestalter laut Hersteller: Funzy und Linodino ab 18 Monaten, Betzold S laut Listing nicht unter 3 Jahren (an anderer Stelle 2–12 Jahre, widersprüchlich), Betzold XL ab 24 Monaten, Jump ab 3 Jahren – im Text als Herstellerangaben kennzeichnen.",
+    "Trampolin-Alternative: Laut Kinderärzte-im-Netz-Merkblatt (Bezug auf deutsche Kinder- und Jugendärzte und AAP) Kinder unter 6 Jahren nicht aufs Trampolin, nur einzeln springen, keine Saltos (https://www.kinderaerzteimnetz.de/fileadmin/user_upload/Trampoline_GE.pdf); bfu (Schweiz): unter 6 Jahren nicht geeignet (https://assets01.sdd1.ch/assets/lbwp-cdn/mobilesport/files/1696443447/mobilesport-freizeit-trampolin-sicher-springen-sicher-landen.pdf).",
+    "Sicherheitstipp für den Ratgeber: Polster mit Abstand zu Möbelkanten, Heizkörpern und Fenstern aufstellen; rutschfeste Unterseite auf glatten Böden prüfen – für die Fallschutz-Frage auf /fallschutzmatten/ verlinken.",
+    "Prüfsiegel Oeko-Tex Standard 100 und CE sind Herstellerangaben; GS-/TÜV-Prüfung für keines der Hüpfpolster belegt."
+  ],
+  "verworfen": [
+    {
+      "name": "JAKO-O Hüpfpolster (Federkern)",
+      "grund": "Nicht als amazon.de-Listing auffindbar; JAKO-O ist nicht im Awin-Netzwerk (API-Suche ohne Treffer)."
+    },
+    {
+      "name": "malwim Hochwertige Hüpfmatratze 107 x 70 x 17 cm (B0DTZ7Z5DX)",
+      "grund": "Made in Germany, aber Kunstleder und keine Angaben zu Federkern, Belastbarkeit oder Alter im Listing."
+    },
+    {
+      "name": "FLIXi Hüpfmatratze (B07FF5S7SQ u. a.)",
+      "grund": "150 Taschenfedern laut Listing, aber widersprüchliche Alters- und Herkunftsangaben, keine Maximalbelastung."
+    },
+    {
+      "name": "CALLMEJOY Hüpfpolster (B0F7RTZN9X), Generisch Hüpfpolster 97x70x17 (B0HC4142NZ), Bampti, KL-Toys, EDUPLAY",
+      "grund": "Austauschbare Händler-/No-Name-Ware ohne belastbare Herstellerangaben – nicht für Top 3/Top 5."
+    },
+    {
+      "name": "traturio Hüpfmatratze 107x70x25 cm ab 4 Jahre bis 70 kg (B0BXXZ8LZY)",
+      "grund": "Listing „derzeit nicht verfügbar“, Höhenangabe widersprüchlich (17 vs. 25 cm)."
+    },
+    {
+      "name": "Betzold Hüpfpolster-Set mit Rückenlehne (B0DFC3NJGB)",
+      "grund": "Interessanter Zweitnutzen (Sitzecke), aber hochpreisig und Kern im Listing nicht als Federkern beschrieben; ggf. im Text erwähnen."
+    },
+    {
+      "name": "COSTWAY Ø102 cm Kinder Trampolin mit Haltegriff, JOY SPOT Ø91 cm",
+      "grund": "Kindertrampoline mit Haltegriff sind fast nur No-Name; zudem Zielgruppe 3–6 Jahre, für die Kinderärzte vom Trampolin abraten."
+    },
+    {
+      "name": "HUDORA Fitness-Trampolin faltbar 140 (B00UFT6FRS)",
+      "grund": "Kein Haltegriff belegt, widersprüchliche Altershinweise im Listing."
+    }
+  ],
+  "offen": [
+    "Linodino Hüpfpolster (Top 3, Platz 3): keine amazon.de-/dp/-Seite per Suche gefunden, obwohl Vergleichsportale ein Amazon-Listing (ca. 52 Bewertungen) nennen – ASIN nicht geraten, `query` belassen; Orchestrator/Nutzer bitte ASIN manuell nachtragen.",
+    "Betzold Hüpfpolster S: zwei Listings (B0DZVJJ945 „Hüpfpolster S“, B0D2KW999M „Hüpfpolster Kinder-Hüpfmatratze 97 x 70 x 17 cm“); Cord-Variante B0G431MXZT verweist intern auf B0G42Y3SC3. Ob ein Federkern verbaut ist, ist nicht belegt (Cord-Listing: Füllung Schaumstoff) – daher nur Top 5.",
+    "Funzy: Hersteller-/Firmenangaben und Garantie nicht ermittelbar (funzy.de nicht erreichbar); Oeko-Tex-Zertifikatsnummer nicht geprüft.",
+    "Awin: Nur Rewe, Radwelt, brickzonehub joined – keine passende Freischaltung. JAKO-O und Betzold sind nicht im Awin-Netzwerk. Gleichwertige Amazon-Produkte gewählt; kein neuer Händler zwingend nötig.",
+    "Optional (nicht nötig, nur falls Federkern-Polster „Made in Germany“ ergänzt werden soll): Baur Versand DE (Awin-ID 14537, Status notjoined) führt die Hipp-Hopp Hüpfpolster S 97 x 70 x 17 cm mit Stahlfedern, Made in Germany (https://www.baur.de/p/AKLBB1874056113). Bewerbungstext-Entwurf: „toptop.shop ist ein redaktionelles Vergleichsportal der TanMeOn GmbH mit Kaufberatungen für Familien, u. a. im Bereich Kinder-Spielplatz (Indoor-Spielgeräte, Hüpfpolster, Spielsofas). Wir verlinken ausgewählte Produkte mit transparenter Werbekennzeichnung aus redaktionellen Ratgebern mit Kriterien, Vor- und Nachteilen. Wir möchten Hüpfpolster und Kinderzimmer-Ausstattung von Baur in unsere Vergleiche aufnehmen. Kein Incentive-, Gutschein- oder Brand-Bidding-Traffic.“ Ebenfalls notjoined und passend: Babywalz DE (Awin-ID 12387, führt solini-Hüpfpolster mit Federkern).",
+    "Keine Preise im Text verwenden; Preisklassen laut priceTiers (Funzy/Linodino/traturio ca. 129–134 €, Betzold S ca. 150 €, Jump ca. 80–90 €, Stand Websuche).",
+    "Rückrufdatenbanken (Safety Gate, produktwarnung.eu, BAuA) waren nicht direkt abrufbar – vor Veröffentlichung manuell gegenprüfen.",
+    "Korrekturrunde 1 (Prüfbericht): „Linodino leise“ ohne Quelle gestrichen; „traturio größte/meiste Fläche“ gestrichen (Linodino gleich groß); Top-5-traturio XL auf aktive Variante B07ZWG9M8P umgestellt. traturio-Platz-2-ASIN B07ZW9RY5H laut Prüfer wahrscheinlich aktiv. Linodino-ASIN weiterhin manuell nachtragen."
+  ],
+  "quellen": [
+    {
+      "titel": "amazon.de – Funzy Hüpfpolster Cord Cream Beige 85 x 65 x 21 cm",
+      "url": "https://www.amazon.de/dp/B0FCYYD56N"
+    },
+    {
+      "titel": "amazon.de – Funzy Hüpfpolster Cord Kirschblütenrosa",
+      "url": "https://www.amazon.de/dp/B0FCYV2FD4"
+    },
+    {
+      "titel": "amazon.de – traturio Hüpfmatratze 107x70x17 Mittelgrau/eisblau",
+      "url": "https://www.amazon.de/dp/B07ZW9RY5H"
+    },
+    {
+      "titel": "amazon.de – traturio Hüpfmatratze 107x70x17 stahlblau/eisblau (nicht verfügbar)",
+      "url": "https://www.amazon.de/dp/B07ZW9SX4V"
+    },
+    {
+      "titel": "amazon.de – traturio Hüpfmatratze 130x90x25 cm blau/eisblau",
+      "url": "https://www.amazon.de/dp/B07ZWG9M8P"
+    },
+    {
+      "titel": "Linodino – Hüpfpolster für Kinder ab 18 Monaten (Herstellerseite)",
+      "url": "https://linodino.de/products/linodino-huepfpolster"
+    },
+    {
+      "titel": "dadslife – Hüpfpolster Linodino (Praxistest)",
+      "url": "https://dadslife.de/produkte/huepfpolster-linodino-fuer-kinder/"
+    },
+    {
+      "titel": "dadslife – Die besten Hüpfmatratzen für Kinder",
+      "url": "https://dadslife.de/huepfmatratze/"
+    },
+    {
+      "titel": "wunschkind-community – Die besten Hüpfpolster für Kinder",
+      "url": "https://wunschkind-community.de/huepfpolster/"
+    },
+    {
+      "titel": "amazon.de – Betzold Hüpfpolster S",
+      "url": "https://www.amazon.de/dp/B0DZVJJ945"
+    },
+    {
+      "titel": "amazon.de – Betzold Hüpfpolster 97 x 70 x 17 cm",
+      "url": "https://www.amazon.de/dp/B0D2KW999M"
+    },
+    {
+      "titel": "amazon.de – Betzold Hüpfpolster XL Indoor 140 x 90 x 21 cm",
+      "url": "https://www.amazon.de/dp/B0F267FCRT"
+    },
+    {
+      "titel": "amazon.de – Jump Hüpfpolster 99 x 75 x 18 cm",
+      "url": "https://www.amazon.de/dp/B0CV5FK6DP"
+    },
+    {
+      "titel": "amazon.de – SportPlus Fitness Trampolin Ø 126 cm mit Haltegriff",
+      "url": "https://www.amazon.de/dp/B0D8BLNK1F"
+    },
+    {
+      "titel": "vergleich.org – Hüpfpolster (kein Warentest/Öko-Test)",
+      "url": "https://www.vergleich.org/huepfpolster/"
+    },
+    {
+      "titel": "beste-testsieger.de – traturio Hüpfpolster",
+      "url": "https://www.beste-testsieger.de/produkte/traturio-huepfpolster/"
+    },
+    {
+      "titel": "Stiftung Warentest – Trampoline im Test",
+      "url": "https://www.test.de/Trampoline-im-Test-5451736-5451743/"
+    },
+    {
+      "titel": "Kinderärzte im Netz – Merkblatt Trampoline",
+      "url": "https://www.kinderaerzteimnetz.de/fileadmin/user_upload/Trampoline_GE.pdf"
+    },
+    {
+      "titel": "mobilesport/bfu – Trampolin: sicher springen, sicher landen",
+      "url": "https://assets01.sdd1.ch/assets/lbwp-cdn/mobilesport/files/1696443447/mobilesport-freizeit-trampolin-sicher-springen-sicher-landen.pdf"
+    },
+    {
+      "titel": "Baur – Hipp-Hopp Hüpfpolster S 97x70x17 cm Made in Germany",
+      "url": "https://www.baur.de/p/AKLBB1874056113"
+    }
+  ]
+}

@@ -291,7 +291,7 @@ export default {
   related: [
     { slug: "indoor-rutsche", text: "Rutschbretter und Systemrutschen fürs Kinderzimmer." },
     { slug: "fallschutzmatten", text: "Die passende Matte unter Dreieck und Rutsche." },
-    { slug: "sprossenwand-kinder", text: "Der nächste Schritt für größere Kletterkinder." },
+    { slug: "bestes-balance-board-kinder", text: "Balance Boards aus Holz: wippen, balancieren, bauen." },
     { group: "indoor", text: "Alle Spielgeräte für den Indoor-Spielplatz." },
   ],
 };

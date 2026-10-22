@@ -289,7 +289,7 @@ export default {
   related: [
     { slug: "schaukeltuch", text: "Hängesitze und Hängehöhlen statt Schaukeltuch." },
     { slug: "spielteppich", text: "Weiche Spielteppiche für Zelt und Kinderzimmer." },
-    { slug: "spielturm-mit-rutsche", text: "Spieltürme mit Häuschen für den Garten." },
+    { slug: "bestes-spielsofa-kinder", text: "Spielsofas aus Schaumstoff: Sofa, Höhle und Parcours in einem." },
     { group: "indoor", text: "Alle Spielgeräte für den Indoor-Spielplatz." },
   ],
 };

@@ -1,0 +1,54 @@
+{
+  "visuals": {
+    "1": {
+      "kind": "bouncemat",
+      "tone": "forest"
+    },
+    "2": {
+      "kind": "bouncemat",
+      "tone": "green"
+    },
+    "3": {
+      "kind": "bouncemat",
+      "tone": "mint"
+    }
+  },
+  "steps": {
+    "title": "Hüpfpolster sicher nutzen",
+    "subtitle": "Vom Kauf bis zum ersten Sprung",
+    "alt": "Infografik: Hüpfpolster sicher nutzen – Größe nach Alter, Federkern vergleichen, Freien Platz schaffen, Nachbarn bedenken, Regeln festlegen, Bezug pflegen",
+    "caption": "Größe nach Alter wählen, frei aufstellen und immer nur ein Kind springen lassen.",
+    "steps": [
+      {
+        "title": "Größe nach Alter",
+        "text": "Flache, kompakte Polster für Kleinkinder, größere Liegefläche für Schulkinder – Herstellerangaben zu Alter und Gewicht beachten."
+      },
+      {
+        "title": "Federkern vergleichen",
+        "text": "Echter Federkern statt reinem Schaum – Angabe in der Produktbeschreibung prüfen."
+      },
+      {
+        "title": "Freien Platz schaffen",
+        "text": "Abstand zu Möbelkanten, Heizkörpern und Fenstern halten, rutschfest auf ebenem Boden aufstellen."
+      },
+      {
+        "title": "Nachbarn bedenken",
+        "text": "In der Mietwohnung einen Teppich oder eine Matte unterlegen, um Trittschall zu mindern."
+      },
+      {
+        "title": "Regeln festlegen",
+        "text": "Ein Kind zur Zeit, keine Saltos, nicht von Möbeln aufs Polster springen."
+      },
+      {
+        "title": "Bezug pflegen",
+        "text": "Bezug abnehmen und nach Herstellerangabe waschen, Nähte und Federkern regelmäßig prüfen."
+      }
+    ]
+  },
+  "scoresAlt": "Balkendiagramm: Bewertung von Funzy Hüpfpolster, traturio Hüpfmatratze und Linodino Hüpfpolster in Federkern und Sprunggefühl, Sicherheit und Alterseignung, Bezug, Material und Schadstoffe sowie Platz, Lautstärke und Zweitnutzen",
+  "scoresCaption": "Unsere Bewertung je Kriterium für die drei empfohlenen Hüpfpolster: Funzy federt am kräftigsten, Linodino ist am besten für Kleinkinder, traturio punktet mit Turnmatten-Unterseite und Outdoor-Varianten.",
+  "neueFormen": [
+    "bouncemat"
+  ],
+  "offen": []
+}

@@ -226,7 +226,7 @@ export default {
   related: [
     { slug: "court-fliesen-multisport", text: "Court-Fliesen für die Fläche vor dem Korb." },
     { slug: "multisportfeld-bausatz", text: "Korb, Tore und Bande: das Multisportfeld." },
-    { slug: "flutlicht-sportplatz", text: "Flutlicht für Würfe nach Sonnenuntergang." },
+    { slug: "bester-tuer-basketballkorb", text: "Mini-Basketballkörbe für Tür und Wand im Kinderzimmer." },
     { area: "private-sportanlagen", text: "Alle Ratgeber für den eigenen Sportplatz." },
   ],
 };
