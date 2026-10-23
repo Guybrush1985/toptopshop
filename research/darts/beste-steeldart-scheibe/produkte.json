@@ -1,0 +1,195 @@
+{
+  "slug": "beste-steeldart-scheibe",
+  "stand": "2026-10-21",
+  "hinweisRecherche": "WebFetch auf amazon.de, winmau.com und testsieger.de war in dieser Umgebung nicht erreichbar (DNS). ASINs und Titel stammen ausschließlich aus WebSearch-Treffern (allowed_domains amazon.de) mit /dp/-URL und passendem Titel; Lieferbarkeit konnte nicht live geprüft werden. Technische Angaben aus Händler-/Herstellertexten, als solche gekennzeichnet. Kein Stiftung-Warentest-/Öko-Test-Test zu Steeldart-Scheiben gefunden.",
+  "criteria": [
+    { "key": "spielgefuehl", "label": "Drahtsystem & Abpraller", "weight": 0.35, "description": "Wie dünn und wie geformt der Draht (Spinne) ist, klammerfreies Bull – entscheidet über Bounce-outs und darüber, wie eng Darts nebeneinander stecken." },
+    { "key": "haltbarkeit", "label": "Sisal & Haltbarkeit", "weight": 0.3, "description": "Sisalqualität und -dichte (Single/Dual/Triple Core), Selbstheilung der Löcher, Lebensdauer bei regelmäßigem Training." },
+    { "key": "montage", "label": "Montage & Pflege", "weight": 0.15, "description": "Aufhängung mit Ausrichtung (Rota-Lock, Peak-Fix), drehbarer Nummernring bzw. Drehbarkeit des Boards für gleichmäßigen Verschleiß." },
+    { "key": "preisLeistung", "label": "Preis-Leistung", "weight": 0.2, "description": "Was man für die Preisklasse bekommt, Verfügbarkeit von Varianten/Bundles." }
+  ],
+  "priceTiers": [
+    { "tier": 1, "label": "bis ca. 50 €" },
+    { "tier": 2, "label": "ca. 50–80 €" },
+    { "tier": 3, "label": "über ca. 80 €" }
+  ],
+  "products": [
+    {
+      "rank": 1,
+      "label": "Beste Gesamtwahl",
+      "name": "WINMAU Blade 6 Professional Bristle Dartboard",
+      "brand": "WINMAU",
+      "variant": "Blade 6 (Standard, Single Core), nur Scheibe, 45 cm",
+      "priceTier": 2,
+      "ratings": { "spielgefuehl": 8.5, "haltbarkeit": 8.0, "montage": 8.5, "preisLeistung": 9.0 },
+      "gesamt": 8.45,
+      "bestFor": "Alle, die zu Hause regelmäßig Steeldart spielen und ein Turnierboard der aktuellen PDC-Generation wollen, ohne Premium-Aufpreis.",
+      "fakten": [
+        { "text": "Ultradünner Draht im 60°-Winkel lenkt Darts ins Segment und soll Bounce-outs deutlich reduzieren; Draht an Bull und Outer Bull 25 % dünner als beim Blade 5.", "art": "Herstellerangabe (über Händlertexte)", "quelle": "https://www.amazon.de/-/en/WINMAU-Professional-Bristle-Classic-Dartboard/dp/B09HR1SV6C", "datum": "2026-10-21" },
+        { "text": "Rota-Lock-Aufhängung mit drei Ausrichträdern für unebene Wände.", "art": "Herstellerangabe (über Händlertexte)", "quelle": "https://www.bunnings.co.nz/winmau-blade-6-ultra-thin-60-degree-latest-wire-technology-dartboard-wb3033_p0999467", "datum": "2026-10-21" },
+        { "text": "Durchmesser 450 mm, Stärke 38 mm; nach offiziellen Spezifikationen der World Darts Federation gefertigt, laut Listing von der PDC empfohlen.", "art": "Händlerangabe", "quelle": "https://www.amazon.de/-/en/WINMAU-Professional-Bristle-Classic-Dartboard/dp/B09HR1SV6C", "datum": "2026-10-21" },
+        { "text": "Vergleichsportal testsieger.de führt die Blade 6 mit Testsieger-Score 87 („Hervorragend“, Stand Juni 2026); Methodik nicht eingesehen – aggregierte Bewertung, kein eigener Labortest belegt.", "art": "Bericht", "quelle": "https://www.testsieger.de/hersteller/winmau/", "datum": "2026-06" }
+      ],
+      "pros": ["Aktuelle Blade-Drahttechnik mit dünnem 60°-Draht", "Rota-Lock: schnell gerade aufgehängt und drehbar", "Breit verfügbar, viele Bundles (Surround, Darts, Kabinett)", "Gleiche Bauart wie die PDC-Boards der Jahre 2022–2025, nur einlagig"],
+      "cons": ["Single Core: bei täglichem Training kürzere Lebensdauer als Triple Core (redaktionelle Einschätzung)", "Viele ähnlich benannte Listings – beim Kauf auf „nur Scheibe“ achten", "Hartes Sisal ist im Haus laut – Wandschutz/Surround einplanen"],
+      "specs": { "Durchmesser": "450 mm", "Stärke": "38 mm", "Sisal": "Ostafrikanisches Sisal, Single Core", "Draht": "Ultradünn, 60° (Blade 6)", "Aufhängung": "Rota-Lock", "Norm": "WDF-Spezifikation (Herstellerangabe)" },
+      "asin": "B09HR1SV6C",
+      "query": "WINMAU Blade 6 Professional Bristle Dartboard",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "WINMAU Darts Blade 6 Professional Bristle Dartboard with Official Tournament Specifications Endorsed by The PDC (amazon.de/dp/B09HR1SV6C)"
+    },
+    {
+      "rank": 2,
+      "label": "Bestes Preis-Leistungs-Verhältnis",
+      "name": "WINMAU Diamond Plus Dartscheibe",
+      "brand": "WINMAU",
+      "variant": "Diamond Plus, nur Scheibe, 45 cm",
+      "priceTier": 1,
+      "ratings": { "spielgefuehl": 7.0, "haltbarkeit": 7.0, "montage": 7.0, "preisLeistung": 9.5 },
+      "gesamt": 7.5,
+      "bestFor": "Einsteiger und Gelegenheitsspieler, die eine echte Sisal-Turnierscheibe einer Profimarke zum kleinen Preis wollen.",
+      "fakten": [
+        { "text": "Dreieckiges Drahtsystem soll Bounce-outs minimieren; CNC-präzises, klammerfreies Bullseye.", "art": "Händlerangabe", "quelle": "https://www.amazon.de/-/en/WIN400/dp/B0018D69TE", "datum": "2026-10-21" },
+        { "text": "Etwas dünnerer Draht als beim Vorgänger Diamond; laut Red Dragon turnierzugelassen mit dichtem Sisal.", "art": "Händlerangabe", "quelle": "https://www.reddragondarts.com/products/winmau-diamond-plus-dartboard-z0039", "datum": "2026-10-21" },
+        { "text": "Maße 450 mm Durchmesser, 38 mm Stärke; Gewicht je nach Quelle 5–6 kg.", "art": "Händlerangabe", "quelle": "https://www.mastersofgames.com/cat/pub/darts-boards-diamond.htm", "datum": "2026-10-21" },
+        { "text": "Amazon-Kundenbewertung ca. 4,4/5; Kritik an dickeren Drahtstegen im Vergleich zu Blade-Boards.", "art": "Bericht (Kundenbewertungen)", "quelle": "https://www.amazon.de/-/en/WIN400/dp/B0018D69TE", "datum": "2026-10-21" }
+      ],
+      "pros": ["Deutlich günstiger als Blade 6, trotzdem Sisal-Turnierformat", "Klammerfreies Bullseye", "Bewährtes Modell, auch als Kabinett-Set erhältlich"],
+      "cons": ["Dickerer, weniger raffinierter Draht als Blade 6 – mehr Abpraller (Kundenberichte)", "Keine Rota-Lock-Ausrichtung beschrieben", "Ältere Listing-Generation; Varianten mit unterschiedlicher Ausstattung im Umlauf"],
+      "specs": { "Durchmesser": "450 mm", "Stärke": "38 mm", "Sisal": "Sisal, selbstheilend (Herstellerangabe)", "Draht": "Dreieckprofil", "Bull": "klammerfrei" },
+      "asin": "B0018D69TE",
+      "query": "WINMAU Diamond Plus Dartscheibe",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "WINMAU Diamond Plus Dartscheibe (amazon.de/dp/B0018D69TE)"
+    },
+    {
+      "rank": 3,
+      "label": "Premium-Wahl für Vielspieler",
+      "name": "WINMAU Blade 6 Triple Core Carbon Professional PDC Dartboard",
+      "brand": "WINMAU",
+      "variant": "Blade 6 Triple Core (Carbon), nur Scheibe",
+      "priceTier": 3,
+      "ratings": { "spielgefuehl": 9.0, "haltbarkeit": 9.0, "montage": 8.5, "preisLeistung": 6.5 },
+      "gesamt": 8.43,
+      "bestFor": "Vielspieler, Ligaspieler und Trainingsfleißige, die täglich werfen und das Board der PDC-Turniere 2022–2025 wollen.",
+      "fakten": [
+        { "text": "Dritte, hoch verdichtete Schicht aus carbonfaserverstärktem Sisal; ultradünner 60°-Draht; Rota-Lock plus Spirit-Master-Wasserwaage.", "art": "Herstellerangabe (über Händlertexte)", "quelle": "https://www.amazon.de/WINMAU-Professional-Dartboard-Tournament-Specifications/dp/B0FLDWZFH7", "datum": "2026-10-21" },
+        { "text": "Winmau ist seit Februar 2022 Dartboard-Partner der PDC (Nachfolger von Unicorn); der erste Fünfjahresvertrag sah die Blade 6 Triple Core bei PDC-Events vor.", "art": "Bericht", "quelle": "https://dartsnews.com/pdc/winmau-announced-as-pdcs-new-dartboard-sponsor-in-record-five-year-deal", "datum": "2022-01" },
+        { "text": "Seit Januar 2026 ist die Blade X offizielles Board aller PDC-TV-Turniere (Vertragsverlängerung Winmau/PDC).", "art": "Bericht", "quelle": "https://www.pdc.tv/node/19605", "datum": "2026-01" },
+        { "text": "Einzelne Kunden berichten, die Carbon-Folie auf der Rückseite löse sich.", "art": "Bericht (Kundenbewertungen)", "quelle": "https://www.amazon.de/WINMAU-Dartscheibe-Blade-Steeldartscheibe-Profi-Turniere/dp/B0FT31NJBN", "datum": "2026-10-21" }
+      ],
+      "pros": ["Drei Sisalschichten – höchste Dichte und Lebensdauer der Blade-6-Reihe (Herstellerangabe)", "Gleicher dünner 60°-Draht wie Blade 6", "Bewährtes PDC-Matchboard bis 2025"],
+      "cons": ["Deutlich teurer als die Standard-Blade 6", "Viele parallele Listings (Dual/Triple Core, Bundles) – Variante prüfen", "Vereinzelt Berichte über sich lösende Rückseitenfolie"],
+      "specs": { "Durchmesser": "ca. 450 mm", "Sisal": "Triple Core mit carbonfaserverstärkter Schicht", "Draht": "Ultradünn, 60°", "Aufhängung": "Rota-Lock + Spirit Master", "Gewicht": "ca. 5–6 kg (Listings uneinheitlich)" },
+      "asin": "B0G1C27K7J",
+      "query": "WINMAU Blade 6 Triple Core Carbon Dartboard",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "WINMAU Darts Blade 6 Triple Core Carbon Professional PDC Dartboard with Official Tournament Specifications Endorsed by The PDC (amazon.de/dp/B0FLDWZFH7)"
+    }
+  ],
+  "top5": [
+    {
+      "name": "Winmau Blade X Dartscheibe",
+      "warum": "Turnierboard: seit Januar 2026 offizielles Board aller PDC-TV-Turniere – für alle, die exakt auf dem WM-Board trainieren wollen. Pro-Core-Aufbau, ultradünner Draht, drehbarer lasergeschnittener Nummernring (Händlerangabe). Profis kritisierten 2026 Abpraller; Winmau widerspricht mit eigenen Statistiken.",
+      "fakten": [
+        { "text": "Blade X offizielles PDC-Board ab 2026.", "art": "Bericht", "quelle": "https://www.pdc.tv/node/19605", "datum": "2026-01" },
+        { "text": "Nodor-CEO Tom Brown: Blade X habe statistisch weniger Bounce-outs als jedes Board zuvor (Reaktion auf Kritik).", "art": "Bericht", "quelle": "https://dartsnews.com/pdc/statistically-the-blade-x-has-fewer-bounce-outs-than-any-board-before-winmau-respond-to-growing-backlash-over-pdc-dartboard", "datum": "2026-04-26" },
+        { "text": "5 Jahre Garantie, drehbarer Nummernring.", "art": "Händlerangabe", "quelle": "https://www.amazon.de/WINMAU-Blade-Serie-dartscheibe-steeldart/dp/B0GGS86MY4", "datum": "2026-10-21" }
+      ],
+      "asin": "B0GGS86MY4",
+      "query": "Winmau Blade X Dartscheibe",
+      "where": null
+    },
+    {
+      "name": "Target Darts TOR Dartboard",
+      "warum": "Für Vielspieler, die lange mit einer Scheibe auskommen wollen: drehbarer 36XTEN-Nummernring (10 Positionen à 36°) verteilt den Verschleiß, Madagaskar-Sisal 215-MDG, Draht laut Hersteller 60 % dünner, Peak-Fix-Aufhängung, WDF-zugelassen (Händlerangaben). Auf amazon.de als „Goal“ (TOR) gelistet.",
+      "fakten": [
+        { "text": "WDF-Zulassung, 215-MDG-Sisal, 60 % dünnerer Edelstahldraht, Peak-Fix, 36XTEN-Ring.", "art": "Händlerangabe", "quelle": "https://www.currys.co.uk/products/target-tor-dartboard-black-and-red-10301054.html", "datum": "2026-10-21" }
+      ],
+      "asin": "B0DFD14P67",
+      "query": "Target Darts TOR Dartscheibe",
+      "where": null
+    },
+    {
+      "name": "WINMAU PDC Blade 6 Dartboard Set mit Surround",
+      "warum": "Mit Zubehör-Set: Blade 6 plus Surround (Wandschutzring) – sinnvoll für Wohnräume und Familien, weil Fehlwürfe nicht in der Wand landen. Surround laut Händler 43,6 cm Innen-, 67,5 cm Außendurchmesser.",
+      "fakten": [
+        { "text": "Blade-6-Surround: 43,6 cm innen, 67,5 cm außen.", "art": "Händlerangabe", "quelle": "https://www.amazon.de/WINMAU-Dartboard-Surround-Winmau-5310/dp/B0CJVJLZ6M", "datum": "2026-10-21" }
+      ],
+      "asin": "B0CJVJLZ6M",
+      "query": "WINMAU PDC Blade 6 Dartboard Set Surround",
+      "where": null
+    },
+    {
+      "name": "Unicorn Eclipse Pro 2 Bristle Dartboard",
+      "warum": "Alternative zur Winmau-Welt für Einsteiger mit Budget: rund 30 % dünnerer Draht als herkömmliche Runddraht-Boards, klammerfrei, schmaleres Bull mit 14 % größerer Spielfläche (Händlerangaben). Ca. 4,6/5 bei rund 2.300 Amazon-Bewertungen.",
+      "fakten": [
+        { "text": "30 % dünnerer Draht, klammerfreies Bull, +14 % Bull-Spielfläche.", "art": "Händlerangabe", "quelle": "https://www.thebrick.com/products/escalade-unicorn-eclipse-pro-2-dart-board-games", "datum": "2026-10-21" },
+        { "text": "46 × 46 cm, ca. 5,1 kg; ca. 4,6/5 Sterne (~2.359 Bewertungen).", "art": "Händlerangabe", "quelle": "https://www.amazon.de/Dartscheibe-professionellem-professionelle-Klammerfreie-Konstruktion/dp/B0BT9DZNM2", "datum": "2026-10-21" }
+      ],
+      "asin": "B0BT9DZNM2",
+      "query": "Unicorn Eclipse Pro 2 Bristle Dartboard",
+      "where": null
+    },
+    {
+      "name": "Winmau Blade 6 Dual Core",
+      "warum": "Für den Verein/Vielspieler mit mittlerem Budget: zweilagiges Sisal als Zwischenstufe zwischen Blade 6 und Triple Core (Händlerangabe).",
+      "fakten": [
+        { "text": "Blade 6 Dual Core als eigene Variante gelistet.", "art": "Händlerangabe", "quelle": "https://www.amazon.de/Winmau-Blade-Blade6-Bristle-Dartboards/dp/B09SQBTSGW", "datum": "2026-10-21" }
+      ],
+      "asin": "B0G4DTMK9J",
+      "query": "WINMAU Blade 6 Dual Core Dartboard",
+      "where": null
+    }
+  ],
+  "tests": [
+    { "institut": "Stiftung Warentest / Öko-Test", "heft": "–", "ergebnis": "Kein Test zu Steeldart-Scheiben gefunden.", "quelle": "Websuche 2026-10-21" },
+    { "institut": "testsieger.de (Vergleichsportal)", "heft": "Herstellerseite Winmau, Stand Juni 2026", "ergebnis": "Winmau Blade 6: Testsieger-Score 87 „Hervorragend“ (aggregierte Bewertung, Methodik nicht eingesehen) – nur als „laut Berichten“ nutzen.", "quelle": "https://www.testsieger.de/hersteller/winmau/" },
+    { "institut": "testsieger.de (Testportal)", "heft": "Juli 2026", "ergebnis": "Winmau Blade X: Lob für Sisal und schnelles Schließen der Löcher; Hinweis auf Abpraller-Kritik der Profis (laut Websuche, Seite nicht abrufbar).", "quelle": "https://www.testsieger.de/testportal/winmau-blade-x-im-test/" }
+  ],
+  "warnungen": [
+    "Keine Rückrufe/Safety-Gate-Meldungen zu Steeldart-Scheiben gefunden (Websuche 2026-10-21; Safety-Gate-Portal selbst nicht abrufbar).",
+    "Steeldarts haben Metallspitzen – für kleine Kinder ungeeignet; für Kinder Soft-/Magnetdart empfehlen (Quelle: https://mydartpfeil.com/en/blogs/ausruestung/dartscheibe-kaufen-steeldartscheibe).",
+    "Sisal-Boards nicht wässern/befeuchten (gängige Herstellerempfehlung – Quelle für den Text noch nachrecherchieren)."
+  ],
+  "verworfen": [
+    { "name": "Target Pro Tour Dartboard (B08T9DG4G7)", "grund": "amazon.de-Listing zeigt „Versand in 6–7 Monaten“ bzw. unklare Wiederverfügbarkeit; Target hat mit dem TOR ein aktuelleres Board (in Top 5)." },
+    { "name": "Bull's Focus II Plus (B09QKRZXJL / B0D121GVYD)", "grund": "Amazon-Bewertungen nur ca. 3,4–3,9/5, Berichte über schnellen Verschleiß bei täglichem Training; deutsches Listing nennt widersprüchlich „Kunststoff“ als Material." },
+    { "name": "Unicorn Eclipse HD2 / Pro (B07G1CV8HP, B0C9ZXNM49)", "grund": "Ältere Generation bzw. verwirrende Namensvarianten; Eclipse Pro 2 als aktuelleres Unicorn-Modell in Top 5." },
+    { "name": "Blade-6-Bundles mit Darts/Kabinett (B09LHZW68K, B09QX7FCNN, B0B3JJVGN6)", "grund": "Teils als nicht verfügbar gemeldet; Kabinette gehören zu bestes-dartboard-kabinett." }
+  ],
+  "offen": [
+    "Verfügbarkeit aller ASINs nicht live prüfbar (amazon.de per WebFetch nicht erreichbar) – vor Veröffentlichung im Browser prüfen.",
+    "Blade 6 Triple Core: mehrere Listings (B0FLDWZFH7, B0FT31NJBN, B0G1C27K7J, Variationsseite B09HR18Y55 „Dual Core/Triple Core“); gewählt B0FLDWZFH7 wegen Winmau-Darts-Titel – ggf. auf das aktivste Listing umstellen.",
+    "Winmau Diamond Plus: zwei Listings (B0018D69TE älter, B0D3DKWNN9 „Winmau Diamond Plus Dartboard“, B0GWRSPJF5) – Aktivität prüfen, ggf. B0D3DKWNN9 nehmen.",
+    "Blade X (B0GGS86MY4) ist ein Variations-Listing „Blade X & Blade 6“ mit Auswahl Blade X – Variante beim Verlinken prüfen.",
+    "Blade-6-Set mit Surround: /dartautomaten/ nutzt bereits B0CBBNG62P; hier B0CJVJLZ6M gefunden – vereinheitlichen.",
+    "Target TOR erscheint auf amazon.de übersetzt als „Goal“ – Titelbezeichnung im Text ggf. „Target Darts TOR“ beibehalten und erklären.",
+    "Herstellerseiten (winmau.com, target-darts, unicorn) nicht abrufbar – technische Daten stammen aus Händlertexten.",
+    "Awin: keine freigeschalteten Händler passend (Rewe, Radwelt, brickzonehub) – alles über Amazon."
+  ],
+  "quellen": [
+    { "titel": "amazon.de – WINMAU Blade 6 (B09HR1SV6C)", "url": "https://www.amazon.de/-/en/WINMAU-Professional-Bristle-Classic-Dartboard/dp/B09HR1SV6C" },
+    { "titel": "amazon.de – WINMAU Blade 6 Triple Core Carbon (B0FLDWZFH7)", "url": "https://www.amazon.de/WINMAU-Professional-Dartboard-Tournament-Specifications/dp/B0FLDWZFH7" },
+    { "titel": "amazon.de – WINMAU Diamond Plus (B0018D69TE)", "url": "https://www.amazon.de/-/en/WIN400/dp/B0018D69TE" },
+    { "titel": "amazon.de – Winmau Blade X (B0GGS86MY4)", "url": "https://www.amazon.de/WINMAU-Blade-Serie-dartscheibe-steeldart/dp/B0GGS86MY4" },
+    { "titel": "amazon.de – Target Darts TOR/Goal (B0DFD14P67)", "url": "https://www.amazon.de/-/en/Target-Darts-Dartboard-Professional-Madagascar/dp/B0DFD14P67" },
+    { "titel": "amazon.de – Unicorn Eclipse Pro 2 (B0BT9DZNM2)", "url": "https://www.amazon.de/Dartscheibe-professionellem-professionelle-Klammerfreie-Konstruktion/dp/B0BT9DZNM2" },
+    { "titel": "amazon.de – Winmau Blade 6 Set mit Surround (B0CJVJLZ6M)", "url": "https://www.amazon.de/WINMAU-Dartboard-Surround-Winmau-5310/dp/B0CJVJLZ6M" },
+    { "titel": "amazon.de – Winmau Blade 6 Dual Core (B09SQBTSGW)", "url": "https://www.amazon.de/Winmau-Blade-Blade6-Bristle-Dartboards/dp/B09SQBTSGW" },
+    { "titel": "Bunnings – Winmau Blade 6 WB3033", "url": "https://www.bunnings.co.nz/winmau-blade-6-ultra-thin-60-degree-latest-wire-technology-dartboard-wb3033_p0999467" },
+    { "titel": "Red Dragon – Winmau Diamond Plus", "url": "https://www.reddragondarts.com/products/winmau-diamond-plus-dartboard-z0039" },
+    { "titel": "Masters of Games – Diamond Plus", "url": "https://www.mastersofgames.com/cat/pub/darts-boards-diamond.htm" },
+    { "titel": "Currys – Target TOR", "url": "https://www.currys.co.uk/products/target-tor-dartboard-black-and-red-10301054.html" },
+    { "titel": "The Brick – Unicorn Eclipse Pro 2", "url": "https://www.thebrick.com/products/escalade-unicorn-eclipse-pro-2-dart-board-games" },
+    { "titel": "DartsNews – Winmau neuer PDC-Dartboard-Sponsor", "url": "https://dartsnews.com/pdc/winmau-announced-as-pdcs-new-dartboard-sponsor-in-record-five-year-deal" },
+    { "titel": "PDC – Winmau-Verlängerung, Blade X offizielles Board", "url": "https://www.pdc.tv/node/19605" },
+    { "titel": "DartsNews – Winmau zur Blade-X-Kritik", "url": "https://dartsnews.com/pdc/statistically-the-blade-x-has-fewer-bounce-outs-than-any-board-before-winmau-respond-to-growing-backlash-over-pdc-dartboard" },
+    { "titel": "testsieger.de – Hersteller Winmau", "url": "https://www.testsieger.de/hersteller/winmau/" },
+    { "titel": "testsieger.de – Winmau Blade X im Test", "url": "https://www.testsieger.de/testportal/winmau-blade-x-im-test/" },
+    { "titel": "mydartpfeil – Steeldartscheibe kaufen", "url": "https://mydartpfeil.com/en/blogs/ausruestung/dartscheibe-kaufen-steeldartscheibe" }
+  ]
+}

@@ -248,14 +248,14 @@ export const areas = [
     name: "Kinder-Spielplatz",
     short: "Spielplatz",
     intro:
-      "Klettern, rutschen, schaukeln – drinnen und im Garten: Pikler-Dreiecke, Indoor-Rutschen, Kletterwände, Sprossenwände, Deckenschaukeln, Spieltürme, Sandkästen, Seilbahnen, Hüpfburgen und die passende Fallschutzmatte.",
+      "Klettern, rutschen, schaukeln – drinnen und im Garten: Pikler-Dreiecke, Indoor-Rutschen, Kletterwände, Sprossenwände, Deckenschaukeln, Spielsofas, Hüpfpolster, Balance Boards, Spieltürme, Sandkästen, Seilbahnen, Hüpfburgen und die passende Fallschutzmatte.",
     metaTitle: "Kinder-Spielplatz: Die besten Spielgeräte für drinnen & draußen",
     metaDescription:
       "Pikler-Dreieck, Kletterwand, Deckenschaukel, Spielturm, Sandkasten und Seilbahn: die besten Spielgeräte für Kinderzimmer und Garten mit Sicherheitstipps.",
     article: `
   <h2>Ein Spielplatz zu Hause – sicher geplant</h2>
   <p class="quick">Ob Kinderzimmer oder Garten: Wähle Spielgeräte nach Alter und Platz, achte auf die Herstellerangaben zu Alter und Belastung und plane den Fallschutz von Anfang an mit. Für Schaukeln, Rutschen und ähnliche Spielgeräte für zu Hause gilt die Spielzeugnorm EN 71-8 – ob ein Gerät danach geprüft ist, steht in der Anleitung oder auf der Verpackung.</p>
-  <p>Kinder wollen klettern, rutschen und schaukeln – bei jedem Wetter. Drinnen funktionieren Pikler-Dreieck, Sprossenwand, Kletterwand oder eine Schaukel an der Decke, draußen Spielturm, Gartenschaukel, Sandkasten und Seilbahn. Für jedes Gerät zeigen wir drei Empfehlungen und erklären, worauf es bei Alter, Montage und Sicherheit ankommt.</p>
+  <p>Kinder wollen klettern, rutschen und schaukeln – bei jedem Wetter. Drinnen funktionieren Pikler-Dreieck, Sprossenwand, Kletterwand oder eine Schaukel an der Decke – und zum Toben ein Spielsofa, ein Hüpfpolster oder ein Balance Board –, draußen Spielturm, Gartenschaukel, Sandkasten und Seilbahn. Für jedes Gerät zeigen wir drei Empfehlungen und erklären, worauf es bei Alter, Montage und Sicherheit ankommt.</p>
   <p>Unsere Empfehlungen sind bei Amazon erhältlich; Modelle, die es nur beim Hersteller oder im Fachhandel gibt, nennen wir ohne Link. Wir kennzeichnen Altersangaben und technische Daten als Herstellerangaben. Unabhängige Tests gibt es für diese Geräte nur selten; wo es sie gibt, nennen wir sie.</p>
   <aside class="callout warn"><p class="ct">Sicherheit</p><p>Kleinkinder beim Klettern, Rutschen und Schaukeln immer beaufsichtigen. Wand- und Deckenbefestigungen müssen zum Untergrund passen – im Zweifel eine Fachkraft fragen. Gartengeräte nach Herstellerangabe im Boden verankern und darunter einen weichen Fallschutz vorsehen.</p></aside>`,
     groups: [
@@ -264,20 +264,21 @@ export const areas = [
         name: "Indoor-Spielplatz",
         short: "Indoor",
         navLabel: "Kinder-Spielplatz: Indoor",
-        intro: "Bewegung im Kinderzimmer, auch wenn es draußen regnet: Pikler-Dreieck, Indoor-Rutsche, Kletterwand, Sprossenwand, Deckenschaukel, Schaukeltuch, Spielhöhle und Fallschutzmatten.",
+        intro: "Bewegung im Kinderzimmer, auch wenn es draußen regnet: Pikler-Dreieck, Indoor-Rutsche, Kletterwand, Sprossenwand, Deckenschaukel, Schaukeltuch, Spielhöhle, Spielsofa, Hüpfpolster, Balance Board, Balanciersteine, Tür-Basketballkorb und Fallschutzmatten.",
         metaTitle: "Indoor-Spielplatz fürs Kinderzimmer: Die besten Spielgeräte",
-        metaDescription: "Pikler-Dreieck, Indoor-Rutsche, Kletterwand, Sprossenwand, Deckenschaukel und Spielhöhle: die besten Spielgeräte für drinnen mit Montage- und Sicherheitstipps.",
+        metaDescription: "Pikler-Dreieck, Kletterwand, Spielsofa, Hüpfpolster, Balance Board und Tür-Basketballkorb: die besten Spielgeräte für drinnen mit Montage- und Sicherheitstipps.",
         article: `
-  <h2>Klettern und Schaukeln im Kinderzimmer</h2>
-  <p class="quick">Für die Kleinsten ist ein klappbares Pikler-Dreieck der beste Einstieg, ab dem Kindergartenalter kommen Sprossenwand, Kletterwand und Deckenschaukel dazu. Darunter gehört immer eine dämpfende Matte.</p>
-  <p>Indoor-Spielgeräte müssen zwei Dinge können: in eine normale Wohnung passen und sicher befestigt sein. Freistehende Geräte wie Kletterdreiecke lassen sich wegräumen, Wand- und Deckenmontagen brauchen den richtigen Untergrund und passende Dübel. Die Altersangaben der Hersteller sind ein Richtwert – entscheidend ist, was dein Kind motorisch schon kann.</p>`,
+  <h2>Klettern, Toben und Balancieren im Kinderzimmer</h2>
+  <p class="quick">Für die Kleinsten ist ein klappbares Pikler-Dreieck der beste Einstieg, ab dem Kindergartenalter kommen Sprossenwand, Kletterwand und Deckenschaukel dazu. Darunter gehört immer eine dämpfende Matte. Für Toben ohne Montage sind Spielsofa und Hüpfpolster der einfachste Einstieg, Balance Board und Balanciersteine trainieren das Gleichgewicht, und ein Tür-Basketballkorb bringt Wurfspiele ins Zimmer.</p>
+  <p>Indoor-Spielgeräte müssen zwei Dinge können: in eine normale Wohnung passen und sicher befestigt sein. Freistehende Geräte wie Kletterdreiecke lassen sich wegräumen, Wand- und Deckenmontagen brauchen den richtigen Untergrund und passende Dübel. Die Altersangaben der Hersteller sind ein Richtwert – entscheidend ist, was dein Kind motorisch schon kann.</p>
+  <p>Gerade im Winter brauchen Kinder drinnen Platz zum Hüpfen, Balancieren und Werfen. Geräte ohne Wand- oder Deckenmontage lassen sich nach dem Spielen wegräumen – achte bei Schaumstoff und Polstern auf abnehmbare, waschbare Bezüge und eine rutschfeste Unterseite.</p>`,
       },
       {
         slug: "outdoor",
         name: "Outdoor-Spielplatz",
         short: "Outdoor",
         navLabel: "Kinder-Spielplatz: Outdoor",
-        intro: "Der Spielplatz im eigenen Garten: Spielturm mit Rutsche, Gartenschaukel, Sandkasten mit Deckel, Seilbahn, Hüpfburg und aufblasbare Wasserrutsche.",
+        intro: "Der Spielplatz im eigenen Garten: Spielturm mit Rutsche, Gartenschaukel, Sandkasten mit Deckel, Seilbahn, Hüpfburg und aufblasbare Wasserrutsche – und für den Winter Lenkschlitten für Kinder.",
         metaTitle: "Spielplatz im Garten: Die besten Spielgeräte für draußen",
         metaDescription: "Spielturm, Gartenschaukel, Sandkasten mit Deckel, Seilbahn, Hüpfburg und Wasserrutsche: die besten Spielgeräte für den Garten mit Aufbau- und Sicherheitstipps.",
         article: `
@@ -307,14 +308,14 @@ export const areas = [
     name: "Gaming-Room",
     short: "Gaming-Room",
     intro:
-      "Ein Raum zum Zocken, Chillen und Feiern, mit Retro-Charme und High-End-Technik: Sitzsäcke, Gaming-Stühle und -Tische, Arcade-Automaten, Flipper, Airhockey, Kicker, Billard, Dart, Sim-Racing, VR, Beamer, Licht, Akustik, Retro-Konsolen und Kühlschrank.",
+      "Ein Raum zum Zocken, Chillen und Feiern, mit Retro-Charme und High-End-Technik: Sitzsäcke, Gaming-Stühle und -Tische, Arcade-Automaten, Flipper, Airhockey, Kicker, Billard, Dart, Sim-Racing, Flugsimulator mit Joystick, Yoke, Pedalen und Cockpit, VR, Beamer, Licht, Akustik, Retro-Konsolen und Kühlschrank.",
     metaTitle: "Gaming-Room einrichten: Die besten Produkte im Überblick",
     metaDescription:
       "Gaming-Stühle, Arcade-Automaten, Kicker, Billard, Sim-Racing, Beamer, LED-Licht und mehr für den eigenen Gaming-Room – je Kategorie drei Empfehlungen.",
     article: `
   <h2>Ein Raum, viele Spiele</h2>
   <p class="quick">Ein guter Gaming-Room verbindet drei Welten: bequemes Sitzen für lange Sessions, Spielgeräte für Freunde und Familie und Technik, die Bild und Ton auf ein neues Niveau hebt.</p>
-  <p>Ob Partykeller, Dachboden oder ausgebaute Garage: Ein Gaming-Room lebt vom Mix. Neben Konsole und PC sorgen Kicker, Airhockey oder Dartautomat dafür, dass auch Gäste mitspielen, die keinen Controller in die Hand nehmen wollen. Retro-Automaten und Flipper bringen Spielhallen-Gefühl, Beamer und Sim-Racing-Cockpit das große Kino.</p>
+  <p>Ob Partykeller, Dachboden oder ausgebaute Garage: Ein Gaming-Room lebt vom Mix. Neben Konsole und PC sorgen Kicker, Airhockey oder Dartautomat dafür, dass auch Gäste mitspielen, die keinen Controller in die Hand nehmen wollen. Retro-Automaten und Flipper bringen Spielhallen-Gefühl, Beamer und Sim-Racing-Cockpit das große Kino – und wer lieber abhebt, baut sich mit Joystick, Yoke, Ruderpedalen und Schubhebel Schritt für Schritt ein eigenes Flugsimulator-Cockpit.</p>
   <p>Für jede Kategorie zeigen wir drei Empfehlungen und erklären, worauf es ankommt: Maße und Gewicht, Lautstärke, Strombedarf und was im Alltag wirklich Spaß macht.</p>
   <aside class="callout"><p class="ct">Planungstipp</p><p>Miss den Raum, bevor du kaufst: Billardtische, Kicker und Airhockey brauchen rundherum Platz zum Spielen – oft mehr als doppelt so viel wie das Gerät selbst.</p></aside>`,
   },
@@ -365,5 +366,21 @@ export const areas = [
   <p>Wer ein Haus mit Garten hat, kennt die Pflichten: Gehwege müssen bei Schnee und Glätte geräumt sein, nasses Laub auf Wegen wird schnell zur Rutschfalle. Wir zeigen je Gerätetyp drei Empfehlungen und erklären, worauf es bei Leistung, Akku oder Kabel, Gewicht und Lautstärke ankommt.</p>
   <p>Unsere Empfehlungen sind bei Amazon erhältlich. Technische Daten kennzeichnen wir als Herstellerangaben; unabhängige Tests nennen wir nur mit Institut und Ausgabe.</p>
   <aside class="callout"><p class="ct">Gut zu wissen</p><p>Für laute Gartengeräte gelten in Wohngebieten Ruhezeiten nach der Geräte- und Maschinenlärmschutzverordnung (32. BImSchV). Viele Gemeinden haben zusätzliche Regeln – ein Blick in die örtliche Satzung lohnt sich.</p></aside>`,
+  },
+  {
+    slug: "darts",
+    name: "Darts zu Hause",
+    short: "Darts",
+    intro:
+      "Steeldart wie im Fernsehen, nur im eigenen Keller: Sisal-Scheiben, schattenfreies Licht, Kamera-Zählsysteme, Dartschränke zum Schutz der Wand und Matten mit Abwurflinie – je Kategorie die drei besten Produkte.",
+    metaTitle: "Darts zu Hause: Scheibe, Licht, Autoscoring & Zubehör",
+    metaDescription:
+      "Steeldart-Scheiben, Dart-Beleuchtung, Autoscoring, Dartschränke und Dartmatten: je Kategorie die 3 besten Produkte mit Kaufberatung für die eigene Dart-Ecke.",
+    article: `
+  <h2>Die eigene Dart-Ecke einrichten</h2>
+  <p class="quick">Für den Start reichen eine gute Sisal-Scheibe, ein Satz Pfeile und eine Abwurflinie. Wer regelmäßig spielt, ergänzt Licht gegen Schatten, Wandschutz und eine Bodenmatte – und auf Wunsch ein Kamerasystem, das die Punkte zählt.</p>
+  <p>Gespielt wird nach den gängigen Regeln mit der Mitte des Bullseyes in 1,73 m Höhe und der Abwurflinie in 2,37 m Abstand zur Scheibe. Plane deshalb deutlich mehr als 2,37 m Länge ein: Hinter der Abwurflinie braucht der Werfer Platz zum Stehen, seitlich sollten Mitspielende mit Abstand warten können. Wichtig ist eine feste Wand, an der sich Scheibe oder Schrank sicher verschrauben lassen.</p>
+  <p>Unsere Top-3-Empfehlungen sind bei Amazon erhältlich. Technische Daten kennzeichnen wir als Herstellerangaben. Unabhängige Labortests von Stiftung Warentest & Co. haben wir für Dart-Zubehör bisher nicht gefunden (Stand Oktober 2026) – deshalb erklären wir unsere Kriterien offen. Elektronische Automaten mit Kunststoffspitzen findest du im Gaming-Room unter <a href="/dartautomaten/">Dartautomaten</a>.</p>
+  <aside class="callout warn"><p class="ct">Sicherheit</p><p>Steeldarts haben spitze Metallspitzen. Kinder nur unter Aufsicht spielen lassen, nie in Richtung von Türen oder Durchgängen werfen und die Scheibe so hängen, dass niemand hinter oder neben ihr vorbeigeht.</p></aside>`,
   },
 ];

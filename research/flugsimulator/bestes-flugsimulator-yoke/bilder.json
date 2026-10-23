@@ -1,0 +1,57 @@
+{
+  "visuals": {
+    "1": {
+      "kind": "yoke",
+      "tone": "forest"
+    },
+    "2": {
+      "kind": "yoke",
+      "tone": "green"
+    },
+    "3": {
+      "kind": "yoke",
+      "tone": "mint"
+    }
+  },
+  "steps": {
+    "title": "Flugsimulator-Yoke montieren",
+    "subtitle": "Fester Halt und saubere Achsen",
+    "alt": "Infografik: Flugsimulator-Yoke montieren – Plattform klären, Tischkante messen, Festklemmen, Anschließen, Kalibrieren, Schalter belegen",
+    "caption": "Ein Yoke braucht festen Halt an der Tischkante – erst dann lohnt das Feintuning.",
+    "steps": [
+      {
+        "title": "Plattform klären",
+        "text": "Prüfen, ob das Yoke für PC, Xbox oder PS5 freigegeben ist."
+      },
+      {
+        "title": "Tischkante messen",
+        "text": "Plattenstärke und Überstand prüfen, ob die Klemme passt und Platz für den vollen Steuerweg bleibt."
+      },
+      {
+        "title": "Festklemmen",
+        "text": "Gehäuse mittig vor den Monitor setzen und die Schraubklemmen gleichmäßig anziehen."
+      },
+      {
+        "title": "Anschließen",
+        "text": "Per USB verbinden, Schubhebel oder Pedale nach Herstellerangabe am Yoke oder am PC anschließen."
+      },
+      {
+        "title": "Kalibrieren",
+        "text": "Im Simulator Quer- und Höhenruder durch den vollen Weg bewegen und die Mitte prüfen."
+      },
+      {
+        "title": "Schalter belegen",
+        "text": "Kippschalter für Licht, Trimmung und Autopilot zuweisen und als Profil speichern."
+      }
+    ]
+  },
+  "scoresAlt": "Balkendiagramm: Bewertung der drei besten Flugsimulator-Yokes in den Kriterien Realismus & Mechanik, Plattform-Kompatibilität, Ausstattung, Befestigung & Verarbeitung und Preis-Leistung",
+  "scoresCaption": "Unsere Bewertung je Kriterium für die drei empfohlenen Modelle.",
+  "neueFormen": [
+    "yoke"
+  ],
+  "offen": [
+    "Kriterien in scoresAlt sind ein Entwurf – an die finalen Bewertungskriterien anpassen.",
+    "Steps sind allgemeine Vorgehensschritte; Anschlussdetails (z. B. Pedale über Stick/Yoke) erst nach Produktrecherche konkretisieren."
+  ]
+}

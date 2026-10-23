@@ -84,7 +84,15 @@ Definiert in `src/templates/visuals.mjs`; neue Formen ergänzt der Illustrator-A
   `projector`, `neon`, `panel`, `console`, `fridge`
 - Kinder & Spielzimmer (Set `OBJECTS`): `triangle`, `slide`, `climbwall`, `ladder`, `swing`, `tent`, `mat`, `tower`,
   `sandbox`, `zipline`, `bouncy`, `waterslide`, `shelf`, `wardrobe`, `kidtable`, `rug`, `sideboard`, `cloth`
-- Sammeln & Garten (Set `OBJECTS`): `vitrine`, `frame`, `minifig`, `ledkit`, `snowblower`, `blower`
+- Sammeln & Garten (Set `OBJECTS`): `vitrine`, `frame`, `minifig`, `ledkit`, `snowblower`, `blower`, `sled`
+- Darts (Set `OBJECTS`): `dartboard` (Steeldart-Scheibe), `dartlight` (Ringlicht), `dartcam` (Kamera-Autoscoring),
+  `dartcabinet` (Kabinett), `dartmat` (Matte mit Abwurflinie); `dart` = einfache Zielscheibe (E-Dart)
+- Bewegung drinnen (Set `OBJECTS`): `playsofa` (Spielsofa-Module), `bouncemat` (Hüpfpolster), `balanceboard`
+  (gebogenes Holzboard), `stones` (Balancier-/Flusssteine), `hills` (Hügelkuppen), `beampath` (Balancierstrecke),
+  `doorhoop` (Mini-Basketballkorb an der Tür)
+- Flugsimulator (Set `OBJECTS`): `joystick` (HOTAS: Stick + Schubregler), `yoke` (Steuerhorn mit Tischgehäuse),
+  `pedals` (Ruderpedale), `throttle` (Schubhebel-Quadrant), `flightrig` (Cockpit-Rahmen mit Sitz),
+  `flightstand` (Klapp-Ständer ohne Sitz)
 - Wellness (Set `OBJECTS`): `hottub` (aufblasbarer Whirlpool), `spa` (Hartschalen-Whirlpool), `bathtub` (Whirlpool-Badewanne)
 
 ### Textbausteine in `sections[].blocks`

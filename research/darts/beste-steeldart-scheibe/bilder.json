@@ -1,0 +1,57 @@
+{
+  "visuals": {
+    "1": {
+      "kind": "dartboard",
+      "tone": "forest"
+    },
+    "2": {
+      "kind": "dartboard",
+      "tone": "green"
+    },
+    "3": {
+      "kind": "dartboard",
+      "tone": "mint"
+    }
+  },
+  "steps": {
+    "title": "Steeldart-Scheibe richtig aufhängen",
+    "subtitle": "Regelmaße nach WDF/PDC",
+    "alt": "Infografik: Steeldart-Scheibe richtig aufhängen – Platz wählen, Höhe messen, 20 nach oben, Abwurflinie markieren, Diagonale prüfen, Regelmäßig drehen",
+    "caption": "Bullmitte auf 1,73 m, Abwurflinie 2,37 m vor der Scheibe.",
+    "steps": [
+      {
+        "title": "Platz wählen",
+        "text": "Freie Wand mit rund 3 m Raumtiefe und etwas Platz seitlich wählen, weg von Türen und Durchgängen."
+      },
+      {
+        "title": "Höhe messen",
+        "text": "Die Mitte des Bulls hängt 1,73 m über dem Boden."
+      },
+      {
+        "title": "20 nach oben",
+        "text": "Die 20 (schwarzes Segment) zeigt senkrecht nach oben; Halterung fest in die Wand dübeln."
+      },
+      {
+        "title": "Abwurflinie markieren",
+        "text": "Die Abwurflinie liegt waagerecht 2,37 m vor der Scheibenfront."
+      },
+      {
+        "title": "Diagonale prüfen",
+        "text": "Von der Bullmitte bis zur Abwurflinie am Boden sind es diagonal 2,93 m."
+      },
+      {
+        "title": "Regelmäßig drehen",
+        "text": "Zahlenring abnehmen und die Scheibe drehen, damit sich das Sisal gleichmäßig abnutzt."
+      }
+    ]
+  },
+  "scoresAlt": "Balkendiagramm: Bewertung der drei besten Steeldart-Scheiben in den Kriterien Sisal-Qualität, Drahtsystem, Haltbarkeit, Ausstattung und Preis-Leistung",
+  "scoresCaption": "Unsere Bewertung je Kriterium für die drei empfohlenen Modelle.",
+  "neueFormen": [
+    "dartboard"
+  ],
+  "offen": [
+    "Kriterien in scoresAlt sind ein Entwurf – an die finalen Bewertungskriterien des Redakteurs anpassen.",
+    "Regelmaße (1,73 m Bullhöhe, 2,37 m Abwurflinie, 2,93 m Diagonale) sind allgemein bekannte WDF/PDC-Standardmaße – Redakteur kann sie mit Quelle (z. B. WDF-Regelwerk) belegen."
+  ]
+}

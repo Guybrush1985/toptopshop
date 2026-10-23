@@ -1,0 +1,488 @@
+{
+  "slug": "beste-dartmatte",
+  "stand": "2026-10-21",
+  "criteria": [
+    {
+      "key": "bodenschutz",
+      "label": "Boden- & Spitzenschutz",
+      "weight": 0.3,
+      "description": "Polsterung und Breite der Matte: Wie gut fängt sie herabfallende Steeldarts ab, schont Boden und Spitzen?"
+    },
+    {
+      "key": "abwurflinie",
+      "label": "Abwurflinie & Maße",
+      "weight": 0.3,
+      "description": "Regelabstand 2,37 m für Steeldart, ggf. zusätzliche Linien für E-Dart; erhöhte (fühlbare) Oche statt nur aufgedruckter Linie; Länge mindestens bis zur Abwurflinie."
+    },
+    {
+      "key": "liegeverhalten",
+      "label": "Rutschfestigkeit & Liegeverhalten",
+      "weight": 0.2,
+      "description": "Rutschhemmende Unterseite, Wellen/Knicke nach dem Ausrollen, Eignung auf Teppich und Hartboden (Erfahrungsberichte)."
+    },
+    {
+      "key": "haltbarkeit",
+      "label": "Verarbeitung & Haltbarkeit",
+      "weight": 0.2,
+      "description": "Material, Geruch, Abrieb der Linien, Markenhersteller mit Ersatz-/Garantieangaben."
+    }
+  ],
+  "priceTiers": [
+    {
+      "tier": 1,
+      "label": "günstig",
+      "range": "bis ca. 45 €"
+    },
+    {
+      "tier": 2,
+      "label": "mittel",
+      "range": "ca. 45–65 €"
+    },
+    {
+      "tier": 3,
+      "label": "gehoben",
+      "range": "über ca. 65 €"
+    }
+  ],
+  "products": [
+    {
+      "rank": 1,
+      "label": "Beste Gesamtwahl",
+      "name": "WINMAU Pro Zone Precision Blade 6 Soft Dartmatte mit integrierter Oche",
+      "brand": "Winmau",
+      "variant": "Blade 6 Design, 300 × 60 cm, Soft-Feel-Oberfläche",
+      "priceTier": 2,
+      "ratings": {
+        "bodenschutz": 8.5,
+        "abwurflinie": 9.0,
+        "liegeverhalten": 8.0,
+        "haltbarkeit": 8.0
+      },
+      "gesamt": 8.45,
+      "bestFor": "Steeldart-Spieler, die eine fühlbare Abwurflinie im Turnierabstand und eine weiche, dämpfende Oberfläche wollen",
+      "fakten": [
+        {
+          "text": "Volle Länge 3,0 × 0,6 m mit 25 mm erhöhter Steeldart-Oche, Soft-Feel-Oberfläche im PDC-inspirierten Blade-6-Design",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B0DJMDY7RT",
+          "datum": "2026-10-21"
+        },
+        {
+          "text": "Integrierte erhöhte Oche mit offiziellen Turniermaßen",
+          "art": "Händlerangabe",
+          "quelle": "https://www.buffalo.nl/en/winmau-pro-zone-precision-blade-6-soft-feel-dart-mat",
+          "datum": "2026-10-21"
+        },
+        {
+          "text": "Auf amazon.de rund 4,5 von 5 Sternen bei ca. 190 Bewertungen",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B0DJMDY7RT",
+          "datum": "2026-10-21"
+        },
+        {
+          "text": "Im Listing widersprüchliche Angaben (Maßfeld 118 × 24 cm statt 300 × 60 cm, Gewicht 8 g) – vermutlich Packmaß bzw. Datenfehler",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B0DJMDY7RT",
+          "datum": "2026-10-21"
+        }
+      ],
+      "pros": [
+        "Erhöhte Oche (25 mm) – Fuß spürt die Linie, Linie kann nicht abgerieben werden",
+        "Volle Länge 3 m bis hinter die Abwurflinie",
+        "Weiche Oberfläche dämpft herabfallende Darts (Herstellerangabe)",
+        "Markenhersteller (Winmau, PDC-Partner)"
+      ],
+      "cons": [
+        "Nur Steeldart-Oche beschrieben – für E-Dart (2,44 m) keine eigene erhöhte Linie belegt",
+        "60 cm Breite: Abpraller seitlich können den Boden treffen",
+        "Listing-Daten teils widersprüchlich"
+      ],
+      "specs": {
+        "Maße": "300 × 60 cm (Händlerangabe)",
+        "Abwurflinie": "erhöht, 25 mm, Steeldart",
+        "Oberfläche": "Soft Feel (Teppich)",
+        "Design": "Blade 6"
+      },
+      "asin": "B0DJMDY7RT",
+      "query": "WINMAU Pro Zone Precision Blade 6 Soft Dart Mat",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "WINMAU Darts Floor Mat - Pro Zone Precision Blade 6 Soft Dart Mat with … (amazon.de/…/dp/B0DJMDY7RT)"
+    },
+    {
+      "rank": 2,
+      "label": "Bestes Preis-Leistungs-Verhältnis",
+      "name": "Target Darts Weltmeisterschafts-Oche-Dartteppich (Blue Trim)",
+      "brand": "Target",
+      "variant": "Blue Trim, ca. 298 × 60 cm, Teppich mit Gummirücken",
+      "priceTier": 1,
+      "ratings": {
+        "bodenschutz": 7.0,
+        "abwurflinie": 8.0,
+        "liegeverhalten": 6.5,
+        "haltbarkeit": 7.0
+      },
+      "gesamt": 7.2,
+      "bestFor": "Einsteiger und Familien, die günstig eine Matte mit allen gängigen Abwurflinien (Steel und E-Dart) wollen",
+      "fakten": [
+        {
+          "text": "Volle Länge mit mehreren Abwurflinien für verschiedene Dart-Formate; laut Target von Target-Profis genutzt und schützt den Boden vor herabfallenden Darts",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B093M594FC",
+          "datum": "2026-10-21"
+        },
+        {
+          "text": "Maße 298 × 60 cm, 3 mm stark; Teppich-/Filzoberfläche mit Gummirücken, geruchsarm, rollbar",
+          "art": "Händlerangabe",
+          "quelle": "https://preisvergleich.check24.de/ul/dart-zubehoer/3AF5A8JN83WHT-target-world-champions-dartmatte.html",
+          "datum": "2026-10-21"
+        },
+        {
+          "text": "Steeldart- und Softdart-Abwurflinien farbig markiert",
+          "art": "Händlerangabe",
+          "quelle": "https://www.ypc.co.uk/product/target-darts-world-champion-darts-mat-black-and-blue-dart-oche-mat-with-soft-tip-and-steel-tip-throw-line-distances-non-slip-carpet-mats-for-floor-and-dart-tips-protection-darts-accessories/",
+          "datum": "2026-10-21"
+        },
+        {
+          "text": "Auf amazon.de rund 4,6 von 5 Sternen bei über 4.000 Bewertungen; Kritikpunkte in Rezensionen: rutscht auf Teppich, weiße Linien vergrauen, Schutz vor Abprallern begrenzt",
+          "art": "Bericht",
+          "quelle": "https://www.amazon.de/dp/B093M594FC",
+          "datum": "2026-10-21"
+        }
+      ],
+      "pros": [
+        "Sehr viele Erfahrungsberichte, überwiegend positiv",
+        "Linien für Steel- und E-Dart",
+        "Leicht, rollbar, geruchsarm (Händlerangabe)",
+        "Eine der günstigsten Markenmatten im Feld"
+      ],
+      "cons": [
+        "Abwurflinien nur aufgedruckt, nicht erhöht",
+        "Nur ca. 3 mm dick – begrenzte Dämpfung",
+        "Rutscht laut Rezensionen auf Teppichboden"
+      ],
+      "specs": {
+        "Maße": "ca. 298 × 60 × 0,3 cm (Händlerangabe)",
+        "Abwurflinien": "aufgedruckt, Steel und Soft",
+        "Material": "Teppich/Filz mit Gummirücken"
+      },
+      "asin": "B093M594FC",
+      "query": "Target Darts World Champions Dartmatte Blue Trim",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "Target Darts World Cup Dart Mat Blue Trim (engl. Amazon-Titel; deutsche URL „Target-Darts-Weltmeisterschafts-Oche-Dartteppich“, amazon.de/…/dp/B093M594FC)"
+    },
+    {
+      "rank": 3,
+      "label": "Extra breit",
+      "name": "Bull's Carpet Mat 140 Grün Dartteppich",
+      "brand": "Bull's",
+      "variant": "ca. 280 × 80 cm, Polyester mit Latex-/Gummirücken, aufgedruckte Linien",
+      "priceTier": 1,
+      "ratings": {
+        "bodenschutz": 8.0,
+        "abwurflinie": 7.0,
+        "liegeverhalten": 6.5,
+        "haltbarkeit": 6.0
+      },
+      "gesamt": 7.0,
+      "bestFor": "Dart-Ecke auf Parkett oder Fliesen, in der auch seitliche Abpraller auf der Matte landen sollen",
+      "fakten": [
+        {
+          "text": "Amazon-Titel: „Carpet Mat 140 Green, Dart Rug with Non-Slip Rubber Backing, Environmentally Friendly Tournament Dart Mat with Official Distance from Dartboard 237 cm x 80 cm“; offizielle Abstände 237 cm + 244 cm laut Listing; 100 % Polyester, rutschfeste Latex-Rückseite",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B07ZZPBXSM",
+          "datum": "2026-10-21"
+        },
+        {
+          "text": "Maße 280 × 80 cm, 3 mm dick, 100 % Polyester mit rutschfester Latex-Rückseite",
+          "art": "Händlerangabe",
+          "quelle": "https://www.ed-sports.de/fun-actionsport/dartsport/zubehoer/10787/bull-s-dartteppich-dart-carpet-mat-140",
+          "datum": "2026-10-21"
+        },
+        {
+          "text": "Linien für Steel- und Softdart aufgedruckt (Vergleichsportal; Materialangabe dort abweichend „Nylon“)",
+          "art": "Händlerangabe",
+          "quelle": "https://www.vergleich.org/dartteppich/",
+          "datum": "2026-10-21"
+        },
+        {
+          "text": "Auf amazon.de rund 4,2–4,3 von 5 Sternen bei ca. 280–300 Bewertungen (Snapshots der Websuche); Rotvariante B07ZZPMWT6 4,2/5 bei 278 Bewertungen, „über 100 im letzten Monat gekauft“. Lob: Optik, offizieller Abstand, Halt; Kritik: Abnutzung nach kurzer Zeit (ein Käufer: starke Abnutzung nach zwei Monaten), dünnes Material, rutscht auf manchen Böden",
+          "art": "Bericht",
+          "quelle": "https://www.amazon.de/dp/B07ZZPBXSM",
+          "datum": "2026-10-21"
+        }
+      ],
+      "pros": [
+        "80 cm breit – deutlich mehr Fläche für seitliche Abpraller als 60-cm-Matten",
+        "Linien für Steel- und E-Dart (2,37 m und 2,44 m laut Listing)",
+        "Rutschhemmende Latex-Unterseite (Händlerangabe)",
+        "Viele Erfahrungsberichte, überwiegend positiv"
+      ],
+      "cons": [
+        "Linien nur aufgedruckt, nicht erhöht",
+        "Nur ca. 3 mm dick; laut Rezensionen teils schnelle Abnutzung",
+        "Mit ca. 2,80 m etwas kürzer als 3-m-Matten"
+      ],
+      "specs": {
+        "Maße": "ca. 280 × 80 × 0,3 cm (Händlerangabe)",
+        "Abwurflinien": "aufgedruckt, Steel und Soft",
+        "Material": "Polyester mit Latex-Rücken"
+      },
+      "asin": "B07ZZPBXSM",
+      "query": "Bull's Carpet Mat 140 Grün Dartteppich",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "Carpet Mat 140 Green, Dart Rug with Non-Slip Rubber Backing … 237 cm x 80 cm (amazon.de/…/dp/B07ZZPBXSM; Bull's-Listing, per WebSearch, amazon.de selbst per DNS nicht abrufbar)"
+    }
+  ],
+  "top5": [
+    {
+      "name": "Bull's Rubber Oche Mat 300 × 60 (Gummimatte)",
+      "warum": "Gummimatte für Keller/Garage und harte Beanspruchung: 3 mm Heavy-Duty-Gummi mit erhöhter Oche im offiziellen Abstand.",
+      "fakten": [
+        {
+          "text": "3 mm starke Heavy-Duty-Gummimatte, erhöhte Oche im offiziellen Wurfabstand, Modell BU-67803; ca. 4,5 Sterne bei 19 Bewertungen",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B01MQJAA4O",
+          "datum": "2026-10-21"
+        }
+      ],
+      "asin": "B01MQJAA4O",
+      "query": "Bull's Rubber Oche Mat 300x60",
+      "where": null,
+      "asinGeprueft": "Bull's Rubber Oche Mat 300x60"
+    },
+    {
+      "name": "WINMAU Pro Zone Precision PVC Dartmatte mit integrierter erhöhter Abwurflinie",
+      "warum": "Für Steel und E-Dart: PVC-Matte in voller Länge mit erhöhter Linie – pflegeleicht, abwischbar.",
+      "fakten": [
+        {
+          "text": "61 × 300 cm (andere Angabe 60 × 300 cm), integrierte erhöhte Abwurflinie; Listings nennen Dual-Oche-Linien für Steel- und Softdart; Modellnummern 8216 bzw. 8209 widersprüchlich",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B0DJMGH5FM",
+          "datum": "2026-10-21"
+        },
+        {
+          "text": "Pro-Zone-Precision PVC 8216, rutschfest, 300 × 60 cm",
+          "art": "Händlerangabe",
+          "quelle": "https://www.testsieger.de/dart-zubehoer/9CSQA87F1J28T-winmau-dartmatte-pro-zone-precision-pvc-8216-rutschfest-schwarzblaurot-300-x-60-cm.html",
+          "datum": "2026-10-21"
+        }
+      ],
+      "asin": "B0DJMGH5FM",
+      "query": "WINMAU Pro Zone Precision PVC Dartmatte integrierte erhöhte Abwurflinie",
+      "where": null,
+      "asinGeprueft": "WINMAU Pro Zone Precision PVC Dart Carpet with Integrated Raiser Throwing …"
+    },
+    {
+      "name": "RED DRAGON Pro-Position Dartmatte (kurze Matte)",
+      "warum": "Kurze Matte für wenig Platz oder zum Mitnehmen: nur der Standbereich mit Abwurflinie und Fußpositionen von Profis.",
+      "fakten": [
+        {
+          "text": "60 × 73,5 cm, Pro-Position-Abwurflinie, Fußpositionen u. a. von Peter Wright, Gerwyn Price, Jonny Clayton; rutschfeste Unterseite",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B09ZYRNT36",
+          "datum": "2026-10-21"
+        },
+        {
+          "text": "Rezensionen: Fußpositionen nur für Rechtshänder; Knicke aus der Rolle brauchen Zeit; anfänglicher Geruch",
+          "art": "Bericht",
+          "quelle": "https://www.amazon.de/dp/B09ZYRNT36",
+          "datum": "2026-10-21"
+        }
+      ],
+      "asin": "B09ZYRNT36",
+      "query": "RED DRAGON Pro-Position Dart Mat",
+      "where": null,
+      "asinGeprueft": "RED DRAGON Pro-Position Dart Mat / RED DRAGON Darts - Dart Mat with Oche Line - Official Tournament Dimensions"
+    },
+    {
+      "name": "WINMAU Hi-Tech Beam Laser-Oche (Abwurflinie ohne Matte)",
+      "warum": "Wenn keine Matte liegen soll: wandmontierter Laser projiziert die Abwurflinie auf den Boden – keine Stolperkante, kein Klebeband. Schützt den Boden nicht.",
+      "fakten": [
+        {
+          "text": "Wandmontierter Präzisionslaser für die offizielle Oche-Linie, batteriebetrieben, ohne Stolperkante und Klebeband",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B007UEL5RQ",
+          "datum": "2026-10-21"
+        }
+      ],
+      "asin": "B007UEL5RQ",
+      "query": "WINMAU Hi-Tech Beam Dart Laser Oche",
+      "where": null,
+      "asinGeprueft": "WINMAU Hi-Tech Beam Dart Laser Oche, Wall Mounted Precision Laser for Official Oche Line, No Tripping, No Tape, Battery Operated …"
+    },
+    {
+      "name": "Mission Samurai Carpet Dartmatte 290 × 60 cm (Teppichmatte)",
+      "warum": "Leichte Teppichmatte mit auffälligem Design als Alternative zu den Top 3; in mehreren Designs erhältlich.",
+      "fakten": [
+        {
+          "text": "Leichte Carpet-Dartmatte, 290 × 60 cm, in mehreren Designs erhältlich; Linien für Steel- und Softdart",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B0D5MQ2GWQ",
+          "datum": "2026-10-21"
+        },
+        {
+          "text": "Auf amazon.de 3,8 von 5 Sternen bei 25 Bewertungen; laut Rezensionen rollen sich die Ecken teils auf, ein Käufer berichtet von Auflösung/kahlen Stellen nach einem Monat",
+          "art": "Bericht",
+          "quelle": "https://www.amazon.de/dp/B0D5MQ2GWQ",
+          "datum": "2026-10-21"
+        }
+      ],
+      "asin": "B0D5MQ2GWQ",
+      "query": "Mission Samurai Carpet Dart Mat 290 x 60",
+      "where": null,
+      "asinGeprueft": "Mission Samurai Carpet 290 x 60 cm Dart Mat"
+    }
+  ],
+  "tests": [],
+  "testHinweis": "Kein Test von Stiftung Warentest, Öko-Test oder Fachmagazinen zu Dartmatten gefunden (Stand 2026-10-21). testsieger.de und check24 führen Dartmatten nur als Preisvergleich ohne eigene Prüfung (https://www.testsieger.de/dart-zubehoer/9CSQA87F1J28T-winmau-dartmatte-pro-zone-precision-pvc-8216-rutschfest-schwarzblaurot-300-x-60-cm.html). Bewertungen daher redaktionell nach Herstellerangaben und Erfahrungsberichten – in der Methodik so kennzeichnen.",
+  "warnungen": [
+    "Keine Rückrufe oder Safety-Gate-Meldungen zu Dartmatten der genannten Marken gefunden (Websuche 2026-10-21; Safety-Gate-Datenbank selbst nicht abrufbar). Allgemein meldet Safety Gate PAK-Grenzwertüberschreitungen bei Sportartikeln aus Gummi/Kunststoff (https://www.bmluk.gv.at/themen/klima-und-umwelt/chemiepolitik/eu-chempolitik-reach-clp/rapex.html) – daher Markenmatten bevorzugt, starker Geruch beim Auspacken ist ein Warnsignal (Hintergrund PAK: https://www.test.de/PAK-polyzyklische-aromatische-Kohlenwasserstoffe-5225772-0/).",
+    "Eine Dartmatte schützt nicht vollständig: Rezensionen berichten, dass senkrecht fallende Steeldarts Teppichmatten durchstechen bzw. Marmor-/Fliesenböden trotzdem beschädigt werden können (https://www.amazon.de/Bulls-Darts-Carpet-Dart-Raised/dp/B08W1PXZNM, https://www.amazon.de/WINMAU-Dartteppich-Abwurflinie-Dartmatte-Checkout-Referenz/dp/B07CSQPSG6).",
+    "Stolpergefahr durch erhöhte Oche-Kanten und aufgerollte Ränder (Rezensionen zu gerollt gelieferten Matten, z. B. https://www.amazon.de/dp/B09ZYRNT36) – Matte vor dem Spielen flach auslegen lassen.",
+    "Laser-Oche (Top 5): Laserklasse im Listing nicht angegeben – Hinweis: nicht in die Augen leuchten, außer Reichweite kleiner Kinder."
+  ],
+  "verworfen": [
+    {
+      "name": "Bull's Carpet + Oche Dartmatte 300 × 90/95 cm (B08M6DS6CY, bisher Platz 3)",
+      "grund": "Prüfbericht 2026-10-21: nur 6 Bewertungen mit 3,4/5; Rezensionen: Matte kam gebraucht aussehend mit Löchern an, „recht dünn“, die abgebildete 237-cm-Linie fehlte. Maße im Listing widersprüchlich. Ersetzt durch Bull's Carpet Mat 140 (B07ZZPBXSM)."
+    },
+    {
+      "name": "Bull's Advantage Carpet Dart Mat 300 × 85 cm + Oche (B0FGJMY4Y7)",
+      "grund": "ASIN und Titel passen, aber sehr neues Listing mit nur ca. 1–9 Bewertungen (je nach Snapshot) – als Platz-3-Ersatz nicht belastbar genug."
+    },
+    {
+      "name": "Bull's Professional Carpet + Oche 300 × 65 cm (B08W1PXZNM)",
+      "grund": "Ein Käufer berichtet, die Linie sei nur aufgedruckt statt erhöht; Breite 65 cm bringt kaum Vorteil gegenüber 60-cm-Matten."
+    },
+    {
+      "name": "Bull's PDC Europe Carpet Dart Mat (B07ZK2RFTL) / Bull's Dart mat with Oche 300 × 65 (B074L1XLDD)",
+      "grund": "Auf amazon.de derzeit nicht verfügbar; PDC-Europe-Matte zudem nur 31 Bewertungen und Rezension zu falsch liegenden Linien."
+    },
+    {
+      "name": "Target Darts Pro Tour Gummi Dartmatte (B00GWEL6VK)",
+      "grund": "Auf amazon.de als derzeit nicht verfügbar gelistet; zudem negative Rezension zu Geruch/Verarbeitung (https://www.amazon.de/dp/B00GWEL6VK)."
+    },
+    {
+      "name": "WINMAU Outshot Dartteppich mit Abwurflinie (B07CSQPSG6)",
+      "grund": "ASIN nicht eindeutig: dieselbe ASIN erscheint auf amazon.de auch mit dem Titel „WINMAU Compact-Pro Dart Mat 73,5 × 60 cm“; Rezensionen zu aufgerollten Rändern und Gripverlust. Nicht ohne eindeutige ASIN empfehlen."
+    },
+    {
+      "name": "Bulls Rubber Dartmatte 300 × 60 cm inkl. Oche (B005DEP170)",
+      "grund": "Derzeit nicht verfügbar; aktive Alternative B01MQJAA4O in der Top 5."
+    },
+    {
+      "name": "WINMAU Blade X Pro Zone Precision PVC Dartmatte (B0GGSWXX1C)",
+      "grund": "Sehr neu, nur ca. 6 Bewertungen, widersprüchliche Maße (24 × 118 cm) im Listing."
+    },
+    {
+      "name": "Mission Darts Jack Daniel's Carpet Dartmatte (B0B3V5HXP9)",
+      "grund": "Alkohol-Lizenzdesign – für ein Familien-/Heimportal ungeeignet; Mission stattdessen mit Samurai Carpet in der Top 5."
+    },
+    {
+      "name": "Kingpower, autix, KOTO, Turnart, BULLET, Stagecaptain u. ä.",
+      "grund": "Austauschbare Händlermarken ohne Hersteller-Infos zu Material/Garantie; keine Top-3-Kandidaten."
+    },
+    {
+      "name": "WINMAU Compact-Pro (B0CSPRQ5YV)",
+      "grund": "Kurze Matte – mit Red Dragon Pro-Position bereits abgedeckt (Fußpositionen als Zusatznutzen)."
+    }
+  ],
+  "offen": [
+    "Bull's Carpet Mat 140 (B07ZZPBXSM, Platz 3): Titel nennt „237 cm x 80 cm“ (Abwurfabstand × Breite), Händler nennen 280 × 80 × 0,3 cm; Verfügbarkeit auf amazon.de nicht live prüfbar (amazon.it zeigte „nicht verfügbar“, amazon.de-Snapshot mit Preis). Falls Grün ausverkauft: Rotvariante B07ZZPMWT6.",
+    "Target (B093M594FC, Platz 2): Name im Text jetzt „Target Darts Weltmeisterschafts-Oche-Dartteppich (Blue Trim)“ (deutsche Amazon-Bezeichnung).",
+    "Winmau Blade 6 Soft (B0DJMDY7RT, Platz 1): Listing-Maße widersprüchlich (300 × 60 cm vs. 118 × 24 cm); ob neben der Steel-Oche auch eine E-Dart-Linie vorhanden ist, nicht belegt.",
+    "Amazon.de, Hersteller- und Händlerseiten waren aus der Arbeitsumgebung nicht direkt abrufbar (DNS); alle ASINs und Titel stammen aus der Websuche (amazon.de-/dp/-Treffer). Verfügbarkeit nicht live geprüft.",
+    "Kein unabhängiger Test (Stiftung Warentest/Öko-Test/Fachmagazin) zu Dartmatten gefunden – Methodik entsprechend formulieren.",
+    "Awin: freigeschaltet sind nur Rewe DE (11652), Radwelt-shop DE (15088), brickzonehub (121692) – keiner führt Dartmatten; alle Produkte über Amazon, daher kein neuer Awin-Händler nötig.",
+    "Safety-Gate-Datenbank nicht direkt durchsuchbar – Rückrufprüfung nur per Websuche."
+  ],
+  "quellen": [
+    {
+      "titel": "amazon.de – WINMAU Pro Zone Precision Blade 6 Soft Dart Mat",
+      "url": "https://www.amazon.de/dp/B0DJMDY7RT"
+    },
+    {
+      "titel": "buffalo.nl – Winmau Pro Zone Precision Blade 6 Soft Feel Dart Mat",
+      "url": "https://www.buffalo.nl/en/winmau-pro-zone-precision-blade-6-soft-feel-dart-mat"
+    },
+    {
+      "titel": "amazon.de – Target Darts World Champions/World Cup Dart Mat Blue Trim",
+      "url": "https://www.amazon.de/dp/B093M594FC"
+    },
+    {
+      "titel": "check24 – Target World Champions Dartmatte",
+      "url": "https://preisvergleich.check24.de/ul/dart-zubehoer/3AF5A8JN83WHT-target-world-champions-dartmatte.html"
+    },
+    {
+      "titel": "YPC – Target Darts World Champion Darts Mat",
+      "url": "https://www.ypc.co.uk/product/target-darts-world-champion-darts-mat-black-and-blue-dart-oche-mat-with-soft-tip-and-steel-tip-throw-line-distances-non-slip-carpet-mats-for-floor-and-dart-tips-protection-darts-accessories/"
+    },
+    {
+      "titel": "amazon.de – Bull's Carpet Mat 140 Green Dart Rug",
+      "url": "https://www.amazon.de/dp/B07ZZPBXSM"
+    },
+    {
+      "titel": "ed-sports.de – Bull's Dartteppich Carpet Mat 140",
+      "url": "https://www.ed-sports.de/fun-actionsport/dartsport/zubehoer/10787/bull-s-dartteppich-dart-carpet-mat-140"
+    },
+    {
+      "titel": "vergleich.org – Dartteppich (Linien Steel/Soft)",
+      "url": "https://www.vergleich.org/dartteppich/"
+    },
+    {
+      "titel": "amazon.de – Bull's Carpet + Oche 300 x 90/95 cm (verworfen)",
+      "url": "https://www.amazon.de/dp/B08M6DS6CY"
+    },
+    {
+      "titel": "amazon.de – Bull's Advantage Carpet 300 x 85 + Oche (verworfen)",
+      "url": "https://www.amazon.de/dp/B0FGJMY4Y7"
+    },
+    {
+      "titel": "amazon.de – Bull's Dart Rug with Oche 300 x 65 cm",
+      "url": "https://www.amazon.de/Bulls-Darts-Carpet-Dart-Raised/dp/B08W1PXZNM"
+    },
+    {
+      "titel": "amazon.de – Bull's Rubber Oche Mat 300x60",
+      "url": "https://www.amazon.de/dp/B01MQJAA4O"
+    },
+    {
+      "titel": "amazon.de – WINMAU Pro Zone Precision PVC Dart Carpet",
+      "url": "https://www.amazon.de/dp/B0DJMGH5FM"
+    },
+    {
+      "titel": "testsieger.de – Winmau Pro Zone Precision PVC 8216",
+      "url": "https://www.testsieger.de/dart-zubehoer/9CSQA87F1J28T-winmau-dartmatte-pro-zone-precision-pvc-8216-rutschfest-schwarzblaurot-300-x-60-cm.html"
+    },
+    {
+      "titel": "amazon.de – RED DRAGON Pro-Position Dart Mat",
+      "url": "https://www.amazon.de/dp/B09ZYRNT36"
+    },
+    {
+      "titel": "amazon.de – WINMAU Hi-Tech Beam Laser Oche",
+      "url": "https://www.amazon.de/dp/B007UEL5RQ"
+    },
+    {
+      "titel": "amazon.de – Mission Samurai Carpet 290 x 60 cm",
+      "url": "https://www.amazon.de/dp/B0D5MQ2GWQ"
+    },
+    {
+      "titel": "amazon.de – Target Darts Pro Tour Gummi Dart Matte (nicht verfügbar)",
+      "url": "https://www.amazon.de/dp/B00GWEL6VK"
+    },
+    {
+      "titel": "amazon.de – WINMAU Outshot Dartteppich (ASIN mehrdeutig)",
+      "url": "https://www.amazon.de/WINMAU-Dartteppich-Abwurflinie-Dartmatte-Checkout-Referenz/dp/B07CSQPSG6"
+    },
+    {
+      "titel": "BMLUK – Safety-Gate-Verfahren",
+      "url": "https://www.bmluk.gv.at/themen/klima-und-umwelt/chemiepolitik/eu-chempolitik-reach-clp/rapex.html"
+    },
+    {
+      "titel": "Stiftung Warentest – PAK",
+      "url": "https://www.test.de/PAK-polyzyklische-aromatische-Kohlenwasserstoffe-5225772-0/"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "visuals": {
+    "1": {
+      "kind": "pedals",
+      "tone": "forest"
+    },
+    "2": {
+      "kind": "pedals",
+      "tone": "green"
+    },
+    "3": {
+      "kind": "pedals",
+      "tone": "mint"
+    }
+  },
+  "steps": {
+    "title": "Ruderpedale einrichten",
+    "subtitle": "Stand, Sitzposition und Achsen",
+    "alt": "Infografik: Ruderpedale einrichten – Plattform klären, Fußraum messen, Rutschfest stellen, Sitzabstand anpassen, Kalibrieren, Achsen belegen",
+    "caption": "Pedale rutschfest stellen, Sitzabstand anpassen und die Bremsen getrennt belegen.",
+    "steps": [
+      {
+        "title": "Plattform klären",
+        "text": "Prüfen, ob die Pedale für PC, Xbox oder PS5 freigegeben sind und wie sie angeschlossen werden."
+      },
+      {
+        "title": "Fußraum messen",
+        "text": "Platz unter dem Schreibtisch für den vollen Pedalweg und die Knie prüfen."
+      },
+      {
+        "title": "Rutschfest stellen",
+        "text": "Auf Teppich oder Matte stellen oder gegen eine Wand bzw. ein Cockpit abstützen."
+      },
+      {
+        "title": "Sitzabstand anpassen",
+        "text": "Stuhl so stellen, dass die Beine bei voll getretenem Pedal noch leicht gebeugt sind."
+      },
+      {
+        "title": "Kalibrieren",
+        "text": "Im Simulator Seitenruder und beide Zehenbremsen einzeln durchtreten und prüfen."
+      },
+      {
+        "title": "Achsen belegen",
+        "text": "Ruder auf die Gier-Achse, linke und rechte Bremse auf getrennte Achsen legen, Auto-Rudder abschalten."
+      }
+    ]
+  },
+  "scoresAlt": "Balkendiagramm: Bewertung der drei besten Ruderpedale für den Flugsimulator in den Kriterien Mechanik & Präzision, Zehenbremsen, Kompatibilität, Stand & Platz und Preis-Leistung",
+  "scoresCaption": "Unsere Bewertung je Kriterium für die drei empfohlenen Modelle.",
+  "neueFormen": [
+    "pedals"
+  ],
+  "offen": [
+    "Kriterien in scoresAlt sind ein Entwurf – an die finalen Bewertungskriterien anpassen.",
+    "Steps sind allgemeine Vorgehensschritte; Anschlussdetails (z. B. Pedale über Stick/Yoke) erst nach Produktrecherche konkretisieren."
+  ]
+}

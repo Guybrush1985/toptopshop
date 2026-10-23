@@ -1,0 +1,198 @@
+{
+  "slug": "beste-dartscheiben-beleuchtung",
+  "stand": "2026-10-21",
+  "hinweis": "amazon.de, Hersteller- und Händlerseiten waren aus der Arbeitsumgebung nicht direkt abrufbar (DNS-Fehler). Alle Angaben stammen aus der Websuche (Titel/Auszüge der amazon.de-/dp/-Seiten und Herstellerseiten). Vor Veröffentlichung Stichprobe im Browser empfohlen.",
+  "criteria": [
+    { "key": "ausleuchtung", "label": "Ausleuchtung & Schattenfreiheit", "weight": 0.35, "description": "Wie gleichmäßig wird die ganze Scheibe inkl. unterer Segmente beleuchtet, werfen Pfeile Schatten?" },
+    { "key": "montage", "label": "Montage & Kompatibilität", "weight": 0.25, "description": "Werkzeuglose Montage, passt zu Scheibe/Surround/Kabinett, Bohren nötig?" },
+    { "key": "spielkomfort", "label": "Spielkomfort", "weight": 0.2, "description": "Zugriff beim Pfeileziehen, Blendung, Treffergefahr für den Ring." },
+    { "key": "verarbeitung", "label": "Verarbeitung & Ersatzteile", "weight": 0.2, "description": "Material, Ersatz-LED-Streifen/Netzteile, Garantie, Kundenberichte zur Haltbarkeit." }
+  ],
+  "priceTiers": null,
+  "products": [
+    {
+      "rank": 1,
+      "label": "Beste Gesamtwahl",
+      "name": "Target Darts Corona Vision Dartboard Lighting System",
+      "brand": "Target Darts",
+      "variant": "Schwarzer Rahmen, weiße LEDs, 360°",
+      "priceTier": 2,
+      "ratings": { "ausleuchtung": 9.0, "montage": 9.5, "spielkomfort": 8.0, "verarbeitung": 8.5 },
+      "gesamt": 8.83,
+      "bestFor": "Alle, die ein bestehendes Steeldart-Board ohne Bohren rundum schattenfrei ausleuchten wollen – auch mit Surround oder im Kabinett.",
+      "fakten": [
+        { "text": "360°-LED-Ring mit 123 LEDs laut amazon.de-Listing.", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B06Y3J4WMX", "datum": "2026-10-21" },
+        { "text": "Der britische Target-Shop nennt 125 LEDs; Licht soll unabhängig von der Raumbeleuchtung gleichmäßig sein.", "art": "Herstellerangabe", "quelle": "https://www.target-darts.co.uk/corona-vision-dartboard-lighting-system", "datum": "2026-10-21" },
+        { "text": "Vier Magnetfüße haften am Stahl-Drahtring der Scheibe – kein Werkzeug, kein Bohren.", "art": "Herstellerangabe", "quelle": "https://www.target-darts.co.uk/corona-vision-dartboard-lighting-system", "datum": "2026-10-21" },
+        { "text": "Passt laut Listing zu Scheiben mit Kabinett, Surround oder Halterung; Scheibe und Surround nicht im Lieferumfang.", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B06Y3J4WMX", "datum": "2026-10-21" },
+        { "text": "Lieferumfang: LED-Ring, 4 Magnetfüße, Stecker, Netzteil, Anleitung; 12 Monate Garantie laut Produktbeschreibung.", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B06Y3J4WMX", "datum": "2026-10-21" },
+        { "text": "Ersatz-LED-Streifen als eigenes Produkt gelistet (B07L71FKST), zuletzt allerdings nicht verfügbar.", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B07L71FKST", "datum": "2026-10-21" },
+        { "text": "Nachfolger Corona Vision 2 (270°-Bogen, Touch-Dimmer im Ring) ist beim Hersteller gelistet, auf amazon.de nicht gefunden.", "art": "Herstellerangabe", "quelle": "https://www.target-darts.co.uk/corona-vision-2-and-vision-surround", "datum": "2026-10-21" }
+      ],
+      "pros": ["Werkzeuglose Magnetmontage in Sekunden", "Rundum-Licht ohne Schatten (laut Hersteller und vielen Kundenberichten)", "Passt zu Surround und Kabinett", "Sehr verbreitet, viele tausend amazon.de-Bewertungen"],
+      "cons": ["Geschlossener 360°-Ring: Pfeile knapp am Rand können den Ring treffen", "Kein Dimmer", "Ersatz-LED-Streifen zeitweise nicht lieferbar"],
+      "specs": { "Bauart": "360°-Ringlicht", "LEDs": "123 (amazon.de-Listing) bzw. 125 (Target-Shop UK)", "Montage": "4 Magnetfüße am Drahtring", "Strom": "Netzteil", "Garantie": "12 Monate (Listing)" },
+      "asin": "B06Y3J4WMX",
+      "query": "Target Darts Corona Vision Dartboard Lighting System",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "Target Darts Corona Vision Dartboard Lighting System Dartboard Cabinets & Cabinet Black : Amazon.de (Websuche 2026-10-21: verkauft von Target Darts, auf Lager, ca. 7.800 Bewertungen, 123 LEDs, 4 Magnetfüße, Netzteil; Korrekturrunde 1 – vorher B0CFBBPLLF, dort „derzeit nicht verfügbar“)"
+    },
+    {
+      "rank": 2,
+      "label": "Bestes Preis-Leistungs-Verhältnis",
+      "name": "Mission Darts Torus 270 LED-Beleuchtungssystem",
+      "brand": "Mission Darts",
+      "variant": "TOR270, Schwarz sandgestrahlt",
+      "priceTier": 1,
+      "ratings": { "ausleuchtung": 8.0, "montage": 8.5, "spielkomfort": 9.0, "verarbeitung": 7.5 },
+      "gesamt": 8.23,
+      "bestFor": "Spieler, die gute Ausleuchtung wollen und beim Pfeileziehen freien Zugang zur Scheibe schätzen – auch Jugendliche und kleinere Spieler.",
+      "fakten": [
+        { "text": "Aluminium-Lichtbogen über 270° mit offener Zone unten für ungehinderten Zugriff auf die Darts; helle weiße LEDs.", "art": "Herstellerangabe", "quelle": "https://missiondarts.com/products/mission-torus-270-dartboard-lighting-bright-white-light", "datum": "2026-10-21" },
+        { "text": "Innenkante der Lichtschiene um 25° nach außen geneigt, um mehr Licht auf das Board zu lenken.", "art": "Herstellerangabe", "quelle": "https://missiondarts.com/products/mission-torus-270-dartboard-lighting-bronze-bright-white-light", "datum": "2026-10-21" },
+        { "text": "Montage mit beiliegendem Inbusschlüssel: Beine an den Rahmen schrauben, an die Scheibe klemmen; Halterungen passen laut Listing auch mit Surround oder im Dartschrank. Scheibe nicht enthalten.", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B095T3365B", "datum": "2026-10-21" },
+        { "text": "Mission bietet Zubehör und Ersatzteile an: Dimmer-Schalter und 3-m-Ersatznetzteil/-kabel für das Torus-System.", "art": "Herstellerangabe", "quelle": "https://missiondarts.com/products/mission-torus-dimmer-switch-for-lighting-systems-dimmer", "datum": "2026-10-21" },
+        { "text": "Einzelne amazon.de-Rezensionen berichten von Haltbarkeitsproblemen bzw. fehlender Halterung bei Lieferung.", "art": "Bericht", "quelle": "https://www.amazon.de/dp/B095T3365B", "datum": "2026-10-21" }
+      ],
+      "pros": ["Offene Unterseite: Pfeile ziehen ohne Ringkontakt", "Günstiger als Corona und Plasma", "Dimmer und Ersatznetzteil als Zubehör erhältlich", "Viele Farbvarianten"],
+      "cons": ["Unterer Bereich nicht direkt vom Ring umschlossen", "Montage mit Werkzeug (Inbus)", "Vereinzelte Berichte zur Haltbarkeit"],
+      "specs": { "Bauart": "270°-Bogenlicht", "Material": "Aluminium, sandgestrahlt", "Montage": "Klemmhalter an der Scheibe (Inbus)", "Strom": "Netzteil (Variante mit USB-C beim Hersteller)" },
+      "asin": "B095T3365B",
+      "query": "Mission Darts Torus 270 LED Dartboard Beleuchtung schwarz",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "Mission Torus 270 LED Dart Lighting : Amazon.de: Sports & Outdoors (URL-Slug „Mission-Darts-LED-Beleuchtungssystem-uneingeschränktes-sandgestrahltes“; Titel aus Websuche)"
+    },
+    {
+      "rank": 3,
+      "label": "Premium-Wahl (Lichtsystem)",
+      "name": "WINMAU Plasma Dartscheiben-Beleuchtung",
+      "brand": "Winmau",
+      "variant": "Plasma (schwarz), 360°, Wandmontage",
+      "priceTier": 2,
+      "ratings": { "ausleuchtung": 9.5, "montage": 7.0, "spielkomfort": 8.5, "verarbeitung": 8.5 },
+      "gesamt": 8.48,
+      "bestFor": "Wer eine feste Dartecke einrichtet und maximale, blendfreie Ausleuchtung um Scheibe und Surround will – auch als Basis für Kamera-Autoscoring.",
+      "fakten": [
+        { "text": "360°-LED-Licht „ohne Schatten und ohne seitliche Blendung“; passt zu jeder Scheibe und jedem Surround, Befestigungsmaterial inklusive.", "art": "Herstellerangabe", "quelle": "https://winmau.com/products/winmau-plasma-dartboard-light", "datum": "2026-10-21" },
+        { "text": "Maße ca. 74,5 × 74 × 6,5 cm, Kabellänge 297 cm.", "art": "Herstellerangabe", "quelle": "https://winmau.com/products/winmau-plasma-dartboard-light", "datum": "2026-10-21" },
+        { "text": "Leichtes Aluminium, 2000 Lumen, Montage an der Wand in ca. 20 Minuten; Scheibe und Surround nicht enthalten.", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B07K1G7C4G", "datum": "2026-10-21" },
+        { "text": "Ersatz-LED-Leiste als eigenes Produkt erhältlich (B08PVRWG1F).", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B08PVRWG1F", "datum": "2026-10-21" },
+        { "text": "Variante „Plasma Ice“ in Weiß separat gelistet (B0DK3J597F).", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B0DK3J597F", "datum": "2026-10-21" }
+      ],
+      "pros": ["Größter Ring im Vergleich – leuchtet Scheibe samt Surround aus", "Hohe Helligkeit (2000 lm laut Listing)", "Ring sitzt außerhalb der Wurfzone", "Ersatz-LED-Leiste erhältlich"],
+      "cons": ["Nur Wandmontage – Bohren nötig, nicht im Kabinett", "Groß und auffällig", "Lumenangabe nur vom Händler, nicht vom Hersteller bestätigt"],
+      "specs": { "Bauart": "360°-Ringlicht, wandmontiert", "Maße": "74,5 × 74 × 6,5 cm (Hersteller)", "Kabel": "297 cm", "Helligkeit": "2000 lm (Händlerangabe)" },
+      "asin": "B07K1G7C4G",
+      "query": "WINMAU Plasma Dartscheiben Beleuchtung",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "Winmau Plasma Light Dart Board (URL-Slug „WINMAU-Dartscheiben-Beleuchtung-Schattenfreie-Ausleuchtung-Wandmontage“; Titel aus Websuche)"
+    }
+  ],
+  "top5": [
+    {
+      "name": "WINMAU Polaris 120° Dartboard-Beleuchtung",
+      "warum": "Strahler ohne Bohren: magnetischer 120°-Teilring, günstiger Einstieg für Winmau- und Red-Dragon-Scheiben.",
+      "fakten": [
+        { "text": "120°-Weitwinkel-LED, magnetische Befestigung ohne Werkzeug, kompatibel mit allen Winmau- und Red-Dragon-Dartboards.", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B0CJYLKJXB", "datum": "2026-10-21" },
+        { "text": "Ein Rezensent fand das Licht der Plasma deutlich besser als das der Polaris.", "art": "Bericht", "quelle": "https://www.amazon.de/dp/B0CJYLKJXB", "datum": "2026-10-21" }
+      ],
+      "asin": "B0CJYLKJXB",
+      "query": "WINMAU Polaris Dartboard Lighting 120",
+      "where": null
+    },
+    {
+      "name": "Mission Darts Torus 120° LED Dartboard Lighting System – tragbar, USB-C",
+      "warum": "USB-C/mobil: klappbares 120°-Licht für Reisen, Vereinsabend oder wechselnde Standorte.",
+      "fakten": [
+        { "text": "Tragbares 120°-LED-System mit USB-C, faltbar.", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B0FRB3DHZN", "datum": "2026-10-21" },
+        { "text": "USB-C ist nur der Stromeingang; Netzteil nicht enthalten – USB-C-Ladegerät oder Powerbank nötig.", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B0FRB3DHZN", "datum": "2026-10-21" },
+        { "text": "Beim Vorgänger Torus 100 bemängeln Rezensenten die Ausleuchtung der unteren Scheibenhälfte; das 120°-Modell wird dagegen besser bewertet.", "art": "Bericht", "quelle": "https://www.amazon.de/product-reviews/B09F3H1S7T", "datum": "2026-10-21" }
+      ],
+      "asin": "B0FRB3DHZN",
+      "query": "Mission Darts Torus 120 LED Dartboard Lighting USB-C",
+      "where": null
+    },
+    {
+      "name": "Target Darts Arc Dartboard Cabinet Lighting System",
+      "warum": "Für das Kabinett: Lichtleiste für Dartschränke, gleichmäßiges weißes LED-Licht unabhängig vom Raum.",
+      "fakten": [
+        { "text": "Für Kabinett-Sets; gleichmäßiges weißes LED-Licht unabhängig von den Raumbedingungen.", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B09CV8JPXV", "datum": "2026-10-21" },
+        { "text": "Einzelne Rezensenten nennen das Kabel zu kurz.", "art": "Bericht", "quelle": "https://www.amazon.de/dp/B09CV8JPXV", "datum": "2026-10-21" }
+      ],
+      "asin": "B09CV8JPXV",
+      "query": "Target Darts Arc Dartboard Cabinet Lighting System",
+      "where": null
+    },
+    {
+      "name": "Bull's Lumo Surround Dartboard-Beleuchtungssystem",
+      "warum": "Licht + Wandschutz in einem: Surround mit integriertem 360°-LED-Licht für alle, die noch keinen Catchring haben.",
+      "fakten": [
+        { "text": "360°-LED-Beleuchtung mit Wandschutz, 59 cm Durchmesser, 88 LEDs, CE & RoHS, Netzteil mit Weltadapter.", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B0D9YDSHKZ", "datum": "2026-10-21" },
+        { "text": "Wenige Bewertungen (11); ein Rezensent (2 Sterne) berichtet von geknicktem Kabel, losem LED-Streifen und Schäden durch Fehlwürfe.", "art": "Bericht", "quelle": "https://www.amazon.de/dp/B0D9YDSHKZ", "datum": "2026-10-21" }
+      ],
+      "asin": "B0D9YDSHKZ",
+      "query": "Bull's Lumo Surround Dartboard Beleuchtungssystem",
+      "where": null
+    },
+    {
+      "name": "Harrows Trilight Dartboard Light",
+      "warum": "Schmaler 360°-Rahmen mit Schalter: kompakterer Rahmen als übliche Ringe, Ein/Aus-Schalter am Kabel.",
+      "fakten": [
+        { "text": "LED-Dartboard-Beleuchtung, passt laut Listing auf alle Standard-Dartboards, schattenfrei, kompatibel mit Surround und Kabinett.", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B0DG2ZYLWD", "datum": "2026-10-21" },
+        { "text": "360°-LED-Rahmen mit 44 cm Durchmesser, magnetisch am Scheibenrand befestigt; laut Hersteller um 55 % kleinerer Rahmen, 3-m-Kabel mit Ein/Aus-Schalter.", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B0DG2ZYLWD", "datum": "2026-10-21" },
+        { "text": "Ein Rezensent berichtet, dass der Rahmen nicht zu seinem Surround passte.", "art": "Bericht", "quelle": "https://www.amazon.de/dp/B0DG2ZYLWD", "datum": "2026-10-21" }
+      ],
+      "asin": "B0DG2ZYLWD",
+      "query": "Harrows Trilight Dartboard Light",
+      "where": null
+    }
+  ],
+  "tests": [
+    { "institut": "Stiftung Warentest / Öko-Test / Fachmagazine", "heft": "–", "ergebnis": "Kein unabhängiger Test von Dartscheiben-Beleuchtungen gefunden (Suche 2026-10-21). testsieger.de und check24 listen nur Preise/Kundenbewertungen, keine Labortests.", "quelle": "https://www.testsieger.de/klassische-dartscheiben/7CZMA8KP5J2FQ-target-darts-corona-vision-dartboard-lighting-system-schattenfreies-led-ringlicht-mit-magnetischen-fuessen-schwarz.html" }
+  ],
+  "warnungen": [
+    "Keine Rückrufe oder Safety-Gate-Meldungen zu Dartscheiben-Beleuchtungen gefunden (Websuche 2026-10-21; Safety-Gate-Datenbank selbst nicht abrufbar).",
+    "Netzbetriebene Leuchten: Nur Original-Netzteile verwenden; bei Unicorn Solar Pro berichtet ein Rezensent von einem sehr warmen Netzteil mit Ausfall (https://www.amazon.de/dp/B01HTDCRBA).",
+    "Wandmontage (Winmau Plasma) erfordert Bohren – in Mietwohnungen Rückbau beachten."
+  ],
+  "verworfen": [
+    { "name": "Unicorn Solar Pro Dartboard Surround mit integrierter Beleuchtung (B01HTDCRBA)", "grund": "Deutlich teurer, widersprüchliche Listing-Angabe (\"solarbetrieben\" vs. Netzteil in Rezensionen), Berichte über überhitztes Netzteil und zu schwaches Licht." },
+    { "name": "Target Corona Vision 2", "grund": "Beim Hersteller gelistet, aber kein amazon.de-Listing gefunden; Awin-Händler nicht verfügbar." },
+    { "name": "Mission Torus 100 (Reiselicht)", "grund": "Rezensenten bemängeln schwache Ausleuchtung der unteren Scheibenhälfte; durch Torus 120 USB-C ersetzt." },
+    { "name": "Bull's NL Dart Eva LED Light System (B08VRG3TH4)", "grund": "Derzeit nicht verfügbar; Bericht über sich lösende LED-Streifen." },
+    { "name": "No-Name-LED-Ringe (z. B. B0G1T7ZFST, CyeeLife ZD08B)", "grund": "Austauschbare No-Name-Ware ohne belastbare Hersteller-/Ersatzteilangaben." },
+    { "name": "Target Omni (B0DMPM62MR)", "grund": "Autoscoring-System mit Licht – gehört zu bestes-dart-autoscoring." }
+  ],
+  "offen": [
+    "amazon.de-Seiten waren nicht direkt abrufbar: ASINs aus /dp/-URLs und Titeln der Websuche übernommen; Verfügbarkeit (aktiv vs. nicht verfügbar) nicht verifiziert – Stichprobe im Browser empfohlen.",
+    "Target Corona Vision hat mehrere amazon.de-ASINs (B0CFBBPLLF, B06Y3J4WMX, B0721NXYXK); gewählt B06Y3J4WMX (Korrekturrunde 1): aktiv, auf Lager, Verkauf durch Target Darts. B0CFBBPLLF ist laut Websuche „derzeit nicht verfügbar“.",
+    "Winmau Plasma: Die Lumenangabe (2000 lm) stammt nur vom amazon.de-Listing, nicht vom Hersteller – im Text als Händlerangabe kennzeichnen. Der amazon.de-Titel ist knapp (\"Winmau Plasma Light Dart Board\").",
+    "Mission Torus 270: Strom (Netzteil vs. USB-C) je nach Variante unterschiedlich; B095T3365B ist die schwarze Standardvariante, USB-Variante wäre B0FT467G66 (Metallic Red, USB).",
+    "Harrows Trilight: Korrekturrunde 1 – kein Stablicht, sondern 360°-LED-Rahmen (44 cm, magnetisch, 3-m-Kabel mit Schalter); behalten und als schmaler 360°-Rahmen beschrieben. Zweites Listing B0H36Q3FXH („Harrows 961901 Trilight“) existiert; B0DG2ZYLWD beibehalten.",
+    "Awin: Freigeschaltet sind nur Rewe, Radwelt-shop und brickzonehub (API 2026-10-21) – keiner führt Dartzubehör; alle Produkte über Amazon, kein neuer Awin-Händler nötig.",
+    "Keine unabhängigen Tests vorhanden – Bewertung ist redaktionelle Einschätzung nach Herstellerangaben und Kundenberichten (Methodik-Hinweis)."
+  ],
+  "quellen": [
+    { "titel": "amazon.de – Target Corona Vision (B06Y3J4WMX)", "url": "https://www.amazon.de/dp/B06Y3J4WMX" },
+    { "titel": "Target Darts UK – Corona Vision", "url": "https://www.target-darts.co.uk/corona-vision-dartboard-lighting-system" },
+    { "titel": "Target Darts UK – Corona Vision 2", "url": "https://www.target-darts.co.uk/corona-vision-2-and-vision-surround" },
+    { "titel": "amazon.de – Corona Vision Ersatz-LED-Streifen", "url": "https://www.amazon.de/dp/B07L71FKST" },
+    { "titel": "amazon.de – Mission Torus 270 (B095T3365B)", "url": "https://www.amazon.de/dp/B095T3365B" },
+    { "titel": "Mission Darts – Torus 270", "url": "https://missiondarts.com/products/mission-torus-270-dartboard-lighting-bright-white-light" },
+    { "titel": "Mission Darts – Torus 270 Bronze", "url": "https://missiondarts.com/products/mission-torus-270-dartboard-lighting-bronze-bright-white-light" },
+    { "titel": "Mission Darts – Torus Dimmer", "url": "https://missiondarts.com/products/mission-torus-dimmer-switch-for-lighting-systems-dimmer" },
+    { "titel": "Winmau – Plasma Dartboard Light", "url": "https://winmau.com/products/winmau-plasma-dartboard-light" },
+    { "titel": "amazon.de – Winmau Plasma (B07K1G7C4G)", "url": "https://www.amazon.de/dp/B07K1G7C4G" },
+    { "titel": "amazon.de – Winmau Plasma Ersatz-LED-Leiste", "url": "https://www.amazon.de/dp/B08PVRWG1F" },
+    { "titel": "amazon.de – Winmau Polaris (B0CJYLKJXB)", "url": "https://www.amazon.de/dp/B0CJYLKJXB" },
+    { "titel": "amazon.de – Mission Torus 120 USB-C (B0FRB3DHZN)", "url": "https://www.amazon.de/dp/B0FRB3DHZN" },
+    { "titel": "amazon.de – Target Arc Cabinet Lighting (B09CV8JPXV)", "url": "https://www.amazon.de/dp/B09CV8JPXV" },
+    { "titel": "amazon.de – Bull's Lumo Surround (B0D9YDSHKZ)", "url": "https://www.amazon.de/dp/B0D9YDSHKZ" },
+    { "titel": "amazon.de – Harrows Trilight (B0DG2ZYLWD)", "url": "https://www.amazon.de/dp/B0DG2ZYLWD" },
+    { "titel": "amazon.de – Unicorn Solar Pro (B01HTDCRBA)", "url": "https://www.amazon.de/dp/B01HTDCRBA" },
+    { "titel": "testsieger.de – Corona Vision (nur Preisvergleich)", "url": "https://www.testsieger.de/klassische-dartscheiben/7CZMA8KP5J2FQ-target-darts-corona-vision-dartboard-lighting-system-schattenfreies-led-ringlicht-mit-magnetischen-fuessen-schwarz.html" }
+  ]
+}

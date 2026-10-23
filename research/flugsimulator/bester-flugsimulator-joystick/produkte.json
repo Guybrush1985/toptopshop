@@ -1,0 +1,589 @@
+{
+  "slug": "bester-flugsimulator-joystick",
+  "stand": "2026-10-23",
+  "criteria": [
+    {
+      "key": "praezision",
+      "label": "Präzision & Sensorik",
+      "weight": 0.3,
+      "description": "Hall-Effekt- statt Potentiometer-Sensoren auf den Hauptachsen, Auflösung laut Hersteller, Federung/Zentrierung, Verschleißanfälligkeit laut Tests und Berichten."
+    },
+    {
+      "key": "ausstattung",
+      "label": "Tasten, Achsen & Verarbeitung",
+      "weight": 0.25,
+      "description": "Anzahl Achsen/Tasten/Hats, Twist-Ruder, Schubregler (abnehmbar, Dual-Throttle), Material, Ergonomie, Linkshänder-Tauglichkeit."
+    },
+    {
+      "key": "plattform",
+      "label": "Plattform-Kompatibilität",
+      "weight": 0.2,
+      "description": "PC / PS5 / Xbox laut Hersteller, offizielle MSFS-2024- bzw. Konsolen-Lizenz, Plug & Play, Ausbau mit Ruderpedalen."
+    },
+    {
+      "key": "preisleistung",
+      "label": "Preis-Leistung",
+      "weight": 0.25,
+      "description": "Gebotene Präzision und Ausstattung im Verhältnis zur Preisklasse; redaktionelle Einschätzung ohne feste Preise."
+    }
+  ],
+  "priceTiers": {
+    "1": "bis ca. 150 €",
+    "2": "ca. 150–350 €",
+    "3": "über 350 €",
+    "hinweis": "Vorschlag; Spanne der Kandidaten ca. 100–550 € (UVP laut Hersteller/Berichten), keine festen Preise auf der Seite."
+  },
+  "products": [
+    {
+      "rank": 1,
+      "label": "Beste Gesamtwahl",
+      "name": "Thrustmaster T16000M FCS HOTAS",
+      "brand": "Thrustmaster",
+      "variant": "Joystick T.16000M FCS + Schubregler TWCS, PC",
+      "priceTier": 1,
+      "ratings": {
+        "praezision": 8.5,
+        "ausstattung": 8.0,
+        "plattform": 6.0,
+        "preisleistung": 9.0
+      },
+      "gesamt": 8.0,
+      "bestFor": "PC-Pilot:innen, die ein präzises, ausbaufähiges HOTAS für MSFS 2024, DCS, War Thunder oder Star Citizen suchen – auch Linkshänder.",
+      "fakten": [
+        {
+          "text": "Nick- und Rollachse mit H.E.A.R.T-Hall-Effekt-Sensoren, 16 Bit (16.000 × 16.000 Werte).",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.thrustmaster.com/products/t16000m-fcs-hotas",
+          "datum": "abgerufen 2026-10-23 (Suchsnapshot)"
+        },
+        {
+          "text": "Stick: 4 Achsen inkl. Twist-Ruder, 16 Tasten, 8-Wege-Coolie-Hat; vollständig beidhändig umbaubar (3 abnehmbare Teile).",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.thrustmaster.com/products/t16000m-fcs-hotas",
+          "datum": "abgerufen 2026-10-23"
+        },
+        {
+          "text": "Schubregler TWCS: 5 Achsen, 14 Tasten, S.M.A.R.T-Schiene mit 80 mm Weg, Reibung per Schraube einstellbar; RJ12-Anschluss für die TFRP-Ruderpedale (separat).",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.thrustmaster.com/products/t16000m-fcs-hotas",
+          "datum": "abgerufen 2026-10-23"
+        },
+        {
+          "text": "Nur PC (Windows); Programmierung über die kostenlose Software T.A.R.G.E.T.",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.thrustmaster.com/products/t16000m-fcs-hotas",
+          "datum": "abgerufen 2026-10-23"
+        },
+        {
+          "text": "PC Games Hardware nennt das T.16000M FCS HOTAS in seiner Joystick-Kaufberatung für Flugsimulatoren als „von uns getestet“ und empfiehlt es neben dem HOTAS Warthog; beide mit TFRP-Pedalen kombinierbar.",
+          "art": "Test",
+          "quelle": "https://www.pcgameshardware.de/Eingabegeraet-Hardware-154122/Specials/Joystick-kaufen-Flugsimulator-Kaufberatung-PS5-1495978/",
+          "datum": "online, laufend aktualisiert (laut Berichten; Seite aus der Sandbox nicht abrufbar)"
+        },
+        {
+          "text": "Hall-Sensoren nur auf Nick/Roll; Twist-Achse und Schubregler arbeiten mit Potentiometern, die laut Nutzerberichten mit der Zeit verschleißen können.",
+          "art": "Bericht",
+          "quelle": "https://extreme.pcgameshardware.de/threads/empfehlenswerte-joysticks-fuer-den-pc-kaufberatung-fuer-flugsimulatoren-mit-hintergrundwissen.672097/",
+          "datum": "Forum PCGH Extreme"
+        },
+        {
+          "text": "Auf amazon.de ca. 2.970 Bewertungen, 4,3 von 5 Sternen (Suchsnapshot).",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B01H6KXGDY",
+          "datum": "Suchsnapshot 2026-10"
+        }
+      ],
+      "pros": [
+        "Hall-Sensoren auf den Hauptachsen – präzise und verschleißarm",
+        "Beidhändig nutzbar (Linkshänder)",
+        "Twist-Ruder plus Paddel am Schubregler",
+        "Ausbaupfad: TFRP-Pedale direkt am Schubregler, zweiter Stick für HOSAS"
+      ],
+      "cons": [
+        "Nur PC – nicht für PS5 oder Xbox",
+        "Twist-Achse und Schubregler mit Potentiometern",
+        "Viel Kunststoff, leichter Standfuß (Tischhalterung sinnvoll)"
+      ],
+      "specs": {
+        "Plattform": "PC (Windows)",
+        "Sensoren": "Hall (Nick/Roll), Potis (Twist, Throttle)",
+        "Achsen": "4 (Stick) + 5 (TWCS)",
+        "Tasten": "16 (Stick) + 14 (TWCS)",
+        "Ruder": "Twist + Rocker am Throttle",
+        "Linkshänder": "ja"
+      },
+      "asin": "B01H6KXGDY",
+      "query": "Thrustmaster T16000M FCS HOTAS",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "amazon.de/dp/B01H6KXGDY – „Thrustmaster T16000M FCS HOTAS“ (Joystick + TWCS-Schubregler, Windows)"
+    },
+    {
+      "rank": 2,
+      "label": "Bestes Preis-Leistungs-Verhältnis",
+      "name": "Thrustmaster T.Flight Hotas 5 Microsoft Flight Simulator Edition",
+      "brand": "Thrustmaster",
+      "variant": "PS5 & PC (auch PS4), mit abnehmbarem Schubregler",
+      "priceTier": 1,
+      "ratings": {
+        "praezision": 6.0,
+        "ausstattung": 7.0,
+        "plattform": 9.5,
+        "preisleistung": 8.5
+      },
+      "gesamt": 7.58,
+      "bestFor": "Einsteiger:innen und PS5-Besitzer:innen, die MSFS 2024 per Plug & Play mit Stick und Schubhebel fliegen wollen.",
+      "fakten": [
+        {
+          "text": "Offiziell lizenziert für Microsoft Flight Simulator 2024 und von Sony; kompatibel mit PS5, PS4 und PC (Windows 10/11).",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B0GJSZ4YV1",
+          "datum": "Listing, Erscheinungsdatum 12.06.2026"
+        },
+        {
+          "text": "5 Achsen inkl. Z-Achse, 14 Tasten, Rapid-Fire-Abzug, Multi-Hat; Schubregler abnehmbar; Dual-Ruder über Stick-Drehung oder Wippe am Schubregler; kompatibel mit Thrustmaster TFRP-Pedalen (separat).",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B0GJSZ4YV1",
+          "datum": "abgerufen 2026-10-23 (Suchsnapshot)"
+        },
+        {
+          "text": "UVP 99,99 €; vorgestellt im Juni 2026 als neuer Flugstick für PC und PS5.",
+          "art": "Bericht",
+          "quelle": "https://www.pcgameshardware.de/Eingabegeraet-Hardware-154122/News/Thrustmaster-T-Flight-Hotas-5-MSFS-Edition-Neuer-Flugstick-fuer-PC-und-PS5-vorgestellt-1545186/",
+          "datum": "2026-06"
+        },
+        {
+          "text": "Laut FSElite eine überarbeitete Version des Hotas 4 mit vor allem optischen und kleineren Funktionsänderungen; Achsen und Steuerung unverändert gegenüber dem Vorgänger.",
+          "art": "Bericht",
+          "quelle": "https://fselite.net/content/thrustmaster-announces-t-flight-hotas-5-msfs-edition/",
+          "datum": "2026"
+        },
+        {
+          "text": "TweakTown-Test: 88 %, „erschwinglich für Einsteiger und Gelegenheitspiloten“; Pluspunkte Preis, Plug & Play, abnehmbarer Schubregler.",
+          "art": "Test",
+          "quelle": "https://www.tweaktown.com/reviews/11541/thrustmaster-t-flight-hotas-5-msfs-edition/index.html",
+          "datum": "2026"
+        },
+        {
+          "text": "Im offiziellen MSFS-Forum meldete ein Nutzer ein fehlendes Standardprofil in MSFS 2024; Thrustmaster-Support empfahl, den Kompatibilitätsmodus auf „Blau“ (Erkennung als Hotas 4) zu stellen.",
+          "art": "Bericht",
+          "quelle": "https://forums.flightsimulator.com/t/t-flight-hotas-5-msfs-edition-missing-default-profile-stuck-on-none-in-msfs-2024/768636",
+          "datum": "2026"
+        },
+        {
+          "text": "TFRP-Ruderpedale laut Thrustmaster-Produktseite kompatibel (separat erhältlich). Der Anschluss erfolgt laut Bericht über eine RJ12-Buchse an der Rückseite der Joystick-Basis (wie bei Hotas 4/One); die Thrustmaster-Support-Seite zur TFRP-Verbindung listet den Hotas 5 noch nicht ausdrücklich.",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.thrustmaster.com/en-us/products/t-flight-hotas-5",
+          "datum": "abgerufen 2026-10-23 (Suchsnapshot); RJ12 laut https://windowsnews.ai/article/ps5-flight-simulator-players-can-now-upgrade-to-rudder-pedals-via-thrustmasters-hidden-port.439684"
+        }
+      ],
+      "pros": [
+        "Einer der wenigen Flugsticks mit PS5-Freigabe",
+        "Offizielle MSFS-2024-Lizenz, Plug & Play",
+        "Schubregler abnehmbar, mit Ruderwippe",
+        "Pedale (TFRP) nachrüstbar"
+      ],
+      "cons": [
+        "Potentiometer statt Hall-Sensoren auf den Hauptachsen (Technik weitgehend wie Hotas 4)",
+        "Kunststoff-Bauweise, Einstiegsniveau",
+        "Kein Xbox-Support (dafür Hotas One / VelocityOne)"
+      ],
+      "specs": {
+        "Plattform": "PS5, PS4, PC",
+        "Lizenz": "Microsoft Flight Simulator 2024, Sony",
+        "Achsen": "5",
+        "Tasten": "14 + Abzug",
+        "Schubregler": "abnehmbar",
+        "Pedale": "TFRP kompatibel (RJ12 an der Stick-Basis laut Bericht)"
+      },
+      "asin": "B0GJSZ4YV1",
+      "query": "Thrustmaster T.Flight Hotas 5 Microsoft Flight Simulator Edition",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "amazon.de/dp/B0GJSZ4YV1 – „Thrustmaster T.Flight Hotas 5 Microsoft Flight Simulator Edition - PS5 & PC“ (Suchsnapshot zeigte bei einzelnen Händlern zeitweise „derzeit nicht verfügbar“)"
+    },
+    {
+      "rank": 3,
+      "label": "Premium-Wahl",
+      "name": "Thrustmaster Hotas Warthog MKII",
+      "brand": "Thrustmaster",
+      "variant": "Stick + Dual-Throttle, offizielle U.S.-Air-Force-Replika (A-10C), PC",
+      "priceTier": 3,
+      "ratings": {
+        "praezision": 9.5,
+        "ausstattung": 8.5,
+        "plattform": 5.0,
+        "preisleistung": 5.5
+      },
+      "gesamt": 7.35,
+      "bestFor": "DCS- und Militärflug-Fans, die Metall-Hardware in Originaloptik für viele Jahre suchen.",
+      "fakten": [
+        {
+          "text": "Erschienen am 16.09.2026, UVP 549,99 € (Europa); Nachfolger des HOTAS Warthog mit überarbeiteter Basis.",
+          "art": "Bericht",
+          "quelle": "https://www.windowscentral.com/gaming/pc-gaming/thrustmaster-hotas-warthog-mk-ii-flight-stick-announcement",
+          "datum": "2026-09"
+        },
+        {
+          "text": "Neu konstruierte Basis mit Kugellagern gegen Haftreibung, 6-Pin-Anschluss; unterstützt alle Thrustmaster-Griffgenerationen (bis 128 Tasten, 8 Achsen); H.E.A.R.T-Hall-Sensoren mit 16 Bit.",
+          "art": "Herstellerangabe",
+          "quelle": "https://eshop.thrustmaster.com/hotas-warthog-mkii.html",
+          "datum": "abgerufen 2026-10-23 (Suchsnapshot)"
+        },
+        {
+          "text": "Windows Central: würdiger, wenn auch nischiger Nachfolger; „authentischste Hardware für Militär-Flugsim-Fans“; Stick ohne Twist-Achse – Ruderpedale oder anderer Griff nötig.",
+          "art": "Test",
+          "quelle": "https://www.windowscentral.com/gaming/pc-gaming/thrustmaster-hotas-warthog-mk-ii-review",
+          "datum": "2026-09/10"
+        },
+        {
+          "text": "TweakTown-Test lobt robuste, knackige Schalter; Gesamtsystem laut Berichten ca. 7,5 kg schwer und nicht Plug & Play (Profile über T.A.R.G.E.T.).",
+          "art": "Test",
+          "quelle": "https://www.tweaktown.com/reviews/11618/thrustmaster-hotas-warthog-mkii/index.html",
+          "datum": "2026"
+        },
+        {
+          "text": "Native Unterstützung für DCS World und Microsoft Flight Simulator 2024 laut Händler.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.flightsimwebshop.com/products/hotas-warthog-mkii",
+          "datum": "abgerufen 2026-10-23"
+        }
+      ],
+      "pros": [
+        "Metall-Replika mit Hall-Sensoren, sehr langlebig",
+        "Dual-Throttle für zweistrahlige Jets",
+        "Offene Basis für andere Thrustmaster-Griffe (F-16, F/A-18)",
+        "Referenz-HOTAS für DCS"
+      ],
+      "cons": [
+        "Nur PC",
+        "Keine Twist-Achse – Ruderpedale praktisch Pflicht",
+        "Groß und schwer, Tischhalterung oder Cockpit empfohlen",
+        "Für zivile Flugzeuge in MSFS überdimensioniert"
+      ],
+      "specs": {
+        "Plattform": "PC (Windows)",
+        "Sensoren": "H.E.A.R.T Hall, 16 Bit (Hersteller)",
+        "Material": "Metall",
+        "Schubregler": "Dual-Throttle",
+        "Ruder": "keine Twist-Achse",
+        "Lizenz": "U.S. Air Force"
+      },
+      "asin": "B0H3PW546V",
+      "query": "Thrustmaster Hotas Warthog MKII",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "amazon.de/dp/B0H3PW546V – „Thrustmaster Hotas Warthog MKII - Offizielle U.S. Air Force Replika - PC“"
+    }
+  ],
+  "top5": [
+    {
+      "name": "Thrustmaster T.Flight Hotas Neo Ace Combat 8 Flight Stick für PS5, PS4, PC",
+      "rolle": "Bester für PS5 (Action/Kampfjet)",
+      "warum": "Neuere PS5-Alternative zum Hotas 5 mit 7 Achsen, 16 Tasten, Mini-Stick, Vibrationsmotor im Griff und Hall-Sensor auf der Z-Achse; ideal für Ace Combat 8 und War Thunder auf der Konsole.",
+      "fakten": [
+        {
+          "text": "PlayStation/PC-Edition: offiziell lizenziert für PS5, PS4 und PC; 7 Achsen, 16 Tasten, Mini-Stick, Rapid-Fire-Abzug, Dual-Ruder, abnehmbarer Schubregler, Vibration (laut Thrustmaster nur PS5 und PC), Hall-Sensor auf der Z-Achse. Separate Xbox/PC-Edition ist ein anderes Produkt.",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.thrustmaster.com/en-us/products/t-flight-hotas-neo-ace-combat-8-wings-of-theve-edition-ps/",
+          "datum": "abgerufen 2026-10-23 (Suchsnapshot)"
+        },
+        {
+          "text": "UVP der PlayStation/PC-Edition im UK-Shop 109,99 £; Verfügbarkeit laut Händlern ab 02.10.2026.",
+          "art": "Herstellerangabe",
+          "quelle": "https://shop.thrustmaster.com/en_gb/t-flight-hotas-neo-ace-combat-8-playstation-pc.html",
+          "datum": "abgerufen 2026-10-23 (Suchsnapshot)"
+        }
+      ],
+      "asin": "B0H2ZC5TTB",
+      "asinGeprueft": "amazon.de/dp/B0H2ZC5TTB – „Thrustmaster T.Flight Hotas Neo Ace Combat 8 Flight Stick für PS5, PS4, PC“",
+      "query": "Thrustmaster T.Flight Hotas Neo Ace Combat 8 PS5",
+      "where": null
+    },
+    {
+      "name": "Turtle Beach VelocityOne H.O.T.A.S. Flugsimulator-Steuerung, XBOX, PC",
+      "rolle": "Bester für Xbox",
+      "warum": "Erstes Hall-Effekt-HOTAS mit offizieller Xbox-Lizenz: Flightstick II (beidhändig, Display) plus Dual-Throttle mit Rastungen – für MSFS 2024 auf Xbox Series X|S.",
+      "fakten": [
+        {
+          "text": "Flightstick II mit 16-Bit-Hall-Sensoren und drei Federstärken; Dual Throttle mit arretierbaren Hebeln, austauschbaren Rastungen, 35 Eingaben; Bundle 249,99 €, Marktstart 21.09.2026; Throttle an der Xbox über den Flightstick II.",
+          "art": "Bericht",
+          "quelle": "https://fselite.net/content/turtle-beach-reveals-release-and-pricing-details-for-its-velocityone-h-o-t-a-s-lineup/",
+          "datum": "2026-07"
+        },
+        {
+          "text": "SlashGear-Test (eine Woche): „Xbox/PC's Best Flight Sim System Yet“, Lob für beidhändigen Stick und Display.",
+          "art": "Test",
+          "quelle": "https://www.slashgear.com/2285444/turtle-beach-velocityone-hotas-review/",
+          "datum": "2026"
+        }
+      ],
+      "asin": "B0H8PZH1P3",
+      "asinGeprueft": "amazon.de/dp/B0H8PZH1P3 – „Turtle Beach VelocityOne H.O.T.A.S. Flugsimulator-Steuerung, XBOX, PC“",
+      "query": "Turtle Beach VelocityOne H.O.T.A.S. Xbox PC",
+      "where": null
+    },
+    {
+      "name": "Logitech G X56 H.O.T.A.S.",
+      "rolle": "Bester PC-Allrounder mit Dual-Throttle",
+      "warum": "Viele Eingaben (Hersteller: über 189 programmierbare Befehle), Dual-Throttle und vier Federn für Flug- und Weltraum-Sims am PC; Abzug für bekannte Ghost-Input-Probleme am Schubregler.",
+      "fakten": [
+        {
+          "text": "Kontaktlose Magnetsensoren, 16 Bit auf X/Y; 4 Federn zum Tauschen; RGB-Beleuchtung; nur PC; 2 Jahre Herstellergarantie.",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B079Z3DSBK",
+          "datum": "Suchsnapshot 2026-10"
+        },
+        {
+          "text": "Zahlreiche Nutzerberichte über ungewollte Eingaben (Ghost Inputs) am Schubregler, häufig im Zusammenhang mit der USB-Stromversorgung.",
+          "art": "Bericht",
+          "quelle": "https://forums.flightsimulator.com/t/solved-hotas-x56-throttle-causes-ghost-inputs/193896",
+          "datum": "Forum, mehrere Jahre"
+        }
+      ],
+      "asin": "B079Z3DSBK",
+      "asinGeprueft": "amazon.de/dp/B079Z3DSBK – „Logitech G X56 H.O.T.A.S. Throttle & stick controller for space simulations … PC, Black“. Hinweis „neueres Modell verfügbar“ geprüft: kein eindeutiges neueres X56-Listing auf amazon.de gefunden (B01M8M8CWB ist die ältere X56-Variante, B01CZTSS3O das Saitek X-56 Rhino) – daher ASIN beibehalten.",
+      "query": "Logitech G X56 H.O.T.A.S.",
+      "where": null
+    },
+    {
+      "name": "Thrustmaster AVA FA18 Super Hornet Flight Stick",
+      "rolle": "Bester für Kampfjet-Sims (DCS) – Stick-Upgrade",
+      "warum": "Lieferbare Enthusiasten-Alternative zum Warthog MKII: Boeing-lizenzierte F/A-18C-Griff-Replika auf der modularen AVA-Basis, deren Kurven, Federkraft, Ausschlag und Dämpfung sich einstellen lassen. Kein Schubregler im Lieferumfang – kombinierbar z. B. mit dem TWCS-Schubregler des T16000M-Systems.",
+      "fakten": [
+        {
+          "text": "19 Tasten inkl. zweistufigem Abzug und 8-Wege-Hat; offiziell von Boeing lizenziert; AVA-Basis mit einstellbarer Achskurve, Widerstand, Ausschlag und Dämpfung; Lieferumfang u. a. Basis, F/A-18C-Griff, Offset-Adapter, Bodenplatte, Federn, Nocken, USB-C-Kabel.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B0CGRW7R81",
+          "datum": "Suchsnapshot 2026-10"
+        },
+        {
+          "text": "Nur PC (Windows 10/11); Plug & Play in DCS, X-Plane 11/12 und MSFS 2020 laut Listing.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B0CGRW7R81",
+          "datum": "Suchsnapshot 2026-10"
+        },
+        {
+          "text": "Auf amazon.de 4,2 von 5 Sternen bei ca. 380 Bewertungen (Suchsnapshot).",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B0CGRW7R81",
+          "datum": "Suchsnapshot 2026-10"
+        }
+      ],
+      "asin": "B0CGRW7R81",
+      "asinGeprueft": "amazon.de/dp/B0CGRW7R81 – „Thrustmaster AVA FA18 Super Hornet Flight Stick“ (Snapshot mit Preis und Bewertungen, kein „nicht verfügbar“-Hinweis)",
+      "query": "Thrustmaster AVA FA18 Super Hornet Flight Stick",
+      "where": null
+    },
+    {
+      "name": "Thrustmaster Sol-R 2 HOSAS Space Sim Duo",
+      "rolle": "Bester für Weltraum-Sims (HOSAS)",
+      "warum": "Zwei beidhändige Sticks mit Hall-Sensoren und Schubhebel in jeder Basis – für Star Citizen, Elite Dangerous, Star Wars: Squadrons.",
+      "fakten": [
+        {
+          "text": "Zwei abnehmbare, beidhändige Griffe, je Basis zentraler Schubhebel, insgesamt 88 Tasten; Hall-Sensoren, 16 Bit auf allen Achsen; nur PC (Windows 10/11).",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B0DMSTP1YG",
+          "datum": "Suchsnapshot 2026-10"
+        }
+      ],
+      "asin": "B0DMSTP1YG",
+      "asinGeprueft": "amazon.de/dp/B0DMSTP1YG – „Thrustmaster Sol-R 2 HOSAS Space Sim Duo - HOSAS - PC“",
+      "query": "Thrustmaster Sol-R 2 HOSAS Space Sim Duo",
+      "where": null
+    }
+  ],
+  "weitereAmazonOptionen": [
+    {
+      "name": "Thrustmaster T.Flight Hotas One Microsoft Flight Simulator – XBOX & PC",
+      "asin": "B0DBZD14S6",
+      "hinweis": "Günstige Xbox-Alternative (10-Bit, Potentiometer); laut Listing offizielle Lizenz für Xbox Series X|S/One und PC.",
+      "quelle": "https://www.amazon.de/dp/B0DBZD14S6"
+    },
+    {
+      "name": "Thrustmaster T16000M FCS Flight Pack (mit TFRP-Ruderpedalen)",
+      "asin": "B01HZ2APKU",
+      "hinweis": "Bundle-Tipp für die Ruderpedal-Seite.",
+      "quelle": "https://www.amazon.de/Thrustmaster-T16000M-Flight-System-Software/dp/B01HZ2APKU"
+    }
+  ],
+  "tests": [
+    {
+      "institut": "PC Games Hardware (PCGH)",
+      "heft": "Online-Kaufberatung „Joystick kaufen: Flugsimulator“ (laufend aktualisiert, ID 1495978)",
+      "ergebnis": "Empfiehlt HOTAS Warthog und das von PCGH getestete T.16000M FCS HOTAS, jeweils kombinierbar mit TFRP-Pedalen. Volltext aus der Sandbox nicht abrufbar – laut Suchauszug.",
+      "quelle": "https://www.pcgameshardware.de/Eingabegeraet-Hardware-154122/Specials/Joystick-kaufen-Flugsimulator-Kaufberatung-PS5-1495978/"
+    },
+    {
+      "institut": "PC Games",
+      "heft": "Online-Marktübersicht Joysticks (2025)",
+      "ergebnis": "Für PS5 damals kaum Flugsticks verfügbar; seit 2026 gibt es mit Hotas 5 MSFS und Hotas Neo AC8 echte PS5-HOTAS.",
+      "quelle": "https://www.pcgames.de/Hardware-Thema-130320/Specials/Joytick-Flugsimulationen-kaufberatung-Marktuebersicht-1488341/"
+    },
+    {
+      "institut": "TweakTown",
+      "heft": "Review T.Flight Hotas 5 MSFS Edition (2026)",
+      "ergebnis": "88 % – erschwingliche Wahl für Einsteiger und Gelegenheitspiloten.",
+      "quelle": "https://www.tweaktown.com/reviews/11541/thrustmaster-t-flight-hotas-5-msfs-edition/index.html"
+    },
+    {
+      "institut": "Windows Central",
+      "heft": "Review HOTAS Warthog MKII (2026)",
+      "ergebnis": "Würdiger, nischiger Nachfolger; sehr authentisch für Militär-Sims; keine Twist-Achse.",
+      "quelle": "https://www.windowscentral.com/gaming/pc-gaming/thrustmaster-hotas-warthog-mk-ii-review"
+    },
+    {
+      "institut": "TweakTown",
+      "heft": "Review HOTAS Warthog MKII (2026)",
+      "ergebnis": "Robuste, knackige Schalter; Gewicht hält die Basis stabil.",
+      "quelle": "https://www.tweaktown.com/reviews/11618/thrustmaster-hotas-warthog-mkii/index.html"
+    },
+    {
+      "institut": "SlashGear",
+      "heft": "Review VelocityOne H.O.T.A.S. (2026)",
+      "ergebnis": "„Xbox/PC's Best Flight Sim System Yet“ (Kurztest, eine Woche).",
+      "quelle": "https://www.slashgear.com/2285444/turtle-beach-velocityone-hotas-review/"
+    }
+  ],
+  "warnungen": [
+    "Keine Rückrufe oder Safety-Gate-Meldungen zu den genannten Joysticks gefunden (Websuche 2026-10-23; Safety-Gate-Datenbank selbst aus der Sandbox nicht abrufbar).",
+    "Kein Test von Stiftung Warentest, Öko-Test o. Ä. zu Flugsimulator-Joysticks; Einordnung über Fachmagazine (PCGH, PC Games, GameStar) und englischsprachige Reviews – im Text als solche kennzeichnen.",
+    "Plattform-Hinweis: T16000M, Warthog MKII, X56, Sol-R 2 und VIRPIL nur PC; Hotas 5 MSFS und Hotas Neo AC8 PS5/PS4/PC; VelocityOne H.O.T.A.S. und Hotas One Xbox/PC. Konsolen-Sticks funktionieren nicht plattformübergreifend."
+  ],
+  "verworfen": [
+    {
+      "name": "VIRPIL Controls AEROMAX Cadet HOTAS Bundle (B0GVS6MRGQ) und CDT-AEROMAX-R Einzelstick (B0F9L8DTHY)",
+      "grund": "Auf amazon.de „derzeit nicht verfügbar“ (Prüfbericht; auch der Einzelstick laut Snapshot teils nicht verfügbar) – ersetzt durch Thrustmaster AVA FA18 Super Hornet Flight Stick."
+    },
+    {
+      "name": "Thrustmaster T.Flight Hotas 4 (B076PMSYH9)",
+      "grund": "Laut Scout auf amazon.de nicht verfügbar; Nachfolger Hotas 5 MSFS ist technisch weitgehend gleich."
+    },
+    {
+      "name": "Thrustmaster HOTAS Warthog (Original, B00371R8P4)",
+      "grund": "Seit 16.09.2026 durch Warthog MKII abgelöst; amazon.de-Listings mit widersprüchlichen Angaben (Tastenzahl, Preise, mehrere ASINs) – MKII mit eindeutigem Listing bevorzugt."
+    },
+    {
+      "name": "Turtle Beach VelocityOne Flightstick (1. Generation, B0BHTPP71M)",
+      "grund": "Durch Flightstick II / VelocityOne H.O.T.A.S. (Hall-Sensoren, einstellbare Feder) abgelöst; Vorgänger mit gemischten Rezensionen und zu straffer Zentrierfeder laut Berichten."
+    },
+    {
+      "name": "HORI HOTAS Flight Stick für Xbox (B0C7LQXBCH)",
+      "grund": "Xbox-Option, aber VelocityOne H.O.T.A.S. mit Hall-Sensoren und Test besser belegt."
+    },
+    {
+      "name": "Logitech G Saitek X52 Pro",
+      "grund": "Ältere Generation; X56 deckt das Segment ab."
+    },
+    {
+      "name": "Desk-Mounts (Hikig, DIWANGUS u. a.)",
+      "grund": "No-Name-Zubehör; nur als Zubehörhinweis im Text, nicht als Empfehlung."
+    },
+    {
+      "name": "WINWING Orion2 HOTAS Metal Warthog (B0D9PT8XVL)",
+      "grund": "Auf amazon.de derzeit nicht verfügbar; übrige Orion2-Listings deutlich teurer oder nur Basis."
+    }
+  ],
+  "offen": [
+    "PCGH-, GameStar- und Thrustmaster-Seiten sind aus der Sandbox nicht abrufbar (DNS); Testaussagen stammen aus Suchauszügen und sollten im Text als „laut PCGH-Kaufberatung“ ohne Note formuliert werden. Kein Heft/Ausgabe ermittelbar – reine Online-Artikel.",
+    "B0GJSZ4YV1 (Hotas 5 MSFS): Suchsnapshots zeigten bei einzelnen Angeboten „derzeit nicht verfügbar“; Listing selbst aktiv mit Erscheinungsdatum 12.06.2026 – vor Merge kurz im Browser prüfen.",
+    "B0H3PW546V (Warthog MKII) und B0H8PZH1P3 (VelocityOne H.O.T.A.S.) sind neue Listings (09/2026); Titel passen, Verfügbarkeit nicht direkt prüfbar.",
+    "Keine Awin-Händler nötig – alle Produkte über Amazon.",
+    "Hotas 5 – TFRP: Kompatibilität laut Thrustmaster-Produktseite bestätigt; RJ12-Buchse an der Stick-Basis nur per Bericht belegt (Thrustmaster-Support-KB 1776 nennt Hotas 4/One, Hotas 5 noch nicht). Im Text „RJ12-Anschluss am Stick“ nur mit „laut Berichten“ oder neutral „TFRP-Pedale anschließbar“ formulieren.",
+    "AVA FA18 Super Hornet (Top 5 DCS) ist nur ein Stick ohne Schubregler – im Text als Stick-Upgrade kennzeichnen und TWCS-Schubregler bzw. Warthog-MKII-Throttle als Ergänzung nennen."
+  ],
+  "quellen": [
+    {
+      "titel": "Thrustmaster – T.16000M FCS Hotas (Produktseite)",
+      "url": "https://www.thrustmaster.com/products/t16000m-fcs-hotas"
+    },
+    {
+      "titel": "PCGH – Joystick kaufen: Kaufberatung Flugsimulator",
+      "url": "https://www.pcgameshardware.de/Eingabegeraet-Hardware-154122/Specials/Joystick-kaufen-Flugsimulator-Kaufberatung-PS5-1495978/"
+    },
+    {
+      "titel": "PCGH – T.Flight Hotas 5 MSFS Edition vorgestellt",
+      "url": "https://www.pcgameshardware.de/Eingabegeraet-Hardware-154122/News/Thrustmaster-T-Flight-Hotas-5-MSFS-Edition-Neuer-Flugstick-fuer-PC-und-PS5-vorgestellt-1545186/"
+    },
+    {
+      "titel": "PCGH Extreme – Forum zur Joystick-Kaufberatung",
+      "url": "https://extreme.pcgameshardware.de/threads/empfehlenswerte-joysticks-fuer-den-pc-kaufberatung-fuer-flugsimulatoren-mit-hintergrundwissen.672097/"
+    },
+    {
+      "titel": "PC Games – Joysticks Kaufberatung und Marktübersicht",
+      "url": "https://www.pcgames.de/Hardware-Thema-130320/Specials/Joytick-Flugsimulationen-kaufberatung-Marktuebersicht-1488341/"
+    },
+    {
+      "titel": "GameStar – Logitech G X56 HOTAS",
+      "url": "https://www.gamestar.de/artikel/logitech-g-x56-hotas-flightstick-schubregler-flug-simulator-space-sim,3458887.html"
+    },
+    {
+      "titel": "FSElite – Thrustmaster Announces T.Flight Hotas 5 MSFS Edition",
+      "url": "https://fselite.net/content/thrustmaster-announces-t-flight-hotas-5-msfs-edition/"
+    },
+    {
+      "titel": "TweakTown – Review T.Flight Hotas 5 MSFS Edition",
+      "url": "https://www.tweaktown.com/reviews/11541/thrustmaster-t-flight-hotas-5-msfs-edition/index.html"
+    },
+    {
+      "titel": "MSFS-Forum – Hotas 5 fehlendes Standardprofil",
+      "url": "https://forums.flightsimulator.com/t/t-flight-hotas-5-msfs-edition-missing-default-profile-stuck-on-none-in-msfs-2024/768636"
+    },
+    {
+      "titel": "Windows Central – Warthog MKII Ankündigung",
+      "url": "https://www.windowscentral.com/gaming/pc-gaming/thrustmaster-hotas-warthog-mk-ii-flight-stick-announcement"
+    },
+    {
+      "titel": "Windows Central – Warthog MKII Review",
+      "url": "https://www.windowscentral.com/gaming/pc-gaming/thrustmaster-hotas-warthog-mk-ii-review"
+    },
+    {
+      "titel": "TweakTown – Warthog MKII Review",
+      "url": "https://www.tweaktown.com/reviews/11618/thrustmaster-hotas-warthog-mkii/index.html"
+    },
+    {
+      "titel": "Thrustmaster eShop – HOTAS Warthog MKII",
+      "url": "https://eshop.thrustmaster.com/hotas-warthog-mkii.html"
+    },
+    {
+      "titel": "FSElite – VelocityOne H.O.T.A.S. Preise und Termin",
+      "url": "https://fselite.net/content/turtle-beach-reveals-release-and-pricing-details-for-its-velocityone-h-o-t-a-s-lineup/"
+    },
+    {
+      "titel": "SlashGear – VelocityOne HOTAS Review",
+      "url": "https://www.slashgear.com/2285444/turtle-beach-velocityone-hotas-review/"
+    },
+    {
+      "titel": "MSFS-Forum – X56 Ghost Inputs",
+      "url": "https://forums.flightsimulator.com/t/solved-hotas-x56-throttle-causes-ghost-inputs/193896"
+    },
+    {
+      "titel": "amazon.de – T16000M FCS HOTAS",
+      "url": "https://www.amazon.de/dp/B01H6KXGDY"
+    },
+    {
+      "titel": "amazon.de – T.Flight Hotas 5 MSFS Edition",
+      "url": "https://www.amazon.de/dp/B0GJSZ4YV1"
+    },
+    {
+      "titel": "amazon.de – Hotas Warthog MKII",
+      "url": "https://www.amazon.de/dp/B0H3PW546V"
+    },
+    {
+      "titel": "Thrustmaster – T.Flight Hotas Neo AC8 (PlayStation/PC)",
+      "url": "https://www.thrustmaster.com/en-us/products/t-flight-hotas-neo-ace-combat-8-wings-of-theve-edition-ps/"
+    },
+    {
+      "titel": "Thrustmaster – T.Flight Hotas 5 MSFS Edition (Produktseite)",
+      "url": "https://www.thrustmaster.com/en-us/products/t-flight-hotas-5"
+    },
+    {
+      "titel": "Thrustmaster Support – TFRP an PC und Konsolen anschließen",
+      "url": "https://support.thrustmaster.com/en/kb/1776-en"
+    },
+    {
+      "titel": "amazon.de – AVA FA18 Super Hornet Flight Stick",
+      "url": "https://www.amazon.de/dp/B0CGRW7R81"
+    }
+  ]
+}

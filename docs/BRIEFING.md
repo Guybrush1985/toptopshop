@@ -266,3 +266,12 @@ Mindestumfang je Kategorie: **≥ 1.000 Wörter** (nicht künstlich auffüllen),
 - 2026-10-18: Tägliche Routine (Rosi): Das Agententeam baut jeden Tag autonom bis zu 5 neue Kategorien
   (Skill `/kategorie-pipeline`, Abschnitt „Autonomer Modus“) und legt dafür einen PR an. **Live geht nichts ohne
   Rosis Merge.** Nischen wählt der Scout selbst; neue Awin-Händler nur als offener Punkt im PR.
+- 2026-10-19: Kategorie **Kinderlenkschlitten** (Rosi: „alle von Amazon, viel Fokus auf SEO“) unter
+  `/kinder-spielplatz/outdoor/kinderlenkschlitten/` – mangels eigenem Winterbereich im Outdoor-Unterbereich, Slug exakt nach
+  Rosis Suchbegriff. Ausschließlich Amazon-ASINs. Neues Symbolbild `visual.kind: "sled"`. Letzter Stiftung-Warentest-Schlittentest
+  ist von 12/2013, daher vor allem Herstellerangaben; bei widersprüchlichen Händlerwerten (Alter, Maximallast) gilt die vorsichtigere.
+- 2026-10-21: Neuer Bereich **Darts zu Hause** (`/darts/`, flache URLs) aus dem täglichen Lauf: Steeldart-Scheiben, Dartscheiben-
+  Beleuchtung, Dart-Autoscoring, Dartboard-Kabinette, Dartmatten – ausschließlich Amazon. `/dartautomaten/` (E-Dart) bleibt im
+  Gaming-Room und verlinkt auf den Bereich. Unabhängige Tests für Dart-Zubehör gibt es nicht; Regelmaße (1,73 m / 2,37 m) stehen
+  ausführlich nur auf `/beste-steeldart-scheibe/`, die anderen Seiten verlinken dorthin. Bereichsseiten ohne Unterbereiche zeigen
+  seitdem alle Kategorien (vorher nur zwei).
