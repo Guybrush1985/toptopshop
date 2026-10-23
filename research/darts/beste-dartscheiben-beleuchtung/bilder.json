@@ -1,0 +1,53 @@
+{
+  "visuals": {
+    "1": {
+      "kind": "dartlight",
+      "tone": "forest"
+    },
+    "2": {
+      "kind": "dartlight",
+      "tone": "green"
+    },
+    "3": {
+      "kind": "dartlight",
+      "tone": "mint"
+    }
+  },
+  "steps": {
+    "title": "Dartscheibe schattenfrei beleuchten",
+    "subtitle": "So sitzt das Licht richtig",
+    "alt": "Infografik: Dartscheibe schattenfrei beleuchten – Scheibe zuerst hängen, Durchmesser prüfen, Rundum ausleuchten, Nicht blenden, Kabel sichern",
+    "caption": "Licht von allen Seiten verhindert Schatten der Pfeile.",
+    "steps": [
+      {
+        "title": "Scheibe zuerst hängen",
+        "text": "Erst die Scheibe auf Regelhöhe (Bullmitte 1,73 m) montieren, dann das Licht."
+      },
+      {
+        "title": "Durchmesser prüfen",
+        "text": "Ringlichter sind für Standardscheiben (rund 45 cm) gebaut – Maße vergleichen."
+      },
+      {
+        "title": "Rundum ausleuchten",
+        "text": "Licht von allen Seiten vermeidet Schatten der Pfeile auf den Segmenten."
+      },
+      {
+        "title": "Nicht blenden",
+        "text": "Leuchtmittel so ausrichten, dass sie von der Abwurflinie aus nicht ins Auge strahlen."
+      },
+      {
+        "title": "Kabel sichern",
+        "text": "Kabel oder Netzteil hinter der Scheibe bzw. am Kabinett führen, damit nichts im Weg hängt."
+      }
+    ]
+  },
+  "scoresAlt": "Balkendiagramm: Bewertung der drei besten Dartscheiben-Beleuchtungen in den Kriterien Ausleuchtung, Schattenfreiheit, Montage, Verarbeitung und Preis-Leistung",
+  "scoresCaption": "Unsere Bewertung je Kriterium für die drei empfohlenen Modelle.",
+  "neueFormen": [
+    "dartlight"
+  ],
+  "offen": [
+    "Kriterien in scoresAlt sind ein Entwurf – an die finalen Bewertungskriterien des Redakteurs anpassen.",
+    "Regelmaße (1,73 m Bullhöhe, 2,37 m Abwurflinie, 2,93 m Diagonale) sind allgemein bekannte WDF/PDC-Standardmaße – Redakteur kann sie mit Quelle (z. B. WDF-Regelwerk) belegen."
+  ]
+}

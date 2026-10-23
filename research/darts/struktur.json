@@ -1,0 +1,81 @@
+{
+  "thema": "darts",
+  "datum": "2026-10-21",
+  "quelle": "research/trends/2026-10-21-darts-zu-hause.md",
+  "areas": [
+    {
+      "slug": "darts",
+      "neu": true,
+      "name": "Darts zu Hause",
+      "short": "Darts",
+      "hinweis": "Orchestrator legt den Bereich in src/site.mjs an (flache URLs, keine groups). Die bestehende E-Dart-Seite /dartautomaten/ bleibt im Gaming-Room und wird gegenseitig verlinkt.",
+      "groups": []
+    }
+  ],
+  "categories": [
+    {
+      "slug": "beste-steeldart-scheibe",
+      "navLabel": "Steeldart-Scheiben",
+      "h1": "Die 3 besten Steeldart-Scheiben 2026",
+      "suchintent": "Einsteiger und Hobbyspieler suchen ein Sisal-Dartboard (Bristle) für zu Hause (Keywords-Hypothese: steeldart scheibe, dartscheibe sisal, beste dartscheibe, winmau blade 6).",
+      "abgrenzung": "Nur die Scheibe selbst (Sisal-Bristle-Boards). E-Dart-Automaten gehören zu /dartautomaten/, Licht zu beste-dartscheiben-beleuchtung, Schränke zu bestes-dartboard-kabinett.",
+      "rollen": ["Beste Gesamtwahl", "Bestes Preis-Leistungs-Verhältnis", "Premium-Wahl für Vielspieler"],
+      "top5Intent": "Steeldart-Scheiben nach Spielertyp/Anlass (z. B. für Kinder/Einsteiger, für den Verein, mit Zubehör-Set, besonders leise/dünne Drähte, Turnierboard).",
+      "produktart": "Runde Sisal-Dartscheibe mit Zahlenring",
+      "faqKandidaten": ["Welche Dartscheibe ist die beste?", "Wie hoch hängt eine Dartscheibe?", "Wie lange hält eine Sisal-Dartscheibe?", "Muss man eine Dartscheibe wässern?", "Was bedeutet Staple-free?", "Warum Dartscheibe drehen?"],
+      "related": ["beste-dartscheiben-beleuchtung", "bestes-dartboard-kabinett", "beste-dartmatte", "bestes-dart-autoscoring", "dartautomaten"]
+    },
+    {
+      "slug": "beste-dartscheiben-beleuchtung",
+      "navLabel": "Dart-Beleuchtung",
+      "h1": "Die 3 besten Dartscheiben-Beleuchtungen 2026",
+      "suchintent": "Spieler mit Steeldart-Scheibe suchen ein schattenfreies LED-Ringlicht oder Lichtsystem (Keywords-Hypothese: dart beleuchtung, dartscheibe licht, led ring dart, target corona vision).",
+      "abgrenzung": "Licht für bestehende Steeldart-Scheiben. Allgemeine Raumbeleuchtung siehe /beleuchtung/ bzw. /led-neon-beleuchtung/.",
+      "rollen": ["Beste Gesamtwahl", "Bestes Preis-Leistungs-Verhältnis", "Premium-Wahl (Lichtsystem/Surround)"],
+      "top5Intent": "Licht nach Bauart/Montage (Ringlicht um die Scheibe, Arm-/Stablicht, Strahler ohne Bohren, für Kabinett, Akku/USB).",
+      "produktart": "LED-Ringlicht um eine Dartscheibe",
+      "faqKandidaten": ["Warum braucht man eine Dartscheibe-Beleuchtung?", "Ringlicht oder Strahler?", "Wie viel Lux braucht eine Dartscheibe?", "Passt das Ringlicht auf jede Scheibe?", "Stört das Ringlicht beim Werfen?"],
+      "related": ["beste-steeldart-scheibe", "bestes-dartboard-kabinett", "bestes-dart-autoscoring", "led-neon-beleuchtung"]
+    },
+    {
+      "slug": "bestes-dart-autoscoring",
+      "navLabel": "Dart-Autoscoring",
+      "h1": "Die 3 besten Dart-Autoscoring-Systeme 2026",
+      "suchintent": "Ambitionierte Hobbyspieler suchen ein kamerabasiertes Zählsystem für die Steeldart-Scheibe (Keywords-Hypothese: dart autoscoring, scolia home, autodarts, target omni, dart kamera system).",
+      "abgrenzung": "Kamera-Zählsysteme für Steeldart. E-Dart-Automaten zählen selbst und gehören zu /dartautomaten/. Falls ein System nicht bei Amazon (oder freigeschaltetem Awin-Händler) erhältlich ist: nur Top 5 mit where.",
+      "rollen": ["Beste Gesamtwahl", "Bestes Preis-Leistungs-Verhältnis", "Premium-Wahl"],
+      "top5Intent": "Hilfen zum Zählen und Trainieren nach Ansatz (Kamerasystem, Do-it-yourself-Kamera-Set, Tablet-/Smartphone-App, Scoreboard/Zähltafel, Trainingshilfen).",
+      "produktart": "Ring mit Kameras um eine Dartscheibe plus Tablet",
+      "faqKandidaten": ["Was ist Dart-Autoscoring?", "Wie genau sind Kamera-Zählsysteme?", "Braucht man ein Abo?", "Funktioniert Autoscoring mit jeder Scheibe?", "Kann man online gegeneinander spielen?"],
+      "related": ["beste-steeldart-scheibe", "beste-dartscheiben-beleuchtung", "dartautomaten"]
+    },
+    {
+      "slug": "bestes-dartboard-kabinett",
+      "navLabel": "Dartboard-Kabinette",
+      "h1": "Die 3 besten Dartboard-Kabinette 2026",
+      "suchintent": "Spieler suchen einen Schrank für die Dartscheibe, der Wand schützt und Pfeile/Zubehör verstaut (Keywords-Hypothese: dartschrank, dartboard kabinett, dartscheibe schrank, dart cabinet).",
+      "abgrenzung": "Schrank/Kabinett (mit oder ohne Scheibe im Set). Reine Wandschutzringe (Surround) nur in der Top 5. Bodenmatten siehe beste-dartmatte.",
+      "rollen": ["Beste Gesamtwahl", "Bestes Preis-Leistungs-Verhältnis", "Premium-Wahl"],
+      "top5Intent": "Wandschutz-Lösungen nach Platz/Wohnsituation (Kabinett mit Scheibe, Surround-Ring, Dartboard-Ständer ohne Bohren, Kabinett mit Licht, Backboard).",
+      "produktart": "Holzschrank mit zwei Türen und Dartscheibe innen",
+      "faqKandidaten": ["Braucht man einen Dartschrank?", "Dartschrank oder Surround?", "Wie befestige ich einen Dartschrank?", "Passt jede Scheibe in jeden Schrank?", "Wie schützt man die Wand beim Darten?"],
+      "related": ["beste-steeldart-scheibe", "beste-dartmatte", "beste-dartscheiben-beleuchtung"]
+    },
+    {
+      "slug": "beste-dartmatte",
+      "navLabel": "Dartmatten",
+      "h1": "Die 3 besten Dartmatten 2026",
+      "suchintent": "Spieler suchen eine Bodenmatte mit Abwurflinie, die Boden und Pfeilspitzen schützt (Keywords-Hypothese: dartmatte, dart teppich, dartmatte mit abwurflinie, dart oche).",
+      "abgrenzung": "Bodenschutz und Abwurflinie für Steeldart (Regelabstand 2,37 m). Wandschutz siehe bestes-dartboard-kabinett.",
+      "rollen": ["Beste Gesamtwahl", "Bestes Preis-Leistungs-Verhältnis", "Premium-Wahl"],
+      "top5Intent": "Alternativen nach Bodenart/Platz (Gummimatte, Teppichmatte, kurze Matte, Oche-Leiste/Abwurflinie, Matte mit integrierter Abwurflinie für Steel und E-Dart).",
+      "produktart": "Lange, gerollte Bodenmatte mit Abwurflinie",
+      "faqKandidaten": ["Wie lang muss eine Dartmatte sein?", "Wie weit ist die Abwurflinie entfernt?", "Gummi- oder Teppichmatte?", "Schützt eine Dartmatte die Pfeilspitzen?", "Kann man eine Dartmatte auf Teppich legen?"],
+      "related": ["beste-steeldart-scheibe", "bestes-dartboard-kabinett", "dartautomaten"]
+    }
+  ],
+  "entscheidungen": [
+    "Autonomer Lauf: Orchestrator wählt die Top-Idee des Scouts (22/25 Punkte) und deren 5 Kernkategorien; Reserven (Steeldarts Einsteiger, Surround) nicht umgesetzt.",
+    "Neuer Bereich statt Gaming-Room, weil 5 Seiten einen eigenen Themenbereich tragen; /dartautomaten/ bleibt im Gaming-Room und wird verlinkt."
+  ]
+}

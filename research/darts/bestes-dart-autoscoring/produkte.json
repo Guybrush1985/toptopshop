@@ -1,0 +1,213 @@
+{
+  "slug": "bestes-dart-autoscoring",
+  "stand": "2026-10-21",
+  "hinweisMethodik": "Keine unabhängigen Labortests (Stiftung Warentest, Öko-Test, Fachmagazine) zu Kamera-Zählsystemen gefunden. Genauigkeitsangaben sind Herstellerangaben; Einordnung als redaktionelle Einschätzung nach Ausstattung, Einrichtung, Folgekosten und Erfahrungsberichten. amazon.de und Herstellerseiten waren aus der Arbeitsumgebung nicht direkt abrufbar – ASIN-Titel und Angaben stammen aus Suchergebnissen der amazon.de-/dp/-Seiten bzw. Händlerseiten.",
+  "criteria": [
+    { "key": "erkennung", "label": "Treffererkennung", "weight": 0.35, "description": "Kameraanzahl, Erkennung von Bounce-outs, Herstellerangaben zur Genauigkeit und Erfahrungsberichte zur Zuverlässigkeit." },
+    { "key": "einrichtung", "label": "Einrichtung & Platzbedarf", "weight": 0.2, "description": "Montage, Kalibrierung, benötigte Zusatzgeräte (PC, Licht), Deckenhöhe und Netzwerk." },
+    { "key": "folgekosten", "label": "Kosten & Abo", "weight": 0.2, "description": "Anschaffung im Verhältnis zur Leistung und ob dauerhafte Nutzung ein Abo erfordert." },
+    { "key": "ausstattung", "label": "Ausstattung & App", "weight": 0.25, "description": "Integriertes Licht, App-Funktionen, Online-Spiel, Community, Zubehör-Ökosystem." }
+  ],
+  "priceTiers": { "1": "bis ca. 300 €", "2": "ca. 300–700 €", "3": "über 700 €" },
+  "products": [
+    {
+      "rank": 1,
+      "label": "Beste Gesamtwahl",
+      "name": "TARGET Darts Omni Dartscheibe mit automatischer Punktzahlberechnung und LED-Beleuchtung",
+      "brand": "Target Darts",
+      "variant": "Omni Auto Scoring System (Modell 2400055), schwarz",
+      "priceTier": 2,
+      "ratings": { "erkennung": 8.0, "einrichtung": 9.0, "folgekosten": 8.5, "ausstattung": 8.5 },
+      "gesamt": 8.43,
+      "bestFor": "Wer ein Komplettsystem mit Licht will, das ohne PC per WLAN mit Smartphone/Tablet läuft und sich in Minuten an eine Scheibe mit Metallrand klemmen lässt.",
+      "fakten": [
+        { "text": "Vier HD-Kameras im LED-Lichtring erfassen die Darts und berechnen die Punkte laut Hersteller in unter einer Sekunde; Bounce-outs werden erkannt.", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/Darts-Punktzahlberechnung-LED-Beleuchtung-Punktez%C3%A4hlkamera-Beleuchtungssystem/dp/B0DMPM62MR", "datum": "2026-10-21" },
+        { "text": "Befestigung mit vier Magnetfüßen; Verbindung per WLAN mit der DartCounter-App (Android/iOS); 3 Monate DartCounter-Zugang inklusive.", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/Darts-Punktzahlberechnung-LED-Beleuchtung-Punktez%C3%A4hlkamera-Beleuchtungssystem/dp/B0DMPM62MR", "datum": "2026-10-21" },
+        { "text": "DartCounter Ultimate ist laut DartCounter-Handbuch nicht erforderlich, um Omni zu verbinden und zu nutzen; eine stabile Internetverbindung ist nötig. Fehlerkannte Darts lassen sich in der App korrigieren.", "art": "Herstellerangabe", "quelle": "https://dartcounter.net/darts-manual/omni-auto-scoring", "datum": "2026-10-21" },
+        { "text": "Lieferumfang: Omni-Lichtring, Processing-Box, vier Magnetfüße, Netzteil, MOD-kompatibles Kabel, Länderadapter, Schrauben, Inbusschlüssel.", "art": "Händlerangabe", "quelle": "https://www.amazon.de/Darts-Punktzahlberechnung-LED-Beleuchtung-Punktez%C3%A4hlkamera-Beleuchtungssystem/dp/B0DMPM62MR", "datum": "2026-10-21" },
+        { "text": "Leistungsaufnahme 36 W bei 12 V, Gewicht 5,5 kg, Maße 131 × 728 × 790 mm; nur für den Innenbereich.", "art": "Händlerangabe", "quelle": "https://www.currys.co.uk/products/target-omni-smart-dartboard-auto-scoring-system-10287810.html", "datum": "2026-10-21" },
+        { "text": "Auf amazon.de rund 4,5 von 5 Sternen bei gut 160 Bewertungen (Stand Suchergebnis, schwankt).", "art": "Händlerangabe", "quelle": "https://www.amazon.de/Darts-Punktzahlberechnung-LED-Beleuchtung-Punktez%C3%A4hlkamera-Beleuchtungssystem/dp/B0DMPM62MR", "datum": "2026-10-21" }
+      ],
+      "pros": ["Licht und vier Kameras in einem Ring – kein separates Ringlicht nötig", "Kein PC nötig, läuft per WLAN mit der DartCounter-App", "Dauerhafte Nutzung ohne Abo laut DartCounter", "Erkennt Bounce-outs (Herstellerangabe)"],
+      "cons": ["Abhängig von DartCounter-App und Internetverbindung", "Keine unabhängigen Genauigkeitstests", "Erweiterte Statistiken nur mit DartCounter Ultimate (kostenpflichtig)", "Garantieangaben bei Händlern uneinheitlich (1 bzw. 2 Jahre)"],
+      "specs": { "Kameras": "4 HD", "Licht": "integrierter LED-Ring", "App": "DartCounter (iOS/Android)", "Verbindung": "WLAN", "PC nötig": "nein", "Abo": "nicht erforderlich (3 Monate Ultimate inkl.)", "Montage": "4 Magnetfüße" },
+      "asin": "B0DMPM62MR",
+      "query": "TARGET Darts Omni Auto Scoring",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "TARGET Darts Omni Dartscheibe mit automatischer Punktzahlberechnung und LED-Beleuchtung, Dartscheibe mit Punktezählkamera, Magnetisches Dartscheiben-Beleuchtungssystem, Surround-Ringbeleuchtung (amazon.de, Verkauf Target Darts, Versand Amazon)"
+    },
+    {
+      "rank": 2,
+      "label": "Bestes Preis-Leistungs-Verhältnis",
+      "name": "AUTODARTS Vantage Autoscoring System Dart",
+      "brand": "Winmau (Autodarts)",
+      "variant": "Vantage, 3 Kameraarme",
+      "priceTier": 1,
+      "ratings": { "erkennung": 7.5, "einrichtung": 6.5, "folgekosten": 9.5, "ausstattung": 7.0 },
+      "gesamt": 7.58,
+      "bestFor": "Preisbewusste Spieler, die schon ein Ringlicht (z. B. Winmau Plasma) haben und einen PC/Laptop am Board betreiben können.",
+      "fakten": [
+        { "text": "Drei Kameraarme, 3-zu-1-USB-Kabel und Montagematerial; Einrichtung und Betrieb mit Laptop oder PC; Genauigkeit laut Hersteller bis 99,5 %.", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/AUTODARTS-Echtzeit-Score-Tracking-Scoreboard-Elektronisch/dp/B0GY9N3Q7L", "datum": "2026-10-21" },
+        { "text": "Konstante Beleuchtung erforderlich; empfohlen wird das separat erhältliche Winmau-Plasma-Licht.", "art": "Herstellerangabe", "quelle": "https://www.buffalo.nl/en/autodarts-vantage-darts-autoscoring-system", "datum": "2026-10-21" },
+        { "text": "Kompatibel mit allen Standard-Steeldartscheiben; Software läuft unter Windows, macOS und Linux, kein Abo erforderlich.", "art": "Händlerangabe", "quelle": "https://www.reddragondarts.com/products/autodarts-vantage", "datum": "2026-10-21" },
+        { "text": "Optionales Autodarts-Plus-Abo (ab 5,99 £/Monat) schaltet zusätzliche Funktionen frei, u. a. unbegrenztes mobiles Autoscoring.", "art": "Herstellerangabe", "quelle": "https://winmau.com/products/winmau-autodarts-app-12-month-plus-subscription", "datum": "2026-10-21" },
+        { "text": "Autodarts gehört seit 2025 zur Nodor-Gruppe (Winmau, Red Dragon); auf der IFA 2026 hat Winmau das Autodarts-Ökosystem vorgestellt.", "art": "Bericht", "quelle": "https://bmmagazine.co.uk/in-business/nodor-acquires-autodarts-automatic-scoring/", "datum": "2026-10-21" },
+        { "text": "Ein Nutzer berichtet, die Erkennung hänge stark vom Aufbau ab und sei schwächer als bei Scolia; außerdem habe es Serverausfälle bei Turnieren gegeben (Einzelmeinung).", "art": "Bericht", "quelle": "https://www.mydealz.de/profile/MaxiM%C3%BCllmann", "datum": "2026-10-21" }
+      ],
+      "pros": ["Mit Abstand günstigster Einstieg in Kamera-Autoscoring", "Software kostenlos, kein Abo-Zwang", "Offene Plattform mit großer Community", "Passt an alle Standard-Steeldartscheiben"],
+      "cons": ["Braucht PC/Laptop und separates Ringlicht", "Erkennung laut Nutzerberichten stärker vom Aufbau abhängig", "Keine unabhängigen Tests"],
+      "specs": { "Kameras": "3", "Licht": "nicht enthalten (z. B. Winmau Plasma empfohlen)", "Software": "Autodarts (Windows/macOS/Linux), Plus-Abo optional", "PC nötig": "ja", "Genauigkeit": "bis 99,5 % (Herstellerangabe)" },
+      "asin": "B0GY9N3Q7L",
+      "query": "AUTODARTS Vantage Autoscoring System",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "AUTODARTS Vantage Autoscoring System Dart - Smart Dartboard Camera Scorer (amazon.de, Shop WINMAU)"
+    },
+    {
+      "rank": 3,
+      "label": "Premium-Wahl",
+      "name": "Scolia Home 2 autoscoring System",
+      "brand": "Scolia",
+      "variant": "Home 2 (ohne Flex-Abo, ohne Lichtring)",
+      "priceTier": 3,
+      "ratings": { "erkennung": 9.0, "einrichtung": 7.0, "folgekosten": 7.0, "ausstattung": 8.0 },
+      "gesamt": 7.95,
+      "bestFor": "Vielspieler, die die etablierteste Plattform mit Online-Liga-Community ohne laufende Kosten wollen und Platz (Deckenhöhe ab 2,15 m) haben.",
+      "fakten": [
+        { "text": "Drei hochauflösende Kameras und eine kompakte Recheneinheit; feste Kamerabeine ohne weitere Kalibrierung; Genauigkeit rund 99,5 % bei empfohlenem Aufbau (kann laut Scolia je nach Umständen variieren).", "art": "Herstellerangabe", "quelle": "https://scoliadarts.com/compare/", "datum": "2026-10-21" },
+        { "text": "Mindest-Deckenhöhe 215 cm; ebene Fläche von etwa 75 × 85 cm an einer massiven Wand.", "art": "Herstellerangabe", "quelle": "https://scoliadarts.com/scolia-home2/", "datum": "2026-10-21" },
+        { "text": "WLAN integriert, LAN empfohlen; kompatibel mit Standardscheiben mit weißem Metall-Zahlenring sowie mit Scolia-Lichtring und Winmau Plasma.", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/Scolia-Home-autoscoring-System/dp/B0GJS7HY28", "datum": "2026-10-21" },
+        { "text": "Scolia Home 2 benötigt laut Händler kein Abo und bietet vollen App-Zugang; die günstigere Flex-Variante ist auf 1.000 Würfe pro Monat begrenzt, danach Unlimited-Abo.", "art": "Händlerangabe", "quelle": "https://www.dartscorner.co.uk/products/scolia-home-2-automatic-scoring-system", "datum": "2026-10-21" },
+        { "text": "Ein Nutzer berichtet, Scolia erkenne deutlich zuverlässiger als Autodarts und laufe stabil „out of the box“ (Einzelmeinung).", "art": "Bericht", "quelle": "https://www.mydealz.de/profile/MaxiM%C3%BCllmann", "datum": "2026-10-21" },
+        { "text": "Auf amazon.de nur wenige Bewertungen (rund 3,7 von 5 Sternen bei 7 Bewertungen; u. a. Kritik an fehlenden Teilen).", "art": "Händlerangabe", "quelle": "https://www.amazon.de/Scolia-Home-autoscoring-System/dp/B0GJS7HY28", "datum": "2026-10-21" }
+      ],
+      "pros": ["Laut Berichten sehr zuverlässige Erkennung", "Kein Abo nötig (Home 2, nicht Flex)", "Feste Kamerabeine – keine Kalibrierung", "Große Online-Community"],
+      "cons": ["Teuerstes System", "Lichtring in dieser Variante nicht enthalten", "Deckenhöhe ab 2,15 m und massive Wand nötig", "Wenige Amazon-Bewertungen"],
+      "specs": { "Kameras": "3", "Licht": "nicht enthalten (Scolia-Lichtring oder Winmau Plasma kompatibel)", "Verbindung": "WLAN, LAN empfohlen", "PC nötig": "nein (App)", "Abo": "nein (Home 2); Flex: 1.000 Würfe/Monat frei", "Deckenhöhe": "min. 215 cm" },
+      "asin": "B0GJS7HY28",
+      "query": "Scolia Home 2",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "Scolia Home 2 Home autoscoring System (amazon.de; Preisniveau passt zur Nicht-Flex-Variante, Variantenauswahl auf der Seite nennt jedoch auch Home2FLEX/SC-H2L-F – siehe offen)"
+    }
+  ],
+  "top5": [
+    {
+      "name": "Scolia Home 2 Flex mit Licht, automatisches Punktesystem",
+      "ansatz": "Kamerasystem mit Abo-Modell",
+      "warum": "Günstigster Weg ins Scolia-System, Lichtring inklusive – aber mit Flex-Plan: 1.000 Würfe pro Monat frei, darüber Unlimited-Abo.",
+      "fakten": [
+        { "text": "Lieferumfang u. a. drei Kameras, Scolia-CPU, Scolia-Lichtring; wird mit dem Flex-Plan geliefert, der für die dauerhafte Nutzung aller Dienste aufrechterhalten werden muss.", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/Scolia-Home-Licht-Automatisches-Punktesystem/dp/B0DJ1R8VVM", "datum": "2026-10-21" },
+        { "text": "Flex: bis 1.000 Würfe pro Monat kostenlos; ist das Limit erreicht, kann das laufende Spiel beendet, aber bis Monatsende kein neues gestartet werden; Abo pausierbar und an das Gerät gebunden.", "art": "Herstellerangabe", "quelle": "https://scoliadarts.com/flex", "datum": "2026-10-21" }
+      ],
+      "asin": "B0DJ1R8VVM",
+      "query": "Scolia Home 2 Flex mit Licht",
+      "where": null,
+      "asinGeprueft": "Scolia Home 2 Flex mit Licht, Automatisches Punktesystem (amazon.de)"
+    },
+    {
+      "name": "König Design Autodarts Komplettset mit 3 × OV9732 100° Kameras & 6000K LED Ring",
+      "ansatz": "Do-it-yourself-Kamera-Set für die kostenlose Autodarts-Software",
+      "warum": "Für Bastler: Ring, drei Kameras und LED in einem Set eines Drittanbieters – Licht inklusive, PC/Raspberry Pi nötig; kein offizielles Winmau-Produkt.",
+      "fakten": [
+        { "text": "Set mit LED-Ring, Kamerahalterungen, drei OV9732-Kameras, LED-Band, Kabelführung und Montagematerial; Kompatibilität mit Autodarts ist Händlerangabe.", "art": "Händlerangabe", "quelle": "https://www.amazon.de/K%C3%B6nig-Design-Autodarts-Komplettset-Kameras/dp/B0H1CCSKYD", "datum": "2026-10-21" }
+      ],
+      "asin": "B0H1CCSKYD",
+      "query": "König Design Autodarts Komplettset",
+      "where": null,
+      "asinGeprueft": "König Design Autodarts Komplettset mit 3 x OV9732 100° Kameras & 6000K LED Ring – Automatisches Dart-Zählsystem für Steeldarts (Blau)"
+    },
+    {
+      "name": "Winmau Autodarts X",
+      "ansatz": "Kamerasystem mit integriertem Licht, ohne PC",
+      "warum": "Offizielles Komplettsystem von Winmau: vier HD-Kameras und 360°-Licht, WLAN-Verbindung zur Autodarts-App ohne PC. Bisher nicht auf amazon.de gefunden.",
+      "fakten": [
+        { "text": "Vier HD-Kameras, integrierte 360°-Beleuchtung (Aluminiumring auf Basis Winmau Plasma), Dual-Band-WLAN, USB-C; Aufbau laut Hersteller unter 3 Minuten; drei Monate Autodarts Plus inklusive.", "art": "Herstellerangabe", "quelle": "https://winmau.com/pages/winmau-autodarts-x-hardware", "datum": "2026-10-21" }
+      ],
+      "asin": null,
+      "query": null,
+      "where": "Beim Hersteller (winmau.com) und im Darts-Fachhandel"
+    },
+    {
+      "name": "Target Darts Virt Dartboard Kamera System",
+      "ansatz": "Kamera für Online-Spiel (Live-Bild von Scheibe und Spieler), Punkte per App",
+      "warum": "Kein Autoscoring, sondern zwei HD-Kameras für Online-Matches in DartCounter – die günstigere Lösung, wenn es vor allem ums Spielen gegen Freunde aus der Ferne geht.",
+      "fakten": [
+        { "text": "Zwei HD-Kameras (Scheibe und Spieler) für Live-Spiele mit der DartCounter-App; mindestens 30 Mbit/s Internet und 2.200 mm Deckenhöhe nötig; Netzstecker separat; 3 Monate DartCounter Ultimate inklusive.", "art": "Händlerangabe", "quelle": "https://doubletopdartshop.com/blogs/news/target-darts-virt-camera", "datum": "2026-10-21" }
+      ],
+      "asin": "B0DBZX8JD7",
+      "query": "Target Darts Virt Dartboard Kamera System",
+      "where": null,
+      "asinGeprueft": "Target Darts Virt Dartboard Kamera System (amazon.de)"
+    },
+    {
+      "name": "Target Darts Tablet Holder",
+      "ansatz": "Tablet-/Smartphone-App als Scoreboard",
+      "warum": "Die günstigste Zählhilfe: Tablet neben die Scheibe, Punkte in DartCounter oder DartConnect eintippen.",
+      "fakten": [
+        { "text": "Wandhalter für Geräte bis 14 Zoll; Montage per Schraube oder ohne Bohren; laut Listing von DartConnect empfohlen; rund 4,5 Sterne bei gut 400 Bewertungen.", "art": "Händlerangabe", "quelle": "https://www.amazon.de/-/en/Target-Darts-scoring-tablets-connect/dp/B087DH69SG", "datum": "2026-10-21" }
+      ],
+      "asin": "B087DH69SG",
+      "query": "Target Darts Tablet Holder",
+      "where": null,
+      "asinGeprueft": "Target Darts Tablet Holder (amazon.de)"
+    }
+  ],
+  "zubehoerHinweis": {
+    "name": "Winmau Plasma Dartboard-Beleuchtung",
+    "warum": "Für Autodarts Vantage und Scolia Home 2 (ohne Licht) empfohlen bzw. kompatibel – Querverweis auf beste-dartscheiben-beleuchtung.",
+    "asin": "B07KZQD6CC",
+    "asinGeprueft": "Winmau Plasma Light Dart Board (amazon.de, Verkauf WINMAU)",
+    "quelle": "https://www.amazon.de/WINMAU-Dartboard-Beleuchtung-Plasma-Dartboard-Light/dp/B07KZQD6CC"
+  },
+  "tests": [],
+  "warnungen": [
+    "Keine Rückrufe oder Safety-Gate-Meldungen zu Scolia, Target Omni oder Autodarts gefunden (Websuche 2026-10-21; Safety-Gate-Datenbank selbst nicht abrufbar).",
+    "Target Omni laut Händler nur für den Innenbereich (https://mcgrocer.com/products/target-darts-omni-auto-scoring-system-black-2026371750).",
+    "Abo-Fallen transparent machen: Scolia Flex (1.000 Würfe/Monat frei, https://scoliadarts.com/flex) vs. Scolia Home 2 ohne Abo; Omni und Autodarts laufen ohne Abo, Zusatzfunktionen kostenpflichtig.",
+    "Autodarts-Drittanbieter-Sets (König Design, Generisch, HC3D) sind keine offiziellen Winmau-Produkte; Kompatibilität ist Händlerangabe."
+  ],
+  "verworfen": [
+    { "name": "Winsport Scolia Home 2 Set mit Beleuchtung inkl. PU Surround (B0CRHM2299)", "grund": "Bundle eines Drittanbieters über Marketplace-Händler, Lieferumfang laut Rezension abweichend (keine Anzeigetafel); Home 2 einzeln ist klarer." },
+    { "name": "Scolia „Home V2 … Surround Lighting Bundle“ (B0CSFGZ874)", "grund": "Titel widersprüchlich (Home 2 mit Licht vs. Scolia Home mit Spark-Bundle, teils „Pink“) – ASIN nicht eindeutig." },
+    { "name": "Scolia Home 2 Dart System Flex (B0GTRLK9PZ)", "grund": "Dubletten-Listing zu B0DJ1QB2QL/B0DJ1R8VVM, Kategorie „Spielzeug“." },
+    { "name": "Autodarts Vantage Dublette (B0GK8336JH, Modell AD-2001)", "grund": "Zweites Listing desselben Produkts; B0GY9N3Q7L wird vom Shop WINMAU verkauft und hat mehr Bewertungen." },
+    { "name": "Lose OV9732-Kameramodule (Nastopee, Asyduey, Persistence, Joselin u. a.)", "grund": "No-Name-Einzelteile, keine Halterung/Licht – nicht empfehlenswert für Top 3/5." },
+    { "name": "Scolia Pro / Bull's Scolia-Bundles (B08HYZFKF8, B09NY9R2QN)", "grund": "Vorgänger-/Ältere Generation bzw. Bundles mit unklarem Stand." }
+  ],
+  "offen": [
+    "Kategorie tragfähig: drei Kamera-Autoscoring-Systeme mit amazon.de-ASIN (Target Omni, Autodarts Vantage, Scolia Home 2). Awin nicht nötig – keiner der freigeschalteten Awin-Händler (Rewe, Radwelt, brickzonehub) führt Darts.",
+    "Scolia Home 2 (B0GJS7HY28): Titel „Scolia Home 2 Home autoscoring System“, Preisniveau entspricht der Nicht-Flex-Variante, die Seite nennt aber Varianten Home2/Home2FLEX/SC-H2L-F. Vor Veröffentlichung im Browser prüfen, dass die Standardvariante „Home 2“ (ohne Flex) verlinkt wird.",
+    "amazon.de und Herstellerseiten (scoliadarts.com, winmau.com, t3.com) waren aus der Arbeitsumgebung nicht direkt abrufbar (DNS/Proxy). ASIN-Titel stammen aus Suchergebnissen der /dp/-Seiten; Verfügbarkeit („derzeit nicht verfügbar“) konnte nicht direkt geprüft werden.",
+    "Keine unabhängigen Tests (Stiftung Warentest, Öko-Test, c't, Chip u. ä.) zu Autoscoring-Systemen gefunden – Bewertungen sind redaktionelle Einschätzungen; Methodik-Hinweis im Text nötig.",
+    "Winmau Autodarts X nicht auf amazon.de gefunden → nur Top 5 mit where. Passendes Awin-Programm nicht geprüft (Winmau/Nodor vermutlich nicht auf Awin); kein Bewerbungstext nötig, da Top 3 vollständig über Amazon.",
+    "Rollenzuordnung bewusst: Omni als Gesamtwahl (Komplettsystem mit Licht, ohne PC/Abo, meiste Amazon-Bewertungen), Scolia Home 2 als Premium (teuerstes, laut Nutzerberichten zuverlässigste Erkennung). Orchestrator kann tauschen, falls Scolia als Gesamtwahl gewünscht ist (dann Noten anpassen).",
+    "Optionale Autodarts-Plus-/DartCounter-Ultimate-Preise nur in GBP/USD belegt – im Text ohne Betrag nennen."
+  ],
+  "quellen": [
+    { "titel": "amazon.de – TARGET Darts Omni (B0DMPM62MR)", "url": "https://www.amazon.de/Darts-Punktzahlberechnung-LED-Beleuchtung-Punktez%C3%A4hlkamera-Beleuchtungssystem/dp/B0DMPM62MR" },
+    { "titel": "amazon.de – AUTODARTS Vantage (B0GY9N3Q7L)", "url": "https://www.amazon.de/AUTODARTS-Echtzeit-Score-Tracking-Scoreboard-Elektronisch/dp/B0GY9N3Q7L" },
+    { "titel": "amazon.de – Scolia Home 2 (B0GJS7HY28)", "url": "https://www.amazon.de/Scolia-Home-autoscoring-System/dp/B0GJS7HY28" },
+    { "titel": "amazon.de – Scolia Home 2 Flex mit Licht (B0DJ1R8VVM)", "url": "https://www.amazon.de/Scolia-Home-Licht-Automatisches-Punktesystem/dp/B0DJ1R8VVM" },
+    { "titel": "amazon.de – König Design Autodarts Komplettset (B0H1CCSKYD)", "url": "https://www.amazon.de/K%C3%B6nig-Design-Autodarts-Komplettset-Kameras/dp/B0H1CCSKYD" },
+    { "titel": "amazon.de – Target Darts Virt (B0DBZX8JD7)", "url": "https://www.amazon.de/Target-Darts-Dart-Kameras-Interaktives-Kompatibilit%C3%A4t/dp/B0DBZX8JD7" },
+    { "titel": "amazon.de – Target Darts Tablet Holder (B087DH69SG)", "url": "https://www.amazon.de/-/en/Target-Darts-scoring-tablets-connect/dp/B087DH69SG" },
+    { "titel": "amazon.de – Winmau Plasma Light (B07KZQD6CC)", "url": "https://www.amazon.de/WINMAU-Dartboard-Beleuchtung-Plasma-Dartboard-Light/dp/B07KZQD6CC" },
+    { "titel": "DartCounter – Omni Auto Scoring (Handbuch)", "url": "https://dartcounter.net/darts-manual/omni-auto-scoring" },
+    { "titel": "Currys – Target Omni (Technische Daten)", "url": "https://www.currys.co.uk/products/target-omni-smart-dartboard-auto-scoring-system-10287810.html" },
+    { "titel": "Scolia – Produktvergleich", "url": "https://scoliadarts.com/compare/" },
+    { "titel": "Scolia – Home 2", "url": "https://scoliadarts.com/scolia-home2/" },
+    { "titel": "Scolia – Flex-Plan", "url": "https://scoliadarts.com/flex" },
+    { "titel": "Darts Corner – Scolia Home 2", "url": "https://www.dartscorner.co.uk/products/scolia-home-2-automatic-scoring-system" },
+    { "titel": "Red Dragon – Autodarts Vantage", "url": "https://www.reddragondarts.com/products/autodarts-vantage" },
+    { "titel": "Buffalo.nl – Autodarts Vantage", "url": "https://www.buffalo.nl/en/autodarts-vantage-darts-autoscoring-system" },
+    { "titel": "Winmau – Autodarts X", "url": "https://winmau.com/pages/winmau-autodarts-x-hardware" },
+    { "titel": "Winmau – Autodarts Plus Abo", "url": "https://winmau.com/products/winmau-autodarts-app-12-month-plus-subscription" },
+    { "titel": "Winmau – Launch Autodarts-Ökosystem (IFA 2026)", "url": "https://winmau.com/blogs/news/winmau-redefines-the-future-of-darts-with-launch-of-autodarts-ecosystem" },
+    { "titel": "Business Matters – Nodor übernimmt Autodarts", "url": "https://bmmagazine.co.uk/in-business/nodor-acquires-autodarts-automatic-scoring/" },
+    { "titel": "mydealz – Nutzerbericht Scolia vs. Autodarts", "url": "https://www.mydealz.de/profile/MaxiM%C3%BCllmann" },
+    { "titel": "Doubletop Darts – Target Virt", "url": "https://doubletopdartshop.com/blogs/news/target-darts-virt-camera" },
+    { "titel": "McGrocer – Target Omni (Innenbereich)", "url": "https://mcgrocer.com/products/target-darts-omni-auto-scoring-system-black-2026371750" }
+  ]
+}
