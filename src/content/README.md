@@ -85,6 +85,7 @@ Definiert in `src/templates/visuals.mjs`; neue Formen ergänzt der Illustrator-A
 - Kinder & Spielzimmer (Set `OBJECTS`): `triangle`, `slide`, `climbwall`, `ladder`, `swing`, `tent`, `mat`, `tower`,
   `sandbox`, `zipline`, `bouncy`, `waterslide`, `shelf`, `wardrobe`, `kidtable`, `rug`, `sideboard`, `cloth`
 - Sammeln & Garten (Set `OBJECTS`): `vitrine`, `frame`, `minifig`, `ledkit`, `snowblower`, `blower`
+- Wellness (Set `OBJECTS`): `hottub` (aufblasbarer Whirlpool), `spa` (Hartschalen-Whirlpool), `bathtub` (Whirlpool-Badewanne)
 
 ### Textbausteine in `sections[].blocks`
 

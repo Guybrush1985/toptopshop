@@ -335,6 +335,22 @@ export const areas = [
   <aside class="callout"><p class="ct">Hinweis</p><p>LEGO® ist eine Marke der LEGO Gruppe, die diese Seite weder sponsert noch autorisiert. Die vorgestellten Vitrinen, Rahmen und Lichtsets sind keine offiziellen LEGO-Produkte.</p></aside>`,
   },
   {
+    slug: "wellness",
+    name: "Whirlpool & Wellness",
+    short: "Wellness",
+    intro:
+      "Warmes, sprudelndes Wasser zu Hause: Whirlpools für Garten und Terrasse – aufblasbar oder mit fester Acrylschale – und Whirlpool-Badewannen fürs Badezimmer, dazu Sprudelmatten zum Nachrüsten.",
+    metaTitle: "Whirlpool & Wellness: Die besten Whirlpools im Überblick",
+    metaDescription:
+      "Outdoor-Whirlpools für Garten und Terrasse und Indoor-Whirlpools fürs Bad: je Kategorie drei Empfehlungen mit Kaufberatung zu Aufstellung, Strom und Wasserpflege.",
+    article: `
+  <h2>Sprudeln im Garten oder im Bad</h2>
+  <p class="quick">Für draußen gibt es aufblasbare Whirlpools, die sich in einer Stunde aufbauen lassen, und Hartschalen-Whirlpools aus Acryl, die dauerhaft stehen. Für drinnen ersetzen Whirlpool-Badewannen die normale Wanne; Sprudelmatten bringen den Effekt ohne Umbau in jede Badewanne.</p>
+  <p>Ein Whirlpool ist schwerer, als viele denken: Mit Wasser und Badenden kommen schnell eine Tonne und mehr zusammen. Deshalb erklären wir bei jeder Kategorie neben Düsen, Heizung und Größe auch Untergrund, Stromanschluss und Wasserpflege.</p>
+  <p>Unsere Empfehlungen sind bei Amazon erhältlich. Technische Daten kennzeichnen wir als Herstellerangaben; unabhängige Tests nennen wir nur mit Institut und Ausgabe.</p>
+  <aside class="callout warn"><p class="ct">Sicherheit</p><p>Whirlpools nur an einer fachgerecht installierten Steckdose bzw. einem festen Anschluss mit Fehlerstrom-Schutzschalter (FI) betreiben. Kinder nie unbeaufsichtigt baden lassen und den Pool abgedeckt und gesichert halten.</p></aside>`,
+  },
+  {
     slug: "garten-grundstueck",
     name: "Garten & Grundstück",
     short: "Garten",
