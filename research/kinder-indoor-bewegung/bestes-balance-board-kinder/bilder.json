@@ -1,0 +1,50 @@
+{
+  "visuals": {
+    "1": {
+      "kind": "balanceboard",
+      "tone": "forest"
+    },
+    "2": {
+      "kind": "balanceboard",
+      "tone": "green"
+    },
+    "3": {
+      "kind": "balanceboard",
+      "tone": "mint"
+    }
+  },
+  "steps": {
+    "title": "Balance Board auswählen",
+    "subtitle": "Größe, Filz und erste Spielideen",
+    "alt": "Infografik: Balance Board auswählen – Größe nach Alter, Filz oder ohne, Belastbarkeit prüfen, Platz freiräumen, Spielideen ausprobieren",
+    "caption": "Größe passend zum Alter, Filz für empfindliche Böden – und Platz zum Kippen lassen.",
+    "steps": [
+      {
+        "title": "Größe nach Alter",
+        "text": "Kleine Starter-Boards für Kleinkinder, längere Original- oder XL-Boards für Schulkinder und Erwachsene."
+      },
+      {
+        "title": "Filz oder ohne",
+        "text": "Filz schützt Parkett und dämpft Geräusche, ohne Filz ist das Board robuster für draußen."
+      },
+      {
+        "title": "Belastbarkeit prüfen",
+        "text": "Maximalgewicht laut Hersteller beachten, wenn auch Eltern oder Geschwister mitspielen."
+      },
+      {
+        "title": "Platz freiräumen",
+        "text": "Rundherum freie Fläche lassen, auf glatten Böden eine Teppich- oder Mattenunterlage nutzen."
+      },
+      {
+        "title": "Spielideen ausprobieren",
+        "text": "Wippe, Brücke, Tunnel, Rutsche oder Liege – das Kind die Nutzung selbst entdecken lassen."
+      }
+    ]
+  },
+  "scoresAlt": "Balkendiagramm: Bewertung von Wobbel Original, PINOLINO Kari und WOBBEL Starter in Größe & Alterseignung, Holz, Verarbeitung & Schadstoffangaben, Belastbarkeit & Bodenschutz sowie Vielseitigkeit",
+  "scoresCaption": "Unsere Bewertung je Kriterium für die drei empfohlenen Balance Boards. Das Wobbel Original punktet bei Belastbarkeit und Vielseitigkeit, das Pinolino Kari beim Preis.",
+  "neueFormen": [
+    "balanceboard"
+  ],
+  "offen": []
+}

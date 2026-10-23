@@ -1,0 +1,575 @@
+{
+  "slug": "bester-tuer-basketballkorb",
+  "recherchiertAm": "2026-10-22",
+  "hinweisRecherche": "amazon.de, Herstellerseiten (sklz.com, wilson.com, franklinsports.com), Safety Gate und produktwarnung.eu waren aus der Arbeitsumgebung nicht direkt abrufbar (Proxy/DNS). Alle Angaben stammen aus der Websuche (Suchindex der jeweiligen Seiten) – ASINs nur übernommen, wenn eine amazon.de-/dp/-Seite mit passendem Titel im Index stand. Verfügbarkeit vor Veröffentlichung live prüfen.",
+  "criteria": [
+    {
+      "key": "passform",
+      "label": "Passform an der Tür",
+      "weight": 0.35,
+      "description": "Deutsche Zimmertüren sind meist gefälzt (Türblatt ca. 40 mm, Falz umlaufend, aufliegende Bänder). Bewertet werden maximale Türblattstärke laut Hersteller/Händler, Dicke und Polsterung der Türhaken (passt der Haken zwischen Türblatt-Oberkante und Zarge, schließt die Tür noch?), Erfahrungsberichte zu Falz/Bändern und die Möglichkeit der Wandmontage als Ausweg."
+    },
+    {
+      "key": "board_ring",
+      "label": "Board & Ring",
+      "weight": 0.25,
+      "description": "Board-Material (bruchsicheres Polycarbonat vs. Kunststoff), Board-Größe, Ringdurchmesser, federnder Abreißring (Breakaway) bzw. klappbarer Ring, Netz."
+    },
+    {
+      "key": "spielwert",
+      "label": "Ball & Lieferumfang",
+      "weight": 0.2,
+      "description": "Ball (Größe, Gummi/Schaum), Pumpe im Lieferumfang, Zielgröße passend zu Alter/Können, Erweiterbarkeit (Ersatzbälle, XL-Version), Erfahrungsberichte zur Haltbarkeit."
+    },
+    {
+      "key": "sicherheit",
+      "label": "Lautstärke & Sicherheit",
+      "weight": 0.2,
+      "description": "Schaumstoffpolster gegen Kratzer und Klappern, Geräusch beim Treffer, Herstellerangaben zu Alter/Aufsicht, Rückrufe (keine gefunden)."
+    }
+  ],
+  "priceTiers": [
+    {
+      "tier": 1,
+      "label": "bis ca. 30 €"
+    },
+    {
+      "tier": 2,
+      "label": "ca. 30–50 €"
+    },
+    {
+      "tier": 3,
+      "label": "über ca. 50 €"
+    }
+  ],
+  "products": [
+    {
+      "rank": 1,
+      "label": "Beste Gesamtwahl",
+      "name": "SKLZ Pro Mini Hoop",
+      "brand": "SKLZ",
+      "variant": "Standard 18\" × 12\" (ca. 46 × 30 cm), Modell 0401; das Listing bietet zusätzlich die XL-Größe – Standard wählen",
+      "priceTier": 2,
+      "ratings": {
+        "passform": 7.5,
+        "board_ring": 8.5,
+        "spielwert": 8,
+        "sicherheit": 7
+      },
+      "gesamtnote": 7.75,
+      "bestFor": "Schulkinder ab ca. 8 Jahren und Jugendliche, die einen stabilen Mini-Korb mit echtem Federring an der Zimmertür wollen.",
+      "fakten": [
+        {
+          "text": "Board 18\" × 12\" aus klarem, bruchsicherem Polycarbonat, Ring 9\" (ca. 23 cm) mit Feder-Abreißmechanismus (\"break-away\"), Ball 5\" (ca. 12,7 cm) im Lieferumfang",
+          "art": "Herstellerangabe",
+          "quelle": "https://sklz.com/products/pro-mini-hoop-0401",
+          "datum": "2026-10 (Suchindex)"
+        },
+        {
+          "text": "Schaumstoffgepolsterte, aufschiebbare Türhalterungen; laut Händler für Türen bis max. 1¾\" (ca. 44 mm) Türblattstärke – eine übliche 40-mm-Zimmertür liegt darunter",
+          "art": "Händlerangabe",
+          "quelle": "https://www.anthem-sports.com/fanzone/sklz-pro-mini-hoop-18-x-12-basketball-hoop.html",
+          "datum": "2026-10 (Suchindex)"
+        },
+        {
+          "text": "Amazon-Listing: über eine Tür einzuhängen, alternativ Wandmontage; 1 Jahr Herstellergarantie; Hinweis \"nicht für Kinder unter 8 Jahren, nur unter Aufsicht von Erwachsenen\"",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/SKLZ-Pro-Mini-Hoop/dp/B0HC45516W",
+          "datum": "2026-10 (Suchindex)"
+        },
+        {
+          "text": "Ca. 27.000 Bewertungen, Schnitt 4,2 von 5 Sternen auf amazon.de",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/SKLZ-Pro-Mini-Hoop/dp/B0HC45516W",
+          "datum": "2026-10 (Suchindex)"
+        },
+        {
+          "text": "Erfahrungsberichte: Ein Käufer berichtet, die Tür lasse sich mit eingehängtem Korb nicht schließen, weil der Spalt zwischen Tür und Zarge für die Halteschlaufen zu schmal sei; ein anderer montierte den Korb an der Wand, weil er an der Tür klapperte",
+          "art": "Bericht",
+          "quelle": "https://www.skroutz.mt/s/24375266/SKLZ-Pro-Hoop-Indoor-Mini-Basketball-with-Springs-0401.html",
+          "datum": "2026-10 (Suchindex)"
+        },
+        {
+          "text": "Ein deutscher Käufer berichtet, dass sich das flexible Board an der Tür beim Dunken stark durchbiegt",
+          "art": "Bericht",
+          "quelle": "https://www.amazon.de/SKLZ-Pro-Mini-Hoop/dp/B0HC45516W",
+          "datum": "2026-10 (Suchindex)"
+        }
+      ],
+      "pros": [
+        "Federnder Abreißring aus Stahl und bruchsicheres Polycarbonat-Board – nah am echten Korb",
+        "Haken laut Händler bis ca. 44 mm Türblatt, gepolstert",
+        "Alternativ an der Wand montierbar, wenn die Tür nicht passt",
+        "Sehr verbreitet, Ersatzbälle (auch leise Schaumbälle) von SKLZ erhältlich"
+      ],
+      "cons": [
+        "Je nach Falz/Dichtung schließt die Tür mit eingehängtem Korb nicht mehr ganz (Erfahrungsberichte)",
+        "Gummiball ist laut – für Wohnungen Schaumball nachkaufen",
+        "Board biegt sich bei Dunks an der Tür durch",
+        "Herstellerhinweis: erst ab 8 Jahren"
+      ],
+      "specs": {
+        "Board": "18\" × 12\" (ca. 46 × 30 cm), Polycarbonat, klar",
+        "Ring": "9\" (ca. 23 cm), Stahl, Federmechanismus (Abreißring)",
+        "Ball": "5\" (ca. 12,7 cm), Gummi; Pumpe laut Hersteller dabei",
+        "Befestigung": "Türhaken mit Schaumpolster, max. Türblatt ca. 44 mm (Händlerangabe); Wandmontage möglich",
+        "Alter": "ab 8 Jahren, unter Aufsicht (Herstellerhinweis im Listing)"
+      },
+      "asin": "B0HC45516W",
+      "query": "SKLZ Pro Mini Hoop",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "SKLZ Pro Mini Hoop : Amazon.de: Sport & Freizeit (Variantenlisting Standard/XL; Produktdetails nennen Modell 0401 und Kind-ASIN B001I912SQ; Preis-/Bewertungsanzeige im Index = aktiv)"
+    },
+    {
+      "rank": 2,
+      "label": "Günstiger Einstieg mit Softball",
+      "name": "Wilson Mini-Basketballkorb NBA Team Mini Hoop",
+      "brand": "Wilson",
+      "variant": "Link (B091MHMF3T) führt zur Variante Dallas Mavericks (WTBA1302DAL); weitere Team-Designs auf der Amazon-Seite wählbar. Maße 30 × 25 cm / 16,5 cm / 10 cm nur für Variante Washington Wizards belegt.",
+      "priceTier": 1,
+      "ratings": {
+        "passform": 5.5,
+        "board_ring": 6,
+        "spielwert": 7,
+        "sicherheit": 7.5
+      },
+      "gesamtnote": 6.325,
+      "bestFor": "Jüngere Kinder ab ca. 5 Jahren und NBA-Fans, die einen günstigen, leichten Spaßkorb mit weichem Ball suchen.",
+      "fakten": [
+        {
+          "text": "Kunststoff-Mini-Korb zum Einhängen über die Tür, Ring 7\", 2 Jahre Herstellergarantie, ca. 4,2 von 5 Sternen bei 126 Bewertungen",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/Wilson-Mini-Basketballkorb-Team-Mini-Hoop/dp/B0H2RCPC1K",
+          "datum": "2026-10 (Suchindex)"
+        },
+        {
+          "text": "Passt laut Wilson über die Tür, einfache Montage",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.wilson.com/it-it/products/nba-team-mini-hoop-wz60016",
+          "datum": "2026-10 (Suchindex)"
+        },
+        {
+          "text": "Board ca. 30 × 25 cm, Ringdurchmesser 16,5 cm, Softball ca. 10 cm (Variante Washington Wizards, WTBA1302WAS)",
+          "art": "Händlerangabe",
+          "quelle": "https://sportano.pl/p/322783/zestaw-do-mini-koszykowki-wilson-nba-mini-hoop-team-washington-wizards",
+          "datum": "2026-10 (Suchindex)"
+        },
+        {
+          "text": "Erfahrungsberichte: Haken zu dick für manche Türen bzw. zu wenig Spalt zwischen Tür und Zarge; ein deutscher Käufer schreibt, er halte \"nicht bei allen Türen\"; Kunststoffhaken in einem Fall abgebrochen",
+          "art": "Bericht",
+          "quelle": "https://www.amazon.de/Wilson-Mini-Basketballkorb-ANGELES-LAKERS-Kunststoff/dp/B091MMGTF1",
+          "datum": "2026-10 (Suchindex)"
+        }
+      ],
+      "pros": [
+        "Günstigster Markenkorb (ca. ein Drittel des Preises der Pro-Mini-Klasse)",
+        "Weicher Ball und kleines Board – leiser und kindgerechter",
+        "Viele NBA-Team-Designs"
+      ],
+      "cons": [
+        "Kunststoffhaken teils zu dick für gefälzte Türen – Tür vorher ausmessen",
+        "Kleiner, starrer Ring ohne Federung, kein Polycarbonat-Board",
+        "Nicht zum Dunken geeignet",
+        "Angaben zu Maßen in den Listings widersprüchlich"
+      ],
+      "specs": {
+        "Board": "ca. 30 × 25 cm, Kunststoff mit Teamlogo (Händlerangabe, je Variante abweichend)",
+        "Ring": "ca. 16,5–18 cm (7\"), starr",
+        "Ball": "Softball ca. 10 cm",
+        "Befestigung": "Kunststoff-Türhaken; keine Türstärkenangabe gefunden",
+        "Garantie": "2 Jahre (Händlerangabe)"
+      },
+      "asin": "B091MHMF3T",
+      "query": "Wilson NBA Team Mini Hoop",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "Wilson Mini-Basketballkorb NBA Team Mini Hoop : Amazon.de: Sport & Freizeit (Variantenlisting; Produktdetails nennen Kind-ASIN B091MHMF3T; Preis im Index = aktiv)"
+    },
+    {
+      "rank": 3,
+      "label": "Premium-Wahl (Breakaway/Glas-Optik)",
+      "name": "SKLZ Pro Mini Hoop mit klappbarem Ring",
+      "brand": "SKLZ",
+      "variant": "Flip, Board 18\" × 12\" transparent, Modell 11017",
+      "priceTier": 3,
+      "ratings": {
+        "passform": 7.0,
+        "board_ring": 8,
+        "spielwert": 8,
+        "sicherheit": 7.5
+      },
+      "gesamtnote": 7.55,
+      "bestFor": "Familien, bei denen der Korb dauerhaft an einer viel genutzten Tür hängen bleiben soll – der Ring klappt nach dem Spielen hoch.",
+      "fakten": [
+        {
+          "text": "Ring lässt sich per Hebel hochklappen, damit der Korb an der Tür bleiben kann, egal ob die Tür offen oder geschlossen ist; klares, bruchsicheres Polycarbonat-Board 18\" × 12\"; 9\"-Federring; 5\"-Ball und Pumpe im Lieferumfang",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/SKLZ-HP01-000-02-TEJASWIParent-Pro-Mini-Basketballkorb/dp/B0CNC9YV2S",
+          "datum": "2026-10 (Suchindex)"
+        },
+        {
+          "text": "9\" federnder, hochklappbarer Abreißring aus Stahl, schaumgepolsterte Türhalterungen zum Aufschieben",
+          "art": "Herstellerangabe",
+          "quelle": "https://sklz.com/products/pro-mini-hoop-flip-over-the-door-basketball-hoop-with-flip-up-rim",
+          "datum": "2026-10 (Suchindex)"
+        },
+        {
+          "text": "Ca. 4,1 von 5 Sternen bei 231 Bewertungen, im Index lieferbar",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/SKLZ-HP01-000-02-TEJASWIParent-Pro-Mini-Basketballkorb/dp/B0CNC9YV2S",
+          "datum": "2026-10 (Suchindex)"
+        },
+        {
+          "text": "Ein Käufer lobt den Klappring, findet das Board aber zu dünn",
+          "art": "Bericht",
+          "quelle": "https://www.anthem-sports.com/fanzone/sklz-pro-mini-hoop-18-x-12-basketball-hoop.html",
+          "datum": "2026-10 (Suchindex)"
+        }
+      ],
+      "pros": [
+        "Klappring: Korb kann hängen bleiben, ohne beim Türöffnen im Weg zu sein",
+        "Gleiche Board-/Ringqualität wie der Pro Mini Hoop, Pumpe dabei",
+        "Gepolsterte Türhalterung"
+      ],
+      "cons": [
+        "Fast doppelt so teuer wie der Standard-Pro-Mini",
+        "Klappring löst nicht das Spaltproblem am Türfalz – die Haken sitzen weiterhin auf der Tür",
+        "Keine eigene Türstärkenangabe gefunden (Bauart wie Pro Mini, dort max. ca. 44 mm)"
+      ],
+      "specs": {
+        "Board": "18\" × 12\" (ca. 46 × 30 cm), Polycarbonat, klar",
+        "Ring": "9\" Stahl, Federmechanismus, hochklappbar",
+        "Ball": "5\" mit Pumpe",
+        "Befestigung": "Türhaken mit Schaumpolster",
+        "Modell": "11017"
+      },
+      "asin": "B0BCXBPJ75",
+      "query": "SKLZ Pro Mini Hoop Flip",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "SKLZ Pro Mini Hoop Basketballkorb mit klappbarem Ring transparent (EN-Index: \"SKLZ Pro Mini Hoop Basketball Hoop with Folding Rim Transparent : Amazon.de\"); Variantenfamilie – die englische Indexseite derselben ASIN zeigt die Variante \"Showtime\" (LED). Kind-ASIN der Flip-Variante laut Index B0BCXBPJ75 (Modell 11017)."
+    }
+  ],
+  "top5": [
+    {
+      "name": "Franklin Sports 54132X Mini-Basketballkorb für die Tür (bruchsicher, 17,7\" × 12\")",
+      "warum": "Solide Alternative zum SKLZ mit bruchsicherem Board, 9,5\"-Metallring, Ball und Pumpe; Türhaken mit EVA-Schaum.",
+      "fakten": [
+        {
+          "text": "Bruchsicheres Board 17,75\" × 12\", 9,5\"-Metallring mit 8-Schlaufen-Netz, Ball und Pumpe im Set; laut Listing für normale Türen mit schützender EVA-Schaumschicht; ca. 4,6 von 5 Sternen bei 6.603 Bewertungen",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/Franklin-Sports-Over-Door-Basketball/dp/B07VFDFGBG",
+          "datum": "2026-10 (Suchindex)"
+        }
+      ],
+      "asin": "B07VFDFGBG",
+      "query": "Franklin Sports 54132X Mini Basketballkorb Tür",
+      "where": null
+    },
+    {
+      "name": "SKLZ Pro Mini Hoop XL",
+      "warum": "Größeres Board für Jugendliche und das Jugendzimmer.",
+      "fakten": [
+        {
+          "text": "Board 23\" × 16\" Polycarbonat, 9½\"-Federring (Abreißring), schaumgepolsterte Türhalterungen, 8-Schlaufen-Netz",
+          "art": "Herstellerangabe",
+          "quelle": "https://sklz.com/products/pro-mini-hoop-xl-0450",
+          "datum": "2026-10 (Suchindex)"
+        },
+        {
+          "text": "Laut Händler für Türen bis max. 1¾\" (ca. 44 mm)",
+          "art": "Händlerangabe",
+          "quelle": "https://www.anthem-sports.com/fanzone/sklz-pro-mini-hoop-xl-23-x-16-pro-grade-basketball-hoop.html",
+          "datum": "2026-10 (Suchindex)"
+        }
+      ],
+      "asin": null,
+      "query": "SKLZ Pro Mini Hoop XL",
+      "where": null
+    },
+    {
+      "name": "Little Tikes TotSports Basketball-Set (Easy Score), höhenverstellbar",
+      "warum": "Für Kleinkinder statt Türkorb: freistehend, großer Ring, keine Montage an der Tür.",
+      "fakten": [
+        {
+          "text": "Für Kinder von 18 Monaten bis 5 Jahren, Höhe ca. 2½–4 Fuß (ca. 76–122 cm) verstellbar, extra großer Ring, Junior-Ball; ca. 4,4 von 5 Sternen bei 687 Bewertungen; im Index von einem Drittanbieter verkauft (Lieferzeit 7–8 Tage)",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/-/en/Little-Tikes-TotSports-Score-Basketball/dp/B004GXLWLI",
+          "datum": "2026-10 (Suchindex)"
+        }
+      ],
+      "asin": "B004GXLWLI",
+      "query": "Little Tikes TotSports Easy Score Basketball Set",
+      "where": null
+    },
+    {
+      "name": "Wilson NBA Forge Pro Mini Hoop (schwarz, mit Stickern aller 30 NBA-Teams)",
+      "warum": "Für NBA-Fans eine Stufe über dem Team Mini Hoop: Polycarbonat-Board 18\" × 11\", Stahlring, gepolsterte Türhalterung.",
+      "fakten": [
+        {
+          "text": "Bruchsicheres Board ca. 46 × 28 cm, Stahlring, gepolsterte Türhalterung, 30 Team-Sticker; ca. 4,4 von 5 Sternen bei 144 Bewertungen; Modell WTBA3001FRGNBA",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/Wilson/dp/B0DSCH1GDF",
+          "datum": "2026-10 (Suchindex)"
+        },
+        {
+          "text": "Polycarbonat-Board 18\" × 11\", Stahlring, 5\"-Mini-Ball",
+          "art": "Händlerangabe",
+          "quelle": "https://www.galaxus.at/en/s3/product/wilson-forge-basketball-hoops-17682677",
+          "datum": "2026-10 (Suchindex)"
+        }
+      ],
+      "asin": "B0DSCH1GDF",
+      "query": "Wilson NBA Forge Pro Mini Hoop",
+      "where": null
+    },
+    {
+      "name": "SKLZ Pro Mini Swish Schaumstoffball",
+      "warum": "Leiser Ersatzball für alle Pro-Mini-Körbe – sinnvoll in Mietwohnungen, weil der mitgelieferte Gummiball laut Käufern laut ist.",
+      "fakten": [
+        {
+          "text": "Mini-Schaumstoffbasketball ca. 12,5 cm, für alle SKLZ-Pro-Mini-Körbe, leicht und leise für drinnen",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/SKLZ-Unisex-Teenager-Swish-Schaumstoffball/dp/B0F62QJTV7",
+          "datum": "2026-10 (Suchindex)"
+        }
+      ],
+      "asin": "B0F62QJTV7",
+      "query": "SKLZ Pro Mini Swish Schaumstoffball",
+      "where": null
+    }
+  ],
+  "passformDeutscheTueren": {
+    "zusammenfassung": "Typische deutsche Zimmertüren sind gefälzt: Das Türblatt (meist ca. 40 mm) greift mit einem umlaufenden Falz über die Zarge, die Bänder liegen sichtbar auf. Ein Türkorb hängt mit zwei Haken über der Türblatt-Oberkante – auf der Falzseite müssen die Haken zwischen Falz und Zarge (bzw. Dichtung) passen. Dicke oder kurze Kunststoffhaken verhindern dann, dass die Tür schließt, oder lassen sich gar nicht einhängen. Ratschlag für den Text: Türblattstärke messen (Herstellerangabe vergleichen), den Spalt oben zwischen geschlossener Tür und Zarge prüfen, Haken nicht über der Bandseite einhängen, ggf. Tür offen benutzen oder an der Wand montieren.",
+    "belege": [
+      {
+        "text": "DIN 18101 unterscheidet gefälzte und ungefälzte Türblätter (Beispiel gefälztes Blatt 610 × 1985 mm bei Nennmaß 635 × 2010 mm)",
+        "art": "Bericht",
+        "quelle": "https://www.baunetzwissen.de/fenster-und-tueren/fachwissen/konstruktion-funktion/tuerblattgroessen-nach-din-18101-155263"
+      },
+      {
+        "text": "Standard-Türblattdicke 39–40 mm, Falztiefe 12–15 mm (Lexikonangabe, nicht am Normtext geprüft)",
+        "art": "Bericht",
+        "quelle": "https://www.clean-invoice.com/lexikon/tuerfalz"
+      },
+      {
+        "text": "Beispiel Hersteller-Datenblatt: Zimmertürblatt 40 mm mit 3-seitigem Dickfalz",
+        "art": "Herstellerangabe",
+        "quelle": "https://downloads.carlgoetz.de/o1990847v19_8_DB_ZK1_DE_DE.pdf"
+      },
+      {
+        "text": "Normfalz 13 × 25,5 mm (Hersteller Konold)",
+        "art": "Herstellerangabe",
+        "quelle": "https://konold.com/wp-content/uploads/2023/12/2_tueren_gesamt_stand_2023_kw46_.pdf"
+      },
+      {
+        "text": "Spalding Slam Jam: Rezensent schreibt, der Korb funktioniere nur an Türen mit verdeckten Bändern und verhindere an normalen Türen das Schließen; ein weiterer, der deutsche Türfalz habe die Montage verhindert",
+        "art": "Bericht",
+        "quelle": "https://www.amazon.de/Spalding-Slam-Gestell-Mini-Basketballkorb/dp/B0085AOZIK"
+      },
+      {
+        "text": "Günstige Türkörbe: mehrere Käufer berichten, die Tür schließe mit eingehängtem Korb nicht, weil die Haken zu dick seien",
+        "art": "Bericht",
+        "quelle": "https://www.amazon.de/Basketballkorb-Zimmer-Luftpumpe-Backboard-Mehrfarbig/dp/B0BV9Y647L"
+      },
+      {
+        "text": "Beispiel Türstärkenangabe eines anderen Anbieters: Haken für Türen bis ca. 4,5 cm",
+        "art": "Händlerangabe",
+        "quelle": "https://www.hornbach.de/p/hauki-mini-basketballkorb-fuers-zimmer-im-set-3-baelle-o16cm-netz-pumpe-58x40-cm-weiss-tragbar-backboard-tuer-wandmontage-ohne-bohren-indoor-basketball-hoop-haengend-haengebrett-basketballbrett/12085179/"
+      }
+    ]
+  },
+  "tests": [
+    {
+      "institut": "Stiftung Warentest / Öko-Test",
+      "heft": "–",
+      "ergebnis": "Kein Test von Mini- bzw. Tür-Basketballkörben gefunden (laut test-vergleiche.com hat Stiftung Warentest keinen Basketballkorb-Test veröffentlicht). Bewertung daher nach Hersteller-/Händlerangaben und Erfahrungsberichten; im Methodik-Abschnitt so kennzeichnen.",
+      "quelle": "https://test-vergleiche.com/produkte/spalding-basketballkorb/"
+    }
+  ],
+  "warnungen": [
+    "Kein Rückruf und keine Safety-Gate-/CPSC-Warnung zu Tür-Minikörben von SKLZ, Spalding, Wilson oder Franklin gefunden (Websuche 2026-10-22; Safety-Gate-Portal selbst nicht abrufbar).",
+    "Rückruf zum Abgrenzen (kein Türkorb): Decathlon/Tarmak B900 BOX NBA (mobiler Korb, Art.-Nr. 4239136, verkauft 06.09.2024–01.07.2025) – Pfosten kann bei entfernter Kurbel herunterfallen, Handverletzungen möglich. Quelle: https://www.test.de/Rueckruf-von-Decathlon-Basketballkorb-mit-Unfallgefahr-6232300-0/ und https://www.ccpc.ie/consumers/product_recalls/decathlon-recalls-tarmak-b900-box-nba-basketball-hoop/ – relevant eher für /basketballkorb-fest/.",
+    "USA (nicht Türkorb): Goalsetter-Wandkörbe (ca. 18.000 Stück, 10/2022) nach tödlichem Unfall zurückgerufen. Quelle: https://www.wndu.com/2022/10/28/4-years-later-goalsetter-recalls-basketball-hoop-that-fell-killed-granger-teen/ – zeigt, dass Wandmontage tragfähig sein muss.",
+    "SKLZ-Listing: \"nicht für Kinder unter 8 Jahren, nur unter Aufsicht von Erwachsenen\" (https://www.amazon.de/SKLZ-Pro-Mini-Hoop/dp/B0HC45516W); Franklin-XL-Listing: Kleinteile, erst über 36 Monate. Für jüngere Kinder freistehende Kleinkind-Körbe empfehlen.",
+    "Sicherheitshinweis für den Text: nicht am Ring hängen/dunken, wenn der Korb an der Tür hängt (Hebel auf Türblatt und Bänder); Tür nicht zuschlagen, solange Kinder in der Nähe spielen – eigene redaktionelle Ableitung, keine Herstellerquelle."
+  ],
+  "verworfen": [
+    {
+      "name": "Spalding Slam Jam Over-The-Door Mini (B0B2VYGNJY, B0085AOZIK)",
+      "grund": "Beide Listings laut Index \"derzeit nicht verfügbar\"; weiteres Listing B08XWDF663 ohne Hauptangebot, B09HJDN4QJ nicht eindeutig bestätigt. Zudem Rezensionen zu Problemen mit deutschem Türfalz/aufliegenden Bändern."
+    },
+    {
+      "name": "Spalding NBA 180 Breakaway Mini (B00TI4R4OE)",
+      "grund": "Laut Index derzeit nicht verfügbar; wäre sonst die Premium-Wahl (Board 28\" × 16,5\", 180°-Abreißring)."
+    },
+    {
+      "name": "Spalding Mini Arena Slam 180 Backboard 561033CN",
+      "grund": "Auf amazon.de nur in Suchergebnislisten, keine /dp/-Seite mit ASIN auffindbar."
+    },
+    {
+      "name": "SKLZ Pro Mini Hoop Midnight (B00MOIQ6ZO / B00LCYUPBM)",
+      "grund": "Ein Listing laut Index nicht verfügbar, Varianten widersprüchlich; gegenüber Standard kein Mehrwert außer Leuchtfarbe."
+    },
+    {
+      "name": "SKLZ Pro Mini Hoop Showtime (LED)",
+      "grund": "Teilt sich die ASIN B0CNC9YV2S mit der Flip-Variante – keine eindeutige eigene ASIN; daher nicht als Punktezähler-Alternative genutzt."
+    },
+    {
+      "name": "Körbe mit elektronischem Punktezähler (IGUGI, TEUVO, Kiztoys, Aragallant, Xespis u. a.)",
+      "grund": "Nur No-Name-Ware ohne Herstellerangaben zu Türstärke; Top-5-Intent \"Punktezähler\" daher nicht mit seriöser Marke belegbar."
+    },
+    {
+      "name": "Relaxdays, QDRAGON, Hauki u. ä. Türkorb-Sets",
+      "grund": "Austauschbare No-Name-Ware; Erfahrungsberichte zu zu dicken Haken und lauten Bällen."
+    },
+    {
+      "name": "Spalding NBA Miniboard (B00BSP3QCA, B00F1UHRFA)",
+      "grund": "Laut Index nicht verfügbar, Klebepads statt Haken."
+    },
+    {
+      "name": "HUDORA Basketballständer 205-Serie",
+      "grund": "Outdoor-Ständer ab ca. 157–165 cm – kein Kleinkind- bzw. Indoor-Produkt; gehört zu /basketballkorb-fest/."
+    }
+  ],
+  "offen": [
+    "ASIN-Lage: Alle drei Top-3-ASINs sind Variantenlistings (Eltern-ASIN): B0HC45516W (Kind B001I912SQ, Standard und XL), B0H2RCPC1K (Kind B091MHMF3T, Team-Designs), B0CNC9YV2S (Flip; EN-Indexseite zeigt Variante Showtime, Flip-Kind B0BCXBPJ75). Vor Veröffentlichung live prüfen, ob die Eltern-ASIN die richtige Variante vorauswählt – sonst auf die Kind-ASIN wechseln.",
+    "SKLZ Pro Mini Hoop XL: keine eindeutige aktive ASIN (B0CR9K459M laut Index nicht verfügbar, B01HRLW1LU ohne Status, XL zudem Größenoption unter B0HC45516W) – daher nur `query` \"SKLZ Pro Mini Hoop XL\".",
+    "Wilson NBA Forge Pro Mini Hoop B0DSCH1GDF: Titel passt, Produktdetails nennen aber B091MRMPWB – live prüfen.",
+    "Little Tikes TotSports B004GXLWLI: im Index nur über einen Drittanbieter mit 7–8 Tagen Lieferzeit – Verfügbarkeit prüfen, sonst durch `query` ersetzen.",
+    "Scout-ASINs B0B2VYGNJY (Spalding Slam Jam), B00TI4R4OE (Spalding NBA 180) und B00MOIQ6ZO (SKLZ Midnight) sind laut Index nicht verfügbar und wurden nicht übernommen.",
+    "Top-5-Intent \"Korb mit elektronischem Punktezähler\" nicht mit einer seriösen Marke abdeckbar (nur No-Name) – stattdessen leiser Ersatzball und Forge Pro. Redakteur kann im Text erwähnen, dass es Punktezähler-Körbe vor allem als No-Name-Sets gibt.",
+    "Awin (nicht freigeschaltet, nicht beworben): DECATHLON DE, Awin-ID 14353, Status laut API `notjoined`, Programm aktiv. Passendes Produkt: Kipsta/Tarmak Mini-Basketballkorb SK500 mit Ball und Nadel (Wand- und Türbefestigung, Board 37,5 × 28 cm, klappbarer Ring 21,5 cm innen, ca. 24,99 €, 4,5 Sterne/298 Bewertungen; https://www.decathlon.de/p/mini-basketballkorb-mit-ball-und-nadel-zum-aufpumpen-sk500/346440/m8800367). Gleichwertiger Ersatz über Amazon gewählt (SKLZ/Wilson). Bewerbungstext-Entwurf: \"Guten Tag, toptop.shop (TanMeOn GmbH, Sankt Peter-Ording) ist ein redaktionelles Vergleichsportal, das je Kategorie drei Produkte mit nachvollziehbaren Kriterien, Quellen und Kaufberatung empfiehlt – u. a. in den Bereichen Kinder-Spielplatz (Indoor-Bewegung), Private Sportanlagen und Tennis/Pickleball. Wir möchten Decathlon-Produkte wie Kipsta/Tarmak-Minikörbe, Basketballanlagen und Indoor-Sportgeräte für Familien redaktionell einbinden, mit gekennzeichneten Partnerlinks (rel=sponsored) ohne Gutscheinseiten oder Brand-Bidding. Wir freuen uns über die Freischaltung. Viele Grüße, Jan Rosenbrock\"",
+    "Weitere Spielzeug-/Sportprogramme laut API ebenfalls `notjoined` (nur zur Info): OTTO DE 14336, INTERSPORT DE 14050, SportScheck DE 14607, Sport-Thieme DE 11417 – für diese Kategorie nicht nötig.",
+    "Altersangabe: Struktur nennt \"Kinder ab ca. 5 Jahren\", SKLZ gibt im Listing \"ab 8 Jahren, unter Aufsicht\" an – Redakteur sollte das im Abschnitt Alter so wiedergeben und für 5–7-Jährige auf Wilson Team Mini Hoop bzw. Softball verweisen.",
+    "Herstellerseiten (sklz.com, wilson.com, franklinsports.com) und amazon.de konnten nicht direkt geöffnet werden – Fakten stammen aus Suchindex-Ausschnitten; Ratingzahlen schwanken je Indexstand.",
+    "Korrekturrunde 1 (2026-10-22, Prüfbericht): Platz 1 zurück auf Eltern-ASIN B0HC45516W (einzige /dp/-Seite mit passendem Titel; B001I912SQ nur in Produktdetails), Platz 2 Kind-ASIN B091MHMF3T (Dallas Mavericks), Platz 3 Kind-ASIN B0BCXBPJ75; Passform Platz 3 auf 7,0 (keine eigene Türstärkenangabe/Wandmontage). XL-Wandmontage-Aussage gestrichen (keine Quelle). Franklin B07VFDFGBG ist Variantenfamilie (auch 25\" XL) – im Text Hinweis 'Größe 17,7 × 12 Zoll wählen'. Vor Merge alle drei Top-3-ASINs live öffnen."
+  ],
+  "quellen": [
+    {
+      "titel": "SKLZ Pro Mini Hoop – amazon.de",
+      "url": "https://www.amazon.de/SKLZ-Pro-Mini-Hoop/dp/B0HC45516W"
+    },
+    {
+      "titel": "SKLZ Pro Mini Hoop (0401) – Hersteller",
+      "url": "https://sklz.com/products/pro-mini-hoop-0401"
+    },
+    {
+      "titel": "SKLZ Pro Mini Hoop XL (0450) – Hersteller",
+      "url": "https://sklz.com/products/pro-mini-hoop-xl-0450"
+    },
+    {
+      "titel": "SKLZ Pro Mini Hoop Flip – Hersteller",
+      "url": "https://sklz.com/products/pro-mini-hoop-flip-over-the-door-basketball-hoop-with-flip-up-rim"
+    },
+    {
+      "titel": "SKLZ Pro Mini Hoop Flip – amazon.de",
+      "url": "https://www.amazon.de/SKLZ-HP01-000-02-TEJASWIParent-Pro-Mini-Basketballkorb/dp/B0CNC9YV2S"
+    },
+    {
+      "titel": "SKLZ Pro Mini Hoop 18×12 – Anthem Sports (Türstärke)",
+      "url": "https://www.anthem-sports.com/fanzone/sklz-pro-mini-hoop-18-x-12-basketball-hoop.html"
+    },
+    {
+      "titel": "SKLZ Pro Mini Hoop XL – Anthem Sports (Türstärke)",
+      "url": "https://www.anthem-sports.com/fanzone/sklz-pro-mini-hoop-xl-23-x-16-pro-grade-basketball-hoop.html"
+    },
+    {
+      "titel": "SKLZ Pro Mini Hoop 0401 – Skroutz (Rezensionen)",
+      "url": "https://www.skroutz.mt/s/24375266/SKLZ-Pro-Hoop-Indoor-Mini-Basketball-with-Springs-0401.html"
+    },
+    {
+      "titel": "Wilson NBA Team Mini Hoop – amazon.de",
+      "url": "https://www.amazon.de/Wilson-Mini-Basketballkorb-Team-Mini-Hoop/dp/B0H2RCPC1K"
+    },
+    {
+      "titel": "Wilson NBA Team Mini Hoop Lakers – amazon.de (Rezensionen)",
+      "url": "https://www.amazon.de/Wilson-Mini-Basketballkorb-ANGELES-LAKERS-Kunststoff/dp/B091MMGTF1"
+    },
+    {
+      "titel": "Wilson NBA Team Mini Hoop – Hersteller",
+      "url": "https://www.wilson.com/it-it/products/nba-team-mini-hoop-wz60016"
+    },
+    {
+      "titel": "Wilson NBA Mini Hoop Washington Wizards – Sportano",
+      "url": "https://sportano.pl/p/322783/zestaw-do-mini-koszykowki-wilson-nba-mini-hoop-team-washington-wizards"
+    },
+    {
+      "titel": "Wilson NBA Forge Pro Mini Hoop – amazon.de",
+      "url": "https://www.amazon.de/Wilson/dp/B0DSCH1GDF"
+    },
+    {
+      "titel": "Wilson Forge Mini Hoop – Galaxus",
+      "url": "https://www.galaxus.at/en/s3/product/wilson-forge-basketball-hoops-17682677"
+    },
+    {
+      "titel": "Franklin Sports 54132X – amazon.de",
+      "url": "https://www.amazon.de/Franklin-Sports-Over-Door-Basketball/dp/B07VFDFGBG"
+    },
+    {
+      "titel": "Little Tikes TotSports Basketball Set – amazon.de",
+      "url": "https://www.amazon.de/-/en/Little-Tikes-TotSports-Score-Basketball/dp/B004GXLWLI"
+    },
+    {
+      "titel": "SKLZ Pro Mini Swish Schaumstoffball – amazon.de",
+      "url": "https://www.amazon.de/SKLZ-Unisex-Teenager-Swish-Schaumstoffball/dp/B0F62QJTV7"
+    },
+    {
+      "titel": "Spalding Slam Jam (B0085AOZIK) – amazon.de, Rezensionen zu Türfalz",
+      "url": "https://www.amazon.de/Spalding-Slam-Gestell-Mini-Basketballkorb/dp/B0085AOZIK"
+    },
+    {
+      "titel": "Spalding NBA 180 Breakaway – amazon.de",
+      "url": "https://www.amazon.de/Spalding-NBA-180-Breakaway-Mini-Basketballkorb/dp/B00TI4R4OE"
+    },
+    {
+      "titel": "Relaxdays Basketballkorb fürs Zimmer – amazon.de (Rezensionen Haken)",
+      "url": "https://www.amazon.de/Basketballkorb-Zimmer-Luftpumpe-Backboard-Mehrfarbig/dp/B0BV9Y647L"
+    },
+    {
+      "titel": "Türblattgrößen nach DIN 18101 – Baunetz Wissen",
+      "url": "https://www.baunetzwissen.de/fenster-und-tueren/fachwissen/konstruktion-funktion/tuerblattgroessen-nach-din-18101-155263"
+    },
+    {
+      "titel": "Türfalz – Lexikon",
+      "url": "https://www.clean-invoice.com/lexikon/tuerfalz"
+    },
+    {
+      "titel": "Carl Götz Datenblatt Zimmertür ZK1",
+      "url": "https://downloads.carlgoetz.de/o1990847v19_8_DB_ZK1_DE_DE.pdf"
+    },
+    {
+      "titel": "Konold Türen Gesamtkatalog 2023",
+      "url": "https://konold.com/wp-content/uploads/2023/12/2_tueren_gesamt_stand_2023_kw46_.pdf"
+    },
+    {
+      "titel": "Hauki Mini-Basketballkorb – Hornbach (Türstärke 4,5 cm)",
+      "url": "https://www.hornbach.de/p/hauki-mini-basketballkorb-fuers-zimmer-im-set-3-baelle-o16cm-netz-pumpe-58x40-cm-weiss-tragbar-backboard-tuer-wandmontage-ohne-bohren-indoor-basketball-hoop-haengend-haengebrett-basketballbrett/12085179/"
+    },
+    {
+      "titel": "test.de – Rückruf Decathlon-Basketballkorb",
+      "url": "https://www.test.de/Rueckruf-von-Decathlon-Basketballkorb-mit-Unfallgefahr-6232300-0/"
+    },
+    {
+      "titel": "CCPC – Decathlon recalls Tarmak B900 BOX NBA",
+      "url": "https://www.ccpc.ie/consumers/product_recalls/decathlon-recalls-tarmak-b900-box-nba-basketball-hoop/"
+    },
+    {
+      "titel": "WNDU – Goalsetter recall",
+      "url": "https://www.wndu.com/2022/10/28/4-years-later-goalsetter-recalls-basketball-hoop-that-fell-killed-granger-teen/"
+    },
+    {
+      "titel": "test-vergleiche.com – Spalding Basketballkorb (Testlage)",
+      "url": "https://test-vergleiche.com/produkte/spalding-basketballkorb/"
+    },
+    {
+      "titel": "Decathlon Kipsta SK500 Mini-Basketballkorb",
+      "url": "https://www.decathlon.de/p/mini-basketballkorb-mit-ball-und-nadel-zum-aufpumpen-sk500/346440/m8800367"
+    },
+    {
+      "titel": "Awin – DECATHLON DE Programmprofil",
+      "url": "https://ui.awin.com/merchant-profile/14353"
+    }
+  ]
+}

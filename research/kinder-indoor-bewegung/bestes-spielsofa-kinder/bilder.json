@@ -1,0 +1,52 @@
+{
+  "visuals": {
+    "1": {
+      "kind": "playsofa",
+      "tone": "forest"
+    },
+    "2": {
+      "kind": "playsofa",
+      "tone": "green"
+    },
+    "3": {
+      "kind": "playsofa",
+      "tone": "mint"
+    }
+  },
+  "steps": {
+    "title": "Spielsofa auswählen",
+    "subtitle": "Fünf Fragen vor dem Kauf",
+    "alt": "Infografik: Spielsofa auswählen – Platz ausmessen, Modulzahl wählen, Schaumstoff prüfen, Bezug checken, sicher aufstellen",
+    "caption": "Erst Platz und Nutzung klären, dann Schaumstoff und Bezug vergleichen.",
+    "steps": [
+      {
+        "title": "Platz ausmessen",
+        "text": "Stellfläche als Sofa und ausgeklappt als Liegefläche messen – inklusive Tobe-Raum drumherum."
+      },
+      {
+        "title": "Modulzahl wählen",
+        "text": "Wenige Teile für Kleinkinder und kleine Zimmer, mehr Module für Höhlen, Rutschen und Geschwister."
+      },
+      {
+        "title": "Schaumstoff prüfen",
+        "text": "Schaumqualität, Belastbarkeit und Garantie laut Hersteller vergleichen: fester Schaum bleibt formstabil."
+      },
+      {
+        "title": "Bezug checken",
+        "text": "Abnehmbar, waschbar, verdeckter Reißverschluss; Prüfsiegel nur als Herstellerangabe werten."
+      },
+      {
+        "title": "Sicher aufstellen",
+        "text": "Auf ebenem Boden mit Abstand zu Heizung, Kamin, Fenster und Möbelkanten aufbauen."
+      }
+    ]
+  },
+  "scoresAlt": "Balkendiagramm: Bewertung von Funzy Original, Linodino Spielsofa und Funzy Mini in Module und Vielseitigkeit, Schaumstoff und Formstabilität, Bezug und Schadstoffprüfung sowie Sicherheit und Herstellerservice",
+  "scoresCaption": "Unsere Bewertung je Kriterium für die drei empfohlenen Spielsofas.",
+  "neueFormen": [
+    "playsofa"
+  ],
+  "offen": [
+    "An die finalen Texte in src/content/categories/bestes-spielsofa-kinder.mjs angeglichen (Korrekturrunde 1, 2026-10-22)."
+  ]
+}

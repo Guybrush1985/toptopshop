@@ -1,0 +1,190 @@
+{
+  "thema": "Bewegung drinnen für Kinder (Winter) – Toben, Hüpfen, Balancieren, Werfen im Kinderzimmer",
+  "scoutBericht": "research/trends/2026-10-22-bewegung-drinnen-kinder.md",
+  "area": {
+    "slug": "kinder-spielplatz",
+    "neu": false,
+    "name": "Kinder-Spielplatz",
+    "short": "Spielplatz",
+    "hinweis": "Bereich besteht in src/site.mjs (intro/meta/article dort maßgeblich). Ergänzungsvorschlag für Bereichs- und Gruppentexte siehe \"offen\"."
+  },
+  "groups": [
+    { "slug": "indoor", "name": "Indoor-Spielplatz", "neu": false }
+  ],
+  "categories": [
+    {
+      "slug": "bestes-spielsofa-kinder",
+      "group": "indoor",
+      "navLabel": "Spielsofa",
+      "h1": "Die 3 besten Spielsofas für Kinder 2026",
+      "suchintent": "Eltern von Kindern ca. 1–8 Jahren suchen ein modulares Spielsofa aus Schaumstoff-Elementen, das Sofa, Höhle, Rutsche, Parcours und Gästebett zugleich ist – vor allem für Toben drinnen im Herbst/Winter (Keyword-Hypothese: spielsofa kinder, spielsofa test, kindersofa schaumstoff modular, funzy vs linodino).",
+      "abgrenzung": "Bewegliche Schaumstoff-Module zum Bauen und Toben. Gaming-Sitzsäcke (gaming-room/sitzsaecke) sind reine Sitzmöbel für Jugendliche/Erwachsene; Tipis/Spielzelte (spielhoehle) sind textile Rückzugsorte ohne Bau-/Tobefunktion – eine Spielsofa-Höhle wird dort nicht behandelt, hier nur als Bauidee. Fallschutzmatten sind Sturzschutz unter Klettergeräten, kein Möbel. Lose Softbausteine nur als Top-5-Alternative hier (kein eigener Slug).",
+      "rollen": ["Beste Gesamtwahl", "Bestes Preis-Leistungs-Verhältnis", "Beste Wahl für kleine Zimmer (Mini/kompakt)"],
+      "kriterienEntwurf": [
+        "Modulzahl, Formen und Kombinierbarkeit (Sofa, Höhle, Rutsche, Liegefläche)",
+        "Schaumstoffdichte/Härte und Formstabilität (Herstellerangabe RG/kg/m³)",
+        "Bezug: abnehmbar, waschbar, Material (Cord, Microfaser, wasserabweisend), Oeko-Tex/GS als Herstellerangabe",
+        "Rutschfeste Unterseite und Kanten-/Reißverschlusssicherheit (verdeckt, kindersicher)",
+        "Maße als Sofa und als Liegefläche, Platzbedarf und Gewicht"
+      ],
+      "top5Intent": "Nach Größe und Einsatz: Mini-Spielsofa fürs Kleinkind, großes Set für Geschwister/als Gästebett, günstiges Einstiegsset (tectake/COSTWAY), Cord-/Designbezug fürs Wohnzimmer, lose Softbausteine zum Ergänzen.",
+      "faqKandidaten": [
+        "Ab welchem Alter ist ein Spielsofa sinnvoll?",
+        "Lohnt sich ein Spielsofa für Kinder?",
+        "Was ist der Unterschied zwischen Funzy und Linodino?",
+        "Wie reinigt man ein Spielsofa – kann der Bezug in die Waschmaschine?",
+        "Kann man auf einem Spielsofa schlafen (Gästebett)?",
+        "Wie viel Platz braucht ein Spielsofa?",
+        "Riecht ein neues Spielsofa nach Schaumstoff und wie lange?",
+        "Welche Dichte sollte der Schaumstoff eines Spielsofas haben?"
+      ],
+      "related": ["bestes-huepfpolster-kinder", "spielhoehle", "spielteppich", "beste-balanciersteine-kinder"],
+      "metaTitle": "Spielsofa für Kinder: Die 3 besten Modelle 2026",
+      "metaDescription": "Spielsofa aus Schaumstoff-Modulen: die 3 besten Kinder-Spielsofas zum Bauen, Toben und Kuscheln – mit Tipps zu Schaumdichte, Bezug, Größe und Reinigung.",
+      "produktart": "playsofa – modulares Kinder-Spielsofa aus mehreren gepolsterten Schaumstoffblöcken (Sitzkissen, Rückenteil, Dreieck/Keil, Rolle), teils zu Höhle/Rutsche umgebaut"
+    },
+    {
+      "slug": "bestes-huepfpolster-kinder",
+      "group": "indoor",
+      "navLabel": "Hüpfpolster",
+      "h1": "Die 3 besten Hüpfpolster für Kinder 2026",
+      "suchintent": "Eltern suchen eine leise, bodennahe Hüpfmatratze mit Federkern als Trampolin-Alternative für die Wohnung (Keyword-Hypothese: hüpfpolster, hüpfmatratze kinder, hüpfmatratze federkern, indoor trampolin alternative wohnung).",
+      "abgrenzung": "Federkern-Polster zum Springen ohne Gestell. Fallschutzmatten/Turnmatten (fallschutzmatten) dämpfen Stürze, federn aber nicht; Hüpfburg (outdoor/huepfburg) ist aufblasbar und für den Garten; Mini-Trampolin mit Haltegriff ist Reserve-/Top-5-Thema, kein eigener Slug; Spielsofa ist Schaumstoff ohne Federung.",
+      "rollen": ["Beste Gesamtwahl", "Bestes Preis-Leistungs-Verhältnis", "Beste Wahl für Kleinkinder (flach/kompakt)"],
+      "kriterienEntwurf": [
+        "Federkern (Taschenfederkern, Federanzahl) und Sprunggefühl",
+        "Höhe und Liegefläche (Kipp-/Sturzrisiko, Platzbedarf)",
+        "Bezug: abnehmbar/waschbar, rutschfeste Unterseite, Griffe",
+        "Herstellerangaben Alter und Maximalgewicht, Geräusch für Nachbarn darunter",
+        "Zweitnutzen (Sitzpolster, Gästematratze, Teil eines Spielsofas)"
+      ],
+      "top5Intent": "Nach Wohnsituation und Alter: Hüpfpolster fürs Mehrfamilienhaus (leise), XL für Geschwister/Schulkinder, kompatibel zum Spielsofa derselben Marke, Mini-Trampolin mit Haltegriff als Alternative, günstige Hüpfmatte mit Schaumkern.",
+      "faqKandidaten": [
+        "Ab welchem Alter dürfen Kinder auf einem Hüpfpolster springen?",
+        "Was ist besser: Hüpfpolster oder Indoor-Trampolin?",
+        "Ist ein Hüpfpolster leise genug für eine Mietwohnung?",
+        "Bis wie viel Kilo ist ein Hüpfpolster belastbar?",
+        "Kann man ein Hüpfpolster waschen?",
+        "Braucht man unter einem Hüpfpolster eine Matte?",
+        "Wie lange hält der Federkern eines Hüpfpolsters?"
+      ],
+      "related": ["bestes-spielsofa-kinder", "fallschutzmatten", "huepfburg"],
+      "metaTitle": "Hüpfpolster für Kinder: Die 3 besten Hüpfmatratzen 2026",
+      "metaDescription": "Hüpfpolster statt Trampolin: die 3 besten Hüpfmatratzen mit Federkern für die Wohnung – mit Tipps zu Alter, Größe, Lautstärke, Sicherheit und Bezug.",
+      "produktart": "bouncemat – rechteckige, ca. 20 cm hohe gepolsterte Matratze mit Federkern und Stoffbezug, seitliche Tragegriffe"
+    },
+    {
+      "slug": "bestes-balance-board-kinder",
+      "group": "indoor",
+      "navLabel": "Balance Board",
+      "h1": "Die 3 besten Balance Boards für Kinder 2026",
+      "suchintent": "Eltern suchen ein gebogenes Holz-Balance-Board (Waldorf-Wippe, Wobbel-Art) als offenes Spiel- und Gleichgewichtsgerät für Kinder ab ca. 1 Jahr (Keyword-Hypothese: balance board kinder, wobbel board, waldorf balance board, wobbel starter oder original).",
+      "abgrenzung": "Ein bewegliches Einzelgerät zum Wippen, Schaukeln und als Brücke. Balanciersteine (beste-balanciersteine-kinder) sind mehrteilige, feste Parcours-Elemente; das Pikler-Dreieck behandelt den Kletterbogen (auch als Wippe) nur als Set-Teil. Fitness-Balance-Boards für Erwachsene (Rolle/Halbkugel) sind nicht Thema – höchstens ein Satz im Ratgeber.",
+      "rollen": ["Beste Gesamtwahl", "Bestes Preis-Leistungs-Verhältnis", "Beste Wahl für Kleinkinder (Starter-Größe)"],
+      "kriterienEntwurf": [
+        "Größe/Länge und Krümmung (Starter vs. Original/XL) passend zu Alter",
+        "Holzart, Schichtholz-Qualität und Oberfläche (EN 71-3 als Herstellerangabe)",
+        "Filzbeschichtung (Kratz-/Rutschschutz, Lautstärke)",
+        "Maximalbelastung (auch für Erwachsene) und Kippsicherheit",
+        "Vielseitigkeit (Wippe, Brücke, Rutsche, Liege) und Gewicht"
+      ],
+      "top5Intent": "Nach Alter und Ausführung: Mini/Baby-Board ab 10 Monaten, XL/Pro für Schulkinder und Erwachsene, mit Filz für empfindliche Böden, ohne Filz zum Bemalen/Outdoor-Terrasse, Board-Set mit Wippen-Halbkreis/Kletterbogen-Alternative.",
+      "faqKandidaten": [
+        "Ab welchem Alter ist ein Balance Board für Kinder geeignet?",
+        "Welche Größe beim Balance Board: Starter oder Original?",
+        "Balance Board mit oder ohne Filz?",
+        "Lohnt sich ein Wobbel oder reicht ein günstiges Board?",
+        "Wie viel Gewicht hält ein Balance Board aus?",
+        "Was kann man mit einem Balance Board alles spielen?",
+        "Ist ein Balance Board gefährlich für Kleinkinder?"
+      ],
+      "related": ["beste-balanciersteine-kinder", "pikler-dreieck", "fallschutzmatten"],
+      "metaTitle": "Balance Board für Kinder: Die 3 besten Holzboards 2026",
+      "metaDescription": "Balance Board aus Holz: die 3 besten Waldorf-Wippen für Kinder im Vergleich – mit Tipps zu Größe, Filz, Alter, Belastbarkeit und Spielideen für drinnen.",
+      "produktart": "balanceboard – gebogenes, längliches Schichtholzbrett (Halbmond-Wippe), Unterseite optional mit Filz"
+    },
+    {
+      "slug": "beste-balanciersteine-kinder",
+      "group": "indoor",
+      "navLabel": "Balanciersteine",
+      "h1": "Die 3 besten Balanciersteine für Kinder 2026",
+      "suchintent": "Eltern, Tagesmütter und Kitas suchen Flusssteine, Hügelkuppen oder Balancierstrecken, um im Kinderzimmer einen Bewegungsparcours aufzubauen (Keyword-Hypothese: balanciersteine kinder, flusssteine gonge, balancier parcours kinder, trittsteine kinderzimmer).",
+      "abgrenzung": "Mehrteilige, rutschfeste Boden-Elemente für Parcours und Gleichgewicht. Das einzelne Wipp-Brett gehört zu bestes-balance-board-kinder; Kletter-/Hangelgeräte zu pikler-dreieck, sprossenwand-kinder und kletterwand-kinderzimmer. Gemischte Kategorie: Top 3 nach Produktart (Steine / Hügel / Strecke) mit Rollen-Labels (BRIEFING-Entscheidung 2026-10-07).",
+      "rollen": ["Beste Gesamtwahl (Flusssteine-Set)", "Beste Wahl für Fortgeschrittene (Hügelkuppen)", "Beste Wahl für einen ganzen Parcours (Balancierstrecke)"],
+      "kriterienEntwurf": [
+        "Rutschfestigkeit der Unterseite (Gummi) auf Parkett/Fliesen",
+        "Stabilität und Maximalbelastung je Element (Herstellerangabe)",
+        "Anzahl, Höhenstufen und Kombinierbarkeit zum Parcours",
+        "Material (Kunststoff, phthalatfrei laut Hersteller), Kanten, Reinigung",
+        "Stapelbarkeit/Platzbedarf beim Wegräumen"
+      ],
+      "top5Intent": "Nach Budget und Einsatz: günstiges No-Name-Trittsteine-Set zum Vergleich, großes 12-teiliges Kita-Set, Balancierbalken/-wippe aus Holz, Taststeine/Sensorik-Steine, Set für draußen (Terrasse/Garten).",
+      "faqKandidaten": [
+        "Ab welchem Alter sind Balanciersteine geeignet?",
+        "Was ist der Unterschied zwischen Flusssteinen und Hügelkuppen?",
+        "Rutschen Balanciersteine auf Parkett oder Fliesen?",
+        "Wie viele Balanciersteine braucht man für einen Parcours?",
+        "Kann man Balanciersteine auch draußen benutzen?",
+        "Welche Parcours-Ideen gibt es mit Balanciersteinen?",
+        "Fördern Balanciersteine das Gleichgewicht wirklich?"
+      ],
+      "related": ["bestes-balance-board-kinder", "pikler-dreieck", "bestes-spielsofa-kinder"],
+      "metaTitle": "Balanciersteine für Kinder: Die 3 besten Sets 2026",
+      "metaDescription": "Balanciersteine, Hügelkuppen und Balancierstrecken: die 3 besten Sets für einen Bewegungsparcours im Kinderzimmer – mit Tipps zu Rutschfestigkeit und Alter.",
+      "produktart": "balancestones – Set aus mehreren farbigen, abgeflachten Kunststoff-Steinen bzw. Hügelkuppen in unterschiedlichen Höhen mit Gummi-Unterseite, auf dem Boden verteilt"
+    },
+    {
+      "slug": "bester-tuer-basketballkorb",
+      "group": "indoor",
+      "navLabel": "Tür-Basketballkorb",
+      "h1": "Die 3 besten Tür-Basketballkörbe 2026",
+      "suchintent": "Familien mit Kindern ab ca. 5 Jahren und Jugendliche suchen einen Mini-Basketballkorb zum Einhängen an die Zimmertür oder zur Wandmontage mit Board, Abreißring und kleinem Ball (Keyword-Hypothese: basketballkorb tür, mini basketballkorb zimmer, basketballkorb kinderzimmer, over the door basketball).",
+      "abgrenzung": "Indoor-Minikorb für Tür/Wand. basketballkorb-fest (private-sportanlagen) behandelt einbetonierte bzw. mobile Garten-/Einfahrtanlagen in Wettkampfhöhe – dort keine Minikörbe; gegenseitige Verlinkung. Ballwand für Kinder (tennis-ballwand) ist Tennis-Rebounder, kein Wurfziel.",
+      "rollen": ["Beste Gesamtwahl", "Bestes Preis-Leistungs-Verhältnis", "Premium-Wahl (Breakaway/Glas-Optik)"],
+      "kriterienEntwurf": [
+        "Befestigung: Türhaken passend zu deutschen Türen (Falz, aufliegende Bänder, Türblattstärke), Schaumpolster, alternativ Wandmontage",
+        "Board-Material und -Größe (Polycarbonat, Acryl, Karton) sowie Geräusch beim Treffer",
+        "Ring: Abreißring/Federring, Netz, Ballgröße im Lieferumfang",
+        "Höhenverstellbarkeit/Montagehöhe und Ausweichraum",
+        "Herstellerangaben zu Alter und Belastung"
+      ],
+      "top5Intent": "Nach Einsatz: Korb mit elektronischem Punktezähler, Kleinkind-Korb freistehend (Hudora/Little Tikes-Art), Wand-Minikorb für Jugendzimmer, Korb für Wäschekorb-/Schrankmontage, Ersatzbälle/Mini-Ball-Set.",
+      "faqKandidaten": [
+        "Passt ein Tür-Basketballkorb an jede Tür?",
+        "Beschädigt ein Basketballkorb die Tür?",
+        "Wie laut ist ein Mini-Basketballkorb in der Wohnung?",
+        "Ab welchem Alter ist ein Tür-Basketballkorb geeignet?",
+        "Welche Ballgröße gehört zu einem Mini-Basketballkorb?",
+        "In welcher Höhe sollte ein Basketballkorb im Kinderzimmer hängen?",
+        "Kann man am Tür-Basketballkorb dunken?"
+      ],
+      "related": ["basketballkorb-fest", "ballwand-fuer-kinder", "sprossenwand-kinder"],
+      "metaTitle": "Tür-Basketballkorb: Die 3 besten Mini-Körbe 2026",
+      "metaDescription": "Basketballkorb für die Tür: die 3 besten Mini-Körbe fürs Kinderzimmer – mit Tipps zu Türhaken, Abreißring, Lautstärke, Montagehöhe und Ballgröße.",
+      "produktart": "doorhoop – kleines rechteckiges Basketball-Board mit Ring und Netz, oben mit gepolsterten Haken über ein Türblatt gehängt, Mini-Ball"
+    }
+  ],
+  "reserve": [
+    {
+      "slug": "bestes-huepftier-kinder",
+      "group": "indoor",
+      "navLabel": "Hüpftier",
+      "suchintent": "Eltern suchen ein aufblasbares Hüpftier (Rody & Co.) für Kinder ab ca. 3 Jahren zum Hüpfen und Reiten drinnen (Keyword-Hypothese: hüpftier, rody hüpfpferd, hüpftier ab 1 jahr).",
+      "abgrenzung": "Einzelnes aufblasbares Reit-/Hüpfspielzeug; Hüpfpolster ist eine Federkern-Fläche, Hüpfburg ein Garten-Gerät. Risiko laut Scout: fast nur Marke Gymnic – nur bauen, wenn drei belastbare Marken gefunden werden, sonst Top 3 nach Variante (Größe/Alter)."
+    }
+  ],
+  "offen": [
+    "Entscheidung (autonom): Alle 5 Kategorien in die bestehende Gruppe `indoor` von `kinder-spielplatz`; keine neue Gruppe `bewegung` – sie hätte die Indoor-Gruppe aufgespalten und Toben/Klettern stehen thematisch zusammen. Die Gruppe wächst damit auf 13 Kategorien; ab ca. 15 Kategorien eine Aufteilung (z. B. „Klettern & Schaukeln“ / „Toben & Balancieren“) prüfen.",
+    "Entscheidung: Spielsofa mit Höhlenfunktion kannibalisiert `spielhoehle` nicht – dort Tipis/Zelte; im Spielsofa-Artikel die Höhle nur als Bauidee, keine Zelt-Empfehlungen. `sitzsaecke` (gaming-room) ist ein anderer Intent (Gaming-Sitzmöbel), keine Verlinkung nötig.",
+    "Entscheidung: Turnmatten bleiben in `fallschutzmatten`; Hüpfpolster grenzt sich über die Federung ab und verlinkt dorthin. Indoor-Trampolin mit Haltegriff wird nur Top-5-Alternative im Hüpfpolster-Artikel (zweite Scout-Reserve `bestes-indoor-trampolin-kinder` nicht in die Struktur übernommen).",
+    "Entscheidung: Balanciersteine als gemischte Kategorie (Top 3 je Produktart mit Rollen-Label), weil Gonge stark dominiert. Falls der Rechercheur keine zweite belastbare Marke für die Top 5 findet, bleibt die günstige Alternative als Vergleich mit transparentem Hinweis.",
+    "Entscheidung: Tür-Basketballkorb in `kinder-spielplatz/indoor` statt `private-sportanlagen`, weil Zielgruppe Kinderzimmer/Wohnung ist; `basketballkorb-fest` erhält idealerweise einen Rück-Link (related) auf `bester-tuer-basketballkorb` – Redakteur/Orchestrator entscheidet.",
+    "Rück-Links aus bestehenden Seiten vorschlagen (nicht selbst geändert): fallschutzmatten → bestes-huepfpolster-kinder; pikler-dreieck → bestes-balance-board-kinder; spielhoehle → bestes-spielsofa-kinder; basketballkorb-fest → bester-tuer-basketballkorb. Jeweils max. 4 related beachten (ggf. einen bestehenden Link ersetzen).",
+    "FAQ-Kandidaten sind aus typischen Suchfragen/Händler-Q&A abgeleitet (Websuche in diesem Lauf nicht genutzt); der Redakteur sollte sie gegen Google „Ähnliche Fragen“ prüfen.",
+    "Vorschlag Gruppen-Intro `indoor` (src/site.mjs, nicht geändert) – intro: „Bewegung im Kinderzimmer, auch wenn es draußen regnet: Pikler-Dreieck, Indoor-Rutsche, Kletterwand, Sprossenwand, Deckenschaukel, Schaukeltuch, Spielhöhle, Spielsofa, Hüpfpolster, Balance Board, Balanciersteine, Tür-Basketballkorb und Fallschutzmatten.“",
+    "Vorschlag metaTitle `indoor` (unverändert lassen, 61 Zeichen ok) – metaDescription neu (≤ 165): „Pikler-Dreieck, Kletterwand, Spielsofa, Hüpfpolster, Balance Board und Tür-Basketballkorb: die besten Spielgeräte für drinnen mit Montage- und Sicherheitstipps.“",
+    "Vorschlag article `indoor`: H2 „Klettern, Toben und Balancieren im Kinderzimmer“; quick-Absatz ergänzen um: „Für Toben ohne Montage sind Spielsofa und Hüpfpolster der einfachste Einstieg, Balance Board und Balanciersteine trainieren das Gleichgewicht, und ein Tür-Basketballkorb bringt Wurfspiele ins Zimmer.“ Zusätzlicher Absatz: „Gerade im Winter brauchen Kinder drinnen Platz zum Hüpfen, Balancieren und Werfen. Geräte ohne Wand- oder Deckenmontage lassen sich nach dem Spielen wegräumen – achte bei Schaumstoff und Polstern auf abnehmbare, waschbare Bezüge und eine rutschfeste Unterseite.“",
+    "Vorschlag Bereich `kinder-spielplatz` (optional): intro ergänzen um „Spielsofas, Hüpfpolster, Balance Boards“ nach „Deckenschaukeln“; im article-Satz „Drinnen funktionieren …“ ergänzen: „…, eine Schaukel an der Decke oder zum Toben ein Spielsofa, ein Hüpfpolster und ein Balance Board“.",
+    "Produktart-Schlüssel (playsofa, bouncemat, balanceboard, balancestones, doorhoop) sind Vorschläge – Illustrator prüft, ob passende Symbolbild-Typen existieren oder neu angelegt werden."
+  ]
+}

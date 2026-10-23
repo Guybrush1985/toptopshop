@@ -1,0 +1,480 @@
+{
+  "slug": "bestes-balance-board-kinder",
+  "stand": "2026-10-22",
+  "hinweisRecherche": "amazon.de, wobbel.eu, pinolino.de, kinderfeets.com und Händlerseiten waren per WebFetch nicht erreichbar (DNS/Proxy). Alle ASINs, Titel und Produktangaben stammen aus WebSearch-Treffern (Titel/Snippets der amazon.de-/dp/-Seiten bzw. Hersteller-/Händlerseiten). Verfügbarkeit und Varianten vor Veröffentlichung stichprobenartig im Browser prüfen.",
+  "criteria": [
+    {
+      "key": "groesse",
+      "label": "Größe & Alterseignung",
+      "weight": 0.25,
+      "description": "Länge, Breite, Krümmung und Eigengewicht passend zum Alter (Starter für Kleinkinder, Original für alle, XL für Schulkinder/Erwachsene); Altersangabe des Herstellers."
+    },
+    {
+      "key": "material",
+      "label": "Holz, Verarbeitung & Schadstoffangaben",
+      "weight": 0.3,
+      "description": "Holzart (Buche massiv bzw. Buchen-Schichtholz), FSC, wasserbasierte Lacke, formaldehydfreier Leim, EN 71/CE als Herstellerangabe, Garantie und Herkunft der Marke."
+    },
+    {
+      "key": "sicherheit",
+      "label": "Belastbarkeit & Bodenschutz",
+      "weight": 0.25,
+      "description": "Maximalbelastung laut Hersteller (auch für Eltern), rutschhemmende und kratzfreie Unterseite (Wollfilz, Pressfilz, Kork), Warnhinweise."
+    },
+    {
+      "key": "vielseitigkeit",
+      "label": "Vielseitigkeit",
+      "weight": 0.2,
+      "description": "Nutzbar als Wippe, Brücke, Rutsche, Liege oder Tunnel; Zubehör (Deck, Kissen), Mitwachsen über mehrere Jahre."
+    }
+  ],
+  "priceTiers": [
+    {
+      "tier": 1,
+      "label": "bis ca. 80 €"
+    },
+    {
+      "tier": 2,
+      "label": "ca. 80–150 €"
+    },
+    {
+      "tier": 3,
+      "label": "über ca. 150 €"
+    }
+  ],
+  "products": [
+    {
+      "rank": 1,
+      "label": "Beste Gesamtwahl",
+      "name": "Wobbel Original Balanceboard, transparent lackiert mit Filz Mausgrau",
+      "brand": "Wobbel",
+      "variant": "Original, Buche transparent lackiert, Wollfilz mausgrau",
+      "priceTier": 2,
+      "ratings": {
+        "groesse": 8.5,
+        "material": 9.0,
+        "sicherheit": 9.0,
+        "vielseitigkeit": 9.0
+      },
+      "gesamt": 8.88,
+      "bestFor": "Familien, die ein einziges Board für Kleinkind, Schulkind und Eltern wollen – das Original der Waldorf-Wippe, mit Filz leise und bodenschonend.",
+      "fakten": [
+        {
+          "text": "Laut Hersteller aus FSC-zertifiziertem europäischem Buchenholz, in Schichten gepresst und mit wasserbasierten Lacken behandelt; Original und XL laut Hersteller bis 200 kg CE-zertifiziert.",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.wobbel.eu/de/wobbel-balancebrett/",
+          "datum": "abgerufen per Suche 2026-10-22"
+        },
+        {
+          "text": "Amazon-Listing nennt 90 x 30 x 22 cm; Wobbel selbst gibt auf wobbel.eu für das Original 83,5 cm Länge an – Maße im Text als „ca. 85–90 cm“ formulieren.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B076DJNQVF",
+          "datum": "2026-10-22"
+        },
+        {
+          "text": "Wobbel-Boards werden laut Händlerangaben nach den Spielzeugnormen EN 71 (Europa) und ASTM (USA) bzw. der Spielzeugrichtlinie 2009/48/EG gefertigt.",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.lespetits.fr/en/products/original-balance-board-mouse-gray",
+          "datum": "2026-10-22"
+        },
+        {
+          "text": "Händler-Warnhinweis zum Original mit Filz: Altersempfehlung ab 3 Jahren, „nicht geeignet für Kinder unter 36 Monaten“ (Kleinteile); jüngere Kinder nur unter Aufsicht.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.holzspielzeug-profi.de/unsere-neuheiten/wobbel-original-natur-lackiert-mit-filz-baby-mouse",
+          "datum": "2026-10-22"
+        },
+        {
+          "text": "Wunschkind-Community bewertet die Funktionalität des Wobbel Original mit 92 von 100 Punkten; Gewicht 4,2 kg.",
+          "art": "Bericht",
+          "quelle": "https://wunschkind-community.de/produkte/balanceboard-wobbel-original-blank-lackiert-filz/",
+          "datum": "2026-10-22"
+        }
+      ],
+      "pros": [
+        "Sehr hohe Belastbarkeit (200 kg laut Hersteller) – auch für Eltern",
+        "Wollfilz schont Parkett und dämpft Geräusche",
+        "FSC-Buche, wasserbasierte Lacke (Herstellerangabe)",
+        "Großes Zubehörprogramm (Deck, Kissen) und viele Farben"
+      ],
+      "cons": [
+        "Teuerste Wahl unter den Top 3",
+        "Für Babys/Kleinkinder relativ schwer (ca. 4,2–4,5 kg) und groß",
+        "Altersangaben je Variante uneinheitlich (Warnhinweis ab 3 Jahren)"
+      ],
+      "specs": {
+        "Maße": "ca. 83,5–90 x 30 cm (Hersteller/Amazon uneinheitlich)",
+        "Gewicht": "ca. 4,2–4,5 kg",
+        "Material": "Buchen-Schichtholz, FSC (Herstellerangabe)",
+        "Unterseite": "Wollfilz mausgrau",
+        "Max. Belastung": "200 kg (Herstellerangabe)",
+        "Alter": "Warnhinweis ab 3 Jahren; laut Hersteller für alle Altersgruppen"
+      },
+      "asin": "B076DJNQVF",
+      "query": "Wobbel Original Balanceboard transparent lackiert mit Filz mausgrau",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "Wobbel Balance Board Translucent Lacquer Coated Mouse Grey Yogaboard (amazon.de, dt. URL-Slug „Wobbel-Balanceboard-transparent-lackiert-yogaboard“, 90 x 30 x 22 cm, Preis angezeigt)"
+    },
+    {
+      "rank": 2,
+      "label": "Bestes Preis-Leistungs-Verhältnis",
+      "name": "PINOLINO Kari Balance Board aus Massivholz, rutschfest, Belastung bis 100 kg, für Kinder ab 1 1/2 Jahren, Natur",
+      "brand": "Pinolino",
+      "variant": "Kari, Buche natur, Korkunterseite (Art.-Nr. 392303)",
+      "priceTier": 1,
+      "ratings": {
+        "groesse": 8.5,
+        "material": 8.5,
+        "sicherheit": 7.5,
+        "vielseitigkeit": 7.5
+      },
+      "gesamt": 8.05,
+      "bestFor": "Eltern, die ein solides Markenboard eines deutschen Kindermöbel-Herstellers zum deutlich niedrigeren Preis suchen – ab 1,5 Jahren freigegeben.",
+      "fakten": [
+        {
+          "text": "Laut Hersteller 82 x 30 x 18 cm, 1,5 cm stark, 3,5 kg, Buche klar lackiert, Unterseite mit Kork beschichtet (zerkratzt den Boden nicht, rutscht nicht weg), belastbar bis 100 kg, ab ca. 1,5 Jahren.",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.pinolino.de/Balance-Board-Kari/392303",
+          "datum": "2026-10-22"
+        },
+        {
+          "text": "Holz FSC Mix (FSC-C120795); bis zu 10 Jahre „Pinolino plus“-Garantie nach Registrierung (Händler nennen teils nur 24 Monate Standardgarantie).",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.pinolino.de/Balance-Board-Kari/392303",
+          "datum": "2026-10-22"
+        },
+        {
+          "text": "Unverbindliche Preisempfehlung des Herstellers 72,90 € (nur zur Preisklasse, nicht auf der Seite nennen).",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.pinolino.de/Balance-Board-Kari/392303",
+          "datum": "2026-10-22"
+        },
+        {
+          "text": "Händler Betzold führt das Board mit der Auszeichnung „spiel gut“ – nur laut Händler, beim Arbeitsausschuss Kinderspiel + Spielzeug nicht verifiziert.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.betzold.ch/prod/E_768278/",
+          "datum": "2026-10-22"
+        }
+      ],
+      "pros": [
+        "Ab 1,5 Jahren freigegeben (Herstellerangabe)",
+        "Korkunterseite rutschhemmend und bodenschonend",
+        "Bis zu 10 Jahre Garantie nach Registrierung",
+        "Deutlich günstiger als Wobbel, passt zur Kari-Kletterwelt (Pikler-Dreieck)"
+      ],
+      "cons": [
+        "Nur 100 kg belastbar – für Erwachsene nur eingeschränkt",
+        "Kein Filz/Farbvarianten, weniger Zubehör",
+        "Amazon-Titel sagt „Massivholz“, Details zur Holzverarbeitung nur aus Herstellerkurztext"
+      ],
+      "specs": {
+        "Maße": "82 x 30 x 18 cm",
+        "Gewicht": "3,5 kg",
+        "Material": "Buche, klar lackiert, FSC Mix (Herstellerangabe)",
+        "Unterseite": "Kork",
+        "Max. Belastung": "100 kg (Herstellerangabe)",
+        "Alter": "ab 1,5 Jahren (Herstellerangabe)",
+        "Garantie": "bis 10 Jahre nach Registrierung (Pinolino plus)"
+      },
+      "asin": "B09J8MLGFG",
+      "query": "PINOLINO Kari Balance Board Massivholz 392303",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "PINOLINO Kari Balance Board aus Massivholz, rutschfest, Belastung bis 100 kg, für Kinder ab 1 1/2 Jahren, Natur (amazon.de, URL-Slug „PINOLINO-Massivholz-rutschfest-Belastung-392303“)"
+    },
+    {
+      "rank": 3,
+      "label": "Beste Wahl für Kleinkinder (Starter-Größe)",
+      "name": "WOBBEL - Starter - Balancespiel aus Holz - Natur/Sky",
+      "brand": "Wobbel",
+      "variant": "Starter, Buche natur, Pressfilz Sky (hellblau)",
+      "priceTier": 2,
+      "ratings": {
+        "groesse": 8.0,
+        "material": 9.0,
+        "sicherheit": 7.5,
+        "vielseitigkeit": 7.0
+      },
+      "gesamt": 7.98,
+      "bestFor": "Babys und Kleinkinder bis etwa 2,5 Jahre, die das Board selbst tragen, drehen und darunter krabbeln sollen – kleiner und nur rund halb so schwer wie das Original.",
+      "fakten": [
+        {
+          "text": "70 x 27,5 cm, 2 kg, Buche, belastbar bis 100 kg; Filz überwiegend aus recycelten PET-Flaschen.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B07JHXFHGC",
+          "datum": "2026-10-22"
+        },
+        {
+          "text": "Wobbel beschreibt den Starter als Board für Babys und Kleinkinder bis ca. 2,5 Jahre, „ab 0 Jahren mitwachsend“, FSC-zertifiziert und CE-geprüft.",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.wobbel.eu/de/shop/wobbel-starter/",
+          "datum": "2026-10-22"
+        },
+        {
+          "text": "Händler-Altersangaben uneinheitlich (ab 0, ab 2 oder ab ca. 3 Jahren) – im Text nur „laut Hersteller ab 0 Jahren, unter Aufsicht“ nennen.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.heldenspielzeug.com/wobbel/wobbel-starter-balance-board-hs20382.2/",
+          "datum": "2026-10-22"
+        }
+      ],
+      "pros": [
+        "Leicht (2 kg) – Kleinkinder können es selbst bewegen",
+        "Kurze Länge passt in kleine Zimmer",
+        "Gleiche Holzqualität wie das Original (Herstellerangabe)"
+      ],
+      "cons": [
+        "Nur 100 kg belastbar, für größere Kinder bald zu klein",
+        "Im Verhältnis zur Größe teuer",
+        "Farbe im Listing teils als „blau“ angegeben"
+      ],
+      "specs": {
+        "Maße": "70 x 27,5 cm",
+        "Gewicht": "2 kg",
+        "Material": "Buche, FSC (Herstellerangabe)",
+        "Unterseite": "Pressfilz (recyceltes PET)",
+        "Max. Belastung": "100 kg (Händlerangabe)",
+        "Alter": "laut Hersteller ab 0 Jahren, Zielgruppe bis ca. 2,5 Jahre"
+      },
+      "asin": "B07JHXFHGC",
+      "query": "WOBBEL Starter Balancespiel aus Holz Natur/Sky",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "WOBBEL - Starter - Balancespiel aus Holz - Natur/Sky (amazon.de, Preise 93,79 € bzw. 105,75 € in Snippets angezeigt)"
+    }
+  ],
+  "top5": [
+    {
+      "name": "Wobbel XL Balance Board",
+      "warum": "Für Schulkinder ab ca. 7 Jahren, Geschwister und Erwachsene: deutlich länger und breiter als das Original, ebenfalls bis 200 kg (Herstellerangabe).",
+      "fakten": [
+        {
+          "text": "XL laut Hersteller bis 200 kg CE-zertifiziert; die aktiven Amazon-Listings (B08KRJCMKN, B08P4XCR9C) nennen 115 x 40 cm (Händlerangabe).",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.wobbel.eu/de/wobbel-balancebrett/",
+          "datum": "2026-10-22"
+        },
+        {
+          "text": "Händler empfehlen das XL ab ca. 7 Jahren und für Erwachsene.",
+          "art": "Händlerangabe",
+          "quelle": "https://oskarswoodenark.com.au/blogs/story/which-wobbel-board-should-i-choose-guide-faq-australia",
+          "datum": "2026-10-22"
+        }
+      ],
+      "asin": null,
+      "query": "Wobbel XL Balance Board",
+      "where": null,
+      "asinHinweis": "B076FBZLX9 und B07F9XJXWR laut amazon.de „derzeit nicht verfügbar“; aktive Listings B08KRJCMKN/B08P4XCR9C nur Drittanbieter mit 1–4 Stück → keine ASIN, nur query (Prüfbericht 2026-10-22)."
+    },
+    {
+      "name": "Wobbel Original Balanceboard transparent lackiert ohne Filz",
+      "warum": "Ohne Filz: zum Bemalen/Bekleben, für Terrasse oder Teppich und günstiger als die Filzvariante.",
+      "fakten": [
+        {
+          "text": "Gleiche Größe und Belastbarkeit wie das Original mit Filz, Unterseite unbeschichtet.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B076FB59LJ",
+          "datum": "2026-10-22"
+        }
+      ],
+      "asin": "B076FB59LJ",
+      "query": "Wobbel Original Balanceboard transparent lackiert ohne Filz",
+      "where": null
+    },
+    {
+      "name": "Wobbel Wobble Board Yogaboard Pro transparent lackiert mit Maus-Filz (grau) 90 cm",
+      "warum": "Pressfilz aus recyceltem PET statt Wollfilz, gleiche Größe und Belastbarkeit wie das Original (Händlerangabe).",
+      "fakten": [
+        {
+          "text": "„Zwillingsprodukt“ des Original, aber mit recyceltem Pressfilz statt Wollfilz.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B07K8T8853",
+          "datum": "2026-10-22"
+        }
+      ],
+      "asin": "B07K8T8853",
+      "query": "Wobbel Pro transparent lackiert Maus-Filz grau 90 cm",
+      "where": null
+    },
+    {
+      "name": "Kinderfeets Holzbalancierbrett/Balance Board Kinder - Sage Wash",
+      "warum": "Farbige Alternative einer bekannten Marke (Kinderboard) mit sehr hoher Belastbarkeit.",
+      "fakten": [
+        {
+          "text": "Listing: 81 x 30 x 18 cm, 4,56 kg, Holz, Höchstlast 485 lb (ca. 220 kg).",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B084B1VDLJ",
+          "datum": "2026-10-22"
+        },
+        {
+          "text": "Laut Händlerangaben (kidobebe) europäisches Buchen-Schichtholz, wasserbasierter Lack, formaldehydfreier Leim, geprüft nach CE/EN 71/ASTM; gefertigt in China.",
+          "art": "Händlerangabe",
+          "quelle": "https://kidobebe.com/products/kinderfeets-kinderboard-natural",
+          "datum": "2026-10-22"
+        }
+      ],
+      "asin": "B084B1VDLJ",
+      "query": "Kinderfeets Kinderboard Balance Board Sage Wash",
+      "where": null
+    },
+    {
+      "name": "PINOLINO Kari Kletterbogen & Wippe, 2-in-1 Spielgerät für Kinder ab 2 Jahren, 104 x 60 x 46 cm, Belastbarkeit 50 kg",
+      "warum": "Set-Alternative: Kletterbogen, der umgedreht als Wippe dient – für Familien, die Balancieren und Klettern in einem Gerät wollen (Überschneidung mit pikler-dreieck, dorthin verlinken).",
+      "fakten": [
+        {
+          "text": "Ca. 104 x 60 x 46 cm, max. 50 kg, 18 mm Birkensperrholz und 30 mm Buchensprossen, Sicherheitsring gegen Überschlagen; Altersangaben ab 2 bzw. 3 Jahren.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.babyartikel.de/prod/pinolino-kletterbogen-und-wippe-kari-bis-50-kg-belastbar-natur",
+          "datum": "2026-10-22"
+        }
+      ],
+      "asin": "B09V1RPHVP",
+      "query": "PINOLINO Kari Kletterbogen Wippe 2-in-1",
+      "where": null
+    }
+  ],
+  "tests": [
+    {
+      "institut": "Stiftung Warentest / Öko-Test",
+      "heft": "–",
+      "ergebnis": "Kein Test von Balance Boards für Kinder gefunden (Stand 2026-10-22). Familienportale bestätigen, dass große Verbraucherorganisationen die Produktgruppe nicht getestet haben.",
+      "quelle": "https://www.familie.de/testberichte/balance-board-fuer-kinder-das-sind-unsere-5-favoriten--01J9K7KAJE6HHCX24MP3JAH2A9"
+    },
+    {
+      "institut": "Öko-Test (Kugelbahnen aus Holz, laut Bericht)",
+      "heft": "laut utopia.de, Ausgabe nicht verifiziert",
+      "ergebnis": "Bedenkliche Stoffe in Holzlacken von Kugelbahnen – kein Balance-Board-Test, nur als Hinweis, bei Lack auf Herstellerangaben (wasserbasiert, EN 71-3) zu achten.",
+      "quelle": "https://utopia.de/ratgeber/oeko-test-warnt-vor-kugelbahnen-holz-enthaelt-schadstoffe_70905/"
+    },
+    {
+      "institut": "Wunschkind-Community (Elternportal, kein Labortest)",
+      "heft": "Online",
+      "ergebnis": "Wobbel Original: Funktionalität 92/100.",
+      "quelle": "https://wunschkind-community.de/produkte/balanceboard-wobbel-original-blank-lackiert-filz/"
+    }
+  ],
+  "warnungen": [
+    "Keine Rückrufe oder Safety-Gate-Meldungen zu Wobbel-, Pinolino- oder Kinderfeets-Balance-Boards gefunden (Websuche 2026-10-22; Safety-Gate-Datenbank selbst nicht abrufbar).",
+    "Kinderfeets: Rückrufe anderer Produkte – Hanging-Gym-Produkte (Schaukeln, Leiter, Trapez; Seil kann reißen, Charge 12623) 2024 bei Health Canada/CPSC und Pram 2-in-1 Walker 2020 (Erstickungsgefahr). Kinderboard nicht betroffen. Quellen: https://recalls-rappels.canada.ca/en/alert-recall/kinderfeets-hanging-gym-products-recalled-due-fall-hazard, https://recalls-rappels.canada.ca/en/alert-recall/kinderfeets-pram-2-1-walker-recalled-due-choking-hazard",
+    "Wobbel weist darauf hin, dass nur Stehen, Sitzen und Wippen geprüft und zertifiziert sind; andere Nutzungen (z. B. Brücke zwischen Möbeln) auf eigene Verantwortung (laut Bedienungsanleitung, zitiert über Händler). Im Ratgeber Spielideen entsprechend vorsichtig formulieren. Keine Quell-URL vorhanden → im Text nicht als Wobbel-Aussage zitiert, nur allgemeiner Aufsichtshinweis.",
+    "Altersangaben: Original-Varianten tragen bei Händlern den Warnhinweis „nicht für Kinder unter 36 Monaten“ (Kleinteile), Starter laut Hersteller ab 0 Jahren. Immer Aufsicht empfehlen, auf glattem Boden mit Filz/Kork nutzen, Abstand zu Möbelkanten.",
+    "Belastbarkeit beachten: Starter und Pinolino Kari 100 kg, Kari-Kletterbogen 50 kg – nicht für Erwachsene als Fitnessgerät."
+  ],
+  "verworfen": [
+    {
+      "name": "Kids Woody Star Balance Board 80 x 30 cm (B0CG9WC3XC)",
+      "grund": "Amazon-Händlermarke ohne belastbare Angaben zu Holz, Lack, Belastung und Normen im Listing; austauschbare Ware."
+    },
+    {
+      "name": "WOLKENGLÜCK, Leogreen, LGMCF, MEOWBABY, TikTakToo, CCLIFE, valuents u. a. (80 x 30 cm)",
+      "grund": "No-Name-/Händlermarken; teils niedrige Belastbarkeit (80–100 kg), Pappel-Kern (valuents), Bewertung über abgebrochenen Handlauf (LGMCF)."
+    },
+    {
+      "name": "RELAX4LIFE / GOPLUS / DREAMADE (90 x 30 cm, 220 kg)",
+      "grund": "Costway-Händlermarken (Birke), keine Schadstoff-/Normangaben; allenfalls als Billigvergleich – nicht empfohlen."
+    },
+    {
+      "name": "Kinderfeets Kinderboard gelb (B0937DBNQ4)",
+      "grund": "Listing „derzeit nicht verfügbar“, widersprüchliche Materialangabe (Bambus vs. Buche)."
+    },
+    {
+      "name": "small foot Balancierbrett „Heavenly Paw“ / „Adventure“",
+      "grund": "Anderes Gerät (flaches Wackelbrett mit Kugeln, max. 30 kg), keine Waldorf-Wippe."
+    },
+    {
+      "name": "Fitness-Balance-Boards (Rolle/Halbkugel) und Schildkröt Balancierbrett mit Kugellabyrinth",
+      "grund": "Laut Struktur nicht Thema (Erwachsenen-Fitness/anderes Spielprinzip)."
+    }
+  ],
+  "offen": [
+    "Awin: Kein Produkt nötig – alle Top 3 und Top 5 über Amazon (Wobbel XL ohne ASIN, nur query zur Amazon-Suche, da kein eindeutig aktives Listing). Freigeschaltet sind nur Rewe, RADWELT-Shop, brickzonehub (kein passendes Sortiment). Kein neuer Awin-Händler vorgeschlagen.",
+    "Kinderfeets Sage Wash (B084B1VDLJ): Belastbarkeit im Listing nur als 485 lb; 220 kg ist Umrechnung bzw. Händlerangabe anderer Kinderfeets-Listings.",
+    "Keine unabhängigen Tests (Stiftung Warentest/Öko-Test) für Balance Boards vorhanden – Bewertungen sind redaktionelle Einschätzungen auf Basis von Herstellerangaben.",
+    "Wobbel XL: ohne ASIN, nur query „Wobbel XL Balance Board“ (kein aktives Listing mit stabiler Verfügbarkeit, Prüfbericht 2026-10-22).",
+    "Wobbel Starter: B07JHXFHGC aktiv; Alternative B07HM6KTC5 laut amazon.de „derzeit nicht verfügbar“ – gestrichen.",
+    "Wobbel-Original-Maße im Text als „ca. 83,5–90 cm“ (Wobbel 83,5 cm, Amazon 90 cm).",
+    "Pinolino Kari „spiel gut“ nur laut Händler Betzold – im Text weggelassen. Garantie: 10 Jahre nur nach Registrierung (Pinolino plus).",
+    "Ohne Quell-URL und daher im Text gestrichen bzw. abgeschwächt: Pressfilz „strapazierfähiger/leichter zu reinigen“, Wobbel-Bedienungsanleitung (nur Stehen/Sitzen/Wippen zertifiziert), Altersangaben „ab 3 Jahren“ (Original ohne Filz) und „ab 18 Monaten“ (Kinderfeets)."
+  ],
+  "quellen": [
+    {
+      "titel": "amazon.de – Wobbel Original transparent lackiert, Filz Mausgrau",
+      "url": "https://www.amazon.de/dp/B076DJNQVF"
+    },
+    {
+      "titel": "amazon.de – PINOLINO Kari Balance Board",
+      "url": "https://www.amazon.de/dp/B09J8MLGFG"
+    },
+    {
+      "titel": "amazon.de – WOBBEL Starter Natur/Sky",
+      "url": "https://www.amazon.de/dp/B07JHXFHGC"
+    },
+    {
+      "titel": "amazon.de – Wobbel XL",
+      "url": "https://www.amazon.de/dp/B076FBZLX9"
+    },
+    {
+      "titel": "amazon.de – Wobbel Original ohne Filz",
+      "url": "https://www.amazon.de/dp/B076FB59LJ"
+    },
+    {
+      "titel": "amazon.de – Wobbel Pro Maus-Filz",
+      "url": "https://www.amazon.de/dp/B07K8T8853"
+    },
+    {
+      "titel": "amazon.de – Kinderfeets Sage Wash",
+      "url": "https://www.amazon.de/dp/B084B1VDLJ"
+    },
+    {
+      "titel": "amazon.de – PINOLINO Kari Kletterbogen & Wippe",
+      "url": "https://www.amazon.de/dp/B09V1RPHVP"
+    },
+    {
+      "titel": "Wobbel – Balance Board für Kinder",
+      "url": "https://www.wobbel.eu/de/wobbel-balancebrett/"
+    },
+    {
+      "titel": "Wobbel – Starter",
+      "url": "https://www.wobbel.eu/de/shop/wobbel-starter/"
+    },
+    {
+      "titel": "Pinolino – Balance Board Kari",
+      "url": "https://www.pinolino.de/Balance-Board-Kari/392303"
+    },
+    {
+      "titel": "Betzold – Pinolino Balance Board Kari",
+      "url": "https://www.betzold.ch/prod/E_768278/"
+    },
+    {
+      "titel": "babyartikel.de – Pinolino Kletterbogen und Wippe Kari",
+      "url": "https://www.babyartikel.de/prod/pinolino-kletterbogen-und-wippe-kari-bis-50-kg-belastbar-natur"
+    },
+    {
+      "titel": "Wunschkind-Community – Wobbel Original",
+      "url": "https://wunschkind-community.de/produkte/balanceboard-wobbel-original-blank-lackiert-filz/"
+    },
+    {
+      "titel": "Holzspielzeug Profi – Wobbel Original mit Filz Baby Mouse",
+      "url": "https://www.holzspielzeug-profi.de/unsere-neuheiten/wobbel-original-natur-lackiert-mit-filz-baby-mouse"
+    },
+    {
+      "titel": "Oskar's Wooden Ark – Which Wobbel Board should I choose?",
+      "url": "https://oskarswoodenark.com.au/blogs/story/which-wobbel-board-should-i-choose-guide-faq-australia"
+    },
+    {
+      "titel": "kidobebe – Kinderfeets Kinderboard",
+      "url": "https://kidobebe.com/products/kinderfeets-kinderboard-natural"
+    },
+    {
+      "titel": "Health Canada – Kinderfeets Hanging Gym Recall",
+      "url": "https://recalls-rappels.canada.ca/en/alert-recall/kinderfeets-hanging-gym-products-recalled-due-fall-hazard"
+    },
+    {
+      "titel": "familie.de – Balance Board für Kinder",
+      "url": "https://www.familie.de/testberichte/balance-board-fuer-kinder-das-sind-unsere-5-favoriten--01J9K7KAJE6HHCX24MP3JAH2A9"
+    },
+    {
+      "titel": "utopia.de – Öko-Test Kugelbahnen Holz",
+      "url": "https://utopia.de/ratgeber/oeko-test-warnt-vor-kugelbahnen-holz-enthaelt-schadstoffe_70905/"
+    }
+  ]
+}

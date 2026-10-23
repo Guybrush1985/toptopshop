@@ -1,0 +1,549 @@
+{
+  "slug": "bestes-spielsofa-kinder",
+  "stand": "2026-10-22",
+  "criteria": [
+    {
+      "key": "module",
+      "label": "Module & Vielseitigkeit",
+      "weight": 0.3,
+      "description": "Anzahl und Formen der Elemente (Klappmatratzen, Dreiecke, Rollen, Lehnen), Umbau zu Sofa, Höhle, Rutsche, Parcours und Liegefläche; Maße als Sofa und ausgeklappt, Platzbedarf, Erweiterbarkeit (Herstellerangaben)."
+    },
+    {
+      "key": "schaum",
+      "label": "Schaumstoff & Formstabilität",
+      "weight": 0.25,
+      "description": "PUR-Schaum in Matratzenqualität, Raumgewicht/Härte soweit angegeben, Formstabilität nach längerer Nutzung laut Erfahrungsberichten, Belastbarkeit (kg) und Gewicht der Teile."
+    },
+    {
+      "key": "bezug",
+      "label": "Bezug, Pflege & Schadstoffprüfung",
+      "weight": 0.25,
+      "description": "Abnehmbarer, bei 30 °C waschbarer Bezug, wasserdichter Unterbezug, Stoffart (Cord, Velours, Chenille), Ersatzbezüge; OEKO-TEX Standard 100, CertiPUR oder TÜV/GS als Herstellerangabe."
+    },
+    {
+      "key": "sicherheit",
+      "label": "Sicherheit & Herstellerservice",
+      "weight": 0.2,
+      "description": "Verdeckte Reißverschlüsse, keine Hartteile, Griffe, Altersangabe, unabhängige Prüfzeichen (GS), Garantie und erreichbarer Kundendienst/Ersatzteile."
+    }
+  ],
+  "priceTiers": [
+    {
+      "tier": 1,
+      "label": "bis ca. 250 €",
+      "beispiele": "Einstiegs-Spielsofas (tectake, Linodino Chenille), lose Softbausteine"
+    },
+    {
+      "tier": 2,
+      "label": "ca. 250–400 €",
+      "beispiele": "Linodino Cord, Funzy Mini, Bunky"
+    },
+    {
+      "tier": 3,
+      "label": "ab ca. 400 €",
+      "beispiele": "Funzy Original, Shappy Original, große Sets mit Zubehör"
+    }
+  ],
+  "products": [
+    {
+      "rank": 1,
+      "label": "Beste Gesamtwahl",
+      "name": "Funzy Spielsofa für Kinder – Das Original, Modulare Spielcouch, TÜV und Oeko-TEX 100 Zertifiziert, 3 Jahre Garantie",
+      "brand": "Funzy (Growing Imaginations GmbH)",
+      "variant": "Original, 168 × 84 cm, Farbe Arktis Blau (weitere Farben in Cord, Velours, Teddy als eigene ASINs)",
+      "priceTier": 3,
+      "ratings": {
+        "module": 8.0,
+        "schaum": 9.0,
+        "bezug": 9.0,
+        "sicherheit": 9.0
+      },
+      "gesamt": 8.7,
+      "bestFor": "Familien, die ein langlebiges Spielsofa mit unabhängig geprüfter Sicherheit (GS) wollen – Sofa, Höhle, Rutsche und Gästebett für Kinder etwa 1–10 Jahre.",
+      "fakten": [
+        {
+          "text": "Set aus 4 Teilen: Basis-Klappmatratze (14 cm), Topper-Klappmatratze (7 cm) und 2 Dreieckskissen; Gesamtmaß 168 × 84 × 54 cm.",
+          "art": "Herstellerangabe",
+          "quelle": "https://myfunzy.de/en/products/funzy-spielsofa",
+          "datum": "2026-10-22"
+        },
+        {
+          "text": "PUR-Schaumstoff in Matratzenqualität; alle Komponenten (Schaum, Reißverschlüsse, Bezüge) OEKO-TEX Standard 100; Produktion TÜV-/GS-zertifiziert.",
+          "art": "Herstellerangabe",
+          "quelle": "https://myfunzy.de/en/pages/faq",
+          "datum": "2026-10-22"
+        },
+        {
+          "text": "Belastbar bis 120 kg, Gewicht ca. 14,7 kg; Bezug abnehmbar und bei 30 °C waschbar (Stoffart der Variante Arktis Blau im Suchindex uneinheitlich: Cord bzw. Velours).",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B0D81GWB6K",
+          "datum": "2026-10-22"
+        },
+        {
+          "text": "3 Jahre freiwillige Herstellergarantie.",
+          "art": "Herstellerangabe",
+          "quelle": "https://myfunzy.de/en/pages/faq",
+          "datum": "2026-10-22"
+        },
+        {
+          "text": "Raumgewicht 25 bei hoher Stauchhärte (vom Hersteller selbst nicht beziffert).",
+          "art": "Bericht",
+          "quelle": "https://papa-kompass.de/produkttests-vergleiche/spielzeug/funzy-spielsofa/",
+          "datum": "2026-10-22"
+        },
+        {
+          "text": "Praxistest: Bezug nach Wochen intensiver Nutzung kaum abgenutzt; ab ca. 4 Jahren tragen Kinder die leichteren Teile selbst; als Gästebett positiv.",
+          "art": "Bericht",
+          "quelle": "https://www.kribbelbunt.de/artikel/news/funzy-spielsofa-und-sitzsack-im-test-wenn-moebel-ploetzlich-zum-abenteuer-werden/",
+          "datum": "2026-10-22"
+        },
+        {
+          "text": "Familientest: hoher Neupreis, teils durch Langlebigkeit ausgeglichen; besonders lohnend für mehrere Kinder oder wenig Wohnraum.",
+          "art": "Bericht",
+          "quelle": "https://www.familie.de/testberichte/funzy-spielsofa-im-familientest-lohnt-sich-das-teure-teil-wirklich-ihr-werdet-ueberrascht-sein--01K62Z4VYBGB9RZS1BCSYFP848",
+          "datum": "2026-10-22"
+        }
+      ],
+      "pros": [
+        "TÜV/GS und OEKO-TEX Standard 100 für alle Komponenten (Herstellerangabe)",
+        "Fester Schaum mit hoher Stauchhärte (laut Bericht papa-kompass)",
+        "Bezüge abnehmbar, 30 °C waschbar, viele Stoffe und Farben",
+        "3 Jahre Garantie, Erweiterung mit Hüpfpolster derselben Marke"
+      ],
+      "cons": [
+        "Teuerste Wahl – nur 4 Teile",
+        "Einzelne Berichte über abgerissenen Tragegriff bei Lieferung (Amazon-Rezension)",
+        "Raumgewicht offiziell nicht angegeben"
+      ],
+      "specs": {
+        "Teile": "4 (2 Klappmatratzen, 2 Dreiecke)",
+        "Maße": "168 × 84 × 54 cm (Herstellerangabe)",
+        "Gewicht": "ca. 14,7 kg (Händlerangabe)",
+        "Belastbarkeit": "120 kg",
+        "Bezug": "Cord, Velours oder Teddy, abnehmbar, 30 °C",
+        "Prüfzeichen": "TÜV/GS, OEKO-TEX Standard 100 (Herstellerangabe)",
+        "Garantie": "3 Jahre"
+      },
+      "asin": "B0D81GWB6K",
+      "query": "Funzy Spielsofa für Kinder Das Original",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "Funzy Spielsofa für Kinder - Das Original für kreatives Spielen, Modulare Spielcouch, Waschbarer Bezug, Robust und Langlebig, TÜV und Oeko-TEX 100 Zertifiziert mit 3 Jahren Garantie, Arktis Blau : Amazon.de: Küche, Haushalt & Wohnen (Titel aus amazon.de-Suchindex; Seite selbst nicht abrufbar)"
+    },
+    {
+      "rank": 2,
+      "label": "Bestes Preis-Leistungs-Verhältnis",
+      "name": "Linodino® Spielsofa, Kindersofa aus Schaumstoff-Bausteinen, Kuschelecke im Kinderzimmer (ohne Hartteile), 10 Farben",
+      "brand": "Linodino",
+      "variant": "Chenille-Grundmodell, 150 × 66 × 52,5 cm, Farbe Honigwaben-Gelb (Honeycomb Yellow)",
+      "priceTier": 1,
+      "ratings": {
+        "module": 8.0,
+        "schaum": 7.5,
+        "bezug": 8.5,
+        "sicherheit": 7.5
+      },
+      "gesamt": 7.9,
+      "bestFor": "Familien, die ein solides Spielsofa mit wasserdichtem Unterbezug für deutlich weniger Geld als Funzy suchen – ab ca. 1 Jahr.",
+      "fakten": [
+        {
+          "text": "Grundset: 2 Klappmatratzen mit wasserdichtem Unterbezug und Chenille-Bezug sowie 2 Dreieckskissen; keine Hartteile; Schaumstoff OEKO-TEX Standard 100 in Matratzenqualität.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B0C4VYTL89",
+          "datum": "2026-10-22"
+        },
+        {
+          "text": "Maße 150 × 66 × 52,5 cm, Belastbarkeit 100 kg, empfohlen ab 1 Jahr; Chenille-Bezug bei 30 °C waschbar.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/Linodino%C2%AE-Spielsofa-Kindersofa-Schaumstoff-Bausteine/dp/B0C4VV4SFK",
+          "datum": "2026-10-22"
+        },
+        {
+          "text": "3 Jahre Garantie auf Formbeständigkeit der Hauptmaterialien (nur Erstkäufer, Kauf bei linodino.de, Amazon oder eBay); 30 Tage Rückgabe.",
+          "art": "Herstellerangabe",
+          "quelle": "https://linodino.de/pages/faq",
+          "datum": "2026-10-22"
+        },
+        {
+          "text": "Schaumkern laut Bericht CertiPUR-zertifiziert; zusammengeklappt weniger als 1 m² Stellfläche.",
+          "art": "Bericht",
+          "quelle": "https://verbraucherschutz.tv/linodino-spielsofa-erfahrung-test/",
+          "datum": "2026-10-22"
+        },
+        {
+          "text": "Reißverschlüsse liegen verdeckt in kleinen Taschen; Module dank Stoffgriffen von Kindern tragbar.",
+          "art": "Bericht",
+          "quelle": "https://dadslife.de/produkte/spielsofa-linodino-fantasiewelt/",
+          "datum": "2026-10-22"
+        },
+        {
+          "text": "Gewicht ca. 8,9 kg (Produktdaten im Listing).",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B0C4VYTL89",
+          "datum": "2026-10-22"
+        }
+      ],
+      "pros": [
+        "Rund halb so teuer wie Funzy bei gleichem 4-Teile-Prinzip",
+        "Wasserdichter Unterbezug serienmäßig – praktisch bei Saft und Windelpannen",
+        "Verdeckte Reißverschlüsse, keine Hartteile",
+        "Erweiterbar (Cord-Varianten, Fantasiewelt-Set, Wechselbezüge)"
+      ],
+      "cons": [
+        "Kein GS-Zeichen, Prüfangaben nur als Herstellerangaben",
+        "Etwas kleiner als Funzy (150 statt 168 cm), Belastbarkeit 100 kg",
+        "Ursprungsland in Listings widersprüchlich angegeben"
+      ],
+      "specs": {
+        "Teile": "4 (2 Klappmatratzen, 2 Dreiecke)",
+        "Maße": "150 × 66 × 52,5 cm",
+        "Gewicht": "ca. 8,9 kg (Händlerangabe)",
+        "Belastbarkeit": "100 kg",
+        "Bezug": "Chenille, 30 °C waschbar, wasserdichter Unterbezug",
+        "Prüfzeichen": "OEKO-TEX Standard 100 (Herstellerangabe), CertiPUR (laut Bericht)",
+        "Garantie": "3 Jahre"
+      },
+      "asin": "B0C4VYTL89",
+      "query": "Linodino Spielsofa Kindersofa Schaumstoff Bausteine",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "Linodino® Play Sofa, Children's Sofa Made of Foam Building Blocks, Children’s Play Sofa, Cuddly Corner in Child's Room (No Hard Parts), 10 Colours to Choose From, Honeycomb Yellow : Amazon.de (englische Ansicht im Suchindex; Seite selbst nicht abrufbar)"
+    },
+    {
+      "rank": 3,
+      "label": "Beste Wahl für kleine Zimmer",
+      "name": "Funzy Mini Spielsofa für Kinder – Modulare Spielcouch, Waschbarer Bezug, Oeko-TEX 100 Zertifiziert, 3 Jahre Garantie",
+      "brand": "Funzy (Growing Imaginations GmbH)",
+      "variant": "Mini, 130 × 65 × 46 cm, Velours Erdnuss Beige (Peanut Beige)",
+      "priceTier": 2,
+      "ratings": {
+        "module": 7.0,
+        "schaum": 9.0,
+        "bezug": 9.0,
+        "sicherheit": 8.5
+      },
+      "gesamt": 8.3,
+      "bestFor": "Kleinere Kinderzimmer und Kinder von ca. 1–6 Jahren – gleiche Funzy-Qualität, rund 35 % kleiner als das Original.",
+      "fakten": [
+        {
+          "text": "Rund 35 % kleiner als das Original: 130 × 65 × 46 cm, empfohlen für 1–6 Jahre.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B0D94NSPT2",
+          "datum": "2026-10-22"
+        },
+        {
+          "text": "Zwei Klappmatratzen je 130 × 65 × 10,5 cm und zwei Dreieckskissen je 54 × 37 × 33 cm; Gewicht ca. 10 kg.",
+          "art": "Herstellerangabe",
+          "quelle": "https://myfunzy.de/en/products/mini-funzy-spielsofa",
+          "datum": "2026-10-22"
+        },
+        {
+          "text": "OEKO-TEX Standard 100, waschbarer Bezug, 3 Jahre Garantie.",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B0D94NSPT2",
+          "datum": "2026-10-22"
+        },
+        {
+          "text": "Belastbar bis 120 kg; Gewicht in den Produktdaten 12,8 kg (Marketingtext: 10 kg).",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B0D94NSPT2",
+          "datum": "2026-10-22"
+        }
+      ],
+      "pros": [
+        "Rund 35 % kleiner als das Original (Händlerangabe) – passt in kleinere Zimmer",
+        "OEKO-TEX Standard 100 und waschbarer Bezug (Herstellerangabe)",
+        "Belastbar bis 120 kg (Händlerangabe), 3 Jahre Garantie"
+      ],
+      "cons": [
+        "Kaum günstiger als das Original (Preisklasse 2 vs. 3)",
+        "Als Gästebett nur für kleinere Kinder",
+        "GS/TÜV im Amazon-Titel nur beim Original genannt – für Mini nicht belegt"
+      ],
+      "specs": {
+        "Teile": "4 (2 Klappmatratzen, 2 Dreiecke)",
+        "Maße": "130 × 65 × 46 cm",
+        "Gewicht": "ca. 10–12,8 kg (Angaben schwanken)",
+        "Alter": "1–6 Jahre (Händlerangabe)",
+        "Bezug": "Velours, Cord oder Teddy, waschbar",
+        "Prüfzeichen": "OEKO-TEX Standard 100 (Herstellerangabe)",
+        "Garantie": "3 Jahre",
+        "Belastbarkeit": "120 kg (Händlerangabe)"
+      },
+      "asin": "B0D94NSPT2",
+      "query": "Funzy Mini Spielsofa für Kinder",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "Funzy Mini Play Sofa for Children - Mini for Creative Play, Modular Play Couch, Washable Cover, Robust and Durable, Oeko-Tex® 100 Standard Certified, Velour Peanut Beige : Amazon.de (Suchindex; Cord-Varianten: B0D94MXT2R Koala Grau, B0D94LKGTT Lagune Blau)"
+    }
+  ],
+  "top5": [
+    {
+      "name": "Linodino® Spielsofa Cord Fantasiewelt, Kindersofa Bausteine, Oeko-Tex 100 Zertifiziert, Elefantengrau",
+      "warum": "Großes Set für Geschwister und als Gästebett: 8 Teile (2 Klappmatratzen, 2 Dreiecke, 2 halbrunde Lehnen, 2 Rundkissen) für Höhlen und Parcours.",
+      "fakten": [
+        {
+          "text": "8 Elemente inkl. runder und halbrunder Kissen und Lehnen; abnehmbare Cordbezüge mit wasserdichtem Unterbezug.",
+          "art": "Bericht",
+          "quelle": "https://wunschkind-community.de/produkte/linodino-spielsofa-fantasiewelt/",
+          "datum": "2026-10-22"
+        },
+        {
+          "text": "Schaumstoff und Bezug OEKO-TEX Standard 100.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B0D5FKY4Z6",
+          "datum": "2026-10-22"
+        }
+      ],
+      "asin": "B0D5FKY4Z6",
+      "query": "Linodino Spielsofa Cord Fantasiewelt",
+      "where": null
+    },
+    {
+      "name": "Linodino Spielsofa Cord, Kindersofa aus Schaumstoff-Bausteinen mit Schlaffunktion, Oeko-Tex 100 Zertifiziert, Avocado Grün",
+      "warum": "Cord-Bezug fürs Wohnzimmer: wohnlichere Optik als Chenille, Bezüge maschinenwaschbar, Wechselbezüge erhältlich.",
+      "fakten": [
+        {
+          "text": "Cordbezüge abnehmbar und maschinenwaschbar; OEKO-TEX Standard 100.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B0D618Z4X8",
+          "datum": "2026-10-22"
+        },
+        {
+          "text": "Wechselbezüge für das Cord-Spielsofa einzeln erhältlich.",
+          "art": "Herstellerangabe",
+          "quelle": "https://linodino.de/products/linodino-wechselbezuege-spielsofa-cord",
+          "datum": "2026-10-22"
+        }
+      ],
+      "asin": "B0D618Z4X8",
+      "query": "Linodino Spielsofa Cord",
+      "where": null
+    },
+    {
+      "name": "tectake Spielsofa, Kindersofa klappbar, Modulares Sofa mit Spiel- und Schlaffunktion, Schaumstoff-Stapelsteine – 120 cm, Beige",
+      "warum": "Günstiges Einstiegsset (Preisklasse 1) mit 8 Schaumstoffteilen und abnehmbaren, waschbaren Bezügen – ohne genannte Prüfzeichen, daher nicht in den Top 3.",
+      "fakten": [
+        {
+          "text": "8 Schaumstoffbausteine, Bodenkissen ca. 120 × 60 × 10 cm; Bezüge mit Reißverschluss abnehmbar und waschbar; auch als 160-cm-Version (B0DJSKGPBB).",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B0DJSLVG55",
+          "datum": "2026-10-22"
+        }
+      ],
+      "asin": "B0DJSLVG55",
+      "query": "tectake Spielsofa 120 cm",
+      "where": null
+    },
+    {
+      "name": "Bunky! Spielsofa – Made in Germany – Modulares Kinderspielsofa aus Schaumstoff-Stapelsteinen mit Schlaffunktion",
+      "warum": "Alternative mit in Deutschland gefertigtem Schaum – mit Vorbehalt: gemischte Bewertungen zum Kundenservice.",
+      "fakten": [
+        {
+          "text": "Set u. a. aus Basis- und Stützmatratze, 2 Armlehnen und 2 Dreieckskissen; 168 × 84 × 59 cm, belastbar bis 150 kg, 1 Jahr Herstellergarantie (Teilezahl nicht eindeutig, daher nicht genannt).",
+          "art": "Händlerangabe (Suchindex)",
+          "quelle": "https://www.amazon.de/dp/B0F6VXV289",
+          "datum": "2026-10-22"
+        },
+        {
+          "text": "Schaum, Stoffe und Reißverschlüsse OEKO-TEX 100; Schaumkerne in Deutschland produziert.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B0F6VXV289",
+          "datum": "2026-10-22"
+        },
+        {
+          "text": "Trustpilot ca. 3,1–3,5 von 5 bei 17–18 Bewertungen; Kritik an Lieferverzug, Erreichbarkeit und Ersatzteilen.",
+          "art": "Bericht",
+          "quelle": "https://de.trustpilot.com/review/bunkysofa.com",
+          "datum": "2026-10-22"
+        }
+      ],
+      "asin": "B0F6VXV289",
+      "query": "Bunky Spielsofa Made in Germany",
+      "where": null
+    },
+    {
+      "name": "COSTWAY 7 TLG. Schaumstoffbausteine, Softbausteine zum Toben und Klettern, Riesenbausteine aus Schaumstoff, Blau",
+      "warum": "Lose Softbausteine zum Ergänzen eines Spielsofas oder als Krabbel-Parcours ab 18 Monaten (Quader, Viertelzylinder, Welle, Schräge, Zylinder).",
+      "fakten": [
+        {
+          "text": "7 Teile: 3 Quader (je 40 × 40 × 20 cm), Viertelzylinder, Wellenblock, Schräge, Zylinder; ab 18 Monaten.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B0DSPQCYLK",
+          "datum": "2026-10-22"
+        }
+      ],
+      "asin": "B0DSPQCYLK",
+      "query": "COSTWAY 7 tlg Schaumstoffbausteine",
+      "where": null
+    }
+  ],
+  "tests": [
+    {
+      "institut": "Stiftung Warentest / Öko-Test",
+      "heft": "–",
+      "ergebnis": "Kein Test von Spielsofas/Kindersofas aus Schaumstoff gefunden (Stand 2026-10-22). Öko-Test hat verwandt Spielzelte geprüft (Schadstoffe in Textilien).",
+      "quelle": "https://www.oekotest.de/kinder-familie/13-Spielzelte-im-Test_95631_1.html"
+    },
+    {
+      "institut": "familie.de (Redaktions-Praxistest, kein Institut)",
+      "heft": "online 2025/2026",
+      "ergebnis": "Funzy: hoher Preis, durch Langlebigkeit teils gerechtfertigt; lohnend für mehrere Kinder/wenig Platz – laut Bericht.",
+      "quelle": "https://www.familie.de/testberichte/funzy-spielsofa-im-familientest-lohnt-sich-das-teure-teil-wirklich-ihr-werdet-ueberrascht-sein--01K62Z4VYBGB9RZS1BCSYFP848"
+    },
+    {
+      "institut": "testsieger.de (Testportal, kein Institut)",
+      "heft": "Testmethodik Kindersofas, März 2026",
+      "ergebnis": "Eigene Testmethodik; Einzeltest Bellabino Nile mit Schadstoffprüfung (Flammschutzmittel u. a. innerhalb der Grenzwerte, Brandschutzhinweise nur mittelmäßig) – Bellabino nicht auf amazon.de geprüft.",
+      "quelle": "https://www.testsieger.de/testportal/bellabino-nile-spielsofa-im-test-modulares-kindersofa-mit-hohem-spielwert/"
+    },
+    {
+      "institut": "Blog-Vergleiche (papa-kompass.de, herzens-mama.de, dadslife.de)",
+      "heft": "2026",
+      "ergebnis": "Linodino als Preis-Leistungs-Tipp, Funzy/Shappy als Premium; teils mit Affiliate-Interesse, daher nur als Bericht.",
+      "quelle": "https://papa-kompass.de/produkttests-vergleiche/spielsofas/spielsofa-vergleich/"
+    }
+  ],
+  "warnungen": [
+    "Keine Rückrufe oder Produktwarnungen zu Funzy, Linodino, Bunky oder tectake-Spielsofas gefunden (Websuche Safety Gate/Produktwarnungen, 2026-10-22) – Safety Gate konnte nicht direkt abgefragt werden; vor Veröffentlichung kurz unter https://ec.europa.eu/safety-gate-alerts/ gegenprüfen.",
+    "Kein Institutstest (Stiftung Warentest, Öko-Test) für Spielsofas – alle Schadstoff-/Zertifikatsaussagen sind Herstellerangaben und so zu kennzeichnen. OEKO-TEX Standard 100 bezieht sich auf Schadstoffe in Textilien/Materialien, ersetzt keine Sicherheitsprüfung; GS (TÜV) nennt nur Funzy.",
+    "Brandschutz: Spielsofas sind Polstermöbel aus PUR-Schaum – nicht neben Heizstrahler, Kamin oder Kerzen stellen. Für private Polstermöbel gibt es in Deutschland keine Pflicht-Brandnorm; Flammschutzmittel sind in Kinderprodukten unerwünscht (testsieger.de bewertete Brandschutzhinweise eines Modells nur mittelmäßig). Formulierung zurückhaltend halten.",
+    "Sicherheitshinweise für den Ratgeber: Höhlen-/Turmbauten können einstürzen – Kleinkinder beaufsichtigen, nicht als Unterlage für Klettergeräte nutzen; verdeckte Reißverschlüsse prüfen (Erstickungs-/Kleinteilrisiko bei Schiebern).",
+    "Viele No-Name-Nachahmer nutzen 'Funzy' als Suchbegriff (z. B. All4All 'Funzy Kindercouch') – das sind keine Funzy-Produkte; im Text darauf hinweisen.",
+    "Neuer Schaum riecht anfangs – allgemein vor Gebrauch auslüften. (Lob für Linodinos geringen Geruch aus testsieger-online.de ohne URL – im Text gestrichen.)"
+  ],
+  "verworfen": [
+    {
+      "name": "Funzy Spielsofa B0D7ZBJ8YC (Scout-ASIN)",
+      "grund": "Laut Suchindex Variante (Lagune Blau) als 'derzeit nicht verfügbar' gelistet; durch aktive Variante B0D81GWB6K (Arktis Blau) ersetzt."
+    },
+    {
+      "name": "Shappy Spielsofa Original",
+      "grund": "Seriöse Marke mit 10 Teilen, aber kein amazon.de-Listing gefunden (nur eigener Shop heyshappy.com) und kein Awin-Programm im DE-Verzeichnis."
+    },
+    {
+      "name": "Bunky! (als Top 3)",
+      "grund": "Nur gemischte Service-Bewertungen (Trustpilot ca. 3,1–3,5), Zertifikatsangaben widersprüchlich (OEKO-TEX vs. 'CE'); nur Top 5 mit Hinweis."
+    },
+    {
+      "name": "tectake Spielsofa (als Top 3)",
+      "grund": "Keine Prüfzeichen/Zertifikate genannt, kaum Erfahrungsberichte – nur günstiger Einstieg in den Top 5."
+    },
+    {
+      "name": "MeMoreCool, Babenest, KiddyMoon, Mamizo, MEOWBABY, All4All, 'Glow in the Dark'-Spielsofa",
+      "grund": "Austauschbare Marktplatz-/No-Name-Ware ohne belastbare Prüfangaben, Garantie oder Ersatzteilversorgung."
+    },
+    {
+      "name": "Bruni Spielsofa Cord (B0DB8CFPZ8)",
+      "grund": "Kaum belastbare Informationen zu Schaum, Zertifikaten und Garantie gefunden."
+    },
+    {
+      "name": "Wonderwuzz, Fitwood, Monboxy, Wigiwama, Jupiduu, Bellabino",
+      "grund": "Nicht auf amazon.de verifiziert, nicht über freigeschaltete Awin-Händler erhältlich."
+    }
+  ],
+  "offen": [
+    "amazon.de war in diesem Lauf nicht direkt abrufbar (Proxy 403/DNS). Alle ASINs stammen aus amazon.de-/dp/-Treffern der Websuche mit passendem Titel – Verfügbarkeit/Aktivität konnte nicht live geprüft werden. Vor Veröffentlichung kurz öffnen: B0D81GWB6K, B0C4VYTL89, B0D94NSPT2, B0D5FKY4Z6, B0D618Z4X8, B0DJSLVG55, B0F6VXV289, B0DSPQCYLK.",
+    "Funzy-Farbvarianten: Für die Original-ASINs B0D7ZBJ8YC, B0CVS2VN5Q, B0D81K6LLC, B0D81HT13G ist die Farbe im Suchindex nicht eindeutig; B0D81GWB6K trägt im Titel 'Arktis Blau'. Falls diese Farbe nicht aktiv ist, eine andere geprüfte Variante wählen.",
+    "Linodino B0C4VYTL89: Titel nur in englischer amazon.de-Ansicht gesehen; deutscher Name im Text: 'Linodino® Spielsofa, Kindersofa aus Schaumstoff-Bausteinen'. Weitere Farben: B0C4VQTHTW (Delfin-Grau), B0C4VN771W (Eisblau), B0C4VV4SFK (Dschungelgrün).",
+    "Funzy 'Spiel gut'-Siegel nur in einem Amazon-Text genannt, beim Verein spiel gut nicht verifiziert – nicht als Fakt verwenden.",
+    "Raumgewicht (kg/m³) nennt kein Hersteller offiziell; der Wert 25 für Funzy stammt aus einem Blog (papa-kompass.de). Redakteur: im Ratgeber nur als 'laut Bericht' oder ganz weglassen.",
+    "Awin: Funzy, Linodino, Shappy und Bunky haben kein Programm im Awin-DE-Verzeichnis (API-Abfrage notjoined, 2026-10-22). Da alle Produkte über Amazon verfügbar sind, ist keine Händlerbewerbung nötig. Falls später Zweitquellen gewünscht: Babywalz DE (mid 12387), babymarkt DE (14824) und OTTO DE (14336) sind auf Awin aktiv, aber nicht freigeschaltet – Bewerbungstext-Entwurf: 'toptop.shop (TanMeOn GmbH) ist ein redaktionelles Vergleichsportal mit Kaufberatungen für Familien (u. a. Kinder-Spielplatz, Indoor-Bewegung). Wir möchten Ihre Spielsofas, Kindermöbel und Spielgeräte in unseren unabhängig recherchierten Top-3-Vergleichen verlinken – mit klarer Werbekennzeichnung, ohne Gutscheine oder Incentive-Traffic.'",
+    "Kein Produkt erfüllt EN 71 nachweislich (Spielsofas werden als Möbel verkauft); BanaSuper-Softbausteine werben mit EN 71, sind aber No-Name – nicht aufgenommen.",
+    "Korrekturrunde 1 (2026-10-22): Bunky-Teilezahl gestrichen; Funzy-Gewicht 12 kg (mooris.de) ohne URL nicht übernommen; Linodino-Gewicht auf 8,9 kg (B0C4VYTL89) gesetzt; Funzy-Mini-Belastbarkeit/-Gewicht aus Listing ergänzt; kribbelbunt-Schaumlob und Linodino-Geruchslob gestrichen."
+  ],
+  "quellen": [
+    {
+      "titel": "Funzy Spielsofa (Hersteller)",
+      "url": "https://myfunzy.de/en/products/funzy-spielsofa"
+    },
+    {
+      "titel": "Funzy FAQ (Hersteller)",
+      "url": "https://myfunzy.de/en/pages/faq"
+    },
+    {
+      "titel": "Mini Funzy Spielsofa (Hersteller)",
+      "url": "https://myfunzy.de/en/products/mini-funzy-spielsofa"
+    },
+    {
+      "titel": "Funzy Spielsofa Arktis Blau – amazon.de",
+      "url": "https://www.amazon.de/dp/B0D81GWB6K"
+    },
+    {
+      "titel": "Funzy Mini Velours Erdnuss Beige – amazon.de",
+      "url": "https://www.amazon.de/dp/B0D94NSPT2"
+    },
+    {
+      "titel": "Linodino Spielsofa Honigwaben-Gelb – amazon.de",
+      "url": "https://www.amazon.de/dp/B0C4VYTL89"
+    },
+    {
+      "titel": "Linodino FAQ (Hersteller)",
+      "url": "https://linodino.de/pages/faq"
+    },
+    {
+      "titel": "Linodino Cord Fantasiewelt – amazon.de",
+      "url": "https://www.amazon.de/dp/B0D5FKY4Z6"
+    },
+    {
+      "titel": "Linodino Cord Avocado Grün – amazon.de",
+      "url": "https://www.amazon.de/dp/B0D618Z4X8"
+    },
+    {
+      "titel": "tectake Spielsofa 120 cm – amazon.de",
+      "url": "https://www.amazon.de/dp/B0DJSLVG55"
+    },
+    {
+      "titel": "Bunky! Spielsofa – amazon.de",
+      "url": "https://www.amazon.de/dp/B0F6VXV289"
+    },
+    {
+      "titel": "COSTWAY 7 tlg. Schaumstoffbausteine – amazon.de",
+      "url": "https://www.amazon.de/dp/B0DSPQCYLK"
+    },
+    {
+      "titel": "familie.de: Funzy Spielsofa im Familientest",
+      "url": "https://www.familie.de/testberichte/funzy-spielsofa-im-familientest-lohnt-sich-das-teure-teil-wirklich-ihr-werdet-ueberrascht-sein--01K62Z4VYBGB9RZS1BCSYFP848"
+    },
+    {
+      "titel": "kribbelbunt: Funzy Spielsofa und Sitzsack im Test",
+      "url": "https://www.kribbelbunt.de/artikel/news/funzy-spielsofa-und-sitzsack-im-test-wenn-moebel-ploetzlich-zum-abenteuer-werden/"
+    },
+    {
+      "titel": "papa-kompass: Hype-Check Funzy",
+      "url": "https://papa-kompass.de/produkttests-vergleiche/spielzeug/funzy-spielsofa/"
+    },
+    {
+      "titel": "papa-kompass: Spielsofa-Vergleich",
+      "url": "https://papa-kompass.de/produkttests-vergleiche/spielsofas/spielsofa-vergleich/"
+    },
+    {
+      "titel": "verbraucherschutz.tv: Linodino Spielsofa im Test",
+      "url": "https://verbraucherschutz.tv/linodino-spielsofa-erfahrung-test/"
+    },
+    {
+      "titel": "dadslife: Linodino Fantasiewelt im Test",
+      "url": "https://dadslife.de/produkte/spielsofa-linodino-fantasiewelt/"
+    },
+    {
+      "titel": "wunschkind-community: Linodino Fantasiewelt Review",
+      "url": "https://wunschkind-community.de/produkte/linodino-spielsofa-fantasiewelt/"
+    },
+    {
+      "titel": "herzens-mama: Spielsofas 2026 Funzy, Bunky, Shappy, Wonderwuzz",
+      "url": "https://herzens-mama.de/funzy-bunky-vergleich/"
+    },
+    {
+      "titel": "Trustpilot: Bunkysofa",
+      "url": "https://de.trustpilot.com/review/bunkysofa.com"
+    },
+    {
+      "titel": "testsieger.de: Bellabino Nile Spielsofa im Test",
+      "url": "https://www.testsieger.de/testportal/bellabino-nile-spielsofa-im-test-modulares-kindersofa-mit-hohem-spielwert/"
+    },
+    {
+      "titel": "Öko-Test: 13 Spielzelte im Test",
+      "url": "https://www.oekotest.de/kinder-familie/13-Spielzelte-im-Test_95631_1.html"
+    }
+  ]
+}

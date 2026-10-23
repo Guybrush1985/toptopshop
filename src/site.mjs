@@ -248,14 +248,14 @@ export const areas = [
     name: "Kinder-Spielplatz",
     short: "Spielplatz",
     intro:
-      "Klettern, rutschen, schaukeln – drinnen und im Garten: Pikler-Dreiecke, Indoor-Rutschen, Kletterwände, Sprossenwände, Deckenschaukeln, Spieltürme, Sandkästen, Seilbahnen, Hüpfburgen und die passende Fallschutzmatte.",
+      "Klettern, rutschen, schaukeln – drinnen und im Garten: Pikler-Dreiecke, Indoor-Rutschen, Kletterwände, Sprossenwände, Deckenschaukeln, Spielsofas, Hüpfpolster, Balance Boards, Spieltürme, Sandkästen, Seilbahnen, Hüpfburgen und die passende Fallschutzmatte.",
     metaTitle: "Kinder-Spielplatz: Die besten Spielgeräte für drinnen & draußen",
     metaDescription:
       "Pikler-Dreieck, Kletterwand, Deckenschaukel, Spielturm, Sandkasten und Seilbahn: die besten Spielgeräte für Kinderzimmer und Garten mit Sicherheitstipps.",
     article: `
   <h2>Ein Spielplatz zu Hause – sicher geplant</h2>
   <p class="quick">Ob Kinderzimmer oder Garten: Wähle Spielgeräte nach Alter und Platz, achte auf die Herstellerangaben zu Alter und Belastung und plane den Fallschutz von Anfang an mit. Für Schaukeln, Rutschen und ähnliche Spielgeräte für zu Hause gilt die Spielzeugnorm EN 71-8 – ob ein Gerät danach geprüft ist, steht in der Anleitung oder auf der Verpackung.</p>
-  <p>Kinder wollen klettern, rutschen und schaukeln – bei jedem Wetter. Drinnen funktionieren Pikler-Dreieck, Sprossenwand, Kletterwand oder eine Schaukel an der Decke, draußen Spielturm, Gartenschaukel, Sandkasten und Seilbahn. Für jedes Gerät zeigen wir drei Empfehlungen und erklären, worauf es bei Alter, Montage und Sicherheit ankommt.</p>
+  <p>Kinder wollen klettern, rutschen und schaukeln – bei jedem Wetter. Drinnen funktionieren Pikler-Dreieck, Sprossenwand, Kletterwand oder eine Schaukel an der Decke – und zum Toben ein Spielsofa, ein Hüpfpolster oder ein Balance Board –, draußen Spielturm, Gartenschaukel, Sandkasten und Seilbahn. Für jedes Gerät zeigen wir drei Empfehlungen und erklären, worauf es bei Alter, Montage und Sicherheit ankommt.</p>
   <p>Unsere Empfehlungen sind bei Amazon erhältlich; Modelle, die es nur beim Hersteller oder im Fachhandel gibt, nennen wir ohne Link. Wir kennzeichnen Altersangaben und technische Daten als Herstellerangaben. Unabhängige Tests gibt es für diese Geräte nur selten; wo es sie gibt, nennen wir sie.</p>
   <aside class="callout warn"><p class="ct">Sicherheit</p><p>Kleinkinder beim Klettern, Rutschen und Schaukeln immer beaufsichtigen. Wand- und Deckenbefestigungen müssen zum Untergrund passen – im Zweifel eine Fachkraft fragen. Gartengeräte nach Herstellerangabe im Boden verankern und darunter einen weichen Fallschutz vorsehen.</p></aside>`,
     groups: [
@@ -264,13 +264,14 @@ export const areas = [
         name: "Indoor-Spielplatz",
         short: "Indoor",
         navLabel: "Kinder-Spielplatz: Indoor",
-        intro: "Bewegung im Kinderzimmer, auch wenn es draußen regnet: Pikler-Dreieck, Indoor-Rutsche, Kletterwand, Sprossenwand, Deckenschaukel, Schaukeltuch, Spielhöhle und Fallschutzmatten.",
+        intro: "Bewegung im Kinderzimmer, auch wenn es draußen regnet: Pikler-Dreieck, Indoor-Rutsche, Kletterwand, Sprossenwand, Deckenschaukel, Schaukeltuch, Spielhöhle, Spielsofa, Hüpfpolster, Balance Board, Balanciersteine, Tür-Basketballkorb und Fallschutzmatten.",
         metaTitle: "Indoor-Spielplatz fürs Kinderzimmer: Die besten Spielgeräte",
-        metaDescription: "Pikler-Dreieck, Indoor-Rutsche, Kletterwand, Sprossenwand, Deckenschaukel und Spielhöhle: die besten Spielgeräte für drinnen mit Montage- und Sicherheitstipps.",
+        metaDescription: "Pikler-Dreieck, Kletterwand, Spielsofa, Hüpfpolster, Balance Board und Tür-Basketballkorb: die besten Spielgeräte für drinnen mit Montage- und Sicherheitstipps.",
         article: `
-  <h2>Klettern und Schaukeln im Kinderzimmer</h2>
-  <p class="quick">Für die Kleinsten ist ein klappbares Pikler-Dreieck der beste Einstieg, ab dem Kindergartenalter kommen Sprossenwand, Kletterwand und Deckenschaukel dazu. Darunter gehört immer eine dämpfende Matte.</p>
-  <p>Indoor-Spielgeräte müssen zwei Dinge können: in eine normale Wohnung passen und sicher befestigt sein. Freistehende Geräte wie Kletterdreiecke lassen sich wegräumen, Wand- und Deckenmontagen brauchen den richtigen Untergrund und passende Dübel. Die Altersangaben der Hersteller sind ein Richtwert – entscheidend ist, was dein Kind motorisch schon kann.</p>`,
+  <h2>Klettern, Toben und Balancieren im Kinderzimmer</h2>
+  <p class="quick">Für die Kleinsten ist ein klappbares Pikler-Dreieck der beste Einstieg, ab dem Kindergartenalter kommen Sprossenwand, Kletterwand und Deckenschaukel dazu. Darunter gehört immer eine dämpfende Matte. Für Toben ohne Montage sind Spielsofa und Hüpfpolster der einfachste Einstieg, Balance Board und Balanciersteine trainieren das Gleichgewicht, und ein Tür-Basketballkorb bringt Wurfspiele ins Zimmer.</p>
+  <p>Indoor-Spielgeräte müssen zwei Dinge können: in eine normale Wohnung passen und sicher befestigt sein. Freistehende Geräte wie Kletterdreiecke lassen sich wegräumen, Wand- und Deckenmontagen brauchen den richtigen Untergrund und passende Dübel. Die Altersangaben der Hersteller sind ein Richtwert – entscheidend ist, was dein Kind motorisch schon kann.</p>
+  <p>Gerade im Winter brauchen Kinder drinnen Platz zum Hüpfen, Balancieren und Werfen. Geräte ohne Wand- oder Deckenmontage lassen sich nach dem Spielen wegräumen – achte bei Schaumstoff und Polstern auf abnehmbare, waschbare Bezüge und eine rutschfeste Unterseite.</p>`,
       },
       {
         slug: "outdoor",

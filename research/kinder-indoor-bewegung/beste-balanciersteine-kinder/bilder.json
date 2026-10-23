@@ -1,0 +1,55 @@
+{
+  "visuals": {
+    "1": {
+      "kind": "stones",
+      "tone": "forest"
+    },
+    "2": {
+      "kind": "hills",
+      "tone": "green"
+    },
+    "3": {
+      "kind": "beampath",
+      "tone": "mint"
+    }
+  },
+  "steps": {
+    "title": "Balancier-Parcours aufbauen",
+    "subtitle": "In fünf Schritten zum Bewegungsparcours",
+    "alt": "Infografik: Balancier-Parcours aufbauen – Boden prüfen, Leicht anfangen, Höhe steigern, Strecke verbinden, Variieren und wegräumen",
+    "caption": "Rutschfest auf ebenem Boden aufbauen und Abstände ans Alter anpassen.",
+    "steps": [
+      {
+        "title": "Boden prüfen",
+        "text": "Ebenen, trockenen Untergrund wählen; Gummi-Unterseite auf Parkett oder Fliesen testen."
+      },
+      {
+        "title": "Leicht anfangen",
+        "text": "Flache Steine dicht nebeneinander legen, damit kleine Kinder sicher von Stein zu Stein steigen."
+      },
+      {
+        "title": "Höhe steigern",
+        "text": "Hohe Steine oder Hügelkuppen erst ergänzen, wenn das Kind sicher balanciert."
+      },
+      {
+        "title": "Strecke verbinden",
+        "text": "Steine, Kuppen und Balken zu einer Runde kombinieren – mit Abstand zu Möbelkanten."
+      },
+      {
+        "title": "Variieren und wegräumen",
+        "text": "Parcours regelmäßig umbauen, danach Teile stapeln und rutschfreie Unterseiten sauber halten."
+      }
+    ]
+  },
+  "scoresAlt": "Balkendiagramm: Bewertung der drei besten Balanciersteine-Sets für Kinder in den Kriterien Rutschfestigkeit, Stabilität, Kombinierbarkeit, Material und Platzbedarf",
+  "scoresCaption": "Unsere Bewertung je Kriterium für die drei empfohlenen Sets – Flusssteine, Hügelkuppen und Balancierstrecke.",
+  "neueFormen": [
+    "stones",
+    "hills",
+    "beampath"
+  ],
+  "offen": [
+    "Kriterien in scoresAlt sind ein Entwurf (aus kriterienEntwurf) – an die finalen Bewertungskriterien anpassen; Produkte stehen noch nicht fest, kinds nach produktart gewählt.",
+    "Gemischte Kategorie: Platz 1 = stones (Flusssteine-Set), Platz 2 = hills (Hügelkuppen), Platz 3 = beampath (Balancierstrecke). Falls sich die Reihenfolge der Produktarten ändert, kinds entsprechend tauschen."
+  ]
+}
