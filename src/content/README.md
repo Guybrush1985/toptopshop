@@ -84,7 +84,7 @@ Definiert in `src/templates/visuals.mjs`; neue Formen ergänzt der Illustrator-A
   `projector`, `neon`, `panel`, `console`, `fridge`
 - Kinder & Spielzimmer (Set `OBJECTS`): `triangle`, `slide`, `climbwall`, `ladder`, `swing`, `tent`, `mat`, `tower`,
   `sandbox`, `zipline`, `bouncy`, `waterslide`, `shelf`, `wardrobe`, `kidtable`, `rug`, `sideboard`, `cloth`
-- Sammeln & Garten (Set `OBJECTS`): `vitrine`, `frame`, `minifig`, `ledkit`, `snowblower`, `blower`
+- Sammeln & Garten (Set `OBJECTS`): `vitrine`, `frame`, `minifig`, `ledkit`, `snowblower`, `blower`, `sled`
 
 ### Textbausteine in `sections[].blocks`
 
