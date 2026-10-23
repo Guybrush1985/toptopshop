@@ -93,6 +93,7 @@ Definiert in `src/templates/visuals.mjs`; neue Formen ergänzt der Illustrator-A
 - Flugsimulator (Set `OBJECTS`): `joystick` (HOTAS: Stick + Schubregler), `yoke` (Steuerhorn mit Tischgehäuse),
   `pedals` (Ruderpedale), `throttle` (Schubhebel-Quadrant), `flightrig` (Cockpit-Rahmen mit Sitz),
   `flightstand` (Klapp-Ständer ohne Sitz)
+- Wellness (Set `OBJECTS`): `hottub` (aufblasbarer Whirlpool), `spa` (Hartschalen-Whirlpool), `bathtub` (Whirlpool-Badewanne)
 
 ### Textbausteine in `sections[].blocks`
 
