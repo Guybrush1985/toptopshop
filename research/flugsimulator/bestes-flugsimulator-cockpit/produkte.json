@@ -1,0 +1,500 @@
+{
+  "slug": "bestes-flugsimulator-cockpit",
+  "stand": "2026-10-23",
+  "hinweisMethodik": "amazon.de, nextlevelracing.com und wheelstandpro.com sind aus der Sandbox nicht direkt abrufbar (Proxy 403/DNS). Alle ASINs und Herstellerdaten stammen aus WebSearch-Treffern (amazon.de-/dp/-Seiten bzw. Hersteller- und Support-Seiten). Verfügbarkeit aus Such-Snapshots, Datum der Snapshots unbekannt – vor Livegang stichprobenartig prüfen.",
+  "criteria": [
+    {
+      "key": "stabilitaet",
+      "label": "Stabilität",
+      "weight": 0.3,
+      "description": "Steifigkeit des Rahmens, kein Wackeln oder Verrutschen bei Ruder-, Yoke- und Stickeingaben; Belastbarkeit laut Hersteller."
+    },
+    {
+      "key": "montage",
+      "label": "Montage-Flexibilität",
+      "weight": 0.25,
+      "description": "Welche Steuerungen passen (Yoke, HOTAS mittig/seitlich, Sidestick, Schubhebel, Pedale), mitgelieferte Platten, Ausbaupfad (Sitz, Motion, Monitor)."
+    },
+    {
+      "key": "ergonomie_platz",
+      "label": "Ergonomie & Platzbedarf",
+      "weight": 0.2,
+      "description": "Verstellbereich für Körpergrößen, Sitz bzw. Nutzung mit eigenem Stuhl, Stellfläche, Gewicht, Aufbauaufwand."
+    },
+    {
+      "key": "preisleistung",
+      "label": "Preis-Leistung",
+      "weight": 0.25,
+      "description": "Gegenwert für die Preisklasse, auch im Verhältnis zu Steuerung, die man ohnehin kaufen muss."
+    }
+  ],
+  "priceTiers": {
+    "vorschlag": true,
+    "1": "unter 200 €",
+    "2": "200–600 €",
+    "3": "über 600 €",
+    "begruendung": "Breite Spanne: Wheel-Stand-Pro-Ständer ca. 120–170 €, NLR Flight Stand Pro ca. 500 €, Komplett-Cockpits ca. 700–900 € (Such-Snapshots amazon.de/Hersteller, nicht auf der Seite nennen)."
+  },
+  "products": [
+    {
+      "rank": 1,
+      "label": "Bestes Komplett-Cockpit",
+      "name": "Next Level Racing Flight Simulator",
+      "brand": "Next Level Racing",
+      "variant": "NLR-S018 (Standardversion, Rahmen mit Sitz, Seitenarmen, Yoke-/HOTAS-Mittelsäule und Pedalplatte)",
+      "priceTier": 3,
+      "ratings": {
+        "stabilitaet": 8.5,
+        "montage": 9.0,
+        "ergonomie_platz": 7.0,
+        "preisleistung": 7.5
+      },
+      "gesamtnote": 8.08,
+      "bestFor": "Wer Yoke, HOTAS oder Airbus-Sidestick plus Pedale dauerhaft in einem festen Cockpit fliegen will und rund 1,5 × 1 m Stellfläche hat.",
+      "fakten": [
+        {
+          "text": "Für Körpergrößen 120–210 cm und bis 150 kg Nutzergewicht ausgelegt (Herstellerangabe).",
+          "art": "Herstellerangabe",
+          "quelle": "https://support.nextlevelracing.com/hc/en-us/articles/13705178363407-Next-Level-Racing-Flight-Simulator-NLR-S018",
+          "datum": "abgerufen 2026-10-23 (Suchauszug)"
+        },
+        {
+          "text": "Konfigurierbar für Kampfjet-, Weltraum-, Verkehrs- und Allgemeine Luftfahrt (Händler-/Herstellerbeschreibung auf amazon.de).",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/-/en/NLR-S018/dp/B0BFC1WKPJ",
+          "datum": "2026-10-23"
+        },
+        {
+          "text": "Baugleicher Rahmen wie die Boeing-Editionen: Stellmaß ca. 153 × 99 × 122 cm (L × B × H); Seitenarme 300 mm seitlich und 75 mm in der Höhe verstellbar, Flugarm und Pedalplatte bis 21,5° neigbar, Sitz verschieb- und neigbar (Herstellerangaben NLR-S028, laut Support-Seite gleiche Maße wie NLR-S018).",
+          "art": "Herstellerangabe",
+          "quelle": "https://support.nextlevelracing.com/hc/en-us/articles/13018914765327-Flight-Simulator-Boeing-Military-Edition-NLR-S028",
+          "datum": "abgerufen 2026-10-23 (Suchauszug)"
+        },
+        {
+          "text": "Kompatibel mit Yokes, Sticks, Schubhebeln und Pedalen u. a. von Thrustmaster, Logitech/Saitek, Honeycomb, Virtual Fly und Crosswind (Herstellerangabe).",
+          "art": "Herstellerangabe",
+          "quelle": "https://nextlevelracing.com/products/flight-simulator/",
+          "datum": "abgerufen 2026-10-23 (Suchauszug)"
+        },
+        {
+          "text": "Motion-Plattform nur mit separat erhältlichem Motion Plus Platform Adaptor (Herstellerangabe).",
+          "art": "Herstellerangabe",
+          "quelle": "https://nextlevelracing.com/products/boeing-combat-flight-simulator/",
+          "datum": "abgerufen 2026-10-23 (Suchauszug)"
+        },
+        {
+          "text": "amazon.de-Listing: 4,1 von 5 Sternen bei 41 Bewertungen, Erscheinungsdatum 18.10.2022 (Such-Snapshot).",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/-/en/NLR-S018/dp/B0BFC1WKPJ",
+          "datum": "Snapshot, Datum unbekannt"
+        },
+        {
+          "text": "Im Lieferumfang laut Supportseite u. a. Buttkicker-Adapter, 4-Punkt-Gurt und Lordosenstütze; Monitorständer (Free Standing Single/Triple, Elite Single/Triple/Quad) sind als kompatibles Zubehör aufgeführt, nicht enthalten (Herstellerangabe).",
+          "art": "Herstellerangabe",
+          "quelle": "https://support.nextlevelracing.com/hc/en-us/articles/13705178363407-Next-Level-Racing-Flight-Simulator-NLR-S018",
+          "datum": "abgerufen 2026-10-23 (Suchauszug)"
+        }
+      ],
+      "pros": [
+        "Seitenarme und Mittelsäule: Yoke, HOTAS, Airbus-Sidestick und Pedale an einem Rahmen",
+        "Großer Verstellbereich 120–210 cm (Herstellerangabe)",
+        "Ausbaupfad zu Motion-Plattform",
+        "Gleiche Rahmenbasis wie die teureren Boeing-Editionen"
+      ],
+      "cons": [
+        "Großer Platzbedarf (ca. 153 × 99 cm, Herstellerangabe)",
+        "Schwer, Aufbau aufwendig",
+        "Monitorhalter nicht im Lieferumfang – laut Hersteller-Supportseite nur als separates Zubehör (NLR Free Standing/Elite Monitor Stands)",
+        "Laut Testbericht (TweakTown zur MSFS Edition) kann die klappbare Mittelsäule wackeln, wenn sie nicht fest angezogen ist"
+      ],
+      "specs": {
+        "Bauform": "Komplett-Cockpit mit Sitz",
+        "Körpergröße": "120–210 cm (Herstellerangabe)",
+        "Max. Nutzergewicht": "150 kg (Herstellerangabe)",
+        "Stellmaß": "ca. 153 × 99 × 122 cm (Herstellerangabe, Boeing-Rahmen)",
+        "Montage": "Yoke-Platte, HOTAS-Mittelsäule, 2 Seitenarme, Pedalplatte",
+        "Motion": "mit Adapter (separat)"
+      },
+      "asin": "B0BFC1WKPJ",
+      "query": "Next Level Racing Flight Simulator NLR-S018",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "Next Level Racing Flight Simulator : Amazon.de: PC & Video Games (Item model number NLR-S018; amazon.de/-/en/NLR-S018/dp/B0BFC1WKPJ). Zweites Listing B0BM4SZ7JK nur Drittanbieter → nicht verwendet."
+    },
+    {
+      "rank": 2,
+      "label": "Bester Ständer für Yoke und Schubhebel",
+      "name": "Wheel Stand Pro Saitek Pro Flight Yoke System Lenkrad Halterung Schwarz",
+      "brand": "Wheel Stand Pro",
+      "variant": "für Logitech G Saitek Pro Flight Yoke System inkl. Throttle Quadrant, mit Pedalablage (Listing seit 2013; Versionsbezeichnung „Deluxe V2“ im amazon.de-Listing nicht belegt)",
+      "priceTier": 1,
+      "ratings": {
+        "stabilitaet": 6.5,
+        "montage": 5.5,
+        "ergonomie_platz": 9.0,
+        "preisleistung": 9.0
+      },
+      "gesamtnote": 7.38,
+      "bestFor": "Wer mit dem vorhandenen Stuhl fliegt, wenig Platz hat und das Logitech/Saitek-Yoke samt Quadrant und Pedalen nicht am Schreibtisch festklemmen will.",
+      "fakten": [
+        {
+          "text": "Laut Herstellerseite (aktuelle Version „Deluxe V2“): Grundfläche 400 × 665 mm, maximale Höhe 725 mm bei 90°-Einstellung; Yoke-Platte 180° stufenlos verstellbar, Schnellverschluss. Ob das amazon.de-Listing B00DIQ3168 diese Version liefert, ist nicht belegt; das Listing selbst nennt 360° stufenlose Säulenneigung (Herstellerangaben).",
+          "art": "Herstellerangabe",
+          "quelle": "https://wheelstandpro.com/product/wheel-stand-pro-for-saitek-pro-flight-yoke-system-deluxe-v2/?region=europe",
+          "datum": "abgerufen 2026-10-23 (Suchauszug)"
+        },
+        {
+          "text": "Reiner Ständer – Yoke, Quadrant und Pedale sind nicht enthalten (Händlerangabe amazon.de).",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/-/en/Wheel-Saitek-Flight-System-Steering/dp/B00DIQ3168",
+          "datum": "2026-10-23"
+        },
+        {
+          "text": "amazon.de-Listing: ca. 4,3 von 5 Sternen bei rund 650 Bewertungen (Such-Snapshot; zweiter Snapshot 4,5 bei 610).",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/-/en/Wheel-Saitek-Flight-System-Steering/dp/B00DIQ3168",
+          "datum": "Snapshot, Datum unbekannt"
+        },
+        {
+          "text": "Einzelne Käufer berichten, dass der Ständer beim kräftigen Bremsen mit weit vorn montierten Pedalen rutscht und das Yoke für große Personen zu tief sitzt.",
+          "art": "Bericht",
+          "quelle": "https://www.amazon.de/-/en/Wheel-Saitek-Flight-System-Steering/dp/B00DIQ3168",
+          "datum": "Kundenrezensionen, Snapshot"
+        }
+      ],
+      "pros": [
+        "Kleine Stellfläche, mit eigenem Stuhl nutzbar",
+        "Stufenlose Neigung von Säule und Yoke-Platte (Herstellerangabe)",
+        "Viele Bewertungen, lange am Markt",
+        "Günstigste Art, ein Yoke vom Schreibtisch zu holen"
+      ],
+      "cons": [
+        "Nur für das Logitech/Saitek-Yoke-System ausgelegt – für Honeycomb eigene Version (HONEY)",
+        "Leichter Rahmen kann bei Pedaleingaben rutschen (Kundenberichte)",
+        "Kein Sitz, keine Seitenarme für HOTAS"
+      ],
+      "specs": {
+        "Bauform": "Ständer ohne Sitz",
+        "Grundfläche": "400 × 665 mm (Herstellerangabe)",
+        "Max. Höhe": "725 mm bei 90° (Herstellerangabe)",
+        "Kompatibel": "Logitech G Saitek Pro Flight Yoke System, Throttle Quadrant, Saitek-Pedale (Herstellerangabe)",
+        "Hinweis": "Maße von der Herstellerseite der Deluxe-V2-Version; Version des amazon.de-Listings nicht bestätigt"
+      },
+      "asin": "B00DIQ3168",
+      "query": "Wheel Stand Pro Saitek Pro Flight Yoke System",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "Wheel Stand Pro Saitek Pro Flight Yoke System Lenkrad Halterung Schwarz : Amazon.de: PC & Video Games (EN: \"Wheel Stand Pro Saitek Pro Flight Yoke System Steering wheel mount Black\")"
+    },
+    {
+      "rank": 3,
+      "label": "Premium-Wahl",
+      "name": "Next Level Racing Flight Simulator: Boeing Military Edition",
+      "brand": "Next Level Racing",
+      "variant": "NLR-S028, offiziell von Boeing lizenziert, Sitz mit Aussparung für Mittelstick",
+      "priceTier": 3,
+      "ratings": {
+        "stabilitaet": 8.5,
+        "montage": 9.5,
+        "ergonomie_platz": 7.0,
+        "preisleistung": 6.5
+      },
+      "gesamtnote": 7.95,
+      "bestFor": "Kampfjet- und DCS-Piloten mit Mittelstick (z. B. Warthog) und alle, die das Cockpit mit Boeing-Lizenz und passenden Montageplatten für TCA-Boeing-Yoke wollen.",
+      "fakten": [
+        {
+          "text": "Für 120–210 cm Körpergröße, max. 150 kg; Maße 153 × 99 × 122 cm, Produktgewicht 49,5 kg (Herstellerangaben).",
+          "art": "Herstellerangabe",
+          "quelle": "https://support.nextlevelracing.com/hc/en-us/articles/13018914765327-Flight-Simulator-Boeing-Military-Edition-NLR-S028",
+          "datum": "abgerufen 2026-10-23 (Suchauszug)"
+        },
+        {
+          "text": "Thrustmaster TCA Yoke Pack Boeing Edition direkt am Cockpit montierbar; mitgelieferte Platten u. a. für Thrustmaster HOTAS Warthog (Stick) und Logitech G Pro Rudder Pedals; Sitz mit Aussparung für den Stick zwischen den Beinen (Herstellerangaben).",
+          "art": "Herstellerangabe",
+          "quelle": "https://nextlevelracing.com/products/boeing-combat-flight-simulator/",
+          "datum": "abgerufen 2026-10-23 (Suchauszug)"
+        },
+        {
+          "text": "Als „erstes speziell für die Luftfahrt entwickeltes Cockpit in Zusammenarbeit mit The Boeing Company“ beschrieben (Herstellerangabe).",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/Next-Level-Racing-Simulator-Cockpit/dp/B0BFBWPLNM",
+          "datum": "2026-10-23"
+        }
+      ],
+      "pros": [
+        "Mittelstick-Aussparung im Sitz für Kampfjet-Setups",
+        "Platten für Warthog, TCA Boeing Yoke, Logitech-Pedale im Lieferumfang (Herstellerangabe)",
+        "Boeing-Lizenz und Optik",
+        "Gleicher verstellbarer Rahmen wie das Standardmodell"
+      ],
+      "cons": [
+        "Teurer als das Standardmodell bei gleichem Rahmen",
+        "49,5 kg und ca. 1,5 m Länge (Herstellerangabe)",
+        "Mehrere amazon.de-Listings mit schwankender Verfügbarkeit"
+      ],
+      "specs": {
+        "Bauform": "Komplett-Cockpit mit Sitz",
+        "Körpergröße": "120–210 cm (Herstellerangabe)",
+        "Max. Nutzergewicht": "150 kg (Herstellerangabe)",
+        "Maße": "153 × 99 × 122 cm (Herstellerangabe)",
+        "Gewicht": "49,5 kg (Herstellerangabe)",
+        "Lizenz": "Boeing"
+      },
+      "asin": "B0BFBWPLNM",
+      "query": "Next Level Racing Flight Simulator Boeing Military Edition",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "Next Level Racing Flight Simulator: Boeing Military Edition : Amazon.de: PC & Video Games (Item model number NLR-S028). Paralleles Listing B0BM4T5PKX „Boeing Flight Simulator - Military“ zeigte teils „No featured offers“ → nicht verwendet."
+    }
+  ],
+  "top5": [
+    {
+      "name": "Next Level Racing Flight Simulator: Boeing Commercial Edition",
+      "for": "Bestes für Yoke-Setups (Airliner/GA)",
+      "warum": "Gleicher Rahmen wie das Standardmodell, aber in ziviler Optik mit Woll-Optik-Bezügen und blauen Akzenten; für Yoke + Schubhebel vorne und Pedale unten (Herstellerangabe).",
+      "fakten": [
+        {
+          "text": "Schwestermodell NLR-S027 der Military Edition mit Kunstwoll-Sitzbezug und blauen Akzenten.",
+          "art": "Händlerangabe",
+          "quelle": "https://amazon.de/-/en/NLR-S027/dp/B0BFBXCSGK",
+          "datum": "2026-10-23"
+        }
+      ],
+      "asin": "B0BFBXCSGK",
+      "query": "Next Level Racing Flight Simulator Boeing Commercial Edition",
+      "asinGeprueft": "Next Level Racing Flight Simulator: Boeing Commercial Edition : Amazon.de: PC & Video Games (NLR-S027)",
+      "where": null
+    },
+    {
+      "name": "Next Level Racing Flight Stand Pro",
+      "for": "Bestes für HOTAS und modularen Ausbau",
+      "warum": "Freistehender Rahmen mit höhen- und winkelverstellbarer HOTAS-Mittelsäule (Winkel 95°) und Yoke-Platte; zunächst mit eigenem Stuhl, später mit Flight Seat Pro (B0C5X6L5Q6) zum Vollcockpit erweiterbar; auf Rollen (Herstellerangaben).",
+      "fakten": [
+        {
+          "text": "Für Verkehrs-, GA-, Militär-, Weltraum- und Hubschrauber-Setups; HOTAS-Platte passt u. a. für Thrustmaster Warthog, WINWING Super Libra, VPC Mongoos T-50CM2, VKB Gunfighter; Yoke-Platte für Virtual Fly Yoko, Honeycomb Alpha, Logitech G Pro, Turtle Beach VelocityOne (mit Adapter); 37 kg; bis 150 kg Nutzergewicht nur in Verbindung mit Flight Seat Pro.",
+          "art": "Herstellerangabe",
+          "quelle": "https://nextlevelracing.com/products/flight-stand-pro/",
+          "datum": "abgerufen 2026-10-23 (Suchauszug)"
+        },
+        {
+          "text": "amazon.de: 4,2 von 5 Sternen bei 56 Bewertungen; ein Käufer berichtet von sehr stabilem Stand, aber versetzten Bohrungen und rund 10 Stunden Aufbau.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/Next-Level-Racing-Flight-Stand/dp/B0C5X5FQBY",
+          "datum": "Snapshot, Datum unbekannt"
+        }
+      ],
+      "asin": "B0C5X5FQBY",
+      "query": "Next Level Racing Flight Stand Pro",
+      "asinGeprueft": "Next Level Racing Flight Stand Pro : Amazon.de: PC & Video Games (NLR-S032)",
+      "where": null
+    },
+    {
+      "name": "Wheel Stand Pro HONEY, Ständer für Honeycomb Yoke und Throttle (DELUXE V2)",
+      "for": "Bester Ständer für Honeycomb-Besitzer",
+      "warum": "Ganzmetall-Ständer speziell für Honeycomb Alpha (Yoke) und Bravo (Schubhebel), Charlie-Pedale fest montierbar; mit eigenem Stuhl nutzbar (Herstellerangaben).",
+      "fakten": [
+        {
+          "text": "Honeycomb Yoke und Throttle mit Original-Klemmen, Honeycomb Charlie Rudder Pedals fest montiert; max. Höhe 725 mm bei 90°, Säule 360° und Platten 180° stufenlos neigbar; Nettogewicht 11,9 kg.",
+          "art": "Herstellerangabe",
+          "quelle": "https://wheelstandpro.com/product/wheel-stand-pro-for-honeycomb-yoke-and-throttle/?region=usa",
+          "datum": "abgerufen 2026-10-23 (Suchauszug)"
+        },
+        {
+          "text": "Ein Käufer berichtet, dass das einzelne Teleskoprohr für das Yoke bei kräftigem Ziehen leicht nachgibt.",
+          "art": "Bericht",
+          "quelle": "https://www.amazon.de/Wheel-Stand-Pro-Honeycomb-Throttle/dp/B0B96VV5GV",
+          "datum": "Kundenrezension, Snapshot"
+        }
+      ],
+      "asin": "B0B96VV5GV",
+      "query": "Wheel Stand Pro HONEY Honeycomb Yoke Throttle Deluxe V2",
+      "asinGeprueft": "Wheel Stand Pro HONEY, Ständer für Honeycomb Yoke und Throttle (DELUXE V2) : Amazon.de: PC & Video Games",
+      "where": null
+    },
+    {
+      "name": "Wheel Stand Pro Super Warthog Wheel Stand Compatible with Thrustmaster HOTAS Warthog, Honeycomb Alpha Bravo and Saitek Pedals",
+      "for": "Bester Ständer ohne Sitz für HOTAS",
+      "warum": "Ständer für den vorhandenen Stuhl, auf den laut Listing Thrustmaster HOTAS Warthog sowie Honeycomb Alpha/Bravo und Saitek-Pedale passen – Stick und Schub bleiben vom Schreibtisch unabhängig.",
+      "fakten": [
+        {
+          "text": "Kompatibel mit Thrustmaster HOTAS Warthog, Honeycomb Alpha/Bravo und Saitek-Pedalen; Geräte nicht enthalten (Händlerangabe).",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/Radst%C3%A4nder-kompatibel-Thrustmaster-Lieferumfang-enthalten/dp/B01NAN0SF3",
+          "datum": "2026-10-23"
+        }
+      ],
+      "asin": "B01NAN0SF3",
+      "query": "Wheel Stand Pro Super Warthog",
+      "asinGeprueft": "Wheel Stand Pro Super Warthog Wheel Stand Compatible with Thrustmaster HOTAS Warthog™, Honeycomb Alpha Bravo and Saitek Pedals. Not Included : Amazon.de: PC & Video Games",
+      "where": null
+    },
+    {
+      "name": "Flugsim-Umbausätze für Sim-Racing-Cockpits (Next Level Racing Flight Pack bzw. Combat Flight Pack, Trak Racer Flight Sim Upgrade TR-FS02)",
+      "for": "Umbau eines vorhandenen Sim-Racing-Cockpits",
+      "warum": "Wer schon ein Rennsport-Rig hat, rüstet mit dem herstellereigenen Flight-Kit Stick- und Schubhebel-Plätze nach. Auf amazon.de sind alle drei Kits derzeit nicht verfügbar (NLR B095Z3GS1C, B07VHWS9J9, Trak Racer B0BFRQ7K78), und eine aktive Alternative einer seriösen Marke gibt es dort nicht (nur No-Name-Tisch-/Stuhlhalterungen). Deshalb neutraler Hinweis ohne Link.",
+      "fakten": [
+        {
+          "text": "Passt an RS6 MK2 und neuer, TR8, TR8 Pro und RS8 MK6; neig- und positionsverstellbar; für u. a. Saitek X52, Thrustmaster HOTAS Warthog, TQ- und Virpil-Modelle (Händlerangabe).",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/Trak-Racer-Flight-Upgrade-Mount/dp/B0BFRQ7K78",
+          "datum": "2026-10-23"
+        },
+        {
+          "text": "NLR Combat Flight Pack und Flight Pack für F-GT Lite/GTLite auf amazon.de „derzeit nicht verfügbar“, Wiederverfügbarkeit unbekannt.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/Next-Level-Racing-Flight-Pack/dp/B095Z3GS1C",
+          "datum": "2026-10-23"
+        }
+      ],
+      "asin": null,
+      "query": null,
+      "asinGeprueft": "keine aktive ASIN: B0BFRQ7K78, B07VHWS9J9 und B095Z3GS1C laut amazon.de „derzeit nicht verfügbar“",
+      "where": "Beim Hersteller des eigenen Cockpits (Next Level Racing, Trak Racer) bzw. im Sim-Racing-Fachhandel – kein Link"
+    }
+  ],
+  "tests": [
+    {
+      "institut": "TweakTown (US-Fachmagazin, kein unabhängiges Prüfinstitut)",
+      "heft": "Review „Next Level Racing Flight Simulator MSFS Edition“, Okt. 2026 (laut Review-Index)",
+      "ergebnis": "92 % mit Auszeichnung; Pluspunkte steifer Rahmen, Modularität, bequemer Sitz, einfacher Aufbau; Minuspunkte: kein integrierter Monitorhalter, klappbare Mittelsäule kann wackeln, wenn nicht fest angezogen, Anschaffungspreis. Kaum Flex an den Seitenarmen mit MOZA AB6/MTQ.",
+      "quelle": "https://www.tweaktown.com/reviews/11619/next-level-racing-flight-simulator-msfs-edition/index.html"
+    },
+    {
+      "institut": "Stiftung Warentest / Öko-Test / deutsche Fachmagazine",
+      "heft": "–",
+      "ergebnis": "Keine Tests oder Vergleiche von Flugsimulator-Cockpits gefunden (siehe auch Scout-Bericht).",
+      "quelle": "research/trends/2026-10-23-flugsimulator-zu-hause.md"
+    }
+  ],
+  "warnungen": [
+    "Keine Rückrufe oder Safety-Gate-Meldungen zu Next Level Racing oder Wheel Stand Pro gefunden (Websuche 2026-10-23; Safety-Gate-Datenbank selbst nicht abrufbar).",
+    "Sicherheitshinweis für den Text: Belastungsgrenzen beachten (NLR 150 kg Nutzergewicht laut Hersteller); Flight Stand Pro trägt die 150 kg nur zusammen mit dem Flight Seat Pro (Herstellerangabe). Schrauben regelmäßig nachziehen (TweakTown: Mittelsäule wackelt bei lockerer Verschraubung).",
+    "Leichte Ständer (Wheel Stand Pro) können bei kräftigen Pedaleingaben rutschen – Antirutschmatte bzw. Stuhl gegen den Ständer stellen (Kundenberichte, keine Herstellerangabe)."
+  ],
+  "verworfen": [
+    {
+      "name": "Playseat Air Force (B083VXQR3T)",
+      "grund": "Auf amazon.de nur als „Renewed“ (generalüberholt) gelistet, keine Neuware (Scout + eigene Suche)."
+    },
+    {
+      "name": "Next Level Racing Flight Simulator Microsoft Flight Simulator Edition – Seat (B0FBKC6RLN)",
+      "grund": "Listing ist laut Titel/Modellnummer NLR-S044B nur der Sitz-Teil des zweiteiligen MSFS-Pakets (NLR-S044A + S044B); Rahmen NLR-S044A auf amazon.de nicht gefunden; nur 3,3 Sterne bei 6 Bewertungen (Snapshot). Für Top 3/Top 5 ungeeignet; im Text als Variante erwähnbar (TweakTown 92 %)."
+    },
+    {
+      "name": "Next Level Racing Flight Simulator Seat (B0C6WWZ6V2, NLR-S030)",
+      "grund": "Auf amazon.de laut Snapshot derzeit nicht verfügbar."
+    },
+    {
+      "name": "Next Level Racing F-GT/GTTrack Combat Flight Pack (B07VHWS9J9)",
+      "grund": "amazon.de: „Derzeit nicht verfügbar“, Wiederverfügbarkeit unbekannt."
+    },
+    {
+      "name": "Next Level Racing Flight Pack für F-GT Lite & GTLite (B095Z3GS1C, NLR-A016)",
+      "grund": "amazon.de: derzeit nicht verfügbar – betrifft den Umbau des auf /sim-racing-cockpits/ empfohlenen F-GT Lite."
+    },
+    {
+      "name": "Marada Flight Joystick Hotas Holder with Chair (B0BYM88NT6)",
+      "grund": "amazon.de: derzeit nicht verfügbar; zudem Budget-Marke mit Kritik an Sitzpolster und Frontlastigkeit (Rezensionen)."
+    },
+    {
+      "name": "Marada Flight Racing Wheel Stand X-Shape (B0CSJF1RB9) / Marada Flug-/Rennsimulations-Ständer (B0DRNC33M4)",
+      "grund": "Austauschbare Budget-Ständer ohne Herstellerdaten zu Belastbarkeit; Wheel Stand Pro ist die etablierte Alternative."
+    },
+    {
+      "name": "Next Level Racing Flight Seat Pro (B0C5X6L5Q6) und Flight Seat Pro Boeing Military Edition (B0D72ZPC2K)",
+      "grund": "Nur Sitz-Erweiterung zum Flight Stand Pro – im Top-5-Text zum Flight Stand Pro als Ergänzung nennen, nicht eigenständig. Gemischte Rezensionen (Snapshot)."
+    },
+    {
+      "name": "GT Omega ART HOTAS Flight Stick Mount (B0FVGK3P99)",
+      "grund": "Nur Zubehör für das GT-Omega-ART-Rennsport-Cockpit, kein eigenes Flugsim-Cockpit; Hinweis für Umbau möglich."
+    },
+    {
+      "name": "Sim-Lab",
+      "grund": "Kein Flugsim-Produkt auf amazon.de gefunden."
+    },
+    {
+      "name": "Thrustmaster TM Flying Clamp (B089ZCH3KY)",
+      "grund": "Tischklemme – laut Abgrenzung Zubehörhinweis (gaming-tische / Joystick-/Schubhebel-Seite), kein Cockpit."
+    },
+    {
+      "name": "OPLITE GTR S8 Infinity (B0CK776VYS)",
+      "grund": "Primär Sim-Racing-Cockpit (Abgrenzung → sim-racing-cockpits)."
+    },
+    {
+      "name": "Trak Racer Flight Sim Upgrade-Halterung TR-FS02 (B0BFRQ7K78)",
+      "grund": "Laut Prüfer auf amazon.de „derzeit nicht verfügbar“ → nur noch als where-Hinweis in Top 5."
+    },
+    {
+      "name": "HOTAS-Tisch-/Stuhlhalterungen (Hikig, EG STARTS, J-Pein, Reyann, Meza Sim)",
+      "grund": "Als Ersatz für den Umbau-Intent geprüft: austauschbare No-Name-Halterungen bzw. Klemmen, laut Abgrenzung keine Cockpits."
+    }
+  ],
+  "offen": [
+    "Verfügbarkeit nur aus Such-Snapshots: B0BFBWPLNM (Boeing Military) und B0BFC1WKPJ (Standard) zeigten Preise, Parallel-Listings (B0BM4T5PKX, B0BM4SZ7JK) teils ohne Buy-Box. Vor Livegang im Browser prüfen; falls B0BFBWPLNM ausfällt, Platz 3 auf Boeing Commercial Edition B0BFBXCSGK tauschen.",
+    "Nur zwei Kernmarken (Next Level Racing, Wheel Stand Pro) – wie in der Struktur vorgesehen; Playseat, GT Omega, Trak Racer, Sim-Lab, Marada haben kein empfehlenswertes, aktiv gelistetes Flugsim-Cockpit auf amazon.de.",
+    "Rollenkandidat „NLR Flight Simulator MSFS Edition“ nicht als Komplettpaket auf amazon.de auffindbar (nur Sitz NLR-S044B). Herstellerpreis laut Pressemitteilung 899 € – nicht auf der Seite nennen.",
+    "Airbus-Sidestick (Top-5-Intent) nicht als eigenes Produkt besetzt: Für Sidesticks eignen sich die Seitenarme der NLR-Cockpits (Top 3 Platz 1/3); Text entsprechend formulieren.",
+    "Umbau-Hinweis für /sim-racing-cockpits/: NLR Flight Packs (Combat B07VHWS9J9, Lite B095Z3GS1C) derzeit nicht auf amazon.de verfügbar → Querverweis vorerst ohne Produktlink.",
+    "Kein Awin-Händler nötig (alle Produkte über Amazon); joined sind heute nur Rewe DE, Radwelt-shop, brickzonehub.",
+    "Top-5-Platz 5 (Umbau eines Sim-Racing-Rigs) hat keinen Link (where); Ersatz-ASIN prüfen, sobald ein NLR-Flight-Pack oder Trak Racer TR-FS02 wieder verfügbar ist.",
+    "Wheel Stand Pro B00DIQ3168: Versionsstand (V1/Deluxe V2) des Listings nicht belegt; Maße im Text als Herstellerangabe zur aktuellen Version formulieren."
+  ],
+  "quellen": [
+    {
+      "titel": "NLR Support: Flight Simulator (NLR-S018)",
+      "url": "https://support.nextlevelracing.com/hc/en-us/articles/13705178363407-Next-Level-Racing-Flight-Simulator-NLR-S018"
+    },
+    {
+      "titel": "NLR Support: Flight Simulator Boeing Military Edition (NLR-S028)",
+      "url": "https://support.nextlevelracing.com/hc/en-us/articles/13018914765327-Flight-Simulator-Boeing-Military-Edition-NLR-S028"
+    },
+    {
+      "titel": "NLR: Flight Simulator Boeing Military Edition",
+      "url": "https://nextlevelracing.com/products/boeing-combat-flight-simulator/"
+    },
+    {
+      "titel": "NLR: Flight Simulator",
+      "url": "https://nextlevelracing.com/products/flight-simulator/"
+    },
+    {
+      "titel": "NLR: Flight Stand Pro",
+      "url": "https://nextlevelracing.com/products/flight-stand-pro/"
+    },
+    {
+      "titel": "NLR Support: Flight Stand Pro (NLR-S032)",
+      "url": "https://support.nextlevelracing.com/hc/en-us/articles/13018953534607-Flight-Stand-Pro-NLR-S032"
+    },
+    {
+      "titel": "NLR Support: Flight Simulator MSFS Edition (NLR-S044A/B)",
+      "url": "https://support.nextlevelracing.com/hc/en-us/articles/13025177489423-Flight-Simulator-MSFS-Edition-NLR-S044A-and-NLR-S044B"
+    },
+    {
+      "titel": "Wheel Stand Pro für Saitek Pro Flight Yoke – Deluxe V2",
+      "url": "https://wheelstandpro.com/product/wheel-stand-pro-for-saitek-pro-flight-yoke-system-deluxe-v2/?region=europe"
+    },
+    {
+      "titel": "Wheel Stand Pro für Honeycomb Yoke und Throttle",
+      "url": "https://wheelstandpro.com/product/wheel-stand-pro-for-honeycomb-yoke-and-throttle/?region=usa"
+    },
+    {
+      "titel": "TweakTown: Next Level Racing Flight Simulator MSFS Edition Review",
+      "url": "https://www.tweaktown.com/reviews/11619/next-level-racing-flight-simulator-msfs-edition/index.html"
+    },
+    {
+      "titel": "amazon.de: NLR Flight Simulator (B0BFC1WKPJ)",
+      "url": "https://www.amazon.de/dp/B0BFC1WKPJ"
+    },
+    {
+      "titel": "amazon.de: NLR Boeing Military Edition (B0BFBWPLNM)",
+      "url": "https://www.amazon.de/dp/B0BFBWPLNM"
+    },
+    {
+      "titel": "amazon.de: Wheel Stand Pro Saitek Pro Flight Yoke (B00DIQ3168)",
+      "url": "https://www.amazon.de/dp/B00DIQ3168"
+    },
+    {
+      "titel": "amazon.de: Playseat Air Force (Renewed)",
+      "url": "https://www.amazon.de/dp/B083VXQR3T"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "visuals": {
+    "1": {
+      "kind": "joystick",
+      "tone": "forest"
+    },
+    "2": {
+      "kind": "joystick",
+      "tone": "green"
+    },
+    "3": {
+      "kind": "joystick",
+      "tone": "mint"
+    }
+  },
+  "steps": {
+    "title": "Flugsimulator-Joystick einrichten",
+    "subtitle": "Von der Plattform bis zur Achsbelegung",
+    "alt": "Infografik: Flugsimulator-Joystick einrichten – Plattform klären, Platz am Tisch, Anschließen, Kalibrieren, Achsen und Tasten belegen, Profil sichern",
+    "caption": "Erst Plattform prüfen, dann im Simulator kalibrieren und Achsen sauber belegen.",
+    "steps": [
+      {
+        "title": "Plattform klären",
+        "text": "Prüfen, ob der Stick für PC, PS5 oder Xbox freigegeben ist – Konsolen erkennen nur zertifizierte Geräte."
+      },
+      {
+        "title": "Platz am Tisch",
+        "text": "Stick vor die Schreibhand, Schubregler auf die andere Seite – Ellbogen locker aufgelegt."
+      },
+      {
+        "title": "Anschließen",
+        "text": "Per USB direkt am PC oder an der Konsole anschließen, ggf. Treiber oder Firmware des Herstellers installieren."
+      },
+      {
+        "title": "Kalibrieren",
+        "text": "Im Simulator die Achsen prüfen und bei Bedarf Totzone und Empfindlichkeit anpassen."
+      },
+      {
+        "title": "Achsen und Tasten belegen",
+        "text": "Querruder, Höhenruder, Schub und Ruder zuweisen, wichtige Funktionen auf Hütchen und Abzug legen."
+      },
+      {
+        "title": "Profil sichern",
+        "text": "Belegung als eigenes Profil speichern, damit sie Updates und Gerätewechsel übersteht."
+      }
+    ]
+  },
+  "scoresAlt": "Balkendiagramm: Bewertung der drei besten Flugsimulator-Joysticks in den Kriterien Präzision & Sensorik, Plattform-Kompatibilität, Tasten & Achsen, Verarbeitung & Ergonomie und Preis-Leistung",
+  "scoresCaption": "Unsere Bewertung je Kriterium für die drei empfohlenen Modelle.",
+  "neueFormen": [
+    "joystick"
+  ],
+  "offen": [
+    "Kriterien in scoresAlt sind ein Entwurf – an die finalen Bewertungskriterien anpassen.",
+    "Steps sind allgemeine Vorgehensschritte; Anschlussdetails (z. B. Pedale über Stick/Yoke) erst nach Produktrecherche konkretisieren."
+  ]
+}

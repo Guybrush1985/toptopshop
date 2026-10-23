@@ -85,6 +85,9 @@ Definiert in `src/templates/visuals.mjs`; neue Formen ergänzt der Illustrator-A
 - Kinder & Spielzimmer (Set `OBJECTS`): `triangle`, `slide`, `climbwall`, `ladder`, `swing`, `tent`, `mat`, `tower`,
   `sandbox`, `zipline`, `bouncy`, `waterslide`, `shelf`, `wardrobe`, `kidtable`, `rug`, `sideboard`, `cloth`
 - Sammeln & Garten (Set `OBJECTS`): `vitrine`, `frame`, `minifig`, `ledkit`, `snowblower`, `blower`
+- Flugsimulator (Set `OBJECTS`): `joystick` (HOTAS: Stick + Schubregler), `yoke` (Steuerhorn mit Tischgehäuse),
+  `pedals` (Ruderpedale), `throttle` (Schubhebel-Quadrant), `flightrig` (Cockpit-Rahmen mit Sitz),
+  `flightstand` (Klapp-Ständer ohne Sitz)
 
 ### Textbausteine in `sections[].blocks`
 

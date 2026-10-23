@@ -1,0 +1,266 @@
+{
+  "slug": "bester-flugsimulator-schubhebel",
+  "stand": "2026-10-23",
+  "criteria": [
+    { "key": "realismus", "label": "Realismus & Hebel", "weight": 0.3, "description": "Anzahl und Austauschbarkeit der Hebel/Griffe, Raststufen (Idle, Climb, TOGA), Umkehrschub, einstellbarer Hebelwiderstand, Eignung für 1- bis 4-motorige Flugzeuge." },
+    { "key": "funktionen", "label": "Funktionen & Ausstattung", "weight": 0.25, "description": "Zusätzliche Bedienelemente: Autopilot, Klappen, Fahrwerk, Trimmrad, Spoiler, Anzeigen/Warnlampen, Anzahl programmierbarer Tasten." },
+    { "key": "verarbeitung", "label": "Verarbeitung & Haltbarkeit", "weight": 0.25, "description": "Sensortechnik (Hall/Magnet statt Potentiometer), Materialien, Stabilität am Tisch, Garantie, wiederkehrende Mängel laut Nutzerberichten." },
+    { "key": "kompatibilitaet", "label": "Kompatibilität", "weight": 0.2, "description": "Plattformen laut Hersteller (PC/Mac, Xbox, PS5), Unterstützung von MSFS 2024, X-Plane, Prepar3D; Zusammenspiel mit Yoke/Sidestick und Pedalen." }
+  ],
+  "priceTiers": {
+    "vorschlag": true,
+    "1": "bis ca. 120 €",
+    "2": "ca. 120–300 €",
+    "3": "über 300 €",
+    "hinweis": "Abgeleitet aus amazon.de-Suchsnapshots (Oktober 2026), keine festen Preise auf der Seite nennen."
+  },
+  "products": [
+    {
+      "rank": 1,
+      "label": "Beste Gesamtwahl",
+      "name": "Honeycomb Aeronautical Bravo Throttle Quadrant mit Auto Pilot & Annunciator Panel",
+      "brand": "Honeycomb Aeronautical",
+      "variant": "Bravo Throttle Quadrant (Vollversion mit Autopilot-Panel)",
+      "priceTier": 2,
+      "ratings": { "realismus": 8.5, "funktionen": 9.5, "verarbeitung": 8.0, "kompatibilitaet": 7.5 },
+      "gesamt": 8.43,
+      "bestFor": "Wer vom einmotorigen Kleinflugzeug bis zum vierstrahligen Airliner alles fliegt und Autopilot, Fahrwerk, Klappen und Trimmung in einem Gerät haben möchte – idealer Partner zum Honeycomb Alpha oder einem anderen Yoke am PC.",
+      "fakten": [
+        { "text": "Im Lieferumfang 6 GA-Hebel (Throttle, Prop, Mixture) und 6 Airliner-Hebel (u. a. Klappen, Spoiler, Schubhebel mit Umkehrschub); konfigurierbar vom Einmotorigen bis zum Vierstrahler", "art": "Händlerangabe", "quelle": "https://www.sportys.com/honeycomb-bravo-throttle-quadrant.html", "datum": "2026-10" },
+        { "text": "Autopilot-Panel (Höhe, Vertikalgeschwindigkeit, Kurs, Course, Geschwindigkeit) mit 7 beleuchteten Tasten, Annunciator-Panel mit 14 Warnlampen, Fahrwerkshebel mit LED-Anzeige, GA-Klappenhebel und Trimmrad", "art": "Händlerangabe", "quelle": "https://www.sportys.com/honeycomb-bravo-throttle-quadrant.html", "datum": "2026-10" },
+        { "text": "Kompatibel mit PC und Mac; X-Plane 11/12, Prepar3D und Microsoft Flight Simulator; USB-C auf USB-A; 2 Jahre Garantie; Gewicht ca. 2,4 kg (5 lbs 4 oz)", "art": "Händlerangabe", "quelle": "https://www.sportys.com/honeycomb-bravo-throttle-quadrant.html", "datum": "2026-10" },
+        { "text": "An der Xbox nur über den separat erhältlichen Honeycomb Xbox Hub (bzw. Alpha XPC als Brücke); dann funktionieren Achsen und Tasten, Lichter und Annunciator-Panel jedoch nicht. Sporty's führt das Gerät als nicht Xbox-kompatibel – Angaben uneinheitlich", "art": "Händlerangabe", "quelle": "https://www.aerosoft.com/en/shop/flight/hardware/throttles/2568/honeycomb-bravo-throttle-quadrant", "datum": "2026-10" },
+        { "text": "simulatorhardware.com führt den Bravo als Spitzenreiter seines MSFS-2024-Throttle-Rankings (80,5/100 Punkte, Stand März 2026); gelobt werden sechs Hebel mit physischen Raststufen, kritisiert die gemischte Bauqualität (Kunststoff/Metall)", "art": "Test", "quelle": "https://www.simulatorhardware.com/flight/best-throttle-quadrants-for-flight-simulator/", "datum": "2026-03" },
+        { "text": "Rund 1.600 Bewertungen auf amazon.de, Schnitt ca. 4,5 Sterne (Snapshot)", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B07SK43CJ6", "datum": "2026-10" },
+        { "text": "Optional: Honeycomb Throttle Pack für Airbus A319–A380 als Griffsatz-Erweiterung (amazon.de B09496886D)", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B09496886D", "datum": "2026-10" }
+      ],
+      "pros": [
+        "Einziges Gerät im Vergleich mit Autopilot-Panel, Fahrwerk, Trimmrad und Warnlampen",
+        "Wechselbare Hebelsätze für GA- und Airliner-Betrieb, Umkehrschub an den Airliner-Hebeln",
+        "Breite Simulator-Unterstützung (MSFS, X-Plane, Prepar3D), auch Mac",
+        "Zwei Jahre Garantie laut Händler"
+      ],
+      "cons": [
+        "Xbox nur über Zusatz-Hub, dann ohne Beleuchtung und Annunciator",
+        "Keine PS5-Unterstützung",
+        "Großer Platzbedarf (ca. 30 × 30 cm laut Bericht)",
+        "Nutzerberichte über empfindliches Trimmrad bzw. Software-Einrichtung (Lichter-Tool)"
+      ],
+      "specs": {
+        "Hebel": "6 (je ein GA- und ein Airliner-Satz im Lieferumfang)",
+        "Umkehrschub": "ja (Airliner-Hebel 1–4)",
+        "Autopilot": "ja, mit beleuchteten Tasten",
+        "Fahrwerk/Klappen/Trimmung": "ja/ja/ja",
+        "Plattform": "PC, Mac; Xbox nur eingeschränkt per Hub",
+        "Anschluss": "USB-C auf USB-A",
+        "Garantie": "2 Jahre (Händlerangabe)"
+      },
+      "asin": "B07SK43CJ6",
+      "query": "Honeycomb Aeronautical Bravo Throttle Quadrant",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "Honeycomb Aeronautical Bravo Throttle Quadrant mit Auto Pilot & Annunciator Panel in Luftfahrt-Qualität für Flug-Simulatoren (amazon.de/dp/B07SK43CJ6, per WebSearch, Snapshot ca. 4,5 Sterne/1.600 Bewertungen, lieferbar)"
+    },
+    {
+      "rank": 2,
+      "label": "Bestes Preis-Leistungs-Verhältnis",
+      "name": "Logitech G Saitek Pro Flight Throttle Quadrant",
+      "brand": "Logitech G (Saitek)",
+      "variant": "Modell 945-000015",
+      "priceTier": 1,
+      "ratings": { "realismus": 6.5, "funktionen": 6.0, "verarbeitung": 6.5, "kompatibilitaet": 6.0 },
+      "gesamt": 6.28,
+      "bestFor": "Günstiger Einstieg für Propellerflugzeuge (Gas, Propeller, Gemisch) und als Zweit-Quadrant für Mehrmotorige – passt zum Logitech Pro Flight Yoke, funktioniert aber mit jedem Yoke am PC.",
+      "fakten": [
+        { "text": "Drei Achsenhebel mit abnehmbaren Griffköpfen (Gas, Klappen, Gemisch, Propeller frei zuordenbar), zusätzliche Griffköpfe und ein 4-fach-Knauf zum Koppeln von vier Hebeln für vierstrahlige Flugzeuge (mit zweitem Quadranten)", "art": "Herstellerangabe", "quelle": "https://www.logitechg.com/en-gb/products/flight/flight-simulator-throttle-quadrant.945-000015.html", "datum": "2026-10" },
+        { "text": "Drei Zwei-Wege-Kippschalter für insgesamt neun programmierbare Befehle; Raste am unteren Hebelende (laut Logitech für Leerlauf und Umkehrschub nutzbar)", "art": "Herstellerangabe", "quelle": "https://www.logitechg.com/en-us/products/flight/flight-simulator-yoke-system.html", "datum": "2026-10" },
+        { "text": "Nur PC: Windows 11, 10, 8.1, 7; USB, Kabel 1,8 m; Gewicht ohne Klemme 501 g; Klemme für Tischkante oder Tischoberseite", "art": "Herstellerangabe", "quelle": "https://www.logitechg.com/en-gb/products/flight/flight-simulator-throttle-quadrant.945-000015.html", "datum": "2026-10" },
+        { "text": "simulatorhardware.com: 77,5/100 Punkte im MSFS-2024-Throttle-Ranking; drei frei belegbare Hebel, aber Kunststoffbau und geringe Hebelzahl für Airliner", "art": "Test", "quelle": "https://www.simulatorhardware.com/products/logitech-saitek-pro-throttle-quadrant/", "datum": "2026" },
+        { "text": "Rund 770 Bewertungen auf amazon.de, ca. 4,3 Sterne; Kritik an Kunststoffbau, zitternden Achsen und mit der Zeit nachlassenden Potentiometern", "art": "Bericht", "quelle": "https://www.amazon.de/dp/B01MG4DCMD", "datum": "2026-10" }
+      ],
+      "pros": [
+        "Günstigster Quadrant im Vergleich",
+        "Wechselbare Griffköpfe für Gas/Propeller/Gemisch – ideal für Kolbenmotor-Flugzeuge",
+        "Mehrere Quadranten kombinierbar (4-fach-Knauf für Vierstrahler)",
+        "Kompakt, an Tischkante oder -oberseite montierbar"
+      ],
+      "cons": [
+        "Nur PC (Windows), keine Konsole",
+        "Kunststoff und Potentiometer statt Magnetsensoren – Verschleiß laut Nutzerberichten",
+        "Keine Autopilot-, Fahrwerks- oder Trimmfunktionen"
+      ],
+      "specs": {
+        "Hebel": "3 mit wechselbaren Griffköpfen",
+        "Schalter": "3 Zwei-Wege-Kippschalter (9 Befehle)",
+        "Plattform": "PC (Windows 7–11)",
+        "Anschluss": "USB, 1,8 m",
+        "Gewicht": "501 g ohne Klemme"
+      },
+      "asin": "B01MG4DCMD",
+      "query": "Logitech G Saitek Pro Flight Throttle Quadrant",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "Logitech G Saitek Pro Flight Throttle Quadrant, Simulations-Achsenschalthebel für Flugsimulatoren … PC, Schwarz (amazon.de/dp/B01MG4DCMD, Modell 945-000015, per WebSearch). Hinweis: Zweites Listing B01M00UHE3 ('Logitech G Saitek Pro Flight Throttle Quadrant', ca. 1.600 Bewertungen) existiert ebenfalls; Amazon-Hinweis 'Preis höher als üblich' beim Hauptlisting – Verfügbarkeit vor Merge prüfen."
+    },
+    {
+      "rank": 3,
+      "label": "Beste Wahl für Airbus",
+      "name": "Thrustmaster TCA Quadrant Airbus Edition",
+      "brand": "Thrustmaster",
+      "variant": "Airbus-lizenzierter Schubhebel-Quadrant (A320neo-Nachbildung), PC",
+      "priceTier": 1,
+      "ratings": { "realismus": 8.5, "funktionen": 6.5, "verarbeitung": 8.0, "kompatibilitaet": 7.5 },
+      "gesamt": 7.68,
+      "bestFor": "Airbus-Fans (A320-Familie) mit Sidestick, die echte Schub-Raststufen und Umkehrschub wollen; mit dem Add-On um Klappen und Spoiler erweiterbar.",
+      "fakten": [
+        { "text": "Offiziell Airbus-lizenzierte Nachbildung des A320neo-Quadranten mit Raststufen Idle, Climb, Flex und TO/GA sowie Umkehrschub-Mechanik; Raststufen und Reverser lassen sich mechanisch abschalten (lineare Achse, z. B. für GA)", "art": "Herstellerangabe", "quelle": "https://www.thrustmaster.com/en-us/products/tca-quadrant-airbus-edition/", "datum": "2026-10" },
+        { "text": "2 Engine-Master-Schalter, Engine-Mode-Wahlschalter; 8 physische + 8 virtuelle Tasten (16 Aktionstasten)", "art": "Herstellerangabe", "quelle": "https://www.thrustmaster.com/en-us/products/tca-quadrant-airbus-edition/", "datum": "2026-10" },
+        { "text": "Kontaktlose Magnetsensoren (H.E.A.R.T.) ohne Potentiometer – laut Hersteller verschleißfrei", "art": "Herstellerangabe", "quelle": "https://www.thrustmaster.com/en-us/products/tca-quadrant-airbus-edition/", "datum": "2026-10" },
+        { "text": "Xbox Series X|S: nur angeschlossen an den USB-A-Port des TCA Sidestick X Airbus Edition (keine USB-Hubs); zwei Quadranten (Triebwerke 1&2 und 3&4) möglich; Cloud-Gaming nicht unterstützt; keine PS5-Unterstützung genannt", "art": "Herstellerangabe", "quelle": "https://support.thrustmaster.com/en/kb/1768-en/", "datum": "2026-10" },
+        { "text": "Clubic (Frankreich) testete Quadrant und Add-On ausführlich (3-m-USB-Kabel, 16 Tasten, zwei getrennte Hebel); God is a Geek lobt solide Verarbeitung, kritisiert die Sperrigkeit", "art": "Test", "quelle": "https://www.clubic.com/thrustmaster/test-41780-thrustmaster-tca-quadrant-et-addon-airbus-edition-le-kit-du-parfait-pilote-de-ligne.html", "datum": "laut Berichten, Datum nicht ermittelt" },
+        { "text": "simulatorhardware.com: 77,5/100 Punkte im MSFS-2024-Throttle-Ranking; saubere Idle-/TOGA-Raststufen, zwei Hebel für Turboprop/Mehrmotorer-Kolben aber limitierend", "art": "Test", "quelle": "https://www.simulatorhardware.com/flight/best-throttle-quadrants-for-flight-simulator/", "datum": "2026-03" },
+        { "text": "Ca. 4,4–4,5 Sterne auf amazon.de bei mehreren tausend Bewertungen (Snapshots schwanken)", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B086J7D78J", "datum": "2026-10" }
+      ],
+      "pros": [
+        "Originalgetreue Airbus-Raststufen inkl. Umkehrschub",
+        "Magnetsensoren ohne Potentiometer-Verschleiß",
+        "Erweiterbar mit Add-On (Klappen, Spoiler) und zweitem Quadranten für A380/A340",
+        "Am PC sofort nutzbar, an der Xbox über Sidestick X"
+      ],
+      "cons": [
+        "Nur zwei Schubhebel, kein Klappen-/Fahrwerkshebel ohne Add-On",
+        "Xbox nur in Verbindung mit TCA Sidestick X; keine PS5",
+        "Ohne Raststufen-Abschaltung wenig GA-tauglich"
+      ],
+      "specs": {
+        "Hebel": "2 Schubhebel mit Umkehrschub",
+        "Raststufen": "Idle, Climb, Flex, TO/GA (abschaltbar)",
+        "Tasten": "16 Aktionstasten (8 physisch, 8 virtuell)",
+        "Sensoren": "Magnetisch (H.E.A.R.T.)",
+        "Plattform": "PC (Windows 10/11); Xbox Series X|S nur über TCA Sidestick X",
+        "Erweiterung": "TCA Quadrant Add-On Airbus Edition (Klappen, Spoiler)"
+      },
+      "asin": "B086J7D78J",
+      "query": "Thrustmaster TCA Quadrant Airbus Edition",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "Thrustmaster TCA Quadrant Airbus Edition - Flight-Sim-Schubhebel - PC (amazon.de/dp/B086J7D78J, per WebSearch, mehrere übereinstimmende Snapshots)"
+    }
+  ],
+  "top5": [
+    {
+      "name": "Thrustmaster TCA Captain Pack X Airbus Edition - XBOX & PC",
+      "warum": "Airbus komplett für Xbox: Sidestick X, TCA Quadrant und Klappen-/Spoiler-Add-On; der Ecosystem-Hub im Sidestick verbindet alles mit einem USB-Kabel zur Konsole.",
+      "fakten": [
+        { "text": "Offiziell lizenziert für Xbox Series X|S, kompatibel mit PC; Lieferumfang laut US-Produktseite: TCA Sidestick X Airbus Edition, TCA Quadrant Airbus Edition mit zwei Add-On-Modulen (Klappen, Speedbrake), 4 wechselbare Stick-Köpfe", "art": "Herstellerangabe", "quelle": "https://www.thrustmaster.com/en-us/products/tca-captain-pack-x-airbus-edition/", "datum": "2026-10" },
+        { "text": "Ecosystem-Hub auf der Rückseite des Sidesticks: Sidestick und Quadrant (mit/ohne Add-On) sowie Thrustmaster-Pedale über ein USB-Kabel", "art": "Herstellerangabe", "quelle": "https://www.thrustmaster.com/en-us/products/tca-captain-pack-x-airbus-edition/", "datum": "2026-10" }
+      ],
+      "asin": "B0B4SS2DNS",
+      "asinGeprueft": "Thrustmaster TCA Captain Pack X Airbus Edition - XBOX & PC (amazon.de/dp/B0B4SS2DNS)",
+      "query": "Thrustmaster TCA Captain Pack X Airbus Edition",
+      "where": null
+    },
+    {
+      "name": "Thrustmaster TCA Quadrant Boeing Edition",
+      "warum": "Für Boeing-Flieger (737/787): Boeing-lizenzierter Quadrant mit Schubhebeln, Speedbrake und Klappen, linearem Widerstand und Autopilot-Bedienelementen; Xbox-lizenziert.",
+      "fakten": [
+        { "text": "Offiziell Boeing- und Xbox-lizenziert (Xbox One, Xbox Series X|S), kompatibel mit PC; 17 Aktionstasten, Magnetsensoren an allen 3 Achsen, 4 wechselbare Hebel (Speedbrake/Klappen links oder rechts)", "art": "Herstellerangabe", "quelle": "https://shop.thrustmaster.com/en_eu/tca-quadrant-boeing-edition.html", "datum": "2026-10" },
+        { "text": "An der Xbox nur zusammen mit dem TCA Yoke Boeing Edition nutzbar; X-Plained-Fazit (zitiert bei Aerosoft): solide Hebel, Widerstand nicht einstellbar, Autopilot-Funktionen begrenzt", "art": "Bericht", "quelle": "https://www.aerosoft.com/en/shop/flight/hardware/throttles/3640/thrustmaster-tca-quadrant-boeing-edition", "datum": "2026-10" }
+      ],
+      "asin": null,
+      "asinGeprueft": "Kein eindeutiges Einzel-Listing gefunden: B0BFJG2SDK trägt den Titel 'Thrustmaster TCA Quadrant Boeing Edition … & TFRP - Rudder Pedals für PC' (Bundle-Mischtitel), daher nicht übernommen. Als Pack mit Yoke: TCA Yoke Pack Boeing Edition B09GRLDWV2.",
+      "query": "Thrustmaster TCA Quadrant Boeing Edition",
+      "where": null
+    },
+    {
+      "name": "Honeycomb Bravo Throttle Quadrant Lite",
+      "warum": "Schlankere, günstigere Bravo-Variante ohne Autopilot- und Warnlampen-Panel: vier Hebel mit einstellbarem Widerstand, Trimmrad, Fahrwerk und Parkbremse – für GA und zweimotorige Flugzeuge am PC.",
+      "fakten": [
+        { "text": "Vier wechselbare Hebel mit einzeln einstellbarem Widerstand, austauschbare Klappen-Rasteinsätze, flaches hochauflösendes Trimmrad, Fahrwerkshebel mit LED-Anzeige, integrierte Parkbremse; USB-C", "art": "Händlerangabe", "quelle": "https://www.aerosoft.com/en/shop/flight/hardware/throttles/4702/honeycomb-bravo-throttle-quadrant-lite", "datum": "2026-10" },
+        { "text": "Plattform laut Händlern: PC und Mac (MSFS, X-Plane 11/12, Prepar3D); keine Xbox-Angabe. Erscheinungsdatum auf amazon.de: 31.12.2025, bislang nur ca. 30 Bewertungen (ca. 4,1 Sterne)", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B0FDGP595K", "datum": "2026-10" }
+      ],
+      "asin": "B0FDGP595K",
+      "asinGeprueft": "Honeycomb Bravo Throttle Quadrant Lite (amazon.de/dp/B0FDGP595K; Snapshot: nur noch wenige Stück auf Lager)",
+      "query": "Honeycomb Bravo Throttle Quadrant Lite",
+      "where": null
+    },
+    {
+      "name": "Thrustmaster TCA Officer Pack Airbus Edition - Joystick & Schubhebel - PC",
+      "warum": "Bundle für Airbus-Einsteiger am PC: TCA Sidestick Airbus Edition plus TCA Quadrant Airbus Edition (Platz 3) in einem Paket – günstiger als einzeln.",
+      "fakten": [
+        { "text": "Enthält TCA Sidestick Airbus Edition und TCA Quadrant Airbus Edition, offiziell Airbus-lizenziert, nur PC (Windows); für Xbox ist das Captain Pack X die passende Variante", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B086J6KWTZ", "datum": "2026-10" },
+        { "text": "simulatorhardware.com: 78,6/100 Punkte für MSFS 2024", "art": "Test", "quelle": "https://www.simulatorhardware.com/products/thrustmaster-tca-officer-pack-airbus/", "datum": "2026" }
+      ],
+      "asin": "B086J6KWTZ",
+      "asinGeprueft": "Thrustmaster TCA Officer Pack Airbus Edition - Joystick & Schubhebel - PC (amazon.de/dp/B086J6KWTZ, Snapshot lieferbar, ca. 4,4 Sterne/1.800 Bewertungen)",
+      "query": "Thrustmaster TCA Officer Pack Airbus Edition",
+      "where": null
+    },
+    {
+      "name": "Thrustmaster TCA Quadrant Add-On Airbus Edition",
+      "warum": "Nachrüstmodul für den TCA Quadrant (Platz 3): Klappenhebel und Speedbrake mit Raststufen für Anflug und Landung – macht aus dem Schubhebel ein vollständiges Airbus-Pult.",
+      "fakten": [
+        { "text": "Klappen- und Speedbrake-Modul mit Raststufen (Speedbrake 4 Raststufen), 10 programmierbare + 5 virtuelle Tasten; Raststufen mechanisch abschaltbar", "art": "Herstellerangabe", "quelle": "https://www.thrustmaster.com/en-us/products/tca-quadrant-add-on-airbus-edition/", "datum": "2026-10" },
+        { "text": "Funktioniert nur angeschlossen an den TCA Quadrant Airbus Edition; PC und Xbox Series X|S je nach Anschluss des Quadranten", "art": "Herstellerangabe", "quelle": "https://support.thrustmaster.com/en/kb/1766-en/", "datum": "2026-10" }
+      ],
+      "asin": "B08BKNBYLP",
+      "asinGeprueft": "Thrustmaster TCA Quadrant Add-On Airbus Edition - Flight-Sim-Gashebel - PC (amazon.de/dp/B08BKNBYLP)",
+      "query": "Thrustmaster TCA Quadrant Add-On Airbus Edition",
+      "where": null
+    }
+  ],
+  "tests": [
+    { "institut": "simulatorhardware.com (englischsprachiges Vergleichsportal, Affiliate-finanziert, kein Labortest)", "heft": "Best Throttle Quadrants for MSFS 2024 — Ranked (2026), Stand März 2026", "ergebnis": "Honeycomb Bravo 80,5/100 (Platz 1); Logitech G Saitek Pro Flight Throttle Quadrant 77,5/100; Thrustmaster TCA Quadrant Airbus 77,5/100; TCA Officer Pack 78,6/100 (eigene Seite)", "quelle": "https://www.simulatorhardware.com/flight/best-throttle-quadrants-for-flight-simulator/" },
+    { "institut": "Clubic (Frankreich)", "heft": "Test Thrustmaster TCA Quadrant et Add-On Airbus Edition (Online, Datum nicht ermittelt)", "ergebnis": "Ausführlicher Praxistest; Gesamtnote im Auszug nicht sichtbar – nur 'laut Berichten' zitieren", "quelle": "https://www.clubic.com/thrustmaster/test-41780-thrustmaster-tca-quadrant-et-addon-airbus-edition-le-kit-du-parfait-pilote-de-ligne.html" },
+    { "institut": "God is a Geek (UK)", "heft": "Thrustmaster TCA Quadrant Airbus Edition review (Online)", "ergebnis": "Hochwertig und stabil, aber recht sperrig; ohne Punktzahl im Auszug", "quelle": "https://godisageek.com/?p=244991" },
+    { "institut": "X-Plained.com (zitiert bei Aerosoft)", "heft": "Review TCA Quadrant Boeing Edition (Online)", "ergebnis": "Solide Hebel, Widerstand nicht einstellbar, kleiner und einfacher als die Airbus-Version, Autopilot begrenzt", "quelle": "https://www.aerosoft.com/en/shop/flight/hardware/throttles/3640/thrustmaster-tca-quadrant-boeing-edition" },
+    { "institut": "Stiftung Warentest, Öko-Test, deutsche Fachmagazine (PCGH, GameStar, Computerbase)", "heft": "–", "ergebnis": "Kein Test von Throttle-Quadranten gefunden (Suche 2026-10-23)", "quelle": "–" }
+  ],
+  "warnungen": [
+    "Keine Rückrufe oder Safety-Gate-Meldungen zu Thrustmaster-, Honeycomb- oder Logitech/Saitek-Schubhebeln gefunden (Websuche 2026-10-23; Safety-Gate-Portal selbst nicht abrufbar).",
+    "PS5: Für MSFS 2024 auf der PS5 ist kein eigenständiger Schubhebel-Quadrant als kompatibel ausgewiesen; laut Pilotmall/Thrustmaster funktionieren auf PS5 nur PS5-lizenzierte Thrustmaster-Geräte (z. B. TCA Sky Yoke mit integriertem Schubhebel, T.Flight Hotas 5) – im Text klar sagen und auf Yoke-/Joystick-Seite verweisen. Quelle: https://www.pilotmall.com/blogs/news/ps5-flight-sim-controls-msfs-2024",
+    "Xbox: Thrustmaster-Quadranten nur über TCA Sidestick X bzw. TCA Yoke Boeing; Honeycomb Bravo nur über Xbox Hub ohne Lichter/Annunciator. Cloud-Gaming/Streaming wird von Thrustmaster-Controllern nicht unterstützt (https://support.thrustmaster.com/en/product/tca-quadrant-airbus-edition-en/)."
+  ],
+  "verworfen": [
+    { "name": "Turtle Beach VelocityOne Flight (Yoke mit integriertem Quadrant)", "grund": "Kein eigenständiger Quadrant (gehört auf die Yoke-Seite); gemischte Rezensionen mit Berichten über defekte Schubhebel (Scout-Bericht)." },
+    { "name": "Thrustmaster TCA Yoke Pack Boeing Edition (B09GRLDWV2)", "grund": "Yoke-Pack – laut Struktur auf der Yoke-Seite; hier nur als Hinweis beim Boeing-Quadrant." },
+    { "name": "Winwing ORION2 Throttle / Virpil MT-50 CM3", "grund": "Militärische HOTAS-Schubregler (Abgrenzung: Joystick-Seite); Winwing laut simulatorhardware.com nicht mehr über Amazon erhältlich." },
+    { "name": "Honeycomb Throttle Pack für Airbus A319–A380 (B09496886D)", "grund": "Nur Griff-Zubehör für den Bravo – als Fakt bei Platz 1 erwähnt, kein eigener Top-5-Platz." },
+    { "name": "Logitech G Saitek Pro Flight Yoke System (B01MCXJWD1)", "grund": "Yoke mit beiliegendem Quadranten – gehört auf die Yoke-Seite." }
+  ],
+  "offen": [
+    "TCA Quadrant Boeing Edition: kein eindeutiges amazon.de-Einzel-Listing (B0BFJG2SDK mit Bundle-Mischtitel inkl. TFRP-Pedalen) → nur query. Vor Merge auf amazon.de prüfen.",
+    "Logitech Throttle Quadrant: zwei amazon.de-Listings (B01MG4DCMD mit Modellnummer 945-000015, Hinweis 'Preis höher als üblich'; B01M00UHE3 mit mehr Bewertungen). B01MG4DCMD eingetragen; Verfügbarkeit/Angebot vor Merge prüfen, ggf. auf B01M00UHE3 wechseln.",
+    "Honeycomb Bravo: Xbox-Kompatibilität in Quellen widersprüchlich (Aerosoft/FlightsimWebshop: über Xbox Hub eingeschränkt; Sporty's: nicht Xbox-kompatibel). Im Text als 'nur eingeschränkt über Zusatz-Hub' formulieren. flyhoneycomb.com aus der Sandbox nicht erreichbar.",
+    "Bravo Lite: neu (seit 31.12.2025), wenige Bewertungen, Snapshot mit geringem Lagerbestand – Verfügbarkeit prüfen.",
+    "Captain Pack X: Lieferumfang des Add-Ons in EU-Paketen laut Thrustmaster-Seiten nicht eindeutig (US-Seite: inklusive) – im Text vorsichtig formulieren oder amazon.de-Beschreibung prüfen.",
+    "Keine deutschsprachigen Fachtests und keine Tests von Stiftung Warentest/Öko-Test zu Schubhebeln – Bewertung beruht auf Herstellerangaben, simulatorhardware.com-Ranking und internationalen Online-Reviews (in der Methodik offenlegen).",
+    "Awin: keine passende Freischaltung (joined nur Rewe DE, Radwelt-shop, brickzonehub) – alle Produkte über Amazon; Hersteller-/Fachhändler (Aerosoft, flightsimwebshop) nicht als Bezugsquelle eingetragen."
+  ],
+  "quellen": [
+    { "titel": "amazon.de – Honeycomb Bravo Throttle Quadrant (B07SK43CJ6)", "url": "https://www.amazon.de/dp/B07SK43CJ6" },
+    { "titel": "amazon.de – Logitech G Saitek Pro Flight Throttle Quadrant (B01MG4DCMD)", "url": "https://www.amazon.de/dp/B01MG4DCMD" },
+    { "titel": "amazon.de – Thrustmaster TCA Quadrant Airbus Edition (B086J7D78J)", "url": "https://www.amazon.de/dp/B086J7D78J" },
+    { "titel": "amazon.de – Thrustmaster TCA Captain Pack X Airbus Edition (B0B4SS2DNS)", "url": "https://www.amazon.de/dp/B0B4SS2DNS" },
+    { "titel": "amazon.de – Honeycomb Bravo Throttle Quadrant Lite (B0FDGP595K)", "url": "https://www.amazon.de/dp/B0FDGP595K" },
+    { "titel": "amazon.de – Thrustmaster TCA Officer Pack Airbus Edition (B086J6KWTZ)", "url": "https://www.amazon.de/dp/B086J6KWTZ" },
+    { "titel": "amazon.de – Thrustmaster TCA Quadrant Add-On Airbus Edition (B08BKNBYLP)", "url": "https://www.amazon.de/dp/B08BKNBYLP" },
+    { "titel": "Sporty's – Honeycomb Bravo Throttle Quadrant", "url": "https://www.sportys.com/honeycomb-bravo-throttle-quadrant.html" },
+    { "titel": "Aerosoft – Honeycomb Bravo Throttle Quadrant", "url": "https://www.aerosoft.com/en/shop/flight/hardware/throttles/2568/honeycomb-bravo-throttle-quadrant" },
+    { "titel": "Aerosoft – Honeycomb Bravo Throttle Quadrant Lite", "url": "https://www.aerosoft.com/en/shop/flight/hardware/throttles/4702/honeycomb-bravo-throttle-quadrant-lite" },
+    { "titel": "Aerosoft – Thrustmaster TCA Quadrant Boeing Edition", "url": "https://www.aerosoft.com/en/shop/flight/hardware/throttles/3640/thrustmaster-tca-quadrant-boeing-edition" },
+    { "titel": "Thrustmaster – TCA Quadrant Airbus Edition", "url": "https://www.thrustmaster.com/en-us/products/tca-quadrant-airbus-edition/" },
+    { "titel": "Thrustmaster – TCA Quadrant Add-On Airbus Edition", "url": "https://www.thrustmaster.com/en-us/products/tca-quadrant-add-on-airbus-edition/" },
+    { "titel": "Thrustmaster – TCA Captain Pack X Airbus Edition", "url": "https://www.thrustmaster.com/en-us/products/tca-captain-pack-x-airbus-edition/" },
+    { "titel": "Thrustmaster Shop – TCA Quadrant Boeing Edition", "url": "https://shop.thrustmaster.com/en_eu/tca-quadrant-boeing-edition.html" },
+    { "titel": "Thrustmaster Support – TCA Quadrant Airbus an der Xbox", "url": "https://support.thrustmaster.com/en/kb/1768-en/" },
+    { "titel": "Thrustmaster Support – TCA Quadrant Add-On anschließen", "url": "https://support.thrustmaster.com/en/kb/1766-en/" },
+    { "titel": "Logitech G – Flight Throttle Quadrant (945-000015)", "url": "https://www.logitechg.com/en-gb/products/flight/flight-simulator-throttle-quadrant.945-000015.html" },
+    { "titel": "simulatorhardware.com – Best Throttle Quadrants for MSFS 2024 (2026)", "url": "https://www.simulatorhardware.com/flight/best-throttle-quadrants-for-flight-simulator/" },
+    { "titel": "simulatorhardware.com – Logitech G Saitek Pro Flight Throttle Quadrant", "url": "https://www.simulatorhardware.com/products/logitech-saitek-pro-throttle-quadrant/" },
+    { "titel": "simulatorhardware.com – TCA Officer Pack Airbus Edition", "url": "https://www.simulatorhardware.com/products/thrustmaster-tca-officer-pack-airbus/" },
+    { "titel": "Clubic – Test TCA Quadrant & Add-On Airbus Edition", "url": "https://www.clubic.com/thrustmaster/test-41780-thrustmaster-tca-quadrant-et-addon-airbus-edition-le-kit-du-parfait-pilote-de-ligne.html" },
+    { "titel": "God is a Geek – TCA Quadrant Airbus Edition review", "url": "https://godisageek.com/?p=244991" },
+    { "titel": "Pilotmall – PS5 Flight Sim Controls for MSFS 2024", "url": "https://www.pilotmall.com/blogs/news/ps5-flight-sim-controls-msfs-2024" }
+  ]
+}
