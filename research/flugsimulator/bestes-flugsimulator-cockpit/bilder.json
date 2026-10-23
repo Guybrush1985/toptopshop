@@ -1,0 +1,59 @@
+{
+  "visuals": {
+    "1": {
+      "kind": "flightrig",
+      "tone": "forest"
+    },
+    "2": {
+      "kind": "flightstand",
+      "tone": "green"
+    },
+    "3": {
+      "kind": "flightrig",
+      "tone": "mint"
+    }
+  },
+  "steps": {
+    "title": "Flugsimulator-Cockpit aufbauen",
+    "subtitle": "Platz, Montage und Ergonomie",
+    "alt": "Infografik: Flugsimulator-Cockpit aufbauen – Steuerung festlegen, Platz messen, Rahmen aufbauen, Geräte montieren, Ergonomie einstellen, Im Simulator prüfen",
+    "caption": "Stellfläche messen, Rahmen fest verschrauben, dann Geräte und Sitz auf den Körper einstellen.",
+    "steps": [
+      {
+        "title": "Steuerung festlegen",
+        "text": "Klären, ob Yoke, HOTAS oder Sidestick montiert werden soll – danach richten sich Platten und Arme."
+      },
+      {
+        "title": "Platz messen",
+        "text": "Stellfläche inklusive Sitzverstellung und Monitor ausmessen, Durchgang frei lassen."
+      },
+      {
+        "title": "Rahmen aufbauen",
+        "text": "Rahmen nach Anleitung zu zweit montieren und alle Schrauben nachziehen."
+      },
+      {
+        "title": "Geräte montieren",
+        "text": "Yoke, Stick, Schubhebel und Pedale auf die Platten schrauben statt klemmen."
+      },
+      {
+        "title": "Ergonomie einstellen",
+        "text": "Sitz, Pedalabstand und Höhe der Platten so anpassen, dass Arme und Beine entspannt bleiben."
+      },
+      {
+        "title": "Im Simulator prüfen",
+        "text": "Alle Achsen kalibrieren und Kabel so verlegen, dass sie beim Verstellen nicht spannen."
+      }
+    ]
+  },
+  "scoresAlt": "Balkendiagramm: Bewertung der drei besten Flugsimulator-Cockpits in den Kriterien Stabilität, Montage-Flexibilität, Ergonomie & Sitz, Platzbedarf & Aufbau und Preis-Leistung",
+  "scoresCaption": "Unsere Bewertung je Kriterium für die drei empfohlenen Modelle.",
+  "neueFormen": [
+    "flightrig",
+    "flightstand"
+  ],
+  "offen": [
+    "Kriterien in scoresAlt sind ein Entwurf – an die finalen Bewertungskriterien anpassen.",
+    "Steps sind allgemeine Vorgehensschritte; Anschlussdetails (z. B. Pedale über Stick/Yoke) erst nach Produktrecherche konkretisieren.",
+    "Visuals nach Rollen-Bauform: 1 Komplett-Cockpit (flightrig), 2 Ständer ohne Sitz (flightstand), 3 Premium-Cockpit (flightrig). Falls die Rollen anders besetzt werden, kind tauschen."
+  ]
+}

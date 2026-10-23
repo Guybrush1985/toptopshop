@@ -1,0 +1,57 @@
+{
+  "visuals": {
+    "1": {
+      "kind": "throttle",
+      "tone": "forest"
+    },
+    "2": {
+      "kind": "throttle",
+      "tone": "green"
+    },
+    "3": {
+      "kind": "throttle",
+      "tone": "mint"
+    }
+  },
+  "steps": {
+    "title": "Schubhebel-Quadrant einrichten",
+    "subtitle": "Vom Festklemmen bis zu den Raststufen",
+    "alt": "Infografik: Schubhebel-Quadrant einrichten – Plattform klären, Position wählen, Festklemmen, Griffe wählen, Kalibrieren, Funktionen belegen",
+    "caption": "Hebel auf die passenden Achsen legen und Raststufen im Simulator abgleichen.",
+    "steps": [
+      {
+        "title": "Plattform klären",
+        "text": "Prüfen, ob der Quadrant für PC, Xbox oder PS5 freigegeben ist."
+      },
+      {
+        "title": "Position wählen",
+        "text": "Rechts neben Yoke oder Sidestick bzw. mittig wie im Airliner – erreichbar ohne Umgreifen."
+      },
+      {
+        "title": "Festklemmen",
+        "text": "Tischklemme oder Halterung fest anziehen, damit beim Hebelziehen nichts verrutscht."
+      },
+      {
+        "title": "Griffe wählen",
+        "text": "Griffköpfe passend zum Flugzeugtyp aufstecken, wenn der Quadrant das erlaubt."
+      },
+      {
+        "title": "Kalibrieren",
+        "text": "Im Simulator alle Hebel durch den vollen Weg schieben und Raststufen wie Leerlauf abgleichen."
+      },
+      {
+        "title": "Funktionen belegen",
+        "text": "Schub, Gemisch, Propeller, Klappen und Fahrwerk zuweisen und als Profil speichern."
+      }
+    ]
+  },
+  "scoresAlt": "Balkendiagramm: Bewertung der drei besten Flugsimulator-Schubhebel in den Kriterien Realismus, Kompatibilität, Ausstattung, Verarbeitung und Preis-Leistung",
+  "scoresCaption": "Unsere Bewertung je Kriterium für die drei empfohlenen Modelle.",
+  "neueFormen": [
+    "throttle"
+  ],
+  "offen": [
+    "Kriterien in scoresAlt sind ein Entwurf – an die finalen Bewertungskriterien anpassen.",
+    "Steps sind allgemeine Vorgehensschritte; Anschlussdetails (z. B. Pedale über Stick/Yoke) erst nach Produktrecherche konkretisieren."
+  ]
+}

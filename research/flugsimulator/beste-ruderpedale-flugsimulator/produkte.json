@@ -1,0 +1,266 @@
+{
+  "slug": "beste-ruderpedale-flugsimulator",
+  "stand": "2026-10-23",
+  "criteria": [
+    { "key": "mechanik", "label": "Mechanik, Präzision & Stand", "weight": 0.35, "description": "Bauart (Gleitschiene vs. Pendel/Riemen), Sensoren (Potentiometer vs. kontaktlose Hall-Sensoren, Auflösung), Material, Federkraft einstellbar, Gewicht und Rutschfestigkeit auf dem Boden." },
+    { "key": "bremsen", "label": "Zehenbremsen & Einstellbarkeit", "weight": 0.2, "description": "Getrennte Bremsachsen (Differenzialbremse), Bremsgefühl, verstellbarer Pedalwinkel/-abstand, Fersenauflage, Passform für große Füße." },
+    { "key": "kompatibilitaet", "label": "Plattform & Anschluss", "weight": 0.2, "description": "PC, Xbox, PS5 laut Hersteller; Anschluss direkt per USB oder nur über einen Joystick/Yoke bzw. Hub; nötiges Zubehör." },
+    { "key": "preisLeistung", "label": "Preis-Leistung", "weight": 0.25, "description": "Gegenwert für die Preisklasse, Garantie, Verbreitung (Bewertungsanzahl, Ersatzteile/Support)." }
+  ],
+  "priceTiers": {
+    "vorschlag": true,
+    "1": "unter 150 €",
+    "2": "150–350 €",
+    "3": "über 350 €",
+    "hinweis": "Spanne der Kategorie ca. 90 € (TFRP) bis über 500 € (TPR); Preisklassen nur als Orientierung, keine festen Preise auf der Seite."
+  },
+  "products": [
+    {
+      "rank": 1,
+      "label": "Beste Gesamtwahl",
+      "name": "Honeycomb Aeronautical Charlie Rudder Pedals",
+      "brand": "Honeycomb Aeronautical",
+      "variant": "Charlie Rudder Pedals (PC/Mac, Xbox mit Xbox Hub + Alpha XPC)",
+      "priceTier": 2,
+      "ratings": { "mechanik": 8.5, "bremsen": 8.5, "kompatibilitaet": 7.5, "preisLeistung": 7.5 },
+      "gesamt": 8.05,
+      "bestFor": "Zivilflieger in MSFS 2024/X-Plane am PC, die einmal richtig kaufen wollen – passt als Ergänzung zu Honeycomb Alpha/Bravo; auf Xbox nur im Honeycomb-Verbund.",
+      "fakten": [
+        { "text": "Gehäuse aus Aluminium, Hall-Effekt-Sensoren, einstellbare Federspannung, Rutschschutz; Maße 498 × 457 × 210 mm, Gewicht 7,3 kg, 2 Jahre Garantie, Anschluss USB-C auf USB-A (Kabel dabei).", "art": "Herstellerangabe", "quelle": "https://flyhoneycomb.com/products/charlie-rudder-pedals", "datum": "2026-10" },
+        { "text": "Plattformen laut Hersteller: PC, Mac und Xbox – auf Xbox nur zusätzlich zum Alpha Flight Controls XPC und dem separat verkauften Honeycomb Xbox Hub.", "art": "Herstellerangabe", "quelle": "https://flyhoneycomb.com/products/xbox-hub", "datum": "2026-10" },
+        { "text": "amazon.de-Listing: Pedale aus Metall mit verstellbarem Fußwinkel, große Gummi-Gleitschutzflächen und umdrehbare Teppich-Spikes an der Bodenplatte; Lieferumfang Pedale, USB-C-Kabel, Inbusschlüssel, Handbuch; kompatibel mit MSFS, X-Plane 11, Prepar3D, Windows 10/11, Mac (ab Catalina), Xbox Series X|S über Xbox Hub.", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B0B2KFVYPR", "datum": "2026-10" },
+        { "text": "Riemenantrieb (belt drive) und Hall-Sensoren laut Händlerbeschreibung.", "art": "Händlerangabe", "quelle": "https://flightsimwebshop.com/products/honeycomb-charlie-rudder-pedals", "datum": "2026-10" },
+        { "text": "Kundenbewertung auf amazon.de ca. 4,3–4,4 von 5 Sternen bei rund 100–110 Bewertungen; Kritik: schwer und platzintensiv.", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B0B2KFVYPR", "datum": "2026-10 (Suchsnapshot)" },
+        { "text": "Frühes Review von FSElite laut Forenberichten „gemischt“ (Kritik u. a. an Lage des USB-Anschlusses und des Spannungsreglers); Nutzer im offiziellen MSFS-Forum widersprechen teils.", "art": "Bericht", "quelle": "https://forums.flightsimulator.com/t/honeycomb-aeronautical-charlie-rudder-pedals/287062?page=8", "datum": "laut Berichten" }
+      ],
+      "pros": [
+        "Alu-Bauweise und kontaktlose Hall-Sensoren",
+        "Teppich-Spikes und Gummifüße gegen Wegrutschen",
+        "Fußwinkel und Federspannung einstellbar",
+        "Läuft direkt per USB-C am PC und Mac, kein Joystick nötig"
+      ],
+      "cons": [
+        "Xbox nur mit Honeycomb Alpha XPC + Xbox Hub (separat)",
+        "Keine PS5-Unterstützung",
+        "Groß und schwer (7,3 kg, knapp 50 × 46 cm) – braucht Fußraum",
+        "Wenige unabhängige Tests"
+      ],
+      "specs": {
+        "Mechanik": "Pedale an Riemenantrieb, Hall-Sensoren (Hersteller/Händler)",
+        "Achsen": "Seitenruder + 2 Zehenbremsen",
+        "Plattform": "PC, Mac; Xbox nur mit Alpha XPC + Xbox Hub",
+        "Anschluss": "USB-C auf USB-A",
+        "Maße/Gewicht": "498 × 457 × 210 mm, 7,3 kg (Hersteller)",
+        "Garantie": "2 Jahre (Hersteller)"
+      },
+      "asin": "B0B2KFVYPR",
+      "query": "Honeycomb Aeronautical Charlie Rudder Pedals",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "HONEYCOMB Honeycomb Aeronautical Charlie Rudder Pedals|Steuerruder-System in Luftfahrt-Qualität für Flug -Simulatoren kompatibel mit Xbox und PC (amazon.de/dp/B0B2KFVYPR; Verkäufer laut Snapshot u. a. Aerosoft Simulation)"
+    },
+    {
+      "rank": 2,
+      "label": "Bestes Preis-Leistungs-Verhältnis",
+      "name": "Thrustmaster TFRP T.Flight Rudder Pedals",
+      "brand": "Thrustmaster",
+      "variant": "TFRP (PC direkt per T.RJ12-USB-Adapter; PS5/PS4/Xbox über kompatiblen Thrustmaster-Joystick)",
+      "priceTier": 1,
+      "ratings": { "mechanik": 6.0, "bremsen": 6.5, "kompatibilitaet": 9.5, "preisLeistung": 9.5 },
+      "gesamt": 7.68,
+      "bestFor": "Einsteiger und Konsolenpiloten: die günstige Ruder-Lösung für PS5 (mit T.Flight Hotas 5 / Hotas 4) und Xbox (mit T.Flight Hotas One), am PC direkt per USB-Adapter.",
+      "fakten": [
+        { "text": "Auf PC, PS5 und PS4 kompatibel mit T.Flight Hotas 5 und T.Flight Hotas 4 sowie TCA Sky Yoke; Anschluss am RJ12-Port des Joysticks. Der T.RJ12-USB-Adapter für den direkten PC-Anschluss liegt nur dem TFRP bei.", "art": "Herstellerangabe", "quelle": "https://support.thrustmaster.com/en/kb/1776-en/", "datum": "2026-10" },
+        { "text": "Auf PS4/PS5 funktioniert der T.Flight Hotas 5 nur in Spielen mit „Flight Stick“-Modus (Thrustmaster-Liste); damit gilt das auch für die angeschlossenen Pedale.", "art": "Herstellerangabe", "quelle": "https://ts.thrustmaster.com/download/accessories/Manuals/TFH5/T.Flight_Hotas_5_user_manual.pdf", "datum": "2026-10" },
+        { "text": "Auf Xbox One/Series X|S über den T.Flight Hotas One (3 der 8 Achsen sind für die TFRP-Pedale reserviert); als Set „T.Flight Full Kit X“ erhältlich.", "art": "Herstellerangabe", "quelle": "https://support.thrustmaster.com/en/product/t-flight-hotas-one-en/", "datum": "2026-10" },
+        { "text": "S.M.A.R.T.-Gleitschienen mit Selbstzentrierung, zwei Differenzial-Bremspedale, abnehmbare Fersenauflagen; amazon.de nennt 25 cm Pedallänge (bis Schuhgröße 45/12).", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B01649IVI8", "datum": "2026-10" },
+        { "text": "amazon.de-Bewertung ca. 4,3 von 5 Sternen bei rund 3.400 Bewertungen; im Listing-Text teils noch „PC und PS4“ statt PS5/Xbox.", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B01649IVI8", "datum": "2026-10 (Suchsnapshot)" },
+        { "text": "CGMagazine: gut verarbeitet, für große Füße einstellbar, leichter als erwartet, bleibt aber auch in intensiven Sessions stabil stehen.", "art": "Test", "quelle": "https://www.cgmagonline.com/review/hardware/thrustmaster-t-flight-rudder-pedals-hardware-review/", "datum": "CGMagazine, Online-Review (Datum nicht ermittelt)" },
+        { "text": "simulatorhardware.com führt den TFRP als Budget-Empfehlung für MSFS; Kritik: Kunststoff, Widerstand nicht einstellbar.", "art": "Bericht", "quelle": "https://www.simulatorhardware.com/msfs/rudder-pedals/", "datum": "2025/2026" }
+      ],
+      "pros": [
+        "Einzige der Top 3 mit offizieller PS5-Unterstützung (über T.Flight Hotas 5/4)",
+        "Sehr verbreitet, tausende Bewertungen",
+        "Differenzialbremsen und abnehmbare Fersenstützen",
+        "Kompakt und leicht – passt unter jeden Schreibtisch"
+      ],
+      "cons": [
+        "Viel Kunststoff, Federwiderstand laut Berichten nicht einstellbar",
+        "Auf Konsole nur über einen Thrustmaster-Joystick/Yoke mit RJ12-Port",
+        "Auf PS5 nur in Spielen mit Flight-Stick-Modus",
+        "Rutscht auf glattem Boden leichter (geringes Gewicht)"
+      ],
+      "specs": {
+        "Mechanik": "S.M.A.R.T.-Gleitschienen, selbstzentrierend",
+        "Achsen": "Seitenruder + 2 Zehenbremsen",
+        "Plattform": "PC (USB über T.RJ12-Adapter), PS5/PS4 (via T.Flight Hotas 5/4), Xbox (via T.Flight Hotas One)",
+        "Pedallänge": "25 cm, bis Schuhgröße 45 (Händler)"
+      },
+      "asin": "B01649IVI8",
+      "query": "Thrustmaster TFRP T.Flight Rudder Pedals",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "Thrustmaster TFRP T.Flight Rudder Pedals - PS5, XBOX & PC (amazon.de/dp/B01649IVI8, im Suchsnapshot auf Lager)"
+    },
+    {
+      "rank": 3,
+      "label": "Premium-Wahl",
+      "name": "Thrustmaster TPR - Profi-Rudersystem für die Flugsimulation - PC",
+      "brand": "Thrustmaster",
+      "variant": "TPR Pendular Rudder, Modellnr. 2960809",
+      "priceTier": 3,
+      "ratings": { "mechanik": 9.5, "bremsen": 9.0, "kompatibilitaet": 5.0, "preisLeistung": 6.5 },
+      "gesamt": 7.75,
+      "bestFor": "PC-Simmer mit Simpit oder Cockpit, die Pendelmechanik wie im echten Flugzeug wollen – Kampfjets in DCS ebenso wie Airliner und Helikopter.",
+      "fakten": [
+        { "text": "Pendelmechanik (PENDUL_R), 3D-Hall-Sensoren (H.E.A.R.T.) mit 16 Bit Auflösung auf 3 Achsen (Seitenruder, linke und rechte Differenzialbremse); nur PC; T.A.R.G.E.T-Software.", "art": "Herstellerangabe", "quelle": "https://eshop.thrustmaster.com/en_us/tpr-thrustmaster-pendular-rudder.html", "datum": "2026-10" },
+        { "text": "Bremspedale in 5 Positionen zwischen 35° und 75° einstellbar, zwei Federn für den Widerstand (2,5–5 kg je nach Federposition laut Handbuch), Metallbasis mit vier M6-Gewinden für Cockpit-Montage; ca. 7 kg.", "art": "Herstellerangabe", "quelle": "https://ts.thrustmaster.com/download/accessories/Manuals/TPR/TPR_Rudder_User_Manual.pdf", "datum": "2026-10" },
+        { "text": "Maße laut Thrustmaster-US-Shop 53 × 36 × 36 cm; andere Herstellerseite nennt 45,6 × 33,6 × 41,5 cm (Angaben widersprüchlich).", "art": "Herstellerangabe", "quelle": "https://eshop.thrustmaster.com/en_us/tpr-thrustmaster-pendular-rudder.html", "datum": "2026-10" },
+        { "text": "amazon.de-Bewertung ca. 4,8 von 5 Sternen bei rund 620 Bewertungen; Verkäufer je nach Snapshot Aerosoft Simulation bzw. Amazon Global Store (dort Herstellergarantie ggf. eingeschränkt).", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B07DK8N8JG", "datum": "2026-10 (Suchsnapshot)" },
+        { "text": "PilotMall: Pendelmechanik und schwere Metallbauweise seien am PC am nächsten an einer echten Ruderanlenkung.", "art": "Bericht", "quelle": "https://www.pilotmall.com/es/blogs/news/honeycomb-charlie-the-rudder-pedals-you-ve-been-waiting-for", "datum": "laut Berichten" }
+      ],
+      "pros": [
+        "Pendelmechanik statt Gleitschiene – realistischer Bewegungsablauf",
+        "16-Bit-Hall-Sensoren auf allen drei Achsen",
+        "Pedalwinkel und Federkraft einstellbar, M6-Gewinde für Cockpit",
+        "Sehr gute Nutzerbewertungen bei großer Basis"
+      ],
+      "cons": [
+        "Nur PC – keine Xbox, keine PS5",
+        "Teuerste Pedale im Vergleich",
+        "Schwer und hoch, braucht viel Fußraum",
+        "Je nach Amazon-Angebot Import über Global Store"
+      ],
+      "specs": {
+        "Mechanik": "Pendel (PENDUL_R), Metallbasis",
+        "Sensoren": "3D-Hall-Effekt, 16 Bit (Hersteller)",
+        "Achsen": "Seitenruder + 2 Zehenbremsen",
+        "Plattform": "PC",
+        "Gewicht": "ca. 7 kg (Hersteller)",
+        "Pedalwinkel": "5 Stufen, 35–75° (Hersteller)"
+      },
+      "asin": "B07DK8N8JG",
+      "query": "Thrustmaster TPR Pendular Rudder",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "Thrustmaster TPR - Profi-Rudersystem für die Flugsimulation - PC (amazon.de/Thrustmaster-Pendular-Rudder-Pedalerie-Software/dp/B07DK8N8JG; Modellnr. 2960809 = TPR). Die englische Sprachversion derselben ASIN zeigt fälschlich den Titel „Thrustmaster TFRP Rudder, Black 60“ – Inhalt/Modellnummer sind eindeutig TPR. Der echte TFRP hat ASIN B01649IVI8."
+    }
+  ],
+  "top5": [
+    {
+      "name": "Thrustmaster T.Flight Full Kit X – Joystick, Throttle und Rudder Pedals für Xbox Series X|S / Xbox One / PC",
+      "warum": "Beste für Xbox (Komplettset): T.Flight Hotas One mit abnehmbarem Schubhebel plus TFRP-Pedale in einem Paket – auf Xbox laufen die Pedale ohnehin nur über den Hotas One. Für alle, die noch keinen Stick haben.",
+      "fakten": [
+        { "text": "Lieferumfang: T.Flight Hotas One mit abnehmbarem Schubregler, TFRP-Ruderpedale, Inbusschlüssel; kompatibel mit Xbox Series X|S, Xbox One und PC, vorkonfiguriert für Microsoft Flight Simulator.", "art": "Herstellerangabe", "quelle": "https://shop.thrustmaster.com/en_gb/t-flight-full-kit-x.html", "datum": "2026-10" }
+      ],
+      "asin": "B099XLFW95",
+      "query": "Thrustmaster T.Flight Full Kit X",
+      "asinGeprueft": "Thrustmaster T.Flight Full Kit X - Joystick, Throttle und Rudder Pedals für Xbox Series X|S / Xbox One / PC",
+      "where": null
+    },
+    {
+      "name": "Turtle Beach VelocityOne Rudder für Flugsimulator, für Xbox/PC",
+      "warum": "Beste für Xbox mit Turtle-Beach-Yoke: Hall-Sensoren auf allen Achsen, austauschbare Federn und Pedalsätze, verstellbare Pedalbreite. Am PC direkt per USB-C, auf Xbox nur zusammen mit dem VelocityOne Flight (Pass-Through).",
+      "fakten": [
+        { "text": "Kontaktlose Hall-Sensoren auf allen Achsen, Differenzialbremsen, austauschbare Federn; PC direkt per USB-C, auf Xbox nur zusammen mit dem VelocityOne Flight Universal Control System.", "art": "Herstellerangabe", "quelle": "https://www.turtlebeach.com/products/velocity-one-rudder", "datum": "2026-10" },
+        { "text": "Mit dem VelocityOne Flightstick auf Xbox funktionieren die Zehenbremsen im Kompatibilitätsmodus (Star Wars Squadrons, Elite Dangerous, War Thunder) nicht.", "art": "Herstellerangabe", "quelle": "https://support.turtlebeach.com/s/article/VelocityOne-Flightstick-Compatibility-With-VelocityOne-Rudder?language=en_US", "datum": "2026-10" },
+        { "text": "amazon.de-Bewertung ca. 4,4 von 5 Sternen bei rund 570 Bewertungen.", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B0B7NTLKF2", "datum": "2026-10 (Suchsnapshot)" }
+      ],
+      "asin": "B0B7NTLKF2",
+      "query": "Turtle Beach VelocityOne Rudder",
+      "asinGeprueft": "Turtle Beach VelocityOne Rudder für Flugsimulator, für Xbox/PC",
+      "where": null
+    },
+    {
+      "name": "Logitech G Saitek Pro Flight Rudder Pedals",
+      "warum": "Beste Einsteiger-Pedale für den PC und kompakteste Wahl: der Klassiker mit Zehenbremsen und Spannungsrad, direkt per USB, mit knapp 31 × 40 cm und 2,35 kg gut unter dem Schreibtisch unterzubringen. Kein Konsolen-Support.",
+      "fakten": [
+        { "text": "Selbstzentrierend mit einstellbarer Dämpfung (Spannungsrad), Differenzial-Zehenbremsen, USB, PC; abnehmbare Fußstützen, 2 Jahre Herstellergarantie; Maße 31 × 40,3 × 16,8 cm, 2,35 kg.", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B01MQ0N57Q", "datum": "2026-10" },
+        { "text": "amazon.de-Bewertung ca. 4,5 von 5 Sternen bei rund 2.100 Bewertungen.", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B01MQ0N57Q", "datum": "2026-10 (Suchsnapshot)" }
+      ],
+      "asin": "B01MQ0N57Q",
+      "query": "Logitech G Saitek Pro Flight Rudder Pedals",
+      "asinGeprueft": "Logitech G Saitek Pro Flight Rudder Pedals, pedals with toe brakes Rudder for flight simulators, non-slip, precise, adjustable tension wheel, USB port, PC, Black (SIOC-Variante B07W5JJP7K und Altmodell B000H67DDY nicht verfügbar – nicht verwenden)",
+      "where": null
+    },
+    {
+      "name": "VIRPIL Controls R1-FALCON Rudderpedal (3-Achsen-Eingabe Flugsimulationspedal, PC)",
+      "warum": "Beste für Helikopter und Kampfjet-Simmer: Vollmetall, kontaktlose Sensoren, drei Zentrier-Nocken – darunter eine ohne Mittenrastung, wie sie Helikopterpiloten für die Heckrotorsteuerung bevorzugen; optionaler Dämpfer-Kit.",
+      "fakten": [
+        { "text": "Vollmetall, Aluminiumpedale, Pedalabstand und -winkel (20°-Bereich) einstellbar, Federspannung per Drehrad; drei Nocken: Soft-Center (vorinstalliert), Hard-Center, No-Center; kontaktlose Sensoren (0,02°), 3 Achsen; USB/OUT zum Durchschleifen; Dämpfer-Upgrade-Kit separat; Modell VPC-305-001; kompatibel mit MSFS, X-Plane, DCS World, Prepar3D.", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B0FJSCV24G", "datum": "2026-10" },
+        { "text": "Bisher nur sehr wenige Bewertungen auf amazon.de (4 Bewertungen im Suchsnapshot).", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B0FJSCV24G", "datum": "2026-10 (Suchsnapshot)" }
+      ],
+      "asin": "B0FJSCV24G",
+      "query": "VIRPIL Controls R1-FALCON Rudder Pedals",
+      "asinGeprueft": "VIRPIL Controls R1-FALCON Rudderpedal (3-Achsen-Eingabe Flugsimulationspedal, PC)",
+      "where": null
+    },
+    {
+      "name": "Thrustmaster TFRP T.Flight Rudder Pedals",
+      "warum": "Beste für PS5: Die einzigen hier gefundenen Ruderpedale mit offizieller PS5-Unterstützung – am RJ12-Port des T.Flight Hotas 5 (MSFS Edition) oder Hotas 4, in Spielen mit Flight-Stick-Modus wie MSFS 2024. (Zugleich Platz 2 der Top 3.)",
+      "fakten": [
+        { "text": "Auf PC, PS5 und PS4 kompatibel mit T.Flight Hotas 5 und T.Flight Hotas 4 sowie TCA Sky Yoke (Anschluss am RJ12-Port).", "art": "Herstellerangabe", "quelle": "https://support.thrustmaster.com/en/kb/1776-en/", "datum": "2026-10" }
+      ],
+      "asin": "B01649IVI8",
+      "query": "Thrustmaster TFRP T.Flight Rudder Pedals",
+      "asinGeprueft": "Thrustmaster TFRP T.Flight Rudder Pedals - PS5, XBOX & PC",
+      "where": null
+    }
+  ],
+  "tests": [
+    { "institut": "Stiftung Warentest / Öko-Test / ADAC", "heft": "–", "ergebnis": "Kein Test von Flugsimulator-Ruderpedalen gefunden.", "quelle": "Websuche 2026-10-23" },
+    { "institut": "Deutsche Fachmagazine (PCGH, GameStar, PC Games)", "heft": "–", "ergebnis": "Kein deutschsprachiger Ruderpedal-Vergleich gefunden (nur Joystick-Kaufberatungen).", "quelle": "research/trends/2026-10-23-flugsimulator-zu-hause.md" },
+    { "institut": "CGMagazine (Kanada, online)", "heft": "Hardware-Review „Thrustmaster T-Flight Rudder Pedals“ (Datum nicht ermittelt)", "ergebnis": "Gut verarbeitet, für große Füße einstellbar, leichter als erwartet, aber stabil; keine Note übernommen.", "quelle": "https://www.cgmagonline.com/review/hardware/thrustmaster-t-flight-rudder-pedals-hardware-review/" },
+    { "institut": "simulatorhardware.com (Affiliate-Ratgeber, englisch)", "heft": "MSFS 2024 Rudder Pedals", "ergebnis": "MFG Crosswind V3 vorn (92/100), TFRP als Budget-Tipp; Punktwerte intern widersprüchlich – nur als Bericht nutzen.", "quelle": "https://www.simulatorhardware.com/msfs/rudder-pedals/" },
+    { "institut": "GamingTrend (online)", "heft": "Turtle Beach VelocityOne Rudder Pedals Review", "ergebnis": "Review existiert; Fazit/Wertung aus der Sandbox nicht abrufbar – nicht zitieren.", "quelle": "https://gamingtrend.com/reviews/turtle-beach-velocity-one-rudder-pedals-review-ground-control-to-major-tom/" }
+  ],
+  "warnungen": [
+    "Keine Rückrufe oder Safety-Gate-Meldungen zu Ruderpedalen von Thrustmaster, Honeycomb, Logitech, Turtle Beach oder VIRPIL gefunden (Websuche 2026-10-23; Safety-Gate-Portal selbst aus der Sandbox nicht abrufbar).",
+    "Konsolen-Hinweis für den Text: Auf Xbox und PS5 laufen Pedale fast nie allein, sondern nur über einen bestimmten Joystick/Yoke oder Hub des gleichen Herstellers (Thrustmaster RJ12, Turtle Beach Pass-Through, Honeycomb Xbox Hub + Alpha XPC). Quellen: support.thrustmaster.com/en/kb/1776-en/, turtlebeach.com/products/velocity-one-rudder, flyhoneycomb.com/products/xbox-hub.",
+    "Thrustmaster: Cloud-/Streaming-Spiele unterstützen die Eingabegeräte in der Regel nicht, Spiel muss lokal installiert sein (Thrustmaster-Support, laut Suchergebnis).",
+    "TPR-Angebote über den Amazon Global Store: Herstellergarantie kann eingeschränkt sein (Hinweis im Listing)."
+  ],
+  "verworfen": [
+    { "name": "Logitech G Saitek Pro Flight Rudder Pedals – SIOC-Verpackung (B07W5JJP7K) und Saitek Pro Flight Rudder Pedals Altmodell (B000H67DDY)", "grund": "Auf amazon.de „derzeit nicht verfügbar“ – aktive ASIN B01MQ0N57Q verwendet." },
+    { "name": "VIRPIL Controls ACE Rudder Pedals (B0D3FB4PG9 / B0CKNJHNBZ)", "grund": "Vorgängermodell, derzeit nicht verfügbar; Nachfolger R1-FALCON genommen." },
+    { "name": "MFG Crosswind V3", "grund": "Laut simulatorhardware.com Spitzenmodell, aber nicht auf amazon.de und nicht bei freigeschalteten Awin-Händlern gefunden; Direktvertrieb des Herstellers. Optional als Erwähnung im Text ohne Link." },
+    { "name": "Turtle Beach Velocity One Flight Rudder Pedals Bundle (B0CL94D9YC)", "grund": "Bundle mit Yoke, nur 3 Bewertungen – Einzelpedale B0B7NTLKF2 genommen." },
+    { "name": "Thrustmaster T.Flight Hotas 4 (B076PMSYH9 / B07DLKVKD5)", "grund": "Auf amazon.de nicht verfügbar; als PS5-Host für TFRP auf den T.Flight Hotas 5 verweisen (Joystick-Seite)." },
+    { "name": "WinWing-Ruderpedale", "grund": "Kein amazon.de-Listing gefunden." },
+    { "name": "Rennsport-Pedale (Gas/Bremse/Kupplung)", "grund": "Laut Abgrenzung nicht Teil dieser Kategorie (→ sim-racing-cockpits)." }
+  ],
+  "offen": [
+    "B07DK8N8JG geklärt: deutsche Listing-Seite = „Thrustmaster TPR - Profi-Rudersystem für die Flugsimulation - PC“, Modellnr. 2960809 (TPR); nur die englische Sprachansicht zeigt fälschlich „TFRP Rudder, Black 60“. Redaktion/Prüfer: amazon.de-Seite vor Merge einmal im Browser ansehen, falls möglich.",
+    "Honeycomb Charlie (B0B2KFVYPR) wird laut Snapshot von Aerosoft Simulation als Marketplace-Händler verkauft – aktiv, aber kein „Verkauf durch Amazon“.",
+    "TFRP-Listing B01649IVI8: Titel nennt PS5/Xbox/PC, Bullet-Points nur PC/PS4 – Plattformaussagen im Text nur mit Thrustmaster-Support-Quelle belegen, nicht mit dem Amazon-Text.",
+    "Ob der TFRP-Federwiderstand einstellbar ist, widersprüchlich (amazon.de-Snapshot „adjustable resistance“ vs. simulatorhardware.com „nicht einstellbar“) – im Text nicht behaupten.",
+    "Top 5 Platz 5 (TFRP, beste für PS5) wiederholt Platz 2 der Top 3, weil kein zweites Pedal mit offizieller PS5-Unterstützung auf amazon.de existiert. Falls Wiederholung unerwünscht: Platz 5 streichen oder durch einen Hinweis „PS5: siehe Platz 2“ ersetzen und z. B. VelocityOne Flight + Rudder Bundle prüfen.",
+    "Keine Tests von Stiftung Warentest, Öko-Test o. Ä.; keine deutschen Fachmagazin-Tests gefunden. Bewertungen sind redaktionelle Einschätzungen auf Basis von Herstellerangaben, Händlerangaben und englischen Reviews.",
+    "Herstellerseiten (thrustmaster.com, logitechg.com) und amazon.de per WebFetch nicht abrufbar (DNS); alle Angaben aus Suchsnapshots. Bewertungszahlen nur als ungefähre Händlerangaben verwenden.",
+    "Awin: heute nur Rewe DE, Radwelt-shop, brickzonehub freigeschaltet – für Ruderpedale irrelevant; alle Produkte über Amazon, kein neuer Awin-Händler nötig."
+  ],
+  "quellen": [
+    { "titel": "Honeycomb – Charlie Rudder Pedals (Hersteller)", "url": "https://flyhoneycomb.com/products/charlie-rudder-pedals" },
+    { "titel": "Honeycomb – Xbox Hub (Hersteller)", "url": "https://flyhoneycomb.com/products/xbox-hub" },
+    { "titel": "amazon.de – Honeycomb Charlie Rudder Pedals", "url": "https://www.amazon.de/dp/B0B2KFVYPR" },
+    { "titel": "Thrustmaster Support – TFRP an PC und Konsole anschließen", "url": "https://support.thrustmaster.com/en/kb/1776-en/" },
+    { "titel": "Thrustmaster – T.Flight Hotas 5 Handbuch", "url": "https://ts.thrustmaster.com/download/accessories/Manuals/TFH5/T.Flight_Hotas_5_user_manual.pdf" },
+    { "titel": "Thrustmaster Support – T.Flight Hotas One", "url": "https://support.thrustmaster.com/en/product/t-flight-hotas-one-en/" },
+    { "titel": "amazon.de – Thrustmaster TFRP T.Flight Rudder Pedals", "url": "https://www.amazon.de/dp/B01649IVI8" },
+    { "titel": "CGMagazine – Thrustmaster T-Flight Rudder Pedals Review", "url": "https://www.cgmagonline.com/review/hardware/thrustmaster-t-flight-rudder-pedals-hardware-review/" },
+    { "titel": "Thrustmaster eShop – TPR Pendular Rudder", "url": "https://eshop.thrustmaster.com/en_us/tpr-thrustmaster-pendular-rudder.html" },
+    { "titel": "Thrustmaster – TPR Handbuch", "url": "https://ts.thrustmaster.com/download/accessories/Manuals/TPR/TPR_Rudder_User_Manual.pdf" },
+    { "titel": "amazon.de – Thrustmaster TPR", "url": "https://www.amazon.de/dp/B07DK8N8JG" },
+    { "titel": "Thrustmaster – T.Flight Full Kit X", "url": "https://shop.thrustmaster.com/en_gb/t-flight-full-kit-x.html" },
+    { "titel": "amazon.de – Thrustmaster T.Flight Full Kit X", "url": "https://www.amazon.de/dp/B099XLFW95" },
+    { "titel": "Turtle Beach – VelocityOne Rudder (Hersteller)", "url": "https://www.turtlebeach.com/products/velocity-one-rudder" },
+    { "titel": "Turtle Beach Support – Flightstick mit VelocityOne Rudder", "url": "https://support.turtlebeach.com/s/article/VelocityOne-Flightstick-Compatibility-With-VelocityOne-Rudder?language=en_US" },
+    { "titel": "amazon.de – Turtle Beach VelocityOne Rudder", "url": "https://www.amazon.de/dp/B0B7NTLKF2" },
+    { "titel": "amazon.de – Logitech G Saitek Pro Flight Rudder Pedals", "url": "https://www.amazon.de/dp/B01MQ0N57Q" },
+    { "titel": "amazon.de – VIRPIL Controls R1-FALCON", "url": "https://www.amazon.de/dp/B0FJSCV24G" },
+    { "titel": "simulatorhardware.com – Rudder Pedals für MSFS 2024", "url": "https://www.simulatorhardware.com/msfs/rudder-pedals/" },
+    { "titel": "PilotMall – Honeycomb Charlie / Ruderpedale im Vergleich", "url": "https://www.pilotmall.com/es/blogs/news/honeycomb-charlie-the-rudder-pedals-you-ve-been-waiting-for" },
+    { "titel": "MSFS-Forum – Honeycomb Charlie Rudder Pedals", "url": "https://forums.flightsimulator.com/t/honeycomb-aeronautical-charlie-rudder-pedals/287062?page=8" },
+    { "titel": "Flightsim Webshop – Charlie Rudder Pedals", "url": "https://flightsimwebshop.com/products/honeycomb-charlie-rudder-pedals" }
+  ]
+}

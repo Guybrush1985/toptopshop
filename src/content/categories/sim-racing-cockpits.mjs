@@ -229,7 +229,7 @@ export default {
   related: [
     { slug: "vr-gaming", text: "VR-Gaming." },
     { slug: "beamer-leinwand", text: "Beamer und Leinwand." },
-    { slug: "gaming-stuehle", text: "Gaming-Stühle." },
+    { slug: "bestes-flugsimulator-cockpit", text: "Flugsimulator-Cockpits und Ständer." },
     { area: "gaming-room", text: "Alle Ratgeber für den Gaming-Room." },
   ],
 };
