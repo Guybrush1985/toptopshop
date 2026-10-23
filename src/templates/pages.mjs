@@ -139,7 +139,7 @@ ${
     : `<section class="section" aria-labelledby="g-h">
   <div class="wrap">
     <div class="shead"><span class="kicker">${cats.length} Ratgeber</span><h2 id="g-h">Unsere Empfehlungen</h2></div>
-    <div class="guides">${areas.flatMap((a) => cats.filter((c) => c.area === a.slug).slice(0, 2)).map(guideCard).join("")}</div>
+    <div class="guides">${cats.map(guideCard).join("")}</div>
   </div>
 </section>`
 }

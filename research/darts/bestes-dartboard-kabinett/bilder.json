@@ -1,0 +1,53 @@
+{
+  "visuals": {
+    "1": {
+      "kind": "dartcabinet",
+      "tone": "forest"
+    },
+    "2": {
+      "kind": "dartcabinet",
+      "tone": "green"
+    },
+    "3": {
+      "kind": "dartcabinet",
+      "tone": "mint"
+    }
+  },
+  "steps": {
+    "title": "Dartschrank sicher montieren",
+    "subtitle": "Wand schützen, Regelhöhe halten",
+    "alt": "Infografik: Dartschrank sicher montieren – Scheibengröße prüfen, Bullhöhe festlegen, Passend dübeln, Scheibe einsetzen, Abwurflinie markieren",
+    "caption": "Erst die Bullhöhe festlegen, dann den Schrank daran ausrichten.",
+    "steps": [
+      {
+        "title": "Scheibengröße prüfen",
+        "text": "Passt eine Standardscheibe (rund 45 cm) hinein, oder ist eine Scheibe dabei?"
+      },
+      {
+        "title": "Bullhöhe festlegen",
+        "text": "Die Mitte des Bulls liegt bei 1,73 m – danach richtet sich die Schrankhöhe."
+      },
+      {
+        "title": "Passend dübeln",
+        "text": "Schrauben und Dübel zur Wand wählen (Beton, Ziegel, Trockenbau) und waagerecht montieren."
+      },
+      {
+        "title": "Scheibe einsetzen",
+        "text": "Scheibe mit der 20 nach oben einhängen; die Türen müssen frei aufgehen."
+      },
+      {
+        "title": "Abwurflinie markieren",
+        "text": "2,37 m vor der Scheibenfront die Abwurflinie am Boden anbringen."
+      }
+    ]
+  },
+  "scoresAlt": "Balkendiagramm: Bewertung der drei besten Dartboard-Kabinette in den Kriterien Verarbeitung, Wandschutz, Stauraum und Ausstattung, Montage und Preis-Leistung",
+  "scoresCaption": "Unsere Bewertung je Kriterium für die drei empfohlenen Modelle.",
+  "neueFormen": [
+    "dartcabinet"
+  ],
+  "offen": [
+    "Kriterien in scoresAlt sind ein Entwurf – an die finalen Bewertungskriterien des Redakteurs anpassen.",
+    "Regelmaße (1,73 m Bullhöhe, 2,37 m Abwurflinie, 2,93 m Diagonale) sind allgemein bekannte WDF/PDC-Standardmaße – Redakteur kann sie mit Quelle (z. B. WDF-Regelwerk) belegen."
+  ]
+}

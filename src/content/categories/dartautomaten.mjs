@@ -189,7 +189,7 @@ export default {
     intro: "Für alle, die lieber mit Steeldarts spielen – mit automatischer Zählung oder schattenfreiem Licht.",
     items: [
       { name: "Autodarts Vantage", for: "Automatisch zählen bei Steeldart", text: "Kamera-System, das Darts auf einer Steeldart-Scheibe erkennt und automatisch zählt.", asin: "B0GY9N3Q7L", query: "Autodarts Vantage" },
-      { name: "Winmau Blade 6 mit Surround", for: "Profi-Steeldartscheibe", text: "Sisal-Turnierscheibe von Winmau im Set mit Surround als Wandschutz.", asin: "B0CBBNG62P", query: "Winmau Blade 6 Surround Set" },
+      { name: "Winmau Blade 6 mit Surround", for: "Profi-Steeldartscheibe", text: "Sisal-Turnierscheibe von Winmau im Set mit Surround als Wandschutz.", asin: "B0CJVJLZ6M", query: "Winmau Blade 6 Surround Set" },
       { name: "Target Corona Vision", for: "Schattenfreies Licht", text: "Ringleuchte für Dartscheiben, die Schatten auf der Scheibe vermeidet.", asin: "B0CFBBPLLF", query: "Target Corona Vision Dart Licht" },
       { name: "Winmau Polaris", for: "Licht von Winmau", text: "LED-Ringleuchte für Steeldartscheiben.", asin: "B0CJYLKJXB", query: "Winmau Polaris Dart Licht" },
       { name: "Winmau Plasma Ice", for: "Kompaktes Ringlicht", text: "LED-Beleuchtung für die Dartscheibe in schlankem Design.", asin: "B0CKQK8ST5", query: "Winmau Plasma Ice" },
@@ -231,6 +231,7 @@ export default {
     { slug: "kickertische", text: "Kickertische." },
     { slug: "billardtische", text: "Billardtische." },
     { slug: "getraenke-kuehlschrank", text: "Getränkekühlschrank für den Partykeller." },
+    { area: "darts", text: "Lieber Steeldart? Scheiben, Licht, Autoscoring und Zubehör." },
     { area: "gaming-room", text: "Alle Ratgeber für den Gaming-Room." },
   ],
 };
