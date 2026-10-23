@@ -1,0 +1,53 @@
+{
+  "visuals": {
+    "1": {
+      "kind": "doorhoop",
+      "tone": "forest"
+    },
+    "2": {
+      "kind": "doorhoop",
+      "tone": "green"
+    },
+    "3": {
+      "kind": "doorhoop",
+      "tone": "mint"
+    }
+  },
+  "steps": {
+    "title": "Tür-Basketballkorb montieren",
+    "subtitle": "Von der Tür bis zum ersten Wurf",
+    "alt": "Infografik: Tür-Basketballkorb montieren – Tür ausmessen, Tür schützen, Höhe prüfen, Wurfzone freiräumen, Leise spielen",
+    "caption": "Türhaken auf die eigene Tür abstimmen und den Wurfbereich freihalten.",
+    "steps": [
+      {
+        "title": "Tür ausmessen",
+        "text": "Türblattstärke, Falz und Spalt oben prüfen – passen die Haken auf deutsche Zimmertüren?"
+      },
+      {
+        "title": "Tür schützen",
+        "text": "Schaumpolster an den Haken nutzen oder nachrüsten, damit Lack und Zarge keine Spuren bekommen."
+      },
+      {
+        "title": "Höhe prüfen",
+        "text": "An der Tür ist die Höhe fest vorgegeben, an der Wand frei wählbar – passend zur Größe des Kindes."
+      },
+      {
+        "title": "Wurfzone freiräumen",
+        "text": "Lampen, Bilder und Zerbrechliches aus der Wurfbahn nehmen, Ausweichraum vor der Tür lassen."
+      },
+      {
+        "title": "Leise spielen",
+        "text": "Schaumball statt Gummiball nutzen und nicht am Ring hängen, wenn der Hersteller es nicht erlaubt."
+      }
+    ]
+  },
+  "scoresAlt": "Balkendiagramm: Bewertung der drei besten Tür-Basketballkörbe in den Kriterien Passform an der Tür, Board und Ring, Ball und Lieferumfang sowie Lautstärke und Sicherheit",
+  "scoresCaption": "Unsere Bewertung je Kriterium für die drei empfohlenen Tür-Basketballkörbe.",
+  "neueFormen": [
+    "doorhoop"
+  ],
+  "offen": [
+    "Kriterien in scoresAlt sind ein Entwurf (aus kriterienEntwurf) – an die finalen Bewertungskriterien anpassen; Produkte stehen noch nicht fest, kinds nach produktart gewählt.",
+    "Vorhandene Form hoop (Basketballkorb mit Stange) passt für Top 5 nur zu freistehenden Kleinkind-Körben."
+  ]
+}

@@ -87,6 +87,9 @@ Definiert in `src/templates/visuals.mjs`; neue Formen ergänzt der Illustrator-A
 - Sammeln & Garten (Set `OBJECTS`): `vitrine`, `frame`, `minifig`, `ledkit`, `snowblower`, `blower`, `sled`
 - Darts (Set `OBJECTS`): `dartboard` (Steeldart-Scheibe), `dartlight` (Ringlicht), `dartcam` (Kamera-Autoscoring),
   `dartcabinet` (Kabinett), `dartmat` (Matte mit Abwurflinie); `dart` = einfache Zielscheibe (E-Dart)
+- Bewegung drinnen (Set `OBJECTS`): `playsofa` (Spielsofa-Module), `bouncemat` (Hüpfpolster), `balanceboard`
+  (gebogenes Holzboard), `stones` (Balancier-/Flusssteine), `hills` (Hügelkuppen), `beampath` (Balancierstrecke),
+  `doorhoop` (Mini-Basketballkorb an der Tür)
 
 ### Textbausteine in `sections[].blocks`
 

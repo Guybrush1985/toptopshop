@@ -347,7 +347,7 @@ export default {
   related: [
     { slug: "pikler-dreieck", text: "Kletterdreiecke für Kleinkinder – mit der passenden Matte." },
     { slug: "kletterwand-kinderzimmer", text: "Kletterwände fürs Kinderzimmer und wie man sie sicher montiert." },
-    { slug: "sportboden-gummi", text: "Gummiplatten und Fallschutz für Spielgeräte im Garten." },
+    { slug: "bestes-huepfpolster-kinder", text: "Hüpfpolster mit Federkern: federn statt nur dämpfen." },
     { group: "indoor", text: "Alle Spielgeräte für den Indoor-Spielplatz." },
   ],
 };

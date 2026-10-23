@@ -1,0 +1,211 @@
+{
+  "slug": "beste-balanciersteine-kinder",
+  "hinweisRecherche": "Recherche 2026-10-22 ausschließlich per Websuche: amazon.de, kita.de, familie.de, gonge.com, Safety Gate und produktwarnung.eu waren aus der Arbeitsumgebung nicht direkt abrufbar (Proxy/DNS). ASINs sind über die Titel der amazon.de-/dp/-Seiten in den Suchergebnissen bestätigt; Lagerstatus stammt aus Such-Snapshots. Gemischte Kategorie: Top 3 je Produktart (Steine / Hügel / Strecke) mit Rollen-Label – alle drei von Gonge, weil keine zweite Marke in diesen Produktarten belastbar auf amazon.de verfügbar ist.",
+  "criteria": [
+    { "key": "rutschfest", "label": "Rutschfestigkeit & Standsicherheit", "weight": 0.3, "description": "Umlaufender Gummi-/TPE-Rand an der Unterseite (Halt auf Parkett/Fliesen, bodenschonend), kippsichere Form, Erfahrungsberichte zum Halt." },
+    { "key": "belastung", "label": "Belastbarkeit & Herstellerangaben", "weight": 0.25, "description": "Maximalbelastung je Element, Altersangabe, Materialangabe (PP/TPE), seriöser Hersteller mit Kita-/Therapie-Fokus; Angaben als Herstellerangaben, keine Prüfnorm unabhängig belegt." },
+    { "key": "parcours", "label": "Höhenstufen & Parcours-Vielfalt", "weight": 0.25, "description": "Anzahl Elemente, Höhen-/Neigungsstufen, Kombinierbarkeit mit anderen Elementen derselben Serie zu einem Parcours." },
+    { "key": "verstauen", "label": "Verstauen & Pflege", "weight": 0.2, "description": "Ineinander stapelbar, Platzbedarf beim Wegräumen, Gewicht, abwischbare Kunststoffoberfläche, Einsatz drinnen/geschützt draußen." }
+  ],
+  "priceTiers": [
+    { "tier": 1, "label": "bis ca. 60 €" },
+    { "tier": 2, "label": "ca. 60–130 €" },
+    { "tier": 3, "label": "über 130 € (Kita-Sets, Stapelstein, Holz-Balancierbretter)" }
+  ],
+  "products": [
+    {
+      "rank": 1,
+      "label": "Beste Gesamtwahl (Flusssteine-Set)",
+      "name": "Gonge Fluss-Steine 6er Set",
+      "brand": "Gonge",
+      "variant": "6 Steine (3 groß, 3 klein), Modell 2120, klassische Farben; gleichwertig in Nordic-Farben: B08HDFM3C1",
+      "priceTier": 1,
+      "ratings": { "rutschfest": 8.5, "belastung": 8.0, "parcours": 8.5, "verstauen": 9.0 },
+      "bestFor": "Einstieg in den Kinderzimmer-Parcours ab ca. 2 Jahren; Steine zum Hüpfen und Balancieren, die auch Erwachsene tragen.",
+      "fakten": [
+        { "text": "3 große Steine ca. 36 × 36 × 36 cm (Höhe 8,5 cm), 3 kleine ca. 25 × 25 × 25 cm (Höhe 4,5 cm), ineinander stapelbar", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/Gonge-1137385-Fluss-Steine-6er-Set/dp/B000ANIVRG", "datum": "abgerufen 2026-10-22 (Such-Snapshot)" },
+        { "text": "Ab 2 Jahren, auch für Erwachsene, max. Belastung 100 kg", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/Gonge-1137385-Fluss-Steine-6er-Set/dp/B000ANIVRG", "datum": "abgerufen 2026-10-22" },
+        { "text": "Seit August 2010 auf amazon.de, nicht als eingestellt markiert; rund 1.900 Bewertungen mit Ø 4,7–4,8 Sternen", "art": "Händlerangabe", "quelle": "https://www.amazon.de/Gonge-1137385-Fluss-Steine-6er-Set/dp/B000ANIVRG", "datum": "abgerufen 2026-10-22" },
+        { "text": "Jede Seitenfläche hat eine andere Neigung – dadurch unterschiedliche Schwierigkeitsgrade; rutschhemmende, bodenschonende Gummikante an der Unterseite", "art": "Bericht", "quelle": "https://www.familie.de/testberichte/stapelstein-alternative-welche-spielgeraete-kommen-ran-ans-original/", "datum": "laut Bericht (familie.de, Affiliate-Ratgeber)" },
+        { "text": "Mehrere britische Fachhändler nennen für dasselbe 6er-Set (gleiche Maße 36/25 cm, Höhe 8,5/4,5 cm) übereinstimmend max. 75 kg (u. a. Findel International, Davies Sports; laut Prüfbericht auch Hope Education und SportSafe). Gryphon House (USA) nennt laut Prüfbericht 110 lb (ca. 50 kg) und ab 4 Jahren – ohne URL im Archiv, daher nicht im Text.", "art": "Händlerangabe", "quelle": "https://www.findel-international.com/product/sport/pe-essentials/control-and-balance/gonge-river-stones-pack-of-6/evmt13433; https://daviessports.co.uk/product/pe-essentials/control-and-balance/gonge-river-stones-pack-of-6/ppep07379", "datum": "Prüfbericht 2026-10-22" },
+        { "text": "Nordic-Variante Modell 2820 trägt „Outdoor“ im amazon.de-Titel (Gonge Fluss-Steine Outdoor Koordination Gleichgewicht)", "art": "Händlerangabe", "quelle": "https://www.amazon.de/Gonge-Fluss-Steine-Outdoor-Koordination-Gleichgewicht/dp/B08C1DY1MH", "datum": "Prüfbericht 2026-10-22" },
+        { "text": "Wunderweib nennt die Gonge-Flusssteine als erste günstige Alternative zu Stapelstein und lobt die rutschfeste Gummi-Unterseite", "art": "Bericht", "quelle": "https://www.wunderweib.de/stapelstein-guenstige-alternativen-128735.html", "datum": "laut Bericht" }
+      ],
+      "pros": ["Sehr viele Erfahrungsberichte, seit Jahren am Markt", "Gummirand an der Unterseite gegen Rutschen und Kratzer", "100 kg Belastbarkeit laut Hersteller", "Zwei Größen/Höhen, stapelbar"],
+      "cons": ["Nur zwei Höhenstufen – für Fortgeschrittene bald zu flach", "Auf glatten, nassen Flächen keine Haftungsgarantie (ein US-Rezensent nennt den Kunststoff rutschig – Nordic-Listing)", "Kein unabhängiger Labortest"],
+      "specs": { "Teile": "6", "Maße": "36 cm / 25 cm Kantenlänge, Höhe 8,5 / 4,5 cm", "Belastung": "75 kg (vorsichtigere Angabe; laut amazon.de-Listing 100 kg)", "Alter": "ab 2 Jahren (Herstellerangabe)", "Unterseite": "Gummirand", "Einsatz": "drinnen; draußen laut Titel der Nordic-Variante 2820" },
+      "asin": "B000ANIVRG",
+      "query": "Gonge Fluss-Steine 6er Set",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "Gonge - Fluss-Steine 6er Set (amazon.de/dp/B000ANIVRG; EN: \"Gonge River Stones\", Modell 2120)"
+    },
+    {
+      "rank": 2,
+      "label": "Beste Wahl für Fortgeschrittene (Hügelkuppen)",
+      "name": "Gonge Hügelkuppen 5er Set",
+      "brand": "Gonge",
+      "variant": "5 Hügel in 3 Höhen, Modell 2121",
+      "priceTier": 2,
+      "ratings": { "rutschfest": 8.5, "belastung": 8.5, "parcours": 8.0, "verstauen": 8.5 },
+      "bestFor": "Kinder, die die Flusssteine beherrschen: Kuppen bis 25,5 cm Höhe für Steigen, Springen und Balancieren auf gewölbter Fläche.",
+      "fakten": [
+        { "text": "5 Hügelkuppen in 3 Höhen (8,5 / 17 / 25,5 cm), Grundflächen ca. 36, 40,5 und 42 cm; die vier kleineren lassen sich unter der größten verstauen", "art": "Händlerangabe", "quelle": "https://www.fdmt.ca/en/balance-1/hilltops-i-1862", "datum": "abgerufen 2026-10-22 (Such-Snapshot, mehrere Händler übereinstimmend)" },
+        { "text": "Gummifüße mit rutschfester Unterseite, kippsichere Konstruktion, stapelbar; Belastung 220 lbs (ca. 100 kg)", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/-/en/Gonge-2121-Hilltops/dp/B0027WQV5M", "datum": "abgerufen 2026-10-22" },
+        { "text": "Einige Händler nennen abweichend 75 kg Maximallast und „ab 3 Jahren“ statt „ab 2 Jahren“", "art": "Händlerangabe", "quelle": "https://learningspace.co.uk/products/hilltops-set-of-5-great-balance-and-vestibular-aid", "datum": "abgerufen 2026-10-22" },
+        { "text": "Ca. 192 Bewertungen mit Ø 4,5–4,7 Sternen auf amazon.de; Rezensionen loben Stabilität und Rutschfestigkeit, einige finden den Preis hoch", "art": "Händlerangabe", "quelle": "https://www.amazon.de/-/en/Gonge-2121-Hilltops/dp/B0027WQV5M", "datum": "abgerufen 2026-10-22" },
+        { "text": "Gonge-Hügelkuppen mit der Auszeichnung „spiel gut“", "art": "Bericht", "quelle": "https://wunschkind-community.de/flusssteine/", "datum": "laut Bericht (nicht beim Arbeitsausschuss spiel gut verifiziert)" }
+      ],
+      "pros": ["Größere Höhenstufen als die Flusssteine – echte Steigerung", "Gummifüße, kippsichere Form", "Platzsparend ineinander stapelbar"],
+      "cons": ["Belastungsangabe je nach Händler 75 oder 100 kg", "Gewölbte Oberfläche für Zweijährige anspruchsvoll – Aufsicht", "Deutlich teurer als die Flusssteine"],
+      "specs": { "Teile": "5", "Höhen": "8,5 / 17 / 25,5 cm", "Grundfläche": "36–42 cm", "Gewicht": "ca. 4,65 kg (Versandangabe)", "Belastung": "ca. 100 kg (Herstellerangabe, teils 75 kg)", "Alter": "ab 2–3 Jahren (Angaben uneinheitlich)" },
+      "asin": "B0027WQV5M",
+      "query": "Gonge Hügelkuppen 5er Set",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "Gonge Hilltops / Gonge 2121 Hügelkuppen (amazon.de/-/en/Gonge-2121-Hilltops/dp/B0027WQV5M)"
+    },
+    {
+      "rank": 3,
+      "label": "Beste Wahl für einen ganzen Parcours (Balancierstrecke)",
+      "name": "Gonge Balance-Weg",
+      "brand": "Gonge",
+      "variant": "7 Elemente (6 lang, 1 kurz), Modell G-2123; Nordic-Variante „Balancierstrecke Set Fluss“ 2823: B099RSM7YV",
+      "priceTier": 2,
+      "ratings": { "rutschfest": 8.0, "belastung": 7.0, "parcours": 8.5, "verstauen": 9.0 },
+      "bestFor": "Verbindungsstrecke zwischen Steinen und Hügeln: gerade oder geschwungen auslegbar, flach und deshalb schon für Zweijährige.",
+      "fakten": [
+        { "text": "6 lange Elemente 35,5 × 11,5 × 4,5 cm und 1 kurzes 15,5 × 8,5 × 4,5 cm; gerade oder gebogen auslegbar, ineinander stapelbar", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/Gonge-G-2123-Balance-Weg/dp/B000KTT9JE", "datum": "abgerufen 2026-10-22" },
+        { "text": "Ab 24 Monaten, max. Belastung 75 kg", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/-/en/2123-Gonge-Balance-Path/dp/B000KTT9JE", "datum": "abgerufen 2026-10-22" },
+        { "text": "Polypropylen mit rutschfesten Kanten aus TPE; passt zu Flusssteinen, Inseln und Brücken der Serie (Angabe zur Nordic-Variante 2823)", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/Gonge-2823-Balancierstrecke-Set-Fluss/dp/B099RSM7YV", "datum": "abgerufen 2026-10-22" },
+        { "text": "Ca. 311–346 Bewertungen mit Ø 4,5–4,6 Sternen, im Snapshot auf Lager (Verkäufer u. a. Sportlädchen GmbH, Sport-Tec)", "art": "Händlerangabe", "quelle": "https://www.amazon.de/Gonge-G-2123-Balance-Weg/dp/B000KTT9JE", "datum": "abgerufen 2026-10-22" }
+      ],
+      "pros": ["Macht aus einzelnen Steinen einen zusammenhängenden Parcours", "Flach (4,5 cm) – niedriges Sturzrisiko", "Sehr platzsparend stapelbar"],
+      "cons": ["Nur 75 kg – nicht für Erwachsene zum Mitturnen", "Allein schnell eintönig, am besten mit Steinen/Hügeln kombiniert", "Gummirand-Angabe nur für die Nordic-Variante ausdrücklich belegt"],
+      "specs": { "Teile": "7", "Elementmaße": "35,5 × 11,5 × 4,5 cm (lang), 15,5 × 8,5 × 4,5 cm (kurz)", "Belastung": "75 kg (Herstellerangabe)", "Alter": "ab 24 Monaten", "Material": "PP mit TPE-Kanten (Nordic-Variante)", "Gewicht": "ca. 1,5–1,7 kg" },
+      "asin": "B000KTT9JE",
+      "query": "Gonge Balance-Weg 7-teilig",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "Gonge Balance-Weg: Amazon.de: Spielzeug (amazon.de/dp/B000KTT9JE; EN: \"Gonge Balance Path\", G-2123)"
+    }
+  ],
+  "top5": [
+    {
+      "name": "Gonge Balancierset Hügelkuppen Flusssteine & federnder Stein 12teilig",
+      "warum": "Großes Kita-/Geschwister-Set: Flusssteine 6er + Hügelkuppen 5er + federnder Stein in einem Paket – sinnvoll, wenn ohnehin beides gekauft würde.",
+      "fakten": [
+        { "text": "Inhalt: 6 Flusssteine, 5 Hügelkuppen, 1 federnder Flussstein; Hügelkuppen bis 100 kg, federnder Stein bis 50 kg; PP, Stahl, TPE; „spiel gut“-Siegel laut Listing", "art": "Händlerangabe", "quelle": "https://www.amazon.de/Gonge-Balancierset-H%C3%BCgelkuppen-Flusssteine-federneder/dp/B086X2MWF3", "datum": "abgerufen 2026-10-22" },
+        { "text": "Nur 2 Bewertungen; im Snapshot auf Lager (Verkäufer Sportlädchen GmbH)", "art": "Händlerangabe", "quelle": "https://www.amazon.de/Gonge-Balancierset-H%C3%BCgelkuppen-Flusssteine-federneder/dp/B086X2MWF3", "datum": "abgerufen 2026-10-22" }
+      ],
+      "asin": "B086X2MWF3",
+      "query": "Gonge Balancierset Hügelkuppen Flusssteine federnder Stein 12teilig",
+      "where": null
+    },
+    {
+      "name": "Stapelstein Rainbow I – 6 Balanciersteine",
+      "warum": "Zweite seriöse Marke (Made in Germany, EPP): Premium-Alternative zum Stapeln, Bauen und Balancieren, wetterfest auch für Terrasse/Garten – aber ohne Gummi-Unterseite.",
+      "fakten": [
+        { "text": "6 Steine, wetter- und wasserfest, max. 180 kg, Set ca. 1,9 kg; Titel „ab 1 Jahr“", "art": "Händlerangabe", "quelle": "https://www.amazon.de/Stapelstein%C2%AE-Balanciersteine-Farbenfrohes-Motorikspielzeug-Bewegungsspiel/dp/B0FSFW5NBW", "datum": "abgerufen 2026-10-22" },
+        { "text": "Stapelstein Original: Ø ca. 27,5 cm, EPP, Made in Germany; Hersteller rät zu ebener, rutschfester Unterlage und max. 3 gestapelten Elementen", "art": "Händlerangabe", "quelle": "https://www.baur.de/p/AKLBB2079417010", "datum": "abgerufen 2026-10-22" },
+        { "text": "Altersangaben der Händler uneinheitlich (ab 12 Monaten vs. nicht unter 36 Monaten)", "art": "Händlerangabe", "quelle": "https://www.connox.at/kategorien/kinder/spielzeug/stapelstein-r-original-set.html", "datum": "abgerufen 2026-10-22" }
+      ],
+      "asin": "B0FSFW5NBW",
+      "query": "Stapelstein Rainbow I Balanciersteine 6 Stück",
+      "where": null
+    },
+    {
+      "name": "Erzi Balancierbrett Feldsteine 190 × 24 × 8,5 cm",
+      "warum": "Balancierbalken aus Holz (Birkensperrholz, Made in Germany) mit aufgesetzten „Steinen“ – für Schulkinder und Kitas, die eine lange, feste Strecke wollen.",
+      "fakten": [
+        { "text": "190 × 24 × 8,5 cm, Birkensperrholz farbig lackiert, ca. 8,1 kg, ab 36 Monaten, Modell 46384, Hersteller Erzi Qualitätsprodukte aus Holz GmbH", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/Erzi-Steine-Balancing-Deutsche-Spielzeug/dp/B00P3NMN40", "datum": "abgerufen 2026-10-22" },
+        { "text": "Verfügbarkeit im Snapshot eingeschränkt – vor Veröffentlichung prüfen", "art": "Händlerangabe", "quelle": "https://www.amazon.de/Erzi-Steine-Balancing-Deutsche-Spielzeug/dp/B00P3NMN40", "datum": "abgerufen 2026-10-22" }
+      ],
+      "asin": "B00P3NMN40",
+      "query": "Erzi Balancierbrett Feldsteine 190 cm",
+      "where": null
+    },
+    {
+      "name": "Gonge Taktile Fluss-Steine 5er Set",
+      "warum": "Sensorik-Variante: fünf Steine mit unterschiedlichen Oberflächen (Kork, Aluminium, Schaum, Gummi, Beton) für barfuß Tasten und Balancieren.",
+      "fakten": [
+        { "text": "Oberflächen Kork, Aluminium, Schaumstoff, synthetischer Gummi, Beton; PP mit TPE-Rand; 28 × 35 × 8/17 cm; max. 75 kg; ab 3 Jahren; nur unter Aufsicht", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/Gonge-Taktile-Fluss-Steine-5-er-Set/dp/B0CNR8P2SP", "datum": "abgerufen 2026-10-22" }
+      ],
+      "asin": "B0CNR8P2SP",
+      "query": "Gonge Taktile Fluss-Steine 5er Set",
+      "where": null
+    },
+    {
+      "name": "COSTWAY 5er Set Balanciersteine für Kinder mit Aufbewahrungstasche",
+      "warum": "Günstiges Einstiegsset zum Vergleich (Preisklasse 1, deutlich unter Gonge): rutschfest und stapelbar laut Anbieter, aber weniger belastbar und ohne lange Erfahrungsbasis – transparent als Budget-Alternative.",
+      "fakten": [
+        { "text": "5 Steine, rutschfest, stapelbar, mit Aufbewahrungstasche, bis 80 kg, ab 3 Jahren, drinnen und draußen", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/COSTWAY-Balanciersteine-Stapelsteine-Flusssteine-Sensorisches/dp/B0FBHRHZ75", "datum": "abgerufen 2026-10-22" }
+      ],
+      "asin": "B0FBHRHZ75",
+      "query": "COSTWAY Balanciersteine 5er Set Kinder",
+      "where": null
+    }
+  ],
+  "tests": [
+    { "institut": "Stiftung Warentest / Öko-Test", "heft": "–", "ergebnis": "Kein Test von Balanciersteinen, Hügelkuppen oder Balancierstrecken gefunden (Websuche 2026-10-22).", "quelle": "Websuche ohne Treffer" },
+    { "institut": "kita.de (Affiliate-Ratgeber, kein Labortest)", "heft": "Ratgeber „Gonge Balanciersteine“, Datum nicht abrufbar", "ergebnis": "Vergleicht fünf Gonge-Modelle nach Aufbau, Stabilität und Belastbarkeit; Gesamtfavorit laut Suchsnippet: Fluss-Steine Nordic. Balancierstrecke Fluss als geführter, flacher Weg eingeordnet.", "quelle": "https://www.kita.de/ratgeber/spielzeug/spiele/gonge-balanciersteine/" },
+    { "institut": "familie.de (Affiliate-Ratgeber, Praxistest ohne Labor)", "heft": "„Stapelstein-Alternative: Welche Spielgeräte kommen ran ans Original?“", "ergebnis": "Fünf günstige Alternativen zu Stapelstein; Gonge-Flusssteine mit Gummikante und unterschiedlich geneigten Seiten beschrieben (laut Suchsnippet, Urteil nicht abrufbar).", "quelle": "https://www.familie.de/testberichte/stapelstein-alternative-welche-spielgeraete-kommen-ran-ans-original/" }
+  ],
+  "warnungen": [
+    "Keine Rückrufe oder Safety-Gate-Meldungen zu Gonge, Stapelstein oder Balanciersteinen allgemein in der Websuche gefunden (2026-10-22). Safety Gate und produktwarnung.eu waren nicht direkt abrufbar – vor Veröffentlichung manuell prüfen: https://ec.europa.eu/safety-gate-alerts/ und https://www.rueckrufdatenbank-produktsicherheit.de (falls erreichbar).",
+    "EN 71 / Phthalatfreiheit: Für Gonge-Produkte keine ausdrückliche Hersteller- oder Händlerangabe gefunden; Material laut Listings PP mit TPE-Rand (ohne PVC-Angabe). Im Text nicht als geprüft darstellen; allgemein gilt in der EU die Spielzeugrichtlinie (CE, EN 71) und Phthalat-Grenzwert 0,1 % (AGES: https://www.ages.at/forschung/wissen-aktuell/detail/weichmacher-und-pak-in-aufblasbarem-wasserspielzeug-und-anderem-aufblasbaren-spielzeug).",
+    "Belastungs- und Altersangaben schwanken zwischen Händlern (Hügelkuppen 75 vs. 100 kg; ab 2 vs. ab 3 Jahren; Stapelstein ab 12 vs. ab 36 Monaten) – im Text die vorsichtigere Angabe nennen und auf die Verpackung verweisen.",
+    "Gonge Taktile Fluss-Steine: Hersteller schreibt Benutzung nur unter direkter Aufsicht eines Erwachsenen vor (https://www.amazon.de/Gonge-Taktile-Fluss-Steine-5-er-Set/dp/B0CNR8P2SP). Allgemein: Aufsicht, nicht auf nassen Fliesen, Abstand zu Möbelkanten; Stapelstein nur auf ebener, rutschfester Unterlage, max. 3 Elemente stapeln (Herstellerhinweis laut https://www.baur.de/p/AKLBB2079417010)."
+  ],
+  "verworfen": [
+    { "name": "Erzi Balanciersteine 5-tlg. (Holz, B0017TTXKQ)", "grund": "Seriöse Marke, aber laut Listing derzeit nicht verfügbar." },
+    { "name": "WePlay KT0001.1 Laufsteine (B003AKLN44)", "grund": "Kleine Stelzen-/Laufsteine (16 × 10,5 × 8 cm, 60 kg), nur 2 Bewertungen mit Ø 2,3 Sternen – keine belastbare Empfehlung." },
+    { "name": "Gonge Balanciersteine-Set Hügelkuppen Nordic 3-tlg. (B08Z4CY3YY)", "grund": "Widersprüchliche Angaben im Listing (95 vs. 100 kg, abweichende Maße), nur 12 Bewertungen; das 5er-Set 2121 ist eindeutiger und vielseitiger." },
+    { "name": "Sport-Thieme Hügelkuppen 5er-Set (B000KTTRHI)", "grund": "Nur 50 kg Belastung, 1 Bewertung, teurer als das Gonge-Original." },
+    { "name": "Gonge 6 Flusssteine & 1 Bouncing River Stone (B072Q6WBKK)", "grund": "Titel und Inhalt widersprüchlich (Titel 6 Flusssteine, Beschreibung 4 Steine + Federstein)." },
+    { "name": "small foot Balanciersteine „Arctic“ (B0CZTTHHGY)", "grund": "Tisch-Stapelspiel aus Holz, kein Boden-Balanciergerät – andere Produktart." },
+    { "name": "pedalo Stapelbaustein Balanciersteg 3er-Set (B0D7MFKGC9)", "grund": "Seriöse Marke, aber nur Zubehör zu Stapelstein (Stege ohne Steine) – höchstens Erwähnung im Text bei Stapelstein." },
+    { "name": "HABA, hape, Playshoes, Learning Resources, TickiT/Edx", "grund": "Kein Balancierstein-/Flussstein-Produkt dieser Marken auf amazon.de gefunden (HABA nur Entdeckersteine = Klangbausteine)." },
+    { "name": "AIYAPLAY Flusssteine 6-tlg. (bis 80 kg)", "grund": "Keine eindeutige ASIN in den Suchergebnissen bestätigt; COSTWAY als Budget-Vergleich mit gesicherter ASIN genommen." },
+    { "name": "HAPPYMATY Hügelkuppen/Balanciersteine (B0CLLHL71H)", "grund": "Laut Prüfbericht in der Suche gefunden; keine etablierte Marke mit belastbarer Dokumentation – nicht gleichwertig zu Gonge." },
+    { "name": "No-Name-Set 11-tlg. mit Hügelkuppen (B0CTQQHL9T)", "grund": "Laut Prüfbericht in der Suche gefunden; Marke und Herstellerangaben nicht belastbar – nicht gleichwertig zu Gonge." },
+    { "name": "Sport-Tec Balancier-Set 12-tlg. (B081D5KN8S)", "grund": "Händlermarke mit Gonge-Ware (laut Prüfbericht) – keine eigenständige Alternative; das Gonge-12er-Set B086X2MWF3 steht in der Top 5." },
+    { "name": "Decathlon Soft-Balanciersteine 8-tlg.", "grund": "Marktplatz-Angebot bei Decathlon (Awin 14353, nicht freigeschaltet), Schaumstoff statt fester Steine; nicht nötig, da gleichwertige Amazon-Produkte vorhanden." }
+  ],
+  "offen": [
+    "ASIN-Prüfung nur über Websuche (Titel der /dp/-Seiten in Suchergebnissen), amazon.de nicht direkt abrufbar – Lagerstatus aller ASINs vor Veröffentlichung kurz prüfen, besonders Erzi B00P3NMN40 (Snapshot: eingeschränkt verfügbar) und Gonge 12-tlg. B086X2MWF3.",
+    "Marken-Dominanz: Top 3 sind alle Gonge (je Produktart). Einzige zweite seriöse Marke mit passendem Amazon-Produkt: Stapelstein (Top 5) und Erzi (Holz-Balancierbrett, Top 5). Für Hügelkuppen und Balancierstrecken gibt es keine Nicht-Gonge-Alternative seriöser Marken auf amazon.de.",
+    "Gonge-Varianten: Flusssteine klassisch B000ANIVRG (≈1.900 Bewertungen) gewählt; Nordic-Farben B08HDFM3C1 bzw. B08C1DY1MH (Modell 2820) gleichwertig. Balance-Weg klassisch B000KTT9JE gewählt; Nordic „Balancierstrecke Set Fluss“ B099RSM7YV gleichwertig. Redaktion kann die Farbvariante im Text erwähnen.",
+    "Keine Awin-Freischaltung relevant (joined nur Rewe, Radwelt, brickzonehub) – alle Produkte über Amazon. Optional, nicht nötig: Stapelstein DE (Awin-ID 20615, aktiv, nicht beworben) und Sport-Thieme DE (Awin-ID 11417, aktiv, führt das komplette Gonge-Sortiment). Bewerbungstext-Entwurf (falls gewünscht): „toptop.shop ist ein redaktionelles Vergleichsportal (Betreiber TanMeOn GmbH) mit Kaufberatung zu Spiel- und Bewegungsgeräten für Kinder, u. a. ein neuer Ratgeber zu Balanciersteinen, Hügelkuppen und Bewegungsparcours im Kinderzimmer. Wir möchten Ihre Produkte mit transparent gekennzeichneten Affiliate-Links in Produktkarten und Vergleichstabellen empfehlen. Kein Gutschein-/Cashback- oder Brand-Bidding-Traffic.“",
+    "„spiel gut“-Auszeichnung der Gonge-Hügelkuppen nur aus Sekundärquelle (wunschkind-community.de, Amazon-Listing 12er-Set) – im Text als „laut Händler/Bericht“ kennzeichnen.",
+    "Korrekturrunde 1 (Prüfbericht): Stapelstein- und COSTWAY-ASIN bleiben B0FSFW5NBW bzw. B0FBHRHZ75 – Titel passen, Links lösen laut Prüfer auf das richtige aktive Produkt auf; ob die Detail-ASINs B0DK3PMQTB (Stapelstein Rainbow I) bzw. B0GBWWLMBR (COSTWAY 5er) eindeutiger sind, war ohne direkten amazon.de-Zugriff nicht klärbar – vor Veröffentlichung prüfen.",
+    "Korrekturrunde 1: Firmensitz Gonge (Dänemark) ohne Quelle im Archiv – im Text gestrichen. Davies Sports nennt „Made in China“ als Herstellungsland.",
+    "Flusssteine: Gryphon House (USA) nennt laut Prüfbericht nur ca. 50 kg und ab 4 Jahren; ohne URL nicht übernommen, im Text gilt 75 kg (vorsichtigere belegte Angabe).",
+    "Kein Institutstest vorhanden; Bewertungen sind redaktionelle Einschätzungen auf Basis von Herstellerangaben und Erfahrungsberichten – in der Methodik so benennen."
+  ],
+  "quellen": [
+    { "titel": "amazon.de – Gonge Fluss-Steine 6er Set (B000ANIVRG)", "url": "https://www.amazon.de/Gonge-1137385-Fluss-Steine-6er-Set/dp/B000ANIVRG" },
+    { "titel": "amazon.de – Gonge Fluss-Steine Nordic 6er Set (B08HDFM3C1)", "url": "https://www.amazon.de/Gonge-Fluss-Steine-Nordic-6er-Set/dp/B08HDFM3C1" },
+    { "titel": "amazon.de – Gonge 2820 River Stones Nordic (B08C1DY1MH)", "url": "https://www.amazon.de/Gonge-Fluss-Steine-Outdoor-Koordination-Gleichgewicht/dp/B08C1DY1MH" },
+    { "titel": "amazon.de – Gonge 2121 Hügelkuppen (B0027WQV5M)", "url": "https://www.amazon.de/-/en/Gonge-2121-Hilltops/dp/B0027WQV5M" },
+    { "titel": "amazon.de – Gonge Balance-Weg G-2123 (B000KTT9JE)", "url": "https://www.amazon.de/Gonge-G-2123-Balance-Weg/dp/B000KTT9JE" },
+    { "titel": "amazon.de – Gonge 2823 Balancierstrecke Set Fluss (B099RSM7YV)", "url": "https://www.amazon.de/Gonge-2823-Balancierstrecke-Set-Fluss/dp/B099RSM7YV" },
+    { "titel": "amazon.de – Gonge Balancierset 12-teilig (B086X2MWF3)", "url": "https://www.amazon.de/Gonge-Balancierset-H%C3%BCgelkuppen-Flusssteine-federneder/dp/B086X2MWF3" },
+    { "titel": "amazon.de – Gonge Taktile Fluss-Steine 5er Set (B0CNR8P2SP)", "url": "https://www.amazon.de/Gonge-Taktile-Fluss-Steine-5-er-Set/dp/B0CNR8P2SP" },
+    { "titel": "amazon.de – Stapelstein Rainbow I (B0FSFW5NBW)", "url": "https://www.amazon.de/Stapelstein%C2%AE-Balanciersteine-Farbenfrohes-Motorikspielzeug-Bewegungsspiel/dp/B0FSFW5NBW" },
+    { "titel": "amazon.de – Erzi Balancierbrett Feldsteine (B00P3NMN40)", "url": "https://www.amazon.de/Erzi-Steine-Balancing-Deutsche-Spielzeug/dp/B00P3NMN40" },
+    { "titel": "amazon.de – COSTWAY Balanciersteine 5er Set (B0FBHRHZ75)", "url": "https://www.amazon.de/COSTWAY-Balanciersteine-Stapelsteine-Flusssteine-Sensorisches/dp/B0FBHRHZ75" },
+    { "titel": "Findel International – Gonge River Stones Pack of 6 (75 kg)", "url": "https://www.findel-international.com/product/sport/pe-essentials/control-and-balance/gonge-river-stones-pack-of-6/evmt13433" },
+    { "titel": "Davies Sports – Gonge River Stones Pack of 6 (75 kg)", "url": "https://daviessports.co.uk/product/pe-essentials/control-and-balance/gonge-river-stones-pack-of-6/ppep07379" },
+    { "titel": "fdmt.ca – Gonge Hilltops (Maße/Höhen)", "url": "https://www.fdmt.ca/en/balance-1/hilltops-i-1862" },
+    { "titel": "learningspace.co.uk – Hilltops Set of 5", "url": "https://learningspace.co.uk/products/hilltops-set-of-5-great-balance-and-vestibular-aid" },
+    { "titel": "kita.de – Gonge Balanciersteine (Ratgeber)", "url": "https://www.kita.de/ratgeber/spielzeug/spiele/gonge-balanciersteine/" },
+    { "titel": "familie.de – Stapelstein-Alternative", "url": "https://www.familie.de/testberichte/stapelstein-alternative-welche-spielgeraete-kommen-ran-ans-original/" },
+    { "titel": "wunderweib.de – Stapelstein: günstige Alternativen", "url": "https://www.wunderweib.de/stapelstein-guenstige-alternativen-128735.html" },
+    { "titel": "wunschkind-community.de – Die besten Flusssteine", "url": "https://wunschkind-community.de/flusssteine/" },
+    { "titel": "BAUR – Stapelstein Original (Material, Hinweise)", "url": "https://www.baur.de/p/AKLBB2079417010" },
+    { "titel": "Connox – Stapelstein Original Set (Altershinweis)", "url": "https://www.connox.at/kategorien/kinder/spielzeug/stapelstein-r-original-set.html" },
+    { "titel": "AGES – Weichmacher in Spielzeug (EN 71, Phthalat-Grenzwert)", "url": "https://www.ages.at/forschung/wissen-aktuell/detail/weichmacher-und-pak-in-aufblasbarem-wasserspielzeug-und-anderem-aufblasbaren-spielzeug" },
+    { "titel": "Awin-API – Programme (joined/notjoined), Publisher 3117711", "url": "https://api.awin.com/publishers/3117711/programmes" }
+  ]
+}
