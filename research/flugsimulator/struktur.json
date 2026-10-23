@@ -1,0 +1,226 @@
+{
+  "thema": "Flugsimulator zu Hause",
+  "stand": "2026-10-23",
+  "quelle": "research/trends/2026-10-23-flugsimulator-zu-hause.md",
+  "area": {
+    "slug": "gaming-room",
+    "neu": false,
+    "name": "Gaming-Room",
+    "short": "Gaming-Room",
+    "intro": "(unverändert, siehe src/site.mjs – nur Ergänzung laut introErgaenzung)",
+    "metaTitle": "(unverändert)",
+    "metaDescription": "(unverändert)",
+    "introErgaenzung": {
+      "halbsatz": "Flugsimulator mit Joystick, Yoke, Pedalen und Cockpit",
+      "einfuegen": "in der Aufzählung direkt nach „Sim-Racing,“",
+      "neuerIntro": "Ein Raum zum Zocken, Chillen und Feiern, mit Retro-Charme und High-End-Technik: Sitzsäcke, Gaming-Stühle und -Tische, Arcade-Automaten, Flipper, Airhockey, Kicker, Billard, Dart, Sim-Racing, Flugsimulator mit Joystick, Yoke, Pedalen und Cockpit, VR, Beamer, Licht, Akustik, Retro-Konsolen und Kühlschrank.",
+      "articleVorschlag": "Im article-Absatz „Retro-Automaten und Flipper bringen Spielhallen-Gefühl, Beamer und Sim-Racing-Cockpit das große Kino.“ ergänzen um: „… und wer lieber abhebt, baut sich mit Joystick, Yoke, Ruderpedalen und Schubhebel Schritt für Schritt ein eigenes Flugsimulator-Cockpit.“",
+      "metaDescriptionOptional": "Gaming-Stühle, Arcade-Automaten, Kicker, Sim-Racing, Flugsimulator, Beamer, LED-Licht und mehr für den eigenen Gaming-Room – je Kategorie drei Empfehlungen."
+    }
+  },
+  "groups": [],
+  "categories": [
+    {
+      "slug": "bester-flugsimulator-joystick",
+      "group": null,
+      "navLabel": "Flugsimulator-Joysticks",
+      "h1": "Die 3 besten Flugsimulator-Joysticks 2026",
+      "eyebrow": "Gaming-Room · Flugsimulator",
+      "suchintent": "Erstes Steuergerät für den Flugsimulator kaufen: „bester Joystick für Flugsimulator“, „HOTAS kaufen“, „Joystick MSFS 2024“ – Stick mit (abnehmbarem) Schubregler für Microsoft Flight Simulator, DCS, War Thunder, Ace Combat; Einsteiger bis Fortgeschrittene, PC und Konsole.",
+      "abgrenzung": "Nur Flugsticks/HOTAS (Stick + integrierter oder beiliegender Militär-Schubregler). Steuerhörner → bestes-flugsimulator-yoke; separate Throttle-Quadranten für Verkehrs-/Propellerflugzeuge → bester-flugsimulator-schubhebel; Airbus-Sidestick nur als Querverweis (TCA Officer Pack steht im Schubhebel-Top-5). Kein Gamepad/Lenkrad (→ sim-racing-cockpits).",
+      "rollen": ["Beste Gesamtwahl", "Bestes Preis-Leistungs-Verhältnis", "Premium-Wahl"],
+      "rollenKandidaten": {
+        "Beste Gesamtwahl": "Thrustmaster T16000M FCS HOTAS (PC) – Hall-Sensoren, beidhändig nutzbar",
+        "Bestes Preis-Leistungs-Verhältnis": "Thrustmaster T.Flight Hotas 5 Microsoft Flight Simulator Edition (PS5/PC, neu 2026)",
+        "Premium-Wahl": "Thrustmaster HOTAS Warthog (PC) – alternativ VIRPIL AEROMAX Cadet, wenn aktiv gelistet"
+      },
+      "kriterienEntwurf": [
+        "Präzision & Sensorik (Hall-Effekt vs. Potentiometer, Totzone, Federkraft)",
+        "Plattform-Kompatibilität (PC / PS5 / Xbox, offizielle MSFS-Freigabe)",
+        "Tasten, Achsen & Schubregler (Anzahl, Twist-Ruder, abnehmbarer Throttle)",
+        "Verarbeitung & Ergonomie (Material, Griffgröße, Linkshänder)",
+        "Preis-Leistung"
+      ],
+      "top5Intent": "Joystick nach Plattform und Spielstil: bester für PS5, bester für Xbox, bester PC-Einsteiger, bester für Kampfjet-Sims (DCS), bester für Weltraum-Sims (HOSAS, Sol-R 2 / T16000M Space Sim Duo).",
+      "top5Kandidaten": ["T.Flight Hotas 5 MSFS (PS5)", "Turtle Beach VelocityOne Flightstick oder T.Flight Hotas One MSFS Edition (Xbox)", "Logitech G X56 H.O.T.A.S. (PC)", "HOTAS Warthog / Virpil (DCS)", "Thrustmaster Sol-R 2 HOSAS oder T16000M Space Sim Duo (Weltraum)"],
+      "faqKandidaten": [
+        "Welcher Joystick ist der beste für den Microsoft Flight Simulator 2024?",
+        "Joystick oder Yoke – was ist besser für den Flugsimulator?",
+        "Was bedeutet HOTAS?",
+        "Welcher Flight Stick funktioniert mit der PS5?",
+        "Kann man den Flight Simulator auf der Xbox mit Joystick spielen?",
+        "Braucht man zum Joystick zusätzlich Ruderpedale?",
+        "Was sind Hall-Sensoren und warum sind sie besser?",
+        "Kann man einen Joystick auch für War Thunder, DCS und Star Citizen nutzen?"
+      ],
+      "related": ["beste-ruderpedale-flugsimulator", "bestes-flugsimulator-yoke", "bestes-flugsimulator-cockpit", "vr-gaming"],
+      "metaTitle": "Die 3 besten Flugsimulator-Joysticks 2026 (PC, PS5, Xbox)",
+      "metaDescription": "HOTAS für MSFS 2024, DCS und War Thunder: Die 3 besten Flugsimulator-Joysticks 2026 im Vergleich – plus Top 5 nach Plattform von PS5 bis Weltraum-Sim.",
+      "produktart": "Flugsimulator-Joystick (HOTAS): senkrechter Steuerknüppel mit Daumen-Hütchen und Abzug auf runder Standplatte, daneben separater Schubregler-Hebel auf eigener Basis."
+    },
+    {
+      "slug": "bestes-flugsimulator-yoke",
+      "group": null,
+      "navLabel": "Flugsimulator-Yokes",
+      "h1": "Die 3 besten Flugsimulator-Yokes 2026",
+      "eyebrow": "Gaming-Room · Flugsimulator",
+      "suchintent": "Realistisches Steuerhorn für zivile Flugzeuge: „Yoke Flugsimulator“, „bestes Yoke MSFS 2024“, „Honeycomb Alpha Alternative“ – Cessna- bis Boeing-Gefühl am Schreibtisch, Kompatibilität PC/Xbox/PS5 als Hauptfrage.",
+      "abgrenzung": "Nur Steuerhörner (Yoke), allein oder als Pack mit Quadrant. Flugsticks/HOTAS → bester-flugsimulator-joystick; einzelne Throttle-Quadranten → bester-flugsimulator-schubhebel; Halterungen/Wheel Stand Pro → bestes-flugsimulator-cockpit.",
+      "rollen": ["Beste Gesamtwahl", "Bestes Preis-Leistungs-Verhältnis", "Beste Wahl für Xbox"],
+      "rollenKandidaten": {
+        "Beste Gesamtwahl": "Honeycomb Alpha Flight Controls (PC) – 180° Drehweg, integriertes Schalterpanel",
+        "Bestes Preis-Leistungs-Verhältnis": "Logitech G Saitek Pro Flight Yoke System inkl. Throttle Quadrant (PC)",
+        "Beste Wahl für Xbox": "Thrustmaster TCA Yoke Boeing Edition (Xbox/PC) oder Honeycomb Alpha XPC"
+      },
+      "kriterienEntwurf": [
+        "Realismus & Mechanik (Drehweg, Hub/Pitch-Weg, Zentrierung, Spiel)",
+        "Plattform-Kompatibilität (PC / Xbox / PS5)",
+        "Ausstattung (Schalter, Trimmrad, Magnetschalter, beiliegender Quadrant)",
+        "Befestigung & Verarbeitung (Tischklemme, Material, Haltbarkeit)",
+        "Preis-Leistung"
+      ],
+      "top5Intent": "Yoke nach Flugzeugtyp und Paket: Cessna/GA-Yoke, Boeing-Yoke, Komplett-Pack mit Schubhebel, Einsteiger-Lite-Version, PS5-taugliches Yoke (Thrustmaster TCA Sky Yoke, falls auf amazon.de gelistet).",
+      "top5Kandidaten": ["Honeycomb Alpha LITE", "Thrustmaster TCA Yoke Pack Boeing Edition (mit Quadrant)", "Honeycomb Alpha XPC", "Turtle Beach VelocityOne Flight (Hinweis gemischte Rezensionen)", "Thrustmaster TCA Sky Yoke (PS5/PC) – zu prüfen"],
+      "faqKandidaten": [
+        "Was ist der Unterschied zwischen Yoke und Joystick?",
+        "Welches Yoke ist das beste für den Microsoft Flight Simulator?",
+        "Gibt es ein Yoke für die PS5?",
+        "Welches Yoke funktioniert mit der Xbox Series X|S?",
+        "Braucht man zum Yoke einen Schubhebel und Ruderpedale?",
+        "Lohnt sich das Honeycomb Alpha?",
+        "Wie befestigt man ein Yoke am Schreibtisch?"
+      ],
+      "related": ["bester-flugsimulator-schubhebel", "beste-ruderpedale-flugsimulator", "bestes-flugsimulator-cockpit"],
+      "metaTitle": "Die 3 besten Flugsimulator-Yokes 2026 im Vergleich",
+      "metaDescription": "Honeycomb, Logitech, Thrustmaster: Die 3 besten Yokes für MSFS 2024 im Vergleich – mit Kompatibilität für PC, Xbox und PS5 und Top 5 nach Flugzeugtyp.",
+      "produktart": "Flugsimulator-Yoke: Steuerhorn mit zwei Griffen (Widderhorn-Form) auf einer Schubstange, die aus einem flachen Tischgehäuse mit Schraubklemme kommt; vorne kleine Kippschalter."
+    },
+    {
+      "slug": "beste-ruderpedale-flugsimulator",
+      "group": null,
+      "navLabel": "Ruderpedale",
+      "h1": "Die 3 besten Ruderpedale für den Flugsimulator 2026",
+      "eyebrow": "Gaming-Room · Flugsimulator",
+      "suchintent": "Seitenruder nachrüsten: „Ruderpedale Flugsimulator“, „Rudder Pedals kaufen“, „Pedale MSFS“ – Pedale mit Zehenbremsen für Rollen am Boden, Seitenwind-Landung und Helikopter, als Ergänzung zu Joystick oder Yoke.",
+      "abgrenzung": "Nur Flug-Ruderpedale (Gier-Achse + Zehenbremsen). Rennsport-Pedale (Gas/Bremse/Kupplung) gehören zu sim-racing-cockpits und werden nicht empfohlen. Twist-Ruder im Joystick nur als Alternative im Text.",
+      "rollen": ["Beste Gesamtwahl", "Bestes Preis-Leistungs-Verhältnis", "Premium-Wahl"],
+      "rollenKandidaten": {
+        "Beste Gesamtwahl": "Honeycomb Charlie Rudder Pedals (Xbox/PC)",
+        "Bestes Preis-Leistungs-Verhältnis": "Thrustmaster TFRP T.Flight Rudder Pedals (PS5/PS4/Xbox/PC)",
+        "Premium-Wahl": "Thrustmaster TPR Pendular Rudder (ASIN-Titel prüfen)"
+      },
+      "kriterienEntwurf": [
+        "Mechanik & Präzision (Schiebe- vs. Pendelmechanik, Sensoren, Federkraft)",
+        "Zehenbremsen (getrennte Achsen, Gefühl)",
+        "Kompatibilität (PC / Xbox / PS5, Anschluss direkt oder über Stick)",
+        "Stand & Platz (Rutschfestigkeit, Fußraum unter dem Schreibtisch, Fersenstütze)",
+        "Preis-Leistung"
+      ],
+      "top5Intent": "Ruderpedale nach Plattform und Einsatz: beste für PS5, beste für Xbox, beste für Helikopter, kompakteste für wenig Fußraum unter dem Schreibtisch, beste Einsteiger-Pedale.",
+      "top5Kandidaten": ["Thrustmaster TFRP (PS5)", "Turtle Beach VelocityOne Rudder (Xbox)", "Logitech G Saitek Pro Flight Rudder Pedals (PC)", "Thrustmaster TPR (Helikopter)", "Honeycomb Charlie"],
+      "faqKandidaten": [
+        "Braucht man Ruderpedale für den Flugsimulator?",
+        "Wofür sind die Zehenbremsen an Ruderpedalen?",
+        "Kann man ohne Pedale im MSFS landen (Auto-Rudder)?",
+        "Welche Ruderpedale funktionieren mit der PS5?",
+        "Kann man Ruderpedale auch für Sim-Racing nutzen?",
+        "Wie verhindert man, dass Ruderpedale auf dem Boden rutschen?",
+        "Sind Ruderpedale für Helikopter wichtig?"
+      ],
+      "related": ["bester-flugsimulator-joystick", "bestes-flugsimulator-yoke", "bestes-flugsimulator-cockpit"],
+      "metaTitle": "Die 3 besten Ruderpedale für den Flugsimulator 2026",
+      "metaDescription": "Seitenruder mit Zehenbremsen für MSFS 2024, DCS und Helikopter: Die 3 besten Ruderpedale 2026 im Vergleich – plus Top 5 nach Plattform und Platz.",
+      "produktart": "Flugsimulator-Ruderpedale: flache Bodenplatte mit zwei breiten Fußpedalen nebeneinander, die gegenläufig vor- und zurückgleiten; oben an jedem Pedal kippbare Zehenbremse, hinten Fersenauflage."
+    },
+    {
+      "slug": "bester-flugsimulator-schubhebel",
+      "group": null,
+      "navLabel": "Flugsimulator-Schubhebel",
+      "h1": "Die 3 besten Flugsimulator-Schubhebel 2026",
+      "eyebrow": "Gaming-Room · Flugsimulator",
+      "suchintent": "Throttle-Quadrant für Verkehrs- und Propellerflugzeuge nachrüsten: „Schubhebel Flugsimulator“, „Throttle Quadrant kaufen“, „Honeycomb Bravo“, „Airbus Schubhebel“ – Ergänzung zu Yoke oder Sidestick, mit Klappen, Fahrwerk, Autopilot.",
+      "abgrenzung": "Nur eigenständige Throttle-Quadranten (zivil: Airbus, Boeing, GA/Propeller). Militärische HOTAS-Schubregler im Set → bester-flugsimulator-joystick. Yoke-Packs mit Quadrant stehen in der Yoke-Seite; hier nur das TCA Officer Pack (Sidestick + Quadrant) als Bundle-Hinweis in der Top 5.",
+      "rollen": ["Beste Gesamtwahl", "Bestes Preis-Leistungs-Verhältnis", "Beste Wahl für Airbus"],
+      "rollenKandidaten": {
+        "Beste Gesamtwahl": "Honeycomb Bravo Throttle Quadrant (mit Autopilot-Panel)",
+        "Bestes Preis-Leistungs-Verhältnis": "Logitech G Saitek Pro Flight Throttle Quadrant oder Honeycomb Bravo Lite",
+        "Beste Wahl für Airbus": "Thrustmaster TCA Quadrant Airbus Edition (+ Add-On Klappen/Spoiler)"
+      },
+      "kriterienEntwurf": [
+        "Realismus (Hebelzahl, Raststufen/Detents, Umkehrschub, austauschbare Griffe)",
+        "Funktionen (Autopilot, Klappen, Fahrwerk, Trimmrad, Anzeigen)",
+        "Kompatibilität (PC / Xbox / PS5, Zusammenspiel mit Yoke/Sidestick)",
+        "Verarbeitung & Befestigung",
+        "Preis-Leistung"
+      ],
+      "top5Intent": "Schubhebel nach Flugzeugtyp: Airbus (TCA Quadrant), Boeing (TCA Boeing Quadrant/Bravo mit Boeing-Griffen), Propeller-/Kolbenmotor-Flugzeuge (Saitek Quadrant mit Prop/Mixture), mehrmotorig/Lite-Version, Komplett-Bundle mit Sidestick (TCA Officer Pack).",
+      "top5Kandidaten": ["Thrustmaster TCA Quadrant Airbus Edition", "Honeycomb Bravo Throttle Quadrant", "Honeycomb Bravo Throttle Quadrant Lite", "Logitech G Saitek Pro Flight Throttle Quadrant", "Thrustmaster TCA Officer Pack Airbus Edition"],
+      "faqKandidaten": [
+        "Braucht man einen separaten Schubhebel für den Flugsimulator?",
+        "Was ist ein Throttle Quadrant?",
+        "Welcher Schubhebel passt zu Airbus und welcher zu Boeing?",
+        "Funktioniert der Honeycomb Bravo mit der Xbox?",
+        "Kann man zwei Schubhebel-Quadranten für vierstrahlige Flugzeuge koppeln?",
+        "Wie stellt man Umkehrschub (Reverse Thrust) im MSFS ein?",
+        "Lässt sich ein Schubhebel mit einem Yoke anderer Marken kombinieren?"
+      ],
+      "related": ["bestes-flugsimulator-yoke", "bester-flugsimulator-joystick", "bestes-flugsimulator-cockpit", "gaming-tische"],
+      "metaTitle": "Die 3 besten Flugsimulator-Schubhebel 2026 im Vergleich",
+      "metaDescription": "Throttle-Quadranten für Airbus, Boeing und Propellerflugzeuge: Die 3 besten Schubhebel für MSFS 2024 im Vergleich – plus Top 5 nach Flugzeugtyp.",
+      "produktart": "Flugsimulator-Schubhebel (Throttle Quadrant): kompaktes Pultgehäuse mit zwei bis sechs parallelen Hebeln mit unterschiedlichen Griffköpfen, seitlich Klappen- und Fahrwerkshebel, vorne Tischklemme."
+    },
+    {
+      "slug": "bestes-flugsimulator-cockpit",
+      "group": null,
+      "navLabel": "Flugsimulator-Cockpits",
+      "h1": "Die 3 besten Flugsimulator-Cockpits 2026",
+      "eyebrow": "Gaming-Room · Flugsimulator",
+      "suchintent": "Feste Basis für die Flugsim-Hardware: „Flugsimulator Cockpit kaufen“, „Flight Sim Rig“, „Yoke Halterung“, „Next Level Racing Flight Simulator“ – Cockpit-Rahmen mit Sitz oder Ständer, an dem Yoke, HOTAS und Pedale fest montiert werden.",
+      "abgrenzung": "Flugsim-spezifische Rahmen, Sitze und Ständer (Seitenarme für HOTAS, Yoke-Platte, Pedalplatte). Rennsitze/Racing-Rigs und Lenkräder → sim-racing-cockpits (dort nur Querverweis auf Umbau mit Flight Pack); Bürostuhl-artige Sitze → gaming-stuehle; Tische und reine Klemm-Halterungen → gaming-tische bzw. Zubehörhinweis.",
+      "rollen": ["Bestes Komplett-Cockpit", "Bester Ständer für Yoke und Schubhebel", "Premium-Wahl"],
+      "rollenHinweis": "Gemischte Produktarten nach Bauform mit Rollen-Labels (Briefing-Entscheidung 2026-10-07), da nur zwei Kernmarken (Next Level Racing, Wheel Stand Pro).",
+      "rollenKandidaten": {
+        "Bestes Komplett-Cockpit": "Next Level Racing Flight Simulator (Standard/Commercial)",
+        "Bester Ständer für Yoke und Schubhebel": "Wheel Stand Pro (Saitek-Version oder HONEY Deluxe V2 für Honeycomb)",
+        "Premium-Wahl": "Next Level Racing Flight Simulator Boeing Military Edition oder MSFS Edition"
+      },
+      "kriterienEntwurf": [
+        "Stabilität & Steifigkeit (kein Wackeln bei Ruder- und Stickeingaben)",
+        "Montage-Flexibilität (Yoke, HOTAS, Sidestick, Pedale, Monitorhalter)",
+        "Ergonomie & Sitz (Verstellung, Sitzkomfort, Körpergröße)",
+        "Platzbedarf & Aufbau (Stellfläche, Klappbarkeit, Gewicht)",
+        "Preis-Leistung"
+      ],
+      "top5Intent": "Cockpit nach Steuerung und Platz: bestes für Yoke-Setups (Airliner/GA), bestes für HOTAS/Kampfjet, bestes für Airbus-Sidestick, bester Ständer ohne Sitz für den vorhandenen Stuhl, Umbau eines vorhandenen Sim-Racing-Cockpits (Flight Pack).",
+      "top5Kandidaten": ["Next Level Racing Flight Simulator Boeing Military Edition", "Next Level Racing Flight Stand Pro", "Next Level Racing Flight Simulator MSFS Edition (Sitz)", "Wheel Stand Pro HONEY Deluxe V2", "Next Level Racing F-GT/GTtrack Combat Flight Pack (Verfügbarkeit prüfen)"],
+      "faqKandidaten": [
+        "Was kostet ein Flugsimulator-Cockpit für zu Hause?",
+        "Wie viel Platz braucht ein Flugsimulator-Cockpit?",
+        "Kann man ein Sim-Racing-Cockpit für den Flugsimulator umbauen?",
+        "Welche Halterung brauche ich für Yoke und Schubhebel?",
+        "Passen Honeycomb- und Thrustmaster-Geräte auf das Next Level Racing Flight Simulator?",
+        "Brauche ich ein Cockpit oder reicht der Schreibtisch?",
+        "Lohnt sich ein Flugsim-Cockpit in Verbindung mit VR?"
+      ],
+      "related": ["sim-racing-cockpits", "bestes-flugsimulator-yoke", "beste-ruderpedale-flugsimulator", "vr-gaming"],
+      "metaTitle": "Die 3 besten Flugsimulator-Cockpits 2026 im Vergleich",
+      "metaDescription": "Cockpit-Rahmen, Sitze und Ständer für Yoke, HOTAS und Pedale: Die 3 besten Flugsimulator-Cockpits 2026 – plus Top 5 nach Steuerung und Platzbedarf.",
+      "produktart": "Flugsimulator-Cockpit: Stahlrohr-Rahmen mit Schalensitz, vorne höhenverstellbare Platte für ein Yoke, seitlich zwei Arme mit Montageplatten für Stick und Schubhebel, unten Pedalplatte; als zweite Bauform ein schlanker Klapp-Ständer ohne Sitz."
+    }
+  ],
+  "bestehendeSeitenAnpassen": [
+    "sim-racing-cockpits: related um bestes-flugsimulator-cockpit ergänzen (Umbau mit Flight Pack)",
+    "vr-gaming: related um bester-flugsimulator-joystick ergänzen (MSFS 2024 in VR / PS VR2 ab 2026)",
+    "gaming-room intro/article laut area.introErgaenzung"
+  ],
+  "offen": [
+    "Zuschnitt selbst entschieden: alle 5 Kategorien flach im Bereich gaming-room, keine Gruppe „Simulation“ (nur 5 Flugsim- + 1 Sim-Racing-Seite; Gruppen würden flache URLs von gaming-room brechen).",
+    "Weltraum-Sims (HOSAS) nicht als eigene Seite, sondern als Top-5-Platz in bester-flugsimulator-joystick.",
+    "Flugsim-Panels und Head-Tracking (Reserven des Scouts) nicht gebaut; Head-Tracking/TrackIR höchstens als Textabschnitt in bestes-flugsimulator-cockpit oder vr-gaming.",
+    "Thrustmaster TCA Sky Yoke (laut Händlerblog erstes PS5-Yoke) und T.Flight Hotas One MSFS Edition (Xbox-Pendant zum Hotas 5) tauchen im Scout-Bericht nicht auf – Rechercheur soll amazon.de-Listing prüfen; ohne eindeutige ASIN nur query.",
+    "Cockpit-Seite hat nur zwei Kernmarken (Next Level Racing, Wheel Stand Pro) → Rollen nach Bauform; falls zu dünn, Playseat Air Force NICHT nehmen (nur Renewed).",
+    "Plattform-Kompatibilität (PC/Xbox/PS5) ist auf allen 5 Seiten Kernkriterium – Redakteur sollte eine einheitliche Kompatibilitätszeile in Vergleichstabellen nutzen.",
+    "Turtle Beach VelocityOne-Produkte wegen gemischter Rezensionen nur Top 5 mit Hinweis, nicht Top 3.",
+    "Awin: kein passender joined-Händler → alle Produkte über Amazon-ASIN."
+  ]
+}

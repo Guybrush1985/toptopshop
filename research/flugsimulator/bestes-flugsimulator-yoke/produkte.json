@@ -1,0 +1,228 @@
+{
+  "slug": "bestes-flugsimulator-yoke",
+  "stand": "2026-10-23",
+  "criteria": [
+    { "key": "realismus", "label": "Realismus & Mechanik", "weight": 0.35, "description": "Drehweg (Roll), Hub-/Pendelweg (Pitch), Selbstzentrierung, Spiel und Totzone, Sensorik (Hall-Effekt vs. Potentiometer)." },
+    { "key": "verarbeitung", "label": "Verarbeitung & Befestigung", "weight": 0.25, "description": "Material von Welle und Gehäuse, Tischklemme/Montage, Haltbarkeit laut Tests und Erfahrungsberichten." },
+    { "key": "ausstattung", "label": "Ausstattung", "weight": 0.2, "description": "Tasten und Schalter am Horn, Schalterpanel/Zündschlüssel, Trimmung, beiliegender Schubhebel-Quadrant." },
+    { "key": "kompatibilitaet", "label": "Plattform-Kompatibilität", "weight": 0.2, "description": "Offiziell unterstützte Plattformen (PC / Xbox Series X|S / PS5), nötiges Zubehör (z. B. Xbox-Hub), Voreinstellungen im Microsoft Flight Simulator 2024." }
+  ],
+  "priceTiers": [
+    { "tier": 1, "label": "bis ca. 200 €" },
+    { "tier": 2, "label": "ca. 200–350 €" },
+    { "tier": 3, "label": "über 350 €" }
+  ],
+  "products": [
+    {
+      "rank": 1,
+      "label": "Beste Gesamtwahl",
+      "name": "Honeycomb Aeronautical Alpha Flight Controls Yoke & Switch Panel",
+      "brand": "Honeycomb Aeronautical",
+      "variant": "Original-Version (PC), Yoke mit Schalterpanel; für Xbox gibt es die Alpha XPC (Top 5)",
+      "priceTier": 2,
+      "ratings": { "realismus": 9.0, "verarbeitung": 9.0, "ausstattung": 8.5, "kompatibilitaet": 6.0 },
+      "gesamt": 8.3,
+      "bestFor": "PC-Piloten, die vor allem Cessna, Piper & Co. (Allgemeine Luftfahrt) fliegen und ein solides Push-Pull-Yoke mit echtem Schalterpanel wollen.",
+      "fakten": [
+        { "text": "180° Drehweg mit Selbstzentrierung ohne Totzone (Herstellerangabe im amazon.de-Listing).", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/Honeycomb-Aeronautical-Luftfahrt-Qualit%C3%A4t-Flug-Simulatoren-Steuerungssystem/dp/B07SH2SFLW", "datum": "2026-10-23" },
+        { "text": "Schalterpanel im Gehäuse mit Master-, Generator-, Avionik- und Lichtschaltern sowie 5-Stufen-Zündschalter; Griffe mit Hat-Switch, Wippen, Tasten und Push-to-Talk (Herstellerangabe).", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/Honeycomb-Aeronautical-Luftfahrt-Qualit%C3%A4t-Flug-Simulatoren-Steuerungssystem/dp/B07SH2SFLW", "datum": "2026-10-23" },
+        { "text": "Kompatibel mit PC-Flugsimulationen wie Microsoft Flight Simulator, Prepar3D und X-Plane; keine Xbox-/PS5-Unterstützung – für die Xbox gibt es die separate Alpha XPC (Händlerangabe).", "art": "Händlerangabe", "quelle": "https://www.amazon.de/Honeycomb-Aeronautical-Luftfahrt-Qualit%C3%A4t-Flug-Simulatoren-Steuerungssystem/dp/B07SH2SFLW", "datum": "2026-10-23" },
+        { "text": "Längsweg (Pitch) ca. 15 cm laut Herstellerangabe (wiedergegeben in Produktdatenbanken).", "art": "Herstellerangabe", "quelle": "https://www.digitec.ch/en/page/honeycomb-land-for-hobby-pilots-alpha-and-bravo-from-honeycomb-22278", "datum": "2021-12-28" },
+        { "text": "Produkttest Galaxus/Digitec (Simon Balissat, 28.12.2021): authentische Steuerung, positives Fazit zu Alpha und Bravo.", "art": "Test", "quelle": "https://www.digitec.ch/en/page/honeycomb-land-for-hobby-pilots-alpha-and-bravo-from-honeycomb-22278", "datum": "2021-12-28" },
+        { "text": "Clubic (Frankreich) lobt Verarbeitung, Ergonomie, Präzision und Selbstzentrierung, kritisiert das Befestigungssystem.", "art": "Test", "quelle": "https://www.clubic.com/manettes/test-produit-407790-test-honeycomb-alpha-flight-bravo-throttle-le-nec-plus-ultra-du-pilote-de-flight-simulator.html", "datum": "laut Berichten, Datum nicht abrufbar" },
+        { "text": "Rund 960 Bewertungen auf amazon.de mit ca. 4,7 von 5 Sternen (Suchsnapshot).", "art": "Händlerangabe", "quelle": "https://www.amazon.de/Honeycomb-Aeronautical-Luftfahrt-Qualit%C3%A4t-Flug-Simulatoren-Steuerungssystem/dp/B07SH2SFLW", "datum": "2026-10-23" }
+      ],
+      "pros": ["Sehr gute Verarbeitung, ruhige Mechanik mit Selbstzentrierung", "Schalterpanel mit Zündschlüssel – ideal für Cessna & Co.", "180° Drehweg wie im echten Kleinflugzeug", "Viele Bewertungen, etablierter Standard in der Sim-Community"],
+      "cons": ["Nur PC – für Xbox braucht es die Alpha XPC plus Hub", "Kein Schubhebel enthalten (z. B. Honeycomb Bravo nötig)", "Tischklemme braucht stabile, nicht zu dicke Tischplatte (Kritik bei Clubic)"],
+      "specs": { "Plattform": "PC (Windows)", "Bauart": "Push-Pull-Yoke mit Schalterpanel", "Drehweg": "180° (Herstellerangabe)", "Pitch-Weg": "ca. 15 cm (Herstellerangabe)", "Schubhebel": "nicht enthalten", "Anschluss": "USB" },
+      "asin": "B07SH2SFLW",
+      "query": "Honeycomb Aeronautical Alpha Flight Controls Yoke & Switch Panel",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "Honeycomb Aeronautical Alpha Flight Controls Yoke & Switch Panel in Luftfahrt-Qualität für Flug-Simulatoren (amazon.de/dp/B07SH2SFLW, Verkauf durch Aerosoft Simulation laut Suchsnapshot; Zweit-ASIN B07GX539NC mit gleichem Titel nicht verwendet)"
+    },
+    {
+      "rank": 2,
+      "label": "Bestes Preis-Leistungs-Verhältnis",
+      "name": "Logitech G Saitek Pro Flight Yoke System",
+      "brand": "Logitech G (Saitek)",
+      "variant": "Yoke inkl. Pro Flight Throttle Quadrant (3 Hebel), PC",
+      "priceTier": 1,
+      "ratings": { "realismus": 6.5, "verarbeitung": 6.0, "ausstattung": 8.5, "kompatibilitaet": 5.0 },
+      "gesamt": 6.5,
+      "bestFor": "Einsteiger am PC, die günstig Yoke und Schubhebel in einem Paket wollen und später mit Saitek-Panels erweitern.",
+      "fakten": [
+        { "text": "Paket aus Yoke und Throttle Quadrant, 5 Achsen, Höhen-/Querruderwelle aus Edelstahl, USB-Anschluss, PC (Titel des amazon.de-Listings).", "art": "Händlerangabe", "quelle": "https://www.amazon.de/Logitech-Saitek-Flight-Yoke-System/dp/B01MCXJWD1", "datum": "2026-10-23" },
+        { "text": "Quadrant mit drei Hebeln (z. B. Schub, Propeller, Gemisch) und drei Zwei-Wege-Kippschaltern; Hebelköpfe abnehm- und tauschbar; Quadrant wird über das Yoke angeschlossen (Herstellerangabe im Listing).", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/Logitech-Saitek-Flight-Throttle-Quadrant/dp/B01MG4DCMD", "datum": "2026-10-23" },
+        { "text": "Unterstützt laut Listing Windows; auf Xbox wird das Yoke nicht als Flugsteuerung erkannt (laut Berichten).", "art": "Bericht", "quelle": "https://flyawaysimulation.com/ask/answers/microsoft-flight-simulator-xbox-compatible-yokes/", "datum": "2026" },
+        { "text": "simulatorhardware.com bewertet das Yoke mit 56,5/100 (Stand März 2026) – günstig, aber spürbare Kompromisse.", "art": "Test", "quelle": "https://www.simulatorhardware.com/products/logitech-saitek-pro-flight-yoke/msfs/", "datum": "2026-03" },
+        { "text": "Nutzerberichte nennen eine Totzone um die Mitte der Rollachse und Kritik an der Verarbeitung von Tasten und Klemme (Erfahrungsberichte, kein Labortest).", "art": "Bericht", "quelle": "https://www.testsieger.de/joysticks/0A5Q11493VGAH-logitech-flight-yoke-system-schwarz-945-000004-pc.html", "datum": "2026-10-23" }
+      ],
+      "pros": ["Günstigstes Paket mit Yoke und Schubhebel-Quadrant", "Erweiterbar mit Saitek-Panels (Switch, Radio, Multi) und weiteren Quadranten", "Seit Jahren etabliert, viele Halterungen passen (z. B. Wheel Stand Pro)"],
+      "cons": ["Nur PC", "Spürbare Totzone in der Mitte und mehr Kunststoff als bei Honeycomb (laut Berichten)", "Ältere Konstruktion, kürzerer Pitch-Weg"],
+      "specs": { "Plattform": "PC (Windows)", "Bauart": "Push-Pull-Yoke", "Achsen": "5 (inkl. Quadrant, Händlerangabe)", "Schubhebel": "Throttle Quadrant mit 3 Hebeln enthalten", "Anschluss": "USB (Quadrant über Yoke)" },
+      "asin": "B01MCXJWD1",
+      "query": "Logitech G Saitek Pro Flight Yoke System",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "Logitech G Saitek Pro Flight Yoke System, control yoke and throttle for flight simulators, Throttle Quadrant, 5 axles, stainless steel elevator, aileron control shaft, USB port, PC, Black (amazon.de/dp/B01MCXJWD1)"
+    },
+    {
+      "rank": 3,
+      "label": "Beste Wahl für Xbox",
+      "name": "Thrustmaster TCA Yoke Boeing Edition",
+      "brand": "Thrustmaster",
+      "variant": "Yoke einzeln (Xbox Series X|S, Xbox One, PC); mit Quadrant als TCA Yoke Pack (Top 5)",
+      "priceTier": 3,
+      "ratings": { "realismus": 8.5, "verarbeitung": 7.5, "ausstattung": 8.0, "kompatibilitaet": 8.0 },
+      "gesamt": 8.05,
+      "bestFor": "Xbox- und PC-Piloten, die Verkehrsflugzeuge (Boeing) fliegen und ein lizenziertes Pendel-Yoke ohne Zusatz-Hub wollen.",
+      "fakten": [
+        { "text": "Offiziell Boeing- und Xbox-lizenziert für Xbox One und Xbox Series X|S, zusätzlich PC-kompatibel (Herstellerangabe im amazon.de-Listing).", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/Thrustmaster-TCA-Yoke-Boeing-Mikrofonanschluss/dp/B09JM89QR4", "datum": "2026-10-23" },
+        { "text": "Nachbildung des Boeing-787-Steuerhorns im Maßstab 1:1 mit Pendelmechanik, einstellbarer Federkraft und 18 Aktionstasten; automatische Integration in den Microsoft Flight Simulator auf Xbox und PC (Herstellerangabe).", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/Thrustmaster-TCA-Yoke-Boeing-Mikrofonanschluss/dp/B09JM89QR4", "datum": "2026-10-23" },
+        { "text": "PC Gamer bewertet das TCA Yoke Pack Boeing Edition mit 88/100: sehr nah an einem echten Airliner-Yoke, sehr gleichmäßige Bewegung; Kritik: Umkehrschub nur als Tasten, hoher Preis.", "art": "Test", "quelle": "https://www.pcgamer.com/uk/thrustmaster-tca-yoke-pack-boeing-edition", "datum": "laut Berichten, Datum nicht abrufbar" },
+        { "text": "FSElite lobt einstellbare Federn und Kamera-Ministick, der Quadrant überzeugt im Pack weniger.", "art": "Test", "quelle": "https://fselite.net/content/review-thrustmaster-tca-yoke-pack-boeing-edition/", "datum": "laut Berichten, Datum nicht abrufbar" },
+        { "text": "Nutzer im offiziellen MSFS-Forum empfehlen das Pendel-Yoke eher für große Flugzeuge, die Honeycomb Alpha eher für Kleinflugzeuge; die Verarbeitung wirkt mehr nach Kunststoff als bei Honeycomb (Erfahrungsberichte).", "art": "Bericht", "quelle": "https://forums.flightsimulator.com/t/honeycomb-alpha-vs-thrumaster-tca-yoke-boeing-vs-fulcrum-one-yoke/557144", "datum": "2026-10-23" },
+        { "text": "Nicht mit PS5 kompatibel; das einzige PS5-Yoke ist laut Händlerratgeber das TCA Sky Yoke (PS5-Version).", "art": "Bericht", "quelle": "https://www.pilotmall.com/blogs/news/ps5-flight-sim-controls-msfs-2024", "datum": "2026" }
+      ],
+      "pros": ["Läuft direkt an der Xbox – kein Hub nötig", "Pendelmechanik wie im Airliner, einstellbare Federn", "Offiziell Boeing-lizenziert, sauber im MSFS vorkonfiguriert", "Testurteil PC Gamer 88/100 (Pack)"],
+      "cons": ["Teuer, Schubhebel nur im Pack", "Gehäuse überwiegend Kunststoff", "Für Cessna-Flüge weniger passend als ein Push-Pull-Yoke", "Kein PS5"],
+      "specs": { "Plattform": "Xbox Series X|S, Xbox One, PC", "Bauart": "Pendel-Yoke (Boeing 787)", "Tasten": "18 (Herstellerangabe)", "Schubhebel": "nicht enthalten (im TCA Yoke Pack)", "Anschluss": "USB" },
+      "asin": "B09JM89QR4",
+      "query": "Thrustmaster TCA Yoke Boeing Edition",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "Thrustmaster TCA Yoke Boeing Edition - Flugsteuerung XBOX/PC (amazon.de/dp/B09JM89QR4; alternativer Titel „Offiziell Boeing lizenziert für Xbox Series X|S / Xbox One / PC“). Nicht verwendet: B09D17TTWF (spanischsprachiges Listing)."
+    }
+  ],
+  "top5": [
+    {
+      "name": "Honeycomb Aeronautical Alpha Flight Controls XPC",
+      "rolle": "Bestes Cessna-/GA-Yoke für Xbox",
+      "priceTier": 3,
+      "warum": "Die Xbox-/PC-Version der Alpha: gleiche Push-Pull-Bauart mit Schalterpanel und Zündschloss, dazu 12-Bit-Hall-Sensoren. An der Xbox braucht sie zusätzlich den Honeycomb Xbox Hub (B0B4BTMK8K), der am PC nicht nötig ist.",
+      "fakten": [
+        { "text": "Kompatibel mit Xbox Series X|S und Windows-PC; 180° Drehweg, 12-Bit-Hall-Effekt-Sensoren, Schalterpanel mit 5-Stufen-Zündschalter (Herstellerangabe im Listing).", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/Honeycomb-Controls-Luftfahrt-Qualit%C3%A4t-Flug-Simulatoren-kompatibel/dp/B0B4BVK8CF", "datum": "2026-10-23" },
+        { "text": "Für die Xbox ist der separate Honeycomb Xbox Hub nötig (Händlerangabe).", "art": "Händlerangabe", "quelle": "https://www.amazon.de/-/en/HC003356-Honeycomb-Aeronautical-Hub-Xbox/dp/B0B4BTMK8K", "datum": "2026-10-23" },
+        { "text": "TechCrunch testete Alpha XPC und Bravo an PC und Xbox (06.03.2023).", "art": "Test", "quelle": "https://techcrunch.com/2023/03/06/honeycomb-alpha-flight-control-xpc-yoke-and-bravo-throttle-take-flight-sim-review-pc-xbox", "datum": "2023-03-06" }
+      ],
+      "asin": "B0B4BVK8CF",
+      "asinGeprueft": "HONEYCOMB Honeycomb Aeronautical Controller Alpha Flight Controls XPC (amazon.de/dp/B0B4BVK8CF)",
+      "query": "Honeycomb Alpha Flight Controls XPC",
+      "where": null
+    },
+    {
+      "name": "Thrustmaster TCA Yoke Pack Boeing Edition",
+      "rolle": "Bestes Komplett-Pack mit Schubhebel (Boeing)",
+      "priceTier": 3,
+      "warum": "Das Boeing-Yoke von Platz 3 plus TCA Quadrant Boeing Edition mit austauschbaren Hebeln – ein abgestimmtes Airliner-Set für Xbox und PC. PC Gamer: 88/100.",
+      "fakten": [
+        { "text": "Lieferumfang: 1× TCA Yoke Boeing Edition, 1× TCA Quadrant Boeing Edition, 4 austauschbare Hebel; Xbox & PC (Händlerangabe).", "art": "Händlerangabe", "quelle": "https://www.amazon.de/Thrustmaster-Schubhebel-Quadrant-lizenzierte-Boeing-Replikas-Autopilot-Funktion/dp/B09GRLDWV2", "datum": "2026-10-23" },
+        { "text": "PC Gamer: 88/100, Kritik am Umkehrschub per Taste statt Achse.", "art": "Test", "quelle": "https://www.pcgamer.com/uk/thrustmaster-tca-yoke-pack-boeing-edition", "datum": "laut Berichten" }
+      ],
+      "asin": "B09GRLDWV2",
+      "asinGeprueft": "Thrustmaster TCA Yoke Pack Boeing Edition - Yoke & Quadrant - XBOX & PC (amazon.de/dp/B09GRLDWV2)",
+      "query": "Thrustmaster TCA Yoke Pack Boeing Edition",
+      "where": null
+    },
+    {
+      "name": "Honeycomb Alpha LITE",
+      "rolle": "Bestes Einsteiger-Yoke (PC)",
+      "priceTier": 1,
+      "warum": "Kompaktere, günstigere Alpha ohne Schalterpanel: 180° Drehweg mit Selbstzentrierung, Stahlwelle und Kugellager – für Einsteiger am PC, die Honeycomb-Mechanik ohne Zündschloss wollen.",
+      "fakten": [
+        { "text": "180° Drehweg mit Selbstzentrierung; links POV-Schalter, 2-Wege-Wippe, 2 Tasten, rechts 2-Wege-Wippe, 2 Tasten; massive Stahlwelle, zwei Linearkugellager (Herstellerangabe im Listing).", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/Honeycomb-Alpha-LITE-Flugsimulation-programmierbare/dp/B0DTHTXPKQ", "datum": "2026-10-23" },
+        { "text": "Kompatibel mit Microsoft Flight Simulator 2020 und 2024 am PC; Zuordnung in MSFS 2024 über Mapping-Hilfe von Honeycomb (Händlerangabe).", "art": "Händlerangabe", "quelle": "https://www.amazon.de/Honeycomb-Alpha-LITE-Flugsimulation-programmierbare/dp/B0DTHTXPKQ", "datum": "2026-10-23" }
+      ],
+      "asin": "B0DTHTXPKQ",
+      "asinGeprueft": "Honeycomb Alpha LITE (amazon.de/dp/B0DTHTXPKQ)",
+      "query": "Honeycomb Alpha LITE",
+      "where": null
+    },
+    {
+      "name": "Turtle Beach VelocityOne Flight Universal Control System",
+      "rolle": "All-in-one-Yoke mit Schubhebel und Trimmrad (Xbox/PC)",
+      "priceTier": 2,
+      "warum": "Yoke, Trimmrad, Schubhebel-Quadrant (2 oder 4 Triebwerke) und Ruder-Steuerung in einem Gerät für Xbox und PC. Mit Vorbehalt: gemischte Rezensionen (ca. 3,8 Sterne) wegen Spiel in der Achse und Haken in der Mitte.",
+      "fakten": [
+        { "text": "Für Xbox Series X|S, Xbox One und Windows 10/11; Yoke mit integrierter Seitenruder-Steuerung, Trimmrad und Schubquadrant, konfigurierbar für 2 und 4 Triebwerke (Händlerangabe).", "art": "Händlerangabe", "quelle": "https://www.amazon.de/-/en/Turtle-Beach-VelocityOne-Universal-Control/dp/B09JM8SX8G", "datum": "2026-10-23" },
+        { "text": "Rund 2.400 Bewertungen mit ca. 3,8 von 5 Sternen; Rezensionen berichten von Spiel in der Rollachse (Suchsnapshot).", "art": "Händlerangabe", "quelle": "https://www.amazon.de/product-reviews/B09JM8SX8G", "datum": "2026-10-23" },
+        { "text": "Forenberichte über Haken/Kleben in der Mittelstellung und einen innen gebrochenen Kunststoffteil (Erfahrungsberichte).", "art": "Bericht", "quelle": "https://forums.flightsimulator.com/t/my-short-review-of-the-turtle-beach-velocityone-flight-yoke/608508", "datum": "2026-10-23" },
+        { "text": "Testwertungen PC Pilot 90/100 und Gaming Trend 95/100 nur laut Pressemitteilung von Turtle Beach.", "art": "Bericht", "quelle": "https://www.businesswire.com/news/home/20230202005357/en", "datum": "2023-02-02" }
+      ],
+      "asin": "B09JM8SX8G",
+      "asinGeprueft": "Turtle Beach VelocityOne Flight Universal Control System for Xbox Series X|S and Xbox One / „Flight Simulation Yoke System, XBOX, PC“ (amazon.de/dp/B09JM8SX8G)",
+      "query": "Turtle Beach VelocityOne Flight Universal Control System",
+      "where": null
+    },
+    {
+      "name": "Thrustmaster TCA Sky Yoke (PS5-Version)",
+      "rolle": "Einziges Yoke für die PS5",
+      "priceTier": 1,
+      "warum": "Erstes PS5-taugliches Yoke von Thrustmaster mit integriertem Schubhebel, Trimmung und Seitenruder-Steuerung – vorkonfiguriert im Microsoft Flight Simulator 2024. Erscheint am 28.10.2026 (UVP 199,99 €); eine amazon.de-ASIN war noch nicht auffindbar.",
+      "fakten": [
+        { "text": "Zwei Versionen: PS5/PC/iOS/Android und Xbox Series X|S/PC; Erscheinungstermin 28.10.2026; UVP 199,99 € (Herstellerangabe, Thrustmaster auf X und Pressemitteilung).", "art": "Herstellerangabe", "quelle": "https://x.com/TMThrustmaster/status/2105661581325451485", "datum": "2026-10" },
+        { "text": "Steuerhorn mit Stahl-Pitch-Welle, 7 Achsen (inkl. Schub, Trimmung, Gier), 24 Tasten, 8-Wege-POV-Hat, Ministick und 2 analoge Trigger (Herstellerangabe laut Pressemitteilung).", "art": "Herstellerangabe", "quelle": "https://www.mynewsdesk.com/uk/swipe-right/pressreleases/thrustmaster-unveils-full-lineup-of-2026-flight-sim-products-at-flightsimexpo-2026-3454035", "datum": "2026" },
+        { "text": "Offizielle Produktseite „TCA SKY YOKE (Playstation / PC)“ bei Thrustmaster.", "art": "Herstellerangabe", "quelle": "https://eshop.thrustmaster.com/en_us/tca-sky-yoke-ps.html", "datum": "2026-10-23" },
+        { "text": "Händlerratgeber Pilot Mall nennt das TCA Sky Yoke das beste (und einzige) PS5-Yoke für MSFS 2024.", "art": "Bericht", "quelle": "https://www.pilotmall.com/blogs/news/ps5-flight-sim-controls-msfs-2024", "datum": "2026" }
+      ],
+      "asin": null,
+      "asinGeprueft": null,
+      "query": "Thrustmaster TCA Sky Yoke PS5",
+      "where": null
+    }
+  ],
+  "tests": [
+    { "institut": "PC Gamer", "heft": "Online-Test (Datum nicht abrufbar)", "ergebnis": "Thrustmaster TCA Yoke Pack Boeing Edition: 88/100 – nah am echten Airliner-Yoke, sehr gleichmäßig; Umkehrschub nur per Taste, teuer.", "quelle": "https://www.pcgamer.com/uk/thrustmaster-tca-yoke-pack-boeing-edition" },
+    { "institut": "Galaxus/Digitec (Produkttest)", "heft": "Online, 28.12.2021", "ergebnis": "Honeycomb Alpha und Bravo: authentische Steuerung, positives Fazit (ohne Note).", "quelle": "https://www.digitec.ch/en/page/honeycomb-land-for-hobby-pilots-alpha-and-bravo-from-honeycomb-22278" },
+    { "institut": "Clubic", "heft": "Online-Test (Datum nicht abrufbar)", "ergebnis": "Honeycomb Alpha + Bravo: Plus Verarbeitung, Ergonomie, Präzision, Zentrierung; Minus Befestigung, Gesamtkosten.", "quelle": "https://www.clubic.com/manettes/test-produit-407790-test-honeycomb-alpha-flight-bravo-throttle-le-nec-plus-ultra-du-pilote-de-flight-simulator.html" },
+    { "institut": "TechCrunch", "heft": "Online, 06.03.2023", "ergebnis": "Honeycomb Alpha XPC und Bravo an PC und Xbox getestet (ohne Note).", "quelle": "https://techcrunch.com/2023/03/06/honeycomb-alpha-flight-control-xpc-yoke-and-bravo-throttle-take-flight-sim-review-pc-xbox" },
+    { "institut": "simulatorhardware.com", "heft": "Online, Stand März 2026", "ergebnis": "Logitech G Saitek Pro Flight Yoke: 56,5/100.", "quelle": "https://www.simulatorhardware.com/products/logitech-saitek-pro-flight-yoke/msfs/" },
+    { "institut": "Stiftung Warentest / Öko-Test / deutsche Fachmagazine", "heft": "–", "ergebnis": "Kein Test von Flugsimulator-Yokes gefunden; auch PCGH/GameStar/Golem ohne Yoke-Test in der Suche. testsieger.de (Portal, keine Redaktion) aggregiert nur Kundenbewertungen.", "quelle": "https://www.testsieger.de/joysticks/" }
+  ],
+  "warnungen": [
+    "Keine Rückrufe oder Safety-Gate-Meldungen zu Honeycomb-, Thrustmaster-, Logitech- oder Turtle-Beach-Yokes gefunden (Websuche 2026-10-23). Bei Turtle Beach VelocityOne Flight gibt es Nutzerberichte über Haken in der Mittelstellung und ein gebrochenes Kunststoffteil – kein Rückruf, aber Hinweis im Text (https://forums.flightsimulator.com/t/my-short-review-of-the-turtle-beach-velocityone-flight-yoke/608508).",
+    "Plattform-Falle: Honeycomb Alpha (Original), Alpha LITE und Logitech Saitek laufen nur am PC; Alpha XPC braucht an der Xbox den separaten Honeycomb Xbox Hub; an der PS5 funktioniert laut Händlerratgeber nur das TCA Sky Yoke (PS5-Version) – Xbox- und PS5-Version des Sky Yoke sind getrennte Produkte (https://www.pilotmall.com/blogs/news/ps5-flight-sim-controls-msfs-2024).",
+    "Tischklemmen brauchen eine stabile Tischplatte; Yokes übertragen Zug- und Druckkräfte – bei dünnen oder Glastischen Halterung/Ständer nutzen (Kritik bei Clubic und im AVSIM-Forum)."
+  ],
+  "verworfen": [
+    { "name": "Thrustmaster TCA Sky Yoke als Top 3", "grund": "Erscheint erst am 28.10.2026, keine Tests, keine verifizierte amazon.de-ASIN – daher nur Top 5 (PS5) mit query." },
+    { "name": "Saitek Pro Flight Yoke System (alte Saitek-Version, B000TCD1UK) und 945-000023-cr (B07CK73HGC)", "grund": "Ältere bzw. Sonder-/Refurbished-Listings; aktuelle Logitech-G-Version B01MCXJWD1 bevorzugt." },
+    { "name": "Thrustmaster TCA Yoke Boeing Edition B09D17TTWF", "grund": "Spanischsprachiges Parallel-Listing; deutsches Hauptlisting B09JM89QR4 genutzt." },
+    { "name": "Honeycomb-Bundles (Alpha+Bravo B09WJ4R87X, Captain's Edition 2025 B0FGDTBTVD, XPC-Bundles B0BN8VWQDK/B0BTJBVJKV)", "grund": "Teils als derzeit nicht verfügbar angezeigt bzw. Bundle statt Einzelgerät; Schubhebel gehört auf die Schubhebel-Seite." },
+    { "name": "Brunner / Virpil Force-Feedback-Yokes, Fulcrum One", "grund": "Nicht auf amazon.de bzw. kein Awin-Händler (laut Scout-Bericht); sehr spezieller Preisbereich." }
+  ],
+  "offen": [
+    "Thrustmaster TCA Sky Yoke: keine amazon.de-ASIN auffindbar (amazon.com führt B0H5DGZPQ2 und B0H5F3NZH4, auf amazon.de nicht bestätigt) → nur query „Thrustmaster TCA Sky Yoke PS5“. Nach Erscheinen (28.10.2026) ASIN der PS5-Version auf amazon.de nachtragen.",
+    "Sky Yoke: Drehweg widersprüchlich in Berichten (100° vs. 180°) – im Text nicht nennen, bis Thrustmaster-Datenblatt vorliegt.",
+    "Testdaten PC Gamer, FSElite und Clubic ohne abrufbares Veröffentlichungsdatum (Seiten aus der Sandbox nicht erreichbar) – als „laut Berichten“ kennzeichnen.",
+    "Honeycomb Alpha: zweites Listing B07GX539NC mit gleichem Titel existiert; B07SH2SFLW genutzt (mehr Bewertungen, Verkauf durch Aerosoft laut Snapshot).",
+    "Awin: keine passende Freischaltung (joined nur Rewe DE, Radwelt-shop, brickzonehub) – alles über Amazon, kein neuer Awin-Händler nötig.",
+    "amazon.de-Seiten selbst nicht abrufbar; Verfügbarkeit nur aus Suchsnapshots (alle Top-3-Listings mit Preis/Bewertungen, keine „nicht verfügbar“-Markierung gesehen)."
+  ],
+  "quellen": [
+    { "titel": "amazon.de – Honeycomb Alpha Flight Controls Yoke & Switch Panel", "url": "https://www.amazon.de/dp/B07SH2SFLW" },
+    { "titel": "amazon.de – Logitech G Saitek Pro Flight Yoke System", "url": "https://www.amazon.de/dp/B01MCXJWD1" },
+    { "titel": "amazon.de – Logitech G Saitek Pro Flight Throttle Quadrant", "url": "https://www.amazon.de/dp/B01MG4DCMD" },
+    { "titel": "amazon.de – Thrustmaster TCA Yoke Boeing Edition", "url": "https://www.amazon.de/dp/B09JM89QR4" },
+    { "titel": "amazon.de – Thrustmaster TCA Yoke Pack Boeing Edition", "url": "https://www.amazon.de/dp/B09GRLDWV2" },
+    { "titel": "amazon.de – Honeycomb Alpha Flight Controls XPC", "url": "https://www.amazon.de/dp/B0B4BVK8CF" },
+    { "titel": "amazon.de – Honeycomb Xbox Hub", "url": "https://www.amazon.de/dp/B0B4BTMK8K" },
+    { "titel": "amazon.de – Honeycomb Alpha LITE", "url": "https://www.amazon.de/dp/B0DTHTXPKQ" },
+    { "titel": "amazon.de – Turtle Beach VelocityOne Flight", "url": "https://www.amazon.de/dp/B09JM8SX8G" },
+    { "titel": "PC Gamer – Thrustmaster TCA Yoke Pack Boeing Edition review", "url": "https://www.pcgamer.com/uk/thrustmaster-tca-yoke-pack-boeing-edition" },
+    { "titel": "FSElite – Review: Thrustmaster TCA Yoke Pack Boeing Edition", "url": "https://fselite.net/content/review-thrustmaster-tca-yoke-pack-boeing-edition/" },
+    { "titel": "Digitec/Galaxus – Honeycomb Alpha und Bravo (Produkttest)", "url": "https://www.digitec.ch/en/page/honeycomb-land-for-hobby-pilots-alpha-and-bravo-from-honeycomb-22278" },
+    { "titel": "Clubic – Test Honeycomb Alpha Flight + Bravo Throttle", "url": "https://www.clubic.com/manettes/test-produit-407790-test-honeycomb-alpha-flight-bravo-throttle-le-nec-plus-ultra-du-pilote-de-flight-simulator.html" },
+    { "titel": "TechCrunch – Honeycomb Alpha XPC & Bravo review", "url": "https://techcrunch.com/2023/03/06/honeycomb-alpha-flight-control-xpc-yoke-and-bravo-throttle-take-flight-sim-review-pc-xbox" },
+    { "titel": "simulatorhardware.com – Logitech Saitek Pro Flight Yoke", "url": "https://www.simulatorhardware.com/products/logitech-saitek-pro-flight-yoke/msfs/" },
+    { "titel": "MSFS-Forum – Honeycomb Alpha vs Thrustmaster TCA Yoke vs Fulcrum One", "url": "https://forums.flightsimulator.com/t/honeycomb-alpha-vs-thrumaster-tca-yoke-boeing-vs-fulcrum-one-yoke/557144" },
+    { "titel": "Pilot Mall – PS5 Flight Sim Controls for MSFS 2024: What Works", "url": "https://www.pilotmall.com/blogs/news/ps5-flight-sim-controls-msfs-2024" },
+    { "titel": "FlyAway Simulation – Xbox-kompatible Yokes für MSFS", "url": "https://flyawaysimulation.com/ask/answers/microsoft-flight-simulator-xbox-compatible-yokes/" },
+    { "titel": "Thrustmaster – TCA SKY YOKE (Playstation / PC)", "url": "https://eshop.thrustmaster.com/en_us/tca-sky-yoke-ps.html" },
+    { "titel": "Thrustmaster auf X – TCA Sky Yoke Versionen", "url": "https://x.com/TMThrustmaster/status/2105661581325451485" },
+    { "titel": "Thrustmaster Pressemitteilung FlightSimExpo 2026", "url": "https://www.mynewsdesk.com/uk/swipe-right/pressreleases/thrustmaster-unveils-full-lineup-of-2026-flight-sim-products-at-flightsimexpo-2026-3454035" },
+    { "titel": "Turtle Beach Pressemitteilung VelocityOne Flight (Business Wire, 02.02.2023)", "url": "https://www.businesswire.com/news/home/20230202005357/en" },
+    { "titel": "MSFS-Forum – Kurzreview Turtle Beach VelocityOne Flight Yoke", "url": "https://forums.flightsimulator.com/t/my-short-review-of-the-turtle-beach-velocityone-flight-yoke/608508" }
+  ]
+}

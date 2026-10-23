@@ -229,7 +229,7 @@ export default {
   related: [
     { slug: "sim-racing-cockpits", text: "Sim-Racing-Cockpits." },
     { slug: "beamer-leinwand", text: "Beamer und Leinwand." },
-    { slug: "akustik-paneele", text: "Akustik-Paneele." },
+    { slug: "bester-flugsimulator-joystick", text: "Flugsimulator-Joysticks (HOTAS)." },
     { area: "gaming-room", text: "Alle Ratgeber für den Gaming-Room." },
   ],
 };
