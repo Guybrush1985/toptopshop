@@ -135,7 +135,8 @@
   // Ansichten
   // ---------------------------------------------------------------------------
 
-  function render() {
+  function render(animate = false) {
+    app.classList.toggle("anim", animate);
     document.querySelectorAll(".tabs button").forEach((b) => {
       b.hidden = !state.profile;
       b.toggleAttribute("aria-current", b.dataset.view === view);
@@ -146,17 +147,59 @@
 
   function welcomeView() {
     const onlineCount = people.filter((u) => presence[u.id].online).length;
+    const greetings = ["Hola", "Bonjour", "Ciao", "こんにちは", "Olá", "Merhaba", "Hello", "Cześć", "안녕하세요", "Hej"];
     return `
       <section class="hero">
-        <p class="eyebrow"><span class="dot"></span> ${onlineCount} Menschen sind gerade online</p>
-        <h1>Sprich jetzt. Mit jemandem, der deine Sprache lernt.</h1>
-        <p class="lead">Du sagst, welche Sprache du fließend sprichst und welche du lernen willst. Tandem Now zeigt dir, wer <b>genau jetzt</b> online ist und das Gegenstück sucht. Ein Klick, und ihr redet.</p>
-        <button class="btn primary big" data-action="start">Profil anlegen</button>
-        <ol class="how">
-          <li><b>Profil anlegen</b><span>Muttersprache, Lernsprache mit Niveau, ein paar Hobbys und deine Stadt.</span></li>
-          <li><b>Online gehen</b><span>Schalte „Suche Partner“ ein, sobald du Zeit für ein Gespräch hast.</span></li>
-          <li><b>Loslegen</b><span>Wir zeigen dir passende Partner, die gerade auch suchen. Halbe Zeit deine Sprache, halbe Zeit ihre.</span></li>
-        </ol>
+        <p class="eyebrow">Tandem Now</p>
+        <h1 class="display">Sprich.<br><span class="grad">Jetzt.</span></h1>
+        <p class="lead">Die Sprachtandem-Plattform für genau diesen Moment. Wir verbinden dich mit Menschen, die gerade online sind, deine Lernsprache sprechen und deine Sprache lernen wollen.</p>
+        <div class="cta">
+          <button class="btn primary big" data-action="start">Profil anlegen</button>
+          <a class="more" href="#so-gehts">So funktioniert’s <span aria-hidden="true">›</span></a>
+        </div>
+        <p class="live"><span class="dot"></span>${onlineCount} Menschen sind gerade online</p>
+      </section>
+
+      <section class="stage" aria-hidden="true">
+        ${greetings.map((g, i) => `<span class="bubble b${i}">${g}</span>`).join("")}
+        <div class="pair">
+          <div class="glass person">
+            <div class="avatar lg" style="--h:210">D</div>
+            <p class="who">Du</p>
+            <p class="pill">🇩🇪 spricht Deutsch</p>
+            <p class="pill soft">🇪🇸 lernt Spanisch · B1</p>
+          </div>
+          <div class="link-line"><span class="match-badge">96 % Match</span></div>
+          <div class="glass person">
+            <div class="avatar lg" style="--h:330">L</div>
+            <p class="who">Lucía · Madrid</p>
+            <p class="pill">🇪🇸 spricht Spanisch</p>
+            <p class="pill soft">🇩🇪 lernt Deutsch · B1</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="tiles" id="so-gehts">
+        <h2 class="headline">Drei Schritte.<br><span class="muted">Null Wartezeit.</span></h2>
+        <div class="tile-grid">
+          <article class="tile"><span class="num">1</span><h3>Profil anlegen</h3><p>Muttersprache, Lernsprache mit Niveau, deine Hobbys und deine Stadt. In einer Minute erledigt.</p></article>
+          <article class="tile"><span class="num">2</span><h3>Online gehen</h3><p>Ein Schalter. Sobald du Zeit hast, sehen dich alle, die genau dich suchen.</p></article>
+          <article class="tile"><span class="num">3</span><h3>Loslegen</h3><p>Ein Tipp auf „Jetzt sprechen“, und das Gespräch beginnt. Keine Termine, kein Hin und Her.</p></article>
+        </div>
+      </section>
+
+      <section class="statement">
+        <p class="big">Halbe Zeit deine Sprache.<br><span class="grad">Halbe Zeit ihre.</span></p>
+        <dl class="stats">
+          <div><dt>Sprachen</dt><dd>${Object.keys(languages).length}</dd></div>
+          <div><dt>Niveaustufen</dt><dd>A1–C2</dd></div>
+          <div><dt>bis zum Gespräch</dt><dd>1 Klick</dd></div>
+        </dl>
+      </section>
+
+      <section class="final">
+        <h2 class="headline">Jemand wartet schon<br>auf deine Sprache.</h2>
+        <button class="btn primary big" data-action="start">Jetzt starten</button>
       </section>`;
   }
 
@@ -335,19 +378,20 @@
       ${historyView()}`;
   }
 
-  function matchCard(m) {
+  function matchCard(m, i = 0) {
     const u = m.user;
     const c = cities[u.city];
     const busy = presence[u.id].busy;
     return `
-      <article class="card match">
+      <article class="card match" style="--i:${i}">
         <header>
           <div class="avatar" style="--h:${(u.name.charCodeAt(0) * 37) % 360}">${esc(u.name[0])}</div>
           <div>
             <h3>${esc(u.name)}, ${u.age}</h3>
-            <p class="muted small">${esc(c.name)}, ${esc(c.country)}${m.km !== null ? ` · ${m.km.toLocaleString("de-DE")} km` : ""} · dort ${localTime(u.city)} Uhr</p>
+            <p class="muted small">${esc(c.name)}, ${esc(c.country)}</p>
+            <p class="muted small">${m.km !== null ? `${m.km.toLocaleString("de-DE")} km · ` : ""}${localTime(u.city)} Uhr Ortszeit</p>
           </div>
-          <span class="score" title="Wie gut ihr zusammenpasst">${m.score}%</span>
+          <span class="score" style="--p:${m.score}" title="Wie gut ihr zusammenpasst"><b>${m.score}</b></span>
         </header>
         <p class="presence ${busy ? "busy" : ""}"><span class="dot"></span>${busy ? "Gerade im Gespräch" : `Online seit ${minutesAgo(presence[u.id].since)} Min · sucht Partner`}</p>
         <dl class="langs">
@@ -510,7 +554,7 @@
 
   function go(v) {
     view = v;
-    render();
+    render(true);
     window.scrollTo({ top: 0 });
     app.focus({ preventScroll: true });
   }
@@ -537,7 +581,7 @@
     else if (a === "toggle-search") {
       state.searching = !state.searching;
       save();
-      render();
+      render(true);
       toast(state.searching ? "Du bist online. Viel Spaß beim Sprechen!" : "Du bist jetzt offline");
     } else if (a === "request") requestTalk(btn.dataset.id);
     else if (a === "close") closeModal();
@@ -591,5 +635,5 @@
     if (e.key === "Escape" && modalRoot.innerHTML) closeModal();
   });
 
-  render();
+  render(true);
 })();
