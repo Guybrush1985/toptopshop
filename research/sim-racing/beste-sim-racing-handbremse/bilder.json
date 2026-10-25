@@ -1,0 +1,54 @@
+{
+  "visuals": {
+    "1": {
+      "kind": "handbrake",
+      "tone": "forest"
+    },
+    "2": {
+      "kind": "handbrake",
+      "tone": "green"
+    },
+    "3": {
+      "kind": "handbrake",
+      "tone": "mint"
+    }
+  },
+  "steps": {
+    "title": "Handbremse einrichten",
+    "subtitle": "Anschluss, Montage und Achse",
+    "alt": "Infografik: Handbremse einrichten – Kompatibilität prüfen, Fest montieren, Modus wählen, Kalibrieren, Im Spiel belegen",
+    "caption": "Handbremse fest montieren, als Achse kalibrieren und im Spiel belegen.",
+    "steps": [
+      {
+        "title": "Kompatibilität prüfen",
+        "text": "Klären, ob die Handbremse per USB direkt oder über die Lenkradbasis läuft und welche Plattform sie unterstützt."
+      },
+      {
+        "title": "Fest montieren",
+        "text": "Rechts neben Lenkrad oder Shifter per Tischklemme oder Cockpit-Verschraubung, Hebelhöhe anpassen."
+      },
+      {
+        "title": "Modus wählen",
+        "text": "Analog für dosiertes Bremsen beim Drift oder digital als Taste – manche Modelle schalten auch auf sequenziell um."
+      },
+      {
+        "title": "Kalibrieren",
+        "text": "Hebelweg und Widerstand einstellen, die Achse in der Software einmal komplett durchziehen."
+      },
+      {
+        "title": "Im Spiel belegen",
+        "text": "Handbremse auf eine eigene Achse legen und in Rally- oder Drift-Titeln testen."
+      }
+    ]
+  },
+  "scoresAlt": "Balkendiagramm: Bewertung der drei besten Sim-Racing-Handbremsen in den Kriterien Kompatibilität, Bremsgefühl & Sensor, Funktionen, Montage & Verarbeitung und Preis-Leistung",
+  "scoresCaption": "Unsere Bewertung je Kriterium für die drei empfohlenen Modelle.",
+  "neueFormen": [
+    "handbrake"
+  ],
+  "offen": [
+    "Kriterien in scoresAlt sind ein Entwurf (kriterienEntwurf aus struktur.json) – an die finalen Bewertungskriterien anpassen.",
+    "Steps sind generisch aus der Struktur abgeleitet; Anschluss-/Plattformdetails nach der Produktrecherche konkretisieren.",
+    "OG-Vorschaubild erzeugt ein späterer Lauf nach dem Einbau der Kategorie."
+  ]
+}

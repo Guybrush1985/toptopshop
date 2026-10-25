@@ -275,3 +275,9 @@ Mindestumfang je Kategorie: **≥ 1.000 Wörter** (nicht künstlich auffüllen),
   Gaming-Room und verlinkt auf den Bereich. Unabhängige Tests für Dart-Zubehör gibt es nicht; Regelmaße (1,73 m / 2,37 m) stehen
   ausführlich nur auf `/beste-steeldart-scheibe/`, die anderen Seiten verlinken dorthin. Bereichsseiten ohne Unterbereiche zeigen
   seitdem alle Kategorien (vorher nur zwei).
+- 2026-10-25: Sim-Racing-Ausbau im Gaming-Room (täglicher Lauf, flache URLs): Direct-Drive-Lenkräder, Pedale, Shifter,
+  Handbremsen, Lenkradständer – ausschließlich Amazon. Bei Direct-Drive-Basen sind die Top-3-Rollen nach Plattform
+  (PS5 / Xbox / PC) vergeben, weil eine Basis fast immer an eine Plattform gebunden ist. Logitech G PRO, G923 und T300
+  bleiben in der Top 5 von `/sim-racing-cockpits/`; die Seite verlinkt auf die neuen Ratgeber. Fehlt auf amazon.de ein
+  aktives Listing (MOZA R9 V3, MOZA HBP, T-LCM), steht das Produkt nicht in den Top 3. Neue Symbolbilder: `wheelbase`,
+  `racepedals`, `shifter`, `handbrake`, `wheelstand`.

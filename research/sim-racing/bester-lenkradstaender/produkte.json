@@ -1,0 +1,532 @@
+{
+  "slug": "bester-lenkradstaender",
+  "stand": "2026-10-25",
+  "criteria": [
+    {
+      "key": "stabilitaet",
+      "label": "Stabilität & Lenkradstärke",
+      "weight": 0.35,
+      "description": "Zulässiges Drehmoment (Nm) laut Hersteller, Flex unter Force Feedback laut Tests/Berichten, Gewicht und Rahmenbauart (Y-/Doppelrohr), Rutschsicherheit."
+    },
+    {
+      "key": "kompatibilitaet",
+      "label": "Kompatibilität & Einstellbarkeit",
+      "weight": 0.25,
+      "description": "Vorgebohrte Lochbilder für Lenkrad, Pedale, Shifter (Logitech, Thrustmaster, Fanatec, Moza), Höhe/Neigung/Pedalabstand, Shifter- und Handbremshalter im Lieferumfang."
+    },
+    {
+      "key": "alltag",
+      "label": "Platz & Alltag",
+      "weight": 0.2,
+      "description": "Klappbar (auch mit montiertem Lenkrad), Stellfläche, Gewicht beim Verstauen, Stuhl-Halterung gegen Wegrollen, Aufbau."
+    },
+    {
+      "key": "preisleistung",
+      "label": "Preis-Leistung",
+      "weight": 0.2,
+      "description": "Stabilität und Ausstattung im Verhältnis zur Preisklasse; redaktionelle Einschätzung ohne feste Preise."
+    }
+  ],
+  "priceTiers": {
+    "1": "bis ca. 160 €",
+    "2": "ca. 160–260 €",
+    "3": "über 260 €",
+    "hinweis": "Vorschlag; Spanne der Kandidaten ca. 120–240 € laut Suchsnapshots amazon.de (Okt. 2026), keine festen Preise auf der Seite."
+  },
+  "products": [
+    {
+      "rank": 1,
+      "label": "Beste Gesamtwahl",
+      "name": "Next Level Racing Wheel Stand 2.0",
+      "brand": "Next Level Racing",
+      "variant": "NLR-S023, Schwarz",
+      "priceTier": 2,
+      "ratings": {
+        "stabilitaet": 9.0,
+        "kompatibilitaet": 8.5,
+        "alltag": 6.5,
+        "preisleistung": 7.5
+      },
+      "gesamt": 8.1,
+      "bestFor": "Alle, die ein stabiles Gestell vor dem eigenen Stuhl suchen – vom Logitech G29/G923 bis zur mittleren Direct-Drive-Basis – und später ggf. auf ein Cockpit mit Sitz aufrüsten wollen.",
+      "fakten": [
+        {
+          "text": "Rahmen aus Karbonstahl, lasergeschnitten und robotergeschweißt; Höhe und Neigung des Lenkrads sowie Pedalabstand/-winkel einstellbar.",
+          "art": "Herstellerangabe",
+          "quelle": "https://nextlevelracing.com/news/the-next-level-racing-wheel-stand-2-0-reinvented-through-innovation/",
+          "datum": "Suchsnapshot 2026-10-25"
+        },
+        {
+          "text": "Vorgebohrt für Logitech, Thrustmaster und Fanatec; laut NLR-Supportseite u. a. kompatibel mit Direct-Drive-Basen MOZA R3/R5/R9/R12, Fanatec CSL DD und GT DD Pro (Modellliste nur aus Suchauszug, Seite aus der Sandbox nicht abrufbar).",
+          "art": "Herstellerangabe",
+          "quelle": "https://support.nextlevelracing.com/hc/en-us/articles/13018355222159-Wheel-Stand-2-0-NLR-S023",
+          "datum": "Suchsnapshot 2026-10-25"
+        },
+        {
+          "text": "Lieferumfang: Ständer, Pedal- und Lenkradplatte, Shifter-Arm mit Platte, Handbremshalter, Stuhl-Halterung (Gaming Chair Cradle), Montagematerial. Gewicht 22 kg, Maße ca. 92,5 × 57,5 × 78,5 cm.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.microcenter.com/quickView/683802/next-level-racing-wheel-stand-2",
+          "datum": "Suchsnapshot 2026-10-25"
+        },
+        {
+          "text": "Mit GTSeat Add-on (separat) zum Cockpit erweiterbar; dann 120–210 cm Körpergröße und max. 150 kg Nutzergewicht.",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.maplin.co.uk/products/next-level-racing-wheel-stand-2-0",
+          "datum": "Suchsnapshot 2026-10-25"
+        },
+        {
+          "text": "Gameswelt testete den Ständer mit einer Fanatec Podium DD1 und stellte bei korrekt angezogenen Schrauben kein Verbiegen fest; Lenkradplatte ca. 40° nach oben (Direct Drive) oder unten (Riemen) neigbar.",
+          "art": "Test",
+          "quelle": "https://www.gameswelt.de/next-level-racing-wheel-stand-2-0/test/flexibilitaet-und-stabilitaet-312113",
+          "datum": "Online-Test, Datum nicht ermittelt (laut Suchauszug; Seite aus der Sandbox nicht abrufbar)"
+        },
+        {
+          "text": "9to5Toys (Test mit Logitech G Pro): etwas Flex vorhanden, aber weit weniger als am Schreibtisch; nach Monaten Quietschen am rechten Scharnier.",
+          "art": "Test",
+          "quelle": "https://9to5toys.com/2022/11/16/next-level-racing-wheel-stand-2-0-review/",
+          "datum": "16.11.2022"
+        },
+        {
+          "text": "Auf amazon.de ca. 1.200–1.400 Bewertungen, 4,5–4,6 von 5 Sternen.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/Next-Level-Racing-Kompatibel-Radst%C3%A4nder/dp/B09KZRRJ9Y",
+          "datum": "Suchsnapshot 2026-10-25"
+        }
+      ],
+      "pros": [
+        "Sehr steif für einen Ständer – laut Test auch mit Direct Drive",
+        "Shifter-Arm, Handbremshalter und Stuhl-Halterung im Lieferumfang",
+        "Lochbilder für alle großen Marken",
+        "Aufrüstbar zum Cockpit mit Sitz"
+      ],
+      "cons": [
+        "22 kg schwer – nicht zum täglichen Wegräumen",
+        "Nicht für sehr starke DD-Basen (Herstellerfreigabe prüfen)",
+        "Einzelberichte: Quietschen an Scharnieren nach längerer Nutzung"
+      ],
+      "specs": {
+        "Bauart": "Ständer ohne Sitz, Karbonstahl",
+        "Gewicht": "22 kg (Händlerangabe)",
+        "Maße": "ca. 92,5 × 57,5 × 78,5 cm",
+        "Direct Drive": "laut NLR u. a. Moza bis R12, Fanatec CSL DD/GT DD Pro",
+        "Zubehör inkl.": "Shifter-Arm, Handbremshalter, Stuhl-Halterung",
+        "Erweiterung": "GTSeat Add-on (separat)"
+      },
+      "asin": "B09KZRRJ9Y",
+      "query": "Next Level Racing Wheel Stand 2.0",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "Next Level Racing Compatible Wheel Stand 2.0 : Amazon.de (NLR-S023) – per WebSearch, aktiv, Suchsnapshot 2026-10-25"
+    },
+    {
+      "rank": 2,
+      "label": "Beste Wahl für Direct Drive",
+      "name": "GT OMEGA APEX Lenkradständer",
+      "brand": "GT Omega",
+      "variant": "APEX, Y-Rahmen, klappbar",
+      "priceTier": 1,
+      "ratings": {
+        "stabilitaet": 8.5,
+        "kompatibilitaet": 8.0,
+        "alltag": 7.5,
+        "preisleistung": 7.5
+      },
+      "gesamt": 8.0,
+      "bestFor": "Direct-Drive-Umsteiger mit Basen bis 15 Nm (z. B. Moza R9/R12, Fanatec CSL DD, Logitech RS50/G Pro, Thrustmaster T818), die trotzdem klappen wollen.",
+      "fakten": [
+        {
+          "text": "GT Omega ordnet den APEX für Direct Drive bis 15 Nm ein (PRO: bis 5 Nm, DD-X: 16 Nm und mehr); ein Blogbeitrag des Herstellers nennt den Bereich 12–15 Nm.",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.gtomega.eu/pages/steering-wheel-stands",
+          "datum": "Suchsnapshot 2026-10-25"
+        },
+        {
+          "text": "Klappbar, ohne Lenkrad und Pedale vorher abzubauen; Lenkradaufnahme und Pedalplatte in Höhe und Winkel verstellbar; Shifter-Halter (links/rechts) und Chair Link im Lieferumfang.",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.gtomega.co.uk/en-eu/products/apex-steering-wheel-stand",
+          "datum": "Suchsnapshot 2026-10-25"
+        },
+        {
+          "text": "Vorgebohrt für MOZA, Logitech, Thrustmaster und Fanatec; Gewicht 16,58 kg, Maße 81 × 14,5 × 58 cm (Packmaß).",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/Lenkradst%C3%A4nder-Thrustmaster-Schalthebelhalterung-neigungsverstellbar-Racing-Konsole/dp/B07HMVR6YX",
+          "datum": "Suchsnapshot 2026-10-25"
+        },
+        {
+          "text": "Auf amazon.de 4,5 von 5 Sternen; Käufer loben Stabilität, kritisieren das Gewicht beim Verschieben.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/Lenkradst%C3%A4nder-Thrustmaster-Schalthebelhalterung-neigungsverstellbar-Racing-Konsole/dp/B07HMVR6YX",
+          "datum": "Suchsnapshot 2026-10-25"
+        },
+        {
+          "text": "Herstellerseite: Stellfläche ca. 55 × 70 cm, Höhe ca. 80–110 cm.",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.gtomega.co.uk/en-eu/products/apex-steering-wheel-stand",
+          "datum": "Suchsnapshot 2026-10-25"
+        }
+      ],
+      "pros": [
+        "Höchste Herstellerfreigabe (15 Nm) unter den aktiv auf amazon.de gelisteten Ständern",
+        "Klappt mit montiertem Lenkrad",
+        "Lochbilder inkl. Moza; Shifter-Halter und Chair Link inklusive",
+        "Zweite Marke neben NLR"
+      ],
+      "cons": [
+        "16,6 kg – schwer zu verschieben",
+        "Nur Gummifüße (Rollen mit M8-Gewinde laut Käufern nachrüstbar)",
+        "Über 15 Nm nur Cockpit oder GT Omega DD-X (derzeit auf amazon.de nicht verfügbar)"
+      ],
+      "specs": {
+        "Bauart": "klappbarer Y-Rahmen-Ständer ohne Sitz, Stahl",
+        "Max. Drehmoment": "15 Nm (Herstellerangabe)",
+        "Gewicht": "16,58 kg (amazon.de)",
+        "Stellfläche": "ca. 55 × 70 cm (Herstellerangabe)",
+        "Zubehör inkl.": "Shifter-Halter, Chair Link"
+      },
+      "asin": "B07HMVR6YX",
+      "query": "GT Omega APEX Lenkradständer",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "GT OMEGA APEX Lenkradständer – amazon.de /dp/B07HMVR6YX, per WebSearch, aktiv (Preis im Snapshot), Suchsnapshot 2026-10-25; Zweitlisting B07HMWJLYP („GT Omega Apex Lenkradständer für Logitech G29 …“)"
+    },
+    {
+      "rank": 3,
+      "label": "Bester klappbarer Ständer",
+      "name": "Next Level Racing Wheel Stand Lite 2.0",
+      "brand": "Next Level Racing",
+      "variant": "NLR-S040, Schwarz",
+      "priceTier": 1,
+      "ratings": {
+        "stabilitaet": 7.0,
+        "kompatibilitaet": 7.5,
+        "alltag": 8.5,
+        "preisleistung": 8.5
+      },
+      "gesamt": 7.7,
+      "bestFor": "Wohnzimmer- und Sofa-Racer mit Riemen-/Zahnradlenkrad oder Einsteiger-Direct-Drive bis 10 Nm, die den Ständer nach dem Spielen zusammenklappen und verstauen.",
+      "fakten": [
+        {
+          "text": "Klappbar; für Einsteiger-Lenkräder, Pedale und Shifter bis 10 Nm freigegeben.",
+          "art": "Herstellerangabe",
+          "quelle": "https://nextlevelracing.com/products/wheel-stand-lite-2-0/",
+          "datum": "Suchsnapshot 2026-10-25"
+        },
+        {
+          "text": "Laut NLR-Support kompatibel u. a. mit Logitech G25/G27/G29/G920/G923 und MOZA R3/R5/R9; MOZA R16/R21/R25 „montierbar, aber nicht empfohlen“.",
+          "art": "Herstellerangabe",
+          "quelle": "https://support.nextlevelracing.com/hc/en-us/articles/13018367423887-Wheel-Stand-Lite-2-0-NLR-S040",
+          "datum": "Suchsnapshot 2026-10-25"
+        },
+        {
+          "text": "Höhe, Abstand und Winkel einstellbar; Halterung gegen Wegrutschen des Stuhls beim starken Bremsen; Shifter-Halter links oder rechts montierbar; per Victory Seat Add-on zum Cockpit erweiterbar.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/Next-Level-Racing-Wheel-NLR-S040-Schwarz/dp/B0DFTPH8JK",
+          "datum": "Suchsnapshot 2026-10-25"
+        },
+        {
+          "text": "Gewicht laut amazon.de 14 kg (Verpackungs-/Produktangabe NLR-Händler: 11,7 kg), Erscheinungsdatum 12.09.2024.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/Next-Level-Racing-Wheel-NLR-S040-Schwarz/dp/B0DFTPH8JK",
+          "datum": "Suchsnapshot 2026-10-25"
+        },
+        {
+          "text": "Auf amazon.de 4,4–4,5 von 5 Sternen bei einigen hundert Bewertungen.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/Next-Level-Racing-Wheel-NLR-S040-Schwarz/dp/B0DFTPH8JK",
+          "datum": "Suchsnapshot 2026-10-25"
+        }
+      ],
+      "pros": [
+        "Klappbar und leichter als der Wheel Stand 2.0",
+        "Klare Herstellerfreigabe bis 10 Nm",
+        "Stuhl-Halterung und beidseitiger Shifter-Halter",
+        "Günstigster Ständer mit aktueller Konstruktion von NLR"
+      ],
+      "cons": [
+        "Nicht für starke Direct-Drive-Basen über 10 Nm",
+        "Weniger steif als Wheel Stand 2.0 (Bauklasse)",
+        "Kein Handbremshalter in der Herstellerbeschreibung genannt"
+      ],
+      "specs": {
+        "Bauart": "klappbarer Ständer ohne Sitz",
+        "Max. Drehmoment": "10 Nm (Herstellerangabe)",
+        "Gewicht": "ca. 12–14 kg (Händlerangaben)",
+        "Maße": "ca. 72,9 × 56,9 × 74,9 cm (amazon.de)",
+        "Erweiterung": "Victory Seat Add-on (separat)"
+      },
+      "asin": "B0DFTPH8JK",
+      "query": "Next Level Racing Wheel Stand Lite 2.0",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "Next Level Racing Wheel Stand Lite 2.0 (NLR-S040) : Amazon.de – per WebSearch, aktiv, Suchsnapshot 2026-10-25"
+    }
+  ],
+  "top5": [
+    {
+      "name": "Wheel Stand Pro Super G7 Deluxe V2 + RGS",
+      "rolle": "Bester für Logitech G29/G920/G923",
+      "warum": "Leichter, kompakter Ständer speziell für Logitech-Lenkräder mit Schaltknüppel-Modul (RGS); genug für Riemen-/Zahnradlenkräder, nicht für Direct Drive gedacht.",
+      "fakten": [
+        {
+          "text": "Kompatibel mit Logitech G29, G920, G27, G25 (amazon.de-Titel); Händler nennen zusätzlich G923 PS/Xbox mit Originalbohrungen.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.simracewebshop.com/products/wheel-stand-pro-for-logitech-g923-g29-g920-g27-g25-deluxe-v2",
+          "datum": "Suchsnapshot 2026-10-25"
+        },
+        {
+          "text": "Vollmetall, Höhe und Neigung einstellbar, ca. 7,8–7,9 kg; Hinweis des Händlers: Gummifüße können Flecken auf Lack-/PVC-/Laminatböden verursachen – Unterlage empfohlen.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.pccomponentes.com/soporte-gaming-wheel-stand-pro-deluxe-v2-compatible-logitech-g29-g920-g923",
+          "datum": "Suchsnapshot 2026-10-25"
+        }
+      ],
+      "asin": "B0BVMQWNDT",
+      "query": "Wheel Stand Pro Super G7 Deluxe V2 RGS Logitech",
+      "where": null,
+      "asinGeprueft": "Wheel Stand Pro Super G7 Deluxe V2 Steering Wheel Stand + RGS, for Logitech G29/G920/G27/G25: Amazon.de"
+    },
+    {
+      "name": "Wheel Stand Pro Super TX, Deluxe V2 + RGS + GTS",
+      "rolle": "Bester für Thrustmaster T300/TX/T150",
+      "warum": "Gegenstück für Thrustmaster-Riemenlenkräder mit Shifter-Modul; TH8A-Platte anders geformt als bei Logitech.",
+      "fakten": [
+        {
+          "text": "Laut Listing für Thrustmaster T300RS/T300GT/TX/T-GT/T150/TMX; T248 laut Käufer nur mit längeren Schrauben (+10 mm).",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/Wheel-Stand-Pro-Lenkradst%C3%A4nder-THRUSTMASTER-schwarz-rot/dp/B0BVMSV8M9",
+          "datum": "Suchsnapshot 2026-10-25"
+        }
+      ],
+      "asin": "B0BVMSV8M9",
+      "query": "Wheel Stand Pro Super TX Deluxe V2 Thrustmaster",
+      "where": null,
+      "asinGeprueft": "Wheel Stand Pro Super TX, Deluxe V2 Steering Wheel Stand for Thrustmaster T300RS/TX/T150/TMX + RGS+ GTS: Amazon.de"
+    },
+    {
+      "name": "GT Omega PRO Wheel Stand",
+      "rolle": "Bester Einstieg einer zweiten Marke",
+      "warum": "Klappbarer Y-Rahmen mit Shifter-Halter für Riemen-/Zahnradlenkräder bis 5 Nm – viele Bewertungen, solide Basis für G29/G923/T300.",
+      "fakten": [
+        {
+          "text": "GT Omega ordnet den PRO bis 5 Nm ein.",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.gtomega.eu/pages/steering-wheel-stands",
+          "datum": "Suchsnapshot 2026-10-25"
+        },
+        {
+          "text": "Kompatibel u. a. mit Logitech G25–G920, Thrustmaster T300/T500RS/TX, Fanatec ClubSport; 12 kg; 4,4 von 5 Sternen bei ca. 2.545 Bewertungen.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/GT-Omega-Wheel-Stand-Schalthebel-Halterung/dp/B01MS7W5EG",
+          "datum": "Suchsnapshot 2026-10-25"
+        }
+      ],
+      "asin": "B01MS7W5EG",
+      "query": "GT Omega PRO Wheel Stand",
+      "where": null,
+      "asinGeprueft": "GT Omega PRO Wheel Stand – amazon.de /dp/B01MS7W5EG"
+    },
+    {
+      "name": "Next Level Racing Wheel Stand Racer",
+      "rolle": "Günstigster und leichtester Einstieg",
+      "warum": "Faltet laut Listing in unter 10 Sekunden und wiegt nur ca. 8,6 kg – für Einsteigerlenkräder wie T150, TMX, G29/G920; per Challenger Seat zum Cockpit erweiterbar.",
+      "fakten": [
+        {
+          "text": "Gewicht ca. 8,6 kg, Erscheinungsdatum 01.08.2019; vorgebohrt für Logitech, Thrustmaster, Fanatec; Käufer uneinig bei der Stabilität (4,1–4,2 Sterne).",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/-/en/NLR-S014/dp/B07V4NM4DT",
+          "datum": "Suchsnapshot 2026-10-25"
+        }
+      ],
+      "asin": "B07V4NM4DT",
+      "query": "Next Level Racing Wheel Stand Racer",
+      "where": null,
+      "asinGeprueft": "Next Level Racing® Wheel Stand Racer : Amazon.de (NLR-S014)"
+    },
+    {
+      "name": "Wheel Stand Pro DD",
+      "rolle": "Direct Drive einer zweiten Marke",
+      "warum": "Eigener DD-Ständer von Wheel Stand Pro für aktuelle Basen (Fanatec CSL DD/GT DD Pro, Moza R3–R9, Logitech G Pro/RS50, Thrustmaster T818/T598) – auf amazon.de nicht gelistet, daher ohne Link.",
+      "fakten": [
+        {
+          "text": "Kompatibilität laut Fachhändler: Fanatec GT DD PRO, CSL DD; Moza R3, R5, R9; Logitech G Pro, RS50; Thrustmaster T818, T598; Stahl, Höhe/Winkel/Abstand einstellbar. Kein Nm-Wert gefunden.",
+          "art": "Händlerangabe",
+          "quelle": "https://simufy.com/en/products/wheel-stand-pro-dd-black-soporte-de-volante-direct-drive",
+          "datum": "Suchsnapshot 2026-10-25"
+        }
+      ],
+      "asin": null,
+      "query": "Wheel Stand Pro DD",
+      "where": "Hersteller (wheelstandpro.com) und Sim-Racing-Fachhandel; auf amazon.de nicht gefunden (Stand 2026-10-25)"
+    }
+  ],
+  "tests": [
+    {
+      "institut": "Gameswelt",
+      "heft": "Online-Test „Next Level Racing Wheel Stand 2.0“ (Seite „Flexibilität und Stabilität“), Datum nicht ermittelt",
+      "ergebnis": "Mit Fanatec DD1 an der Belastungsgrenze getestet: kein Verbiegen bei korrekt angezogenen Schrauben; Verarbeitung präziser als beim Vorgänger, Lenkradplatte flexibler. Laut Suchauszug – Seite aus der Sandbox nicht abrufbar.",
+      "quelle": "https://www.gameswelt.de/next-level-racing-wheel-stand-2-0/test/flexibilitaet-und-stabilitaet-312113"
+    },
+    {
+      "institut": "9to5Toys",
+      "heft": "Review, 16.11.2022",
+      "ergebnis": "Wheel Stand 2.0 mit Logitech G Pro: leichter Flex, deutlich ruhiger als Tischmontage; Quietschen am Scharnier nach Monaten; hohes Gewicht.",
+      "quelle": "https://9to5toys.com/2022/11/16/next-level-racing-wheel-stand-2-0-review/"
+    },
+    {
+      "institut": "Traxion.gg",
+      "heft": "Review Next Level Racing Wheel Stand 2.0",
+      "ergebnis": "„Perfekter Schritt vom Schreibtisch“ für alle ohne Platz/Budget für ein Cockpit; solide Wahl für aktuelle DD-Basen; Fußablage hält Stuhlrollen. Laut Suchauszug.",
+      "quelle": "https://traxion.gg/next-level-racing-wheel-stand-2-0-review/"
+    },
+    {
+      "institut": "Prima Games",
+      "heft": "Review „Next Level Racing Wheel Stand 2.0 – An entry-level dream“",
+      "ergebnis": "Positiv; Pedalplatte bis 15° neigbar, Höhe bis knapp 79 cm. Laut Suchauszug.",
+      "quelle": "https://primagames.com/reviews/next-level-racing-wheel-stand-2-0-review"
+    }
+  ],
+  "warnungen": [
+    "Keine Rückrufe oder Safety-Gate-Meldungen zu Lenkradständern von Next Level Racing, GT Omega oder Wheel Stand Pro gefunden (Websuche 2026-10-25; Safety-Gate-Datenbank selbst aus der Sandbox nicht abrufbar).",
+    "Direct-Drive-Sicherheitshinweis (aus sim-racing-cockpits übernehmen): Ständer können bei hohen Nm kippen oder federn; nur innerhalb der Herstellerfreigabe nutzen (Lite 2.0: 10 Nm, GT Omega APEX: 15 Nm, PRO: 5 Nm), alle Schrauben fest anziehen, Basis-Drehmoment ggf. in der Software begrenzen; Hände beim Start/Kalibrieren vom Kranz. Für >15 Nm Cockpit empfehlen.",
+    "Wheel Stand Pro (Händlerhinweis): Gummifüße können dauerhafte Flecken auf lackierten, PVC- oder Laminatböden verursachen – Unterlage empfehlen.",
+    "Stuhl ohne Rollen bzw. mit Stuhl-Halterung/Rollenbremse nutzen (NLR Cradle, GT Omega Chair Link) – Hinweis auf gaming-stuehle."
+  ],
+  "verworfen": [
+    {
+      "name": "Next Level Racing Wheel Stand DD (NLR-S013, B07V8VJ193)",
+      "grund": "Auf amazon.de „derzeit nicht verfügbar“, unbekannt ob wieder lieferbar; Nachfolger faktisch Wheel Stand 2.0."
+    },
+    {
+      "name": "GT OMEGA DD-X Lenkradständer (B01N9S66LN)",
+      "grund": "Bis 21 Nm laut Hersteller (nicht klappbar), aber auf amazon.de „derzeit nicht verfügbar“; auf amazon.co.uk (B0DH59VMWZ) aktiv – nicht verwendbar. Sobald wieder aktiv, Top-3-Kandidat für „Beste Wahl für Direct Drive“."
+    },
+    {
+      "name": "Next Level Racing Wheel Stand Lite (1. Generation, B076VFD4KS)",
+      "grund": "Vorgänger der Lite 2.0."
+    },
+    {
+      "name": "Next Level Racing Wheel Stand 2.0 & Thrustmaster TH8A Bundle (B0BK7R2DF8)",
+      "grund": "Bundle mit altem Shifter; Shifter gehört zur Seite bester-sim-racing-shifter."
+    },
+    {
+      "name": "Wheel Stand Pro SUPER CSL Deluxe V2 (B082WHJFXM)",
+      "grund": "Für ältere Fanatec CSL Elite; Käuferbericht: Oberteil lockert sich bei starkem Force Feedback."
+    },
+    {
+      "name": "Next Level Racing GT Seat Add-On (B08ZPKRZ48)",
+      "grund": "Sitz-Add-on – laut Struktur nur im Text; Käuferkritik an Haltbarkeit (Knarzen)."
+    },
+    {
+      "name": "Diwangus, PXN PXN-A10, Ranqer, OPLITE GT PRO, VDD, XRhinorth",
+      "grund": "Austauschbare No-Name-/Budget-Ständer ohne belastbare Nm-Herstellerangabe."
+    },
+    {
+      "name": "Trak Racer Direktmontage für Fanatec DD (B0CDHG6TZD)",
+      "grund": "Nur Adapterhalterung, kein Ständer; Trak Racer FS3 ist Flugsim-Ständer und auf amazon.de nicht verfügbar."
+    }
+  ],
+  "offen": [
+    "Rollen gegenüber rollenKandidaten umverteilt: „Beste Wahl für Direct Drive“ = GT Omega APEX statt NLR Wheel Stand DD, weil der NLR DD und der GT Omega DD-X auf amazon.de nicht verfügbar sind und der APEX mit 15 Nm die höchste Herstellerfreigabe unter den aktiven Listings hat. Damit 2× NLR + 1× GT Omega in den Top 3 (dritte Marke Wheel Stand Pro hat auf amazon.de kein DD-Modell).",
+    "Nm-Freigabe Wheel Stand 2.0 nicht als Zahl belegt: NLR-Supportseite listet laut Suchauszug Moza R3–R12, Fanatec CSL DD, GT DD Pro (und Camus C5); ein Blog (simracingnerd.net) nennt dagegen „DD bis 5 Nm“. Redaktion: keine Nm-Zahl nennen, sondern Modellliste „laut NLR“ und Gameswelt-DD1-Test; Supportseite bei Gelegenheit direkt prüfen.",
+    "Wheel Stand Pro DD nicht auf amazon.de → Top 5 nur mit `where`, ohne Link. Kein Awin-Händler freigeschaltet (Rewe, Radwelt, brickzonehub passen nicht); kein neuer Awin-Händler vorgeschlagen, da Top 3 vollständig über Amazon abgedeckt.",
+    "ASINs per WebSearch auf amazon.de-/dp/-Seiten geprüft (amazon.de per curl/WebFetch nicht abrufbar); Verfügbarkeit laut Suchsnapshot 2026-10-25. Herstellerseiten (nextlevelracing.com, gtomega.eu, Gameswelt) aus der Sandbox nicht abrufbar – Fakten aus Suchauszügen.",
+    "Garantie nicht herstellerseitig belegt (Coolblue nennt 2 Jahre für NLR Wheel Stand 2.0; Spanischer Händler 3 Jahre für Wheel Stand Pro DD) – auf der Seite nur gesetzliche Gewährleistung erwähnen.",
+    "Gewicht Lite 2.0 widersprüchlich (amazon.de 14 kg vs. Händler 11,7 kg) – im Text „rund 12–14 kg“.",
+    "Keine Tests von Stiftung Warentest, Öko-Test oder deutschen Fachmagazinen außer Gameswelt-Einzeltest gefunden.",
+    "2026-10-25 (Redaktion/Orchestrator): Reihenfolge nach Gesamtnote angepasst – Platz 2 GT OMEGA APEX (Beste Wahl für Direct Drive, 8,0), Platz 3 NLR Wheel Stand Lite 2.0 (Bester klappbarer Ständer, 7,7). Symbolbild-Töne nach Rang (forest/green/mint) beibehalten."
+  ],
+  "quellen": [
+    {
+      "titel": "amazon.de: Next Level Racing Wheel Stand 2.0 (B09KZRRJ9Y)",
+      "url": "https://www.amazon.de/Next-Level-Racing-Kompatibel-Radst%C3%A4nder/dp/B09KZRRJ9Y"
+    },
+    {
+      "titel": "amazon.de: Next Level Racing Wheel Stand Lite 2.0 (B0DFTPH8JK)",
+      "url": "https://www.amazon.de/Next-Level-Racing-Wheel-NLR-S040-Schwarz/dp/B0DFTPH8JK"
+    },
+    {
+      "titel": "amazon.de: GT OMEGA APEX Lenkradständer (B07HMVR6YX)",
+      "url": "https://www.amazon.de/Lenkradst%C3%A4nder-Thrustmaster-Schalthebelhalterung-neigungsverstellbar-Racing-Konsole/dp/B07HMVR6YX"
+    },
+    {
+      "titel": "amazon.de: GT OMEGA DD-X (B01N9S66LN, nicht verfügbar)",
+      "url": "https://www.amazon.de/GT-Lenkradst%C3%A4nder-Schalthebelmontagesatz-neigungsverstellbares-ultimative/dp/B01N9S66LN"
+    },
+    {
+      "titel": "amazon.de: Next Level Racing Wheel Stand DD (B07V8VJ193, nicht verfügbar)",
+      "url": "https://www.amazon.de/Next-Level-Racing-NLR-S013-Wheel/dp/B07V8VJ193"
+    },
+    {
+      "titel": "amazon.de: Wheel Stand Pro Super G7 Deluxe V2 + RGS (B0BVMQWNDT)",
+      "url": "https://www.amazon.de/Wheel-Stand-Pro-Lenkradst%C3%A4nder-LOGITECH-schwarz/dp/B0BVMQWNDT"
+    },
+    {
+      "titel": "amazon.de: Wheel Stand Pro Super TX Deluxe V2 (B0BVMSV8M9)",
+      "url": "https://www.amazon.de/Wheel-Stand-Pro-Lenkradst%C3%A4nder-THRUSTMASTER-schwarz-rot/dp/B0BVMSV8M9"
+    },
+    {
+      "titel": "amazon.de: GT Omega PRO Wheel Stand (B01MS7W5EG)",
+      "url": "https://www.amazon.de/GT-Omega-Wheel-Stand-Schalthebel-Halterung/dp/B01MS7W5EG"
+    },
+    {
+      "titel": "amazon.de: Next Level Racing Wheel Stand Racer (B07V4NM4DT)",
+      "url": "https://www.amazon.de/-/en/NLR-S014/dp/B07V4NM4DT"
+    },
+    {
+      "titel": "Next Level Racing Support: Wheel Stand 2.0 (NLR-S023)",
+      "url": "https://support.nextlevelracing.com/hc/en-us/articles/13018355222159-Wheel-Stand-2-0-NLR-S023"
+    },
+    {
+      "titel": "Next Level Racing Support: Wheel Stand Lite 2.0 (NLR-S040)",
+      "url": "https://support.nextlevelracing.com/hc/en-us/articles/13018367423887-Wheel-Stand-Lite-2-0-NLR-S040"
+    },
+    {
+      "titel": "Next Level Racing: Wheel Stand Lite 2.0",
+      "url": "https://nextlevelracing.com/products/wheel-stand-lite-2-0/"
+    },
+    {
+      "titel": "Next Level Racing News: Wheel Stand 2.0 reinvented",
+      "url": "https://nextlevelracing.com/news/the-next-level-racing-wheel-stand-2-0-reinvented-through-innovation/"
+    },
+    {
+      "titel": "GT Omega: Find your perfect wheel stand",
+      "url": "https://www.gtomega.eu/pages/steering-wheel-stands"
+    },
+    {
+      "titel": "GT Omega Blog: Which wheel stand is right for me",
+      "url": "https://www.gtomega.eu/blogs/news/which-gt-omega-wheel-stand-is-right-for-me"
+    },
+    {
+      "titel": "GT Omega: APEX Wheel Stand",
+      "url": "https://www.gtomega.co.uk/en-eu/products/apex-steering-wheel-stand"
+    },
+    {
+      "titel": "GT Omega: DD-X Wheel Stand",
+      "url": "https://www.gtomega.co.uk/en-eu/products/dd-x-wheel-stand"
+    },
+    {
+      "titel": "Gameswelt: Test Next Level Racing Wheel Stand 2.0",
+      "url": "https://www.gameswelt.de/next-level-racing-wheel-stand-2-0/test/flexibilitaet-und-stabilitaet-312113"
+    },
+    {
+      "titel": "9to5Toys: Next Level Racing Wheel Stand 2.0 review",
+      "url": "https://9to5toys.com/2022/11/16/next-level-racing-wheel-stand-2-0-review/"
+    },
+    {
+      "titel": "Traxion: Next Level Racing Wheel Stand 2.0 review",
+      "url": "https://traxion.gg/next-level-racing-wheel-stand-2-0-review/"
+    },
+    {
+      "titel": "Prima Games: Wheel Stand 2.0 review",
+      "url": "https://primagames.com/reviews/next-level-racing-wheel-stand-2-0-review"
+    },
+    {
+      "titel": "Simufy: Wheel Stand Pro DD",
+      "url": "https://simufy.com/en/products/wheel-stand-pro-dd-black-soporte-de-volante-direct-drive"
+    },
+    {
+      "titel": "SimRace Webshop: Wheel Stand Pro Deluxe V2 Logitech",
+      "url": "https://www.simracewebshop.com/products/wheel-stand-pro-for-logitech-g923-g29-g920-g27-g25-deluxe-v2"
+    }
+  ]
+}

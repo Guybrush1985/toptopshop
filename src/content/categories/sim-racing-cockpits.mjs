@@ -6,7 +6,7 @@ export default {
   area: "gaming-room",
   navLabel: "Sim-Racing-Cockpits",
   published: "2026-10-08",
-  updated: "2026-10-08",
+  updated: "2026-10-25",
 
   metaTitle: "Die 3 besten Sim-Racing-Cockpits 2026",
   metaDescription:
@@ -171,7 +171,7 @@ export default {
                 ["**Klappsitz**", "Platzsparend, günstig", "Weniger steif"],
                 ["**Fester Rennsitz**", "Stabil, bequem", "Braucht festen Platz"],
                 ["**Aluprofil-Rig**", "Maximal steif, modular", "Teuer, aufwendig"],
-                ["**Wheel Stand**", "Sehr günstig, mit eigenem Stuhl", "Kein fester Sitz"],
+                ["**[Wheel Stand](/bester-lenkradstaender/)**", "Sehr günstig, mit eigenem Stuhl", "Kein fester Sitz"],
               ],
             },
           },
@@ -185,7 +185,7 @@ export default {
   top5: {
     id: "top5-lenkraeder",
     h2: "Die 5 besten Lenkräder und Bundles",
-    intro: "Ohne Lenkrad kein Rennen – die passenden Lenkräder für PlayStation, Xbox und PC.",
+    intro: "Ohne Lenkrad kein Rennen – die passenden Lenkräder für PlayStation, Xbox und PC. Komplett-Lenkräder für den Einstieg; Direct-Drive-Basen vergleichen wir ausführlich im Ratgeber [Direct-Drive-Lenkräder](/bestes-direct-drive-lenkrad/), Pedale, Shifter und Handbremse zum Nachrüsten in eigenen Ratgebern.",
     items: [
       { name: "Logitech G923 TRUEFORCE mit Schaltknüppel", for: "Beliebter Einstieg", text: "Lenkrad mit TRUEFORCE-Feedback und Pedalen, im Bundle mit Schaltknüppel (Herstellerangabe).", asin: "B08K9VCZ5G", query: "Logitech G923 TRUEFORCE Schaltknüppel" },
       { name: "Thrustmaster T300 RS GT Edition", for: "Riemenantrieb", text: "Lenkrad mit Riemenantrieb für PlayStation und PC (Herstellerangabe); Riemenantriebe gelten als vergleichsweise sanft im Force Feedback.", asin: "B01HRYFODO", query: "Thrustmaster T300 RS GT Edition" },
@@ -228,7 +228,9 @@ export default {
 
   related: [
     { slug: "vr-gaming", text: "VR-Gaming." },
-    { slug: "beamer-leinwand", text: "Beamer und Leinwand." },
+    { slug: "bestes-direct-drive-lenkrad", text: "Direct-Drive-Lenkräder." },
+    { slug: "beste-sim-racing-pedale", text: "Sim-Racing-Pedale." },
+    { slug: "bester-lenkradstaender", text: "Lenkradständer." },
     { slug: "bestes-flugsimulator-cockpit", text: "Flugsimulator-Cockpits und Ständer." },
     { area: "gaming-room", text: "Alle Ratgeber für den Gaming-Room." },
   ],

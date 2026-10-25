@@ -1,0 +1,54 @@
+{
+  "visuals": {
+    "1": {
+      "kind": "racepedals",
+      "tone": "forest"
+    },
+    "2": {
+      "kind": "racepedals",
+      "tone": "green"
+    },
+    "3": {
+      "kind": "racepedals",
+      "tone": "mint"
+    }
+  },
+  "steps": {
+    "title": "Sim-Racing-Pedale einrichten",
+    "subtitle": "Befestigung, Anschluss und Bremskraft",
+    "alt": "Infografik: Sim-Racing-Pedale einrichten – Kompatibilität prüfen, Fest montieren, Abstand einstellen, Anschließen und kalibrieren, Bremskraft abstimmen",
+    "caption": "Pedale fest verschrauben, anschließen und die Bremskraft per Software und Elastomer abstimmen.",
+    "steps": [
+      {
+        "title": "Kompatibilität prüfen",
+        "text": "Klären, ob die Pedale per USB direkt oder über die Lenkradbasis laufen – Konsolen meist nur über die Basis."
+      },
+      {
+        "title": "Fest montieren",
+        "text": "Am Cockpit oder Lenkradständer verschrauben – eine Loadcell-Bremse schiebt lose Pedale weg."
+      },
+      {
+        "title": "Abstand einstellen",
+        "text": "Pedalabstand und Fersenplatte so wählen, dass Gas und Bremse bequem erreichbar sind."
+      },
+      {
+        "title": "Anschließen und kalibrieren",
+        "text": "Pedale anschließen, in der Software Wege und Totzonen aller Achsen kalibrieren."
+      },
+      {
+        "title": "Bremskraft abstimmen",
+        "text": "Maximale Bremskraft und Elastomer so wählen, dass Vollbremsung gut dosierbar bleibt."
+      }
+    ]
+  },
+  "scoresAlt": "Balkendiagramm: Bewertung der drei besten Sim-Racing-Pedale in den Kriterien Kompatibilität, Bremsgefühl & Loadcell, Verarbeitung & Mechanik, Montage & Verstellbarkeit und Preis-Leistung",
+  "scoresCaption": "Unsere Bewertung je Kriterium für die drei empfohlenen Modelle.",
+  "neueFormen": [
+    "racepedals"
+  ],
+  "offen": [
+    "Kriterien in scoresAlt sind ein Entwurf (kriterienEntwurf aus struktur.json) – an die finalen Bewertungskriterien anpassen.",
+    "Steps sind generisch aus der Struktur abgeleitet; Anschluss-/Plattformdetails nach der Produktrecherche konkretisieren.",
+    "OG-Vorschaubild erzeugt ein späterer Lauf nach dem Einbau der Kategorie."
+  ]
+}

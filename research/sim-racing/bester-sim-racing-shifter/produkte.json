@@ -1,0 +1,222 @@
+{
+  "slug": "bester-sim-racing-shifter",
+  "stand": "2026-10-25",
+  "criteria": [
+    { "key": "kompatibilitaet", "label": "Kompatibilität & Anschluss", "weight": 0.3, "description": "PC / PS5 / Xbox laut Hersteller; Anschluss direkt per USB (PC, markenoffen) oder über die Lenkradbasis (Konsole, meist markengebunden); nötige Adapter." },
+    { "key": "schaltgefuehl", "label": "Schaltgefühl & Mechanik", "weight": 0.3, "description": "Rastung und Schaltwege, Metall vs. Kunststoff, kontaktlose Sensorik (Hall/Magnet) statt Schalter, einstellbarer Widerstand – laut Hersteller und Testberichten." },
+    { "key": "modi_montage", "label": "Modi & Montage", "weight": 0.2, "description": "H-Muster 6+R / 7+R, sequenziell umschaltbar, Sperre für R/7. Gang; Tischklemme, Cockpit-Lochbild, drehbare Montage." },
+    { "key": "preisleistung", "label": "Preis-Leistung", "weight": 0.2, "description": "Gebotene Mechanik und Kompatibilität im Verhältnis zur Preisklasse; redaktionelle Einschätzung ohne feste Preise." }
+  ],
+  "priceTiers": {
+    "1": "bis ca. 80 €",
+    "2": "ca. 80–200 €",
+    "3": "über 200 €",
+    "hinweis": "Vorschlag; Spanne der Kandidaten ca. 35–270 € laut Suchsnapshots (amazon.de/Geizhals, Okt. 2026), keine festen Preise auf der Seite."
+  },
+  "products": [
+    {
+      "rank": 1,
+      "label": "Beste Gesamtwahl",
+      "name": "Thrustmaster TH8A Shifter Add-On",
+      "brand": "Thrustmaster",
+      "variant": "Modell 4060059, H-Schaltung 7+R und sequenziell, Metall; PC per USB, PS5/PS4/Xbox über Thrustmaster-Basis (DIN)",
+      "priceTier": 2,
+      "ratings": { "kompatibilitaet": 8.5, "schaltgefuehl": 8.5, "modi_montage": 9.0, "preisleistung": 7.0 },
+      "gesamt": 8.3,
+      "bestFor": "Alle, die einen robusten Metall-Shifter mit H-Muster und sequenziellem Modus wollen – am PC mit jedem Lenkrad, an PS5/Xbox mit Thrustmaster-Basis.",
+      "fakten": [
+        { "text": "Zwei Schaltplatten: H-Muster (7+1) und sequenziell (+/-); Platte wird getauscht.", "art": "Herstellerangabe", "quelle": "https://ts.thrustmaster.com/download/accessories/Manuals/TH8/TH8A_Shifter_Manual.pdf", "datum": "abgerufen 2026-10-25 (Suchsnapshot)" },
+        { "text": "Mechanik innen zu 100 % aus Metall, kontaktlose Magnetsensoren (H.E.A.R.T), Schalthebel 13 cm, Gehäuse 25 × 32 × 16 cm, ca. 2 kg; Tischklemme für 1–55 mm Plattenstärke oder Cockpit-Montage.", "art": "Herstellerangabe", "quelle": "https://www.thrustmaster.com/en-us/products/th8a-shifter-add-on/", "datum": "abgerufen 2026-10-25 (Suchsnapshot)" },
+        { "text": "PC: USB- und/oder DIN-Anschluss, funktioniert mit allen Lenkrädern; Thrustmaster empfiehlt direkt am USB-Port des PCs (über DIN am Lenkrad ggf. nur sequenziell).", "art": "Herstellerangabe", "quelle": "https://support.thrustmaster.com/en/kb/1735-en/", "datum": "abgerufen 2026-10-25 (Suchsnapshot)" },
+        { "text": "PS5/PS4/Xbox: immer über DIN an der Rückseite eines kompatiblen Thrustmaster-Lenkrads (u. a. T300-Serie, T248, T128, T598, TX/TS-XW); ggf. Firmware-Update der Basis nötig. PS5-Kompatibilität laut Thrustmaster nicht von Sony geprüft.", "art": "Herstellerangabe", "quelle": "https://support.thrustmaster.com/en/kb/1801-en/", "datum": "abgerufen 2026-10-25 (Suchsnapshot)" },
+        { "text": "GTPlanet lobt die um 360° drehbare Gehäusemontage und die verschleißfreie Magnetsensorik; wer beim sequenziellen Schaltgefühl sehr wählerisch ist, könnte enttäuscht sein.", "art": "Bericht", "quelle": "https://www.gtplanet.net/thrustmaster-th8a-shifter-review/", "datum": "ohne Datum" },
+        { "text": "Sim Racing Garage: Vollmetall-Bauweise, einstellbarer Schaltwiderstand, zwei Schaltplatten im Lieferumfang.", "art": "Bericht", "quelle": "https://www.bsimracing.com/thrustmaster-th8a-shifter-review-by-sim-racing-garage", "datum": "ohne Datum" },
+        { "text": "Herstellergarantie 2 Jahre laut Händlerangabe.", "art": "Händlerangabe", "quelle": "https://www.mediamarkt.at/de/product/_thrustmaster-4060059-th8a-schaltknauf-nur-online-joystick-137638006.html", "datum": "abgerufen 2026-10-25 (Suchsnapshot)" }
+      ],
+      "pros": ["H-Muster und sequenziell in einem Gerät", "Metallmechanik, kontaktlose Sensoren", "Am PC markenoffen per USB", "Flexible Montage (Klemme, Cockpit, drehbar)"],
+      "cons": ["An Konsolen nur mit Thrustmaster-Lenkrad", "Modus-Wechsel per Plattentausch statt Schalter", "Älteres Modell; teurer als TH8S"],
+      "specs": { "Schaltmuster": "H 7+R und sequenziell (Platte wechselbar)", "Sensor": "kontaktlos magnetisch (H.E.A.R.T)", "Material": "Metall (Mechanik, Halterung, Hebel)", "Anschluss": "USB (PC) / DIN an Thrustmaster-Basis (Konsole)", "Plattform": "PC; PS5/PS4/Xbox über Thrustmaster-Lenkrad", "Montage": "Tischklemme 1–55 mm, Cockpit", "Gewicht": "ca. 2 kg" },
+      "asin": "B005L0Z2BQ",
+      "query": "Thrustmaster TH8A Shifter",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "ThrustMaster 4060059 - TH8A Gear Shifter (amazon.de/dp/B005L0Z2BQ; Snapshot: auf Lager, Drittanbieter-Angebote vorhanden; Listing-Titel nennt noch PC/PS4/PS3/Xbox One)"
+    },
+    {
+      "rank": 2,
+      "label": "Bestes Preis-Leistungs-Verhältnis",
+      "name": "Thrustmaster TH8S Shifter Add-On",
+      "brand": "Thrustmaster",
+      "variant": "Modell 4060256, H-Schaltung 7+R; PC per USB-C, PS5/PS4/Xbox über Thrustmaster-Basis (Mini-DIN)",
+      "priceTier": 1,
+      "ratings": { "kompatibilitaet": 8.5, "schaltgefuehl": 7.0, "modi_montage": 7.0, "preisleistung": 9.0 },
+      "gesamt": 7.9,
+      "bestFor": "Einsteiger mit Thrustmaster-Lenkrad an PS5/Xbox oder PC-Fahrer, die günstig eine echte H-Schaltung nachrüsten wollen – auch für Truck-Sims.",
+      "fakten": [
+        { "text": "H-Schaltplatte mit 8 Positionen (7 Gänge + Rückwärtsgang); kein sequenzieller Modus. Gangzahl per Tastatur-/Gamepad-Kombination verdoppelbar (Trucks bis 14 Gänge).", "art": "Herstellerangabe", "quelle": "https://www.thrustmaster.com/en-us/products/th8s-shifter-add-on/", "datum": "abgerufen 2026-10-25 (Suchsnapshot)" },
+        { "text": "Reibungsfreie H.E.A.R.T-Sensorik, abgeleitet vom TH8A; günstigere Version des TH8A.", "art": "Herstellerangabe", "quelle": "https://www.thrustmaster.com/news/th8s-shifter-add-on-push-your-gears-to-the-red-line/", "datum": "abgerufen 2026-10-25 (Suchsnapshot)" },
+        { "text": "Zwei Anschlüsse: Mini-DIN-Kabel zur Lenkradbasis und USB-A-auf-USB-C für den PC. PC: mit allen Lenkrädern; PS5/PS4/Xbox: mit Thrustmaster-Force-Feedback-Lenkrädern.", "art": "Herstellerangabe", "quelle": "https://www.thrustmaster.com/en-us/products/th8s-shifter-add-on/", "datum": "abgerufen 2026-10-25 (Suchsnapshot)" },
+        { "text": "Direkt per USB an PS5/Xbox angesteckt funktioniert der TH8S nicht – nur über die Basis.", "art": "Bericht", "quelle": "https://www.ocsimracing.com/reviews/thrustmaster-th8s-review", "datum": "ohne Datum" },
+        { "text": "Gehäuse überwiegend aus Kunststoff, Schalthebel aus Metall (im Unterschied zum Vollmetall-TH8A).", "art": "Bericht", "quelle": "https://www.ocsimracing.com/reviews/thrustmaster-th8s-review", "datum": "ohne Datum" },
+        { "text": "amazon.de: ca. 4,4–4,5 Sterne bei rund 1.700 Bewertungen; Käufer loben das Preis-Leistungs-Verhältnis, einige nennen den Hebel lang und das Schalten etwas laut.", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B0BRQFQVJX", "datum": "Suchsnapshot Okt. 2026" }
+      ],
+      "pros": ["Günstigste Thrustmaster-H-Schaltung", "7+R mit kontaktloser Sensorik", "PC markenoffen per USB, PS5/Xbox über Thrustmaster-Basis", "USB-C-Anschluss"],
+      "cons": ["Kein sequenzieller Modus", "Gehäuse aus Kunststoff", "An Konsolen nur mit Thrustmaster-Lenkrad"],
+      "specs": { "Schaltmuster": "H 7+R", "Sensor": "kontaktlos (H.E.A.R.T)", "Material": "Kunststoffgehäuse, Metallhebel", "Anschluss": "USB-C (PC) / Mini-DIN an Thrustmaster-Basis", "Plattform": "PC; PS5/PS4/Xbox Series/One über Thrustmaster-Lenkrad", "Montage": "Tischklemme" },
+      "asin": "B0BRQFQVJX",
+      "query": "Thrustmaster TH8S Shifter Add-On",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "Thrustmaster TH8S Shifter Add-On - 8-Gang-Schaltung - PS5, XBOX & PC (amazon.de/dp/B0BRQFQVJX)"
+    },
+    {
+      "rank": 3,
+      "label": "Beste Wahl für Logitech-Lenkräder",
+      "name": "Logitech G Driving Force Shifter",
+      "brand": "Logitech G",
+      "variant": "941-000130, H-Schaltung 6+R, für G29/G920/G923; Anschluss am Lenkrad (9-polig)",
+      "priceTier": 1,
+      "ratings": { "kompatibilitaet": 6.0, "schaltgefuehl": 6.0, "modi_montage": 5.5, "preisleistung": 9.0 },
+      "gesamt": 6.5,
+      "bestFor": "Besitzer eines Logitech G29, G920 oder G923, die an Konsole oder PC ohne Umwege eine H-Schaltung nachrüsten wollen.",
+      "fakten": [
+        { "text": "Entwickelt für G923, G29 (PlayStation und PC) und G920 (Xbox und PC).", "art": "Herstellerangabe", "quelle": "https://www.logitechg.com/en-us/products/driving/driving-force-shifter.941-000119.html", "datum": "abgerufen 2026-10-25 (Suchsnapshot)" },
+        { "text": "6-Gang-H-Schaltung, Rückwärtsgang durch Herunterdrücken, Schaltwelle aus Stahl, Knauf und Manschette aus Leder, integrierte Klemmen.", "art": "Herstellerangabe", "quelle": "https://www.logitechg.com/en-us/products/driving/driving-force-shifter.941-000119.html", "datum": "abgerufen 2026-10-25 (Suchsnapshot)" },
+        { "text": "Wird über das Lenkrad angeschlossen (9-poliger Stecker), nicht eigenständig per USB nutzbar.", "art": "Händlerangabe", "quelle": "https://www.newegg.com/black-logitech-941-000119-driving-force-shifter/p/N82E16826197072", "datum": "Suchsnapshot Okt. 2026" },
+        { "text": "Mit G PRO / RS50 nur über den Logitech G Racing Adapter; dieser unterstützt den Driving Force Shifter an Konsolen nicht (nur PC).", "art": "Herstellerangabe", "quelle": "https://www.logitechg.com/en-us/shop/p/racing-adapter", "datum": "abgerufen 2026-10-25 (Suchsnapshot; regionale Produktseiten widersprechen sich teils)" }
+      ],
+      "pros": ["Plug & Play an G29/G920/G923 auf PS5, Xbox und PC", "Sehr günstig", "Stahlwelle und Lederknauf", "Klemmen integriert"],
+      "cons": ["Nur 6+R, kein sequenzieller Modus", "Nur mit Logitech-Lenkrädern", "Mit G PRO/RS50 an Konsole nicht nutzbar", "Ältere Konstruktion ohne Hall-Sensoren"],
+      "specs": { "Schaltmuster": "H 6+R", "Material": "Stahlwelle, Lederknauf/-manschette", "Anschluss": "9-polig am Logitech-Lenkrad", "Plattform": "wie das Lenkrad: PS5/PS4/PC (G29/G923 PS) bzw. Xbox/PC (G920/G923 Xbox)", "Montage": "integrierte Tischklemmen" },
+      "asin": "B00ZWOUH4S",
+      "query": "Logitech G Driving Force Shifter",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "Logitech Driving Force Schalthebel, 6 Gänge mit H-Muster, Schaltknauf aus Echtleder und Stahl, integrierte Befestigungsklammern, kompatibel mit Driving Force Rennlenkrädern G29 & G920 (amazon.de/dp/B00ZWOUH4S) – Lagerstatus im Snapshot nicht eindeutig"
+    }
+  ],
+  "top5": [
+    {
+      "name": "MOZA HGP Shifter",
+      "warum": "Beste H-Schaltung für MOZA und PC: CNC-Aluminium, 7+R mit Sperre für R/7., 15-Bit-Kontaktlossensor, optionaler Zwischengas-Blip in Pit House; per USB direkt am PC oder per RJ11 an einer MOZA-Basis (Xbox nur über kompatible MOZA-Basis wie R3). Für den Schreibtisch ist eine separate Montageplatte nötig.",
+      "fakten": [
+        { "text": "7+R, Aluminiumgehäuse, 15-Bit-Kontaktlossensor, 1,8 kg; USB direkt zum PC oder RJ11 zur MOZA-Basis; M6-Lochbild für Alu-Profil, Tischbetrieb nur mit separater Universal-Montageplatte.", "art": "Herstellerangabe", "quelle": "https://support.mozaracing.com/en/support/solutions/articles/70000684329-moza-hgp-shifter-product-support", "datum": "abgerufen 2026-10-25 (Suchsnapshot)" }
+      ],
+      "asin": "B0FM89ZZMC",
+      "query": "MOZA HGP Shifter",
+      "where": null,
+      "priceTier": 3,
+      "asinGeprueft": "Korrekturrunde 1 (2026-10-25): getauscht auf amazon.de/dp/B0FM89ZZMC – „MOZA Racing HGP Shifter …“, Hersteller Gudsen (MOZA-Herstellerfirma); gleiche ASIN auf amazon.com als „MOZA Racing HGP Shifter“ (Aluminium, 1,8 kg). Lagerstatus aus der Sandbox nicht abrufbar (amazon.de per Fetch gesperrt), im Text keine Verfügbarkeitsaussage. Verworfen: B0C2PS6S85 (nur Drittanbieter Mokarzone-de, Lieferhinweis, Gebrauchtware-Rezensionen, 3,6★/18)."
+    },
+    {
+      "name": "MOZA SGP Sequential Shifter",
+      "warum": "Bester rein sequenzieller Shifter: Aluminium/Stahl, Hall-Sensor, Dämpfer für einstellbaren Widerstand, zwei programmierbare RGB-Tasten, 64 mm höhenverstellbar; USB direkt am PC oder RJ11 an MOZA-Basis. Altes Listing B0CWL91SHH ist „derzeit nicht verfügbar“ – daher das aktive RS059-Listing.",
+      "fakten": [
+        { "text": "Kontaktloser Hall-Sensor, einstellbarer Dämpfer, 2 RGB-Tasten (Pit House), Griffhöhe 64 mm verstellbar, Knaufgewinde M12 × 1,5; USB direkt zum PC oder RJ11 zur MOZA-Basis.", "art": "Herstellerangabe", "quelle": "https://support.mozaracing.com/en/support/solutions/articles/70000684330-moza-sgp-sequential-shifter-product-support", "datum": "abgerufen 2026-10-25 (Suchsnapshot)" }
+      ],
+      "asin": "B0FN6RRMSB",
+      "query": "MOZA SGP Sequential Shifter",
+      "where": null,
+      "priceTier": 2,
+      "asinGeprueft": "Moza SGP Sequential Shifter : Amazon.de (dp/B0FN6RRMSB, Modell RS059; Snapshot: lieferbar in 2–3 Tagen)"
+    },
+    {
+      "name": "FANATEC ClubSport Shifter SQ V1.5 mit USB-Adapter",
+      "warum": "Beste Wahl für Fanatec-Basen: Vollmetall, H 7+R und sequenziell per Schieber umschaltbar, einstellbarer Widerstand, 4 Montageseiten, 2 Knäufe, 3 Jahre Garantie. Am PC per ClubSport-USB-Adapter auch markenoffen; an PS5/Xbox nur über Fanatec-Basis bzw. -Lenkrad, nicht über den USB-Adapter.",
+      "fakten": [
+        { "text": "H-Muster 7+R (R und 7. Gang mit Niederdrück-Sperre) und sequenziell per Schieber; Metallbauweise, einstellbarer Widerstand; mit jeder Fanatec-Basis oder per ClubSport-USB-Adapter am PC; Konsole nur über Fanatec-Basis/-Lenkrad.", "art": "Herstellerangabe", "quelle": "https://www.fanatec.com/eu/en/p/add-ons/crd-9040002-ww/clubsport-shifter-sq", "datum": "abgerufen 2026-10-25 (Suchsnapshot)" },
+        { "text": "amazon.de-Listing mit Erscheinungsdatum 12.06.2026, Modellnummer CRD-9040002-WW; Hinweis, dass der Shifter an Konsolen mit USB-Adapter nicht funktioniert.", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B0H5XBBZFQ", "datum": "Suchsnapshot Okt. 2026" }
+      ],
+      "asin": "B0H5XBBZFQ",
+      "query": "FANATEC ClubSport Shifter SQ V1.5 with USB Adapter",
+      "where": null,
+      "priceTier": 3,
+      "asinGeprueft": "FANATEC ClubSport Shifter SQ V1.5 with USB Adapter (amazon.de/dp/B0H5XBBZFQ; einzelne Snapshots „derzeit nicht verfügbar“)"
+    },
+    {
+      "name": "Logitech G RS H-SHIFTER",
+      "warum": "Neuer Logitech-Shifter für RS50 und G PRO: 7+R mit Durchdrück-Sperre, Hall-Sensor, Alu-Schaltkulisse; am PC per USB markenoffen, an PS5/Xbox direkt an PRO/RS50, mit G29/G920/G923 an Konsole nur über den Racing Adapter. Upgrade gegenüber dem Driving Force Shifter für Besitzer der neuen Logitech-Basen.",
+      "fakten": [
+        { "text": "Schaltschema 7+R, Hall-Sensor, Schaltkulisse aus Aluminium, ca. 1,3 kg, Tischklemme, Knaufgewinde M8 × 1,25; PC per USB, PS5/Xbox über PRO/RS50-Basis, G-Serie an Konsole nur mit Racing Adapter.", "art": "Händlerangabe", "quelle": "https://www.bhphotovideo.com/c/product/1955424-REG/logitech_941_000321_rs_h_shifter_black.html", "datum": "Suchsnapshot Okt. 2026" },
+        { "text": "Ankündigung und Einordnung als Mittelklasse-Shifter des RS-Ökosystems.", "art": "Bericht", "quelle": "https://www.bsimracing.com/a-look-at-the-new-logitech-g-rs-h-shifter/", "datum": "2026" }
+      ],
+      "asin": "B0GHP9117Z",
+      "query": "Logitech G RS H-SHIFTER",
+      "where": null,
+      "priceTier": 2,
+      "asinGeprueft": "Logitech G RS H-SHIFTER Sim-Racing-Schalthebel, kompatibel mit PlayStation … (amazon.de/dp/B0GHP9117Z; ca. 4,2–4,3★ bei 19–29 Bewertungen)"
+    },
+    {
+      "name": "Logitech G RS Shifter & Handbrake",
+      "warum": "Nur als Kombi-Hinweis: sequenzieller Shifter und Handbremse in einem Gerät für Rallye/Drift – ausführlich auf /beste-sim-racing-handbremse/ (dort Top 3). Laut PC Games mit RS50/PRO empfohlen, auch an G923 nutzbar.",
+      "fakten": [
+        { "text": "PCG Garage: Handbremsmodus mit zunehmender Bremswirkung je weiter gezogen; kompatibel mit praktisch allen Rallye-Spielen, empfohlen mit Logitech PRO/RS50, auch mit G923 Trueforce nutzbar.", "art": "Bericht", "quelle": "https://www.pcgames.de/PCG-Garage-Brands-281703/Specials/Rallye-Assetto-Corsa-Rally-Rennsimulationen-Formel-1-Sim-Racing-1488181/5/", "datum": "2026" }
+      ],
+      "asin": "B0DD3LN886",
+      "query": "Logitech G RS Shifter & Handbrake",
+      "where": null,
+      "priceTier": 2,
+      "asinGeprueft": "Logitech G RS Shifter and Handbrake with Easy Mode Change (amazon.de/dp/B0DD3LN886)"
+    }
+  ],
+  "tests": [
+    { "institut": "Stiftung Warentest / Öko-Test", "heft": "–", "ergebnis": "Kein Test von Sim-Racing-Shiftern gefunden.", "quelle": "Suche 2026-10-25" },
+    { "institut": "PC Games (PCG Garage)", "heft": "Special Rallye im Sim-Racing, 2026", "ergebnis": "Praxisbericht zum Logitech RS Shifter & Handbrake (Kombi), ohne Note.", "quelle": "https://www.pcgames.de/PCG-Garage-Brands-281703/Specials/Rallye-Assetto-Corsa-Rally-Rennsimulationen-Formel-1-Sim-Racing-1488181/5/" },
+    { "institut": "GTPlanet", "heft": "Thrustmaster TH8A Shifter Review (online)", "ergebnis": "Insgesamt positiv; drehbare Montage und Magnetsensorik gelobt, sequenzielles Gefühl nur mittelmäßig.", "quelle": "https://www.gtplanet.net/thrustmaster-th8a-shifter-review/" },
+    { "institut": "Sim Racing Garage (via bsimracing)", "heft": "Thrustmaster TH8A Shifter Review (online)", "ergebnis": "Einstiegs-H-Shifter mit Metallbau und zwei Schaltplatten; empfehlenswert.", "quelle": "https://www.bsimracing.com/thrustmaster-th8a-shifter-review-by-sim-racing-garage" },
+    { "institut": "OC Sim Racing", "heft": "Thrustmaster TH8S Review (online)", "ergebnis": "Günstige Alternative zum TH8A, mehr Kunststoff; funktioniert an Konsolen nur über die Basis.", "quelle": "https://www.ocsimracing.com/reviews/thrustmaster-th8s-review" }
+  ],
+  "warnungen": [
+    "Keine Rückrufe oder Safety-Gate-Meldungen zu Shiftern von Thrustmaster, Logitech, Fanatec oder MOZA gefunden (Websuche 2026-10-25; Safety Gate nicht direkt abrufbar).",
+    "Konsolen-Kompatibilität ist fast immer an die Lenkradbasis derselben Marke gebunden; direkt per USB an PS5/Xbox angesteckte Shifter funktionieren nicht (Thrustmaster-Support, OC Sim Racing).",
+    "Thrustmaster weist darauf hin, dass die PS5-Kompatibilität der Produktreihe nicht von Sony geprüft/autorisiert ist.",
+    "Logitech Racing Adapter: Driving Force Shifter an Konsole mit G PRO/RS50 nicht unterstützt; Spielekompatibilität über Adapter eingeschränkt (Logitech-Produktseite, regional widersprüchlich).",
+    "Shifter nicht am wackligen Schreibtisch ohne feste Klemme betreiben; MOZA HGP/SGP benötigen für Tischbetrieb separates Montagezubehör."
+  ],
+  "verworfen": [
+    { "name": "MOZA SGP Sequential Shifter, Listing B0CWL91SHH", "grund": "amazon.de „derzeit nicht verfügbar“; aktives Listing B0FN6RRMSB verwendet." },
+    { "name": "No-Name-USB-Shifter (XBERSTAR, NBCP, Bruce & Shark, Truck-Schaltknäufe)", "grund": "Austauschbare Marktplatzware ohne belastbare Tests/Garantieangaben; Truck-Sims im Text über TH8S-Gangverdopplung abgedeckt." },
+    { "name": "Thrustmaster TSSH Sequential Shifter & Handbrake Sparco", "grund": "Kombigerät, älteres Modell, nur PC – gehört zur Handbremsen-Seite." },
+    { "name": "Logitech G29/G920/G923-Bundles mit Shifter", "grund": "Laut Struktur nur Einzel-Shifter; Bundle steht in /sim-racing-cockpits/." },
+    { "name": "Revosim (Nacon) Shifter, Asetek Shifter", "grund": "Neu (2026), keine geprüften amazon.de-Listings und kaum Testberichte gefunden." }
+  ],
+  "offen": [
+    "Struktur-Korrektur: TH8S hat laut Thrustmaster KEINEN sequenziellen Modus (nur H 7+R) – Amazon-URL-Slug „sequentieller“ ist irreführend; Redaktion muss das so schreiben.",
+    "Struktur-Korrektur: MOZA HGP ist nicht nur PC – per RJ11 an MOZA-Basis, Xbox über kompatible MOZA-Basis (R3).",
+    "TH8A: einziges amazon.de-Listing B005L0Z2BQ ist alt (Titel nennt PC/PS4/PS3/Xbox One), Snapshot zeigt Lagerware und Drittanbieter-Angebote – Live-Verfügbarkeit nicht direkt prüfbar (amazon.de nicht abrufbar).",
+    "Logitech Driving Force Shifter B00ZWOUH4S: Titel passt (941-000130), Lagerstatus im Snapshot nicht eindeutig; B00Z0UWV3O (PS4/Xbox-Listing) und B073WPDNVH (refurbished, nicht verfügbar) nicht verwendet.",
+    "ERLEDIGT (Korrekturrunde 1): MOZA HGP auf B0FM89ZZMC getauscht (Titel passt, Hersteller Gudsen); B0C2PS6S85 verworfen. Lagerstatus vor Merge im Browser prüfen.",
+    "Fanatec ClubSport Shifter SQ V1.5 B0H5XBBZFQ: einzelne Snapshots „derzeit nicht verfügbar“.",
+    "Neu gefunden: Logitech G RS H-SHIFTER (B0GHP9117Z) – in Top 5 aufgenommen; Alternative für Rolle 3, falls die Redaktion RS50/G-PRO-Besitzer statt G29/G923-Besitzer priorisieren will (dann Driving Force Shifter in Top 5).",
+    "Kein unabhängiger deutschsprachiger Vergleichstest zu Shiftern gefunden; Bewertungen basieren auf Herstellerangaben und englischsprachigen Einzeltests.",
+    "Awin: keine relevanten freigeschalteten Händler (Rewe, Radwelt, brickzonehub) – alle Produkte über Amazon."
+  ],
+  "quellen": [
+    { "titel": "Thrustmaster TH8A Shifter Add-On (Produktseite)", "url": "https://www.thrustmaster.com/en-us/products/th8a-shifter-add-on/" },
+    { "titel": "Thrustmaster TH8A Handbuch (PDF)", "url": "https://ts.thrustmaster.com/download/accessories/Manuals/TH8/TH8A_Shifter_Manual.pdf" },
+    { "titel": "Thrustmaster Support: Anschlussempfehlungen TH8A", "url": "https://support.thrustmaster.com/en/kb/1735-en/" },
+    { "titel": "Thrustmaster Support: Kompatibilität Lenkräder und Add-ons", "url": "https://support.thrustmaster.com/en/kb/1801-en/" },
+    { "titel": "Thrustmaster TH8S Shifter Add-On (Produktseite)", "url": "https://www.thrustmaster.com/en-us/products/th8s-shifter-add-on/" },
+    { "titel": "Thrustmaster News: TH8S", "url": "https://www.thrustmaster.com/news/th8s-shifter-add-on-push-your-gears-to-the-red-line/" },
+    { "titel": "Logitech G Driving Force Shifter", "url": "https://www.logitechg.com/en-us/products/driving/driving-force-shifter.941-000119.html" },
+    { "titel": "Logitech G Racing Adapter", "url": "https://www.logitechg.com/en-us/shop/p/racing-adapter" },
+    { "titel": "Logitech G RS H-Shifter (Produktseite)", "url": "https://www.logitechg.com/en-us/shop/p/rs-h-shifter.941-000321" },
+    { "titel": "MOZA HGP Shifter Support", "url": "https://support.mozaracing.com/en/support/solutions/articles/70000684329-moza-hgp-shifter-product-support" },
+    { "titel": "MOZA SGP Sequential Shifter Support", "url": "https://support.mozaracing.com/en/support/solutions/articles/70000684330-moza-sgp-sequential-shifter-product-support" },
+    { "titel": "Fanatec ClubSport Shifter SQ V1.5", "url": "https://www.fanatec.com/eu/en/p/add-ons/crd-9040002-ww/clubsport-shifter-sq" },
+    { "titel": "GTPlanet: TH8A Review", "url": "https://www.gtplanet.net/thrustmaster-th8a-shifter-review/" },
+    { "titel": "Sim Racing Garage: TH8A Review", "url": "https://www.bsimracing.com/thrustmaster-th8a-shifter-review-by-sim-racing-garage" },
+    { "titel": "OC Sim Racing: TH8S Review", "url": "https://www.ocsimracing.com/reviews/thrustmaster-th8s-review" },
+    { "titel": "bsimracing: Logitech G RS H-Shifter", "url": "https://www.bsimracing.com/a-look-at-the-new-logitech-g-rs-h-shifter/" },
+    { "titel": "B&H: Logitech RS H-Shifter Spezifikationen", "url": "https://www.bhphotovideo.com/c/product/1955424-REG/logitech_941_000321_rs_h_shifter_black.html" },
+    { "titel": "PC Games – PCG Garage Rallye (RS Shifter & Handbrake)", "url": "https://www.pcgames.de/PCG-Garage-Brands-281703/Specials/Rallye-Assetto-Corsa-Rally-Rennsimulationen-Formel-1-Sim-Racing-1488181/5/" },
+    { "titel": "amazon.de TH8A", "url": "https://www.amazon.de/dp/B005L0Z2BQ" },
+    { "titel": "amazon.de TH8S", "url": "https://www.amazon.de/dp/B0BRQFQVJX" },
+    { "titel": "amazon.de Driving Force Shifter", "url": "https://www.amazon.de/dp/B00ZWOUH4S" },
+    { "titel": "amazon.de MOZA HGP", "url": "https://www.amazon.de/dp/B0FM89ZZMC" },
+    { "titel": "amazon.de MOZA SGP (RS059)", "url": "https://www.amazon.de/dp/B0FN6RRMSB" },
+    { "titel": "amazon.de Fanatec CSS SQ V1.5", "url": "https://www.amazon.de/dp/B0H5XBBZFQ" },
+    { "titel": "amazon.de Logitech RS H-SHIFTER", "url": "https://www.amazon.de/dp/B0GHP9117Z" },
+    { "titel": "amazon.de Logitech RS Shifter & Handbrake", "url": "https://www.amazon.de/dp/B0DD3LN886" }
+  ]
+}

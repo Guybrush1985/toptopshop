@@ -93,6 +93,9 @@ Definiert in `src/templates/visuals.mjs`; neue Formen ergänzt der Illustrator-A
 - Flugsimulator (Set `OBJECTS`): `joystick` (HOTAS: Stick + Schubregler), `yoke` (Steuerhorn mit Tischgehäuse),
   `pedals` (Ruderpedale), `throttle` (Schubhebel-Quadrant), `flightrig` (Cockpit-Rahmen mit Sitz),
   `flightstand` (Klapp-Ständer ohne Sitz)
+- Sim-Racing (Set `OBJECTS`): `wheel` (einfaches Lenkrad, Cockpits), `wheelbase` (Direct-Drive-Basis mit
+  Lenkrad), `racepedals` (Pedalset Kupplung/Bremse/Gas mit Loadcell), `shifter` (H-Shifter mit Tischklemme),
+  `handbrake` (Handbremse mit Hebel), `wheelstand` (Lenkradständer ohne Sitz)
 
 ### Textbausteine in `sections[].blocks`
 

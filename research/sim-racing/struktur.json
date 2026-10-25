@@ -1,0 +1,238 @@
+{
+  "thema": "Sim-Racing-Ausbau (Direct-Drive-Basis, Pedale, Shifter, Handbremse, Lenkradständer)",
+  "stand": "2026-10-25",
+  "quelle": "research/trends/2026-10-25-sim-racing-ausbau.md",
+  "area": {
+    "slug": "gaming-room",
+    "neu": false,
+    "name": "Gaming-Room",
+    "short": "Gaming-Room",
+    "intro": "(unverändert, siehe src/site.mjs – nur Ergänzung laut introErgaenzung)",
+    "metaTitle": "(unverändert)",
+    "metaDescription": "(unverändert)",
+    "introErgaenzung": {
+      "halbsatz": "Sim-Racing mit Cockpit, Direct-Drive-Lenkrad, Pedalen, Shifter, Handbremse und Lenkradständer",
+      "einfuegen": "in der Aufzählung „Sim-Racing,“ ersetzen durch „Sim-Racing mit Cockpit, Direct-Drive-Lenkrad, Pedalen, Shifter, Handbremse und Lenkradständer,“",
+      "neuerIntro": "Ein Raum zum Zocken, Chillen und Feiern, mit Retro-Charme und High-End-Technik: Sitzsäcke, Gaming-Stühle und -Tische, Arcade-Automaten, Flipper, Airhockey, Kicker, Billard, Dart, Sim-Racing mit Cockpit, Direct-Drive-Lenkrad, Pedalen, Shifter, Handbremse und Lenkradständer, Flugsimulator mit Joystick, Yoke, Pedalen und Cockpit, VR, Beamer, Licht, Akustik, Retro-Konsolen und Kühlschrank.",
+      "articleVorschlag": "Im article-Absatz nach „Retro-Automaten und Flipper bringen Spielhallen-Gefühl, Beamer und Sim-Racing-Cockpit das große Kino“ einfügen: „ – Rennfahrer rüsten Schritt für Schritt mit Direct-Drive-Basis, Loadcell-Pedalen, Schaltknüppel und Handbremse auf, und wer keinen Platz für ein Cockpit hat, startet mit einem klappbaren Lenkradständer“ (danach weiter mit „ – und wer lieber abhebt, …“; ggf. in zwei Sätze teilen, damit der Absatz lesbar bleibt).",
+      "metaDescriptionOptional": "Gaming-Stühle, Arcade-Automaten, Kicker, Sim-Racing vom Cockpit bis zur Direct-Drive-Basis, Flugsimulator, Beamer, LED-Licht – je Kategorie drei Empfehlungen."
+    }
+  },
+  "groups": [],
+  "ausbaupfad": "Hub ist /sim-racing-cockpits/ (Sitz/Rig). Reihenfolge der Folgekäufe, die jede Seite im Text aufgreift: Lenkradständer ODER Cockpit → Direct-Drive-Basis → Loadcell-Pedale → Shifter → Handbremse. Jede Seite verweist auf den nächsten sinnvollen Schritt.",
+  "kompatibilitaetsregel": "Plattform ist auf allen 5 Seiten Kernkriterium. Einheitliche Vergleichstabellen-Zeile `plattform` mit Werten wie „PC“, „PC / PS5 / PS4“, „PC / Xbox“, „PC / PS5 / Xbox (über Thrustmaster-Basis)“. Bei Zubehör (Pedale, Shifter, Handbremse) zusätzlich Zeile `anschluss` („USB direkt“ / „über Basis“ / „beides“), weil Konsolen-Support meist nur über die Basis desselben Herstellers läuft. Alles als Herstellerangabe kennzeichnen.",
+  "categories": [
+    {
+      "slug": "bestes-direct-drive-lenkrad",
+      "group": null,
+      "navLabel": "Direct-Drive-Lenkräder",
+      "h1": "Die 3 besten Direct-Drive-Lenkräder 2026",
+      "eyebrow": "Gaming-Room · Sim-Racing",
+      "suchintent": "Umstieg vom Riemen-/Zahnradlenkrad auf Direct Drive: „bestes Direct Drive Lenkrad“, „Direct Drive Wheelbase kaufen“, „Direct Drive Lenkrad PS5“, „Moza R9 oder Fanatec CSL DD“ – Wheelbase (5–12 Nm) mit passendem Lenkrad-Rim, Hauptfrage ist die Plattform (PC / PS5 / Xbox), danach Drehmoment und Ökosystem.",
+      "abgrenzung": "Nur Direct-Drive-Basen bzw. DD-Bundles (Basis + Rim, ggf. Pedale). Riemen-/Zahnrad-Komplettlenkräder (G923, T300) und das Logitech G PRO Racing Wheel bleiben in der Top 5 von sim-racing-cockpits und werden hier nur im Text als Einordnung mit Link erwähnt – keine Doppelplatzierung. Pedale als Hauptprodukt → beste-sim-racing-pedale; Halterung → bester-lenkradstaender bzw. sim-racing-cockpits. Rims (Lenkradkränze) nur als Abschnitt „Quick-Release & Ökosystem“, keine eigene Seite.",
+      "rollen": ["Beste Wahl für PC", "Beste Wahl für PS5", "Beste Wahl für Xbox"],
+      "rollenHinweis": "Bewusst Plattform-Rollen statt Gesamt/Preis-Leistung/Premium: Eine DD-Basis ist (fast) immer an eine Plattform gebunden, „beste Gesamtwahl“ wäre für Konsolenspieler irreführend. Budget/Drehmoment deckt die Top 5 ab. Alle drei Rollen sind PC-tauglich.",
+      "rollenKandidaten": {
+        "Beste Wahl für PC": "MOZA R9 V3 Wheelbase 9 Nm (nur PC) – Rim separat, Bundle-Hinweis",
+        "Beste Wahl für PS5": "Logitech G RS50 System 8 Nm (PS5/PC-Variante) – Basis + Rim + Pedale; Xbox/PC-Variante als Hinweis",
+        "Beste Wahl für Xbox": "Fanatec CSL DD QR2 Wheel Base 5 Nm (PC/Xbox mit Xbox-lizenziertem Lenkrad, Boost Kit 180 für 8 Nm) – Rechercheur prüft, ob ein Xbox-Bundle mit Rim aktiv auf amazon.de gelistet ist"
+      },
+      "kriterienEntwurf": [
+        "Plattform-Kompatibilität (PC / PS5 / Xbox, Lizenz der Basis bzw. des Rims)",
+        "Force Feedback & Drehmoment (Nm, Feinauflösung, Software-Tuning)",
+        "Ökosystem & Erweiterbarkeit (Quick-Release, Rims, Pedale, Shifter des Herstellers)",
+        "Lieferumfang & Montage (Rim/Pedale enthalten, Tischklemme vs. Cockpit-Verschraubung, Netzteil)",
+        "Preis-Leistung"
+      ],
+      "top5Intent": "Direct Drive nach Budget und Drehmoment: günstigster Einstieg (~5 Nm, MOZA R5 Bundle), mehr Kraft fürs Cockpit (12 Nm, MOZA R12 V2), Komplettpaket inkl. Pedale für PS5 (Thrustmaster T598, Hinweis auf gemischte Rezensionen), Premium für PC (Thrustmaster T818 Black Edition 10 Nm), Xbox-Variante des Logitech RS50.",
+      "top5Kandidaten": ["MOZA R5 Bundle 5,5 Nm (PC)", "MOZA R12 V2 Wheelbase (PC)", "Thrustmaster T598 inkl. Pedale (PS5/PC) – mit Rezensions-Hinweis", "Thrustmaster T818 Black Edition (PC)", "Logitech G RS50 System Xbox/PC"],
+      "faqKandidaten": [
+        "Lohnt sich ein Direct-Drive-Lenkrad?",
+        "Welches Direct-Drive-Lenkrad funktioniert mit der PS5?",
+        "Gibt es ein Direct-Drive-Lenkrad für die Xbox?",
+        "Wie viel Nm braucht ein Direct-Drive-Lenkrad?",
+        "Was ist der Unterschied zwischen Direct Drive, Riemen- und Zahnradantrieb?",
+        "Kann man ein Direct-Drive-Lenkrad am Schreibtisch befestigen?",
+        "Sind Direct-Drive-Lenkräder gefährlich?",
+        "Passen Pedale und Shifter anderer Hersteller an eine Direct-Drive-Basis?"
+      ],
+      "related": ["sim-racing-cockpits", "beste-sim-racing-pedale", "bester-lenkradstaender"],
+      "metaTitle": "Die 3 besten Direct-Drive-Lenkräder 2026 (PC, PS5, Xbox)",
+      "metaDescription": "Moza, Logitech, Fanatec, Thrustmaster: Die 3 besten Direct-Drive-Lenkräder 2026 je Plattform – plus Top 5 nach Drehmoment und Budget von 5 bis 12 Nm.",
+      "produktart": "Direct-Drive-Lenkrad: kompakte, zylindrische Motor-Basis (Wheelbase) aus Aluminium mit Kühlrippen, vorne Schnellverschluss-Welle mit rundem oder D-förmigem Rennlenkrad mit Schaltwippen und Knöpfen; Basis auf Tischklemme oder Montageplatte."
+    },
+    {
+      "slug": "beste-sim-racing-pedale",
+      "group": null,
+      "navLabel": "Sim-Racing-Pedale",
+      "h1": "Die 3 besten Sim-Racing-Pedale 2026",
+      "eyebrow": "Gaming-Room · Sim-Racing",
+      "suchintent": "Pedal-Upgrade mit Loadcell-Bremse: „beste Sim Racing Pedale“, „Loadcell Pedale kaufen“, „Pedale für Moza/Fanatec/Logitech“, „lohnen sich Loadcell Pedale“ – drucksensitive Bremse für konstantere Bremspunkte, Hauptfrage ist die Kompatibilität mit der vorhandenen Basis und Konsole.",
+      "abgrenzung": "Nur Rennsport-Pedalsets (Gas/Bremse/optional Kupplung) mit Loadcell oder Loadcell-Option, als Einzelkauf. Pedale in Komplett-Bundles stehen in sim-racing-cockpits (Top 5) bzw. bestes-direct-drive-lenkrad. Flug-Ruderpedale → beste-ruderpedale-flugsimulator (nur Querverweis gegen Verwechslung). Hydraulik-Pedale (Heusinkveld, Simucube, Asetek) nur im Text, sofern nicht aktiv auf amazon.de.",
+      "rollen": ["Beste Gesamtwahl", "Bestes Preis-Leistungs-Verhältnis", "Premium-Wahl"],
+      "rollenKandidaten": {
+        "Beste Gesamtwahl": "Thrustmaster T-LCM Pedals (Loadcell, Magnetsensoren; PC per USB, PS/Xbox über Thrustmaster-Basis) – breiteste Plattformabdeckung",
+        "Bestes Preis-Leistungs-Verhältnis": "Logitech G RS Pedals (75 kg Loadcell, neu 10/2025)",
+        "Premium-Wahl": "Logitech G PRO Racing Pedals (100 kg Loadcell) – alternativ Fanatec CSL Elite Pedals V2, je nach Verfügbarkeit"
+      },
+      "kriterienEntwurf": [
+        "Kompatibilität (Basis-Hersteller, Anschluss USB vs. Basis, PC / PS5 / Xbox)",
+        "Bremsgefühl & Loadcell (max. Kraft in kg, Einstellbarkeit, Elastomere)",
+        "Verarbeitung & Mechanik (Metall vs. Kunststoff, Sensoren, Kupplungspedal)",
+        "Montage & Verstellbarkeit (Pedalabstand, Fersenplatte, Cockpit-Verschraubung, Rutschfestigkeit)",
+        "Preis-Leistung"
+      ],
+      "top5Intent": "Pedale nach Basis/Ökosystem: beste für Fanatec (CSL Elite V2), beste für MOZA (SR-P Load Cell bzw. CRP2 Vollmetall), beste modulare Pedale zum Nachrüsten (Thrustmaster Raceline Pedals III), Vollmetall-Premium (MOZA CRP2), plattformunabhängig per USB am PC.",
+      "top5Kandidaten": ["Fanatec CSL Elite Pedals V2", "MOZA SR-P Load Cell (Modellnummer prüfen)", "MOZA CRP2", "Thrustmaster Raceline Pedals III", "Logitech G PRO Racing Pedals oder Fanatec (je nachdem, was nicht in Top 3)"],
+      "faqKandidaten": [
+        "Lohnen sich Loadcell-Pedale?",
+        "Was ist der Unterschied zwischen Loadcell- und Potentiometer-Pedalen?",
+        "Funktionieren Sim-Racing-Pedale mit der PS5 oder Xbox?",
+        "Kann man Pedale eines anderen Herstellers an mein Lenkrad anschließen?",
+        "Wie stellt man die Bremskraft bei Loadcell-Pedalen ein?",
+        "Braucht man ein Kupplungspedal?",
+        "Wie verhindert man, dass die Pedale wegrutschen?",
+        "Loadcell oder Hydraulik – was ist besser?"
+      ],
+      "related": ["bestes-direct-drive-lenkrad", "sim-racing-cockpits", "bester-sim-racing-shifter"],
+      "metaTitle": "Die 3 besten Sim-Racing-Pedale 2026 mit Loadcell-Bremse",
+      "metaDescription": "Logitech, Thrustmaster, Fanatec, Moza: Die 3 besten Sim-Racing-Pedale 2026 mit Loadcell im Vergleich – inkl. Kompatibilität für PC, PS5 und Xbox und Top 5 je Basis.",
+      "produktart": "Sim-Racing-Pedalset: drei nebeneinanderstehende Metallpedale (Kupplung, Bremse, Gas) auf einer flachen Bodenplatte mit Fersenauflage; das mittlere Bremspedal mit sichtbarem Zylinder-Kraftsensor und Gummi-Elastomer."
+    },
+    {
+      "slug": "bester-sim-racing-shifter",
+      "group": null,
+      "navLabel": "Sim-Racing-Shifter",
+      "h1": "Die 3 besten Sim-Racing-Shifter 2026",
+      "eyebrow": "Gaming-Room · Sim-Racing",
+      "suchintent": "Schaltknüppel nachrüsten: „Sim Racing Shifter“, „H-Schaltung PS5“, „Thrustmaster TH8A oder TH8S“, „Schaltknüppel für G29/G923“ – H-Schaltung und sequenzieller Schalthebel für Klassiker, Drift, Truck- und Rallye-Sims; Hauptfrage: funktioniert er mit meiner Konsole und meinem Lenkrad?",
+      "abgrenzung": "Nur Schalthebel (H-Muster und/oder sequenziell). Reine Handbremsen und 2-in-1-Geräte Shifter+Handbremse → beste-sim-racing-handbremse (hier nur Textverweis, z. B. Logitech RS Shifter & Handbrake). G923-Bundle mit Schaltknüppel steht in sim-racing-cockpits – hier nur der Einzel-Shifter. Schaltwippen am Lenkrad → bestes-direct-drive-lenkrad (Text).",
+      "rollen": ["Beste Gesamtwahl", "Bestes Preis-Leistungs-Verhältnis", "Beste Wahl für Logitech-Lenkräder"],
+      "rollenKandidaten": {
+        "Beste Gesamtwahl": "Thrustmaster TH8A (Metall, H + sequenziell; PC per USB, PS/Xbox über Thrustmaster-Basis) – Rechercheur prüft, ob Listing aktiv ist",
+        "Bestes Preis-Leistungs-Verhältnis": "Thrustmaster TH8S Shifter Add-On (PS5/Xbox/PC laut Hersteller)",
+        "Beste Wahl für Logitech-Lenkräder": "Logitech G Driving Force Shifter (für G29/G920/G923)"
+      },
+      "kriterienEntwurf": [
+        "Kompatibilität (PC / PS5 / Xbox, Anschluss USB vs. Lenkradbasis, Marken-Bindung)",
+        "Schaltgefühl & Mechanik (Rastung, Schaltwege, Metall vs. Kunststoff)",
+        "Modi (H-Muster 6+R / 7+R, sequenziell umschaltbar)",
+        "Montage (Tischklemme, Cockpit-Lochbild, Shifter-Halterung)",
+        "Preis-Leistung"
+      ],
+      "top5Intent": "Shifter nach Bauform und Ökosystem: beste H-Schaltung für MOZA/PC (HGP), bester rein sequenzieller Shifter (MOZA SGP, Verfügbarkeit prüfen), beste für Fanatec (ClubSport Shifter SQ V1.5 mit USB-Adapter), bester für Truck-Sims (Hinweis auf Range-Splitter/Knopf-Mod im Text, ohne eigenes No-Name-Produkt), Kombi mit Handbremse als Verweis.",
+      "top5Kandidaten": ["MOZA HGP Shifter (PC)", "MOZA SGP Sequential Shifter (Alternativ-ASIN prüfen)", "Fanatec ClubSport Shifter SQ V1.5 + USB-Adapter", "Thrustmaster TH8S oder TH8A (je nachdem, was nicht in Top 3)", "Logitech G RS Shifter & Handbrake (nur als Kombi-Hinweis, Hauptplatz auf Handbremsen-Seite)"],
+      "faqKandidaten": [
+        "Braucht man einen Shifter für Sim-Racing?",
+        "Welcher Shifter funktioniert mit der PS5?",
+        "Funktioniert der Thrustmaster TH8A mit Logitech-Lenkrädern?",
+        "Was ist besser: H-Schaltung oder sequenzieller Shifter?",
+        "Welche Spiele unterstützen eine H-Schaltung?",
+        "Braucht man für die H-Schaltung ein Kupplungspedal?",
+        "Wie befestigt man einen Shifter am Schreibtisch oder Lenkradständer?"
+      ],
+      "related": ["beste-sim-racing-handbremse", "beste-sim-racing-pedale", "bester-lenkradstaender"],
+      "metaTitle": "Die 3 besten Sim-Racing-Shifter 2026 (PS5, Xbox, PC)",
+      "metaDescription": "H-Schaltung oder sequenziell: Die 3 besten Sim-Racing-Shifter 2026 von Thrustmaster und Logitech im Vergleich – mit Kompatibilität je Konsole und Top 5 nach Bauform.",
+      "produktart": "Sim-Racing-Shifter: kleines, kastenförmiges Gehäuse mit Tischklemme, oben ein langer Schalthebel mit Kugelknauf und sichtbarem H-Schaltmuster-Rahmen (6 Gänge + R)."
+    },
+    {
+      "slug": "beste-sim-racing-handbremse",
+      "group": null,
+      "navLabel": "Sim-Racing-Handbremsen",
+      "h1": "Die 3 besten Sim-Racing-Handbremsen 2026",
+      "eyebrow": "Gaming-Room · Sim-Racing",
+      "suchintent": "Handbremse für Rallye und Drift: „Sim Racing Handbremse“, „Handbremse PS5“, „Handbremse für Assetto Corsa Rally / EA WRC“, „Logitech RS Handbrake“ – analoger Hebel (inkl. Loadcell und 2-in-1 mit sequenziellem Shifter); Hauptfragen: Plattform, Anschluss und Montage.",
+      "abgrenzung": "Nur Handbremsen und 2-in-1-Geräte Handbremse + sequenzieller Shifter (deren Hauptplatz ist hier). Reine Shifter → bester-sim-racing-shifter. Klemmen/Halterungen nur als Zubehörhinweis (TM Racing Clamp), kein eigener Platz.",
+      "rollen": ["Beste Gesamtwahl", "Beste 2-in-1 mit Shifter", "Premium-Wahl"],
+      "rollenKandidaten": {
+        "Beste Gesamtwahl": "Thrustmaster TSS Handbrake Sparco Mod+ (PC/PS5/PS4/Xbox laut Hersteller, Handbremse + sequenziell umschaltbar)",
+        "Beste 2-in-1 mit Shifter": "Logitech G RS Shifter & Handbrake",
+        "Premium-Wahl": "Fanatec ClubSport Handbrake V2 mit USB-Adapter (Loadcell, neu 06/2026)"
+      },
+      "kriterienEntwurf": [
+        "Kompatibilität (PC / PS5 / Xbox, USB direkt oder über Basis)",
+        "Bremsgefühl & Sensor (Hall/Loadcell, Hebelweg, einstellbarer Widerstand)",
+        "Funktionen (analog vs. digital, Umschaltung auf sequenziell)",
+        "Montage & Verarbeitung (Tischklemme, Cockpit-Verschraubung, Hebelhöhe/-winkel, Material)",
+        "Preis-Leistung"
+      ],
+      "top5Intent": "Handbremse nach Plattform und Setup: beste nur für PC (MOZA HBP), bestes PC-Kombigerät mit älterem Sparco-Design (Thrustmaster TSSH), beste Montage-Lösung am Schreibtisch (TM Racing Clamp als Zubehör-Hinweis), beste Ergänzung zu einer Logitech- bzw. Fanatec-Basis, Budget-Variante (falls seriös gelistet).",
+      "top5Kandidaten": ["MOZA HBP Handbrake (PC, Alternativ-ASIN prüfen)", "Thrustmaster TSSH Sequential Shifter & Handbrake Sparco (PC)", "Thrustmaster TM Racing Clamp (Zubehör)", "Fanatec ClubSport Handbrake V2 oder Logitech RS (je nachdem, was nicht in Top 3)", "ggf. Revosim/Nacon-Handbremse, wenn auf amazon.de aktiv gelistet (Scout-Hinweis 05/2026)"],
+      "faqKandidaten": [
+        "Braucht man eine Handbremse für Sim-Racing?",
+        "Welche Handbremse funktioniert mit der PS5?",
+        "Funktioniert eine USB-Handbremse an der Xbox?",
+        "Für welche Spiele lohnt sich eine Handbremse (Rallye, Drift)?",
+        "Was ist der Unterschied zwischen analoger und digitaler Handbremse?",
+        "Kann man eine Handbremse am Schreibtisch befestigen?",
+        "Wie stellt man eine Handbremse in EA Sports WRC oder Assetto Corsa ein?"
+      ],
+      "related": ["bester-sim-racing-shifter", "bestes-direct-drive-lenkrad", "sim-racing-cockpits"],
+      "metaTitle": "Die 3 besten Sim-Racing-Handbremsen 2026 für Rallye & Drift",
+      "metaDescription": "Thrustmaster, Logitech, Fanatec: Die 3 besten Sim-Racing-Handbremsen 2026 – Kompatibilität für PC, PS5 und Xbox plus Top 5 nach Plattform und Montage.",
+      "produktart": "Sim-Racing-Handbremse: senkrechter, leicht schräg gestellter Metallhebel mit Gummigriff auf einem schmalen Gehäuse mit Tischklemme, Hebel wird nach hinten gezogen."
+    },
+    {
+      "slug": "bester-lenkradstaender",
+      "group": null,
+      "navLabel": "Lenkradständer",
+      "h1": "Die 3 besten Lenkradständer 2026",
+      "eyebrow": "Gaming-Room · Sim-Racing",
+      "suchintent": "Platzsparende Alternative zum Cockpit: „Lenkradständer“, „Wheel Stand kaufen“, „Lenkrad Halterung klappbar“, „Lenkradständer Direct Drive“ – Ständer für Lenkrad, Pedale und Shifter vor dem eigenen Stuhl oder Sofa, klappbar fürs Wohnzimmer; Hauptfrage: hält er mein Lenkrad (Nm, Lochbild)?",
+      "abgrenzung": "Nur Ständer ohne integrierten Sitz (Wheel Stands). Cockpits/Rennsitze → sim-racing-cockpits (dort Tabellenzeile „Wheel Stand“ auf diese Seite verlinken). Flugsim-Ständer (Wheel Stand Pro für Yoke) → bestes-flugsimulator-cockpit. Der passende Stuhl → gaming-stuehle (Text-Hinweis: Stuhl ohne Rollen bzw. mit Rollenbremse). Sitz-Add-ons der Ständer-Hersteller nur im Text.",
+      "rollen": ["Beste Gesamtwahl", "Bester klappbarer Ständer", "Beste Wahl für Direct Drive"],
+      "rollenKandidaten": {
+        "Beste Gesamtwahl": "Next Level Racing Wheel Stand 2.0 (laut Hersteller bis Direct Drive)",
+        "Bester klappbarer Ständer": "Next Level Racing Wheel Stand Lite 2.0 (klappbar, bis 10 Nm laut Hersteller)",
+        "Beste Wahl für Direct Drive": "Next Level Racing Wheel Stand DD – alternativ Wheel Stand Pro DD, falls auf amazon.de aktiv (Hersteller nennt RS50, T818, T598, Moza R9)"
+      },
+      "rollenHinweis": "Drei NLR-Produkte in den Top 3 wären markenlastig; Rechercheur soll GT Omega APEX oder Wheel Stand Pro DD als Ersatz für eine Rolle prüfen, wenn gleichwertig.",
+      "kriterienEntwurf": [
+        "Stabilität & Lenkradstärke (zulässige Nm, Flex unter Force Feedback, Gewicht)",
+        "Kompatibilität (Lochbilder für Lenkrad, Pedale, Shifter; Marken)",
+        "Platz & Alltag (klappbar, Stellfläche, Verstauen, Aufbauzeit)",
+        "Einstellbarkeit (Höhe, Neigung, Pedalabstand, Shifter-Halter)",
+        "Preis-Leistung"
+      ],
+      "top5Intent": "Lenkradständer nach Lenkradmarke und Budget: bester für Logitech G29/G920/G923 (Wheel Stand Pro Super G7 Deluxe V2), bester Allround-Ständer einer zweiten Marke (GT Omega APEX), günstigster Einstieg (NLR Wheel Stand Racer), bester mit Sitz-Erweiterung, bester für Direct Drive der zweiten Marke (Wheel Stand Pro DD).",
+      "top5Kandidaten": ["Wheel Stand Pro Super G7 Deluxe V2 + RGS (Logitech)", "GT Omega APEX", "Next Level Racing Wheel Stand Racer", "Wheel Stand Pro DD (amazon.de-Listing prüfen)", "Next Level Racing Wheel Stand DD oder Lite (je nachdem, was nicht in Top 3)"],
+      "faqKandidaten": [
+        "Lenkradständer oder Cockpit – was ist besser?",
+        "Ist ein Lenkradständer für Direct-Drive-Lenkräder geeignet?",
+        "Welcher Stuhl passt zu einem Lenkradständer?",
+        "Kann man einen Lenkradständer vor dem Sofa nutzen?",
+        "Passt mein Lenkrad auf jeden Lenkradständer?",
+        "Kann man einen Shifter am Lenkradständer befestigen?",
+        "Wie viel Platz braucht ein Lenkradständer?"
+      ],
+      "related": ["sim-racing-cockpits", "gaming-stuehle", "bestes-direct-drive-lenkrad"],
+      "metaTitle": "Die 3 besten Lenkradständer 2026 – klappbar bis Direct Drive",
+      "metaDescription": "Wheel Stands statt Cockpit: Die 3 besten Lenkradständer 2026 im Vergleich – klappbar fürs Wohnzimmer bis stabil für Direct Drive, plus Top 5 nach Lenkradmarke.",
+      "produktart": "Lenkradständer (Wheel Stand): schlankes, klappbares Stahlrohrgestell ohne Sitz, oben schräge Platte für das Lenkrad, unten breite Bodenplatte für Pedale, seitlich kleiner Ausleger für den Schaltknüppel; davor angedeutet ein normaler Stuhl."
+    }
+  ],
+  "bestehendeSeitenAnpassen": [
+    "sim-racing-cockpits: top5-Intro ergänzen um Einordnung „Komplett-Lenkräder für den Einstieg – Direct-Drive-Basen im Vergleich im Ratgeber [Direct-Drive-Lenkräder](/bestes-direct-drive-lenkrad/)“; Top-5-Eintrag Logitech G PRO Racing Wheel: Text um Link auf /bestes-direct-drive-lenkrad/ ergänzen. Top 5 bleibt inhaltlich (Einstieg/Bundles), damit kein Kannibalisieren.",
+    "sim-racing-cockpits: Tabelle „Cockpit-Bauarten im Vergleich“, Zeile „**Wheel Stand**“ → „**[Wheel Stand](/bester-lenkradstaender/)**“; Kaufkriterien-Absatz optional Satz „Pedale, Shifter und Handbremse lassen sich später nachrüsten“ mit Links auf beste-sim-racing-pedale, bester-sim-racing-shifter, beste-sim-racing-handbremse.",
+    "sim-racing-cockpits: related ergänzen um bestes-direct-drive-lenkrad und bester-lenkradstaender (dann 6 Einträge inkl. Bereichslink – alternativ beamer-leinwand streichen, um bei 5 zu bleiben).",
+    "sim-racing-cockpits: FAQ „Welches Lenkrad passt zu welchem Cockpit?“ – Antwort optional um Hinweis auf Direct-Drive-Ratgeber ergänzen; updated-Datum auf 2026-10-25.",
+    "gaming-stuehle: related um bester-lenkradstaender ergänzen (Stuhl vor dem Wheel Stand)",
+    "vr-gaming: keine Pflichtänderung (verlinkt bereits sim-racing-cockpits)",
+    "gaming-room intro/article laut area.introErgaenzung"
+  ],
+  "offen": [
+    "Zuschnitt selbst entschieden: alle 5 Kategorien flach im Bereich gaming-room, keine Gruppe „Sim-Racing“ (Gruppen würden die flachen URLs des Bereichs brechen; analog zum Flugsim-Lauf).",
+    "Kannibalisierung mit sim-racing-cockpits: Dort bleiben Komplett-Lenkräder (G923, T300, G PRO) in der Top 5; die neue Seite heißt bewusst „Direct-Drive-Lenkrad“ (Basis-Fokus) und platziert das G PRO nicht erneut. Kein generischer „Gaming-Lenkrad“-Slug (Scout: Chip/PCGH/Computer Bild dominieren).",
+    "Direct-Drive-Seite mit Plattform-Rollen (PC / PS5 / Xbox) statt Gesamt/Preis-Leistung/Premium – Begründung im rollenHinweis. Falls der Orchestrator die Standardrollen bevorzugt: MOZA R9 V3 (Gesamt, PC), MOZA R5 Bundle (Preis-Leistung), Logitech RS50 (Premium/Konsole).",
+    "Xbox-Rolle Direct Drive: Fanatec CSL DD QR2 braucht ein Xbox-lizenziertes Lenkrad (Basis allein läuft an Xbox nicht) – Rechercheur muss ein aktives Bundle/Rim-Listing auf amazon.de finden; sonst Rolle an Logitech RS50 Xbox/PC (B0FKGT1BXC) und RS50 PS5 in die Top 5. Fanatec Gran Turismo DD Pro (PS-lizenziert) als möglicher PS5-Kandidat prüfen, falls aktiv gelistet.",
+    "Thrustmaster T598 wegen gemischter Rezensionen (PS5-Verbindungsabbrüche laut Käufern) nur Top 5 mit Hinweis.",
+    "Shifter: TH8A ist ein altes Modell (seit 2011) – wenn Listing inaktiv oder nur Marktplatz, Gesamtwahl an TH8S und Preis-Leistung an Logitech Driving Force Shifter; dritte Rolle dann MOZA HGP („Beste Wahl für PC“).",
+    "Logitech RS Shifter & Handbrake hat seinen Hauptplatz auf der Handbremsen-Seite (Top 3), auf der Shifter-Seite nur als Verweis – keine Doppelplatzierung in beiden Top 3.",
+    "Lenkradständer: Top 3 droht dreimal Next Level Racing – Rechercheur prüft GT Omega APEX / Wheel Stand Pro DD als gleichwertige Alternative für eine Rolle.",
+    "Sicherheitshinweis Direct Drive aus sim-racing-cockpits auf bestes-direct-drive-lenkrad und bester-lenkradstaender übernehmen (Ständer: Kippen/Flex bei hohen Nm, Herstellerfreigabe beachten).",
+    "Keine Stiftung-Warentest-/Öko-Test-Ergebnisse; nur Herstellerangaben und ggf. Einzeltests (PC Games Logitech RS Shifter & Handbrake, PCGH) mit Heft/Datum.",
+    "Reserve bester-triple-monitor-staender nicht gebaut (nur 2–3 Marken aktiv). Rims, Button-Boxen, Bass-Shaker nicht als eigene Seite.",
+    "Awin: kein passender joined-Händler (Rewe, Radwelt-shop, brickzonehub) → alle Produkte über Amazon-ASIN; ASINs aus dem Scout-Bericht sind Kandidaten, Plattform-Variante je Listing prüfen."
+  ]
+}
