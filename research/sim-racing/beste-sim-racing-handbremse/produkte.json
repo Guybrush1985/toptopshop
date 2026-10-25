@@ -1,0 +1,516 @@
+{
+  "slug": "beste-sim-racing-handbremse",
+  "stand": "2026-10-25",
+  "criteria": [
+    {
+      "key": "plattform",
+      "label": "Kompatibilität & Anschluss",
+      "weight": 0.3,
+      "description": "PC / PS5 / Xbox laut Hersteller, Anschluss USB direkt oder über die Lenkradbasis desselben Herstellers, Einschränkungen je Spiel."
+    },
+    {
+      "key": "gefuehl",
+      "label": "Bremsgefühl & Sensor",
+      "weight": 0.3,
+      "description": "Sensorprinzip (Hall/Winkelsensor vs. Loadcell), Hebelweg, einstellbarer Widerstand/Vorspannung, Feinfühligkeit beim Driften laut Herstellerangaben und Berichten."
+    },
+    {
+      "key": "funktionen",
+      "label": "Funktionen & Montage",
+      "weight": 0.2,
+      "description": "Analog/digital, Umschaltung auf sequenziellen Shifter, vertikal/horizontal, Tischklemme vs. Cockpit-Verschraubung, Material."
+    },
+    {
+      "key": "preisleistung",
+      "label": "Preis-Leistung",
+      "weight": 0.2,
+      "description": "Gebotene Technik im Verhältnis zur Preisklasse; redaktionelle Einschätzung ohne feste Preise."
+    }
+  ],
+  "priceTiers": {
+    "1": "bis ca. 150 €",
+    "2": "ca. 150–250 €",
+    "3": "über 250 €",
+    "hinweis": "Vorschlag; Spanne der Kandidaten ca. 110–390 € (UVP/Händler laut Suchsnapshots), keine festen Preise auf der Seite."
+  },
+  "products": [
+    {
+      "rank": 1,
+      "label": "Beste Gesamtwahl",
+      "name": "Thrustmaster TSS Handbrake",
+      "brand": "Thrustmaster",
+      "variant": "Progressive Handbremse und sequenzielle Schaltung, PC/PS5/PS4/Xbox Series X|S/Xbox One (Modell 4060306, inkl. Horizontal-Mode-Add-on)",
+      "priceTier": 3,
+      "ratings": {
+        "plattform": 9,
+        "gefuehl": 7.5,
+        "funktionen": 9,
+        "preisleistung": 7
+      },
+      "gesamt": 8.15,
+      "bestFor": "Rallye- und Drift-Fans mit Thrustmaster-Lenkrad an PS5, Xbox oder PC – und PC-Spieler mit beliebiger Basis, die eine Handbremse plus sequenziellen Shifter in einem Gerät wollen.",
+      "fakten": [
+        {
+          "text": "Zwei Modi: progressive (analoge) Handbremse und sequenzielle Schaltung; mitgeliefertes Horizontal-Mode-Add-on für vertikale (Rallye) oder horizontale (GT) Position.",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.thrustmaster.com/products/tss-handbrake/",
+          "datum": "abgerufen 2026-10-25 (Suchsnapshot)"
+        },
+        {
+          "text": "H.E.A.R.T-Hall-Effekt-Sensorik (magnetisch, laut Hersteller ohne Präzisionsverlust über die Zeit); Gehäuse zu 90 % aus Metall (Stahl/Aluminium).",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.thrustmaster.com/products/tss-handbrake/",
+          "datum": "abgerufen 2026-10-25 (Suchsnapshot)"
+        },
+        {
+          "text": "Konsole: kompatibel an PS5/PS4 und Xbox One/Series X|S über die Thrustmaster-Basen T128, T248, T-GT/T-GT II, T300-Serie, TS-XW, TX-Serie und T598 (Anschluss über DIN-Port der Basis). PC: mit allen Lenkrädern per USB.",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.thrustmaster.com/products/tss-handbrake/",
+          "datum": "abgerufen 2026-10-25 (Suchsnapshot)"
+        },
+        {
+          "text": "Am PC empfiehlt Thrustmaster das DIN/USB-Kabel direkt am PC-USB-Port (ohne Hub/Verlängerung); über den DIN-Port der Basis steht am PC ggf. nur der sequenzielle Modus zur Verfügung.",
+          "art": "Herstellerangabe",
+          "quelle": "https://support.thrustmaster.com/en/kb/1739-en/",
+          "datum": "abgerufen 2026-10-25 (Suchsnapshot)"
+        },
+        {
+          "text": "Nicht jedes Spiel unterstützt beide Modi; manche Titel nur den sequenziellen Modus (Spieleliste beim Hersteller).",
+          "art": "Herstellerangabe",
+          "quelle": "https://support.thrustmaster.com/en/product/tss-handbrake-sparco-mod-plus-en/",
+          "datum": "abgerufen 2026-10-25 (Suchsnapshot)"
+        },
+        {
+          "text": "Tischmontage nur mit separat erhältlicher TM Racing Clamp (Metall, für Tischplatten bis ca. 45–50 mm laut Listings).",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B07DK6TXMS",
+          "datum": "abgerufen 2026-10-25 (Suchsnapshot)"
+        }
+      ],
+      "pros": [
+        "Einzige Top-3-Handbremse mit Konsolen-Support an PS5 und Xbox über viele Thrustmaster-Basen",
+        "Am PC per USB unabhängig von der Lenkradmarke",
+        "Handbremse und Sequenzschaltung in einem Gerät, vertikal oder horizontal",
+        "Hall-Sensor, 90 % Metall"
+      ],
+      "cons": [
+        "Kein Loadcell – Bremskraft folgt dem Hebelweg",
+        "Tischklemme kostet extra",
+        "An der Konsole nur mit Thrustmaster-Basis, Funktion je Spiel unterschiedlich",
+        "Höchste Preisklasse der Top 3"
+      ],
+      "specs": {
+        "plattform": "PC / PS5 / PS4 / Xbox (Konsole über Thrustmaster-Basis)",
+        "anschluss": "beides (USB direkt am PC, DIN an Thrustmaster-Basis)",
+        "Sensor": "Hall-Effekt (H.E.A.R.T)",
+        "Modi": "analoge Handbremse / sequenziell",
+        "Montage": "vertikal oder horizontal; Klemme separat (TM Racing Clamp)",
+        "Material": "90 % Metall (Stahl/Aluminium)"
+      },
+      "asin": "B0CV47G5F5",
+      "query": "Thrustmaster TSS Handbrake",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "amazon.de/dp/B0CV47G5F5 – „Thrustmaster TSS Handbrake, Progressive Handbremse und Sequentielle Schaltung, Für PC/PS5/PS4/Xbox Series X|S/Xbox One“ (Modellnr. 4060306; Snapshot zeigt Angebot, kein „nicht verfügbar“)"
+    },
+    {
+      "rank": 2,
+      "label": "Premium-Wahl",
+      "name": "FANATEC ClubSport Handbrake V2 mit USB-Adapter",
+      "brand": "Fanatec",
+      "variant": "Loadcell-Handbremse, RJ12 an Fanatec-Basis, ClubSport USB-Adapter im Paket",
+      "priceTier": 2,
+      "ratings": {
+        "plattform": 7,
+        "gefuehl": 9.5,
+        "funktionen": 7,
+        "preisleistung": 8
+      },
+      "gesamt": 7.95,
+      "bestFor": "Fanatec-Nutzer (CSL DD, GT DD Pro, ClubSport DD) und PC-Racer, die das feinste Bremsgefühl über Druck statt Weg wollen.",
+      "fakten": [
+        {
+          "text": "Loadcell-Sensor, Stahl/Aluminium, kugelgelagerter Drehpunkt; Vorspannung, Hebelweg (60/70/80 mm per Spacer) und drei Hebelwinkel einstellbar, invertierbar.",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.fanatec.com/us/en/p/add-ons/crd-9050002-ww/clubsport-handbrake",
+          "datum": "abgerufen 2026-10-25 (Suchsnapshot)"
+        },
+        {
+          "text": "Anschluss per RJ12 an eine Fanatec-Basis oder Pedale mit Handbremsen-Port; per ClubSport USB-Adapter (in diesem Amazon-Paket enthalten) eigenständig am Windows-PC.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B0H5XG1MPZ",
+          "datum": "abgerufen 2026-10-25 (Suchsnapshot)"
+        },
+        {
+          "text": "Konsole nur über unterstützte Fanatec-Basis; an Xbox zusätzlich mit Xbox-lizenziertem Fanatec-Lenkrad; Funktion spielabhängig.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B0H5XG1MPZ",
+          "datum": "abgerufen 2026-10-25 (Suchsnapshot)"
+        },
+        {
+          "text": "Tests loben das Loadcell-Gefühl bei Teilbremsung im Drift/Rallye; Kritik: kein eingebauter USB-Port (Adapter nötig).",
+          "art": "Bericht",
+          "quelle": "https://simracingcockpit.gg/a-close-look-at-the-fanatec-clubsport-handbrake-v2/",
+          "datum": "abgerufen 2026-10-25 (Suchsnapshot)"
+        },
+        {
+          "text": "Vorgestellt auf der ADAC SimRacing Expo 2024 als Nachfolger der V1.5 (Potentiometer → Loadcell, Klinke → RJ12).",
+          "art": "Bericht",
+          "quelle": "https://traxion.gg/fanatec-unveils-new-load-cell-based-clubsport-handbrake-v2/",
+          "datum": "abgerufen 2026-10-25 (Suchsnapshot)"
+        },
+        {
+          "text": "Fanatec gehört seit September 2024 zu Corsair (Übernahme des Geschäftsbetriebs der insolventen Endor AG).",
+          "art": "Bericht",
+          "quelle": "https://boxthislap.org/corsair-acquires-endor-ag-taking-full-control-of-fanatec/",
+          "datum": "abgerufen 2026-10-25 (Suchsnapshot)"
+        }
+      ],
+      "pros": [
+        "Loadcell: Bremskraft nach Druck – feinste Dosierung",
+        "Weg, Vorspannung und Winkel einstellbar",
+        "USB-Adapter im Paket: auch ohne Fanatec-Basis am PC nutzbar"
+      ],
+      "cons": [
+        "Konsole nur mit Fanatec-Basis",
+        "Keine Tischklemme laut Listing – eher fürs Cockpit",
+        "Keine Sequenzschaltung"
+      ],
+      "specs": {
+        "plattform": "PC / PS5 / PS4 / Xbox (Konsole über Fanatec-Basis)",
+        "anschluss": "beides (RJ12 an Fanatec-Basis, USB über mitgelieferten Adapter)",
+        "Sensor": "Loadcell",
+        "Modi": "analoge Handbremse",
+        "Montage": "Cockpit-Verschraubung, vertikal/invertiert, 3 Winkel",
+        "Material": "Stahl/Aluminium"
+      },
+      "asin": "B0H5XG1MPZ",
+      "query": "FANATEC ClubSport Handbrake V2 USB-Adapter",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "amazon.de/dp/B0H5XG1MPZ – „FANATEC ClubSport Handbrake V2 with USB Adapter“ (Snapshot: auf Lager, teils „nur noch 1/4 vorrätig“)"
+    },
+    {
+      "rank": 3,
+      "label": "Beste 2-in-1 mit Shifter",
+      "name": "Logitech G RS Shifter & Handbrake",
+      "brand": "Logitech G",
+      "variant": "2-in-1 Shifter (sequenziell) / Handbremse, höhenverstellbarer Griff, Tischklemme",
+      "priceTier": 1,
+      "ratings": {
+        "plattform": 7,
+        "gefuehl": 6.5,
+        "funktionen": 8.5,
+        "preisleistung": 9
+      },
+      "gesamt": 7.55,
+      "bestFor": "Besitzer einer Logitech G PRO oder RS50 und PC-Racer mit beliebiger Basis, die günstig Handbremse und Sequenzschaltung nachrüsten wollen.",
+      "fakten": [
+        {
+          "text": "2-in-1-Gerät: arbeitet als Schalthebel oder als Handbremse, Umschaltung ohne Werkzeug; mit zwei Einheiten beides gleichzeitig nutzbar; Feinabstimmung in G HUB; höhenverstellbarer Griff, Tischklemme.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B0DD3LN886",
+          "datum": "abgerufen 2026-10-25 (Suchsnapshot)"
+        },
+        {
+          "text": "Anschluss per USB direkt an PC (Windows 10+) oder an Logitech G PRO Racing Wheel/RS50; in diesem Setup auch gleichzeitig mit dem Driving Force Shifter nutzbar.",
+          "art": "Herstellerangabe",
+          "quelle": "https://support.logi.com/hc/en-us/articles/25780455631767-Can-I-use-the-RS-Shifter-Handbrake-at-the-same-time-as-the-Driving-Force-Shifter",
+          "datum": "abgerufen 2026-10-25 (Suchsnapshot)"
+        },
+        {
+          "text": "An G29/G920/G923 an der Konsole nur über den separaten Logitech G Racing Adapter – dann verhält sich das Gerät wie ein Driving Force Shifter, zusätzliche Handbremsen- oder Sequenzfunktionen stehen nicht zur Verfügung; Spielunterstützung eingeschränkt (u. a. Gran Turismo 7 auf PlayStation nicht unterstützt).",
+          "art": "Herstellerangabe",
+          "quelle": "https://support.logi.com/hc/en-us/articles/25739671812375-Supported-games-when-using-Racing-Adapter-to-connect-RS-Shifter-Handbrake-to-a-G29-G920-or-G923-on-console",
+          "datum": "abgerufen 2026-10-25 (Suchsnapshot)"
+        },
+        {
+          "text": "Analoge Handbremse mit ca. 20° Bewegungsbereich laut Logitech; einige Händler und Nutzer beschreiben sie als digital – Widerspruch, Herstellerangabe maßgeblich.",
+          "art": "Bericht",
+          "quelle": "https://www.bestbuy.com/site/6595013.p",
+          "datum": "abgerufen 2026-10-25 (Suchsnapshot)"
+        },
+        {
+          "text": "Nutzer bemängeln eine recht straffe, nicht einstellbare Feder; PC Games berichtet vom Betrieb an einer MOZA R12 mit Fanatec-Pedalen (G HUB nötig).",
+          "art": "Bericht",
+          "quelle": "https://www.pcgames.de/PCG-Garage-Brands-281703/Specials/Rallye-Assetto-Corsa-Rally-Rennsimulationen-Formel-1-Sim-Racing-1488181/5/",
+          "datum": "abgerufen 2026-10-25 (Suchsnapshot)"
+        }
+      ],
+      "pros": [
+        "Günstigste Top-3-Option",
+        "USB direkt am PC – funktioniert auch mit Fremdbasen",
+        "Tischklemme inklusive, Griff höhenverstellbar",
+        "Shifter und Handbremse in einem Gerät"
+      ],
+      "cons": [
+        "Federhärte nicht einstellbar",
+        "An G29/G920/G923-Konsole keine Handbremsenfunktion",
+        "Kein Loadcell"
+      ],
+      "specs": {
+        "plattform": "PC / PS5 / Xbox (Konsole über Logitech G PRO oder RS50)",
+        "anschluss": "beides (USB direkt am PC oder an PRO/RS50-Basis)",
+        "Sensor": "Winkel-/Positionssensor (Typ nicht angegeben)",
+        "Modi": "Handbremse / sequenziell (umschaltbar)",
+        "Montage": "Tischklemme inklusive, Griff höhenverstellbar"
+      },
+      "asin": "B0DD3LN886",
+      "query": "Logitech G RS Shifter & Handbrake",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "amazon.de/dp/B0DD3LN886 – „Logitech G RS Shifter and Handbrake with Easy Mode Change“ (Moduswechsel, höhenverstellbarer Griff, Tischklemme)"
+    }
+  ],
+  "top5": [
+    {
+      "name": "MOZA HBP Handbrake",
+      "rolle": "Beste nur für PC / MOZA-Basis",
+      "warum": "Günstige Aluminium-Handbremse mit 16-Bit-Winkelsensor, per USB am PC oder direkt am Handbremsen-Port einer MOZA-Basis (R5/R9/R12-Umfeld) – kein offizieller Konsolen-Support.",
+      "fakten": [
+        {
+          "text": "USB direkt am PC oder Anschluss an kompatible MOZA-Basis; Kalibrierung in MOZA Pit House; Aluminium, 0,7 kg, M6-Lochbild.",
+          "art": "Herstellerangabe",
+          "quelle": "https://support.mozaracing.com/en/support/solutions/articles/70000684331-moza-hbp-handbrake-product-support",
+          "datum": "abgerufen 2026-10-25 (Suchsnapshot)"
+        },
+        {
+          "text": "Kein Loadcell, sondern Rotations-/Winkelsensor; gilt als preiswerte Option.",
+          "art": "Bericht",
+          "quelle": "https://coachdaveacademy.com/tutorials/sim-racing-handbrakes/",
+          "datum": "abgerufen 2026-10-25 (Suchsnapshot)"
+        }
+      ],
+      "asin": null,
+      "query": "MOZA HBP Handbrake",
+      "where": null,
+      "asinGeprueft": "Keine aktive ASIN: B0BVLNVVVC („MOZA HBP Handbrake“) und B0DHHJXRLH („MOZA HBP Sim Racing Handbrake PC USB …“) beide „derzeit nicht verfügbar“; B0FGJ5G3VZ nur Gebraucht-Angebot – daher nur query."
+    },
+    {
+      "name": "Heusinkveld SIM Handbrake – Black",
+      "rolle": "Beste Loadcell-Handbremse für PC",
+      "warum": "Niederländisches High-End-Gerät mit 120-kg-Loadcell, zweistufiger Feder und drei Elastomeren, vertikal oder horizontal; USB mit eigener SmartControl-Software, daher an jeder PC-Basis nutzbar – nicht an Konsolen.",
+      "fakten": [
+        {
+          "text": "120-kg-Loadcell, bis 22 kg Kraft am Hebel, Vorspannung und Elastomere (soft/medium/stiff) einstellbar, vertikal/horizontal; USB-Controller, SmartControl-Software (Totzonen, Kurven, Profile).",
+          "art": "Herstellerangabe",
+          "quelle": "https://simmotion.com/products/heusinkveld-sim-handbrake-v2",
+          "datum": "abgerufen 2026-10-25 (Suchsnapshot)"
+        },
+        {
+          "text": "amazon.de-Listing nennt 2 Jahre Herstellergarantie.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B0CPD3PXFD",
+          "datum": "abgerufen 2026-10-25 (Suchsnapshot)"
+        }
+      ],
+      "asin": "B0CPD3PXFD",
+      "query": "Heusinkveld SIM Handbrake Black",
+      "where": null,
+      "asinGeprueft": "amazon.de/dp/B0CPD3PXFD – „Heusinkveld SIM Handbrake - Black“ (HE-HBV2B; Snapshot mit Preis/Angebot). Alternative B0C211TB8F (HE-HBv2) „derzeit nicht vorrätig“."
+    },
+    {
+      "name": "Asetek SimSports Load Cell Handbrake",
+      "rolle": "Neuheit Herbst 2026 (Loadcell, analog/digital)",
+      "warum": "Neue dänische Loadcell-Handbremse (200 kg, 16 Bit), umschaltbar analog/digital, für Links- und Rechtslenker; laut Asetek 1 Mio. Bremszyklen getestet. Nur PC (RaceHub) – bisher nicht auf amazon.de.",
+      "fakten": [
+        {
+          "text": "Globaler Launch Oktober 2026 über asetek.com, erste limitierte Charge, Auslieferung USA ab Anfang November; 200-kg-Loadcell, 16 Bit, analog/digital umschaltbar.",
+          "art": "Bericht",
+          "quelle": "https://boxthislap.org/asetek-simsports-launches-its-new-shifter-and-handbrake/",
+          "datum": "abgerufen 2026-10-25 (Suchsnapshot)"
+        }
+      ],
+      "asin": null,
+      "query": "Asetek SimSports Load Cell Handbrake",
+      "where": "Hersteller-Shop asetek.com",
+      "asinGeprueft": "Kein amazon.de-Listing gefunden."
+    },
+    {
+      "name": "Thrustmaster TM Racing Clamp",
+      "rolle": "Beste Montage-Lösung am Schreibtisch (Zubehör)",
+      "warum": "Metallklemme für TSS Handbrake und TH8A/TH8S am Schreibtisch ohne Cockpit; Höhe, Tiefe und Neigung einstellbar, links oder rechts montierbar. Nur Zubehör, keine eigene Handbremse.",
+      "fakten": [
+        {
+          "text": "100 % Metall, zwei Feststellschrauben, für Tischplatten bis ca. 45 mm (andere Listing-Angabe 15–50 mm); Höhe/Tiefe/Neigung einstellbar, inkl. TH8A-Seitenhalter.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B07DK6TXMS",
+          "datum": "abgerufen 2026-10-25 (Suchsnapshot)"
+        }
+      ],
+      "asin": "B07DK6TXMS",
+      "query": "Thrustmaster TM Racing Clamp",
+      "where": null,
+      "asinGeprueft": "amazon.de/dp/B07DK6TXMS – „Thrustmaster TM Racing Clamp“ (Modell 4060094)"
+    }
+  ],
+  "weitereAmazonOptionen": [
+    {
+      "name": "Thrustmaster TM Sim Hub",
+      "asin": "B07K36N4P1",
+      "hinweis": "Verbindet TH8A und TSS-Handbremse gleichzeitig mit einer Thrustmaster-Basis (PlayStation: T248, T-GT, T300). Listing nennt ausdrücklich die TSS Handbrake Sparco Mod+ – Kompatibilität mit der neuen TSS Handbrake (4060306) nicht belegt.",
+      "quelle": "https://www.amazon.de/dp/B07K36N4P1"
+    }
+  ],
+  "tests": [
+    {
+      "institut": "Stiftung Warentest / Öko-Test / ADAC",
+      "heft": "–",
+      "ergebnis": "Kein Test von Sim-Racing-Handbremsen gefunden (Websuche 2026-10-25); auch kein deutschsprachiger Vergleichstest.",
+      "quelle": "–"
+    },
+    {
+      "institut": "BoxThisLap",
+      "heft": "„Fanatec Clubsport Handbrake V2 – Ultimate In Depth Review“ (online)",
+      "ergebnis": "Einzeltest; hebt Wechsel auf Loadcell und RJ12 hervor, USB-Adapter für Betrieb ohne Fanatec-Basis nötig. Volltext nicht abrufbar – laut Suchauszug.",
+      "quelle": "https://boxthislap.org/fanatec-clubsport-handbrake-v2-ultimate-in-depth-review/"
+    },
+    {
+      "institut": "Simracing Cockpit (simracingcockpit.gg)",
+      "heft": "„A close look at the Fanatec ClubSport Handbrake V2“ (online)",
+      "ergebnis": "Loadcell als Highlight, feinere Teilbremsung als Positionssensoren; Kritik: fehlender USB-Port. Laut Suchauszug.",
+      "quelle": "https://simracingcockpit.gg/a-close-look-at-the-fanatec-clubsport-handbrake-v2/"
+    },
+    {
+      "institut": "Simracinghub.nl",
+      "heft": "Review Fanatec ClubSport Handbrake V2 (online)",
+      "ergebnis": "Starkes Produkt mit kleinen Mängeln; teurer als MOZA/Simagic. Laut Suchauszug.",
+      "quelle": "https://www.simracinghub.nl/en/?p=17401"
+    },
+    {
+      "institut": "PC Games (PCG Garage)",
+      "heft": "Rallye-/Sim-Racing-Special, Seite „Hardware-Kompatibilität und Preis“ (online)",
+      "ergebnis": "Logitech RS Shifter & Handbrake an MOZA R12 mit Fanatec-Pedalen am PC genutzt – funktioniert mit G HUB. Laut Suchauszug.",
+      "quelle": "https://www.pcgames.de/PCG-Garage-Brands-281703/Specials/Rallye-Assetto-Corsa-Rally-Rennsimulationen-Formel-1-Sim-Racing-1488181/5/"
+    }
+  ],
+  "warnungen": [
+    "Keine Rückrufe oder Safety-Gate-Meldungen zu Sim-Racing-Handbremsen von Thrustmaster, Logitech, Fanatec, MOZA, Heusinkveld oder Asetek gefunden (Websuche 2026-10-25; Safety-Gate-Datenbank selbst aus der Sandbox nicht abrufbar).",
+    "Konsolenbetrieb hängt immer an der Lenkradbasis desselben Herstellers und am Spiel (Herstellerangaben Thrustmaster, Logitech, Fanatec) – im Text deutlich machen; USB-Handbremsen laufen an PS5/Xbox nicht eigenständig.",
+    "Logitech RS Shifter & Handbrake an G29/G920/G923 auf Konsole: nur über Racing Adapter und dann ohne Handbremsenfunktion (Logitech-Support) – nicht als Handbremse für G923-Konsolenspieler empfehlen.",
+    "Fanatec: Mutter Endor AG 2024 insolvent, Geschäftsbetrieb von Corsair übernommen (BoxThisLap, GTPlanet) – Produkte und Support laufen weiter; neutral erwähnen, falls Garantiefragen angesprochen werden."
+  ],
+  "verworfen": [
+    {
+      "name": "Thrustmaster TSS Handbrake Sparco Mod+ (4060107)",
+      "grund": "Älteres Modell; amazon.de-Listing (4,4★/635 Bewertungen) „derzeit nicht verfügbar“, ASIN nicht eindeutig ermittelt. Die neue TSS Handbrake (B0CV47G5F5) ersetzt sie auf Platz 1 – der Rollenkandidat „Sparco Mod+“ aus der Struktur ist auf amazon.de faktisch die TSS Handbrake ohne Sparco-Lizenz; Name entsprechend angepasst."
+    },
+    {
+      "name": "Thrustmaster TSSH Sequential Shifter & Handbrake Sparco (PC)",
+      "grund": "amazon.de B095MVQV2D und B0796V9LFB beide „derzeit nicht verfügbar“, Hersteller-Nachfolger vorhanden (TSS Handbrake)."
+    },
+    {
+      "name": "SIMSONN HB Pro (hydraulisch)",
+      "grund": "amazon.de B0FDQTZ8MY „derzeit nicht verfügbar“, nur 2 Bewertungen, keine unabhängigen Tests; Konsolen-Support nicht angegeben."
+    },
+    {
+      "name": "PXN HB S",
+      "grund": "amazon.de B0CNCMXVDJ „derzeit nicht verfügbar“, 3,8★/13 Bewertungen, nur PC – keine seriöse Budget-Empfehlung möglich."
+    },
+    {
+      "name": "Revosim (Nacon) RS Pure Handbrake",
+      "grund": "Kein amazon.de-Listing gefunden; Konsolenversion erst ab November 2026 angekündigt."
+    },
+    {
+      "name": "No-Name-USB-Handbremsen (z. B. „PC USB Rennhandbremse für Sim Racing“, B0F7LR76N9)",
+      "grund": "Austauschbare No-Name-Ware ohne Garantie-/Ersatzteilangaben; Berichte über Ausfälle nach wenigen Wochen."
+    }
+  ],
+  "offen": [
+    "MOZA HBP: keine aktive amazon.de-ASIN (B0BVLNVVVC, B0DHHJXRLH nicht verfügbar; B0FGJ5G3VZ nur gebraucht) – nur query „MOZA HBP Handbrake“; bei nächstem Lauf erneut prüfen.",
+    "Asetek Load Cell Handbrake: nur Hersteller-Shop (where), kein Preis und keine offizielle Plattformliste gefunden (vermutlich nur PC) – Top-5-Eintrag ohne Link; ggf. nach Erscheinen auf amazon.de prüfen.",
+    "Top 5 hat nur 4 Einträge (3 Handbremsen + TM Racing Clamp als Zubehör): TSSH, Simsonn, PXN nicht verfügbar, Revosim nicht gelistet, keine seriöse Budget-Handbremse aktiv auf amazon.de. Falls Build 5 Einträge verlangt: TM Sim Hub (B07K36N4P1, in weitereAmazonOptionen) als Zubehör-Platz ergänzen.",
+    "Ranking (Redaktion 2026-10-25, Vorgabe Orchestrator): Reihenfolge nach Gesamtnote – Platz 2 FANATEC ClubSport Handbrake V2 (Premium-Wahl, 7,95), Platz 3 Logitech G RS Shifter & Handbrake (Beste 2-in-1 mit Shifter, 7,55). Bildtöne nach Rang (forest/green/mint).",
+    "Logitech-Handbremse analog oder digital: Logitech nennt analog (20°), einige Händler/Nutzer digital – im Text als Herstellerangabe formulieren.",
+    "Rolle „Beste Gesamtwahl“ in der Struktur nennt „TSS Handbrake Sparco Mod+“ – tatsächlich empfohlen wird die neuere „Thrustmaster TSS Handbrake“ (Amazon-Titel); Seitentext und Bild entsprechend.",
+    "Struktur-Hinweis „Fanatec ClubSport Handbrake V2 neu 06/2026“: das Gerät kam laut Berichten Ende 2024; neu (2026) ist nur das amazon.de-Paket mit USB-Adapter.",
+    "Kein Awin-Händler nötig – alle verlinkten Produkte über Amazon.",
+    "Top 5 (Redaktion 2026-10-25): Build verlangt genau 5 Einträge → TM Sim Hub (B07K36N4P1) als 5. Eintrag mit Rolle „Zubehör für ältere Sparco-Setups“, ausdrücklich keine Handbremse; Kompatibilität mit der neuen TSS Handbrake (4060306) im Text als nicht belegt benannt."
+  ],
+  "quellen": [
+    {
+      "titel": "Thrustmaster – TSS Handbrake",
+      "url": "https://www.thrustmaster.com/products/tss-handbrake/"
+    },
+    {
+      "titel": "Thrustmaster Support – Connection recommendations for using TSS Handbrake",
+      "url": "https://support.thrustmaster.com/en/kb/1739-en/"
+    },
+    {
+      "titel": "Thrustmaster Support – TSS Handbrake Sparco Mod+",
+      "url": "https://support.thrustmaster.com/en/product/tss-handbrake-sparco-mod-plus-en/"
+    },
+    {
+      "titel": "Logitech G – RS Shifter & Handbrake",
+      "url": "https://www.logitechg.com/en-us/shop/p/rs-shifter-handbrake"
+    },
+    {
+      "titel": "Logitech Support – Supported games with Racing Adapter (G29/G920/G923)",
+      "url": "https://support.logi.com/hc/en-us/articles/25739671812375-Supported-games-when-using-Racing-Adapter-to-connect-RS-Shifter-Handbrake-to-a-G29-G920-or-G923-on-console"
+    },
+    {
+      "titel": "Logitech Support – RS Shifter & Handbrake with Driving Force Shifter",
+      "url": "https://support.logi.com/hc/en-us/articles/25780455631767-Can-I-use-the-RS-Shifter-Handbrake-at-the-same-time-as-the-Driving-Force-Shifter"
+    },
+    {
+      "titel": "Fanatec – ClubSport Handbrake V2",
+      "url": "https://www.fanatec.com/us/en/p/add-ons/crd-9050002-ww/clubsport-handbrake"
+    },
+    {
+      "titel": "Traxion – Fanatec unveils ClubSport Handbrake V2",
+      "url": "https://traxion.gg/fanatec-unveils-new-load-cell-based-clubsport-handbrake-v2/"
+    },
+    {
+      "titel": "BoxThisLap – Fanatec Clubsport Handbrake V2 Review",
+      "url": "https://boxthislap.org/fanatec-clubsport-handbrake-v2-ultimate-in-depth-review/"
+    },
+    {
+      "titel": "Simracing Cockpit – Fanatec ClubSport Handbrake V2",
+      "url": "https://simracingcockpit.gg/a-close-look-at-the-fanatec-clubsport-handbrake-v2/"
+    },
+    {
+      "titel": "BoxThisLap – Corsair acquires Endor AG",
+      "url": "https://boxthislap.org/corsair-acquires-endor-ag-taking-full-control-of-fanatec/"
+    },
+    {
+      "titel": "MOZA Support – HBP Handbrake",
+      "url": "https://support.mozaracing.com/en/support/solutions/articles/70000684331-moza-hbp-handbrake-product-support"
+    },
+    {
+      "titel": "Coach Dave Academy – Sim racing handbrakes",
+      "url": "https://coachdaveacademy.com/tutorials/sim-racing-handbrakes/"
+    },
+    {
+      "titel": "Sim Motion – Heusinkveld Sim Handbrake V2",
+      "url": "https://simmotion.com/products/heusinkveld-sim-handbrake-v2"
+    },
+    {
+      "titel": "BoxThisLap – Asetek SimSports launches shifter and handbrake",
+      "url": "https://boxthislap.org/asetek-simsports-launches-its-new-shifter-and-handbrake/"
+    },
+    {
+      "titel": "PC Games – PCG Garage Hardware-Kompatibilität",
+      "url": "https://www.pcgames.de/PCG-Garage-Brands-281703/Specials/Rallye-Assetto-Corsa-Rally-Rennsimulationen-Formel-1-Sim-Racing-1488181/5/"
+    },
+    {
+      "titel": "amazon.de – Thrustmaster TSS Handbrake",
+      "url": "https://www.amazon.de/dp/B0CV47G5F5"
+    },
+    {
+      "titel": "amazon.de – Logitech G RS Shifter and Handbrake",
+      "url": "https://www.amazon.de/dp/B0DD3LN886"
+    },
+    {
+      "titel": "amazon.de – FANATEC ClubSport Handbrake V2 with USB Adapter",
+      "url": "https://www.amazon.de/dp/B0H5XG1MPZ"
+    },
+    {
+      "titel": "amazon.de – Heusinkveld SIM Handbrake Black",
+      "url": "https://www.amazon.de/dp/B0CPD3PXFD"
+    },
+    {
+      "titel": "amazon.de – Thrustmaster TM Racing Clamp",
+      "url": "https://www.amazon.de/dp/B07DK6TXMS"
+    }
+  ]
+}

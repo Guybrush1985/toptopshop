@@ -1,0 +1,556 @@
+{
+  "slug": "bestes-direct-drive-lenkrad",
+  "stand": "2026-10-25",
+  "criteria": [
+    {
+      "key": "plattform",
+      "label": "Plattform-Kompatibilität",
+      "weight": 0.25,
+      "description": "PC / PS5 / Xbox laut Hersteller bzw. Listing; ob die Lizenz an der Basis oder am Lenkrad-Rim hängt; Varianten-Falle (PS- vs. Xbox-Edition)."
+    },
+    {
+      "key": "ffb",
+      "label": "Force Feedback & Drehmoment",
+      "weight": 0.3,
+      "description": "Spitzendrehmoment (Nm), Encoder-Auflösung, Kühlung/Dauerleistung, Software-Tuning; Aufrüstbarkeit (z. B. Boost Kit)."
+    },
+    {
+      "key": "oekosystem",
+      "label": "Ökosystem & Erweiterbarkeit",
+      "weight": 0.2,
+      "description": "Quick-Release-System, Auswahl an Rims, Pedalen, Shiftern und Handbremsen desselben Herstellers; Konsolen-Zubehör meist nur über die Basis."
+    },
+    {
+      "key": "preisleistung",
+      "label": "Preis-Leistung & Lieferumfang",
+      "weight": 0.25,
+      "description": "Gebotene Leistung im Verhältnis zur Preisklasse; ob Rim/Pedale/Tischklemme/Netzteil enthalten sind oder separat gekauft werden müssen (Kriterien „Lieferumfang & Montage“ und „Preis-Leistung“ aus dem Struktur-Entwurf zusammengelegt, um bei 4 Kriterien zu bleiben)."
+    }
+  ],
+  "priceTiers": {
+    "1": "bis ca. 400 €",
+    "2": "ca. 400–650 €",
+    "3": "über 650 €",
+    "hinweis": "Vorschlag; Spanne der Kandidaten (Komplettsystem bzw. Basis + Rim) ca. 300–800 € laut amazon.de-Suchsnapshots vom 2026-10-25 – keine festen Preise auf der Seite."
+  },
+  "products": [
+    {
+      "rank": 1,
+      "label": "Beste Wahl für PS5",
+      "name": "Logitech G RS50 System für PS5/PS4/PC",
+      "brand": "Logitech G",
+      "variant": "3-teilig: RS50 Wheel Base 8 Nm + RS Wheel Hub + RS Round Wheel 28 cm, PlayStation/PC-Edition",
+      "priceTier": 2,
+      "ratings": {
+        "plattform": 8.0,
+        "ffb": 8.5,
+        "oekosystem": 7.0,
+        "preisleistung": 9.0
+      },
+      "gesamt": 8.2,
+      "bestFor": "PS5-Fahrer:innen (GT7, F1, ACC), die vom G923/G29 auf Direct Drive umsteigen und ein komplettes System aus Basis und Lenkrad wollen – läuft zusätzlich am PC.",
+      "fakten": [
+        {
+          "text": "Lieferumfang: RS50 Base mit 8 Nm Direct Drive, RS Wheel Hub (13 Tasten), RS Round Wheel 28 cm, Netzteil, USB-Kabel, Tischklemme.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/-/en/Logitech-System-Racing-Steering-Wheel/dp/B0FKGV88JX",
+          "datum": "abgerufen 2026-10-25 (Suchsnapshot)"
+        },
+        {
+          "text": "Kompatibel mit PlayStation 5, PlayStation 4 und Windows 10/11; die Xbox/PC-Variante ist ein separates Produkt (B0FKGT1BXC).",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/-/en/Logitech-System-Racing-Steering-Wheel/dp/B0FKGV88JX",
+          "datum": "abgerufen 2026-10-25 (Suchsnapshot)"
+        },
+        {
+          "text": "Erscheinungsdatum auf amazon.de 17.09.2025; Bewertung 4,7/5 bei 58 Rezensionen (Snapshot).",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/-/en/Logitech-System-Racing-Steering-Wheel/dp/B0FKGV88JX",
+          "datum": "abgerufen 2026-10-25 (Suchsnapshot)"
+        },
+        {
+          "text": "Bis zu 2.700° Lenkwinkel, OLED-Display an der Basis, TRUEFORCE-Unterstützung.",
+          "art": "Bericht",
+          "quelle": "https://www.techradar.com/gaming/logitech-g-launches-rs50-racing-sim-products-including-an-all-new-wheel-base-racing-wheel-and-pedals",
+          "datum": "abgerufen 2026-10-25 (Suchsnapshot)"
+        },
+        {
+          "text": "Gameswelt.de nennt das RS50 im Test den „neuen Preis-Leistungs-König unter den Direct-Drive-Lenkrädern“.",
+          "art": "Test",
+          "quelle": "https://www.gameswelt.de/logitech-rs50/test/test-der-neue-preis-leistungs-koenig-unter-den-direct-drive-lenkraedern-331970",
+          "datum": "Online-Test, Datum nicht ermittelbar (Seite aus Sandbox nicht abrufbar, nur Suchauszug)"
+        },
+        {
+          "text": "Fnac/L'Éclaireur: glaubwürdige Mittelklasse-Alternative, lobt Direct-Drive-Gefühl und TRUEFORCE, kritisiert wenig Tiefe in der Software für Fortgeschrittene und ein noch junges Ökosystem.",
+          "art": "Test",
+          "quelle": "https://leclaireur.fnac.com/test/639381-test-volant-logitech-g-rs50/",
+          "datum": "abgerufen 2026-10-25 (Suchsnapshot)"
+        }
+      ],
+      "pros": [
+        "Komplett: Basis, Hub und Lenkrad in einem Karton, Tischklemme dabei",
+        "8 Nm – spürbar mehr Kraft als 5-Nm-Einstiegsbasen",
+        "Läuft an PS5, PS4 und PC",
+        "Logitech-Zubehör passt: RS Pedals, RS Shifter & Handbrake, G PRO Pedals"
+      ],
+      "cons": [
+        "Keine Pedale im 3-teiligen Set (Bundle mit RS Pedals separat gelistet)",
+        "Ökosystem an Rims noch klein",
+        "PS- und Xbox-Edition sind getrennte Produkte – Variante beim Kauf prüfen"
+      ],
+      "specs": {
+        "Plattform": "PS5, PS4, PC (Windows 10/11)",
+        "Drehmoment": "8 Nm",
+        "Lieferumfang": "Basis + RS Wheel Hub + 28-cm-Rundlenkrad",
+        "Pedale": "nicht enthalten",
+        "Montage": "Tischklemme, Cockpit-Verschraubung möglich"
+      },
+      "asin": "B0FKGV88JX",
+      "query": "Logitech G RS50 System PS5 PC",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "amazon.de/dp/B0FKGV88JX – „Logitech G RS50 System Sim Racing Steering Wheel for PS5/PS4/PC – Black“ (3-teiliges Setup)"
+    },
+    {
+      "rank": 2,
+      "label": "Beste Wahl für Xbox",
+      "name": "Fanatec CSL DD QR2 Wheel Base 5 Nm",
+      "brand": "Fanatec",
+      "variant": "Basis einzeln; für Xbox zusammen mit einem Xbox-lizenzierten Fanatec-Lenkrad, z. B. FANATEC CSL Steering Wheel GT3 (PC, Xbox) – B0FT3WMLG3",
+      "priceTier": 2,
+      "ratings": {
+        "plattform": 7.0,
+        "ffb": 7.5,
+        "oekosystem": 9.5,
+        "preisleistung": 6.5
+      },
+      "gesamt": 7.53,
+      "bestFor": "Xbox-Fahrer:innen (Forza Motorsport, F1, ACC), die eine aufrüstbare Direct-Drive-Basis mit dem größten Zubehörangebot wollen – auch am PC.",
+      "fakten": [
+        {
+          "text": "Kompatibel mit Xbox One und Xbox Series X|S nur zusammen mit einem Xbox-lizenzierten Fanatec-Lenkrad; mit keiner PlayStation kompatibel und nicht aufrüstbar.",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.fanatec.com/eu/en/p/wheel-bases/csl_dd_qr2l_90_eu/csl-dd-qr2l-5-nm-eu",
+          "datum": "abgerufen 2026-10-25 (Suchsnapshot)"
+        },
+        {
+          "text": "5 Nm Spitzendrehmoment, mit dem separat erhältlichen Boost Kit 180 bis 8 Nm; QR2-Schnellverschluss.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/-/en/CSL_DD_QR2L_90_EU/dp/B0FJFMNP4M",
+          "datum": "abgerufen 2026-10-25 (Suchsnapshot)"
+        },
+        {
+          "text": "Lieferumfang: Basis, QR2 Lite Base-Side (Typ C) vormontiert, 90-W-Netzteil, 4 Nutensteine, USB-Kabel – kein Lenkrad, keine Tischklemme.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/-/en/CSL_DD_QR2L_90_EU/dp/B0FJFMNP4M",
+          "datum": "abgerufen 2026-10-25 (Suchsnapshot)"
+        },
+        {
+          "text": "Passt zu allen Fanatec-Lenkrädern mit QR2 (Lite/Standard/Pro) und allen Fanatec-Pedalen (ggf. Adapterkabel).",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.fanatec.com/eu/en/p/wheel-bases/csl_dd_qr2l_90_eu/csl-dd-qr2l-5-nm-eu",
+          "datum": "abgerufen 2026-10-25 (Suchsnapshot)"
+        },
+        {
+          "text": "Passender Rim FANATEC CSL Steering Wheel GT3: 300 mm, Magnet-Schaltwippen, zwei analoge Paddles, OLED-Display, QR2 vormontiert, Xbox- und Racing-Tastenkappen; mit Fanatec-DD-Basis an Xbox und PC, an PlayStation nur mit PS-lizenzierter Basis. Erscheinungsdatum 14.10.2025, 4,7/5 bei 199 Rezensionen (Snapshot).",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/Corsair-FANATEC-Racing-CSL-Lenkrad-Vorinstalliert/dp/B0FT3WMLG3",
+          "datum": "abgerufen 2026-10-25 (Suchsnapshot)"
+        },
+        {
+          "text": "Bewertung der Basis auf amazon.de 4,4/5 bei 38 Rezensionen; ein Rezensent warnt, dass QR1-Lenkräder ohne Adapter nicht passen.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/-/en/CSL_DD_QR2L_90_EU/dp/B0FJFMNP4M",
+          "datum": "abgerufen 2026-10-25 (Suchsnapshot)"
+        }
+      ],
+      "pros": [
+        "Eine der wenigen Direct-Drive-Basen für Xbox",
+        "Größtes Ökosystem: viele Rims, CSL/ClubSport-Pedale, Shifter, Handbremse",
+        "Aufrüstbar von 5 auf 8 Nm (Boost Kit 180)",
+        "Kompakt, Nutensteine für Alu-Profil-Cockpits dabei"
+      ],
+      "cons": [
+        "Lenkrad separat – für Xbox muss es Xbox-lizenziert sein",
+        "Nicht PlayStation-kompatibel",
+        "5 Nm ab Werk; Boost Kit und Tischklemme kosten extra",
+        "Amazon-Listing-Titel nennt nur „PC“ – Xbox-Fähigkeit hängt am Rim"
+      ],
+      "specs": {
+        "Plattform": "PC; Xbox Series X|S / One nur mit Xbox-lizenziertem Fanatec-Rim",
+        "Drehmoment": "5 Nm (8 Nm mit Boost Kit 180)",
+        "Quick-Release": "QR2 Lite (Typ C)",
+        "Lieferumfang": "nur Basis + Netzteil",
+        "Montage": "Cockpit/Alu-Profil, Tischklemme separat"
+      },
+      "asin": "B0FJFMNP4M",
+      "query": "Fanatec CSL DD QR2 Wheel Base 5 Nm",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "amazon.de/dp/B0FJFMNP4M – „Fanatec Sim Racing CSL DD QR2 Wheel Base – 5Nm Direct Drive Base … Quick Release QR2 – PC“ (Snapshot: „Nur noch 7 auf Lager“); Rim-Empfehlung amazon.de/dp/B0FT3WMLG3 – „FANATEC Sim Racing CSL Steering Wheel GT3 – PC, Xbox“",
+      "zubehoer": [
+        {
+          "name": "FANATEC Sim Racing CSL Steering Wheel GT3 – PC, Xbox",
+          "asin": "B0FT3WMLG3",
+          "rolle": "Xbox-lizenzierter Rim für die CSL DD"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "label": "Beste Wahl für PC",
+      "name": "Thrustmaster T818 Black Edition, 10 N·m Direct Drive-Simracing-Basis für PC",
+      "brand": "Thrustmaster",
+      "variant": "Wheelbase einzeln (ohne Lenkrad), PC; Quick-Release-Adapter für ältere Rims enthalten",
+      "priceTier": 2,
+      "ratings": {
+        "plattform": 5.0,
+        "ffb": 9.0,
+        "oekosystem": 8.0,
+        "preisleistung": 7.0
+      },
+      "gesamt": 7.3,
+      "bestFor": "PC-Sim-Racer, die 10 Nm Dauerdrehmoment wollen und ins Thrustmaster-Ökosystem (Rims, Pedale, Shifter) investieren oder schon Thrustmaster-Rims besitzen.",
+      "fakten": [
+        {
+          "text": "10 N·m konstantes Drehmoment ohne Sättigung; Black Edition mit verstärkten Steckverbindern und optimierter Motoreinheit für Zuverlässigkeit und Lebensdauer; RGB-LED-Ring mit Telemetrie; Einstellungen über My Thrustmaster Panel (Windows 10/11); ein Quick-Release-Adapter für ältere Rims enthalten; nur PC, Rim separat.",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/Thrustmaster-Black-Direct-Drive-Simracing-Basis-Feedback/dp/B0G2BV2LP2",
+          "datum": "abgerufen 2026-10-25 (Suchsnapshot)"
+        },
+        {
+          "text": "Erscheinungsdatum 12.12.2025; erst 6 Bewertungen (4,5/5) – kleine Stichprobe.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/Thrustmaster-Black-Direct-Drive-Simracing-Basis-Feedback/dp/B0G2BV2LP2",
+          "datum": "abgerufen 2026-10-25 (Suchsnapshot)"
+        },
+        {
+          "text": "Hersteller-Shop und mehrere EU-Händler (u. a. LDLC, MediaMarkt NL/BE, office-partner.de) führen die T818 Black Edition aktuell als lieferbar; das amazon.de-Listing selbst war per Websuche nicht erneut auffindbar, der Recherche-Snapshot zeigte ein Neu-Angebot (Drittanbieter, Versand durch Amazon).",
+          "art": "Händlerangabe",
+          "quelle": "https://shop.thrustmaster.com/en_eu/t818-black-edition.html",
+          "datum": "Websuche 2026-10-25 (Redaktion)"
+        }
+      ],
+      "pros": [
+        "10 Nm konstantes Drehmoment ohne Sättigung (Herstellerangabe)",
+        "Black Edition mit verstärkten Steckverbindern (Herstellerangabe)",
+        "Quick-Release-Adapter für ältere Thrustmaster-Rims dabei",
+        "RGB-LED-Ring mit Telemetrie"
+      ],
+      "cons": [
+        "Nur PC – nicht für PS5 oder Xbox",
+        "Lenkrad nicht enthalten",
+        "Erst wenige Rezensionen zur Black Edition (kleine Stichprobe)",
+        "Ab 10 Nm Tischklemme kaum sinnvoll – Cockpit oder stabiler Ständer"
+      ],
+      "specs": {
+        "Plattform": "PC (Windows 10/11)",
+        "Drehmoment": "10 Nm konstant",
+        "Lieferumfang": "nur Basis + Quick-Release-Adapter",
+        "Montage": "Cockpit oder Lenkradständer"
+      },
+      "asin": "B0G2BV2LP2",
+      "query": "Thrustmaster T818 Black Edition",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "amazon.de/dp/B0G2BV2LP2 – „Thrustmaster T818 Black Edition, 10 N·m Direct Drive-Simracing-Basis mit Force Feedback für PC“ (Snapshot: Verkauf durch Drittanbieter, Versand durch Amazon)"
+    }
+  ],
+  "top5": [
+    {
+      "name": "MOZA R5 Bundle 5,5 Nm (Basis, ES-Lenkrad, SR-P Lite Pedale, Tischklemme)",
+      "rolle": "Günstigster Einstieg (PC)",
+      "warum": "Komplettpaket aus 5,5-Nm-Basis, 28-cm-Lenkrad, zwei Pedalen und Tischklemme – der günstigste seriöse Weg zu Direct Drive am PC.",
+      "fakten": [
+        {
+          "text": "Lieferumfang R5 Direct Drive Wheelbase, ES Steering Wheel, SR-P Lite Dual Pedals, Table Clamp; 5,5 Nm, 2.700°, 11 Zoll; Plug & Play unter Windows; nur PC.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/MOZA-B%C3%BCndeln-Bausatz-Direktantrieb-Radstand-Rennspiel/dp/B0DL51ZY3T",
+          "datum": "abgerufen 2026-10-25 (Suchsnapshot)"
+        },
+        {
+          "text": "Rezensenten loben Quick-Release und Tischklemme, kritisieren die sehr harte Bremspedal-Feder; Bundle ohne Kupplungspedal.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/-/en/MOZA-Bundle-Direct-Wheelbase-Racing/dp/B0BFD6FL3K",
+          "datum": "abgerufen 2026-10-25 (Suchsnapshot)"
+        },
+        {
+          "text": "Gameswelt.de-Test des MOZA R5 Bundle: „Günstiger wird Direct Drive in diesem Leben nicht mehr“.",
+          "art": "Test",
+          "quelle": "https://www.gameswelt.de/moza-r5-bundle/test/guenstiger-wird-direct-drive-in-diesem-leben-nicht-mehr-317856",
+          "datum": "Online-Test, Datum nicht ermittelbar (nur Suchauszug)"
+        }
+      ],
+      "asin": "B0DL51ZY3T",
+      "asinGeprueft": "amazon.de/dp/B0DL51ZY3T – „MOZA R5 Bündeln Bausatz 5.5Nm Direktantrieb-Radstand, PC Rennspiel Rad Und Pedale“ (Erscheinungsdatum 27.10.2024). Kandidat B0BFD6FL3K aus dem Trend-Scout trägt denselben Titel, ist aber „derzeit nicht verfügbar“ → ersetzt.",
+      "query": "MOZA R5 Bundle",
+      "where": null
+    },
+    {
+      "name": "MOZA R12 V2 Wheelbase 12 Nm Direct Drive",
+      "rolle": "Mehr Kraft fürs Cockpit (PC)",
+      "warum": "12 Nm mit aktiver Kühlung für ambitionierte PC-Racer im festen Cockpit – gleiches Ökosystem wie R5/R9, Rim separat.",
+      "fakten": [
+        {
+          "text": "12 Nm Direct Drive, NexGen-4.0-FFB-Algorithmus, Aluminiumgehäuse mit aktiver Kühlung; Paketgewicht 7,01 kg.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/MOZA-Wheelbase-Direct-Professional-Racing/dp/B0F9JZV22Y",
+          "datum": "abgerufen 2026-10-25 (Suchsnapshot)"
+        },
+        {
+          "text": "21-Bit-Encoder, 1000 Hz USB, Quick-Release, Pit-House-Software; nur PC.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/MOZA-DIRECT-DRIVE-WHEEL-BASE/dp/B0FSXXZKDJ",
+          "datum": "abgerufen 2026-10-25 (Suchsnapshot)"
+        }
+      ],
+      "asin": "B0F9JZV22Y",
+      "asinGeprueft": "amazon.de/dp/B0F9JZV22Y – „MOZA R12 V2 Wheelbase 12Nm Direct Drive Wheel Base for Professional Sim Racing Game“ (Snapshot zeigte nur Gebraucht-Angebot eines Drittanbieters); zweites Listing amazon.de/dp/B0FSXXZKDJ – „MOZA R12 V2 Direct Drive Wheel Base“ als Alternative",
+      "query": "MOZA R12 V2 Wheelbase",
+      "where": null
+    },
+    {
+      "name": "Thrustmaster T598 Direct Axial Drive-Rennlenkrad & Pedalset – PS5 & PC",
+      "rolle": "Komplettpaket inkl. Pedale für PS5",
+      "warum": "Einziges Komplettset in der Liste mit Basis, 30-cm-Lenkrad und Metallpedalen für PS5/PC – aber gemischte Rezensionen, daher nur Top 5.",
+      "fakten": [
+        {
+          "text": "5 Nm Direct Axial Drive, abnehmbares 30-cm-Lenkrad, Raceline Pedals LTE (Metall, H.E.A.R.T.-Sensoren, Loadcell-Upgrade separat); PS5, PS4 und PC (Windows 10/11). Xbox/PC-Variante separat (B0F24NDP7K).",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/Thrustmaster-Direct-Axial-Drive-Feedback-Rennlenkrad/dp/B0D3MRRD92",
+          "datum": "abgerufen 2026-10-25 (Suchsnapshot)"
+        },
+        {
+          "text": "Gemischte Rezensionen (3,9–4,1 Sterne je Listing): teils Verbindungsprobleme an PC/PS5, Pedale rutschen bei starkem Bremsen; andere Käufer melden mit Firmware 2.07 keine Abbrüche.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/-/en/Thrustmaster-Direct-Axial-Drive-Feedback-Rennlenkrad/dp/B0D3MRRD92",
+          "datum": "abgerufen 2026-10-25 (Suchsnapshot)"
+        }
+      ],
+      "hinweis": "Im Text auf gemischte Rezensionen (Verbindungsabbrüche laut Käufern, Firmware aktuell halten) hinweisen.",
+      "asin": "B0D3MRRD92",
+      "asinGeprueft": "amazon.de/dp/B0D3MRRD92 – „Thrustmaster T598 Direct Axial Drive-Rennlenkrad & Pedalset – PS5 & PC“",
+      "query": "Thrustmaster T598 PS5 PC",
+      "where": null
+    },
+    {
+      "name": "Fanatec Gran Turismo DD Pro PlayStation Bundle",
+      "rolle": "Fanatec-Komplettset für PlayStation (Ersatz für MOZA R9 V3, Korrekturrunde 1)",
+      "warum": "Eigener Suchintent: PS-lizenziertes Komplettset (Basis, Lenkrad, Pedale) und einziger Weg ins Fanatec-Ökosystem auf PS5 – die CSL DD der Top 3 läuft dort nicht. Nicht doppelt zu Top 3/Top 5.",
+      "fakten": [
+        {
+          "text": "5 Nm FluxBarrier-Direct-Drive, mit separat erhältlichem Boost Kit 180 bis 8 Nm; Lenkrad im Polyphony-Digital-Design, Zwei-Pedal-Set; PC, PS5, PS4; Modell CRD-9020007-EU, Erscheinungsdatum Listing 16.06.2025; 4,4★/ca. 397 Bewertungen.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/FANATEC-Offiziell-Lizenziertes-Turismo-PlayStation/dp/B0F94B7PTB",
+          "datum": "abgerufen 2026-10-25 (Suchsnapshot)"
+        },
+        {
+          "text": "Rezensionen melden teils, dass vor der PS5-Nutzung eine Ersteinrichtung/Kalibrierung am PC nötig war.",
+          "art": "Käuferrezensionen",
+          "quelle": "https://www.amazon.de/FANATEC-Offiziell-Lizenziertes-Turismo-PlayStation/dp/B0F94B7PTB",
+          "datum": "Recherche 2026-10-25"
+        }
+      ],
+      "asin": "B0F94B7PTB",
+      "asinGeprueft": "amazon.de/dp/B0F94B7PTB – „Fanatec Officially Licensed Gran Turismo DD Pro PlayStation Bundle, Sim Racing Steering Wheel, Base and Pedals“; Snapshot mit Preis und Lieferdatum (neu, aktiv). Zweitlisting B0FBGYPD49 nur auf amazon.com/.ca/.com.mx gefunden, nicht verwendet.",
+      "query": "Fanatec Gran Turismo DD Pro PlayStation Bundle",
+      "where": null
+    },
+    {
+      "name": "Logitech G RS50 System für Xbox/PC",
+      "rolle": "Komplettsystem für Xbox",
+      "warum": "Die Xbox/PC-Edition des Testsiegers: 8 Nm, Hub und Lenkrad im Set – für Xbox-Spieler:innen die einfachere Alternative zur Fanatec-Kombination aus Basis + Rim.",
+      "fakten": [
+        {
+          "text": "RS50 Wheel Base 8 Nm Direct Drive, RS Wheel Hub (13 Tasten), Round Wheel 28 cm; kompatibel mit Xbox Series X|S, Xbox One und Windows 10/11; Erscheinungsdatum 17.09.2025.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/Logitech-RS50-System-3-teiliges-Sim-Racing-Lenkrad-Setup/dp/B0FKGT1BXC",
+          "datum": "abgerufen 2026-10-25 (Suchsnapshot)"
+        }
+      ],
+      "asin": "B0FKGT1BXC",
+      "asinGeprueft": "amazon.de/dp/B0FKGT1BXC – „Logitech G RS50 System Sim Racing Steering Wheel for Xbox/PC – Black“ (3-teiliges Setup)",
+      "query": "Logitech G RS50 System Xbox PC",
+      "where": null
+    }
+  ],
+  "weitereAmazonOptionen": [
+    {
+      "name": "Logitech G RS50 System mit RS Pedals (4-teilig) – PS5/PS4/PC",
+      "asin": "B0FMYNLFHR",
+      "hinweis": "Titel im Snapshot nur maschinell übersetzt, Plattform-Angabe der PS-Variante nicht eindeutig im Titel – vor Nutzung prüfen."
+    },
+    {
+      "name": "Logitech G RS50 System mit RS Pedals (4-teilig) – Xbox/PC",
+      "asin": "B0FMYQ7N1C",
+      "hinweis": "Titel nennt „for Xbox / PC“."
+    },
+    {
+      "name": "Fanatec ClubSport Lenkrad F1 Esports V2 + CSL DD QR2 Wheel Base",
+      "asin": "B0GV1PRWGH",
+      "hinweis": "Nur PC: Laut Fanatec ist das F1 Esports V2 nicht Xbox-kompatibel, die CSL DD nicht PS-kompatibel – trotz Listing-Text nicht für Konsolen empfehlen."
+    },
+    {
+      "name": "Thrustmaster T598 Direct Axial Drive-Rennlenkrad & Pedalset – XBOX & PC",
+      "asin": "B0F24NDP7K",
+      "hinweis": "Xbox-Variante der T598, gleiche Rezensions-Einschränkung."
+    },
+    {
+      "name": "MOZA R3 Racing Wheel and Pedals Bundle Kit for PC & Xbox (3,9 Nm)",
+      "asin": "B0FDFS3YRQ",
+      "hinweis": "Günstigster Xbox-DD-Einstieg, unter 5 Nm; mehrere R3-Xbox-Listings mit abweichenden Titeln/Preisen (B0F8PW6RJC, B0D93L5CB1 „derzeit nicht verfügbar“/überhöhter Preis) – nur Erwähnung, ASIN vor Nutzung prüfen."
+    }
+  ],
+  "tests": [
+    {
+      "institut": "Gameswelt.de",
+      "heft": "Online-Test Logitech RS50 (Datum nicht ermittelbar)",
+      "ergebnis": "„Der neue Preis-Leistungs-König unter den Direct-Drive-Lenkrädern“ (Überschrift, Suchauszug; keine Note ermittelbar)",
+      "quelle": "https://www.gameswelt.de/logitech-rs50/test/test-der-neue-preis-leistungs-koenig-unter-den-direct-drive-lenkraedern-331970"
+    },
+    {
+      "institut": "Gameswelt.de",
+      "heft": "Online-Test MOZA R5 Bundle (Datum nicht ermittelbar)",
+      "ergebnis": "„Günstiger wird Direct Drive in diesem Leben nicht mehr“ (Überschrift, Suchauszug)",
+      "quelle": "https://www.gameswelt.de/moza-r5-bundle/test/guenstiger-wird-direct-drive-in-diesem-leben-nicht-mehr-317856"
+    },
+    {
+      "institut": "L'Éclaireur Fnac",
+      "heft": "Online-Test Logitech G RS50",
+      "ergebnis": "Glaubwürdige Mittelklasse-Alternative; Plus: DD-Gefühl, TRUEFORCE; Minus: Software-Tiefe, junges Ökosystem",
+      "quelle": "https://leclaireur.fnac.com/test/639381-test-volant-logitech-g-rs50/"
+    },
+    {
+      "institut": "Thumbculture",
+      "heft": "Online-Review MOZA R9 V3",
+      "ergebnis": "Gute Verarbeitung, bleibt kühl; am Tisch spürbare Vibrationen (keine Note ermittelt)",
+      "quelle": "https://www.thumbculture.co.uk/moza-racing-r9-v3-wheel-base-review"
+    }
+  ],
+  "warnungen": [
+    "Keine Rückrufe oder Safety-Gate-Meldungen zu Direct-Drive-Basen von Fanatec, MOZA, Thrustmaster oder Logitech gefunden (Websuche 2026-10-25; Safety-Gate-Datenbank selbst aus der Sandbox nicht abrufbar) – Fehlen nicht abschließend belegt.",
+    "Kein Test von Stiftung Warentest, Öko-Test o. Ä. zu Direct-Drive-Lenkrädern; Einordnung über Online-Fachmagazine (Gameswelt, Fnac, Thumbculture) – im Text als solche kennzeichnen, keine Noten erfinden.",
+    "Plattform-Falle: MOZA R5/R9/R12 und T818 nur PC; Fanatec CSL DD PC + Xbox nur mit Xbox-lizenziertem Rim, nie PlayStation; RS50 und T598 gibt es als getrennte PS5/PC- und Xbox/PC-Editionen.",
+    "Direct-Drive-Sicherheitshinweis aus /sim-racing-cockpits/ übernehmen: hohe Drehmomente (8–12 Nm) können Finger/Daumen verletzen – Hände nicht in die Speichen, FFB-Stärke anfangs reduzieren, Kinder fernhalten, Not-Aus/Abschaltung nutzen.",
+    "Thrustmaster T598: gemischte Rezensionen (Verbindungsabbrüche laut Käufern) – nur Top 5 mit Hinweis.",
+    "Logitech G PRO Racing Wheel, G923 und T300 stehen bereits auf /sim-racing-cockpits/ und werden hier nicht platziert (nur Text-Einordnung mit Link)."
+  ],
+  "verworfen": [
+    {
+      "name": "Fanatec ClubSport F1 Esports V2 + CSL DD QR2 (B0GV1PRWGH) als Xbox-Wahl",
+      "grund": "Laut Fanatec ist das F1 Esports V2 nicht Xbox-kompatibel; Listing-Text widersprüchlich → nur PC."
+    },
+    {
+      "name": "MOZA R5 Bundle B0BFD6FL3K",
+      "grund": "„Derzeit nicht verfügbar“; durch aktives Listing B0DL51ZY3T mit gleichem Titel ersetzt."
+    },
+    {
+      "name": "MOZA R5 Pro Bundle B0CXPJQXY7",
+      "grund": "Titel widersprüchlich (Truck Wheel vs. ES-Lenkrad), ein Snapshot „derzeit nicht verfügbar“."
+    },
+    {
+      "name": "Fanatec Gran Turismo DD Pro als PS5-Wahl",
+      "grund": "PS-lizenziert und komplett, aber ältere Plattform mit 5 Nm und Rezensionen zu PS5-Einrichtungsproblemen; RS50 PS5 bietet 8 Nm und bessere Bewertungen. Als weitere Option geführt."
+    },
+    {
+      "name": "Logitech G RS50 Xbox/PC als Top-3-Xbox-Wahl",
+      "grund": "Wäre dasselbe Produkt wie Platz 1 in anderer Edition; daher Fanatec CSL DD (eigenes Ökosystem) in der Top 3, RS50 Xbox in der Top 5."
+    },
+    {
+      "name": "Simagic Alpha EVO",
+      "grund": "Laut Trend-Scout auf amazon.de „derzeit nicht verfügbar“."
+    },
+    {
+      "name": "Logitech G PRO Racing Wheel, G923, Thrustmaster T300",
+      "grund": "Bereits auf /sim-racing-cockpits/ platziert – keine Doppelplatzierung (Vorgabe Struktur)."
+    },
+    {
+      "name": "MOZA R9 V3 Wheelbase B0F9KTCVZZ (Top 5)",
+      "grund": "Korrekturrunde 1 (2026-10-25): amazon.de „derzeit nicht verfügbar, ungewiss ob wieder lieferbar“; per Websuche kein zweites amazon.de-Listing gefunden (B0BQV3SJHX und B0DYHH7FSG nur auf amazon.com). Durch Fanatec Gran Turismo DD Pro (B0F94B7PTB) ersetzt."
+    }
+  ],
+  "offen": [
+    "ERLEDIGT (Korrekturrunde 1): MOZA R9 V3 ganz aus der Top 5 entfernt (B0F9KTCVZZ nicht verfügbar, kein Zweitlisting auf amazon.de); ersetzt durch Fanatec Gran Turismo DD Pro B0F94B7PTB. ERLEDIGT (Redaktion 2026-10-25, Vorgabe Orchestrator): MOZA R9 V3 (B0F9KTCVZZ) wegen unklarer Verfügbarkeit (Snapshots „derzeit nicht verfügbar“/nur gebraucht) aus der Top 3 in die Top 5 verschoben, mit Hinweis „Verfügbarkeit schwankt“. Thrustmaster T818 Black Edition (B0G2BV2LP2) ist neu „Beste Wahl für PC“ (Platz 3, Gesamt 7,3; Fanatec CSL DD rückt auf Platz 2). Beleg: Recherche-Snapshot mit Neu-Angebot (Drittanbieter, Versand durch Amazon); per Websuche 2026-10-25 war das amazon.de-Listing selbst nicht erneut auffindbar, Hersteller-Shop und EU-Händler führen die Basis aber als lieferbar. Vor Merge beide Listings im Browser prüfen.",
+    "MOZA R12 V2: zwei Listings (B0F9JZV22Y, B0FSXXZKDJ); B0F9JZV22Y zeigte im Snapshot nur Gebraucht-Angebot – welches aktiv neu verkauft wird, im Browser prüfen.",
+    "Rollen-Reihenfolge abweichend von der Struktur: Platz 1 = RS50 (PS5), Platz 2 = MOZA R9 V3 (PC), weil Platz 1 die höchste Gesamtnote haben muss (RS50 komplett mit Rim und läuft auch am PC; R9 V3 nur PC und ohne Rim).",
+    "Kriterien: Struktur-Entwurf hatte 5; „Lieferumfang & Montage“ in „Preis-Leistung & Lieferumfang“ zusammengelegt (4 Kriterien laut Rolle).",
+    "Fanatec-Xbox-Wahl braucht zwei Käufe (Basis B0FJFMNP4M + Rim B0FT3WMLG3); kein Amazon-Bundle CSL DD + Xbox-lizenzierter Rim gefunden. Redaktion sollte das klar sagen; Feld `zubehoer` ist ein Vorschlag – falls das Content-Modell kein Zubehör-Feld kennt, Rim nur im Text mit Amazon-Suchlink/ASIN nennen.",
+    "Gameswelt-, Fanatec- und Thrustmaster-Seiten aus der Sandbox nicht abrufbar (DNS); Testaussagen nur aus Suchauszügen – im Text als „laut Gameswelt-Test“ ohne Note formulieren.",
+    "Keine Preise auf der Seite; priceTiers nur als Vorschlag.",
+    "Rollen-Reihenfolge nach dem Tausch: 1 RS50 (PS5, 8,2), 2 Fanatec CSL DD (Xbox, 7,53), 3 T818 Black Edition (PC, 7,3) – absteigend nach Gesamtnote."
+  ],
+  "quellen": [
+    {
+      "titel": "amazon.de – Logitech G RS50 System PS5/PS4/PC",
+      "url": "https://www.amazon.de/-/en/Logitech-System-Racing-Steering-Wheel/dp/B0FKGV88JX"
+    },
+    {
+      "titel": "amazon.de – Logitech G RS50 System Xbox/PC",
+      "url": "https://www.amazon.de/Logitech-RS50-System-3-teiliges-Sim-Racing-Lenkrad-Setup/dp/B0FKGT1BXC"
+    },
+    {
+      "titel": "amazon.de – MOZA R9 V3 Wheelbase (nicht verfügbar, nicht mehr verlinkt)",
+      "url": "https://www.amazon.de/MOZA-Wheelbase-Direct-Racing-Controller/dp/B0F9KTCVZZ"
+    },
+    {
+      "titel": "amazon.de – MOZA R12 V2 Wheelbase",
+      "url": "https://www.amazon.de/MOZA-Wheelbase-Direct-Professional-Racing/dp/B0F9JZV22Y"
+    },
+    {
+      "titel": "amazon.de – MOZA R5 Bundle",
+      "url": "https://www.amazon.de/MOZA-B%C3%BCndeln-Bausatz-Direktantrieb-Radstand-Rennspiel/dp/B0DL51ZY3T"
+    },
+    {
+      "titel": "amazon.de – Fanatec CSL DD QR2 Wheel Base",
+      "url": "https://www.amazon.de/-/en/CSL_DD_QR2L_90_EU/dp/B0FJFMNP4M"
+    },
+    {
+      "titel": "amazon.de – FANATEC CSL Steering Wheel GT3 – PC, Xbox",
+      "url": "https://www.amazon.de/Corsair-FANATEC-Racing-CSL-Lenkrad-Vorinstalliert/dp/B0FT3WMLG3"
+    },
+    {
+      "titel": "amazon.de – Thrustmaster T598 PS5 & PC",
+      "url": "https://www.amazon.de/Thrustmaster-Direct-Axial-Drive-Feedback-Rennlenkrad/dp/B0D3MRRD92"
+    },
+    {
+      "titel": "amazon.de – Thrustmaster T818 Black Edition",
+      "url": "https://www.amazon.de/Thrustmaster-Black-Direct-Drive-Simracing-Basis-Feedback/dp/B0G2BV2LP2"
+    },
+    {
+      "titel": "Fanatec – CSL DD QR2 (5 Nm)",
+      "url": "https://www.fanatec.com/eu/en/p/wheel-bases/csl_dd_qr2l_90_eu/csl-dd-qr2l-5-nm-eu"
+    },
+    {
+      "titel": "Fanatec – ClubSport Steering Wheel F1 Esports V2",
+      "url": "https://www.fanatec.com/eu/en/p/steering-wheels/crd-9020010-ww/clubsport-steering-wheel-f1-esports-v2"
+    },
+    {
+      "titel": "Gameswelt – Test Logitech RS50",
+      "url": "https://www.gameswelt.de/logitech-rs50/test/test-der-neue-preis-leistungs-koenig-unter-den-direct-drive-lenkraedern-331970"
+    },
+    {
+      "titel": "Gameswelt – Test MOZA R5 Bundle",
+      "url": "https://www.gameswelt.de/moza-r5-bundle/test/guenstiger-wird-direct-drive-in-diesem-leben-nicht-mehr-317856"
+    },
+    {
+      "titel": "L'Éclaireur Fnac – Test Logitech G RS50",
+      "url": "https://leclaireur.fnac.com/test/639381-test-volant-logitech-g-rs50/"
+    },
+    {
+      "titel": "TechRadar – Logitech G launches RS50",
+      "url": "https://www.techradar.com/gaming/logitech-g-launches-rs50-racing-sim-products-including-an-all-new-wheel-base-racing-wheel-and-pedals"
+    },
+    {
+      "titel": "Thumbculture – MOZA R9 V3 Review",
+      "url": "https://www.thumbculture.co.uk/moza-racing-r9-v3-wheel-base-review"
+    },
+    {
+      "titel": "PCCaseGear – MOZA R9 V3 (Spezifikationen)",
+      "url": "https://www.pccasegear.com/products/69370/moza-r9-v3-direct-drive-wheel-base"
+    },
+    {
+      "titel": "amazon.de – Fanatec Gran Turismo DD Pro PlayStation Bundle",
+      "url": "https://www.amazon.de/FANATEC-Offiziell-Lizenziertes-Turismo-PlayStation/dp/B0F94B7PTB"
+    }
+  ]
+}

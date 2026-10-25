@@ -1,0 +1,54 @@
+{
+  "visuals": {
+    "1": {
+      "kind": "shifter",
+      "tone": "forest"
+    },
+    "2": {
+      "kind": "shifter",
+      "tone": "green"
+    },
+    "3": {
+      "kind": "shifter",
+      "tone": "mint"
+    }
+  },
+  "steps": {
+    "title": "Shifter einrichten",
+    "subtitle": "Anschluss, Montage und Schaltmodus",
+    "alt": "Infografik: Shifter einrichten – Kompatibilität prüfen, Montageort wählen, Modus wählen, Im Spiel belegen, Probefahrt",
+    "caption": "Shifter fest montieren, Modus wählen und im Spiel H-Schaltung samt Kupplung aktivieren.",
+    "steps": [
+      {
+        "title": "Kompatibilität prüfen",
+        "text": "Klären, ob der Shifter per USB direkt oder über die Lenkradbasis angeschlossen wird und welche Plattform er unterstützt."
+      },
+      {
+        "title": "Montageort wählen",
+        "text": "Rechts neben dem Lenkrad in Griffhöhe, per Tischklemme oder am Shifter-Halter von Cockpit bzw. Ständer."
+      },
+      {
+        "title": "Modus wählen",
+        "text": "H-Muster (6+R oder 7+R) oder sequenziell einstellen, je nach Fahrzeug und Spiel."
+      },
+      {
+        "title": "Im Spiel belegen",
+        "text": "H-Schaltung aktivieren, Gänge zuordnen und bei Bedarf die Kupplung einbeziehen."
+      },
+      {
+        "title": "Probefahrt",
+        "text": "Schaltwege und Rastung testen, Klemme nachziehen, falls der Shifter beim Schalten wackelt."
+      }
+    ]
+  },
+  "scoresAlt": "Balkendiagramm: Bewertung der drei besten Sim-Racing-Shifter in den Kriterien Kompatibilität, Schaltgefühl & Mechanik, Modi, Montage und Preis-Leistung",
+  "scoresCaption": "Unsere Bewertung je Kriterium für die drei empfohlenen Modelle.",
+  "neueFormen": [
+    "shifter"
+  ],
+  "offen": [
+    "Kriterien in scoresAlt sind ein Entwurf (kriterienEntwurf aus struktur.json) – an die finalen Bewertungskriterien anpassen.",
+    "Steps sind generisch aus der Struktur abgeleitet; Anschluss-/Plattformdetails nach der Produktrecherche konkretisieren.",
+    "OG-Vorschaubild erzeugt ein späterer Lauf nach dem Einbau der Kategorie."
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "visuals": {
+    "1": {
+      "kind": "wheelbase",
+      "tone": "forest"
+    },
+    "2": {
+      "kind": "wheelbase",
+      "tone": "green"
+    },
+    "3": {
+      "kind": "wheelbase",
+      "tone": "mint"
+    }
+  },
+  "steps": {
+    "title": "Direct-Drive-Lenkrad einrichten",
+    "subtitle": "Von der Plattform bis zum Force Feedback",
+    "alt": "Infografik: Direct-Drive-Lenkrad einrichten – Plattform klären, Befestigung wählen, Montieren und anschließen, Software und Firmware, Force Feedback abstimmen, Ausbau planen",
+    "caption": "Plattform zuerst klären, Basis fest verschrauben und das Drehmoment langsam steigern.",
+    "steps": [
+      {
+        "title": "Plattform klären",
+        "text": "Prüfen, ob Basis und Lenkradkranz für PC, PS5 oder Xbox freigegeben sind – Konsolen brauchen oft ein lizenziertes Rim."
+      },
+      {
+        "title": "Befestigung wählen",
+        "text": "Tischklemme nur bei kleinen Basen, ab etwa 8 Nm besser Cockpit oder stabilen Lenkradständer nutzen."
+      },
+      {
+        "title": "Montieren und anschließen",
+        "text": "Basis verschrauben, Rim per Quick-Release aufsetzen, Netzteil und USB anschließen, Pedale an Basis oder PC."
+      },
+      {
+        "title": "Software und Firmware",
+        "text": "Hersteller-Software installieren, Firmware aktualisieren und Lenkwinkel passend zum Fahrzeug einstellen."
+      },
+      {
+        "title": "Force Feedback abstimmen",
+        "text": "Mit niedrigem Drehmoment starten und Stärke, Dämpfung und Glättung schrittweise erhöhen."
+      },
+      {
+        "title": "Ausbau planen",
+        "text": "Danach sinnvoll ergänzen: Loadcell-Pedale, Shifter und Handbremse aus demselben Ökosystem."
+      }
+    ]
+  },
+  "scoresAlt": "Balkendiagramm: Bewertung der drei besten Direct-Drive-Lenkräder in den Kriterien Plattform-Kompatibilität, Force Feedback & Drehmoment, Ökosystem & Erweiterbarkeit, Lieferumfang & Montage und Preis-Leistung",
+  "scoresCaption": "Unsere Bewertung je Kriterium für die drei empfohlenen Modelle.",
+  "neueFormen": [
+    "wheelbase"
+  ],
+  "offen": [
+    "Kriterien in scoresAlt sind ein Entwurf (kriterienEntwurf aus struktur.json) – an die finalen Bewertungskriterien anpassen.",
+    "Steps sind generisch aus der Struktur abgeleitet; Anschluss-/Plattformdetails nach der Produktrecherche konkretisieren.",
+    "OG-Vorschaubild erzeugt ein späterer Lauf nach dem Einbau der Kategorie.",
+    "Top-5-Produkte können ebenfalls wheelbase nutzen; Komplett-Bundles mit Pedalen (z. B. RS50, T598) bleiben bei wheelbase."
+  ]
+}

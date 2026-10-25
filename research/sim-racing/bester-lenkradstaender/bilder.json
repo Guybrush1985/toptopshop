@@ -1,0 +1,58 @@
+{
+  "visuals": {
+    "1": {
+      "kind": "wheelstand",
+      "tone": "forest"
+    },
+    "2": {
+      "kind": "wheelstand",
+      "tone": "green"
+    },
+    "3": {
+      "kind": "wheelstand",
+      "tone": "mint"
+    }
+  },
+  "steps": {
+    "title": "Lenkradständer aufbauen",
+    "subtitle": "Vom Ausklappen bis zur Sitzposition",
+    "alt": "Infografik: Lenkradständer aufbauen – Lenkradstärke prüfen, Lochbilder abgleichen, Aufbauen und ausrichten, Komponenten verschrauben, Sitzposition finden, Verstauen",
+    "caption": "Ständer zur eigenen Sitzposition einstellen und Lenkrad, Pedale und Shifter fest verschrauben.",
+    "steps": [
+      {
+        "title": "Lenkradstärke prüfen",
+        "text": "Zulässiges Drehmoment des Ständers mit der Lenkradbasis abgleichen – Direct Drive braucht ein steifes Gestell."
+      },
+      {
+        "title": "Lochbilder abgleichen",
+        "text": "Prüfen, ob Lenkrad, Pedale und Shifter auf die Platten passen oder Adapter nötig sind."
+      },
+      {
+        "title": "Aufbauen und ausrichten",
+        "text": "Gestell ausklappen, vor den Stuhl stellen und Höhe sowie Neigung der Lenkradplatte einstellen."
+      },
+      {
+        "title": "Komponenten verschrauben",
+        "text": "Lenkrad, Pedale und Shifter fest montieren, Kabel am Rahmen entlang führen."
+      },
+      {
+        "title": "Sitzposition finden",
+        "text": "Stuhl so stellen, dass die Arme leicht angewinkelt und die Beine bei durchgetretener Bremse leicht gebeugt sind."
+      },
+      {
+        "title": "Verstauen",
+        "text": "Nach dem Fahren zusammenklappen; wer dauerhaft fährt, rüstet später auf ein Cockpit auf."
+      }
+    ]
+  },
+  "scoresAlt": "Balkendiagramm: Bewertung der drei besten Lenkradständer in den Kriterien Stabilität & Lenkradstärke, Kompatibilität, Platz & Alltag, Einstellbarkeit und Preis-Leistung",
+  "scoresCaption": "Unsere Bewertung je Kriterium für die drei empfohlenen Modelle.",
+  "neueFormen": [
+    "wheelstand"
+  ],
+  "offen": [
+    "Kriterien in scoresAlt sind ein Entwurf (kriterienEntwurf aus struktur.json) – an die finalen Bewertungskriterien anpassen.",
+    "Steps sind generisch aus der Struktur abgeleitet; Anschluss-/Plattformdetails nach der Produktrecherche konkretisieren.",
+    "OG-Vorschaubild erzeugt ein späterer Lauf nach dem Einbau der Kategorie."
+  ]
+}

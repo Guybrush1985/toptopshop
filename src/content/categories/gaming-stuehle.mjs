@@ -233,6 +233,7 @@ export default {
     { slug: "gaming-tische", text: "Der passende Gaming-Tisch." },
     { slug: "sitzsaecke", text: "Sitzsäcke für die Konsole." },
     { slug: "hoehenverstellbare-schreibtische", text: "Höhenverstellbare Schreibtische." },
+    { slug: "bester-lenkradstaender", text: "Lenkradständer – der Stuhl wird zum Rennsitz." },
     { area: "gaming-room", text: "Alle Ratgeber für den Gaming-Room." },
   ],
 };

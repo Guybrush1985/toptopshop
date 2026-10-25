@@ -308,14 +308,14 @@ export const areas = [
     name: "Gaming-Room",
     short: "Gaming-Room",
     intro:
-      "Ein Raum zum Zocken, Chillen und Feiern, mit Retro-Charme und High-End-Technik: Sitzsäcke, Gaming-Stühle und -Tische, Arcade-Automaten, Flipper, Airhockey, Kicker, Billard, Dart, Sim-Racing, Flugsimulator mit Joystick, Yoke, Pedalen und Cockpit, VR, Beamer, Licht, Akustik, Retro-Konsolen und Kühlschrank.",
+      "Ein Raum zum Zocken, Chillen und Feiern, mit Retro-Charme und High-End-Technik: Sitzsäcke, Gaming-Stühle und -Tische, Arcade-Automaten, Flipper, Airhockey, Kicker, Billard, Dart, Sim-Racing mit Cockpit, Direct-Drive-Lenkrad, Pedalen, Shifter, Handbremse und Lenkradständer, Flugsimulator mit Joystick, Yoke, Pedalen und Cockpit, VR, Beamer, Licht, Akustik, Retro-Konsolen und Kühlschrank.",
     metaTitle: "Gaming-Room einrichten: Die besten Produkte im Überblick",
     metaDescription:
       "Gaming-Stühle, Arcade-Automaten, Kicker, Billard, Sim-Racing, Beamer, LED-Licht und mehr für den eigenen Gaming-Room – je Kategorie drei Empfehlungen.",
     article: `
   <h2>Ein Raum, viele Spiele</h2>
   <p class="quick">Ein guter Gaming-Room verbindet drei Welten: bequemes Sitzen für lange Sessions, Spielgeräte für Freunde und Familie und Technik, die Bild und Ton auf ein neues Niveau hebt.</p>
-  <p>Ob Partykeller, Dachboden oder ausgebaute Garage: Ein Gaming-Room lebt vom Mix. Neben Konsole und PC sorgen Kicker, Airhockey oder Dartautomat dafür, dass auch Gäste mitspielen, die keinen Controller in die Hand nehmen wollen. Retro-Automaten und Flipper bringen Spielhallen-Gefühl, Beamer und Sim-Racing-Cockpit das große Kino – und wer lieber abhebt, baut sich mit Joystick, Yoke, Ruderpedalen und Schubhebel Schritt für Schritt ein eigenes Flugsimulator-Cockpit.</p>
+  <p>Ob Partykeller, Dachboden oder ausgebaute Garage: Ein Gaming-Room lebt vom Mix. Neben Konsole und PC sorgen Kicker, Airhockey oder Dartautomat dafür, dass auch Gäste mitspielen, die keinen Controller in die Hand nehmen wollen. Retro-Automaten und Flipper bringen Spielhallen-Gefühl, Beamer und Sim-Racing-Cockpit das große Kino. Rennfahrer rüsten Schritt für Schritt mit Direct-Drive-Basis, Loadcell-Pedalen, Schaltknüppel und Handbremse auf, wer keinen Platz für ein Cockpit hat, startet mit einem klappbaren Lenkradständer – und wer lieber abhebt, baut sich mit Joystick, Yoke, Ruderpedalen und Schubhebel Schritt für Schritt ein eigenes Flugsimulator-Cockpit.</p>
   <p>Für jede Kategorie zeigen wir drei Empfehlungen und erklären, worauf es ankommt: Maße und Gewicht, Lautstärke, Strombedarf und was im Alltag wirklich Spaß macht.</p>
   <aside class="callout"><p class="ct">Planungstipp</p><p>Miss den Raum, bevor du kaufst: Billardtische, Kicker und Airhockey brauchen rundherum Platz zum Spielen – oft mehr als doppelt so viel wie das Gerät selbst.</p></aside>`,
   },
