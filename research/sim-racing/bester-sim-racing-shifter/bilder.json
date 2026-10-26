@@ -1,0 +1,59 @@
+{
+  "visuals": {
+    "1": {
+      "kind": "shifter",
+      "tone": "forest"
+    },
+    "2": {
+      "kind": "shifter",
+      "tone": "green"
+    },
+    "3": {
+      "kind": "shifter",
+      "tone": "mint"
+    }
+  },
+  "steps": {
+    "title": "Sim-Racing-Shifter einrichten",
+    "subtitle": "H-Schaltung oder sequenziell – fest und griffbereit",
+    "alt": "Infografik: Sim-Racing-Shifter einrichten – Plattform prüfen, Modus wählen, Position finden, Festklemmen, Anschließen, Gänge belegen",
+    "caption": "Ein Shifter braucht einen festen Platz rechts neben dem Lenkrad – und im Spiel die passende Belegung.",
+    "steps": [
+      {
+        "title": "Plattform prüfen",
+        "text": "Am PC reicht USB; für PS5 oder Xbox muss der Shifter an eine kompatible Lenkrad-Basis."
+      },
+      {
+        "title": "Modus wählen",
+        "text": "H-Schaltung (6+R oder 7+R) für Straßen- und Klassikautos, sequenziell für Rallye und Tourenwagen."
+      },
+      {
+        "title": "Position finden",
+        "text": "Hebel seitlich neben dem Lenkrad auf Höhe der Hand platzieren, ohne sich zu strecken."
+      },
+      {
+        "title": "Festklemmen",
+        "text": "Tischklemme anziehen oder ans Cockpit-Lochbild schrauben, damit nichts beim Schalten wackelt."
+      },
+      {
+        "title": "Anschließen",
+        "text": "Per USB oder an der Basis verbinden und den Shifter in der Software erkennen lassen."
+      },
+      {
+        "title": "Gänge belegen",
+        "text": "Im Spiel H-Schaltung oder Sequenziell aktivieren, Gänge zuweisen und ggf. Kupplung mit einstellen."
+      }
+    ]
+  },
+  "scoresAlt": "Balkendiagramm: Bewertung der drei besten Sim-Racing-Shifter in den Kriterien Schaltgefühl & Mechanik, Kompatibilität, Modi & Flexibilität, Befestigung & Stabilität und Preis-Leistung",
+  "scoresCaption": "Unsere Bewertung je Kriterium für die drei empfohlenen Modelle.",
+  "neueFormen": [
+    "shifter"
+  ],
+  "offen": [
+    "Kriterien in scoresAlt sind ein Entwurf aus struktur.json – an die finalen Bewertungskriterien anpassen.",
+    "Visuals nach Produktart gesetzt (Produktliste in Arbeit); bei abweichender Bauform eines Produkts melden.",
+    "Steps sind allgemeine Vorgehensschritte; Herstellerdetails (Anschluss, Software) erst nach Produktrecherche konkretisieren.",
+    "OG-Vorschaubilder folgen nach dem Build."
+  ]
+}

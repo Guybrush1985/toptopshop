@@ -230,6 +230,8 @@ export default {
     { slug: "vr-gaming", text: "VR-Gaming." },
     { slug: "beamer-leinwand", text: "Beamer und Leinwand." },
     { slug: "bestes-flugsimulator-cockpit", text: "Flugsimulator-Cockpits und Ständer." },
+    { slug: "bestes-direct-drive-lenkrad", text: "Direct-Drive-Lenkräder – der nächste Schritt nach dem Cockpit." },
+    { slug: "beste-sim-racing-pedale", text: "Sim-Racing-Pedale mit Loadcell." },
     { area: "gaming-room", text: "Alle Ratgeber für den Gaming-Room." },
   ],
 };

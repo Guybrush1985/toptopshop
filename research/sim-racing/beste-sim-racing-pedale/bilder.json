@@ -1,0 +1,59 @@
+{
+  "visuals": {
+    "1": {
+      "kind": "racepedals",
+      "tone": "forest"
+    },
+    "2": {
+      "kind": "racepedals",
+      "tone": "green"
+    },
+    "3": {
+      "kind": "racepedals",
+      "tone": "mint"
+    }
+  },
+  "steps": {
+    "title": "Sim-Racing-Pedale nachrüsten",
+    "subtitle": "Passend anschließen, rutschfest aufstellen",
+    "alt": "Infografik: Sim-Racing-Pedale nachrüsten – Anschluss prüfen, Bremse wählen, Aufstellen, Anschließen, Kalibrieren, Bremsgefühl einstellen",
+    "caption": "Bei Pedalen zählt zuerst der Anschluss an PC oder Lenkrad-Basis, dann ein fester Stand unter Last.",
+    "steps": [
+      {
+        "title": "Anschluss prüfen",
+        "text": "USB direkt am PC oder über die Lenkrad-Basis? An PS5 und Xbox laufen Pedale meist nur über die Basis."
+      },
+      {
+        "title": "Bremse wählen",
+        "text": "Loadcell misst den Druck statt des Wegs – auf die maximale Bremskraft in kg achten."
+      },
+      {
+        "title": "Aufstellen",
+        "text": "Auf Cockpit-Platte verschrauben oder am Boden gegen Wegrutschen sichern, etwa mit Fersenplatte oder Stand."
+      },
+      {
+        "title": "Anschließen",
+        "text": "Kabel an PC oder Basis stecken, Firmware aktualisieren und Pedale in der Software erkennen lassen."
+      },
+      {
+        "title": "Kalibrieren",
+        "text": "Gas, Bremse und Kupplung durch den vollen Weg treten und Totzonen festlegen."
+      },
+      {
+        "title": "Bremsgefühl einstellen",
+        "text": "Federn oder Elastomere tauschen und die Bremskraft so wählen, dass sie fest, aber dosierbar ist."
+      }
+    ]
+  },
+  "scoresAlt": "Balkendiagramm: Bewertung der drei besten Sim-Racing-Pedale in den Kriterien Bremse & Sensorik, Kompatibilität, Verarbeitung & Verstellbarkeit, Montage & Standfestigkeit und Preis-Leistung",
+  "scoresCaption": "Unsere Bewertung je Kriterium für die drei empfohlenen Modelle.",
+  "neueFormen": [
+    "racepedals"
+  ],
+  "offen": [
+    "Kriterien in scoresAlt sind ein Entwurf aus struktur.json – an die finalen Bewertungskriterien anpassen.",
+    "Visuals nach Produktart gesetzt (Produktliste in Arbeit); bei abweichender Bauform eines Produkts melden.",
+    "Steps sind allgemeine Vorgehensschritte; Herstellerdetails (Anschluss, Software) erst nach Produktrecherche konkretisieren.",
+    "OG-Vorschaubilder folgen nach dem Build."
+  ]
+}

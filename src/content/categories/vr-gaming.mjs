@@ -230,6 +230,7 @@ export default {
     { slug: "sim-racing-cockpits", text: "Sim-Racing-Cockpits." },
     { slug: "beamer-leinwand", text: "Beamer und Leinwand." },
     { slug: "bester-flugsimulator-joystick", text: "Flugsimulator-Joysticks (HOTAS)." },
+    { slug: "bestes-direct-drive-lenkrad", text: "Direct-Drive-Lenkräder für Rennsimulationen in VR." },
     { area: "gaming-room", text: "Alle Ratgeber für den Gaming-Room." },
   ],
 };

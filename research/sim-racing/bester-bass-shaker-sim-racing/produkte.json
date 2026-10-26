@@ -1,0 +1,633 @@
+{
+  "slug": "bester-bass-shaker-sim-racing",
+  "stand": "2026-10-24",
+  "hinweisMethodik": "amazon.de, thebuttkicker.com und traxion.gg sind aus der Sandbox nicht direkt abrufbar (Proxy 403/DNS). ASINs, Verfügbarkeit und Herstellerdaten stammen aus WebSearch-Treffern (amazon.de-/dp/-Seiten, Hersteller- und Händlerseiten). Such-Snapshots sind teils widersprüchlich und undatiert – Verfügbarkeit und Verkäufer vor Livegang im Browser prüfen. Keine unabhängigen Tests (Stiftung Warentest, PCGH, GameStar, ComputerBase) zu Bass-Shakern gefunden.",
+  "criteria": [
+    {
+      "key": "wirkung",
+      "label": "Wirkung & Leistung",
+      "weight": 0.3,
+      "description": "Spürbarkeit an Sitz bzw. Pedalen: Belastbarkeit (Watt), Frequenzbereich, bewegte Masse; reicht ein Gerät für Sitzschale/Rig oder nur für Pedalplatte bzw. Stuhl."
+    },
+    {
+      "key": "lieferumfang",
+      "label": "Lieferumfang & Montage",
+      "weight": 0.25,
+      "description": "Komplett-Kit mit Verstärker und Klemme vs. Einzel-Wandler; mitgeliefertes Montagematerial, Montageort (Stuhlrohr, Sitzschale, Pedalplatte), Aufwand bis zum ersten Rütteln."
+    },
+    {
+      "key": "ansteuerung",
+      "label": "Software & Ansteuerung",
+      "weight": 0.2,
+      "description": "Telemetrie-Effekte per HaptiConnect oder SimHub (PC) vs. reines Audio-Signal; Mehrkanal-Fähigkeit; Weg an PS5/Xbox (nur Audio, Extraktor nötig)."
+    },
+    {
+      "key": "preisleistung",
+      "label": "Preis-Leistung",
+      "weight": 0.25,
+      "description": "Gegenwert in der Preisklasse inklusive des Verstärkers, den man bei Einzel-Shakern zusätzlich kaufen muss."
+    }
+  ],
+  "priceTiers": {
+    "vorschlag": true,
+    "1": "unter 100 €",
+    "2": "100–250 €",
+    "3": "über 250 €",
+    "begruendung": "Einzel-Shaker ca. 50–65 € (BST-2, BS-200), Dayton TT25 4er-Pack und ButtKicker Mini LFE ca. 160–200 €, ButtKicker Gamer Plus ca. 370 € (Such-Snapshots amazon.de, nicht auf der Seite nennen). Bei Einzel-Shakern kommt ein Verstärker hinzu – priceTier gilt nur für den Shaker."
+  },
+  "products": [
+    {
+      "rank": 1,
+      "label": "Bestes Komplett-Kit",
+      "name": "ButtKicker Gamer Plus",
+      "brand": "ButtKicker (The Guitammer Company)",
+      "variant": "BK-GR-PLUS – Transducer mit Universal-Klemme + 90-W-Verstärker BKA-PLUS mit Fernbedienung",
+      "priceTier": 3,
+      "ratings": {
+        "wirkung": 8.0,
+        "lieferumfang": 9.5,
+        "ansteuerung": 8.5,
+        "preisleistung": 6.5
+      },
+      "gesamtnote": 8.1,
+      "bestFor": "Wer ohne Bastelei Vibration am Gaming-Stuhl oder kleinen bis mittleren Rig will – Shaker, Verstärker und Klemme kommen aus einer Hand, Telemetrie-Effekte per HaptiConnect am PC.",
+      "fakten": [
+        {
+          "text": "Verstärker BKA-PLUS: 90 W RMS an 2 Ohm, 10–300 Hz, 100–240 V (Herstellerangabe).",
+          "art": "Herstellerangabe",
+          "quelle": "https://thebuttkicker.com/products/buttkicker-gamer-plus/",
+          "datum": "2026-10-24 (Suchauszug)"
+        },
+        {
+          "text": "Transducer: 5–200 Hz, 2 Ohm, Belastbarkeit 75 W min. / 250 W max., bewegte Masse (Kolben) ca. 170 g / 6 oz (Herstellerangabe).",
+          "art": "Herstellerangabe",
+          "quelle": "https://thebuttkicker.com/products/buttkicker-gamer-plus/",
+          "datum": "2026-10-24 (Suchauszug)"
+        },
+        {
+          "text": "Universal-Klemme (EasyClamp) für Rohre bis 45 mm Durchmesser (Händlerangabe Aerosoft).",
+          "art": "Händlerangabe",
+          "quelle": "https://www.aerosoft.com/en/shop/move/hardware/3871/buttkicker-gamer-plus?c=2347",
+          "datum": "2026-10-24 (Suchauszug)"
+        },
+        {
+          "text": "Lieferumfang u. a. Transducer, Verstärker mit Funkfernbedienung, ca. 3 m Kabel, Mini-Y-Adapter, Cinch-auf-3,5-mm- und USB-C-Kabel; HDMI-Kabel und optische/HDMI-Audio-Extraktoren für Konsolen nicht enthalten (Herstellerangabe).",
+          "art": "Herstellerangabe",
+          "quelle": "https://thebuttkicker.com/products/buttkicker-gamer-plus/",
+          "datum": "2026-10-24 (Suchauszug)"
+        },
+        {
+          "text": "Software HaptiConnect nutzt Spiel-Telemetrie oder Audio für Effekte und funktioniert mit allen ButtKicker-Generationen; Standard-Version nach Registrierung kostenlos (Hersteller/Aerosoft).",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.aerosoft.com/en/shop/move/hardware/3871/buttkicker-gamer-plus?c=2347",
+          "datum": "2026-10-24 (Suchauszug)"
+        },
+        {
+          "text": "Laut Hersteller ideal für kleine und mittelgroße Gaming-Stühle und Rigs; für größere/schwere Rigs empfiehlt ButtKicker den Gamer Pro.",
+          "art": "Herstellerangabe",
+          "quelle": "https://thebuttkicker.com/products/buttkicker-gamer-plus/",
+          "datum": "2026-10-24 (Suchauszug)"
+        },
+        {
+          "text": "Review traxion.gg: Haptik steigert die Immersion, Software-Erlebnis und schwankende Leistung trübten aber den Eindruck („muddled potential“).",
+          "art": "Bericht",
+          "quelle": "https://traxion.gg/buttkicker-gamer-plus-review-muddled-potential/",
+          "datum": "2022 (laut Suchauszug)"
+        },
+        {
+          "text": "amazon.de-Listing zeigte 369,99 € neu (Snapshot mit Lieferdatum „Mo. 29. Juni“, vermutlich Juni 2026) – Preis nicht auf der Seite nennen; Plattform-Angaben im Listing („Nintendo DS“) sind fehlerhaft.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/ButtKicker-BK-GR-PLUS-Buttkicker-Gamer-plus/dp/B09XPB7THZ",
+          "datum": "Snapshot, Datum unbekannt"
+        },
+        {
+          "text": "Eine 1-Stern-Rezension auf amazon.de berichtet, dass sich die Vibration durch die Wände überträgt (Mietwohnung).",
+          "art": "Bericht",
+          "quelle": "https://www.amazon.de/ButtKicker-BK-GR-PLUS-Buttkicker-Gamer-plus/dp/B09XPB7THZ",
+          "datum": "Snapshot, Datum unbekannt"
+        }
+      ],
+      "pros": [
+        "Einziges sicher gelistetes Komplett-Kit: Shaker, Verstärker, Klemme, Kabel",
+        "Klemme passt an Stuhlrohre bis 45 mm – kein Rig nötig",
+        "HaptiConnect mit Telemetrie-Effekten, Verstärker per USB am PC steuerbar",
+        "Weltweites Netzteil (100–240 V)"
+      ],
+      "cons": [
+        "Teuerste Lösung im Vergleich",
+        "Software/Einrichtung laut Review und Nutzerberichten teils hakelig",
+        "Nur ein Shaker – Pedale werden nicht separat angesteuert",
+        "Konsole nur über Audio, HDMI-/Optik-Extraktor separat kaufen"
+      ],
+      "specs": {
+        "Bauform": "Komplett-Kit: Transducer mit Klemme + Verstärker",
+        "Verstärker": "enthalten (BKA-PLUS, 90 W RMS @ 2 Ω, Fernbedienung)",
+        "Benötigtes Zubehör": "am PC nichts zwingend; Software HaptiConnect (kostenlos nach Registrierung) oder SimHub; an PS5/Xbox ein HDMI- bzw. optischer Audio-Extraktor (nicht enthalten)",
+        "Montage": "Universal-Klemme für Rohre bis 45 mm (Stuhl, Rig-Rohr)",
+        "Frequenzbereich": "5–200 Hz (Transducer, Herstellerangabe)",
+        "Ansteuerung": "Telemetrie (HaptiConnect, PC) oder Audio",
+        "Konsole": "nur Audio-Signal, kein Telemetrie-Feedback"
+      },
+      "asin": "B09XPB7THZ",
+      "query": "ButtKicker Gamer Plus",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "ButtKicker Gamer Plus - Black - Haptic Simracing Kit for PC with 90 Watt Amplifier … : Amazon.de: PC & Video Games (BK-GR-PLUS). Zweites Listing „ButtKicker Gamer Plus Kit European Version“ B0CYZW4DP2 derzeit nicht verfügbar → nicht verwendet."
+    },
+    {
+      "rank": 2,
+      "label": "Bestes Preis-Leistungs-Verhältnis",
+      "name": "Dayton Audio BST-2 35 Watt Tactile Bass Shaker",
+      "brand": "Dayton Audio",
+      "variant": "BST-2 (35 W RMS, 4 Ohm) – Einzel-Transducer ohne Verstärker",
+      "priceTier": 1,
+      "ratings": {
+        "wirkung": 6.5,
+        "lieferumfang": 5.0,
+        "ansteuerung": 7.5,
+        "preisleistung": 9.0
+      },
+      "gesamtnote": 6.95,
+      "bestFor": "Wer Pedalplatte oder Sitz eines Rigs günstig nachrüsten will und einen kleinen Verstärker bzw. ein SimHub-Setup in Kauf nimmt – auch als 2. Shaker für die Pedale.",
+      "fakten": [
+        {
+          "text": "35 W RMS, 4 Ohm, 10–80 Hz, Resonanz 30 Hz (ungeschraubt), Aluminiumgehäuse, Ø 130,8 × 54,9 mm, 1,18 kg (Herstellerdaten laut Händler-Datenblatt).",
+          "art": "Herstellerangabe",
+          "quelle": "https://audiophonics.fr/en/exciter/dayton-audio-bst-2-t-speaker-driver-exciter-bass-shaker-35w-4ohm-10hz-80hz-p-14972.html",
+          "datum": "2026-10-24 (Suchauszug)"
+        },
+        {
+          "text": "Dayton empfiehlt einen Tiefpass von 80 Hz oder weniger (Herstellerangabe laut Händler).",
+          "art": "Herstellerangabe",
+          "quelle": "https://audiophonics.fr/en/exciter/dayton-audio-bst-2-t-speaker-driver-exciter-bass-shaker-35w-4ohm-10hz-80hz-p-14972.html",
+          "datum": "2026-10-24 (Suchauszug)"
+        },
+        {
+          "text": "Vier Befestigungslöcher und Schaumstoff-Dichtung gegen Klappern; im Lieferumfang laut Listing Kabel und Montagematerial (Händlerangabe).",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/Dayton-Audio-BST-2-Tactile-Shaker/dp/B08NN5V62G",
+          "datum": "2026-10-24 (Suchauszug)"
+        },
+        {
+          "text": "amazon.de: 4,6 von 5 Sternen bei rund 307 Bewertungen, Snapshots mit Angebot („Nur noch 1 auf Lager“).",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/Dayton-Audio-BST-2-Tactile-Shaker/dp/B08NN5V62G",
+          "datum": "Snapshot, Datum unbekannt"
+        },
+        {
+          "text": "Dayton Audio veröffentlicht eine SimHub-ShakeIt-Anleitung für Bass-Shaker (dort mit Dayton-Mehrkanalverstärker SAB-1060).",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.daytonaudio.com/images/resources/325-510--SAB-1060-SimHub-ShakeIt-Bass-Shaker-Guide.pdf",
+          "datum": "2026-10-24 (Suchauszug)"
+        }
+      ],
+      "pros": [
+        "Günstiger Markenshaker mit vielen guten Bewertungen",
+        "Flach genug für Pedalplatte und unter der Sitzschale",
+        "Montagematerial und Anti-Klapper-Dichtung dabei",
+        "Ideal für SimHub-Mehrkanal-Setups (Sitz + Pedale)"
+      ],
+      "cons": [
+        "Kein Verstärker im Lieferumfang – Zusatzkosten und -kabel",
+        "35 W: am schweren Rig-Sitz eher dezent",
+        "Keine Klemme für Gaming-Stühle",
+        "Telemetrie nur am PC mit SimHub und separater Soundkarten-Ausgabe"
+      ],
+      "specs": {
+        "Bauform": "Einzel-Transducer zum Verschrauben",
+        "Verstärker": "nicht enthalten – 4-Ohm-fähiger Verstärker nötig",
+        "Benötigtes Zubehör": "Verstärker mit Tiefpass (≤ 80 Hz), Lautsprecherkabel, für Telemetrie SimHub (ShakeIt) + freier Audio-Ausgang/USB-Soundkarte",
+        "Leistung": "35 W RMS, 4 Ω",
+        "Frequenzbereich": "10–80 Hz",
+        "Montage": "4 Schraublöcher, Pedalplatte oder Sitz/Sitzplatte",
+        "Ansteuerung": "Audio bzw. SimHub-Telemetrie (PC)",
+        "Konsole": "nur Audio über Verstärker, kein Telemetrie-Feedback"
+      },
+      "asin": "B08NN5V62G",
+      "query": "Dayton Audio BST-2 35 Watt Tactile Bass Shaker",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "Dayton Audio DAYTONAUDIO BST-2 35 Watt Tactile Bass Shaker : Amazon.de: Electronics & Photo"
+    },
+    {
+      "rank": 3,
+      "label": "Beste Wahl fürs Rig",
+      "name": "Reckhorn BS-200 Bassshaker",
+      "brand": "Reckhorn",
+      "variant": "BS-200 (200 W max., 4 Ohm, 75-mm-Schwingspule) – Einzel-Transducer ohne Verstärker; Nachfolger BS-200i mit goldenen Anschlüssen",
+      "priceTier": 1,
+      "ratings": {
+        "wirkung": 8.5,
+        "lieferumfang": 5.0,
+        "ansteuerung": 7.0,
+        "preisleistung": 8.5
+      },
+      "gesamtnote": 7.33,
+      "bestFor": "Wer ein festes Cockpit mit Sitzschale hat und kräftige Vibration unter dem Sitz will – einzeln oder paarweise an einem Reckhorn-Verstärker.",
+      "fakten": [
+        {
+          "text": "Max. 200 W, 4 Ohm, Resonanzfrequenz ca. 35 Hz, 75-mm-Schwingspule bis 250 °C, Aluminiumgehäuse zur Kühlung (Herstellerangabe auf amazon.de).",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/Bassshaker-K%C3%B6rperschallwandler-Heimkino-Playseats-Reckhorn/dp/B00AMH17GC",
+          "datum": "2026-10-24 (Suchauszug)"
+        },
+        {
+          "text": "Reckhorn empfiehlt als Tiefpass 50–80 Hz für Filme und 100–150 Hz für Spiele/Autorennen (Herstellerangabe).",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/Bassshaker-K%C3%B6rperschallwandler-Heimkino-Playseats-Reckhorn/dp/B00AMH17GC",
+          "datum": "2026-10-24 (Suchauszug)"
+        },
+        {
+          "text": "Braucht ein aktives Subwoofer-Modul oder passenden Verstärker; empfohlen werden Reckhorn A-409, A-800 bzw. A-803i (bis 6 Shaker) (Herstellerangabe).",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/Bassshaker-K%C3%B6rperschallwandler-Heimkino-Playseats-Reckhorn/dp/B00AMH17GC",
+          "datum": "2026-10-24 (Suchauszug)"
+        },
+        {
+          "text": "Untergrund Holz oder Metall; hitzeempfindliche Materialien (< 120 °C) entfernen, Umgebung für Kühlung frei lassen (Herstellerangabe).",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/Bassshaker-K%C3%B6rperschallwandler-Heimkino-Playseats-Reckhorn/dp/B00AMH17GC",
+          "datum": "2026-10-24 (Suchauszug)"
+        },
+        {
+          "text": "amazon.de: 4,6 von 5 Sternen bei rund 400 Bewertungen, Verkauf durch Reckhorn Audio GmbH, Snapshot 64,95 € („Nur noch 1 auf Lager“).",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/Bassshaker-K%C3%B6rperschallwandler-Heimkino-Playseats-Reckhorn/dp/B00AMH17GC",
+          "datum": "Snapshot, Datum unbekannt"
+        }
+      ],
+      "pros": [
+        "Deutlich kräftiger als kleine Shaker – passt zu Sitzschale und Rig-Rahmen",
+        "Deutscher Hersteller mit konkreten Einstell-Empfehlungen für Racing",
+        "Günstig, viele gute Bewertungen",
+        "Mehrere Shaker an einem Reckhorn-Verstärker kombinierbar"
+      ],
+      "cons": [
+        "Verstärker nötig (Reckhorn-Empfehlung A-409/A-800, kostet extra)",
+        "Keine Klemme – nur zum Verschrauben",
+        "Wird warm: Montagefläche und Belüftung beachten",
+        "Viel Körperschall – Entkopplung zum Boden einplanen"
+      ],
+      "specs": {
+        "Bauform": "Einzel-Transducer zum Verschrauben",
+        "Verstärker": "nicht enthalten – z. B. Reckhorn A-409/A-410 (Mono, 4/2 Ω) oder A-803i",
+        "Benötigtes Zubehör": "Verstärker mit Tiefpass (Racing 100–150 Hz laut Reckhorn) und Subsonic-Filter, Lautsprecherkabel; für Telemetrie SimHub + freier Audio-Ausgang",
+        "Leistung": "200 W max., 4 Ω (Herstellerangabe)",
+        "Montage": "verschraubt unter Sitzschale bzw. Sitzplatte (Holz/Metall)",
+        "Ansteuerung": "Audio bzw. SimHub-Telemetrie (PC)",
+        "Konsole": "nur Audio über Verstärker"
+      },
+      "asin": "B00AMH17GC",
+      "query": "Reckhorn BS-200 Bassshaker",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "Reckhorn Body shaker for home, car audio, games and therapy BS-200 : Amazon.de: Electronics & Photo (dt. URL „Bassshaker-Körperschallwandler-Heimkino-Playseats-Reckhorn“). Listing-Beschreibung nennt auch BS-200i; welche Variante aktuell geliefert wird, live prüfen."
+    }
+  ],
+  "top5": [
+    {
+      "name": "Dayton Audio TT25-16 PUCK Tactile Transducer Mini Bass Shaker (4er-Pack)",
+      "for": "Bestes 4-Kanal-Setup unter Sitz und Pedalen",
+      "warum": "Vier flache Pucks (Ø ca. 9 cm, 2,5 cm hoch) für ortsgenaue SimHub-Effekte vorne/hinten bzw. links/rechts; als Stereo (2 × 8 Ω) oder ein Kanal (4 Ω) verdrahtbar. Verstärker nötig, Einzelpuck mit 15 W eher für leichte Platten.",
+      "fakten": [
+        {
+          "text": "15 W RMS / 30 W max., 16 Ohm, Fs 40 Hz, nutzbar 20–80 Hz; vier Pucks als Stereo 8 Ω je Seite oder 4 Ω einkanalig verdrahtbar (Herstellerdaten laut Parts Express/amazon.de).",
+          "art": "Herstellerangabe",
+          "quelle": "https://parts-express.com/Dayton-Audio-TT25-16-PUCK-Tactile-Transducer-Mini-Bass-Shake-300-388",
+          "datum": "2026-10-24 (Suchauszug)"
+        },
+        {
+          "text": "amazon.de 4er-Pack: 4,5 von 5 Sternen bei 82 Bewertungen.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/Dayton-Audio-Tactile-Transducer-Shaker/dp/B0073IXASQ",
+          "datum": "Snapshot, Datum unbekannt"
+        },
+        {
+          "text": "Ein Rezensent auf amazon.de (Einzelpuck) empfand die Vibration als schwach; Dayton empfiehlt vier Pucks gemeinsam.",
+          "art": "Bericht",
+          "quelle": "https://www.amazon.de/-/en/Dayton-Audio-Tactile-Transducer-Shaker/dp/B0045W10VW",
+          "datum": "Snapshot, Datum unbekannt"
+        }
+      ],
+      "asin": "B0073IXASQ",
+      "query": "Dayton Audio TT25-16 PUCK 4er-Pack",
+      "asinGeprueft": "Dayton Audio Exciter TT25 16 Puck Tactile Transducer Mini Bass Shaker (4 Pack) : Amazon.de: Electronics & Photo",
+      "where": null,
+      "specs": {
+        "Verstärker": "nicht enthalten (Stereo- oder Mehrkanal-Verstärker)",
+        "Benötigtes Zubehör": "Verstärker, Kabel, SimHub + 4-Kanal-/5.1-Soundkarte für Einzelansteuerung"
+      }
+    },
+    {
+      "name": "Fischer Amps ButtKicker Mini LFE",
+      "for": "Bester für Flugsim-Cockpit und Heimkino-Sessel",
+      "warum": "Kompakter ButtKicker-Wandler zum Verschrauben (z. B. an den ButtKicker-Adapter des Next Level Racing Flight Simulator); 50–250 W an 4 Ω – kräftiger als BST-2, aber ohne Verstärker.",
+      "fakten": [
+        {
+          "text": "Nennimpedanz 4 Ohm, Verstärker mind. 50 W, empfohlen max. 250 W; kein Verstärker im Lieferumfang (Herstellerangabe).",
+          "art": "Herstellerangabe",
+          "quelle": "https://thebuttkicker.com/products/buttkicker-mini-lfe-haptic-transducer",
+          "datum": "2026-10-24 (Suchauszug)"
+        },
+        {
+          "text": "Frequenzbereich 5–200 Hz, 50 W / 250 W max. RMS an 4 Ohm (Händlerangabe Thomann).",
+          "art": "Händlerangabe",
+          "quelle": "https://www.thomann.de/be/fischer_amps_buttkicker_mini_lfe.htm",
+          "datum": "2026-10-24 (Suchauszug)"
+        },
+        {
+          "text": "amazon.de: 4,1 von 5 Sternen bei 148 Bewertungen, Modell BK-MINI-LFE.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/Fischer-Amps-ButtKicker-mini-LFE/dp/B0052AXFKK",
+          "datum": "Snapshot, Datum unbekannt"
+        }
+      ],
+      "asin": "B0052AXFKK",
+      "query": "ButtKicker Mini LFE",
+      "asinGeprueft": "Fischer Amps Buttkicker Mini LFE : Amazon.de: Sports & Outdoors (BK-MINI-LFE)",
+      "where": null,
+      "specs": {
+        "Verstärker": "nicht enthalten – 4-Ω-stabiler Verstärker 50–250 W",
+        "Benötigtes Zubehör": "Verstärker, Kabel, Montage am Rahmen/Adapter; HaptiConnect oder SimHub am PC"
+      }
+    },
+    {
+      "name": "Dayton Audio BST-1 Tactile Bass Shaker 50 Watt",
+      "for": "Bester Einzel-Shaker für Sitzschale (Dayton-Alternative)",
+      "warum": "Größerer Bruder des BST-2 mit 50 W RMS; der in Sim-Rigs verbreitetste Dayton-Shaker, für den es fertige Rig-Halterungen gibt. Verfügbarkeit schwankt.",
+      "fakten": [
+        {
+          "text": "50 W RMS, 4 Ohm, 10–80 Hz, Fs 30 Hz; Dayton empfiehlt Verstärker SA70 für einen bzw. SPA250 für 2–4 Shaker und Tiefpass ≤ 80 Hz (Herstellerangabe im Listing).",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/Dayton-Audio-BST-1-Tactile-Shaker/dp/B01CDDPJTI",
+          "datum": "2026-10-24 (Suchauszug)"
+        },
+        {
+          "text": "amazon.de: 4,6 von 5 Sternen bei rund 1.049 Bewertungen; ein Snapshot zeigt „Derzeit nicht verfügbar“, ein anderer ein Angebot ab 89,99 €.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/Dayton-Audio-BST-1-Tactile-Shaker/dp/B01CDDPJTI",
+          "datum": "Snapshot, Datum unbekannt"
+        },
+        {
+          "text": "Rezension: an einem 100-W-Verstärker wurde der 50-W-Shaker sehr heiß.",
+          "art": "Bericht",
+          "quelle": "https://www.amazon.de/Dayton-Audio-BST-1-Tactile-Shaker/dp/B01CDDPJTI",
+          "datum": "Snapshot, Datum unbekannt"
+        }
+      ],
+      "asin": "B01CDDPJTI",
+      "query": "Dayton Audio BST-1 Tactile Bass Shaker",
+      "asinGeprueft": "Dayton Audio Pro Tactile BST-39 1 High Power Bass Shaker 50 Watts : Amazon.de: Musical Instruments & DJ (Titel verstümmelt, Beschreibung = BST-1). Verfügbarkeit LIVE PRÜFEN.",
+      "where": null,
+      "specs": {
+        "Verstärker": "nicht enthalten",
+        "Benötigtes Zubehör": "Verstärker (Dayton-Empfehlung SA70 bzw. SPA250), Halterung, SimHub"
+      }
+    },
+    {
+      "name": "RECKHORN A-409 Verstärker",
+      "for": "Verstärker-Tipp für Einzel-Shaker (Reckhorn BS-200, ButtKicker Mini LFE)",
+      "warum": "Von Reckhorn für den BS-200(i) empfohlener Mono-Verstärker mit Tiefpass, Phase und Subsonic-Filter – macht aus Platz 3 ein komplettes Rig-Setup. Mono: alle Shaker erhalten dasselbe Signal (kein ortsgenaues SimHub-Mehrkanal).",
+      "fakten": [
+        {
+          "text": "400-W-Mono-Verstärker, 280 W RMS an 4 Ohm und 375 W RMS an 2 Ohm (je 0,7 % Klirr), Subsonic-Filter laut Hersteller auch für Shaker dringend empfohlen (Herstellerangabe).",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/-/en/A-409-RECKHORN-Amplifier/dp/B01GPOCO08",
+          "datum": "2026-10-24 (Suchauszug)"
+        },
+        {
+          "text": "amazon.de: 4,2 von 5 Sternen bei 12 Bewertungen; Nachfolger A-410 (B0DNN2FSQP) „entspricht in Bedienung und Daten dem A-409“.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/-/en/A-409-RECKHORN-Amplifier/dp/B01GPOCO08",
+          "datum": "Snapshot, Datum unbekannt"
+        }
+      ],
+      "asin": "B01GPOCO08",
+      "query": "Reckhorn A-409 Verstärker",
+      "asinGeprueft": "RECKHORN A-409 Amplifier: Amazon.de: Electronics & Photo. Verfügbarkeit LIVE PRÜFEN; falls nicht lieferbar: Reckhorn A-410 B0DNN2FSQP (Listing nennt Bassshaker nicht ausdrücklich).",
+      "where": null,
+      "specs": {
+        "Verstärker": "ist der Verstärker (Mono, 2–4 Ω)",
+        "Benötigtes Zubehör": "Cinch-Kabel vom PC/Soundkarte, Lautsprecherkabel; ein Kanal"
+      }
+    },
+    {
+      "name": "ButtKicker Gamer Pro",
+      "for": "Bester für große bzw. schwere Rigs (nur wenn wieder lieferbar)",
+      "warum": "Großer Bruder des Gamer Plus: 150-W-Verstärker und schwererer Kolben (ca. 450 g / 1 lb), gleiche Klemme, laut Hersteller für größere Rigs. amazon.de-Listing aktuell nicht verfügbar.",
+      "fakten": [
+        {
+          "text": "Verstärker BKA-PRO 150 W RMS an 2 Ohm; Transducer 5–200 Hz, 2 Ohm, Kolben 1 lb; Klemme bis 45 mm; HDMI-/Optik-Extraktoren für Konsolen nicht enthalten (Händlerangaben).",
+          "art": "Händlerangabe",
+          "quelle": "https://www.aerosoft.com/en/shop/games/hardware/3872/buttkicker-gamer-pro",
+          "datum": "2026-10-24 (Suchauszug)"
+        },
+        {
+          "text": "amazon.de: „Derzeit nicht verfügbar“, kein hervorgehobenes Angebot; 4,4 von 5 Sternen bei 16 Bewertungen.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/-/en/ButtKicker-BK-GR-PRO-Gamer-Pro-black/dp/B09XN8L3MH",
+          "datum": "Snapshot, Datum unbekannt"
+        }
+      ],
+      "asin": "B09XN8L3MH",
+      "query": "ButtKicker Gamer Pro",
+      "asinGeprueft": "BUTTKICKER Gamer Pro: Amazon.de: Electronics & Photo (BK-GR-PRO) – DERZEIT NICHT VERFÜGBAR; nur verlinken, wenn live wieder lieferbar, sonst durch Reserve ersetzen.",
+      "where": null,
+      "specs": {
+        "Verstärker": "enthalten (BKA-PRO, 150 W RMS @ 2 Ω)",
+        "Benötigtes Zubehör": "HaptiConnect/SimHub am PC; Konsole nur mit HDMI-/Optik-Extraktor"
+      }
+    }
+  ],
+  "top5Reserve": [
+    {
+      "name": "Audio System Bass Shaker 220 W",
+      "asin": "B01FKHSOQE",
+      "hinweis": "Deutscher Car-Audio-Hersteller; 4 Ohm, 35–100 Hz laut Listing (Leistungsangaben im Listing widersprüchlich), nur 4,3 Sterne bei 15 Bewertungen; Verstärker nötig. Nur als Ersatz für Gamer Pro.",
+      "quelle": "https://www.amazon.de/Audio-System-BASS-SHAKER-Watt/dp/B01FKHSOQE"
+    }
+  ],
+  "tests": [
+    {
+      "institut": "traxion.gg (Sim-Racing-Fachportal, englisch)",
+      "heft": "Online-Review „ButtKicker Gamer Plus Review: Muddled Potential“ (ca. 2022)",
+      "ergebnis": "Mehr Immersion, aber Software und schwankende Leistung kritisiert – laut Suchauszug, Seite nicht direkt abrufbar.",
+      "quelle": "https://traxion.gg/buttkicker-gamer-plus-review-muddled-potential/"
+    },
+    {
+      "institut": "Stiftung Warentest, PCGH, GameStar, ComputerBase",
+      "heft": "–",
+      "ergebnis": "Kein Test oder Vergleich zu Bass-Shakern/Körperschallwandlern gefunden.",
+      "quelle": "WebSearch 2026-10-24"
+    }
+  ],
+  "warnungen": [
+    "Keine Rückrufe oder Safety-Gate-Meldungen zu ButtKicker, Dayton Audio oder Reckhorn gefunden (WebSearch Safety Gate/Hersteller, 2026-10-24). Ein Forenbeitrag erwähnt einen älteren Rückruf des ButtKicker-Verstärkers BKA-1000 (Seriennummernbereich, ohne Quelle) – betrifft keines der empfohlenen Produkte (https://forums.whathifi.com/threads/the-buttkicker-wireless.78253/page-2).",
+    "Nachbarn & Körperschall: Vibration überträgt sich über Boden und Wände (1-Stern-Rezension Gamer Plus auf amazon.de; Nutzerbericht „macht Geräusche, je nach Wohnsituation bedenken“: https://lemm.ee/post/9406500). Entkopplung (Gummipuffer, Matte unter dem Rig) empfehlen; Akustikpaneele helfen nicht.",
+    "Wärme/Überlastung: Shaker nicht mit deutlich stärkerem Verstärker voll aufdrehen (Rezension BST-1 an 100-W-Verstärker „sehr heiß“); Reckhorn verlangt hitzefeste Montagefläche und freie Belüftung.",
+    "Versionen/Spannung: ButtKicker Gamer 2 (B000AOTLP6) mit 120-V-Verstärker – nicht für 230-V-Netz; nur EU-/Universal-Netzteile (Gamer Plus: 100–240 V) empfehlen.",
+    "Konsolen: PS5/Xbox liefern kein Telemetrie-Signal an HaptiConnect/SimHub-Shaker-Ausgänge direkt; Shaker laufen dort nur über Audio und brauchen einen HDMI- bzw. optischen Audio-Extraktor (bei ButtKicker ausdrücklich nicht enthalten)."
+  ],
+  "verworfen": [
+    {
+      "name": "Dayton Audio BST-300EX (B0C86M68WR)",
+      "grund": "amazon.de „Derzeit nicht verfügbar“, unbekannt ob wieder lieferbar; Listing-Text teils vom BST-1 kopiert. War Rollenkandidat „fürs Rig“."
+    },
+    {
+      "name": "Trak Racer Haptic Bass Shaker Kit BSA200Kit (B0DBMGVRC2)",
+      "grund": "amazon.de nicht verfügbar, kein Angebot; Verstärkerleistung je Händler widersprüchlich (200 W vs. 60 W RMS/Kanal)."
+    },
+    {
+      "name": "ButtKicker Gamer Plus Kit European Version (B0CYZW4DP2)",
+      "grund": "Doppel-Listing, nicht verfügbar – B09XPB7THZ verwendet."
+    },
+    {
+      "name": "ButtKicker BK-SK Simulation Kit (B00S8Y53Q6) / Gamer Set EU 2.0 (B000LQUJSQ)",
+      "grund": "Vorgänger, nicht verfügbar; Nutzerberichte über Verstärkerausfälle beim BKA-130."
+    },
+    {
+      "name": "ButtKicker Gamer 2 (B000AOTLP6)",
+      "grund": "Altmodell mit 120-V-Verstärker."
+    },
+    {
+      "name": "Reckhorn-Sets A-803i + 2/6 × BS-200i (B08VNN2911, B08VMXF6GY), A-409 + 2/4 Shaker (B09MRZM5DB, B09MS7VH9V), A-800 + 4 × BS-200i (B01C5U8N1A)",
+      "grund": "Alle als nicht verfügbar gemeldet – wären ideale Rig-Komplettsets; bei Wiederverfügbarkeit Platz 3 als Set erwägen."
+    },
+    {
+      "name": "Dayton Audio BSA-200 Verstärker (B07JFQ4C5B)",
+      "grund": "nicht verfügbar."
+    },
+    {
+      "name": "3DP-Evolution Simtastik 4-fach-System (B09Z2YJSW4, B0B1DVDX4K)",
+      "grund": "Kleinanbieter-Kit (4 × 100 W, SimHub) ohne unabhängige Berichte; LKS-Variante nicht verfügbar."
+    },
+    {
+      "name": "Next Level Racing HF8 / ERS3 Haptic Seat",
+      "grund": "Haptik-Pad bzw. Sitz mit Vibrationsmotoren – laut Abgrenzung kein Körperschallwandler (höchstens Text-Alternative)."
+    },
+    {
+      "name": "Simagic P-HPR / SIMSONN VAM",
+      "grund": "Pedal-Rumble-Motoren; Simagic nicht auf amazon.de, SIMSONN nur zu eigenen Pedalen kompatibel – nur Text-Alternative."
+    },
+    {
+      "name": "No-Name-Shaker (Douk Audio BS-1, Sintron/„Bodyshaker“, Sinuslive bassPUMP)",
+      "grund": "Austauschbare Ware bzw. wenig Bewertungen; Briefing: keine No-Name-Ware in Top 3."
+    }
+  ],
+  "offen": [
+    "Verfügbarkeit LIVE PRÜFEN: B09XPB7THZ (Gamer Plus, letzter Preis-Snapshot vermutlich Juni 2026), B08NN5V62G und B00AMH17GC (beide „Nur noch 1 auf Lager“), B01CDDPJTI (widersprüchlich), B01GPOCO08 (unbekannt). Gamer Pro B09XN8L3MH ist nicht verfügbar → im Top-5 nur behalten, wenn wieder lieferbar, sonst Reserve Audio System 220 W (B01FKHSOQE) oder Top 5 mit 4 Einträgen.",
+    "Verkäufer: nur beim Reckhorn BS-200 bestätigt (Reckhorn Audio GmbH); bei Gamer Plus, BST-2, TT25, Mini LFE Verkäufer (Amazon/Hersteller vs. Drittanbieter) unbekannt.",
+    "Nur ein Komplett-Kit mit Verstärker ist sicher gelistet (Gamer Plus). Platz 2 und 3 sind Einzel-Shaker – Redaktion muss Verstärkerbedarf in Karte, Tabelle und FAQ deutlich machen; Verstärker-Tipp A-409 in Top 5. Platz 3 ist Ersatz für die nicht verfügbaren Rollenkandidaten BST-300EX und Gamer Pro (transparent begründet).",
+    "Rangfolge: Gesamtnoten 8,10 / 6,95 / 7,33 – Platz 1 höchste Note; Plätze 2/3 nach Rollen sortiert (Redakteur kann Platz 2/3 tauschen, falls absteigende Noten gewünscht).",
+    "SimHub: Lizenzmodell (kostenlose Version vs. Lizenz) und ob ShakeIt Bass Shaker in der Gratisversion voll nutzbar ist, nicht belegt – im Text nur „SimHub (PC, Windows)“ ohne Preisaussage oder vorher auf simhubdash.com prüfen. Belegt: bis 8 Kanäle je Audio-Gerät, Shaker brauchen eigene Audio-Ausgänge + Verstärker (SimHub-Wiki).",
+    "Konsolen-Telemetrie: Einige Spiele (z. B. GT7, F1, Forza) senden Telemetrie per Netzwerk an einen PC mit SimHub (Community-Berichte GTPlanet) – nur erwähnen, wenn der Redakteur eine belastbare Quelle ergänzt.",
+    "Keine unabhängigen deutschsprachigen Tests gefunden; einzige Fach-Review (traxion.gg) nur per Suchauszug.",
+    "Awin: Keine joined-Programme passend (nur Rewe, Radwelt-shop, brickzonehub). Amazon deckt alle Top-3 ab, daher keine Bewerbung nötig. Falls der Gamer Pro dauerhaft auf amazon.de fehlt, wäre Caseking DE (Awin-ID 28817, Status notjoined) ein möglicher Händler – Sortiment (ButtKicker) nicht bestätigt. Bewerbungstext-Entwurf: „toptop.shop ist ein deutschsprachiges Vergleichsportal für Gaming-Room- und Sim-Racing-Ausstattung (Direct-Drive-Lenkräder, Pedale, Shifter, Bass-Shaker, Cockpits) mit redaktionell begründeten Top-3-Empfehlungen und Kompatibilitätstabellen. Wir möchten passende Caseking-Produkte als Bezugsquelle mit transparent gekennzeichneten Affiliate-Links einbinden. Keine Gutschein-/Cashback-Seite, kein Paid Traffic auf Markenbegriffe.“"
+  ],
+  "quellen": [
+    {
+      "titel": "amazon.de – ButtKicker Gamer Plus (B09XPB7THZ)",
+      "url": "https://www.amazon.de/ButtKicker-BK-GR-PLUS-Buttkicker-Gamer-plus/dp/B09XPB7THZ"
+    },
+    {
+      "titel": "ButtKicker – Gamer PLUS (Hersteller)",
+      "url": "https://thebuttkicker.com/products/buttkicker-gamer-plus/"
+    },
+    {
+      "titel": "Aerosoft – ButtKicker Gamer PLUS",
+      "url": "https://www.aerosoft.com/en/shop/move/hardware/3871/buttkicker-gamer-plus?c=2347"
+    },
+    {
+      "titel": "traxion.gg – ButtKicker Gamer Plus Review",
+      "url": "https://traxion.gg/buttkicker-gamer-plus-review-muddled-potential/"
+    },
+    {
+      "titel": "amazon.de – Dayton Audio BST-2 (B08NN5V62G)",
+      "url": "https://www.amazon.de/Dayton-Audio-BST-2-Tactile-Shaker/dp/B08NN5V62G"
+    },
+    {
+      "titel": "Dayton Audio – BST-2 Produktseite",
+      "url": "https://daytonaudio.com/product/1750/bst-2-tactile-bass-shaker-35-watt"
+    },
+    {
+      "titel": "audiophonics – Dayton BST-2 Datenblatt",
+      "url": "https://audiophonics.fr/en/exciter/dayton-audio-bst-2-t-speaker-driver-exciter-bass-shaker-35w-4ohm-10hz-80hz-p-14972.html"
+    },
+    {
+      "titel": "amazon.de – Reckhorn BS-200 (B00AMH17GC)",
+      "url": "https://www.amazon.de/Bassshaker-K%C3%B6rperschallwandler-Heimkino-Playseats-Reckhorn/dp/B00AMH17GC"
+    },
+    {
+      "titel": "amazon.de – Reckhorn A-409 (B01GPOCO08)",
+      "url": "https://www.amazon.de/-/en/A-409-RECKHORN-Amplifier/dp/B01GPOCO08"
+    },
+    {
+      "titel": "amazon.de – Reckhorn A-410 (B0DNN2FSQP)",
+      "url": "https://www.amazon.de/Reckhorn-Elektronisches-Verst%C3%A4rker-Metallgeh%C3%A4use-Subwoofer/dp/B0DNN2FSQP"
+    },
+    {
+      "titel": "amazon.de – Dayton TT25-16 4er-Pack (B0073IXASQ)",
+      "url": "https://www.amazon.de/Dayton-Audio-Tactile-Transducer-Shaker/dp/B0073IXASQ"
+    },
+    {
+      "titel": "Parts Express – Dayton TT25-16 Daten",
+      "url": "https://parts-express.com/Dayton-Audio-TT25-16-PUCK-Tactile-Transducer-Mini-Bass-Shake-300-388"
+    },
+    {
+      "titel": "Dayton Audio – TT25-16 4 Pk",
+      "url": "https://daytonaudio.com/product/1037/tt25-16-puck-tactile-transducer-mini-bass-shaker-4-pk"
+    },
+    {
+      "titel": "amazon.de – ButtKicker Mini LFE (B0052AXFKK)",
+      "url": "https://www.amazon.de/Fischer-Amps-ButtKicker-mini-LFE/dp/B0052AXFKK"
+    },
+    {
+      "titel": "ButtKicker – Mini LFE (Hersteller)",
+      "url": "https://thebuttkicker.com/products/buttkicker-mini-lfe-haptic-transducer"
+    },
+    {
+      "titel": "Thomann – ButtKicker Mini LFE",
+      "url": "https://www.thomann.de/be/fischer_amps_buttkicker_mini_lfe.htm"
+    },
+    {
+      "titel": "amazon.de – Dayton BST-1 (B01CDDPJTI)",
+      "url": "https://www.amazon.de/Dayton-Audio-BST-1-Tactile-Shaker/dp/B01CDDPJTI"
+    },
+    {
+      "titel": "amazon.de – ButtKicker Gamer Pro (B09XN8L3MH)",
+      "url": "https://www.amazon.de/-/en/ButtKicker-BK-GR-PRO-Gamer-Pro-black/dp/B09XN8L3MH"
+    },
+    {
+      "titel": "Aerosoft – ButtKicker Gamer PRO",
+      "url": "https://www.aerosoft.com/en/shop/games/hardware/3872/buttkicker-gamer-pro"
+    },
+    {
+      "titel": "SimHub-Wiki – Shake It for bass shakers",
+      "url": "https://github.com/zegreatclan/SimHub/wiki/Shake-It-for-bass-shakers"
+    },
+    {
+      "titel": "Dayton Audio – SimHub ShakeIt Bass Shaker Guide (SAB-1060)",
+      "url": "https://www.daytonaudio.com/images/resources/325-510--SAB-1060-SimHub-ShakeIt-Bass-Shaker-Guide.pdf"
+    },
+    {
+      "titel": "amazon.de – Dayton BST-300EX (B0C86M68WR, nicht verfügbar)",
+      "url": "https://www.amazon.de/Dayton-Audio-BST-300EX-taktiler-Bass-Shaker/dp/B0C86M68WR"
+    },
+    {
+      "titel": "amazon.de – Trak Racer BSA200Kit (B0DBMGVRC2, nicht verfügbar)",
+      "url": "https://www.amazon.de/-/en/Trak-Racer-Haptic-Shaker-Amplifier/dp/B0DBMGVRC2"
+    },
+    {
+      "titel": "Trak Racer – Bass Shaker Kit",
+      "url": "https://trakracer.com/products/haptic-bass-shaker-kit-with-200w-bass-amp-and-100w-shaker-copy"
+    },
+    {
+      "titel": "Safety Gate – EU-Schnellwarnsystem",
+      "url": "https://ec.europa.eu/safety-gate-alerts/screen/search"
+    },
+    {
+      "titel": "Lemmy – Nutzerbericht ButtKicker Gamer Plus",
+      "url": "https://lemm.ee/post/9406500"
+    }
+  ]
+}

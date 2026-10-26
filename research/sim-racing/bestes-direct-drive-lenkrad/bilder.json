@@ -1,0 +1,59 @@
+{
+  "visuals": {
+    "1": {
+      "kind": "ddwheel",
+      "tone": "forest"
+    },
+    "2": {
+      "kind": "ddwheel",
+      "tone": "green"
+    },
+    "3": {
+      "kind": "ddwheel",
+      "tone": "mint"
+    }
+  },
+  "steps": {
+    "title": "Direct-Drive-Lenkrad einrichten",
+    "subtitle": "Vom Ökosystem bis zum Force Feedback",
+    "alt": "Infografik: Direct-Drive-Lenkrad einrichten – Plattform prüfen, Ökosystem wählen, Lieferumfang klären, Fest montieren, Software einrichten, Kraft einstellen",
+    "caption": "Bei Direct Drive entscheidet zuerst die Plattform, dann die Montage – erst danach lohnt das Feintuning.",
+    "steps": [
+      {
+        "title": "Plattform prüfen",
+        "text": "Klären, ob die Basis für PC, PS5 oder Xbox freigegeben ist – viele Modelle laufen nur am PC."
+      },
+      {
+        "title": "Ökosystem wählen",
+        "text": "Schnellverschluss, Kränze, Pedale und Shifter sollten zum gleichen Hersteller-System passen."
+      },
+      {
+        "title": "Lieferumfang klären",
+        "text": "Nur Basis oder Bundle mit Kranz und Pedalen? Netzteil und Tischklemme gleich mitprüfen."
+      },
+      {
+        "title": "Fest montieren",
+        "text": "Basis an Tisch oder Cockpit-Platte verschrauben; ab rund 8 Nm ist ein steifes Rig sinnvoll."
+      },
+      {
+        "title": "Software einrichten",
+        "text": "Treiber und Firmware aktualisieren, Kranz kalibrieren und Lenkwinkel festlegen."
+      },
+      {
+        "title": "Kraft einstellen",
+        "text": "Mit niedrigem Drehmoment starten, Force Feedback je Spiel anpassen und Not-Aus griffbereit halten."
+      }
+    ]
+  },
+  "scoresAlt": "Balkendiagramm: Bewertung der drei besten Direct-Drive-Lenkräder in den Kriterien Force Feedback & Drehmoment, Plattform & Ökosystem, Lieferumfang, Software & Sicherheit und Preis-Leistung",
+  "scoresCaption": "Unsere Bewertung je Kriterium für die drei empfohlenen Modelle.",
+  "neueFormen": [
+    "ddwheel"
+  ],
+  "offen": [
+    "Kriterien in scoresAlt sind ein Entwurf aus struktur.json – an die finalen Bewertungskriterien anpassen.",
+    "Visuals nach Produktart gesetzt (Produktliste in Arbeit); bei abweichender Bauform eines Produkts melden.",
+    "Steps sind allgemeine Vorgehensschritte; Herstellerdetails (Anschluss, Software) erst nach Produktrecherche konkretisieren.",
+    "OG-Vorschaubilder folgen nach dem Build."
+  ]
+}

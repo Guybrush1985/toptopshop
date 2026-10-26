@@ -233,6 +233,7 @@ export default {
     { slug: "gaming-tische", text: "Der passende Gaming-Tisch." },
     { slug: "sitzsaecke", text: "Sitzsäcke für die Konsole." },
     { slug: "hoehenverstellbare-schreibtische", text: "Höhenverstellbare Schreibtische." },
+    { slug: "bester-bass-shaker-sim-racing", text: "Bass-Shaker zum Anklemmen an den Stuhl." },
     { area: "gaming-room", text: "Alle Ratgeber für den Gaming-Room." },
   ],
 };
