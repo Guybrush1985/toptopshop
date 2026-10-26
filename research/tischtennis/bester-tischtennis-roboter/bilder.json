@@ -1,0 +1,57 @@
+{
+  "visuals": {
+    "1": {
+      "kind": "ttrobot",
+      "tone": "forest"
+    },
+    "2": {
+      "kind": "ttrobot",
+      "tone": "green"
+    },
+    "3": {
+      "kind": "ttrobot",
+      "tone": "mint"
+    }
+  },
+  "steps": {
+    "title": "Tischtennis-Roboter einrichten",
+    "subtitle": "Vom Aufbau bis zum ersten Drill",
+    "alt": "Infografik: Tischtennis-Roboter einrichten – Aufstellen, Fangnetz anbringen, Bälle einfüllen, Langsam starten, Variieren, Pflegen",
+    "caption": "Langsam anfangen: erst Tempo und Frequenz niedrig, dann steigern.",
+    "steps": [
+      {
+        "title": "Aufstellen",
+        "text": "Roboter mittig hinter die Grundlinie der gegenüberliegenden Hälfte stellen oder auf der Platte befestigen."
+      },
+      {
+        "title": "Fangnetz anbringen",
+        "text": "Wenn vorhanden, das Netz hinter der Platte spannen – das spart Zeit beim Bälle-Einsammeln."
+      },
+      {
+        "title": "Bälle einfüllen",
+        "text": "Saubere, unbeschädigte Bälle gleicher Art einfüllen; verbeulte Bälle können klemmen."
+      },
+      {
+        "title": "Langsam starten",
+        "text": "Mit wenig Tempo, niedriger Frequenz und einer Schnittart beginnen."
+      },
+      {
+        "title": "Variieren",
+        "text": "Platzierung und Schnitt Schritt für Schritt ändern, z. B. Vorhand-Rückhand-Wechsel."
+      },
+      {
+        "title": "Pflegen",
+        "text": "Wurfräder und Ballführung regelmäßig von Staub befreien – Herstellerhinweise beachten."
+      }
+    ]
+  },
+  "scoresAlt": "Balkendiagramm: Bewertung der drei besten Tischtennis-Roboter in den Kriterien Spin, Ballfrequenz und Platzierung, Steuerung, Ballrückführung, Verarbeitung und Aufbau",
+  "scoresCaption": "Unsere Bewertung je Kriterium für die drei empfohlenen Modelle.",
+  "neueFormen": [
+    "ttrobot"
+  ],
+  "offen": [
+    "Kriterien in scoresAlt sind ein Entwurf nach struktur.json – an die finalen Bewertungskriterien des Redakteurs anpassen.",
+    "Alle drei Top-3-Produkte nutzen dieselbe Form in den Tönen forest/green/mint (wie bei bestehenden Kategorien)."
+  ]
+}

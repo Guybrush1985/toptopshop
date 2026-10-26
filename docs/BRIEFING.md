@@ -275,3 +275,8 @@ Mindestumfang je Kategorie: **≥ 1.000 Wörter** (nicht künstlich auffüllen),
   Gaming-Room und verlinkt auf den Bereich. Unabhängige Tests für Dart-Zubehör gibt es nicht; Regelmaße (1,73 m / 2,37 m) stehen
   ausführlich nur auf `/beste-steeldart-scheibe/`, die anderen Seiten verlinken dorthin. Bereichsseiten ohne Unterbereiche zeigen
   seitdem alle Kategorien (vorher nur zwei).
+- 2026-10-26: Neuer Bereich **Tischtennis zu Hause** (`/tischtennis/`, flache URLs) aus dem täglichen Lauf: Tischtennis-Roboter,
+  Tischtennis-Sets, Tischtennisbälle, Tischtennisnetze, Abdeckhüllen – ausschließlich Amazon. `/tischtennisplatten/` bleibt in den
+  Privaten Sportanlagen und ist Hub-Nachbar (Gegenlinks auf Netz, Hülle und Bereich). Unabhängige Tests gibt es für keine der
+  Produktgruppen; ITTF-Zulassungen nur „laut Hersteller“, keine Sternzahlen oder Bewertungszahlen im Text. Neue Symbolbilder
+  `ttrobot`, `ttbats`, `ttballs`, `ttnet`, `ttcover`.

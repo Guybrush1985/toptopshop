@@ -1,0 +1,278 @@
+{
+  "slug": "beste-tischtennisbaelle",
+  "stand": "2026-10-26",
+  "criteria": [
+    {
+      "key": "zulassung",
+      "label": "ITTF-Zulassung & Sternklasse",
+      "weight": 0.3,
+      "description": "Ist der Ball als ITTF-zugelassener 3-Stern-Wettkampfball ausgewiesen (Logo/Aufdruck auf Ball bzw. Packung) oder ein Trainingsball? Sterne sind eine Qualitätsstufe des Herstellers, keine Norm – für Punktspiele zählt die ITTF-Zulassung."
+    },
+    {
+      "key": "rundlauf",
+      "label": "Rundlauf & gleichmäßige Härte",
+      "weight": 0.25,
+      "description": "Wie rund und gleich hart laufen die Bälle einer Packung (Herstellerangaben zur Selektion, Erfahrungsberichte zu Eiern/Ausreißern)?"
+    },
+    {
+      "key": "haltbarkeit",
+      "label": "Haltbarkeit",
+      "weight": 0.25,
+      "description": "Bruchfestigkeit und Abnutzung im Spiel; Bauart nahtlos oder mit Naht (beides kann gut sein, Erfahrungsberichte zählen)."
+    },
+    {
+      "key": "packung",
+      "label": "Packungsgröße & Einsatz",
+      "weight": 0.2,
+      "description": "Preis je Ball (nur qualitativ), passende Menge für Training, Roboter/Multiball oder Freizeit."
+    }
+  ],
+  "priceTiers": [
+    { "tier": 1, "label": "günstig", "range": "bis ca. 10 € je Packung" },
+    { "tier": 2, "label": "mittel", "range": "ca. 10–30 € je Packung" },
+    { "tier": 3, "label": "Großpackung", "range": "über ca. 30 € je Packung (dafür niedrigster Preis je Ball)" }
+  ],
+  "products": [
+    {
+      "rank": 1,
+      "label": "Beste Gesamtwahl (3-Sterne-Wettkampfball)",
+      "name": "Butterfly 3 Stern R40+ Tischtennisbälle, weiß (3er-Packung)",
+      "brand": "Butterfly",
+      "variant": "R40+ 3-Stern, weiß, 3 Bälle, Modellnummer 95820",
+      "priceTier": 1,
+      "ratings": { "zulassung": 9.5, "rundlauf": 8.5, "haltbarkeit": 8.0, "packung": 6.5 },
+      "gesamt": 8.28,
+      "bestFor": "Vereins- und ambitionierte Hobbyspieler, die zu Hause mit demselben Ball trainieren wollen wie im Wettkampf",
+      "fakten": [
+        { "text": "Dritte Generation der Butterfly-40+-Plastikbälle, 40 mm, Modellnummer 95820; ITTF-Zulassung für Wettkämpfe laut Listing", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B08632FN6J", "datum": "2026-10-26" },
+        { "text": "Auf amazon.de rund 4,6 von 5 Sternen bei ca. 840 Bewertungen; ein Käufer meldet eine Packung mit unrunden, zu schweren Bällen (Einzelfall)", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B08632FN6J", "datum": "2026-10-26" },
+        { "text": "Butterfly (Tamasu) ist offizieller Ballpartner der ITTF-Weltmeisterschaften 2024–2026; der R40+ 3-Stern ist Spielball der Mannschafts-WM-Finals London 2026", "art": "Herstellerangabe", "quelle": "https://ittf.com/2024/01/30/butterfly-named-official-ball-partner-for-the-ittf-world-table-tennis-championships-finals-2024-2026", "datum": "2024-01-30" },
+        { "text": "Hersteller beschreibt den R40+ als sehr gleichmäßig, mit stabiler Rotation, Geschwindigkeit und Balance und haltbarer als frühere Generationen; Herstellungsland China", "art": "Herstellerangabe", "quelle": "https://shop.butterflyonline.com/Butterfly-R40-3-Star-WTTTC-London-2026-Ball-White-3-pack", "datum": "2026-10-26" },
+        { "text": "Table Tennis England nutzt den R40+ 3-Stern als offiziellen Ball", "art": "Bericht", "quelle": "https://www.tabletennisengland.co.uk/?p=56183", "datum": "2026-10-26" }
+      ],
+      "pros": [
+        "ITTF-zugelassener Wettkampfball, Spielball internationaler Turniere",
+        "Großer Erfahrungsschatz: rund 840 Bewertungen auf amazon.de mit 4,6 Sternen",
+        "Hersteller nennt verbesserte Haltbarkeit gegenüber früheren 40+-Generationen",
+        "Kleine 3er-Packung – günstiger Einstieg, um den Ball auszuprobieren"
+      ],
+      "cons": [
+        "Auf amazon.de nur als 3er-Packung bestätigt – für viel Training teuer je Ball",
+        "Vereinzelt Berichte über unrunde Bälle in einer Packung",
+        "Ob mit oder ohne Naht, ist in den gefundenen Quellen nicht eindeutig belegt"
+      ],
+      "specs": {
+        "Sterne": "3",
+        "Material": "Plastik (ABS laut Listing), 40+",
+        "Durchmesser": "40 mm",
+        "Packung": "3 Bälle",
+        "Farbe": "weiß",
+        "Zulassung": "ITTF (laut Hersteller/Händler)"
+      },
+      "asin": "B08632FN6J",
+      "query": "Butterfly 3 Stern R40+ Tischtennisbälle weiß 3er",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "Nur per Suchtreffer bestätigt (amazon.de nicht direkt abrufbar): „Butterfly 3 Star R40+ Table Tennis Balls Premium Professional Table Tennis Balls White (Pack of 3) Excellent Balanced Competition Balls“ – amazon.de/dp/B08632FN6J"
+    },
+    {
+      "rank": 2,
+      "label": "Bester Trainingsball in großer Packung",
+      "name": "JOOLA Tischtennisbälle Training 40+, 120er-Box",
+      "brand": "JOOLA",
+      "variant": "Training 40+, 120 Bälle, orange (Listing-Titel; im selben Listing auch Weiß wählbar)",
+      "priceTier": 3,
+      "ratings": { "zulassung": 5.0, "rundlauf": 7.0, "haltbarkeit": 7.5, "packung": 9.5 },
+      "gesamt": 7.03,
+      "bestFor": "Roboter-Training, Multiball und Familien, die viele Bälle zum günstigen Preis je Ball brauchen",
+      "fakten": [
+        { "text": "Box mit 120 Bällen, 40 mm, Plastik (zelluloidfrei), für Freizeit- und Vereinsspieler", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B00TDO40E6", "datum": "2026-10-26" },
+        { "text": "Auf amazon.de rund 4,6 von 5 Sternen bei ca. 610 Bewertungen; das Listing bietet 120 Weiß und 120 Orange an, die Beschreibung nennt Orange", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B00TDO40E6", "datum": "2026-10-26" },
+        { "text": "Trainingsball aus ABS mit Naht, auf Haltbarkeit und gleichmäßige Härte ausgelegt; Artikelnummer 44230 (120er-Box)", "art": "Herstellerangabe", "quelle": "https://joola.de/en/products/joola-table-tennis-ball-training-42", "datum": "2026-10-26" },
+        { "text": "JOOLA bündelt genau diese 120er-Box mit dem Roboter Buddy Pro V300 und dem Roboter-Fangnetz", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B098BJ1Q7X", "datum": "2026-10-26" }
+      ],
+      "pros": [
+        "Sehr niedriger Preis je Ball durch 120er-Box",
+        "Vom Roboter-Hersteller JOOLA selbst als Roboter-Zubehör gebündelt",
+        "Mit Naht aus ABS, laut Hersteller auf Haltbarkeit ausgelegt",
+        "Viele Bewertungen (ca. 610) mit 4,6 Sternen"
+      ],
+      "cons": [
+        "Kein ITTF-zugelassener Wettkampfball – fürs Punktspiel einen 3-Stern-Ball nehmen",
+        "Farbangaben im Listing widersprüchlich (Titel Orange, Option Weiß) – beim Kauf Variante prüfen",
+        "Rundlauf und Härte schwanken bei Trainingsbällen stärker als bei 3-Stern-Bällen"
+      ],
+      "specs": {
+        "Sterne": "Trainingsball (keine 3-Stern-Angabe)",
+        "Material": "ABS, mit Naht (Herstellerangabe)",
+        "Durchmesser": "40 mm",
+        "Packung": "120 Bälle",
+        "Farbe": "orange (weiß als Option im Listing)",
+        "Zulassung": "keine ITTF-Wettkampfzulassung"
+      },
+      "asin": "B00TDO40E6",
+      "query": "JOOLA Training 40+ Tischtennisbälle 120",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "Nur per Suchtreffer bestätigt: „Joola Training 120 Table Tennis Balls - Orange“ – amazon.de/dp/B00TDO40E6 (Farboptionen 120 weiß/120 orange im selben Listing)"
+    },
+    {
+      "rank": 3,
+      "label": "Premium-Wahl",
+      "name": "NITTAKU 3-Star Premium 40+ Tischtennisbälle (6er-Packung)",
+      "brand": "Nittaku",
+      "variant": "Premium 40+ 3-Stern, weiß, 6 Bälle, Made in Japan",
+      "priceTier": 2,
+      "ratings": { "zulassung": 9.5, "rundlauf": 9.0, "haltbarkeit": 7.0, "packung": 5.5 },
+      "gesamt": 7.95,
+      "bestFor": "Spieler, die beim Spielgefühl keine Kompromisse wollen und für den Ball mehr ausgeben",
+      "fakten": [
+        { "text": "ITTF-zugelassen, für alle ITTF-Turniere spielbar; in Japan aus einem exklusiv für Nittaku hergestellten Poly-Material gefertigt", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B0895LNJXR", "datum": "2026-10-26" },
+        { "text": "Auf amazon.de rund 4,6 von 5 Sternen bei ca. 230 Bewertungen; Produktdaten nennen intern eine andere ASIN (B017VPIY4U) und Modell NB-1300", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B0895LNJXR", "datum": "2026-10-26" },
+        { "text": "Ball mit Naht (Händlerbezeichnung „seam“)", "art": "Händlerangabe", "quelle": "https://tabletennis11.com/en/nittaku-premium-40-3-ittf-3pcs-seam", "datum": "2026-10-26" },
+        { "text": "In Foren als einer der besten 40+-Bälle gelobt (Gewicht/Härte, Absprung nah am Zelluloid); Kritik: Oberfläche nutzt sich schneller ab, bei Kantentreffern kann er brechen", "art": "Bericht", "quelle": "https://www.tabletennisdaily.com/forum/topics/nittaku-premium-40-balls-japan.8935/latest", "datum": "2026-10-26" }
+      ],
+      "pros": [
+        "ITTF-zugelassen, japanische Fertigung",
+        "In Spielerforen für Rundlauf, Härte und Spielgefühl besonders gelobt",
+        "Auf amazon.de auch als 12er-Packung (B01N9BGXAO) erhältlich"
+      ],
+      "cons": [
+        "Teuerster Ball je Stück in diesem Vergleich",
+        "Laut Forenberichten Oberfläche weniger abriebfest, Bruch bei Kantentreffern möglich",
+        "Mehrere ähnliche amazon.de-Listings mit unterschiedlichen Daten – auf „Premium 40+“ und Made in Japan achten"
+      ],
+      "specs": {
+        "Sterne": "3",
+        "Material": "Poly 40+ (zelluloidfrei), mit Naht",
+        "Durchmesser": "40 mm",
+        "Packung": "6 Bälle",
+        "Farbe": "weiß",
+        "Herkunft": "Japan (Händlerangabe)",
+        "Zulassung": "ITTF (laut Händler)"
+      },
+      "asin": "B0895LNJXR",
+      "query": "NITTAKU 3-Star Premium 40+ Tischtennisbälle 6er",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "Nur per Suchtreffer bestätigt: „NITTAKU 3-Star Premium 40+ Table Tennis Ball (Pack of 6)“ – amazon.de/dp/B0895LNJXR"
+    }
+  ],
+  "top5": [
+    {
+      "name": "DONIC Ball Coach P40+ ** 120er, weiß",
+      "warum": "Großpackung für Roboter und Multiball in Weiß: 2-Stern-Trainingsball von Donic, wenn man eine eindeutig weiße 120er-Box will.",
+      "fakten": [
+        { "text": "120 Bälle, weiß, 2-Stern-Qualität, Herstellernummer 94471200; laut Listing etwas höherer Absprung und etwas weniger Spin als der ältere Coach 40+", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B07R63FB41", "datum": "2026-10-26" },
+        { "text": "Trainingsball mit Naht für Vereine, Jugend- und Aufschlagtraining, lange Haltbarkeit", "art": "Händlerangabe", "quelle": "https://tabletennis11.com/et_en/donic-p40-2-coach-seam-120pcs/", "datum": "2026-10-26" }
+      ],
+      "asin": "B07R63FB41",
+      "query": "DONIC Ball Coach P40+ 120 weiß",
+      "where": null,
+      "asinGeprueft": "Nur per Suchtreffer: „DONIC Ball Coach P40+ **120 Options St, White“ – amazon.de/dp/B07R63FB41 (Listing nennt fälschlich Sportart Basketball/Material Gummi – Katalogfehler)"
+    },
+    {
+      "name": "JOOLA Outdoor Tischtennisbälle 40+",
+      "warum": "Für die Platte im Garten: schwererer Ball, der bei leichtem Wind ruhiger fliegt.",
+      "fakten": [
+        { "text": "Outdoor-Ball aus ABS, 40+ mm, laut Hersteller ca. 15 % schwerer als Standardbälle für stabile Ballwechsel bei leichtem Wind (Art. 42183, 12er)", "art": "Herstellerangabe", "quelle": "https://joola.de/en/products/joola-table-tennis-ball-outdoor-pack-of-12", "datum": "2026-10-26" },
+        { "text": "Amazon-Beschreibung nennt dagegen ca. 20 % Mehrgewicht; Rezensionen loben die Windstabilität, kritisieren aber Haltbarkeit und teils unrunde Bälle", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B09NMDSY9Z", "datum": "2026-10-26" }
+      ],
+      "asin": "B09NMDSY9Z",
+      "query": "JOOLA Outdoor Tischtennisbälle 40+ wetterfest",
+      "where": null,
+      "asinGeprueft": "Nur per Suchtreffer: „JOOLA Outdoor Table Tennis Balls - 40+ mm Table Tennis Balls Weatherproof, Robust for Outdoor Use (6…“ – Titel abgeschnitten, Packungsgröße (6 oder 12) unklar"
+    },
+    {
+      "name": "Donic-Schildkröt Colour Popps Tischtennisbälle, 6 farbige Bälle",
+      "warum": "Bunte Bälle für Kinder und Anfänger – gut sichtbar und günstig, nicht für den Wettkampf.",
+      "fakten": [
+        { "text": "6 farbige Bälle in Poly-40+-Qualität (zelluloidfrei), Modellnummer 649015; Farbmischung kann vom Bild abweichen", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B0021HD5VG", "datum": "2026-10-26" },
+        { "text": "Rund 4,6 von 5 Sternen bei mehreren hundert Bewertungen; einzelne Käufer bemängeln den Absprung", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B0021HD5VG", "datum": "2026-10-26" }
+      ],
+      "asin": "B0021HD5VG",
+      "query": "Donic-Schildkröt Colour Popps Tischtennisbälle",
+      "where": null,
+      "asinGeprueft": "Nur per Suchtreffer: „Donic Colour pops Table Tennis balls pack of 6 - Colours may vary“ – amazon.de/dp/B0021HD5VG"
+    },
+    {
+      "name": "Donic-Schildkröt Tischtennisball 3-Stern Champion ITTF, Poly 40+, 120 Stück",
+      "warum": "Vereins- und Trainingsball in Wettkampfqualität: ITTF-zugelassene 3-Stern-Bälle im Großkarton für alle, die auch im Training mit Turnierbällen spielen.",
+      "fakten": [
+        { "text": "3-Stern-Ball, ITTF-zugelassen, Poly 40+ ohne Zelluloid, 40 mm, Großkarton mit 120 Bällen (Art. 608542)", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B07DPMZ5VQ", "datum": "2026-10-26" }
+      ],
+      "asin": "B07DPMZ5VQ",
+      "query": "Donic-Schildkröt Champion ITTF 3 Stern 120",
+      "where": null,
+      "asinGeprueft": "Nur per Suchtreffer: „Donic-Schildkröt Table Tennis Balls 3* Champion Poly 40+, white, 120 pieces“ – amazon.de/dp/B07DPMZ5VQ"
+    },
+    {
+      "name": "JOOLA Flash 40+ *** Tischtennisbälle, 6 Bälle, weiß (nahtlos)",
+      "warum": "Nahtloser 3-Stern-Ball aus einem Stück – für alle, die einen besonders gleichmäßigen Ball ohne Naht wollen.",
+      "fakten": [
+        { "text": "Nahtloser Ball aus einem Stück für runden Lauf und gleichmäßigen Absprung, für Training und Wettkampf", "art": "Herstellerangabe", "quelle": "https://joola.de/products/joola-tischtennisball-flash-40-6er-pack", "datum": "2026-10-26" },
+        { "text": "Listing: 3 Sterne, zelluloidfrei, erfüllt laut Text die aktuellen ITTF-Anforderungen; rund 4,4–4,5 Sterne bei mehreren hundert Bewertungen", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B01CGT2OQ0", "datum": "2026-10-26" }
+      ],
+      "asin": "B01CGT2OQ0",
+      "query": "JOOLA Flash 40+ 3 Sterne nahtlos 6",
+      "where": null,
+      "asinGeprueft": "Nur per Suchtreffer: „JOOLA 40041 Flash White 40+ 6 Balls, White, One Size“ – amazon.de/dp/B01CGT2OQ0"
+    }
+  ],
+  "tests": [],
+  "regelwerk": [
+    { "text": "Regelball: kugelförmig, 40 mm Durchmesser, 2,7 g, weiß oder orange, matt (ITTF-Regel 2.3); Toleranz 40,00–40,60 mm laut ITTF Technical Leaflet T3", "quelle": "https://gregsttpages.com/guide-to-table-tennis/faqs-glossary/glossary-of-table-tennis-terms/ball/" },
+    { "text": "Seit 1. Januar 2023 nennen die ITTF-Regeln nur noch Plastik; Plastikbälle tragen die Kennzeichnung „40+“", "quelle": "https://www.allabouttabletennis.com/40mm-table-tennis-balls.html" },
+    { "text": "Sterne sind eine Qualitätsstufe der Hersteller, keine ITTF-Norm; maßgeblich für Wettkämpfe ist die Zulassung (ITTF-Liste/Aufdruck)", "quelle": "https://newsarchive.tabletennisengland.co.uk/content/uploads/2014/09/Plastic_Balls_Q_A.pdf" }
+  ],
+  "warnungen": [
+    "Keine Rückrufe oder Safety-Gate-Meldungen zu Tischtennisbällen gefunden (Websuche 2026-10-26; Safety-Gate-Portal selbst nicht abrufbar). Einziger Treffer betraf eine Escalade-Tischtennisplatte in den USA (CPSC 2022), nicht Bälle.",
+    "Nachleuchtende Bälle (Donic-Schildkröt Glow in the Dark) tragen laut Listing den Hinweis „nicht für Kinder unter 3 Jahren – Erstickungsgefahr“; allgemein Bälle von Kleinkindern fernhalten (https://www.amazon.de/dp/B0BZ3QT5JD).",
+    "ITTF-Zulassungen laufen ab und werden erneuert – die Aussage „ITTF-zugelassen“ stammt bei allen Produkten aus Hersteller-/Händlerangaben; vor Punktspielen Aufdruck/Verbandsvorgabe prüfen."
+  ],
+  "verworfen": [
+    { "name": "DHS DJ40+ 3-Stern (WTT-Ball)", "grund": "Auf amazon.de nur Marktplatz-Listings mit uneinheitlichen Markenangaben (DHS, DHS-ZOU, Double Happiness, Ppbigu) und widersprüchlichen Daten – Echtheit nicht sicher." },
+    { "name": "XuShaoFa (XSF) 3-Stern nahtlos", "grund": "Einziges amazon.de-Listing (B00REMJM60) ist falsch betitelt (Hula-Hoop) – keine eindeutige ASIN." },
+    { "name": "Butterfly G40+ 3-Stern 12er", "grund": "Listing laut Suchtreffer derzeit nicht verfügbar; R40+ ist der aktuelle Butterfly-Wettkampfball." },
+    { "name": "Donic P40+ 3-Stern 3er (B074533QLD)", "grund": "Titel 3er-Packung, Packungsinhalt „1 Dutzend“ – widersprüchlich; ITTF-Status in den Quellen nicht belegt." },
+    { "name": "JOOLA Training Advanced 40+ (B0D6NGMKKR)", "grund": "Gute Bewertungen (ca. 2.000), aber nur 15 Bälle und mehrere Listings teils „derzeit nicht verfügbar“ – für Rolle Großpackung die 120er-Box gewählt." },
+    { "name": "JOOLA Prime 40+ 72er (B0795WQG6F)", "grund": "ITTF-Wettkampfball, aber Butterfly R40+ und Donic-Schildkröt Champion 120er decken Wettkampf bzw. Großkarton bereits ab; mögliche Alternative." },
+    { "name": "GEWO Ultra SLP 40+ nahtlos (B0CV11MYJQ)", "grund": "Laut Listing ITTF-zertifiziert und nahtlos, aber kaum Bewertungsdaten gefunden; JOOLA Flash als nahtlose Option mit mehr Erfahrungsberichten gewählt. GEWO Select PRO: keine ASIN gefunden." },
+    { "name": "Nittaku Premium 3 Star (B00OJY9VDU, 3er)", "grund": "Älteres Listing ohne „40+“ im Titel – unklar, ob Zelluloid- oder Plastikball; Premium 40+ gewählt." },
+    { "name": "Donic-Schildkröt Glow in the Dark", "grund": "Spaßball für die Dämmerung, kein Qualitätsball; ggf. nur im Fließtext erwähnen." }
+  ],
+  "offen": [
+    "ITTF-Liste zugelassener Bälle (equipments.ittf.com, ittf.com) und amazon.de sind aus der Arbeitsumgebung nicht abrufbar; alle ITTF-Angaben stammen aus Hersteller-/Händlertexten und Suchtreffern. Redaktion: „laut Hersteller ITTF-zugelassen“ formulieren, keine ITTF-Codes nennen.",
+    "Alle ASINs nur per Suchtreffer (Titel der amazon.de-/dp/-Seite) bestätigt, nicht per Seitenaufruf – Verfügbarkeit vor Merge stichprobenartig prüfen.",
+    "JOOLA Training 120 (B00TDO40E6): Listing-Titel „Orange“, im Listing aber auch 120 Weiß wählbar – im Text Orange nennen und auf die Farbwahl hinweisen; eine eigene ASIN nur für Weiß wurde nicht gefunden.",
+    "JOOLA Outdoor (B09NMDSY9Z): Titel im Suchtreffer abgeschnitten, Packungsgröße 6 oder 12 unklar; Gewichtsangabe Hersteller 15 % vs. Amazon 20 % – im Text Herstellerangabe verwenden.",
+    "Butterfly R40+: Bauart (Naht/nahtlos) nicht belegt – im Text nicht behaupten. Auf amazon.de nur 3er-Packung gefunden.",
+    "Nittaku B0895LNJXR: Produktdaten verweisen intern auf ASIN B017VPIY4U/Modell NB-1300 – Listing-Daten uneinheitlich, Titel passt aber (Premium 40+, 6er).",
+    "Keine unabhängigen Tests (Stiftung Warentest, Öko-Test) für Tischtennisbälle gefunden; Bewertung beruht auf Herstellerangaben, ITTF-Status laut Hersteller und Erfahrungsberichten.",
+    "Awin: freigeschaltet sind nur Rewe, Radwelt-Shop und BrickZoneHub – kein Tischtennis-Händler; alle Produkte über Amazon, kein neuer Awin-Händler nötig."
+  ],
+  "quellen": [
+    { "titel": "amazon.de – Butterfly 3 Star R40+ (3er)", "url": "https://www.amazon.de/dp/B08632FN6J" },
+    { "titel": "amazon.de – JOOLA Training 120", "url": "https://www.amazon.de/dp/B00TDO40E6" },
+    { "titel": "amazon.de – NITTAKU 3-Star Premium 40+ (6er)", "url": "https://www.amazon.de/dp/B0895LNJXR" },
+    { "titel": "amazon.de – NITTAKU Premium 3 Stern 40+ ITTF (12er)", "url": "https://www.amazon.de/dp/B01N9BGXAO" },
+    { "titel": "amazon.de – DONIC Ball Coach P40+ 120 weiß", "url": "https://www.amazon.de/dp/B07R63FB41" },
+    { "titel": "amazon.de – JOOLA Outdoor Tischtennisbälle", "url": "https://www.amazon.de/dp/B09NMDSY9Z" },
+    { "titel": "amazon.de – Donic Colour Popps", "url": "https://www.amazon.de/dp/B0021HD5VG" },
+    { "titel": "amazon.de – Donic-Schildkröt Champion ITTF 120", "url": "https://www.amazon.de/dp/B07DPMZ5VQ" },
+    { "titel": "amazon.de – JOOLA Flash 40+ 6 Bälle", "url": "https://www.amazon.de/dp/B01CGT2OQ0" },
+    { "titel": "amazon.de – JOOLA Buddy Pro V300 mit 120 Bällen", "url": "https://www.amazon.de/dp/B098BJ1Q7X" },
+    { "titel": "ITTF – Butterfly offizieller Ballpartner WM-Finals 2024–2026", "url": "https://ittf.com/2024/01/30/butterfly-named-official-ball-partner-for-the-ittf-world-table-tennis-championships-finals-2024-2026" },
+    { "titel": "Butterfly – R40+ 3-Star WTTTC London 2026", "url": "https://shop.butterflyonline.com/Butterfly-R40-3-Star-WTTTC-London-2026-Ball-White-3-pack" },
+    { "titel": "Table Tennis England – offizieller Ball", "url": "https://www.tabletennisengland.co.uk/?p=56183" },
+    { "titel": "JOOLA – Training 40+ 120er", "url": "https://joola.de/en/products/joola-table-tennis-ball-training-42" },
+    { "titel": "JOOLA – Outdoor 12er", "url": "https://joola.de/en/products/joola-table-tennis-ball-outdoor-pack-of-12" },
+    { "titel": "JOOLA – Flash 40+ 6er", "url": "https://joola.de/products/joola-tischtennisball-flash-40-6er-pack" },
+    { "titel": "tabletennis11 – Nittaku Premium 40+ (seam)", "url": "https://tabletennis11.com/en/nittaku-premium-40-3-ittf-3pcs-seam" },
+    { "titel": "tabletennis11 – Donic P40+ Coach (seam)", "url": "https://tabletennis11.com/et_en/donic-p40-2-coach-seam-120pcs/" },
+    { "titel": "TableTennisDaily-Forum – Nittaku Premium 40+ Japan", "url": "https://www.tabletennisdaily.com/forum/topics/nittaku-premium-40-balls-japan.8935/latest" },
+    { "titel": "Greg's TT Pages – Ball (ITTF-Regel 2.3, T3)", "url": "https://gregsttpages.com/guide-to-table-tennis/faqs-glossary/glossary-of-table-tennis-terms/ball/" },
+    { "titel": "All About Table Tennis – ITTF Approved 40mm Balls", "url": "https://www.allabouttabletennis.com/40mm-table-tennis-balls.html" },
+    { "titel": "Table Tennis England – Plastic Balls Q&A (2014)", "url": "https://newsarchive.tabletennisengland.co.uk/content/uploads/2014/09/Plastic_Balls_Q_A.pdf" }
+  ]
+}

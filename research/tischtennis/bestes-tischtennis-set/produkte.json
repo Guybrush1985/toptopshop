@@ -1,0 +1,254 @@
+{
+  "slug": "bestes-tischtennis-set",
+  "stand": "2026-10-26",
+  "criteria": [
+    { "key": "belag", "label": "Beläge & Schwamm", "weight": 0.3, "description": "ITTF-Zulassung der Beläge, Schwammstärke/-härte und das daraus folgende Verhältnis von Kontrolle zu Tempo und Spin – für Hobbyspieler zählt vor allem Kontrolle mit etwas Spin." },
+    { "key": "holz", "label": "Holz, Griff & Verarbeitung", "weight": 0.2, "description": "Holzaufbau (Lagen, Carbon), Griffform (konkav/gerade/anatomisch), Gewicht und Markenqualität (Kantenschutz, Haltbarkeit der Belagkanten laut Hersteller/Erfahrungen)." },
+    { "key": "lieferumfang", "label": "Lieferumfang", "weight": 0.25, "description": "Anzahl Schläger, Anzahl und Sternklasse der Bälle, Tasche bzw. Hülle – reicht das Set ohne Nachkauf für den geplanten Einsatz?" },
+    { "key": "einsteiger", "label": "Eignung für Familie & Einsteiger", "weight": 0.25, "description": "Fehlerverzeihende Schläger, gemischte Spielstärken, Kinderhände, Belastbarkeit im Familienalltag und Bewertungslage auf amazon.de." }
+  ],
+  "priceTiers": [
+    { "tier": 1, "label": "günstig", "range": "bis ca. 25 €" },
+    { "tier": 2, "label": "mittel", "range": "ca. 25–50 €" },
+    { "tier": 3, "label": "gehoben", "range": "über ca. 50 € (z. B. 2er-Sets mit Wettkampfschlägern von Butterfly)" }
+  ],
+  "products": [
+    {
+      "rank": 1,
+      "label": "Beste Gesamtwahl für die Familie",
+      "name": "JOOLA Tischtennis-Set Family Advanced – 4 Tischtennisschläger + 6 Tischtennisbälle 3-Stern + Tragetasche",
+      "brand": "JOOLA",
+      "variant": "Family Advanced, Art.-Nr. 54823, 4 Schläger, 6 weiße 40-mm-Bälle (3 Sterne), Tragetasche",
+      "priceTier": 2,
+      "ratings": { "belag": 8.0, "holz": 7.5, "lieferumfang": 9.0, "einsteiger": 8.5 },
+      "gesamt": 8.28,
+      "bestFor": "Familien und Freundesgruppen, die zu viert Rundlauf oder Doppel spielen und Schläger mit ITTF-zugelassenen Belägen statt reiner Spaßschläger wollen",
+      "fakten": [
+        { "text": "Lieferumfang laut Listing: 11-teilig – 4 Schläger, 6 weiße 40-mm-Bälle (3 Sterne) und Tragetasche; Modellnummer 54823, Gewicht ca. 0,83 kg", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B0BLTRFHMS", "datum": "2026-10-26" },
+        { "text": "Schläger mit ITTF-zugelassenen JOOLA-VIZON-Belägen (‚Speed Drive‘-Technologie), Schwammhärte ‚soft‘, 7-lagiges Holz, konkaver Griff; vom Hersteller als Kontrollschläger eingestuft", "art": "Herstellerangabe", "quelle": "https://joola.de/en-eu/products/joola-table-tennis-set-joola-family-advanced", "datum": "2026-10-26" },
+        { "text": "Vom Hersteller für ‚ambitionierte Freizeitsportler‘ positioniert", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B0BLTRFHMS", "datum": "2026-10-26" },
+        { "text": "Auf amazon.de je nach Listing-Snapshot ca. 4,3–4,6 von 5 Sternen (ca. 400 Bewertungen in einem Snapshot)", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B0BLTRFHMS", "datum": "2026-10-26" },
+        { "text": "Schwammstärke in Mill­imetern nennt weder Listing noch Herstellerseite (der Einzelbelag VIZON wird in 1,8 mm angeboten – nicht zwingend identisch)", "art": "Herstellerangabe", "quelle": "https://joola.de/en/products/joola-belag-vizon", "datum": "2026-10-26" }
+      ],
+      "pros": [
+        "Vier Schläger mit ITTF-zugelassenen Belägen – auch für den Einstieg im Verein brauchbar",
+        "3-Stern-Bälle statt einfacher Freizeitbälle im Set",
+        "Tasche für alle Schläger und Bälle",
+        "Weicher Schwamm und konkaver Griff: kontrolliert, fehlerverzeihend (Herstellerangabe)"
+      ],
+      "cons": [
+        "Schwammstärke nicht in mm angegeben",
+        "Keine Einzelhüllen – Beläge in der Sammeltasche weniger geschützt",
+        "Bewertungsangaben je Listing-Snapshot uneinheitlich",
+        "Für Kinder unter ca. 8 Jahren kein kleinerer Schläger dabei"
+      ],
+      "specs": {
+        "Schläger": "4",
+        "Bälle": "6 × weiß, 40 mm, 3 Sterne",
+        "Belag": "JOOLA VIZON, ITTF-zugelassen, Schwamm ‚soft‘",
+        "Holz": "7-lagig (Herstellerangabe)",
+        "Griff": "konkav",
+        "Tasche": "Tragetasche",
+        "Art.-Nr.": "54823"
+      },
+      "asin": "B0BLTRFHMS",
+      "query": "JOOLA Family Advanced Tischtennis Set",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "Nur per Suchtreffer (WebSearch, amazon.de/dp/B0BLTRFHMS): „JOOLA Family Advanced Table Tennis Set, 4 Table Tennis Bats + 6 Table Tennis Balls 3Star + Carry Bag, Advanced Level, 28 x 18 x 8 cm“ – Seite nicht direkt abrufbar, Verfügbarkeit laut Snapshot mit Preisangabe (also lieferbar)"
+    },
+    {
+      "rank": 2,
+      "label": "Bestes Preis-Leistungs-Verhältnis",
+      "name": "Schildkröt Tischtennis-Set 4-Player Hobby – 4 Schläger, 5 Bälle, Tragetasche",
+      "brand": "Donic-Schildkröt",
+      "variant": "Hobby 4-Player, Art.-Nr. 788603, 4 Schläger (1,5 mm Schwamm), 5 Bälle (3 weiß, 2 orange), Tragetasche mit Reißverschluss",
+      "priceTier": 1,
+      "ratings": { "belag": 6.5, "holz": 6.5, "lieferumfang": 8.0, "einsteiger": 8.5 },
+      "gesamt": 7.38,
+      "bestFor": "Gelegenheitsspieler, Ferienhaus, Garage oder als Zweitset – vier Schläger zum kleinen Preis von einem deutschen Traditionshersteller",
+      "fakten": [
+        { "text": "Lieferumfang: 4 Schläger (Noppen innen, ITTF-zugelassene Oberfläche laut Listing) mit 1,5 mm Schwamm, 5 Bälle 40 mm (3 weiß, 2 orange) in Tragetasche mit Reißverschluss; Modellnummer 788603", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B07DPSXKWV", "datum": "2026-10-26" },
+        { "text": "Auf amazon.de ca. 4,4 von 5 Sternen bei ca. 215 Bewertungen (Snapshot)", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B07DPSXKWV", "datum": "2026-10-26" },
+        { "text": "Händler fitshop nennt 4 Schläger, 5 Bälle, Reißverschlusstasche und 1,5 mm Schwamm; keine zusätzliche Herstellergarantie", "art": "Händlerangabe", "quelle": "https://www.fitshop.com/no/schildkroet-table-tennis-set-hobby-4-player-dsk-788603", "datum": "2026-10-26" },
+        { "text": "Bälle in ‚Freizeitqualität‘ (Listing-Titel), keine Sternklasse angegeben", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B07DPSXKWV", "datum": "2026-10-26" }
+      ],
+      "pros": [
+        "Vier Schläger, Bälle und Tasche zum günstigsten Preis der Top 3",
+        "1,5 mm Schwamm: viel Kontrolle für Anfänger und Kinder",
+        "Weiße und orange Bälle (orange auf hellen Böden/Wänden besser sichtbar)",
+        "Seriöse Marke (Donic-Schildkröt) statt No-Name"
+      ],
+      "cons": [
+        "Bälle nur Freizeitqualität – bei Bedarf 3-Stern-Bälle nachkaufen",
+        "Wenig Spin und Tempo, für ambitionierte Spieler schnell ausgereizt",
+        "Kein Hersteller-Garantieversprechen über die gesetzliche Gewährleistung hinaus (laut Händler)",
+        "Marke im Listing teils nur als ‚Schildkröt‘ geführt"
+      ],
+      "specs": {
+        "Schläger": "4",
+        "Bälle": "5 × 40 mm (3 weiß, 2 orange), Freizeitqualität",
+        "Schwamm": "1,5 mm",
+        "Tasche": "Tragetasche mit Reißverschluss",
+        "Art.-Nr.": "788603",
+        "Herkunft": "China (Listing)"
+      },
+      "asin": "B07DPSXKWV",
+      "query": "Schildkröt Tischtennis-Set 4-Player Hobby",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "Nur per Suchtreffer (WebSearch, amazon.de/dp/B07DPSXKWV): „Schildkröt Table Tennis Set 4-Player Hobby, 4- Player- Set with 4 Bats and 5 Balls in carrybag“ – Snapshot mit Preis (lieferbar), Seite nicht direkt abrufbar"
+    },
+    {
+      "rank": 3,
+      "label": "Premium-Wahl für ambitionierte Hobbyspieler",
+      "name": "JOOLA Tischtennis-Set Duo Carbon – 2 Tischtennisschläger + 3 Tischtennisbälle + Tischtennishülle, Rot/Schwarz, 6-teilig",
+      "brand": "JOOLA",
+      "variant": "Duo Carbon, Art.-Nr. 54822, 2 × Carbon-Speed-Schläger, 3 × JOOLA Tournament 3-Stern, Doppelhülle",
+      "priceTier": 2,
+      "ratings": { "belag": 8.5, "holz": 8.5, "lieferumfang": 7.0, "einsteiger": 6.5 },
+      "gesamt": 7.63,
+      "bestFor": "Paare oder Jugendliche, die regelmäßig spielen, mehr Tempo und Spin wollen und über einen Vereinseinstieg nachdenken",
+      "fakten": [
+        { "text": "Lieferumfang: 2 JOOLA-Carbon-Speed-Schläger, 3 JOOLA-Tournament-Bälle und Doppeltaschen-Schlägerhülle; Modellnummer 54822", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B09YLMY3G4", "datum": "2026-10-26" },
+        { "text": "Carbon-Speed-Holz mit 5+2-Aufbau (Carbon), ITTF-zugelassene VIZON-Beläge, Schwammhärte ‚soft‘, konkaver Griff; ‚Centro Balance‘ für mittige Gewichtsverteilung", "art": "Herstellerangabe", "quelle": "https://joola.de/en/products/joola-table-tennis-set-duo-carbon", "datum": "2026-10-26" },
+        { "text": "Tournament-Bälle erfüllen laut Hersteller die aktuellen ITTF-Wettkampfanforderungen", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B09YLMY3G4", "datum": "2026-10-26" },
+        { "text": "Herstellerwerte Schläger: Speed 112, Spin 104, Kontrolle 99 (Skala bis 120)", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B09YLMY3G4", "datum": "2026-10-26" },
+        { "text": "Auf amazon.de ca. 4,6 von 5 Sternen bei ca. 750 Bewertungen (Snapshot)", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B09YLMY3G4", "datum": "2026-10-26" }
+      ],
+      "pros": [
+        "Carbon-Holz: deutlich mehr Tempo als Familienschläger",
+        "ITTF-zugelassene Beläge und 3-Stern-Turnierbälle",
+        "Hülle schützt die Beläge",
+        "Viele, überwiegend positive Bewertungen"
+      ],
+      "cons": [
+        "Nur 2 Schläger und 3 Bälle – für Familien/Rundlauf zu wenig",
+        "Schneller Schläger verzeiht weniger: für kleine Kinder und reine Anfänger weniger geeignet",
+        "Schwammstärke in mm nicht angegeben",
+        "Preisangaben schwanken stark zwischen Listings"
+      ],
+      "specs": {
+        "Schläger": "2 × JOOLA Carbon Speed",
+        "Holz": "5+2 Lagen mit Carbon",
+        "Belag": "JOOLA VIZON, ITTF-zugelassen, Schwamm ‚soft‘",
+        "Griff": "konkav",
+        "Bälle": "3 × JOOLA Tournament (3 Sterne, 40+)",
+        "Hülle": "Doppelhülle",
+        "Art.-Nr.": "54822"
+      },
+      "asin": "B09YLMY3G4",
+      "query": "JOOLA Tischtennis Set Duo Carbon",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "Nur per Suchtreffer (WebSearch, amazon.de/dp/B09YLMY3G4): „JOOLA Table Tennis Set Duo Carbon 2 Table Tennis Bats + 3 Table Tennis Balls + Table Tennis Case Red/Black 6-Piece“ – Snapshot mit Preis (lieferbar), Seite nicht direkt abrufbar"
+    }
+  ],
+  "top5": [
+    {
+      "name": "Butterfly Timo Boll Bronze 2 × Tischtennisschläger + 2 × Tischtennishülle Drive Case + 2 × 3*** ITTF R40+ Tischtennisbälle",
+      "warum": "2er-Set für Paare: Markenschläger von Butterfly mit ITTF-zugelassenem Addoy-Belag (1,5 mm) und je eine eigene Hülle plus 3-Stern-Bälle – kontrollierter als das Duo Carbon.",
+      "fakten": [
+        { "text": "Lieferumfang laut Listing: 2 Timo-Boll-Bronze-Schläger, 2 Hüllen (Drive Case, je 1 Schläger + 3 Bälle), 2 Packungen 3-Stern-Bälle (R40+ bzw. G40+ – Angaben im Listing uneinheitlich)", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B08Y91GMZM", "datum": "2026-10-26" },
+        { "text": "Bronze: Addoy-Belag ITTF-zugelassen, 1,5 mm Schwamm, Einsteiger-/Hobbyschläger; Gewichtsangaben je Quelle 150–165 g", "art": "Händlerangabe", "quelle": "https://www.tabletennis365.com/Shop/Product/timo-boll-bronze/6056", "datum": "2026-10-26" }
+      ],
+      "asin": "B08Y91GMZM",
+      "query": "Butterfly Timo Boll Bronze 2 Tischtennisschläger Drive Case Set",
+      "where": null
+    },
+    {
+      "name": "JOOLA Tischtennis-Set NEON – 4 Tischtennisschläger, 8 Tischtennisbälle und Tragetasche",
+      "warum": "4er-Set für Rundlauf mit Freunden: vier Schläger mit Neon-Kantenbändern (leicht unterscheidbar) und acht Bälle – genug Reserve, wenn viele mitspielen.",
+      "fakten": [
+        { "text": "Lieferumfang: 4 Schläger, 8 weiße Bälle, 1 Tasche; Kantenbänder in Orange, Pink, Blau oder Grün", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B0F9L29PYB", "datum": "2026-10-26" },
+        { "text": "Auf amazon.de ca. 4,1 von 5 Sternen bei nur ca. 38 Bewertungen (Snapshot)", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B0F9L29PYB", "datum": "2026-10-26" }
+      ],
+      "asin": "B0F9L29PYB",
+      "query": "JOOLA Tischtennis Set NEON 4 Schläger",
+      "where": null
+    },
+    {
+      "name": "JOOLA Tischtennis-Set Team School – 4 Tischtennisschläger, 8 Tischtennisbälle, Tasche",
+      "warum": "Set für Kinder, Schule und Team: robuste Einsteigerschläger mit 1,5 mm Schwamm, orange und weiße Bälle, sehr viele Käuferbewertungen.",
+      "fakten": [
+        { "text": "Lieferumfang: 4 Schläger, 8 Bälle (4 weiß, 4 orange, 40 mm), Tasche; Modellnummer 54825; für Indoor- und Outdoor-Platten", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B0HCV49VS2", "datum": "2026-10-26" },
+        { "text": "Schläger mit 1,5 mm Schwamm, Bälle 1 Stern", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B00140H35U", "datum": "2026-10-26" },
+        { "text": "Auf amazon.de ca. 4,6 von 5 Sternen bei ca. 7.350 Bewertungen (Snapshot, vermutlich listing-übergreifend)", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B0HCV49VS2", "datum": "2026-10-26" }
+      ],
+      "asin": "B0HCV49VS2",
+      "query": "JOOLA Team School Tischtennis Set",
+      "where": null
+    },
+    {
+      "name": "Schildkröt Tischtennis-Set Spin 788660 mit zwei Schlägern, zwei Bällen und ausziehbarem Netz",
+      "warum": "Set mit ausziehbarem Netz für Esstisch, Urlaub oder Garten: Netz bis 170 cm Tischbreite und 4 cm Plattenstärke, Schläger aus FSC-Holz.",
+      "fakten": [
+        { "text": "2 Schläger aus FSC-zertifiziertem Holz, 2 Bälle, ausziehbares Netz; max. Tischbreite 170 cm, max. Plattenstärke 4,0 cm, Netzhöhe ca. 15 cm; Modell 788660", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B09YJ4CPLK", "datum": "2026-10-26" },
+        { "text": "Netzhöhe ca. 15 cm liegt knapp unter dem Regelmaß 15,25 cm – für Freizeit unkritisch", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B09YJ4CPLK", "datum": "2026-10-26" }
+      ],
+      "asin": "B09YJ4CPLK",
+      "query": "Schildkröt Spin 788660 Tischtennis Set Netz",
+      "where": null
+    },
+    {
+      "name": "Donic-Schildkröt Tischtennis-Set Champs Line 400 – 2 Schläger aus FSC-Holz, 4 Bälle 1*, 2 Schlägerhüllen",
+      "warum": "Nachhaltigeres 2er-Set: Schläger aus FSC-zertifiziertem Holz mit ITTF-zugelassenem Jade-Belag (1,5 mm) und Einzelhüllen.",
+      "fakten": [
+        { "text": "2 Schläger aus FSC-Holz, 4 Bälle in 1-Stern-Qualität, 2 Schlägerhüllen, im Blister; Modell 788498; 2 Jahre Garantie ab Kaufdatum (Listing)", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B089YV2YXB", "datum": "2026-10-26" },
+        { "text": "Schläger Champs Line 400: 1,5 mm Schwamm, ITTF-zugelassener Jade-Belag", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B07DNX11GM", "datum": "2026-10-26" }
+      ],
+      "asin": "B089YV2YXB",
+      "query": "Donic-Schildkröt Champs Line 400 Tischtennis Set FSC",
+      "where": null
+    }
+  ],
+  "tests": [
+    { "institut": "Stiftung Warentest", "heft": "–", "ergebnis": "Kein Test von Tischtennisschlägern oder -Sets gefunden (Suche 2026-10-26; test-stiftung.de – kein Angebot der Stiftung – vermerkt ebenfalls ‚bisher nicht getestet‘).", "quelle": "https://test-stiftung.de/?p=10163" },
+    { "institut": "Öko-Test", "heft": "–", "ergebnis": "Kein Test von Tischtennisschlägern/-Belägen (auch nicht zu Schadstoffen in Griffen oder Belägen) gefunden; Vergleichsportale (testbedarf.de, test-stiftung.de) verlinken nur auf die Öko-Test-Suche.", "quelle": "https://testbedarf.de/tischtennisschlaeger-set" },
+    { "institut": "Stiftung Warentest (themenverwandt)", "heft": "Laufrad-Test (Kinderprodukte mit Gummigriffen)", "ergebnis": "Nur verwandter Befund: PAK in Griffen, Sätteln und Reifen vieler Laufräder – keine Aussage zu Tischtennisschlägern, höchstens als Hintergrund für den Hinweis ‚stark riechende Gummigriffe/Beläge meiden‘.", "quelle": "https://www.test.de/Schadstoffe-in-Alltagsgegenstaenden-Was-stinkt-ist-oft-gefaehrlich-5197739-0/" }
+  ],
+  "warnungen": [
+    "Keine Rückrufe oder Safety-Gate-Meldungen zu Tischtennisschlägern/-Sets der Marken JOOLA, Butterfly oder Donic-Schildkröt gefunden (WebSearch 2026-10-26; Safety-Gate-Datenbank selbst aus der Sandbox nicht abfragbar).",
+    "Keine unabhängigen Schadstoffprüfungen zu Tischtennisbelägen/-griffen bekannt; allgemein rät Stiftung Warentest, stark riechende Gummi-/Kunststoffprodukte zu meiden (https://www.test.de/Schadstoffe-in-Alltagsgegenstaenden-Was-stinkt-ist-oft-gefaehrlich-5197739-0/).",
+    "Für den Vereinsbetrieb müssen Beläge ITTF-zugelassen sein – ‚ITTF‘-Angaben in Listings beziehen sich auf den Belag, nicht auf das ganze Set; die Bälle der Freizeitsets (1 Stern/Freizeitqualität) sind keine Wettkampfbälle."
+  ],
+  "verworfen": [
+    { "name": "Butterfly Timo Boll Titanium 2 × Schläger + Sporttasche + 2 × 3*** R40+ (B0CLVHHS7X)", "grund": "Hochwertig (Wakaba-Belag 2,0 mm, Carbon, konkav), aber für ein Hobby-Set sehr teuer (Einzelschläger ca. 70 € laut Händler) und keine belastbaren Bewertungen auffindbar – Kandidat für die Reserve-Kategorie bester-tischtennisschlaeger-fortgeschrittene." },
+    { "name": "Butterfly 2 × Timo Boll Vision 2000 + Cell Case (B0CLHBDXGZ)", "grund": "Wettkampfnahe Schläger (2,0 mm Wakaba) – eher Fortgeschrittenen-Kategorie; keine Bewertungsdaten gefunden." },
+    { "name": "Butterfly Timo Boll Set 85106 (B00K7NYXVM)", "grund": "2 Schläger (1,5 mm, Pan-Asia-Belag) + 6 Trainingsbälle, aber ohne Hülle/Tasche; Butterfly Bronze 2er-Set mit Hüllen deckt die Rolle besser ab." },
+    { "name": "JOOLA Duo (B0824VBJHD) / Duo Pro (B0CNPJZ9Q2)", "grund": "Gleiche Rolle wie Duo Carbon; Duo Carbon hat die meisten Bewertungen und das bessere Holz." },
+    { "name": "JOOLA Team School älteres Listing (B00140H35U)", "grund": "Dasselbe Produkt (Art.-Nr. 54825); B0HCV49VS2 als aktuelles Listing bevorzugt – Produktinformationen auf B0HCV49VS2 verweisen aber auf B00140H35U (siehe offen)." },
+    { "name": "Donic-Schildkröt Outdoor Tischtennisset mit Netz (B0842RLS8G)", "grund": "Laut Suchtreffer ‚derzeit nicht verfügbar‘." },
+    { "name": "PRO-SPIN Tischtennisschläger-Set mit Netz (B0B657L174)", "grund": "Marktplatz-/Direktvertriebsmarke ohne belegbare Herstellerqualität; Schildkröt Spin als Markenalternative mit Netz gewählt." },
+    { "name": "Donic-Schildkröt Ovtcharov 400 FSC (B01C2PSEH6)", "grund": "Alternative FSC-Set mit Tasche, aber nur 3 Bälle; Champs Line 400 mit Einzelhüllen und 4 Bällen gewählt – gleichwertig, kann getauscht werden." }
+  ],
+  "offen": [
+    "Alle ASINs nur per WebSearch-Treffer (amazon.de/dp/…) bestätigt – amazon.de, joola.de und fitshop.com sind aus der Sandbox nicht abrufbar (DNS). Titel passen; Verfügbarkeit nur aus Snapshots mit Preisangabe abgeleitet. Vor Veröffentlichung kurz im Browser prüfen.",
+    "JOOLA Team School: Listing B0HCV49VS2 nennt in den Produktinformationen ASIN B00140H35U (Modell 54825) – vermutlich zusammengeführte Listings; die hohe Bewertungszahl (~7.350) könnte listing-/variantenübergreifend sein.",
+    "Schwammstärke (mm) für JOOLA Family Advanced und Duo Carbon weder bei Amazon noch bei JOOLA angegeben (nur Härte ‚soft‘) – im Text nicht als mm-Wert nennen.",
+    "Bälle im Butterfly-Bronze-2er-Set im Listing teils R40+, teils G40+ – im Text neutral ‚3-Stern-Bälle‘ schreiben.",
+    "Schildkröt Hobby 788603: ‚ITTF-Zulassung‘ stammt nur aus dem Amazon-Listing (übersetzt), keine Herstellerseite gefunden – im Text vorsichtig formulieren.",
+    "Keine unabhängigen Tests (Stiftung Warentest/Öko-Test) – Bewertung redaktionell nach Hersteller-/Händlerangaben und Bewertungslage; Methodik-Hinweis nötig.",
+    "Awin: laut Scout-Bericht (API 2026-10-26) nur Rewe, Radwelt-shop, brickzonehub freigeschaltet – kein Sporthändler; Awin-API nicht erneut abgefragt, da alle Produkte über Amazon verfügbar sind."
+  ],
+  "quellen": [
+    { "titel": "amazon.de – JOOLA Family Advanced (B0BLTRFHMS)", "url": "https://www.amazon.de/dp/B0BLTRFHMS" },
+    { "titel": "JOOLA – Family Advanced Set (Herstellerseite)", "url": "https://joola.de/en-eu/products/joola-table-tennis-set-joola-family-advanced" },
+    { "titel": "JOOLA – Belag VIZON", "url": "https://joola.de/en/products/joola-belag-vizon" },
+    { "titel": "amazon.de – Schildkröt Hobby 4-Player (B07DPSXKWV)", "url": "https://www.amazon.de/dp/B07DPSXKWV" },
+    { "titel": "fitshop – Schildkröt Hobby 4-Player 788603", "url": "https://www.fitshop.com/no/schildkroet-table-tennis-set-hobby-4-player-dsk-788603" },
+    { "titel": "amazon.de – JOOLA Duo Carbon (B09YLMY3G4)", "url": "https://www.amazon.de/dp/B09YLMY3G4" },
+    { "titel": "JOOLA – Duo Carbon Set (Herstellerseite)", "url": "https://joola.de/en/products/joola-table-tennis-set-duo-carbon" },
+    { "titel": "amazon.de – Butterfly Timo Boll Bronze 2er-Set (B08Y91GMZM)", "url": "https://www.amazon.de/dp/B08Y91GMZM" },
+    { "titel": "Tabletennis365 – Butterfly Timo Boll Bronze", "url": "https://www.tabletennis365.com/Shop/Product/timo-boll-bronze/6056" },
+    { "titel": "amazon.de – JOOLA NEON Set (B0F9L29PYB)", "url": "https://www.amazon.de/dp/B0F9L29PYB" },
+    { "titel": "amazon.de – JOOLA Team School (B0HCV49VS2)", "url": "https://www.amazon.de/dp/B0HCV49VS2" },
+    { "titel": "amazon.de – JOOLA Team School älteres Listing (B00140H35U)", "url": "https://www.amazon.de/dp/B00140H35U" },
+    { "titel": "amazon.de – Schildkröt Spin 788660 (B09YJ4CPLK)", "url": "https://www.amazon.de/dp/B09YJ4CPLK" },
+    { "titel": "amazon.de – Donic-Schildkröt Champs Line 400 Set (B089YV2YXB)", "url": "https://www.amazon.de/dp/B089YV2YXB" },
+    { "titel": "amazon.de – Donic-Schildkröt Champs Line 400 Schläger (B07DNX11GM)", "url": "https://www.amazon.de/dp/B07DNX11GM" },
+    { "titel": "test-stiftung.de – Tischtennisschläger (kein Warentest-Test)", "url": "https://test-stiftung.de/?p=10163" },
+    { "titel": "testbedarf.de – Tischtennisschläger-Set Vergleich", "url": "https://testbedarf.de/tischtennisschlaeger-set" },
+    { "titel": "Stiftung Warentest – Schadstoffe in Alltagsgegenständen", "url": "https://www.test.de/Schadstoffe-in-Alltagsgegenstaenden-Was-stinkt-ist-oft-gefaehrlich-5197739-0/" }
+  ]
+}

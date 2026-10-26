@@ -93,6 +93,9 @@ Definiert in `src/templates/visuals.mjs`; neue Formen ergänzt der Illustrator-A
 - Flugsimulator (Set `OBJECTS`): `joystick` (HOTAS: Stick + Schubregler), `yoke` (Steuerhorn mit Tischgehäuse),
   `pedals` (Ruderpedale), `throttle` (Schubhebel-Quadrant), `flightrig` (Cockpit-Rahmen mit Sitz),
   `flightstand` (Klapp-Ständer ohne Sitz)
+- Tischtennis (Set `OBJECTS`): `ttrobot` (Ballroboter mit Ballbehälter auf der Platte), `ttbats` (zwei gekreuzte
+  Schläger + Ball), `ttballs` (Ballpackung mit Sternen + drei Bälle), `ttnet` (Netzgarnitur mit zwei Klemmpfosten),
+  `ttcover` (Abdeckhülle über der hochgeklappten Platte); `pingpong` = Platte
 
 ### Textbausteine in `sections[].blocks`
 

@@ -1,0 +1,484 @@
+{
+  "slug": "beste-tischtennisplatten-abdeckhuelle",
+  "criteria": [
+    {
+      "key": "passform",
+      "label": "Passform",
+      "weight": 0.35,
+      "description": "Maße und Bauart (geklappt in Parkposition ca. 150–160 × 160 × 80/25 cm oder flach in Spielposition 274 × 152,5 cm) und für welche Plattenmarken die Hülle ausgelegt ist."
+    },
+    {
+      "key": "wetterschutz",
+      "label": "Material & Wetterschutz",
+      "weight": 0.3,
+      "description": "Gewebe/Folie, Wasser- und UV-Beständigkeit laut Hersteller und Erfahrungsberichte zur Haltbarkeit über mehrere Winter."
+    },
+    {
+      "key": "verschluss",
+      "label": "Verschluss & Windsicherung",
+      "weight": 0.2,
+      "description": "Reißverschluss, Klett, Gurte oder Kordelzug am unteren Rand – entscheidend, damit die Hülle bei Sturm auf der Platte bleibt."
+    },
+    {
+      "key": "erfahrung",
+      "label": "Verarbeitung & Käufererfahrung",
+      "weight": 0.15,
+      "description": "Durchschnittsbewertung und Zahl der Bewertungen auf amazon.de, wiederkehrende Mängel (Risse, Nähte, Reißverschluss)."
+    }
+  ],
+  "priceTiers": [
+    {
+      "tier": 1,
+      "label": "günstig",
+      "range": "bis ca. 40 €"
+    },
+    {
+      "tier": 2,
+      "label": "mittel",
+      "range": "ca. 40–70 €"
+    },
+    {
+      "tier": 3,
+      "label": "gehoben",
+      "range": "über ca. 70 €"
+    }
+  ],
+  "products": [
+    {
+      "rank": 1,
+      "label": "Beste universelle Hülle für geklappte Platten",
+      "name": "KETTLER Tischtennis Abdeckhaube Premium, wetterfest, robust (grau)",
+      "brand": "KETTLER",
+      "variant": "Premium, grau, Polyester, Reißverschluss, 150 × 160 × 80/25 cm",
+      "priceTier": 3,
+      "ratings": {
+        "passform": 8.5,
+        "wetterschutz": 8.5,
+        "verschluss": 7.5,
+        "erfahrung": 8.5
+      },
+      "gesamt": 8.3,
+      "bestFor": "Besitzer einer klappbaren Outdoor-Platte in Turniergröße (Kettler oder andere Marke mit üblichem Parkmaß), die eine stabile Stoffhülle mit Reißverschluss für viele Winter wollen",
+      "fakten": [
+        {
+          "text": "Maße 150 × 160 × 80/25 cm (H × L × B), für zusammengeklappte Platten in Parkposition",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B0014D6RAO",
+          "datum": "2026-10-26"
+        },
+        {
+          "text": "100 % Polyester, wetterfest und UV-beständig, reißfestes Kunstfasergewebe, Reißverschluss; Befestigung am unteren Rand soll Wegwehen verhindern",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B09K3MRHF5",
+          "datum": "2026-10-26"
+        },
+        {
+          "text": "Auf amazon.de rund 4,6–4,7 von 5 Sternen bei ca. 30–55 Bewertungen (je nach Listing-Snapshot)",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B0014D6RAO",
+          "datum": "2026-10-26"
+        },
+        {
+          "text": "Käufer loben die Passform auf Kettler-Platten; ein Käufer berichtet, die Hülle sei bei der ersten starken Böe weggeweht (nachträglich mit Ösen gesichert); vereinzelt Schäden an scharfen Plattenkanten",
+          "art": "Bericht",
+          "quelle": "https://www.amazon.de/dp/B0014D6RAO",
+          "datum": "2026-10-26"
+        },
+        {
+          "text": "Listing widersprüchlich: Sicherheitshinweis „nicht in Innenräumen verwenden“, an anderer Stelle Staubschutz für innen",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B09K3MRHF5",
+          "datum": "2026-10-26"
+        }
+      ],
+      "pros": [
+        "Übliches Parkmaß 150 × 160 × 80/25 cm passt auf die meisten klappbaren Turnierplatten",
+        "Robustes Polyestergewebe statt dünner Folie (Herstellerangabe)",
+        "Reißverschluss erleichtert das Überziehen",
+        "Sehr gute Käuferbewertungen"
+      ],
+      "cons": [
+        "Teuerste Hülle im Vergleich",
+        "Windsicherung laut einem Käufer nicht ausreichend – zusätzlich festbinden",
+        "Keine Belüftungsöffnungen beschrieben",
+        "Nur für geklappte Platten, nicht für die Spielposition"
+      ],
+      "specs": {
+        "Bauart": "Haube für geklappte Platte (Parkposition)",
+        "Maße": "150 × 160 × 80/25 cm (Händlerangabe)",
+        "Material": "100 % Polyester",
+        "Verschluss": "Reißverschluss, Befestigung am unteren Rand",
+        "Farbe": "grau"
+      },
+      "asin": "B0014D6RAO",
+      "query": "KETTLER Tischtennis Abdeckhaube Premium grau",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "Nur per Suchtreffer bestätigt (amazon.de nicht direkt abrufbar): „KETTLER Table Tennis Cover Premium Weatherproof Robust (Grey)“ bzw. „KETTLER Premium Cover for Table Tennis Tables, Weatherproof … Grey“ (amazon.de/…/dp/B0014D6RAO); Verfügbarkeit nicht live geprüft"
+    },
+    {
+      "rank": 2,
+      "label": "Bestes Preis-Leistungs-Verhältnis",
+      "name": "KETTLER Tischtennis Abdeckhaube Basic, wetterfest, UV-beständig, robust (schwarz)",
+      "brand": "KETTLER",
+      "variant": "Basic, schwarz, 100 % HDPE, Klettverschluss, ca. 150 × 160 × 55–80 cm (Modell k_cover_basic_black)",
+      "priceTier": 2,
+      "ratings": {
+        "passform": 8,
+        "wetterschutz": 7,
+        "verschluss": 6.5,
+        "erfahrung": 6
+      },
+      "gesamt": 7.1,
+      "bestFor": "Besitzer einer klappbaren Outdoor-Platte mit üblichem Parkmaß, die eine günstigere Markenhaube als die Premium wollen und auf Reißverschluss und Polyestergewebe verzichten können",
+      "fakten": [
+        {
+          "text": "Ca. 150 × 160 × 55–80 cm, 100 % HDPE (Polyethylen hoher Dichte), Klettverschluss; Schutz vor Regen, Schnee, Staub, Schmutz und UV-Strahlung, für drinnen und draußen; „passt auf fast alle gängigen Tischtennisplatten“",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B0FV2YNNLZ",
+          "datum": "2026-10-26"
+        },
+        {
+          "text": "100 % HDPE, UV-beständig in stabilisierter Ausführung, Klettverschluss, ca. 150 × 160 × 55–80 cm; Hinweis: von offenem Feuer und heißen Flächen fernhalten, nicht über scharfe Kanten ziehen",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.kettlershop.com/en/table-tennis/table-tennis-equipment/kettler-table-tennis-cover-basic_518_1769/",
+          "datum": "2026-10-26"
+        },
+        {
+          "text": "Neu gelistet, auf amazon.de erst sehr wenige Käuferbewertungen – Haltbarkeit über mehrere Winter noch nicht belegt",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B0FV2YNNLZ",
+          "datum": "2026-10-26"
+        }
+      ],
+      "pros": [
+        "Gleiches übliches Parkmaß wie die Premium, Tiefe 55–80 cm deckt viele Gestelle ab",
+        "Material, Maße und Verschluss bei Hersteller und Amazon übereinstimmend angegeben",
+        "Für drinnen und draußen freigegeben (Herstellerangabe)",
+        "Günstiger als die Kettler Premium"
+      ],
+      "cons": [
+        "Kunststoffgewebe (HDPE) statt Polyester, nicht über scharfe Kanten ziehen",
+        "Klettverschluss statt Reißverschluss, keine Gurte beschrieben – zusätzlich festbinden",
+        "Neu auf dem Markt, kaum Käuferberichte zur Haltbarkeit",
+        "Nur für geklappte Platten"
+      ],
+      "specs": {
+        "Bauart": "Haube für geklappte Platte (Parkposition)",
+        "Maße": "ca. 150 × 160 × 55–80 cm (Hersteller- und Händlerangabe)",
+        "Material": "100 % HDPE",
+        "Verschluss": "Klettverschluss",
+        "Farbe": "schwarz"
+      },
+      "asin": "B0FV2YNNLZ",
+      "query": "KETTLER Tischtennis Abdeckhaube Basic",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "Per Suchtreffer bestätigt (amazon.de nicht direkt abrufbar): „KETTLER Table Tennis Cover Basic Weatherproof UV-Resistant and Robust“ (amazon.de/KETTLER-Tischtennis-Abdeckhaube-Basic-Tischtennisplatten/dp/B0FV2YNNLZ), Listing mit Preis angezeigt, also aktiv; Verfügbarkeit nicht live geprüft"
+    },
+    {
+      "rank": 3,
+      "label": "Beste Markenhülle mit Passgenauigkeit",
+      "name": "CORNILLEAU Premium+ Schutzhülle für Tischtennisplatte",
+      "brand": "Cornilleau",
+      "variant": "Premium+, Polyester, Reißverschluss, verstärkte Ecken, ca. 158 × 85/25 × 140 cm",
+      "priceTier": 2,
+      "ratings": {
+        "passform": 8,
+        "wetterschutz": 8.5,
+        "verschluss": 8,
+        "erfahrung": 8.5
+      },
+      "gesamt": 8.22,
+      "bestFor": "Besitzer einer klappbaren Cornilleau-Platte (z. B. 100X–600X), die eine passgenaue Hülle des Plattenherstellers wollen",
+      "fakten": [
+        {
+          "text": "Schutz gegen Regen, Schnee und UV, UV-Prüfung nach ISO 4892-2, verstärkte Ecken, Reißverschluss",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B0CL6FZGYH",
+          "datum": "2026-10-26"
+        },
+        {
+          "text": "Polyester; Befestigungssystem soll die Hülle bei Wind halten; Hinweis: Wird eine Indoor-Platte draußen gelagert, dringt trotzdem etwas Feuchtigkeit ein",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B0CL6FZGYH",
+          "datum": "2026-10-26"
+        },
+        {
+          "text": "Maßangaben uneinheitlich: 158 × 85 × 140 cm (oben 25 cm) bzw. 160 × 85 × 135 cm",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B0CL6FZGYH",
+          "datum": "2026-10-26"
+        },
+        {
+          "text": "Passform-Angaben widersprüchlich: einmal „für alle Cornilleau-/Tectonic-Rollaway-Platten“, einmal „für alle Cornilleau-Platten (nicht Tectonic)“",
+          "art": "Händlerangabe",
+          "quelle": "https://fitshop.de/en/article/detail/COR-201906",
+          "datum": "2026-10-26"
+        },
+        {
+          "text": "Auf amazon.de rund 4,6 von 5 Sternen bei ca. 205 Bewertungen, gelistet seit 19.02.2024",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B0CL6FZGYH",
+          "datum": "2026-10-26"
+        }
+      ],
+      "pros": [
+        "Vom Plattenhersteller auf Cornilleau-Klappplatten zugeschnitten",
+        "UV-Beständigkeit mit Prüfnorm angegeben (Herstellerangabe)",
+        "Verstärkte Ecken gegen Einreißen",
+        "Gute Bewertungen bei vielen Käufern"
+      ],
+      "cons": [
+        "Auf Platten anderer Marken nur bedingt passend",
+        "Tectonic-Kompatibilität widersprüchlich angegeben",
+        "Keine Belüftungsöffnungen beschrieben"
+      ],
+      "specs": {
+        "Bauart": "Haube für geklappte Platte (Parkposition)",
+        "Maße": "ca. 158 × 85/25 × 140 cm (Händlerangabe, uneinheitlich)",
+        "Material": "Polyester",
+        "Verschluss": "Reißverschluss, Befestigungssystem",
+        "UV": "ISO 4892-2 (Herstellerangabe)"
+      },
+      "asin": "B0CL6FZGYH",
+      "query": "CORNILLEAU Premium+ Schutzhülle Tischtennisplatte",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "Nur per Suchtreffer bestätigt: „CORNILLEAU - Premium+ - Protective cover for table tennis - Protects against rain, snow and UV - ISO 4892-2 standard - Reinforced corners - Zip …“ (amazon.de/CORNILLEAU-Schutzhülle-Tischtennisplatte-Verstärkte-Reißverschluss/dp/B0CL6FZGYH)"
+    }
+  ],
+  "top5": [
+    {
+      "name": "JOOLA 19900 Tischtennistisch Abdeckung, Schwarz, 150 x 160 x 50-80 cm",
+      "warum": "Günstige JOOLA-Hülle nur für geklappte Platten – für JOOLA-Outdoor-Platten.",
+      "fakten": [
+        {
+          "text": "Art.-Nr. 19900, 150 × 160 × 50 cm, Reißverschluss, nur für zusammengeklappte Tische; Bewertungen gemischt (ausgefranstes Material, nicht UV-beständig, defekter Reißverschluss)",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B006LYGWWE",
+          "datum": "2026-10-26"
+        }
+      ],
+      "asin": "B006LYGWWE",
+      "query": "JOOLA 19900 Tischabdeckung",
+      "where": null,
+      "asinGeprueft": "Suchtreffer: „Joola Table Tennis Table Protective Cover“ (amazon.de/Joola-19900-JOOLA-Tischabdeckung/dp/B006LYGWWE)"
+    },
+    {
+      "name": "Sponeta Abdeckhülle DL neutral",
+      "warum": "Sponeta-eigene Hülle für Sponeta-Platten (SDL Black/Pro/Raw, S 1-42/43, S 1-72/73 bis S 6-12).",
+      "fakten": [
+        {
+          "text": "Art.-Nr. 197.0002, Polyester, Klettverschluss, 150 × 160 × 80/25 cm; Listing nennt passende Sponeta-Modelle",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B0D983G3Y3",
+          "datum": "2026-10-26"
+        }
+      ],
+      "asin": "B0D983G3Y3",
+      "query": "Sponeta Abdeckhülle DL neutral",
+      "where": null,
+      "asinGeprueft": "Suchtreffer: „Sponeta Abdeckhülle DL neutral“ (amazon.de/Sponeta-197-0002-Abdeckhülle-DL-neutral/dp/B0D983G3Y3), Marke Sponeta; Verfügbarkeit nicht bestätigt"
+    },
+    {
+      "name": "Donic-Schildkröt Tischtennis-Tischhülle, robuste Polyethylen-Folie für zusammenklappbare Tischtennis-Tische (828530)",
+      "warum": "Universelle Donic-Schildkröt-Folienhülle für die meisten klappbaren Outdoor-Platten, günstig.",
+      "fakten": [
+        {
+          "text": "Universalgröße 150 × 160 × 55–80 cm, Reißverschluss, Gummibänder, nur mit Outdoor-Platten verwenden; Material widersprüchlich: Titel „Polyethylen-Folie“, Farbe transparent, Herstellertext dagegen „robustes, wasserabweisendes Polyestergewebe“; Highlights nennen 156 × 164 × 57–81 cm; ca. 4,3 von 5 Sternen bei 136 Bewertungen, Käufer berichten teils von Rissen an den Ecken",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B001L1R8PM",
+          "datum": "2026-10-26"
+        },
+        {
+          "text": "Fachhändler (Sport-Conrad, Alternate) führen Art.-Nr. 828530 als 100 % Polyester bzw. transparent, 150 × 160 × 55–80 cm – laut Suchtreffern, Seiten nicht abrufbar; Herstellerseite donic-schildkroet.com nicht erreichbar",
+          "art": "Bericht",
+          "quelle": "https://www.sport-conrad.com/produkte/schildkroet/tischtennistisch-huelle.html",
+          "datum": "2026-10-26"
+        }
+      ],
+      "asin": "B001L1R8PM",
+      "query": "Donic-Schildkröt Tischhülle 828530",
+      "where": null,
+      "asinGeprueft": "Suchtreffer: „Donic-Schildkröt Table Tennis Table Cover, robust foil for foldable Table Tennis Tables“ (…-828530/dp/B001L1R8PM)"
+    },
+    {
+      "name": "Cornilleau Sport PVC Abdeckhülle für Tischtennisplatten",
+      "warum": "Günstige Cornilleau-Alternative zur Premium+ für Cornilleau-Klappplatten.",
+      "fakten": [
+        {
+          "text": "L 160 × B 25 × H 85 cm, PVC/Polyethylen (grau oder blau), Befestigungssystem gegen Wind, für Cornilleau-Klapptische, 2 Jahre Garantie, Herkunft Frankreich",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B01B3Q6XDM",
+          "datum": "2026-10-26"
+        }
+      ],
+      "asin": "B01B3Q6XDM",
+      "query": "Cornilleau Sport PVC Abdeckhülle",
+      "where": null,
+      "asinGeprueft": "Suchtreffer: „Cornilleau Sport PVC Table Tennis Table Cover“ (amazon.de/CORNILLEAU-Tisch-Bezug-Tischtennis-Sport/dp/B01B3Q6XDM)"
+    },
+    {
+      "name": "JOOLA Tischtennistisch Abdeckung, Table Cover, wetterfeste Schutzhülle inkl. Aufbewahrungstasche, Schwarz, 274 x 137 x 0,3 cm",
+      "warum": "Flache Variante – mit Einschränkungen: kann auf die aufgeklappte Platte gelegt werden, deckt die Spielfläche (152,5 cm breit) mit 137 cm aber nicht ganz ab; gemischte Käuferberichte zur Haltbarkeit.",
+      "fakten": [
+        {
+          "text": "Abdeckung für Tische in Spiel- und Parkposition; Befestigung mit Klett, Schnallen und Gurten am Untergestell",
+          "art": "Herstellerangabe",
+          "quelle": "https://reviews.co.uk/product-reviews/store/joola.de/19901?page=7",
+          "datum": "2026-10-26"
+        },
+        {
+          "text": "Polyester mit wasserdichter PVC-Beschichtung, Klettverschluss und Kordelzug, inklusive Aufbewahrungstasche, Maßangabe 274 × 137 × 0,3 cm, ca. 907 g",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B0B936BWVH",
+          "datum": "2026-10-26"
+        },
+        {
+          "text": "Laut Hersteller nur draußen mit Outdoor-Platten verwenden, nicht mit Indoor-Platten im Freien",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B0B936BWVH",
+          "datum": "2026-10-26"
+        },
+        {
+          "text": "Auf amazon.de rund 3,5–3,6 von 5 Sternen bei ca. 1.600 Bewertungen; Lob für Passform und Preis, Kritik an Haltbarkeit (Risse nach Monaten bis zwei Jahren) und UV-Beständigkeit",
+          "art": "Bericht",
+          "quelle": "https://www.amazon.de/dp/B0B936BWVH",
+          "datum": "2026-10-26"
+        },
+        {
+          "text": "Käufer berichten, die Hülle sei in Parkposition etwas knapp und das Netz verhindere teils das Schließen des Klettverschlusses; „wasserabweisend, nicht wasserdicht“",
+          "art": "Bericht",
+          "quelle": "https://reviews.co.uk/product-reviews/store/joola.de/19901?page=8",
+          "datum": "2026-10-26"
+        }
+      ],
+      "asin": "B0B936BWVH",
+      "query": "JOOLA Tischtennistisch Abdeckung Table Cover 274 x 137",
+      "where": null,
+      "asinGeprueft": "Nur per Suchtreffer bestätigt: „JOOLA Tischtennistisch Abdeckung, Table Cover, Wetterfeste Schutzhülle für Tischtennistische Outdoor und Indoor inklusive Aufbewahrungstasche, Schwarz, 274 x 137 x 0,3 cm“ (amazon.de/…/dp/B0B936BWVH); aktiv laut Bewertungszahl, Verfügbarkeit nicht live geprüft",
+      "ausTop3": "Bis 2026-10-26 Platz 2 (Noten passform 7,5 / wetterschutz 6,5 / verschluss 8,0 / erfahrung 6,0 = 7,08); laut Prüfbericht wegen Haltbarkeitskritik und zu schmalem Zuschnitt in die Top 5 verschoben"
+    }
+  ],
+  "tests": [],
+  "warnungen": [
+    "Keine Rückrufe oder Safety-Gate-Meldungen zu Tischtennisplatten-Abdeckungen gefunden (Websuche 26.10.2026; Safety-Gate-Datenbank selbst nicht abrufbar).",
+    "JOOLA und Donic-Schildkröt: Hüllen laut Hersteller draußen nur mit Outdoor-Platten verwenden – eine Indoor-Platte wird auch unter einer Hülle durch Feuchtigkeit beschädigt (Quellen: amazon.de/dp/B0B936BWVH, amazon.de/dp/B001L1R8PM). Cornilleau-Listing: auch unter der Premium+ dringt etwas Feuchtigkeit ein (amazon.de/dp/B0CL6FZGYH).",
+    "Kettler-Premium-Listing enthält den Hinweis „nicht in Innenräumen verwenden“, beschreibt aber zugleich Staubschutz für innen – widersprüchlich (amazon.de/dp/B09K3MRHF5).",
+    "Windsicherung: Ein Käufer berichtet, die Kettler-Premium-Hülle sei bei starker Böe weggeweht – im Text zum zusätzlichen Festbinden raten (amazon.de/dp/B0014D6RAO).",
+    "Belüftungsöffnungen gegen Kondenswasser nennt keines der geprüften Listings – im Ratgeber Tipps zum Lüften (trockene Tage, Hülle nicht luftdicht am Boden abschließen) ohne Produktversprechen geben."
+  ],
+  "verworfen": [
+    {
+      "name": "Donic-Schildkröt 828530 (B001L1R8PM) als Platz 2",
+      "grund": "Material- und Maßangaben nicht belastbar geklärt (Polyethylen-Folie/transparent vs. Polyestergewebe; 150 × 160 × 55–80 vs. 156 × 164 × 57–81 cm), Herstellerseite nicht erreichbar – bleibt in der Top 5 mit Hinweis. Platz 2 stattdessen Kettler Basic, deren Angaben Hersteller (kettlershop.com) und Amazon übereinstimmend machen."
+    },
+    {
+      "name": "JOOLA 19900 (B006LYGWWE) als Platz 2",
+      "grund": "Herstellerseite bestätigt Bauart (nur geklappt, Reißverschluss), aber wiederkehrende Käuferkritik (nicht UV-beständig, ausgefranstes Material, defekte Reißverschlüsse) – für eine Preis-Leistungs-Empfehlung zu schwach; bleibt Top 5."
+    },
+    {
+      "name": "Generisch „Sponeta Design (DL)“ Abdeckhülle (B0D4J5WTSM)",
+      "grund": "Unter Marke „Generisch“ gelistet, nicht als Sponeta-Ware erkennbar; stattdessen das Sponeta-Markenlisting B0D983G3Y3 in der Top 5."
+    },
+    {
+      "name": "Sponeta SDL Abdeckhülle (B07R5JWQKW)",
+      "grund": "Laut Suchtreffer „derzeit nicht verfügbar“."
+    },
+    {
+      "name": "Cornilleau Premium Abdeckhülle (B01GJO3408)",
+      "grund": "Vorgängermodell; die Premium+ (B0CL6FZGYH) ist das aktuelle, besser bewertete Listing."
+    },
+    {
+      "name": "KETTLER Sparpaket Outdoor-Schläger-Set + Cover (B0BRQLFQRV)",
+      "grund": "Bundle mit Schlägern – Doppelung zum Tischtennis-Set; Hülle einzeln verfügbar."
+    },
+    {
+      "name": "JOOLA-Bundles mit Platte oder Bällen (B0933K7FZZ, B0BG282FBP, B09Y9BZCKN, B0CWGLVGSC, B0C5GZN9Y4)",
+      "grund": "Bundles; keine Plattenempfehlungen auf dieser Seite (Abgrenzung zu /tischtennisplatten/)."
+    },
+    {
+      "name": "No-Name-Hüllen (Dokon B07DJ4L5GF, Awnic B08NJJPR1K, Ymiko o. ä. 280 × 153 cm B08911J2VX, B0B9HG47NR)",
+      "grund": "Austauschbare Marktplatzware ohne Hersteller-Passformangaben; laut Briefing keine No-Name-Ware in Top 3/Top 5."
+    },
+    {
+      "name": "Donic Tischabdeckhülle (Lidl)",
+      "grund": "Nur bei Lidl, weder Amazon noch freigeschalteter Awin-Händler."
+    },
+    {
+      "name": "Kettler Abdeckhaube silber (B004ZP2NEC), Kettler 07032-400 (B000H64F9Y)",
+      "grund": "Ältere Listings, aktuelle Verfügbarkeit nicht bestätigt; aktuelle Premium/Basic bevorzugt."
+    }
+  ],
+  "offen": [
+    "amazon.de und Herstellerseiten (joola.de, buffalo.nl, mastersofgames.com) waren aus der Sandbox nicht abrufbar – alle ASINs nur per Suchtreffer (Titel/URL) bestätigt, Lieferbarkeit nicht live geprüft.",
+    "Kettler Premium grau existiert in zwei Listings: B0014D6RAO (mehr Bewertungen, gewählt) und B09K3MRHF5 (gleicher Titel). Vor Veröffentlichung prüfen, welches aktiv lieferbar ist.",
+    "Kettler Premium als „universell“: Maße entsprechen dem üblichen Parkmaß, eine Hersteller-Kompatibilitätsliste wurde nicht gefunden – im Text als „passt auf klappbare Platten mit Parkmaß bis ca. 160 × 80 cm“ formulieren.",
+    "JOOLA 19901 (B0B936BWVH): jetzt Top 5 als „flache Variante – mit Einschränkungen“; 274 × 137 cm deckt die 152,5 cm breite Spielfläche nicht ganz ab.",
+    "Cornilleau Premium+: Tectonic-Kompatibilität und exakte Maße widersprüchlich – Leser auf Maßvergleich mit der Parkposition hinweisen.",
+    "Zwei Donic-Schildkröt-Listings (B001L1R8PM mit Art.-Nr. 828530 gewählt; B0BK8K7KMS gleicher Titel) – aktives prüfen; Material (PE-Folie vs. Polyester) weiterhin ungeklärt.",
+    "Sponeta DL (B0D983G3Y3): Verfügbarkeit und Verschlussart (Klett vs. Reißverschluss) unklar.",
+    "Keine unabhängigen Tests (Stiftung Warentest, Öko-Test) zu Abdeckhüllen gefunden; Vergleichsportale (testsieger.de, vergleich.org, which.one) nicht als Testquelle nutzen.",
+    "Awin: freigeschaltet sind nur Rewe DE (11652), Radwelt-shop (15088), brickzonehub (121692) – keiner führt Tischtennis-Hüllen; nicht nötig, da alles über Amazon.",
+    "Kettler Basic (B0FV2YNNLZ, jetzt Platz 2): kaum Käuferbewertungen, Note „Verarbeitung & Käufererfahrung“ daher vorsichtig (6,0); kettlershop.com nur per Suchtreffer gelesen (nicht abrufbar). Preisklasse 2 nach UVP ca. 59 €, Amazon-Preis schwankt."
+  ],
+  "quellen": [
+    {
+      "titel": "amazon.de: KETTLER Abdeckhaube Premium grau",
+      "url": "https://www.amazon.de/dp/B0014D6RAO"
+    },
+    {
+      "titel": "amazon.de: KETTLER Abdeckhaube Premium (zweites Listing)",
+      "url": "https://www.amazon.de/dp/B09K3MRHF5"
+    },
+    {
+      "titel": "amazon.de: JOOLA Table Cover 274 × 137 cm (19901)",
+      "url": "https://www.amazon.de/dp/B0B936BWVH"
+    },
+    {
+      "titel": "reviews.co.uk: JOOLA 19901 Kundenbewertungen (joola.de)",
+      "url": "https://reviews.co.uk/product-reviews/store/joola.de/19901?page=7"
+    },
+    {
+      "titel": "amazon.de: CORNILLEAU Premium+ Schutzhülle",
+      "url": "https://www.amazon.de/dp/B0CL6FZGYH"
+    },
+    {
+      "titel": "fitshop.de: Cornilleau protective cover Premium grey",
+      "url": "https://fitshop.de/en/article/detail/COR-201906"
+    },
+    {
+      "titel": "amazon.de: KETTLER Abdeckhaube Basic",
+      "url": "https://www.amazon.de/dp/B0FV2YNNLZ"
+    },
+    {
+      "titel": "amazon.de: JOOLA 19900 Tischabdeckung",
+      "url": "https://www.amazon.de/dp/B006LYGWWE"
+    },
+    {
+      "titel": "amazon.de: Sponeta Abdeckhülle DL neutral",
+      "url": "https://www.amazon.de/dp/B0D983G3Y3"
+    },
+    {
+      "titel": "amazon.de: Donic-Schildkröt Tischhülle 828530",
+      "url": "https://www.amazon.de/dp/B001L1R8PM"
+    },
+    {
+      "titel": "amazon.de: Cornilleau Sport PVC Abdeckhülle",
+      "url": "https://www.amazon.de/dp/B01B3Q6XDM"
+    },
+    {
+      "titel": "which.one: Tischtennisplatten-Abdeckungen im Vergleich (Wettbewerb)",
+      "url": "https://de.which.one/tischtennisplatten-abdeckung"
+    },
+    {
+      "titel": "kettlershop.com: KETTLER Table Tennis Cover BASIC (Hersteller)",
+      "url": "https://www.kettlershop.com/en/table-tennis/table-tennis-equipment/kettler-table-tennis-cover-basic_518_1769/"
+    },
+    {
+      "titel": "sport-conrad.com: Schildkröt Tischtennistisch-Hülle (Fachhandel)",
+      "url": "https://www.sport-conrad.com/produkte/schildkroet/tischtennistisch-huelle.html"
+    }
+  ]
+}

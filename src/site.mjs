@@ -367,4 +367,20 @@ export const areas = [
   <p>Unsere Top-3-Empfehlungen sind bei Amazon erhältlich. Technische Daten kennzeichnen wir als Herstellerangaben. Unabhängige Labortests von Stiftung Warentest & Co. haben wir für Dart-Zubehör bisher nicht gefunden (Stand Oktober 2026) – deshalb erklären wir unsere Kriterien offen. Elektronische Automaten mit Kunststoffspitzen findest du im Gaming-Room unter <a href="/dartautomaten/">Dartautomaten</a>.</p>
   <aside class="callout warn"><p class="ct">Sicherheit</p><p>Steeldarts haben spitze Metallspitzen. Kinder nur unter Aufsicht spielen lassen, nie in Richtung von Türen oder Durchgängen werfen und die Scheibe so hängen, dass niemand hinter oder neben ihr vorbeigeht.</p></aside>`,
   },
+  {
+    slug: "tischtennis",
+    name: "Tischtennis zu Hause",
+    short: "Tischtennis",
+    intro:
+      "Tischtennis im Keller, in der Garage oder im Garten: Schläger-Sets für die ganze Familie, Bälle für Training und Wettkampf, Netzgarnituren, Abdeckhüllen für den Winter und Ballroboter fürs Solotraining – je Kategorie die drei besten Produkte.",
+    metaTitle: "Tischtennis zu Hause: Sets, Bälle, Netze, Hüllen & Roboter",
+    metaDescription:
+      "Tischtennis-Sets, Bälle, Netzgarnituren, Abdeckhüllen und Ballroboter: je Kategorie die 3 besten Produkte mit Kaufberatung für die Platte zu Hause.",
+    article: `
+  <h2>Was brauche ich für Tischtennis zu Hause?</h2>
+  <p class="quick">Am Anfang steht die Platte – unsere Empfehlungen dazu findest du unter <a href="/tischtennisplatten/">Tischtennisplatten</a>. Danach kommen Schläger und Bälle, ein stabiles Netz und für Outdoor-Platten eine Abdeckhülle. Wer auch ohne Partner trainieren will, ergänzt einen Ballroboter.</p>
+  <p>Ein Schläger-Set mit Bällen reicht für die ersten Spiele in der Familie. Wer häufiger spielt, merkt schnell den Unterschied zwischen einfachen Trainingsbällen und 3-Stern-Bällen und zwischen einem wackeligen Klemmnetz und einer festen Netzgarnitur. Nach den Regeln des Weltverbands ITTF ist das Netz 15,25 cm hoch und der Ball hat 40 mm Durchmesser; Details erklären wir auf den einzelnen Seiten.</p>
+  <p>Unsere Top-3-Empfehlungen sind bei Amazon erhältlich. Technische Daten kennzeichnen wir als Herstellerangaben. Unabhängige Labortests von Stiftung Warentest & Co. haben wir für Tischtennis-Zubehör bisher nicht gefunden (Stand Oktober 2026) – deshalb legen wir unsere Kriterien offen. Mehr Spiele für den Hobbyraum: <a href="/kickertische/">Kickertische</a>, <a href="/airhockey-tische/">Airhockey-Tische</a> und <a href="/shuffleboard-shufflepuck/">Shuffleboard</a>.</p>
+  <aside class="callout"><p class="ct">Tipp</p><p>Outdoor-Platten halten länger, wenn sie zusammengeklappt und mit einer passenden Hülle überwintern. Miss vor dem Kauf die geklappte Platte aus – viele Hüllen passen nur auf bestimmte Modelle.</p></aside>`,
+  },
 ];
