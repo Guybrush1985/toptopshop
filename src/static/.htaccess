@@ -4,6 +4,9 @@ ErrorDocument 404 /404.html
 # MyShotCoach heißt jetzt tennistrainer.app und läuft dort in einem eigenen Projekt
 RedirectMatch 301 ^/myshotcoach/?(.*)$ https://tennistrainer.app/$1
 
+# I feel the Vibe: v1 ist abgeschaltet, alles läuft auf v2
+RedirectMatch 302 ^/vibe(/.*)?$ /vibe-v2/
+
 # Thirsty heißt jetzt Firsty
 RedirectMatch 301 ^/thirsty/?(.*)$ /firsty/$1
 
