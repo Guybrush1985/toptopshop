@@ -1,6 +1,6 @@
 {
   "slug": "bester-bass-shaker-sim-racing",
-  "stand": "2026-10-24",
+  "stand": "2026-10-24 · Korrektur 2026-10-26 (Prüfbericht: A-409→A-410, BST-1→AuraSound AST-2B-4, Audio System→Sinuslive bassPUMP III)",
   "hinweisMethodik": "amazon.de, thebuttkicker.com und traxion.gg sind aus der Sandbox nicht direkt abrufbar (Proxy 403/DNS). ASINs, Verfügbarkeit und Herstellerdaten stammen aus WebSearch-Treffern (amazon.de-/dp/-Seiten, Hersteller- und Händlerseiten). Such-Snapshots sind teils widersprüchlich und undatiert – Verfügbarkeit und Verkäufer vor Livegang im Browser prüfen. Keine unabhängigen Tests (Stiftung Warentest, PCGH, GameStar, ComputerBase) zu Bass-Shakern gefunden.",
   "criteria": [
     {
@@ -38,7 +38,7 @@
   "products": [
     {
       "rank": 1,
-      "label": "Bestes Komplett-Kit",
+      "label": "Beste Gesamtwahl (Komplett-Kit)",
       "name": "ButtKicker Gamer Plus",
       "brand": "ButtKicker (The Guitammer Company)",
       "variant": "BK-GR-PLUS – Transducer mit Universal-Klemme + 90-W-Verstärker BKA-PLUS mit Fernbedienung",
@@ -263,14 +263,14 @@
         "Mehrere Shaker an einem Reckhorn-Verstärker kombinierbar"
       ],
       "cons": [
-        "Verstärker nötig (Reckhorn-Empfehlung A-409/A-800, kostet extra)",
+        "Verstärker nötig (z. B. Reckhorn A-410, Nachfolger des empfohlenen A-409, kostet extra)",
         "Keine Klemme – nur zum Verschrauben",
         "Wird warm: Montagefläche und Belüftung beachten",
         "Viel Körperschall – Entkopplung zum Boden einplanen"
       ],
       "specs": {
         "Bauform": "Einzel-Transducer zum Verschrauben",
-        "Verstärker": "nicht enthalten – z. B. Reckhorn A-409/A-410 (Mono, 4/2 Ω) oder A-803i",
+        "Verstärker": "nicht enthalten – z. B. Reckhorn A-410 (Nachfolger des A-409, Mono, 4/2 Ω) oder A-803i",
         "Benötigtes Zubehör": "Verstärker mit Tiefpass (Racing 100–150 Hz laut Reckhorn) und Subsonic-Filter, Lautsprecherkabel; für Telemetrie SimHub + freier Audio-Ausgang",
         "Leistung": "200 W max., 4 Ω (Herstellerangabe)",
         "Montage": "verschraubt unter Sitzschale bzw. Sitzplatte (Holz/Metall)",
@@ -352,59 +352,65 @@
       }
     },
     {
-      "name": "Dayton Audio BST-1 Tactile Bass Shaker 50 Watt",
-      "for": "Bester Einzel-Shaker für Sitzschale (Dayton-Alternative)",
-      "warum": "Größerer Bruder des BST-2 mit 50 W RMS; der in Sim-Rigs verbreitetste Dayton-Shaker, für den es fertige Rig-Halterungen gibt. Verfügbarkeit schwankt.",
+      "name": "AuraSound AST-2B-4 Pro Bass Shaker",
+      "for": "Bewährter Einzel-Shaker für Sitzschale und Sessel",
+      "warum": "Ersatz für den nicht lieferbaren Dayton BST-1: verschraubter 4-Ohm-Shaker einer etablierten Marke mit vielen Kundenbewertungen; Verstärker nötig. Listing-Daten teils widersprüchlich (Bluetooth/wasserdicht/5.1) – nur Impedanz und Leistung übernehmen.",
       "fakten": [
         {
-          "text": "50 W RMS, 4 Ohm, 10–80 Hz, Fs 30 Hz; Dayton empfiehlt Verstärker SA70 für einen bzw. SPA250 für 2–4 Shaker und Tiefpass ≤ 80 Hz (Herstellerangabe im Listing).",
-          "art": "Herstellerangabe",
-          "quelle": "https://www.amazon.de/Dayton-Audio-BST-1-Tactile-Shaker/dp/B01CDDPJTI",
-          "datum": "2026-10-24 (Suchauszug)"
-        },
-        {
-          "text": "amazon.de: 4,6 von 5 Sternen bei rund 1.049 Bewertungen; ein Snapshot zeigt „Derzeit nicht verfügbar“, ein anderer ein Angebot ab 89,99 €.",
+          "text": "4 Ohm, 50 W, Frequenzangabe 40 Hz, 6-Zoll-Bauform, Metallgehäuse; zugleich unpassende Angaben (Bluetooth 10 m, wasserdicht, 5.1 Kanäle) im selben Listing.",
           "art": "Händlerangabe",
-          "quelle": "https://www.amazon.de/Dayton-Audio-BST-1-Tactile-Shaker/dp/B01CDDPJTI",
-          "datum": "Snapshot, Datum unbekannt"
+          "quelle": "https://www.amazon.de/AuraSound-AST-2B-4-Shaker-Tactile-Transducer/dp/B0002ZPTBI",
+          "datum": "2026-10-26 (Suchauszug)"
         },
         {
-          "text": "Rezension: an einem 100-W-Verstärker wurde der 50-W-Shaker sehr heiß.",
-          "art": "Bericht",
-          "quelle": "https://www.amazon.de/Dayton-Audio-BST-1-Tactile-Shaker/dp/B01CDDPJTI",
-          "datum": "Snapshot, Datum unbekannt"
+          "text": "amazon.de: 4,6 von 5 Sternen bei 515 Bewertungen; Preis-Snapshot vorhanden (nicht übernehmen).",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/AuraSound-AST-2B-4-Shaker-Tactile-Transducer/dp/B0002ZPTBI",
+          "datum": "2026-10-26 (Suchauszug)"
+        },
+        {
+          "text": "Trak Racer Universal-Halterung (B0DJ89K9YV) nennt den AST-2B-4 unter den kompatiblen Shakern, Lochabstand prüfen.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/Trak-Universelle-Buttkicker-Transducer-Halterung/dp/B0DJ89K9YV",
+          "datum": "2026-10-26 (Suchauszug)"
         }
       ],
-      "asin": "B01CDDPJTI",
-      "query": "Dayton Audio BST-1 Tactile Bass Shaker",
-      "asinGeprueft": "Dayton Audio Pro Tactile BST-39 1 High Power Bass Shaker 50 Watts : Amazon.de: Musical Instruments & DJ (Titel verstümmelt, Beschreibung = BST-1). Verfügbarkeit LIVE PRÜFEN.",
+      "asin": "B0002ZPTBI",
+      "query": "AuraSound AST-2B-4 Pro Bass Shaker",
+      "asinGeprueft": "AuraSound AST-2B-4 Pro Bass Shaker Tactile Converter : Amazon.de: Musical Instruments & DJ – Verfügbarkeit LIVE PRÜFEN (nur Suchauszug).",
       "where": null,
       "specs": {
-        "Verstärker": "nicht enthalten",
-        "Benötigtes Zubehör": "Verstärker (Dayton-Empfehlung SA70 bzw. SPA250), Halterung, SimHub"
+        "Verstärker": "nicht enthalten (4-Ω-stabil)",
+        "Benötigtes Zubehör": "Verstärker, Kabel, ggf. Rig-Halterung; SimHub am PC"
       }
     },
     {
-      "name": "RECKHORN A-409 Verstärker",
-      "for": "Verstärker-Tipp für Einzel-Shaker (Reckhorn BS-200, ButtKicker Mini LFE)",
-      "warum": "Von Reckhorn für den BS-200(i) empfohlener Mono-Verstärker mit Tiefpass, Phase und Subsonic-Filter – macht aus Platz 3 ein komplettes Rig-Setup. Mono: alle Shaker erhalten dasselbe Signal (kein ortsgenaues SimHub-Mehrkanal).",
+      "name": "Reckhorn A-410 Verstärker",
+      "for": "Verstärker-Tipp für Einzel-Shaker (Reckhorn BS-200, ButtKicker Mini LFE, AuraSound)",
+      "warum": "Nachfolger des nicht mehr lieferbaren A-409 (von Reckhorn für den BS-200 empfohlen); laut Listing gleiche Bedienung und Daten. Mono: alle Shaker erhalten dasselbe Signal.",
       "fakten": [
         {
-          "text": "400-W-Mono-Verstärker, 280 W RMS an 4 Ohm und 375 W RMS an 2 Ohm (je 0,7 % Klirr), Subsonic-Filter laut Hersteller auch für Shaker dringend empfohlen (Herstellerangabe).",
+          "text": "1-Kanal-Subwoofer-Verstärker, 400 W, Digitaltechnik, Metallgehäuse als Kühlkörper; 2-Ohm-fähig (zwei 4-Ohm-Lasten parallel).",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/Reckhorn-Elektronisches-Verst%C3%A4rker-Metallgeh%C3%A4use-Subwoofer/dp/B0DNN2FSQP",
+          "datum": "2026-10-26 (Suchauszug)"
+        },
+        {
+          "text": "„Bedienung und Daten entsprechen dem Vorgängermodell A-409“; das Listing nennt Bass-Shaker nicht ausdrücklich.",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/Reckhorn-Elektronisches-Verst%C3%A4rker-Metallgeh%C3%A4use-Subwoofer/dp/B0DNN2FSQP",
+          "datum": "2026-10-26 (Suchauszug)"
+        },
+        {
+          "text": "Daten des A-409: 280 W RMS an 4 Ohm, 375 W RMS an 2 Ohm, Subsonic-Filter laut Hersteller auch für Shaker dringend empfohlen.",
           "art": "Herstellerangabe",
           "quelle": "https://www.amazon.de/-/en/A-409-RECKHORN-Amplifier/dp/B01GPOCO08",
           "datum": "2026-10-24 (Suchauszug)"
-        },
-        {
-          "text": "amazon.de: 4,2 von 5 Sternen bei 12 Bewertungen; Nachfolger A-410 (B0DNN2FSQP) „entspricht in Bedienung und Daten dem A-409“.",
-          "art": "Händlerangabe",
-          "quelle": "https://www.amazon.de/-/en/A-409-RECKHORN-Amplifier/dp/B01GPOCO08",
-          "datum": "Snapshot, Datum unbekannt"
         }
       ],
-      "asin": "B01GPOCO08",
-      "query": "Reckhorn A-409 Verstärker",
-      "asinGeprueft": "RECKHORN A-409 Amplifier: Amazon.de: Electronics & Photo. Verfügbarkeit LIVE PRÜFEN; falls nicht lieferbar: Reckhorn A-410 B0DNN2FSQP (Listing nennt Bassshaker nicht ausdrücklich).",
+      "asin": "B0DNN2FSQP",
+      "query": "Reckhorn A-410 Verstärker",
+      "asinGeprueft": "Reckhorn A-410 Electronic Construction Element Amplifier, 1 Channel, 400 Watt, Metal Housing, A-410 Subwoofer Mono Amplifier : Amazon.de – Titel passt; Verfügbarkeit LIVE PRÜFEN (Suchauszug ohne Lagerstatus).",
       "where": null,
       "specs": {
         "Verstärker": "ist der Verstärker (Mono, 2–4 Ω)",
@@ -412,41 +418,40 @@
       }
     },
     {
-      "name": "ButtKicker Gamer Pro",
-      "for": "Bester für große bzw. schwere Rigs (nur wenn wieder lieferbar)",
-      "warum": "Großer Bruder des Gamer Plus: 150-W-Verstärker und schwererer Kolben (ca. 450 g / 1 lb), gleiche Klemme, laut Hersteller für größere Rigs. amazon.de-Listing aktuell nicht verfügbar.",
+      "name": "Sinuslive bassPUMP III 4 Ohm",
+      "for": "Günstigster Einstieg unter dem Sitz",
+      "warum": "Ersetzt den Audio System Bass Shaker (widersprüchliche Daten, wenige Bewertungen): Budget-Shaker eines deutschen Car-Hifi-Anbieters mit Herstelleranleitung und Sim-Racing-Nutzerberichten (SimHub). Schwächer als BS-200/AST-2B-4, Verarbeitung teils kritisiert.",
       "fakten": [
         {
-          "text": "Verstärker BKA-PRO 150 W RMS an 2 Ohm; Transducer 5–200 Hz, 2 Ohm, Kolben 1 lb; Klemme bis 45 mm; HDMI-/Optik-Extraktoren für Konsolen nicht enthalten (Händlerangaben).",
-          "art": "Händlerangabe",
-          "quelle": "https://www.aerosoft.com/en/shop/games/hardware/3872/buttkicker-gamer-pro",
-          "datum": "2026-10-24 (Suchauszug)"
+          "text": "Leistung 50 W Sinus / 80 W max., Frequenzbereich 20–80 Hz, Ø ca. 131–135 mm × 42–43 mm, membranloser Körperschallerzeuger zum Verschrauben (Bedienungsanleitung via Conrad).",
+          "art": "Herstellerangabe",
+          "quelle": "https://asset.conrad.com/media10/add/160267/c1/-/cs/000376287ML01/upute-za-rukovanje-376287-sinuslive-basspump-vibracijski-zvucnik-130-mm-70-w-4.pdf",
+          "datum": "2026-10-26 (Suchauszug)"
         },
         {
-          "text": "amazon.de: „Derzeit nicht verfügbar“, kein hervorgehobenes Angebot; 4,4 von 5 Sternen bei 16 Bewertungen.",
+          "text": "amazon.de-Listing 4 Ohm: 70 W max., Verstärker 20–200 W, ideal 50 W; Frequenzfeld widersprüchlich (5,1 Hz).",
           "art": "Händlerangabe",
-          "quelle": "https://www.amazon.de/-/en/ButtKicker-BK-GR-PRO-Gamer-Pro-black/dp/B09XN8L3MH",
-          "datum": "Snapshot, Datum unbekannt"
+          "quelle": "https://www.amazon.de/-/en/Sine-Live-Bass-Pump-III-Ohm-black/dp/B0000WR4F2",
+          "datum": "2026-10-26 (Suchauszug)"
+        },
+        {
+          "text": "Rezensionen: Montage unter dem Sitz, gute Ergebnisse mit SimHub; einige bemängeln die Verarbeitung.",
+          "art": "Bericht",
+          "quelle": "https://www.amazon.de/-/en/Sine-Live-Bass-Pump-III-Ohm-black/dp/B0000WR4F2",
+          "datum": "2026-10-26 (Suchauszug)"
         }
       ],
-      "asin": "B09XN8L3MH",
-      "query": "ButtKicker Gamer Pro",
-      "asinGeprueft": "BUTTKICKER Gamer Pro: Amazon.de: Electronics & Photo (BK-GR-PRO) – DERZEIT NICHT VERFÜGBAR; nur verlinken, wenn live wieder lieferbar, sonst durch Reserve ersetzen.",
+      "asin": "B0000WR4F2",
+      "query": "Sinuslive bassPUMP III 4 Ohm",
+      "asinGeprueft": "Sine Live Bass-Pump III 4 Ohm: Amazon.de: Electronics & Photo (maschinell übersetzter Titel von „Sinus Live“) – Verfügbarkeit LIVE PRÜFEN; 8-Ohm-Variante B0000WR4FC nicht verwechseln.",
       "where": null,
       "specs": {
-        "Verstärker": "enthalten (BKA-PRO, 150 W RMS @ 2 Ω)",
-        "Benötigtes Zubehör": "HaptiConnect/SimHub am PC; Konsole nur mit HDMI-/Optik-Extraktor"
+        "Verstärker": "nicht enthalten (4 Ω, ideal ca. 50 W)",
+        "Benötigtes Zubehör": "Verstärker, Kabel; SimHub am PC"
       }
     }
   ],
-  "top5Reserve": [
-    {
-      "name": "Audio System Bass Shaker 220 W",
-      "asin": "B01FKHSOQE",
-      "hinweis": "Deutscher Car-Audio-Hersteller; 4 Ohm, 35–100 Hz laut Listing (Leistungsangaben im Listing widersprüchlich), nur 4,3 Sterne bei 15 Bewertungen; Verstärker nötig. Nur als Ersatz für Gamer Pro.",
-      "quelle": "https://www.amazon.de/Audio-System-BASS-SHAKER-Watt/dp/B01FKHSOQE"
-    }
-  ],
+  "top5Reserve": [],
   "tests": [
     {
       "institut": "traxion.gg (Sim-Racing-Fachportal, englisch)",
@@ -511,18 +516,39 @@
     },
     {
       "name": "No-Name-Shaker (Douk Audio BS-1, Sintron/„Bodyshaker“, Sinuslive bassPUMP)",
-      "grund": "Austauschbare Ware bzw. wenig Bewertungen; Briefing: keine No-Name-Ware in Top 3."
+      "grund": "Austauschbare Ware bzw. wenig Bewertungen; Briefing: keine No-Name-Ware in Top 3. – Ausnahme 26.10.2026: Sinuslive bassPUMP III (deutsche Marke, Herstelleranleitung) als Budget-Eintrag in die Top 5, nicht Top 3."
+    },
+    {
+      "name": "Dayton Audio BST-1 (B01CDDPJTI)",
+      "grund": "Prüfbericht 26.10.2026: „derzeit nicht verfügbar“, Titel verstümmelt („BST-39 1“) – durch AuraSound AST-2B-4 ersetzt."
+    },
+    {
+      "name": "Reckhorn A-409 (B01GPOCO08)",
+      "grund": "Prüfbericht 26.10.2026: „Derzeit nicht verfügbar, unbekannt ob wieder lieferbar“ – durch Nachfolger A-410 (B0DNN2FSQP) ersetzt."
+    },
+    {
+      "name": "Audio System Bass Shaker 220 W (B01FKHSOQE)",
+      "grund": "Widersprüchliche Leistungsangaben im Listing („2 x 220 140 Watt“), nur ca. 25 Bewertungen – durch Sinuslive bassPUMP III ersetzt."
+    },
+    {
+      "name": "ButtKicker Gamer Pro (B09XN8L3MH)",
+      "grund": "weiterhin nicht verfügbar – nicht in Top 5."
+    },
+    {
+      "name": "Douk Audio BSA-600 (B0D2L7L1LR) / Fosi Audio BT20A Pro (B07JVFY27T)",
+      "grund": "Stereo-Verstärker-Kandidaten; Douk ohne unabhängige Berichte, Fosi-Listing vermischt BT20A/BT20A Pro – nicht aufgenommen."
     }
   ],
   "offen": [
-    "Verfügbarkeit LIVE PRÜFEN: B09XPB7THZ (Gamer Plus, letzter Preis-Snapshot vermutlich Juni 2026), B08NN5V62G und B00AMH17GC (beide „Nur noch 1 auf Lager“), B01CDDPJTI (widersprüchlich), B01GPOCO08 (unbekannt). Gamer Pro B09XN8L3MH ist nicht verfügbar → im Top-5 nur behalten, wenn wieder lieferbar, sonst Reserve Audio System 220 W (B01FKHSOQE) oder Top 5 mit 4 Einträgen.",
+    "Verfügbarkeit LIVE PRÜFEN (amazon.de war am 26.10.2026 nur per Suchauszug erreichbar, kein Lagerstatus): A-410 B0DNN2FSQP, AuraSound AST-2B-4 B0002ZPTBI, Sinuslive bassPUMP III B0000WR4F2, dazu weiterhin B09XPB7THZ, B08NN5V62G, B00AMH17GC.",
     "Verkäufer: nur beim Reckhorn BS-200 bestätigt (Reckhorn Audio GmbH); bei Gamer Plus, BST-2, TT25, Mini LFE Verkäufer (Amazon/Hersteller vs. Drittanbieter) unbekannt.",
     "Nur ein Komplett-Kit mit Verstärker ist sicher gelistet (Gamer Plus). Platz 2 und 3 sind Einzel-Shaker – Redaktion muss Verstärkerbedarf in Karte, Tabelle und FAQ deutlich machen; Verstärker-Tipp A-409 in Top 5. Platz 3 ist Ersatz für die nicht verfügbaren Rollenkandidaten BST-300EX und Gamer Pro (transparent begründet).",
     "Rangfolge: Gesamtnoten 8,10 / 6,95 / 7,33 – Platz 1 höchste Note; Plätze 2/3 nach Rollen sortiert (Redakteur kann Platz 2/3 tauschen, falls absteigende Noten gewünscht).",
     "SimHub: Lizenzmodell (kostenlose Version vs. Lizenz) und ob ShakeIt Bass Shaker in der Gratisversion voll nutzbar ist, nicht belegt – im Text nur „SimHub (PC, Windows)“ ohne Preisaussage oder vorher auf simhubdash.com prüfen. Belegt: bis 8 Kanäle je Audio-Gerät, Shaker brauchen eigene Audio-Ausgänge + Verstärker (SimHub-Wiki).",
     "Konsolen-Telemetrie: Einige Spiele (z. B. GT7, F1, Forza) senden Telemetrie per Netzwerk an einen PC mit SimHub (Community-Berichte GTPlanet) – nur erwähnen, wenn der Redakteur eine belastbare Quelle ergänzt.",
     "Keine unabhängigen deutschsprachigen Tests gefunden; einzige Fach-Review (traxion.gg) nur per Suchauszug.",
-    "Awin: Keine joined-Programme passend (nur Rewe, Radwelt-shop, brickzonehub). Amazon deckt alle Top-3 ab, daher keine Bewerbung nötig. Falls der Gamer Pro dauerhaft auf amazon.de fehlt, wäre Caseking DE (Awin-ID 28817, Status notjoined) ein möglicher Händler – Sortiment (ButtKicker) nicht bestätigt. Bewerbungstext-Entwurf: „toptop.shop ist ein deutschsprachiges Vergleichsportal für Gaming-Room- und Sim-Racing-Ausstattung (Direct-Drive-Lenkräder, Pedale, Shifter, Bass-Shaker, Cockpits) mit redaktionell begründeten Top-3-Empfehlungen und Kompatibilitätstabellen. Wir möchten passende Caseking-Produkte als Bezugsquelle mit transparent gekennzeichneten Affiliate-Links einbinden. Keine Gutschein-/Cashback-Seite, kein Paid Traffic auf Markenbegriffe.“"
+    "Awin: Keine joined-Programme passend (nur Rewe, Radwelt-shop, brickzonehub). Amazon deckt alle Top-3 ab, daher keine Bewerbung nötig. Falls der Gamer Pro dauerhaft auf amazon.de fehlt, wäre Caseking DE (Awin-ID 28817, Status notjoined) ein möglicher Händler – Sortiment (ButtKicker) nicht bestätigt. Bewerbungstext-Entwurf: „toptop.shop ist ein deutschsprachiges Vergleichsportal für Gaming-Room- und Sim-Racing-Ausstattung (Direct-Drive-Lenkräder, Pedale, Shifter, Bass-Shaker, Cockpits) mit redaktionell begründeten Top-3-Empfehlungen und Kompatibilitätstabellen. Wir möchten passende Caseking-Produkte als Bezugsquelle mit transparent gekennzeichneten Affiliate-Links einbinden. Keine Gutschein-/Cashback-Seite, kein Paid Traffic auf Markenbegriffe.“",
+    "Symbolbild bassshaker zeigt immer einen Verstärker (Prüfbericht Punkt 4) – Variante ohne Verstärker für Platz 2/3 ist Aufgabe des Illustrators, nicht umgesetzt."
   ],
   "quellen": [
     {
@@ -628,6 +654,22 @@
     {
       "titel": "Lemmy – Nutzerbericht ButtKicker Gamer Plus",
       "url": "https://lemm.ee/post/9406500"
+    },
+    {
+      "titel": "amazon.de: Reckhorn A-410",
+      "url": "https://www.amazon.de/Reckhorn-Elektronisches-Verst%C3%A4rker-Metallgeh%C3%A4use-Subwoofer/dp/B0DNN2FSQP"
+    },
+    {
+      "titel": "amazon.de: AuraSound AST-2B-4 Pro",
+      "url": "https://www.amazon.de/AuraSound-AST-2B-4-Shaker-Tactile-Transducer/dp/B0002ZPTBI"
+    },
+    {
+      "titel": "amazon.de: Sinuslive bassPUMP III 4 Ohm",
+      "url": "https://www.amazon.de/-/en/Sine-Live-Bass-Pump-III-Ohm-black/dp/B0000WR4F2"
+    },
+    {
+      "titel": "Conrad: Sinuslive bassPUMP Bedienungsanleitung",
+      "url": "https://asset.conrad.com/media10/add/160267/c1/-/cs/000376287ML01/upute-za-rukovanje-376287-sinuslive-basspump-vibracijski-zvucnik-130-mm-70-w-4.pdf"
     }
   ]
 }

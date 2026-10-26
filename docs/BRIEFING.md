@@ -275,3 +275,9 @@ Mindestumfang je Kategorie: **≥ 1.000 Wörter** (nicht künstlich auffüllen),
   Gaming-Room und verlinkt auf den Bereich. Unabhängige Tests für Dart-Zubehör gibt es nicht; Regelmaße (1,73 m / 2,37 m) stehen
   ausführlich nur auf `/beste-steeldart-scheibe/`, die anderen Seiten verlinken dorthin. Bereichsseiten ohne Unterbereiche zeigen
   seitdem alle Kategorien (vorher nur zwei).
+- 2026-10-24: **Sim-Racing-Ausbau** im Gaming-Room (täglicher Lauf, flache URLs ohne Gruppe): Direct-Drive-Lenkrad, Sim-Racing-Pedale,
+  Shifter, Handbremse, Bass-Shaker – ausschließlich Amazon. Kombigeräte Shifter + Handbremse (Logitech RS, Thrustmaster TSS) stehen nur
+  auf `/beste-sim-racing-handbremse/`, der TH8A nur auf `/bester-sim-racing-shifter/`. Pedale aus Lenkrad-Bundles zählen zur
+  Direct-Drive-Seite; `/sim-racing-cockpits/` bleibt für Rahmen/Sitze zuständig. Kompatibilität (PC/PS5/Xbox, Hersteller-System) ist auf
+  allen fünf Seiten Kernkriterium mit eigener Tabelle; widersprüchliche Herstellerangaben werden als solche benannt. Neue Symbolbilder
+  `ddwheel`, `racepedals`, `shifter`, `handbrake`, `bassshaker`.

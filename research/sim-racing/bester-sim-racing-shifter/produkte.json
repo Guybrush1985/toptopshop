@@ -205,11 +205,11 @@
         "Anschluss": "USB (PC) oder Shifter-Port der MOZA-Basis",
         "Befestigung": "Alu-Profil-Cockpit; Tisch nur mit MOZA Universal Mounting Plate"
       },
-      "asin": "B0CWL91SHH",
+      "asin": "B0FN6RRMSB",
       "query": "MOZA SGP Sequential Shifter",
       "shop": null,
       "url": null,
-      "asinGeprueft": "MOZA SGP Sequential Shifter : Amazon.de: PC & Video Games (amazon.de/dp/B0CWL91SHH, per WebSearch; Snapshot 5,0 Sterne/1 Bewertung, Neuangebot vorhanden). Zweites Listing B0FN6RRMSB „Moza SGP Sequential Shifter“ (RS059, 4,7 Sterne/4 Bewertungen) – Verkäufer/Angebot beider live prüfen."
+      "asinGeprueft": "MOZA SGP Sequential Shifter PC, Sequential Gear Lever Metal Gaming : Amazon.de: Sports & Outdoors (amazon.de/dp/B0FN6RRMSB, URL-Slug MOZA-RACING-RS059-Sequential-Shifter, per WebSearch 2026-10-26; aktives Listing, 4 Bewertungen laut Prüfbericht). Korrekturrunde 2026-10-26: umgestellt von B0CWL91SHH (PC & Video Games, laut Prüfer und WebSearch ‚derzeit nicht verfügbar‘)."
     },
     {
       "rank": 3,
@@ -380,14 +380,14 @@
           "datum": "2026-10"
         },
         {
-          "text": "amazon.de-Snapshot: B0C2PS6S85 3,6 Sterne bei 18 Bewertungen; B0FM89ZZMC 5,0 Sterne bei 8 Bewertungen",
+          "text": "amazon.de-Snapshot: aktives Listing B0FM89ZZMC 5,0 Sterne bei 8 Bewertungen (wenige Bewertungen); Alt-Listing B0C2PS6S85 (3,6 Sterne/18 Bewertungen) derzeit nicht verfügbar",
           "art": "Händlerangabe",
-          "quelle": "https://www.amazon.de/dp/B0C2PS6S85",
+          "quelle": "https://www.amazon.de/dp/B0FM89ZZMC",
           "datum": "2026-10"
         }
       ],
-      "asin": "B0C2PS6S85",
-      "asinGeprueft": "MOZA HGP Shifter : Amazon.de: PC & Video Games (amazon.de/dp/B0C2PS6S85, Snapshot nur noch wenige auf Lager)",
+      "asin": "B0FM89ZZMC",
+      "asinGeprueft": "MOZA Racing HGP Shifter Video Game Controller for Simulation Scenarios : Amazon.de: Computer & Accessories (amazon.de/dp/B0FM89ZZMC, per WebSearch 2026-10-26; Hersteller Gudsen, Modell MOZA HGP, 7+R, 5,0 Sterne/8 Bewertungen). Korrekturrunde 2026-10-26: umgestellt von B0C2PS6S85 (laut Prüfer ‚derzeit nicht verfügbar‘).",
       "query": "MOZA HGP Shifter",
       "where": null
     },
@@ -524,9 +524,9 @@
   ],
   "offen": [
     "Reihenfolge: Ränge nach Gesamtnote sortiert (MOZA SGP 7,25 = Platz 2, Driving Force 6,9 = Platz 3); die Rollen bleiben wie in der Struktur. Wer die Struktur-Reihenfolge der Rollen (P/L vor Sequenziell) will, kann tauschen – Platz 1 bleibt höchste Note.",
-    "Alle ASINs nur per WebSearch-Snapshot bestätigt (amazon.de aus der Sandbox nicht abrufbar): Verkäufer (Amazon vs. Marktplatz) und Lieferbarkeit vor Merge live prüfen – besonders TH8A B005L0Z2BQ (Preisschwankungen 125–170 €), Fanatec B0H5XBBZFQ (laut Snapshots teils nur 3–12 Stück, ein Snapshot ‚derzeit nicht verfügbar‘) und MOZA HGP B0C2PS6S85 (nur noch wenige auf Lager).",
-    "MOZA SGP: zwei Listings mit passendem Titel – B0CWL91SHH (PC & Video Games, 1 Bewertung, eingetragen) und B0FN6RRMSB (RS059, Sports & Outdoors, 4 Bewertungen, günstiger im Snapshot). Verkäufer/Angebot beider live vergleichen und ggf. auf B0FN6RRMSB wechseln.",
-    "MOZA HGP: B0C2PS6S85 hat nur 3,6 Sterne (18 Bewertungen), B0FM89ZZMC („MOZA Racing HGP Shifter Video Game Controller for Simulation Scenarios“) 5,0 Sterne (8). Eingetragen B0C2PS6S85 (offizieller Titel); bei Live-Prüfung Verkäufer beider prüfen. Ursache der schwachen Bewertung nicht ermittelt.",
+    "Alle ASINs nur per WebSearch-Snapshot bestätigt (amazon.de aus der Sandbox nicht abrufbar): Verkäufer (Amazon vs. Marktplatz) und Lieferbarkeit vor Merge live prüfen – besonders TH8A B005L0Z2BQ (Preisschwankungen 125–170 €), Fanatec B0H5XBBZFQ (laut Snapshots teils nur 3–12 Stück, ein Snapshot ‚derzeit nicht verfügbar‘) und MOZA HGP (jetzt B0FM89ZZMC).",
+    "MOZA SGP: erledigt (Korrekturrunde 2026-10-26) – auf aktives Listing B0FN6RRMSB (RS059) umgestellt, B0CWL91SHH ist derzeit nicht verfügbar. Verkäufer vor Merge live ansehen.",
+    "MOZA HGP: erledigt (Korrekturrunde 2026-10-26) – auf aktives Listing B0FM89ZZMC („MOZA Racing HGP Shifter Video Game Controller for Simulation Scenarios“) umgestellt; B0C2PS6S85 derzeit nicht verfügbar. Satz zur ‚gemischten Bewertungslage‘ im Text ersetzt durch Hinweis auf wenige Bewertungen.",
     "MOZA-Konsolen-Kompatibilität: SGP/HGP am Shifter-Port Xbox-tauglicher MOZA-Basen (R3 Xbox-Variante) laut MOZA-Support möglich, aber nicht eindeutig belegt → im Text als ‚PC; Xbox nur über Xbox-kompatible MOZA-Basis, beim Hersteller prüfen‘ formulieren.",
     "Logitech RS H-Shifter: Quellen uneinheitlich, ob an G PRO/RS50 auf Konsole ein Adapter nötig ist (Logitech/CGMagazine: direkt; ChannelNews: Racing Adapter). Text: ‚direkt an G PRO/RS50, an G29/G920/G923 nur mit Racing Adapter‘.",
     "TH8S: Thrustmaster-Support nennt nur H-Modus (7+1); eine Support-Zusammenfassung erwähnt Sequenziell-Modus über DIN – widersprüchlich, im Text kein Sequenziell-Modus versprechen.",

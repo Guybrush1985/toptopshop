@@ -7,7 +7,7 @@ export default {
   area: "gaming-room",
   navLabel: "Sim-Racing-Pedale",
   published: "2026-10-24",
-  updated: "2026-10-24",
+  updated: "2026-10-26",
 
   metaTitle: "Die 3 besten Sim-Racing-Pedale 2026 (Loadcell im Vergleich)",
   metaDescription:
@@ -314,7 +314,7 @@ export default {
       {
         name: "Logitech G RS Pedals mit Racing Adapter",
         for: "Besitzer von G29, G920 oder G923",
-        text: "Die RS Pedals mit 75-kg-Loadcell plus der Racing Adapter, den Logitech für G25, G27, G29, G920 und G923 auf der Konsole verlangt. Das alte Lenkrad bleibt, nur die Bremse wird besser. Den genauen Lieferumfang des Pakets vor dem Kauf im Listing prüfen.",
+        text: "Die RS Pedals mit 75-kg-Loadcell plus der Racing Adapter, den Logitech für G25, G27, G29, G920 und G923 auf der Konsole verlangt. Das alte Lenkrad bleibt, nur die Bremse wird besser. Laut amazon.de-Listing besteht das Paket aus zwei Artikeln – RS Pedals und Racing Adapter –, die getrennt geliefert werden können.",
         asin: "B0FMYGNT2F",
         query: "Logitech G RS Pedals mit Racing Adapter",
       },
@@ -335,7 +335,7 @@ export default {
       {
         name: "Logitech G RS Pedals mit RS Kupplungsmodul",
         for: "Günstiges 3-Pedal-Set für H-Schaltung",
-        text: "RS Pedals mit 75-kg-Loadcell plus Kupplungsmodul, das links an der Fersenplatte montiert wird (Herstellerangabe) – für Rallye, Oldtimer und Truck-Sims mit H-Shifter. Konsole wie bei den RS Pedals nur über ein Logitech-Lenkrad. Lieferstatus vor dem Kauf prüfen.",
+        text: "RS Pedals mit 75-kg-Loadcell plus Kupplungsmodul, das links an der Fersenplatte montiert wird (Herstellerangabe) – für Rallye, Oldtimer und Truck-Sims mit H-Shifter. Konsole wie bei den RS Pedals nur über ein Logitech-Lenkrad. amazon.de führt das Paket im Titel mit Kupplungsmodul, die Listing-Beschreibung nennt das Modul an anderer Stelle aber als optional – Lieferumfang und Lieferstatus vor dem Kauf prüfen.",
         asin: "B0FMYH5936",
         query: "Logitech G RS Pedals mit RS Kupplungsmodul",
       },
@@ -353,7 +353,7 @@ export default {
           { p: "Bei den Fanatec CSL Elite V2 entscheidest du dich für einen Weg: Laut Handbuch hängen sie entweder per RJ12 an der Fanatec-Basis oder per USB am PC – nicht beides gleichzeitig. Die Logitech-Pedale stecken am PC direkt per USB, auf der Konsole am USB-Port des Logitech-Lenkrads oder über den Racing Adapter. Thrustmaster-Pedale werden per RJ12 bzw. RJ45 an die Basis angeschlossen; die T598 erkennt das Raceline-LC-Set laut Thrustmaster-Support in einem eigenen Modus." },
           { p: "Der häufigste Ärger ist nicht die Technik, sondern das Wegrutschen. Mit Loadcell drückst du die Pedale kräftig nach vorn und den Stuhl nach hinten. Logitech liefert für die RS Pedals Rahmenverlängerungen und Teppichgreifer und empfiehlt die volle Bremskraft vor allem für Rigs. Wer am Schreibtisch fährt, stellt die Maximalkraft niedriger ein oder stützt die Pedale gegen die Wand ab. Dauerhaft am besten ist eine verschraubte Pedalplatte im [Cockpit](/sim-racing-cockpits/)." },
           { p: "Nach dem Kalibrieren lohnt sich etwas Geduld beim Bremsgefühl: Starte mit einem mittleren Widerstand, fahre ein paar Runden auf einer bekannten Strecke und passe dann Elastomere oder Federn an. Ziel ist eine Bremse, die du fest, aber noch fein dosieren kannst, ohne dass das Bein ermüdet." },
-          { callout: { title: "Kauf und Verfügbarkeit", text: "Die Fanatec CSL Elite Pedals V2 sind auf amazon.de als „Amazon Exclusive“ gelistet, die MOZA SR-P waren bei unserer Recherche nur noch in geringer Stückzahl verfügbar. Prüfe vor dem Kauf Verkäufer und Lieferstatus. Die Thrustmaster T-LCM sind auf amazon.de derzeit nicht lieferbar – die Raceline-Kombination aus Top 5 ersetzt sie." } },
+          { callout: { title: "Kauf und Verfügbarkeit", text: "Die Fanatec CSL Elite Pedals V2 sind auf amazon.de als „Amazon Exclusive“ gelistet, die MOZA SR-P waren bei unserer Recherche teils nur in geringer Stückzahl, teils als „derzeit nicht verfügbar“ gelistet. Prüfe vor dem Kauf Verkäufer und Lieferstatus. Die Thrustmaster T-LCM sind auf amazon.de derzeit nicht lieferbar – die Raceline-Kombination aus Top 5 ersetzt sie." } },
           { callout: { title: "Gesundheit und Sicherheit", warn: true, text: "Hohe Bremskräfte belasten Knie, Hüfte und Rücken. Stell Sitz und Pedale so ein, dass das Knie bei voll getretener Bremse leicht gebeugt bleibt, und mach bei langen Sessions Pausen. Bei Beschwerden ärztlichen Rat einholen – unsere Hinweise ersetzen keine Beratung. Rückrufe zu den hier genannten Pedalen haben wir bei unserer Recherche nicht gefunden." } },
           { facts: [{ value: "100 kg", label: "Loadcell Logitech PRO (Herstellerangabe)" }, { value: "90 kg", label: "Loadcell Fanatec CSL Elite V2 (Herstellerangabe)" }, { value: "75 kg", label: "Loadcell Logitech RS (Herstellerangabe)" }] },
         ],
@@ -365,7 +365,7 @@ export default {
           { quick: "Günstiger geht es mit Hall-Pedalen ohne Loadcell oder einem Loadcell-Upgrade für vorhandene Pedale, hochwertiger mit Hydraulik-Pedalen aus dem Direktvertrieb. Pedale aus Lenkrad-Bundles sind eine Alternative, wenn du ohnehin ein neues Lenkrad kaufst." },
           { p: "**Pedale aus dem Lenkrad-Bundle:** Viele Direct-Drive-Sets bringen Pedale mit, oft ohne Loadcell. Wer ohnehin ein neues Lenkrad kauft, sollte prüfen, ob ein Bundle günstiger ist als Basis plus separates Pedalset. Diese Seite behandelt nur eigenständig verkaufte Pedalsets – Basen und Bundles vergleichen wir im Ratgeber [Direct-Drive-Lenkräder](/bestes-direct-drive-lenkrad/)." },
           { p: "**Upgrade statt Neukauf:** Thrustmaster-Fahrer müssen nicht alles ersetzen – das Raceline-LC-Set baut Raceline Pedals III oder LTE zur Loadcell um. Für die Fanatec CSL Elite V2 ist ein solches Kit unnötig: Laut Fanatec passt das CSL Pedals Load Cell Kit nicht zu ihnen, weil die V2 die Loadcell bereits enthält." },
-          { p: "**High-End und Hydraulik:** Über dem Mittelklasse-Rahmen dieser Seite gibt es Pedale von Herstellern wie Heusinkveld, Simucube oder Asetek sowie die MOZA CRP2. Sie werden überwiegend außerhalb von Amazon verkauft bzw. sind dort kaum verfügbar – deshalb verlinken wir sie nicht. Bei Fanatec ist die 3-Pedal-Konfiguration der Podium-Pedale laut ComputerBase wegen Qualitätsproblemen am Kupplungspedal auf Q3 2026 verschoben worden; die CSL Elite V2 betrifft das nicht." },
+          { p: "**High-End und Hydraulik:** Über dem Mittelklasse-Rahmen dieser Seite gibt es Pedale von Herstellern wie Heusinkveld, Simucube oder Asetek sowie die MOZA CRP2. Sie werden überwiegend außerhalb von Amazon verkauft bzw. sind dort kaum verfügbar – deshalb verlinken wir sie nicht. Fanatecs neue Podium Pedals gibt es bisher nur ohne Kupplung: Die 3-Pedal-Konfiguration wurde wegen Fertigungsproblemen am Kupplungspedal mehrfach verschoben und ist laut GTPlanet (16. Oktober 2026) nun für das vierte Quartal 2026 angekündigt. Die CSL Elite V2 betrifft das nicht." },
           { p: "**Rund ums Rig:** Feste Pedale brauchen einen festen Sitz – Rahmen mit Pedalplatte findest du bei den [Sim-Racing-Cockpits](/sim-racing-cockpits/), wer am Schreibtisch fährt, braucht einen stabilen [Gaming-Stuhl](/gaming-stuehle/), der beim Bremsen nicht wegrollt. Und wer in der Brille fährt, findet die passenden Headsets unter [VR-Gaming](/vr-gaming/)." },
         ],
       },
@@ -407,7 +407,7 @@ export default {
     { label: "CGMagazine – Logitech RS50 System und RS Pedals Review (englisch)", url: "https://www.cgmagonline.com/review/hardware/logitech-rs50-system-and-rs-pedals/" },
     { label: "racinggames.gg – Fanatec CSL Elite Pedals V2 Review (englisch)", url: "https://racinggames.gg/article/fanatec-csl-elite-pedals-v2-review-precision-under-your-feet" },
     { label: "Traxion – MOZA SR-P Pedals Review (englisch)", url: "https://traxion.gg/moza-sr-p-pedals-review-range-extenders/" },
-    { label: "ComputerBase – Fanatec-News", url: "https://www.computerbase.de/news/fanatec/" },
+    { label: "GTPlanet – Fanatec Podium Pedals Sport Now Available (16.10.2026, englisch)", url: "https://www.gtplanet.net/fanatec-podium-pedals-sport-now-available-5-off-with-gtplanet-code-20261016/" },
   ],
 
   related: [

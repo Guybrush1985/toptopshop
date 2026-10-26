@@ -343,11 +343,17 @@
           "art": "Händlerangabe",
           "quelle": "https://www.amazon.de/dp/B0FMYGNT2F",
           "datum": "2026-10 (Suchsnapshot)"
+        },
+        {
+          "text": "Bundle-Listing aus zwei Artikeln: RS Pedals und Racing Adapter (je mit eigenem Einzelpreis im Listing), Lieferung ggf. in zwei getrennten Sendungen; Erscheinungsdatum 29.10.2025.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B0FMYGNT2F",
+          "datum": "2026-10-26 (Suchsnapshot)"
         }
       ],
       "asin": "B0FMYGNT2F",
       "query": "Logitech G RS Pedals mit Racing Adapter",
-      "asinGeprueft": "Logitech G RS Pedals mit Racing Adapter (Lieferumfang live prüfen: ein Snapshot erwähnt zusätzlich das Kupplungsmodul)",
+      "asinGeprueft": "Logitech G RS Pedals mit Racing Adapter (2026-10-26: Listing nennt zwei Artikel – RS Pedals + Racing Adapter)",
       "where": null
     },
     {
@@ -411,6 +417,12 @@
           "art": "Händlerangabe",
           "quelle": "https://www.amazon.de/dp/B0B73X6N4K",
           "datum": "2026-10 (Suchsnapshot)"
+        },
+        {
+          "text": "Snapshots widersprüchlich: einer „derzeit nicht verfügbar“, andere mit mehreren Marktplatz-Angeboten.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B0B73X6N4K",
+          "datum": "2026-10-26 (Suchsnapshot)"
         }
       ],
       "asin": "B0B73X6N4K",
@@ -433,11 +445,17 @@
           "art": "Händlerangabe",
           "quelle": "https://www.amazon.de/dp/B0FMYH5936",
           "datum": "2026-10 (Suchsnapshot)"
+        },
+        {
+          "text": "Titel „Logitech G RS Pedals mit RS Kupplungsmodul“ und Abschnitt „Extra RS Kupplungsmodul“ deuten auf Paket mit Kupplung; dieselbe Beschreibung nennt das Modul an anderer Stelle optional/separat, Status im Snapshot weiter „Vorbestellung“ – Lieferumfang nicht eindeutig belegbar. Kein eigenständiges amazon.de-Listing des RS Kupplungsmoduls (941-000307) gefunden.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B0FMYH5936",
+          "datum": "2026-10-26 (Suchsnapshot)"
         }
       ],
       "asin": "B0FMYH5936",
       "query": "Logitech G RS Pedals mit RS Kupplungsmodul",
-      "asinGeprueft": "Logitech G RS Pedals mit RS Kupplungsmodul (Lieferstatus im Snapshot veraltet – live prüfen)",
+      "asinGeprueft": "Logitech G RS Pedals mit RS Kupplungsmodul (2026-10-26: Titel passt, Lieferumfang in der Beschreibung widersprüchlich – im Text vorsichtig formuliert)",
       "where": null
     }
   ],
@@ -487,7 +505,7 @@
   ],
   "warnungen": [
     "Keine Rückrufe oder Safety-Gate-Meldungen zu Sim-Racing-Pedalen von Logitech, Fanatec, Thrustmaster oder MOZA gefunden (Websuche 2026-10-24; Safety-Gate-Portal aus der Sandbox nicht abrufbar).",
-    "Fanatec hat den Marktstart der 3-Pedal-Konfiguration der Podium-Pedale wegen Qualitätsproblemen am Kupplungspedal auf Q3 2026 verschoben – betrifft nicht die CSL Elite Pedals V2 (Quelle: https://www.computerbase.de/news/fanatec/).",
+    "Fanatec Podium Pedals: bisher nur ohne Kupplung erhältlich (Formula, seit Herbst 2026 auch Sport mit zwei Pedalen); die 3-Pedal-Konfiguration und das separate Kupplungsmodul wurden wegen Fertigungsproblemen am Kupplungspedal mehrfach verschoben (zuvor Q1, dann Q3, dann Oktober 2026) und sind laut Fanatec-Produktseite nun für Q4 2026 angekündigt – betrifft nicht die CSL Elite Pedals V2 (Quelle: GTPlanet, 16.10.2026, https://www.gtplanet.net/fanatec-podium-pedals-sport-now-available-5-off-with-gtplanet-code-20261016/; frühere Meldung: https://www.gtplanet.net/fanatecs-new-podium-pedals-back-in-stock-tomorrow-5-off-with-discount-code-20260818/).",
     "Kompatibilitäts-Hinweis für den Text: Auf PS5 und Xbox laufen Pedale nie direkt an der Konsole, sondern nur über eine Lenkrad-Basis desselben Herstellers (Fanatec RJ12, Logitech USB am Lenkrad bzw. Racing Adapter, Thrustmaster RJ12/RJ45). Am PC funktionieren Fanatec-, Logitech-, Thrustmaster- und MOZA-Pedale per USB mit jeder Basis. Quellen: fanatec.com Kabel-Guide, Logitech RS-Pedals-Setup-Guide, support.thrustmaster.com/en/kb/1888-en/.",
     "Loadcell-Kraft (75–100 kg) wirkt auf Rahmen und Boden: ohne Cockpit/Wandstrebe rutschen Pedale auf Hartboden leichter weg – Logitech selbst empfiehlt die volle Kraft vor allem für Rigs/Sim-Stühle (RS-Pedals-Setup-Guide). Querverweis /sim-racing-cockpits/."
   ],
@@ -523,14 +541,14 @@
   ],
   "offen": [
     "Verkäufer/Lieferstatus aller ASINs live prüfen (amazon.de aus der Sandbox nicht abrufbar, nur Suchsnapshots): besonders B0F94F27XV (Fanatec, Verkäufer nicht sichtbar), B0B73X6N4K (MOZA, nur wenige Stück), B0FMYH5936 (RS Pedals + Kupplung, Snapshot zeigte veraltete Vorbestellung).",
-    "B0FMYGNT2F (RS Pedals mit Racing Adapter): Lieferumfang live prüfen – ein Snapshot nennt zusätzlich das Kupplungsmodul.",
     "Logitech hat auf der G PLAY 2026 laut Logitech-Suchtreffer „RS Pedals SE“ gezeigt (Setup-Guide rs-pedals-se-amr.pdf existiert); kein amazon.de-Listing und keine Spezifikationen gefunden – vor Veröffentlichung prüfen, ob es RS Pedals ablöst.",
     "Thrustmaster Raceline Pedals III LC (Komplettset mit 100-kg-Loadcell): keine ASIN gefunden; falls ein /dp/-Listing auftaucht, wäre es eine gute Top-5-Alternative für Thrustmaster-Basen (bisher query „Thrustmaster Raceline Pedals III LC“).",
     "Thrustmaster-Kompatibilität der Raceline Pedals III widersprüchlich (eShop: alle FFB-Basen außer T500; Support-KB 1795: teils nur T598/T818) – im Text mit „laut Thrustmaster-Shop“ formulieren.",
     "Logitech-Konsolenangaben teils widersprüchlich (welche G-Serie-Lenkräder auf PS5/Xbox) – im Text mit Racing-Adapter-Seite belegen.",
     "Awin: kein passender freigeschalteter Händler (joined: Rewe, Radwelt, BrickZoneHub); alle Produkte über Amazon verfügbar → kein Bewerbungsbedarf.",
     "Kein deutschsprachiger unabhängiger Pedaltest gefunden; Bewertungen sind redaktionelle Einschätzungen auf Basis Herstellerangaben und englischer Reviews.",
-    "Zubehör-Hinweis Pedalstand: Thrustmaster T-Pedals Stand (B084KCGJ8X) kompatibel mit T3PA/T3PA-PRO/T-LCM/T3PM – Raceline-III-Kompatibilität nicht bestätigt."
+    "Zubehör-Hinweis Pedalstand: Thrustmaster T-Pedals Stand (B084KCGJ8X) kompatibel mit T3PA/T3PA-PRO/T-LCM/T3PM – Raceline-III-Kompatibilität nicht bestätigt.",
+    "B0FMYH5936 (RS Pedals mit Kupplungsmodul): Lieferumfang laut Listing widersprüchlich (Titel mit Kupplung, Beschreibung teils „optional“); kein Ersatz mit eindeutiger ASIN gefunden (Raceline Pedals III LC weiterhin ohne /dp/-Listing, RS Kupplungsmodul nicht einzeln auf amazon.de) – Eintrag mit vorsichtiger Formulierung belassen, live prüfen."
   ],
   "quellen": [
     {
@@ -606,8 +624,8 @@
       "url": "https://traxion.gg/moza-sr-p-pedals-review-range-extenders/"
     },
     {
-      "titel": "ComputerBase Fanatec News",
-      "url": "https://www.computerbase.de/news/fanatec/"
+      "titel": "GTPlanet – Fanatec Podium Pedals Sport Now Available (16.10.2026)",
+      "url": "https://www.gtplanet.net/fanatec-podium-pedals-sport-now-available-5-off-with-gtplanet-code-20261016/"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "slug": "beste-sim-racing-handbremse",
-  "stand": "2026-10-24",
+  "stand": "2026-10-26",
   "criteria": [
     { "key": "bremsgefuehl", "label": "Bremsgefühl & Sensorik", "weight": 0.3, "description": "Progressive (analoge) Auslösung statt Taster, Sensortyp (Hall/Magnet, Loadcell, Positionssensor), einstellbarer Widerstand/Federweg/Vorspannung, Dosierbarkeit für Rally und Drift." },
     { "key": "kompatibilitaet", "label": "Kompatibilität", "weight": 0.3, "description": "Laut Hersteller unterstützte Plattformen (PC, PS5, Xbox) und Anschlussweg: eigenständig per USB am PC oder über die Lenkrad-Basis (Pflicht an Konsolen); Einschränkungen je Basis." },
@@ -37,7 +37,7 @@
       "pros": [
         "Echte 2-in-1-Lösung: progressive Handbremse oder Sequenziell-Shifter, vertikal oder horizontal",
         "Verschleißfreie Hall-Sensorik laut Hersteller",
-        "Breiteste Plattform-Abdeckung im Vergleich (PC, PS5/PS4, Xbox Series/One)",
+        "Progressiv auch an PS5 und Xbox (über kompatible Thrustmaster-Basis)",
         "Am PC per USB auch mit Lenkrädern anderer Marken nutzbar"
       ],
       "cons": [
@@ -109,7 +109,7 @@
     },
     {
       "rank": 3,
-      "label": "Premium-Wahl",
+      "label": "Feinste Dosierung (Loadcell)",
       "name": "FANATEC ClubSport Handbrake V2 with USB Adapter",
       "brand": "Fanatec",
       "variant": "ClubSport Handbrake V2 inkl. ClubSport USB Adapter",
@@ -155,20 +155,6 @@
   ],
   "top5": [
     {
-      "name": "Thrustmaster TSS Handbrake Sparco Mod+",
-      "rolle": "Beste für Drift (Sparco-Griff, langer Hebel)",
-      "warum": "Vorgängermodell der TSS mit Sparco-lizenziertem Griff; ebenfalls Hall-Sensorik und 2-in-1 (Handbremse/sequenziell). Für Drift-Fans mit älterer Thrustmaster-Basis (T-GT, T300, TX, TS-XW).",
-      "fakten": [
-        { "text": "Progressive Handbremse und sequenzieller Modus; Hall-Sensorik; PS4 über T-GT/T300, Xbox One über TS-XW/TX, PC per USB", "art": "Herstellerangabe", "quelle": "https://www.thrustmaster.com/en-us/products/tss-handbrake-sparco-mod/", "datum": "2026-10" },
-        { "text": "Rund 4,6 Sterne bei ca. 370 Bewertungen auf amazon.de (Snapshot); einige Händler führen das Modell als ausgelaufen", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B07GP1GW25", "datum": "2026-10" }
-      ],
-      "specs": { "Plattform": "PC (USB); PS4/PS5 und Xbox über Thrustmaster-Basis", "Anschluss": "USB bzw. DIN an Basis", "Sensor": "Hall", "2-in-1": "ja", "Montage": "Klemme separat" },
-      "asin": "B07GP1GW25",
-      "asinGeprueft": "Thrustmaster TSS Handbrake Sparco Mod+ Handbremse und Sequential Schaltung für PS5 / PS4 / Xbox Series X|S / Xbox One / PC (amazon.de/dp/B07GP1GW25) – Verfügbarkeit live prüfen",
-      "query": "Thrustmaster TSS Handbrake Sparco Mod+",
-      "where": null
-    },
-    {
       "name": "MOZA Racing HBP Handbrake",
       "rolle": "Beste für MOZA-Setups und günstig am PC",
       "warum": "Aluminium-Handbremse mit hochauflösendem Positionssensor, horizontal/vertikal und im Winkel verstellbar; per USB direkt am PC oder an einer MOZA-Basis. Widerstand über Federtausch.",
@@ -183,6 +169,19 @@
       "where": null
     },
     {
+      "name": "Asetek SimSports Load Cell Handbrake",
+      "rolle": "Loadcell-Neuheit (Vorbestellung)",
+      "warum": "Ersetzt den Thrustmaster TSS Sparco Mod+ (kein aktives amazon.de-Listing belegbar). Neue Loadcell-Handbremse, analog/digital umschaltbar; nur über den Hersteller erhältlich – daher where ohne Link.",
+      "fakten": [
+        { "text": "200-kg-Loadcell, 16 Bit; per Knopfdruck analog (kraftbasiert) oder digital (an/aus); Links-/Rechtslenker, Rig oder optionale Tischklemmen; auf 1.000.000 Bremszyklen getestet; Unterstützung in RaceHub 4.5; Vorbestellung, Auslieferung ab Anfang November 2026", "art": "Herstellerangabe laut Bericht", "quelle": "https://boxthislap.org/asetek-simsports-launches-its-new-shifter-and-handbrake/", "datum": "2026-10" },
+        { "text": "Kein amazon.de-Listing gefunden (WebSearch amazon.de, 2026-10-26); Anschlussart und Konsolenbetrieb nicht belegt", "art": "Recherche", "quelle": "https://www.amazon.de", "datum": "2026-10-26" }
+      ],
+      "specs": { "Plattform": "PC (RaceHub); Konsole nicht belegt", "Anschluss": "beim Hersteller prüfen", "Sensor": "Loadcell 200 kg, 16 Bit", "2-in-1": "nein (analog/digital umschaltbar)", "Montage": "Rig oder optionale Tischklemmen" },
+      "asin": null,
+      "query": null,
+      "where": "Beim Hersteller (asetek.com)"
+    },
+    {
       "name": "Heusinkveld SIM Handbrake - Black",
       "rolle": "Beste Loadcell-Handbremse fürs PC-Rig",
       "warum": "Niederländischer Pedal-Spezialist: 120-kg-Loadcell mit bis zu 22 kg Kraft am Hebel, Controller (SmartControl) integriert, Plug-and-Play per USB – reine PC-Lösung für feste Cockpits.",
@@ -192,14 +191,14 @@
       ],
       "specs": { "Plattform": "nur PC (Windows 10+)", "Anschluss": "USB", "Sensor": "Loadcell 120 kg", "2-in-1": "nein", "Montage": "Cockpit/Rig-Verschraubung" },
       "asin": "B0CPD3PXFD",
-      "asinGeprueft": "Heusinkveld SIM Handbrake - Black (amazon.de/dp/B0CPD3PXFD, Modell HE-HBV2B) – Verfügbarkeit/Verkäufer live prüfen",
+      "asinGeprueft": "Heusinkveld SIM Handbrake - Black (amazon.de/dp/B0CPD3PXFD, Modell HE-HBV2B) – 2026-10-26: Listing aktiv, Titel passt; Kategorie „Baby Products“, Marketplace-Angebote (3 neue), Verkäufer nicht ermittelbar (amazon.de aus der Sandbox nicht abrufbar). ASIN beibehalten (CLAUDE.md: Amazon bevorzugt bei eindeutiger, aktiver ASIN); im Text Hinweis auf Verkäuferprüfung und Herstellershop",
       "query": "Heusinkveld SIM Handbrake Black",
       "where": null
     },
     {
       "name": "Thrustmaster TSS Handbrake",
       "rolle": "Beste für Konsole (PS5 und Xbox)",
-      "warum": "Wiederholung aus den Top 3 unter dem Konsolen-Blickwinkel: einziges Gerät im Vergleich, das an PS5 und Xbox ohne Adapter progressiv funktioniert – Voraussetzung ist eine Thrustmaster-Basis.",
+      "warum": "Wiederholung aus den Top 3 unter dem Konsolen-Blickwinkel: aktuelles Thrustmaster-Modell, das an PS5 und Xbox progressiv arbeitet und zugleich sequenziell schaltet (Logitech RS an der Basis nur digital) – Voraussetzung ist eine Thrustmaster-Basis.",
       "fakten": [
         { "text": "PS5/PS4/Xbox Series/One über kompatible Thrustmaster-Basis per DIN; am PC per USB mit allen Lenkrädern", "art": "Herstellerangabe", "quelle": "https://www.thrustmaster.com/en-us/products/tss-handbrake/", "datum": "2026-10" }
       ],
@@ -239,7 +238,8 @@
     "Handbremse/Shifter am Schreibtisch nur mit stabiler Klemme montieren; eine Handbremse wird kräftig gezogen (Heusinkveld: bis 22 kg am Hebel) – Tischplatte/Cockpit muss das aushalten."
   ],
   "verworfen": [
-    { "name": "Asetek SimSports Load Cell Handbrake", "grund": "Neu (Marktstart Oktober 2026, Auslieferung ab Anfang November), 200-kg-Loadcell, 16 Bit; kein amazon.de-Listing gefunden, nur Hersteller/Fachhandel, Preis offen – bei Aktualisierung prüfen. Quelle: https://boxthislap.org/asetek-simsports-launches-its-new-shifter-and-handbrake/" },
+    { "name": "Thrustmaster TSS Handbrake Sparco Mod+ (B07GP1GW25)", "grund": "Korrekturrunde 2026-10-26: keine amazon.de-/dp/-Seite per WebSearch auffindbar (nur Erwähnung in Kunden-Q&A), Modell laut Händlern teils ausgelaufen – aus Top 5 entfernt, ersetzt durch Asetek SimSports Load Cell Handbrake mit where." },
+    { "name": "Asetek SimSports Load Cell Handbrake (ursprünglich verworfen)", "grund": "Seit Korrekturrunde 2026-10-26 in Top 5 mit where. Ursprünglicher Grund: Neu (Marktstart Oktober 2026, Auslieferung ab Anfang November), 200-kg-Loadcell, 16 Bit; kein amazon.de-Listing gefunden, nur Hersteller/Fachhandel, Preis offen – bei Aktualisierung prüfen. Quelle: https://boxthislap.org/asetek-simsports-launches-its-new-shifter-and-handbrake/" },
     { "name": "Simagic Handbremse", "grund": "Kein Simagic-Handbremsen-Listing auf amazon.de gefunden." },
     { "name": "Thrustmaster TSSH Sequential Shifter & Handbrake Sparco (B077NG4SR7 / B095MVQV2D / B0796V9LFB)", "grund": "Älteste, reine PC-Variante; amazon.de-Listings nicht verfügbar." },
     { "name": "MOZA HBP (B0BVLNVVVC, B0DHHJXRLH)", "grund": "Ältere Listings „derzeit nicht verfügbar“ – ersetzt durch aktives Listing B0FGJ5G3VZ." },

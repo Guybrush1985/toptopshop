@@ -7,7 +7,7 @@ export default {
   area: "gaming-room",
   navLabel: "Direct-Drive-Lenkräder",
   published: "2026-10-24",
-  updated: "2026-10-24",
+  updated: "2026-10-26",
 
   metaTitle: "Die 3 besten Direct-Drive-Lenkräder 2026 (PC, PS5, Xbox)",
   metaDescription:
@@ -21,8 +21,8 @@ export default {
     "Unsere beste Gesamtwahl ist das [**Logitech G RS50 System**](produkt:1) – 8 Nm Direct Drive mit TRUEFORCE, je nach Version für PS5 oder Xbox plus PC. Der beste Einstieg ist das [**MOZA Racing R5 Pro Bundle**](produkt:2): Basis, Lenkrad, Pedale und Tischklemme in einem Karton, allerdings nur für den PC. Für Gran Turismo 7 auf der PS5 empfehlen wir das offiziell lizenzierte Komplettset [**Fanatec Gran Turismo DD Pro PlayStation Bundle**](produkt:3).",
 
   priceTiers: {
-    1: { symbol: "€", label: "bis ca. 450 €" },
-    2: { symbol: "€€", label: "ca. 450–650 €" },
+    1: { symbol: "€", label: "bis ca. 500 €" },
+    2: { symbol: "€€", label: "ca. 500–650 €" },
     3: { symbol: "€€€", label: "über 650 €" },
   },
 
@@ -58,6 +58,7 @@ export default {
         "RS50-Basis mit 8 Nm Direct Drive und TRUEFORCE (Händlerangabe)",
         "RS Wheel Hub mit 13 Tasten, RS Round Wheel 28 cm, verstellbare Schaltwippen (Händlerangabe)",
         "Kompatibel mit allen Logitech G RS- und PRO-Kränzen, bis 2.700° Drehwinkel (laut Bericht)",
+        "Tischklemme sowie T-Nuts und Schrauben für die Rig-Montage im Lieferumfang (Herstellerangabe)",
       ],
       pros: [
         "8 Nm – genug Reserve, ohne zwingend ein Cockpit zu brauchen",
@@ -67,7 +68,6 @@ export default {
       cons: [
         "Keine Pedale im 3-teiligen Set",
         "PS- und Xbox-Version sind getrennte Produkte",
-        "Tischklemme im Händlertitel nicht ausdrücklich genannt – vor dem Kauf prüfen",
       ],
       specs: {
         drehmoment: "8 Nm (Herstellerangabe)",
@@ -75,7 +75,7 @@ export default {
         ps5: "ja (diese Version, auch PS4)",
         xbox: "nur mit Xbox/PC-Version",
         oekosystem: "Logitech G RS / PRO",
-        lieferumfang: "Basis + Hub + 28-cm-Kranz, keine Pedale",
+        lieferumfang: "Basis + Hub + 28-cm-Kranz + Tischklemme, keine Pedale",
         schnellverschluss: "integriert (Logitech RS)",
       },
       asin: "B0FKGV88JX",
@@ -225,7 +225,7 @@ export default {
               caption: "Kompatibilität der Direct-Drive-Lenkräder auf dieser Seite (Hersteller- und Händlerangaben)",
               head: ["System", "Nm", "PC", "PS5", "Xbox", "Ökosystem", "Lieferumfang"],
               rows: [
-                ["Logitech G RS50 System (PS-Version)", "8", "ja", "ja", "nein (eigene Xbox-Version)", "Logitech G RS / PRO", "Basis + Kranz"],
+                ["Logitech G RS50 System (PS-Version)", "8", "ja", "ja", "nein (eigene Xbox-Version)", "Logitech G RS / PRO", "Basis + Kranz + Klemme"],
                 ["MOZA R5 Pro Bundle", "6", "ja", "nein", "nein", "MOZA", "Basis + Kranz + Pedale + Klemme"],
                 ["Fanatec Gran Turismo DD Pro", "5 (8 mit Boost Kit)", "ja", "ja", "nein", "Fanatec QR2 Lite", "Basis + Kranz + Pedale + Klemme"],
                 ["Thrustmaster T598 Xbox & PC", "5 (Spitze höher)", "ja", "nein (eigene PS-Version)", "ja", "Thrustmaster", "Basis + Kranz + Pedale"],
@@ -294,7 +294,7 @@ export default {
       "Xbox-Komplettset, Logitech-Oberklasse, Fanatec-Baukasten, Mittelklasse-Upgrade und Premium: Diese fünf decken die Fälle ab, für die die Top 3 nicht die beste Antwort sind.",
     items: [
       { name: "Thrustmaster T598 Direct Axial Drive-Rennlenkrad & Pedalset – XBOX & PC", for: "Bestes für Xbox", text: "Komplettset mit Direct-Axial-Drive-Basis (5 Nm konstant, laut Hersteller kurzzeitig +100 %), abnehmbarem 30-cm-Lenkrad und Raceline Pedals LTE mit Magnetsensoren – eines der wenigen DD-Komplettsets für Xbox Series X|S und PC. Race-Dash-Display und Einstell-Panel funktionieren laut Hersteller nur am PC. Es gibt gemischte Nutzerberichte zu Verbindungsabbrüchen. Für die PS5 gibt es eine eigene Version.", asin: "B0F24NDP7K", query: "Thrustmaster T598 Xbox PC" },
-      { name: "Logitech G PRO Racing Wheel", for: "Logitech-Oberklasse (11 Nm)", text: "Der große Bruder des RS50: 11 Nm Direct Drive mit TRUEFORCE und Schaltwippen mit kontaktlosen Hall-Sensoren (Herstellerangabe), je eine Version für PlayStation/PC und Xbox/PC. Pedale sind nicht dabei. PC Games Hardware hat die Basis 2025 getestet. Passende Cockpits stehen auf [Sim-Racing-Cockpits](/sim-racing-cockpits/).", asin: "B0DCBW7GGM", query: "Logitech G PRO Racing Wheel PlayStation PC" },
+      { name: "Logitech G Pro Racing Wheel – für PC, PS4, PS5", for: "Logitech-Oberklasse (11 Nm)", text: "Der große Bruder des RS50: 11 Nm Direct Drive mit TRUEFORCE und Schaltwippen mit kontaktlosen Hall-Sensoren (Herstellerangabe). Der Link führt zur PlayStation/PC-Version; für Xbox Series X|S, Xbox One und PC gibt es ein eigenes Modell (941-000194, Händlerangabe), auf amazon.de separat gelistet. Pedale sind nicht dabei. PC Games Hardware hat die Basis 2025 getestet. Passende Cockpits stehen auf [Sim-Racing-Cockpits](/sim-racing-cockpits/).", asin: "B0DCBW7GGM", query: "Logitech G PRO Racing Wheel PlayStation PC" },
       { name: "Fanatec Sim Racing CSL DD QR2 Wheel Base – PC", for: "Fanatec-Baukasten für den PC", text: "Die nackte Fanatec-Einstiegsbasis mit 5 Nm, per Boost Kit 180 auf 8 Nm aufrüstbar, QR2-Lite-Schnellverschluss und 90-W-Netzteil dabei (Händlerangabe). Kranz und Pedale stellst du dir selbst zusammen. Läuft am PC, an der Xbox nur mit Xbox-lizenziertem Fanatec-Lenkrad und nicht an der PlayStation.", asin: "B0FJFMNP4M", query: "Fanatec CSL DD QR2 Wheel Base PC" },
       { name: "MOZA R12 V2 Direct Drive Wheel Base", for: "Mittelklasse-Upgrade (12 Nm)", text: "12 Nm, 21-Bit-Encoder und aktive Kühlung (Hersteller- und Händlerangaben) für PC-Racer, die vom Einstieg aufsteigen. Kranz und Pedale kommen separat dazu. Läuft am PC, an der Xbox nur mit Xbox-lizenziertem MOZA-Kranz. Laut Bericht wird das Gehäuse bei intensiver Nutzung bis rund 66 °C warm. Bei dieser Kraft gehört die Basis in ein steifes Cockpit.", asin: "B0FSXXZKDJ", query: "MOZA R12 V2 Direct Drive Wheel Base" },
       { name: "Thrustmaster T818 Black Edition, 10 N·m Direct Drive-Simracing-Basis mit Force Feedback für PC", for: "Premium (PC)", text: "10 Nm konstantes Drehmoment und Kompatibilität mit den Thrustmaster-Kränzen, -Pedalen und -Add-ons; ältere Kränze passen per Adapter (Hersteller- und Händlerangaben). Die Black Edition hat laut Thrustmaster verstärkte Steckverbinder und eine überarbeitete Motoreinheit „für mehr Zuverlässigkeit“ – deshalb empfehlen wir sie statt der Ur-T818. Nur PC, Tischklemme separat.", asin: "B0G2BV2LP2", query: "Thrustmaster T818 Black Edition" },
@@ -328,7 +328,7 @@ export default {
     { q: "Welches Direct-Drive-Lenkrad funktioniert mit der PS5?", a: "An der PS5 laufen das Logitech G RS50 System und das G PRO Racing Wheel in der PlayStation-Version, das Fanatec Gran Turismo DD Pro und der Thrustmaster T598 in der PS-Version. MOZA-Basen und die Fanatec CSL DD in der PC-Version funktionieren an der PS5 nicht." },
     { q: "Gibt es Direct-Drive-Lenkräder für die Xbox?", a: "Ja, zum Beispiel den Thrustmaster T598 für Xbox & PC sowie das Logitech RS50 System und das G PRO Racing Wheel jeweils in der Xbox-Version. MOZA- und Fanatec-PC-Basen laufen an der Xbox laut Händlerangaben nur mit einem Xbox-lizenzierten Lenkradkranz des Herstellers." },
     { q: "Lohnt sich Direct Drive für Einsteiger?", a: "Ja, wenn du regelmäßig fährst – Komplettsets wie das MOZA R5 Pro Bundle machen den Einstieg in der günstigsten Preisklasse möglich. Wer nur gelegentlich fährt, ist mit einem Zahnrad- oder Riemenlenkrad wie dem G923 oder T300 weiterhin gut bedient." },
-    { q: "Kann man ein Direct-Drive-Lenkrad am Schreibtisch nutzen?", a: "Ja, bis etwa 8 Nm mit einer stabilen Tischklemme an einer massiven Platte. Das MOZA R5 Pro Bundle und das GT DD Pro bringen eine Klemme mit. Bei stärkeren Basen oder wackeligen Tischen ist ein Sim-Racing-Cockpit die bessere Lösung." },
+    { q: "Kann man ein Direct-Drive-Lenkrad am Schreibtisch nutzen?", a: "Ja, bis etwa 8 Nm mit einer stabilen Tischklemme an einer massiven Platte. Das Logitech G RS50 System, das MOZA R5 Pro Bundle und das GT DD Pro bringen eine Klemme mit. Bei stärkeren Basen oder wackeligen Tischen ist ein Sim-Racing-Cockpit die bessere Lösung." },
     { q: "Ist Direct Drive gefährlich?", a: "Bei vernünftiger Einstellung nicht, aber die Kräfte sind deutlich höher als bei Zahnrad- oder Riemenlenkrädern. Kraft in der Software anfangs begrenzen, Hände nicht in die Speichen legen, bei Unfällen und Ladebildschirmen aufpassen und Kinder nur unter Aufsicht mit stark reduzierter Kraft fahren lassen." },
     { q: "Kann man Pedale und Shifter anderer Hersteller an die Basis anschließen?", a: "Am PC meist ja, wenn Pedale oder Shifter per USB direkt am Rechner hängen – das Spiel erkennt sie dann als eigenes Gerät. An der Konsole funktionieren in der Regel nur Pedale und Shifter, die an die lizenzierte Basis des gleichen Herstellers angeschlossen werden." },
   ],

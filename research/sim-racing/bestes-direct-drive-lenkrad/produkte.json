@@ -28,10 +28,10 @@
     }
   ],
   "priceTiers": {
-    "1": "bis ca. 450 €",
-    "2": "ca. 450–650 €",
+    "1": "bis ca. 500 €",
+    "2": "ca. 500–650 €",
     "3": "über 650 €",
-    "hinweis": "Vorschlag; Spanne der Kandidaten ca. 300–800 € (UVP/Berichte, Snapshots), keine festen Preise auf der Seite."
+    "hinweis": "Vorschlag; Spanne der Kandidaten ca. 300–800 € (UVP/Berichte, Snapshots), keine festen Preise auf der Seite. 2026-10-26: Grenze Stufe 1/2 von 450 auf 500 € angehoben – MOZA R5 Pro Bundle Startpreis 419 € (Hersteller/PCGH), amazon.de-Listing B0HFRZNN31 in Snapshots ca. 482–492 €; RS50 (ca. 550 €) bleibt Stufe 2."
   },
   "products": [
     {
@@ -85,6 +85,18 @@
           "art": "Test",
           "quelle": "https://www.gameswelt.de/logitech-rs50/test/test-der-neue-preis-leistungs-koenig-unter-den-direct-drive-lenkraedern-331970",
           "datum": "online, 2025 (laut Suchauszug)"
+        },
+        {
+          "text": "RS50 System: Tischklemme sowie vier T-Nuts und Schrauben für die Rig-Montage im Lieferumfang; bei der reinen RS50 Base ist die Klemme separat erhältlich.",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.logitechg.com/en-us/shop/p/rs50-system",
+          "datum": "2026-10-26"
+        },
+        {
+          "text": "amazon.de-Listing B0FKGV88JX nennt im Lieferumfang Radbasis, Wheel Hub, Rundlenkrad, Netzteil, USB-Kabel, Tischklemme und Montagematerial für Tisch und Rennsitz.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B0FKGV88JX",
+          "datum": "2026-10-26 (Suchsnapshot)"
         }
       ],
       "pros": [
@@ -95,8 +107,7 @@
       ],
       "cons": [
         "Keine Pedale im 3-teiligen Set – RS Pedals oder vorhandene Logitech-Pedale nötig",
-        "Plattform-Version muss beim Kauf passen (PS- vs. Xbox-Version)",
-        "Tischklemme laut Händlertitel nicht ausdrücklich Teil des 3-teiligen Sets – live prüfen"
+        "Plattform-Version muss beim Kauf passen (PS- vs. Xbox-Version)"
       ],
       "specs": {
         "Antrieb": "Direct Drive",
@@ -105,7 +116,7 @@
         "PS5": "ja (diese Version, auch PS4)",
         "Xbox": "nur Xbox/PC-Version (B0FKGT1BXC)",
         "Ökosystem": "Logitech G RS / PRO",
-        "Lieferumfang": "Basis + RS Wheel Hub + RS Round Wheel 28 cm; keine Pedale",
+        "Lieferumfang": "Basis + RS Wheel Hub + RS Round Wheel 28 cm + Tischklemme; keine Pedale",
         "Schnellverschluss": "integriert (Logitech RS)",
         "Drehwinkel": "bis 2.700° (laut Bericht)",
         "Besonderheit": "TRUEFORCE, OLED-Display an der Basis"
@@ -173,6 +184,12 @@
           "art": "Test",
           "quelle": "https://www.gameswelt.de/moza-r5-bundle/test/guenstiger-wird-direct-drive-in-diesem-leben-nicht-mehr-317856",
           "datum": "online (laut Suchauszug)"
+        },
+        {
+          "text": "amazon.de-Listing B0HFRZNN31 (RS105 R5 Pro Bundle, Verkäufer MOZA Racing) in Snapshots bei ca. 482–492 €, 1 Bewertung; Preisklasse daher mit Grenze „bis ca. 500 €“.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B0HFRZNN31",
+          "datum": "2026-10-26 (Suchsnapshot)"
         }
       ],
       "pros": [
@@ -329,7 +346,7 @@
       "where": null
     },
     {
-      "name": "Logitech G PRO Racing Wheel",
+      "name": "Logitech G Pro Racing Wheel – für PC, PS4, PS5",
       "rolle": "Bestes Logitech-System (11 Nm)",
       "warum": "Der große Bruder des RS50: 11 Nm Direct Drive mit TRUEFORCE, magnetische Schaltwippen und Dual-Kupplungswippen; je eine Version für PlayStation/PC und Xbox/PC. Steht bereits in der Cockpit-Top-5 (Querverweis).",
       "fakten": [
@@ -344,6 +361,12 @@
           "art": "Test",
           "quelle": "https://www.pcgameshardware.de/Lenkraeder-Hardware-255542/Tests/",
           "datum": "2025 (laut Suchauszug)"
+        },
+        {
+          "text": "Xbox-Version separat: amazon.de B0DCBR289M „Logitech G Pro Racing Wheel - Steering Wheel for PC, Xbox Series X|S“, Modell 941-000194, kompatibel mit Xbox Series X|S, Xbox One und PC.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B0DCBR289M",
+          "datum": "2026-10-26 (Suchsnapshot)"
         }
       ],
       "specs": {
@@ -355,7 +378,7 @@
         "Lieferumfang": "Basis + Lenkrad, keine Pedale"
       },
       "asin": "B0DCBW7GGM",
-      "asinGeprueft": "aus /sim-racing-cockpits/ übernommen (dort bereits geprüft); Plattform-Version live prüfen",
+      "asinGeprueft": "amazon.de/dp/B0DCBW7GGM – „Logitech G Pro Racing Wheel - Steering Wheel for PC, PS4, PS5“ (Modell 941-000177), 2026-10-26 geprüft",
       "query": "Logitech G PRO Racing Wheel PlayStation PC",
       "where": null
     },
@@ -589,10 +612,8 @@
   "offen": [
     "B0HFRZNN31 (MOZA R5 Pro Bundle, Platz 2): neues Listing mit italienischem Titel „… Moza Racing RS105 R5 Pro Bundle B“; RS105 ist laut Händlern die Modellnummer des R5 Pro Bundles. Titel, Verkäufer und Lieferbarkeit vor Veröffentlichung live prüfen; Fallback B0DL51ZY3T (R5 Bundle 5,5 Nm) oder `query` „MOZA R5 Pro Bundle“.",
     "Verfügbarkeit/Verkäufer konnten für keine ASIN direkt auf amazon.de geprüft werden (Sandbox) – alle Listings „live prüfen“, besonders B0F94B7PTB (Fanatec, mehrere Listings mit wechselnder Verfügbarkeit) und B0FX582XTW (MOZA R3 Xbox, Angebot zuletzt teils nur „gebraucht wie neu“).",
-    "RS50 3-teilig (B0FKGV88JX): ob eine Tischklemme beiliegt, ist aus den Snapshots nicht eindeutig – vor dem Text prüfen; Pedale sind nicht enthalten.",
     "MOZA R12 V2 (B0FSXXZKDJ): Amazon-Metadaten nennen PS5 als kompatible Konsole – vom Hersteller nicht belegt, im Text als „PC (Xbox mit lizenziertem MOZA-Kranz)“ führen.",
     "Testurteile von PCGH, Gameswelt und GamePro nur aus Suchauszügen (Seiten aus der Sandbox per DNS nicht erreichbar): keine Noten, nur Titel/Tenor zitieren („laut PCGH-Test“).",
-    "Logitech G PRO Racing Wheel (Top 5): ASIN B0DCBW7GGM aus /sim-racing-cockpits/ übernommen, hier nicht erneut verifiziert.",
     "Awin: keine Bezugsquelle nötig – alle Top-3- und Top-5-Produkte über Amazon. Freigeschaltete Awin-Händler (Rewe DE, Radwelt-shop, brickzonehub) führen keine Sim-Racing-Hardware; kein neuer Händler vorgeschlagen.",
     "Rollen-Hinweis für den Redakteur: RS50 deckt mit der PS-Version ebenfalls die PS5 ab; Platz 3 begründen über Komplettset mit Pedalen + offizielle PS-Lizenz/GT7-Integration."
   ],
@@ -680,6 +701,10 @@
     {
       "titel": "Scout-Bericht",
       "url": "research/trends/2026-10-24-sim-racing-ausbau.md"
+    },
+    {
+      "titel": "Logitech G – RS50 System (Hersteller)",
+      "url": "https://www.logitechg.com/en-us/shop/p/rs50-system"
     }
   ]
 }
