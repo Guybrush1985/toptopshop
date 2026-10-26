@@ -3,10 +3,11 @@
 import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
 import { useCurrentUser, useStore } from "@/lib/store";
-import { bookSpot, memberRole, seatsTaken, toggleFavorite } from "@/lib/actions";
+import { bookSpot, isRestaurantAccount, memberRole, seatsTaken, toggleFavorite } from "@/lib/actions";
 import { ART_BG, Notice, Stars, useAction } from "@/components/ui";
 import { useParallax } from "@/components/Parallax";
-import { offerOf, TONE_BG } from "@/lib/offer";
+import { arriveBy, offerOf, TONE_BG } from "@/lib/offer";
+import { useState } from "react";
 import { MapEmbed } from "@/components/MapEmbed";
 import { FEATURES, WEEKDAYS, day, euro, priceLevel, time } from "@/lib/format";
 
@@ -17,6 +18,8 @@ export default function RestaurantPage() {
   const router = useRouter();
   const { error, busy, run } = useAction();
   useParallax([slug]);
+  const [dayFilter, setDayFilter] = useState("");
+  const [kindFilter, setKindFilter] = useState("");
   const r = s.restaurants.find((x) => x.slug === slug);
   const isMember = !!r && !!memberRole(s, user?.id, r.id);
   if (!r || (r.status !== "ACTIVE" && !isMember)) {
@@ -31,16 +34,21 @@ export default function RestaurantPage() {
   const hours = s.hours.filter((h) => h.restaurantId === r.id).sort((a, b) => a.opens.localeCompare(b.opens));
   const menu = s.menu.filter((m) => m.restaurantId === r.id).sort((a, b) => a.position - b.position);
   const categories = [...new Set(menu.map((m) => m.category))];
-  const spots = s.spots
+  // Restaurant-Konten sehen nur die Angebote ihrer eigenen Restaurants
+  const hidden = isRestaurantAccount(s, user) && !isMember;
+  const allSpots = hidden ? [] : s.spots
     .filter((sp) => sp.restaurantId === r.id && sp.status === "OPEN" && new Date(sp.endsAt) > new Date())
     .sort((a, b) => a.startsAt.localeCompare(b.startsAt))
-    .slice(0, 10);
+    .slice(0, 14);
+  const kindOf = (sp: (typeof allSpots)[number]) => (sp.discountPercent ? "PCT" : offerOf(sp).pin === "Dessert" ? "DESSERT" : "DRINK");
+  const days = [...new Set(allSpots.map((sp) => day(sp.startsAt)))];
+  const spots = allSpots.filter((sp) => (!dayFilter || day(sp.startsAt) === dayFilter) && (!kindFilter || kindOf(sp) === kindFilter));
   const reviews = s.reviews
     .filter((v) => v.restaurantId === r.id)
     .sort((a, b) => b.createdAt.localeCompare(a.createdAt));
   const avg = reviews.length ? reviews.reduce((n, x) => n + x.rating, 0) / reviews.length : 0;
   const fav = !!user && s.favorites.some((f) => f.userId === user.id && f.restaurantId === r.id);
-  const next = spots.find((sp) => sp.status === "OPEN");
+  const next = allSpots.find((sp) => sp.status === "OPEN");
   // Speisekarte zeigt die Preise mit dem Rabatt des nächsten Angebots (Rabatte unterscheiden sich je Termin)
   const bestDiscount = next?.discountPercent ?? 0;
 
@@ -68,7 +76,7 @@ export default function RestaurantPage() {
           </div>
           <div className="absolute inset-0 bg-gradient-to-t from-ink via-ink/50 to-ink/10" />
         </div>
-        <div className="mx-auto max-w-6xl px-5 pb-12 pt-40 sm:pt-56">
+        <div className="mx-auto max-w-6xl px-5 pb-10 pt-10 sm:pt-16">
           {r.status !== "ACTIVE" && <p className="mb-4 inline-block rounded-full bg-amber-100 px-4 py-1.5 text-sm text-amber-900">Vorschau: Dieses Restaurant ist noch nicht veröffentlicht.</p>}
           <div className="flex flex-wrap items-center gap-2">
             {[r.cuisine, priceLevel(r.priceLevel), r.city].filter(Boolean).map((x) => <span key={x} className="chip bg-ink/60 backdrop-blur">{x}</span>)}
@@ -81,7 +89,7 @@ export default function RestaurantPage() {
           {r.tagline && <p className="mt-4 max-w-2xl font-serif text-3xl italic leading-tight text-cream/90">{r.tagline}</p>}
           <div className="mt-6 flex flex-wrap items-center gap-4">
             {reviews.length > 0 && <p className="text-cream/80"><Stars value={avg} /> {avg.toFixed(1)} ({reviews.length})</p>}
-            {user && <button onClick={() => toggleFavorite(r.id)} className="btn-secondary">{fav ? "♥ Gemerkt" : "♡ Merken"}</button>}
+            {user && !isRestaurantAccount(s, user) && <button onClick={() => run(() => toggleFavorite(r.id))} className="btn-secondary">{fav ? "♥ Gemerkt" : "♡ Merken"}</button>}
             {next && <a href="#plaetze" className="btn px-6 py-3 text-lg">Platz sichern ↓</a>}
           </div>
         </div>
@@ -89,10 +97,23 @@ export default function RestaurantPage() {
 
       <div className="mx-auto max-w-5xl space-y-16 px-5 pb-10 pt-12">
       <section id="plaetze" className="scroll-mt-24">
-        <h2 className="display mb-5 text-5xl text-cream sm:text-6xl">Early-Bird-Plätze<span className="text-lime">.</span></h2>
+        <h2 className="display mb-4 text-5xl text-cream sm:text-6xl">Early-Bird-Plätze<span className="text-lime">.</span></h2>
         <Notice error={error} />
-        {spots.length === 0 ? (
-          <p className="card text-stone-600">Gerade keine freien Plätze ausgeschrieben.</p>
+        {allSpots.length > 1 && (
+          <div className="mb-5 flex flex-wrap gap-2" role="group" aria-label="Angebote filtern">
+            <select value={dayFilter} onChange={(e) => setDayFilter(e.target.value)} className="input w-auto py-2" aria-label="Tag">
+              <option value="">Alle Tage</option>
+              {days.map((d) => <option key={d}>{d}</option>)}
+            </select>
+            {([["", "Alle Angebote"], ["PCT", "Rabatt"], ["DRINK", "Gratis-Getränk"], ["DESSERT", "Gratis-Dessert"]] as const).map(([k, label]) => (
+              <button key={k} onClick={() => setKindFilter(k)} aria-pressed={kindFilter === k} className={`chip px-3 py-1.5 text-sm ${kindFilter === k ? "border-lime bg-lime text-ink" : ""}`}>{label}</button>
+            ))}
+          </div>
+        )}
+        {hidden ? (
+          <p className="card text-stone-600">Du bist mit einem Restaurant-Konto angemeldet. Angebote anderer Restaurants siehst und buchst du nur als Gast.</p>
+        ) : spots.length === 0 ? (
+          <p className="card text-stone-600">{allSpots.length ? "Kein Angebot passt zu diesem Filter." : "Gerade keine freien Plätze ausgeschrieben."}</p>
         ) : (
           <ul className="space-y-4">
             {spots.map((sp) => {
@@ -112,7 +133,7 @@ export default function RestaurantPage() {
                       <span className={`rounded-full px-3 py-1 text-sm font-semibold ${left <= 0 ? "bg-white/10 text-cream/60" : left <= 2 ? "bg-hot/20 text-hot-soft" : "bg-lime/15 text-lime"}`}>{left > 0 ? `noch ${left} frei` : "ausgebucht"}</span>
                     </div>
                     <p className="text-sm text-stone-600">
-                      {o.long}, gilt für alles, was bis {time(sp.endsAt)} Uhr bestellt wird. Ankunft bis 15 Minuten nach Beginn.
+                      {o.long}, gilt für alles, was bis {time(sp.endsAt)} Uhr bestellt wird. Bitte sei spätestens um {arriveBy(sp)} Uhr da, sonst verfällt das Angebot.
                       Kostenlos stornierbar bis 2 Stunden vorher. Bezahlung im Restaurant.{sp.conditions && <> {sp.conditions}</>}
                     </p>
                     {left > 0 && !closed ? (

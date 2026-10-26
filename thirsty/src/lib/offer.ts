@@ -27,7 +27,7 @@ export type OfferView = {
   tone: "lime" | "hot" | "pink";
 };
 
-export function offerOf(sp: { discountPercent: number; freebie?: string | null }): OfferView {
+export function offerOf(sp: { discountPercent: number; freebie?: string | null; maxDiscountCents?: number | null }): OfferView {
   const free = sp.freebie?.trim();
   const dessert = !!free && /dessert|nachtisch/i.test(free);
   if (sp.discountPercent > 0) {
@@ -35,7 +35,7 @@ export function offerOf(sp: { discountPercent: number; freebie?: string | null }
       big: `−${sp.discountPercent} %`,
       small: "auf alles",
       pin: `−${sp.discountPercent}%`,
-      long: `${sp.discountPercent} % auf die ganze Rechnung${free ? ` und ${free}` : ""}`,
+      long: `${sp.discountPercent} % auf die ganze Rechnung${sp.maxDiscountCents ? ` (höchstens ${Math.round(sp.maxDiscountCents / 100)} € Rabatt)` : ""}${free ? ` und ${free}` : ""}`,
       tone: sp.discountPercent >= 50 ? "hot" : "lime",
     };
   }
@@ -56,3 +56,9 @@ export const TONE_BG: Record<OfferView["tone"], string> = {
   hot: "bg-hot text-ink",
   pink: "bg-pink text-ink",
 };
+
+/** Uhrzeit, bis zu der Gäste da sein müssen (Berliner Zeit, „17:45“). */
+export function arriveBy(sp: { startsAt: string; arriveWithinMin?: number }) {
+  return new Date(new Date(sp.startsAt).getTime() + (sp.arriveWithinMin ?? 15) * 60_000)
+    .toLocaleTimeString("de-DE", { hour: "2-digit", minute: "2-digit", timeZone: "Europe/Berlin" });
+}

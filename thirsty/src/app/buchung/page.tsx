@@ -9,6 +9,7 @@ import { cancelBooking, submitReview } from "@/lib/actions";
 import { RequireUser } from "@/components/Shell";
 import { Notice, OfferBadge, Stars, formValues, useAction } from "@/components/ui";
 import { BOOKING_STATUS, day, time } from "@/lib/format";
+import { arriveBy } from "@/lib/offer";
 
 export default function BuchungPage() {
   return <RequireUser><Buchung /></RequireUser>;
@@ -34,6 +35,7 @@ function Buchung() {
   const user = useCurrentUser()!;
   const { error, run } = useAction();
   const [qr, setQr] = useState<string>();
+  const [showQr, setShowQr] = useState(true);
   const b = s.bookings.find((x) => x.id === id && x.userId === user.id);
   useEffect(() => {
     if (b) QRCode.toDataURL(`THIRSTY:${b.code}`, { margin: 1, width: 320 }).then(setQr);
@@ -58,14 +60,24 @@ function Buchung() {
         <p className="font-semibold">{day(spot.startsAt)}, {time(spot.startsAt)}–{time(spot.endsAt)} Uhr</p>
         <p className="text-sm text-stone-600">{b.partySize} {b.partySize > 1 ? "Personen" : "Person"}</p>
         <div className="my-3"><OfferBadge discount={spot.discountPercent} freebie={spot.freebie} /></div>
+        {spot.maxDiscountCents && <p className="-mt-1 mb-2 text-xs text-cream/60">höchstens {Math.round(spot.maxDiscountCents / 100)} € Rabatt</p>}
         {(b.status === "BOOKED" || b.status === "CHECKED_IN") && (
           <>
-            {qr && <img src={qr} alt={`QR-Code für Buchung ${b.code}`} className={`mx-auto w-64 ${b.status === "CHECKED_IN" ? "opacity-30" : ""}`} />}
+            {qr && showQr && (
+              <div className="relative mx-auto w-64">
+                <img src={qr} alt={`QR-Code für Buchung ${b.code}`} className={`w-64 rounded-2xl ${b.status === "CHECKED_IN" ? "opacity-30" : ""}`} />
+                <button onClick={() => setShowQr(false)} aria-label="QR-Code ausblenden" className="absolute -right-3 -top-3 grid h-9 w-9 place-items-center rounded-full bg-ink text-xl leading-none text-cream ring-2 ring-white/20 hover:bg-ink-3">×</button>
+              </div>
+            )}
+            {qr && !showQr && <button onClick={() => setShowQr(true)} className="btn-secondary">QR-Code anzeigen</button>}
             <p className="mt-2 font-mono text-3xl font-bold tracking-[0.3em]" data-testid="code">{b.code}</p>
+            {qr && b.status === "BOOKED" && (
+              <a href={qr} download={`firsty-${b.code}.png`} className="mt-2 inline-block text-sm text-cream/70 underline">QR-Code als Bild speichern</a>
+            )}
           </>
         )}
         <p className="mt-3 text-sm text-stone-600">
-          Bitte bis {time(new Date(startsAt.getTime() + 15 * 60_000))} Uhr da sein. Bezahlt wird im Restaurant.
+          Bitte bis {arriveBy(spot)} Uhr da sein, sonst verfällt das Angebot. Bezahlt wird im Restaurant.
         </p>
       </div>
 
@@ -75,7 +87,13 @@ function Buchung() {
           {r.lat != null && (
             <a href={`https://www.openstreetmap.org/directions?to=${r.lat}%2C${r.lng}`} target="_blank" rel="noreferrer" className="btn-secondary flex-1">Route</a>
           )}
-          <button onClick={() => run(() => cancelBooking(b.id))} className="btn-danger w-full">
+          <button
+            onClick={() =>
+              confirm(lateCancel
+                ? "Wirklich stornieren? Weil es weniger als 2 Stunden bis zum Beginn sind, kostet das 10 Punkte."
+                : "Buchung wirklich stornieren?") && run(() => cancelBooking(b.id))}
+            className="btn-danger w-full"
+          >
             {lateCancel ? "Stornieren (spät, kostet 10 Punkte)" : "Kostenlos stornieren"}
           </button>
         </div>
