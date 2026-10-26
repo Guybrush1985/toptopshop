@@ -258,6 +258,8 @@ Mindestumfang je Kategorie: **≥ 1.000 Wörter** (nicht künstlich auffüllen),
   Handynummern gibt es nur bestätigt per SMS. Apple und Google folgen mit der App. Daten im Supabase-Projekt Firsty.app, Schema `wbd`, Zugriff nur über
   `public.wbd_*` (Quelle `supabase/wobistdu/schema.sql`); Koordinaten werden nach Ablauf/Beenden auf null gesetzt.
   Abgleich per Polling alle 3 s; Hinweise per Browser-Notification nur bei offenem Tab. Datenschutz Abschnitt 5 ergänzt.
+  Antworten auf einen geteilten Standort (2026-10-26, Rosi): kein erneutes „Wo bist du?“, sondern 👍/❤️, „Bin auf dem
+  Weg“, „Kommst du zu mir?“ (öffnet danach das Teilen des eigenen Standorts) und ein großer Button „Meinen Standort teilen“.
 - 2026-10-08: Agententeam für den Ausbau: Orchestrator (Skill `/kategorie-pipeline`) steuert Trend-Scout, Strukturierer,
   Produkt-Rechercheur, Illustrator, Redakteur und Prüfer (`.claude/agents/`). Der Nutzer spricht nur mit dem
   Orchestrator; Freigaben bei Nischenauswahl, neuen Awin-Händlern und Merge. Nischen gern aus Sport/Kinder/Familie,
