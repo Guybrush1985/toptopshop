@@ -2,6 +2,8 @@
 // Nur lokal nötig, wenn Kategorien hinzukommen oder sich Titel ändern:
 //   npm i --no-save playwright && node scripts/og-images.mjs
 // Die PNGs werden eingecheckt; der normale Build braucht kein Playwright.
+// Danach auf 256 Farben verkleinern (IONOS-Speicher ist auf 50 MB begrenzt):
+//   for f in src/static/og/*.png; do convert "$f" -dither FloydSteinberg -colors 256 -define png:compression-level=9 "$f"; done
 
 import { readdir, mkdir, readFile } from "node:fs/promises";
 import { join, dirname } from "node:path";
