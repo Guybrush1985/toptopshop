@@ -95,6 +95,7 @@
     back: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg>',
     dots: '<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><circle cx="5" cy="12" r="2"/><circle cx="12" cy="12" r="2"/><circle cx="19" cy="12" r="2"/></svg>',
     plus: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>',
+    x: '<svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg>',
     check: '<svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>',
   };
 
@@ -302,7 +303,7 @@
 
   // ---------- Sheets ----------
   function openSheet(html, onMount) {
-    $sheet.innerHTML = `<div class="backdrop" data-close></div><div class="sheet" role="dialog" aria-modal="true"><div class="inner"><div class="grab"></div>${html}</div></div>`;
+    $sheet.innerHTML = `<div class="backdrop" data-close></div><div class="sheet" role="dialog" aria-modal="true"><div class="inner"><div class="grab"></div><button class="sheet-x" data-close aria-label="Schließen">${I.x}</button>${html}</div></div>`;
     onMount && onMount($sheet.querySelector(".sheet"));
     const f = $sheet.querySelector("input, button:not([data-close])"); f && f.focus({ preventScroll: true });
   }
@@ -502,7 +503,8 @@
     const sel = [...S.selected].filter((id) => contact(id) && !contact(id).blocked);
     S.selected = new Set(sel);
     const friends = S.contacts.filter((c) => !c.blocked);
-    const label = sel.length === 0 ? "Wo bist du?" : sel.length === 1 ? `Wo bist du, ${esc(first(contact(sel[0]).name))}?` : `Wo seid ihr? (${sel.length})`;
+    const label = sel.length > 1 ? "Wo seid ihr?" : "Wo bist du?";
+    const to = sel.length === 0 ? "Erst Freunde antippen, dann fragen." : sel.length === 1 ? `an ${esc(first(contact(sel[0]).name))}` : `an ${sel.length} Freunde`;
     $app.innerHTML = `
       <header class="top"><div class="brand">${I.mark}<span>Wo bist du<span class="q">?</span></span></div>
         <button class="icon-btn" data-add aria-label="Freund hinzufügen">${I.plus}</button></header>
@@ -519,8 +521,8 @@
       </div>
       ${friends.length <= 1 ? `<p class="fine">Tipp: Toni ist ein Testkontakt und antwortet sofort. Lade echte Freunde über „Hinzufügen“ ein.</p>` : ""}
       <div class="ask-bar"><div class="inner">
-        <button class="big-ask" data-ask ${sel.length ? "" : "disabled"}>${I.pin}<span>${label}</span></button>
-        <div class="ask-hint">${sel.length ? "Dein Freund entscheidet, ob er seinen Standort zeigt." : "Erst Freunde antippen, dann fragen."}</div>
+        <button class="big-ask" data-ask ${sel.length ? "" : "disabled"} aria-label="${label} ${to}">${I.pin}<span>${label}</span></button>
+        <div class="ask-hint">${to}</div>
       </div></div>
       ${tabs()}`;
   }
@@ -607,6 +609,9 @@
       suggest = [`<button class="chip accent" data-quick="waiting">${QUICK.waiting}</button>`, `<button class="chip accent" data-quick="howlong">${QUICK.howlong}</button>`];
     }
     const chips = [...suggest, ...QUICK_ORDER.map((k) => `<button class="chip" data-quick="${k}">${esc(QUICK[k])}</button>`)].join("");
+    // Bin ich gerade unterwegs zu ihm? Dann keine Fragen wie „Wie lange brauchst du noch?“
+    const myWay = [...t].reverse().find((m) => m.from === S.me.id && (m.kind === "ask" || (m.kind === "quick" && m.body === "onmyway")));
+    const enRoute = !locReply && myWay && myWay.kind === "quick" && now() - ts(myWay.at) < 3 * 3600e3;
     const status = statusLine(c);
     if (locReply) $app.classList.add("loc-mode");
     $app.innerHTML = `
@@ -618,7 +623,7 @@
       </header>
       ${!c.knows_me && !c.bot ? `<div class="card" style="background:var(--warn-soft);box-shadow:none"><div class="muted" style="color:var(--ink)">${esc(first(c.name))} hat dich noch nicht als Freund gespeichert. Deine Frage kommt trotzdem an.</div></div>` : ""}
       <div class="msgs">${items.join("") || `<div class="empty">Frag ${esc(first(c.name))}, wo er oder sie gerade ist.</div>`}</div>
-      ${locReply ? locComposer(c, lastIn, t) : `<div class="composer"><div class="inner">
+      ${locReply ? locComposer(c, lastIn, t) : enRoute ? wayComposer(lastIn && lastMsg === lastIn && lastIn.kind === "quick" && lastIn.body === "howlong" ? lastIn.id : null) : `<div class="composer"><div class="inner">
         <div class="scroll" role="group" aria-label="Schnellantworten">${chips}</div>
         <div class="main">
           <button class="btn primary" data-chat-ask>Wo bist du?</button>
@@ -629,6 +634,21 @@
 
   // Antwortleiste, nachdem der Freund seinen Standort geschickt hat:
   // reagieren, sagen „Bin auf dem Weg“, oder „Kommst du zu mir?“ und den eigenen Standort teilen.
+  // Leiste für „Ich bin unterwegs“: Ankunft melden statt fragen
+  function wayComposer(howlongId) {
+    return `<div class="composer loc-reply"><div class="inner">
+        <div class="lead"><span>Du bist unterwegs</span></div>
+        <div class="scroll" role="group" aria-label="Ankunft">
+          ${Object.keys(ETA).map((k) => `<button class="chip accent" data-eta="${k}" ${howlongId ? `data-to="${howlongId}"` : ""}>Noch ${ETA[k]}</button>`).join("")}
+        </div>
+        <div class="row-replies">
+          <button class="chip" data-quick="almost">${esc(QUICK.almost)}</button>
+          <button class="chip" data-quick="callme">${esc(QUICK.callme)}</button>
+        </div>
+        <button class="btn primary share-big" data-share-to>${I.pin}<span>Live-Standort teilen</span></button>
+      </div></div>`;
+  }
+
   function locComposer(c, share, t) {
     // Hat der Freund dazu „Kommst du zu mir?“ gefragt, ist die Gegenfrage überflüssig
     const asked = t.some((m) => m.from === c.id && m.kind === "quick" && m.body === "comehere" && m.id < share.id && share.id - m.id <= 3);
@@ -789,7 +809,7 @@
       return guard(async () => { await WBD.send(cid, "quick", "comehere"); await sync(); }).then(() => shareSheet(cid, true));
     }
     if (d.quick) return sendQuick(S.chatWith, "quick", d.quick);
-    if (d.eta) return sendQuick(S.chatWith, "eta", d.eta, +d.to);
+    if (d.eta) return sendQuick(S.chatWith, "eta", d.eta, d.to ? +d.to : null);
     if (d.react) return sendQuick(S.chatWith, "react", d.react, +d.to);
     if (d.copyMe != null) return copy(S.me.phone || S.me.email);
     if (d.notif != null) {

@@ -260,6 +260,8 @@ Mindestumfang je Kategorie: **≥ 1.000 Wörter** (nicht künstlich auffüllen),
   Abgleich per Polling alle 3 s; Hinweise per Browser-Notification nur bei offenem Tab. Datenschutz Abschnitt 5 ergänzt.
   Antworten auf einen geteilten Standort (2026-10-26, Rosi): kein erneutes „Wo bist du?“, sondern 👍/❤️, „Bin auf dem
   Weg“, „Kommst du zu mir?“ (öffnet danach das Teilen des eigenen Standorts) und ein großer Button „Meinen Standort teilen“.
+  Wer „Bin auf dem Weg“ gesagt hat, bekommt keine Fragen mehr angeboten, sondern „Noch 5/10/15 Min“, „Bin gleich da!“ und
+  „Live-Standort teilen“. Jedes Menü hat ein X zum Schließen; der Wo-bist-du-Button ist rund und pulsiert (2026-10-26, Rosi).
 - 2026-10-08: Agententeam für den Ausbau: Orchestrator (Skill `/kategorie-pipeline`) steuert Trend-Scout, Strukturierer,
   Produkt-Rechercheur, Illustrator, Redakteur und Prüfer (`.claude/agents/`). Der Nutzer spricht nur mit dem
   Orchestrator; Freigaben bei Nischenauswahl, neuen Awin-Händlern und Merge. Nischen gern aus Sport/Kinder/Familie,
