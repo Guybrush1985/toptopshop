@@ -9,9 +9,10 @@ RewriteCond expr "!(%{HTTP:Authorization} =~ /^Basic\s+(\S+)$/ && unbase64($1) =
 RewriteRule ^ - [R=401,L]
 Header always set WWW-Authenticate "Basic realm=\"OGSM Demo\", charset=\"UTF-8\"" "expr=%{REQUEST_STATUS} == 401"
 
-# PGlite (Postgres im Browser) lädt WebAssembly und ein Datenpaket.
-AddType application/wasm .wasm
-AddType application/octet-stream .data
+# Die Postgres-Engine liegt gepackt unter pglite/*.gz und wird im Browser entpackt.
+# Ausliefern wie sie ist, ohne Content-Encoding.
+RemoveEncoding .gz
+AddType application/octet-stream .gz
 
 <IfModule mod_headers.c>
   Header set X-Robots-Tag "noindex, nofollow"
@@ -19,7 +20,7 @@ AddType application/octet-stream .data
   Header set Referrer-Policy "strict-origin-when-cross-origin"
 </IfModule>
 <IfModule mod_deflate.c>
-  AddOutputFilterByType DEFLATE text/html text/css application/javascript application/wasm application/octet-stream
+  AddOutputFilterByType DEFLATE text/html text/css application/javascript
 </IfModule>
 <IfModule mod_expires.c>
   ExpiresActive On
