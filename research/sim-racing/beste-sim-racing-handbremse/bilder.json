@@ -1,0 +1,59 @@
+{
+  "visuals": {
+    "1": {
+      "kind": "handbrake",
+      "tone": "forest"
+    },
+    "2": {
+      "kind": "handbrake",
+      "tone": "green"
+    },
+    "3": {
+      "kind": "handbrake",
+      "tone": "mint"
+    }
+  },
+  "steps": {
+    "title": "Sim-Racing-Handbremse einrichten",
+    "subtitle": "Für Rallye und Drift sauber dosieren",
+    "alt": "Infografik: Sim-Racing-Handbremse einrichten – Plattform prüfen, Bauart wählen, Montageort festlegen, Festklemmen, Anschließen und kalibrieren, Widerstand einstellen",
+    "caption": "Eine Handbremse wirkt nur dosierbar, wenn sie fest sitzt und in der Software auf die volle Achse kalibriert ist.",
+    "steps": [
+      {
+        "title": "Plattform prüfen",
+        "text": "USB am PC oder Anschluss an die Lenkrad-Basis – nur so funktioniert sie an PS5 und Xbox."
+      },
+      {
+        "title": "Bauart wählen",
+        "text": "Analog für dosiertes Ziehen, 2-in-1 mit Sequenziell-Modus, wenn sie auch als Shifter dienen soll."
+      },
+      {
+        "title": "Montageort festlegen",
+        "text": "Rechts neben dem Sitz, senkrecht oder waagerecht – so, dass der Hebel voll durchgezogen werden kann."
+      },
+      {
+        "title": "Festklemmen",
+        "text": "Tischklemme oder Cockpit-Schrauben fest anziehen, denn beim Ziehen wirken starke Hebelkräfte."
+      },
+      {
+        "title": "Anschließen & kalibrieren",
+        "text": "Verbinden, im Spiel als Achse statt als Taste zuweisen und den vollen Weg kalibrieren."
+      },
+      {
+        "title": "Widerstand einstellen",
+        "text": "Feder oder Elastomer anpassen, bis sich die Bremse progressiv und gut dosierbar anfühlt."
+      }
+    ]
+  },
+  "scoresAlt": "Balkendiagramm: Bewertung der drei besten Sim-Racing-Handbremsen in den Kriterien Bremsgefühl & Sensorik, Kompatibilität, Vielseitigkeit, Befestigung & Verarbeitung und Preis-Leistung",
+  "scoresCaption": "Unsere Bewertung je Kriterium für die drei empfohlenen Modelle.",
+  "neueFormen": [
+    "handbrake"
+  ],
+  "offen": [
+    "Kriterien in scoresAlt sind ein Entwurf aus struktur.json – an die finalen Bewertungskriterien anpassen.",
+    "Visuals nach Produktart gesetzt (Produktliste in Arbeit); bei abweichender Bauform eines Produkts melden.",
+    "Steps sind allgemeine Vorgehensschritte; Herstellerdetails (Anschluss, Software) erst nach Produktrecherche konkretisieren.",
+    "OG-Vorschaubilder folgen nach dem Build."
+  ]
+}

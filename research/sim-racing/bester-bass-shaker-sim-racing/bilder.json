@@ -1,0 +1,59 @@
+{
+  "visuals": {
+    "1": {
+      "kind": "bassshaker",
+      "tone": "forest"
+    },
+    "2": {
+      "kind": "bassshaker",
+      "tone": "green"
+    },
+    "3": {
+      "kind": "bassshaker",
+      "tone": "mint"
+    }
+  },
+  "steps": {
+    "title": "Bass-Shaker einbauen",
+    "subtitle": "Vibrationen spüren statt nur hören",
+    "alt": "Infografik: Bass-Shaker einbauen – Einsatzort wählen, Kit oder Einzelteile, Montieren, Verstärker anschließen, Ansteuerung einrichten, Feinjustieren",
+    "caption": "Ein Bass-Shaker wirkt am besten fest verschraubt am Sitz oder an der Pedalplatte – und über Telemetrie statt nur über Ton.",
+    "steps": [
+      {
+        "title": "Einsatzort wählen",
+        "text": "Bürostuhl, Cockpit-Sitz oder Pedalplatte – davon hängen Klemme, Schraubbild und Anzahl ab."
+      },
+      {
+        "title": "Kit oder Einzelteile",
+        "text": "Komplett-Kit mit Verstärker oder einzelne Shaker – dann auf genug Verstärkerkanäle achten."
+      },
+      {
+        "title": "Montieren",
+        "text": "Shaker fest an Stuhlrohr, Sitzschiene oder unter die Platte schrauben, damit die Vibration übertragen wird."
+      },
+      {
+        "title": "Verstärker anschließen",
+        "text": "Shaker mit dem Verstärker verkabeln und diesen an Audio-Ausgang oder zweite Soundkarte hängen."
+      },
+      {
+        "title": "Ansteuerung einrichten",
+        "text": "Per Spielton oder gezielter über Telemetrie-Software wie SimHub Effekte für Motor, Schaltung und Curbs zuweisen."
+      },
+      {
+        "title": "Feinjustieren",
+        "text": "Pegel langsam erhöhen und den Boden entkoppeln, damit Körperschall Nachbarn nicht stört."
+      }
+    ]
+  },
+  "scoresAlt": "Balkendiagramm: Bewertung der drei besten Bass-Shaker in den Kriterien Wirkung & Leistung, Montage & Einsatzort, Lieferumfang & Verstärker, Software & Ansteuerung, Lautstärke & Nachbarn und Preis-Leistung",
+  "scoresCaption": "Unsere Bewertung je Kriterium für die drei empfohlenen Modelle.",
+  "neueFormen": [
+    "bassshaker"
+  ],
+  "offen": [
+    "Kriterien in scoresAlt sind ein Entwurf aus struktur.json – an die finalen Bewertungskriterien anpassen.",
+    "Visuals nach Produktart gesetzt (Produktliste in Arbeit); bei abweichender Bauform eines Produkts melden.",
+    "Steps sind allgemeine Vorgehensschritte; Herstellerdetails (Anschluss, Software) erst nach Produktrecherche konkretisieren.",
+    "OG-Vorschaubilder folgen nach dem Build."
+  ]
+}

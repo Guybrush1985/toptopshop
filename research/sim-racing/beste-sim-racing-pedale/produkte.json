@@ -1,0 +1,631 @@
+{
+  "slug": "beste-sim-racing-pedale",
+  "stand": "2026-10-24",
+  "criteria": [
+    {
+      "key": "bremse",
+      "label": "Bremse & Sensorik",
+      "weight": 0.35,
+      "description": "Loadcell vs. Hall/Potentiometer, maximale Bremskraft in kg laut Hersteller, Einstellbarkeit (Elastomere, Federn, Software), Sensoren an Gas und Kupplung."
+    },
+    {
+      "key": "kompatibilitaet",
+      "label": "Kompatibilität & Anschluss",
+      "weight": 0.25,
+      "description": "PC direkt per USB oder Anschluss an die Lenkrad-Basis; PS5/Xbox nur über welche Basis bzw. welchen Adapter; Kupplung enthalten oder nachrüstbar."
+    },
+    {
+      "key": "verarbeitung",
+      "label": "Verarbeitung, Verstellbarkeit & Stand",
+      "weight": 0.2,
+      "description": "Material (Stahl/Alu), verstellbarer Pedalabstand, -winkel und -höhe, Fersenauflage, Teppichspikes/Rahmenverlängerung gegen Wegrutschen, Cockpit-Montage."
+    },
+    {
+      "key": "preisLeistung",
+      "label": "Preis-Leistung",
+      "weight": 0.2,
+      "description": "Gegenwert in der Preisklasse, Verbreitung (Bewertungsanzahl), Ersatzteile/Upgrades, Aufrüstbarkeit."
+    }
+  ],
+  "priceTiers": {
+    "vorschlag": true,
+    "1": "bis 150 €",
+    "2": "150–320 €",
+    "3": "über 320 €",
+    "hinweis": "Spanne ca. 100 € (MOZA SR-P) bis ca. 350 € (Logitech G PRO); nur Orientierung, keine festen Preise auf der Seite."
+  },
+  "products": [
+    {
+      "rank": 1,
+      "label": "Beste Gesamtwahl",
+      "name": "Fanatec Sim Racing CSL Elite Pedals V2 - PC, PS5, PS4",
+      "brand": "Fanatec",
+      "variant": "CSL Elite Pedals V2, 3 Pedale (Kupplung, Loadcell-Bremse, Gas)",
+      "priceTier": 2,
+      "ratings": {
+        "bremse": 8.5,
+        "kompatibilitaet": 7.5,
+        "verarbeitung": 8.5,
+        "preisLeistung": 8.5
+      },
+      "gesamt": 8.25,
+      "bestFor": "Wer gleich ein komplettes 3-Pedal-Set mit Loadcell und Kupplung will – am PC mit jeder Lenkrad-Marke per USB, auf PS5/PS4 an einer Fanatec-Basis; ideal für Fanatec-Gran-Turismo-DD-Pro- oder CSL-DD-Besitzer.",
+      "fakten": [
+        {
+          "text": "Drei Pedale aus gegossenem und gefrästem Aluminium; Loadcell-Bremse, Gas und Kupplung mit kontaktlosen Hall-Sensoren; Preis zum Marktstart 299,95 €.",
+          "art": "Bericht",
+          "quelle": "https://racinggames.gg/article/fanatec-csl-elite-pedals-v2-review-precision-under-your-feet",
+          "datum": "racinggames.gg, Review 2025"
+        },
+        {
+          "text": "Loadcell-Bremse misst bis zu 90 kg Fußkraft auf der Pedalplatte; Empfindlichkeit über Tuning-Menü der Basis bzw. Fanatec Control Panel am PC einstellbar.",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.fanatec.com/ca/en/p/pedals/csl_ep_v2/csl-elite-pedals-v2",
+          "datum": "2026-10"
+        },
+        {
+          "text": "Anschluss per RJ12 an eine kompatible Fanatec-Basis oder als eigenständiges USB-Gerät am PC – nicht gleichzeitig RJ12 und USB.",
+          "art": "Herstellerangabe",
+          "quelle": "https://assets.fanatec.com/image/upload/v1741630127/downloads-prod/pdfs/CSL-EP-V2-Manual-EN.pdf",
+          "datum": "2026-10"
+        },
+        {
+          "text": "PS4/PS5 nur an einer PlayStation-lizenzierten Fanatec-Basis; Xbox One/Series X|S nur an einer Fanatec-Basis mit Xbox-lizenziertem Fanatec-Lenkrad; Anschluss per USB direkt an die Xbox ist nicht möglich.",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.fanatec.com/us/en/explorer/products/racing-wheels-wheel-bases/cables-for-fanatec-hardware/",
+          "datum": "2026-10"
+        },
+        {
+          "text": "Das CSL Pedals Load Cell Kit passt nicht zu den CSL Elite Pedals V2, weil die V2 die Loadcell bereits enthält.",
+          "art": "Herstellerangabe",
+          "quelle": "https://help.fanatec.com/hc/en-us/articles/30312135561105-Is-the-CSL-Pedals-Load-Cell-Kit-compatible-with-the-CSL-Elite-Pedals-V2",
+          "datum": "2026-10"
+        },
+        {
+          "text": "amazon.de-Listing: Bremshärte über Elastomere einstellbar, Metallfeder für ein festeres Gefühl liegt bei; Set wird vormontiert geliefert; als „Amazon Exclusive“ gekennzeichnet; ca. 4,6 von 5 Sternen bei rund 106 Bewertungen.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B0F94F27XV",
+          "datum": "2026-10 (Suchsnapshot)"
+        },
+        {
+          "text": "racinggames.gg lobt Verarbeitung und das gleichmäßige Gaspedal; Kritik: Umsetzen der einzelnen Pedalhalterungen ist fummeliger als gedacht.",
+          "art": "Test",
+          "quelle": "https://racinggames.gg/article/fanatec-csl-elite-pedals-v2-review-precision-under-your-feet",
+          "datum": "racinggames.gg, Online-Review (Datum nicht ermittelt)"
+        }
+      ],
+      "pros": [
+        "Drei Pedale inklusive Kupplung – einziges Top-3-Set mit Kupplung ab Werk zum Mittelklasse-Preis",
+        "Loadcell bis 90 kg, Hall-Sensoren an Gas und Kupplung",
+        "Am PC per USB auch mit MOZA-, Logitech- oder Thrustmaster-Lenkrad nutzbar",
+        "Aluminium-Pedalarme, vormontiert"
+      ],
+      "cons": [
+        "Auf Konsole nur an Fanatec-Basis (PS5) bzw. Basis + Xbox-lizenziertem Fanatec-Lenkrad",
+        "Keine Anbindung an Logitech- oder Thrustmaster-Basen auf Konsole",
+        "Pedalpositionen umzubauen ist laut Test fummelig",
+        "Fersenplatte/Bodenstand nicht so ausladend wie bei Logitech RS (Rutschen auf Hartboden möglich, Cockpit empfohlen)"
+      ],
+      "specs": {
+        "Bremse": "Loadcell, bis 90 kg Fußkraft (Hersteller)",
+        "Gas/Kupplung": "Hall-Sensoren (Hersteller)",
+        "Pedale": "3 (Kupplung, Bremse, Gas)",
+        "Anschluss": "RJ12 an Fanatec-Basis oder USB am PC",
+        "PC": "ja, USB direkt – mit jeder Lenkrad-Marke",
+        "PS5/PS4": "nur an PlayStation-lizenzierter Fanatec-Basis",
+        "Xbox": "nur an Fanatec-Basis mit Xbox-lizenziertem Fanatec-Lenkrad",
+        "Anschließbar an": "Fanatec-Basen (CSL DD, Gran Turismo DD Pro, ClubSport DD u. a.)",
+        "Material": "Aluminium (gegossen/gefräst)"
+      },
+      "asin": "B0F94F27XV",
+      "query": "Fanatec CSL Elite Pedals V2",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "Fanatec Sim Racing CSL Elite Pedals V2 - PC, PS5, PS4 (amazon.de/Fanatec-Elite-Racing-Leistungsstarke-Pedale/dp/B0F94F27XV; „Amazon Exclusive“, Erscheinungsdatum laut Listing 16.06.2025; Verkäufer im Snapshot nicht sichtbar – live prüfen)"
+    },
+    {
+      "rank": 2,
+      "label": "Bestes Preis-Leistungs-Verhältnis",
+      "name": "Logitech G RS Pedals - Sim Racing Pedals, 75kg Loadcell Brake",
+      "brand": "Logitech G",
+      "variant": "RS Pedals (Gas + Loadcell-Bremse; Kupplungsmodul optional)",
+      "priceTier": 1,
+      "ratings": {
+        "bremse": 7.5,
+        "kompatibilitaet": 8.0,
+        "verarbeitung": 7.5,
+        "preisLeistung": 9.5
+      },
+      "gesamt": 8.03,
+      "bestFor": "Der günstigste Einstieg in eine echte Loadcell-Bremse von einer großen Marke – am PC direkt per USB, auf PS5/Xbox an RS50/PRO-Basis oder mit Racing Adapter am G29/G920/G923.",
+      "fakten": [
+        {
+          "text": "Loadcell-Bremse bis 75 kg und kontaktloses Hall-Effect-Gaspedal; Bremsgefühl werkzeuglos über Dämpfer/Abstandhalter-Kombinationen einstellbar.",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.logitechg.com/en-us/shop/p/rs-pedals",
+          "datum": "2026-10"
+        },
+        {
+          "text": "Laut Setup-Anleitung hält die Loadcell bis 75 kg aus, so viel Kraft ist aber vor allem für Sim-Rigs/Sim-Stühle gedacht; Bremskraft und Pedalempfindlichkeit in G HUB einstellbar; Rahmenverlängerungen für Schreibtisch- oder Rig-Betrieb, mit Teppichgreifern oder auf Hartboden, auch als Wandstrebe nutzbar.",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.logitech.com/content/dam/support/simulation/rs-pedals/rs-pedals-setup-guide-emea.pdf",
+          "datum": "2026-10"
+        },
+        {
+          "text": "Auf Konsole müssen die RS Pedals an das Logitech-Lenkrad angeschlossen werden, nicht an die Konsole; an G29/G920/G923 über den separat erhältlichen Racing Adapter.",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.logitech.com/content/dam/support/simulation/rs-pedals/rs-pedals-setup-guide-emea.pdf",
+          "datum": "2026-10"
+        },
+        {
+          "text": "Racing Adapter: auf Konsole erforderlich, kompatibel mit G25/G27/G29/G920/G923.",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.logitechg.com/en-us/shop/p/racing-adapter",
+          "datum": "2026-10"
+        },
+        {
+          "text": "Optionales RS-Kupplungsmodul (UVP 39,99 €) wird links an der Fersenplatte montiert; RS Pedals zum Start UVP 149,99 €, Marktstart Q4 2025.",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.logitech.com/blog/2025/09/17/the-breakthrough-every-racer-deserves-the-logitech-g-rs50-and-rs-pedals/",
+          "datum": "2026-10"
+        },
+        {
+          "text": "amazon.de-Listing: Stahlrahmen, einstellbarer Pedalabstand; „USB-Direktanschluss nur am PC“; ca. 4,6 von 5 Sternen bei rund 135 Bewertungen; ein Rezensent betont, dass Konsolenspieler den Racing Adapter zwingend brauchen.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B0FKGWRQ29",
+          "datum": "2026-10 (Suchsnapshot)"
+        },
+        {
+          "text": "CGMagazine testete RS50 System und RS Pedals zusammen und ordnet das Set am oberen Ende des Konsolen-Einstiegs ein.",
+          "art": "Test",
+          "quelle": "https://www.cgmagonline.com/review/hardware/logitech-rs50-system-and-rs-pedals/",
+          "datum": "CGMagazine, Online-Review 2025"
+        },
+        {
+          "text": "Einzelne Händler-Rezensionen kritisieren eine sehr harte Bremse und Rutschen auf glattem Boden.",
+          "art": "Bericht",
+          "quelle": "https://www.harveynorman.co.nz/gaming/gaming-accessories/simulators-and-steering-wheels/logitech-g-rs-pedals-for-logitech-steering-wheel-black-941-000307.html",
+          "datum": "laut Berichten"
+        }
+      ],
+      "pros": [
+        "Loadcell-Bremse in der günstigsten Preisklasse",
+        "Stahlrahmen mit Verlängerungen und Teppichgreifern",
+        "Rettet G29/G920/G923-Besitzern den Umstieg (mit Racing Adapter)",
+        "Kupplung günstig nachrüstbar"
+      ],
+      "cons": [
+        "Nur 2 Pedale ab Werk – Kupplung kostet extra",
+        "75 kg statt 90–100 kg bei den teureren Sets",
+        "Konsole nur über Logitech-Lenkrad (RS50/PRO direkt, G-Serie nur mit Racing Adapter)",
+        "An Fanatec-/Thrustmaster-/MOZA-Basen auf Konsole nicht nutzbar"
+      ],
+      "specs": {
+        "Bremse": "Loadcell, bis 75 kg (Hersteller)",
+        "Gas": "Hall-Sensor (Hersteller)",
+        "Pedale": "2 (Gas, Bremse); RS-Kupplungsmodul optional",
+        "Anschluss": "USB – am PC direkt, auf Konsole am USB-Port des Logitech-Lenkrads",
+        "PC": "ja, USB direkt – mit jeder Lenkrad-Marke",
+        "PS5/PS4": "über RS50/PRO-Basis (PlayStation-Version) oder G29/G923 + Racing Adapter",
+        "Xbox": "über RS50/PRO-Basis (Xbox-Version) oder G920/G923 + Racing Adapter",
+        "Anschließbar an": "Logitech RS50, G PRO Racing Wheel; G29/G920/G923 mit Racing Adapter",
+        "Material": "Stahlrahmen"
+      },
+      "asin": "B0FKGWRQ29",
+      "query": "Logitech G RS Pedals",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "Logitech G RS Pedals - Sim Racing Pedale, 75 kg Loadcell-Bremse, Schwarz (amazon.de/Logitech-Pedals-Sim-Racing-Pedale-75-kg-Loadcell-Bremse-Pedalpositionen/dp/B0FKGWRQ29; im Snapshot lieferbar, Verkäufer nicht sichtbar). Zweites Listing B0FLC91D4B (Modell 941-000306) existiert – B0FKGWRQ29 hat mehr Bewertungen."
+    },
+    {
+      "rank": 3,
+      "label": "Beste Wahl für Konsole",
+      "name": "Logitech G PRO Racing Pedals",
+      "brand": "Logitech G",
+      "variant": "PRO Racing Pedals, 3 Pedale (Kupplung, Loadcell-Bremse, Gas)",
+      "priceTier": 3,
+      "ratings": {
+        "bremse": 8.5,
+        "kompatibilitaet": 8.5,
+        "verarbeitung": 8.5,
+        "preisLeistung": 6.5
+      },
+      "gesamt": 8.1,
+      "bestFor": "Konsolenfahrer mit Logitech-Lenkrad, die ein vollwertiges 3-Pedal-Loadcell-Set wollen: direkt am G PRO Racing Wheel oder RS50 auf PS5 und Xbox, am G29/G920/G923 mit Racing Adapter – und am PC per USB.",
+      "fakten": [
+        {
+          "text": "Loadcell-Bremse mit bis zu 100 kg Kraftmessung, Gas und Kupplung mit Hall-Effect-Sensoren.",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.logitechg.com/en-us/shop/p/pro-racing-pedals",
+          "datum": "2026-10"
+        },
+        {
+          "text": "PC (Windows 10/11) direkt per USB; an der PRO Racing Wheel auch auf Xbox Series X|S, Xbox One, PS5 und PS4; UVP zum Start 349 €.",
+          "art": "Herstellerangabe",
+          "quelle": "https://ir.logitech.com/press-releases/press-release-details/2022/Logitech-G-Launches-Professional-Grade-PRO-Racing-Wheel-and-Pedals/default.aspx",
+          "datum": "Pressemitteilung 21.09.2022"
+        },
+        {
+          "text": "Für G923, G29 oder G920 ist der separat erhältliche Logitech G Racing Adapter nötig.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B07W5JKTTH",
+          "datum": "2026-10 (Suchsnapshot)"
+        },
+        {
+          "text": "amazon.de-Listing: Federn und Elastomere austauschbar, jedes Pedal seitlich versetz- oder abnehmbar (modular); ca. 4,6–4,7 von 5 Sternen bei rund 65 Bewertungen.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B07W5JKTTH",
+          "datum": "2026-10 (Suchsnapshot)"
+        },
+        {
+          "text": "PC Gamer: die Pedale seien „der Star“ des PRO-Systems mit hervorragender Loadcell-Bremse; Kritik: separat zum Lenkrad zu kaufen.",
+          "art": "Test",
+          "quelle": "https://pcgamer.com/logitech-g-pro-racing-wheel-pedals-review",
+          "datum": "PC Gamer, Online-Review"
+        },
+        {
+          "text": "PC Games Hardware testete die Logitech G Pro DD11 Wheel Base zusammen mit den Racing Pedals (u. a. auf der virtuellen Nordschleife).",
+          "art": "Test",
+          "quelle": "https://www.pcgameshardware.de/Lenkraeder-Hardware-255542/Tests/Logitech-G-Pro-DD11-Wheel-Base-Racing-Pedals-Nordschleife-1483260/",
+          "datum": "PCGH online, 2025 (genaues Datum laut Snippet 01/10/2025)"
+        }
+      ],
+      "pros": [
+        "Höchste Loadcell-Kraft im Vergleich (100 kg)",
+        "Drei Pedale inkl. Kupplung, Hall-Sensoren",
+        "Breiteste Konsolen-Abdeckung: PRO/RS50 direkt, G29/G920/G923 mit Adapter",
+        "Modular: Pedale versetz- und tauschbar, Federn/Elastomere wechselbar"
+      ],
+      "cons": [
+        "Teuerstes Set der Top 3",
+        "Auf Konsole nur an Logitech-Lenkrädern",
+        "Für G-Serie zusätzlich Racing Adapter nötig",
+        "Vergleichsweise wenige amazon.de-Bewertungen"
+      ],
+      "specs": {
+        "Bremse": "Loadcell, bis 100 kg (Hersteller)",
+        "Gas/Kupplung": "Hall-Sensoren (Hersteller)",
+        "Pedale": "3 (Kupplung, Bremse, Gas)",
+        "Anschluss": "USB – am PC direkt, auf Konsole über das Logitech-Lenkrad",
+        "PC": "ja, USB direkt (Windows 10/11)",
+        "PS5/PS4": "über G PRO Racing Wheel/RS50 (PlayStation-Version) oder G29/G923 + Racing Adapter",
+        "Xbox": "über G PRO Racing Wheel/RS50 (Xbox-Version) oder G920/G923 + Racing Adapter",
+        "Anschließbar an": "Logitech G PRO Racing Wheel, RS50; G29/G920/G923 mit Racing Adapter"
+      },
+      "asin": "B07W5JKTTH",
+      "query": "Logitech G PRO Racing Pedals",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "Logitech G PRO Racing Pedals - Racing Simulation Pedals - 100kg Loadcell Brake, Fully Customisable, Interchangeable Springs and Elastomers, Modular Design, Black (amazon.de/dp/B07W5JKTTH; im Snapshot auf Lager, „nur noch 19 auf Lager“). Alternativlisting B0CF7SG3QT ist „derzeit nicht verfügbar“ → nicht verwenden."
+    }
+  ],
+  "top5": [
+    {
+      "name": "Thrustmaster Raceline Pedals III Modulares Pedalset - PS5, XBOX & PC",
+      "warum": "Beste Einstiegs-Pedale ohne Loadcell und Set mit Kupplung für Thrustmaster-Basen: drei Metallpedale mit magnetischen H.E.A.R.T.-Sensoren, auf Konsole an allen Thrustmaster-Force-Feedback-Basen (außer T500); später mit dem Raceline-LC-Upgrade zur Loadcell aufrüstbar. Nachfolger des T3PM.",
+      "fakten": [
+        {
+          "text": "3 Pedale (Kupplung, Bremse, Gas) mit H.E.A.R.T.-Sensoren, Metallstruktur; Höhe je Pedal in 4 Positionen, Druck über 3 Rasten und beiliegende Federn; 350 × 370 × 215 mm, 4 kg.",
+          "art": "Herstellerangabe",
+          "quelle": "https://ts.thrustmaster.com/download/accessories/Manuals/Raceline_Pedals/III/Raceline_Pedals_III_User-Manual.pdf",
+          "datum": "2026-10"
+        },
+        {
+          "text": "Kompatibel mit allen Thrustmaster-Force-Feedback-Lenkrädern außer T500 auf PS5, PS4 und PC; Xbox One/Series X|S ebenfalls genannt. Die Support-Liste nennt teils nur T598/T818 – live prüfen.",
+          "art": "Herstellerangabe",
+          "quelle": "https://eshop.thrustmaster.com/en_us/raceline-pedals-iii.html",
+          "datum": "2026-10"
+        },
+        {
+          "text": "amazon.de: ca. 4,3 von 5 Sternen bei rund 148 Bewertungen; das T3PM-Listing (B099XN5YBB) verweist auf die Raceline Pedals III als neuere Version.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B0DPXFT28V",
+          "datum": "2026-10 (Suchsnapshot)"
+        }
+      ],
+      "asin": "B0DPXFT28V",
+      "query": "Thrustmaster Raceline Pedals III",
+      "asinGeprueft": "Thrustmaster Raceline Pedals III Modulares Pedalset - PS5, XBOX & PC",
+      "where": null
+    },
+    {
+      "name": "Logitech G RS Pedals mit Racing Adapter",
+      "warum": "Beste für Besitzer eines Logitech G29, G920 oder G923: Loadcell-Pedale plus der auf Konsole nötige Racing Adapter in einem Paket – das alte Lenkrad bleibt, nur die Pedale werden besser.",
+      "fakten": [
+        {
+          "text": "Racing Adapter auf Konsole erforderlich, kompatibel mit G25/G27/G29/G920/G923.",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.logitechg.com/en-us/shop/p/racing-adapter",
+          "datum": "2026-10"
+        },
+        {
+          "text": "Laut Listing: PRO/RS50-Basis auf Konsole direkt, G-Serie erfordert Racing Adapter; Plattformen PS5, PS4, Xbox Series X|S, Windows.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B0FMYGNT2F",
+          "datum": "2026-10 (Suchsnapshot)"
+        },
+        {
+          "text": "Bundle-Listing aus zwei Artikeln: RS Pedals und Racing Adapter (je mit eigenem Einzelpreis im Listing), Lieferung ggf. in zwei getrennten Sendungen; Erscheinungsdatum 29.10.2025.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B0FMYGNT2F",
+          "datum": "2026-10-26 (Suchsnapshot)"
+        }
+      ],
+      "asin": "B0FMYGNT2F",
+      "query": "Logitech G RS Pedals mit Racing Adapter",
+      "asinGeprueft": "Logitech G RS Pedals mit Racing Adapter (2026-10-26: Listing nennt zwei Artikel – RS Pedals + Racing Adapter)",
+      "where": null
+    },
+    {
+      "name": "Thrustmaster Raceline LC Load Cell-Bremse Upgrade-Set - PS5, XBOX & PC",
+      "warum": "Beste für Thrustmaster-Basen (T248, T300, T598, T818 …): macht Raceline Pedals III oder LTE zur Loadcell-Bremse bis 100 kg – der Thrustmaster-Weg zur Loadcell, seit der T-LCM auf amazon.de nicht lieferbar ist.",
+      "fakten": [
+        {
+          "text": "Kompatibel mit Raceline Pedals LTE und Raceline Pedals III; Set mit Loadcell-Bremspedal, 3-Pedal-Platte, Metall-Pedalköpfen, Zusatzfeder und Elastomer-Puffer.",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.thrustmaster.com/products/raceline-lc-upgrade/",
+          "datum": "2026-10"
+        },
+        {
+          "text": "Auf Konsole an allen Thrustmaster-Force-Feedback-Basen außer T500 (RJ45-Kabel bzw. RJ12-Konverter; T598 im Modus TRLP-LC, sonst T3PA-Modus); am PC per USB mit jeder Basis.",
+          "art": "Herstellerangabe",
+          "quelle": "https://support.thrustmaster.com/en/kb/1888-en/",
+          "datum": "2026-10"
+        },
+        {
+          "text": "Loadcell bis 100 kg, 24 Bit; maximale Bremskraft per Federn/Elastomer zwischen 25 und 100 kg einstellbar (Angabe für das baugleiche Raceline Pedals III LC).",
+          "art": "Herstellerangabe",
+          "quelle": "https://eshop.thrustmaster.com/en_us/raceline-pedals-iii-lc.html",
+          "datum": "2026-10"
+        },
+        {
+          "text": "amazon.de: ca. 4,3 von 5 Sternen bei rund 28 Bewertungen.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B0G3PZ8KGW",
+          "datum": "2026-10 (Suchsnapshot)"
+        }
+      ],
+      "asin": "B0G3PZ8KGW",
+      "query": "Thrustmaster Raceline LC Load Cell Upgrade",
+      "asinGeprueft": "Thrustmaster Raceline LC Load Cell-Bremse Upgrade-Set - PS5, XBOX & PC",
+      "where": null
+    },
+    {
+      "name": "MOZA SR-P Load Cell Pedals",
+      "warum": "Beste für MOZA-Fahrer und reine PC-Rigs: die günstigste Loadcell im Vergleich (Messbereich bis 100 kg), per USB direkt am PC und damit mit jeder Basis nutzbar – aber kein Konsolenbetrieb.",
+      "fakten": [
+        {
+          "text": "Bremse mit Loadcell + Winkelsensor, Kapazität 100 kg (Winkelsensor im ersten Teil des Wegs, danach Drucksensor); Anschluss USB direkt am PC.",
+          "art": "Herstellerangabe",
+          "quelle": "https://mozaracing.com/pages/srp-pedals",
+          "datum": "2026-10"
+        },
+        {
+          "text": "Traxion: Einstiegs-Loadcell, Pedalplatten aus Alu, Rest Stahl; der Nachfolger SRP2 (nicht auf amazon.de) behebt laut simracingcockpit.gg das federlastige, „spielzeughafte“ Bremsgefühl unter hoher Last.",
+          "art": "Test",
+          "quelle": "https://traxion.gg/moza-sr-p-pedals-review-range-extenders/",
+          "datum": "Traxion, Online-Review; simracingcockpit.gg/moza-srp2-pedals-review"
+        },
+        {
+          "text": "Auf Konsole laufen MOZA-Basen laut MOZA nur mit Xbox-lizenziertem Lenkrad/Bundle; dafür ist SR-P Lite vorgesehen, nicht SR-P.",
+          "art": "Herstellerangabe",
+          "quelle": "https://support.mozaracing.com/en/support/solutions/articles/70000627811-wheel-base-faqs",
+          "datum": "2026-10"
+        },
+        {
+          "text": "amazon.de: ca. 4,4 von 5 Sternen bei rund 41 Bewertungen, im Snapshot nur noch wenige Stück; Kupplung separat (MOZA SR-P Clutch Pedal, B0B5KZ4PJ7).",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B0B73X6N4K",
+          "datum": "2026-10 (Suchsnapshot)"
+        },
+        {
+          "text": "Snapshots widersprüchlich: einer „derzeit nicht verfügbar“, andere mit mehreren Marktplatz-Angeboten.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B0B73X6N4K",
+          "datum": "2026-10-26 (Suchsnapshot)"
+        }
+      ],
+      "asin": "B0B73X6N4K",
+      "query": "MOZA SR-P Load Cell Pedals",
+      "asinGeprueft": "MOZA SR-P Load Cell Pedals (amazon.de/MOZA-RACING-SR-P-Load-Cell-Pedalen/dp/B0B73X6N4K; Listing B0DHHJWQ2S ist „derzeit nicht verfügbar“)",
+      "where": null
+    },
+    {
+      "name": "Logitech G RS Pedals mit RS Kupplungsmodul",
+      "warum": "Bestes Set mit Kupplung für H-Schaltung zum kleinen Preis: RS Pedals (75-kg-Loadcell) plus Kupplungsmodul als 3-Pedal-Paket – für Rally, Oldtimer und Truck-Sims mit H-Shifter.",
+      "fakten": [
+        {
+          "text": "RS Pedals unterstützen ein separat erhältliches Kupplungspedal, das links an der Fersenplatte montiert und am Clutch-Port des Gaspedalmoduls angeschlossen wird.",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.logitech.com/content/dam/support/simulation/rs-pedals/rs-pedals-setup-guide-emea.pdf",
+          "datum": "2026-10"
+        },
+        {
+          "text": "Listing nennt Handschaltung, 3 Pedale, PC, Xbox Series X|S, PS4 und PS5 (Konsole über Logitech-Lenkrad); Snapshot zeigte noch Vorbestellung mit Erscheinungsdatum 29.10.2025 – veraltet, Verfügbarkeit live prüfen.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B0FMYH5936",
+          "datum": "2026-10 (Suchsnapshot)"
+        },
+        {
+          "text": "Titel „Logitech G RS Pedals mit RS Kupplungsmodul“ und Abschnitt „Extra RS Kupplungsmodul“ deuten auf Paket mit Kupplung; dieselbe Beschreibung nennt das Modul an anderer Stelle optional/separat, Status im Snapshot weiter „Vorbestellung“ – Lieferumfang nicht eindeutig belegbar. Kein eigenständiges amazon.de-Listing des RS Kupplungsmoduls (941-000307) gefunden.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B0FMYH5936",
+          "datum": "2026-10-26 (Suchsnapshot)"
+        }
+      ],
+      "asin": "B0FMYH5936",
+      "query": "Logitech G RS Pedals mit RS Kupplungsmodul",
+      "asinGeprueft": "Logitech G RS Pedals mit RS Kupplungsmodul (2026-10-26: Titel passt, Lieferumfang in der Beschreibung widersprüchlich – im Text vorsichtig formuliert)",
+      "where": null
+    }
+  ],
+  "tests": [
+    {
+      "institut": "Stiftung Warentest / Öko-Test / ADAC",
+      "heft": "–",
+      "ergebnis": "Kein Test von Sim-Racing-Pedalen gefunden.",
+      "quelle": "Websuche 2026-10-24"
+    },
+    {
+      "institut": "PC Games Hardware",
+      "heft": "PCGH online, 2025",
+      "ergebnis": "Test „Logitech G Pro DD11 Wheel Base + Racing Pedals“ (Nordschleife) – Pedale nur als Teil des Systemtests; kein eigenständiges Pedal-Urteil im Snippet.",
+      "quelle": "https://www.pcgameshardware.de/Lenkraeder-Hardware-255542/Tests/Logitech-G-Pro-DD11-Wheel-Base-Racing-Pedals-Nordschleife-1483260/"
+    },
+    {
+      "institut": "PC Gamer",
+      "heft": "Online-Review",
+      "ergebnis": "Logitech G PRO Racing Pedals „Star des Systems“, hervorragende Loadcell-Bremse.",
+      "quelle": "https://pcgamer.com/logitech-g-pro-racing-wheel-pedals-review"
+    },
+    {
+      "institut": "CGMagazine",
+      "heft": "Online-Review 2025",
+      "ergebnis": "Logitech RS50 System und RS Pedals: oberes Ende des Konsolen-Einstiegs (Wertung im Snippet nicht sichtbar).",
+      "quelle": "https://www.cgmagonline.com/review/hardware/logitech-rs50-system-and-rs-pedals/"
+    },
+    {
+      "institut": "racinggames.gg",
+      "heft": "Online-Review",
+      "ergebnis": "Fanatec CSL Elite Pedals V2: starke Verarbeitung, gleichmäßiges Gas; Umsetzen der Pedale fummelig.",
+      "quelle": "https://racinggames.gg/article/fanatec-csl-elite-pedals-v2-review-precision-under-your-feet"
+    },
+    {
+      "institut": "Traxion.gg",
+      "heft": "Online-Review",
+      "ergebnis": "MOZA SR-P: Einstiegs-Loadcell; Bremsgefühl federlastig (Nachfolger SRP2 verbessert).",
+      "quelle": "https://traxion.gg/moza-sr-p-pedals-review-range-extenders/"
+    },
+    {
+      "institut": "Deutsche Fachmagazine (GameStar, ComputerBase, Chip, Computer Bild)",
+      "heft": "–",
+      "ergebnis": "Kein deutschsprachiger Pedal-Einzeltest/-Vergleich gefunden.",
+      "quelle": "Websuche 2026-10-24"
+    }
+  ],
+  "warnungen": [
+    "Keine Rückrufe oder Safety-Gate-Meldungen zu Sim-Racing-Pedalen von Logitech, Fanatec, Thrustmaster oder MOZA gefunden (Websuche 2026-10-24; Safety-Gate-Portal aus der Sandbox nicht abrufbar).",
+    "Fanatec Podium Pedals: bisher nur ohne Kupplung erhältlich (Formula, seit Herbst 2026 auch Sport mit zwei Pedalen); die 3-Pedal-Konfiguration und das separate Kupplungsmodul wurden wegen Fertigungsproblemen am Kupplungspedal mehrfach verschoben (zuvor Q1, dann Q3, dann Oktober 2026) und sind laut Fanatec-Produktseite nun für Q4 2026 angekündigt – betrifft nicht die CSL Elite Pedals V2 (Quelle: GTPlanet, 16.10.2026, https://www.gtplanet.net/fanatec-podium-pedals-sport-now-available-5-off-with-gtplanet-code-20261016/; frühere Meldung: https://www.gtplanet.net/fanatecs-new-podium-pedals-back-in-stock-tomorrow-5-off-with-discount-code-20260818/).",
+    "Kompatibilitäts-Hinweis für den Text: Auf PS5 und Xbox laufen Pedale nie direkt an der Konsole, sondern nur über eine Lenkrad-Basis desselben Herstellers (Fanatec RJ12, Logitech USB am Lenkrad bzw. Racing Adapter, Thrustmaster RJ12/RJ45). Am PC funktionieren Fanatec-, Logitech-, Thrustmaster- und MOZA-Pedale per USB mit jeder Basis. Quellen: fanatec.com Kabel-Guide, Logitech RS-Pedals-Setup-Guide, support.thrustmaster.com/en/kb/1888-en/.",
+    "Loadcell-Kraft (75–100 kg) wirkt auf Rahmen und Boden: ohne Cockpit/Wandstrebe rutschen Pedale auf Hartboden leichter weg – Logitech selbst empfiehlt die volle Kraft vor allem für Rigs/Sim-Stühle (RS-Pedals-Setup-Guide). Querverweis /sim-racing-cockpits/."
+  ],
+  "verworfen": [
+    {
+      "name": "Thrustmaster T-LCM Pedals (B07YFDL1JW)",
+      "grund": "amazon.de „derzeit nicht verfügbar, unbekannt ob wieder lieferbar“ (Snapshot 2026-10) – trotz 3.258 Bewertungen nicht empfehlbar; Ersatz: Raceline Pedals III + Raceline LC Upgrade."
+    },
+    {
+      "name": "Thrustmaster Raceline Pedals III LC (Komplettset)",
+      "grund": "Herstellerseite vorhanden, auf amazon.de aber keine eindeutige /dp/-Seite gefunden (nur Bestseller-Liste ohne ASIN) → nicht in Top 3/5; über Raceline III + LC-Upgrade abgedeckt."
+    },
+    {
+      "name": "Thrustmaster T3PM (B099XN5YBB)",
+      "grund": "Aktiv, aber amazon.de weist Raceline Pedals III als neuere Version aus."
+    },
+    {
+      "name": "MOZA SRP2 Pedals",
+      "grund": "Nachfolger der SR-P, auf amazon.de kein Set-Listing (nur Kupplung)."
+    },
+    {
+      "name": "MOZA CRP2 (B0FKGDN7H6 / B0G8DHCRXR)",
+      "grund": "High-End (200-kg-Loadcell, Alu) über dem Einstieg-bis-Mittelklasse-Rahmen; Listings mit wenigen Bewertungen, teils nur gebraucht/Drittanbieter oder nicht verfügbar."
+    },
+    {
+      "name": "Logitech G PRO Racing Pedals B0CF7SG3QT",
+      "grund": "Zweitlisting „derzeit nicht verfügbar“ – aktives B07W5JKTTH verwendet."
+    },
+    {
+      "name": "Heusinkveld, Simucube, Asetek (Hydraulik/High-End)",
+      "grund": "Preisklasse und Bezug außerhalb Amazon; laut Struktur nur im Text."
+    }
+  ],
+  "offen": [
+    "Verkäufer/Lieferstatus aller ASINs live prüfen (amazon.de aus der Sandbox nicht abrufbar, nur Suchsnapshots): besonders B0F94F27XV (Fanatec, Verkäufer nicht sichtbar), B0B73X6N4K (MOZA, nur wenige Stück), B0FMYH5936 (RS Pedals + Kupplung, Snapshot zeigte veraltete Vorbestellung).",
+    "Logitech hat auf der G PLAY 2026 laut Logitech-Suchtreffer „RS Pedals SE“ gezeigt (Setup-Guide rs-pedals-se-amr.pdf existiert); kein amazon.de-Listing und keine Spezifikationen gefunden – vor Veröffentlichung prüfen, ob es RS Pedals ablöst.",
+    "Thrustmaster Raceline Pedals III LC (Komplettset mit 100-kg-Loadcell): keine ASIN gefunden; falls ein /dp/-Listing auftaucht, wäre es eine gute Top-5-Alternative für Thrustmaster-Basen (bisher query „Thrustmaster Raceline Pedals III LC“).",
+    "Thrustmaster-Kompatibilität der Raceline Pedals III widersprüchlich (eShop: alle FFB-Basen außer T500; Support-KB 1795: teils nur T598/T818) – im Text mit „laut Thrustmaster-Shop“ formulieren.",
+    "Logitech-Konsolenangaben teils widersprüchlich (welche G-Serie-Lenkräder auf PS5/Xbox) – im Text mit Racing-Adapter-Seite belegen.",
+    "Awin: kein passender freigeschalteter Händler (joined: Rewe, Radwelt, BrickZoneHub); alle Produkte über Amazon verfügbar → kein Bewerbungsbedarf.",
+    "Kein deutschsprachiger unabhängiger Pedaltest gefunden; Bewertungen sind redaktionelle Einschätzungen auf Basis Herstellerangaben und englischer Reviews.",
+    "Zubehör-Hinweis Pedalstand: Thrustmaster T-Pedals Stand (B084KCGJ8X) kompatibel mit T3PA/T3PA-PRO/T-LCM/T3PM – Raceline-III-Kompatibilität nicht bestätigt.",
+    "B0FMYH5936 (RS Pedals mit Kupplungsmodul): Lieferumfang laut Listing widersprüchlich (Titel mit Kupplung, Beschreibung teils „optional“); kein Ersatz mit eindeutiger ASIN gefunden (Raceline Pedals III LC weiterhin ohne /dp/-Listing, RS Kupplungsmodul nicht einzeln auf amazon.de) – Eintrag mit vorsichtiger Formulierung belassen, live prüfen."
+  ],
+  "quellen": [
+    {
+      "titel": "Fanatec CSL Elite Pedals V2",
+      "url": "https://www.fanatec.com/ca/en/p/pedals/csl_ep_v2/csl-elite-pedals-v2"
+    },
+    {
+      "titel": "Fanatec CSL Elite Pedals V2 Handbuch",
+      "url": "https://assets.fanatec.com/image/upload/v1741630127/downloads-prod/pdfs/CSL-EP-V2-Manual-EN.pdf"
+    },
+    {
+      "titel": "Fanatec Kabel-Guide",
+      "url": "https://www.fanatec.com/us/en/explorer/products/racing-wheels-wheel-bases/cables-for-fanatec-hardware/"
+    },
+    {
+      "titel": "Logitech RS Pedals",
+      "url": "https://www.logitechg.com/en-us/shop/p/rs-pedals"
+    },
+    {
+      "titel": "Logitech RS Pedals Setup-Guide",
+      "url": "https://www.logitech.com/content/dam/support/simulation/rs-pedals/rs-pedals-setup-guide-emea.pdf"
+    },
+    {
+      "titel": "Logitech Blog RS50/RS Pedals",
+      "url": "https://www.logitech.com/blog/2025/09/17/the-breakthrough-every-racer-deserves-the-logitech-g-rs50-and-rs-pedals/"
+    },
+    {
+      "titel": "Logitech Racing Adapter",
+      "url": "https://www.logitechg.com/en-us/shop/p/racing-adapter"
+    },
+    {
+      "titel": "Logitech PRO Racing Pedals",
+      "url": "https://www.logitechg.com/en-us/shop/p/pro-racing-pedals"
+    },
+    {
+      "titel": "Logitech Pressemitteilung PRO 2022",
+      "url": "https://ir.logitech.com/press-releases/press-release-details/2022/Logitech-G-Launches-Professional-Grade-PRO-Racing-Wheel-and-Pedals/default.aspx"
+    },
+    {
+      "titel": "Thrustmaster Raceline Pedals III",
+      "url": "https://eshop.thrustmaster.com/en_us/raceline-pedals-iii.html"
+    },
+    {
+      "titel": "Thrustmaster Raceline LC Upgrade",
+      "url": "https://www.thrustmaster.com/products/raceline-lc-upgrade/"
+    },
+    {
+      "titel": "Thrustmaster Support Raceline LC",
+      "url": "https://support.thrustmaster.com/en/kb/1888-en/"
+    },
+    {
+      "titel": "MOZA SR-P Pedals",
+      "url": "https://mozaracing.com/pages/srp-pedals"
+    },
+    {
+      "titel": "racinggames.gg CSL Elite V2 Review",
+      "url": "https://racinggames.gg/article/fanatec-csl-elite-pedals-v2-review-precision-under-your-feet"
+    },
+    {
+      "titel": "PC Gamer Logitech G PRO Review",
+      "url": "https://pcgamer.com/logitech-g-pro-racing-wheel-pedals-review"
+    },
+    {
+      "titel": "PCGH G Pro DD11 + Racing Pedals",
+      "url": "https://www.pcgameshardware.de/Lenkraeder-Hardware-255542/Tests/Logitech-G-Pro-DD11-Wheel-Base-Racing-Pedals-Nordschleife-1483260/"
+    },
+    {
+      "titel": "CGMagazine RS50 + RS Pedals",
+      "url": "https://www.cgmagonline.com/review/hardware/logitech-rs50-system-and-rs-pedals/"
+    },
+    {
+      "titel": "Traxion MOZA SR-P",
+      "url": "https://traxion.gg/moza-sr-p-pedals-review-range-extenders/"
+    },
+    {
+      "titel": "GTPlanet – Fanatec Podium Pedals Sport Now Available (16.10.2026)",
+      "url": "https://www.gtplanet.net/fanatec-podium-pedals-sport-now-available-5-off-with-gtplanet-code-20261016/"
+    }
+  ]
+}
