@@ -199,6 +199,24 @@ h1, h2, h3 { font-family: var(--display); margin: 0; line-height: 1.05; letter-s
 .composer .main { display: flex; gap: 8px; }
 .composer .main .btn { padding: 15px 12px; width: auto; flex: 1 1 0; min-width: 0; }
 .composer .main .btn.primary { flex: 1.4 1 0; font-family: var(--display); font-size: 1.15rem; font-weight: 800; }
+/* Antwort auf einen geteilten Standort */
+.app.chat-mode.loc-mode { padding-bottom: calc(270px + env(safe-area-inset-bottom, 0px)); }
+.composer.loc-reply .lead { display: flex; align-items: center; justify-content: space-between; gap: 10px; font-size: .85rem; font-weight: 700; color: var(--muted); }
+.composer .rxs { display: flex; gap: 8px; }
+.composer .row-replies { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.composer .row-replies .chip { padding: 13px 10px; font-weight: 700; justify-content: center; text-align: center; white-space: nowrap; }
+.composer .rx {
+  border: 0; width: 46px; height: 46px; border-radius: 50%; font-size: 1.35rem; line-height: 1; cursor: pointer;
+  background: var(--card); box-shadow: 0 0 0 1px var(--line); transition: transform .12s ease;
+}
+.composer .rx:active { transform: scale(.9); }
+.composer .rx[aria-pressed="true"] { background: var(--accent-soft); box-shadow: 0 0 0 2px var(--accent); }
+.composer .share-big {
+  display: flex; align-items: center; justify-content: center; gap: 10px; padding: 18px; border-radius: 22px;
+  font-family: var(--display); font-size: 1.3rem; font-weight: 800; letter-spacing: -.01em;
+  box-shadow: 0 14px 32px -16px var(--accent);
+}
+.composer .share-big svg { width: 24px; height: 24px; flex: none; }
 .react-row { display: flex; gap: 6px; align-self: flex-start; margin-top: -4px; }
 .react-row button { border: 0; background: var(--card); box-shadow: 0 0 0 1px var(--line); border-radius: 999px; padding: 4px 10px; font-size: 1rem; cursor: pointer; }
 

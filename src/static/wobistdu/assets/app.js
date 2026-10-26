@@ -14,7 +14,8 @@
     callme: "Ruf mich kurz an.",
     thanks: "Danke!",
     allgood: "Alles gut bei dir?",
-    onmyway: "Bin unterwegs zu dir.",
+    onmyway: "Bin auf dem Weg zu dir.",
+    comehere: "Kommst du zu mir?",
     andyou: "Und du? Wo bist du?",
   };
   const QUICK_ORDER = ["howlong", "almost", "waiting", "onmyway", "callme", "allgood", "thanks"];
@@ -336,11 +337,12 @@
     });
   }
 
-  function shareSheet(cid) {
+  function shareSheet(cid, come) {
     const c = contact(cid);
     let dur = 0;
     openSheet(`
-      <h2>Standort an ${esc(first(c.name))} senden</h2>
+      <h2>${come ? `Damit ${esc(first(c.name))} zu dir findet` : `Standort an ${esc(first(c.name))} senden`}</h2>
+      ${come ? `<div class="muted">Deine Frage ist raus. Teil jetzt noch deinen Standort.</div>` : ""}
       <div class="chips" role="group" aria-label="Dauer">
         <button class="chip" data-dur="0" aria-pressed="true">Einmalig</button>
         <button class="chip" data-dur="15" aria-pressed="false">Live 15 Min</button>
@@ -589,19 +591,24 @@
     }
     const lastIn = t.filter((m) => m.from === c.id && m.kind !== "react").pop();
     const lastMsg = t.filter((m) => m.kind !== "react").pop();
+    // Hat der Freund gerade seinen Standort geschickt? Dann eigene Antwortleiste statt „Wo bist du?“
+    const locReply = !!(lastIn && lastIn.kind === "share" && lastMsg === lastIn);
     // Reaktionen auf die letzte Nachricht des Freundes anbieten
-    if (lastIn && lastMsg === lastIn && lastIn.kind !== "ask" && !reactsFor(lastIn).includes(">")) {
+    if (!locReply && lastIn && lastMsg === lastIn && lastIn.kind !== "ask" && !reactsFor(lastIn).includes(">")) {
       items.push(`<div class="react-row">${Object.entries(REACT).map(([k, e]) => `<button data-react="${k}" data-to="${lastIn.id}" aria-label="Reagieren mit ${e}">${e}</button>`).join("")}</div>`);
     }
     // Passende Schnellantworten zuerst
     let suggest = [];
     if (lastIn && lastIn.kind === "quick" && lastIn.body === "howlong" && lastMsg === lastIn) {
       suggest = Object.keys(ETA).map((k) => `<button class="chip accent" data-eta="${k}" data-to="${lastIn.id}">${ETA[k]}</button>`);
-    } else if (lastIn && lastIn.kind === "share" && lastMsg === lastIn) {
-      suggest = [`<button class="chip accent" data-andyou>Und du?</button>`, `<button class="chip accent" data-quick="onmyway">${QUICK.onmyway}</button>`];
+    } else if (lastIn && lastIn.kind === "quick" && lastIn.body === "comehere" && lastMsg === lastIn) {
+      suggest = [`<button class="chip accent" data-quick="onmyway">${QUICK.onmyway}</button>`, `<button class="chip accent" data-quick="callme">${QUICK.callme}</button>`];
+    } else if (lastIn && lastIn.kind === "quick" && lastIn.body === "onmyway" && lastMsg === lastIn) {
+      suggest = [`<button class="chip accent" data-quick="waiting">${QUICK.waiting}</button>`, `<button class="chip accent" data-quick="howlong">${QUICK.howlong}</button>`];
     }
     const chips = [...suggest, ...QUICK_ORDER.map((k) => `<button class="chip" data-quick="${k}">${esc(QUICK[k])}</button>`)].join("");
     const status = statusLine(c);
+    if (locReply) $app.classList.add("loc-mode");
     $app.innerHTML = `
       <header class="chat-head">
         <button class="icon-btn" data-back aria-label="Zurück">${I.back}</button>
@@ -611,11 +618,34 @@
       </header>
       ${!c.knows_me && !c.bot ? `<div class="card" style="background:var(--warn-soft);box-shadow:none"><div class="muted" style="color:var(--ink)">${esc(first(c.name))} hat dich noch nicht als Freund gespeichert. Deine Frage kommt trotzdem an.</div></div>` : ""}
       <div class="msgs">${items.join("") || `<div class="empty">Frag ${esc(first(c.name))}, wo er oder sie gerade ist.</div>`}</div>
-      <div class="composer"><div class="inner">
+      ${locReply ? locComposer(c, lastIn, t) : `<div class="composer"><div class="inner">
         <div class="scroll" role="group" aria-label="Schnellantworten">${chips}</div>
         <div class="main">
           <button class="btn primary" data-chat-ask>Wo bist du?</button>
           <button class="btn" data-share-to>Standort senden</button>
+        </div>
+      </div></div>`}`;
+  }
+
+  // Antwortleiste, nachdem der Freund seinen Standort geschickt hat:
+  // reagieren, sagen „Bin auf dem Weg“, oder „Kommst du zu mir?“ und den eigenen Standort teilen.
+  function locComposer(c, share, t) {
+    // Hat der Freund dazu „Kommst du zu mir?“ gefragt, ist die Gegenfrage überflüssig
+    const asked = t.some((m) => m.from === c.id && m.kind === "quick" && m.body === "comehere" && m.id < share.id && share.id - m.id <= 3);
+    const mine = new Set([...S.msgs.values()].filter((r) => r.kind === "react" && r.reply_to === share.id && r.from === S.me.id).map((r) => r.body));
+    const rx = [["like", "Gefällt mir"], ["love", "Herz"]].map(([k, l]) =>
+      `<button class="rx" data-react="${k}" data-to="${share.id}" aria-pressed="${mine.has(k)}" aria-label="${l}">${REACT[k]}</button>`).join("");
+    return `<div class="composer loc-reply"><div class="inner">
+        <div class="lead"><span>Antworte ${esc(first(c.name))}</span><span class="rxs">${rx}</span></div>
+        <div class="row-replies">
+          <button class="chip accent" data-quick="onmyway">Bin auf dem Weg</button>
+          ${asked ? `<button class="chip accent" data-quick="callme">Ruf mich kurz an</button>` : `<button class="chip accent" data-come>Kommst du zu mir?</button>`}
+        </div>
+        <button class="btn primary share-big" data-share-to>${I.pin}<span>Meinen Standort teilen</span></button>
+        <div class="scroll" role="group" aria-label="Weitere Antworten">
+          ${asked ? "" : `<button class="chip" data-quick="callme">${esc(QUICK.callme)}</button>`}
+          <button class="chip" data-quick="thanks">${esc(QUICK.thanks)}</button>
+          <button class="chip" data-quick="howlong">${esc(QUICK.howlong)}</button>
         </div>
       </div></div>`;
   }
@@ -754,6 +784,10 @@
     if (d.chatAsk != null) return sendQuick(S.chatWith, "ask");
     if (d.andyou != null) return sendQuick(S.chatWith, "ask");
     if (d.shareTo != null) return shareSheet(S.chatWith);
+    if (d.come != null) {
+      const cid = S.chatWith;
+      return guard(async () => { await WBD.send(cid, "quick", "comehere"); await sync(); }).then(() => shareSheet(cid, true));
+    }
     if (d.quick) return sendQuick(S.chatWith, "quick", d.quick);
     if (d.eta) return sendQuick(S.chatWith, "eta", d.eta, +d.to);
     if (d.react) return sendQuick(S.chatWith, "react", d.react, +d.to);

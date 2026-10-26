@@ -72,7 +72,7 @@ alter table wbd.messages enable row level security;
 -- Erlaubte Schnellantworten (kein Freitext)
 create or replace function wbd.allowed(k text, b text) returns boolean language sql immutable as $$
   select case k
-    when 'quick' then b in ('howlong','almost','waiting','callme','thanks','allgood','onmyway','andyou')
+    when 'quick' then b in ('howlong','almost','waiting','callme','thanks','allgood','onmyway','andyou','comehere')
     when 'react' then b in ('like','love','pray','laugh')
     when 'eta' then b in ('5','10','15','30','60')
     when 'decline' then b is null or b in ('callsoon','onroad','later','stopped')
@@ -151,6 +151,8 @@ begin
             52.5163 + (random() - 0.5) * 0.004, 13.3777 + (random() - 0.5) * 0.006, 15, now(), now() + interval '60 minutes');
   elsif m.kind = 'quick' and m.body = 'howlong' then
     insert into wbd.messages(sender, recipient, kind, body, reply_to) values (b.id, m.sender, 'eta', '15', m.id);
+  elsif m.kind = 'quick' and m.body = 'comehere' then
+    insert into wbd.messages(sender, recipient, kind, body, reply_to) values (b.id, m.sender, 'quick', 'onmyway', m.id);
   elsif m.kind = 'quick' and m.body = 'andyou' then
     insert into wbd.messages(sender, recipient, kind) values (b.id, m.sender, 'ask');
   elsif m.kind in ('quick','share','eta') then
