@@ -123,9 +123,25 @@ export function formValues(e: FormEvent<HTMLFormElement>) {
 }
 
 export function Loading() {
+  // Sektglas, das sich leert, solange geladen wird
   return (
-    <p className="flex items-center justify-center gap-3 py-16 text-cream/50">
-      <span className="h-2 w-2 animate-ping rounded-full bg-lime" /> Lädt …
-    </p>
+    <div role="status" className="flex flex-col items-center justify-center gap-3 py-16 text-cream/50">
+      <svg viewBox="0 0 40 80" width="40" height="80" aria-hidden className="sekt">
+        <defs>
+          <clipPath id="sekt-kelch"><path d="M10 4 H30 L27 34 Q20 42 13 34 Z" /></clipPath>
+        </defs>
+        <g clipPath="url(#sekt-kelch)">
+          <g className="sekt-fill">
+          <rect x="0" y="4" width="40" height="40" fill="#e9c46a" />
+          <circle className="sekt-bubble" cx="17" cy="32" r="1.2" fill="#fff8dc" />
+          <circle className="sekt-bubble sekt-b2" cx="23" cy="30" r="1" fill="#fff8dc" />
+          <circle className="sekt-bubble sekt-b3" cx="20" cy="34" r="0.8" fill="#fff8dc" />
+          </g>
+        </g>
+        <path d="M10 4 H30 L27 34 Q20 42 13 34 Z" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinejoin="round" />
+        <path d="M20 39 V70 M12 74 Q20 69 28 74" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
+      </svg>
+      <span className="text-sm">Lädt …</span>
+    </div>
   );
 }
