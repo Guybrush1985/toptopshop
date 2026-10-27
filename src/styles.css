@@ -339,3 +339,8 @@ tbody tr:last-child>*{border-bottom:0}
 }
 @media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
 @media print{.top,.ad-note,.cta,.related,.foot{display:none}.hero{background:none;color:var(--ink)}.hero h1,.lead{color:var(--ink)}}
+
+/* Platzhalter-Modus (site.offline) */
+.hero.soon{min-height:calc(100vh - 64px - 150px);display:flex;align-items:center;padding:72px 0}
+.hero.soon h1{max-width:18ch}
+.foot .foot-min{display:flex;flex-wrap:wrap;gap:24px;margin:0 0 20px}
