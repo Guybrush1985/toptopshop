@@ -14,6 +14,7 @@ import { berlinDate, dateKey, slugify } from "./format";
 import { ActionError } from "./errors";
 import { REMOTE } from "./supabase";
 import * as R from "./remote";
+import { cardOf, chargeNoShow, noShowFee, refundNoShow } from "./payments";
 
 export { ActionError };
 const fail = (msg: string): never => {
@@ -114,7 +115,10 @@ export async function bookSpot(spotId: string, partySize: number): Promise<Booki
 
   const rel = reliabilityOf(s, user.id);
   if (rel.tier === "BLOCKED") fail("Dein Konto ist wegen mehrerer No-Shows vorübergehend gesperrt.");
-  if (rel.tier === "DEPOSIT") fail("Mit deinem Zuverlässigkeitswert ist eine Buchung nur mit Kaution möglich. Diese Funktion kommt bald.");
+  const needCard = rel.tier === "DEPOSIT" || !!spot.noShowProtection;
+  if (needCard && !cardOf(s, user.id)) {
+    fail("Für diese Buchung brauchst du eine hinterlegte Karte (unter „Buchungen“ → Zahlungsmittel). Sie wird nur belastet, wenn du nicht erscheinst.");
+  }
 
   const mine = s.bookings
     .filter((b) => b.userId === user.id && ACTIVE.includes(b.status))
@@ -132,7 +136,10 @@ export async function bookSpot(spotId: string, partySize: number): Promise<Booki
   let code: string;
   do code = String(100000 + Math.floor(Math.random() * 900000));
   while (s.bookings.some((b) => b.code === code));
-  const booking: Booking = { id: uid(), spotId, userId: user.id, partySize, code, status: "BOOKED", createdAt: new Date().toISOString() };
+  const booking: Booking = {
+    id: uid(), spotId, userId: user.id, partySize, code, status: "BOOKED", createdAt: new Date().toISOString(),
+    guaranteed: needCard, noShowFeeCents: needCard ? noShowFee(partySize) : 0,
+  };
   save((d) => void d.bookings.push(booking));
   return booking;
 }
@@ -318,7 +325,7 @@ export async function deleteMenuItem(itemId: string) {
 
 export async function createSpots(restaurantId: string, input: {
   date: string; start: string; end: string; repeatWeeks: number; seats: number; maxGroupSize: number;
-  discountPercent: number; freebie: string; conditions: string; bookingCutoffMin: number;
+  discountPercent: number; freebie: string; conditions: string; bookingCutoffMin: number; noShowProtection?: boolean;
 }) {
   requireMember(restaurantId, ["OWNER", "MANAGER"]);
   if (!/^\d{4}-\d{2}-\d{2}$/.test(input.date) || !/^\d{2}:\d{2}$/.test(input.start) || !/^\d{2}:\d{2}$/.test(input.end)) {
@@ -339,11 +346,16 @@ export async function createSpots(restaurantId: string, input: {
     seats: input.seats, maxGroupSize: Math.min(8, Math.max(1, input.maxGroupSize)),
     discountPercent: input.discountPercent, freebie: input.freebie.trim() || undefined,
     conditions: input.conditions.trim() || undefined, bookingCutoffMin: Math.max(0, input.bookingCutoffMin), status: "OPEN",
+    noShowProtection: !!input.noShowProtection,
   }));
+  if (input.noShowProtection && !getState().accounts.find((a) => a.restaurantId === restaurantId)?.chargesEnabled) {
+    fail("No-Show-Schutz geht erst, wenn Auszahlungen eingerichtet sind (Reiter „Abrechnung“).");
+  }
   if (REMOTE) {
     await R.createSpots(spots.map((x) => ({
       restaurant_id: restaurantId, starts_at: x.startsAt, ends_at: x.endsAt, seats: x.seats, max_group_size: x.maxGroupSize,
       discount_percent: x.discountPercent, freebie: x.freebie ?? null, conditions: x.conditions ?? null, booking_cutoff_min: x.bookingCutoffMin,
+      no_show_protection: !!x.noShowProtection,
     })));
     return weeks;
   }
@@ -368,9 +380,17 @@ export async function cancelSpot(spotId: string) {
 
 /** Check-in per Code oder QR-Inhalt. Gilt ab 60 Minuten vor Beginn bis zum Ende des Zeitfensters. */
 export async function checkIn(restaurantId: string, raw: string): Promise<{ bookingId: string; again: boolean }> {
+  const code = raw.replace(/^(THIRSTY|FIRSTY):/i, "").replace(/\D/g, "");
+  const before = getState().bookings.find((x) => x.code === code);
+  const result = await checkInInner(restaurantId, raw, code);
+  // Gast kam nach einer No-Show-Meldung doch: belastete Gebühr erstatten
+  if (before?.status === "NO_SHOW" && before.guaranteed) await refundNoShow(result.bookingId);
+  return result;
+}
+
+async function checkInInner(restaurantId: string, raw: string, code: string): Promise<{ bookingId: string; again: boolean }> {
   if (REMOTE) return R.checkIn(restaurantId, raw);
   requireMember(restaurantId);
-  const code = raw.replace(/^THIRSTY:/i, "").replace(/\D/g, "");
   const s = getState();
   const b = s.bookings.find((x) => x.code === code);
   const spot = b && s.spots.find((x) => x.id === b.spotId);
@@ -391,8 +411,17 @@ export async function checkIn(restaurantId: string, raw: string): Promise<{ book
   return { bookingId: b!.id, again: false };
 }
 
-/** No-Show melden: frühestens 15 Minuten nach Beginn. */
-export async function markNoShow(bookingId: string) {
+/**
+ * No-Show melden: frühestens 15 Minuten nach Beginn. War eine Karte hinterlegt, wird danach die No-Show-Gebühr belastet.
+ * Gibt einen Hinweis zurück, wenn die Gebühr nicht belastet werden konnte.
+ */
+export async function markNoShow(bookingId: string): Promise<string | undefined> {
+  const before = getState().bookings.find((x) => x.id === bookingId);
+  await markNoShowInner(bookingId);
+  if (before?.guaranteed) return chargeNoShow({ ...before, status: "NO_SHOW" });
+}
+
+async function markNoShowInner(bookingId: string) {
   if (REMOTE) return R.markNoShow(bookingId);
   const s = getState();
   const b = s.bookings.find((x) => x.id === bookingId) ?? fail("Buchung nicht gefunden.");

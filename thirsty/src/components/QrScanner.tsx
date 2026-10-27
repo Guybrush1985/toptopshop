@@ -9,23 +9,46 @@ declare global {
   }
 }
 
-/** Scannt QR-Codes mit der Kamera (BarcodeDetector-API) und gibt den Inhalt an onCode weiter. */
+/**
+ * Fallback ohne BarcodeDetector (iOS-Safari/WKWebView, Firefox): Videobild auf ein Canvas zeichnen und mit jsQR lesen.
+ * jsQR wird erst beim Öffnen der Kamera nachgeladen.
+ */
+async function canvasDetector(): Promise<Detector> {
+  const { default: jsQR } = await import("jsqr");
+  const canvas = document.createElement("canvas");
+  const ctx = canvas.getContext("2d", { willReadFrequently: true })!;
+  return {
+    async detect(v) {
+      const w = v.videoWidth, h = v.videoHeight;
+      if (!w || !h) return [];
+      const scale = Math.min(1, 640 / Math.max(w, h));
+      canvas.width = Math.round(w * scale);
+      canvas.height = Math.round(h * scale);
+      ctx.drawImage(v, 0, 0, canvas.width, canvas.height);
+      const img = ctx.getImageData(0, 0, canvas.width, canvas.height);
+      const hit = jsQR(img.data, img.width, img.height, { inversionAttempts: "dontInvert" });
+      return hit?.data ? [{ rawValue: hit.data }] : [];
+    },
+  };
+}
+
+/** Scannt QR-Codes mit der Kamera (BarcodeDetector-API, sonst jsQR) und gibt den Inhalt an onCode weiter. */
 export function QrScanner({ onCode }: { onCode: (code: string) => void }) {
   const video = useRef<HTMLVideoElement>(null);
   const [on, setOn] = useState(false);
   const [supported, setSupported] = useState(true);
 
   useEffect(() => {
-    setSupported(typeof window !== "undefined" && !!window.BarcodeDetector);
+    setSupported(typeof navigator !== "undefined" && !!navigator.mediaDevices?.getUserMedia);
   }, []);
 
   useEffect(() => {
-    if (!on || !window.BarcodeDetector) return;
+    if (!on) return;
     let stream: MediaStream | undefined;
     let stop = false;
-    const detector = new window.BarcodeDetector({ formats: ["qr_code"] });
     (async () => {
       try {
+        const detector = window.BarcodeDetector ? new window.BarcodeDetector({ formats: ["qr_code"] }) : await canvasDetector();
         stream = await navigator.mediaDevices.getUserMedia({ video: { facingMode: "environment" } });
         if (!video.current) return;
         video.current.srcObject = stream;
@@ -51,7 +74,7 @@ export function QrScanner({ onCode }: { onCode: (code: string) => void }) {
   }, [on, onCode]);
 
   if (!supported) {
-    return <p className="text-sm text-stone-600">Dieser Browser kann keine QR-Codes scannen. Bitte den sechsstelligen Code unten eingeben.</p>;
+    return <p className="text-sm text-stone-600">Auf diesem Gerät ist keine Kamera verfügbar. Bitte den sechsstelligen Code unten eingeben.</p>;
   }
   return on ? (
     <div className="space-y-2">

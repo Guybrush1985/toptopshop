@@ -13,12 +13,12 @@ export default function Hinweise() {
     <Legal title="Hinweise zur Vorschau">
       <p>
         Firsty ist eine Plattform, auf der Restaurants Plätze für die erste Stunde nach Öffnung mit Rabatt ausschreiben, damit die
-        Tische früh am Abend voll sind. Gäste buchen, zeigen im Restaurant einen QR-Code und bezahlen vor Ort.
+        Tische früh am Abend voll sind. Gäste buchen, zeigen im Restaurant einen QR-Code und bezahlen in der App oder vor Ort.
       </p>
       <H2>Was die Vorschau ist</H2>
       <ul className="list-disc space-y-1 pl-5">
         <li>Alle Funktionen laufen nur in deinem Browser. Konten, Restaurants, Buchungen und Fotos sieht niemand außer dir auf diesem Gerät.</li>
-        <li>Buchungen werden nicht an echte Restaurants übermittelt. Es werden keine Verträge geschlossen und keine Zahlungen abgewickelt.</li>
+        <li>Buchungen werden nicht an echte Restaurants übermittelt. Es werden keine Verträge geschlossen und keine Zahlungen abgewickelt; Zahlungen und Abrechnung werden nur simuliert.</li>
         <li>Die als „Beispiel“ gekennzeichneten Restaurants, Angebote und Preise sind erfunden.</li>
         <li>Zum Ausprobieren gibt es zwei Demo-Konten (Passwort „thirsty123“): <code>gast@thirsty.test</code> und <code>wirt@thirsty.test</code>. Auf der Anmeldeseite geht das mit einem Klick.</li>
       </ul>
@@ -56,12 +56,12 @@ function LiveHints() {
     <Legal title="Hinweise zur Testphase">
       <p>
         Firsty ist eine Plattform, auf der Restaurants Plätze für die erste Stunde nach Öffnung mit Rabatt ausschreiben, damit die
-        Tische früh am Abend voll sind. Gäste buchen, zeigen im Restaurant einen QR-Code und bezahlen vor Ort.
+        Tische früh am Abend voll sind. Gäste buchen, zeigen im Restaurant einen QR-Code und bezahlen in der App oder vor Ort.
       </p>
       <H2>Was die Testphase bedeutet</H2>
       <ul className="list-disc space-y-1 pl-5">
         <li>Konten, Restaurants, Buchungen und Bewertungen werden gespeichert und sind auf allen Geräten gleich.</li>
-        <li>Über Firsty wird nichts bezahlt. Den Rabatt löst das Restaurant beim Bezahlen vor Ort ein.</li>
+        <li>Zahlungen in der App laufen über Stripe und sind erst aktiv, wenn ein Restaurant sie eingerichtet hat. Bis dahin wird vor Ort bezahlt, und das Restaurant zieht den Rabatt dort ab.</li>
         <li>Die als „Beispiel“ gekennzeichneten Restaurants, Angebote und Preise sind erfunden. Buchungen dort erreichen kein Restaurant.</li>
         <li>Funktionen und Regeln können sich in der Testphase noch ändern.</li>
       </ul>

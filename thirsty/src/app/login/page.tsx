@@ -41,6 +41,7 @@ export default function LoginPage() {
       </div>}
       <p className="mt-4 text-sm text-stone-600">
         Noch kein Konto? <Link href="/registrieren/" className="font-medium text-brand-700 underline">Registrieren</Link>
+        {REMOTE && <> · <Link href="/passwort/" className="underline">Passwort vergessen?</Link></>}
       </p>
     </div>
   );
