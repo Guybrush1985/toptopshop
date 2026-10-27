@@ -99,7 +99,7 @@ function Footer() {
     <footer className="relative mt-24 overflow-hidden border-t border-white/10 bg-ink">
       <div className="mx-auto flex max-w-6xl flex-wrap items-center gap-x-6 gap-y-2 px-5 pt-10 text-sm text-cream/60">
         <span>Firsty · {REMOTE ? "ein Angebot" : "eine Vorschau"} der TanMeOn GmbH</span>
-        <Link href="/registrieren/?rolle=restaurant" className="hover:text-lime">Für Restaurants</Link>
+        <Link href="/fuer-restaurants/" className="hover:text-lime">Für Restaurants</Link>
         <Link href="/hinweise/" className="hover:text-lime">{REMOTE ? "Hinweise zur Testphase" : "Hinweise zur Vorschau"}</Link>
         <Link href="/agb/" className="hover:text-lime">AGB</Link>
         <Link href="/impressum/" className="hover:text-lime">Impressum</Link>

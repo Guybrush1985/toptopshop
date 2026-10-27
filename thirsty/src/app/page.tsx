@@ -264,33 +264,36 @@ export default function Discover() {
       )}
 
       {/* ---------- So geht's ---------- */}
-      <section className="mx-auto max-w-6xl px-5 pt-28">
-        <h2 className="display text-6xl text-cream sm:text-8xl">So einfach<span className="text-hot">.</span></h2>
-        <ol className="mt-10 grid gap-px overflow-hidden rounded-[2rem] border border-white/10 bg-white/10 sm:grid-cols-3">
+      <section className="mx-auto max-w-6xl px-5 pt-20">
+        <h2 className="display text-4xl text-cream sm:text-5xl">So einfach<span className="text-hot">.</span></h2>
+        <ol className="mt-5 grid gap-3 sm:grid-cols-3">
           {[
-            ["Stadt wählen", "Auf der Karte siehst du sofort, wer heute die ersten Gäste belohnt."],
-            ["Platz sichern", "Ein Klick, ein QR-Code. Kostenlos stornierbar bis zwei Stunden vorher."],
-            ["Hingehen, sparen", "QR-Code zeigen, essen, in der App oder vor Ort zahlen. Das Angebot gilt bis zum Ende des Zeitfensters."],
+            ["Stadt wählen", "Auf der Karte siehst du, wer heute die ersten Gäste belohnt."],
+            ["Platz sichern", "Ein Klick, ein QR-Code. Bis 2 Stunden vorher kostenlos stornierbar."],
+            ["Hingehen, sparen", "QR-Code zeigen, essen, sparen."],
           ].map(([t, x], i) => (
-            <li key={t} className="bg-ink p-7">
-              <span className="display block text-8xl text-lime">0{i + 1}</span>
-              <p className="display mt-4 text-3xl text-cream">{t}</p>
-              <p className="mt-2 text-cream/60">{x}</p>
+            <li key={t} className="flex gap-3">
+              <span className="display text-4xl leading-none text-lime">{i + 1}</span>
+              <span><span className="block font-semibold text-cream">{t}</span><span className="text-sm text-cream/60">{x}</span></span>
             </li>
           ))}
         </ol>
-
-        <Link
-          href="/registrieren/?rolle=restaurant"
-          className="group relative mt-6 flex flex-wrap items-center justify-between gap-6 overflow-hidden rounded-[2rem] bg-lime p-8 text-ink sm:p-12"
-        >
-          <div>
-            <p className="text-xs font-bold uppercase tracking-[.3em]">Für Restaurants</p>
-            <p className="display mt-2 text-5xl sm:text-7xl">Leere Tische um 17 Uhr?</p>
-            <p className="mt-2 max-w-lg font-serif text-2xl italic">Stell ein Angebot ein und füll die erste Stunde.</p>
+        {!user && (
+          <div className="mt-8 flex flex-wrap items-center gap-3">
+            <Link href="/registrieren/" className="btn px-7 py-3 text-lg">Kostenlos anmelden</Link>
+            <Link href="/login/" className="text-sm text-cream/70 underline underline-offset-4">Schon dabei? Einloggen</Link>
           </div>
-          <span className="display rounded-full bg-ink px-7 py-4 text-2xl text-lime transition group-hover:translate-x-2">Jetzt mitmachen →</span>
-        </Link>
+        )}
+      </section>
+
+      {/* ---------- Für Restaurants (dezent) ---------- */}
+      <section className="mx-auto max-w-6xl px-5 pb-10 pt-20">
+        <div className="flex items-center gap-4 text-xs font-semibold uppercase tracking-[.3em] text-cream/40">
+          <span className="h-px flex-1 bg-white/10" />Für Restaurants<span className="h-px flex-1 bg-white/10" />
+        </div>
+        <p className="mt-5 text-center text-cream/70">
+          Leere Tische zur Öffnung? <Link href="/fuer-restaurants/" className="font-semibold text-lime underline underline-offset-4">So funktioniert Firsty für dein Restaurant →</Link>
+        </p>
       </section>
     </div>
   );
