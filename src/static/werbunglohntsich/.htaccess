@@ -1,6 +1,13 @@
 Options -Indexes
 AddDefaultCharset utf-8
 DirectoryIndex index.html
+
+# Passwortschutz (Basic Auth, beliebiger Benutzername). Gespeichert ist nur ein Hash, nicht das Passwort.
+# Bewusst ohne <IfModule>: fehlt mod_rewrite, antwortet der Server mit einem Fehler statt die Seite offen zu zeigen.
+RewriteEngine On
+RewriteCond expr "!(%{HTTP:Authorization} =~ /^Basic\s+(\S+)$/ && unbase64($1) =~ /^[^:]*:(.+)$/ && sha1('toptop-wls:$1') == 'a7ce74d2930ab057875a6d07c586d8ad64d19323')"
+RewriteRule ^ - [R=401,L]
+Header always set WWW-Authenticate "Basic realm=\"Werbung lohnt sich\", charset=\"UTF-8\"" "expr=%{REQUEST_STATUS} == 401"
 <IfModule mod_headers.c>
   Header set X-Robots-Tag "noindex, nofollow"
   Header set X-Content-Type-Options "nosniff"
