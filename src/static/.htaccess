@@ -18,6 +18,9 @@ RedirectMatch 301 ^/myshotcoach/?(.*)$ https://tennistrainer.app/$1
 # I feel the Vibe: offline, /vibe/ führt auf die Offline-Seite unter /vibe-v2/
 RedirectMatch 302 ^/vibe(/.*)?$ /vibe-v2/
 
+# Werbung lohnt sich ist offline (läuft nur noch lokal, siehe werbunglohntsich/README.md)
+RedirectMatch 302 ^/werbunglohntsich(/.*)?$ /
+
 # Thirsty heißt jetzt Firsty
 RedirectMatch 301 ^/thirsty/?(.*)$ /firsty/$1
 

@@ -32,7 +32,7 @@ scripts/train.mjs             verschlüsselt das Lerntraining für /train/
 src/static/myshotcoach/       MyShotCoach-Vorschau unter /myshotcoach/, Coach-Bereich unter /myshotcoach/coach/ (siehe docs/BRIEFING.md)
 src/static/ogsm/              OGSM-Plattform als Demo unter /ogsm/, passwortgeschützt (Quellcode: github.com/Guybrush1985/ogsm, `npm run build:demo` exportiert nach demo/out/)
 src/static/vibe/              I'm Feeling It unter /vibe/ (Quellcode: github.com/Guybrush1985/vibe, `npm run toptop` exportiert hierher)
-src/static/werbunglohntsich/   Werbung lohnt sich unter /werbunglohntsich/ (Vanilla-JS, Daten: supabase/werbunglohntsich/)
+werbunglohntsich/app/         Werbung lohnt sich (offline, nur lokal; Daten: supabase/werbunglohntsich/)
 src/static/wobistdu/          Wo bist du? unter /wobistdu/ (Vanilla-JS, Daten: supabase/wobistdu/)
 thirsty/                      Quellcode von Firsty (Next.js); `npm run site` exportiert nach src/static/firsty/ → /firsty/
 ```
