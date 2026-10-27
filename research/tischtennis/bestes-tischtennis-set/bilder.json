@@ -1,0 +1,53 @@
+{
+  "visuals": {
+    "1": {
+      "kind": "ttbats",
+      "tone": "forest"
+    },
+    "2": {
+      "kind": "ttbats",
+      "tone": "green"
+    },
+    "3": {
+      "kind": "ttbats",
+      "tone": "mint"
+    }
+  },
+  "steps": {
+    "title": "Das passende Tischtennis-Set wählen",
+    "subtitle": "In fünf Schritten zum richtigen Set",
+    "alt": "Infografik: Das passende Tischtennis-Set wählen – Spieler zählen, Niveau einschätzen, Griff wählen, Bälle prüfen, Richtig aufbewahren",
+    "caption": "Für Einsteiger zählt Kontrolle mehr als Tempo.",
+    "steps": [
+      {
+        "title": "Spieler zählen",
+        "text": "Zwei Schläger reichen fürs Einzel; für Doppel oder Rundlauf lohnen vier."
+      },
+      {
+        "title": "Niveau einschätzen",
+        "text": "Einsteiger und Kinder spielen mit kontrollierten, weniger schnellen Belägen leichter."
+      },
+      {
+        "title": "Griff wählen",
+        "text": "Konkav, gerade oder anatomisch – am besten in die Hand nehmen und ausprobieren."
+      },
+      {
+        "title": "Bälle prüfen",
+        "text": "Auf 40+-Plastikbälle achten; mehr Sterne stehen für höhere Qualitätsstufe."
+      },
+      {
+        "title": "Richtig aufbewahren",
+        "text": "Schläger in Hülle oder Tasche lagern, Beläge vor Sonne und Hitze schützen."
+      }
+    ]
+  },
+  "scoresAlt": "Balkendiagramm: Bewertung der drei besten Tischtennis-Sets in den Kriterien Beläge, Holz und Griff, Lieferumfang, Eignung für Einsteiger und Verarbeitung",
+  "scoresCaption": "Unsere Bewertung je Kriterium für die drei empfohlenen Modelle.",
+  "neueFormen": [
+    "ttbats"
+  ],
+  "offen": [
+    "Kriterien in scoresAlt sind ein Entwurf nach struktur.json – an die finalen Bewertungskriterien des Redakteurs anpassen.",
+    "Alle drei Top-3-Produkte nutzen dieselbe Form in den Tönen forest/green/mint (wie bei bestehenden Kategorien)."
+  ]
+}

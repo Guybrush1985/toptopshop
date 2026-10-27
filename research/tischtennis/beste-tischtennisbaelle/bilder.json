@@ -1,0 +1,58 @@
+{
+  "visuals": {
+    "1": {
+      "kind": "ttballs",
+      "tone": "forest"
+    },
+    "2": {
+      "kind": "ttballs",
+      "tone": "green"
+    },
+    "3": {
+      "kind": "ttballs",
+      "tone": "mint"
+    }
+  },
+  "steps": {
+    "title": "Den richtigen Tischtennisball finden",
+    "subtitle": "Kennzeichnung lesen, Menge planen",
+    "alt": "Infografik: Den richtigen Tischtennisball finden – Einsatz klären, Material prüfen, Sterne einordnen, Zulassung beachten, Menge planen, Richtig lagern",
+    "caption": "Turnierbälle messen 40 mm und wiegen 2,7 g.",
+    "steps": [
+      {
+        "title": "Einsatz klären",
+        "text": "Wettkampf, Training, Roboter oder Freizeit – danach richten sich Qualität und Menge."
+      },
+      {
+        "title": "Material prüfen",
+        "text": "Heute üblich sind Plastikbälle mit der Kennzeichnung 40+."
+      },
+      {
+        "title": "Sterne einordnen",
+        "text": "Drei Sterne kennzeichnen die höchste Qualitätsstufe; Trainingsbälle haben oft weniger."
+      },
+      {
+        "title": "Zulassung beachten",
+        "text": "Für Punktspiele zählt die ITTF-Zulassung und die Vorgabe des Verbands bzw. Vereins."
+      },
+      {
+        "title": "Menge planen",
+        "text": "Für Roboter und Multiball-Training lohnen große Packungen."
+      },
+      {
+        "title": "Richtig lagern",
+        "text": "Trocken, nicht zu warm und ohne Druck lagern, damit die Bälle rund bleiben."
+      }
+    ]
+  },
+  "scoresAlt": "Balkendiagramm: Bewertung der drei besten Tischtennisbälle in den Kriterien Zulassung und Sternklasse, Rundlauf, Haltbarkeit, Packungsgröße und Eignung für Roboter und draußen",
+  "scoresCaption": "Unsere Bewertung je Kriterium für die drei empfohlenen Modelle.",
+  "neueFormen": [
+    "ttballs"
+  ],
+  "offen": [
+    "Kriterien in scoresAlt sind ein Entwurf nach struktur.json – an die finalen Bewertungskriterien des Redakteurs anpassen.",
+    "Caption nennt Regelmaße 40 mm/2,7 g (ITTF-Regelwerk) – Redakteur kann mit Quelle belegen oder Caption anpassen.",
+    "Alle drei Top-3-Produkte nutzen dieselbe Form in den Tönen forest/green/mint (wie bei bestehenden Kategorien)."
+  ]
+}

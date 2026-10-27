@@ -1,0 +1,53 @@
+{
+  "visuals": {
+    "1": {
+      "kind": "ttcover",
+      "tone": "forest"
+    },
+    "2": {
+      "kind": "ttcover",
+      "tone": "green"
+    },
+    "3": {
+      "kind": "ttcover",
+      "tone": "mint"
+    }
+  },
+  "steps": {
+    "title": "Tischtennisplatte richtig abdecken",
+    "subtitle": "Schutz vor Regen, Staub und Sonne",
+    "alt": "Infografik: Tischtennisplatte richtig abdecken – Maß nehmen, Trocken abdecken, Überziehen und schließen, Gegen Wind sichern, Regelmäßig lüften",
+    "caption": "Nur trocken abdecken – eingeschlossene Feuchtigkeit fördert Schimmel.",
+    "steps": [
+      {
+        "title": "Maß nehmen",
+        "text": "Klären, ob die Hülle für die geklappte oder die flache Platte gedacht ist, und die Maße prüfen."
+      },
+      {
+        "title": "Trocken abdecken",
+        "text": "Platte vorher säubern und abtrocknen lassen."
+      },
+      {
+        "title": "Überziehen und schließen",
+        "text": "Hülle von oben überziehen, Reißverschluss vollständig schließen."
+      },
+      {
+        "title": "Gegen Wind sichern",
+        "text": "Unterkante mit Kordelzug, Gurten oder Klettverschluss fixieren; Rollen feststellen."
+      },
+      {
+        "title": "Regelmäßig lüften",
+        "text": "An trockenen Tagen kurz öffnen, damit sich kein Kondenswasser sammelt."
+      }
+    ]
+  },
+  "scoresAlt": "Balkendiagramm: Bewertung der drei besten Tischtennisplatten-Abdeckhüllen in den Kriterien Passform, Material und Wasserdichtigkeit, Verschluss und Windsicherung, Belüftung und Herstellerhinweise",
+  "scoresCaption": "Unsere Bewertung je Kriterium für die drei empfohlenen Modelle.",
+  "neueFormen": [
+    "ttcover"
+  ],
+  "offen": [
+    "Kriterien in scoresAlt sind ein Entwurf nach struktur.json – an die finalen Bewertungskriterien des Redakteurs anpassen.",
+    "Alle drei Top-3-Produkte nutzen dieselbe Form in den Tönen forest/green/mint (wie bei bestehenden Kategorien)."
+  ]
+}

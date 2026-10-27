@@ -1,0 +1,58 @@
+{
+  "visuals": {
+    "1": {
+      "kind": "ttnet",
+      "tone": "forest"
+    },
+    "2": {
+      "kind": "ttnet",
+      "tone": "green"
+    },
+    "3": {
+      "kind": "ttnet",
+      "tone": "mint"
+    }
+  },
+  "steps": {
+    "title": "Netzgarnitur richtig montieren",
+    "subtitle": "Sitz, Höhe und Spannung",
+    "alt": "Infografik: Netzgarnitur richtig montieren – Plattenstärke messen, Mittig ansetzen, Festklemmen, Höhe einstellen, Netz spannen, Abnehmen und verstauen",
+    "caption": "Regelhöhe: Die Netzoberkante liegt 15,25 cm über der Spielfläche.",
+    "steps": [
+      {
+        "title": "Plattenstärke messen",
+        "text": "Prüfen, ob die Klemmen zur Dicke und zum Kantenprofil der Platte passen."
+      },
+      {
+        "title": "Mittig ansetzen",
+        "text": "Die Pfosten genau auf Höhe der Mittellinie an beiden Seiten der Platte anbringen."
+      },
+      {
+        "title": "Festklemmen",
+        "text": "Klemmen oder Schrauben gleichmäßig anziehen, aber nicht überdrehen."
+      },
+      {
+        "title": "Höhe einstellen",
+        "text": "Netzoberkante auf 15,25 cm bringen – an beiden Pfosten und in der Mitte nachmessen."
+      },
+      {
+        "title": "Netz spannen",
+        "text": "Spannband straffen, bis das Netz gerade hängt und unten nah an der Platte abschließt."
+      },
+      {
+        "title": "Abnehmen und verstauen",
+        "text": "Vor dem Hochklappen oder bei Nässe draußen abbauen bzw. nach Herstellerangabe mitklappen."
+      }
+    ]
+  },
+  "scoresAlt": "Balkendiagramm: Bewertung der drei besten Tischtennisnetze in den Kriterien Befestigung, Höhen- und Spannungseinstellung, Wetterfestigkeit, Kompatibilität und Bedienung",
+  "scoresCaption": "Unsere Bewertung je Kriterium für die drei empfohlenen Modelle.",
+  "neueFormen": [
+    "ttnet"
+  ],
+  "offen": [
+    "Kriterien in scoresAlt sind ein Entwurf nach struktur.json – an die finalen Bewertungskriterien des Redakteurs anpassen.",
+    "Netzhöhe 15,25 cm laut ITTF-Regeln bzw. EN 14468 – Redakteur kann mit Quelle belegen.",
+    "Alle drei Top-3-Produkte nutzen dieselbe Form in den Tönen forest/green/mint (wie bei bestehenden Kategorien)."
+  ]
+}

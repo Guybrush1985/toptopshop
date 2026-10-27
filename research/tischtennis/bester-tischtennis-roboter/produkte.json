@@ -1,0 +1,500 @@
+{
+  "slug": "bester-tischtennis-roboter",
+  "stand": "2026-10-26",
+  "hinweisMethodik": "Keine unabhängigen Labortests (Stiftung Warentest, Öko-Test, Fachmagazine) zu Tischtennis-Robotern gefunden. Technische Angaben sind Hersteller-/Händlerangaben; Einordnung als redaktionelle Einschätzung nach Ausstattung, Herstellerdaten und Erfahrungsberichten (Fachforen, Einzel-Reviews). amazon.de, Hersteller- und Fachseiten waren aus der Arbeitsumgebung nicht direkt abrufbar (Proxy 403 bzw. DNS-Fehler) – ASIN-Titel und Angaben stammen aus Suchergebnissen der amazon.de-/dp/-Seiten bzw. aus Suchtreffern der genannten Quellen. Keine Sternebewertungen auf der Seite nennen (Snapshots widersprüchlich).",
+  "criteria": [
+    {
+      "key": "spin",
+      "label": "Spin & Ballbild",
+      "weight": 0.3,
+      "description": "Spinarten (Topspin, Unterschnitt, Seitenschnitt, Leerball), Anzahl Wurfräder, Tempo, Ballfrequenz und Platzierung/Oszillation."
+    },
+    {
+      "key": "steuerung",
+      "label": "Steuerung & Programme",
+      "weight": 0.25,
+      "description": "Fernbedienung, Bedienpanel oder App, vorgespeicherte und eigene Drills, Bedienkomfort; App-Stabilität laut Erfahrungsberichten."
+    },
+    {
+      "key": "ausstattung",
+      "label": "Ausstattung & Aufbau",
+      "weight": 0.2,
+      "description": "Ballkapazität, Fangnetz/Ballrückführung im Lieferumfang, Aufbau, Platzbedarf und Gewicht."
+    },
+    {
+      "key": "qualitaet",
+      "label": "Verarbeitung & Service",
+      "weight": 0.25,
+      "description": "Verarbeitung, Garantie, Ersatzteile und Erreichbarkeit des Herstellers; Langzeit-Erfahrungen."
+    }
+  ],
+  "priceTiers": {
+    "1": "bis ca. 200 €",
+    "2": "ca. 200–600 €",
+    "3": "über 600 €"
+  },
+  "products": [
+    {
+      "rank": 1,
+      "label": "Beste Gesamtwahl",
+      "name": "PONGBOT Nova S Pro Tischtennis-Roboter mit Fernbedienung und App-Steuerung, 264 Übungen",
+      "brand": "PONGBOT",
+      "variant": "Nova S Pro mit Fernbedienung N Control S, ohne Netz, ohne Bälle",
+      "priceTier": 2,
+      "ratings": {
+        "spin": 8.0,
+        "steuerung": 9.0,
+        "ausstattung": 6.5,
+        "qualitaet": 6.5
+      },
+      "gesamt": 7.58,
+      "bestFor": "Ambitionierte Hobby- und Vereinsspieler, die mit vielen vorprogrammierten und eigenen Drills trainieren wollen – zum mittleren Preis und einzelne App-Macken in Kauf nehmend.",
+      "fakten": [
+        {
+          "text": "264 vorgespeicherte Übungen plus Drill-Editor; Steuerung per App und Fernbedienung, bis zu 20 eigene Programme lassen sich für den Offline-Betrieb auf die Fernbedienung laden.",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B0CTXY6NVQ",
+          "datum": "2026-10-26"
+        },
+        {
+          "text": "21 Geschwindigkeitsstufen (2–15 m/s), 21 Spinstufen, 11 Frequenzstufen (30–90 Bälle/min); 9 Spinvarianten durch manuelles Drehen des Kopfes; Trichter für ca. 150 Bälle; ca. 4 kg; Netzteil oder Powerbank.",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.amazon.de/dp/B0CTXY6NVQ",
+          "datum": "2026-10-26"
+        },
+        {
+          "text": "App auf Englisch und Chinesisch; deutsche Anleitung nicht zugesichert; Bälle und AAA-Batterien nicht enthalten; im Listing 1 Jahr Herstellergarantie.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B0CTXY6NVQ",
+          "datum": "2026-10-26"
+        },
+        {
+          "text": "RacketInsight (David Bruce, über 6 Monate genutzt) lobt Verarbeitung, App-Steuerung und Platzierung; Kritik: Seitenschnitt nur manuell, keine Ballrückführung.",
+          "art": "Bericht",
+          "quelle": "https://racketinsight.com/table-tennis/robots/pongbot-nova-s-pro-review/",
+          "datum": "2026-10-26"
+        },
+        {
+          "text": "Besitzer im Forum Table Tennis Daily berichten von App-Hängern (Drill setzt sich gelegentlich nicht zurück), einer Grenze von 9 Bällen pro Drill und einzelnen Verarbeitungsmängeln (Kunststoff-Schraubdom); Langzeithaltbarkeit noch offen.",
+          "art": "Bericht",
+          "quelle": "https://www.tabletennisdaily.com/forum/goto/post?id=546274",
+          "datum": "2026-10-26"
+        },
+        {
+          "text": "Das Bundle-Listing B0D31G7J2P (Nova S Pro mit Fernbedienung N Control S) liefert 40+-Bälle mit; damit ist 40+ für den Nova S Pro belegt.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B0D31G7J2P",
+          "datum": "2026-10-26"
+        }
+      ],
+      "pros": [
+        "Größte Drill-Auswahl im Vergleich, eigene Übungen per App",
+        "Viele Stufen für Tempo, Spin und Frequenz; Oszillation",
+        "Mobil per Powerbank, auch draußen nutzbar"
+      ],
+      "cons": [
+        "Seitenschnitt nur durch manuelles Drehen des Kopfes",
+        "App-Probleme laut Besitzern, App nicht auf Deutsch",
+        "Kein Fangnetz; nur 1 Jahr Herstellergarantie laut Listing (gesetzliche Gewährleistung bleibt)"
+      ],
+      "specs": {
+        "Wurfräder": "2",
+        "Ballfrequenz": "30–90 Bälle/min",
+        "Ballgeschwindigkeit": "2–15 m/s",
+        "Spinarten": "9 (Kopf manuell drehen)",
+        "Steuerung": "App (Bluetooth) + Fernbedienung",
+        "Übungen": "264 vorgespeichert + Drill-Editor",
+        "Ballbehälter": "ca. 150 Bälle",
+        "Gewicht": "ca. 4 kg",
+        "Bälle": "40+ (Bundle-Listing)"
+      },
+      "asin": "B0CTXY6NVQ",
+      "query": "PONGBOT Nova S Pro Tischtennis-Roboter",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "Nur per Suchtreffer bestätigt: amazon.de/dp/B0CTXY6NVQ – „PongBot Tischtennis-Roboter mit Fernbedienung und App-Steuerung, 264 Übungen, einstellbarer Spin, Frequenz, Ballgeschwindigkeit und Rotationsintensität“ (Titel nennt „Nova S Pro“ nicht; Lieferumfang im Listing „1 x Table Tennis Robot (Nova S Pro), 1 x Remote Control (N Control S)“)."
+    },
+    {
+      "rank": 2,
+      "label": "Bester Einstieg für Hobbyspieler",
+      "name": "JOOLA Tischtennis-Roboter Buddy V200",
+      "brand": "JOOLA",
+      "variant": "Buddy V200 mit Funkfernbedienung, ohne Bälle und Netz",
+      "priceTier": 1,
+      "ratings": {
+        "spin": 5.5,
+        "steuerung": 6.0,
+        "ausstattung": 6.0,
+        "qualitaet": 6.0
+      },
+      "gesamt": 5.85,
+      "bestFor": "Familien, Kinder und Hobbyspieler, die ohne großen Aufbau Grundschläge mit Top- oder Unterschnitt üben wollen.",
+      "fakten": [
+        {
+          "text": "Ca. 1,1 kg, Ballbehälter für bis zu 100 Bälle (40+), Ballfrequenz 12–70 Bälle/min, Funkfernbedienung, Unterschnitt, Topspin und Leerball; Bälle nicht enthalten.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B08RKLPTCX",
+          "datum": "2026-10-26"
+        },
+        {
+          "text": "Eine Oszillation wird für den V200 in den Listings nicht genannt (erst bei den Pro-/V300-Varianten); Anzahl der Wurfräder nicht angegeben.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B08RKLPTCX",
+          "datum": "2026-10-26"
+        },
+        {
+          "text": "Käufer der JOOLA-Kleinroboter (iPong/Buddy) berichten von ungenauer Oszillation (bei Modellen mit Oszillator), verzögert reagierenden Fernbedienungstasten, begrenzter Funkreichweite, schwer verständlicher Anleitung und einem relativ hohen Mindesttempo.",
+          "art": "Bericht",
+          "quelle": "https://www.amazon.de/dp/B08RKLPTCX",
+          "datum": "2026-10-26"
+        }
+      ],
+      "pros": [
+        "Kompakt und leicht (ca. 1,1 kg), schnell aufgestellt",
+        "Funkfernbedienung für Tempo, Frequenz und Schnitt",
+        "Mit dem JOOLA-Fangnetz 21128 nachrüstbar"
+      ],
+      "cons": [
+        "Nur Top- und Unterschnitt, kein Seitenschnitt",
+        "Oszillation nicht belegt; Käuferkritik an Fernbedienung und Mindesttempo",
+        "Kein Fangnetz und keine Bälle im Lieferumfang"
+      ],
+      "specs": {
+        "Wurfräder": "keine Angabe",
+        "Ballfrequenz": "12–70 Bälle/min (Listing)",
+        "Spinarten": "Topspin, Unterschnitt, Leerball",
+        "Steuerung": "Funkfernbedienung",
+        "Ballbehälter": "ca. 100 Bälle (40+)",
+        "Gewicht": "ca. 1,1 kg"
+      },
+      "asin": "B08RKLPTCX",
+      "query": "JOOLA Tischtennis-Roboter Buddy V200",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "Per WebSearch (amazon.de) 2026-10-26: amazon.de/JOOLA-Tischtennis-Roboter-Buddy-V200/dp/B08RKLPTCX – deutscher Titel „JOOLA Tischtennis-Roboter Buddy V200“, englische Ansicht „Joola Buddy V200 Table Tennis Robot“ – übereinstimmend."
+    },
+    {
+      "rank": 3,
+      "label": "Premium-Wahl mit Ballrückführung und App",
+      "name": "PONGBOT OMNI S Pro Tischtennis-Roboter mit Netz, E-Pad/App-Steuerung, 396 Ballbahnen",
+      "brand": "PONGBOT",
+      "variant": "OMNI S Pro mit Ballrückführungsnetz, E-Pad S und Netzteil, ohne Bälle",
+      "priceTier": 3,
+      "ratings": {
+        "spin": 9.0,
+        "steuerung": 6.5,
+        "ausstattung": 8.0,
+        "qualitaet": 6.5
+      },
+      "gesamt": 7.55,
+      "bestFor": "Spieler, die lange Serien ohne Einsammeln trainieren wollen und Platz für ein großes, schweres Gerät haben.",
+      "fakten": [
+        {
+          "text": "Lieferumfang: Roboter, Ballrückführungsnetz, E-Pad S, Netzteil; 396 vorgespeicherte Ballbahnen (66 Übungen × 3 Stufen × Vor-/Rückhand); ca. 9 kg; Bälle nicht enthalten.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B0CVWQW2DX",
+          "datum": "2026-10-26"
+        },
+        {
+          "text": "Ein Besitzer berichtet nach über 20.000 Bällen von keinen Ballstaus und gleichbleibendem Spin, Tempo und Platzierung; die Software sei dagegen enttäuschend.",
+          "art": "Bericht",
+          "quelle": "https://www.tabletennisdaily.com/forum/topics/pongbot-omni-s-pro-robot-review.36247/latest",
+          "datum": "2026-10-26"
+        },
+        {
+          "text": "Laut Besitzerbericht schwenkt der Kopf seitlich und in der Höhe und dreht sich um die eigene Achse, um alle Spinarten zu erzeugen; PONGBOT-Kundendienst habe Fragen zügig beantwortet; Preis laut Besitzer rund 900 USD unter dem Butterfly Amicus Prime.",
+          "art": "Bericht",
+          "quelle": "https://www.tabletennisdaily.com/forum/goto/post?id=500952",
+          "datum": "2026-10-26"
+        },
+        {
+          "text": "Steuerung über das E-Pad S und die PONGBOT-App; 396 vorgespeicherte Ballbahnen, programmierbar nach Tempo, Rotation, Frequenz und Flugbahn.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B0CVWQW2DX",
+          "datum": "2026-10-26"
+        }
+      ],
+      "pros": [
+        "Ballrückführungsnetz im Lieferumfang – lange Serien ohne Einsammeln",
+        "Kopf schwenkt und dreht für alle Spinarten (laut Besitzerbericht)",
+        "396 vorgespeicherte Ballbahnen, Steuerung per E-Pad oder App"
+      ],
+      "cons": [
+        "Groß und schwer (ca. 9 kg), braucht Platz",
+        "Software laut Besitzer enttäuschend",
+        "Garantie- und Frequenzangaben nicht gefunden; teuerste Preisklasse"
+      ],
+      "specs": {
+        "Wurfräder": "keine Angabe",
+        "Spinarten": "alle (Kopf dreht, laut Besitzerbericht)",
+        "Ballfrequenz": "keine Angabe",
+        "Steuerung": "E-Pad S + App",
+        "Übungen": "396 Ballbahnen (66 Übungen × 3 Stufen × VH/RH)",
+        "Fangnetz": "ja, mit Ballrückführung",
+        "Gewicht": "ca. 9 kg",
+        "Bälle": "keine Angabe, nicht im Lieferumfang"
+      },
+      "asin": "B0CVWQW2DX",
+      "query": "PONGBOT OMNI S Pro Tischtennis-Roboter mit Netz",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "Per WebSearch (amazon.de) 2026-10-26: amazon.de/…/dp/B0CVWQW2DX – „PONGBOT Table Tennis Robot with Net, Automatic Ping Pong Machine, E-Pad/APP Control, 396 Pre-Stored Ball Tracks, Programmable Drills“; Modell OMNI S Pro mit E Pad S im Listing; Prüfbericht ✔."
+    }
+  ],
+  "top5": [
+    {
+      "name": "Newgy Robo-Pong 3050XL Tischtennis-Roboter",
+      "warum": "Für Vereins- und Leistungsspieler mit Budget: zwei getrennt angesteuerte Wurfräder für Top-, Unter- und Seitenschnitt, über 100 vorprogrammierte Übungen per Newgy-App (Bluetooth) oder Windows-PC (USB), Recycling-Netz. Mit Abstand teuerstes Gerät der Liste.",
+      "fakten": [
+        {
+          "text": "Zwei Wurfräder mit getrennt programmierten Motoren für Topspin, Unterschnitt, Seitenschnitt und Leerball; Spin und Tempo getrennt einstellbar; über 100 vorprogrammierte Übungen plus eigene; Newgy-App per Bluetooth (iOS/Android) oder USB (Windows); Recycling-Netz; laut Listing 100 Trainingsbälle und 2 Jahre Garantie, ca. 8 kg.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B07BZWQTGF",
+          "datum": "2026-10-26"
+        },
+        {
+          "text": "Huawei-Smartphones sind wegen des Bluetooth-Chips nicht kompatibel; Newgy (US) nennt 1 Jahr eingeschränkte Garantie und eine Service-Policy (Angaben variieren).",
+          "art": "Herstellerangabe",
+          "quelle": "https://www.newgy.com/?p=475",
+          "datum": "2026-10-26"
+        }
+      ],
+      "asin": "B07BZWQTGF",
+      "query": "Newgy Robo-Pong 3050XL Tischtennis-Roboter",
+      "where": null,
+      "asinGeprueft": "Per WebSearch (amazon.de) 2026-10-26: „Newgy Robo Pong 3050XL Table Tennis Robot“ (amazon.de/newgy-Robo-3050-Tischtennis-Roboter/dp/B07BZWQTGF), nicht als eingestellt markiert; Stand der Lieferangaben im Snapshot unklar. Paralleles Donic-Listing B08JGJXJKH (mit 72 Bällen) nicht verwendet."
+    },
+    {
+      "name": "DONIC Roboter Robo-Pong 545 inkl. Versa-Netz",
+      "warum": "Für einfache Technik-Übungen mit Netz ohne App: analoges Mini-Bedienteil, Tempo und Spin stufenlos, Topspin, Unterschnitt und Seitenschnitt; Kopf per AIM-Funktion von Hand auf drei Zonen richten; Versa-Netz führt Bälle zurück.",
+      "fakten": [
+        {
+          "text": "Einstiegsmodell; Ballgeschwindigkeit, Spin und Flugbahn stufenlos; Topspin, Unterschnitt und Seitenschnitt; AIM-Funktion zur manuellen Ausrichtung auf drei Zonen; Ballbehälter ca. 120 Bälle; Lieferumfang Wurfkopf, Ballbehälter, Versa-Netz, analoges Mini-Bedienteil, Netzteil; ca. 4,7 kg.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B07SPC8PQQ",
+          "datum": "2026-10-26"
+        }
+      ],
+      "asin": "B07SPC8PQQ",
+      "query": "DONIC Roboter Robo-Pong 545 inkl. Versa-Netz",
+      "where": null,
+      "asinGeprueft": "Per WebSearch (amazon.de) 2026-10-26: amazon.de/DONIC-Roboter-Robo-Pong-inkl-Versa-Netz/dp/B07SPC8PQQ – „DONIC Roboter Robo-Pong 545 inkl. Versa-Netz“; Verfügbarkeit im Snapshot nicht datiert."
+    },
+    {
+      "name": "JOOLA Buddy Pro V300 Tischtennis-Roboter & Fangnetz TT Buddy",
+      "warum": "Für Familien, die den Kompaktroboter gleich mit Fangnetz wollen: JOOLA-Kleinroboter der V300-Reihe im Set mit Netz für die Plattenkante; Auffangbehälter nicht enthalten. Käuferberichte gemischt.",
+      "fakten": [
+        {
+          "text": "Set aus Roboter und Fangnetz (Carbonrahmen, Kunststoffnetz, leitet Bälle über eine Öffnung in einen Behälter, der nicht enthalten ist); Roboter für bis zu 100 Bälle (40+), 20–70 Bälle/min.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B08RZW7P1T",
+          "datum": "2026-10-26"
+        },
+        {
+          "text": "Käuferberichte gemischt, u. a. ein Motordefekt am Drehteller.",
+          "art": "Bericht",
+          "quelle": "https://www.amazon.de/dp/B08RZW7P1T",
+          "datum": "2026-10-26"
+        }
+      ],
+      "asin": "B08RZW7P1T",
+      "query": "JOOLA Buddy Pro V300 Tischtennis-Roboter Fangnetz",
+      "where": null,
+      "asinGeprueft": "Per WebSearch (amazon.de) 2026-10-26: „JOOLA Buddy Pro V300 Table Tennis Robot & Ball Net TT Buddy - Collection Net for Ball Machine“ (amazon.de/JOOLA-Tischtennis-Roboter-Tischtennis-Fangnetz-TT-Buddy/dp/B08RZW7P1T); deutsche und englische Ansicht übereinstimmend als V300-Set."
+    },
+    {
+      "name": "JOOLA 21128 Tischtennis-Fangnetz für Roboter (TT Buddy)",
+      "warum": "Zum Nachrüsten für Roboter ohne Netz (z. B. Buddy V200, Nova S Pro): Netz an der Plattenkante leitet die Bälle in einen Behälter; Behälter nicht enthalten. Käufer bemängeln Passform an dicken Plattenkanten.",
+      "fakten": [
+        {
+          "text": "Ca. 45 × 32 × 32 cm (verpackt), knapp 1 kg, laut Listing für Tischtennisplatten nach DIN EN 14468-1 geeignet; Auffangbehälter nicht im Lieferumfang.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B0BMG91LLK",
+          "datum": "2026-10-26"
+        }
+      ],
+      "asin": "B0BMG91LLK",
+      "query": "JOOLA 21128 Tischtennis Fangnetz Roboter",
+      "where": null,
+      "asinGeprueft": "Nur per Suchtreffer: amazon.de/JOOLA-21128-Tischtennis-Fangnetz-Roboter/dp/B0BMG91LLK – „Joola Buddy Tischtennis-Fangnetz – Schwarz“."
+    },
+    {
+      "name": "PONGBOT Tischtennis-Roboter mit 150 Bällen, Tasche und Powerbank (Nova S Pro Bundle)",
+      "warum": "Für mobiles Training (Garage, Garten, Urlaub): derselbe Nova S Pro wie auf Platz 1 als Komplettpaket mit Tasche, Powerbank und 40+-Bällen – kein Zusatzkauf nötig. Eigener Suchintent schwach (Bundle des Platz-1-Geräts), mangels belegbarer Alternative beibehalten.",
+      "fakten": [
+        {
+          "text": "Lieferumfang laut Listing: Roboter (Nova S Pro), Fernbedienung N Control S, 40+-Bälle (Titel: 150 Stück), Tragetasche, Powerbank, 2 Ladeadapter; 264 vorgespeicherte Übungen.",
+          "art": "Händlerangabe",
+          "quelle": "https://www.amazon.de/dp/B0D31G7J2P",
+          "datum": "2026-10-26"
+        }
+      ],
+      "asin": "B0D31G7J2P",
+      "query": "PONGBOT Tischtennis-Roboter 150 Bälle Tasche Powerbank",
+      "where": null,
+      "asinGeprueft": "Nur per Suchtreffer: „PONGBOT Tischtennis-Roboter, 150 Tischtennisbälle, Fernbedienung und App-Steuerung, Tragetasche, Powerbank, 264 vorgespeicherte Trainingsübungen“."
+    }
+  ],
+  "tests": [
+    {
+      "institut": "Stiftung Warentest / Öko-Test",
+      "heft": "–",
+      "ergebnis": "Kein Test von Tischtennis-Robotern gefunden.",
+      "quelle": "Websuche 2026-10-26"
+    },
+    {
+      "institut": "RacketInsight (Einzel-Review, kein Labortest)",
+      "heft": "PongBot Nova S Pro Review, David Bruce, über 6 Monate Nutzung",
+      "ergebnis": "4,5 von 5; Stärken Verarbeitung, App, Platzierung; Schwächen Seitenschnitt manuell, keine Ballrückführung. Nur „laut Bericht“ verwenden.",
+      "quelle": "https://racketinsight.com/table-tennis/robots/pongbot-nova-s-pro-review/"
+    },
+    {
+      "institut": "Megaspin (Händler-Review)",
+      "heft": "Butterfly Amicus Prime Robot – Long Review",
+      "ergebnis": "Beschreibt die Amicus-Reihe 2020 (Start, Expert, Prime) mit 3-Rad-Kopf; Händler, daher nicht unabhängig.",
+      "quelle": "https://megaspin.net/articles/580/butterfly-amicus-prime-robot-review"
+    },
+    {
+      "institut": "GameStar (Erfahrungsbericht)",
+      "heft": "„Um meinen besten Kumpel endlich im Tischtennis zu schlagen, trainiere ich jetzt mit einem Roboter“ (PONGBOT Nova S Pro)",
+      "ergebnis": "Laut Scout-Bericht Erfahrungsbericht zum Nova S Pro; Seite aus der Arbeitsumgebung nicht abrufbar, Inhalt nicht selbst geprüft.",
+      "quelle": "https://www.gamestar.de/artikel/um-meinen-besten-kumpel-endlich-im-tischtennis-zu-schlagen-trainiere-ich-jetzt-mit-einem-roboter,3455145.html"
+    }
+  ],
+  "warnungen": [
+    "Keine Rückrufe oder Safety-Gate-Meldungen zu Tischtennis-Robotern gefunden (Websuche 2026-10-26; Safety-Gate-Portal selbst nicht abrufbar). Gefundener CPSC-Rückruf betrifft Escalade-Tischtennisplatten, nicht Roboter: https://www.cpsc.gov/node/51069",
+    "PONGBOT: App nur Englisch/Chinesisch, deutsche Anleitung nicht zugesichert, 1 Jahr Herstellergarantie laut Listing – gesetzliche Gewährleistung gegenüber dem Verkäufer (2 Jahre) bleibt unberührt; im Text sachlich nennen.",
+    "Roboter werfen Bälle mit bis zu ca. 15 m/s (PONGBOT-Herstellerangabe) – kleine Kinder nur unter Aufsicht, Netzteil/Kabel außerhalb der Laufwege (allgemeiner Hinweis, zurückhaltend formulieren)."
+  ],
+  "verworfen": [
+    {
+      "name": "Donic/Newgy Robo-Pong 1055/2050/2055",
+      "grund": "Laut Scout nur 2,6–3,0★ auf amazon.de, 2055 nur über Suchseite; Struktur schließt sie aus den Top 3 aus (nicht selbst nachgeprüft)."
+    },
+    {
+      "name": "Butterfly Amicus Prime (B07NVWZJNS, „Sports Innovation“)",
+      "grund": "Einziger Butterfly mit App, aber laut Suchtreffer auf amazon.de derzeit nicht verfügbar; Verkäufer „Sports Innovation“."
+    },
+    {
+      "name": "Butterfly Amicus Start (B07L4RMZVS)",
+      "grund": "Dublette zu B0CFL8M9PT, laut Suchtreffer derzeit nicht verfügbar."
+    },
+    {
+      "name": "JOOLA Shorty (B078VH5N89, B008YS7YEK, B08JF31FBP)",
+      "grund": "Mehrere widersprüchliche Listings (Farbe, Gewicht 8,45 vs. 32 kg, Altersangabe), älteres Modell, keine Herstellerseite bestätigt."
+    },
+    {
+      "name": "PONGBOT-Modell mit 114 Übungen (B0CV7NF83J)",
+      "grund": "Modellbezeichnung im Listing unklar; Nova S Pro deckt den Bereich besser ab."
+    },
+    {
+      "name": "No-Name-Roboter (HERCHR, WAYMARK S6-PRO, BIXUYOU, Irfora, Ronyme, VGEBY, Y current u. a.)",
+      "grund": "Austauschbare Marktplatzware ohne belastbare Herstellerangaben, Service oder Erfahrungsberichte."
+    },
+    {
+      "name": "JOOLA Infinity",
+      "grund": "Laut Forenbericht Projekt eingestellt, nicht mehr erhältlich."
+    },
+    {
+      "name": "BUTTERFLY Amicus Start (B0CFL8M9PT; bisher Platz 1)",
+      "grund": "Korrekturrunde 2026-10-26: per WebSearch (amazon.de, Modellname und ASIN) kein Listing mehr auffindbar; britischer Händler (tennisnuts.com) führt ihn laut Prüfer als „discontinued“; zweites Listing B07L4RMZVS „derzeit nicht verfügbar“. Ein Platz-1-Produkt, das man nicht kaufen kann, ist keine Empfehlung → aus Top 3 und Top 5 entfernt. Gewicht laut Bedienungsanleitung ca. 6 kg (Megaspin-PDF) – nicht mehr benötigt."
+    },
+    {
+      "name": "JOOLA Tischtennis-Roboter iPong V300 (B08T845HCB; bisher Platz 2)",
+      "grund": "Variantenlisting: deutsche wie englische Ansicht zeigen inzwischen „Joola Buddy V200 Table Tennis Robot – Green“, Beschreibung nennt iPong V200. Keine eindeutige Einzel-ASIN für den iPong V300 gefunden → durch den eindeutig gelisteten Buddy V200 (B08RKLPTCX) ersetzt; V300 nur noch als Set mit Fangnetz (B08RZW7P1T) in der Top 5."
+    },
+    {
+      "name": "Butterfly Amicus Expert (B07DW8CX4C; bisher Top 5)",
+      "grund": "Per WebSearch (amazon.de) nicht auffindbar; laut Research Dropship-Verkäufer mit wenigen Bewertungen → ersetzt durch Newgy Robo-Pong 3050XL."
+    },
+    {
+      "name": "DONIC Newgy Robo-Pong 2055 inkl. 72 Bälle (B07DQP9LR9)",
+      "grund": "Listing per WebSearch nicht bestätigt, Verfügbarkeit widersprüchlich."
+    }
+  ],
+  "offen": [
+    "Korrekturrunde 2026-10-26 (Prüfbericht): Top 3 neu geordnet. Amicus Start auf amazon.de nicht aktiv auffindbar und laut UK-Händler eingestellt → entfernt; iPong V300 B08T845HCB ist Variantenlisting des Buddy V200 → durch JOOLA Buddy V200 B08RKLPTCX (eindeutiges Listing) ersetzt; PONGBOT OMNI S Pro B0CVWQW2DX aus der Top 5 als Premium-Wahl mit Ballrückführung in die Top 3 übernommen (entspricht Struktur-Rolle „Premium-Wahl mit App und Drills“, ergänzt um Ballrückführung).",
+    "Noten: Nova S Pro 7,58 vor OMNI S Pro 7,55 – knapp. Den Ausschlag geben bessere Beleglage (6-Monats-Review RacketInsight, Besitzer-Thread, GameStar) und Gewicht/Platzbedarf (Ausstattung 6,5 vs. 8,0 trotz Netz beim OMNI, der ca. 9 kg wiegt); OMNI-Software laut Besitzer enttäuschend, Garantie unbekannt. Preis fließt nicht in die Note ein.",
+    "Alle ASINs nur per WebSearch (amazon.de) geprüft – amazon.de per curl nicht erreichbar (Proxy 403). Verfügbarkeit von B07BZWQTGF (Robo-Pong 3050XL) und B07SPC8PQQ (Robo-Pong 545) im Snapshot nicht datiert.",
+    "Top 5 Nr. 5 (Nova-S-Pro-Bundle B0D31G7J2P) ist dasselbe Gerät wie Platz 1; kein weiteres belegbares, eigenständiges Produkt gefunden (Robo-Pong 2055 nicht bestätigt, Amicus Expert/Prime nicht verfügbar, No-Name-Ware ausgeschlossen) – Bundle mit eigenem Intent „mobil, Komplettpaket“ beibehalten.",
+    "Robo-Pong 545 und 3050XL: Struktur schließt Donic/Newgy Robo-Pong nur aus den Top 3 aus; Top 5 zulässig. Käuferresonanz zu den Robo-Pong-Listings gering/gemischt – im Text qualitativ, ohne Sterne.",
+    "PONGBOT OMNI S Pro: kein Euro-Preis von Hersteller bestätigt, laut amazon.de-Snapshot Preisklasse 3; Garantie und Ballfrequenz nicht gefunden.",
+    "Sternebewertungen widersprüchlich – nicht auf der Seite nennen, Schwächen qualitativ beschreiben.",
+    "Awin: nur Rewe DE (11652), Radwelt-shop (15088), brickzonehub (121692) mit Status joined – keiner führt Tischtennis-Roboter; alle Produkte über Amazon, kein neuer Händler nötig.",
+    "Hersteller-/Fachseiten (joola.de, butterflyonline.com, pongbotsports.com, revspin.net, gamestar.de) per WebFetch nicht abrufbar (DNS); Angaben aus Suchtreffern dieser Seiten."
+  ],
+  "quellen": [
+    {
+      "titel": "amazon.de – PONGBOT Nova S Pro (B0CTXY6NVQ)",
+      "url": "https://www.amazon.de/dp/B0CTXY6NVQ"
+    },
+    {
+      "titel": "amazon.de – PONGBOT OMNI S Pro mit Netz (B0CVWQW2DX)",
+      "url": "https://www.amazon.de/dp/B0CVWQW2DX"
+    },
+    {
+      "titel": "amazon.de – JOOLA Buddy V200 (B08RKLPTCX)",
+      "url": "https://www.amazon.de/dp/B08RKLPTCX"
+    },
+    {
+      "titel": "amazon.de – JOOLA 21128 Fangnetz (B0BMG91LLK)",
+      "url": "https://www.amazon.de/dp/B0BMG91LLK"
+    },
+    {
+      "titel": "amazon.de – PONGBOT Bundle mit 150 Bällen (B0D31G7J2P)",
+      "url": "https://www.amazon.de/dp/B0D31G7J2P"
+    },
+    {
+      "titel": "Megaspin – Butterfly Amicus Prime Robot Long Review",
+      "url": "https://megaspin.net/articles/580/butterfly-amicus-prime-robot-review"
+    },
+    {
+      "titel": "JOOLA – Robot iPong V300 (Produktseite)",
+      "url": "https://joola.de/en/products/joola-robot-i-pong-v300-2"
+    },
+    {
+      "titel": "JOOLA – Bedienungsanleitung iPong V300 (21129, 2024-10)",
+      "url": "https://joola.fr/cdn/shop/files/21129_Manual_JOOLA_Robot-iPong-V300_2024-10.pdf"
+    },
+    {
+      "titel": "RacketInsight – PongBot Nova S Pro Review",
+      "url": "https://racketinsight.com/table-tennis/robots/pongbot-nova-s-pro-review/"
+    },
+    {
+      "titel": "Table Tennis Daily – Pongbot Nova S Pro owners' thread",
+      "url": "https://www.tabletennisdaily.com/forum/goto/post?id=546274"
+    },
+    {
+      "titel": "Table Tennis Daily – PONGBOT OMNI S PRO Robot Review",
+      "url": "https://www.tabletennisdaily.com/forum/topics/pongbot-omni-s-pro-robot-review.36247/latest"
+    },
+    {
+      "titel": "GameStar – Erfahrungsbericht Tischtennis-Roboter",
+      "url": "https://www.gamestar.de/artikel/um-meinen-besten-kumpel-endlich-im-tischtennis-zu-schlagen-trainiere-ich-jetzt-mit-einem-roboter,3455145.html"
+    },
+    {
+      "titel": "CPSC – Rückruf Escalade-Tischtennisplatten (kein Roboter)",
+      "url": "https://www.cpsc.gov/node/51069"
+    },
+    {
+      "titel": "amazon.de – Newgy Robo Pong 3050XL (B07BZWQTGF)",
+      "url": "https://www.amazon.de/dp/B07BZWQTGF"
+    },
+    {
+      "titel": "amazon.de – DONIC Robo-Pong 545 inkl. Versa-Netz (B07SPC8PQQ)",
+      "url": "https://www.amazon.de/dp/B07SPC8PQQ"
+    },
+    {
+      "titel": "amazon.de – JOOLA Buddy Pro V300 & Fangnetz (B08RZW7P1T)",
+      "url": "https://www.amazon.de/dp/B08RZW7P1T"
+    },
+    {
+      "titel": "Newgy – Robo-Pong 3050XL",
+      "url": "https://www.newgy.com/?p=475"
+    },
+    {
+      "titel": "Table Tennis Daily – PONGBOT OMNI S PRO Robot Review (Beitrag)",
+      "url": "https://www.tabletennisdaily.com/forum/goto/post?id=500952"
+    }
+  ]
+}

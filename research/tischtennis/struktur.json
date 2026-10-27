@@ -1,0 +1,225 @@
+{
+  "thema": "Tischtennis zu Hause",
+  "datum": "2026-10-26",
+  "quelle": "research/trends/2026-10-26-tischtennis-zu-hause.md",
+  "area": {
+    "slug": "tischtennis",
+    "neu": true,
+    "name": "Tischtennis zu Hause",
+    "short": "Tischtennis",
+    "intro": "Tischtennis im Keller, in der Garage oder im Garten: Schläger-Sets für die ganze Familie, Bälle für Training und Wettkampf, Netzgarnituren, Abdeckhüllen für den Winter und Ballroboter fürs Solotraining – je Kategorie die drei besten Produkte.",
+    "metaTitle": "Tischtennis zu Hause: Sets, Bälle, Netze, Hüllen & Roboter",
+    "metaDescription": "Tischtennis-Sets, Bälle, Netzgarnituren, Abdeckhüllen und Ballroboter: je Kategorie die 3 besten Produkte mit Kaufberatung für die Platte zu Hause.",
+    "hinweis": "Orchestrator legt den Bereich in src/site.mjs an (flache URLs, area: \"tischtennis\", keine groups; Präzedenz darts/pickleball). /tischtennisplatten/ bleibt in private-sportanlagen und wird im Bereichsartikel als Hub verlinkt; im Intro/Artikel von private-sportanlagen einen Link auf den neuen Bereich ergänzen. Bereichsartikel-Vorschlag: Einstieg ‚Was brauche ich für Tischtennis zu Hause?‘ (Platte → /tischtennisplatten/, dann Set, Bälle, Netz, Hülle, Roboter), Regelmaße nur kurz (Netzhöhe 15,25 cm, Ball 40 mm) mit Verweis auf die Fachseiten. Kontextlinks Hobbyraum: /kickertische/, /airhockey-tische/, /shuffleboard-shufflepuck/."
+  },
+  "groups": [],
+  "categories": [
+    {
+      "slug": "bester-tischtennis-roboter",
+      "group": null,
+      "navLabel": "Tischtennis-Roboter",
+      "h1": "Die 3 besten Tischtennis-Roboter 2026",
+      "suchintent": "Hobby- und Vereinsspieler sowie Eltern trainierender Kinder wollen allein Tischtennis trainieren und suchen eine Ballmaschine für die Platte (Keywords-Hypothese: tischtennis roboter, tischtennis ballmaschine, tischtennisroboter kaufen, butterfly amicus, joola ipong, pongbot).",
+      "abgrenzung": "Nur Tischtennis-Ballroboter (auf/hinter der Platte). Ballmaschinen für Tennis gehören zu /ballmaschinen/, für Padel zu /padel-ballmaschinen/. Fangnetze und Trainingsbälle nur als Zubehör in der Top 5 bzw. im Ratgeber; Großpackungen Bälle → beste-tischtennisbaelle. Wegen gemischter Rezensionen (Scout): Schwächen offen benennen, Donic/Newgy Robo-Pong mit 2,6–3,0★ nicht in die Top 3.",
+      "rollen": [
+        "Beste Gesamtwahl",
+        "Bester Einstieg für Hobbyspieler",
+        "Premium-Wahl mit App und Drills"
+      ],
+      "kriterienEntwurf": [
+        "Spinarten (Topspin, Unterschnitt, Seitenschnitt) und Anzahl Wurfräder",
+        "Ballfrequenz, Geschwindigkeit, Oszillation/Platzierung",
+        "Steuerung: Fernbedienung, Programme, App-Drills (App-Stabilität laut Rezensionen)",
+        "Ballrückführung/Fangnetz und Ballkapazität",
+        "Verarbeitung, Lautstärke, Ersatzteile/Service in Deutschland",
+        "Aufbau und Platzbedarf (Esstisch/Mini-Platte möglich?)"
+      ],
+      "top5Intent": "Roboter und Zubehör nach Trainingssituation: Einstieg ohne Netz für Kinder, mit Fangnetz/Ballrückführung für langes Solotraining, mit App und Programmen, kompakt für kleine Räume, plus Fangnetz-Zubehör zum Nachrüsten.",
+      "faqKandidaten": [
+        "Lohnt sich ein Tischtennis-Roboter?",
+        "Kann man mit einem Tischtennis-Roboter allein trainieren?",
+        "Welcher Tischtennis-Roboter ist für Anfänger geeignet?",
+        "Braucht ein Tischtennis-Roboter ein Fangnetz?",
+        "Welche Bälle für den Tischtennis-Roboter?",
+        "Wie viele Bälle braucht man für einen Tischtennis-Roboter?",
+        "Ersetzt ein Roboter einen Trainingspartner?",
+        "Kann man Aufschläge mit dem Roboter üben?"
+      ],
+      "related": [
+        "beste-tischtennisbaelle",
+        "tischtennisplatten",
+        "ballmaschinen",
+        "bestes-tischtennis-set"
+      ],
+      "metaTitle": "Die 3 besten Tischtennis-Roboter 2026 fürs Solotraining",
+      "metaDescription": "Tischtennis-Roboter im Vergleich: Spin, Ballfrequenz, App und Fangnetz – die 3 besten Ballmaschinen fürs Training allein, mit ehrlicher Einordnung der Schwächen.",
+      "produktart": "Ballroboter mit Ballbehälter und Wurfkopf auf der Tischtennisplatte, dahinter optional ein Fangnetz"
+    },
+    {
+      "slug": "bestes-tischtennis-set",
+      "group": null,
+      "navLabel": "Tischtennis-Sets",
+      "h1": "Die 3 besten Tischtennis-Sets 2026",
+      "suchintent": "Familien, Hobbyspieler und Geschenkkäufer suchen ein Schläger-Set mit Bällen (und Tasche) für die Platte zu Hause (Keywords-Hypothese: tischtennis set, tischtennisschläger set, tischtennisschläger set familie, tischtennisschläger für anfänger, joola set, timo boll set).",
+      "abgrenzung": "Sets aus 2–4 Schlägern plus Bällen für Freizeit und Einstieg. Einzelschläger für Fortgeschrittene sind eine eigene (Reserve-)Kategorie bester-tischtennisschlaeger-fortgeschrittene; Bälle einzeln → beste-tischtennisbaelle; Sets mit ausziehbarem Netz für den Esstisch nur in der Top 5, Netzgarnituren → bestes-tischtennisnetz.",
+      "rollen": [
+        "Beste Gesamtwahl für die Familie",
+        "Bestes Preis-Leistungs-Verhältnis",
+        "Premium-Wahl für ambitionierte Hobbyspieler"
+      ],
+      "kriterienEntwurf": [
+        "Beläge und Schwammstärke (Kontrolle vs. Tempo, ITTF-Zulassung der Beläge)",
+        "Holz/Griffform (konkav, gerade, anatomisch) und Gewicht",
+        "Lieferumfang: Anzahl Schläger, Bälle (Sternklasse), Tasche/Hüllen",
+        "Eignung für Kinder und Einsteiger",
+        "Verarbeitung/Haltbarkeit der Belagkanten, Kantenband"
+      ],
+      "top5Intent": "Sets nach Anzahl Spieler und Anlass: 2er-Set für Paare, 4er-Set für Rundlauf mit Freunden, Set für Kinder/Schule/Team, Set mit ausziehbarem Netz für den Esstisch, nachhaltiges Set (FSC-Holz).",
+      "faqKandidaten": [
+        "Welches Tischtennis-Set ist das beste für Anfänger?",
+        "Was ist der Unterschied zwischen günstigen und teuren Tischtennisschlägern?",
+        "Welche Schwammstärke für Hobbyspieler?",
+        "Welcher Griff ist der richtige: konkav, gerade oder anatomisch?",
+        "Ab welchem Alter können Kinder Tischtennis spielen?",
+        "Wie lange halten Tischtennisschläger-Beläge?",
+        "Darf man mit einem Hobby-Schläger im Verein spielen?"
+      ],
+      "related": [
+        "beste-tischtennisbaelle",
+        "tischtennisplatten",
+        "bestes-tischtennisnetz",
+        "beste-pickleball-schlaeger"
+      ],
+      "metaTitle": "Die 3 besten Tischtennis-Sets 2026 für Familie & Einstieg",
+      "metaDescription": "Tischtennis-Sets mit Schlägern, Bällen und Tasche im Vergleich: Beläge, Griff und Lieferumfang – die 3 besten Sets für Familie, Einsteiger und Hobbyspieler.",
+      "produktart": "Zwei bis vier Tischtennisschläger mit roten und schwarzen Belägen, Bälle und Tasche"
+    },
+    {
+      "slug": "beste-tischtennisbaelle",
+      "group": null,
+      "navLabel": "Tischtennisbälle",
+      "h1": "Die 3 besten Tischtennisbälle 2026",
+      "suchintent": "Spieler suchen passende Bälle für Wettkampf, Training oder Freizeit und wollen den Unterschied zwischen Sternklassen, 40+/Plastik und Packungsgrößen verstehen (Keywords-Hypothese: tischtennisbälle, tischtennisbälle 3 stern, tischtennisbälle 40+, beste tischtennisbälle, nittaku premium).",
+      "abgrenzung": "Nur Bälle (einzeln/Packungen). Sets mit Schlägern → bestes-tischtennis-set; der Roboter-Ratgeber verlinkt für Trainingsbälle in Mengen hierher statt eigene Ballempfehlungen auszubreiten. Preise je Ball nur qualitativ (keine festen Amazon-Preise).",
+      "rollen": [
+        "Beste Gesamtwahl (3-Sterne-Wettkampfball)",
+        "Bester Trainingsball in großer Packung",
+        "Premium-Wahl"
+      ],
+      "kriterienEntwurf": [
+        "ITTF-Zulassung und Sternklasse (Kennzeichnung prüfen, Angaben uneinheitlich)",
+        "Rundlauf und Härte-Gleichmäßigkeit",
+        "Haltbarkeit: nahtlos vs. mit Naht, Bruchanfälligkeit",
+        "Packungsgröße / Preis je Ball (qualitativ)",
+        "Eignung für Roboter/Multiball und für draußen"
+      ],
+      "top5Intent": "Bälle nach Einsatz: Großpackung für Roboter und Multiball, Outdoor-/windstabilere Bälle, farbige Bälle für Kinder und Anfänger, Vereins-/Trainingsball, nahtloser Ball.",
+      "faqKandidaten": [
+        "Was bedeuten die Sterne auf Tischtennisbällen?",
+        "Was ist der Unterschied zwischen Plastik- und Zelluloidbällen?",
+        "Was bedeutet 40+ auf Tischtennisbällen?",
+        "Welche Tischtennisbälle für die Ballmaschine?",
+        "Wie lange hält ein Tischtennisball?",
+        "Sind nahtlose Tischtennisbälle besser?",
+        "Welche Tischtennisbälle für draußen?",
+        "Wie schwer ist ein Tischtennisball?"
+      ],
+      "related": [
+        "bester-tischtennis-roboter",
+        "bestes-tischtennis-set",
+        "tischtennisplatten"
+      ],
+      "metaTitle": "Die 3 besten Tischtennisbälle 2026: 3-Stern, Training & Co.",
+      "metaDescription": "Tischtennisbälle im Vergleich: Sterne, 40+, nahtlos oder mit Naht und Packungsgröße – die 3 besten Bälle für Wettkampf, Training und den Roboter.",
+      "produktart": "Mehrere weiße 40-mm-Tischtennisbälle mit Sternaufdruck vor einer Packung"
+    },
+    {
+      "slug": "bestes-tischtennisnetz",
+      "group": null,
+      "navLabel": "Tischtennisnetze",
+      "h1": "Die 3 besten Tischtennisnetze 2026",
+      "suchintent": "Besitzer einer Platte mit defektem oder fehlendem Netz und Spieler am Esstisch suchen eine Netzgarnitur mit Pfosten (Keywords-Hypothese: tischtennisnetz, tischtennisnetz garnitur, tischtennisnetz ausziehbar, tischtennisnetz outdoor wetterfest, netzgarnitur tischtennis).",
+      "abgrenzung": "Netzgarnituren (Netz + Pfosten + Befestigung) für Indoor-/Outdoor-Klappplatten und ausziehbare Netze für beliebige Tische. Metallnetze für Betonplatten stehen bereits in der Top 5 von /tischtennisplatten/ (Sport-Thieme) → hier nur kurzer Hinweis mit Link, nicht erneut empfehlen. Netze für Pickleball → /bestes-pickleball-netz/. Reine Ersatznetze ohne Pfosten nur als Hinweis/Top 5.",
+      "rollen": [
+        "Beste Gesamtwahl (Indoor & Outdoor)",
+        "Bestes Preis-Leistungs-Verhältnis",
+        "Beste wetterfeste Outdoor-Garnitur"
+      ],
+      "kriterienEntwurf": [
+        "Befestigung (Schraub- vs. Klemmmechanik) und maximale Plattenstärke",
+        "Höhen- und Spannungseinstellung (Netzhöhe 15,25 cm, Norm EN 14468)",
+        "Wetterfestigkeit: Material von Netz, Pfosten, Schrauben",
+        "Kompatibilität mit Plattenmarke und Kantenprofil",
+        "Bedienung: schnell abnehmbar, Verstauen beim Klappen"
+      ],
+      "top5Intent": "Netze nach Tisch und Einsatzort: ausziehbares Netz für Esstisch/Mini-Platte, Klemm-Garnitur ohne Werkzeug, Outdoor-Garnitur für dicke Platten, Turnier-/Indoor-Garnitur, Ersatznetz ohne Pfosten.",
+      "faqKandidaten": [
+        "Wie hoch muss ein Tischtennisnetz sein?",
+        "Passt jedes Tischtennisnetz auf jede Platte?",
+        "Schraub- oder Klemmbefestigung – was ist besser?",
+        "Kann ein Tischtennisnetz draußen bleiben?",
+        "Funktioniert ein ausziehbares Netz auf dem Esstisch?",
+        "Wie spannt man ein Tischtennisnetz richtig?",
+        "Kann man nur das Netz ohne Pfosten tauschen?"
+      ],
+      "related": [
+        "tischtennisplatten",
+        "beste-tischtennisplatten-abdeckhuelle",
+        "bestes-tischtennis-set"
+      ],
+      "metaTitle": "Die 3 besten Tischtennisnetze 2026: Garnitur & ausziehbar",
+      "metaDescription": "Tischtennisnetze im Vergleich: Klemm- oder Schraubgarnitur, wetterfest oder ausziehbar für den Esstisch – die 3 besten Netze und worauf es bei der Passform ankommt.",
+      "produktart": "Tischtennis-Netzgarnitur mit zwei Pfosten und Klemmbefestigung an der Plattenkante"
+    },
+    {
+      "slug": "beste-tischtennisplatten-abdeckhuelle",
+      "group": null,
+      "navLabel": "Abdeckhüllen",
+      "h1": "Die 3 besten Abdeckhüllen für Tischtennisplatten 2026",
+      "suchintent": "Besitzer einer Outdoor-Tischtennisplatte wollen sie über Winter und gegen Regen, UV und Schmutz schützen und suchen eine passende Schutzhülle (Keywords-Hypothese: abdeckhülle tischtennisplatte, tischtennisplatte abdeckung, schutzhülle tischtennisplatte wetterfest, tischtennisplatte überwintern).",
+      "abgrenzung": "Eigenständiger Intent ‚Platte schützen‘: Passform, Material, Überwintern. /tischtennisplatten/ erwähnt Abdecken nur als Pflegeschritt und hat die FAQ ‚Kann eine Outdoor-Platte im Winter draußen bleiben?‘ – diese Frage hier nicht duplizieren, sondern auf Hüllen-Auswahl/Anwendung fokussieren und auf /tischtennisplatten/ verlinken (Gegenlink von dort empfohlen). Keine Plattenempfehlungen.",
+      "rollen": [
+        "Beste universelle Hülle für geklappte Platten",
+        "Beste flache Abdeckung für die Spielfläche",
+        "Beste Markenhülle mit Passgenauigkeit"
+      ],
+      "kriterienEntwurf": [
+        "Passform: geklappt (ca. 150–165 × 160 × 50–80 cm) vs. flach, Herstellerbindung (Cornilleau, Sponeta, JOOLA, Kettler)",
+        "Material, Wasserdichtigkeit und UV-Beständigkeit (gemischte Rezensionen beachten)",
+        "Verschluss (Reißverschluss/Kordelzug) und Windsicherung",
+        "Belüftung gegen Kondenswasser und Schimmel",
+        "Garantie/Herstellerhinweise (z. B. JOOLA: draußen nur mit Outdoor-Platten)"
+      ],
+      "top5Intent": "Hüllen nach Plattenmarke und Bauart: für Kettler-, JOOLA-, Sponeta-, Donic- und Cornilleau-Platten bzw. universell, damit Leser die Hülle passend zu ihrer Platte finden.",
+      "faqKandidaten": [
+        "Welche Abdeckhülle passt auf meine Tischtennisplatte?",
+        "Wie misst man die Tischtennisplatte für eine Hülle aus?",
+        "Muss man eine Outdoor-Tischtennisplatte abdecken?",
+        "Wie verhindert man Kondenswasser unter der Abdeckung?",
+        "Passt eine Universalhülle auf Cornilleau-Platten?",
+        "Kann man eine Indoor-Platte mit Hülle draußen lagern?",
+        "Wie reinigt man eine Abdeckhülle?"
+      ],
+      "related": [
+        "tischtennisplatten",
+        "bestes-tischtennisnetz",
+        "sandkasten-mit-deckel"
+      ],
+      "metaTitle": "Die 3 besten Abdeckhüllen für Tischtennisplatten 2026",
+      "metaDescription": "Abdeckhüllen für Tischtennisplatten im Vergleich: Passform, Material, UV-Schutz und Belüftung – so überwintert die Outdoor-Platte sicher.",
+      "produktart": "Zusammengeklappte Tischtennisplatte unter einer grauen Schutzhülle mit Reißverschluss"
+    }
+  ],
+  "offen": [
+    "Zuschnitt (autonom entschieden): neuer Bereich `tischtennis` statt Einordnung in private-sportanlagen – eigenständiges Themenfeld mit 5 Kategorien (+2 Reserven); keine groups, da < 2 Gruppen à ≥ 2 Kategorien sinnvoll.",
+    "/tischtennisplatten/ bleibt in private-sportanlagen. Empfehlung: dort `related` um bestes-tischtennisnetz, beste-tischtennisplatten-abdeckhuelle und `{ area: \"tischtennis\" }` ergänzen (Schritt ‚Abdecken‘ in der Infografik kann auf die Hüllen-Seite verlinken). Das ist eine Änderung an bestehender Datei – Orchestrator/Redakteur entscheiden.",
+    "Kannibalisierung Netz: Sport-Thieme-Metallnetz für Betonplatten steht in der Top 5 von /tischtennisplatten/ – auf bestes-tischtennisnetz nicht erneut empfehlen.",
+    "Kannibalisierung Hülle: FAQ ‚Kann eine Outdoor-Tischtennisplatte im Winter draußen bleiben?‘ existiert auf /tischtennisplatten/ – auf der Hüllen-Seite andere Formulierung/Schwerpunkt (Hüllenwahl, Kondenswasser).",
+    "Abdeckhülle: Rollen bewusst nach Passform statt Gesamt/Preis/Premium, weil Hüllen oft markengebunden sind (Cornilleau Premium+, Sponeta). Falls der Produkt-Rechercheur keine aktive flache Abdeckung bestätigt, Rolle 2 durch ‚Bestes Preis-Leistungs-Verhältnis‘ ersetzen.",
+    "Roboter: gemischte Rezensionen – Redaktion muss Schwächen (App-Probleme PONGBOT, Qualitätsmängel iPong laut Käufern) transparent nennen; Butterfly-Amicus-Listing mit wenigen Bewertungen/Modellbezeichnung prüfen. Fangnetz bleibt Zubehör (keine eigene Seite, laut Scout verworfen).",
+    "related `sandkasten-mit-deckel` auf der Hüllen-Seite ist ein schwacher Kontextlink (Garten-Abdeckung) – Redakteur darf ihn durch `shuffleboard-shufflepuck` oder `kickertische` ersetzen.",
+    "Reserve: `beste-mini-tischtennisplatte` (Kinder, kleine Wohnungen; Risiko: stark JOOLA-lastig, Abgrenzung zur Top 5 von /tischtennisplatten/ mit Indoor-Platten nötig – nur Mini/Midi-Größen).",
+    "Reserve: `bester-tischtennisschlaeger-fortgeschrittene` (Einzelschläger für Vereinseinsteiger; Abgrenzung zu bestes-tischtennis-set: keine Sets, ab Allround-Holz/Belag-Kombination; Konkurrenz testsieger.de/testbericht.de).",
+    "Keywords sind Hypothesen (kein Suchvolumen-Tool verfügbar); FAQ-Kandidaten aus Suchergebnissen/Foren (tabletennisdaily, pingskills, Händler-Q&A zu Hüllenmaßen, testsieger/vergleich.org zu Ballsternen) abgeleitet."
+  ]
+}

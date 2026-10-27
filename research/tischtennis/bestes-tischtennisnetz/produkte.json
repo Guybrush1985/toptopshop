@@ -1,0 +1,206 @@
+{
+  "slug": "bestes-tischtennisnetz",
+  "stand": "2026-10-26",
+  "criteria": [
+    { "key": "passform", "label": "Befestigung & Passform", "weight": 0.3, "description": "Schraub- oder Klemmmechanik, maximale Plattenstärke laut Hersteller-/Händlerangabe, Halt an der Plattenkante, Eignung für verschiedene Plattenmarken." },
+    { "key": "einstellung", "label": "Höhe, Spannung & Norm", "weight": 0.25, "description": "Lässt sich die Regel-Netzhöhe von 15,25 cm (ITTF-Regel 2.2.3) einstellen und das Netz straff spannen? Normklasse nach EN 14468-2 (A Wettkampf, B Schule/Verein, C Freizeit) laut Herstellerangabe." },
+    { "key": "wetterfest", "label": "Wetterfestigkeit", "weight": 0.25, "description": "Material von Netz, Pfosten und Schrauben (Nylon/Polymer/eloxiertes Aluminium vs. Baumwolle/Stahl) – kann die Garnitur draußen bleiben?" },
+    { "key": "handhabung", "label": "Handhabung & Verarbeitung", "weight": 0.2, "description": "Montage ohne Werkzeug, Abnehmen beim Klappen, Tasche, Haltbarkeit von Spannschnur und Klemmen laut Erfahrungsberichten, Markenhersteller." }
+  ],
+  "priceTiers": [
+    { "tier": 1, "label": "günstig", "range": "bis ca. 25 €" },
+    { "tier": 2, "label": "mittel", "range": "ca. 25–45 €" },
+    { "tier": 3, "label": "gehoben", "range": "über ca. 45 €" }
+  ],
+  "products": [
+    {
+      "rank": 1,
+      "label": "Beste Gesamtwahl (Indoor & Outdoor)",
+      "name": "JOOLA Tischtennisnetz WX Aluminium Netzgarnitur",
+      "brand": "JOOLA",
+      "variant": "Art.-Nr. 11191, blau eloxiert, 183 × 15,25 cm, verstärktes Baumwollgarn",
+      "priceTier": 2,
+      "ratings": { "passform": 7.5, "einstellung": 9.0, "wetterfest": 8.5, "handhabung": 8.0 },
+      "gesamt": 8.23,
+      "bestFor": "Alle, die ein Netz für Keller und Garten zugleich wollen – stabile Aluminium-Garnitur mit präziser Höheneinstellung für Indoor- und Outdoor-Platten",
+      "fakten": [
+        { "text": "Rahmen aus eloxiertem Aluminium, laut Hersteller besonders robust und wetterfest und daher für Indoor- und Outdoor-Platten geeignet; Netz aus verstärktem Baumwollgarn", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B088KNR7JF", "datum": "2026-10-26" },
+        { "text": "Netz 183 × 15,25 cm, Höhenverstellschraube (Mikro-Höhenverstellung) mit Netzstangen-Arretierung, gepolsterte Klemmen", "art": "Herstellerangabe", "quelle": "https://joola.de/en/products/joola-net-wx-aluminum", "datum": "2026-10-26" },
+        { "text": "Norm EN 14468-2 Klasse C (Freizeitsport), Art.-Nr. 11191, Gewicht ca. 907 g", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B088KNR7JF", "datum": "2026-10-26" },
+        { "text": "Für Platten bis 1,5 Zoll (ca. 3,8 cm) Stärke", "art": "Händlerangabe", "quelle": "https://revspin.net/net/joola-wx-aluminum.html", "datum": "2026-10-26" },
+        { "text": "Ca. 4,4 von 5 Sternen bei rund 300–340 Bewertungen; Lob für Stabilität und Optik, einzelne Berichte über gerissene Spannseile und eine defekte Rohr-Klemmen-Verpressung bei Lieferung", "art": "Bericht", "quelle": "https://www.amazon.de/dp/B088KNR7JF", "datum": "2026-10-26" }
+      ],
+      "pros": ["Eloxiertes Aluminium – drinnen wie draußen nutzbar (Herstellerangabe)", "Feine Höheneinstellung auf 15,25 cm", "Markenhersteller mit großer Netz-Auswahl und Ersatznetzen"],
+      "cons": ["Baumwollnetz nicht so unempfindlich wie Nylon/Polymer bei Dauerregen", "Max. Plattenstärke nur ca. 3,8 cm (Händlerangabe) – nichts für dicke Beton-/Stein-Kanten", "Einzelberichte über reißende Spannschnur"],
+      "specs": { "Befestigung": "Schraubklemme, gepolstert", "Max. Plattenstärke": "ca. 3,8 cm (1,5 Zoll, Händlerangabe)", "Material": "Aluminium eloxiert, Netz Baumwollgarn verstärkt", "Netzmaß": "183 × 15,25 cm", "Norm": "EN 14468-2 C", "Einsatz": "Indoor & Outdoor" },
+      "asin": "B088KNR7JF",
+      "query": "JOOLA Tischtennisnetz WX Aluminium",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "Nur per Suchtreffer bestätigt (amazon.de nicht direkt abrufbar): „JOOLA Tischtennisnetz WX Aluminium Tischtennisnetz-Garnitur für Indoor/Outdoor Tischtennisplatten … Höhenverstellschraube … blau eloxiert 183 cm x 15,25 cm“ (amazon.de/…/dp/B088KNR7JF)"
+    },
+    {
+      "rank": 2,
+      "label": "Bestes Preis-Leistungs-Verhältnis",
+      "name": "Donic-Schildkröt Tischtennisnetz Party / Classic (808306)",
+      "brand": "Donic-Schildkröt",
+      "variant": "Modell 808306, Schraubgarnitur mit Nylonnetz, bis 6,5 cm Plattenstärke",
+      "priceTier": 1,
+      "ratings": { "passform": 9.0, "einstellung": 6.5, "wetterfest": 7.5, "handhabung": 6.0 },
+      "gesamt": 7.4,
+      "bestFor": "Günstiger Ersatz für fast jede Platte – auch mit dicker Kante –, wenn das Original-Netz verloren oder kaputt ist",
+      "fakten": [
+        { "text": "Schraubmechanismus für Plattenstärken bis 6,5 cm", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B0002VLEHK", "datum": "2026-10-26" },
+        { "text": "Netz längenverstellbar, aus robustem, langlebigem und wetterfestem Nylon", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B07DR9XPH4", "datum": "2026-10-26" },
+        { "text": "Ca. 4,3 von 5 Sternen bei 132 Bewertungen; Lob für einfache Montage, eine 1-Stern-Rezension bemängelt wackelige Halter und zu kurzes Netz für 152,5 cm Platten", "art": "Bericht", "quelle": "https://www.amazon.de/dp/B0002VLEHK", "datum": "2026-10-26" }
+      ],
+      "pros": ["Passt laut Hersteller auf Platten bis 6,5 cm – größte Spanne im Feld", "Wetterfestes Nylonnetz", "Günstigste Markengarnitur mit vielen Bewertungen"],
+      "cons": ["Keine Normklasse angegeben, einfache Spannung", "Einzelberichte über wackelige Pfosten", "Kein Hinweis auf Mikro-Höheneinstellung"],
+      "specs": { "Befestigung": "Schraubklemme", "Max. Plattenstärke": "6,5 cm (Herstellerangabe)", "Material": "Nylonnetz, Pfosten Kunststoff/Metall (nicht eindeutig angegeben)", "Netz": "längenverstellbar", "Einsatz": "Indoor & Outdoor (Netz wetterfest)" },
+      "asin": "B0002VLEHK",
+      "query": "Donic Schildkröt Party 808306 Tischtennisnetz",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "Nur per Suchtreffer bestätigt: „Donic Schildkröt Party 80-8306 Tischtennisnetz“ (URL-Slug „…Tischtennisnetz-justierbar-Plattenstärke-808306/dp/B0002VLEHK“); zweites Listing „Donic Schildkröt Classic Tischtennisnetz“ B07DR9XPH4 mit gleicher Art.-Nr. – B0002VLEHK gewählt, weil dort die 132 Bewertungen hängen"
+    },
+    {
+      "rank": 3,
+      "label": "Beste wetterfeste Outdoor-Garnitur",
+      "name": "JOOLA Tischtennis-Netzgarnitur Libre (31016)",
+      "brand": "JOOLA",
+      "variant": "Art.-Nr. 31016, Polymer-Konstruktion, Klemmtechnik, 183 × 15,25 cm",
+      "priceTier": 1,
+      "ratings": { "passform": 6.5, "einstellung": 8.0, "wetterfest": 9.5, "handhabung": 7.5 },
+      "gesamt": 7.83,
+      "bestFor": "Outdoor-Platten, deren Netz ganzjährig draußen bleiben soll – komplett aus wetterfestem Polymer statt Metall und Baumwolle",
+      "fakten": [
+        { "text": "Netz aus wetterfestem, massivem Polymer für raue Witterung; laut Hersteller kann die Outdoor-Platte ganzjährig draußen bleiben", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B00CRBY15K", "datum": "2026-10-26" },
+        { "text": "Norm EN 14468-2 Klasse B (Schul- und Vereinssport), Klemmmontage, Höhenverstellschraube, passt auf die meisten Tischtennisplatten", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B00CRBY15K", "datum": "2026-10-26" },
+        { "text": "Höhen- und Spannungseinstellung, wetterfeste Kunststoffgarnitur mit Klemmbefestigung", "art": "Herstellerangabe", "quelle": "https://joola.de/en/products/joola-net-libre", "datum": "2026-10-26" },
+        { "text": "Ca. 4,3 von 5 Sternen bei 137 Bewertungen", "art": "Bericht", "quelle": "https://www.amazon.de/dp/B00CRBY15K", "datum": "2026-10-26" },
+        { "text": "Tischplattenstärke bis 2,5 cm (polnisches Händler-Listing, Modellnummer dort nicht genannt – unbestätigt)", "art": "Händlerangabe", "quelle": "https://www.decathlon.pl/p/mp/joola/siatka-do-tenisa-stolowego-joola-libre/_/R-p-25676782-4302-4012-a9d8-03107a4b35ed", "datum": "2026-10-26" }
+      ],
+      "pros": ["Kein rostendes Metall, kein Baumwollnetz – für ganzjährigen Außeneinsatz gedacht (Herstellerangabe)", "Höhere Normklasse B als die meisten Freizeitnetze", "Günstig"],
+      "cons": ["Max. Plattenstärke nicht verbindlich angegeben (ein Händler nennt 2,5 cm)", "Kunststoff-Klemme weniger steif als Metall", "Zwei Listings mit uneinheitlichen Farbangaben (grün/blau)"],
+      "specs": { "Befestigung": "Klemmtechnik mit Höhenverstellschraube", "Max. Plattenstärke": "nicht verbindlich angegeben (Händlerangabe 2,5 cm)", "Material": "wetterfestes Polymer", "Netzmaß": "183 × 15,25 cm", "Norm": "EN 14468-2 B", "Einsatz": "Outdoor (ganzjährig laut Hersteller), auch Indoor" },
+      "asin": "B00CRBY15K",
+      "query": "JOOLA Tischtennis Netzgarnitur Libre 31016",
+      "shop": null,
+      "url": null,
+      "asinGeprueft": "Nur per Suchtreffer bestätigt: „Joola Libre Tischtennisnetz“ (URL-Slug „Joola-Tischtennis-Netzgarnitur-Libre-31016/dp/B00CRBY15K“, laut Snippet „Auf Lager“). Zweites Listing B093LJC516 ist ein Bundle mit Outdoor-Bällen und zeigt abweichende ASIN-Daten – nicht verwendet"
+    }
+  ],
+  "top5": [
+    {
+      "name": "Donic-Schildkröt FLEXnet Tischtennisnetz (808334)",
+      "warum": "Ausziehbares, selbstspannendes Netz für Esstisch, Gartentisch oder Mini-Platte: Aufrollmechanismus in den Pfosten, für Tische bis 175 cm Breite und 4 cm Stärke.",
+      "fakten": [
+        { "text": "Wetterfestes, längenverstellbares Nylonnetz, selbstspannend mit Aufrollmechanismus in den Kunststoffpfosten, Tischbreite bis ca. 175 cm, Plattenstärke bis 4,0 cm, mit Reißverschlusstasche; Modellnummer 808334", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B0753JVFLT", "datum": "2026-10-26" },
+        { "text": "FLEXnet-Set in Tragetasche ca. 4,2 von 5 Sternen bei 54 Bewertungen (Zuordnung zum Listing nicht eindeutig)", "art": "Bericht", "quelle": "https://www.amazon.de/dp/B075BZW57Z", "datum": "2026-10-26" }
+      ],
+      "asin": "B0753JVFLT",
+      "query": "Donic-Schildkröt FLEXnet Tischtennisnetz 808334",
+      "where": null,
+      "asinGeprueft": "Nur per Suchtreffer: „Donic-Schildkröt Tischtennisnetz … selbstspannendes … Aufrollmechanismus … Plattenstärke“ (dp/B0753JVFLT); weitere Listings B075BZW57Z (in Tragetasche) und B0G1YWXM95 (neu, Modell 808334) – vor Veröffentlichung aktives Listing wählen"
+    },
+    {
+      "name": "Donic-Schildkröt Tischtennisnetz Clipmatic (808335)",
+      "warum": "Klemm-Garnitur ohne Werkzeug: Federclips mit Gummipads statt Schrauben, Metallpfosten klappbar – schnell an- und abgebaut, wenn die Platte oft geklappt wird.",
+      "fakten": [
+        { "text": "Clip-Befestigung wie eine Leimzwinge, Montage ohne Schrauben, Gummipads gegen Kratzer; Metallpfosten klappbar; wetterfestes, längenverstellbares Nylonnetz; Plattenstärke bis 4,0 cm; Tasche mit Reißverschluss", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B000JKVE4C", "datum": "2026-10-26" }
+      ],
+      "asin": "B000JKVE4C",
+      "query": "Donic-Schildkröt Clipmatic Tischtennisnetz 808335",
+      "where": null,
+      "asinGeprueft": "Nur per Suchtreffer: „Donic-Schildkröt Tischtennisnetz Clipmatic … Cliphalterungen … Plattenstärke 4cm … 808335“ (dp/B000JKVE4C); Sternebewertung im Snippet nicht sichtbar"
+    },
+    {
+      "name": "Donic-Schildkröt Tischtennisnetz Team (808311)",
+      "warum": "Outdoor-Garnitur für dicke Platten: Metallrahmen mit klappbaren Pfosten, wetterfestes Nylonnetz mit Spannschnur, Schraubmechanismus bis 6,0 cm.",
+      "fakten": [
+        { "text": "Klappbare Netzgarnitur mit Metallrahmen, Nylonnetz (wetterfest) und Spannschnur, für max. Plattenstärke 6,0 cm; Modell 808311", "art": "Herstellerangabe", "quelle": "https://www.amazon.de/dp/B08MKNDQ1Q", "datum": "2026-10-26" },
+        { "text": "Ca. 3,8 von 5 Sternen bei 31 Bewertungen (Nebenangabe auf einer Vergleichsliste, evtl. veraltet)", "art": "Bericht", "quelle": "https://www.amazon.de/dp/B000JKT8I6", "datum": "2026-10-26" }
+      ],
+      "asin": "B08MKNDQ1Q",
+      "query": "Donic-Schildkröt Tischtennisnetz Team 808311",
+      "where": null,
+      "asinGeprueft": "Nur per Suchtreffer: „Donic-Schildkröt Tischtennisnetz Team, klappbare Netzgarnitur mit Nylonnetz und Spannschnur für max. Plattenstärke 6,0 cm, 808311“ (dp/B08MKNDQ1Q); älteres Listing B000JKT8I6"
+    },
+    {
+      "name": "JOOLA Tischtennisnetz WM Ultra (31035)",
+      "warum": "Turnier-/Indoor-Garnitur für Vereinsspieler mit Keller-Platte: laut Hersteller ITTF-zugelassen, verstärkter Metallkörper, Mikro-Höhenverstellung – nicht für draußen gedacht.",
+      "fakten": [
+        { "text": "ITTF-Zulassung für Wettkämpfe, Mikro-Höhenverstellschraube, große 14-mm-Befestigungsschraube, verstärkter Metallkörper; Norm EN 14468-2 A (Hochleistungssport); Art.-Nr. 31035", "art": "Herstellerangabe", "quelle": "https://joola.de/en/products/joola-netz-wm-ultra", "datum": "2026-10-26" },
+        { "text": "Listing-Titel nennt „Indoor-Set ITTF-Zulassung für Wettkämpfe, höhenverstellbar mit Feststellschraube, silber, 183 × 15,25 cm“", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B00LX1KBZ4", "datum": "2026-10-26" }
+      ],
+      "asin": "B00LX1KBZ4",
+      "query": "JOOLA Tischtennisnetz WM Ultra 31035",
+      "where": null,
+      "asinGeprueft": "Nur per Suchtreffer: „JOOLA Tischtennisnetz WM Ultra Indoor-Set ITTF-Zulassung für Wettkämpfe Höhenverstellbar mit Feststellschraube Silber 183 cm x 15,25 cm“ (dp/B00LX1KBZ4)"
+    },
+    {
+      "name": "Kettler Tischtennisnetz Nylon für drinnen und draußen (Ersatznetz ohne Pfosten)",
+      "warum": "Wenn nur das Netz gerissen ist und die Pfosten noch halten: Original-Ersatznetz für Kettler-Platten statt kompletter Garnitur.",
+      "fakten": [
+        { "text": "Nylonnetz für Indoor und Outdoor, passend für alle Kettler-Tischtennisplatten; Pfosten separat erhältlich", "art": "Händlerangabe", "quelle": "https://www.amazon.de/dp/B000FYXZNK", "datum": "2026-10-26" },
+        { "text": "Eine Rezension bemängelt fehlende Netzspanner; andere berichten, dass es auf ältere Kettler-Platten passt", "art": "Bericht", "quelle": "https://www.amazon.de/dp/B000FYXZNK", "datum": "2026-10-26" }
+      ],
+      "asin": "B000FYXZNK",
+      "query": "Kettler Tischtennisnetz Nylon Drinnen Draußen",
+      "where": null,
+      "asinGeprueft": "Nur per Suchtreffer: „Kettler Indoor/Outdoor Table Tennis Nylon Net“ (URL-Slug „Kettler-Tischtennisnetz-Drinnen-Draußen-Nylon/dp/B000FYXZNK“)"
+    }
+  ],
+  "tests": [],
+  "testHinweis": "Kein Test von Stiftung Warentest, Öko-Test oder Fachmagazinen zu Tischtennisnetzen gefunden. Vergleichsseiten (vergleich.org, beste-testsieger.de, test-stiftung.de, testbedarf.de) ranken nach Kundenbewertungen/Verkaufsrang, nicht nach eigenen Tests – nicht als Testergebnis verwenden. Bewertung daher redaktionell nach Hersteller-/Händlerangaben und Erfahrungsberichten.",
+  "warnungen": [
+    "Keine Rückrufe oder Safety-Gate-Meldungen zu Tischtennis-Netzgarnituren gefunden (Websuche 2026-10-26; Safety-Gate-Portal selbst aus der Sandbox nicht abrufbar).",
+    "Regelmaß: Oberkante des Netzes auf ganzer Länge 15,25 cm über der Spielfläche, Pfosten 15,25 cm hoch und 15,25 cm außerhalb der Seitenlinie (ITTF-Regeln 2.2.2/2.2.3, zitiert nach Table Tennis England, Laws of Table Tennis 2026/27: https://www.tabletennisengland.co.uk/content/uploads/2026/07/Laws-of-Table-Tennis-2026-27.pdf).",
+    "Betonplatten: Metallnetze für Betonplatten stehen bereits in der Top 5 von /tischtennisplatten/ (Sport-Thieme, B0F5398XGT) – hier nur verlinken, nicht erneut empfehlen. Klemmgarnituren aus Kunststoff passen laut Käuferberichten oft nicht an dicke Stein-/Betonkanten.",
+    "JOOLA Snapper-Indoor ist laut Hersteller nicht für den Außeneinsatz geeignet; Indoor-Garnituren mit Stahl und Baumwollnetz nicht draußen lassen.",
+    "Vor dem Kauf Plattenstärke an der Kante messen – die maximale Klemmweite schwankt je Modell zwischen ca. 2,5 und 6,5 cm.",
+    "Viele Garnituren entsprechen nur EN 14468-2 Klasse C (Freizeit); für Vereinsbetrieb Klasse A/ITTF-Zulassung nötig."
+  ],
+  "verworfen": [
+    { "name": "JOOLA Outdoor Netzgarnitur 31015 (B0012QHOMS)", "grund": "Laut Produktdaten vom Hersteller eingestellt; Käufer berichten, dass die Kunststoffklemmen nicht an dicke/Stein-Platten passen." },
+    { "name": "JOOLA Tischtennisnetz Outdoor wetterfest 31007 (B0CQYYGR2Y)", "grund": "Nachfolger von 31015, aber Bewertungen zur ASIN nicht bestätigbar, Plattenstärke und Farbe im Listing widersprüchlich; Libre (Klasse B, mehr Bewertungen) als Outdoor-Wahl bevorzugt." },
+    { "name": "Donic-Schildkröt Friend (B000JKZGPA)", "grund": "Nur 3,7 von 5 Sternen bei 19 Bewertungen; Team (6 cm, Metall) bzw. Party (6,5 cm) decken dicke Platten besser ab." },
+    { "name": "Donic-Schildkröt Ralley (B000JKT9T4)", "grund": "Baumwollnetz, nicht wetterfest; Plattenstärke je Listing widersprüchlich (4,0/4,5/5,0 cm)." },
+    { "name": "GEWO FleXX ausziehbar", "grund": "Auf amazon.de nur als Bundle mit Bällen (B0DK5TGTPQ) gefunden; mehrere Berichte über versagende Rückzugmechanik." },
+    { "name": "Best Sporting Flexi (B07PNMVF5L), Relaxdays ausziehbar (B07QD4S9N4), heinsa, Sportout", "grund": "Austauschbare No-Name-/Handelsmarken-Ware ohne Normangabe – nicht für Top 3/Top 5." },
+    { "name": "Butterfly T31 National League (B0008G2VCG)", "grund": "Hochpreisig (Händlerpreis ca. 80 €), nur bis 1,75 Zoll, Rezension zu reißender Hülse – für Heimspieler kein Mehrwert gegenüber JOOLA WX/WM Ultra." },
+    { "name": "Cornilleau Advance (B015Z70KO8) / Hobby Primo (B000WTO55K)", "grund": "Markengebunden (nur für bestimmte Cornilleau-Platten); höchstens als Hinweis für Cornilleau-Besitzer." },
+    { "name": "Donic Clip Pro (B0GL8G85W6)", "grund": "Neues Listing mit nur 2 Bewertungen, nur bis 25 mm; ITTF-Zulassung nur laut Händler." },
+    { "name": "JOOLA Easy-Indoor (B09DBHWYB8) / Avanti (B002HWPJ3C)", "grund": "Nur Indoor bzw. Freizeitklasse C; Rollen im Feld besser durch WX (Indoor & Outdoor) und Party (günstig) besetzt – Reserve." },
+    { "name": "Sport-Thieme Metall-Tischtennisnetz für Betonplatten (B0F5398XGT)", "grund": "Bereits in der Top 5 von /tischtennisplatten/ – laut Struktur nur Hinweis mit Link." }
+  ],
+  "offen": [
+    "Alle ASINs nur per WebSearch-Treffer (allowed_domains amazon.de) bestätigt – amazon.de, joola.de und donic-schildkroet.de sind aus der Sandbox nicht abrufbar. Vor Veröffentlichung Verfügbarkeit der /dp/-Seiten stichprobenartig prüfen.",
+    "JOOLA Libre (Platz 3): maximale Plattenstärke nicht vom Hersteller bestätigt (nur 2,5 cm laut decathlon.pl) – im Text vorsichtig formulieren („vor dem Kauf Kante messen“). Zwei Listings (B00CRBY15K Netz, B093LJC516 Bundle mit Bällen) mit uneinheitlichen Farbangaben.",
+    "JOOLA WX (Platz 1): maximale Plattenstärke 3,8 cm nur aus US-Händler/RevSpin, nicht von JOOLA Deutschland.",
+    "Donic-Schildkröt Party/Classic 808306 (Platz 2): zwei Listings (B0002VLEHK „Party“, B07DR9XPH4 „Classic“); Pfostenmaterial nicht eindeutig. Produktname im Text ggf. an den aktuellen Listing-Titel anpassen.",
+    "FLEXnet: drei Listings (B0753JVFLT, B075BZW57Z, B0G1YWXM95) – aktives wählen; Bewertungszahl 4,2★/54 nicht eindeutig einem Listing zugeordnet.",
+    "Clipmatic: Sternebewertung nicht ermittelbar; weitere Listings B000U1W2BO und B09YNB3KF4 (Drittanbieter).",
+    "Kein Awin-Händler nötig: Alle Produkte über Amazon erhältlich. Freigeschaltete Awin-Programme (Rewe 11652, Radwelt 15088, BrickZoneHub 121692) führen keine Tischtennisnetze.",
+    "ITTF-Regel 15,25 cm: ittf.com nicht abrufbar, Quelle ist das Regelwerk-PDF von Table Tennis England 2026/27 (übernimmt die ITTF Laws); ggf. durch offizielles ITTF-Handbook ersetzen."
+  ],
+  "quellen": [
+    { "titel": "amazon.de – JOOLA WX Aluminium (B088KNR7JF)", "url": "https://www.amazon.de/dp/B088KNR7JF" },
+    { "titel": "JOOLA – Net WX Aluminum (Herstellerseite)", "url": "https://joola.de/en/products/joola-net-wx-aluminum" },
+    { "titel": "RevSpin – JOOLA WX Aluminum", "url": "https://revspin.net/net/joola-wx-aluminum.html" },
+    { "titel": "amazon.de – Donic-Schildkröt Party 808306 (B0002VLEHK)", "url": "https://www.amazon.de/dp/B0002VLEHK" },
+    { "titel": "amazon.de – Donic-Schildkröt Classic 808306 (B07DR9XPH4)", "url": "https://www.amazon.de/dp/B07DR9XPH4" },
+    { "titel": "amazon.de – JOOLA Libre 31016 (B00CRBY15K)", "url": "https://www.amazon.de/dp/B00CRBY15K" },
+    { "titel": "JOOLA – Net Libre (Herstellerseite)", "url": "https://joola.de/en/products/joola-net-libre" },
+    { "titel": "Decathlon PL – JOOLA Libre", "url": "https://www.decathlon.pl/p/mp/joola/siatka-do-tenisa-stolowego-joola-libre/_/R-p-25676782-4302-4012-a9d8-03107a4b35ed" },
+    { "titel": "amazon.de – Donic-Schildkröt FLEXnet (B0753JVFLT)", "url": "https://www.amazon.de/dp/B0753JVFLT" },
+    { "titel": "amazon.de – Donic-Schildkröt Clipmatic (B000JKVE4C)", "url": "https://www.amazon.de/dp/B000JKVE4C" },
+    { "titel": "amazon.de – Donic-Schildkröt Team 808311 (B08MKNDQ1Q)", "url": "https://www.amazon.de/dp/B08MKNDQ1Q" },
+    { "titel": "amazon.de – JOOLA WM Ultra (B00LX1KBZ4)", "url": "https://www.amazon.de/dp/B00LX1KBZ4" },
+    { "titel": "JOOLA – Netz WM Ultra (Herstellerseite)", "url": "https://joola.de/en/products/joola-netz-wm-ultra" },
+    { "titel": "amazon.de – Kettler Tischtennisnetz Nylon (B000FYXZNK)", "url": "https://www.amazon.de/dp/B000FYXZNK" },
+    { "titel": "amazon.de – JOOLA Outdoor 31015 (B0012QHOMS, eingestellt)", "url": "https://www.amazon.de/dp/B0012QHOMS" },
+    { "titel": "Table Tennis England – Laws of Table Tennis 2026/27 (ITTF-Regel 2.2)", "url": "https://www.tabletennisengland.co.uk/content/uploads/2026/07/Laws-of-Table-Tennis-2026-27.pdf" },
+    { "titel": "vergleich.org – Tischtennisnetz ausziehbar (kein eigener Test)", "url": "https://www.vergleich.org/tischtennisnetz-ausziehbar" }
+  ]
+}
