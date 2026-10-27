@@ -56,7 +56,7 @@ function pick(cat, p) {
       <div class="con"><h4>Nachteile</h4><ul>${p.cons.map((x) => `<li>${md(x)}</li>`).join("")}</ul></div>
     </div>
     <a class="cta" href="${productUrl(p)}" target="_blank" rel="sponsored nofollow noopener">Aktuellen Preis bei ${esc(shopName(p))} ansehen*</a>
-    <p class="fine">Die Preisklasse ist ein grober Richtwert zum Stand der letzten Aktualisierung. Preis, Verfügbarkeit und Produktdetails ändern sich laufend – maßgeblich sind allein die Angaben bei ${esc(shopName(p))}.</p>
+    <p class="fine">Die Preisklasse ist ein grober Richtwert zum Stand der letzten Aktualisierung. Preis, Verfügbarkeit und Produktdetails ändern sich laufend – maßgeblich sind allein die Angaben bei ${esc(shopName(p))}. Der Link* ist ein Affiliate-Link und führt zu ${esc(shopName(p))}; dort gelten dessen Datenschutzbestimmungen.</p>
   </div>
 </article>`;
 }
