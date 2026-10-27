@@ -26,6 +26,33 @@ export default function FuerRestaurants() {
         </div>
       </section>
 
+      {/* ---------- Social Proof ---------- */}
+      <section className="mx-auto max-w-6xl px-5 pb-16">
+        <h2 className="display text-4xl text-cream sm:text-6xl">Wo würdest du dich hinsetzen<span className="text-lime">?</span></h2>
+        <figure className="relative mt-6 overflow-hidden rounded-[2rem] border border-white/10">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/zwei-restaurants.webp`}
+            alt="Zwei Restaurants nebeneinander: links leere Tische, rechts sitzen schon Gäste"
+            width={1400}
+            height={933}
+            loading="lazy"
+            className="block h-auto w-full saturate-[.85]"
+          />
+          <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-ink/70 via-transparent to-ink/20" />
+          <span className="absolute bottom-4 left-4 rounded-full bg-ink/80 px-3 py-1 text-xs font-bold uppercase tracking-[.2em] text-cream/70 backdrop-blur sm:bottom-6 sm:left-6 sm:text-sm">Leer</span>
+          <span className="absolute bottom-4 right-4 rounded-full bg-lime px-3 py-1 text-xs font-bold uppercase tracking-[.2em] text-ink sm:bottom-6 sm:right-6 sm:text-sm">Schon Gäste da</span>
+        </figure>
+        <p className="mt-6 max-w-3xl font-serif text-2xl italic text-cream/85 sm:text-3xl">
+          Instinktiv zieht es uns nach rechts: Wo schon Gäste sitzen, muss es gut sein, und als Erster ein leeres Restaurant zu betreten,
+          ist eine echte Hürde. Firsty nimmt diese Hürde den ersten Gästen ab, und dann füllt sich dein Restaurant von selbst.
+        </p>
+        <p className="mt-3 text-xs text-cream/45">
+          Bekannt als Social Proof bzw. Herdenverhalten: Cialdini, „Influence“ (1984); Banerjee, Quarterly Journal of Economics (1992);
+          Becker, Journal of Political Economy (1991); Cai, Chen &amp; Fang, American Economic Review (2009).
+        </p>
+      </section>
+
       {/* ---------- Nutzen ---------- */}
       <section className="mx-auto max-w-6xl px-5">
         <ul className="grid gap-3 sm:grid-cols-3">
