@@ -15,7 +15,7 @@ Options -Indexes
 # MyShotCoach heißt jetzt tennistrainer.app und läuft dort in einem eigenen Projekt
 RedirectMatch 301 ^/myshotcoach/?(.*)$ https://tennistrainer.app/$1
 
-# I feel the Vibe: v1 ist abgeschaltet, alles läuft auf v2
+# I feel the Vibe: offline, /vibe/ führt auf die Offline-Seite unter /vibe-v2/
 RedirectMatch 302 ^/vibe(/.*)?$ /vibe-v2/
 
 # Thirsty heißt jetzt Firsty

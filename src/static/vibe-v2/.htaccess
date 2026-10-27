@@ -1,14 +1,12 @@
+# I feel the Vibe ist offline: jede Adresse unter /vibe-v2/ zeigt die Offline-Seite.
 Options -Indexes
 AddDefaultCharset utf-8
-ErrorDocument 404 /vibe-v2/404.html
-
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteRule !^index\.html$ index.html [L]
+</IfModule>
+ErrorDocument 404 /vibe-v2/index.html
 <IfModule mod_headers.c>
   Header set X-Robots-Tag "noindex, nofollow"
-  Header set X-Content-Type-Options "nosniff"
-  Header set Referrer-Policy "strict-origin-when-cross-origin"
-  Header set Permissions-Policy "geolocation=(self)"
-</IfModule>
-<IfModule mod_expires.c>
-  ExpiresActive On
-  ExpiresByType text/html "access plus 0 seconds"
+  Header set Cache-Control "no-cache"
 </IfModule>
