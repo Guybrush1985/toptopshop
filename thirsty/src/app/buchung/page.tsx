@@ -8,8 +8,10 @@ import { useCurrentUser, useStore } from "@/lib/store";
 import { cancelBooking, submitReview } from "@/lib/actions";
 import { RequireUser } from "@/components/Shell";
 import { Notice, OfferBadge, Stars, formValues, useAction } from "@/components/ui";
-import { BOOKING_STATUS, day, time } from "@/lib/format";
+import { BOOKING_STATUS, day, euro, time } from "@/lib/format";
 import { arriveBy } from "@/lib/offer";
+import { BillCard } from "@/components/BillCard";
+import { flagsOf } from "@/lib/payments";
 
 export default function BuchungPage() {
   return <RequireUser><Buchung /></RequireUser>;
@@ -77,8 +79,14 @@ function Buchung() {
           </>
         )}
         <p className="mt-3 text-sm text-stone-600">
-          Bitte bis {arriveBy(spot)} Uhr da sein, sonst verfällt das Angebot. Bezahlt wird im Restaurant.
+          Bitte bis {arriveBy(spot)} Uhr da sein, sonst verfällt das Angebot.{" "}
+          {flagsOf(s, r.id).acceptsAppPayment ? "Bezahlen kannst du nach dem Essen hier in der App oder wie gewohnt vor Ort." : "Bezahlt wird im Restaurant."}
         </p>
+        {b.guaranteed && b.status === "BOOKED" && (
+          <p className="mt-2 text-xs text-cream/60">
+            Mit Karte als Garantie gebucht. Nur wenn du nicht erscheinst, werden {euro(b.noShowFeeCents ?? 0)} belastet.
+          </p>
+        )}
       </div>
 
       {active && (
@@ -101,9 +109,15 @@ function Buchung() {
 
       {b.status === "NO_SHOW" && (
         <p className="card text-sm text-stone-700">
-          Das Restaurant hat dich als nicht erschienen gemeldet (−25 Punkte). Wenn das nicht stimmt, kannst du im fertigen Produkt innerhalb von 48 Stunden widersprechen.
+          Das Restaurant hat dich als nicht erschienen gemeldet (−25 Punkte).
+          {s.payments.some((p) => p.bookingId === b.id && p.kind === "NO_SHOW" && p.status === "SUCCEEDED") && <> Von deiner hinterlegten Karte wurde die No-Show-Gebühr von {euro(b.noShowFeeCents ?? 0)} abgebucht.</>}{" "}
+          Wenn das nicht stimmt, schreib uns innerhalb von 48 Stunden an{" "}
+          <a className="underline" href={`mailto:info@tanmeon.de?subject=${encodeURIComponent(`Widerspruch No-Show ${b.code}`)}`}>info@tanmeon.de</a>.
+          Wir prüfen das mit dem Restaurant und erstatten die Gebühr, wenn du da warst.
         </p>
       )}
+
+      {b.status === "CHECKED_IN" && <BillCard booking={b} />}
 
       {b.status === "CHECKED_IN" &&
         (review ? (

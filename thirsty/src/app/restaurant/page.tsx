@@ -10,6 +10,8 @@ import { arriveBy, offerOf, TONE_BG } from "@/lib/offer";
 import { useState } from "react";
 import { MapEmbed } from "@/components/MapEmbed";
 import { FEATURES, WEEKDAYS, day, euro, priceLevel, time } from "@/lib/format";
+import { cardOf, flagsOf, needsCard, noShowFee, startCardSetup, NO_SHOW_FEE_CENTS_PER_PERSON } from "@/lib/payments";
+import { haptic } from "@/lib/native";
 
 export default function RestaurantPage() {
   const slug = useSearchParams().get("s");
@@ -17,6 +19,7 @@ export default function RestaurantPage() {
   const user = useCurrentUser();
   const router = useRouter();
   const { error, busy, run } = useAction();
+  const [info, setInfo] = useState<string>();
   useParallax([slug]);
   const [dayFilter, setDayFilter] = useState("");
   const [kindFilter, setKindFilter] = useState("");
@@ -55,7 +58,10 @@ export default function RestaurantPage() {
   const book = async (spotId: string, partySize: number) => {
     if (!user) return router.push(`/login/?weiter=${encodeURIComponent(`/restaurant/?s=${r.slug}`)}`);
     const b = await run(() => bookSpot(spotId, partySize));
-    if (b) router.push(`/buchung/?id=${b.id}&neu=1`);
+    if (b) {
+      haptic();
+      router.push(`/buchung/?id=${b.id}&neu=1`);
+    }
   };
 
   const tone = next ? offerOf(next).tone : "lime";
@@ -98,7 +104,7 @@ export default function RestaurantPage() {
       <div className="mx-auto max-w-5xl space-y-16 px-5 pb-10 pt-12">
       <section id="plaetze" className="scroll-mt-24">
         <h2 className="display mb-4 text-5xl text-cream sm:text-6xl">Early-Bird-Plätze<span className="text-lime">.</span></h2>
-        <Notice error={error} />
+        <Notice error={error} success={info} />
         {allSpots.length > 1 && (
           <div className="mb-5 flex flex-wrap gap-2" role="group" aria-label="Angebote filtern">
             <select value={dayFilter} onChange={(e) => setDayFilter(e.target.value)} className="input w-auto py-2" aria-label="Tag">
@@ -120,6 +126,8 @@ export default function RestaurantPage() {
               const left = sp.seats - seatsTaken(s, sp.id);
               const closed = Date.now() > new Date(sp.startsAt).getTime() - sp.bookingCutoffMin * 60_000;
               const o = offerOf(sp);
+              const cardNeeded = !!user && needsCard(s, user.id, sp) && !cardOf(s, user.id);
+              const pay = flagsOf(s, r.id).acceptsAppPayment ? "Bezahlen in der App oder vor Ort." : "Bezahlung im Restaurant.";
               return (
                 <li key={sp.id} className="grid overflow-hidden rounded-[1.75rem] border border-white/10 bg-ink-2 sm:grid-cols-[15rem_1fr]">
                   <div className={`relative flex flex-col justify-center px-6 py-5 ${TONE_BG[o.tone]}`}>
@@ -134,9 +142,30 @@ export default function RestaurantPage() {
                     </div>
                     <p className="text-sm text-stone-600">
                       {o.long}, gilt für alles, was bis {time(sp.endsAt)} Uhr bestellt wird. Bitte sei spätestens um {arriveBy(sp)} Uhr da, sonst verfällt das Angebot.
-                      Kostenlos stornierbar bis 2 Stunden vorher. Bezahlung im Restaurant.{sp.conditions && <> {sp.conditions}</>}
+                      Kostenlos stornierbar bis 2 Stunden vorher. {pay}{sp.conditions && <> {sp.conditions}</>}
                     </p>
-                    {left > 0 && !closed ? (
+                    {sp.noShowProtection && (
+                      <p className="text-xs text-cream/60">
+                        No-Show-Schutz: Du hinterlegst eine Karte. Belastet werden {euro(NO_SHOW_FEE_CENTS_PER_PERSON)} pro Person nur, wenn du nicht erscheinst.
+                      </p>
+                    )}
+                    {left > 0 && !closed && cardNeeded ? (
+                      <div className="flex flex-wrap items-center gap-3 rounded-2xl border border-lime/30 bg-lime/10 p-3">
+                        <p className="flex-1 text-sm text-cream/85">
+                          Für diesen Platz brauchst du eine hinterlegte Karte. Sie wird nur bei einem No-Show belastet (z. B. {euro(noShowFee(2))} für 2 Personen).
+                        </p>
+                        <button
+                          className="btn"
+                          disabled={busy}
+                          onClick={async () => {
+                            const d = await run(() => startCardSetup(`/restaurant/?s=${r.slug}`));
+                            if (d?.message) setInfo(d.message);
+                          }}
+                        >
+                          Karte hinterlegen
+                        </button>
+                      </div>
+                    ) : left > 0 && !closed ? (
                       <form
                         className="flex items-center gap-2"
                         onSubmit={(e) => {

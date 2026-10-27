@@ -8,6 +8,7 @@ import { updateProfile } from "@/lib/actions";
 import { RequireUser } from "@/components/Shell";
 import { Field, Notice, PageTitle, formValues, useAction } from "@/components/ui";
 import { BOOKING_STATUS, PRICE_LEVELS, day, euro, time } from "@/lib/format";
+import { DeleteAccount, GuestPayments } from "@/components/GuestPayments";
 
 const TIER_STYLE = {
   RELIABLE: "bg-green-100 text-green-900",
@@ -67,7 +68,7 @@ function Konto() {
           </div>
           <p className="mt-3 text-sm text-stone-600">
             Jeder Besuch bringt +3 Punkte. Späte Absagen (unter 2 Stunden) kosten 10, ein No-Show 25 Punkte.
-            Ab 80 ist alles frei, unter 60 geht Buchen nur mit Kaution, unter 40 ist das Konto 30 Tage gesperrt.
+            Ab 80 ist alles frei, unter 60 geht Buchen nur mit hinterlegter Karte, unter 40 ist das Konto 30 Tage gesperrt.
             Minuspunkte verfallen nach 90 Tagen.
           </p>
           {rel.blockedUntil && <p className="mt-2 text-sm font-medium text-red-700">Gesperrt bis {rel.blockedUntil.toLocaleDateString("de-DE")}.</p>}
@@ -130,6 +131,8 @@ function Konto() {
         </section>
       )}
 
+      <GuestPayments user={user} />
+
       <section>
         <h2 className="mb-3 display text-3xl text-cream">Merkliste</h2>
         {favorites.length === 0 ? (
@@ -157,6 +160,7 @@ function Konto() {
           </ul>
         )}
       </section>
+      <DeleteAccount />
     </div>
   );
 }

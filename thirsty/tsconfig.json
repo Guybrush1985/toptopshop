@@ -17,5 +17,6 @@
     "paths": { "@/*": ["./src/*"] }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
-  "exclude": ["supabase", "node_modules"]
+  "exclude": ["node_modules", "supabase/functions/**", "test/functions/**", "ios", "android"],
+  "files": ["supabase/functions/_shared/pricing.ts"]
 }

@@ -41,10 +41,44 @@ export type Spot = {
   /** Höchstrabatt pro Buchung in Cent (nur bei Prozent-Rabatt), z. B. 5000 = 50 € */
   maxDiscountCents?: number;
   status: "OPEN" | "CANCELLED";
+  /** Gäste müssen eine Karte hinterlegen; bei No-Show wird die Gebühr belastet. */
+  noShowProtection?: boolean;
 };
 export type Booking = {
   id: string; spotId: string; userId: string; partySize: number; code: string; status: BookingStatus;
   createdAt: string; checkedInAt?: string; cancelledAt?: string;
+  /** Mit hinterlegter Karte gebucht; bei No-Show wird noShowFeeCents belastet. */
+  guaranteed?: boolean; noShowFeeCents?: number;
+};
+
+// ---------- Zahlungen ----------
+
+export type BillStatus = "OPEN" | "PAID" | "PAID_ON_SITE" | "CANCELLED" | "REFUNDED";
+/** Rechnung nach dem Essen: Restaurant trägt die Summe ein, Gast zahlt in der App oder vor Ort. */
+export type Bill = {
+  id: string; bookingId?: string; restaurantId: string; userId?: string; subtotalCents: number; discountPercent: number;
+  discountCents: number; amountCents: number; tipCents: number; feeCents: number; status: BillStatus; note?: string;
+  receiptUrl?: string; createdAt: string; paidAt?: string;
+};
+export type PaymentKind = "BILL" | "NO_SHOW" | "SUBSCRIPTION" | "SPONSORSHIP" | "REFUND";
+/** Eintrag im Kassenbuch (Grundlage der Abrechnung). */
+export type Payment = {
+  id: string; kind: PaymentKind; restaurantId?: string; userId?: string; bookingId?: string; billId?: string;
+  amountCents: number; feeCents: number; netCents: number; tipCents: number; status: "PENDING" | "SUCCEEDED" | "FAILED" | "REFUNDED";
+  description?: string; receiptUrl?: string; invoiceUrl?: string; invoicePdf?: string; createdAt: string;
+};
+/** Hinterlegte Karte (Anzeige-Daten). */
+export type Card = { userId: string; brand?: string; last4?: string; expMonth?: number; expYear?: number };
+export type PlanStatus = "none" | "trialing" | "active" | "past_due" | "unpaid" | "canceled" | "incomplete" | "incomplete_expired" | "paused";
+/** Auszahlungskonto und Abo eines Restaurants. */
+export type RestaurantAccount = {
+  restaurantId: string; connected: boolean; chargesEnabled: boolean; payoutsEnabled: boolean; detailsSubmitted: boolean;
+  plan: "NONE" | "BASIC" | "PRO"; planStatus: PlanStatus; trialUsed: boolean; trialEnd?: string; periodEnd?: string;
+  cancelAtPeriodEnd: boolean; hasCustomer: boolean;
+};
+export type Sponsorship = {
+  id: string; restaurantId: string; city: string; startsAt: string; endsAt: string; days: number; amountCents: number;
+  status: "PENDING" | "PAID" | "CANCELLED"; createdAt: string;
 };
 export type Review = {
   id: string; bookingId: string; restaurantId: string; authorName: string; rating: number; food?: number; service?: number; ambience?: number;
@@ -69,6 +103,13 @@ export type State = {
   feedback: Feedback[];
   events: ReliabilityEvent[];
   favorites: Favorite[];
+  bills: Bill[];
+  payments: Payment[];
+  cards: Card[];
+  accounts: RestaurantAccount[];
+  sponsorships: Sponsorship[];
+  /** Öffentlich: Restaurants mit Zahlung in der App bzw. aktivem Werbeplatz (Live: aus payment_flags()). */
+  flags?: Record<string, { acceptsAppPayment: boolean; sponsored: boolean }>;
   /** Nur im Live-Betrieb: Daten, die der Browser nicht selbst aus Buchungen und Ereignissen berechnen kann. */
   remote?: {
     ready: boolean;
@@ -89,6 +130,7 @@ export function emptyState(): State {
   return {
     version: 1, sessionUserId: null, users: [], restaurants: [], members: [], hours: [], photos: [], menu: [],
     spots: [], bookings: [], reviews: [], feedback: [], events: [], favorites: [],
+    bills: [], payments: [], cards: [], accounts: [], sponsorships: [],
   };
 }
 
@@ -565,6 +607,12 @@ function topUpDemoSpots(s: State): State {
 
 /** Ältere Vorschau-Daten: Bewertungen bekamen später Restaurant und Namen direkt mitgespeichert. */
 function migrate(s: State): State {
+  // Zahlungen kamen später dazu
+  s.bills ??= [];
+  s.payments ??= [];
+  s.cards ??= [];
+  s.accounts ??= [];
+  s.sponsorships ??= [];
   for (const r of s.reviews) {
     if (r.restaurantId && r.authorName) continue;
     const b = s.bookings.find((x) => x.id === r.bookingId);

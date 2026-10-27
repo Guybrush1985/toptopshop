@@ -1,0 +1,28 @@
+{
+  "appId": "de.tanmeon.firsty",
+  "appName": "Firsty",
+  "webDir": "out",
+  "backgroundColor": "#0b0b0d",
+  "ios": {
+    "contentInset": "never",
+    "scheme": "Firsty",
+    "limitsNavigationsToAppBoundDomains": false
+  },
+  "android": {
+    "allowMixedContent": false
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 2000,
+      "launchAutoHide": false,
+      "backgroundColor": "#0b0b0d",
+      "showSpinner": false,
+      "androidScaleType": "CENTER_CROP"
+    },
+    "StatusBar": {
+      "style": "DARK",
+      "backgroundColor": "#0b0b0d",
+      "overlaysWebView": false
+    }
+  }
+}

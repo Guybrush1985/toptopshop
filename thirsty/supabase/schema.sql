@@ -106,6 +106,7 @@ create table if not exists public.spots (
 );
 alter table public.spots add column if not exists arrive_within_min int not null default 15 check (arrive_within_min between 0 and 180);
 alter table public.spots add column if not exists max_discount_cents int check (max_discount_cents between 100 and 5000);
+alter table public.spots add column if not exists no_show_protection boolean not null default false;
 create index if not exists spots_restaurant_starts on public.spots (restaurant_id, starts_at);
 -- Angebotsarten: 25, 50 oder 75 % auf alles, oder 0 % mit Gratis-Getränk bzw. Gratis-Dessert (Spalte freebie).
 alter table public.spots drop constraint if exists spots_discount_percent_check;
@@ -122,6 +123,8 @@ create table if not exists public.bookings (
   checked_in_at timestamptz,
   cancelled_at timestamptz
 );
+alter table public.bookings add column if not exists guaranteed boolean not null default false;
+alter table public.bookings add column if not exists no_show_fee_cents int not null default 0;
 create index if not exists bookings_spot on public.bookings (spot_id);
 create index if not exists bookings_user on public.bookings (user_id);
 
@@ -294,6 +297,8 @@ declare
   r public.restaurants;
   rel record;
   taken int;
+  month_guests int;
+  needs_card boolean;
   new_code text;
   result public.bookings;
 begin
@@ -310,7 +315,12 @@ begin
 
   select * into rel from public.reliability(me);
   if rel.tier = 'BLOCKED' then raise exception 'Dein Konto ist wegen mehrerer No-Shows vorübergehend gesperrt.'; end if;
-  if rel.tier = 'DEPOSIT' then raise exception 'Mit deinem Zuverlässigkeitswert ist eine Buchung nur mit Kaution möglich. Diese Funktion kommt bald.'; end if;
+  -- Karte als Garantie: bei niedrigem Zuverlässigkeitswert oder wenn das Restaurant No-Show-Schutz eingeschaltet hat.
+  -- Belastet wird sie nur bei einem No-Show (Edge Function payments, Aktion charge_no_show).
+  needs_card := rel.tier = 'DEPOSIT' or sp.no_show_protection;
+  if needs_card and not exists (select 1 from public.guest_payment_methods g where g.user_id = me and g.payment_method_id is not null) then
+    raise exception 'Für diese Buchung brauchst du eine hinterlegte Karte (unter „Buchungen“ → Zahlungsmittel). Sie wird nur belastet, wenn du nicht erscheinst.';
+  end if;
 
   if exists (select 1 from public.bookings b where b.user_id = me and b.spot_id = sp.id and b.status in ('BOOKED', 'CHECKED_IN')) then
     raise exception 'Du hast dieses Angebot schon gebucht.';
@@ -336,11 +346,22 @@ begin
   select coalesce(sum(party_size), 0) into taken from public.bookings where spot_id = sp.id and status in ('BOOKED', 'CHECKED_IN');
   if taken + p_party > sp.seats then raise exception 'Leider sind nicht mehr genug Plätze frei.'; end if;
 
+  -- Abo Basic: bis 40 Early-Bird-Gäste pro Kalendermonat (pricing.ts: BASIC_GUEST_LIMIT), sobald Abos Pflicht sind.
+  if public.plan_required() and not r.demo
+     and exists (select 1 from public.restaurant_accounts a where a.restaurant_id = r.id and a.plan = 'BASIC') then
+    select coalesce(sum(b.party_size), 0) into month_guests from public.bookings b join public.spots s on s.id = b.spot_id
+    where s.restaurant_id = r.id and b.status in ('BOOKED', 'CHECKED_IN')
+      and date_trunc('month', s.starts_at at time zone 'Europe/Berlin') = date_trunc('month', sp.starts_at at time zone 'Europe/Berlin');
+    if month_guests + p_party > 40 then raise exception 'Dieses Restaurant ist für diesen Monat ausgebucht.'; end if;
+  end if;
+
   loop
     new_code := lpad((floor(random() * 900000) + 100000)::int::text, 6, '0');
     exit when not exists (select 1 from public.bookings where code = new_code);
   end loop;
-  insert into public.bookings (spot_id, user_id, party_size, code) values (sp.id, me, p_party, new_code) returning * into result;
+  -- No-Show-Gebühr: 10 € pro Person (pricing.ts: NO_SHOW_FEE_CENTS_PER_PERSON)
+  insert into public.bookings (spot_id, user_id, party_size, code, guaranteed, no_show_fee_cents)
+    values (sp.id, me, p_party, new_code, needs_card, case when needs_card then p_party * 1000 else 0 end) returning * into result;
   return result;
 end $$;
 
@@ -784,3 +805,298 @@ select r.id, d, '17:00', '23:00' from public.restaurants r cross join generate_s
 where r.demo and not exists (select 1 from public.opening_hours h where h.restaurant_id = r.id);
 
 select public.ensure_demo_spots();
+
+-- =====================================================================================================
+-- ---------- Zahlungen, Abo, Werbung und Abrechnung (Stripe) ----------
+-- Geldflüsse laufen ausschließlich über Stripe (Connect für Restaurants, Billing für Abos).
+-- Die Datenbank speichert nur Stripe-IDs und den Stand; geschrieben wird von den Edge Functions
+-- (supabase/functions/payments und stripe-webhook) mit der Datenbank-Rolle, nie direkt aus der App.
+-- Preise: supabase/functions/_shared/pricing.ts
+-- =====================================================================================================
+
+-- Stripe-Konto (Auszahlungen) und Abo eines Restaurants.
+create table if not exists public.restaurant_accounts (
+  restaurant_id uuid primary key references public.restaurants (id) on delete cascade,
+  stripe_account_id text unique,
+  charges_enabled boolean not null default false,
+  payouts_enabled boolean not null default false,
+  details_submitted boolean not null default false,
+  stripe_customer_id text unique,
+  subscription_id text unique,
+  plan text not null default 'NONE' check (plan in ('NONE', 'BASIC', 'PRO')),
+  plan_status text not null default 'none' check (plan_status in
+    ('none', 'trialing', 'active', 'past_due', 'unpaid', 'canceled', 'incomplete', 'incomplete_expired', 'paused')),
+  trial_used boolean not null default false,
+  trial_end timestamptz,
+  current_period_end timestamptz,
+  cancel_at_period_end boolean not null default false,
+  updated_at timestamptz not null default now()
+);
+
+-- Hinterlegte Karte eines Gastes (nur Anzeige-Daten; die Karte selbst liegt bei Stripe).
+create table if not exists public.guest_payment_methods (
+  user_id uuid primary key references public.profiles (id) on delete cascade,
+  stripe_customer_id text not null unique,
+  payment_method_id text,
+  brand text,
+  last4 text,
+  exp_month int,
+  exp_year int,
+  updated_at timestamptz not null default now()
+);
+
+-- Rechnung nach dem Essen: das Restaurant trägt die Summe laut Kasse ein, der Gast zahlt in der App
+-- (oder wie gewohnt vor Ort). Bleibt für die Buchhaltung erhalten, auch wenn der Gast sein Konto löscht.
+create table if not exists public.bills (
+  id uuid primary key default gen_random_uuid(),
+  booking_id uuid unique references public.bookings (id) on delete set null,
+  restaurant_id uuid not null references public.restaurants (id) on delete cascade,
+  user_id uuid references public.profiles (id) on delete set null,
+  subtotal_cents int not null check (subtotal_cents between 50 and 1000000),
+  discount_percent int not null default 0 check (discount_percent between 0 and 100),
+  discount_cents int not null default 0 check (discount_cents >= 0),
+  amount_cents int not null check (amount_cents >= 0),
+  tip_cents int not null default 0 check (tip_cents >= 0),
+  fee_cents int not null default 0 check (fee_cents >= 0),
+  status text not null default 'OPEN' check (status in ('OPEN', 'PAID', 'PAID_ON_SITE', 'CANCELLED', 'REFUNDED')),
+  note text,
+  checkout_session_id text,
+  payment_intent_id text unique,
+  receipt_url text,
+  created_by uuid references public.profiles (id) on delete set null,
+  created_at timestamptz not null default now(),
+  paid_at timestamptz
+);
+create index if not exists bills_restaurant on public.bills (restaurant_id, created_at);
+create index if not exists bills_user on public.bills (user_id);
+
+-- Gebuchte Werbeplätze („Anzeige“ oben in Liste und Karte einer Stadt).
+create table if not exists public.sponsorships (
+  id uuid primary key default gen_random_uuid(),
+  restaurant_id uuid not null references public.restaurants (id) on delete cascade,
+  city text not null,
+  starts_at timestamptz not null,
+  ends_at timestamptz not null,
+  days int not null check (days between 1 and 90),
+  amount_cents int not null check (amount_cents >= 0),
+  status text not null default 'PENDING' check (status in ('PENDING', 'PAID', 'CANCELLED')),
+  checkout_session_id text unique,
+  created_at timestamptz not null default now(),
+  check (ends_at > starts_at)
+);
+create index if not exists sponsorships_city on public.sponsorships (city, starts_at, ends_at);
+
+-- Kassenbuch aller Geldbewegungen: Grundlage der Abrechnung für Restaurants und der Belege für Gäste.
+create table if not exists public.payments (
+  id uuid primary key default gen_random_uuid(),
+  kind text not null check (kind in ('BILL', 'NO_SHOW', 'SUBSCRIPTION', 'SPONSORSHIP', 'REFUND')),
+  restaurant_id uuid references public.restaurants (id) on delete set null,
+  user_id uuid references public.profiles (id) on delete set null,
+  booking_id uuid references public.bookings (id) on delete set null,
+  bill_id uuid references public.bills (id) on delete set null,
+  sponsorship_id uuid references public.sponsorships (id) on delete set null,
+  amount_cents int not null,          -- vom Zahler bezahlt (brutto), bei Erstattungen negativ
+  fee_cents int not null default 0,   -- Anteil Firsty (brutto)
+  net_cents int not null default 0,   -- an das Restaurant ausgezahlt
+  tip_cents int not null default 0,   -- darin enthaltenes Trinkgeld (geht vollständig ans Restaurant)
+  currency text not null default 'eur',
+  status text not null default 'SUCCEEDED' check (status in ('PENDING', 'SUCCEEDED', 'FAILED', 'REFUNDED')),
+  description text,
+  stripe_id text unique,              -- PaymentIntent, Rechnung oder Erstattung bei Stripe
+  receipt_url text,
+  invoice_url text,
+  invoice_pdf text,
+  created_at timestamptz not null default now()
+);
+create index if not exists payments_restaurant on public.payments (restaurant_id, created_at);
+create index if not exists payments_user on public.payments (user_id, created_at);
+
+-- Bereits verarbeitete Stripe-Ereignisse (Webhooks kommen manchmal doppelt).
+create table if not exists public.stripe_events (
+  id text primary key,
+  type text not null,
+  received_at timestamptz not null default now()
+);
+
+-- ---------- Regeln ----------
+
+-- Sind Abos Pflicht? Bis zum Start (Dezember 2026) ist Firsty für Restaurants kostenlos.
+-- Zum Einschalten diese Funktion auf "select true" ändern.
+create or replace function public.plan_required() returns boolean language sql immutable set search_path = public as $$
+  select false;
+$$;
+
+-- Angebote nur mit Abo (sobald Pflicht) und No-Show-Schutz nur mit eingerichteten Auszahlungen.
+create or replace function public.spots_before_insert() returns trigger
+language plpgsql security definer set search_path = public as $$
+declare a public.restaurant_accounts; is_demo boolean;
+begin
+  select * into a from public.restaurant_accounts where restaurant_id = new.restaurant_id;
+  select demo into is_demo from public.restaurants where id = new.restaurant_id;
+  if public.plan_required() and not coalesce(is_demo, false)
+     and coalesce(a.plan_status, 'none') not in ('trialing', 'active', 'past_due') then
+    raise exception 'Für neue Angebote braucht dein Restaurant ein Abo (Reiter „Abrechnung“).';
+  end if;
+  if new.no_show_protection and not coalesce(a.charges_enabled, false) then
+    raise exception 'No-Show-Schutz geht erst, wenn Auszahlungen eingerichtet sind (Reiter „Abrechnung“).';
+  end if;
+  return new;
+end $$;
+create or replace trigger spots_before_insert before insert on public.spots
+  for each row execute function public.spots_before_insert();
+
+-- Öffentlich: welche Restaurants Zahlung in der App annehmen und welche gerade werben.
+create or replace function public.payment_flags()
+returns table (restaurant_id uuid, accepts_app_payment boolean, sponsored boolean)
+language sql stable security definer set search_path = public as $$
+  select r.id,
+    coalesce((select a.charges_enabled from public.restaurant_accounts a where a.restaurant_id = r.id), false),
+    exists (select 1 from public.sponsorships x where x.restaurant_id = r.id and x.status = 'PAID'
+            and now() >= x.starts_at and now() < x.ends_at)
+  from public.restaurants r where r.status = 'ACTIVE';
+$$;
+
+-- Restaurant erstellt nach dem Check-in die Rechnung: Summe laut Kasse vor dem Firsty-Rabatt.
+-- Der Rabatt kommt aus dem gebuchten Angebot (25/50/75 %; bei Gratis-Getränk/-Dessert 0 %, die Beigabe steht nicht auf der Rechnung).
+-- Eine offene Rechnung kann korrigiert werden, solange sie nicht bezahlt ist.
+create or replace function public.create_bill(p_booking uuid, p_subtotal_cents int, p_note text default null)
+returns public.bills language plpgsql security definer set search_path = public as $$
+declare b public.bookings; sp public.spots; existing public.bills; d int; result public.bills;
+begin
+  select * into b from public.bookings where id = p_booking;
+  if not found then raise exception 'Buchung nicht gefunden.'; end if;
+  select * into sp from public.spots where id = b.spot_id;
+  if not public.is_member(sp.restaurant_id) then raise exception 'Dafür fehlt dir die Berechtigung in diesem Restaurant.'; end if;
+  if b.status <> 'CHECKED_IN' then raise exception 'Eine Rechnung gibt es erst nach dem Check-in.'; end if;
+  if p_subtotal_cents is null or p_subtotal_cents < 50 or p_subtotal_cents > 1000000 then
+    raise exception 'Bitte gib die Summe laut Kasse ein (mindestens 0,50 €).';
+  end if;
+  d := round(p_subtotal_cents * sp.discount_percent / 100.0);
+  select * into existing from public.bills where booking_id = b.id for update;
+  if found then
+    if existing.status <> 'OPEN' then raise exception 'Diese Rechnung ist schon abgeschlossen.'; end if;
+    update public.bills set subtotal_cents = p_subtotal_cents, discount_percent = sp.discount_percent, discount_cents = d,
+      amount_cents = p_subtotal_cents - d, note = nullif(trim(p_note), ''), checkout_session_id = null
+      where id = existing.id returning * into result;
+  else
+    insert into public.bills (booking_id, restaurant_id, user_id, subtotal_cents, discount_percent, discount_cents, amount_cents, note, created_by)
+    values (b.id, sp.restaurant_id, b.user_id, p_subtotal_cents, sp.discount_percent, d, p_subtotal_cents - d, nullif(trim(p_note), ''), auth.uid())
+    returning * into result;
+  end if;
+  return result;
+end $$;
+
+-- Gast hat vor Ort bezahlt (bar oder Kartenterminal): Rechnung schließen, ohne Provision.
+create or replace function public.settle_bill_on_site(p_bill uuid)
+returns void language plpgsql security definer set search_path = public as $$
+declare x public.bills;
+begin
+  select * into x from public.bills where id = p_bill for update;
+  if not found or not public.is_member(x.restaurant_id) then raise exception 'Dafür fehlt dir die Berechtigung in diesem Restaurant.'; end if;
+  if x.status <> 'OPEN' then raise exception 'Diese Rechnung ist schon abgeschlossen.'; end if;
+  update public.bills set status = 'PAID_ON_SITE', paid_at = now() where id = x.id;
+end $$;
+
+create or replace function public.cancel_bill(p_bill uuid)
+returns void language plpgsql security definer set search_path = public as $$
+declare x public.bills;
+begin
+  select * into x from public.bills where id = p_bill for update;
+  if not found or not public.is_member(x.restaurant_id, array['OWNER', 'MANAGER']) then raise exception 'Dafür fehlt dir die Berechtigung in diesem Restaurant.'; end if;
+  if x.status <> 'OPEN' then raise exception 'Nur offene Rechnungen können storniert werden.'; end if;
+  update public.bills set status = 'CANCELLED' where id = x.id;
+end $$;
+
+-- Werbeplatz vormerken (Aufruf nur durch die Edge Function, die danach den Stripe-Checkout startet).
+-- Regeln: Inhaber oder Manager, Restaurant online, mindestens 4,0 Sterne (ab 3 Bewertungen),
+-- höchstens 2 Werbeplätze gleichzeitig pro Stadt (pricing.ts: SPONSOR_MAX_PER_CITY).
+create or replace function public.prepare_sponsorship(p_user uuid, p_restaurant uuid, p_days int, p_start date, p_amount_cents int)
+returns public.sponsorships language plpgsql security definer set search_path = public as $$
+declare r public.restaurants; n int; avg_rating numeric; t0 timestamptz; t1 timestamptz; busy int; result public.sponsorships;
+begin
+  if not exists (select 1 from public.members m where m.restaurant_id = p_restaurant and m.user_id = p_user and m.role in ('OWNER', 'MANAGER')) then
+    raise exception 'Dafür fehlt dir die Berechtigung in diesem Restaurant.';
+  end if;
+  select * into r from public.restaurants where id = p_restaurant;
+  if r.status <> 'ACTIVE' or r.city is null then raise exception 'Werben geht nur, wenn dein Restaurant online ist.'; end if;
+  if p_days not in (1, 7, 30) then raise exception 'Bitte wähle 1, 7 oder 30 Tage.'; end if;
+  select count(*), avg(rating) into n, avg_rating from public.reviews where restaurant_id = r.id;
+  if n >= 3 and avg_rating < 4 then raise exception 'Werbeplätze gibt es ab 4,0 Sternen, damit bezahlte Treffer gute Treffer bleiben.'; end if;
+  if p_start is null or p_start < (now() at time zone 'Europe/Berlin')::date then raise exception 'Der Start darf nicht in der Vergangenheit liegen.'; end if;
+  t0 := (p_start + time '00:00') at time zone 'Europe/Berlin';
+  t1 := ((p_start + p_days) + time '00:00') at time zone 'Europe/Berlin';
+  -- Abgebrochene Vormerkungen nach 30 Minuten freigeben
+  update public.sponsorships set status = 'CANCELLED' where status = 'PENDING' and created_at < now() - interval '30 minutes';
+  select count(*) into busy from public.sponsorships x
+    where x.city = r.city and x.status in ('PAID', 'PENDING') and x.starts_at < t1 and x.ends_at > t0 and x.restaurant_id <> r.id;
+  if busy >= 2 then raise exception 'In % sind in diesem Zeitraum schon alle Werbeplätze vergeben. Bitte wähle einen anderen Start.', r.city; end if;
+  if exists (select 1 from public.sponsorships x where x.restaurant_id = r.id and x.status = 'PAID' and x.starts_at < t1 and x.ends_at > t0) then
+    raise exception 'Für diesen Zeitraum hast du schon einen Werbeplatz.';
+  end if;
+  insert into public.sponsorships (restaurant_id, city, starts_at, ends_at, days, amount_cents)
+    values (r.id, r.city, t0, t1, p_days, p_amount_cents) returning * into result;
+  return result;
+end $$;
+
+-- ---------- Zugriffsregeln Zahlungen ----------
+
+alter table public.restaurant_accounts enable row level security;
+alter table public.guest_payment_methods enable row level security;
+alter table public.bills enable row level security;
+alter table public.sponsorships enable row level security;
+alter table public.payments enable row level security;
+alter table public.stripe_events enable row level security;
+
+do $$
+declare t text;
+begin
+  for t in select format('drop policy if exists %I on %I.%I', policyname, schemaname, tablename)
+           from pg_policies where schemaname = 'public' and tablename in ('restaurant_accounts', 'guest_payment_methods', 'bills',
+             'sponsorships', 'payments', 'stripe_events') loop
+    execute t;
+  end loop;
+end $$;
+
+create policy "Abrechnung lesen" on public.restaurant_accounts for select using (public.is_member(restaurant_id, array['OWNER', 'MANAGER']));
+create policy "eigene Karte" on public.guest_payment_methods for select using (user_id = auth.uid());
+create policy "Rechnungen lesen" on public.bills for select using (user_id = auth.uid() or public.is_member(restaurant_id));
+create policy "Werbung lesen" on public.sponsorships for select using (public.is_member(restaurant_id, array['OWNER', 'MANAGER']));
+create policy "Zahlungen lesen" on public.payments for select
+  using ((user_id = auth.uid() and kind in ('BILL', 'NO_SHOW', 'REFUND')) or public.is_member(restaurant_id, array['OWNER', 'MANAGER']));
+
+-- Nur lesen; geschrieben wird ausschließlich über die Funktionen oben und die Edge Functions.
+grant select on public.restaurant_accounts, public.guest_payment_methods, public.bills, public.sponsorships, public.payments to authenticated;
+revoke insert, update, delete, truncate on public.restaurant_accounts, public.guest_payment_methods, public.bills,
+  public.sponsorships, public.payments, public.stripe_events from anon, authenticated;
+revoke select on public.restaurant_accounts, public.guest_payment_methods, public.bills, public.sponsorships, public.payments,
+  public.stripe_events from anon;
+revoke select on public.stripe_events from authenticated;
+
+revoke all on function public.prepare_sponsorship(uuid, uuid, int, date, int) from public, anon, authenticated;
+revoke all on function public.spots_before_insert() from public, anon, authenticated;
+revoke all on function public.create_bill(uuid, int, text), public.settle_bill_on_site(uuid), public.cancel_bill(uuid) from public, anon;
+grant execute on function public.payment_flags(), public.plan_required() to anon, authenticated;
+grant execute on function public.create_bill(uuid, int, text), public.settle_bill_on_site(uuid), public.cancel_bill(uuid) to authenticated;
+
+-- Konto löschen (Edge Function payments, Aktion delete_account): Prüfung vorab.
+-- Inhaber mit laufendem Abo müssen zuerst kündigen, damit keine Abbuchungen ins Leere laufen.
+create or replace function public.account_deletion_blocker(p_user uuid) returns text
+language sql stable security definer set search_path = public as $$
+  select case when exists (
+    select 1 from public.members m join public.restaurant_accounts a on a.restaurant_id = m.restaurant_id
+    where m.user_id = p_user and m.role = 'OWNER' and a.plan_status in ('trialing', 'active', 'past_due', 'unpaid') and not a.cancel_at_period_end)
+  then 'Bitte kündige zuerst das Abo deines Restaurants (Portal → Abrechnung → Abo verwalten).' end;
+$$;
+revoke all on function public.account_deletion_blocker(uuid) from public, anon, authenticated;
+
+-- Portal: Garantie-Infos zu den Buchungen eines Restaurants (ergänzt restaurant_bookings).
+create or replace function public.restaurant_booking_extras(p_restaurant uuid)
+returns table (booking_id uuid, guaranteed boolean, no_show_fee_cents int)
+language plpgsql stable security definer set search_path = public as $$
+begin
+  if not public.is_member(p_restaurant) then raise exception 'Dafür fehlt dir die Berechtigung in diesem Restaurant.'; end if;
+  return query select b.id, b.guaranteed, b.no_show_fee_cents from public.bookings b join public.spots s on s.id = b.spot_id
+    where s.restaurant_id = p_restaurant and s.starts_at > now() - interval '120 days';
+end $$;
+revoke all on function public.restaurant_booking_extras(uuid) from public, anon;
+grant execute on function public.restaurant_booking_extras(uuid) to authenticated;

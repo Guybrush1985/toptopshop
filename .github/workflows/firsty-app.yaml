@@ -1,0 +1,91 @@
+# Baut die Firsty-App für Android und iOS bei jeder Änderung in thirsty/.
+# Ergebnis (unter "Artifacts" des Laufs):
+#   firsty-android-debug   – APK zum direkten Installieren auf Android-Testgeräten
+#   firsty-android-release – signiertes App Bundle (.aab) für Google Play, sobald die Keystore-Secrets gesetzt sind
+#   firsty-ios-simulator   – App für den iOS-Simulator (prüft, dass das Xcode-Projekt baut)
+# Die Store-Version für iOS wird in Xcode archiviert und hochgeladen, siehe thirsty/docs/STORES.md.
+name: "Firsty App"
+
+on:
+  push:
+    paths:
+      - "thirsty/**"
+      - ".github/workflows/firsty-app.yaml"
+  workflow_dispatch:
+
+concurrency:
+  group: firsty-app-${{ github.ref }}
+  cancel-in-progress: true
+
+defaults:
+  run:
+    working-directory: thirsty
+
+jobs:
+  android:
+    runs-on: ubuntu-latest
+    env:
+      FIRSTY_VERSION_CODE: ${{ github.run_number }}
+      HAS_KEYSTORE: ${{ secrets.FIRSTY_KEYSTORE_BASE64 != '' }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: thirsty/package-lock.json
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 21
+      - run: npm ci
+      - run: npm run typecheck
+      - run: npm run app
+      - name: Debug-APK bauen
+        working-directory: thirsty/android
+        run: ./gradlew --no-daemon assembleDebug
+      - uses: actions/upload-artifact@v4
+        with:
+          name: firsty-android-debug
+          path: thirsty/android/app/build/outputs/apk/debug/*.apk
+      - name: Signiertes App Bundle bauen
+        if: env.HAS_KEYSTORE == 'true'
+        working-directory: thirsty/android
+        env:
+          FIRSTY_KEYSTORE_BASE64: ${{ secrets.FIRSTY_KEYSTORE_BASE64 }}
+          FIRSTY_KEYSTORE_PASSWORD: ${{ secrets.FIRSTY_KEYSTORE_PASSWORD }}
+          FIRSTY_KEY_ALIAS: ${{ secrets.FIRSTY_KEY_ALIAS }}
+          FIRSTY_KEY_PASSWORD: ${{ secrets.FIRSTY_KEY_PASSWORD }}
+        run: |
+          echo "$FIRSTY_KEYSTORE_BASE64" | base64 -d > "$RUNNER_TEMP/firsty.jks"
+          FIRSTY_KEYSTORE="$RUNNER_TEMP/firsty.jks" ./gradlew --no-daemon bundleRelease
+      - uses: actions/upload-artifact@v4
+        if: env.HAS_KEYSTORE == 'true'
+        with:
+          name: firsty-android-release
+          path: thirsty/android/app/build/outputs/bundle/release/*.aab
+
+  ios:
+    runs-on: macos-15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: thirsty/package-lock.json
+      - run: npm ci
+      - run: npm run app
+      - name: Für den Simulator bauen
+        working-directory: thirsty/ios/App
+        run: |
+          xcodebuild -project App.xcodeproj -scheme App -configuration Debug \
+            -sdk iphonesimulator -destination 'generic/platform=iOS Simulator' \
+            -derivedDataPath build CODE_SIGNING_ALLOWED=NO build
+      - name: App packen
+        working-directory: thirsty/ios/App/build/Build/Products/Debug-iphonesimulator
+        run: ditto -c -k --keepParent App.app "$GITHUB_WORKSPACE/firsty-ios-simulator.zip"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: firsty-ios-simulator
+          path: firsty-ios-simulator.zip
