@@ -158,24 +158,6 @@ export default function Discover() {
           ) : (
           <div className="mt-12 animate-rise" style={{ animationDelay: ".24s" }}>
             <p className="display text-3xl text-cream sm:text-4xl">Wo suchst du ein Schnäppchen?</p>
-            <div className="mt-4 flex max-w-3xl flex-wrap gap-2.5">
-              {cities.length === 0 && <p className="text-cream/60">Gerade ist noch keine Stadt dabei.</p>}
-              {cities.map((c) => (
-                <button
-                  key={c.name}
-                  onClick={() => pick(c.name)}
-                  aria-pressed={c.name === city}
-                  className={`group flex items-center gap-2.5 rounded-full border-2 px-5 py-2.5 font-display text-2xl uppercase leading-none transition ${
-                    c.name === city ? "border-lime bg-lime text-ink" : "border-lime/60 text-cream hover:border-lime hover:bg-lime hover:text-ink"
-                  }`}
-                >
-                  {c.name}
-                  <span className={`rounded-full px-2 py-1 font-sans text-xs font-bold ${c.name === city ? "bg-ink text-lime" : "bg-white/10 text-cream/70"}`}>
-                    {c.n} {c.n === 1 ? "Angebot" : "Angebote"}
-                  </span>
-                </button>
-              ))}
-            </div>
             <div className="mt-4 flex flex-wrap items-center gap-2.5">
               <button
                 onClick={locate}
@@ -193,6 +175,25 @@ export default function Discover() {
                 </select>
               </label>
               {geoError && <span className="text-sm text-hot-soft">{geoError}</span>}
+            </div>
+            <p className="mt-4 text-xs font-semibold uppercase tracking-[.25em] text-cream/40">oder Stadt wählen</p>
+            <div className="mt-2 flex max-w-3xl flex-wrap gap-2.5">
+              {cities.length === 0 && <p className="text-cream/60">Gerade ist noch keine Stadt dabei.</p>}
+              {cities.map((c) => (
+                <button
+                  key={c.name}
+                  onClick={() => pick(c.name)}
+                  aria-pressed={c.name === city}
+                  className={`group flex items-center gap-2.5 rounded-full border-2 px-5 py-2.5 font-display text-2xl uppercase leading-none transition ${
+                    c.name === city ? "border-lime bg-lime text-ink" : "border-lime/60 text-cream hover:border-lime hover:bg-lime hover:text-ink"
+                  }`}
+                >
+                  {c.name}
+                  <span className={`rounded-full px-2 py-1 font-sans text-xs font-bold ${c.name === city ? "bg-ink text-lime" : "bg-white/10 text-cream/70"}`}>
+                    {c.n} {c.n === 1 ? "Angebot" : "Angebote"}
+                  </span>
+                </button>
+              ))}
             </div>
             <p className="mt-4 max-w-md text-xs text-cream/40">
               Dein Standort wird nur in deinem Browser verwendet und nicht gespeichert. Mit der Stadtwahl lädt die Karte Kacheln von OpenStreetMap; dabei wird deine IP-Adresse übertragen.{" "}
@@ -291,7 +292,25 @@ export default function Discover() {
         <div className="flex items-center gap-4 text-xs font-semibold uppercase tracking-[.3em] text-cream/40">
           <span className="h-px flex-1 bg-white/10" />Für Restaurants<span className="h-px flex-1 bg-white/10" />
         </div>
-        <p className="mt-5 text-center text-cream/70">
+        <div className="mx-auto mt-6 grid max-w-4xl items-center gap-5 sm:grid-cols-[1fr_1.1fr]">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/zwei-restaurants.webp`}
+            alt="Zwei Restaurants nebeneinander: links leere Tische, rechts sitzen schon Gäste"
+            width={1400}
+            height={933}
+            loading="lazy"
+            className="w-full rounded-2xl border border-white/10 opacity-90 saturate-[.85]"
+          />
+          <div>
+            <p className="display text-2xl text-cream">Wo würdest du dich hinsetzen?</p>
+            <p className="mt-2 text-sm text-cream/60">
+              Wo schon Gäste sitzen, muss es gut sein, und als Erster ein leeres Restaurant zu betreten, ist eine Hürde.
+              Psychologen nennen das Social Proof. Firsty bringt die ersten Gäste, der Rest folgt.
+            </p>
+          </div>
+        </div>
+        <p className="mt-6 text-center text-cream/70">
           Leere Tische zur Öffnung? <Link href="/fuer-restaurants/" className="font-semibold text-lime underline underline-offset-4">So funktioniert Firsty für dein Restaurant →</Link>
         </p>
       </section>
