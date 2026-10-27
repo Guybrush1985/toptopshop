@@ -47,7 +47,10 @@ export default function Datenschutz() {
         Wählst du „Weiter mit Google“ oder „Weiter mit Apple“, wirst du zum jeweiligen Anbieter weitergeleitet (Google Ireland Ltd., Gordon
         House, Barrow Street, Dublin 4, Irland; Apple Distribution International Ltd., Hollyhill Industrial Estate, Cork, Irland). Wir erhalten
         von dort deinen Namen und deine E-Mail-Adresse, um dein Konto anzulegen (Art. 6 Abs. 1 lit. b DSGVO). Welche Daten der Anbieter selbst
-        verarbeitet, regeln dessen Datenschutzhinweise.
+        verarbeitet, regeln dessen Datenschutzhinweise:{" "}
+        <a className="underline" href="https://policies.google.com/privacy?hl=de" target="_blank" rel="noreferrer">Datenschutzerklärung von Google</a>{" "}
+        und{" "}
+        <a className="underline" href="https://www.apple.com/de/legal/privacy/de-ww/" target="_blank" rel="noreferrer">Datenschutzrichtlinie von Apple</a>.
       </p>
 
       <H2>KI-Hilfe für Restaurants</H2>

@@ -9,6 +9,7 @@ import { Field, Notice, PageTitle, formValues, useAction } from "@/components/ui
 import { SocialLogin } from "@/components/SocialLogin";
 import { useCurrentUser } from "@/lib/store";
 import { useEffect } from "react";
+import { localPath } from "@/lib/url";
 
 export default function LoginPage() {
   const router = useRouter();
@@ -17,11 +18,11 @@ export default function LoginPage() {
   const me = useCurrentUser();
   // Zurück von Google/Apple: angemeldet, also weiter zum Ziel
   useEffect(() => {
-    if (me) router.replace(next?.startsWith("/") ? next : me.role === "OWNER" ? "/portal/" : "/");
+    if (me) router.replace(localPath(next) ?? (me.role === "OWNER" ? "/portal/" : "/"));
   }, [me]); // eslint-disable-line react-hooks/exhaustive-deps
   const go = async (email: string, password: string) => {
     const user = await run(() => login(email, password));
-    if (user) router.push(next?.startsWith("/") ? next : user.role === "OWNER" ? "/portal/" : "/");
+    if (user) router.push(localPath(next) ?? (user.role === "OWNER" ? "/portal/" : "/"));
   };
   return (
     <div className="mx-auto max-w-md">

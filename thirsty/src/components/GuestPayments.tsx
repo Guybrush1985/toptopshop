@@ -6,6 +6,7 @@ import { useStore, type User } from "@/lib/store";
 import { euro } from "@/lib/format";
 import { brandLabel, cardOf, deleteAccount, NO_SHOW_FEE_CENTS_PER_PERSON, PAYMENT_KIND_LABEL, removeCard, startCardSetup } from "@/lib/payments";
 import { Notice, useAction } from "./ui";
+import { safeUrl } from "@/lib/url";
 
 /** Konto: hinterlegte Karte und Belege des Gastes. */
 export function GuestPayments({ user }: { user: User }) {
@@ -72,7 +73,7 @@ export function GuestPayments({ user }: { user: User }) {
                 </span>
                 <span className="flex items-center gap-2">
                   <span className="tabular-nums text-cream">{euro(p.amountCents)}</span>
-                  {p.receiptUrl && <a href={p.receiptUrl} target="_blank" rel="noreferrer" className="underline">Beleg</a>}
+                  {safeUrl(p.receiptUrl) && <a href={safeUrl(p.receiptUrl)} target="_blank" rel="noreferrer" className="underline">Beleg</a>}
                 </span>
               </li>
             ))}

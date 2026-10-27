@@ -7,6 +7,7 @@ import { APP, APP_SCHEME, REMOTE } from "@/lib/config";
 import { connectStatus, syncCheckout } from "@/lib/payments";
 import { useCurrentUser } from "@/lib/store";
 import { Loading } from "@/components/ui";
+import { localPath } from "@/lib/url";
 
 const TEXT: Record<string, [ok: string, abbruch: string]> = {
   karte: ["Deine Karte ist hinterlegt.", "Es wurde keine Karte hinterlegt."],
@@ -33,7 +34,7 @@ export default function PaymentReturn() {
 
   const target =
     art === "rechnung" && p.get("b") ? `/buchung/?id=${p.get("b")}`
-    : art === "karte" ? (p.get("weiter")?.startsWith("/") ? p.get("weiter")! : "/konto/")
+    : art === "karte" ? (localPath(p.get("weiter")) ?? "/konto/")
     : p.get("r") ? `/portal/restaurant/?id=${p.get("r")}&tab=abrechnung`
     : "/konto/";
   const appLink = (() => {
