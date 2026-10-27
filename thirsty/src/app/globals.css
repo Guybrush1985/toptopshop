@@ -81,3 +81,12 @@
 .thirsty-pin .pin-pink { background: #ff3d8b; }
 .thirsty-pin .pin:hover { transform: translate(-50%, -100%) scale(1.12); }
 .thirsty-pin .pin-active { transform: translate(-50%, -100%) scale(1.3); box-shadow: 0 14px 40px -6px rgba(0,0,0,.9), 0 0 0 3px #f6efe4; }
+
+/* Ladeanzeige: Sektglas leert sich */
+.sekt-fill { animation: sekt-leeren 1.8s ease-in infinite; }
+.sekt-bubble { animation: sekt-perlen 1.2s linear infinite; }
+.sekt-b2 { animation-delay: .4s; }
+.sekt-b3 { animation-delay: .8s; }
+@keyframes sekt-leeren { 0%, 10% { transform: translateY(0); } 85%, 100% { transform: translateY(36px); } }
+@keyframes sekt-perlen { 0% { transform: translateY(0); opacity: 0; } 20% { opacity: 1; } 100% { transform: translateY(-24px); opacity: 0; } }
+@media (prefers-reduced-motion: reduce) { .sekt-fill, .sekt-bubble { animation: none; } }
