@@ -37,3 +37,7 @@
 - Produktaussagen nur mit Quelle: Herstellerangaben als solche kennzeichnen, Testergebnisse mit Institut und Heft.
 - Partner-Tag: `toptopshop-21` (in `src/site.mjs`).
 - Veröffentlichung: IONOS Deploy Now baut bei jedem Push auf `main`.
+- **Tandem Now** (`src/static/tandem-now/`, live unter toptop.shop/tandem-now) wird im eigenen Repo
+  `Guybrush1985/tandem-now` entwickelt. Der Workflow `.github/workflows/sync-tandem-now.yaml` übernimmt dessen
+  `main` alle 15 Minuten (oder per „Run workflow“) und stößt das Deployment an. Den Ordner hier nicht von Hand
+  ändern – Änderungen werden beim nächsten Abgleich überschrieben.
