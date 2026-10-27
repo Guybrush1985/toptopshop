@@ -103,7 +103,25 @@ export async function applySubscription(sub: StripeT.Subscription) {
     where restaurant_id = ${rid} and (subscription_id is null or subscription_id = ${sub.id})`;
 }
 
+/** Monatsrechnung über die Buchungsgebühr: Stand übernehmen, bezahlte Rechnung ins Kassenbuch. */
+async function applyBookingFeeInvoice(inv: StripeT.Invoice) {
+  const sql = db();
+  const status = inv.status === "paid" ? "PAID" : inv.status === "void" ? "VOID" : inv.status === "uncollectible" ? "UNCOLLECTIBLE" : "OPEN";
+  const [row] = await sql`update public.booking_fee_invoices set status = ${status},
+      invoice_url = coalesce(${inv.hosted_invoice_url ?? null}, invoice_url), invoice_pdf = coalesce(${inv.invoice_pdf ?? null}, invoice_pdf)
+    where stripe_invoice_id = ${inv.id!} returning *`;
+  if (!row || status !== "PAID" || !inv.amount_paid) return;
+  const month = new Date(`${String(row.month instanceof Date ? row.month.toISOString() : row.month).slice(0, 10)}T12:00:00Z`)
+    .toLocaleDateString("de-DE", { month: "long", year: "numeric", timeZone: "Europe/Berlin" });
+  await sql`insert into public.payments (kind, restaurant_id, amount_cents, fee_cents, net_cents, status, description, stripe_id, invoice_url, invoice_pdf)
+    values ('BOOKING_FEE', ${row.restaurant_id}, ${inv.amount_paid}, ${inv.amount_paid}, 0, 'SUCCEEDED',
+      ${`Buchungsgebühr ${month}: ${row.bookings} ${row.bookings === 1 ? "Buchung" : "Buchungen"}${inv.number ? `, Rechnung ${inv.number}` : ""}`},
+      ${inv.id!}, ${inv.hosted_invoice_url ?? null}, ${inv.invoice_pdf ?? null})
+    on conflict (stripe_id) do nothing`;
+}
+
 export async function applyInvoice(inv: StripeT.Invoice) {
+  if (inv.metadata?.kind === "booking_fees") return applyBookingFeeInvoice(inv);
   if (inv.status !== "paid" || !inv.amount_paid) return;
   const anyInv = inv as unknown as { subscription?: string | { id: string }; parent?: { subscription_details?: { subscription?: string | { id: string } } } };
   const subId = idOf(anyInv.parent?.subscription_details?.subscription ?? anyInv.subscription);

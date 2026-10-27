@@ -50,13 +50,21 @@ ausführt. Nach Änderungen in `thirsty/` also immer `npm run site` laufen lasse
 
 ## Zahlungen und Abrechnung (Stripe)
 
-- Preise und Anteile an einer Stelle: `supabase/functions/_shared/pricing.ts` (5 % Provision, 10 € No-Show-Gebühr je
-  Person mit 30 % für Firsty, Abos Basic 49 € / Pro 99 € netto mit 90 Tagen Testzeit, Werbeplatz 5 € netto pro Tag).
+- Preise und Anteile an einer Stelle: `supabase/functions/_shared/pricing.ts`. Preismodell ab Start (Dezember 2026):
+  Buchungsgebühr 2 € netto pro wahrgenommener Buchung, höchstens 99 € netto im Monat, die ersten 90 Tage ab Anmeldung
+  kostenlos; 2 % Zahlungsgebühr bei Zahlung in der App; 10 € No-Show-Gebühr je Person mit 30 % für Firsty;
+  Werbeplatz 5 € netto pro Tag. Abos (Basic/Pro) sind ausgeschaltet (`SUBSCRIPTIONS_OFFERED`), der Code bleibt für
+  eine spätere Flatrate.
 - Edge Functions: `payments` (alle Aktionen) und `stripe-webhook` (ohne JWT-Prüfung, signiert über Stripe).
-  Secrets: `STRIPE_SECRET_KEY`, `STRIPE_WEBHOOK_SECRET`, `STRIPE_CONNECT_WEBHOOK_SECRET`. Ohne Schlüssel melden die
-  Funktionen „Zahlungen sind noch nicht eingerichtet“, alles andere läuft weiter.
-- Restaurants: Stripe Connect Express, Gäste zahlen per Checkout als Destination Charge; Provision als Application Fee.
-- Portal → Abrechnung: Auszahlungen, Abo, Werbeplatz, Monatsübersicht mit CSV und druckbarem Monatsbeleg.
+  Secrets: `STRIPE_SECRET_KEY`, `STRIPE_WEBHOOK_SECRET`, `STRIPE_CONNECT_WEBHOOK_SECRET`, `FIRSTY_CRON_SECRET`. Ohne
+  Schlüssel melden die Funktionen „Zahlungen sind noch nicht eingerichtet“, alles andere läuft weiter.
+- Buchungsgebühr abrechnen: einmal im Monat (am 2., z. B. Supabase → Integrations → Cron) per POST an
+  `…/functions/v1/payments` mit Header `x-firsty-cron: <FIRSTY_CRON_SECRET>` und Body `{"action":"invoice_booking_fees"}`.
+  Rechnet den Vormonat ab (eine Stripe-Rechnung pro Restaurant, 14 Tage Ziel, Karte/SEPA/Überweisung) und ist
+  idempotent. Zählregeln: `booking_fee_month` in `schema.sql`; Ende der Gratiszeit einzeln über
+  `restaurant_accounts.fee_free_until` änderbar.
+- Restaurants: Stripe Connect Express, Gäste zahlen per Checkout als Destination Charge; Zahlungsgebühr als Application Fee.
+- Portal → Abrechnung: Auszahlungen, Buchungsgebühr des Monats, Werbeplatz, Monatsübersicht mit CSV und druckbarem Monatsbeleg.
 - Tests: `bash test/db/start.sh` + `psql … -f test/db/payments.test.sql` (Regeln in SQL) und
   `DENO=… STRIPE_MOCK=… bash test/functions/run.sh` (Edge Functions gegen stripe-mock).
 

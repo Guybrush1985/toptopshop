@@ -1,7 +1,8 @@
 // Edge Function „stripe-webhook“: nimmt Ereignisse von Stripe an (ohne Anmeldung, geprüft über die Webhook-Signatur).
 // In Stripe einrichten: Entwickler → Webhooks → Endpunkt https://<projekt>.supabase.co/functions/v1/stripe-webhook
 //   Ereignisse des eigenen Kontos: checkout.session.completed, checkout.session.async_payment_succeeded,
-//     customer.subscription.created/updated/deleted, invoice.paid, payment_intent.succeeded, payment_intent.payment_failed,
+//     customer.subscription.created/updated/deleted, invoice.paid, invoice.voided, invoice.marked_uncollectible,
+//     payment_intent.succeeded, payment_intent.payment_failed,
 //     charge.refunded  → Signaturgeheimnis als STRIPE_WEBHOOK_SECRET
 //   Ereignisse verbundener Konten: account.updated → Signaturgeheimnis als STRIPE_CONNECT_WEBHOOK_SECRET
 import { Stripe, stripe } from "../_shared/stripe.ts";
@@ -38,6 +39,8 @@ async function dispatch(event: any) {
     case "customer.subscription.resumed":
       return applySubscription(o);
     case "invoice.paid":
+    case "invoice.voided":
+    case "invoice.marked_uncollectible":
       return applyInvoice(o);
     case "payment_intent.succeeded":
     case "payment_intent.payment_failed":

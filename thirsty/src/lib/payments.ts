@@ -10,7 +10,8 @@ import { getState, uid, update, type Bill, type Booking, type Payment, type Rest
 import { ActionError } from "./errors";
 import { reliabilityOf } from "./reliability";
 import {
-  billAmounts, commissionOf, gross, noShowPlatformShare, PLANS, sponsorPrice, tipOf, TIP_OPTIONS, TRIAL_DAYS, type PlanKey,
+  billAmounts, BOOKING_FEE_NO_SHOW_HOURS, bookingFeeNet, commissionOf, feeFreeUntil, gross, noShowPlatformShare, PLANS, sponsorPrice,
+  SUBSCRIPTIONS_OFFERED, tipOf, TIP_OPTIONS, TRIAL_DAYS, type PlanKey,
 } from "../../supabase/functions/_shared/pricing";
 
 export * from "../../supabase/functions/_shared/pricing";
@@ -53,6 +54,29 @@ export function needsCard(s: State, userId: string, spot: Spot) {
 
 export const billOf = (s: State, bookingId: string) => s.bills.find((b) => b.bookingId === bookingId);
 
+/**
+ * Buchungsgebühr eines Restaurants im Monat (YYYY-MM, Monat der Angebote) nach denselben Regeln wie die Abrechnung
+ * (schema.sql: booking_fee_month): eingecheckt oder bis 24 Stunden nach Ende nicht als No-Show gemeldet.
+ * Offene Buchungen (noch keine 24 Stunden vorbei) zählen als „offen“ und kommen ggf. noch dazu.
+ */
+export function bookingFeeOf(s: State, restaurantId: string, month: string, now = Date.now()) {
+  const r = s.restaurants.find((x) => x.id === restaurantId);
+  const freeUntil = feeFreeUntil(r?.createdAt || new Date(now).toISOString(), accountOf(s, restaurantId).feeFreeUntil);
+  const monthOf = (iso: string) => new Intl.DateTimeFormat("en-CA", { timeZone: "Europe/Berlin", year: "numeric", month: "2-digit" }).format(new Date(iso));
+  let attended = 0, billable = 0, pending = 0;
+  for (const b of s.bookings) {
+    const sp = s.spots.find((x) => x.id === b.spotId);
+    if (!sp || sp.restaurantId !== restaurantId || monthOf(sp.startsAt) !== month) continue;
+    const over = new Date(sp.endsAt).getTime() + BOOKING_FEE_NO_SHOW_HOURS * 36e5 < now;
+    const counts = b.status === "CHECKED_IN" || (b.status === "BOOKED" && over);
+    if (b.status === "BOOKED" && !over) pending++;
+    if (!counts) continue;
+    attended++;
+    if (!r?.demo && new Date(sp.startsAt) >= freeUntil) billable++;
+  }
+  return { attended, billable, pending, netCents: bookingFeeNet(billable), freeUntil };
+}
+
 export const PLAN_STATUS_LABEL: Record<string, string> = {
   none: "Kein Abo", trialing: "Testzeit", active: "Aktiv", past_due: "Zahlung offen", unpaid: "Unbezahlt", canceled: "Gekündigt",
   incomplete: "Unvollständig", incomplete_expired: "Abgelaufen", paused: "Pausiert",
@@ -62,6 +86,7 @@ export const BILL_STATUS_LABEL: Record<string, string> = {
 };
 export const PAYMENT_KIND_LABEL: Record<string, string> = {
   BILL: "Rechnung", NO_SHOW: "No-Show-Gebühr", SUBSCRIPTION: "Abo", SPONSORSHIP: "Werbeplatz", REFUND: "Erstattung",
+  BOOKING_FEE: "Buchungsgebühr",
 };
 export const brandLabel = (b?: string) => ({ visa: "Visa", mastercard: "Mastercard", amex: "American Express", girocard: "girocard" } as Record<string, string>)[b ?? ""] ?? (b ? b[0].toUpperCase() + b.slice(1) : "Karte");
 
@@ -312,6 +337,7 @@ export async function connectDashboard(restaurantId: string) {
 }
 
 export async function subscribe(restaurantId: string, plan: PlanKey): Promise<Done> {
+  if (!SUBSCRIPTIONS_OFFERED) fail("Firsty hat keine Abos mehr. Du zahlst nur pro Buchung.");
   if (!SELLS_DIGITAL) fail("Abos werden im Restaurant-Portal auf der Website abgeschlossen.");
   if (REMOTE) {
     await openStripe(await call("subscribe", { restaurantId, plan }));

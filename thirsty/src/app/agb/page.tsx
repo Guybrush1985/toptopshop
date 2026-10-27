@@ -1,10 +1,11 @@
 import Link from "next/link";
 import { H2, Legal } from "@/components/Legal";
 import {
-  BASIC_GUEST_LIMIT,
+  BOOKING_FEE_CAP_NET_CENTS,
+  BOOKING_FEE_NET_CENTS,
+  BOOKING_FEE_NO_SHOW_HOURS,
   COMMISSION_PERCENT,
   NO_SHOW_FEE_CENTS_PER_PERSON,
-  PLANS,
   SPONSOR_MAX_PER_CITY,
   SPONSOR_NET_CENTS_PER_DAY,
   TRIAL_DAYS,
@@ -67,13 +68,16 @@ export default function Agb() {
       </p>
       <ul className="list-disc space-y-1 pl-5">
         <li>
-          Provision: {COMMISSION_PERCENT} % des in der App gezahlten Rechnungsbetrags (ohne Trinkgeld), inklusive {VAT_PERCENT} % USt. Sie
-          wird bei der Zahlung einbehalten.
+          Buchungsgebühr: {eur(BOOKING_FEE_NET_CENTS)} netto zuzüglich USt. für jede über Firsty gebuchte Reservierung, die wahrgenommen
+          wurde, unabhängig von Personenzahl und Umsatz. Als wahrgenommen gilt eine Buchung, die eingecheckt ist oder die das Restaurant
+          nicht bis {BOOKING_FEE_NO_SHOW_HOURS} Stunden nach Ende des Angebots als nicht erschienen meldet. Stornierte Buchungen und No-Shows
+          kosten nichts. Höchstens {eur(BOOKING_FEE_CAP_NET_CENTS)} netto pro Kalendermonat. Buchungen in den ersten {TRIAL_DAYS} Tagen ab
+          Anmeldung des Restaurants sind kostenlos. Es gibt keine Mindestlaufzeit. Firsty rechnet monatlich ab; die Rechnung ist innerhalb
+          von 14 Tagen per Karte, SEPA-Lastschrift oder Überweisung zu zahlen.
         </li>
         <li>
-          Monatsabo: {PLANS.BASIC.name} {eur(PLANS.BASIC.netCents)} oder {PLANS.PRO.name} {eur(PLANS.PRO.netCents)} netto im Monat zuzüglich
-          USt. Die ersten {TRIAL_DAYS} Tage sind kostenlos. {PLANS.BASIC.name} umfasst bis zu {BASIC_GUEST_LIMIT} Gäste pro Monat. Das Abo
-          verlängert sich monatlich und ist zum Ende des laufenden Monats kündbar.
+          Zahlungsgebühr: {COMMISSION_PERCENT} % des in der App gezahlten Rechnungsbetrags (ohne Trinkgeld), inklusive {VAT_PERCENT} % USt. Sie
+          wird bei der Zahlung einbehalten.
         </li>
         <li>
           Werbeplatz: {eur(SPONSOR_NET_CENTS_PER_DAY)} netto pro Tag zuzüglich USt, im Voraus zu zahlen. Je Stadt gibt es höchstens{" "}
@@ -85,7 +89,7 @@ export default function Agb() {
         </li>
       </ul>
       <p>
-        Firsty stellt über Abo, Werbung und Provision monatlich eine Rechnung aus, abrufbar im Portal unter „Abrechnung“. Rückerstattungen
+        Firsty stellt über Buchungsgebühr, Werbung und Zahlungsgebühr Rechnungen aus, abrufbar im Portal unter „Abrechnung“. Rückerstattungen
         an Gäste gehen anteilig zulasten des Restaurants.
       </p>
 

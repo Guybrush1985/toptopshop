@@ -435,6 +435,8 @@ begin
   if not public.is_member(sp.restaurant_id) then raise exception 'Dafür fehlt dir die Berechtigung in diesem Restaurant.'; end if;
   if b.status <> 'BOOKED' then raise exception 'Diese Buchung ist nicht mehr offen.'; end if;
   if now() < sp.starts_at + interval '15 minutes' then raise exception 'Ein No-Show kann erst 15 Minuten nach Beginn gemeldet werden.'; end if;
+  -- Danach gilt die Buchung als wahrgenommen und zählt für die Buchungsgebühr (pricing.ts: BOOKING_FEE_NO_SHOW_HOURS)
+  if now() > sp.ends_at + interval '24 hours' then raise exception 'Ein No-Show kann nur bis 24 Stunden nach Ende des Angebots gemeldet werden.'; end if;
   update public.bookings set status = 'NO_SHOW' where id = b.id;
   perform public.add_event(b.user_id, 'NO_SHOW', b.id);
 end $$;
@@ -832,6 +834,8 @@ create table if not exists public.restaurant_accounts (
   cancel_at_period_end boolean not null default false,
   updated_at timestamptz not null default now()
 );
+-- Abweichendes Ende der kostenlosen Startzeit (z. B. Sonderabsprache). Leer = 90 Tage ab Anmeldung, frühestens ab Start.
+alter table public.restaurant_accounts add column if not exists fee_free_until timestamptz;
 
 -- Hinterlegte Karte eines Gastes (nur Anzeige-Daten; die Karte selbst liegt bei Stripe).
 create table if not exists public.guest_payment_methods (
@@ -889,7 +893,7 @@ create index if not exists sponsorships_city on public.sponsorships (city, start
 -- Kassenbuch aller Geldbewegungen: Grundlage der Abrechnung für Restaurants und der Belege für Gäste.
 create table if not exists public.payments (
   id uuid primary key default gen_random_uuid(),
-  kind text not null check (kind in ('BILL', 'NO_SHOW', 'SUBSCRIPTION', 'SPONSORSHIP', 'REFUND')),
+  kind text not null check (kind in ('BILL', 'NO_SHOW', 'SUBSCRIPTION', 'SPONSORSHIP', 'REFUND', 'BOOKING_FEE')),
   restaurant_id uuid references public.restaurants (id) on delete set null,
   user_id uuid references public.profiles (id) on delete set null,
   booking_id uuid references public.bookings (id) on delete set null,
@@ -910,6 +914,25 @@ create table if not exists public.payments (
 );
 create index if not exists payments_restaurant on public.payments (restaurant_id, created_at);
 create index if not exists payments_user on public.payments (user_id, created_at);
+alter table public.payments drop constraint if exists payments_kind_check;
+alter table public.payments add constraint payments_kind_check
+  check (kind in ('BILL', 'NO_SHOW', 'SUBSCRIPTION', 'SPONSORSHIP', 'REFUND', 'BOOKING_FEE'));
+
+-- Monatsrechnungen über die Buchungsgebühr (eine pro Restaurant und Monat). Angelegt von der Edge Function payments
+-- (Aktion invoice_booking_fees, monatlich per Cron), bezahlt über die Stripe-Rechnungsseite (Karte oder SEPA).
+create table if not exists public.booking_fee_invoices (
+  id uuid primary key default gen_random_uuid(),
+  restaurant_id uuid not null references public.restaurants (id) on delete cascade,
+  month date not null check (extract(day from month) = 1),
+  bookings int not null check (bookings >= 0),   -- abgerechnete (wahrgenommene) Buchungen
+  net_cents int not null check (net_cents >= 0), -- Gebühr netto, mit Monatsdeckel
+  status text not null default 'DRAFT' check (status in ('DRAFT', 'OPEN', 'PAID', 'VOID', 'UNCOLLECTIBLE')),
+  stripe_invoice_id text unique,
+  invoice_url text,
+  invoice_pdf text,
+  created_at timestamptz not null default now(),
+  unique (restaurant_id, month)
+);
 
 -- Bereits verarbeitete Stripe-Ereignisse (Webhooks kommen manchmal doppelt).
 create table if not exists public.stripe_events (
@@ -920,10 +943,49 @@ create table if not exists public.stripe_events (
 
 -- ---------- Regeln ----------
 
--- Sind Abos Pflicht? Bis zum Start (Dezember 2026) ist Firsty für Restaurants kostenlos.
--- Zum Einschalten diese Funktion auf "select true" ändern.
+-- Sind Abos Pflicht? Seit dem Preismodell mit Buchungsgebühr (Oktober 2026) nein: Restaurants zahlen pro Buchung,
+-- Abos (Basic/Pro) sind nicht im Angebot (pricing.ts: SUBSCRIPTIONS_OFFERED). Nur für eine spätere Flatrate auf "select true".
 create or replace function public.plan_required() returns boolean language sql immutable set search_path = public as $$
   select false;
+$$;
+
+-- Buchungsgebühr eines Restaurants für einen Monat (Monat der Angebote, Zeitzone Berlin).
+-- Zählt Buchungen, die eingecheckt sind oder die das Restaurant bis 24 Stunden nach Ende nicht als No-Show gemeldet hat.
+-- Kostenlos sind Buchungen in den ersten 90 Tagen ab Anmeldung (frühestens ab 1.12.2026) und bei Demo-Restaurants.
+-- Werte wie in pricing.ts: 200 Cent pro Buchung, höchstens 9.900 Cent im Monat.
+create or replace function public.booking_fee_free_until(p_restaurant uuid) returns timestamptz
+language sql stable security definer set search_path = public as $$
+  select coalesce(a.fee_free_until, greatest(r.created_at, timestamptz '2026-12-01 00:00 Europe/Berlin') + interval '90 days')
+  from public.restaurants r left join public.restaurant_accounts a on a.restaurant_id = r.id where r.id = p_restaurant;
+$$;
+
+create or replace function public.booking_fee_month(p_restaurant uuid, p_month date)
+returns table (bookings int, billable int, net_cents int, free_until timestamptz)
+language plpgsql stable security definer set search_path = public as $$
+declare m date := date_trunc('month', p_month)::date; fu timestamptz := public.booking_fee_free_until(p_restaurant);
+  is_demo boolean; n int; nb int;
+begin
+  if auth.uid() is not null and not public.is_member(p_restaurant, array['OWNER', 'MANAGER']) then
+    raise exception 'Dafür fehlt dir die Berechtigung in diesem Restaurant.';
+  end if;
+  select r.demo into is_demo from public.restaurants r where r.id = p_restaurant;
+  select count(*)::int, count(*) filter (where s.starts_at >= fu and not coalesce(is_demo, false))::int into n, nb
+  from public.bookings b join public.spots s on s.id = b.spot_id
+  where s.restaurant_id = p_restaurant
+    and date_trunc('month', s.starts_at at time zone 'Europe/Berlin')::date = m
+    and (b.status = 'CHECKED_IN' or (b.status = 'BOOKED' and s.ends_at < now() - interval '24 hours'));
+  return query select n, nb, least(nb * 200, 9900), fu;
+end $$;
+
+-- Restaurants mit Buchungsgebühr in einem Monat (für die monatliche Abrechnung; nur Server).
+create or replace function public.booking_fee_due(p_month date)
+returns table (restaurant_id uuid, bookings int, net_cents int)
+language sql stable security definer set search_path = public as $$
+  select r.id, f.billable, f.net_cents
+  from public.restaurants r cross join lateral public.booking_fee_month(r.id, p_month) f
+  where f.billable > 0
+    and not exists (select 1 from public.booking_fee_invoices i where i.restaurant_id = r.id and i.month = date_trunc('month', p_month)::date
+                    and i.stripe_invoice_id is not null);
 $$;
 
 -- Angebote nur mit Abo (sobald Pflicht) und No-Show-Schutz nur mit eingerichteten Auszahlungen.
@@ -1046,13 +1108,14 @@ alter table public.bills enable row level security;
 alter table public.sponsorships enable row level security;
 alter table public.payments enable row level security;
 alter table public.stripe_events enable row level security;
+alter table public.booking_fee_invoices enable row level security;
 
 do $$
 declare t text;
 begin
   for t in select format('drop policy if exists %I on %I.%I', policyname, schemaname, tablename)
            from pg_policies where schemaname = 'public' and tablename in ('restaurant_accounts', 'guest_payment_methods', 'bills',
-             'sponsorships', 'payments', 'stripe_events') loop
+             'sponsorships', 'payments', 'stripe_events', 'booking_fee_invoices') loop
     execute t;
   end loop;
 end $$;
@@ -1060,20 +1123,25 @@ end $$;
 create policy "Abrechnung lesen" on public.restaurant_accounts for select using (public.is_member(restaurant_id, array['OWNER', 'MANAGER']));
 create policy "eigene Karte" on public.guest_payment_methods for select using (user_id = auth.uid());
 create policy "Rechnungen lesen" on public.bills for select using (user_id = auth.uid() or public.is_member(restaurant_id));
+create policy "Buchungsgebühr lesen" on public.booking_fee_invoices for select using (public.is_member(restaurant_id, array['OWNER', 'MANAGER']));
 create policy "Werbung lesen" on public.sponsorships for select using (public.is_member(restaurant_id, array['OWNER', 'MANAGER']));
 create policy "Zahlungen lesen" on public.payments for select
   using ((user_id = auth.uid() and kind in ('BILL', 'NO_SHOW', 'REFUND')) or public.is_member(restaurant_id, array['OWNER', 'MANAGER']));
 
 -- Nur lesen; geschrieben wird ausschließlich über die Funktionen oben und die Edge Functions.
-grant select on public.restaurant_accounts, public.guest_payment_methods, public.bills, public.sponsorships, public.payments to authenticated;
+grant select on public.restaurant_accounts, public.guest_payment_methods, public.bills, public.sponsorships, public.payments,
+  public.booking_fee_invoices to authenticated;
 revoke insert, update, delete, truncate on public.restaurant_accounts, public.guest_payment_methods, public.bills,
-  public.sponsorships, public.payments, public.stripe_events from anon, authenticated;
+  public.sponsorships, public.payments, public.stripe_events, public.booking_fee_invoices from anon, authenticated;
 revoke select on public.restaurant_accounts, public.guest_payment_methods, public.bills, public.sponsorships, public.payments,
-  public.stripe_events from anon;
+  public.stripe_events, public.booking_fee_invoices from anon;
 revoke select on public.stripe_events from authenticated;
 
 revoke all on function public.prepare_sponsorship(uuid, uuid, int, date, int) from public, anon, authenticated;
 revoke all on function public.spots_before_insert() from public, anon, authenticated;
+revoke all on function public.booking_fee_due(date), public.booking_fee_free_until(uuid) from public, anon, authenticated;
+revoke all on function public.booking_fee_month(uuid, date) from public, anon;
+grant execute on function public.booking_fee_month(uuid, date) to authenticated;
 revoke all on function public.create_bill(uuid, int, text), public.settle_bill_on_site(uuid), public.cancel_bill(uuid) from public, anon;
 grant execute on function public.payment_flags(), public.plan_required() to anon, authenticated;
 grant execute on function public.create_bill(uuid, int, text), public.settle_bill_on_site(uuid), public.cancel_bill(uuid) to authenticated;

@@ -204,6 +204,7 @@ async function load(seq: number): Promise<boolean> {
     restaurantId: a.restaurant_id, connected: !!a.stripe_account_id, chargesEnabled: a.charges_enabled, payoutsEnabled: a.payouts_enabled,
     detailsSubmitted: a.details_submitted, plan: a.plan, planStatus: a.plan_status, trialUsed: a.trial_used, trialEnd: iso(a.trial_end),
     periodEnd: iso(a.current_period_end), cancelAtPeriodEnd: a.cancel_at_period_end, hasCustomer: !!a.stripe_customer_id,
+    feeFreeUntil: iso(a.fee_free_until),
   }));
   s.sponsorships = sponsorships.map((x) => ({
     id: x.id, restaurantId: x.restaurant_id, city: x.city, startsAt: iso(x.starts_at)!, endsAt: iso(x.ends_at)!, days: x.days,

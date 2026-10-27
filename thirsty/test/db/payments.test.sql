@@ -167,6 +167,82 @@ do $$ declare r2 uuid; r3 uuid; begin
   end;
 end $$;
 
+set local request.jwt.claim.sub = ''; -- wie die Edge Function: ohne Nutzer
+-- Buchungsgebühr: zählt eingecheckte Buchungen und solche ohne No-Show-Meldung 24 h nach Ende; Gratiszeit; Deckel
+do $$ declare r4 uuid; sp1 uuid; sp2 uuid; sp3 uuid; m date := date_trunc('month', now() at time zone 'Europe/Berlin')::date; f record; i int;
+begin
+  insert into public.restaurants (slug, name, city, street, description, status) values ('r4', 'R4', 'Kiel', 'x', 'y', 'ACTIVE') returning id into r4;
+  -- frisch angemeldet: kostenlos (90 Tage, frühestens ab 1.12.2026)
+  if public.booking_fee_free_until(r4) < greatest(now(), timestamptz '2026-12-01 00:00 Europe/Berlin') + interval '89 days' then
+    raise exception 'FEHLER: Gratiszeit falsch';
+  end if;
+  -- Angebote am Monatsanfang (sicher vorbei) und eines, das gerade erst endete
+  insert into public.spots (restaurant_id, starts_at, ends_at, seats) values (r4, m + time '00:10', m + time '00:50', 80) returning id into sp1;
+  insert into public.spots (restaurant_id, starts_at, ends_at, seats) values (r4, now() - interval '3 hours', now() - interval '1 hour', 80) returning id into sp2;
+  insert into public.bookings (spot_id, user_id, party_size, code, status) values
+    (sp1, '00000000-0000-0000-0000-00000000000a', 6, '900001', 'CHECKED_IN'),
+    (sp1, '00000000-0000-0000-0000-00000000000a', 1, '900002', 'BOOKED'),
+    (sp1, '00000000-0000-0000-0000-00000000000a', 2, '900003', 'NO_SHOW'),
+    (sp1, '00000000-0000-0000-0000-00000000000a', 2, '900004', 'CANCELLED'),
+    (sp2, '00000000-0000-0000-0000-00000000000a', 2, '900005', 'BOOKED');
+  select * into f from public.booking_fee_month(r4, m);
+  if (f.bookings, f.billable, f.net_cents) is distinct from (2, 0, 0) then raise exception 'FEHLER: in Gratiszeit %', f; end if;
+  -- Gratiszeit vorbei
+  insert into public.restaurant_accounts (restaurant_id, fee_free_until) values (r4, now() - interval '400 days');
+  select * into f from public.booking_fee_month(r4, m);
+  if extract(day from now() at time zone 'Europe/Berlin') >= 2 and (f.bookings, f.billable, f.net_cents) is distinct from (2, 2, 400) then
+    raise exception 'FEHLER: Gebühr %', f;
+  end if;
+  if not exists (select 1 from public.booking_fee_due(m) where restaurant_id = r4) then raise exception 'FEHLER: nicht fällig'; end if;
+  -- Deckel: 60 Buchungen kosten 99 €
+  for i in 1..58 loop
+    insert into public.bookings (spot_id, user_id, party_size, code, status) values (sp1, '00000000-0000-0000-0000-00000000000a', 1, (910000 + i)::text, 'CHECKED_IN');
+  end loop;
+  select * into f from public.booking_fee_month(r4, m);
+  if f.net_cents <> 9900 then raise exception 'FEHLER: Deckel %', f; end if;
+  -- abgerechnet: nicht mehr fällig
+  insert into public.booking_fee_invoices (restaurant_id, month, bookings, net_cents, stripe_invoice_id) values (r4, m, f.billable, 9900, 'in_x');
+  if exists (select 1 from public.booking_fee_due(m) where restaurant_id = r4) then raise exception 'FEHLER: doppelt fällig'; end if;
+  -- Demo-Restaurants zahlen nie
+  update public.restaurants set demo = true where id = r4;
+  if (select billable from public.booking_fee_month(r4, m)) <> 0 then raise exception 'FEHLER: Demo zahlt'; end if;
+  raise notice 'ok: Buchungsgebühr';
+end $$;
+
+-- Gäste und fremde Wirte sehen die Buchungsgebühr nicht
+set local role authenticated;
+set local request.jwt.claim.sub = '00000000-0000-0000-0000-00000000000a';
+do $$ begin
+  perform public.booking_fee_month((select id from public.restaurants where slug = 'r4'), current_date);
+  raise exception 'FEHLER: Gast sieht Buchungsgebühr';
+exception when raise_exception then
+  if sqlerrm like 'FEHLER%' then raise; end if;
+  raise notice 'ok: %', sqlerrm;
+end $$;
+do $$ begin
+  perform public.booking_fee_due(current_date);
+  raise exception 'FEHLER: booking_fee_due aufrufbar';
+exception when insufficient_privilege then raise notice 'ok: booking_fee_due nur Server';
+end $$;
+reset role;
+
+-- No-Show-Meldung nur bis 24 h nach Ende
+do $$ declare sp uuid; b uuid; begin
+  insert into public.spots (restaurant_id, starts_at, ends_at, seats) values ((select v::uuid from t where k = 'rid'), now() - interval '30 hours', now() - interval '26 hours', 8) returning id into sp;
+  insert into public.bookings (spot_id, user_id, party_size, code) values (sp, '00000000-0000-0000-0000-00000000000a', 2, '920001') returning id into b;
+  insert into t values ('late', b::text);
+end $$;
+set local role authenticated;
+set local request.jwt.claim.sub = '00000000-0000-0000-0000-00000000000b';
+do $$ begin
+  perform public.mark_no_show((select v::uuid from t where k = 'late'));
+  raise exception 'FEHLER: späte No-Show-Meldung erlaubt';
+exception when raise_exception then
+  if sqlerrm like 'FEHLER%' then raise; end if;
+  raise notice 'ok: %', sqlerrm;
+end $$;
+reset role;
+
 -- Konto löschen: Wirt mit aktivem Abo blockiert, Gast nicht; Rechnung bleibt erhalten
 update public.restaurant_accounts set plan = 'BASIC', plan_status = 'trialing';
 do $$ begin

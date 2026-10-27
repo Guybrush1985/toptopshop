@@ -6,8 +6,9 @@ import { useStore, type Payment } from "@/lib/store";
 import { dateKey, euro } from "@/lib/format";
 import { APP } from "@/lib/config";
 import {
-  accountOf, billingPortal, connectDashboard, connectOnboarding, connectStatus, gross, PAYMENT_KIND_LABEL, PLAN_STATUS_LABEL, PLANS,
-  SELLS_DIGITAL, sponsor, SPONSOR_DAY_OPTIONS, SPONSOR_MAX_PER_CITY, sponsorPrice, subscribe, TRIAL_DAYS, COMMISSION_PERCENT,
+  accountOf, billingPortal, BOOKING_FEE_CAP_BOOKINGS, BOOKING_FEE_CAP_NET_CENTS, BOOKING_FEE_NET_CENTS, BOOKING_FEE_NO_SHOW_HOURS,
+  bookingFeeOf, connectDashboard, connectOnboarding, connectStatus, gross, PAYMENT_KIND_LABEL, PLAN_STATUS_LABEL, PLANS, SELLS_DIGITAL,
+  sponsor, SPONSOR_DAY_OPTIONS, SPONSOR_MAX_PER_CITY, sponsorPrice, subscribe, SUBSCRIPTIONS_OFFERED, TRIAL_DAYS, COMMISSION_PERCENT,
   NO_SHOW_PLATFORM_PERCENT, type Done, type PlanKey,
 } from "@/lib/payments";
 import { Field, Notice, useAction } from "../ui";
@@ -31,6 +32,7 @@ export function monthTotals(rows: Payment[]) {
     payout: sum(guestMoney, "netCents"),
     platformFees: sum(guestMoney, "feeCents"),
     subscriptions: sum((p) => p.kind === "SUBSCRIPTION", "amountCents"),
+    bookingFees: sum((p) => p.kind === "BOOKING_FEE", "amountCents"),
     ads: sum((p) => p.kind === "SPONSORSHIP", "amountCents"),
   };
 }
@@ -56,6 +58,8 @@ export function Billing({ restaurantId: id, role }: TabProps) {
   const t = monthTotals(rows);
   const onSite = s.bills.filter((b) => b.restaurantId === id && b.status === "PAID_ON_SITE" && monthKey(b.paidAt ?? b.createdAt) === month);
   const ads = s.sponsorships.filter((x) => x.restaurantId === id && x.status === "PAID" && new Date(x.endsAt) > new Date());
+  const fee = bookingFeeOf(s, id, month);
+  const freeNow = fee.freeUntil.getTime() > Date.now();
 
   return (
     <div className="space-y-8">
@@ -72,8 +76,8 @@ export function Billing({ restaurantId: id, role }: TabProps) {
         <p className="text-sm text-cream/70">
           Damit Gäste ihre Rechnung in der App zahlen können und No-Show-Gebühren bei dir ankommen, braucht dein Restaurant ein
           Auszahlungskonto bei unserem Zahlungspartner Stripe. Stripe prüft dabei Firma, Inhaber und Bankverbindung (gesetzlich
-          vorgeschrieben). Auszahlungen kommen wöchentlich montags auf dein Konto. Firsty behält {COMMISSION_PERCENT} % Provision auf in der
-          App bezahlte Rechnungen und {NO_SHOW_PLATFORM_PERCENT} % der No-Show-Gebühren; Trinkgeld geht vollständig an euch.
+          vorgeschrieben). Auszahlungen kommen wöchentlich montags auf dein Konto. Firsty behält {COMMISSION_PERCENT} % Zahlungsgebühr auf in der
+          App bezahlte Rechnungen (deckt die Kartengebühren) und {NO_SHOW_PLATFORM_PERCENT} % der No-Show-Gebühren; Trinkgeld geht vollständig an euch.
         </p>
         {owner ? (
           <div className="flex flex-wrap gap-2">
@@ -92,8 +96,31 @@ export function Billing({ restaurantId: id, role }: TabProps) {
         )}
       </section>
 
-      {/* ---------- Abo ---------- */}
-      <section className="card space-y-4">
+      {/* ---------- Buchungsgebühr ---------- */}
+      <section className="card space-y-3" data-testid="booking-fee">
+        <div className="flex flex-wrap items-center justify-between gap-2">
+          <h2 className="font-display text-2xl uppercase tracking-wide text-cream">Buchungsgebühr</h2>
+          <span className="chip">{freeNow ? `Kostenlos bis ${fee.freeUntil.toLocaleDateString("de-DE")}` : "Aktiv"}</span>
+        </div>
+        <p className="text-sm text-cream/70">
+          Du zahlst nur für Gäste, die wirklich kommen: {euro(BOOKING_FEE_NET_CENTS)} netto pro Buchung, egal wie viele Personen und wie viel
+          Umsatz. Höchstens {euro(BOOKING_FEE_CAP_NET_CENTS)} netto im Monat, ab der {BOOKING_FEE_CAP_BOOKINGS}. Buchung ist jede weitere frei.
+          Die ersten {TRIAL_DAYS} Tage sind kostenlos. Kein Abo, keine Laufzeit.
+        </p>
+        <div className="grid gap-3 sm:grid-cols-3">
+          <Stat label={`Buchungen ${monthLabel(month)}`} value={String(fee.attended)} sub={fee.pending ? `${fee.pending} noch offen` : undefined} />
+          <Stat label="Davon berechnet" value={String(fee.billable)} sub={fee.billable < fee.attended ? "Rest in der kostenlosen Startzeit" : undefined} />
+          <Stat label="Buchungsgebühr" value={euro(fee.netCents)} sub={`netto, ${euro(gross(fee.netCents))} brutto`} strong />
+        </div>
+        <p className="text-xs text-cream/50">
+          Eine Buchung zählt, wenn ihr sie eingecheckt habt oder sie nicht bis {BOOKING_FEE_NO_SHOW_HOURS} Stunden nach Ende des Angebots als
+          „nicht erschienen“ meldet. Stornierte Buchungen und No-Shows kosten nichts. Die Rechnung kommt Anfang des Folgemonats per E-Mail
+          und ist per Karte oder SEPA-Lastschrift zahlbar; sie steht dann auch unten in der Abrechnung.
+        </p>
+      </section>
+
+      {/* ---------- Abo (zum Start nicht im Angebot) ---------- */}
+      {(SUBSCRIPTIONS_OFFERED || a.plan !== "NONE") && <section className="card space-y-4">
         <div className="flex flex-wrap items-center justify-between gap-2">
           <h2 className="font-display text-2xl uppercase tracking-wide text-cream">Abo</h2>
           <span className="chip" data-testid="plan-status">
@@ -107,10 +134,9 @@ export function Billing({ restaurantId: id, role }: TabProps) {
             {a.planStatus === "past_due" && <strong className="text-hot-soft">Die letzte Abbuchung ist fehlgeschlagen. Bitte Zahlungsart prüfen. </strong>}
           </p>
         )}
-        <p className="text-sm text-cream/60">Bis zum Start im Dezember 2026 ist Firsty für Restaurants kostenlos, ein Abo ist noch nicht nötig.</p>
         {SELLS_DIGITAL ? (
           <>
-            {(a.plan === "NONE" || ["canceled", "incomplete_expired"].includes(a.planStatus)) && (
+            {SUBSCRIPTIONS_OFFERED && (a.plan === "NONE" || ["canceled", "incomplete_expired"].includes(a.planStatus)) && (
               <div className="grid gap-3 sm:grid-cols-2">
                 {(Object.keys(PLANS) as PlanKey[]).map((k) => (
                   <div key={k} className="rounded-2xl border border-white/10 p-4">
@@ -138,7 +164,7 @@ export function Billing({ restaurantId: id, role }: TabProps) {
         ) : (
           <p className="text-sm text-cream/60">Abo und Rechnungen verwaltest du im Restaurant-Portal auf toptop.shop.</p>
         )}
-      </section>
+      </section>}
 
       {/* ---------- Werbung ---------- */}
       <section className="card space-y-3">
@@ -170,12 +196,12 @@ export function Billing({ restaurantId: id, role }: TabProps) {
         <div className="grid gap-3 sm:grid-cols-4" data-testid="totals">
           <Stat label="In der App bezahlt" value={euro(t.appRevenue)} sub={t.tips ? `davon ${euro(t.tips)} Trinkgeld` : undefined} />
           <Stat label="No-Show-Gebühren für euch" value={euro(t.noShowNet)} />
-          <Stat label="Firsty-Gebühren" value={euro(t.platformFees)} sub={`${euro(t.commission)} Provision, ${euro(t.noShowFee)} No-Show-Anteil`} />
+          <Stat label="Firsty-Gebühren" value={euro(t.platformFees)} sub={`${euro(t.commission)} Zahlungsgebühr, ${euro(t.noShowFee)} No-Show-Anteil`} />
           <Stat label="Auszahlung an euch" value={euro(t.payout)} strong />
         </div>
         {onSite.length > 0 && (
           <p className="text-sm text-cream/60">
-            Außerdem {onSite.length} {onSite.length === 1 ? "Rechnung" : "Rechnungen"} vor Ort bezahlt ({euro(onSite.reduce((n, b) => n + b.amountCents, 0))}), ohne Provision.
+            Außerdem {onSite.length} {onSite.length === 1 ? "Rechnung" : "Rechnungen"} vor Ort bezahlt ({euro(onSite.reduce((n, b) => n + b.amountCents, 0))}), ohne Zahlungsgebühr.
           </p>
         )}
         {rows.length === 0 ? (
@@ -188,7 +214,7 @@ export function Billing({ restaurantId: id, role }: TabProps) {
               </thead>
               <tbody className="divide-y divide-white/5">
                 {rows.map((p) => {
-                  const toPlatform = p.kind === "SUBSCRIPTION" || p.kind === "SPONSORSHIP";
+                  const toPlatform = p.kind === "SUBSCRIPTION" || p.kind === "SPONSORSHIP" || p.kind === "BOOKING_FEE";
                   return (
                     <tr key={p.id} className={p.status === "FAILED" ? "opacity-50" : ""}>
                       <td className="whitespace-nowrap p-2">{new Date(p.createdAt).toLocaleDateString("de-DE")}</td>
@@ -210,8 +236,8 @@ export function Billing({ restaurantId: id, role }: TabProps) {
           <button className="btn-secondary" onClick={() => exportCsv(r.name, month, rows)}>Als CSV exportieren</button>
         </div>
         <p className="text-xs text-cream/50">
-          Abo und Werbeplätze stellt Firsty mit eigener Rechnung (Link in der Tabelle). Provision und No-Show-Anteil weist die
-          Monatsabrechnung aus. Einzelne Zahlungen und Auszahlungen siehst du auch im Stripe-Dashboard.
+          Buchungsgebühr und Werbeplätze stellt Firsty mit eigener Rechnung (Link in der Tabelle). Zahlungsgebühr und No-Show-Anteil weist
+          die Monatsabrechnung aus. Einzelne Zahlungen und Auszahlungen siehst du auch im Stripe-Dashboard.
         </p>
       </section>
     </div>

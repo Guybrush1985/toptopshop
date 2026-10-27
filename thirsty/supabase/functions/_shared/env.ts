@@ -2,6 +2,7 @@
 //   STRIPE_SECRET_KEY              sk_test_… (Testmodus) bzw. sk_live_…
 //   STRIPE_WEBHOOK_SECRET          whsec_… des Webhooks für Ereignisse des eigenen Kontos
 //   STRIPE_CONNECT_WEBHOOK_SECRET  whsec_… des Webhooks für Ereignisse verbundener Konten (optional)
+//   FIRSTY_CRON_SECRET             langes Zufallswort für den monatlichen Cron-Aufruf (Buchungsgebühr abrechnen)
 // Von Supabase automatisch gesetzt: SUPABASE_URL, SUPABASE_ANON_KEY, SUPABASE_DB_URL.
 
 export const env = (k: string) => Deno.env.get(k) ?? "";
