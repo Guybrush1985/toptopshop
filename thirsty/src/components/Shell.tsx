@@ -105,7 +105,7 @@ function Footer() {
         <Link href="/impressum/" className="hover:text-lime">Impressum</Link>
         <Link href="/datenschutz/" className="hover:text-lime">Datenschutz</Link>
       </div>
-      <p aria-hidden className="display pointer-events-none select-none whitespace-nowrap px-3 pb-2 pt-6 text-center text-[22vw] leading-[.8] text-white/[.04]">
+      <p aria-hidden className="display pointer-events-none select-none whitespace-nowrap px-3 pb-4 pt-4 text-center text-5xl leading-none sm:text-6xl text-white/[.04]">
         Firsty
       </p>
     </footer>
