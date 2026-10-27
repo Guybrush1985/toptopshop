@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { usePathname, useRouter } from "next/navigation";
+import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import { Suspense, useEffect, useState, type ReactNode } from "react";
 import { useCurrentUser, useStore } from "@/lib/store";
 import { logout } from "@/lib/actions";
@@ -16,23 +16,37 @@ const FULL_BLEED = ["/", "/restaurant/"];
 /** Rahmen der App. Rendert erst im Browser, weil die Daten im Browser geladen werden (Local Storage oder Supabase). */
 export function Shell({ children }: { children: ReactNode }) {
   const [mounted, setMounted] = useState(false);
+  const [banner, setBanner] = useState(true);
   const path = usePathname();
   const router = useRouter();
   const bleed = FULL_BLEED.includes(path.endsWith("/") ? path : path + "/");
   useEffect(() => {
     if (REMOTE) startRemote();
+    try {
+      if (localStorage.getItem("firsty-banner") === "zu") setBanner(false);
+    } catch {}
     setMounted(true);
     if (APP) void startNative((p) => router.push(p));
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
   return (
     <div className={`grain relative min-h-screen overflow-x-clip ${APP ? "pb-[calc(4.5rem+env(safe-area-inset-bottom))]" : ""}`}>
-      {!APP && (
-        <div className="relative z-30 bg-lime px-4 py-1.5 text-center text-[11px] font-semibold uppercase tracking-[.18em] text-ink">
-          {REMOTE ? "Firsty geht im Dezember 2026 live · Bis dahin Testphase, mit „Beispiel“ markierte Restaurants sind erfunden" : "Firsty geht im Dezember 2026 live · Vorschau, Daten liegen nur in diesem Browser"}{" "}
-          <Link href="/hinweise/" className="underline decoration-2 underline-offset-2">Mehr</Link>
-        </div>
-      )}
-      {mounted ? <Header /> : <div className="h-[68px]" />}
+      {banner && !APP && <div className="relative z-30 bg-lime py-1.5 pl-4 pr-10 text-center text-[11px] font-semibold uppercase tracking-[.18em] text-ink">
+        {REMOTE ? "Firsty geht im Dezember 2026 live · Bis dahin Testphase, mit „Beispiel“ markierte Restaurants sind erfunden" : "Firsty geht im Dezember 2026 live · Vorschau, Daten liegen nur in diesem Browser"}{" "}
+        <Link href="/hinweise/" className="underline decoration-2 underline-offset-2">Mehr</Link>
+        <button
+          aria-label="Hinweis schließen"
+          onClick={() => {
+            setBanner(false);
+            try {
+              localStorage.setItem("firsty-banner", "zu");
+            } catch {}
+          }}
+          className="absolute right-2 top-1/2 grid h-7 w-7 -translate-y-1/2 place-items-center rounded-full text-base leading-none hover:bg-ink/10"
+        >
+          ×
+        </button>
+      </div>}
+      {mounted ? <Suspense fallback={<div className="h-[68px]" />}><Header /></Suspense> : <div className="h-[68px]" />}
       <main className={bleed ? "" : "mx-auto max-w-5xl px-5 pb-20 pt-10"}>
         {mounted ? <Ready><Suspense fallback={<Loading />}>{children}</Suspense></Ready> : <Loading />}
       </main>
@@ -108,7 +122,13 @@ function Header() {
   const user = useCurrentUser();
   const s = useStore();
   const router = useRouter();
+  const path = usePathname();
+  const params = useSearchParams();
   const isMember = !!user && s.members.some((m) => m.userId === user.id);
+  const isGuest = !!user && user.role !== "OWNER" && !isMember;
+  // Nach Anmeldung oder Registrierung zurück dorthin, wo man war
+  const here = path + (params.toString() ? `?${params}` : "");
+  const back = ["/login/", "/registrieren/"].includes(path) ? "" : `?weiter=${encodeURIComponent(here)}`;
   const link = "rounded-full px-3 py-1.5 text-cream/80 transition hover:bg-white/10 hover:text-cream";
   return (
     <header className={`sticky top-0 z-20 border-b border-white/[.06] bg-ink/70 backdrop-blur-xl ${APP ? "pt-[env(safe-area-inset-top)]" : ""}`}>
@@ -117,24 +137,32 @@ function Header() {
           Firsty<span className="inline-block h-2.5 w-2.5 rounded-full bg-lime transition group-hover:scale-150" />
         </Link>
         <div className="ml-auto flex flex-wrap items-center justify-end gap-1 text-sm font-medium">
-          <Link href="/" className={`${link} hidden sm:inline-block`}>Entdecken</Link>
+          {!(user && !isGuest) && <Link href="/" className={`${link} hidden sm:inline-block`}>Entdecken</Link>}
           {/* In der App übernimmt die Tab-Leiste unten Buchungen und Portal. */}
-          {!APP && user && <Link href="/konto/" className={link}>Buchungen</Link>}
           {!APP && (isMember || user?.role === "OWNER") && <Link href="/portal/" className={link}>Portal</Link>}
           {user ? (
-            <button
-              onClick={async () => {
-                await logout();
-                router.push("/");
-              }}
-              className={`${link} text-cream/50`}
-            >
-              Abmelden
-            </button>
+            <>
+              <Link href={isGuest ? "/konto/" : "/portal/"} className="ml-1 flex items-center gap-2 rounded-full border border-white/10 bg-white/[.04] py-1 pl-1 pr-3 text-cream hover:border-lime/60" title="Dein Profil">
+                <span className="relative grid h-8 w-8 place-items-center rounded-full bg-lime font-display text-lg uppercase text-ink">
+                  {user.name.trim()[0] ?? "?"}
+                  <span className="absolute -bottom-0.5 -right-0.5 h-3 w-3 rounded-full border-2 border-ink bg-[#22c55e]" aria-label="angemeldet" />
+                </span>
+                <span className="hidden sm:inline">{user.name.split(" ")[0]}</span>
+              </Link>
+              <button
+                onClick={async () => {
+                  await logout();
+                  router.push("/");
+                }}
+                className={`${link} text-cream/50`}
+              >
+                Abmelden
+              </button>
+            </>
           ) : (
             <>
-              {!APP && <Link href="/login/" className={link}>Anmelden</Link>}
-              <Link href="/registrieren/" className="btn ml-1 px-4 py-2">Registrieren</Link>
+              {!APP && <Link href={`/login/${back}`} className={link}>Anmelden</Link>}
+              <Link href={`/registrieren/${back}`} className="btn ml-1 px-4 py-2">Registrieren</Link>
             </>
           )}
         </div>

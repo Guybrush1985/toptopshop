@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
 import { register } from "@/lib/actions";
 import { Field, Notice, PageTitle, formValues, useAction } from "@/components/ui";
+import { SocialLogin } from "@/components/SocialLogin";
 
 export default function RegisterPage() {
   const router = useRouter();
@@ -20,6 +21,7 @@ export default function RegisterPage() {
         <Link href="/registrieren/" className={`rounded-lg px-3 py-2 text-center ${!owner ? "bg-lime font-semibold text-ink" : "text-stone-600"}`}>Ich bin Gast</Link>
         <Link href="/registrieren/?rolle=restaurant" className={`rounded-lg px-3 py-2 text-center ${owner ? "bg-lime font-semibold text-ink" : "text-stone-600"}`}>Ich habe ein Restaurant</Link>
       </div>
+      {!owner && <SocialLogin next={next} />}
       <Notice error={error} />
       <form
         onSubmit={async (e) => {
@@ -40,7 +42,7 @@ export default function RegisterPage() {
         <button className="btn w-full" disabled={busy}>Konto erstellen</button>
       </form>
       <p className="mt-4 text-sm text-stone-600">
-        Schon dabei? <Link href="/login/" className="font-medium text-brand-700 underline">Anmelden</Link>
+        Schon dabei? <Link href={`/login/${next ? `?weiter=${encodeURIComponent(next)}` : ""}`} className="font-medium text-brand-700 underline">Anmelden</Link>
       </p>
     </div>
   );

@@ -38,6 +38,17 @@ export function memberRole(s: State, userId: string | undefined, restaurantId: s
   return s.members.find((m) => m.userId === userId && m.restaurantId === restaurantId)?.role ?? null;
 }
 
+/** Restaurant-Konten (Inhaber oder Team) buchen und merken nicht; das geht nur als Gast. */
+export function isRestaurantAccount(s: State, user: { id: string; role: string } | null | undefined) {
+  return !!user && (user.role === "OWNER" || s.members.some((m) => m.userId === user.id));
+}
+
+function guestOnly() {
+  const s = getState();
+  const u = s.users.find((x) => x.id === s.sessionUserId);
+  if (isRestaurantAccount(s, u)) fail("Mit einem Restaurant-Konto kannst du nicht buchen oder Restaurants merken. Melde dich dafür als Gast an.");
+}
+
 function requireMember(restaurantId: string, roles: MemberRole[] = ["OWNER", "MANAGER", "STAFF"]) {
   const user = me();
   const role = memberRole(getState(), user.id, restaurantId);
@@ -65,6 +76,11 @@ export async function register(input: { name: string; email: string; password: s
     s.users.push({ id, name, email, passwordHash, role: input.role, createdAt: new Date().toISOString() });
     s.sessionUserId = id;
   });
+}
+
+export async function loginWith(provider: "google" | "apple", next?: string) {
+  if (!REMOTE) fail("Anmeldung mit Google oder Apple gibt es nur im Live-Betrieb.");
+  return R.loginWith(provider, next);
 }
 
 export async function login(emailRaw: string, password: string) {
@@ -100,6 +116,7 @@ export function seatsTaken(s: State, spotId: string) {
 }
 
 export async function bookSpot(spotId: string, partySize: number): Promise<Booking> {
+  guestOnly();
   if (REMOTE) return R.bookSpot(spotId, partySize);
   const user = me();
   const s = getState();
@@ -177,6 +194,7 @@ export async function submitReview(bookingId: string, input: { rating: number; f
 }
 
 export async function toggleFavorite(restaurantId: string) {
+  guestOnly();
   if (REMOTE) return R.toggleFavorite(restaurantId);
   const user = me();
   save((d) => {
@@ -326,6 +344,7 @@ export async function deleteMenuItem(itemId: string) {
 export async function createSpots(restaurantId: string, input: {
   date: string; start: string; end: string; repeatWeeks: number; seats: number; maxGroupSize: number;
   discountPercent: number; freebie: string; conditions: string; bookingCutoffMin: number; noShowProtection?: boolean;
+  arriveWithinMin: number; maxDiscountEuro: number;
 }) {
   requireMember(restaurantId, ["OWNER", "MANAGER"]);
   if (!/^\d{4}-\d{2}-\d{2}$/.test(input.date) || !/^\d{2}:\d{2}$/.test(input.start) || !/^\d{2}:\d{2}$/.test(input.end)) {
@@ -334,6 +353,9 @@ export async function createSpots(restaurantId: string, input: {
   if (!(input.seats >= 1 && input.seats <= 100)) fail("Das Kontingent muss zwischen 1 und 100 Plätzen liegen.");
   if (![0, 25, 50, 75].includes(input.discountPercent)) fail("Der Rabatt muss 25, 50 oder 75 % betragen.");
   if (!input.discountPercent && !input.freebie.trim()) fail("Bitte wähle ein Angebot aus.");
+  if (!(input.arriveWithinMin >= 0 && input.arriveWithinMin <= 180)) fail("Die Ankunftszeit muss zwischen Beginn und 3 Stunden danach liegen.");
+  const maxDiscount = input.discountPercent && input.maxDiscountEuro ? Math.round(input.maxDiscountEuro * 100) : undefined;
+  if (maxDiscount != null && !(maxDiscount >= 100 && maxDiscount <= 5000)) fail("Der Höchstrabatt muss zwischen 1 und 50 Euro liegen.");
   const start = berlinDate(input.date, input.start);
   const end = berlinDate(input.date, input.end);
   if (end <= start) fail("Das Ende muss nach dem Beginn liegen.");
@@ -345,7 +367,8 @@ export async function createSpots(restaurantId: string, input: {
     endsAt: new Date(end.getTime() + w * 7 * 864e5).toISOString(),
     seats: input.seats, maxGroupSize: Math.min(8, Math.max(1, input.maxGroupSize)),
     discountPercent: input.discountPercent, freebie: input.freebie.trim() || undefined,
-    conditions: input.conditions.trim() || undefined, bookingCutoffMin: Math.max(0, input.bookingCutoffMin), status: "OPEN",
+    conditions: input.conditions.trim() || undefined, bookingCutoffMin: Math.max(0, input.bookingCutoffMin),
+    arriveWithinMin: input.arriveWithinMin, maxDiscountCents: maxDiscount, status: "OPEN",
     noShowProtection: !!input.noShowProtection,
   }));
   if (input.noShowProtection && !getState().accounts.find((a) => a.restaurantId === restaurantId)?.chargesEnabled) {
@@ -355,6 +378,7 @@ export async function createSpots(restaurantId: string, input: {
     await R.createSpots(spots.map((x) => ({
       restaurant_id: restaurantId, starts_at: x.startsAt, ends_at: x.endsAt, seats: x.seats, max_group_size: x.maxGroupSize,
       discount_percent: x.discountPercent, freebie: x.freebie ?? null, conditions: x.conditions ?? null, booking_cutoff_min: x.bookingCutoffMin,
+      arrive_within_min: x.arriveWithinMin, max_discount_cents: x.maxDiscountCents ?? null,
       no_show_protection: !!x.noShowProtection,
     })));
     return weeks;

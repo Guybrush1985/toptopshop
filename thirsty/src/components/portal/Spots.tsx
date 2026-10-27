@@ -5,7 +5,7 @@ import { useStore } from "@/lib/store";
 import { cancelSpot, createSpots, seatsTaken } from "@/lib/actions";
 import { Field, Notice, formValues, useAction } from "../ui";
 import { dateKey, day, time } from "@/lib/format";
-import { OFFER_KINDS, offerKind, offerOf } from "@/lib/offer";
+import { offerOf } from "@/lib/offer";
 import type { TabProps } from "./types";
 import { accountOf, NO_SHOW_FEE_CENTS_PER_PERSON } from "@/lib/payments";
 import { euro } from "@/lib/format";
@@ -50,69 +50,110 @@ export function Spots({ restaurantId: id }: TabProps) {
         <p className="text-xs text-stone-500">Absagen kurz vor Beginn verärgern gebuchte Gäste und senken später dein Ranking. Lieber das Kontingent knapp planen.</p>
       </section>
 
-      <form
-        className="card h-fit space-y-3"
-        onSubmit={async (e) => {
-          const f = formValues(e);
-          const o = offerKind(f.get("offer"));
-          setCreated(undefined);
-          const n = await run(() =>
-            createSpots(id, {
-              date: f.get("date"), start: f.get("start"), end: f.get("end"), repeatWeeks: f.num("repeatWeeks"),
-              seats: f.num("seats"), maxGroupSize: f.num("maxGroupSize"), discountPercent: o.discountPercent,
-              freebie: o.freebie ?? "", conditions: f.get("conditions"), bookingCutoffMin: f.num("bookingCutoffMin"),
-              noShowProtection: f.get("noShowProtection") === "on",
-            }));
-          if (n) setCreated(n);
-        }}
-      >
-        <h2 className="font-display text-2xl uppercase tracking-wide text-cream">Neues Angebot</h2>
-        <Notice error={error} />
-        <Field label="Datum"><input className="input" type="date" name="date" defaultValue={dateKey(new Date())} required /></Field>
-        <div className="grid grid-cols-2 gap-3">
-          <Field label="Von"><input className="input" type="time" name="start" defaultValue="17:30" required /></Field>
-          <Field label="Bis" hint="Bis dahin gilt der Rabatt."><input className="input" type="time" name="end" defaultValue="19:00" required /></Field>
-        </div>
-        <div className="grid grid-cols-2 gap-3">
-          <Field label="Plätze"><input className="input" type="number" name="seats" min={1} max={100} defaultValue={8} required /></Field>
-          <Field label="Max. pro Buchung"><input className="input" type="number" name="maxGroupSize" min={1} max={8} defaultValue={4} /></Field>
-        </div>
-        <fieldset>
-          <legend className="label">Angebot für die ersten Gäste</legend>
-          <div className="grid grid-cols-2 gap-2">
-            {OFFER_KINDS.map((o, i) => {
-              const v = offerOf(o);
-              return (
-                <label key={o.kind} className={`cursor-pointer ${i === 0 ? "col-span-2" : ""}`}>
-                  <input type="radio" name="offer" value={o.kind} defaultChecked={i === 0} className="peer sr-only" />
-                  <span className={`flex items-baseline gap-2 rounded-2xl border-2 border-white/10 px-4 py-3 text-cream transition peer-checked:border-transparent peer-focus-visible:ring-2 peer-focus-visible:ring-lime ${v.tone === "hot" ? "peer-checked:bg-hot" : v.tone === "pink" ? "peer-checked:bg-pink" : "peer-checked:bg-lime"} peer-checked:text-ink hover:border-white/30`}>
-                    <span className="font-display text-2xl uppercase leading-none">{v.big}</span>
-                    <span className="text-sm font-semibold">{v.small}</span>
-                  </span>
-                </label>
-              );
-            })}
-          </div>
-        </fieldset>
-        <Field label="Bedingungen" hint="z. B. ein Hauptgericht pro Person, Spirituosen ausgenommen"><input className="input" name="conditions" /></Field>
-        <div className="grid grid-cols-2 gap-3">
-          <Field label="Wiederholen" hint="Gleicher Wochentag">
-            <select className="input" name="repeatWeeks" defaultValue={1}>
-              {[1, 2, 4, 8, 12].map((w) => <option key={w} value={w}>{w === 1 ? "einmalig" : `${w} Wochen`}</option>)}
-            </select>
-          </Field>
-          <Field label="Buchbar bis" hint="Minuten vor Beginn"><input className="input" type="number" name="bookingCutoffMin" min={0} defaultValue={30} /></Field>
-        </div>
-        <label className={`flex items-start gap-2 text-sm ${canProtect ? "text-cream" : "text-cream/50"}`}>
-          <input type="checkbox" name="noShowProtection" disabled={!canProtect} className="mt-1" />
-          <span>
-            No-Show-Schutz: Gäste hinterlegen eine Karte. Erscheinen sie nicht, werden {euro(NO_SHOW_FEE_CENTS_PER_PERSON)} pro Person belastet,
-            davon gehen 70 % an dich.
-            {!canProtect && <> Dafür zuerst <Link className="underline" href={`/portal/restaurant/?id=${id}&tab=abrechnung`}>Auszahlungen einrichten</Link>.</>}
-          </span>
-        </label>
-        <button className="btn w-full">Ausschreiben</button>
-      </form>
+      <SpotForm restaurantId={id} onCreated={setCreated} canProtect={canProtect} />
     </div>
   );
+}
+
+const PCTS = [25, 50, 75];
+
+function SpotForm({ restaurantId: id, onCreated, canProtect }: { restaurantId: string; onCreated: (n: number | undefined) => void; canProtect: boolean }) {
+  const { error, run } = useAction();
+  const [kind, setKind] = useState<"PCT" | "DRINK" | "DESSERT">("PCT");
+  const [pct, setPct] = useState(1);
+  const [start, setStart] = useState("17:30");
+  // Heute nur, wenn der Abend noch nicht angefangen hat
+  const today = new Date().toLocaleTimeString("de-DE", { hour: "2-digit", minute: "2-digit", timeZone: "Europe/Berlin" }) < "16:30";
+  const tone = kind === "DESSERT" ? "bg-pink" : kind === "DRINK" ? "bg-lime" : PCTS[pct] >= 50 ? "bg-hot" : "bg-lime";
+  return (
+    <form
+      className="card h-fit space-y-3"
+      onSubmit={async (e) => {
+        const f = formValues(e);
+        const [sh, sm] = f.get("start").split(":").map(Number);
+        const [ah, am] = f.get("arriveBy").split(":").map(Number);
+        onCreated(undefined);
+        const n = await run(() =>
+          createSpots(id, {
+            date: f.get("date"), start: f.get("start"), end: f.get("end"), repeatWeeks: f.num("repeatWeeks"),
+            seats: f.num("seats"), maxGroupSize: f.num("maxGroupSize"),
+            discountPercent: kind === "PCT" ? PCTS[pct] : 0,
+            freebie: kind === "DRINK" ? "Gratis-Getränk" : kind === "DESSERT" ? "Gratis-Dessert" : "",
+            conditions: f.get("conditions"), bookingCutoffMin: f.num("bookingCutoffMin"),
+            arriveWithinMin: ah * 60 + am - (sh * 60 + sm),
+            maxDiscountEuro: kind === "PCT" ? f.num("maxDiscountEuro") : 0,
+            noShowProtection: f.get("noShowProtection") === "on",
+          }));
+        if (n) onCreated(n);
+      }}
+    >
+      <h2 className="font-display text-2xl uppercase tracking-wide text-cream">Neues Angebot</h2>
+      <Notice error={error} />
+      <Field label="Datum"><input className="input" type="date" name="date" defaultValue={dateKey(new Date(Date.now() + (today ? 0 : 864e5)))} required /></Field>
+      <div className="grid grid-cols-2 gap-3">
+        <Field label="Von"><input className="input" type="time" name="start" value={start} onChange={(e) => setStart(e.target.value)} required /></Field>
+        <Field label="Bis" hint="Bis dahin gilt das Angebot."><input className="input" type="time" name="end" defaultValue="19:00" required /></Field>
+      </div>
+      <Field label="Gäste müssen da sein bis" hint="Wer später kommt, bekommt das Angebot nicht.">
+        <input className="input" type="time" name="arriveBy" key={start} defaultValue={addMinutes(start, 15)} required />
+      </Field>
+      <div className="grid grid-cols-2 gap-3">
+        <Field label="Plätze"><input className="input" type="number" name="seats" min={1} max={100} defaultValue={8} required /></Field>
+        <Field label="Max. pro Buchung"><input className="input" type="number" name="maxGroupSize" min={1} max={8} defaultValue={4} /></Field>
+      </div>
+      <fieldset>
+        <legend className="label">Angebot für die ersten Gäste</legend>
+        <div className="grid grid-cols-3 gap-2">
+          {([["PCT", "Rabatt"], ["DRINK", "Gratis-Getränk"], ["DESSERT", "Gratis-Dessert"]] as const).map(([k, label]) => (
+            <button
+              key={k}
+              type="button"
+              aria-pressed={kind === k}
+              onClick={() => setKind(k)}
+              className={`rounded-2xl border-2 px-2 py-3 text-sm font-semibold transition ${kind === k ? `border-transparent ${tone} text-ink` : "border-white/10 text-cream hover:border-white/30"}`}
+            >
+              {label}
+            </button>
+          ))}
+        </div>
+      </fieldset>
+      {kind === "PCT" && (
+        <div className="space-y-3 rounded-2xl border border-white/10 p-4">
+          <label className="block">
+            <span className="label">Rabatt auf alles</span>
+            <span className={`mb-2 inline-block rounded-full px-3 py-1 font-display text-3xl leading-none text-ink ${tone}`}>−{PCTS[pct]} %</span>
+            <input type="range" min={0} max={2} step={1} value={pct} onChange={(e) => setPct(Number(e.target.value))} className="w-full accent-[#d4ff3a]" aria-valuetext={`${PCTS[pct]} Prozent`} />
+            <span className="flex justify-between text-xs text-cream/50">{PCTS.map((p) => <span key={p}>{p} %</span>)}</span>
+          </label>
+          <Field label="Höchstrabatt pro Buchung (€)" hint="Leer lassen für ohne Grenze. Höchstens 50 €.">
+            <input className="input" type="number" name="maxDiscountEuro" min={1} max={50} step={1} defaultValue={50} />
+          </Field>
+        </div>
+      )}
+      <Field label="Bedingungen" hint="z. B. ein Hauptgericht pro Person, Spirituosen ausgenommen"><input className="input" name="conditions" /></Field>
+      <div className="grid grid-cols-2 gap-3">
+        <Field label="Wiederholen" hint="Gleicher Wochentag">
+          <select className="input" name="repeatWeeks" defaultValue={1}>
+            {[1, 2, 4, 8, 12].map((w) => <option key={w} value={w}>{w === 1 ? "einmalig" : `${w} Wochen`}</option>)}
+          </select>
+        </Field>
+        <Field label="Buchbar bis" hint="Minuten vor Beginn"><input className="input" type="number" name="bookingCutoffMin" min={0} defaultValue={30} /></Field>
+      </div>
+      <label className={`flex items-start gap-2 text-sm ${canProtect ? "text-cream" : "text-cream/50"}`}>
+        <input type="checkbox" name="noShowProtection" disabled={!canProtect} className="mt-1" />
+        <span>
+          No-Show-Schutz: Gäste hinterlegen eine Karte. Erscheinen sie nicht, werden {euro(NO_SHOW_FEE_CENTS_PER_PERSON)} pro Person belastet,
+          davon gehen 70 % an dich.
+          {!canProtect && <> Dafür zuerst <Link className="underline" href={`/portal/restaurant/?id=${id}&tab=abrechnung`}>Auszahlungen einrichten</Link>.</>}
+        </span>
+      </label>
+      <button className="btn w-full">Ausschreiben</button>
+    </form>
+  );
+}
+
+function addMinutes(hhmm: string, min: number) {
+  const [h, m] = hhmm.split(":").map(Number);
+  const t = (h * 60 + m + min) % 1440;
+  return `${String(Math.floor(t / 60)).padStart(2, "0")}:${String(t % 60).padStart(2, "0")}`;
 }

@@ -7,7 +7,7 @@ import { reliabilityOf, TIER_LABEL } from "@/lib/reliability";
 import { updateProfile } from "@/lib/actions";
 import { RequireUser } from "@/components/Shell";
 import { Field, Notice, PageTitle, formValues, useAction } from "@/components/ui";
-import { BOOKING_STATUS, day, time } from "@/lib/format";
+import { BOOKING_STATUS, PRICE_LEVELS, day, euro, time } from "@/lib/format";
 import { DeleteAccount, GuestPayments } from "@/components/GuestPayments";
 
 const TIER_STYLE = {
@@ -36,11 +36,25 @@ function Konto() {
     .sort((a, b) => b.spot.startsAt.localeCompare(a.spot.startsAt));
   const upcoming = bookings.filter((b) => b.status === "BOOKED" && new Date(b.spot.endsAt) > new Date()).reverse();
   const past = bookings.filter((b) => !upcoming.includes(b));
+  const visits = bookings.filter((b) => b.status === "CHECKED_IN");
+  const savedCents = visits.reduce((sum, b) => sum + estimateSaving(b.spot, b.restaurant.priceLevel, b.partySize), 0);
+  const myReviews = s.reviews
+    .filter((v) => bookings.some((b) => b.id === v.bookingId))
+    .map((v) => ({ ...v, r: s.restaurants.find((x) => x.id === v.restaurantId) }))
+    .sort((a, b) => b.createdAt.localeCompare(a.createdAt));
   const favorites = s.favorites.filter((f) => f.userId === user.id).map((f) => s.restaurants.find((r) => r.id === f.restaurantId)!).filter(Boolean);
 
   return (
     <div className="space-y-8">
       <PageTitle sub={user.email}>Hallo {user.name.split(" ")[0]}</PageTitle>
+
+      <section className="card flex flex-wrap items-center gap-4 border-lime/30">
+        <div className="flex-1">
+          <p className="text-sm text-cream/60">Schon gespart mit Firsty</p>
+          <p className="display text-6xl text-lime" data-testid="saved">{euro(savedCents)}</p>
+          <p className="text-xs text-cream/50">Geschätzt aus {visits.length} {visits.length === 1 ? "Besuch" : "Besuchen"}: Rabatt auf einen typischen Hauptgang je Person (laut Preisniveau, höchstens bis zum Rabatt-Limit), Gratis-Getränk 4 €, Gratis-Dessert 7 €.</p>
+        </div>
+      </section>
 
       <section className="grid gap-4 sm:grid-cols-2">
         <div className="card">
@@ -119,15 +133,46 @@ function Konto() {
 
       <GuestPayments user={user} />
 
-      {favorites.length > 0 && (
-        <section>
-          <h2 className="mb-3 display text-3xl text-cream">Gemerkte Restaurants</h2>
+      <section>
+        <h2 className="mb-3 display text-3xl text-cream">Merkliste</h2>
+        {favorites.length === 0 ? (
+          <p className="card text-stone-600">Noch nichts gemerkt. Auf einer Restaurantseite kannst du es mit „Merken“ hier ablegen.</p>
+        ) : (
           <div className="flex flex-wrap gap-2">
             {favorites.map((r) => <Link key={r.id} href={`/restaurant/?s=${r.slug}`} className="btn-secondary">{r.name}</Link>)}
           </div>
-        </section>
-      )}
+        )}
+      </section>
+
+      <section>
+        <h2 className="mb-3 display text-3xl text-cream">Meine Bewertungen</h2>
+        {myReviews.length === 0 ? (
+          <p className="card text-stone-600">Noch keine Bewertungen. Nach einem Besuch kannst du in der Buchung bewerten.</p>
+        ) : (
+          <ul className="space-y-2">
+            {myReviews.map((v) => (
+              <li key={v.id} className="card py-3">
+                <p className="font-semibold">{v.r ? <Link href={`/restaurant/?s=${v.r.slug}`} className="underline">{v.r.name}</Link> : "Restaurant"} · {"★".repeat(v.rating)}{"☆".repeat(5 - v.rating)}</p>
+                {v.text && <p className="text-sm text-cream/80">{v.text}</p>}
+                {v.reply && <p className="mt-1 text-sm text-cream/60">Antwort: {v.reply}</p>}
+              </li>
+            ))}
+          </ul>
+        )}
+      </section>
       <DeleteAccount />
     </div>
   );
+}
+
+/** Grobe Schätzung der Ersparnis eines Besuchs in Cent */
+function estimateSaving(spot: { discountPercent: number; freebie?: string; maxDiscountCents?: number }, priceLevel: number, party: number) {
+  if (spot.discountPercent > 0) {
+    const main = (PRICE_LEVELS.find((p) => p.level === priceLevel)?.avgEuro ?? 22) * 100;
+    const off = Math.round((main * spot.discountPercent) / 100) * party;
+    return spot.maxDiscountCents ? Math.min(off, spot.maxDiscountCents) : off;
+  }
+  if (/dessert/i.test(spot.freebie ?? "")) return 700 * party;
+  if (spot.freebie) return 400 * party;
+  return 0;
 }

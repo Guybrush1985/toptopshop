@@ -6,11 +6,19 @@ import { login } from "@/lib/actions";
 import { DEMO_LOGINS } from "@/lib/store";
 import { REMOTE } from "@/lib/config";
 import { Field, Notice, PageTitle, formValues, useAction } from "@/components/ui";
+import { SocialLogin } from "@/components/SocialLogin";
+import { useCurrentUser } from "@/lib/store";
+import { useEffect } from "react";
 
 export default function LoginPage() {
   const router = useRouter();
   const next = useSearchParams().get("weiter");
   const { error, busy, run } = useAction();
+  const me = useCurrentUser();
+  // Zurück von Google/Apple: angemeldet, also weiter zum Ziel
+  useEffect(() => {
+    if (me) router.replace(next?.startsWith("/") ? next : me.role === "OWNER" ? "/portal/" : "/");
+  }, [me]); // eslint-disable-line react-hooks/exhaustive-deps
   const go = async (email: string, password: string) => {
     const user = await run(() => login(email, password));
     if (user) router.push(next?.startsWith("/") ? next : user.role === "OWNER" ? "/portal/" : "/");
@@ -18,6 +26,7 @@ export default function LoginPage() {
   return (
     <div className="mx-auto max-w-md">
       <PageTitle>Anmelden</PageTitle>
+      <SocialLogin next={next} />
       <Notice error={error} />
       <form
         onSubmit={(e) => {
@@ -40,7 +49,7 @@ export default function LoginPage() {
         <p className="text-xs text-stone-600">Tipp: Als Gast buchen, abmelden, als Restaurant einchecken. Beides funktioniert in diesem Browser.</p>
       </div>}
       <p className="mt-4 text-sm text-stone-600">
-        Noch kein Konto? <Link href="/registrieren/" className="font-medium text-brand-700 underline">Registrieren</Link>
+        Noch kein Konto? <Link href={`/registrieren/${next ? `?weiter=${encodeURIComponent(next)}` : ""}`} className="font-medium text-brand-700 underline">Registrieren</Link>
         {REMOTE && <> · <Link href="/passwort/" className="underline">Passwort vergessen?</Link></>}
       </p>
     </div>

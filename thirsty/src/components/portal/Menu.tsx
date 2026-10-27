@@ -1,6 +1,8 @@
 "use client";
 
+import { useState } from "react";
 import { useStore } from "@/lib/store";
+import { aiReadMenu, type AiMenuItem } from "@/lib/ai";
 import { addMenuItem, deleteMenuItem } from "@/lib/actions";
 import { Field, Notice, formValues, useAction } from "../ui";
 import { euro } from "@/lib/format";
@@ -33,6 +35,8 @@ export function Menu({ restaurantId: id }: TabProps) {
           </section>
         ))}
       </div>
+      <div className="space-y-6">
+      <MenuImport restaurantId={id} />
       <form
         className="card h-fit space-y-3"
         onSubmit={async (e) => {
@@ -66,6 +70,71 @@ export function Menu({ restaurantId: id }: TabProps) {
         </div>
         <button className="btn w-full">Hinzufügen</button>
       </form>
+      </div>
+    </div>
+  );
+}
+
+function MenuImport({ restaurantId: id }: { restaurantId: string }) {
+  const { error, run, busy } = useAction();
+  const [file, setFile] = useState<File>();
+  const [items, setItems] = useState<(AiMenuItem & { on: boolean })[]>();
+  const [done, setDone] = useState<string>();
+  return (
+    <div className="card space-y-3">
+      <h2 className="font-display text-2xl uppercase tracking-wide text-cream">Karte hochladen</h2>
+      <p className="text-sm text-cream/70">PDF oder Foto deiner Speisekarte. Die KI liest Gerichte und Preise aus, du prüfst sie vor dem Übernehmen.</p>
+      <Notice error={error} success={done} />
+      <input className="input" type="file" accept="application/pdf,image/jpeg,image/png,image/webp" onChange={(e) => { setFile(e.target.files?.[0]); setItems(undefined); setDone(undefined); }} />
+      <button
+        type="button"
+        className="btn w-full"
+        disabled={!file || busy}
+        onClick={async () => {
+          const r = await run(() => aiReadMenu(file!));
+          if (r) setItems(r.map((i) => ({ ...i, on: true })));
+        }}
+      >
+        {busy && !items ? "Liest Karte …" : "Mit KI auslesen"}
+      </button>
+      {items && (
+        <>
+          {items.length === 0 && <p className="text-sm text-cream/70">Keine Gerichte erkannt. Ein schärferes Foto hilft.</p>}
+          <ul className="max-h-72 space-y-1 overflow-auto text-sm">
+            {items.map((it, n) => (
+              <li key={n}>
+                <label className="flex items-start gap-2">
+                  <input type="checkbox" checked={it.on} onChange={() => setItems(items.map((x, k) => (k === n ? { ...x, on: !x.on } : x)))} />
+                  <span className="flex-1"><span className="text-cream/50">{it.category} · </span>{it.name}</span>
+                  <span className="font-semibold">{it.price} €</span>
+                </label>
+              </li>
+            ))}
+          </ul>
+          {items.some((i) => i.on) && (
+            <button
+              type="button"
+              className="btn-secondary w-full"
+              disabled={busy}
+              onClick={async () => {
+                const pick = items.filter((i) => i.on);
+                const ok = await run(async () => {
+                  for (const i of pick) {
+                    await addMenuItem(id, {
+                      category: i.category || "Speisen", name: i.name, description: i.description ?? "",
+                      price: String(i.price).replace(/[^0-9,.]/g, ""), allergens: i.allergens ?? "", tags: [],
+                    });
+                  }
+                  return true;
+                });
+                if (ok) { setItems(undefined); setDone(`${pick.length} Gerichte übernommen.`); }
+              }}
+            >
+              {items.filter((i) => i.on).length} Gerichte übernehmen
+            </button>
+          )}
+        </>
+      )}
     </div>
   );
 }

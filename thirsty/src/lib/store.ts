@@ -36,6 +36,10 @@ export type MenuItem = {
 export type Spot = {
   id: string; restaurantId: string; startsAt: string; endsAt: string; seats: number; maxGroupSize: number;
   discountPercent: number; freebie?: string; conditions?: string; bookingCutoffMin: number;
+  /** Gäste müssen spätestens so viele Minuten nach Beginn da sein */
+  arriveWithinMin: number;
+  /** Höchstrabatt pro Buchung in Cent (nur bei Prozent-Rabatt), z. B. 5000 = 50 € */
+  maxDiscountCents?: number;
   status: "OPEN" | "CANCELLED";
   /** Gäste müssen eine Karte hinterlegen; bei No-Show wird die Gebühr belastet. */
   noShowProtection?: boolean;
@@ -557,7 +561,8 @@ function makeSpot(restaurantId: string, startsAt: string, endsAt: string, varian
   const offer = OFFER_KINDS[variant % OFFER_KINDS.length];
   return {
     id: uid(), restaurantId, startsAt, endsAt, seats: 8, maxGroupSize: 4, discountPercent: offer.discountPercent,
-    freebie: offer.freebie, conditions: "Ein Hauptgericht pro Person.", bookingCutoffMin: 30, status: "OPEN",
+    freebie: offer.freebie, conditions: "Ein Hauptgericht pro Person.", bookingCutoffMin: 30, arriveWithinMin: 15,
+    maxDiscountCents: offer.discountPercent ? 5000 : undefined, status: "OPEN",
   };
 }
 

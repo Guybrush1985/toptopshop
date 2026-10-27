@@ -10,14 +10,14 @@ export type MapPin = { id: string; lat: number; lng: number; label: string; tone
  * Stadtkarte mit Angebots-Pins (Leaflet + OpenStreetMap-Kacheln).
  * Wird erst gerendert, wenn jemand eine Stadt gewählt hat; erst dann lädt der Browser Kacheln von OpenStreetMap.
  */
-export function CityMap({ pins, selected, onSelect }: { pins: MapPin[]; selected?: string; onSelect: (id: string) => void }) {
+export function CityMap({ pins, selected, onSelect, me }: { pins: MapPin[]; selected?: string; onSelect: (id: string) => void; me?: { lat: number; lng: number; radiusKm: number } }) {
   const box = useRef<HTMLDivElement>(null);
   const map = useRef<L.Map | null>(null);
   const layer = useRef<L.LayerGroup | null>(null);
   const lib = useRef<typeof L | null>(null);
   const select = useRef(onSelect);
   select.current = onSelect;
-  const key = pins.map((p) => p.id).join(",");
+  const key = pins.map((p) => p.id).join(",") + (me ? `|${me.lat},${me.lng},${me.radiusKm}` : "");
 
   // Karte einmal anlegen
   useEffect(() => {
@@ -52,7 +52,12 @@ export function CityMap({ pins, selected, onSelect }: { pins: MapPin[]; selected
 
   function fit() {
     const m = map.current, Lf = lib.current;
-    if (!m || !Lf || !pins.length) return;
+    if (!m || !Lf) return;
+    if (me) {
+      m.fitBounds(Lf.latLng(me.lat, me.lng).toBounds(me.radiusKm * 2000), { padding: [30, 30] });
+      return;
+    }
+    if (!pins.length) return;
     if (pins.length === 1) m.setView([pins[0].lat, pins[0].lng], 15);
     else m.fitBounds(Lf.latLngBounds(pins.map((p) => [p.lat, p.lng] as [number, number])), { padding: [70, 70], maxZoom: 15 });
   }
@@ -61,6 +66,10 @@ export function CityMap({ pins, selected, onSelect }: { pins: MapPin[]; selected
     const Lf = lib.current, g = layer.current;
     if (!Lf || !g) return;
     g.clearLayers();
+    if (me) {
+      Lf.circle([me.lat, me.lng], { radius: me.radiusKm * 1000, color: "#ff4d1f", weight: 1.5, fillColor: "#ff4d1f", fillOpacity: 0.06 }).addTo(g);
+      Lf.circleMarker([me.lat, me.lng], { radius: 8, color: "#0b0b0d", weight: 3, fillColor: "#ff4d1f", fillOpacity: 1 }).bindTooltip("Du bist hier").addTo(g);
+    }
     for (const p of pins) {
       const active = p.id === selected;
       const icon = Lf.divIcon({

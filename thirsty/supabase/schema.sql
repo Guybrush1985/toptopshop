@@ -104,6 +104,8 @@ create table if not exists public.spots (
   status text not null default 'OPEN' check (status in ('OPEN', 'CANCELLED')),
   check (ends_at > starts_at)
 );
+alter table public.spots add column if not exists arrive_within_min int not null default 15 check (arrive_within_min between 0 and 180);
+alter table public.spots add column if not exists max_discount_cents int check (max_discount_cents between 100 and 5000);
 alter table public.spots add column if not exists no_show_protection boolean not null default false;
 create index if not exists spots_restaurant_starts on public.spots (restaurant_id, starts_at);
 -- Angebotsarten: 25, 50 oder 75 % auf alles, oder 0 % mit Gratis-Getränk bzw. Gratis-Dessert (Spalte freebie).
@@ -172,7 +174,7 @@ begin
   values (
     new.id,
     lower(new.email),
-    coalesce(nullif(trim(new.raw_user_meta_data ->> 'name'), ''), split_part(new.email, '@', 1)),
+    coalesce(nullif(trim(new.raw_user_meta_data ->> 'name'), ''), nullif(trim(new.raw_user_meta_data ->> 'full_name'), ''), split_part(new.email, '@', 1)),
     case when new.raw_user_meta_data ->> 'role' = 'OWNER' then 'OWNER' else 'GUEST' end
   )
   on conflict (id) do nothing;

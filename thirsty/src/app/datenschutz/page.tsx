@@ -36,6 +36,26 @@ export default function Datenschutz() {
         Angemessenheitsbeschluss der EU-Kommission.
       </p>
 
+      <H2>Standort („In meiner Nähe“)</H2>
+      <p>
+        Nur wenn du auf „In meiner Nähe“ tippst, fragt der Browser nach deinem Standort. Er wird ausschließlich im Browser verwendet, um
+        Entfernungen zu berechnen, und weder gespeichert noch an uns übertragen (Art. 6 Abs. 1 lit. a DSGVO, Einwilligung).
+      </p>
+
+      <H2>Anmeldung mit Google oder Apple</H2>
+      <p>
+        Wählst du „Weiter mit Google“ oder „Weiter mit Apple“, wirst du zum jeweiligen Anbieter weitergeleitet (Google Ireland Ltd., Gordon
+        House, Barrow Street, Dublin 4, Irland; Apple Distribution International Ltd., Hollyhill Industrial Estate, Cork, Irland). Wir erhalten
+        von dort deinen Namen und deine E-Mail-Adresse, um dein Konto anzulegen (Art. 6 Abs. 1 lit. b DSGVO). Welche Daten der Anbieter selbst
+        verarbeitet, regeln dessen Datenschutzhinweise.
+      </p>
+
+      <H2>KI-Hilfe für Restaurants</H2>
+      <p>
+        Nutzen Restaurants im Portal „Mit KI füllen“ oder „Mit KI auslesen“, werden Name und Stadt des Restaurants bzw. die hochgeladene
+        Speisekarte an Anthropic PBC (USA) übertragen, um Vorschläge zu erzeugen. Gästedaten werden dabei nicht übermittelt.
+      </p>
+
       <H2>Kamera beim Check-in</H2>
       <p>
         Wenn Restaurants im Portal „Kamera öffnen“ wählen, fragt der Browser oder die App nach Zugriff auf die Kamera. Das Bild wird nur

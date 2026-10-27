@@ -64,3 +64,18 @@ export function berlinDate(dateStr: string, timeStr: string) {
   return new Date(guess.getTime() - (berlin.getTime() - utc.getTime()));
 }
 
+
+/** Preisniveau mit Referenzwert: typischer Hauptgang pro Person */
+export const PRICE_LEVELS = [
+  { level: 1, label: "€", hint: "Hauptgang bis 15 €", avgEuro: 12 },
+  { level: 2, label: "€€", hint: "Hauptgang 15–30 €", avgEuro: 22 },
+  { level: 3, label: "€€€", hint: "Hauptgang 30–50 €", avgEuro: 40 },
+  { level: 4, label: "€€€€", hint: "Hauptgang über 50 €", avgEuro: 60 },
+];
+
+export const CUISINES = [
+  "Deutsch", "Italienisch", "Pizza", "Französisch", "Spanisch / Tapas", "Griechisch", "Türkisch", "Balkan",
+  "Orientalisch / Levante", "Indisch", "Thai", "Vietnamesisch", "Chinesisch", "Japanisch / Sushi", "Koreanisch",
+  "Mexikanisch", "Amerikanisch / Burger", "Fisch & Meeresfrüchte", "Steakhouse", "Vegetarisch / Vegan",
+  "Café & Frühstück", "Bar & Bistro", "Fusion", "Sonstiges",
+];

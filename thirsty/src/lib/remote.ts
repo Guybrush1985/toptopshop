@@ -150,7 +150,8 @@ async function load(seq: number): Promise<boolean> {
   s.spots = spots.map((x) => ({
     id: x.id, restaurantId: x.restaurant_id, startsAt: new Date(x.starts_at).toISOString(), endsAt: new Date(x.ends_at).toISOString(),
     seats: x.seats, maxGroupSize: x.max_group_size, discountPercent: x.discount_percent, freebie: opt(x.freebie),
-    conditions: opt(x.conditions), bookingCutoffMin: x.booking_cutoff_min, status: x.status,
+    conditions: opt(x.conditions), bookingCutoffMin: x.booking_cutoff_min, arriveWithinMin: x.arrive_within_min ?? 15,
+    maxDiscountCents: opt(x.max_discount_cents), status: x.status,
     noShowProtection: x.no_show_protection ?? undefined,
   }));
   s.reviews = reviews.map((v) => ({
@@ -250,6 +251,12 @@ export async function login(email: string, password: string) {
   const user = getState().users.find((u) => u.id === data.user?.id);
   if (!user) fail("Dein Konto konnte nicht geladen werden. Bitte versuche es noch einmal.");
   return user!;
+}
+
+/** Anmeldung über Google oder Apple. Leitet zum Anbieter und danach zurück zur Login-Seite (mit Rücksprung-Ziel). */
+export async function loginWith(provider: "google" | "apple", next?: string) {
+  const back = `${window.location.origin}/firsty/login/${next ? `?weiter=${encodeURIComponent(next)}` : ""}`;
+  check(await sb().auth.signInWithOAuth({ provider, options: { redirectTo: back } }));
 }
 
 export async function logout() {

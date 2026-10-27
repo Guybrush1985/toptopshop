@@ -5,7 +5,8 @@ import { useStore } from "@/lib/store";
 import { geocode, setOpeningHours, updateRestaurant } from "@/lib/actions";
 import { Field, Notice, formValues, useAction } from "../ui";
 import { MapEmbed } from "../MapEmbed";
-import { FEATURES, WEEKDAYS } from "@/lib/format";
+import { CUISINES, FEATURES, PRICE_LEVELS, WEEKDAYS } from "@/lib/format";
+import { aiLookup, applyAi } from "@/lib/ai";
 import type { TabProps } from "./types";
 
 export function Profile({ restaurantId: id }: TabProps) {
@@ -18,10 +19,33 @@ export function Profile({ restaurantId: id }: TabProps) {
   const v = (x?: string) => x ?? "";
   const opt = (x: string) => x.trim() || undefined;
 
+  const [ver, setVer] = useState(0);
   return (
     <div className="space-y-8">
       <Notice error={error} success={saved} />
+      <div className="card flex flex-wrap items-center gap-3">
+        <p className="flex-1 text-sm text-cream/80">Leere Felder automatisch füllen: Die KI sucht {r.name}{r.city ? ` in ${r.city}` : ""} im Netz. Was du schon eingetragen hast, bleibt.</p>
+        <button
+          type="button"
+          className="btn"
+          disabled={busy}
+          onClick={async () => {
+            setSaved(undefined);
+            const ok = await run(async () => {
+              const a = await aiLookup(r.name, r.city ?? "");
+              if (!a.found) return "none";
+              await applyAi(id, a);
+              return "ok";
+            });
+            if (ok === "none") setSaved("Die KI hat dazu nichts Eindeutiges gefunden.");
+            if (ok === "ok") { setSaved("Daten ergänzt. Bitte kurz prüfen."); setVer((v) => v + 1); }
+          }}
+        >
+          {busy ? "Suche …" : "Mit KI füllen"}
+        </button>
+      </div>
       <form
+        key={`${ver}-${r.street}-${r.description}`}
         className="space-y-6"
         onSubmit={async (e) => {
           const f = formValues(e);
@@ -47,12 +71,18 @@ export function Profile({ restaurantId: id }: TabProps) {
         <fieldset className="card grid gap-4 sm:grid-cols-2">
           <legend className="px-1 font-display text-2xl uppercase tracking-wide text-cream">Allgemein</legend>
           <Field label="Name"><input className="input" name="name" defaultValue={r.name} required /></Field>
-          <Field label="Küche" hint="z. B. Italienisch, Vietnamesisch, Deutsch"><input className="input" name="cuisine" defaultValue={v(r.cuisine)} /></Field>
+          <Field label="Küche">
+            <select className="input" name="cuisine" defaultValue={v(r.cuisine)}>
+              <option value="">Bitte wählen</option>
+              {r.cuisine && !CUISINES.includes(r.cuisine) && <option value={r.cuisine}>{r.cuisine}</option>}
+              {CUISINES.map((c) => <option key={c} value={c}>{c}</option>)}
+            </select>
+          </Field>
           <div className="sm:col-span-2"><Field label="Kurzbeschreibung" hint="Ein Satz, der in der Liste erscheint."><input className="input" name="tagline" maxLength={120} defaultValue={v(r.tagline)} /></Field></div>
           <div className="sm:col-span-2"><Field label="Beschreibung"><textarea className="input" name="description" rows={5} defaultValue={v(r.description)} /></Field></div>
-          <Field label="Preisniveau">
+          <Field label="Preisniveau" hint="Richtwert: typischer Hauptgang pro Person">
             <select className="input" name="priceLevel" defaultValue={r.priceLevel}>
-              <option value={1}>€ – günstig</option><option value={2}>€€ – mittel</option><option value={3}>€€€ – gehoben</option><option value={4}>€€€€ – fein</option>
+              {PRICE_LEVELS.map((p) => <option key={p.level} value={p.level}>{p.label} – {p.hint}</option>)}
             </select>
           </Field>
           <div className="grid grid-cols-2 gap-3">
