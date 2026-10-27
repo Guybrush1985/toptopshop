@@ -12,6 +12,7 @@ import { MapEmbed } from "@/components/MapEmbed";
 import { FEATURES, WEEKDAYS, day, euro, priceLevel, time } from "@/lib/format";
 import { cardOf, flagsOf, needsCard, noShowFee, startCardSetup, NO_SHOW_FEE_CENTS_PER_PERSON } from "@/lib/payments";
 import { haptic } from "@/lib/native";
+import { instagramHandle, safeUrl } from "@/lib/url";
 
 export default function RestaurantPage() {
   const slug = useSearchParams().get("s");
@@ -250,8 +251,8 @@ export default function RestaurantPage() {
           {r.directions && <p className="text-sm text-stone-600">{r.directions}</p>}
           <p className="text-sm">
             {r.phone && <>Telefon: <a className="underline" href={`tel:${r.phone}`}>{r.phone}</a><br /></>}
-            {r.website && <a className="underline" href={r.website} target="_blank" rel="noreferrer">Website</a>}
-            {r.instagram && <> · <a className="underline" href={`https://instagram.com/${r.instagram.replace(/^@/, "")}`} target="_blank" rel="noreferrer">Instagram</a></>}
+            {safeUrl(r.website) && <a className="underline" href={safeUrl(r.website)} target="_blank" rel="noreferrer">Website</a>}
+            {instagramHandle(r.instagram) && <> · <a className="underline" href={`https://instagram.com/${instagramHandle(r.instagram)}`} target="_blank" rel="noreferrer">Instagram</a></>}
           </p>
           {hours.length > 0 && (
             <table className="mt-2 text-sm">

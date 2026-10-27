@@ -5,6 +5,7 @@ import { useStore, type Booking } from "@/lib/store";
 import { euro } from "@/lib/format";
 import { BILL_STATUS_LABEL, billOf, flagsOf, payBill, tipOf, TIP_OPTIONS } from "@/lib/payments";
 import { Notice, useAction } from "./ui";
+import { safeUrl } from "@/lib/url";
 
 /** Gast: Rechnung nach dem Essen ansehen und in der App bezahlen (mit Trinkgeld). */
 export function BillCard({ booking }: { booking: Booking }) {
@@ -92,7 +93,7 @@ export function BillCard({ booking }: { booking: Booking }) {
       {bill.status === "PAID" && (
         <p className="text-sm text-cream/70">
           Danke! Bezahlt am {new Date(bill.paidAt ?? bill.createdAt).toLocaleString("de-DE", { dateStyle: "medium", timeStyle: "short" })}.{" "}
-          {bill.receiptUrl && <a href={bill.receiptUrl} target="_blank" rel="noreferrer" className="underline">Beleg ansehen</a>}
+          {safeUrl(bill.receiptUrl) && <a href={safeUrl(bill.receiptUrl)} target="_blank" rel="noreferrer" className="underline">Beleg ansehen</a>}
         </p>
       )}
     </section>

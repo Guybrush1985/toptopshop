@@ -13,6 +13,7 @@ import {
 } from "@/lib/payments";
 import { Field, Notice, useAction } from "../ui";
 import type { TabProps } from "./types";
+import { safeUrl } from "@/lib/url";
 
 const monthKey = (d: string | Date) => dateKey(d).slice(0, 7);
 const monthLabel = (k: string) => new Date(`${k}-15T12:00:00`).toLocaleDateString("de-DE", { month: "long", year: "numeric" });
@@ -223,7 +224,7 @@ export function Billing({ restaurantId: id, role }: TabProps) {
                       <td className="p-2 text-right tabular-nums">{euro(p.amountCents)}</td>
                       <td className="p-2 text-right tabular-nums">{toPlatform ? "–" : euro(p.feeCents)}</td>
                       <td className="p-2 text-right tabular-nums">{toPlatform ? "–" : euro(p.netCents)}</td>
-                      <td className="p-2">{(p.invoicePdf || p.invoiceUrl) && <a className="underline" href={p.invoicePdf ?? p.invoiceUrl} target="_blank" rel="noreferrer">Rechnung</a>}</td>
+                      <td className="p-2">{safeUrl(p.invoicePdf ?? p.invoiceUrl) && <a className="underline" href={safeUrl(p.invoicePdf ?? p.invoiceUrl)} target="_blank" rel="noreferrer">Rechnung</a>}</td>
                     </tr>
                   );
                 })}

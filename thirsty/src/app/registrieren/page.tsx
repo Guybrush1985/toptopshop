@@ -5,6 +5,7 @@ import { useRouter, useSearchParams } from "next/navigation";
 import { register } from "@/lib/actions";
 import { Field, Notice, PageTitle, formValues, useAction } from "@/components/ui";
 import { SocialLogin } from "@/components/SocialLogin";
+import { localPath } from "@/lib/url";
 
 export default function RegisterPage() {
   const router = useRouter();
@@ -30,7 +31,7 @@ export default function RegisterPage() {
             await register({ name: f.get("name"), email: f.get("email"), password: f.get("password"), role: owner ? "OWNER" : "GUEST" });
             return true;
           });
-          if (ok) router.push(owner ? "/portal/neu/" : next?.startsWith("/") ? next : "/");
+          if (ok) router.push(owner ? "/portal/neu/" : localPath(next) ?? "/");
         }}
         className="card space-y-4"
       >

@@ -5,4 +5,13 @@ ErrorDocument 404 /firsty/404.html
   Header set X-Robots-Tag "noindex, nofollow"
   Header set X-Content-Type-Options "nosniff"
   Header set Referrer-Policy "strict-origin-when-cross-origin"
+  # Nur noch HTTPS (ein Jahr). Ohne includeSubDomains, damit andere Subdomains nicht betroffen sind.
+  Header set Strict-Transport-Security "max-age=31536000"
+  # Firsty darf nicht in fremde Seiten eingebettet werden (Clickjacking).
+  Header set X-Frame-Options "DENY"
+  # Ergänzt die Richtlinie aus dem <meta>-Tag jeder Seite (scripts/csp.mjs); frame-ancestors geht nur als Header.
+  Header set Content-Security-Policy "frame-ancestors 'none'; object-src 'none'; base-uri 'self'"
+  # Kamera nur für den Check-in-Scanner, Standort nur für „In meiner Nähe“, alles andere aus.
+  Header set Permissions-Policy "camera=(self), geolocation=(self), microphone=(), payment=(), usb=(), interest-cohort=()"
+  Header set Cross-Origin-Opener-Policy "same-origin"
 </IfModule>
