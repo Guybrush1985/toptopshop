@@ -1,11 +1,11 @@
-// Erzeugt die Demo-Spots für /werbunglohntsich/ (fiktive Marken) und das passende Seed-SQL.
+// Erzeugt die Demo-Spots für „Werbung lohnt sich“ (fiktive Marken) und das passende Seed-SQL.
 // Aufruf: node scripts/werbunglohntsich-spots.mjs   (braucht ffmpeg)
-// Ausgabe: src/static/werbunglohntsich/spots/*.mp4 und supabase/werbunglohntsich/seed-demo.sql
+// Ausgabe: werbunglohntsich/app/spots/*.mp4 und supabase/werbunglohntsich/seed-demo.sql
 import { execFileSync } from "node:child_process";
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const FONT = process.env.SPOT_FONT || "/usr/share/fonts/opentype/inter/InterDisplay-Black.otf";
-const OUT = "src/static/werbunglohntsich/spots";
+const OUT = "werbunglohntsich/app/spots";
 mkdirSync(OUT, { recursive: true });
 
 export const spots = [

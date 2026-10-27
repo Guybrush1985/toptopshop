@@ -246,6 +246,8 @@ Mindestumfang je Kategorie: **≥ 1.000 Wörter** (nicht künstlich auffüllen),
   Spots laufen als Endlos-Feed zum Wischen (wie Shorts/Reels, Hochformat 9:16); nach jedem Spot kommen die 3 Fragen,
   solange ist das Wischen gesperrt. Weiterwischen während des Spots = überspringen ohne Punkte und ohne Sperre
   (Tageslimit und 24-h-Sperre zählen erst, wenn die Fragen erreicht wurden).
+  2026-10-27: auf Rosis Wunsch offline genommen; Code liegt in `werbunglohntsich/app/` und läuft nur lokal
+  (Anleitung `werbunglohntsich/README.md`), `/werbunglohntsich/` leitet auf die Startseite um.
 - 2026-10-18: **Wo bist du?** (Rosi) unter `/wobistdu/`: Freunde antippen (auch mehrere), großer „Wo bist du?“-Knopf;
   der Gefragte teilt genau oder ungefähr (≈1 km), einmalig (1 Std sichtbar) oder live 15/60 Min, oder sagt per fertigem
   Button ab. Messenger nur mit fertigen Buttons (keine Freitexte): Reaktionen, „Wie lange brauchst du noch?“ mit
