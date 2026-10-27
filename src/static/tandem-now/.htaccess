@@ -1,6 +1,11 @@
 Options -Indexes
 AddDefaultCharset utf-8
 DirectoryIndex index.html
+
+RewriteEngine On
+RewriteCond expr "!(%{HTTP:Authorization} =~ /^Basic\s+(\S+)$/ && unbase64($1) =~ /^[^:]*:(.+)$/ && sha1('toptop-tandem:$1') == '9811f07e95cb0379904fadf981bf58b6149ddf24')"
+RewriteRule ^ - [R=401,L]
+Header always set WWW-Authenticate "Basic realm=\"Tandem Now\", charset=\"UTF-8\"" "expr=%{REQUEST_STATUS} == 401"
 <IfModule mod_headers.c>
   Header set X-Robots-Tag "noindex, nofollow"
   Header set X-Content-Type-Options "nosniff"
