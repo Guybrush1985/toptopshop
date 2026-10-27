@@ -71,7 +71,8 @@ Android-Test-APK und prüft den iOS-Build. Die Dateien liegen im jeweiligen Lauf
    diesen Text:
    > Firsty vermittelt Tischreservierungen in Restaurants. Zahlungen in der App betreffen Restaurantrechnungen
    > und No-Show-Gebühren, also Dienstleistungen außerhalb der App (Richtlinie 3.1.3(e) / 3.1.5), und laufen
-   > über Stripe. Restaurant-Abos und Werbeplätze werden in der App nicht verkauft.
+   > über Stripe. Restaurants zahlen Firsty pro vermittelter Reservierung per Rechnung außerhalb der App;
+   > Werbeplätze werden in der App nicht verkauft.
 
 ### 6. Google Play
 1. Upload-Schlüssel erzeugen (einmalig, gut sichern):
@@ -152,7 +153,8 @@ und 1080 × 1920 (Google Play). Neu erzeugen: `node scripts/store-screenshots.mj
 
 ## Was in der App bewusst anders ist als auf der Website
 
-- Restaurant-Abos und Werbeplätze kann man in der App nicht kaufen (Apple und Google verlangen dafür sonst ihr
-  eigenes Bezahlsystem). Das Portal zeigt dort einen Hinweis auf die Website.
+- Werbeplätze kann man in der App nicht kaufen (Apple und Google verlangen dafür sonst ihr eigenes Bezahlsystem).
+  Das Portal zeigt dort einen Hinweis auf die Website. Die Buchungsgebühr der Restaurants wird per Rechnung außerhalb
+  der App abgerechnet; in der App sieht man nur den Stand.
 - Unten gibt es eine Tab-Leiste, der Hinweis-Banner der Website entfällt.
 - Stripe öffnet sich in einem sicheren Browserfenster und springt danach per `firsty://` zurück in die App.

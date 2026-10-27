@@ -14,7 +14,7 @@ export default function StatementPage() {
   return <RequireUser><Statement /></RequireUser>;
 }
 
-/** Monatsabrechnung als Rechnung über die Firsty-Gebühren (Provision und No-Show-Anteil), druckbar. */
+/** Monatsabrechnung als Rechnung über die Firsty-Gebühren (Zahlungsgebühr und No-Show-Anteil), druckbar. */
 function Statement() {
   const p = useSearchParams();
   const id = p.get("id") ?? "";
@@ -72,7 +72,7 @@ function Statement() {
         <h2 className="mt-6 font-bold">Firsty-Gebühren</h2>
         <table className="mt-2 w-full text-sm">
           <tbody>
-            <Row a={`Provision ${COMMISSION_PERCENT} % auf in der App bezahlte Rechnungen (ohne Trinkgeld)`} b={euro(t.commission)} />
+            <Row a={`Zahlungsgebühr ${COMMISSION_PERCENT} % auf in der App bezahlte Rechnungen (ohne Trinkgeld)`} b={euro(t.commission)} />
             <Row a={`Anteil ${NO_SHOW_PLATFORM_PERCENT} % an No-Show-Gebühren`} b={euro(t.noShowFee)} />
             <Row a="Nettobetrag" b={euro(fees - vat)} />
             <Row a={`Umsatzsteuer ${VAT_PERCENT} %`} b={euro(vat)} />
@@ -84,7 +84,8 @@ function Statement() {
           überweisen. Ausgezahlt an euch in diesem Zeitraum: <strong>{euro(t.payout)}</strong>.
         </p>
         <p className="mt-2 text-xs text-[#555]">
-          Abo ({euro(t.subscriptions)}) und Werbeplätze ({euro(t.ads)}) sind in dieser Abrechnung nicht enthalten; dafür gibt es eigene Rechnungen.
+          Buchungsgebühr ({euro(t.bookingFees)}), Werbeplätze ({euro(t.ads)}){t.subscriptions ? <> und Abo ({euro(t.subscriptions)})</> : null} sind in
+          dieser Abrechnung nicht enthalten; dafür gibt es eigene Rechnungen.
         </p>
         <h2 className="mt-6 font-bold">Einzelaufstellung</h2>
         <table className="mt-2 w-full text-xs">

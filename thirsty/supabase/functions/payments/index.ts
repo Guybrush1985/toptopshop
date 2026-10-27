@@ -5,15 +5,18 @@
 // - Rechnung in der App: Zahlung des Gastes geht direkt an das Restaurant (on_behalf_of + transfer_data),
 //   Firsty behält die Provision als application_fee. Trinkgeld geht vollständig an das Restaurant.
 // - No-Show-Gebühr: hinterlegte Karte wird ohne Anwesenheit belastet, 70 % Restaurant, 30 % Firsty.
-// - Abo und Werbung: Restaurant zahlt an Firsty (Stripe Billing bzw. Checkout mit Rechnung, zzgl. 19 % USt.).
+// - Buchungsgebühr: Restaurant zahlt monatlich pro wahrgenommener Buchung an Firsty (Stripe-Rechnung, zzgl. 19 % USt.).
+//   Aktion invoice_booking_fees, aufgerufen per Cron mit Header x-firsty-cron = FIRSTY_CRON_SECRET.
+// - Werbung: Restaurant zahlt an Firsty (Checkout mit Rechnung, zzgl. 19 % USt.).
+// - Abo (Basic/Pro): zum Start nicht im Angebot (pricing.ts: SUBSCRIPTIONS_OFFERED), Code bleibt für eine spätere Flatrate.
 import { db } from "../_shared/db.ts";
 import { requireUser, type AuthUser } from "../_shared/auth.ts";
-import { cors, json, SITE_URL, UserError } from "../_shared/env.ts";
+import { cors, env, json, SITE_URL, UserError } from "../_shared/env.ts";
 import { portalConfiguration, stripe, stripeMessage, vatRate } from "../_shared/stripe.ts";
 import { applyAccount, applyCheckoutSession, applyPaymentIntent, applyRefundedCharge } from "../_shared/fulfill.ts";
 import {
-  billAmounts, commissionOf, noShowPlatformShare, PLANS, SPONSOR_DAY_OPTIONS, SPONSOR_NET_CENTS_PER_DAY, sponsorPrice, TIP_OPTIONS,
-  tipOf, TRIAL_DAYS, type PlanKey,
+  billAmounts, BOOKING_FEE_CAP_NET_CENTS, BOOKING_FEE_NET_CENTS, commissionOf, noShowPlatformShare, PLANS, SPONSOR_DAY_OPTIONS,
+  SPONSOR_NET_CENTS_PER_DAY, sponsorPrice, SUBSCRIPTIONS_OFFERED, TIP_OPTIONS, tipOf, TRIAL_DAYS, type PlanKey,
 } from "../_shared/pricing.ts";
 
 type Body = Record<string, unknown> & { action?: string; app?: boolean };
@@ -115,6 +118,7 @@ async function restaurantCustomer(r: Record<string, any>, a: Record<string, any>
 }
 
 async function subscribe(user: AuthUser, body: Body) {
+  if (!SUBSCRIPTIONS_OFFERED) throw new UserError("Firsty hat keine Abos mehr. Du zahlst nur pro Buchung, die ersten 90 Tage sind kostenlos.");
   const plan = str(body.plan) as PlanKey;
   if (!PLANS[plan]) throw new UserError("Bitte wähle Basic oder Pro.");
   const { r, a } = await requireRole(user, body.restaurantId, ["OWNER"]);
@@ -162,6 +166,83 @@ async function billingPortal(user: AuthUser, body: Body) {
     return_url: back(body, { art: "portal", status: "ok", r: r.id }, false),
   });
   return { url: session.url };
+}
+
+// ---------- Restaurant: Buchungsgebühr (monatliche Rechnung) ----------
+
+const monthLabel = (m: string) => new Date(`${m}T12:00:00Z`).toLocaleDateString("de-DE", { month: "long", year: "numeric", timeZone: "Europe/Berlin" });
+
+/** Vormonat in Berlin als YYYY-MM-01. */
+function previousMonth(now = new Date()) {
+  const [y, m] = new Intl.DateTimeFormat("en-CA", { timeZone: "Europe/Berlin", year: "numeric", month: "2-digit" }).format(now).split("-").map(Number);
+  const d = new Date(Date.UTC(y, m - 2, 1));
+  return d.toISOString().slice(0, 10);
+}
+
+/**
+ * Stellt die Buchungsgebühr eines Monats allen Restaurants in Rechnung (eine Stripe-Rechnung pro Restaurant, Zahlung per
+ * Karte oder SEPA über die Rechnungsseite, 14 Tage Ziel). Idempotent: schon abgerechnete Restaurants werden übersprungen.
+ * Nur für den Cron-Aufruf (Header x-firsty-cron). Standard: Vormonat; ein Monat ist erst ab dem 2. des Folgemonats abrechenbar.
+ */
+export async function invoiceBookingFees(body: Body) {
+  const month = /^\d{4}-\d{2}-01$/.test(str(body.month)) ? str(body.month) : previousMonth();
+  const [y, m] = month.split("-").map(Number);
+  if (Date.now() < Date.UTC(y, m, 2)) throw new UserError("Dieser Monat ist noch nicht abgeschlossen.");
+  const sql = db();
+  const due = await sql`select * from public.booking_fee_due(${month}::date)`;
+  const s = stripe();
+  const results: { restaurantId: string; bookings: number; netCents: number; invoice?: string; error?: string }[] = [];
+  for (const d of due) {
+    const rid = d.restaurant_id as string;
+    try {
+      const [r] = await sql`select r.*, b.legal_name, b.vat_id,
+          coalesce(r.email, (select p.email from public.members x join public.profiles p on p.id = x.user_id
+            where x.restaurant_id = r.id and x.role = 'OWNER' order by p.created_at limit 1)) as bill_email
+        from public.restaurants r left join public.restaurant_billing b on b.restaurant_id = r.id where r.id = ${rid}`;
+      await sql`insert into public.restaurant_accounts (restaurant_id) values (${rid}) on conflict (restaurant_id) do nothing`;
+      const [a] = await sql`select * from public.restaurant_accounts where restaurant_id = ${rid}`;
+      const [row] = await sql`insert into public.booking_fee_invoices (restaurant_id, month, bookings, net_cents)
+          values (${rid}, ${month}::date, ${d.bookings}, ${d.net_cents})
+        on conflict (restaurant_id, month) do update set bookings = excluded.bookings, net_cents = excluded.net_cents
+          where public.booking_fee_invoices.stripe_invoice_id is null
+        returning *`;
+      if (!row) continue; // inzwischen von einem parallelen Lauf abgerechnet
+      const customer = await restaurantCustomer(r, a, r.bill_email ?? "");
+      const capped = d.net_cents >= BOOKING_FEE_CAP_NET_CENTS;
+      const key = `bookingfees-${rid}-${month}`;
+      const inv = await s.invoices.create({
+        customer,
+        currency: "eur",
+        collection_method: "send_invoice",
+        days_until_due: 14,
+        auto_advance: true,
+        pending_invoice_items_behavior: "exclude",
+        default_tax_rates: [await vatRate()],
+        description: `Firsty Buchungsgebühr ${monthLabel(month)} für ${r.name}`,
+        footer: `${euro(BOOKING_FEE_NET_CENTS)} netto pro wahrgenommener Buchung, höchstens ${euro(BOOKING_FEE_CAP_NET_CENTS)} netto im Monat.`,
+        metadata: { kind: "booking_fees", restaurant_id: rid, month, bookings: String(d.bookings) },
+      }, { idempotencyKey: `${key}-inv` });
+      await s.invoiceItems.create({
+        customer,
+        invoice: inv.id,
+        currency: "eur",
+        amount: d.net_cents,
+        description: `${d.bookings} ${d.bookings === 1 ? "Buchung" : "Buchungen"} über Firsty im ${monthLabel(month)} à ${euro(BOOKING_FEE_NET_CENTS)}` +
+          (capped ? ` (Monatsdeckel ${euro(BOOKING_FEE_CAP_NET_CENTS)})` : ""),
+        metadata: { restaurant_id: rid, month },
+      }, { idempotencyKey: `${key}-item` });
+      const fin = await s.invoices.finalizeInvoice(inv.id!, { auto_advance: true });
+      await s.invoices.sendInvoice(inv.id!).catch(() => undefined); // E-Mail an das Restaurant; Rechnung gilt auch ohne
+      await sql`update public.booking_fee_invoices set stripe_invoice_id = ${inv.id!}, status = 'OPEN',
+          invoice_url = ${fin.hosted_invoice_url ?? null}, invoice_pdf = ${fin.invoice_pdf ?? null}
+        where id = ${row.id}`;
+      results.push({ restaurantId: rid, bookings: d.bookings, netCents: d.net_cents, invoice: inv.id! });
+    } catch (e) {
+      console.error("Buchungsgebühr", rid, e);
+      results.push({ restaurantId: rid, bookings: d.bookings, netCents: d.net_cents, error: stripeMessage(e) });
+    }
+  }
+  return { month, invoiced: results.filter((x) => x.invoice).length, failed: results.filter((x) => x.error).length, results };
 }
 
 // ---------- Restaurant: Werbung ----------
@@ -428,6 +509,11 @@ export async function handler(req: Request): Promise<Response> {
     const body = (await req.json().catch(() => ({}))) as Body;
     const action = str(body.action);
     if (action === "sync_checkout") return json(await syncCheckout(body));
+    if (action === "invoice_booking_fees") {
+      const secret = env("FIRSTY_CRON_SECRET");
+      if (!secret || req.headers.get("x-firsty-cron") !== secret) return json({ error: "Nicht erlaubt." }, 403);
+      return json(await invoiceBookingFees(body));
+    }
     if (action === "sync_payment_intent") {
       // Nur für Tests und Fehlersuche: Stand einer No-Show-Zahlung nachladen
       const pi = await stripe().paymentIntents.retrieve(str(body.id));

@@ -60,7 +60,7 @@ export type Bill = {
   discountCents: number; amountCents: number; tipCents: number; feeCents: number; status: BillStatus; note?: string;
   receiptUrl?: string; createdAt: string; paidAt?: string;
 };
-export type PaymentKind = "BILL" | "NO_SHOW" | "SUBSCRIPTION" | "SPONSORSHIP" | "REFUND";
+export type PaymentKind = "BILL" | "NO_SHOW" | "SUBSCRIPTION" | "SPONSORSHIP" | "REFUND" | "BOOKING_FEE";
 /** Eintrag im Kassenbuch (Grundlage der Abrechnung). */
 export type Payment = {
   id: string; kind: PaymentKind; restaurantId?: string; userId?: string; bookingId?: string; billId?: string;
@@ -75,6 +75,8 @@ export type RestaurantAccount = {
   restaurantId: string; connected: boolean; chargesEnabled: boolean; payoutsEnabled: boolean; detailsSubmitted: boolean;
   plan: "NONE" | "BASIC" | "PRO"; planStatus: PlanStatus; trialUsed: boolean; trialEnd?: string; periodEnd?: string;
   cancelAtPeriodEnd: boolean; hasCustomer: boolean;
+  /** Abweichendes Ende der kostenlosen Startzeit (sonst 90 Tage ab Anmeldung, frühestens ab Start). */
+  feeFreeUntil?: string;
 };
 export type Sponsorship = {
   id: string; restaurantId: string; city: string; startsAt: string; endsAt: string; days: number; amountCents: number;

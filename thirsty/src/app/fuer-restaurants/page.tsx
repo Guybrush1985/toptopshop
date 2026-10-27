@@ -1,7 +1,10 @@
 "use client";
 
 import Link from "next/link";
-import { COMMISSION_PERCENT, NO_SHOW_FEE_CENTS_PER_PERSON, NO_SHOW_PLATFORM_PERCENT, PLANS, TRIAL_DAYS } from "@/lib/payments";
+import {
+  BOOKING_FEE_CAP_BOOKINGS, BOOKING_FEE_CAP_NET_CENTS, BOOKING_FEE_NET_CENTS, COMMISSION_PERCENT, NO_SHOW_FEE_CENTS_PER_PERSON,
+  NO_SHOW_PLATFORM_PERCENT, TRIAL_DAYS,
+} from "@/lib/payments";
 import { euro } from "@/lib/format";
 
 const SIGNUP = "/registrieren/?rolle=restaurant";
@@ -21,7 +24,7 @@ export default function FuerRestaurants() {
           </p>
           <div className="mt-8 flex flex-wrap items-center gap-4">
             <Link href={SIGNUP} className="btn px-8 py-4 text-xl">Restaurant anmelden</Link>
-            <span className="text-sm text-cream/60">{TRIAL_DAYS} Tage kostenlos testen, danach monatlich kündbar.</span>
+            <span className="text-sm text-cream/60">{TRIAL_DAYS} Tage kostenlos, danach {euro(BOOKING_FEE_NET_CENTS)} pro Buchung. Kein Abo.</span>
           </div>
         </div>
       </section>
@@ -77,7 +80,7 @@ export default function FuerRestaurants() {
             ["Anmelden", "Name und Stadt eingeben. Auf Wunsch füllt die KI dein Profil vor, die Speisekarte liest sie aus PDF oder Foto."],
             ["Angebot einstellen", "25, 50 oder 75 % Rabatt, Gratis-Getränk oder Gratis-Dessert. Einmalig oder jede Woche."],
             ["Gäste empfangen", "Gäste zeigen ihren QR-Code, du checkst sie mit der Kamera oder per Code ein."],
-            ["Abrechnen", "Gäste zahlen in der App oder vor Ort. Auszahlungen laufen über Stripe."],
+            ["Abrechnen", "Gäste zahlen in der App oder vor Ort. Du zahlst nur für Buchungen, die wirklich gekommen sind."],
           ].map(([t, x], i) => (
             <li key={t} className="flex gap-3">
               <span className="display text-4xl leading-none text-lime">{i + 1}</span>
@@ -90,21 +93,27 @@ export default function FuerRestaurants() {
       {/* ---------- Preise ---------- */}
       <section className="mx-auto max-w-6xl px-5 pt-20">
         <h2 className="display text-4xl text-cream sm:text-6xl">Preise<span className="text-lime">.</span></h2>
-        <p className="mt-2 text-cream/70">Die ersten {TRIAL_DAYS} Tage sind kostenlos. Alle Preise zzgl. 19 % MwSt.</p>
-        <div className="mt-6 grid gap-4 sm:grid-cols-2">
-          {Object.values(PLANS).map((p) => (
-            <div key={p.name} className="card">
-              <p className="display text-3xl text-cream">{p.name}</p>
-              <p className="mt-1"><span className="display text-5xl text-lime">{euro(p.netCents)}</span> <span className="text-cream/60">/ Monat</span></p>
-              <ul className="mt-4 space-y-1 text-sm text-cream/80">
-                {p.features.map((f) => <li key={f}>✓ {f}</li>)}
-              </ul>
-            </div>
-          ))}
+        <p className="mt-2 text-cream/70">Du zahlst nur für Gäste, die wirklich kommen. Kein Abo, keine Laufzeit. Alle Preise zzgl. 19 % MwSt.</p>
+        <div className="mt-6 grid gap-4 sm:grid-cols-3">
+          <div className="card">
+            <p className="display text-3xl text-cream">Pro Buchung</p>
+            <p className="mt-1"><span className="display text-5xl text-lime">{euro(BOOKING_FEE_NET_CENTS)}</span></p>
+            <p className="mt-3 text-sm text-cream/80">Egal ob 1 oder 8 Personen, egal wie viel Umsatz. Stornierungen und No-Shows kosten nichts.</p>
+          </div>
+          <div className="card">
+            <p className="display text-3xl text-cream">Monatsdeckel</p>
+            <p className="mt-1"><span className="display text-5xl text-lime">{euro(BOOKING_FEE_CAP_NET_CENTS)}</span> <span className="text-cream/60">höchstens</span></p>
+            <p className="mt-3 text-sm text-cream/80">Ab der {BOOKING_FEE_CAP_BOOKINGS}. Buchung im Monat ist jede weitere frei.</p>
+          </div>
+          <div className="card">
+            <p className="display text-3xl text-cream">Start</p>
+            <p className="mt-1"><span className="display text-5xl text-lime">{TRIAL_DAYS} Tage</span> <span className="text-cream/60">kostenlos</span></p>
+            <p className="mt-3 text-sm text-cream/80">Ab Anmeldung. Danach monatliche Rechnung, zahlbar per Karte oder SEPA-Lastschrift.</p>
+          </div>
         </div>
         <p className="mt-4 text-sm text-cream/60">
-          Bei Zahlung in der App fallen {COMMISSION_PERCENT} % Gebühr an. Bei No-Show-Schutz zahlen fehlende Gäste {euro(NO_SHOW_FEE_CENTS_PER_PERSON)} pro Person,
-          davon gehen {100 - NO_SHOW_PLATFORM_PERCENT} % an dich.
+          Bei Zahlung in der App fallen {COMMISSION_PERCENT} % Zahlungsgebühr an (deckt die Kartengebühren). Bei No-Show-Schutz zahlen fehlende
+          Gäste {euro(NO_SHOW_FEE_CENTS_PER_PERSON)} pro Person, davon gehen {100 - NO_SHOW_PLATFORM_PERCENT} % an dich.
         </p>
       </section>
 

@@ -73,21 +73,20 @@ Deno.test("Auszahlungen: nur Inhaber startet Onboarding", async () => {
   assertEquals((await call(OWNER, { action: "connect_dashboard", restaurantId: rid })).status, 200);
 });
 
-Deno.test("Abo: Checkout mit Testzeit, Rechnungs-Webhook bucht ins Kassenbuch", async () => {
+Deno.test("Abo: nicht im Angebot, bestehende Abos werden weiter verbucht", async () => {
   assertEquals((await call(OWNER, { action: "subscribe", restaurantId: rid, plan: "GOLD" })).status, 400);
   const r = await call(OWNER, { action: "subscribe", restaurantId: rid, plan: "BASIC" });
-  assertEquals(r.status, 200, JSON.stringify(r.data));
+  assertEquals(r.status, 400);
+  assertMatch(r.data.error, /pro Buchung/);
+  await sql`update public.restaurant_accounts set stripe_customer_id = 'cus_old' where restaurant_id = ${rid}`;
   const [a] = await sql`select * from public.restaurant_accounts where restaurant_id = ${rid}`;
-  assertMatch(a.stripe_customer_id, /^cus_/);
-  // Abo-Ereignis
+  // Abo-Ereignis (z. B. aus einer späteren Flatrate)
   await fulfill.applySubscription({
     id: "sub_test1", status: "trialing", metadata: { restaurant_id: rid, plan: "BASIC" }, trial_end: Math.floor(Date.now() / 1000) + 90 * 86400,
     customer: a.stripe_customer_id, cancel_at_period_end: false, cancel_at: null, items: { data: [{ current_period_end: Math.floor(Date.now() / 1000) + 90 * 86400 }] },
   } as any);
   const [a2] = await sql`select * from public.restaurant_accounts where restaurant_id = ${rid}`;
   assertEquals([a2.plan, a2.plan_status, a2.trial_used], ["BASIC", "trialing", true]);
-  // Zweites Abo abgelehnt
-  assertEquals((await call(OWNER, { action: "subscribe", restaurantId: rid, plan: "PRO" })).status, 400);
   // Bezahlte Rechnung
   const inv = { id: "in_test1", status: "paid", amount_paid: 5831, customer: a.stripe_customer_id, number: "F-0001", hosted_invoice_url: "https://inv", invoice_pdf: "https://pdf",
     parent: { subscription_details: { subscription: "sub_test1" } }, lines: { data: [{ period: { start: 1790000000, end: 1792600000 } }] } };
@@ -97,6 +96,46 @@ Deno.test("Abo: Checkout mit Testzeit, Rechnungs-Webhook bucht ins Kassenbuch", 
   assertEquals(rows.length, 1);
   assertEquals(rows[0].amount_cents, 5831);
   assertEquals((await call(OWNER, { action: "billing_portal", restaurantId: rid })).status, 200);
+});
+
+Deno.test("Buchungsgebühr: Monatsrechnung per Cron, bezahlt ins Kassenbuch", async () => {
+  // Vormonat: 3 eingecheckte Buchungen, 1 No-Show; Gratiszeit vorbei
+  const [{ m }] = await sql`select to_char(date_trunc('month', (now() at time zone 'Europe/Berlin') - interval '1 month'), 'YYYY-MM-DD') as m`;
+  const [{ id: old }] = await sql`insert into public.spots (restaurant_id, starts_at, ends_at, seats, discount_percent)
+    values (${rid}, (${m}::date + time '18:00') at time zone 'Europe/Berlin', (${m}::date + time '19:00') at time zone 'Europe/Berlin', 20, 50) returning id`;
+  for (const [code, status] of [["810001", "CHECKED_IN"], ["810002", "CHECKED_IN"], ["810003", "CHECKED_IN"], ["810004", "NO_SHOW"]]) {
+    await sql`insert into public.bookings (spot_id, user_id, party_size, code, status) values (${old}, ${GUEST}, 2, ${code}, ${status})`;
+  }
+  await sql`update public.restaurant_accounts set fee_free_until = now() - interval '200 days' where restaurant_id = ${rid}`;
+  const cron = (secret: string | null, body: Record<string, unknown> = {}) => payments(new Request("http://x/payments", {
+    method: "POST", headers: { "Content-Type": "application/json", ...(secret ? { "x-firsty-cron": secret } : {}) },
+    body: JSON.stringify({ action: "invoice_booking_fees", ...body }),
+  }));
+  assertEquals((await cron(null)).status, 403); // ohne Geheimnis nicht erlaubt (auch nicht angemeldet)
+  Deno.env.set("FIRSTY_CRON_SECRET", "cron-test");
+  assertEquals((await cron("falsch")).status, 403);
+  const thisMonth = new Date().toISOString().slice(0, 8) + "01";
+  assertEquals((await cron("cron-test", { month: thisMonth })).status, 400); // laufender Monat noch nicht abrechenbar
+  const res = await cron("cron-test");
+  const out = await res.json();
+  assertEquals(res.status, 200, JSON.stringify(out));
+  assertEquals([out.month, out.invoiced, out.failed], [m, 1, 0], JSON.stringify(out));
+  const [row] = await sql`select * from public.booking_fee_invoices where restaurant_id = ${rid}`;
+  assertEquals([row.bookings, row.net_cents, row.status], [3, 600, "OPEN"]);
+  assertMatch(row.stripe_invoice_id, /^in_/);
+  // zweiter Lauf: nichts doppelt
+  assertEquals((await (await cron("cron-test")).json()).invoiced, 0);
+  // Rechnung bezahlt → Kassenbuch
+  const inv = { id: row.stripe_invoice_id, status: "paid", amount_paid: 714, number: "F-0002", hosted_invoice_url: "https://inv2", invoice_pdf: "https://pdf2",
+    metadata: { kind: "booking_fees", restaurant_id: rid, month: m } };
+  await fulfill.applyInvoice(inv as any);
+  await fulfill.applyInvoice(inv as any);
+  const fees = await sql`select * from public.payments where kind = 'BOOKING_FEE'`;
+  assertEquals(fees.length, 1);
+  assertEquals(fees[0].amount_cents, 714);
+  assertMatch(fees[0].description, /3 Buchungen/);
+  const [paid] = await sql`select status from public.booking_fee_invoices where restaurant_id = ${rid}`;
+  assertEquals(paid.status, "PAID");
 });
 
 Deno.test("Karte hinterlegen und No-Show-Schutz", async () => {
@@ -141,7 +180,7 @@ Deno.test("No-Show: Gebühr belasten, bei späterem Check-in erstatten", async (
   assertEquals(rf.data.refunded, true);
 });
 
-Deno.test("Rechnung: in der App bezahlen, Provision und Trinkgeld", async () => {
+Deno.test("Rechnung: in der App bezahlen, Zahlungsgebühr und Trinkgeld", async () => {
   // Restaurant erstellt Rechnung über 46,00 € (−50 % → 23,00 €)
   let bill = "";
   await sql.begin(async (tx) => {
@@ -153,7 +192,7 @@ Deno.test("Rechnung: in der App bezahlen, Provision und Trinkgeld", async () => 
   const r = await call(GUEST, { action: "pay_bill", billId: bill, tipPercent: 10, app: true });
   assertEquals(r.status, 200, JSON.stringify(r.data));
   const [x] = await sql`select * from public.bills where id = ${bill}`;
-  assertEquals([x.amount_cents, x.tip_cents, x.fee_cents], [2300, 230, 115]);
+  assertEquals([x.amount_cents, x.tip_cents, x.fee_cents], [2300, 230, 46]); // 2 % Zahlungsgebühr
   // Ergebnis übernehmen (Beträge kommen aus Stripe; stripe-mock liefert Beispielbeträge)
   await fulfill.applyCheckoutSession({ status: "complete", payment_status: "paid", metadata: { kind: "bill", bill_id: bill, tip_cents: "230" }, payment_intent: "pi_123" } as any);
   await fulfill.applyCheckoutSession({ status: "complete", payment_status: "paid", metadata: { kind: "bill", bill_id: bill, tip_cents: "230" }, payment_intent: "pi_123" } as any);

@@ -60,7 +60,7 @@ export function BillForm({ booking, compact }: { booking: Booking; compact?: boo
           {preview && (
             <p className="text-xs text-cream/60">
               {spot.discountPercent > 0 ? <>−{spot.discountPercent} % = <strong className="text-cream">{euro(preview.amountCents)}</strong> für den Gast. </> : <>Gratis-Beigabe nicht mitberechnen. </>}
-              {accepts && <>Zahlt der Gast in der App, behält Firsty {euro(commissionOf(preview.amountCents))} Provision; Trinkgeld geht ganz an euch.</>}
+              {accepts && <>Zahlt der Gast in der App, behält Firsty {euro(commissionOf(preview.amountCents))} Zahlungsgebühr; Trinkgeld geht ganz an euch.</>}
             </p>
           )}
         </form>
