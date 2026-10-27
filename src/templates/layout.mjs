@@ -149,6 +149,23 @@ mq.addEventListener&&mq.addEventListener("change",function(){set(false)});
 var on=f.querySelector(".fly-a [aria-current]");if(on){var li=on.closest(".fly-a");li.classList.add("open");li.querySelector(".fly-t").setAttribute("aria-expanded","true")}
 })()`;
 
+// Schlanker Kopf und Fuß für den Platzhalter-Modus (ohne Navigation zu Ratgebern).
+function minimalHeader() {
+  return `<header class="top"><div class="wrap">
+  <a class="logo" href="/" aria-label="toptop.shop – Startseite">${logoSvg({ height: 46 })}</a>
+</div></header>`;
+}
+
+function minimalFooter() {
+  return `<footer class="foot"><div class="wrap">
+  <ul class="foot-min">
+    <li><a href="/impressum/">Impressum</a></li>
+    <li><a href="/datenschutz/">Datenschutz</a></li>
+  </ul>
+  <div class="legalnote"><span>© ${new Date().getFullYear()} ${esc(site.organization.name)} · ${esc(site.name)}</span></div>
+</div></footer>`;
+}
+
 function footer(categories) {
   const o = site.organization;
   return `<footer class="foot"><div class="wrap">
@@ -183,7 +200,7 @@ function footer(categories) {
 /**
  * Vollständiges HTML-Dokument.
  * opts: path, title, description, body, breadcrumbs, jsonld[], ogType, ogImage,
- *       noindex, categories (für Footer), modified
+ *       noindex, categories (für Footer), modified, minimal (Platzhalter-Modus)
  */
 export function page(opts) {
   const url = absUrl(opts.path);
@@ -220,11 +237,11 @@ ${opts.modified ? `<meta property="article:modified_time" content="${opts.modifi
 <script type="application/ld+json">${ld}</script>
 </head>
 <body>
-${header(opts.path, opts.categories || [])}
+${opts.minimal ? minimalHeader() : header(opts.path, opts.categories || [])}
 <main id="inhalt">
 ${opts.body}
 </main>
-${footer(opts.categories || [])}
+${opts.minimal ? minimalFooter() : footer(opts.categories || [])}
 </body>
 </html>
 `;
