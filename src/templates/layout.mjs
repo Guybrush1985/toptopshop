@@ -105,7 +105,7 @@ function header(current, categories) {
     .join("");
   const method = current && current.startsWith("/methodik/") ? ' aria-current="page"' : "";
   return `<a class="skip" href="#inhalt">Zum Inhalt springen</a>
-<div class="ad-note">Werbung: Links mit * sind Affiliate-Links (Amazon und Partnershops). Als Amazon-Partner verdiene ich an qualifizierten Verkäufen.</div>
+<div class="ad-note">Werbung: Links mit * sind Affiliate-Links zu Amazon und Partnershops. Beim Klick wirst du weitergeleitet, und der Partner kann deinen Besuch erfassen. Als Amazon-Partner verdiene ich an qualifizierten Verkäufen. <a href="/datenschutz/#amazon">Mehr dazu</a></div>
 <header class="top"><div class="wrap">
   <a class="logo" href="/" aria-label="toptop.shop – Startseite">${logoSvg({ height: 46 })}</a>
   <nav class="nav" aria-label="Hauptnavigation">
@@ -173,7 +173,7 @@ function footer(categories) {
     </div>
   </div>
   <div class="legalnote">
-    <span>* Affiliate-Link: Als Amazon-Partner verdiene ich an qualifizierten Verkäufen. Bei Links zu weiteren Partnershops (über das Awin-Netzwerk) erhalten wir ebenfalls eine Provision. Für dich ändert sich der Preis nicht. Amazon und das Amazon-Logo sind Warenzeichen von Amazon.com, Inc. oder eines seiner verbundenen Unternehmen.</span>
+    <span>* Affiliate-Link: Als Amazon-Partner verdiene ich an qualifizierten Verkäufen. Bei Links zu weiteren Partnershops (über das Awin-Netzwerk) erhalten wir ebenfalls eine Provision. Für dich ändert sich der Preis nicht. Klickst du auf einen solchen Link, verlässt du toptop.shop und wirst zu Amazon bzw. über Awin zum jeweiligen Shop weitergeleitet. Dort können Cookies oder ähnliche Techniken eingesetzt werden, um den Kauf unserer Website zuzuordnen; dafür sind Amazon, Awin und der Shop verantwortlich (<a href="/datenschutz/#amazon">Datenschutzerklärung</a>). toptop.shop selbst setzt keine Cookies und zählt keine Klicks. Amazon und das Amazon-Logo sind Warenzeichen von Amazon.com, Inc. oder eines seiner verbundenen Unternehmen.</span>
     <span>Die Inhalte dieser Website dienen der allgemeinen Information und ersetzen keine ärztliche oder dermatologische Beratung.</span>
     <span>© ${new Date().getFullYear()} ${esc(o.name)} · ${esc(site.name)}</span>
   </div>

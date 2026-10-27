@@ -70,6 +70,7 @@ a:hover{color:var(--forest)}
 .fly-gh:hover{text-decoration:underline}
 .fly-bg{position:fixed;inset:0;background:rgba(23,37,27,.45);z-index:9}
 .ad-note{background:var(--forest);color:rgba(207,255,220,.7);font-size:.78rem;text-align:center;padding:6px 16px;border-bottom:1px solid rgba(207,255,220,.08)}
+.ad-note a{color:inherit;text-decoration:underline;text-underline-offset:2px}
 
 /* ---------- Hero ---------- */
 .hero{background:var(--forest);color:var(--white);padding:28px 0 72px;position:relative;overflow:hidden}

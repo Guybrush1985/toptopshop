@@ -1,4 +1,5 @@
 // Static-Site-Generator für toptop.shop – ohne externe Abhängigkeiten.
+import { existsSync } from "node:fs";
 // Aufruf: node build.mjs   →   Ausgabe in ./dist
 
 import { readdir, readFile, writeFile, mkdir, rm, cp, access } from "node:fs/promises";
@@ -123,7 +124,9 @@ function checkLinks(pages) {
       }
       const [path, hash] = href.split("#");
       if (/\.(svg|png|woff2|xml|txt)$/.test(path)) continue;
-      if (!known.has(path)) fail(`${p.path}: interner Link auf unbekannte Seite ${href}`);
+      // Eigenständige Anwendungen unter src/static/ (z. B. /firsty/) gelten als bekannt, wenn ihre Seite existiert.
+      const isStatic = path.endsWith("/") && existsSync(join(SRC, "static", path, "index.html"));
+      if (!known.has(path) && !isStatic) fail(`${p.path}: interner Link auf unbekannte Seite ${href}`);
       if (hash) {
         const target = pages.find((x) => x.path === path);
         if (target && !new RegExp(`\\sid="${hash}"`).test(target.html)) fail(`${p.path}: Anker ${href} existiert nicht`);
