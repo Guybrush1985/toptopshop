@@ -6,9 +6,9 @@ export const REMOTE = !!(SUPABASE_URL && SUPABASE_ANON_KEY);
 
 /** true im Build für die iOS- und Android-App (npm run app). */
 export const APP = process.env.NEXT_PUBLIC_TARGET === "app";
-/** "/firsty" auf der Website, "" in der App. */
+/** Unterpfad der Seite; seit der Subdomain firsty.toptop.shop überall "". */
 export const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
 /** Öffentliche Adresse der Website, z. B. für Links in E-Mails und Rücksprünge nach einer Zahlung. */
-export const SITE_URL = "https://toptop.shop/firsty";
+export const SITE_URL = "https://firsty.toptop.shop";
 /** URL-Schema der App, über das Stripe-Rücksprünge die App wieder öffnen (siehe /zahlung/). */
 export const APP_SCHEME = "firsty";

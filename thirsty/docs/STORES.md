@@ -1,6 +1,6 @@
 # Firsty in App Store und Google Play
 
-Die App ist eine Capacitor-Hülle um dieselbe Oberfläche wie toptop.shop/firsty. Alle Seiten liegen in der App
+Die App ist eine Capacitor-Hülle um dieselbe Oberfläche wie firsty.toptop.shop. Alle Seiten liegen in der App
 (kein Laden einer Website), Daten kommen aus Supabase, Zahlungen laufen über Stripe.
 
 - App-ID (beide Stores): `de.tanmeon.firsty`, Name „Firsty“, Version 1.0.0
@@ -49,8 +49,8 @@ Android-Test-APK und prüft den iOS-Build. Die Dateien liegen im jeweiligen Lauf
    Werbeplatz. Danach auf Live-Schlüssel umstellen.
 
 ### 3. Supabase
-- [ ] Authentication → URL Configuration: Site URL `https://toptop.shop/firsty/`, Redirect URLs
-      `https://toptop.shop/firsty/**`
+- [ ] Authentication → URL Configuration: Site URL `https://firsty.toptop.shop/`, Redirect URLs
+      `https://firsty.toptop.shop/**`
 - [ ] Eigenen SMTP-Server eintragen (z. B. IONOS-Postfach), damit Bestätigungs- und Passwort-Mails an alle gehen,
       danach „Confirm email“ einschalten
 - [ ] Die Beispiel-Restaurants („Beispiel“) vor dem Start durch echte ersetzen oder ausblenden
@@ -118,8 +118,8 @@ Für Restaurants:
 
 **Schlüsselwörter (iOS, 100 Zeichen):** restaurant,rabatt,reservierung,essen gehen,happy hour,tisch buchen,deal,dessert,early bird
 
-**Support-URL:** https://toptop.shop/firsty/hinweise/
-**Datenschutz-URL:** https://toptop.shop/firsty/datenschutz/
+**Support-URL:** https://firsty.toptop.shop/hinweise/
+**Datenschutz-URL:** https://firsty.toptop.shop/datenschutz/
 
 ## Datenschutzangaben
 
@@ -136,7 +136,7 @@ Nicht erhoben: Standort, Kontakte, Browserverlauf, Nutzungsdaten, Diagnose.
 ### Google „Datensicherheit“
 - Daten werden bei der Übertragung verschlüsselt: Ja
 - Nutzer können die Löschung anfordern: Ja, direkt in der App unter „Konto → Konto löschen“, Web-Link
-  https://toptop.shop/firsty/konto/
+  https://firsty.toptop.shop/konto/
 - Erhobene Daten (nicht geteilt, außer an Auftragsverarbeiter): Name, E-Mail, Telefonnummer, Nutzer-IDs,
   Zahlungsinformationen, Kaufverlauf, Fotos, sonstige Nutzerinhalte; Zweck: App-Funktionen, Kontoverwaltung,
   Betrugsprävention (Zahlungen)
