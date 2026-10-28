@@ -6,7 +6,7 @@
 
 import { supabase } from "./supabase";
 import { emptyState, getState, setRemoteState, type Booking, type MemberRole, type Photo, type Restaurant, type Role, type State, type User } from "./store";
-import { SITE_URL } from "./config";
+import { BASE_PATH, SITE_URL } from "./config";
 import type { Tier } from "./reliability";
 import { ActionError } from "./errors";
 
@@ -256,7 +256,7 @@ export async function login(email: string, password: string) {
 
 /** Anmeldung über Google oder Apple. Leitet zum Anbieter und danach zurück zur Login-Seite (mit Rücksprung-Ziel). */
 export async function loginWith(provider: "google" | "apple", next?: string) {
-  const back = `${window.location.origin}/firsty/login/${next ? `?weiter=${encodeURIComponent(next)}` : ""}`;
+  const back = `${window.location.origin}${BASE_PATH}/login/${next ? `?weiter=${encodeURIComponent(next)}` : ""}`;
   check(await sb().auth.signInWithOAuth({ provider, options: { redirectTo: back } }));
 }
 

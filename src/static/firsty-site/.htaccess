@@ -1,0 +1,18 @@
+Options -Indexes
+AddDefaultCharset utf-8
+DirectoryIndex index.html
+ErrorDocument 404 /firsty-site/404.html
+
+# Passwortschutz (HTTP Basic Auth, Benutzername beliebig). Geprüft wird serverseitig gegen einen
+# gesalzenen SHA-1-Hash; das Passwort selbst steht nicht im Repo.
+RewriteEngine On
+RewriteCond expr "!(%{HTTP:Authorization} =~ /^Basic\s+(\S+)$/ && unbase64($1) =~ /^[^:]*:(.+)$/ && sha1('firsty-site:$1') == '59bac2889951ede01ac43378ab608dd94514f6c5')"
+RewriteRule ^ - [R=401,L]
+Header always set WWW-Authenticate "Basic realm=\"Firsty\", charset=\"UTF-8\"" "expr=%{REQUEST_STATUS} == 401"
+
+<IfModule mod_headers.c>
+  Header set X-Robots-Tag "noindex, nofollow"
+  Header set X-Content-Type-Options "nosniff"
+  Header set Referrer-Policy "strict-origin-when-cross-origin"
+  Header set X-Frame-Options "SAMEORIGIN"
+</IfModule>

@@ -6,7 +6,7 @@
 // Von Supabase automatisch gesetzt: SUPABASE_URL, SUPABASE_ANON_KEY, SUPABASE_DB_URL.
 
 export const env = (k: string) => Deno.env.get(k) ?? "";
-export const SITE_URL = () => env("SITE_URL") || "https://toptop.shop/firsty";
+export const SITE_URL = () => env("SITE_URL") || "https://firsty.toptop.shop";
 
 /** Fehler mit einer Meldung, die die App so anzeigen darf. */
 export class UserError extends Error {

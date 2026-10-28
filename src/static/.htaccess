@@ -21,8 +21,13 @@ RedirectMatch 302 ^/vibe(/.*)?$ /vibe-v2/
 # Werbung lohnt sich ist offline (läuft nur noch lokal, siehe werbunglohntsich/README.md)
 RedirectMatch 302 ^/werbunglohntsich(/.*)?$ /
 
-# Thirsty heißt jetzt Firsty
-RedirectMatch 301 ^/thirsty/?(.*)$ /firsty/$1
+# Firsty läuft auf der eigenen Subdomain firsty.toptop.shop (Dateien in /firsty-site/)
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^firsty\.toptop\.shop$ [NC]
+RewriteCond %{REQUEST_URI} !^/firsty-site/
+RewriteRule ^(.*)$ /firsty-site/$1 [L]
+RewriteCond %{HTTP_HOST} !^firsty\.toptop\.shop$ [NC]
+RewriteRule ^(?:firsty|thirsty|firsty-site)(?:/(.*))?$ https://firsty.toptop.shop/$1 [R=302,L]
 
 # Alte Adressen der ersten Version weiterleiten
 Redirect 301 /impressum.html /impressum/

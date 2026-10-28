@@ -9,17 +9,12 @@ import { APP, BASE_PATH, REMOTE } from "@/lib/config";
 import { startNative } from "@/lib/native";
 import { startRemote } from "@/lib/remote";
 import { Loading } from "./ui";
-import { PasswordGate } from "./PasswordGate";
 
 /** Seiten, die selbst randlos gestalten (Hero, Karte). Alle anderen bekommen den Standard-Rahmen. */
 const FULL_BLEED = ["/", "/restaurant/"];
 
 /** Rahmen der App. Rendert erst im Browser, weil die Daten im Browser geladen werden (Local Storage oder Supabase). */
 export function Shell({ children }: { children: ReactNode }) {
-  return APP ? <ShellInner>{children}</ShellInner> : <PasswordGate><ShellInner>{children}</ShellInner></PasswordGate>;
-}
-
-function ShellInner({ children }: { children: ReactNode }) {
   const [mounted, setMounted] = useState(false);
   const [banner, setBanner] = useState(true);
   const path = usePathname();
