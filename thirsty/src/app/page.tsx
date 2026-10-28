@@ -295,7 +295,7 @@ export default function Discover() {
         <div className="mx-auto mt-6 grid max-w-4xl items-center gap-5 sm:grid-cols-[1fr_1.1fr]">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/zwei-restaurants.webp`}
+            src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX ?? ""}/zwei-restaurants.webp`}
             alt="Zwei Restaurants nebeneinander: links leere Tische, rechts sitzen schon Gäste"
             width={1400}
             height={933}

@@ -6,7 +6,7 @@ ErrorDocument 404 /firsty-site/404.html
 # Passwortschutz (HTTP Basic Auth, Benutzername beliebig). Geprüft wird serverseitig gegen einen
 # gesalzenen SHA-1-Hash; das Passwort selbst steht nicht im Repo.
 RewriteEngine On
-RewriteCond expr "!(%{HTTP:Authorization} =~ /^Basic\s+(\S+)$/ && unbase64($1) =~ /^[^:]*:(.+)$/ && sha1('firsty-site:$1') == '59bac2889951ede01ac43378ab608dd94514f6c5')"
+RewriteCond expr "!(%{HTTP:Authorization} =~ /^Basic\s+(\S+)$/ && unbase64($1) =~ /^[^:]*:(.+)$/ && sha1('firsty-site:$1') == '6781817c28fca2b362cb1cb3033e7e1b1e670dd3')"
 RewriteRule ^ - [R=401,L]
 Header always set WWW-Authenticate "Basic realm=\"Firsty\", charset=\"UTF-8\"" "expr=%{REQUEST_STATUS} == 401"
 

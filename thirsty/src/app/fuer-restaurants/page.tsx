@@ -35,7 +35,7 @@ export default function FuerRestaurants() {
         <figure className="relative mt-6 overflow-hidden rounded-[2rem] border border-white/10">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src={`${process.env.NEXT_PUBLIC_BASE_PATH ?? ""}/zwei-restaurants.webp`}
+            src={`${process.env.NEXT_PUBLIC_ASSET_PREFIX ?? ""}/zwei-restaurants.webp`}
             alt="Zwei Restaurants nebeneinander: links leere Tische, rechts sitzen schon Gäste"
             width={1400}
             height={933}
