@@ -9,13 +9,17 @@ import { fileURLToPath, pathToFileURL } from "node:url";
 import { site, areas } from "./src/site.mjs";
 import { setCss } from "./src/templates/layout.mjs";
 import { categoryPage } from "./src/templates/category.mjs";
-import { homePage, areaPage, groupPage, methodPage, legalPage, notFoundPage } from "./src/templates/pages.mjs";
+import { homePage, areaPage, groupPage, methodPage, legalPage, notFoundPage, comingSoonPage } from "./src/templates/pages.mjs";
 import { scoresFigure, stepsFigure, svgSize } from "./src/templates/visuals.mjs";
 import { overallScore, countWords, catPath, groupPath } from "./src/templates/util.mjs";
 
 const ROOT = dirname(fileURLToPath(import.meta.url));
 const SRC = join(ROOT, "src");
 const DIST = join(ROOT, "dist");
+
+// Platzhalter-Modus (site.offline): Inhalte werden geprüft, aber nur der Platzhalter
+// plus Impressum/Datenschutz landet in dist/. Mit --voll wird lokal die ganze Seite gebaut.
+const OFFLINE = site.offline && !process.argv.includes("--voll");
 
 const MIN_WORDS = 1000;
 const MIN_FAQS = 5;
@@ -156,7 +160,7 @@ async function build() {
     if (words < MIN_WORDS) fail(`${cat.slug}: nur ${words} Wörter (mindestens ${MIN_WORDS})`);
     const html = categoryPage(cat, cats, Math.max(1, Math.round(words / 200)));
     pages.push({ path: catPath(cat), html, words, lastmod: cat.updated, priority: "0.9" });
-    for (const f of Object.values(cat.figures)) await write(join(catPath(cat), f.file), f.svg);
+    if (!OFFLINE) for (const f of Object.values(cat.figures)) await write(join(catPath(cat), f.file), f.svg);
   }
 
   const latest = cats.map((c) => c.updated).sort().at(-1);
@@ -187,6 +191,21 @@ async function build() {
   if (problems.length) {
     console.error("\nBuild abgebrochen – bitte beheben:\n" + problems.map((p) => "  • " + p).join("\n"));
     process.exit(1);
+  }
+
+  if (OFFLINE) {
+    await write("index.html", comingSoonPage());
+    await write("404.html", comingSoonPage("/404.html"));
+    for (const l of legal) {
+      const html = await readFile(join(SRC, "content", "legal", l.file), "utf8");
+      await write(join(l.path, "index.html"), legalPage({ ...l, html }, cats, true));
+    }
+    await write("robots.txt", `User-agent: *\nAllow: /\nDisallow: /train/\n`);
+    // Statische Anwendungen (z. B. /firsty/, /tandem-now/) bleiben erreichbar.
+    await cp(join(SRC, "static"), DIST, { recursive: true });
+    console.log(`✓ Platzhalter-Modus: Startseite „Hier entsteht etwas Großes“, Impressum, Datenschutz in dist/`);
+    console.log(`  (${pages.length + 1} Seiten geprüft; volle Seite lokal: node build.mjs --voll)`);
+    return;
   }
 
   for (const p of pages) await write(p.path === "/" ? "index.html" : join(p.path, "index.html"), p.html);

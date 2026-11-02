@@ -2,6 +2,11 @@
 // Gilt für alle Seiten; Kategorien liegen in src/content/categories/.
 
 export const site = {
+  // Platzhalter-Modus: Live zeigt nur „Hier entsteht etwas Großes“ plus Impressum und Datenschutz.
+  // Alle Inhalte bleiben im Repo und werden weiter geprüft. Die volle Seite lokal: node build.mjs --voll
+  // Zurück online: auf false setzen und auf main mergen.
+  offline: true,
+
   name: "toptop.shop",
   url: "https://toptop.shop",
   lang: "de-DE",

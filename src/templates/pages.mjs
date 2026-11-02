@@ -270,13 +270,26 @@ export function methodPage(all) {
 
 // ---------------------------------------------------------------------------
 
-export function legalPage({ path, name, title, description, html }, all) {
+export function legalPage({ path, name, title, description, html }, all, minimal = false) {
   const trail = [
     { name: "Startseite", path: "/" },
     { name, path },
   ];
   const body = `<div class="legal"><div class="wrap">${crumbs(trail)}<div class="prose">${html}</div></div></div>`;
-  return page({ path, title, description, body, breadcrumbs: trail, noindex: true, categories: all });
+  return page({ path, title, description, body, breadcrumbs: trail, noindex: true, categories: all, minimal });
+}
+
+/** Platzhalter für den Offline-Modus (site.offline): ersetzt Startseite und 404-Seite. */
+export function comingSoonPage(path = "/") {
+  const body = `
+<section class="hero soon" aria-labelledby="h1">
+  <div class="wrap">
+    <span class="eyebrow">toptop.shop</span>
+    <h1 id="h1">Hier entsteht etwas <em>Großes</em>.</h1>
+    <p class="lead">Wir bauen gerade an etwas Neuem. Schau bald wieder vorbei.</p>
+  </div>
+</section>`;
+  return page({ path, title: "Hier entsteht etwas Großes | toptop.shop", description: "toptop.shop wird gerade neu aufgebaut.", body, noindex: true, minimal: true });
 }
 
 export function notFoundPage(all) {
