@@ -52,7 +52,7 @@ ausführt. Nach Änderungen in `thirsty/` also immer `npm run site` laufen lasse
 
 - Preise und Anteile an einer Stelle: `supabase/functions/_shared/pricing.ts`. Preismodell ab Start (Dezember 2026):
   Buchungsgebühr 2 € netto pro wahrgenommener Buchung, höchstens 99 € netto im Monat, die ersten 90 Tage ab Anmeldung
-  kostenlos; 2 % Zahlungsgebühr bei Zahlung in der App; 10 € No-Show-Gebühr je Person mit 30 % für Firsty;
+  kostenlos; 2 % Zahlungsgebühr bei Zahlung in der App; 10 € No-Show-Gebühr je Person mit 30 % für earlybird.eat;
   Werbeplatz 5 € netto pro Tag. Abos (Basic/Pro) sind ausgeschaltet (`SUBSCRIPTIONS_OFFERED`), der Code bleibt für
   eine spätere Flatrate.
 - Edge Functions: `payments` (alle Aktionen) und `stripe-webhook` (ohne JWT-Prüfung, signiert über Stripe).

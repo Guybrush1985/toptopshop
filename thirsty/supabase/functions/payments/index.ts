@@ -3,11 +3,11 @@
 //
 // Geldflüsse (Stripe Connect, Express-Konten der Restaurants):
 // - Rechnung in der App: Zahlung des Gastes geht direkt an das Restaurant (on_behalf_of + transfer_data),
-//   Firsty behält die Provision als application_fee. Trinkgeld geht vollständig an das Restaurant.
-// - No-Show-Gebühr: hinterlegte Karte wird ohne Anwesenheit belastet, 70 % Restaurant, 30 % Firsty.
-// - Buchungsgebühr: Restaurant zahlt monatlich pro wahrgenommener Buchung an Firsty (Stripe-Rechnung, zzgl. 19 % USt.).
+//   earlybird.eat behält die Provision als application_fee. Trinkgeld geht vollständig an das Restaurant.
+// - No-Show-Gebühr: hinterlegte Karte wird ohne Anwesenheit belastet, 70 % Restaurant, 30 % earlybird.eat.
+// - Buchungsgebühr: Restaurant zahlt monatlich pro wahrgenommener Buchung an earlybird.eat (Stripe-Rechnung, zzgl. 19 % USt.).
 //   Aktion invoice_booking_fees, aufgerufen per Cron mit Header x-firsty-cron = FIRSTY_CRON_SECRET.
-// - Werbung: Restaurant zahlt an Firsty (Checkout mit Rechnung, zzgl. 19 % USt.).
+// - Werbung: Restaurant zahlt an earlybird.eat (Checkout mit Rechnung, zzgl. 19 % USt.).
 // - Abo (Basic/Pro): zum Start nicht im Angebot (pricing.ts: SUBSCRIPTIONS_OFFERED), Code bleibt für eine spätere Flatrate.
 import { db } from "../_shared/db.ts";
 import { requireUser, type AuthUser } from "../_shared/auth.ts";
@@ -61,7 +61,7 @@ async function connectOnboarding(user: AuthUser, body: Body) {
       business_profile: {
         name: r.legal_name ?? r.name,
         mcc: "5812", // Restaurants
-        product_description: "Restaurant (Early-Bird-Plätze über Firsty)",
+        product_description: "Restaurant (Early-Bird-Plätze über earlybird.eat)",
         url: r.website ?? `${SITE_URL()}/restaurant/?s=${r.slug}`,
       },
       capabilities: { card_payments: { requested: true }, transfers: { requested: true } },
@@ -118,7 +118,7 @@ async function restaurantCustomer(r: Record<string, any>, a: Record<string, any>
 }
 
 async function subscribe(user: AuthUser, body: Body) {
-  if (!SUBSCRIPTIONS_OFFERED) throw new UserError("Firsty hat keine Abos mehr. Du zahlst nur pro Buchung, die ersten 90 Tage sind kostenlos.");
+  if (!SUBSCRIPTIONS_OFFERED) throw new UserError("earlybird.eat hat keine Abos mehr. Du zahlst nur pro Buchung, die ersten 90 Tage sind kostenlos.");
   const plan = str(body.plan) as PlanKey;
   if (!PLANS[plan]) throw new UserError("Bitte wähle Basic oder Pro.");
   const { r, a } = await requireRole(user, body.restaurantId, ["OWNER"]);
@@ -137,12 +137,12 @@ async function subscribe(user: AuthUser, body: Body) {
         currency: "eur",
         unit_amount: PLANS[plan].netCents,
         recurring: { interval: "month" },
-        product_data: { name: `Firsty ${PLANS[plan].name}`, description: PLANS[plan].features.join(" · ") },
+        product_data: { name: `earlybird.eat ${PLANS[plan].name}`, description: PLANS[plan].features.join(" · ") },
       },
     }],
     subscription_data: {
       ...(a.trial_used ? {} : { trial_period_days: TRIAL_DAYS }),
-      description: `Firsty ${PLANS[plan].name} für ${r.name}`,
+      description: `earlybird.eat ${PLANS[plan].name} für ${r.name}`,
       metadata: { restaurant_id: r.id, plan },
     },
     payment_method_collection: "always",
@@ -218,7 +218,7 @@ export async function invoiceBookingFees(body: Body) {
         auto_advance: true,
         pending_invoice_items_behavior: "exclude",
         default_tax_rates: [await vatRate()],
-        description: `Firsty Buchungsgebühr ${monthLabel(month)} für ${r.name}`,
+        description: `earlybird.eat Buchungsgebühr ${monthLabel(month)} für ${r.name}`,
         footer: `${euro(BOOKING_FEE_NET_CENTS)} netto pro wahrgenommener Buchung, höchstens ${euro(BOOKING_FEE_CAP_NET_CENTS)} netto im Monat.`,
         metadata: { kind: "booking_fees", restaurant_id: rid, month, bookings: String(d.bookings) },
       }, { idempotencyKey: `${key}-inv` });
@@ -227,7 +227,7 @@ export async function invoiceBookingFees(body: Body) {
         invoice: inv.id,
         currency: "eur",
         amount: d.net_cents,
-        description: `${d.bookings} ${d.bookings === 1 ? "Buchung" : "Buchungen"} über Firsty im ${monthLabel(month)} à ${euro(BOOKING_FEE_NET_CENTS)}` +
+        description: `${d.bookings} ${d.bookings === 1 ? "Buchung" : "Buchungen"} über earlybird.eat im ${monthLabel(month)} à ${euro(BOOKING_FEE_NET_CENTS)}` +
           (capped ? ` (Monatsdeckel ${euro(BOOKING_FEE_CAP_NET_CENTS)})` : ""),
         metadata: { restaurant_id: rid, month },
       }, { idempotencyKey: `${key}-item` });
@@ -278,7 +278,7 @@ async function sponsor(user: AuthUser, body: Body) {
         },
       },
     }],
-    invoice_creation: { enabled: true, invoice_data: { description: `Firsty Werbeplatz für ${r.name}`, metadata: { restaurant_id: r.id } } },
+    invoice_creation: { enabled: true, invoice_data: { description: `earlybird.eat Werbeplatz für ${r.name}`, metadata: { restaurant_id: r.id } } },
     billing_address_collection: "required",
     customer_update: { address: "auto", name: "auto" },
     tax_id_collection: { enabled: true },
@@ -313,7 +313,7 @@ async function cardSetup(user: AuthUser, body: Body) {
     currency: "eur",
     locale: "de",
     allowed_payment_method_types: ["card"],
-    setup_intent_data: { description: "Firsty: Karte als Garantie für Buchungen", metadata: { user_id: user.id } },
+    setup_intent_data: { description: "earlybird.eat: Karte als Garantie für Buchungen", metadata: { user_id: user.id } },
     metadata: { kind: "card_setup", user_id: user.id },
     success_url: back(body, { art: "karte", status: "ok", weiter: str(body.weiter) }),
     cancel_url: back(body, { art: "karte", status: "abbruch", weiter: str(body.weiter) }, false),
@@ -361,7 +361,7 @@ async function payBill(user: AuthUser, body: Body) {
       product_data: {
         name: description,
         description: bill.discount_percent
-          ? `Summe ${euro(bill.subtotal_cents)} abzüglich ${bill.discount_percent} % Firsty-Rabatt (${euro(bill.discount_cents)})`
+          ? `Summe ${euro(bill.subtotal_cents)} abzüglich ${bill.discount_percent} % earlybird.eat-Rabatt (${euro(bill.discount_cents)})`
           : `Summe laut Kasse ${euro(bill.subtotal_cents)}`,
       },
     },

@@ -31,7 +31,7 @@ export function Shell({ children }: { children: ReactNode }) {
   return (
     <div className={`grain relative min-h-screen overflow-x-clip ${APP ? "pb-[calc(4.5rem+env(safe-area-inset-bottom))]" : ""}`}>
       {banner && !APP && <div className="relative z-30 bg-lime py-1.5 pl-4 pr-10 text-center text-[11px] font-semibold uppercase tracking-[.18em] text-ink">
-        {REMOTE ? "Firsty geht im Dezember 2026 live · Bis dahin Testphase, mit „Beispiel“ markierte Restaurants sind erfunden" : "Firsty geht im Dezember 2026 live · Vorschau, Daten liegen nur in diesem Browser"}{" "}
+        {REMOTE ? "earlybird.eat geht im Dezember 2026 live · Bis dahin Testphase, mit „Beispiel“ markierte Restaurants sind erfunden" : "earlybird.eat geht im Dezember 2026 live · Vorschau, Daten liegen nur in diesem Browser"}{" "}
         <Link href="/hinweise/" className="underline decoration-2 underline-offset-2">Mehr</Link>
         <button
           aria-label="Hinweis schließen"
@@ -98,7 +98,7 @@ function Footer() {
   return (
     <footer className="relative mt-24 overflow-hidden border-t border-white/10 bg-ink">
       <div className="mx-auto flex max-w-6xl flex-wrap items-center gap-x-6 gap-y-2 px-5 pt-10 text-sm text-cream/60">
-        <span>Firsty · {REMOTE ? "ein Angebot" : "eine Vorschau"} der TanMeOn GmbH</span>
+        <span>earlybird.eat · {REMOTE ? "ein Angebot" : "eine Vorschau"} der TanMeOn GmbH</span>
         <Link href="/fuer-restaurants/" className="hover:text-lime">Für Restaurants</Link>
         <Link href="/hinweise/" className="hover:text-lime">{REMOTE ? "Hinweise zur Testphase" : "Hinweise zur Vorschau"}</Link>
         <Link href="/agb/" className="hover:text-lime">AGB</Link>
@@ -106,7 +106,7 @@ function Footer() {
         <Link href="/datenschutz/" className="hover:text-lime">Datenschutz</Link>
       </div>
       <p aria-hidden className="display pointer-events-none select-none whitespace-nowrap px-3 pb-4 pt-4 text-center text-5xl leading-none sm:text-6xl text-white/[.04]">
-        Firsty
+        earlybird.eat
       </p>
     </footer>
   );
@@ -133,8 +133,8 @@ function Header() {
   return (
     <header className={`sticky top-0 z-20 border-b border-white/[.06] bg-ink/70 backdrop-blur-xl ${APP ? "pt-[env(safe-area-inset-top)]" : ""}`}>
       <nav className="mx-auto flex max-w-6xl items-center gap-2 px-5 py-3">
-        <Link href="/" className="group flex items-baseline gap-1 font-display text-3xl uppercase leading-none tracking-wide text-cream">
-          Firsty<span className="inline-block h-2.5 w-2.5 rounded-full bg-lime transition group-hover:scale-150" />
+        <Link href="/" className="group flex items-baseline gap-1 font-display text-3xl leading-none tracking-wide text-cream" aria-label="earlybird.eat">
+          earlybird<span className="inline-block h-2.5 w-2.5 rounded-full bg-lime transition group-hover:scale-150" />eat
         </Link>
         <div className="ml-auto flex flex-wrap items-center justify-end gap-1 text-sm font-medium">
           {!(user && !isGuest) && <Link href="/" className={`${link} hidden sm:inline-block`}>Entdecken</Link>}

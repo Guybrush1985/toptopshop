@@ -1,9 +1,9 @@
-# Firsty in App Store und Google Play
+# earlybird.eat in App Store und Google Play
 
 Die App ist eine Capacitor-Hülle um dieselbe Oberfläche wie firsty.toptop.shop. Alle Seiten liegen in der App
 (kein Laden einer Website), Daten kommen aus Supabase, Zahlungen laufen über Stripe.
 
-- App-ID (beide Stores): `de.tanmeon.firsty`, Name „Firsty“, Version 1.0.0
+- App-ID (beide Stores): `de.tanmeon.firsty`, Name „earlybird.eat“, Version 1.0.0
 - URL-Schema für Rücksprünge von Stripe: `firsty://`
 - Nur Hochformat, nur iPhone (kein iPad-Layout), Android ab 7.0 (API 24)
 
@@ -41,7 +41,7 @@ Android-Test-APK und prüft den iOS-Build. Die Dateien liegen im jeweiligen Lauf
      `invoice.paid`, `invoice.payment_failed`, `payment_intent.succeeded`, `payment_intent.payment_failed`,
      `charge.refunded`
    - „Verbundene Konten“: `account.updated`
-4. Stripe → Einstellungen → Connect → Branding: Name „Firsty“, Icon `app-assets/icon.svg`, Farbe `#d4ff3a`.
+4. Stripe → Einstellungen → Connect → Branding: Name „earlybird.eat“, Icon `app-assets/icon.svg`, Farbe `#d4ff3a`.
 5. Stripe → Einstellungen → Zahlungsmethoden: Karte, Apple Pay, Google Pay aktiv. Für Apple Pay im Web die Domain
    `toptop.shop` verifizieren.
 6. Stripe → Einstellungen → E-Mails: Belege an Kunden für erfolgreiche Zahlungen und Erstattungen einschalten.
@@ -61,7 +61,7 @@ Android-Test-APK und prüft den iOS-Build. Die Dateien liegen im jeweiligen Lauf
 - [ ] Auftragsverarbeitung: Supabase-DPA abschließen; Stripe-Bedingungen gelten mit Kontoeröffnung
 
 ### 5. Apple App Store
-1. App Store Connect → Neue App: Plattform iOS, Name „Firsty – Essen zur Öffnung“, Sprache Deutsch,
+1. App Store Connect → Neue App: Plattform iOS, Name „earlybird.eat – Essen zur Öffnung“, Sprache Deutsch,
    Bundle-ID `de.tanmeon.firsty`, SKU `firsty-ios`.
 2. Am Mac: `npm run app:ios`, in Xcode unter „Signing & Capabilities“ das Team wählen,
    Product → Archive → Distribute App → App Store Connect.
@@ -69,9 +69,9 @@ Android-Test-APK und prüft den iOS-Build. Die Dateien liegen im jeweiligen Lauf
 4. Altersfreigabe: 4+ (keine bedenklichen Inhalte). Kategorie: Essen und Trinken, Zweitkategorie: Reisen.
 5. Prüfhinweise für Apple (App Review Information): Demo-Zugänge aus „Zugänge für die Prüfung“ eintragen und
    diesen Text:
-   > Firsty vermittelt Tischreservierungen in Restaurants. Zahlungen in der App betreffen Restaurantrechnungen
+   > earlybird.eat vermittelt Tischreservierungen in Restaurants. Zahlungen in der App betreffen Restaurantrechnungen
    > und No-Show-Gebühren, also Dienstleistungen außerhalb der App (Richtlinie 3.1.3(e) / 3.1.5), und laufen
-   > über Stripe. Restaurants zahlen Firsty pro vermittelter Reservierung per Rechnung außerhalb der App;
+   > über Stripe. Restaurants zahlen earlybird.eat pro vermittelter Reservierung per Rechnung außerhalb der App;
    > Werbeplätze werden in der App nicht verkauft.
 
 ### 6. Google Play
@@ -80,7 +80,7 @@ Android-Test-APK und prüft den iOS-Build. Die Dateien liegen im jeweiligen Lauf
 2. GitHub → Settings → Secrets → Actions: `FIRSTY_KEYSTORE_BASE64` (Inhalt von `base64 -w0 firsty.jks`),
    `FIRSTY_KEYSTORE_PASSWORD`, `FIRSTY_KEY_ALIAS` (`firsty`), `FIRSTY_KEY_PASSWORD`.
    Danach erzeugt jeder Lauf ein signiertes App Bundle `firsty-android-release`.
-3. Play Console → App erstellen: Name „Firsty – Essen zur Öffnung“, Deutsch, App, kostenlos.
+3. Play Console → App erstellen: Name „earlybird.eat – Essen zur Öffnung“, Deutsch, App, kostenlos.
 4. Play App Signing aktivieren, App Bundle in den internen Test hochladen, dann geschlossener Test
    (Neue Entwicklerkonten brauchen 12 Tester über 14 Tage, bevor sie in Produktion gehen dürfen.)
 5. Store-Eintrag, Datensicherheit, Inhaltseinstufung (IARC-Fragebogen: keine Gewalt, keine Glücksspiele; Nutzer
@@ -95,12 +95,12 @@ Vor der Einreichung in der Live-Datenbank anlegen:
 
 ## Store-Texte
 
-**Name:** Firsty – Essen zur Öffnung
+**Name:** earlybird.eat – Essen zur Öffnung
 **Untertitel (iOS, 30 Zeichen):** Bis 75 % sparen zur Öffnung
 **Kurzbeschreibung (Android, 80 Zeichen):** Restaurants zur Öffnung buchen: bis 75 % Rabatt oder Drink und Dessert gratis.
 
 **Beschreibung:**
-Sei der erste Gast. Firsty zeigt dir Restaurants in deiner Stadt, die dich in der ersten Stunde nach Öffnung mit
+Sei der erste Gast. earlybird.eat zeigt dir Restaurants in deiner Stadt, die dich in der ersten Stunde nach Öffnung mit
 einem Vorteil begrüßen: 25, 50 oder 75 % auf die Rechnung, ein Getränk oder ein Dessert aufs Haus.
 
 So geht’s:

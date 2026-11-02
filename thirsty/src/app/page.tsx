@@ -306,12 +306,12 @@ export default function Discover() {
             <p className="display text-2xl text-cream">Wo würdest du dich hinsetzen?</p>
             <p className="mt-2 text-sm text-cream/60">
               Wo schon Gäste sitzen, muss es gut sein, und als Erster ein leeres Restaurant zu betreten, ist eine Hürde.
-              Psychologen nennen das Social Proof. Firsty bringt die ersten Gäste, der Rest folgt.
+              Psychologen nennen das Social Proof. earlybird.eat bringt die ersten Gäste, der Rest folgt.
             </p>
           </div>
         </div>
         <p className="mt-6 text-center text-cream/70">
-          Leere Tische zur Öffnung? <Link href="/fuer-restaurants/" className="font-semibold text-lime underline underline-offset-4">So funktioniert Firsty für dein Restaurant →</Link>
+          Leere Tische zur Öffnung? <Link href="/fuer-restaurants/" className="font-semibold text-lime underline underline-offset-4">So funktioniert earlybird.eat für dein Restaurant →</Link>
         </p>
       </section>
     </div>

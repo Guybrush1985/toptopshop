@@ -1,7 +1,7 @@
 -- Werbung lohnt sich (toptop.shop/werbunglohntsich)
 -- Eigenes Schema "wls" im Supabase-Projekt Firsty.app. Das Schema ist nicht über die API freigegeben;
 -- der Browser erreicht die Daten nur über die Funktionen public.wls_* (security definer).
--- Eigene Konten (nicht Supabase Auth), damit sich die Plattform keine Nutzer mit Firsty teilt.
+-- Eigene Konten (nicht Supabase Auth), damit sich die Plattform keine Nutzer mit earlybird.eat teilt.
 -- Admins stehen in wls.admins (E-Mail), werden direkt in der Datenbank gepflegt.
 
 create schema if not exists wls;

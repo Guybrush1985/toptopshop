@@ -12,7 +12,7 @@ export default function Datenschutz() {
       {REMOTE ? <LiveData /> : <>
       <H2>Speicherung in deinem Browser</H2>
       <p>
-        In der Vorschau speichert Firsty alle Eingaben (Konto, Profil, Restaurantdaten, Fotos, Buchungen, Bewertungen) ausschließlich
+        In der Vorschau speichert earlybird.eat alle Eingaben (Konto, Profil, Restaurantdaten, Fotos, Buchungen, Bewertungen) ausschließlich
         im Local Storage deines Browsers. Diese Daten werden nicht an uns oder Dritte übertragen und sind nur auf diesem Gerät in diesem
         Browser sichtbar. Passwörter werden dort nur als Prüfsumme abgelegt. Du kannst die Daten jederzeit löschen, indem du in den
         Hinweisen zur Vorschau auf „Vorschau zurücksetzen“ klickst oder die Websitedaten in deinem Browser entfernst. Rechtsgrundlage
@@ -62,7 +62,7 @@ export default function Datenschutz() {
         auf dem Gerät auf einen QR-Code geprüft und weder gespeichert noch übertragen.
       </p>
 
-      <H2>Firsty-App für iOS und Android</H2>
+      <H2>earlybird.eat-App für iOS und Android</H2>
       <p>
         Die App zeigt dieselben Inhalte wie die Website und verarbeitet dieselben Daten. Sie enthält keine Werbe- oder Analyse-SDKs und
         erstellt kein Tracking-Profil. Die Kamera wird nur für den Check-in-Scanner genutzt. Für Zahlungen öffnet die App die Bezahlseite
@@ -96,7 +96,7 @@ function LiveData() {
         (gebucht, eingecheckt, storniert, nicht erschienen) und Zeitpunkte. Aus Check-ins, späten Absagen und No-Shows ergibt sich dein
         Zuverlässigkeitswert. Bewertungen erscheinen öffentlich mit deinem Vornamen. Restaurantbetreiber speichern Angaben zum Restaurant,
         Fotos, Speisekarte, Rechnungsdaten und die Mitglieder ihres Teams. Rechtsgrundlage ist Art. 6 Abs. 1 lit. b DSGVO (Nutzung von
-        Firsty und Durchführung der Buchung).
+        earlybird.eat und Durchführung der Buchung).
       </p>
       <H2>Was das Restaurant sieht</H2>
       <p>
@@ -113,7 +113,7 @@ function LiveData() {
       </p>
       <H2>Zahlungen über Stripe</H2>
       <p>
-        Zahlungen in Firsty (Rechnung im Restaurant, No-Show-Gebühr, Restaurant-Abos und Werbeplätze) wickelt die Stripe Payments Europe
+        Zahlungen in earlybird.eat (Rechnung im Restaurant, No-Show-Gebühr, Restaurant-Abos und Werbeplätze) wickelt die Stripe Payments Europe
         Ltd., 1 Grand Canal Street Lower, Dublin 2, Irland, ab. Kartendaten gibst du direkt bei Stripe ein; wir sehen nur Kartenmarke,
         die letzten vier Ziffern und das Ablaufdatum. Wir speichern Betrag, Zeitpunkt, Status und die Stripe-Kennungen der Zahlung.
         Restaurants, die Zahlungen empfangen, schließen mit Stripe einen eigenen Vertrag und übermitteln Stripe die für die
@@ -130,7 +130,7 @@ function LiveData() {
       </p>
       <H2>Speicherung in deinem Browser</H2>
       <p>
-        Damit du angemeldet bleibst, legt Firsty im Local Storage deines Browsers einen Anmeldeschlüssel ab. Er wird beim Abmelden gelöscht.
+        Damit du angemeldet bleibst, legt earlybird.eat im Local Storage deines Browsers einen Anmeldeschlüssel ab. Er wird beim Abmelden gelöscht.
         Rechtsgrundlage ist § 25 Abs. 2 Nr. 2 TDDDG, weil die Speicherung für die von dir gewünschte Anmeldung unbedingt erforderlich ist.
         Cookies zu Werbe- oder Analysezwecken verwenden wir nicht.
       </p>

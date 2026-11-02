@@ -14,7 +14,7 @@ export default function StatementPage() {
   return <RequireUser><Statement /></RequireUser>;
 }
 
-/** Monatsabrechnung als Rechnung über die Firsty-Gebühren (Zahlungsgebühr und No-Show-Anteil), druckbar. */
+/** Monatsabrechnung als Rechnung über die earlybird.eat-Gebühren (Zahlungsgebühr und No-Show-Anteil), druckbar. */
 function Statement() {
   const p = useSearchParams();
   const id = p.get("id") ?? "";
@@ -45,7 +45,7 @@ function Statement() {
       <article className="rounded-2xl bg-white p-8 text-[#111] print:p-0" data-testid="statement">
         <header className="flex flex-wrap justify-between gap-6 text-sm">
           <div>
-            <p className="font-bold">TanMeOn GmbH · Firsty</p>
+            <p className="font-bold">TanMeOn GmbH · earlybird.eat</p>
             <p>Deichstraße 8, 25826 Sankt Peter-Ording</p>
             <p>USt-IdNr. DE 284 630 274 · HRB 12499 Amtsgericht Flensburg</p>
           </div>
@@ -61,7 +61,7 @@ function Statement() {
           {(r.postalCode || r.city) && <p>{[r.postalCode, r.city].filter(Boolean).join(" ")}</p>}
           {r.vatId && <p>USt-IdNr. {r.vatId}</p>}
         </div>
-        <h1 className="mt-8 text-2xl font-bold">Monatsabrechnung Firsty</h1>
+        <h1 className="mt-8 text-2xl font-bold">Monatsabrechnung earlybird.eat</h1>
         <table className="mt-4 w-full text-sm">
           <tbody>
             <Row a={`In der App bezahlte Rechnungen (inkl. ${euro(t.tips)} Trinkgeld)`} b={euro(t.appRevenue)} />
@@ -69,7 +69,7 @@ function Statement() {
             <Row a="No-Show-Gebühren (euer Anteil)" b={euro(t.noShowNet)} />
           </tbody>
         </table>
-        <h2 className="mt-6 font-bold">Firsty-Gebühren</h2>
+        <h2 className="mt-6 font-bold">earlybird.eat-Gebühren</h2>
         <table className="mt-2 w-full text-sm">
           <tbody>
             <Row a={`Zahlungsgebühr ${COMMISSION_PERCENT} % auf in der App bezahlte Rechnungen (ohne Trinkgeld)`} b={euro(t.commission)} />
@@ -89,7 +89,7 @@ function Statement() {
         </p>
         <h2 className="mt-6 font-bold">Einzelaufstellung</h2>
         <table className="mt-2 w-full text-xs">
-          <thead><tr className="border-b text-left"><th className="py-1">Datum</th><th>Beschreibung</th><th className="text-right">Betrag</th><th className="text-right">Firsty</th><th className="text-right">An euch</th></tr></thead>
+          <thead><tr className="border-b text-left"><th className="py-1">Datum</th><th>Beschreibung</th><th className="text-right">Betrag</th><th className="text-right">earlybird.eat</th><th className="text-right">An euch</th></tr></thead>
           <tbody>
             {rows.filter((x) => ["BILL", "NO_SHOW", "REFUND"].includes(x.kind) && x.status !== "FAILED").map((x) => (
               <tr key={x.id} className="border-b border-[#eee]">

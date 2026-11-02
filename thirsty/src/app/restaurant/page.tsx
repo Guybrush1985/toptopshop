@@ -273,7 +273,7 @@ export default function RestaurantPage() {
       </section>
 
       <section>
-        <h2 className="mb-3 display text-3xl text-cream">Bewertungen von Firsty-Gästen</h2>
+        <h2 className="mb-3 display text-3xl text-cream">Bewertungen von earlybird.eat-Gästen</h2>
         {reviews.length === 0 ? (
           <p className="text-stone-600">Noch keine Bewertungen. Bewerten können nur Gäste, die eingecheckt haben.</p>
         ) : (

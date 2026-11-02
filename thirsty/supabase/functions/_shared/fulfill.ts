@@ -134,7 +134,7 @@ export async function applyInvoice(inv: StripeT.Invoice) {
   const to = line?.period?.end ? new Date(line.period.end * 1000).toLocaleDateString("de-DE") : "";
   await sql`insert into public.payments (kind, restaurant_id, amount_cents, fee_cents, net_cents, status, description, stripe_id, invoice_url, invoice_pdf)
     values ('SUBSCRIPTION', ${acc.restaurant_id}, ${inv.amount_paid}, ${inv.amount_paid}, 0, 'SUCCEEDED',
-      ${`Firsty-Abo${from ? ` ${from}–${to}` : ""}${inv.number ? `, Rechnung ${inv.number}` : ""}`}, ${inv.id},
+      ${`earlybird.eat-Abo${from ? ` ${from}–${to}` : ""}${inv.number ? `, Rechnung ${inv.number}` : ""}`}, ${inv.id},
       ${inv.hosted_invoice_url ?? null}, ${inv.invoice_pdf ?? null})
     on conflict (stripe_id) do nothing`;
 }

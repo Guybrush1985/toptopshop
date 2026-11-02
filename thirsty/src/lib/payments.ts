@@ -337,7 +337,7 @@ export async function connectDashboard(restaurantId: string) {
 }
 
 export async function subscribe(restaurantId: string, plan: PlanKey): Promise<Done> {
-  if (!SUBSCRIPTIONS_OFFERED) fail("Firsty hat keine Abos mehr. Du zahlst nur pro Buchung.");
+  if (!SUBSCRIPTIONS_OFFERED) fail("earlybird.eat hat keine Abos mehr. Du zahlst nur pro Buchung.");
   if (!SELLS_DIGITAL) fail("Abos werden im Restaurant-Portal auf der Website abgeschlossen.");
   if (REMOTE) {
     await openStripe(await call("subscribe", { restaurantId, plan }));
@@ -355,7 +355,7 @@ export async function subscribe(restaurantId: string, plan: PlanKey): Promise<Do
       periodEnd: new Date(Date.now() + (trial ? TRIAL_DAYS : 30) * 864e5).toISOString(),
     });
     if (!trial) {
-      d.payments.push(ledger({ kind: "SUBSCRIPTION", restaurantId, amountCents: gross(PLANS[plan].netCents), feeCents: gross(PLANS[plan].netCents), netCents: 0, description: `Firsty ${PLANS[plan].name}` }));
+      d.payments.push(ledger({ kind: "SUBSCRIPTION", restaurantId, amountCents: gross(PLANS[plan].netCents), feeCents: gross(PLANS[plan].netCents), netCents: 0, description: `earlybird.eat ${PLANS[plan].name}` }));
     }
   });
   return { opened: false, message: "Abo abgeschlossen (Vorschau, keine echte Zahlung)." };

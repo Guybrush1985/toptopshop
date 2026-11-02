@@ -34,7 +34,7 @@ export function GuestPayments({ user }: { user: User }) {
         <p className="text-sm text-cream/60">
           Manche Restaurants schützen ihre Plätze gegen No-Shows, und mit niedrigem Zuverlässigkeitswert brauchst du eine Karte als
           Garantie. Belastet wird sie nur, wenn du nicht erscheinst ({euro(NO_SHOW_FEE_CENTS_PER_PERSON)} pro Person). Gespeichert wird die
-          Karte bei unserem Zahlungsdienstleister Stripe, nicht bei Firsty.
+          Karte bei unserem Zahlungsdienstleister Stripe, nicht bei earlybird.eat.
         </p>
         <div className="flex flex-wrap gap-2">
           <button
@@ -57,7 +57,7 @@ export function GuestPayments({ user }: { user: User }) {
       <div className="card">
         <h2 className="mb-3 font-display text-2xl uppercase tracking-wide text-cream">Belege</h2>
         {receipts.length === 0 ? (
-          <p className="text-sm text-cream/60">Noch keine Zahlungen über Firsty.</p>
+          <p className="text-sm text-cream/60">Noch keine Zahlungen über earlybird.eat.</p>
         ) : (
           <ul className="divide-y divide-white/10 text-sm" data-testid="receipts">
             {receipts.map((p) => (

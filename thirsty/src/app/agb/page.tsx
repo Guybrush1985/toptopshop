@@ -19,13 +19,13 @@ const eur = (cents: number) => (cents / 100).toLocaleString("de-DE", { style: "c
 export default function Agb() {
   return (
     <Legal title="AGB">
-      <p>Allgemeine Geschäftsbedingungen der TanMeOn GmbH, Deichstraße 8, 25826 Sankt Peter-Ording, für Firsty (Website und App). Stand: Oktober 2026.</p>
+      <p>Allgemeine Geschäftsbedingungen der TanMeOn GmbH, Deichstraße 8, 25826 Sankt Peter-Ording, für earlybird.eat (Website und App). Stand: Oktober 2026.</p>
 
-      <H2>1. Was Firsty ist</H2>
+      <H2>1. Was earlybird.eat ist</H2>
       <p>
-        Firsty vermittelt Plätze in Restaurants zu Zeiten, in denen sie wenig Gäste haben, und verbindet sie mit einem Vorteil (zum Beispiel
+        earlybird.eat vermittelt Plätze in Restaurants zu Zeiten, in denen sie wenig Gäste haben, und verbindet sie mit einem Vorteil (zum Beispiel
         ein Getränk oder Dessert gratis oder ein Rabatt). Den Bewirtungsvertrag schließt du direkt mit dem Restaurant. Für Speisen,
-        Getränke, Preise und Allergene ist das Restaurant verantwortlich. Firsty ist Vermittler und bei Zahlungen in der App
+        Getränke, Preise und Allergene ist das Restaurant verantwortlich. earlybird.eat ist Vermittler und bei Zahlungen in der App
         Zahlungsempfänger im Auftrag des Restaurants.
       </p>
 
@@ -44,10 +44,10 @@ export default function Agb() {
 
       <H2>4. No-Show-Gebühr</H2>
       <p>
-        Manche Angebote sind nur mit hinterlegter Karte buchbar. Das zeigt Firsty vor der Buchung deutlich an. Erscheinst du ohne Absage
+        Manche Angebote sind nur mit hinterlegter Karte buchbar. Das zeigt earlybird.eat vor der Buchung deutlich an. Erscheinst du ohne Absage
         nicht und meldet das Restaurant frühestens 15 Minuten nach Beginn einen No-Show, belasten wir deine Karte mit{" "}
         {eur(NO_SHOW_FEE_CENTS_PER_PERSON)} je gebuchter Person als pauschalen Ersatz für den freigehaltenen Platz. Dir bleibt der
-        Nachweis, dass kein oder ein geringerer Schaden entstanden ist. Ein Teil der Gebühr ist das Entgelt von Firsty, der Rest geht an
+        Nachweis, dass kein oder ein geringerer Schaden entstanden ist. Ein Teil der Gebühr ist das Entgelt von earlybird.eat, der Rest geht an
         das Restaurant. Warst du doch da oder hast rechtzeitig abgesagt, schreib innerhalb von 14 Tagen an{" "}
         <a className="underline" href="mailto:info@tanmeon.de">info@tanmeon.de</a>. Wir prüfen das mit dem Restaurant und erstatten die
         Gebühr, wenn sie zu Unrecht belastet wurde. Checkt das Restaurant dich nachträglich ein, wird sie automatisch erstattet.
@@ -55,24 +55,24 @@ export default function Agb() {
 
       <H2>5. Bezahlen in der App</H2>
       <p>
-        Bietet ein Restaurant die Zahlung in der App an, trägt es nach dem Essen den Betrag laut Kasse ein. Firsty zieht den gebuchten
+        Bietet ein Restaurant die Zahlung in der App an, trägt es nach dem Essen den Betrag laut Kasse ein. earlybird.eat zieht den gebuchten
         Rabatt ab und zeigt dir die Rechnung. Du zahlst über unseren Zahlungsdienstleister Stripe per Karte, Apple Pay oder Google Pay.
-        Mit der Zahlung an Firsty ist deine Schuld gegenüber dem Restaurant erfüllt. Trinkgeld ist freiwillig und geht vollständig an das
+        Mit der Zahlung an earlybird.eat ist deine Schuld gegenüber dem Restaurant erfüllt. Trinkgeld ist freiwillig und geht vollständig an das
         Restaurant. Die Rechnung im steuerlichen Sinn stellt das Restaurant aus. Du kannst auch wie gewohnt im Restaurant zahlen.
       </p>
 
       <H2>6. Bedingungen für Restaurants</H2>
       <p>
-        Restaurants sind Unternehmer. Für Zahlungen in der App eröffnen sie über Firsty ein Konto bei Stripe (Stripe Connect) und
+        Restaurants sind Unternehmer. Für Zahlungen in der App eröffnen sie über earlybird.eat ein Konto bei Stripe (Stripe Connect) und
         akzeptieren dabei den Stripe Connected Account Agreement. Auszahlungen erfolgen durch Stripe auf ihr Bankkonto.
       </p>
       <ul className="list-disc space-y-1 pl-5">
         <li>
-          Buchungsgebühr: {eur(BOOKING_FEE_NET_CENTS)} netto zuzüglich USt. für jede über Firsty gebuchte Reservierung, die wahrgenommen
+          Buchungsgebühr: {eur(BOOKING_FEE_NET_CENTS)} netto zuzüglich USt. für jede über earlybird.eat gebuchte Reservierung, die wahrgenommen
           wurde, unabhängig von Personenzahl und Umsatz. Als wahrgenommen gilt eine Buchung, die eingecheckt ist oder die das Restaurant
           nicht bis {BOOKING_FEE_NO_SHOW_HOURS} Stunden nach Ende des Angebots als nicht erschienen meldet. Stornierte Buchungen und No-Shows
           kosten nichts. Höchstens {eur(BOOKING_FEE_CAP_NET_CENTS)} netto pro Kalendermonat. Buchungen in den ersten {TRIAL_DAYS} Tagen ab
-          Anmeldung des Restaurants sind kostenlos. Es gibt keine Mindestlaufzeit. Firsty rechnet monatlich ab; die Rechnung ist innerhalb
+          Anmeldung des Restaurants sind kostenlos. Es gibt keine Mindestlaufzeit. earlybird.eat rechnet monatlich ab; die Rechnung ist innerhalb
           von 14 Tagen per Karte, SEPA-Lastschrift oder Überweisung zu zahlen.
         </li>
         <li>
@@ -89,7 +89,7 @@ export default function Agb() {
         </li>
       </ul>
       <p>
-        Firsty stellt über Buchungsgebühr, Werbung und Zahlungsgebühr Rechnungen aus, abrufbar im Portal unter „Abrechnung“. Rückerstattungen
+        earlybird.eat stellt über Buchungsgebühr, Werbung und Zahlungsgebühr Rechnungen aus, abrufbar im Portal unter „Abrechnung“. Rückerstattungen
         an Gäste gehen anteilig zulasten des Restaurants.
       </p>
 

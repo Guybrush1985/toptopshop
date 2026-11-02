@@ -1,4 +1,4 @@
-// Preise und Gebühren von Firsty. Eine Quelle für App (src/lib/payments.ts) und Server (Edge Functions).
+// Preise und Gebühren von earlybird.eat. Eine Quelle für App (src/lib/payments.ts) und Server (Edge Functions).
 // Alle Beträge in Cent. Werte nach dem Produktkonzept; zum Testen gedacht und jederzeit änderbar.
 // Wird ein Wert geändert, der auch in der Datenbank steht (NO_SHOW_FEE_CENTS_PER_PERSON, BASIC_GUEST_LIMIT),
 // muss er in supabase/schema.sql mitgeändert werden.
@@ -8,7 +8,7 @@ export const COMMISSION_PERCENT = 2;
 
 // ---------- Buchungsgebühr (Preismodell ab Start, Dezember 2026) ----------
 // Restaurants zahlen pro wahrgenommener Buchung einen festen Betrag, egal wie viele Personen und wie viel Umsatz.
-// Wer keine Gäste über Firsty bekommt, zahlt nichts. Abgerechnet wird monatlich über Stripe (Rechnung, Karte oder SEPA).
+// Wer keine Gäste über earlybird.eat bekommt, zahlt nichts. Abgerechnet wird monatlich über Stripe (Rechnung, Karte oder SEPA).
 // Werte auch in supabase/schema.sql (booking_fee_month) ändern.
 
 /** Gebühr pro wahrgenommener Buchung, netto. */
@@ -18,15 +18,15 @@ export const BOOKING_FEE_CAP_NET_CENTS = 9900;
 /** Eine Buchung zählt als wahrgenommen, wenn sie eingecheckt ist oder das Restaurant sie bis so viele Stunden nach Ende
  *  des Zeitfensters nicht als No-Show gemeldet hat. */
 export const BOOKING_FEE_NO_SHOW_HOURS = 24;
-/** Ab diesem Tag (Start von Firsty) fallen Buchungsgebühren an. */
+/** Ab diesem Tag (Start von earlybird.eat) fallen Buchungsgebühren an. */
 export const BOOKING_FEES_START = "2026-12-01";
 
 /** No-Show-Gebühr pro Person, wenn eine Karte hinterlegt war. */
 export const NO_SHOW_FEE_CENTS_PER_PERSON = 1000;
-/** Anteil von Firsty an der No-Show-Gebühr; der Rest geht an das Restaurant. */
+/** Anteil von earlybird.eat an der No-Show-Gebühr; der Rest geht an das Restaurant. */
 export const NO_SHOW_PLATFORM_PERCENT = 30;
 
-/** Umsatzsteuer auf Firsty-Leistungen an Restaurants (Buchungsgebühr, Werbung, Gebühren). */
+/** Umsatzsteuer auf earlybird.eat-Leistungen an Restaurants (Buchungsgebühr, Werbung, Gebühren). */
 export const VAT_PERCENT = 19;
 
 // ---------- Abos (Basic/Pro): zum Start nicht im Angebot ----------
@@ -64,13 +64,13 @@ export const TIP_OPTIONS = [0, 5, 10, 15] as const;
 export const gross = (netCents: number) => Math.round((netCents * (100 + VAT_PERCENT)) / 100);
 export const vatOfGross = (grossCents: number) => grossCents - Math.round((grossCents * 100) / (100 + VAT_PERCENT));
 
-/** Rechnung: Summe laut Kasse vor Firsty-Rabatt → Rabatt, zu zahlender Betrag. */
+/** Rechnung: Summe laut Kasse vor earlybird.eat-Rabatt → Rabatt, zu zahlender Betrag. */
 export function billAmounts(subtotalCents: number, discountPercent: number) {
   const discountCents = Math.round((subtotalCents * discountPercent) / 100);
   return { discountCents, amountCents: subtotalCents - discountCents };
 }
 
-/** Provision von Firsty auf einen in der App bezahlten Betrag (Trinkgeld bleibt provisionsfrei). */
+/** Provision von earlybird.eat auf einen in der App bezahlten Betrag (Trinkgeld bleibt provisionsfrei). */
 export const commissionOf = (amountCents: number) => Math.round((amountCents * COMMISSION_PERCENT) / 100);
 
 export const tipOf = (amountCents: number, tipPercent: number) => Math.round((amountCents * tipPercent) / 100);

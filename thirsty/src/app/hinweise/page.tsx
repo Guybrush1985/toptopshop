@@ -12,7 +12,7 @@ export default function Hinweise() {
   return (
     <Legal title="Hinweise zur Vorschau">
       <p>
-        Firsty ist eine Plattform, auf der Restaurants Plätze für die erste Stunde nach Öffnung mit Rabatt ausschreiben, damit die
+        earlybird.eat ist eine Plattform, auf der Restaurants Plätze für die erste Stunde nach Öffnung mit Rabatt ausschreiben, damit die
         Tische früh am Abend voll sind. Gäste buchen, zeigen im Restaurant einen QR-Code und bezahlen in der App oder vor Ort.
       </p>
       <H2>Was die Vorschau ist</H2>
@@ -31,7 +31,7 @@ export default function Hinweise() {
       </ol>
       <H2>Für Restaurants</H2>
       <p>
-        Interesse am Start in deiner Stadt? Schreib an <a className="underline" href="mailto:info@tanmeon.de?subject=Firsty">info@tanmeon.de</a>.
+        Interesse am Start in deiner Stadt? Schreib an <a className="underline" href="mailto:info@tanmeon.de?subject=earlybird.eat">info@tanmeon.de</a>.
       </p>
       <H2>Vorschau zurücksetzen</H2>
       <p>Löscht alle Daten dieser Vorschau in deinem Browser und lädt die Beispiele neu.</p>
@@ -55,7 +55,7 @@ function LiveHints() {
   return (
     <Legal title="Hinweise zur Testphase">
       <p>
-        Firsty ist eine Plattform, auf der Restaurants Plätze für die erste Stunde nach Öffnung mit Rabatt ausschreiben, damit die
+        earlybird.eat ist eine Plattform, auf der Restaurants Plätze für die erste Stunde nach Öffnung mit Rabatt ausschreiben, damit die
         Tische früh am Abend voll sind. Gäste buchen, zeigen im Restaurant einen QR-Code und bezahlen in der App oder vor Ort.
       </p>
       <H2>Was die Testphase bedeutet</H2>
@@ -74,7 +74,7 @@ function LiveHints() {
       </ol>
       <H2>Für Restaurants</H2>
       <p>
-        Interesse am Start in deiner Stadt? Schreib an <a className="underline" href="mailto:info@tanmeon.de?subject=Firsty">info@tanmeon.de</a>.
+        Interesse am Start in deiner Stadt? Schreib an <a className="underline" href="mailto:info@tanmeon.de?subject=earlybird.eat">info@tanmeon.de</a>.
       </p>
     </Legal>
   );

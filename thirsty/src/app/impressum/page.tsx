@@ -20,7 +20,7 @@ export default function Impressum() {
         <>
           <H2>Hinweis zur Testphase</H2>
           <p>
-            Firsty befindet sich in einer Testphase. Solange Zahlungen nicht freigeschaltet sind, wird im Restaurant bezahlt. Zahlungen
+            earlybird.eat befindet sich in einer Testphase. Solange Zahlungen nicht freigeschaltet sind, wird im Restaurant bezahlt. Zahlungen
             in der App wickelt die Stripe Payments Europe Ltd. ab; es gelten unsere <Link href="/agb/" className="underline">AGB</Link>.
             Die als „Beispiel“ gekennzeichneten Restaurants und Angebote sind fiktiv. Details in den{" "}
             <Link href="/hinweise/" className="underline">Hinweisen zur Testphase</Link>.
@@ -30,7 +30,7 @@ export default function Impressum() {
         <>
           <H2>Hinweis zur Vorschau</H2>
           <p>
-            Firsty befindet sich in einer Vorschau-Phase. Über diese Website werden keine Verträge geschlossen, keine Reservierungen an
+            earlybird.eat befindet sich in einer Vorschau-Phase. Über diese Website werden keine Verträge geschlossen, keine Reservierungen an
             Restaurants übermittelt und keine Zahlungen abgewickelt. Die als „Beispiel“ gekennzeichneten Restaurants und Angebote sind
             fiktiv. Details in den <Link href="/hinweise/" className="underline">Hinweisen zur Vorschau</Link>.
           </p>

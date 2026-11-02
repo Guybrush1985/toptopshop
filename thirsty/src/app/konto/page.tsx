@@ -50,7 +50,7 @@ function Konto() {
 
       <section className="card flex flex-wrap items-center gap-4 border-lime/30">
         <div className="flex-1">
-          <p className="text-sm text-cream/60">Schon gespart mit Firsty</p>
+          <p className="text-sm text-cream/60">Schon gespart mit earlybird.eat</p>
           <p className="display text-6xl text-lime" data-testid="saved">{euro(savedCents)}</p>
           <p className="text-xs text-cream/50">Geschätzt aus {visits.length} {visits.length === 1 ? "Besuch" : "Besuchen"}: Rabatt auf einen typischen Hauptgang je Person (laut Preisniveau, höchstens bis zum Rabatt-Limit), Gratis-Getränk 4 €, Gratis-Dessert 7 €.</p>
         </div>

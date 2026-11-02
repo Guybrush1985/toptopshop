@@ -205,6 +205,10 @@ Mindestumfang je Kategorie: **≥ 1.000 Wörter** (nicht künstlich auffüllen),
   `src/static/firsty/`. Live mit Supabase (`thirsty/.env.production`). Design: dunkel, laut (Anton, Lime/Orange/Pink),
   Stadtkarte mit Angebots-Pins. Angebotsarten: Gratis-Getränk, Gratis-Dessert, 25/50/75 % auf alles. Beispiel-Restaurants
   in Hamburg, Berlin, Bremen, München, Köln, Frankfurt, Düsseldorf, Stuttgart und Leipzig.
+- 2026-11-02: Firsty heißt jetzt **earlybird.eat** (Rosi), immer klein geschrieben, Logo „earlybird●eat“ mit Lime-Punkt.
+  Umbenannt sind sichtbare Texte, Metadaten, App-Name, Icon („e.“) und Splash. Technische Kennungen bleiben vorerst `firsty`:
+  Subdomain firsty.toptop.shop, Ordner `src/static/firsty-site/`, App-ID `de.tanmeon.firsty`, Link-Schema `firsty://`,
+  Secrets `FIRSTY_*`, Supabase-Projekt „Firsty.app“. `.eat` ist keine frei registrierbare Domainendung.
 - 2026-10-16: MyShotCoach (Rosi): **erst nur Tennis**, andere Sportarten später. Preise „ab 9 € pro Einschätzung“
   (C 9 €, B 19 €, A 29 €). Ex-Profis als eigene Stufe P, nur über „Coach selbst wählen“ buchbar, vorläufig 49 €
   (Platzhalter, nicht von Rosi bestätigt). Hero: Handy auf Stativ filmt die Vorhand, Umgebung unscharf. Schlag-Icons
