@@ -34,13 +34,8 @@ export default function Discover() {
   const [selected, setSelected] = useState<string>();
   const jump = useRef(false);
   // Kartenkacheln erst nach einer Aktion laden (Stadtwahl oder Klick), nicht schon beim Aufruf eines geteilten Links
-  const [mapOk, setMapOk] = useState(() => {
-    try {
-      return sessionStorage.getItem("thirsty-map") === "1";
-    } catch {
-      return false;
-    }
-  });
+  // Die Deutschlandkarte erscheint direkt auf der Startseite (Wunsch von Rosi, 2.11.2026)
+  const [mapOk, setMapOk] = useState(true);
   const allowMap = () => {
     setMapOk(true);
     try {
@@ -70,7 +65,7 @@ export default function Discover() {
   }, [s, deals]);
 
   const owner = isRestaurantAccount(s, user);
-  const region = owner ? "" : near && here ? "near" : city ? "city" : "";
+  const region = owner ? "" : near && here ? "near" : city ? "city" : "all";
   // Reihenfolge: bis zu zwei Anzeigen (gekennzeichnet) zuerst, dann nach Entfernung bzw. Uhrzeit
   const inCity = useMemo(() => {
     const all = (region === "near"
@@ -79,6 +74,7 @@ export default function Discover() {
           .map((d) => ({ ...d, km: km(here!, { lat: d.r.lat!, lng: d.r.lng! }) }))
           .filter((d) => d.km <= radius)
           .sort((a, b) => a.km - b.km)
+      : region === "all" ? deals
       : deals.filter((d) => d.r.city === city)) as (Deal & { km?: number })[];
     const ads = all.filter((d) => d.ad).slice(0, SPONSOR_MAX_PER_CITY);
     return [...ads, ...all.filter((d) => !ads.includes(d)).map((d) => ({ ...d, ad: false }))];
@@ -196,7 +192,7 @@ export default function Discover() {
               ))}
             </div>
             <p className="mt-4 max-w-md text-xs text-cream/40">
-              Dein Standort wird nur in deinem Browser verwendet und nicht gespeichert. Mit der Stadtwahl lädt die Karte Kacheln von OpenStreetMap; dabei wird deine IP-Adresse übertragen.{" "}
+              Dein Standort wird nur in deinem Browser verwendet und nicht gespeichert. Die Karte lädt Kacheln von OpenStreetMap; dabei wird deine IP-Adresse übertragen.{" "}
               <Link href="/datenschutz/" className="underline">Datenschutz</Link>
             </p>
           </div>
@@ -219,7 +215,7 @@ export default function Discover() {
         <section id="karte" className="mx-auto flex h-[calc(100svh-4.5rem)] min-h-[520px] max-w-6xl scroll-mt-[4.5rem] flex-col px-5 pb-4 pt-4">
           <div className="flex flex-wrap items-end justify-between gap-x-4 gap-y-1">
             <h2 className="display text-5xl text-cream sm:text-7xl">
-              {region === "near" ? <>In deiner Nähe</> : city}<span className="text-lime">.</span>
+              {region === "near" ? <>In deiner Nähe</> : region === "all" ? <>Alle Spots</> : city}<span className="text-lime">.</span>
             </h2>
             <p className="text-sm text-cream/70">
               <span className="font-display text-2xl text-lime">{inCity.length}</span>{" "}
@@ -230,7 +226,7 @@ export default function Discover() {
 
           <div className="relative mt-3 min-h-0 flex-1 overflow-hidden rounded-[2rem] border border-white/10 shadow-[0_40px_120px_-40px_rgba(212,255,58,.25)]">
             {mapOk ? (
-              <CityMap pins={pins} selected={selected} onSelect={setSelected} me={region === "near" && here ? { ...here, radiusKm: radius } : undefined} />
+              <CityMap pins={pins} selected={selected} onSelect={setSelected} overview={region === "all"} me={region === "near" && here ? { ...here, radiusKm: radius } : undefined} />
             ) : (
               <div className="grid h-full place-items-center bg-ink-2 p-6 text-center">
                 <div>
