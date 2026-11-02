@@ -8,16 +8,16 @@ export type MapPin = { id: string; lat: number; lng: number; label: string; tone
 
 /**
  * Stadtkarte mit Angebots-Pins (Leaflet + OpenStreetMap-Kacheln).
- * Wird erst gerendert, wenn jemand eine Stadt gewählt hat; erst dann lädt der Browser Kacheln von OpenStreetMap.
+ * Auf der Startseite als Deutschlandkarte mit allen Spots, nach Stadtwahl oder Standort gezoomt.
  */
-export function CityMap({ pins, selected, onSelect, me }: { pins: MapPin[]; selected?: string; onSelect: (id: string) => void; me?: { lat: number; lng: number; radiusKm: number } }) {
+export function CityMap({ pins, selected, onSelect, me, overview }: { pins: MapPin[]; selected?: string; onSelect: (id: string) => void; overview?: boolean; me?: { lat: number; lng: number; radiusKm: number } }) {
   const box = useRef<HTMLDivElement>(null);
   const map = useRef<L.Map | null>(null);
   const layer = useRef<L.LayerGroup | null>(null);
   const lib = useRef<typeof L | null>(null);
   const select = useRef(onSelect);
   select.current = onSelect;
-  const key = pins.map((p) => p.id).join(",") + (me ? `|${me.lat},${me.lng},${me.radiusKm}` : "");
+  const key = (overview ? "de|" : "") + pins.map((p) => p.id).join(",") + (me ? `|${me.lat},${me.lng},${me.radiusKm}` : "");
 
   // Karte einmal anlegen
   useEffect(() => {
@@ -53,6 +53,11 @@ export function CityMap({ pins, selected, onSelect, me }: { pins: MapPin[]; sele
   function fit() {
     const m = map.current, Lf = lib.current;
     if (!m || !Lf) return;
+    if (overview) {
+      // Ganz Deutschland zeigen, unabhängig davon, wo gerade Angebote sind
+      m.fitBounds([[47.27, 5.87], [55.06, 15.04]], { padding: [10, 10] });
+      return;
+    }
     if (me) {
       m.fitBounds(Lf.latLng(me.lat, me.lng).toBounds(me.radiusKm * 2000), { padding: [30, 30] });
       return;
