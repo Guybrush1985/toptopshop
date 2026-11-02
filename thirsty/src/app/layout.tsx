@@ -5,7 +5,7 @@ import { APP } from "@/lib/config";
 import { SPA_FALLBACK_SCRIPT } from "@/lib/native";
 
 export const metadata: Metadata = {
-  title: { default: "Firsty – Sei der erste Gast", template: "%s · Firsty" },
+  title: { default: "earlybird.eat – Sei der erste Gast", template: "%s · earlybird.eat" },
   description: "Early-Bird-Plätze in Restaurants: zur Öffnung buchen, 50 % sparen, Getränk aufs Haus. Vorschau.",
   robots: { index: false, follow: false },
   icons: { icon: `${process.env.NEXT_PUBLIC_ASSET_PREFIX ?? ""}/favicon.svg` },

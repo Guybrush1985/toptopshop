@@ -7,7 +7,7 @@ import { BILL_STATUS_LABEL, billAmounts, billOf, cancelBill, commissionOf, creat
 import { Notice, useAction } from "../ui";
 
 /**
- * Restaurant: Rechnung für einen eingecheckten Gast. Eingetragen wird die Summe laut Kasse vor dem Firsty-Rabatt;
+ * Restaurant: Rechnung für einen eingecheckten Gast. Eingetragen wird die Summe laut Kasse vor dem earlybird.eat-Rabatt;
  * der Gast sieht sie sofort in seiner App und kann dort bezahlen. Zahlt er vor Ort, schließt das Team sie hier.
  */
 export function BillForm({ booking, compact }: { booking: Booking; compact?: boolean }) {
@@ -51,7 +51,7 @@ export function BillForm({ booking, compact }: { booking: Booking; compact?: boo
           }}
         >
           <label className="block text-sm">
-            <span className="label">Summe laut Kasse vor Firsty-Rabatt</span>
+            <span className="label">Summe laut Kasse vor earlybird.eat-Rabatt</span>
             <div className="flex gap-2">
               <input className="input" inputMode="decimal" placeholder="z. B. 46,50" value={value} onChange={(e) => setValue(e.target.value)} required aria-label="Summe laut Kasse" />
               <button className="btn" disabled={busy}>{bill ? "Ändern" : "Senden"}</button>
@@ -60,7 +60,7 @@ export function BillForm({ booking, compact }: { booking: Booking; compact?: boo
           {preview && (
             <p className="text-xs text-cream/60">
               {spot.discountPercent > 0 ? <>−{spot.discountPercent} % = <strong className="text-cream">{euro(preview.amountCents)}</strong> für den Gast. </> : <>Gratis-Beigabe nicht mitberechnen. </>}
-              {accepts && <>Zahlt der Gast in der App, behält Firsty {euro(commissionOf(preview.amountCents))} Zahlungsgebühr; Trinkgeld geht ganz an euch.</>}
+              {accepts && <>Zahlt der Gast in der App, behält earlybird.eat {euro(commissionOf(preview.amountCents))} Zahlungsgebühr; Trinkgeld geht ganz an euch.</>}
             </p>
           )}
         </form>

@@ -20,7 +20,7 @@ export default function FuerRestaurants() {
             Volle Tische<br />ab der <span className="text-lime">ersten</span> Minute.
           </h1>
           <p className="mt-6 max-w-2xl font-serif text-2xl italic text-cream/80 sm:text-3xl">
-            Belohne die ersten Gäste nach Öffnung mit einem Rabatt oder einem Gratis-Getränk. Firsty bringt sie zu dir, wenn sonst noch nichts los ist.
+            Belohne die ersten Gäste nach Öffnung mit einem Rabatt oder einem Gratis-Getränk. earlybird.eat bringt sie zu dir, wenn sonst noch nichts los ist.
           </p>
           <div className="mt-8 flex flex-wrap items-center gap-4">
             <Link href={SIGNUP} className="btn px-8 py-4 text-xl">Restaurant anmelden</Link>
@@ -48,7 +48,7 @@ export default function FuerRestaurants() {
         </figure>
         <p className="mt-6 max-w-3xl font-serif text-2xl italic text-cream/85 sm:text-3xl">
           Instinktiv zieht es uns nach rechts: Wo schon Gäste sitzen, muss es gut sein, und als Erster ein leeres Restaurant zu betreten,
-          ist eine echte Hürde. Firsty nimmt diese Hürde den ersten Gästen ab, und dann füllt sich dein Restaurant von selbst.
+          ist eine echte Hürde. earlybird.eat nimmt diese Hürde den ersten Gästen ab, und dann füllt sich dein Restaurant von selbst.
         </p>
         <p className="mt-3 text-xs text-cream/45">
           Bekannt als Social Proof bzw. Herdenverhalten: Cialdini, „Influence“ (1984); Banerjee, Quarterly Journal of Economics (1992);

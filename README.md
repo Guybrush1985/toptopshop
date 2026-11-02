@@ -34,7 +34,7 @@ src/static/ogsm/              OGSM-Plattform als Demo unter /ogsm/, passwortgesc
 src/static/vibe/              I'm Feeling It unter /vibe/ (Quellcode: github.com/Guybrush1985/vibe, `npm run toptop` exportiert hierher)
 werbunglohntsich/app/         Werbung lohnt sich (offline, nur lokal; Daten: supabase/werbunglohntsich/)
 src/static/wobistdu/          Wo bist du? unter /wobistdu/ (Vanilla-JS, Daten: supabase/wobistdu/)
-thirsty/                      Quellcode von Firsty (Next.js); `npm run site` exportiert nach src/static/firsty/ → /firsty/
+thirsty/                      Quellcode von earlybird.eat (Next.js); `npm run site` exportiert nach src/static/firsty-site/ → firsty.toptop.shop
 ```
 
 ## Lokal

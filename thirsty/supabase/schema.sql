@@ -900,7 +900,7 @@ create table if not exists public.payments (
   bill_id uuid references public.bills (id) on delete set null,
   sponsorship_id uuid references public.sponsorships (id) on delete set null,
   amount_cents int not null,          -- vom Zahler bezahlt (brutto), bei Erstattungen negativ
-  fee_cents int not null default 0,   -- Anteil Firsty (brutto)
+  fee_cents int not null default 0,   -- Anteil earlybird.eat (brutto)
   net_cents int not null default 0,   -- an das Restaurant ausgezahlt
   tip_cents int not null default 0,   -- darin enthaltenes Trinkgeld (geht vollständig ans Restaurant)
   currency text not null default 'eur',
@@ -1018,7 +1018,7 @@ language sql stable security definer set search_path = public as $$
   from public.restaurants r where r.status = 'ACTIVE';
 $$;
 
--- Restaurant erstellt nach dem Check-in die Rechnung: Summe laut Kasse vor dem Firsty-Rabatt.
+-- Restaurant erstellt nach dem Check-in die Rechnung: Summe laut Kasse vor dem earlybird.eat-Rabatt.
 -- Der Rabatt kommt aus dem gebuchten Angebot (25/50/75 %; bei Gratis-Getränk/-Dessert 0 %, die Beigabe steht nicht auf der Rechnung).
 -- Eine offene Rechnung kann korrigiert werden, solange sie nicht bezahlt ist.
 create or replace function public.create_bill(p_booking uuid, p_subtotal_cents int, p_note text default null)

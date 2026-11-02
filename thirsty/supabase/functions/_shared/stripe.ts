@@ -17,7 +17,7 @@ export function stripe(): Stripe {
   return client;
 }
 
-/** Steuersatz 19 % USt. für Firsty-Leistungen an Restaurants; wird einmal angelegt und dann wiederverwendet. */
+/** Steuersatz 19 % USt. für earlybird.eat-Leistungen an Restaurants; wird einmal angelegt und dann wiederverwendet. */
 export async function vatRate(): Promise<string> {
   const s = stripe();
   const list = await s.taxRates.list({ active: true, limit: 100 });
@@ -37,7 +37,7 @@ export async function portalConfiguration(): Promise<string> {
   const found = list.data.find((c) => c.metadata?.firsty === "abo");
   if (found) return found.id;
   const c = await s.billingPortal.configurations.create({
-    business_profile: { headline: "Firsty – Abo deines Restaurants" },
+    business_profile: { headline: "earlybird.eat – Abo deines Restaurants" },
     features: {
       invoice_history: { enabled: true },
       payment_method_update: { enabled: true },

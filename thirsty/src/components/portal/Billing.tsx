@@ -76,7 +76,7 @@ export function Billing({ restaurantId: id, role }: TabProps) {
         <p className="text-sm text-cream/70">
           Damit Gäste ihre Rechnung in der App zahlen können und No-Show-Gebühren bei dir ankommen, braucht dein Restaurant ein
           Auszahlungskonto bei unserem Zahlungspartner Stripe. Stripe prüft dabei Firma, Inhaber und Bankverbindung (gesetzlich
-          vorgeschrieben). Auszahlungen kommen wöchentlich montags auf dein Konto. Firsty behält {COMMISSION_PERCENT} % Zahlungsgebühr auf in der
+          vorgeschrieben). Auszahlungen kommen wöchentlich montags auf dein Konto. earlybird.eat behält {COMMISSION_PERCENT} % Zahlungsgebühr auf in der
           App bezahlte Rechnungen (deckt die Kartengebühren) und {NO_SHOW_PLATFORM_PERCENT} % der No-Show-Gebühren; Trinkgeld geht vollständig an euch.
         </p>
         {owner ? (
@@ -196,7 +196,7 @@ export function Billing({ restaurantId: id, role }: TabProps) {
         <div className="grid gap-3 sm:grid-cols-4" data-testid="totals">
           <Stat label="In der App bezahlt" value={euro(t.appRevenue)} sub={t.tips ? `davon ${euro(t.tips)} Trinkgeld` : undefined} />
           <Stat label="No-Show-Gebühren für euch" value={euro(t.noShowNet)} />
-          <Stat label="Firsty-Gebühren" value={euro(t.platformFees)} sub={`${euro(t.commission)} Zahlungsgebühr, ${euro(t.noShowFee)} No-Show-Anteil`} />
+          <Stat label="earlybird.eat-Gebühren" value={euro(t.platformFees)} sub={`${euro(t.commission)} Zahlungsgebühr, ${euro(t.noShowFee)} No-Show-Anteil`} />
           <Stat label="Auszahlung an euch" value={euro(t.payout)} strong />
         </div>
         {onSite.length > 0 && (
@@ -205,12 +205,12 @@ export function Billing({ restaurantId: id, role }: TabProps) {
           </p>
         )}
         {rows.length === 0 ? (
-          <p className="card text-sm text-cream/60">In diesem Monat gab es keine Zahlungen über Firsty.</p>
+          <p className="card text-sm text-cream/60">In diesem Monat gab es keine Zahlungen über earlybird.eat.</p>
         ) : (
           <div className="overflow-x-auto rounded-2xl border border-white/10">
             <table className="w-full text-sm" data-testid="ledger">
               <thead className="bg-white/5 text-left text-cream/60">
-                <tr><th className="p-2">Datum</th><th className="p-2">Art</th><th className="p-2">Beschreibung</th><th className="p-2 text-right">Betrag</th><th className="p-2 text-right">Firsty</th><th className="p-2 text-right">An euch</th><th className="p-2"></th></tr>
+                <tr><th className="p-2">Datum</th><th className="p-2">Art</th><th className="p-2">Beschreibung</th><th className="p-2 text-right">Betrag</th><th className="p-2 text-right">earlybird.eat</th><th className="p-2 text-right">An euch</th><th className="p-2"></th></tr>
               </thead>
               <tbody className="divide-y divide-white/5">
                 {rows.map((p) => {
@@ -236,7 +236,7 @@ export function Billing({ restaurantId: id, role }: TabProps) {
           <button className="btn-secondary" onClick={() => exportCsv(r.name, month, rows)}>Als CSV exportieren</button>
         </div>
         <p className="text-xs text-cream/50">
-          Buchungsgebühr und Werbeplätze stellt Firsty mit eigener Rechnung (Link in der Tabelle). Zahlungsgebühr und No-Show-Anteil weist
+          Buchungsgebühr und Werbeplätze stellt earlybird.eat mit eigener Rechnung (Link in der Tabelle). Zahlungsgebühr und No-Show-Anteil weist
           die Monatsabrechnung aus. Einzelne Zahlungen und Auszahlungen siehst du auch im Stripe-Dashboard.
         </p>
       </section>
@@ -280,7 +280,7 @@ function SponsorForm({ restaurantId, onDone }: { restaurantId: string; onDone: (
 }
 
 async function exportCsv(name: string, month: string, rows: Payment[]) {
-  const head = ["Datum", "Art", "Beschreibung", "Betrag", "Firsty", "An Restaurant", "Trinkgeld", "Status", "Stripe-Referenz"];
+  const head = ["Datum", "Art", "Beschreibung", "Betrag", "earlybird.eat", "An Restaurant", "Trinkgeld", "Status", "Stripe-Referenz"];
   const cell = (v: string) => `"${v.replace(/"/g, '""')}"`;
   const money = (c: number) => (c / 100).toFixed(2).replace(".", ",");
   const lines = [head, ...rows.map((p) => [
@@ -288,7 +288,7 @@ async function exportCsv(name: string, month: string, rows: Payment[]) {
     money(p.netCents), money(p.tipCents), p.status, p.id,
   ])].map((l) => l.map((v) => cell(String(v))).join(";"));
   const csv = "﻿" + lines.join("\r\n");
-  const file = `Firsty-${name.replace(/[^\wäöüÄÖÜß-]+/g, "-")}-${month}.csv`;
+  const file = `earlybird.eat-${name.replace(/[^\wäöüÄÖÜß-]+/g, "-")}-${month}.csv`;
   if (APP) {
     const { Share } = await import("@capacitor/share");
     await Share.share({ title: file, text: csv, dialogTitle: "Abrechnung teilen" });

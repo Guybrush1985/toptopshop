@@ -21,7 +21,7 @@ RedirectMatch 302 ^/vibe(/.*)?$ /vibe-v2/
 # Werbung lohnt sich ist offline (läuft nur noch lokal, siehe werbunglohntsich/README.md)
 RedirectMatch 302 ^/werbunglohntsich(/.*)?$ /
 
-# Firsty läuft auf der eigenen Subdomain firsty.toptop.shop (Dateien in /firsty-site/)
+# earlybird.eat (ehemals Firsty) läuft auf der eigenen Subdomain firsty.toptop.shop (Dateien in /firsty-site/)
 RewriteEngine On
 RewriteCond %{HTTP_HOST} ^firsty\.toptop\.shop$ [NC]
 RewriteCond %{REQUEST_URI} !^/firsty-site/

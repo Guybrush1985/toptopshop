@@ -7,7 +7,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>de</string>
 	<key>CFBundleDisplayName</key>
-        <string>Firsty</string>
+        <string>earlybird.eat</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -36,7 +36,7 @@
 	<key>ITSAppUsesNonExemptEncryption</key>
 	<false/>
 	<key>NSCameraUsageDescription</key>
-	<string>Firsty nutzt die Kamera nur, um im Restaurant den QR-Code von Gästen beim Check-in zu scannen. Bilder werden nicht gespeichert.</string>
+	<string>earlybird.eat nutzt die Kamera nur, um im Restaurant den QR-Code von Gästen beim Check-in zu scannen. Bilder werden nicht gespeichert.</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>UIApplicationSceneManifest</key>

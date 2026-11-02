@@ -19,7 +19,7 @@ export function BillCard({ booking }: { booking: Booking }) {
   if (!bill || bill.status === "CANCELLED") {
     return accepts ? (
       <p className="card text-sm text-cream/70">
-        Sobald das Restaurant deine Rechnung einträgt, erscheint sie hier und du kannst direkt in der App bezahlen. Der Firsty-Rabatt ist schon abgezogen.
+        Sobald das Restaurant deine Rechnung einträgt, erscheint sie hier und du kannst direkt in der App bezahlen. Der earlybird.eat-Rabatt ist schon abgezogen.
       </p>
     ) : null;
   }
@@ -41,7 +41,7 @@ export function BillCard({ booking }: { booking: Booking }) {
       <Notice error={error} success={info} />
       <div className="space-y-1.5 text-sm">
         <Row label="Summe laut Kasse" value={euro(bill.subtotalCents)} />
-        {bill.discountPercent > 0 && <Row label={`Firsty-Rabatt ${bill.discountPercent} %`} value={`−${euro(bill.discountCents)}`} />}
+        {bill.discountPercent > 0 && <Row label={`earlybird.eat-Rabatt ${bill.discountPercent} %`} value={`−${euro(bill.discountCents)}`} />}
         {bill.status === "OPEN" ? (
           <>
             <Row label="Zu zahlen" value={euro(bill.amountCents)} />

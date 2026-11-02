@@ -8,7 +8,7 @@ ErrorDocument 404 /firsty-site/404.html
 RewriteEngine On
 RewriteCond expr "!(%{HTTP:Authorization} =~ /^Basic\s+(\S+)$/ && unbase64($1) =~ /^[^:]*:(.+)$/ && sha1('firsty-site:$1') == '6781817c28fca2b362cb1cb3033e7e1b1e670dd3')"
 RewriteRule ^ - [R=401,L]
-Header always set WWW-Authenticate "Basic realm=\"Firsty\", charset=\"UTF-8\"" "expr=%{REQUEST_STATUS} == 401"
+Header always set WWW-Authenticate "Basic realm=\"earlybird.eat\", charset=\"UTF-8\"" "expr=%{REQUEST_STATUS} == 401"
 
 <IfModule mod_headers.c>
   Header set X-Robots-Tag "noindex, nofollow"

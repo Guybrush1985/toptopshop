@@ -7,4 +7,4 @@ const out = fileURLToPath(new URL("../out", import.meta.url));
 const target = fileURLToPath(new URL("../../src/static/firsty-site", import.meta.url));
 await rm(target, { recursive: true, force: true });
 await cp(out, target, { recursive: true });
-console.log("Firsty nach src/static/firsty-site/ kopiert.");
+console.log("earlybird.eat nach src/static/firsty-site/ kopiert.");

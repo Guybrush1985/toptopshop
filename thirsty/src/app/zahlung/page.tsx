@@ -67,7 +67,7 @@ export default function PaymentReturn() {
       <p className={`display text-6xl ${ok ? "text-lime" : "text-hot"}`}>{ok ? "Erledigt" : "Abgebrochen"}</p>
       <p className="text-lg text-cream/85" data-testid="payment-result">{msg}</p>
       {toApp ? (
-        <a href={appLink} className="btn w-full py-3 text-lg">Zurück zur Firsty-App</a>
+        <a href={appLink} className="btn w-full py-3 text-lg">Zurück zur earlybird.eat-App</a>
       ) : (
         <button className="btn w-full py-3 text-lg" onClick={() => router.replace(target)}>Weiter</button>
       )}

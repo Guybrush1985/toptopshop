@@ -1,10 +1,10 @@
-# Baut die Firsty-App für Android und iOS bei jeder Änderung in thirsty/.
+# Baut die earlybird.eat-App für Android und iOS bei jeder Änderung in thirsty/.
 # Ergebnis (unter "Artifacts" des Laufs):
 #   firsty-android-debug   – APK zum direkten Installieren auf Android-Testgeräten
 #   firsty-android-release – signiertes App Bundle (.aab) für Google Play, sobald die Keystore-Secrets gesetzt sind
 #   firsty-ios-simulator   – App für den iOS-Simulator (prüft, dass das Xcode-Projekt baut)
 # Die Store-Version für iOS wird in Xcode archiviert und hochgeladen, siehe thirsty/docs/STORES.md.
-name: "Firsty App"
+name: "earlybird.eat App"
 
 on:
   push:
